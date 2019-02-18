@@ -1,0 +1,1174 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"content-name"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"backgr",
+				"background-color: 〔property〕"
+			],
+			[
+				"back",
+				"back_hover"
+			],
+			[
+				"doct",
+				"DOCTYPE  (doctype)"
+			],
+			[
+				"doc",
+				"DOCTYPE  (doctype)"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"str",
+				"STRONG\tTag"
+			],
+			[
+				"mys",
+				"mysql_connect"
+			],
+			[
+				"mkt",
+				"mkt\tmkt"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"flo",
+				"overflow"
+			],
+			[
+				"font-f",
+				"font-family"
+			],
+			[
+				"mark",
+				"markdown2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 131.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jquery",
+				"Snippet: jQuery.sub"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"foot",
+				"Snippet: jQuery Mobile 1.4: Fixed footer"
+			],
+			[
+				"ar",
+				"Arithmetic"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"format",
+				"Format: Php"
+			],
+			[
+				"decode",
+				"Web encoder: Url decode selection"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimeserver",
+				"SublimeServer: Manage SublimeServer Settings"
+			],
+			[
+				"sublime",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"sublime server",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"disable pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"hex vi",
+				"Hex Viewer: Find By Address"
+			],
+			[
+				"live",
+				"Set Syntax: LiveScript"
+			],
+			[
+				"enablep",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"encode",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"encoder",
+				"StringEncode: Escape regex"
+			],
+			[
+				"de",
+				"StringEncode: Decimal to Hexadecimal"
+			],
+			[
+				"ascii",
+				"ASCII Decorator: Default Font"
+			],
+			[
+				"deco",
+				"StringEncode: Base64 Decode"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"decodie",
+				"Web encoder: Url encodeURI selection"
+			],
+			[
+				"reload",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"decoding",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"highlight",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"url",
+				"StringEncode: URL Decode"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"AppleScript: Toggle Binary"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"installl",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"browse ",
+				"Preferences: Browse Packages"
+			],
+			[
+				"open files",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"hex",
+				"Hex Viewer: Show Hex Edit Panel"
+			],
+			[
+				"encoding",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"disabla",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"magic",
+				"MarkdownEditing: Magic Footnotes Command"
+			],
+			[
+				"footnote",
+				"MarkdownEditing: Magic Footnotes Command"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"duplica",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"duplicat",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"dupli",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"dupl",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"du",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"footnot",
+				"MarkdownEditing: Magic Footnotes Command"
+			],
+			[
+				"duplicate",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"toggle hight",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"toggle ",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"print page",
+				"Package Control: Install Package"
+			],
+			[
+				"factus",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"duplicates",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"duplic",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Duplicat",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"insertdate",
+				"Preferences: InsertDate Settings - Default"
+			],
+			[
+				"Dupli",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"insert",
+				"InsertDate: Open README"
+			],
+			[
+				"Dupl",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"duplicati",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"remove ta",
+				"Emmet: Remove Tag"
+			],
+			[
+				"side bar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"ur",
+				"StringEncode: URL Encode"
+			],
+			[
+				"uri",
+				"Web encoder: Url encodeURI selection"
+			],
+			[
+				"highli",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"highligh",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"HIGHLIGHT",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"highlgih",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"sftp",
+				"Set Syntax: SFTP Output Panel"
+			],
+			[
+				"highlight duplicates",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"high",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"hight",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"highl",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"tag",
+				"Emmet: Remove Tag"
+			],
+			[
+				"hightlight",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"fold",
+				"BracketHighlighter: Fold Bracket Content"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"toggle",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"highlig",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"hightl",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove tag",
+				"Emmet: Remove Tag"
+			],
+			[
+				"theme",
+				"Sweyla's Color Theme Generator: Generate bright!"
+			],
+			[
+				"insert date",
+				"InsertDate: Default"
+			],
+			[
+				"ino",
+				"InsertDate: Open README"
+			],
+			[
+				"dla",
+				"SublimeCodeIntel: Disable Live Autocompletion"
+			],
+			[
+				"url de",
+				"StringEncode: URL Decode"
+			],
+			[
+				"toggl higght",
+				"Highlight Duplicates: Toggle highlighting"
+			],
+			[
+				"disablep",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"enco",
+				"Web encoder: HTML decode selection"
+			],
+			[
+				"decoder",
+				"Web encoder: Url encodeURI selection"
+			],
+			[
+				"decodi",
+				"Web encoder: HTML decode selection"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"ssmkd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssmk",
+				"Set Syntax: Makefile"
+			],
+			[
+				"enablepa",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"disabl",
+				"CursorRuler: Toggle Enabled/Disabled"
+			],
+			[
+				"cheat",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/cansmile/csde/eDeutsch"
+	],
+	"file_history":
+	[
+		"/D/cansmile/csde/eDeutsch/r1-B3.html",
+		"/D/cansmile/csde/eDeutsch/r1-B1.html",
+		"/D/cansmile/csde/eDeutsch/CodeIgniter/user_guide/_static/jquery-3.1.0.js",
+		"/D/cansmile/csde/eDeutsch/r0-Zuordnung.html",
+		"/D/cansmile/csde/eDeutsch/r0-Quiz.html",
+		"/d/cansmile/csde/eDeutsch/r1-A3.html",
+		"/d/cansmile/csde/eDeutsch/r1-A2.html",
+		"/d/cansmile/csde/eDeutsch/r0-Zuordnung.html",
+		"/d/cansmile/csde/eDeutsch/r0-Quiz.html",
+		"/D/cansmile/csde/eDeutsch/r1-A2.html",
+		"/D/cansmile/csde/eDeutsch/r1-A3.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/cansmile/csde/eDeutsch/css/bootstrap-grid.css",
+		"/D/cansmile/csde/eDeutsch/css/bootstrap.css",
+		"/D/cansmile/csde/eDeutsch/r0.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
+		"/D/cansmile/csde/eDeutsch/index.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/D/cansmile/csde/eDeutsch/Chrome.sublime-build",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/D/cansmile/csde/eDeutsch/CodeIgniter/readme.rst",
+		"/D/cansmile/csde/eDeutsch/r4.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
+		"/D/cansmile/GitHub/nagehts/css/_notes/dwsync.xml",
+		"/D/cansmile/csdn/Sublime Text Build 3176 x64/changelog.txt",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/D/cansmile/csde/eDeutsch/sftp-config.json",
+		"/D/cansmile/csde/eDeutsch/A sftp-config.json",
+		"/D/cansmile/csde/eDeutsch/Nagehts.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/cansmile/csde/eDeutsch/test.html",
+		"/C/sftp-config.json",
+		"/D/cansmile/csde/eDeutsch/Nagehts",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/insert_date.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/InsertDate/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/StatusBarTime.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Settings/License.sublime_license",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/sftp-config.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/cansmile/cswd/txt/2019021600001 롤(한국) 리폿.txt",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/EmmetOneLine/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/D/cansmile/csde/eDeutsch/r1-Uebungen.html",
+		"/D/cansmile/csde/eDeutsch/r1-Zahlen(0-10).html",
+		"/D/cansmile/csde/eDeutsch/r1-Wer ist Hyun Kim.html",
+		"/D/cansmile/csde/eDeutsch/js/bootstrap.js",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/bootstrap-4.3.1-dist/js/bootstrap.js",
+		"/D/cansmile/csde/eDeutsch/js/interactionjs.min.js",
+		"/D/cansmile/csde/eDeutsch/r0-Alphabet.html",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/New/js/taptogroup.js",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/New/css/nestable.css",
+		"/D/cansmile/csde/eDeutsch/js/taptogroup.js",
+		"/C/inetpub/php/php.ini",
+		"/C/Windows/my.ini",
+		"/C/inetpub/wwwroot/phpMyAdmin/config.inc.php",
+		"/C/ProgramData/MySQL/MySQL Server 5.7/my.ini",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/WINCACHE-2.0.0.8/config.w32",
+		"/D/cansmile/Dropbox/apps/Accordance/.dropbox.attr",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Sessions/GetTheDimensions  엘리세바를",
+		"/D/cansmile/Dropbox/apps/Accordance/User Notes/My Notes.amynotes",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/㉄潃楤杮氠杩瑡牵健ⵓ〴⼰䵆Tf",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/㬴À㭤Àlaces.apref",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/鷬»鸜»laces.apref",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/潃獮汯獡卐㐭〰䘯呍",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/慐慬楴潮䰠湩瑯灹健ⵓ〴⼰䵆Tf",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/My Places.apref",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/SEGOE UI",
+		"/D/cansmile/Dropbox/apps/Accordance/Stacks/㉄潃楤杮氠杩瑡牵健ⵓ〴⼰䵆Tk",
+		"/D/cansmile/Dropbox/apps/Accordance/Stacks/찐̯⩐͇tack.astack",
+		"/C/Windows/php.ini",
+		"/C/inetpub/php/php.ini-production",
+		"/C/Users/Administrator/AppData/Local/Microsoft/Windows/INetCache/IE/BY850VBW/r0[1].html",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/New/r0.html",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/kwons_uebung/eD_login.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960494/eDeutsch/kwons_uebung/eD_db.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960468/eDeutsch/kwons_uebung/eD_member.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960452/eDeutsch/kwons_uebung/eD_login.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960444/eDeutsch/kwons_uebung/eD_emailcheck.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960428/eDeutsch/kwons_uebung/eD_email_in_db_check.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960366/eDeutsch/kwons_uebung/eD_db.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/whoami.psp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549935797/eDeutsch/phpinfo.php",
+		"/C/AutoSet10/server/MySQL5/my.ini",
+		"/C/AutoSet10/server/conf/php.ini",
+		"/C/AutoSet10/server/MySQL5/wsrep.ini",
+		"/C/AutoSet10/solution/phpMyAdmin/config.inc.php",
+		"/C/AutoSet10/public_html/moodle/install/README.txt",
+		"/C/AutoSet10/solution/phpMyAdmin/setup/frames/config.inc.php",
+		"/D/cansmile/csde/eDeutsch/r1-A1.html",
+		"/D/cansmile/csde/eDeutsch/r1.html",
+		"/D/cansmile/csde/eDeutsch/Deutschland.html",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549857667/eDeutsch/New/r0.html",
+		"/C/Program Files (x86)/BibleWorks 9/userdb/nkr.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549708858/eDeutsch/eD/my_html/R1_B1_Wie heissen Sie.htm",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549704831/eDeutsch/eD/my_html/R1_A2_Ordnung.htm",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549605822/eDeutsch/eD/my_html/R0_2_ordnung.htm",
+		"/D/cansmile/csde/eDeutsch/r1-Guten Tag!.html",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Sessions/GetTheDimensions  25",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/cansmile/csde/eDeutsch/.metadata/version.ini",
+		"/D/cansmile/csde/eDeutsch/.settings/com.aptana.editor.common.prefs",
+		"/D/cansmile/csde/eDeutsch/.project",
+		"/C/AutoSet10/server/conf/extra/httpd-manual.conf",
+		"/C/AutoSet10/server/conf/httpd.conf",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/CleanCSS/CleanCSS.sublime-settings",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/javascript-if-else-example/index.html",
+		"/D/cansmile/Dropbox/for UplOad/2019020500004.png",
+		"/C/AutoSet10/public_html/test.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/SublimeServer.sublime-settings",
+		"/C/AutoSet10/public_html/r0-Quiz.html",
+		"/D/cansmile/csde/cshtml19-00002.html",
+		"/D/cansmile/csde/test.txt",
+		"/C/Users/Administrator/AppData/Roaming/Appcelerator/Aptana Studio/AptanaStudio3.ini",
+		"/C/Users/Administrator/AppData/Roaming/Appcelerator/Aptana Studio/configuration/config.ini",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Insert Nums/Default (Windows).sublime-keymap",
+		"/C/Program Files (x86)/BibleWorks 9/userdb/NKS.txt",
+		"/C/Program Files (x86)/BibleWorks 9/userdb/nkr2.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549005234/eDeutsch/whoami.psp",
+		"/D/cansmile/csde/eDeutsch/nestable.css",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/Mobile-Compatible-jQuery-Drag-Drop-Plugin-Nestable/nestable.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"<open folders>",
+			"d:\\cansmile\\csde\\eDeutsch\\",
+			"D:\\cansmile\\cswd\\markdown\\",
+			"c:\\Users\\Administrator\\AppData\\Roaming\\",
+			"D:\\cansmile\\cswd\\markdown\\",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"data",
+			"data-",
+			"pop",
+			"pop-over",
+			"obique",
+			"col-md-8",
+			"col-2",
+			"2",
+			"<div class=\"row id",
+			"<div class=\"rows\"",
+			"section",
+			"c",
+			"r1 B1",
+			"bg-light ",
+			"secondary",
+			"container",
+			"inverse",
+			"e",
+			"obique",
+			"py-2",
+			"py",
+			"________",
+			"btn",
+			"info",
+			"Ihr",
+			"strong",
+			"Ihr",
+			"ist",
+			"Wie",
+			"\\",
+			"obique",
+			"q",
+			"obique",
+			"ㅊ1",
+			"nav-item",
+			"navbar-nav",
+			"button",
+			"1",
+			"container",
+			"itm so",
+			"itm",
+			"btn btn-outline-primary my-2 btn-lg",
+			"rounded-circle",
+			"\"><h4>",
+			"$",
+			"Buchstabe",
+			", ",
+			". ",
+			"opcache.enable",
+			"opcache",
+			"opacache",
+			"port",
+			"ㅌㄴㅜㄱ",
+			";",
+			"path",
+			"'password",
+			"user",
+			"mysqli",
+			"\\",
+			"extension=",
+			"\n",
+			";",
+			"extension_dir",
+			", ",
+			"btn-sm",
+			"d-block ",
+			"max-",
+			"mx-1",
+			"png\" class=\"col-sm-12 col-md-12 col-lg-12 ttl\"",
+			"max-",
+			"150%",
+			"100%",
+			"my-4 ",
+			"border=\"0\" ",
+			"max-width: 100%",
+			"m-1\"",
+			"m-1",
+			"<img src=\"",
+			"col-sm-12 col-md-12 col-lg-12 m-1\" id=\"lst-",
+			"col-sm col-md col-lg ",
+			"-2",
+			"-10",
+			"allow",
+			"root",
+			"Buchstabe_p",
+			"#Buchstabe",
+			"hv",
+			"bust",
+			"올라가 ㅁ ㅂ",
+			"multi",
+			". ",
+			"col-sm",
+			" class=\"display-4\"",
+			"h1",
+			"h1 class=\"display-4\"",
+			"h2",
+			"h3",
+			"{\n\t\t\t\t\tsounds : ",
+			"[{",
+			"p-4",
+			"pt-4",
+			"class=\"d-block\"><br />",
+			" mt-3",
+			": 100%; height: auto;\" class=\"my-4 d-block",
+			" ",
+			"<div",
+			"-12",
+			"col-sm-12\" id=\"",
+			"id=\"q",
+			"btn ",
+			"#\n",
+			"#",
+			"div#itms>button.itm#",
+			"#",
+			"#\n",
+			"\"m\"",
+			"\"o\"",
+			"\"m\"",
+			"\"<3\"",
+			"\"o\"",
+			"\"m\"",
+			"btn-sm ",
+			"max-width: 240px;",
+			"240px",
+			"text-dark m-1",
+			"mx-4",
+			"mx-auto",
+			"100%"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"<div class=\"row\"",
+			"\\\\",
+			"so itm",
+			"itm so",
+			"btn btn-outline-primary my-2 btn-lg itm",
+			"rounded-circle itm",
+			"\" class=\"itm\"><h4>",
+			": [,],",
+			"0",
+			",",
+			"\n",
+			"/",
+			";",
+			"\n",
+			",",
+			"\n\n",
+			"\n",
+			"btn-xl",
+			"",
+			"my-4 mx-1",
+			"png\" class=\"ttl\"",
+			"",
+			"100%",
+			"100%\n",
+			"150%",
+			"",
+			"max-width: 100%; height: auto;",
+			"mx-1\"",
+			"mx-1",
+			"<img style=\"max-width: 100%\" src=\"",
+			"col-sm col-md col-lg m-1\" id=\"lst-",
+			"col-sm-12 col-md-12 col-lg-12 ",
+			"",
+			"-12",
+			"\n",
+			"col-xs col-sm",
+			"",
+			"h4",
+			"h3",
+			"h4",
+			"",
+			"{",
+			"pt-1",
+			"p-4",
+			"class=\"d-block\">",
+			"",
+			": 100%; height: auto;\" class=\"d-block",
+			"_",
+			"\n<div",
+			"",
+			"col-sm-12 q\" id=\"",
+			"id=\"",
+			"btn ans ",
+			"5",
+			"\"<3\"",
+			"\"m\"",
+			"\"o\"",
+			"\"m\"",
+			"\"<3\"",
+			"\"o\"",
+			"btn-sm btn-md btn-lg ",
+			"max-width: 100%;",
+			"100%",
+			"text-dark m-1 col-sm col-md col-lg",
+			"my-4",
+			"mx-4",
+			"240px",
+			"mx-auto d-block ttl",
+			"mx-auto d-block",
+			"",
+			" style=\"max-width: 100%; height: auto;\"",
+			"img-fluid",
+			"mx-1",
+			"",
+			" ",
+			"",
+			"width=\"100%\" ",
+			"my-4 mx-auto",
+			"A3-",
+			"my-4",
+			"col-sm col-md col-lg ttl\">",
+			"border=\"0\" class=\"mt-4 col-sm col-md col-lg\">",
+			"",
+			"border=\"0\" class=\"ttl col-sm col-md col-lg\"",
+			"itm-lst text-center text-dark ",
+			"border border-outline-dark",
+			".",
+			"dropdown-item",
+			"",
+			"bg-",
+			"mt-1 mx-1",
+			"240px",
+			"btn btn-sm",
+			"btn-sm ",
+			"btn-sm",
+			"",
+			"div",
+			"",
+			"data-toggle=\"popover\" data-container=\"body\" ",
+			"col-lg",
+			"col-md",
+			"",
+			"h6",
+			"span",
+			"badge-sm",
+			"badge badge-",
+			"h6",
+			"",
+			"my-",
+			"my",
+			"mb-",
+			"h3",
+			"d-inline",
+			"ttl mt-3 d-block-inline",
+			"",
+			"btn-sm",
+			"",
+			"넣기",
+			"btn-secondary",
+			"<h3 class=\"btn btn-outline-secondary here btn-xl d-block mt-3\">넣기",
+			"넣기",
+			"</h3></div>",
+			"dark",
+			"border rounded-top ",
+			"light",
+			"320px",
+			"240px",
+			"mt-1 btn "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 124.0
+	},
+	"output.markdown":
+	{
+		"height": 136.0
+	},
+	"output.sftp":
+	{
+		"height": 136.0
+	},
+	"pinned_build_system": "Packages/User/Chrome.sublime-build",
+	"project": "Nagehts.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"zuo",
+				"r0-Zuordnung.html"
+			],
+			[
+				"",
+				"David E. Aune, 김철, Word Biblical Commentary Volume"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\cansmile\\csde\\eDeutsch\\Nagehts.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

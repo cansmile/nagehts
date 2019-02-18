@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Competible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=.5">
+        <title>How do you think </title>
+        <!-- 스타일 링크 시작 -->
+        <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+        <!-- 스타일 링크 끝 -->
+    </head>
+    <body>
+        <!-- 아이템들 시작 -->
+        <div class="container">
+            <div class="row">
+                <div id="lst" style="min-height: 200px;" class="mb-4">
+                <h1 class="display-4">여기에서 고르세요.</h1>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="1">Fußball</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="2">Opa</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="3">Cola</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="4">Klassik</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="5">Tennis</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="6">Kaffee</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="7">Tschüs</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="8">Tag</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="9">Bier</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="10">Baby</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="11">Basketball</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="12">K-Popmusik</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="13">Mama</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="14">Tee</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="15">Hallo</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="16">Rap</button>
+                    <button type="button" class="mt-1 btn btn-outline-dark itm" id="17">Papa</button>
+                </div>
+            </div>
+        <!-- 아이템들 끝 -->
+        
+        <!-- 리스트 시작 -->
+            <div class="row">
+                <div style="min-height: 320px;" class="border rounded-top border-primary itm-lst col-sm col-md-2 col-lg-2 m-1" id="lst-1"><h2 class="btn btn-primary btn-xl d-block mt-3" disabled>인사 Begrüße</h2>&nbsp;<h3 class="btn btn-outline-dark here btn-xl d-block mt-3">넣기</h3></div>
+                <div style="min-height: 320px;" class="border rounded-top border-secondary itm-lst col-sm col-md-2 col-lg-2 m-1" id="lst-2"><h2 class="btn btn-secondary btn-xl d-block mt-3" disabled>스포츠 Sport</h2>&nbsp;<h3 class="btn btn-outline-dark here btn-xl d-block mt-3">넣기</h3></div>
+                <div style="min-height: 320px;" class="border rounded-top border-success itm-lst col-sm col-md-2 col-lg-2 m-1" id="lst-3"><h2 class="btn btn-success btn-xl d-block mt-3" disabled>음악 Musik</h2>&nbsp;<h3 class="btn btn-outline-dark here btn-xl d-block mt-3">넣기</h3></div>
+                <div style="min-height: 320px;" class="border rounded-top border-danger itm-lst col-sm col-md-2 col-lg-2 m-1" id="lst-4"><h2 class="btn btn-danger btn-xl d-block mt-3" disabled>음료 Getränke</h2>&nbsp;<h3 class="btn btn-outline-dark here btn-xl d-block mt-3">넣기</h3></div>
+                <div style="min-height: 320px;" class="border rounded-top border-warning itm-lst col-sm col-md-2 col-lg-2 m-1" id="lst-5"><h2 class="btn btn-warning btn-xl d-block mt-3" disabled>가족 Familie</h2>&nbsp;<h3 class="btn btn-outline-dark here btn-xl d-block mt-3">넣기</h3></div>
+            </div>
+        </div>
+        <!-- 리스트 끝 -->
+
+        <!-- 스크립트 시작 -->
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <script>
+        // 목록 선택하면 토글
+            $("div#lst>button").on("click", function () {
+                $(this).toggleClass("active");
+            });
+        
+        // 넣기 클릭하면 선택한 항목 넣기
+            $(".here").on("click", function () {
+                $(".active").insertBefore(this);
+                $("button.itm").removeClass("active");
+                $("div.itm-lst>button.itm").addClass("d-block");
+            });
+        
+        </script>
+        <!-- 스크립트 끝 -->
+    </body>
+</html>

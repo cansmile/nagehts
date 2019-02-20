@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"btn-outline-",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
 				"c",
 				"content-name"
 			],
@@ -83,6 +87,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "r1-F2.html",
+			"settings":
+			{
+				"buffer_size": 8476,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -96,12 +109,48 @@
 		"selected_items":
 		[
 			[
-				"jquery",
-				"Snippet: jQuery.sub"
+				"decode",
+				"StringEncode: URL Decode"
+			],
+			[
+				"bracketfind",
+				"BracketHighlighter: Find Matching Offscreen Bracket"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy html",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"formatter",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"html tidy",
+				"Formatter: Beautify With HTML Tidy"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"form html",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"fromm html",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"formatt",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery.sub"
 			],
 			[
 				"remove",
@@ -138,10 +187,6 @@
 			[
 				"format",
 				"Format: Php"
-			],
-			[
-				"decode",
-				"Web encoder: Url decode selection"
 			],
 			[
 				"emmet",
@@ -574,38 +619,6 @@
 			[
 				"Package Control: ena",
 				"Package Control: Enable Package"
-			],
-			[
-				"ssmkd",
-				"Set Syntax: Markdown"
-			],
-			[
-				"ssmk",
-				"Set Syntax: Makefile"
-			],
-			[
-				"enablepa",
-				"Package Control: Enable Package"
-			],
-			[
-				"enable pa",
-				"Package Control: Enable Package"
-			],
-			[
-				"disabl",
-				"CursorRuler: Toggle Enabled/Disabled"
-			],
-			[
-				"cheat",
-				"Markdown Preview: Open Markdown Cheat sheet"
-			],
-			[
-				"pandoc",
-				"Pandoc"
-			],
-			[
-				"preview",
-				"Markdown Preview: Python Markdown: Preview in Browser"
 			]
 		],
 		"width": 528.0
@@ -632,32 +645,86 @@
 	],
 	"file_history":
 	[
+		"/D/cansmile/csde/eDeutsch/js/taptogroup.js",
+		"/D/cansmile/csde/eDeutsch/r1-F1.html",
+		"/D/cansmile/csde/eDeutsch/r1-D1.html",
 		"/D/cansmile/csde/eDeutsch/r1-B3.html",
-		"/D/cansmile/csde/eDeutsch/r1-B1.html",
-		"/D/cansmile/csde/eDeutsch/CodeIgniter/user_guide/_static/jquery-3.1.0.js",
+		"/D/cansmile/csde/eDeutsch/r1.html",
+		"/D/cansmile/csde/eDeutsch/r1-Zahlen(1-10).html",
+		"/D/cansmile/csde/eDeutsch/r1-Wie heissen Sie.html",
+		"/D/cansmile/csde/eDeutsch/r1-Wie geht es Ihnen.html",
+		"/D/cansmile/csde/eDeutsch/r1-Wer ist Hyun Kim.html",
+		"/D/cansmile/csde/eDeutsch/r1-Guten Tag!.html",
+		"/d/cansmile/csde/eDeutsch/r1-Guten Tag!.html",
+		"/d/cansmile/csde/eDeutsch/r1-Uebungen.html",
+		"/d/cansmile/csde/eDeutsch/r1-Wer ist Hyun Kim.html",
+		"/d/cansmile/csde/eDeutsch/r1-Wie geht es Ihnen.html",
+		"/d/cansmile/csde/eDeutsch/r1-Wie heissen Sie.html",
+		"/d/cansmile/csde/eDeutsch/r1-Zahlen(1-10).html",
+		"/d/cansmile/csde/eDeutsch/r1.html",
+		"/D/cansmile/csde/eDeutsch/js/jquery-ui.js",
+		"/D/cansmile/csde/eDeutsch/r1-C2.html",
+		"/D/cansmile/csde/eDeutsch/r1-C3.html",
+		"/D/cansmile/csde/eDeutsch/r1-B5.html",
+		"/D/cansmile/csde/eDeutsch/r1-B4.html",
 		"/D/cansmile/csde/eDeutsch/r0-Zuordnung.html",
+		"/D/cansmile/csde/eDeutsch/r1-A2.html",
+		"/D/cansmile/csde/eDeutsch/r1-A3.html",
+		"/D/cansmile/csde/eDeutsch/r1-B1.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/D/cansmile/csde/eDeutsch/r1-Uebungen.html",
+		"/D/cansmile/csde/eDeutsch/r10.html",
+		"/D/cansmile/csde/eDeutsch/r2.html",
+		"/D/cansmile/csde/eDeutsch/r3.html",
+		"/D/cansmile/csde/eDeutsch/r4.html",
+		"/D/cansmile/csde/eDeutsch/r5.html",
+		"/D/cansmile/csde/eDeutsch/r6.html",
+		"/D/cansmile/csde/eDeutsch/r7.html",
+		"/D/cansmile/csde/eDeutsch/r8.html",
+		"/D/cansmile/csde/eDeutsch/r9.html",
+		"/D/cansmile/csde/eDeutsch/Deutschland.html",
+		"/D/cansmile/csde/eDeutsch/index.html",
+		"/D/cansmile/csde/eDeutsch/r0-Alphabet.html",
 		"/D/cansmile/csde/eDeutsch/r0-Quiz.html",
+		"/D/cansmile/csde/eDeutsch/r0.html",
+		"/D/cansmile/csde/eDeutsch/test.html",
+		"/D/cansmile/GitHub/nagehts/CodeIgniter/.editorconfig",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/uncrustifyrc_objc.cfg",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/uncrustifyrc.cfg",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/htmlminifierrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/terserrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/htmltidyrc_html.cfg",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/htmltidyrc_xml.cfg",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/prettierrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/jsbeautifyrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/csscombrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/stylelintrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/perltidyrc.cfg",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/yapfrc.yapf",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/eslintrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/jsonmaxrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/clangformatrc.yaml",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/cleancssrc.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/rubocoprc.yml",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/blackrc.toml",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/phpcsfixerrc.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/formatter.assets/config/beautyshrc.json",
+		"/D/cansmile/csde/eDeutsch/CodeIgniter/user_guide/_static/jquery-3.1.0.js",
 		"/d/cansmile/csde/eDeutsch/r1-A3.html",
 		"/d/cansmile/csde/eDeutsch/r1-A2.html",
 		"/d/cansmile/csde/eDeutsch/r0-Zuordnung.html",
 		"/d/cansmile/csde/eDeutsch/r0-Quiz.html",
-		"/D/cansmile/csde/eDeutsch/r1-A2.html",
-		"/D/cansmile/csde/eDeutsch/r1-A3.html",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/D/cansmile/csde/eDeutsch/css/bootstrap-grid.css",
 		"/D/cansmile/csde/eDeutsch/css/bootstrap.css",
-		"/D/cansmile/csde/eDeutsch/r0.html",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
-		"/D/cansmile/csde/eDeutsch/index.html",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/D/cansmile/csde/eDeutsch/Chrome.sublime-build",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
 		"/D/cansmile/csde/eDeutsch/CodeIgniter/readme.rst",
-		"/D/cansmile/csde/eDeutsch/r4.html",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
 		"/D/cansmile/GitHub/nagehts/css/_notes/dwsync.xml",
 		"/D/cansmile/csdn/Sublime Text Build 3176 x64/changelog.txt",
@@ -666,7 +733,6 @@
 		"/D/cansmile/csde/eDeutsch/A sftp-config.json",
 		"/D/cansmile/csde/eDeutsch/Nagehts.json",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/D/cansmile/csde/eDeutsch/test.html",
 		"/C/sftp-config.json",
 		"/D/cansmile/csde/eDeutsch/Nagehts",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/insert_date.sublime-settings",
@@ -680,16 +746,12 @@
 		"/D/cansmile/cswd/txt/2019021600001 롤(한국) 리폿.txt",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/EmmetOneLine/Default (Windows).sublime-keymap",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
-		"/D/cansmile/csde/eDeutsch/r1-Uebungen.html",
 		"/D/cansmile/csde/eDeutsch/r1-Zahlen(0-10).html",
-		"/D/cansmile/csde/eDeutsch/r1-Wer ist Hyun Kim.html",
 		"/D/cansmile/csde/eDeutsch/js/bootstrap.js",
 		"/C/Users/Administrator/AppData/Local/Temp/_tc/bootstrap-4.3.1-dist/js/bootstrap.js",
 		"/D/cansmile/csde/eDeutsch/js/interactionjs.min.js",
-		"/D/cansmile/csde/eDeutsch/r0-Alphabet.html",
 		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/New/js/taptogroup.js",
 		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/New/css/nestable.css",
-		"/D/cansmile/csde/eDeutsch/js/taptogroup.js",
 		"/C/inetpub/php/php.ini",
 		"/C/Windows/my.ini",
 		"/C/inetpub/wwwroot/phpMyAdmin/config.inc.php",
@@ -710,66 +772,18 @@
 		"/C/Windows/php.ini",
 		"/C/inetpub/php/php.ini-production",
 		"/C/Users/Administrator/AppData/Local/Microsoft/Windows/INetCache/IE/BY850VBW/r0[1].html",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/New/r0.html",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/kwons_uebung/eD_login.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960494/eDeutsch/kwons_uebung/eD_db.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960468/eDeutsch/kwons_uebung/eD_member.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960452/eDeutsch/kwons_uebung/eD_login.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960444/eDeutsch/kwons_uebung/eD_emailcheck.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960428/eDeutsch/kwons_uebung/eD_email_in_db_check.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549960366/eDeutsch/kwons_uebung/eD_db.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/whoami.psp",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549935797/eDeutsch/phpinfo.php",
-		"/C/AutoSet10/server/MySQL5/my.ini",
-		"/C/AutoSet10/server/conf/php.ini",
-		"/C/AutoSet10/server/MySQL5/wsrep.ini",
-		"/C/AutoSet10/solution/phpMyAdmin/config.inc.php",
-		"/C/AutoSet10/public_html/moodle/install/README.txt",
-		"/C/AutoSet10/solution/phpMyAdmin/setup/frames/config.inc.php",
-		"/D/cansmile/csde/eDeutsch/r1-A1.html",
-		"/D/cansmile/csde/eDeutsch/r1.html",
-		"/D/cansmile/csde/eDeutsch/Deutschland.html",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549857667/eDeutsch/New/r0.html",
-		"/C/Program Files (x86)/BibleWorks 9/userdb/nkr.txt",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549708858/eDeutsch/eD/my_html/R1_B1_Wie heissen Sie.htm",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549704831/eDeutsch/eD/my_html/R1_A2_Ordnung.htm",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549605822/eDeutsch/eD/my_html/R0_2_ordnung.htm",
-		"/D/cansmile/csde/eDeutsch/r1-Guten Tag!.html",
-		"/D/cansmile/Dropbox/apps/Accordance/Accordance Sessions/GetTheDimensions  25",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/D/cansmile/csde/eDeutsch/.metadata/version.ini",
-		"/D/cansmile/csde/eDeutsch/.settings/com.aptana.editor.common.prefs",
-		"/D/cansmile/csde/eDeutsch/.project",
-		"/C/AutoSet10/server/conf/extra/httpd-manual.conf",
-		"/C/AutoSet10/server/conf/httpd.conf",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/CleanCSS/CleanCSS.sublime-settings",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/javascript-if-else-example/index.html",
-		"/D/cansmile/Dropbox/for UplOad/2019020500004.png",
-		"/C/AutoSet10/public_html/test.html",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/SublimeServer.sublime-settings",
-		"/C/AutoSet10/public_html/r0-Quiz.html",
-		"/D/cansmile/csde/cshtml19-00002.html",
-		"/D/cansmile/csde/test.txt",
-		"/C/Users/Administrator/AppData/Roaming/Appcelerator/Aptana Studio/AptanaStudio3.ini",
-		"/C/Users/Administrator/AppData/Roaming/Appcelerator/Aptana Studio/configuration/config.ini",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/LiveReload.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Insert Nums/Default (Windows).sublime-keymap",
-		"/C/Program Files (x86)/BibleWorks 9/userdb/NKS.txt",
-		"/C/Program Files (x86)/BibleWorks 9/userdb/nkr2.txt",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1549005234/eDeutsch/whoami.psp",
-		"/D/cansmile/csde/eDeutsch/nestable.css",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/Mobile-Compatible-jQuery-Drag-Drop-Plugin-Nestable/nestable.html"
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/New/r0.html"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
-		"height": 158.0,
+		"height": 209.0,
 		"where_history":
 		[
+			"d:\\cansmile\\csde\\eDeutsch\\",
 			"<open folders>",
 			"d:\\cansmile\\csde\\eDeutsch\\",
 			"D:\\cansmile\\cswd\\markdown\\",
@@ -783,6 +797,67 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".so",
+			"btn btn-outline-dark mt-1 itm",
+			"mx-0",
+			"card col",
+			"btn btn-outline-dark mt-1 mx-1 itm",
+			"btn btn-outline-dark mt-1 mx-1 itm btn-block",
+			"div class=\"card\"",
+			"btn btn-outline-danger mt-1 mx-1 itm btn-inline",
+			"tn btn-outline-danger mt-1 mx-1 itm btn-inline",
+			"btn btn-outline-danger mt-1 mx-1 itm btn-block",
+			"div class=\"card\"",
+			"r1 D1",
+			"-secondary",
+			"btn-outline-",
+			"r1-Zahlen(0-10).html",
+			"Twelve",
+			"Eleven",
+			"Six",
+			"Five",
+			"r1 C3",
+			"Five",
+			"r1 C1",
+			"r1 B3",
+			"Brigit",
+			"Reihe-1-A3",
+			"전부",
+			"r1 B1",
+			"itm",
+			"col-2",
+			"col-3",
+			"col-2",
+			"col-3",
+			"col-4",
+			"col-3",
+			"col-2",
+			"xs",
+			"r1 B1",
+			"btn btn-light btn-xl ttl d-block",
+			"bootst",
+			"itm-lst",
+			"<link href=\"./css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\">",
+			"....",
+			"<link href=\"./css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\">",
+			"collapse",
+			"long",
+			"tap\"",
+			"tap",
+			"nest",
+			"되돌리기",
+			"lsts",
+			"<tr>\n\t\t\t\t\t\t\t\t<td>",
+			"th",
+			", ",
+			"^ ",
+			". ",
+			", ",
+			". ",
+			"body",
+			"mt-3",
+			"btn btn-",
+			"btn btn-link",
 			"data",
 			"data-",
 			"pop",
@@ -849,68 +924,7 @@
 			", ",
 			"btn-sm",
 			"d-block ",
-			"max-",
-			"mx-1",
-			"png\" class=\"col-sm-12 col-md-12 col-lg-12 ttl\"",
-			"max-",
-			"150%",
-			"100%",
-			"my-4 ",
-			"border=\"0\" ",
-			"max-width: 100%",
-			"m-1\"",
-			"m-1",
-			"<img src=\"",
-			"col-sm-12 col-md-12 col-lg-12 m-1\" id=\"lst-",
-			"col-sm col-md col-lg ",
-			"-2",
-			"-10",
-			"allow",
-			"root",
-			"Buchstabe_p",
-			"#Buchstabe",
-			"hv",
-			"bust",
-			"올라가 ㅁ ㅂ",
-			"multi",
-			". ",
-			"col-sm",
-			" class=\"display-4\"",
-			"h1",
-			"h1 class=\"display-4\"",
-			"h2",
-			"h3",
-			"{\n\t\t\t\t\tsounds : ",
-			"[{",
-			"p-4",
-			"pt-4",
-			"class=\"d-block\"><br />",
-			" mt-3",
-			": 100%; height: auto;\" class=\"my-4 d-block",
-			" ",
-			"<div",
-			"-12",
-			"col-sm-12\" id=\"",
-			"id=\"q",
-			"btn ",
-			"#\n",
-			"#",
-			"div#itms>button.itm#",
-			"#",
-			"#\n",
-			"\"m\"",
-			"\"o\"",
-			"\"m\"",
-			"\"<3\"",
-			"\"o\"",
-			"\"m\"",
-			"btn-sm ",
-			"max-width: 240px;",
-			"240px",
-			"text-dark m-1",
-			"mx-4",
-			"mx-auto",
-			"100%"
+			"max-"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -918,6 +932,42 @@
 		"regex": false,
 		"replace_history":
 		[
+			"btn btn-outline-dark mt-1 mx-1 itm",
+			"card col mx-0",
+			"btn btn-outline-dark mt-1 itm",
+			"btn btn-outline-dark mt-1 mx-1 itm",
+			"div class=\"card col\"",
+			"btn btn-outline-danger mt-1 mx-1 itm",
+			"btn btn-outline-danger mt-1 mx-1 itm btn-inline",
+			"div class=\"card col\"",
+			"-dark",
+			"r1-Zahlen(1-10).html",
+			"Eleven",
+			"Twelve",
+			"Eleven",
+			"Ten",
+			"Nine",
+			"Eight",
+			"Seven",
+			"Six",
+			"r1 B3",
+			"col-3",
+			"col-6",
+			"col-3",
+			"col-4",
+			"col-8",
+			"col-3",
+			"col-6",
+			"col-4",
+			"r1 B4",
+			"btn btn-warning btn-xl ttl d-block",
+			"<link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\">\n<link href=\"./css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\">",
+			",",
+			"",
+			"\n",
+			",",
+			"\n,",
+			"\n",
 			"<div class=\"row\"",
 			"\\\\",
 			"so itm",
@@ -1009,43 +1059,7 @@
 			"",
 			"bg-",
 			"mt-1 mx-1",
-			"240px",
-			"btn btn-sm",
-			"btn-sm ",
-			"btn-sm",
-			"",
-			"div",
-			"",
-			"data-toggle=\"popover\" data-container=\"body\" ",
-			"col-lg",
-			"col-md",
-			"",
-			"h6",
-			"span",
-			"badge-sm",
-			"badge badge-",
-			"h6",
-			"",
-			"my-",
-			"my",
-			"mb-",
-			"h3",
-			"d-inline",
-			"ttl mt-3 d-block-inline",
-			"",
-			"btn-sm",
-			"",
-			"넣기",
-			"btn-secondary",
-			"<h3 class=\"btn btn-outline-secondary here btn-xl d-block mt-3\">넣기",
-			"넣기",
-			"</h3></div>",
-			"dark",
-			"border rounded-top ",
-			"light",
-			"320px",
-			"240px",
-			"mt-1 btn "
+			"240px"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1056,14 +1070,210 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "r1-F2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7948,
+								7961
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										7961,
+										7962
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										7947,
+										7948
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -1108,6 +1318,10 @@
 	{
 		"height": 136.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"output.sftp":
 	{
 		"height": 136.0
@@ -1116,7 +1330,7 @@
 	"project": "Nagehts.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 114.0
 	},
 	"save_all_on_build": false,
 	"select_file":

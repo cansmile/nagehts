@@ -5,7 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=.5">
 		<title>Na geht's? - eDeutsch für PUTS</title>
-		<link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<!-- 넵바 시작 -->
@@ -57,11 +59,7 @@
 		</header>
 		<!-- 알림 시작 -->
 		<div class="alert alert-warning alert-dismissible fade show" role="alert">
-			이 페이지의 문장을 <strong>누르면 들립니다!</strong>
-			<button type="button" class="btn btn-primary btn-sm btn-inline" disabled>
-				HV
-			</button>
-			는 누르고 잠시 뒤에 재생됩니다.<br />
+			이 페이지의 문장을 <strong>누르면 들립니다!</strong><br>
 			문제를 모두 풀어야
 			<button class="badge badge-light" disabled>
 				정답확인
@@ -104,7 +102,7 @@
 					<div class="card">
 						<div class="card-header" id="headingOne">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
+								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
 									1. Guten Tag! Wie ________ Sie?
 								</button>
 							</h5>
@@ -116,7 +114,7 @@
 					<div class="card">
 						<div class="card-header" id="headingTwo">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
+								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
 									2. Guten Tag! Ich ________ Kim.
 								</button>
 							</h5>
@@ -128,7 +126,7 @@
 					<div class="card">
 						<div class="card-header" id="headingThree">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
+								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
 									3. Freut mich! Und wie ________ Ihr Name?
 								</button>
 							</h5>
@@ -140,14 +138,14 @@
 					<div class="card">
 						<div class="card-header" id="headingFour">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
+								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
 									4. Mein Name ________ Sauer, Eva Sauer.
 								</button>
 							</h5>
 						</div>
 					</div>
 					<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
-						<div class="card-body">4. 제 이름은 에바 자우어에요.</div>
+						<div class="card-body">4. 제 이름은 자우어에요, 에바 자우어.</div>
 					</div>
 				</div>
 
@@ -212,20 +210,30 @@
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col"></div>
-				<div class="col-10 text-center">
+				<div class="col-11 text-center">
 					<div class="row">
-						<div class="bg-light py-2 col-2 border-right border-dark"><strong>Wie</strong></div>
-						<div class="bg-light py-2 col-2 border-right border-dark"><i>heißen</i></div>
-						<div class="bg-light py-2 col-3">Sie?</div>
-						<div class="py-2 col-3 border-right border-dark">Ich</div>
-						<div class="py-2 col-2"><i>heiße…</i></div>
-					</div>
-					<div class="row">
-						<div class="py-2 col-2 border-right border-dark">&nbsp;</div>
-						<div class="py-2 col-2 border-right border-dark"><i>ist</i></div>
-						<div class="py-2 col-3"><strong>Ihr</strong> Name?</div>
-						<div class="bg-light py-2 col-3 border-right border-dark"><strong>Mein</strong> Name</div>
-						<div class="bg-light py-2 col-2"><i>ist…</i></div>
+						<div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-12">
+							<div class="row">
+								<div class="bg-light py-2 col-3 border-right border-dark"><strong>Wie</strong></div>
+								<div class="bg-light py-2 col-3 border-right border-dark"><i>heißen</i></div>
+								<div class="bg-light py-2 col-6">Sie?</div>
+							</div>
+							<div class="row">
+								<div class="py-2 col-3 border-right border-dark">&nbsp;</div>
+								<div class="py-2 col-3 border-right border-dark"><i>ist</i></div>
+								<div class="py-2 col-6"><strong>Ihr</strong> Name?</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-12">
+							<div class="row">
+								<div class="py-2 col-8 border-right border-dark">Ich</div>
+								<div class="py-2 col-4"><i>heiße…</i></div>
+							</div>
+							<div class="row">
+								<div class="bg-light py-2 col-8 border-right border-dark"><strong>Mein</strong> Name</div>
+								<div class="bg-light py-2 col-4"><i>ist…</i></div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col"></div>
@@ -300,11 +308,21 @@
 								$("#0").show();
 								$(this).hide();
 							} else {
-								// _p 붙어 있지 않으면 id 그대로 재생
-								ion.sound.play("r1 B1", {
-									part: $(this).attr("id")
-								});
-
+								if($(this).attr("id") != 0) {
+								var ch = "#collapse"+$(this).closest(".card-header").attr("id").substr(7);
+									if(!$(ch).hasClass("show")) {
+										// _p 붙어 있지 않으면 id 그대로 재생
+										ion.sound.play("r1 B1", {
+											part: $(this).attr("id")
+										});
+									}
+								} else {
+										//_p 붙어 있지 않으면 id 그대로 재생
+										ion.sound.play("r1 B1", {
+											part: $(this).attr("id")
+										});
+								}
+								
 								// 전체 듣기 재생일 때는 일시정지 버튼 보이기
 								if($(this).attr("id") == "0") {
 									$(this).hide();

@@ -51,6 +51,7 @@ var tm = 0;
 
 		} else {
 				// 맞으면 넣기
+				ion.sound.play("Bama_Country_Country");
 				$(this).addClass("btn-block btn-light");
 				$(this).insertAfter(t);
 

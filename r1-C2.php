@@ -1,33 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-		<!-- 넵바 시작 -->
-		<div class="dropdown-divider"></div>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<a class="navbar-brand" href=".\r1-Wie geht es Ihnen.php">Reihe 1 - C - Inhalt</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 1. Ordnen Sie zu. </a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item active" href="r1-C2.php">1. Ordnen Sie zu<span class="sr-only">(current)</span></a> <a class="dropdown-item" href="r1-C1.php">2. Wie geht es Ihnen?</a> <a class="dropdown-item" href="r1-C3.php">3. Wie geht es dir?</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href=".\index.php">처음</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href=".\Deutschland.php">독일은...</a>
-					</li>
-
-				</ul>
-
-			</div>
-		</nav>
-		<!-- 넵바 끝 -->
-
+<?php include "nav.php"; ?>
 		<header>
 			<div class="jumbotron">
 				<div class="container">

@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "inhalt.php"; ?>
+<?php include "nav.php"; ?>
 		<header>
 			<div class="jumbotron">
 				<div class="container">
@@ -472,7 +472,7 @@
 							"wie_Zeppelin": [156.8,1.2]
 						}
 					}],
-					path : "sounds/Reihe 0/",
+					path : "<?php echo(preg_replace("`\/[^/]*\.php$`i", "/", ($_SERVER['PHP_SELF']))); ?>sounds/Reihe 0/",
 					preload : true,
 					volume : 1.0,
 					

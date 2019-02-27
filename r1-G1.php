@@ -5,33 +5,7 @@
 			.itm-lst#lst-4>button.itm:before {content: "Gute";}
 			.itm-lst>button.so:after {content: "!";}
 		</style>
-		<!-- 넵바 시작 -->
-		<div class="dropdown-divider"></div>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<a class="navbar-brand" href=".\r1-Uebungen.php">Reihe 1 - G - Inhalt</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 1. Begrüßung </a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item active" href="r1-G1.php">1. Begrüßung <span class="sr-only">(current)</span></a> <a class="dropdown-item" href="r1-G2.php">2. Was sagen die Personen? </a> <a class="dropdown-item" href="r1-G3.php">3. Frage oder Antwort ? </a> <a class="dropdown-item" href="r1-G7.php">4. Ergänzen Sie: „du“ oder „Sie“. </a> <a class="dropdown-item" href="r1-G8.php">5. Ergänzen Sie die passende Form. </a> <a class="dropdown-item" href="r1-G11.php">6. Hören Sie und ergänzen Sie. </a> 
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href=".\index.php">처음</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href=".\Deutschland.php">독일은...</a>
-					</li>
-
-				</ul>
-
-			</div>
-		</nav>
-		<!-- 넵바 끝 -->
+<?php include "nav.php"; ?>
 		<header>
 			<div class="jumbotron">
 				<div class="container-fluid">

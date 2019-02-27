@@ -1,13 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php
-$tl = array("r1-Guten Tag!"=>"A. Guten Tag!","r1-Wie heissen Sie"=>"B. Wie heißen Sie?","r1-Wie geht es Ihnen"=>"C. Wie geht es Ihnen?","r1-Wer ist Hyun Kim"=>"D. Wer ist Hyun Kim?","r1-Zahlen(1-10)"=>"F. Zahlen(1~10)","r1-Uebungen"=>"G. Übungen","r1-Grammatik und Wendungen"=>"H. Grammatik und Wendungen");
-if(strpos($fn, "-")) {
-	// include "r-inhalt.php";
-} else {
-	include "level0-inhalt.php";
-}
-?>	  
+<?php include "nav.php"; ?>	  
 
 		<header>
 			<div class="jumbotron">
@@ -37,7 +30,7 @@ if(strpos($fn, "-")) {
 			<div class="container">
 				<div class="row">
 <?php
-include "r-inhalt.php";
+include "inhalt.php";
 ?>
 				</div>
 			</div>

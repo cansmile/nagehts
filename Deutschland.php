@@ -1,8 +1,6 @@
 <?php include "header.php"; ?>
   <body>
-<?php
-include "inhalt.php";
-?>
+<?php include "nav.php"; ?>
 
 <header>
 	<div class="jumbotron">

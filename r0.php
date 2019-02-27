@@ -1,12 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php
-if(strpos($fn, "-")) {
-	// include "r-inhalt.php";
-} else {
-	include "level0-inhalt.php";
-}
-?>	  
+<?php include "nav.php"; ?>	  
 
 		<header>
 			<div class="jumbotron">
@@ -36,7 +30,7 @@ if(strpos($fn, "-")) {
 			<div class="container">
 				<div class="row">
 <?php
-// include "r-inhalt.php";
+include "inhalt.php";
 ?>
 				</div>
 			</div>

@@ -1,13 +1,6 @@
 <?php include "header.php"; ?>
   <body>
-<?php
-$tl = array("r2-Woher kommen Sie!"=>"A. Woher kommen Sie?","r2-Ich bin Koreanerin"=>"B. Ich bin Koreanerin.","r2-Welche Sprachen sprechen Sie"=>"C. Welche Sprachen sprechen Sie?","r2-Wo liegt das Land"=>"D. Wo liegt das Land?","r2-Uebungen"=>"E. Übungen","r2-Grammatik und Wendungen"=>"F. Grammatik und Wendungen");
-if(strpos($fn, "-")) {
-  // include "r-inhalt.php";
-} else {
-  include "level0-inhalt.php";
-}
-?>    
+<?php include "nav.php"; ?>    
 	  
 	  
 <header>
@@ -37,7 +30,7 @@ if(strpos($fn, "-")) {
       <div class="container">
         <div class="row">
 <?php
-include "r-inhalt.php";
+include "inhalt.php";
 ?>
         </div>
       <div class="container">

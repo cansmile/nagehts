@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "inhalt.php"; ?>
+<?php include "nav.php"; ?>
 
 		<header>
 			<div class="jumbotron">
@@ -155,7 +155,7 @@
 						name : "R0_Ordnen_Sie",
 						
 						sprite: {
-							"0": [0,59.8],
+							"0": [60,53],
 							"1": [0,1.6],
 							"2": [3.9,1.5],
 							"3": [7.5,1.3],

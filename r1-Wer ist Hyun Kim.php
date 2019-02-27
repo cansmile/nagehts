@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "r1-inhalt.php"; ?>
+<?php include "nav.php"; ?>
 
 		<header>
 			<div class="jumbotron">
@@ -25,14 +25,7 @@
 				</div>
 				<div class="row">
 					<div class="col"></div>
-					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<a href="r1-D1.php" class="text-dark"><img class="rounded-circle" alt="Hören Sie und sprechen Sie nach." style="width: 140px; height: 140px;" src="images/1.png" data-holder-rendered="true"> <h3>Im Deutschunterricht</h3>
-						<p>
-							독일어 수업시간에
-							<br />
-							(<small>교재 <strong>D1</strong> 문제</small>)
-						</p></a>
-					</div>
+<?php  include "inhalt.php"; ?>
 					<div class="col"></div>
 				</div>
 				<div class="row">

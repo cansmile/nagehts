@@ -1,29 +1,23 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">3. Wie geht es dir?<br>Hören Sie und sprechen Sie nach.</h1>
-							<h2>
-								어떻게 지내? 듣고 따라하세요.
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-									HV
-								</button>
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
-									❚❚
-								</button>
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 
 		<section>
 			<div class="container">
+				<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Hören Sie und sprechen Sie nach.</h2>
+							<p>
+								듣고 따라 말하세요.
+							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+							HV
+						</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+							❚❚
+						</button>
+						</p>
+				</div>
 				<div class="accordion" id="accordionitms">
 					<div class="card">
 						<div class="card-header" id="headingOne">
@@ -174,6 +168,7 @@
 							});
 						// 준비되면 HV 보이기
 						$("#0").show();
+						$(".alert").hide();
 						}
 					})
 				});

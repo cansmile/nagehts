@@ -1,48 +1,37 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">3. Ergänzen Sie die Lücken!<br>Mädchen- oder Jungennamen?</h1>
-							<h2>
-								빈칸을 채우세요. 여자 혹은 남자이름?
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Mädchen- oder Jungennamen?</h2>
+							<p> 여자 혹은 남자이름? </p>
+				</div>
 					<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="1">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
 							Julia
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="2">
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="2">
 							Thomas
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="3">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="3">
 							Sabine
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="4">
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
 							Max
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="5">
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
 							Daniel
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="6">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
 							Christiane
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="7">
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
 							Klaus
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="8">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="8">
 							Inge
 						</button>
 					</div>
@@ -132,7 +121,7 @@
 							<tbody>
 								<tr>
 									<th class="align-middle" scope="row">1</th>
-									<td class="align-middle">Brigitte</td>
+									<td class="align-middle">Birgit</td>
 									<td class="align-middle">Hilde</td>
 									<td class="align-middle">Luisa</td>
 								</tr>
@@ -172,7 +161,7 @@
 									<th class="align-middle" scope="row">4</th>
 									<td class="align-middle">Monika</td>
 									<td class="align-middle">Angelika</td>
-									<td class="align-middle">Birgit</td>
+									<td class="align-middle">Brigitte</td>
 								</tr>
 								<tr>
 									<th class="align-middle" scope="row">5</th>

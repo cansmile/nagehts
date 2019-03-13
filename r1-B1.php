@@ -1,27 +1,8 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">1. Hören Sie <br />und sprechen Sie nach.</h1>
-							<h2>
-								듣고 따라해보세요.
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-									HV
-								</button>
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
-									❚❚
-								</button>
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
 		<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
 		<div class="alert alert-warning alert-dismissible fade show" role="alert">
 			이 페이지의 문장을 <strong>누르면 들립니다!</strong><br>
 			문제를 모두 풀어야
@@ -62,105 +43,117 @@
 
 		<section>
 			<div class="container">
+				<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Hören Sie und sprechen Sie nach.</h2>
+							<p>
+								듣고 따라하세요.
+							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+								HV
+							</button>
+							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+								❚❚
+							</button>
+							</p>
+				</div>
 				<div class="accordion" id="accordionitms">
 					<div class="card">
 						<div class="card-header" id="headingOne">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
-									1. Guten Tag! Wie ________ Sie?
+									Guten Tag! Wie <span class="btn btn-outline-dark btn-sm">①</span> Sie?
 								</button>
 							</h5>
 						</div>
 					</div>
 					<div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms">
-						<div class="card-body">1. 안녕하세요! 당신의 이름은 무엇인가요?</div>
+						<div class="card-body">안녕하세요! 당신의 이름은 무엇인가요?</div>
 					</div>
 					<div class="card">
 						<div class="card-header" id="headingTwo">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
-									2. Guten Tag! Ich ________ Kim.
+									Guten Tag! Ich <span class="btn btn-outline-dark btn-sm">②</span> Kim.
 								</button>
 							</h5>
 						</div>
 					</div>
 					<div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms">
-						<div class="card-body">2. 안녕하세요! 저는 김이라고 해요.</div>
+						<div class="card-body">안녕하세요! 저는 김이라고 해요.</div>
 					</div>
 					<div class="card">
 						<div class="card-header" id="headingThree">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
-									3. Freut mich! Und wie ________ Ihr Name?
+									Freut mich! Und wie <span class="btn btn-outline-dark btn-sm">③</span> Ihr Name?
 								</button>
 							</h5>
 						</div>
 					</div>
 					<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
-						<div class="card-body">3. 반가워요! 그러면 당신의 이름은 무엇인가요?</div>
+						<div class="card-body">반가워요! 그러면 당신의 이름은 무엇인가요?</div>
 					</div>
 					<div class="card">
 						<div class="card-header" id="headingFour">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
-									4. Mein Name ________ Sauer, Eva Sauer.
+									Mein Name <span class="btn btn-outline-dark btn-sm">④</span> Sauer, Eva Sauer.
 								</button>
 							</h5>
 						</div>
 					</div>
 					<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
-						<div class="card-body">4. 제 이름은 자우어에요, 에바 자우어.</div>
+						<div class="card-body">제 이름은 자우어에요, 에바 자우어.</div>
 					</div>
 				</div>
 
 				<!--문제 시작-->
 			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="5">
-					<h3 class="mt-1">1번 문장의 ________에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						a. heiße
+				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-1">
+					<h3 class="mt-1">①에 들어갈 단어는?</h3>
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						heiße
 					</div>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						b. heißt
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						heißt
 					</div>
-					<div class="btn btn-info pop btn-sm btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						c. heißen
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="6">
-					<h3 class="mt-1">2번 문장의 ________에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-sm btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						a. heiße
-					</div>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						b. heißt
-					</div>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						c. heißen
+					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+						heißen
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="7">
-					<h3 class="mt-1">3번 문장의 ________에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						a. bin
+				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-2">
+					<h3 class="mt-1">②에 들어갈 단어는?</h3>
+					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+						heiße
 					</div>
-					<div class="btn btn-info pop btn-sm btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						b. ist
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						heißt
 					</div>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						c. sind
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						heißen
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="8">
-					<h3 class="mt-1">4번 문장의 ________에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						a. bin
+				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-3">
+					<h3 class="mt-1">③에 들어갈 단어는?</h3>
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						bin
 					</div>
-					<div class="btn btn-info pop btn-sm btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						b. sind
+					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+						ist
 					</div>
-					<div class="btn btn-info pop btn-sm btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						c. ist
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						sind
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-4">
+					<h3 class="mt-1">④에 들어갈 단어는?</h3>
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						bin
+					</div>
+					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+						sind
+					</div>
+					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+						ist
 					</div>
 				</div>
 				<!--문제 끝-->
@@ -328,7 +321,7 @@
 							if (na != "") {
 								na += ", ";
 							}
-							na += $(this).attr("id");
+							na += $(this).attr("id").substr(4);
 						};
 					});
 
@@ -350,17 +343,35 @@
 						;
 					});
 
+					$("span").each(function () {
+						if($(this).text() == "①") {
+							var iq = $("#qst-1>div.o").text().substring(3);
+						} else if($(this).text() == "②") {
+							var iq = $("#qst-2>div.o").text().substring(3);
+						} else if($(this).text() == "③") {
+							var iq = $("#qst-3>div.o").text().substring(3);
+						} else if($(this).text() == "④") {
+							var iq = $("#qst-4>div.o").text().substring(3);
+						}
+
+						if($(this).hasClass("btn")) {
+							$(this).text(iq);
+							$(this).removeClass("btn btn-outline-dark btn-sm");
+							$(this).addClass("font-weight-bold");
+						}
+					});
+
 					$(this).removeClass("btn-light ");
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
 						$(this).addClass("btn-danger");
 
 					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-success");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("btn-primary");
 
 					} else {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
 						$(this).addClass("btn-warning");
 
 					};
@@ -369,6 +380,7 @@
 
 					// 준비되면 HV 보이기
 					$("#0").show();
+					$("#alt").hide();
 
 					}
 				});

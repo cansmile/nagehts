@@ -1,29 +1,23 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">1. Im Deutschunterricht<br>Hören Sie und sprechen Sie nach.</h1>
-							<h2>
-								독일어 수업시간에<br> 듣고 따라하세요.
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-									HV
-								</button>
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
-									❚❚
-								</button>
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 
 		<section>
 			<div class="container">
+				<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Hören Sie und sprechen Sie nach.</h2>
+							<p>
+								듣고 따라하세요.
+							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+							HV
+						</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+							❚❚
+						</button>
+						</p>
+				</div>
 				<div class="row">
 					<div class="col"><img src=".\images\Reihe 1\Reihe-1-D1-1.png" style="max-width: 100%; height: auto;" class="d-block"></div>
 				</div>
@@ -61,7 +55,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
-							<div class="card-body">김 현이 누구인가요?</div>
+							<div class="card-body">김현이 누구인가요?</div>
 						</div>
 					</div>
 					<div class="card">
@@ -85,7 +79,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionitms">
-							<div class="card-body">김 민정 있나요?</div>
+							<div class="card-body">김민정 있나요?</div>
 						</div>
 					</div>
 					<div class="card">
@@ -109,7 +103,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms">
-							<div class="card-body">박 보검 있나요?</div>
+							<div class="card-body">박보검 있나요?</div>
 						</div>
 					</div>
 					<div class="card">
@@ -121,7 +115,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionitms">
-							<div class="card-body">아뇨, 저는 박 윌리엄이에요.</div>
+							<div class="card-body">아뇨, 저는 윌리엄박이에요.</div>
 						</div>
 					</div>
 					<div class="card">
@@ -182,15 +176,15 @@
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 								<div class="row">
 									<div class="py-1 col-4 border-right border-dark"><strong>Wer</strong></div>
-									<div class="py-1 col-4 border-right border-dark"><i>ist</i></div>
+									<div class="bg-light py-1 col-4 border-right border-dark"><i>ist</i></div>
 									<div class="py-1 col-4">…?</div>
 								</div>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 								<div class="row">
-									<div class="bg-light py-1 col-4 border-right border-dark">Das</div>
+									<div class="py-1 col-4 border-right border-dark">Das</div>
 									<div class="bg-light py-1 col-4 border-dark"><i>bin ich.</i></div>
-									<div class="bg-light py-1 col-4">&nbsp;</div>
+									<div class="py-1 col-4">&nbsp;</div>
 								</div>
 							</div>
 						</div>
@@ -204,7 +198,7 @@
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 								<div class="row">
 									<div class="bg-light py-1 col-4 border-right border-dark"><strong>Ist</strong></div>
-									<div class="bg-light py-1 col-4 border-right border-dark"><i>Minjung Kim</i></div>
+									<div class="py-1 col-4 border-right border-dark"><i>Minjung Kim</i></div>
 									<div class="bg-light py-1 col-4"><i>…?</i></div>
 								</div>
 							</div>
@@ -220,14 +214,14 @@
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 								<div class="row">
 									<div class="py-1 col-4 border-right border-dark"><strong>Bist</strong></div>
-									<div class="py-1 col-4 border-right border-dark"><i>du</i></div>
+									<div class="bg-light py-1 col-4 border-right border-dark"><i>du</i></div>
 									<div class="py-1 col-4"><i>…?</i></div>
 								</div>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 								<div class="row">
 									<div class="bg-light py-1 col-4">Ja</div>
-									<div class="bg-light py-1 col-4">/</div>
+									<div class="py-1 col-4">/</div>
 									<div class="bg-light py-1 col-4">Nein</div>
 								</div>
 							</div>
@@ -236,7 +230,7 @@
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 								<div class="row">
 									<div class="bg-light py-1 col-4 border-right border-dark"><strong>Sind</strong></div>
-									<div class="bg-light py-1 col-4 border-right border-dark"><i>Sie</i></div>
+									<div class="py-1 col-4 border-right border-dark"><i>Sie</i></div>
 									<div class="bg-light py-1 col-4"><i>…?</i></div>
 								</div>
 							</div>
@@ -334,6 +328,7 @@
 							});
 						// 준비되면 HV 보이기
 						$("#0").show();
+						$(".alert").hide();
 						}
 					})
 				});

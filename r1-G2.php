@@ -1,44 +1,37 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">2. Was sagen die Personen?<br>Hören Sie und ordnen Sie zu.</h1>
-							<h2>
-								사람들이 뭐라고 말하나요?<br>듣고 그림과 내용을 연결해 보세요.
-							<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
-								HV
-							</button>
-							<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
-								❚❚
-							</button>
-							</h2>
-					</div>
-				</div>
-			</div>
-		</header>
-
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 		<section>
 			<div class="container">
+				<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Hören Sie und ordnen Sie zu.
+							<small> 듣고 그림과 내용을 연결해 보세요.</small>
+							<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
+							HV
+						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
+							❚❚
+						</button>
+						</h2>
+				</div>
 				<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="1">
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm" id="1">
 							<div class="display-4">1</div>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark so itm" id="2">
+						<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm" id="2">
 							<div class="display-4">2</div>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="3">
+						<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm" id="3">
 							<div class="display-4">3</div>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="4">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm" id="4">
 							<div class="display-4">4</div>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark so itm" id="5">
+						<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm" id="5">
 							<div class="display-4">5</div>
 						</button>
 					</div>
@@ -65,7 +58,7 @@
 			<div class="row">
 				<div class="col-auto">
 					<div class="accordion" id="accordionitms1">
-						<div class="display-4 text-center">Dialog 1</div>
+						<div class="display-4 text-center mb-2 so" id="18">Dialog 1</div>
 						<div class="card">
 							<div class="card-header" id="headingOne">
 								<h5 class="mb-0">
@@ -94,7 +87,7 @@
 				</div>
 				<div class="col-auto">
 					<div class="accordion" id="accordionitms2">
-						<div class="display-4 text-center">Dialog 2</div>
+						<div class="display-4 text-center mb-2 so" id="19">Dialog 2</div>
 						<div class="card">
 							<div class="card-header" id="headingThree">
 								<h5 class="mb-0">
@@ -123,7 +116,7 @@
 				</div>
 				<div class="col-auto">
 					<div class="accordion" id="accordionitms3">
-						<div class="display-4 text-center">Dialog 3</div>
+						<div class="display-4 text-center mb-2 so" id="20">Dialog 3</div>
 						<div class="card">
 							<div class="card-header" id="headingFive">
 								<h5 class="mb-0">
@@ -152,12 +145,12 @@
 							<div class="card-header" id="headingSeven">
 								<h5 class="mb-0">
 									<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseSeven" area-expanded="false" aria-controls="collapseSeven" id="12">
-										Willkommen in Dresden. Das ist für Sie!
+										Willkommen in Dresden! Das ist für Sie!
 									</button>
 								</h5>
 							</div>
 							<div class="collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms3">
-								<div class="card-body">드레스덴에 오신 것을 환영해요! </div>
+								<div class="card-body">드레스덴에 오신 것을 환영해요! 이거 받으세요!</div>
 							</div>
 						</div>
 						<div class="card">
@@ -176,7 +169,7 @@
 				</div>
 				<div class="col-auto">
 					<div class="accordion" id="accordionitms4">
-						<div class="display-4 text-center">Dialog 4</div>
+						<div class="display-4 text-center mb-2 so" id="21">Dialog 4</div>
 						<div class="card">
 							<div class="card-header" id="headingNine">
 								<h5 class="mb-0">
@@ -205,7 +198,7 @@
 				</div>
 				<div class="col-auto">
 					<div class="accordion" id="accordionitms5">
-						<div class="display-4 text-center">Dialog 5</div>
+						<div class="display-4 text-center mb-2 so" id="22">Dialog 5</div>
 						<div class="card">
 							<div class="card-header" id="headingEleven">
 								<h5 class="mb-0">
@@ -277,7 +270,12 @@
 							"14": [64.4,1.4],
 							"15": [69.5,3],
 							"16": [77.17,2],
-							"17": [81.9,2.5]
+							"17": [81.9,2.5],
+							"18": [8.7,7.7],
+							"19": [18.8,15.7],
+							"20": [40.4,19],
+							"21": [61.5,11.6],
+							"22": [75.1,10]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -330,6 +328,7 @@
 							});
 					// 준비되면 HV 보이기
 					$("#0").show();
+					$(".alert").hide();
 
 					}
 				});

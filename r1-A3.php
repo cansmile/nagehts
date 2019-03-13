@@ -1,22 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">2. Ergänzen Sie.
-							<br />
-							</h1>
-							<h2>말풍선에 알맞은 표현을 체우세요.</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-			
 	<section>
 		<!-- 아이템들 시작 -->
 			<div class="row">
@@ -29,19 +13,19 @@
 			
 			<div class="row">
 				<div class="mb-2  col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans3 itm" id="1">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 itm" id="1">
 						Hilfe!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans1 itm" id="2">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 itm" id="2">
 						Auf Wiedersehen!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans2 itm" id="3">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm" id="3">
 						Guten Tag!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans5 itm" id="4">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 itm" id="4">
 						Gute Nacht!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans4 itm" id="5">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 itm" id="5">
 						Danke. Das ist nett.
 					</button>
 				</div>

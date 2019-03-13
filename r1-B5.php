@@ -1,62 +1,46 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">4. Sortieren Sie die Namen nach Vor- und Familiennamen.</h1>
-							<h2>
-								다음을 성과 이름으로 분류하세요.
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		
 	<section>
-			
 		<div class="container">
 			
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12 so" id="itms">
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="1">
-						Brigitte
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
+						Birgit
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="2">
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
 						Luisa
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="3">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="3">
 						Thomas
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="4">
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="4">
 						Koch
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="5">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
 						Johann
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="6">
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="6">
 						Bauer
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="7">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
 						Karl
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="8">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
 						Schumacher
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="9">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
 						Martin
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="10">
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="10">
 						Monika
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="11">
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="11">
 						Schmidt
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="12">
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="12">
 						Schulz
 					</button>
 				</div>

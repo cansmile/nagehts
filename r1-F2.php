@@ -6,60 +6,42 @@
 			}
 		</style>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">2. Wie heißen die Zahlen?</h1>
-							<h2>
-								다음 숫자들은 어떻게 불리나요?
-								<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
-									HV
-								</button>
-								<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
-									❚❚
-								</button>
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 	<section>
 		<div class="container">
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="mb-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans1 so itm" id="1">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 so itm" id="1">
 						1
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans2 so itm" id="2">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 so itm" id="2">
 						 2
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans3 so itm" id="3">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 so itm" id="3">
 						3
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans6 so itm" id="4">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 so itm" id="4">
 						4
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans7 so itm" id="5">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 so itm" id="5">
 						5
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans4 so itm" id="6">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 so itm" id="6">
 						6
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans8 so itm" id="7">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans8 so itm" id="7">
 						7
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans5 so itm" id="8">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 so itm" id="8">
 						8
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans9 so itm" id="9">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans9 so itm" id="9">
 						9
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans10 so itm" id="10">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans10 so itm" id="10">
 						10
 					</button>
 				</div>
@@ -171,7 +153,7 @@
 						});
 						
 						// 준비되면 HV 보이기
-						// $("#0").show();
+						$(".alert").hide();
 					}
 					})
 

@@ -1,23 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">B. Quiz</h1>
-							<h2> Wie viel wissen Sie über Deutschland und über die deutsche Sprache? </h2>
-							<p>
-								독일과 독일어에 대해 얼마나 알고 있나요?
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
 		<!-- 알림 시작 -->
 		<div class="alert alert-warning alert-dismissible fade show" role="alert">
 			문제를 모두 풀어야
@@ -57,6 +40,13 @@
 		<!-- 알림 끝 -->
 
 		<section>
+			<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Wie viel wissen Sie über Deutschland und über die deutsche Sprache?
+						<br>
+						<small>독일과 독일어에 대해 얼마나 알고 있나요?</small></h2>
+					</div>
+				</div>
 			<div class="row">
 				<!--문제 시작-->
 				<div class="col-lg-3 col-md-6 col-sm-12 q" id="1">
@@ -341,6 +331,7 @@
 					volume : 1.0,
 					multiplay : true,
 					ready_callback: function() {
+
 				$(".o").on("click", function() {
 					ion.sound.play("Bama_Country_Country");
 				});
@@ -409,15 +400,15 @@
 
 					$(this).removeClass("btn-light ");
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
 						$(this).addClass("btn-danger");
 
 					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-success");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("btn-primary");
 
 					} else {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
 						$(this).addClass("btn-warning");
 
 					};

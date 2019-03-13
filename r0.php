@@ -1,23 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>	  
-
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="mt-5 display-4">Reihe 0</h1>
-							<h2>Deutschland und die deutsch spache</h2>
-							<p>
-								독일과 독일어 말하기
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
 		<!--이정표 시작-->
 		<section>
 			<div class="container">

@@ -1,23 +1,16 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 text-center">
-							<p>
-								&nbsp;
-							</p>
-							<h1 class="display-4">C. Zuodnung<br />
-								</h1>
-							<h2>
-							Wie viel wissen Sie über die deutsche Sprache?
-							<br>
-							Sortieren Sie die Wörter nach den Themen.
-							</h2>
-								
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Wie viel wissen Sie über die deutsche Sprache?<br>
+							Sortieren Sie die Wörter nach den Themen.</h2>
 							<p>
 								독일어에 대해 얼마나 아나요? 다음 단어들을 주제에 따라 나누세요.
 							<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
@@ -25,16 +18,9 @@
 						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
-							</p>
-						</div>
-					</div>
+						</p>
 				</div>
 			</div>
-		</header>
-		
-	<section>
-			
-		<div class="container-fluid">
 			<!-- 첫 번째 문제 -->
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12 mb-1 mt">
@@ -49,55 +35,55 @@
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12 so" id="itms">
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="1">
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
 						Fußball
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark so itm" id="2">
+					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="2">
 						Opa
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark so itm" id="3">
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="3">
 						Cola
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="4">
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="4">
 						Klassik
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="5">
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="5">
 						Tennis
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark so itm" id="6">
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="6">
 						Kaffee
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="7">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
 						Tschüs
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="8">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
 						Tag
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark so itm" id="9">
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="9">
 						Bier
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark so itm" id="10">
+					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="10">
 						Baby
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="11">
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="11">
 						Basketball
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="12">
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="12">
 						K-Popmusik
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark so itm" id="13">
+					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="13">
 						Mama
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark so itm" id="14">
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="14">
 						Tee
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="15">
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="15">
 						Hallo
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="16">
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="16">
 						Rap
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark so itm" id="17">
+					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="17">
 						Papa
 					</button>
 				</div>
@@ -215,6 +201,7 @@
 						
 						// 준비되면 HV 보이기
 						$("#0").show();
+						$(".alert").hide();
 					}
 				});
 			});

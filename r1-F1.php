@@ -7,34 +7,29 @@
 			}
 		</style>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">1. Hören Sie und sprechen Sie nach.</h1>
-							<h2>
-								듣고 따라하세요.
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-									HV
-								</button>
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
-									❚❚
-								</button>
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 
 		<section>
 			<div class="container">
+				<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Hören Sie und sprechen Sie nach.<br>
+							<p>
+								듣고 따라하세요.
+							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+							HV
+						</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+							❚❚
+						</button>
+						</p>
+						</h2>
+				</div>
 				<div class="accordion row" id="accordionitms">
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingOne">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
 									eins
 								</button>
 							</h5>
@@ -46,7 +41,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingTwo">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
 									zwei
 								</button>
 							</h5>
@@ -58,7 +53,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingThree">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
 									drei
 								</button>
 							</h5>
@@ -70,7 +65,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingFour">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
 									vier
 								</button>
 							</h5>
@@ -82,7 +77,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingFive">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseFive" area-expanded="false" aria-controls="collapseFive" id="5">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseFive" area-expanded="false" aria-controls="collapseFive" id="5">
 									fünf
 								</button>
 							</h5>
@@ -94,7 +89,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingSix">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseSix" area-expanded="false" aria-controls="collapseSix" id="6">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseSix" area-expanded="false" aria-controls="collapseSix" id="6">
 									sechs
 								</button>
 							</h5>
@@ -106,7 +101,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingSeven">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseSeven" area-expanded="false" aria-controls="collapseSeven" id="7">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseSeven" area-expanded="false" aria-controls="collapseSeven" id="7">
 									sieben
 								</button>
 							</h5>
@@ -118,7 +113,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingEight">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseEight" area-expanded="false" aria-controls="collapseEight" id="8">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseEight" area-expanded="false" aria-controls="collapseEight" id="8">
 									acht
 								</button>
 							</h5>
@@ -130,7 +125,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingNine">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseNine" area-expanded="false" aria-controls="collapseNine" id="9">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseNine" area-expanded="false" aria-controls="collapseNine" id="9">
 									neun
 								</button>
 							</h5>
@@ -142,7 +137,7 @@
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingTen">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark btn-block mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseTen" area-expanded="false" aria-controls="collapseTen" id="10">
+								<button class="btn btn-outline-dark btn-block btn-md mt-1 itm" type="button" data-toggle="collapse" data-target="#collapseTen" area-expanded="false" aria-controls="collapseTen" id="10">
 									zehn
 								</button>
 							</h5>
@@ -232,6 +227,7 @@
 							});
 						// 준비되면 HV 보이기
 						$("#0").show();
+						$(".alert").hide();
 						}
 					})
 				});

@@ -9,7 +9,7 @@
 							<p>
 								&nbsp;
 							</p>
-							<img src="images/Na geht's title.png" width="50%" class="mx-auto" alt=""/>
+							<img src="./images/Na geht's title.png" width="50%" class="mx-auto" alt=""/>
 							<p>
 								&nbsp;
 							</p>
@@ -20,13 +20,6 @@
 			</div>
 		</header>
 		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Inhalt</h2>
-					</div>
-				</div>
-			</div>
 			<div class="container ">
 				<div class="row">
 <?php  include "inhalt.php"; ?>

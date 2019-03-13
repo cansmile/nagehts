@@ -1,22 +1,8 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">A. Alphabet</h1>
-							<h2>Hören Sie und sprechen Sie nach.</h2>
-							<p>
-								듣고 따라해보세요.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
 		<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
 		<div class="alert alert-warning alert-dismissible fade show" role="alert">
 			이 페이지의 알파벳이나 발음기호를 <strong>누르면 들립니다!</strong>
 			<br>
@@ -31,6 +17,13 @@
 		<!-- 알림 끝 -->
 		<section>
 			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Hören Sie und sprechen Sie nach.
+						<br>
+						<small>듣고 따라해보세요.</small></h2>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 py-2 text-center">
 						<button type="button" class="btn btn-outline-primary my-2 btn-lg itm" id="A">
@@ -333,8 +326,8 @@
 							</p></span>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-						<img class="rounded-circle itm" alt="Ü wie Übermut" style="width: 140px; height: 140px;" src="images/Reihe 0/Ue.png" data-holder-rendered="true" id="Ü_lg">
-						<span id="wie_Übermut" class="itm"><h4>[y]</h4>
+						<img class="rounded-circle itm" alt="Ü wie Übermut" style="width: 140px; height: 140px;" src="images/Reihe 0/Ue.png" data-holder-rendered="true" id="Ue_lg">
+						<span id="wie_Uebermut" class="itm"><h4>[y]</h4>
 							<p>
 								wie <strong>Ü</strong>bermut
 							</p></span>
@@ -443,7 +436,7 @@
 							"Ö": [87.1,.8],
 							"wie_Ökonom": [88.5,1.4],
 							"P": [91.6,.7],
-							"wie_Paula": [83,1.3],
+							"wie_Paula": [92.9,1.3],
 							"Q": [96.2,.8],
 							"wie_Quelle": [97.7,1.2],
 							"R": [101.4,.8],
@@ -512,6 +505,7 @@
 						
 						// 음성 준비되면 HV 버튼 나타내기 
 						$("#whole").show();
+						$("#alt").hide();
 					}
 				});
 			});

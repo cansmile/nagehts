@@ -1,22 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>	  
-
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">1. Ordnen Sie zu.<br />
-								</h1>
-							<h2>
-								그림에 알맞은 표현을 연결해보세요.
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
 		
 		<!-- 알림 시작 -->
 		<div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -65,25 +49,25 @@
 					<h2>단어를 넣을 때는 그림을 누르세요.</h2>
 				</div>
 				<div class="mb-2 text-center" id="itms">
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans2 itm" id="1">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm" id="1">
 						Guten Morgen!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans1 itm" id="2">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 itm" id="2">
 						Guten Tag!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans3 itm" id="3">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 itm" id="3">
 						Guten Abend!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans5 itm" id="4">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 itm" id="4">
 						Hallo!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans6 itm" id="5">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 itm" id="5">
 						Tschüs!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans4 itm" id="6">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 itm" id="6">
 						Gute Nacht!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-sm btn-outline-dark ans7 itm" id="7">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 itm" id="7">
 						Auf Wiedersehen!
 					</button>
 				</div>
@@ -277,7 +261,7 @@
 					}, {
 						name : "Cartoon_Boing"
 					}],
-					path : "<?php echo(str_replace(basename(__FILE__), "", $file_server_path)); ?>sounds/",
+					path : "sounds/",
 					preload : true,
 					volume : 1.0,
 					multiplay : true
@@ -306,10 +290,6 @@
 						$(this).addClass("btn-warning");
 					};
 	
-					// 문제 풀이 정도 업데이트
-					var perc = Math.round(($(".an").length / $(".q").length) * 100);
-					$(".progress>.bar").attr("width", perc + "%;");
-					
 				});
 				
 			// 팝업 내용 사라지기
@@ -352,15 +332,15 @@
 
 					$(this).removeClass("btn-light ");
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
 						$(this).addClass("btn-danger");
 
 					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-success");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("btn-primary");
 
 					} else {
-						$(this).php('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
 						$(this).addClass("btn-warning");
 
 					}

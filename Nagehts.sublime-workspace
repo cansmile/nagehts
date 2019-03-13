@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"this",
+				"this\t$(this)"
+			],
+			[
+				"btn-outline-",
+				"btn-outline-dark \tBootstrap 4 Class"
+			],
+			[
+				"repl",
+				"replaceWith\t.replaceWith()"
+			],
+			[
+				"ins",
+				"insertAfter\t.insertAfter()"
+			],
+			[
+				"text-da",
+				"text-secondary \tBootstrap 4 Class"
+			],
+			[
+				"text-gray",
+				"text-gray-dark \tBootstrap 4 Class"
+			],
+			[
+				"bg-",
+				"bg-info \tBootstrap 4 Class"
+			],
+			[
+				"border-l",
+				"border-left-0 \tBootstrap 4 Class"
+			],
+			[
+				"table",
+				"table-light \tBootstrap 4 Class"
+			],
+			[
+				"border-",
+				"border-bottom-0 \tBootstrap 4 Class"
+			],
+			[
 				"replace",
 				"str_replace"
 			],
 			[
 				"strr",
 				"str_replace"
-			],
-			[
-				"table",
-				"table-striped \tBootstrap 4 Class"
 			],
 			[
 				"table-s",
@@ -26,10 +62,6 @@
 			[
 				"btn-gr",
 				"btn-danger \tBootstrap 4 Class"
-			],
-			[
-				"btn-outline-",
-				"btn-outline-primary \tBootstrap 4 Class"
 			],
 			[
 				"c",
@@ -112,22 +144,10 @@
 	"buffers":
 	[
 		{
-			"file": "nav.php",
+			"file": "r0-Alphabet.php",
 			"settings":
 			{
-				"buffer_size": 12044,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<?php\n// 반복 횟수; 중단원, 소단원, 대단원 모두 $kom에 입력됨\nif($ds) {\n\tif(strlen(substr($fn,($dash+1))) < 4) {\n\t\t// 중단원 메뉴\n\t\t$kom = $rtl[$r][$fn[($dash+1)]];\n\t} else {\n\t\t// 소단원 메뉴\n\t\t$kom = $rtl[$r][$fn[($dash+1)]];\n\t\techo(\"<br>a<br>a<br>a<br><br><br><br><br><br><br><br><br>\");\n\t\t\n\t}\n} else if($fn == \"index\") {\n\n\n} else {\n\t// 대단원 메뉴\n\t$kom = $kom[$r];\n}\n\n$mc = sizeof($kom);\nif($fn == \"index\" || strlen(substr($fn,(strpos($fn,\"-\")+1))) > 4) {\n\tfor($i = 0; $i < $mc; $i++) {\n\t\t// $tl의 키 이름 배열\n\t\t$t1 = array_keys($kom)[$i];\n\t\t$t2 = $kom[$t1];\n\t\tif($ds) {\n\t\t\t$t3 = \"\";\n\t\t} else {\n\t\t\t$t3 = $tl[$r][$t1];\n\t\t}\n\t\t// $t4 = $t3[0];\n\n\t\tif($fn != \"index\" || $t4 == \"D\") {\n\t\t\t// $t4 = \"Reihe 0/\".$t4;\n\t\t}\n\n\t\tif(file_exists($t1.\".php\")) {\n\t\t\t\t// echo(\"      <div class=\\\"col-lg-4 col-md-6 col-sm-12 text-center\\\">\\n       <a href=\\\"{$t1}.php\\\" class=\\\"text-dark\\\">\\n<img class=\\\"rounded-circle\\\" alt=\\\"{$t3}\\\" style=\\\"width: 140px; height: 140px;\\\" src=\\\"images\\/{$t4}.png\\\" data-holder-rendered=\\\"true\\\">\\n        <h3>{$t3}</h3>\\n        <p>\\n&nbsp;</p>\\n       </a>\\n      </div>\\n\");\n\t\t} else if(!file_exists($t1.\".php\")) {\n\t\t\t// echo(\"      <div class=\\\"col-lg-4 col-md-6 col-sm-12 text-center\\\">\\n       <img class=\\\"rounded-circle\\\" alt=\\\"{$t3}\\\" style=\\\"width: 140px; height: 140px;\\\" src=\\\"images\\/{$t4}.png\\\" data-holder-rendered=\\\"true\\\">\\n        <h3>{$t3}</h3>\\n        <p>\\n&nbsp;</p>\\n\\n     </div>\\n\");\n\t\t}\n\t}\n} else {\n\tfor($i = 0; $i < $mc; $i++) {\n\t\t// $tl의 키 이름 배열\n\t\t$t1 = array_keys($kom)[$i];\n\t\t$t2 = $kom[$t1];\n\t\tif($ds) {\n\t\t\t$t3 = $tl[$r][$t1];\n\t\t} else {\n\t\t\t$t3 = $tl[$r][$t1];\n\t\t}\n\t\t\t$t4 = $t3[0];\n\t\tif($fn != \"index\" || $t4 == \"D\") {\n\t\t\t$t4 = \"Reihe 0/\".$t4;\n\t\t}\n\n\t\tif(file_exists($t1.\".php\")) {\n\t\t\t\techo(\"      <div class=\\\"col-lg-4 col-md-6 col-sm-12 text-center\\\">\\n       <a href=\\\"{$t1}.php\\\" class=\\\"text-dark\\\">\\n<img class=\\\"rounded-circle\\\" alt=\\\"{$t3}\\\" style=\\\"width: 140px; height: 140px;\\\" src=\\\"images\\/{$t4}.png\\\" data-holder-rendered=\\\"true\\\">\\n        <h3>{$t3}</h3>\\n        <p>&nbsp;</p>\\n       </a>\\n      </div>\\n\");\n\t\t} else if(!file_exists($t1.\".php\")) {\n\t\t\techo(\"      <div class=\\\"col-lg-4 col-md-6 col-sm-12 text-center\\\">\\n       <img class=\\\"rounded-circle\\\" alt=\\\"{$t3}\\\" style=\\\"width: 140px; height: 140px;\\\" src=\\\"images\\/{$t4}.png\\\" data-holder-rendered=\\\"true\\\">\\n        <h3>{$t3}</h3>\\n        <p>\\n&nbsp;</p>\\n\\n     </div>\\n\");\n\t\t}\n\t}\n\t\n}\n?>",
-			"file": "inhalt.php",
-			"file_size": 2536,
-			"file_write_time": 131957173219076166,
-			"settings":
-			{
-				"buffer_size": 2375,
+				"buffer_size": 20086,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -149,6 +169,62 @@
 				"Package Control: Install Package"
 			],
 			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"url de",
+				"StringEncode: URL Decode"
+			],
+			[
+				"deco",
+				"StringEncode: Base64 Decode"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Snippet: jQuery Mobile 1.4: Navigation bar"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Indexing Status"
+			],
+			[
+				"md5",
+				"MD5"
+			],
+			[
+				"encode",
+				"StringEncode: Base64 Decode"
+			],
+			[
+				"escape",
+				"StringEncode: Escape regex"
+			],
+			[
+				"compare",
+				"Compare selections"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
 				"snip css",
 				"Color Scheme Editor: Goto previous matching scope"
 			],
@@ -157,16 +233,8 @@
 				"ConvertToUTF8: Reload with Encoding"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"",
 				"About"
-			],
-			[
-				"enable",
-				"Package Control: Enable Package"
 			],
 			[
 				"html",
@@ -179,10 +247,6 @@
 			[
 				"ena",
 				"Package Control: Enable Package"
-			],
-			[
-				"disabl",
-				"Package Control: Disable Package"
 			],
 			[
 				"minify",
@@ -265,10 +329,6 @@
 				"Package Control: Discover Packages"
 			],
 			[
-				"disable",
-				"Package Control: Disable Package"
-			],
-			[
 				"format",
 				"Format: Php"
 			],
@@ -329,10 +389,6 @@
 				"Package Control: Disable Package"
 			],
 			[
-				"encode",
-				"StringEncode: HTML Entitize"
-			],
-			[
 				"encoder",
 				"StringEncode: Escape regex"
 			],
@@ -343,10 +399,6 @@
 			[
 				"ascii",
 				"ASCII Decorator: Default Font"
-			],
-			[
-				"deco",
-				"StringEncode: Base64 Decode"
 			],
 			[
 				"installp",
@@ -433,10 +485,6 @@
 				"Package Control: Disable Package"
 			],
 			[
-				"disa",
-				"Package Control: Disable Package"
-			],
-			[
 				"wrap",
 				"Emmet: Wrap With Abbreviation"
 			],
@@ -511,10 +559,6 @@
 			[
 				"Duplicat",
 				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"enab",
-				"Package Control: Enable Package"
 			],
 			[
 				"insertdate",
@@ -631,30 +675,6 @@
 			[
 				"hightl",
 				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"remove tag",
-				"Emmet: Remove Tag"
-			],
-			[
-				"theme",
-				"Sweyla's Color Theme Generator: Generate bright!"
-			],
-			[
-				"insert date",
-				"InsertDate: Default"
-			],
-			[
-				"ino",
-				"InsertDate: Open README"
-			],
-			[
-				"dla",
-				"SublimeCodeIntel: Disable Live Autocompletion"
-			],
-			[
-				"url de",
-				"StringEncode: URL Decode"
 			]
 		],
 		"width": 528.0
@@ -681,138 +701,138 @@
 	],
 	"file_history":
 	[
-		"/D/cansmile/csde/eDeutsch/sftp-config.json",
-		"/D/cansmile/csde/eDeutsch/r1-Uebungen.php",
-		"/D/cansmile/csde/eDeutsch/r0-Zuordnung.php",
-		"/D/cansmile/csde/eDeutsch/inhalt.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
+		"/D/cansmile/csde/eDeutsch/cp.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Sublimerge 3/Default (Windows).sublime-keymap",
+		"/D/cansmile/cswd/txt/2019031200001 Windows Key.txt",
 		"/D/cansmile/csde/eDeutsch/nav.php",
+		"/D/cansmile/csde/eDeutsch/r2-A5.php",
+		"/D/cansmile/csde/eDeutsch/r2-A2.php",
+		"/D/cansmile/csde/eDeutsch/r2-A4.php",
+		"/D/cansmile/csde/eDeutsch/sounds/Reihe 2/r2 A4 A5.mp3",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/StickySearch/Default (Windows).sublime-keymap",
+		"/D/cansmile/csde/eDeutsch/atonce.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552349502/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-content/plugins/sidebar-login/includes/class-sidebar-login-widget.php",
+		"/D/cansmile/csde/eDeutsch/r2-A1.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/2/0/var/www/html/nagehts.org/public_html/wp-content/plugins/sidebar-login/languages/sidebar-login.pot",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/2/0/var/www/html/nagehts.org/public_html/wp-content/plugins/sidebar-login/languages/ko_KR.mo",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/2/0/var/www/html/nagehts.org/public_html/wp-content/plugins/sidebar-login/languages/ko_KR.po",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552353194/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-content/plugins/sidebar-login/languages/sidebar-login.pot",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552349410/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-content/plugins/sidebar-login/sidebar-login.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552349261/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-content/plugins/sidebar-login/sidebar-login.php",
+		"/D/cansmile/csde/eDeutsch/sftp-config.json",
+		"/D/cansmile/csde/eDeutsch/cn.php",
+		"/D/cansmile/csde/eDeutsch/test.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552279813/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/phpinfo.php",
+		"/D/cansmile/csde/eDeutsch/ready.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/var/www/html/nagehts.org/public_html/loaderio-3267f06289a2ce819d5848e9690e355e.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552280853/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/loaderio-3267f06289a2ce819d5848e9690e355e.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552279044/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/tport/files/config/db.config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552279287/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-config.php",
+		"/D/cansmile/csgr/2019031000001 강림교회로고(원본).ai",
+		"/D/cansmile/csde/eDeutsch/r0-Alphabet.php",
+		"/D/cansmile/csde/eDeutsch/r1-G11.php",
+		"/D/cansmile/csde/eDeutsch/r1-G2.php",
+		"/D/cansmile/csde/eDeutsch/js/taptocompare.js",
 		"/D/cansmile/csde/eDeutsch/r1-B1.php",
-		"/D/cansmile/csde/eDeutsch/r1-B3.php",
-		"/D/cansmile/csde/eDeutsch/r1-B4.php",
-		"/D/cansmile/csde/eDeutsch/r1-B5.php",
-		"/D/cansmile/csde/eDeutsch/r1-C1.php",
-		"/D/cansmile/csde/eDeutsch/r1-C2.php",
+		"/D/cansmile/csde/eDeutsch/js/taptogroup.js",
+		"/D/cansmile/csde/eDeutsch/r0-Zuordnung.php",
+		"/D/cansmile/GitHub/nagehts/js/taptogroup.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+		"/D/cansmile/cswd/txt/2019030700001 - Windows Key.txt",
+		"/D/cansmile/cswd/txt/2019030600001 VL701 - Windows Key.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551965979/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551966010/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/tport/files/config/db.config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551957709/nagehts.json/var/www/html/nagehts.org/public_html/wp-config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551955685/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/tport/files/config/db.config.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/tport/files/config/db.config.php",
+		"/D/cansmile/csdn/mysql190307.sql",
+		"/D/cansmile/csde/eDeutsch/r1-A2.php",
+		"/D/cansmile/csde/eDeutsch/inhalt.php",
+		"/D/cansmile/csdn/ShowKeyPlus(x64).exe",
+		"/D/cansmile/csde/eDeutsch/r2-Woher kommen Sie!.php",
+		"/D/cansmile/csde/eDeutsch/shd.php",
+		"/D/cansmile/csde/eDeutsch/r1-Grammatik und Wendungen.php",
+		"/D/cansmile/csde/eDeutsch/r1-G8.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/admin-ko_KR.po",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/admin-ko_KR.mo",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/ko_KR-0ce75ad2f775d1cac9696967d484808c.json",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/buddypress-ko_KR.po",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551744642/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-load.php",
+		"/D/cansmile/csde/eDeutsch/r1-G3.php",
+		"/D/cansmile/csde/eDeutsch/r1-G7.php",
+		"/D/cansmile/csde/eDeutsch/r1-F2.php",
+		"/D/cansmile/csde/eDeutsch/r1-F1.php",
 		"/D/cansmile/csde/eDeutsch/r1-C3.php",
 		"/D/cansmile/csde/eDeutsch/r1-D1.php",
-		"/D/cansmile/csde/eDeutsch/r1-F1.php",
-		"/D/cansmile/csde/eDeutsch/r1-F2.php",
-		"/D/cansmile/csde/eDeutsch/r1-G1.php",
-		"/D/cansmile/csde/eDeutsch/r1-G2.php",
-		"/D/cansmile/csde/eDeutsch/Deutschland.php",
-		"/D/cansmile/csde/eDeutsch/r0-Quiz-.php",
-		"/D/cansmile/csde/eDeutsch/r0-Alphabet.php",
+		"/D/cansmile/csde/eDeutsch/r1-C1.php",
+		"/D/cansmile/csde/eDeutsch/r1-B5.php",
+		"/D/cansmile/csde/eDeutsch/r1-B4.php",
 		"/D/cansmile/csde/eDeutsch/r1-A3.php",
-		"/D/cansmile/csde/eDeutsch/r1-Guten Tag!.php",
-		"/D/cansmile/csde/eDeutsch/r1-Wie heissen Sie.php",
-		"/D/cansmile/csde/eDeutsch/r1-Wie geht es Ihnen.php",
-		"/D/cansmile/csde/eDeutsch/r1-Wer ist Hyun Kim.php",
-		"/D/cansmile/csde/eDeutsch/r1-Zahlen(1-10).php",
-		"/D/cansmile/csde/eDeutsch/r5.php",
-		"/D/cansmile/csde/eDeutsch/r6.php",
-		"/D/cansmile/csde/eDeutsch/r7.php",
+		"/D/cansmile/csde/eDeutsch/r1-C2.php",
+		"/D/cansmile/csde/eDeutsch/r0-Quiz-.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551666491/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-content/plugins/wp-members/inc/class-wp-members.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551665285/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-content/plugins/wp-members/inc/class-wp-members.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551661167/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-content/plugins/wp-members/inc/index.php",
+		"/D/cansmile/csde/eDeutsch/footer.php",
+		"/D/cansmile/csde/eDeutsch/r1-B3.php",
+		"/d/cansmile/csde/eDeutsch/r1-B3.php",
+		"/d/cansmile/csde/eDeutsch/r1-C1.php",
+		"/d/cansmile/csde/eDeutsch/r1-C3.php",
+		"/d/cansmile/csde/eDeutsch/r1-D1.php",
+		"/d/cansmile/csde/eDeutsch/r1-F1.php",
+		"/d/cansmile/csde/eDeutsch/r1-F2.php",
+		"/d/cansmile/csde/eDeutsch/r1-G2.php",
+		"/d/cansmile/csde/eDeutsch/r1-G7.php",
+		"/d/cansmile/csde/eDeutsch/r1-G8.php",
+		"/D/cansmile/csde/eDeutsch/inthebeginning.php",
+		"/D/cansmile/csde/eDeutsch/Deutschland.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551624033/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-comments-post.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551623970/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-settings.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551623920/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-cron.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/6/0/var/www/html/nagehts.org/public_html/wp-activate.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551623112/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-admin/user/admin.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551622992/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-load.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621786/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-login.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621641/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-load.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621599/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-blog-header.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551619498/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-includes/user.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621511/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/index.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/6/0/var/www/html/nagehts.org/public_html/wp-config.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/6/0/var/www/html/nagehts.org/public_html/index.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621472/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/index.php",
+		"/D/cansmile/csde/eDeutsch/header.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/wp-login.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/wp-load.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/wp-content/themes/nagehts/header.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551602432/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-includes/functions.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551595839/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/t.php",
+		"/D/cansmile/csde/eDeutsch/wp-content/nagehts/functions.php",
+		"/D/cansmile/csde/eDeutsch/wp-content/nagehts/index.php",
+		"/D/cansmile/csde/eDeutsch/index.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/conf/info.xml",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/notify.js",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/notify.css",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/message_alarm.addon.php",
+		"/D/cansmile/csde/eDeutsch/r1-G1.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
+		"/D/cansmile/csde/eDeutsch/js/bootstrap.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/CSS Format/Example.sublime-keymap",
 		"/D/cansmile/csde/eDeutsch/r8.php",
 		"/D/cansmile/csde/eDeutsch/r9.php",
-		"/D/cansmile/csde/eDeutsch/r1.php",
-		"/D/cansmile/csde/eDeutsch/r10.php",
-		"/D/cansmile/csde/eDeutsch/r2.php",
-		"/D/cansmile/csde/eDeutsch/r3.php",
+		"/D/cansmile/csde/eDeutsch/r6.php",
+		"/D/cansmile/csde/eDeutsch/r7.php",
+		"/D/cansmile/csde/eDeutsch/r5.php",
 		"/D/cansmile/csde/eDeutsch/r4.php",
-		"/D/cansmile/csde/eDeutsch/index.php",
-		"/D/cansmile/csde/eDeutsch/r1-A2.php",
-		"/D/cansmile/csde/eDeutsch/r0.php",
-		"/D/cansmile/csde/eDeutsch/r-inhalt.php",
-		"/D/cansmile/csde/eDeutsch/r10-Guten Tag!.php",
-		"/D/cansmile/csde/eDeutsch/r0-Quiz.php",
-		"/D/cansmile/csde/eDeutsch/level0-inhalt.php",
-		"/D/cansmile/csde/eDeutsch/r0-inhalt.php",
-		"/D/cansmile/csde/eDeutsch/header.php",
-		"/D/cansmile/csde/eDeutsch/r2-inhalt.php",
-		"/D/cansmile/csde/eDeutsch/test.php",
-		"/C/inetpub/wwwroot/ht.php",
-		"/C/inetpub/wwwroot/De-Kr/htms/ad_infinitum.htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/ad_oculos.htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/mezza_voce.htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/zyst-.htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/a-.htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/a.1.htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/a_prima_vista.htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/a.G..htm",
-		"/C/inetpub/wwwroot/De-Kr/htms/a.2.htm",
-		"/C/inetpub/wwwroot/De-Kr/master/st_verben1.html",
-		"/C/inetpub/wwwroot/De-Kr/merge_suppl_1/a_discretion.htm",
-		"/C/inetpub/wwwroot/De-Kr/master/st_verben.html",
-		"/C/inetpub/wwwroot/nkr-20190203.txt",
-		"/D/cansmile/csde/eDeutsch/Nagehts.sublime-project",
-		"/C/inetpub/php/php.ini",
-		"/d/cansmile/csde/eDeutsch/r1-B1.php",
-		"/d/cansmile/csde/eDeutsch/Deutschland.php",
-		"/d/cansmile/csde/eDeutsch/Deutschland.html",
-		"/d/cansmile/csde/eDeutsch/index.html",
-		"/d/cansmile/csde/eDeutsch/r0-Alphabet.html",
-		"/d/cansmile/csde/eDeutsch/r0-Quiz.html",
-		"/d/cansmile/csde/eDeutsch/r0-Zuordnung.html",
-		"/d/cansmile/csde/eDeutsch/r0.html",
-		"/d/cansmile/csde/eDeutsch/r1-A2.html",
-		"/d/cansmile/csde/eDeutsch/r1-A3.html",
-		"/d/cansmile/csde/eDeutsch/r1-B1.html",
-		"/d/cansmile/csde/eDeutsch/r1-B3.html",
-		"/d/cansmile/csde/eDeutsch/r1-B4.html",
-		"/d/cansmile/csde/eDeutsch/r1-B5.html",
-		"/d/cansmile/csde/eDeutsch/r1-C1.html",
-		"/d/cansmile/csde/eDeutsch/r1-C2.html",
-		"/d/cansmile/csde/eDeutsch/r1-C3.html",
-		"/d/cansmile/csde/eDeutsch/r1-D1.html",
-		"/d/cansmile/csde/eDeutsch/r1-F1.html",
-		"/d/cansmile/csde/eDeutsch/r1-F2.html",
-		"/d/cansmile/csde/eDeutsch/r1-G1.html",
-		"/d/cansmile/csde/eDeutsch/r1-G2.html",
-		"/d/cansmile/csde/eDeutsch/r1-Guten Tag!.html",
-		"/d/cansmile/csde/eDeutsch/r1-Uebungen.html",
-		"/d/cansmile/csde/eDeutsch/r1-Wer ist Hyun Kim.html",
-		"/d/cansmile/csde/eDeutsch/r1-Wie geht es Ihnen.html",
-		"/d/cansmile/csde/eDeutsch/r1-Wie heissen Sie.html",
-		"/d/cansmile/csde/eDeutsch/r1-Zahlen(1-10).html",
-		"/d/cansmile/csde/eDeutsch/r1.html",
-		"/d/cansmile/csde/eDeutsch/r10.html",
-		"/d/cansmile/csde/eDeutsch/r2.html",
-		"/d/cansmile/csde/eDeutsch/r3.html",
-		"/d/cansmile/csde/eDeutsch/r4.html",
-		"/d/cansmile/csde/eDeutsch/r5.html",
-		"/d/cansmile/csde/eDeutsch/r6.html",
-		"/d/cansmile/csde/eDeutsch/r7.html",
-		"/d/cansmile/csde/eDeutsch/r8.html",
-		"/d/cansmile/csde/eDeutsch/r9.html",
-		"/d/cansmile/csde/eDeutsch/css/jquery-3.3.1.min.js",
-		"/d/cansmile/csde/eDeutsch/css/jquery-3.3.1.js",
-		"/d/cansmile/csde/eDeutsch/css/jquery-3.2.1.min.js",
-		"/d/cansmile/csde/eDeutsch/css/ion.sound.min.js",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/tutorial/static_pages.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/tutorial/news_section.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/tutorial/index.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/tutorial/create_news_items.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/tutorial/conclusion.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/search.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/overview/mvc.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/overview/index.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/overview/goals.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/overview/getting_started.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/overview/features.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/overview/at_a_glance.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/overview/appflow.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/license.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/zip.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/xmlrpc.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/user_agent.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/uri.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/unit_testing.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/typography.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/trackback.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/table.html",
-		"/d/cansmile/csde/eDeutsch/CodeIgniter/user_guide/libraries/sessions.html"
+		"/D/cansmile/csde/eDeutsch/r3.php",
+		"/D/cansmile/csde/eDeutsch/r2.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/D/cansmile/csde/eDeutsch/r1.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -833,141 +853,230 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"Uebungen",
-			"array_keys($kom)[$i]",
-			"array_keys",
-			"substr($fn,($dash+1))",
-			"$t2",
-			">\n",
-			"$dash+1",
-			"$fn,($dash+1)",
-			"$t3",
-			"글자",
-			"$rtl[$r][$fn[($dash+1)]]",
-			"strlen",
-			"$tl[$r]",
-			"strlen($fn,($dash+1)",
-			"array_keys($tl)[$i]",
-			"array(array",
-			"=> arr",
-			"array(",
-			"llll",
-			"$tl",
-			";",
-			"] = array(",
-			".php",
-			"$r",
-			"r7",
-			"r6",
-			"r2",
-			"$$",
-			"$obn",
-			"          ",
-			"            ",
-			"        ",
-			"\"",
-			"r1-",
-			"r0-",
-			"array_keys($i)",
-			"\"r\"",
-			" ",
-			"  ",
-			"short_open",
-			"short",
-			"\t\t<!-- 꼬리말 시작 -->\n\t\t<footer class=\"text-center mt-5\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col\">\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\tCopyright © Na, geht's? All rights reserved.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</footer>\n\t\t<!-- 꼬리말 끝 -->\n",
-			"    <!-- 꼬리말 시작 -->\n    <footer class=\"text-center mt-5\">\n      <div class=\"container-fluid\">\n        <div class=\"row\">\n          <div class=\"col-12\">\n            <p>\n              Copyright © Na, geht's? All rights reserved.\n            </p>\n          </div>\n        </div>\n      </div>\n    </footer>\n    <!-- 꼬리말 끝 -->\n",
-			".html",
-			"include",
-			"그림에",
-			"좋은",
-			"절에 포함",
-			"(없음)",
-			"없음",
-			"accordionitms",
-			"성경 2.0 - ",
-			"\t\t<link href=\"./css/nestable.css\" rel=\"stylesheet\" type=\"text/css\">\n",
-			"alert(",
-			"alert",
-			"};",
-			"포함",
-			"절에 포함",
-			"(없음)",
-			"절에 포함",
-			"절에 포함\n",
-			"절에 포함",
-			"(없음)",
-			"[0-9] $",
-			" $",
-			"하반절",
-			"(없음)",
-			"(없음)(없음)",
-			"절에 포함",
-			"rev 22:21",
-			"절에 포함)",
-			"절에 포함",
-			"(없음)",
-			"절에 포함",
-			"절에 포ㅎ",
-			"없음)",
-			"없음",
-			"없음)",
-			" $",
-			"없음",
-			"(없음)",
-			" $",
-			"절에 포함",
-			"젅뿉 룷븿",
-			"절에 포함",
-			"절에",
-			"포함)",
-			"포함",
-			"닜",
-			"포함",
-			"deu 65:19",
-			"(",
-			"ㅇ(",
-			"deu",
-			" $",
-			"br",
-			"savedict",
-			"fwrite",
-			"savedict",
-			"filename",
-			"file",
-			"\\n",
-			"=",
-			"+=",
-			"'a'",
-			" \"",
-			", ",
-			",",
-			"^",
-			",",
-			", ",
-			"^[0-9a-zA-Z]*,",
-			", ",
+			"혹은",
+			"<span class=\"tran\">",
+			"addclass",
+			"class=\"tran\">&nbsp;",
+			"<span class=\"tran\">&nbsp;",
+			"<button class=\"btn btn-outline-primary mt-1 mx-1 so itm btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" area-expanded=\"false\" aria-controls=\"collapse",
+			"<div class=\"collapse\" id=\"collapse",
+			"<div class=\"collapse\" id=\"collapseOne\" aria-labelledby=\"heading",
+			"<button class=\"btn btn-outline-primary mt-1 mx-1 so itm btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" area-expanded=\"false\" aria-controls=\"collapseOne\" id=",
+			"<div class=\"card-header\" id=\"headingOne",
+			"headingOne",
+			"<button class=\"btn btn-outline-primary mt-1 mx-1 ",
+			"<button type=\"button\" class=\"mt-1 mx-1 ",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ",
+			"so itm\" id=\"",
+			"<button type=\"button\" class=\"mt",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm\" id=\"",
+			"r2 A4",
+			"r2 A2",
+			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" id=\"",
+			"var iq = $(\"#qst-",
+			"images/Reihe 2/",
+			"<div class=\"col-2\" style=\"min-hegiht:100%;\">",
+			"light",
+			"Register",
+			"username",
+			"Username",
+			"<div class=\"col-2\">",
+			"frameborder=\"0\" width=\"100%\"",
+			" style=\"width:20%;height:100%\">",
+			"col d-block",
+			"<div class=\"col d-block\" style=\"width:100%;height:20%\"",
+			">\");",
+			"\tshow hide show if unread\tshow hide\tremove edit\t Show in IMAP \t ",
+			"\t\tshow hide\tremove edit\t Show in IMAP \t ",
+			"R0_Ordnen_Sie",
+			"<div class=\"col\">\n\t\t\t\t\t\t<table class=\"table table-light text-center\">",
+			"<div class=\"row\">\n\t\t\t\t\t<div class=\"col\">",
+			"<div class=\"col\">",
+			"<div class=\"col",
+			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" id=\"",
 			"$",
-			"^[가-힣]*/",
-			"/[0-9]{3}-",
-			"/[0-9]{2}-",
-			"/[0-9]{1}-",
-			"/[0-9]{1}",
-			"$\n\n",
-			"$\n",
-			"^[0-9]{1}-",
-			"^[0-9]{2}-",
-			"16-",
-			"^[0-9]{2}-",
-			"^[0-1-]*",
-			"\n^[가-힣]*/",
-			"IGNORE"
+			"btn-md",
+			"<div class=\"itm-lst 1itm\" id=\"lst-",
+			"<div class=\"itm-lst 1it",
+			"<th scope=\"row\" class=\"align-middle\"",
+			"btn-lg",
+			"h2",
+			"h1",
+			"h2",
+			"<h2 class=\"btn btn-warning cmp btn-xl ttl d-block\">\n\t\t\t\t\t\t\t\t\t\t\t▼ </h2>",
+			"<div class=\"itm-lst 1itm\" id=\"lst-",
+			"max-width: 100%; height: ",
+			"<div class=\"col\"><img src=\"./images/Reihe 2/Reihe-2-",
+			"r1 U11",
+			"<div class=\"display-4 text-center mb-2\">Dia",
+			"\"));\n",
+			", ",
+			" ,",
+			",",
+			"=>",
+			"x =>",
+			"-",
+			" $",
+			"<div class=\"card-body\">",
+			".ttl",
+			"cm",
+			"<th scope=\"row\" class=\"align-middle\" id=\"",
+			"cm",
+			"<th",
+			"<div class=\"itm-lst 1itm\" ",
+			"itm-lst 1itm cmp",
+			"<h2 class=\"btn btn-warning cmp btn-xl ttl d-block\">",
+			"dbmasteruser",
+			",\n  ),\n  ",
+			"ls-d514cb0d821e4aa2814f960b69347ffa46ba9126.c2qrwqyc2kd3.ap-northeast-2.rds.amazonaws.com",
+			"btn-sm",
+			"tm",
+			"1itm",
+			"lsts",
+			"<h2 class=\"btn btn-warning cmpr",
+			"<h2 class=\"btn btn-warning cmpl",
+			"string",
+			"ul()",
+			"cmp ",
+			"cmpl",
+			".ttl",
+			"cmp ",
+			"st-2\">\n\t\t\t\t\t\t\t\t\t\t\t<h2 class=\"btn btn-warning ",
+			"st-1\">\n\t\t\t\t\t\t\t\t\t\t\t<h2 class=\"btn btn-warning ",
+			"ad",
+			"lst-1",
+			"R0_Ordnen_Sie",
+			"<div class=\"itm-lst 1itm\" id=\"lst-1",
+			"<div class=\"itm-lst 1itm\" id=\"lst-2",
+			"<div class=\"itm-lst 1itm\" id=\"lst-1",
+			"<div class=\"itm-lst 1itm\" id=\"lst-",
+			"attr",
+			"lst",
+			".lst",
+			"lst-1",
+			"<div class=\"itm-lst 1itm\" id=\"lst-1\"",
+			"<th scope=\"row\" class=\"align-middle\">x</th>",
+			"<th scope=\"row\" class=\"align-middle\"",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ansx btn-lg btn-outline-dark so itm\" id=\"",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm\" id=\"",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm\" id=",
+			"dir",
+			"$user",
+			"aria-divledby=\"headingx",
+			"border border-dark border-left-0",
+			"bg-info ",
+			" border-0",
+			"#",
+			"Wie heißen",
+			" class=\"bg-inverse\"",
+			" scope=\"row\"",
+			"<button type=\"button\" id=\"[0-9]\" class=\"so btn btn-secondary\">[0-9]</button>",
+			"<div class=\"collapse\" id=\"collapsex",
+			"aria-controls=\"collapse",
+			"target=\"#collapsex",
+			"id=\"headingx",
+			"Grammatik und Wendungen\"=>\"문법과 표현들\"",
+			"<th class=\"bg-light pop\" ",
+			"<th class=\"bg-light\" scope=\"row\" ",
+			"id=",
+			"<th class=\"bg-light\" scope=\"row\">"
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": true,
+		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			",",
+			"btn-lg",
+			"btn-md",
+			"<h1 class=\"btn btn-warning cmp btn-xl ttl d-block\">\n\t\t\t\t\t\t\t\t\t\t\t▼ </h1>",
+			"\n",
+			"",
+			"btn-lg",
+			"cmpl ",
+			"cmpr ",
+			"cmpr",
+			"cmpl ",
+			"cmpr ",
+			"cmpr",
+			"lst-2",
+			"",
+			"&nbsp;",
+			"th",
+			"btn-lg",
+			"btn-md",
+			"btn-block btn-lg ",
+			"btn-lg",
+			"btn-lg btn-block ",
+			"btn-info pop btn-lg",
+			"-dark btn-lg",
+			"<div class=\"alert alert-danger alert-dismissible fade show\" role=\"alert\">\n\t이 메시지가 사라지면 문제를 푸세요. 계속 안 사라지면 <a href=\"./<?php echo($fn); ?>.php\">여기</a>를 눌러보세요.",
+			"html",
+			"inthebeginning",
+			"'",
+			"\"http://www.nagehts.org/",
+			"http://www.nagehts.org/",
+			"\n",
+			"",
+			":\n",
+			"0;",
+			"pupple",
+			"{black_bold}",
+			":",
+			":\n",
+			";\n",
+			"\n",
+			"{hostname}",
+			"{display_current_user}",
+			"{begin_square}",
+			"{display_date}",
+			"{time12hours}",
+			"{newline}",
+			"",
+			"{begin_square}",
+			"{color_code}",
+			"",
+			"$l aa",
+			"{end_sequence}",
+			"{begin_sequence}",
+			"{newline}",
+			"{displaydate}",
+			"{time12hour}",
+			"[",
+			"",
+			"|",
+			"rtl_k",
+			"www",
+			"nagehts",
+			"7.1",
+			"nagehts",
+			"",
+			"td",
+			"danger",
+			"success",
+			"danger",
+			"collapse1",
+			"collapse2",
+			"collapse3",
+			"collapse4",
+			"collapse5",
+			"collapse6",
+			"collapse7",
+			"collapse8",
+			"heading8",
+			"heading7",
+			"heading6",
+			"heading5",
+			"heading4",
+			"heading3",
+			"heading2",
+			"heading1",
+			"accordionitms3",
+			"accordionitms2",
+			"success",
+			"images",
 			"(array",
 			"",
 			",",
@@ -1006,96 +1115,7 @@
 			"\n",
 			"",
 			" ",
-			"",
-			",",
-			"\n,",
-			"\n",
-			"accordionitms5",
-			"accordionitms4",
-			"accordionitms3",
-			"accordionitms2",
-			"accordionitms1",
-			" 선생님",
-			"",
-			"Copyright © Na, geht's? All rights reserved.",
-			"Twelve",
-			"Eleven",
-			"Ten",
-			"Nine",
-			"Eight",
-			"Seven",
-			"Six",
-			"Five",
-			"Four",
-			"Three",
-			"so",
-			"G1",
-			"\t\t<link href=\"./css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\">\n\t\t<link href=\"./css/global.css\" rel=\"stylesheet\" type=\"text/css\">",
-			"<link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\">",
-			"btn btn-outline-dark mt-1 mx-1 itm",
-			"card col mx-0",
-			"btn btn-outline-dark mt-1 itm",
-			"btn btn-outline-dark mt-1 mx-1 itm",
-			"div class=\"card col\"",
-			"btn btn-outline-danger mt-1 mx-1 itm",
-			"btn btn-outline-danger mt-1 mx-1 itm btn-inline",
-			"div class=\"card col\"",
-			"-dark",
-			"r1-Zahlen(1-10).html",
-			"Eleven",
-			"Twelve",
-			"Eleven",
-			"Ten",
-			"Nine",
-			"Eight",
-			"Seven",
-			"Six",
-			"r1 B3",
-			"col-3",
-			"col-6",
-			"col-3",
-			"col-4",
-			"col-8",
-			"col-3",
-			"col-6",
-			"col-4",
-			"r1 B4",
-			"btn btn-warning btn-xl ttl d-block",
-			"<link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\">\n<link href=\"./css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\">",
-			",",
-			"",
-			"\n",
-			",",
-			"\n,",
-			"\n",
-			"<div class=\"row\"",
-			"\\\\",
-			"so itm",
-			"itm so",
-			"btn btn-outline-primary my-2 btn-lg itm",
-			"rounded-circle itm",
-			"\" class=\"itm\"><h4>",
-			": [,],",
-			"0",
-			",",
-			"\n",
-			"/",
-			";",
-			"\n",
-			",",
-			"\n\n",
-			"\n",
-			"btn-xl",
-			"",
-			"my-4 mx-1",
-			"png\" class=\"ttl\"",
-			"",
-			"100%",
-			"100%\n",
-			"150%",
-			"",
-			"max-width: 100%; height: auto;",
-			"mx-1\""
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1111,19 +1131,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "nav.php",
+					"file": "r0-Alphabet.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12044,
+						"buffer_size": 20086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1479,
-								1479
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1136,298 +1156,8 @@
 								{
 									"1":
 									[
-										1488,
-										1489
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1470,
-										1471
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1488,
-										1489
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1470,
-										1471
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"incomplete_sync": null,
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "inhalt.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								425,
-								1395
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1395,
-										1396
+										19130,
+										19131
 									]
 								},
 								"icon":
@@ -1442,56 +1172,16 @@
 								{
 									"1":
 									[
-										424,
-										425
+										19066,
+										19067
 									]
 								},
 								"unmatched":
 								{
 								}
 							},
-							"bracket_highlighter.regions":
+							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1506,14 +1196,141 @@
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										28,
+										30
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										2
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"incomplete_sync": null,
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
 							"remote_loading": false,
+							"sftp_new_server": true,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1528,7 +1345,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1543,18 +1360,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1592,7 +1402,7 @@
 	"project": "Nagehts.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 48.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1634,7 +1444,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1642,7 +1452,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 199.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

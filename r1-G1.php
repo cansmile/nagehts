@@ -6,21 +6,6 @@
 			.itm-lst>button.so:after {content: "!";}
 		</style>
 <?php include "nav.php"; ?>
-		<header>
-			<div class="jumbotron">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="display-4">1. Begrüßung</h1>
-							<h2>
-								인사
-							</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->

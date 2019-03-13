@@ -1,24 +1,6 @@
 <?php include "header.php"; ?>
   <body>
 <?php include "nav.php"; ?>   
-    
-    
-
-<header>
-  <div class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-        <h1 class="mt-5 display-4">Reihe 9</h1>
-        <h2>Feste! Feste!</h2>
-        <p>&nbsp;</p>
-        <p>독일의 축제와 풍습·축일과 관련된 인사하기·시간정보·한국과 독일의 생일파티문화·선물·초대장 쓰기</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
 <!--이정표 시작-->
     <section>
       <div class="container">

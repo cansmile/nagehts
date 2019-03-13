@@ -1,23 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>	  
-
-		<header>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="row">
-						<div class="text-center col-12">
-							<h1 class="mt-5 display-4">Reihe 1</h1>
-							<h2> Wie heißen Sie? </h2>
-							<p>
-								이름이 어떻게 되시나요?
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
 		<!--이정표 시작-->
 		<section>
 			<div class="container">

@@ -17,146 +17,18 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-				<div class="accordion" id="accordionitms1">
-					<div class="display-4 text-center mb-2">Dialog 1</div>
-					<div class="card">
-						<div class="card-header" id="heading1">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
-									Ich heiße Martin <span class="btn btn-outline-dark btn-sm">①</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms1">
-							<div class="card-body">저는 마틴이에요 <span class="btn btn-outline-dark btn-sm">①</span></div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="heading2">
-							<h5 class="mb-0">
-							<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
-									Und wie heißt du <span class="btn btn-outline-dark btn-sm">②</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms1">
-							<div class="card-body">당신은요 <span class="btn btn-outline-dark btn-sm">②</span></div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="heading3">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
-									Tim <span class="btn btn-outline-dark btn-sm">③</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms1">
-							<div class="card-body">팀 <span class="btn btn-outline-dark btn-sm">③</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-				<div class="accordion" id="accordionitms2">
-					<div class="display-4 text-center mb-2">Dialog 2</div>
-					<div class="card">
-						<div class="card-header" id="heading4">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-success mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
-									Wie heißen Sie <span class="btn btn-outline-dark btn-sm">④</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms2">
-							<div class="card-body">당신의 이름은 무엇인가요 <span class="btn btn-outline-dark btn-sm">④</span></div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="heading5">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-success mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
-									Mein Name ist Sauer <span class="btn btn-outline-dark btn-sm">⑤</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms2">
-							<div class="card-body">저의 이름은 자우어에요 <span class="btn btn-outline-dark btn-sm">⑤</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-				<div class="accordion" id="accordionitms3">
-					<div class="display-4 text-center mb-2">Dialog 3</div>
-					<div class="card">
-						<div class="card-header" id="heading6">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse6" area-expanded="false" aria-controls="collapse6" id="6">
-									Ich heiße Esswein <span class="btn btn-outline-dark btn-sm">⑥</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse6" aria-divledby="heading6" data-parent="#accordionitms3">
-							<div class="card-body">제 이름은 에쓰바인이에요 <span class="btn btn-outline-dark btn-sm">⑥</span></div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="heading7">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse7" area-expanded="false" aria-controls="collapse7" id="7">
-									Und Sie <span class="btn btn-outline-dark btn-sm">⑦</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse7" aria-divledby="heading7" data-parent="#accordionitms3">
-							<div class="card-body">당신은요 <span class="btn btn-outline-dark btn-sm">⑦</span></div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="heading8">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapse8" area-expanded="false" aria-controls="collapse8" id="8">
-									Anna, Anna Kim <span class="btn btn-outline-dark btn-sm">⑧</span>
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapse8" aria-divledby="heading8" data-parent="#accordionitms3">
-							<div class="card-body">안나, 안나 킴이에요 <span class="btn btn-outline-dark btn-sm">⑧</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 정답화인 버튼 시작 -->
-		<div class="row">
-			<div class="my-3 col-sm-12 col-md-12 col-lg-12" id="qst">
-				<table class="table table-light">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table">
 					<thead>
 						<tr>
-							<th scope="col">&nbsp;</th>
-							<th scope="col" colspan="3" class="text-center border border-dark border-bottom-0">Dialog 1</th>
-							<th scope="col" colspan="2" class="text-center border border-dark border-bottom-0">Dialog 2</th>
-							<th scope="col" colspan="3" class="text-center border border-dark border-bottom-0">Dialog 3</th>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4">Dialog 1</p></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row">Q</th>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-right-0">①</td>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">②</td>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-left-0">③</td>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-right-0">④</td>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-left-0">⑤</td>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-right-0">⑥</td>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">⑦</td>
-							<td class="text-center border border-dark border-top-0 border-bottom-0 border-left-0">⑧</td>
-						</tr>
-						<tr>
-							<th scope="row">A</th>
-							<td class="text-center border border-dark border-top-0 border-right-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
+							<th scope="row"><button type="button" id="1" class="so btn btn-outline-primary">1</button></th>
+							<td>
+								Ich heiße Martin<span class="nu">①</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option1" autocomplete="off">.
 									</div>
@@ -164,9 +36,14 @@
 										<input type="radio" name="options" id="option2" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>저는 마틴이에요<span class="nu">①</span></small></span>
 							</td>
-							<td class="text-center border border-dark border-top-0 border-left-0 border-right-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="2" class="so btn btn-outline-primary">2</button></th>
+							<td>
+								Und wie heißt du<span class="nu">②</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option3" autocomplete="off">.
 									</div>
@@ -174,9 +51,14 @@
 										<input type="radio" name="options" id="option4" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>당신은요<span class="nu">②</span></small></span>
 							</td>
-							<td class="text-center border border-dark border-top-0 border-left-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">3</button></th>
+							<td>
+								Tim<span class="nu">③</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option5" autocomplete="off">.
 									</div>
@@ -184,9 +66,23 @@
 										<input type="radio" name="options" id="option6" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>팀<span class="nu">③</span></small></span>
 							</td>
-							<td class="text-center border border-dark border-top-0 border-right-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
+						</tr>
+					</tbody>
+				</table></div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table">
+					<thead>
+						<tr>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4">Dialog 2</p></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="4" class="so btn btn-outline-success">1</button></th>
+							<td>
+								Wie heißen Sie<span class="nu">④</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option7" autocomplete="off">.
 									</div>
@@ -194,9 +90,14 @@
 										<input type="radio" name="options" id="option8" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>당신의 이름은 무엇인가요<span class="nu">④</span></small></span>
 							</td>
-							<td class="text-center border border-dark border-left-0 border-top-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="5" class="so btn btn-outline-info">2</button></th>
+							<td>
+								Mein Name ist Sauer<span class="nu">⑤</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-5">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option9" autocomplete="off">.
 									</div>
@@ -204,9 +105,23 @@
 										<input type="radio" name="options" id="option10" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>저의 이름은 자우어에요<span class="nu">⑤</span></small></span>
 							</td>
-							<td class="text-center border border-dark border-right-0 border-top-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
+						</tr>
+					</tbody>
+				</table></div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table">
+					<thead>
+						<tr>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4">Dialog 3</p></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="6" class="so btn btn-outline-danger">1</button></th>
+							<td>
+								Ich heiße Esswein<span class="nu">⑥</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-6">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option13" autocomplete="off">.
 									</div>
@@ -214,9 +129,14 @@
 										<input type="radio" name="options" id="option14" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>제 이름은 에쓰바인이에요<span class="nu">⑥</span></small></span>
 							</td>
-							<td class="text-center border border-dark border-left-0 border-right-0 border-top-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="7" class="so btn btn-outline-danger">2</button></th>
+							<td>
+								Und Sie<span class="nu">⑦</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-7">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option15" autocomplete="off">.
 									</div>
@@ -224,9 +144,14 @@
 										<input type="radio" name="options" id="option16" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>당신은요<span class="nu">⑦</span></small></span>
 							</td>
-							<td class="text-center border border-dark border-left-0 border-top-0">
-								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="8" class="so btn btn-outline-primary">3</button></th>
+							<td>
+								Anna, Anna Kim<span class="nu">⑧</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-8">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option17" autocomplete="off">.
 									</div>
@@ -234,11 +159,14 @@
 										<input type="radio" name="options" id="option18" autocomplete="off">?
 									</div>
 								</div>
+								<span class="tran"><br><small>안나, 안나 킴이에요<span class="nu">⑧</span></small></span>
 							</td>
 						</tr>
 					</tbody>
-				</table>
-			</div>
+				</table></div>
+		</div>
+		<!-- 정답화인 버튼 시작 -->
+		<div class="row">
 			<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
 				정답확인
 			</div>
@@ -260,7 +188,8 @@
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
-			$(".collapse").collapse("hide");
+			$(".tran").hide();
+			$(".nu").hide();
 
 			$(document).ready(function() {
 
@@ -363,37 +292,32 @@
 						} else {
 							$(this).addClass("btn-light");
 						};
-
-						
 					});
-
+					$(".tran").show();
+					$(".nu").show();
+					$(".q").hide();
+					
 					$("span").each(function () {
 						if($(this).text() == "①") {
-							$(this).parent().append($("#qst-1>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-1>div.o").text();
 						} else if($(this).text() == "②") {
-							$(this).parent().append($("#qst-2>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-2>div.o").text();
 						} else if($(this).text() == "③") {
-							$(this).parent().append($("#qst-3>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-3>div.o").text();
 						} else if($(this).text() == "④") {
-							$(this).parent().append($("#qst-4>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-4>div.o").text();
 						} else if($(this).text() == "⑤") {
-							$(this).parent().append($("#qst-5>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-5>div.o").text();
 						} else if($(this).text() == "⑥") {
-							$(this).parent().append($("#qst-6>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-6>div.o").text();
 						} else if($(this).text() == "⑦") {
-							$(this).parent().append($("#qst-7>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-7>div.o").text();
 						} else if($(this).text() == "⑧") {
-							$(this).parent().append($("#qst-8>div.o").text());
-							$(this).remove();
+							var tt = $("#qst-8>div.o").text();
 						}
+					$(this).text(tt);
 					});
+
 
 					$(this).removeClass("btn-light ");
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {

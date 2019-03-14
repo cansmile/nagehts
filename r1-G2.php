@@ -57,176 +57,153 @@
 			</div>
 			<div class="row">
 				<div class="col-auto">
-					<div class="accordion" id="accordionitms1">
-						<div class="display-4 text-center mb-2 so" id="18">Dialog 1</div>
-						<div class="card">
-							<div class="card-header" id="headingOne">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="6">
-										Auf Wiedersehen!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms1">
-								<div class="card-body">안녕히 가세요!</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingTwo">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-info mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="7">
-										Auf Wiedersehen!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms1">
-								<div class="card-body">안녕히 가세요!</div>
-							</div>
-						</div>
-					</div>
-				</div>
+					<table class="table">
+					<thead>
+						<tr>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="18">Dialog 1</p></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="6" class="so btn btn-outline-primary">1</button></th>
+							<td>
+								Auf Wiedersehen!
+								<span class="tran"><br><small>안녕히 계세요!</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="7" class="so btn btn-outline-success">2</button></th>
+							<td>
+								Auf Wiedersehen!
+								<span class="tran"><br><small>안녕히 계세요!</small></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 				<div class="col-auto">
-					<div class="accordion" id="accordionitms2">
-						<div class="display-4 text-center mb-2 so" id="19">Dialog 2</div>
-						<div class="card">
-							<div class="card-header" id="headingThree">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="8">
-										Tschüs, Eva! Ich habe dich lieb!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms2">
-								<div class="card-body">잘가, 에바! 사랑해!</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingFour">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="9">
-										Tschüs, Tim! Ich liebe dich auch! Gute Reise!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms2">
-								<div class="card-body">안녕, 팀! 나도 사랑해! 여행 잘해!</div>
-							</div>
-						</div>
-					</div>
-				</div>
+					<table class="table">
+					<thead>
+						<tr>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="19">Dialog 2</p></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="8" class="so btn btn-outline-primary">1</button></th>
+							<td>
+								Tschüs, Eva! Ich habe dich lieb!
+								<span class="tran"><br><small>잘가, 에바! 사랑해!</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="9" class="so btn btn-outline-success">2</button></th>
+							<td>
+								Tschüs, Tim! Ich liebe dich auch! Gute Reise!
+								<span class="tran"><br><small>안녕, 팀! 나도 사랑해! 여행 잘해!</small></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 				<div class="col-auto">
-					<div class="accordion" id="accordionitms3">
-						<div class="display-4 text-center mb-2 so" id="20">Dialog 3</div>
-						<div class="card">
-							<div class="card-header" id="headingFive">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseFive" area-expanded="false" aria-controls="collapseFive" id="10">
-										Guten Tag, Frau Kim!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionitms3">
-								<div class="card-body">안녕하세요, 김 선생님.</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingSix">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseSix" area-expanded="false" aria-controls="collapseSix" id="11">
-										Guten Tag, Herr Cho!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionitms3">
-								<div class="card-body">안녕하세요, 조 선생님!</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingSeven">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseSeven" area-expanded="false" aria-controls="collapseSeven" id="12">
-										Willkommen in Dresden! Das ist für Sie!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms3">
-								<div class="card-body">드레스덴에 오신 것을 환영해요! 이거 받으세요!</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingEight">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseEight" area-expanded="false" aria-controls="collapseEight" id="13">
-										Oh, Danke. Das ist nett!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionitms3">
-								<div class="card-body">오, 고마워요. 정말 친절하시네요!</div>
-							</div>
-						</div>
-					</div>
-				</div>
+					<table class="table">
+					<thead>
+						<tr>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="20">Dialog 3</p></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="10" class="so btn btn-outline-primary">1</button></th>
+							<td>
+								Guten Tag, Frau Kim!
+								<span class="tran"><br><small>안녕하세요, 김 선생님.</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="11" class="so btn btn-outline-success">2</button></th>
+							<td>
+								Guten Tag, Herr Cho!
+								<span class="tran"><br><small>안녕하세요, 조 선생님!</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="12" class="so btn btn-outline-primary">3</button></th>
+							<td>
+								Willkommen in Dresden! Das ist für Sie!
+								<span class="tran"><br><small>드레스덴에 오신 것을 환영해요! 이거 받으세요!</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="13" class="so btn btn-outline-success">4</button></th>
+							<td>
+								Oh, Danke. Das ist nett!
+								<span class="tran"><br><small>오, 고마워요. 정말 친절하시네요!</small></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 				<div class="col-auto">
-					<div class="accordion" id="accordionitms4">
-						<div class="display-4 text-center mb-2 so" id="21">Dialog 4</div>
-						<div class="card">
-							<div class="card-header" id="headingNine">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseNine" area-expanded="false" aria-controls="collapseNine" id="14">
-										Hallo, Julia!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionitms4">
-								<div class="card-body">안녕, 율리아!</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingTen">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseTen" area-expanded="false" aria-controls="collapseTen" id="15">
-										Hallo, Martin! Lange nicht gesehen.
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionitms4">
-								<div class="card-body">안녕, 마틴! 오랫만이다.</div>
-							</div>
-						</div>
-					</div>
-				</div>
+					<table class="table">
+					<thead>
+						<tr>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="21">Dialog 4</p></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="14" class="so btn btn-outline-primary">1</button></th>
+							<td>
+								Hallo, Julia!
+								<span class="tran"><br><small>안녕, 율리아!</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="15" class="so btn btn-outline-success">2</button></th>
+							<td>
+								Hallo, Martin! Lange nicht gesehen.
+								<span class="tran"><br><small>안녕, 마틴! 오랫만이다.</small></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 				<div class="col-auto">
-					<div class="accordion" id="accordionitms5">
-						<div class="display-4 text-center mb-2 so" id="22">Dialog 5</div>
-						<div class="card">
-							<div class="card-header" id="headingEleven">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-primary mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseEleven" area-expanded="false" aria-controls="collapseEleven" id="16">
-										Mama! Mama!
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseEleven" aria-labelledby="headingEleven" data-parent="#accordionitms5">
-								<div class="card-body">엄마, 엄마!</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingTwelve">
-								<h5 class="mb-0">
-									<button class="btn btn-outline-danger mt-1 mx-1 so btn-block" type="button" data-toggle="collapse" data-target="#collapseTwelve" area-expanded="false" aria-controls="collapseTwelve" id="17">
-										Oh, Mein Schatz! Hast du Hunger?
-									</button>
-								</h5>
-							</div>
-							<div class="collapse" id="collapseTwelve" aria-labelledby="headingTwelve" data-parent="#accordionitms5">
-								<div class="card-body">오, 우리 강아지! 배고프니?</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>			
+					<table class="table">
+					<thead>
+						<tr>
+							<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="22">Dialog 5</p></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="16" class="so btn btn-outline-primary">1</button></th>
+							<td>
+								Mama! Mama!
+								<span class="tran"><br><small>엄마, 엄마!</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="17" class="so btn btn-outline-success">2</button></th>
+							<td>
+								Oh, Mein Schatz! Hast du Hunger?
+								<span class="tran"><br><small>오, 우리 강아지! 배고프니?</small></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
+		<!-- 정답화인 버튼 시작 -->
+		<div class="row">
+			<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+				정답확인
+			</div>
+		</div>
+		<!-- 정답확인 버튼 끝 -->
+
 	</div>
 </section>
 		
@@ -244,6 +221,7 @@
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
+			$(".tran").hide();
 			$(".collapse").collapse("hide");
 
 			$(document).ready(function() {
@@ -304,28 +282,61 @@
 								$("#0").show();
 								$(this).hide();
 							} else if($(this).attr("id") == 0) {
-										//_p 붙어 있지 않으면 id 그대로 재생
-										ion.sound.play("r1 U2", {
-											part: $(this).attr("id")
-										});
+								//_p 붙어 있지 않으면 id 그대로 재생
+								ion.sound.play("r1 U2", {
+									part: $(this).attr("id")
+								});
 							} else {
-								if($(this).parent()[0].tagName == "H5") {
-									var ch = "#collapse"+$(this).closest(".card-header").attr("id").substr(7);
-								}
-									if(!$(ch).hasClass("show") || !$(this).hasClass("btn-secondary")) {
-										// _p 붙어 있지 않으면 id 그대로 재생
-										ion.sound.play("r1 U2", {
-											part: $(this).attr("id")
-										});
-									}
-								};
-								
+								// _p 붙어 있지 않으면 id 그대로 재생
+								ion.sound.play("r1 U2", {
+									part: $(this).attr("id")
+								});
+							}
 								// 전체 듣기 재생일 때는 일시정지 버튼 보이기
 								if($(this).attr("id") == "0") {
 									$(this).hide();
 									$("#0_p").show();
 								};
 							});
+
+									// 정답확인
+			$("#chk").on("click", function() {
+				if ($("#itms").find("button").length > 0) {
+					var na = "";
+					$(".itm").each(function() {
+						if ($(this).parent("#itms").length) {
+							if (na != "") {
+								na += ", ";
+							}
+							na += $(this).attr("id");
+						};
+					});
+
+					alert(na + "번 항목을 넣어주세요.");
+				} else {
+					$(".pop").each(function() {
+						$(this).removeClass("btn-info");
+
+						if ($(this).hasClass("o") && $(this).hasClass("an")) {
+							$(this).removeClass("btn-warning");
+							$(this).addClass("btn-success");
+						} else if ($(this).hasClass("o")) {
+							$(this).addClass("btn-primary");
+						} else if ($(this).hasClass("an")) {
+							$(this).addClass("btn-warning");
+						} else {
+							$(this).addClass("btn-light");
+						};
+					});
+					$(".tran").show();
+
+					$(this).removeClass("btn-light ");
+					$(this).html("<h4>문제를 모두 맞추셨네요!<br>훌륭합니다!</h4>");
+					$(this).addClass("btn-primary");
+
+				};
+			});
+
 					// 준비되면 HV 보이기
 					$("#0").show();
 					$(".alert").hide();

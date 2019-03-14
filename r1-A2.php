@@ -61,13 +61,13 @@
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 itm" id="4">
 						Hallo!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 itm" id="5">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 itm" id="5">
 						Tschüs!
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 itm" id="6">
 						Gute Nacht!
 					</button>
-					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 itm" id="7">
+					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 itm" id="7">
 						Auf Wiedersehen!
 					</button>
 				</div>

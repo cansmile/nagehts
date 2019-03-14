@@ -55,55 +55,27 @@
 							</button>
 							</p>
 				</div>
-				<div class="accordion" id="accordionitms">
-					<div class="card">
-						<div class="card-header" id="headingOne">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
-									Guten Tag! Wie <span class="btn btn-outline-dark btn-sm">①</span> Sie?
-								</button>
-							</h5>
-						</div>
-					</div>
-					<div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms">
-						<div class="card-body">안녕하세요! 당신의 이름은 무엇인가요?</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingTwo">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
-									Guten Tag! Ich <span class="btn btn-outline-dark btn-sm">②</span> Kim.
-								</button>
-							</h5>
-						</div>
-					</div>
-					<div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms">
-						<div class="card-body">안녕하세요! 저는 김이라고 해요.</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingThree">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
-									Freut mich! Und wie <span class="btn btn-outline-dark btn-sm">③</span> Ihr Name?
-								</button>
-							</h5>
-						</div>
-					</div>
-					<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
-						<div class="card-body">반가워요! 그러면 당신의 이름은 무엇인가요?</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingFour">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
-									Mein Name <span class="btn btn-outline-dark btn-sm">④</span> Sauer, Eva Sauer.
-								</button>
-							</h5>
-						</div>
-					</div>
-					<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
-						<div class="card-body">제 이름은 자우어에요, 에바 자우어.</div>
-					</div>
+				<div class="col">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td><button type="button" id="1" class="itm btn btn-outline-danger">1</button></td>
+								<td>Guten Tag! Wie <span class="nu">①</span> Sie?<span class="tran"><br><small>안녕하세요! 당신의 이름은 무엇인가요?</small></span></td>
+							</tr>
+							<tr>
+								<td><button type="button" id="2" class="itm btn btn-outline-primary">2</button></td>
+								<td>Guten Tag! Ich <span class="nu">②</span> Kim.<span class="tran"><br><small>안녕하세요! 저는 김이라고 해요.</small></span></td>
+							</tr>
+							<tr>
+								<td><button type="button" id="3" class="itm btn btn-outline-primary">3</button></td>
+								<td>Freut mich! Und wie <span class="nu">③</span> Ihr Name?<span class="tran"><br><small>반가워요! 그러면 당신의 이름은 무엇인가요?</small></span></td>
+							</tr>
+							<tr>
+								<td><button type="button" id="4" class="itm btn btn-outline-danger">4</button></td>
+								<td>Mein Name <span class="nu">④</span> Sauer, Eva Sauer.<span class="tran"><br><small>제 이름은 자우어에요, 에바 자우어.</small></span></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 
 				<!--문제 시작-->
@@ -211,7 +183,7 @@
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
-			$(".collapse").collapse("hide");
+			$(".tran").hide();
 
 			$(document).ready(function() {
 
@@ -253,20 +225,9 @@
 								$("#0").show();
 								$(this).hide();
 							} else {
-								if($(this).attr("id") != 0) {
-								var ch = "#collapse"+$(this).closest(".card-header").attr("id").substr(7);
-									if(!$(ch).hasClass("show")) {
-										// _p 붙어 있지 않으면 id 그대로 재생
-										ion.sound.play("r1 B1", {
-											part: $(this).attr("id")
-										});
-									}
-								} else {
-										//_p 붙어 있지 않으면 id 그대로 재생
-										ion.sound.play("r1 B1", {
-											part: $(this).attr("id")
-										});
-								}
+								ion.sound.play("r1 B1", {
+									part: $(this).attr("id")
+								});
 								
 								// 전체 듣기 재생일 때는 일시정지 버튼 보이기
 								if($(this).attr("id") == "0") {
@@ -345,21 +306,18 @@
 
 					$("span").each(function () {
 						if($(this).text() == "①") {
-							var iq = $("#qst-1>div.o").text().substring(3);
+							var iq = $("#qst-1>div.o").text();
 						} else if($(this).text() == "②") {
-							var iq = $("#qst-2>div.o").text().substring(3);
+							var iq = $("#qst-2>div.o").text();
 						} else if($(this).text() == "③") {
-							var iq = $("#qst-3>div.o").text().substring(3);
+							var iq = $("#qst-3>div.o").text();
 						} else if($(this).text() == "④") {
-							var iq = $("#qst-4>div.o").text().substring(3);
+							var iq = $("#qst-4>div.o").text();
 						}
-
-						if($(this).hasClass("btn")) {
-							$(this).text(iq);
-							$(this).removeClass("btn btn-outline-dark btn-sm");
-							$(this).addClass("font-weight-bold");
-						}
+						$(this).text(iq);
+						$(this).addClass("font-weight-bold");
 					});
+					$(".tran").show();
 
 					$(this).removeClass("btn-light ");
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {

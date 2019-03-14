@@ -144,11 +144,28 @@
 	"buffers":
 	[
 		{
-			"file": "r0-Alphabet.php",
+			"file": "r1-G2.php",
 			"settings":
 			{
-				"buffer_size": 20086,
+				"buffer_size": 15865,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "※ 저작권법 관점에서 본 중고거래\n\t- 개인의 경우 사적으로 이용하던 제품을 다른 사람에게 주는 것으로 이해하여 대부분 허용\n\t- 사업의 영역에서는 대부분의 경우 허용하지 않는다.\n\t\t- 저작권법적으로는 이러한 적용이 불분명한 경우(일일하게 MS에서 검사할 수 없음)\n\n\t그래서 약관을 살펴보고 이에 위반이 되는지 확인을 해야 함\n\n※ 리테일러의 정의\n\t- MS에서 구매를 하는 관계에서는 MS가 리테일러\n\t- \n\n※ 저작권법 고소 후 수사 가능\n\t- 이전에는 친고죄였으나 지금은 아님\n\n※ MS에서 물을 수 있는 책임은 민사\n\t- 사용금지, 손해배상\n\n※ MS 약관에서의 명시된 사용권\n\t- 최초 구매한(MS로부터 또는 총판에서) 사람에게 사용권이 있고, 그 사람이 다른 이에게 판매한 경우 구매자는 사용권이 없음.\n\n20190314 110417\n20190314 111343 갱신\n",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Windows",
+				"name": "※ 저작권법 관점에서 본 중고거래"
+			}
+		},
+		{
+			"contents": "<?php include \"header.php\"; ?>\n\t<body>\n<?php include \"nav.php\"; ?>\n<!-- 알림 시작 -->\n<?php require_once \"ready.php\"; ?>\n<!-- 알림 끝 -->\n\t\t<section>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"col-lg-12 mb-4 mt-2 text-center\">\n\t\t\t\t\t\t<h2>Hören Sie und ordnen Sie zu.\n\t\t\t\t\t\t\t<small> 듣고 그림과 내용을 연결해 보세요.</small>\n\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-primary ml-2 btn-inline so\" id=\"0\">\n\t\t\t\t\t\t\tHV\n\t\t\t\t\t\t</button><button type=\"button\" class=\"btn btn-primary ml-2 btn-inline so\" id=\"0_p\">\n\t\t\t\t\t\t\t❚❚\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</h2>\n\t\t\t\t</div>\n\t\t\t\t<!-- 고르는 아이템들 -->\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"mb col-xs-12 col-sm-12 col-md-12 col-lg-12\" id=\"itms\">\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm\" id=\"1\">\n\t\t\t\t\t\t\t<div class=\"display-4\">1</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm\" id=\"2\">\n\t\t\t\t\t\t\t<div class=\"display-4\">2</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm\" id=\"3\">\n\t\t\t\t\t\t\t<div class=\"display-4\">3</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm\" id=\"4\">\n\t\t\t\t\t\t\t<div class=\"display-4\">4</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm\" id=\"5\">\n\t\t\t\t\t\t\t<div class=\"display-4\">5</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t<!-- 리스트  시작 -->\n\t\t\t<div class=\"row mt-2\" id=\"lsts\">\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-1\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-1.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-2\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-2.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-3\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-3.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-4\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-4.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-5\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-5.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms1\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"18\">Dialog 1</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingOne\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" area-expanded=\"false\" aria-controls=\"collapseOne\" id=\"6\">\n\t\t\t\t\t\t\t\t\t\tAuf Wiedersehen!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseOne\" aria-labelledby=\"headingOne\" data-parent=\"#accordionitms1\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕히 가세요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingTwo\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-info mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" area-expanded=\"false\" aria-controls=\"collapseTwo\" id=\"7\">\n\t\t\t\t\t\t\t\t\t\tAuf Wiedersehen!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseTwo\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionitms1\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕히 가세요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms2\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"19\">Dialog 2</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingThree\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" area-expanded=\"false\" aria-controls=\"collapseThree\" id=\"8\">\n\t\t\t\t\t\t\t\t\t\tTschüs, Eva! Ich habe dich lieb!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseThree\" aria-labelledby=\"headingThree\" data-parent=\"#accordionitms2\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">잘가, 에바! 사랑해!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingFour\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseFour\" area-expanded=\"false\" aria-controls=\"collapseFour\" id=\"9\">\n\t\t\t\t\t\t\t\t\t\tTschüs, Tim! Ich liebe dich auch! Gute Reise!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseFour\" aria-labelledby=\"headingFour\" data-parent=\"#accordionitms2\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕, 팀! 나도 사랑해! 여행 잘해!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms3\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"20\">Dialog 3</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingFive\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseFive\" area-expanded=\"false\" aria-controls=\"collapseFive\" id=\"10\">\n\t\t\t\t\t\t\t\t\t\tGuten Tag, Frau Kim!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseFive\" aria-labelledby=\"headingFive\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕하세요, 김 선생님.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingSix\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseSix\" area-expanded=\"false\" aria-controls=\"collapseSix\" id=\"11\">\n\t\t\t\t\t\t\t\t\t\tGuten Tag, Herr Cho!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseSix\" aria-labelledby=\"headingSix\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕하세요, 조 선생님!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingSeven\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseSeven\" area-expanded=\"false\" aria-controls=\"collapseSeven\" id=\"12\">\n\t\t\t\t\t\t\t\t\t\tWillkommen in Dresden! Das ist für Sie!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseSeven\" aria-labelledby=\"headingSeven\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">드레스덴에 오신 것을 환영해요! 이거 받으세요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingEight\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseEight\" area-expanded=\"false\" aria-controls=\"collapseEight\" id=\"13\">\n\t\t\t\t\t\t\t\t\t\tOh, Danke. Das ist nett!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseEight\" aria-labelledby=\"headingEight\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">오, 고마워요. 정말 친절하시네요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms4\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"21\">Dialog 4</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingNine\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseNine\" area-expanded=\"false\" aria-controls=\"collapseNine\" id=\"14\">\n\t\t\t\t\t\t\t\t\t\tHallo, Julia!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseNine\" aria-labelledby=\"headingNine\" data-parent=\"#accordionitms4\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕, 율리아!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingTen\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTen\" area-expanded=\"false\" aria-controls=\"collapseTen\" id=\"15\">\n\t\t\t\t\t\t\t\t\t\tHallo, Martin! Lange nicht gesehen.\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseTen\" aria-labelledby=\"headingTen\" data-parent=\"#accordionitms4\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕, 마틴! 오랫만이다.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms5\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"22\">Dialog 5</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingEleven\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseEleven\" area-expanded=\"false\" aria-controls=\"collapseEleven\" id=\"16\">\n\t\t\t\t\t\t\t\t\t\tMama! Mama!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseEleven\" aria-labelledby=\"headingEleven\" data-parent=\"#accordionitms5\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">엄마, 엄마!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingTwelve\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwelve\" area-expanded=\"false\" aria-controls=\"collapseTwelve\" id=\"17\">\n\t\t\t\t\t\t\t\t\t\tOh, Mein Schatz! Hast du Hunger?\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseTwelve\" aria-labelledby=\"headingTwelve\" data-parent=\"#accordionitms5\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">오, 우리 강아지! 배고프니?</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\t\t\t\n\t\t</div>\n\t</div>\n</section>\n\t\t\n\n\t\t\n<?php include \"footer.php\"; ?>\n\t\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t\t<script src=\"./js/jquery-3.3.1.min.js\"></script>\n\t\t<!-- Include all compiled plugins (below), or include individual files as needed -->\n\t\t<script src=\"./js/popper.min.js\"></script>\n\t\t<script src=\"./js/bootstrap.js\"></script>\n\t\t<!-- interact.min.js -->\n\t\t<script src=\"./js/taptogroup.js\"></script>\n\t\t<script src=\"./js/ion.sound.min.js\"></script>\n\t\t<script>\n\t\t\t$(\"#0\").hide();\n\t\t\t$(\"#0_p\").hide();\n\t\t\t$(\".collapse\").collapse(\"hide\");\n\n\t\t\t$(document).ready(function() {\n\n\t\t\t\tion.sound({\n\t\t\t\t\tsounds : [{\n\t\t\t\t\t\tname : \"r1 U2\",\n\n\t\t\t\t\t\tsprite : {\n\t\t\t\t\t\t\t\"0\": [4.9,80.9],\n\t\t\t\t\t\t\t\"1\": [8.7,7.7],\n\t\t\t\t\t\t\t\"2\": [18.8,15.7],\n\t\t\t\t\t\t\t\"3\": [40.4,19],\n\t\t\t\t\t\t\t\"4\": [61.5,11.6],\n\t\t\t\t\t\t\t\"5\": [75.1,10],\n\t\t\t\t\t\t\t\"6\": [11.2,1.6],\n\t\t\t\t\t\t\t\"7\": [14.5,2],\n\t\t\t\t\t\t\t\"8\": [22.1,3.2],\n\t\t\t\t\t\t\t\"9\": [29.2,4.5],\n\t\t\t\t\t\t\t\"10\": [40.4,1.6],\n\t\t\t\t\t\t\t\"11\": [45.2,1.7],\n\t\t\t\t\t\t\t\"12\": [49.2,3.3],\n\t\t\t\t\t\t\t\"13\": [56.7,2.5],\n\t\t\t\t\t\t\t\"14\": [64.4,1.4],\n\t\t\t\t\t\t\t\"15\": [69.5,3],\n\t\t\t\t\t\t\t\"16\": [77.17,2],\n\t\t\t\t\t\t\t\"17\": [81.9,2.5],\n\t\t\t\t\t\t\t\"18\": [8.7,7.7],\n\t\t\t\t\t\t\t\"19\": [18.8,15.7],\n\t\t\t\t\t\t\t\"20\": [40.4,19],\n\t\t\t\t\t\t\t\"21\": [61.5,11.6],\n\t\t\t\t\t\t\t\"22\": [75.1,10]\n\t\t\t\t\t\t}\n\t\t\t\t\t},{\n\t\t\t\t\t\tname : \"Bama_Country_Country\",\n\t\t\t\t\t\tpath : \"sounds/\"\n\t\t\t\t\t}, {\n\t\t\t\t\t\tname : \"Cartoon_Boing\",\n\t\t\t\t\t\tpath : \"sounds/\"\n\t\t\t\t\t}],\n\t\t\t\t\tpath : \"sounds/Reihe 1/\",\n\t\t\t\t\tpreload : true,\n\t\t\t\t\tvolume : 1.0,\n\t\t\t\t\tmultiplay: false,\n\t\t\t\t\t\n\t\t\t\t\tended_callback: function(obj) {\n\t\t\t\t\t\tif(obj.part==\"0\") {\n\t\t\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t\t\t$(\"#0_p\").hide();\n\t\t\t\t\t\t};\n\t\t\t\t\t},\n\t\t\t\t\tready_callback: function () {\n\t\t\t\t\t\t$(\".so\").on(\"click\", function () {\n\t\t\t\t\t\t\tif($(this).attr(\"id\").substr(-2) == \"_p\") {\n\t\t\t\t\t\t\t\tion.sound.pause(\"r1 U2\", {\n\t\t\t\t\t\t\t\t\tpart: \"0\"\n\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t\t\t\t$(this).hide();\n\t\t\t\t\t\t\t} else if($(this).attr(\"id\") == 0) {\n\t\t\t\t\t\t\t\t\t\t//_p 붙어 있지 않으면 id 그대로 재생\n\t\t\t\t\t\t\t\t\t\tion.sound.play(\"r1 U2\", {\n\t\t\t\t\t\t\t\t\t\t\tpart: $(this).attr(\"id\")\n\t\t\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\tif($(this).parent()[0].tagName == \"H5\") {\n\t\t\t\t\t\t\t\t\tvar ch = \"#collapse\"+$(this).closest(\".card-header\").attr(\"id\").substr(7);\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\tif(!$(ch).hasClass(\"show\") || !$(this).hasClass(\"btn-secondary\")) {\n\t\t\t\t\t\t\t\t\t\t// _p 붙어 있지 않으면 id 그대로 재생\n\t\t\t\t\t\t\t\t\t\tion.sound.play(\"r1 U2\", {\n\t\t\t\t\t\t\t\t\t\t\tpart: $(this).attr(\"id\")\n\t\t\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t};\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t// 전체 듣기 재생일 때는 일시정지 버튼 보이기\n\t\t\t\t\t\t\t\tif($(this).attr(\"id\") == \"0\") {\n\t\t\t\t\t\t\t\t\t$(this).hide();\n\t\t\t\t\t\t\t\t\t$(\"#0_p\").show();\n\t\t\t\t\t\t\t\t};\n\t\t\t\t\t\t\t});\n\t\t\t\t\t// 준비되면 HV 보이기\n\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t$(\".alert\").hide();\n\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\t\n\t\t\t});\n\t\t\t\n\t\t</script>\n\t\t<!-- ion.sound finished -->\n\t</body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 13165,
 				"line_ending": "Windows"
 			}
 		}
@@ -165,12 +182,28 @@
 		"selected_items":
 		[
 			[
+				"git add",
+				"Git: Add All"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
+				"git commit",
+				"Set Syntax: Git Commit"
+			],
+			[
 				"remove",
 				"Package Control: Remove Package"
+			],
+			[
+				"commit",
+				"Sublimerge: Show Uncommited Changes..."
+			],
+			[
+				"git",
+				"GitHub: Edit (master)"
 			],
 			[
 				"enable",
@@ -263,10 +296,6 @@
 			[
 				"html syn",
 				"Set Syntax: HTML"
-			],
-			[
-				"git",
-				"Set Syntax: Git Config"
 			],
 			[
 				"decode",
@@ -663,18 +692,6 @@
 			[
 				"toggle",
 				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"highlig",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"dis",
-				"Package Control: Disable Package"
-			],
-			[
-				"hightl",
-				"Highlight Duplicates: Toggle highlighting"
 			]
 		],
 		"width": 528.0
@@ -697,10 +714,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/cansmile/csde/eDeutsch"
+		"/D/cansmile/csde/nagehts"
 	],
 	"file_history":
 	[
+		"/D/cansmile/csde/nagehts/r1-G3.php",
+		"/C/inetpub/wwwroot/easy-wp-smtp-ko_KR1.sha",
+		"/C/inetpub/wwwroot/easy-wp-smtp-ko_KR.sha",
+		"/D/cansmile/csde/eDeutsch/r0-Alphabet.php",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
 		"/D/cansmile/csde/eDeutsch/cp.php",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Sublimerge 3/Default (Windows).sublime-keymap",
@@ -730,7 +751,6 @@
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552279044/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/tport/files/config/db.config.php",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1552279287/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-config.php",
 		"/D/cansmile/csgr/2019031000001 강림교회로고(원본).ai",
-		"/D/cansmile/csde/eDeutsch/r0-Alphabet.php",
 		"/D/cansmile/csde/eDeutsch/r1-G11.php",
 		"/D/cansmile/csde/eDeutsch/r1-G2.php",
 		"/D/cansmile/csde/eDeutsch/js/taptocompare.js",
@@ -825,10 +845,7 @@
 		"/D/cansmile/csde/eDeutsch/r7.php",
 		"/D/cansmile/csde/eDeutsch/r5.php",
 		"/D/cansmile/csde/eDeutsch/r4.php",
-		"/D/cansmile/csde/eDeutsch/r3.php",
-		"/D/cansmile/csde/eDeutsch/r2.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/D/cansmile/csde/eDeutsch/r1.php"
+		"/D/cansmile/csde/eDeutsch/r3.php"
 	],
 	"find":
 	{
@@ -853,6 +870,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<span class=\"tran\">",
+			"<span class=\"tran\"><small>",
+			"span class=\"btn btn-outline-dark btn-sm nu\"",
+			"<span class=\"tran\"><small",
+			"btn-outline-dark btn-sm nu\"",
+			"var tt = $(\"#qst-",
+			"$(this).parent().append(",
+			"$(this).parent().",
+			"<span class=\"tran\"><br><small>",
+			"$(this).parent().append",
+			"<span class=\"btn btn-outline-dark btn-sm\">",
 			"혹은",
 			"<span class=\"tran\">",
 			"addclass",
@@ -969,18 +997,7 @@
 			" border-0",
 			"#",
 			"Wie heißen",
-			" class=\"bg-inverse\"",
-			" scope=\"row\"",
-			"<button type=\"button\" id=\"[0-9]\" class=\"so btn btn-secondary\">[0-9]</button>",
-			"<div class=\"collapse\" id=\"collapsex",
-			"aria-controls=\"collapse",
-			"target=\"#collapsex",
-			"id=\"headingx",
-			"Grammatik und Wendungen\"=>\"문법과 표현들\"",
-			"<th class=\"bg-light pop\" ",
-			"<th class=\"bg-light\" scope=\"row\" ",
-			"id=",
-			"<th class=\"bg-light\" scope=\"row\">"
+			" class=\"bg-inverse\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1126,24 +1143,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "r0-Alphabet.php",
+					"file": "r1-G2.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20086,
+						"buffer_size": 15865,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3148,
+								3148
 							]
 						],
 						"settings":
@@ -1156,24 +1173,24 @@
 								{
 									"1":
 									[
-										19130,
-										19131
+										2920,
+										2921
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										19066,
-										19067
+										2910,
+										2911
 									]
 								},
 								"unmatched":
@@ -1182,61 +1199,61 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1244,24 +1261,24 @@
 								{
 									"1":
 									[
-										28,
-										30
+										3147,
+										3148
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										0,
-										2
+										3144,
+										3145
 									]
 								},
 								"unmatched":
@@ -1270,46 +1287,160 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1164.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"auto_name": "※ 저작권법 관점에서 본 중고거래",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1319,25 +1450,134 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_square_content"
 							],
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"sftp_new_server": true,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"is_init_dirty_state": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13165,
+								13165
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										13160,
+										13164
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"default_dir": "D:\\cansmile\\csde\\nagehts",
+							"incomplete_sync": null,
+							"is_init_dirty_state": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1095.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1360,11 +1600,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

@@ -27,12 +27,6 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<table class="table table-light text-center">
 						<tr>
-							<th class="bg-light" scope="col">번호</th>
-							<th class="bg-light" scope="col">질문</th>
-							<th class="bg-light" scope="col">선택지</th>
-						</tr>
-						<tr>
-							<th class="bg-light" scope="row">1</th>
 							<td>Anna Müller wohnt in Berlin.<span class="tran">&nbsp;<small>안나 뮐러는 베를린에 산다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
@@ -46,7 +40,6 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row">2</th>
 							<td>Max Fernández kommt aus Mexiko.<span class="tran">&nbsp;<small>막스 페르난데즈는 멕시코출신이다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
@@ -60,7 +53,6 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row">3</th>
 							<td>Max Fernández wohnt in Berlin.<span class="tran">&nbsp;<small>막스 페르난데즈는 베를린에 산다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
@@ -74,7 +66,6 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row">4</th>
 							<td>Anna Müllers Mutter wohnt in Dresden.<span class="tran">&nbsp;<small>안나 뮐러는 드레스덴에 산다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">

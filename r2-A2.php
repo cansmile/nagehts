@@ -26,7 +26,7 @@
 					<div class="col"><img src="./images/Reihe 2/Reihe-2-A2-3.png" style="max-width: 150px; height: auto;" alt="Minnie Mouse"><br>Minnie Mouse</div>
 				</div>
 				<div class="row">
-					<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
+					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
 							Berlin
 						</button>
@@ -51,16 +51,15 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 						<table class="table table-light text-center">
 						<tr>
-							<th class="bg-light" scope="col">번호</th>
-							<th class="bg-light" scope="col">문장</th>
-							<th class="bg-light" scope="col">국가/도시</th>
+							<th scope="col" class="text-center align-middle"><button type="button" id="17" class="so btn btn-warning btn-lg">▶</button></th>
+							<td colspan="2" class="so text-center display-4 bg-warning" height="100px">Sandmännchen</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="7" class="so btn btn-primary">1</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="7" class="so btn btn-primary">▶</button></th>
 							<td colspan="2">Hallo, Sandmännchen! Woher kommst du? <br><span class="tran">&nbsp;<small>안녕, 잔맨셴! 너는 어디에서 왔니?</small></span></td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-danger">2</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-danger">▶</button></th>
 							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">①</span> <br><span class="tran">&nbsp;<small>나는 <strong>독일</strong>에서 왔어.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-1">
@@ -70,7 +69,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-danger">3</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-danger">▶</button></th>
 							<td>und ich wohne in <span class="btn btn-outline-dark btn-sm">②</span>. <br><span class="tran">&nbsp;<small>그리고 나는 <strong>베를린</strong>에 살아.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-2">
@@ -84,16 +83,15 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 						<table class="table table-light text-center">
 						<tr>
-							<th class="bg-light" scope="col">번호</th>
-							<th class="bg-light" scope="col">문장</th>
-							<th class="bg-light" scope="col">국가/도시</th>
+							<th scope="col" class="text-center align-middle"><button type="button" id="18" class="so btn btn-warning btn-lg">▶</button></th>
+							<td colspan="2" class="so text-center display-4 bg-warning" height="100px">Pororo</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-primary">1</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-primary">▶</button></th>
 							<td colspan="2">Hi, Pororo ! Woher kommst du? <br><span class="tran">&nbsp;<small>안녕, 뽀로로! 너너는 어디에서 왔니?</small></span></td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="11" class="so btn btn-danger">2</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="11" class="so btn btn-danger">▶</button></th>
 							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">③</span>. <br><span class="tran">&nbsp;<small>나는 <strong>한국</strong>에서 왔어.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-3">
@@ -103,7 +101,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="12" class="so btn btn-danger">3</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="12" class="so btn btn-danger">▶</button></th>
 							<td>Ich wohne in <span class="btn btn-outline-dark btn-sm">④</span>. <br><span class="tran">&nbsp;<small>나는 <strong>서울</strong>에서 살아.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-4">
@@ -117,16 +115,15 @@
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 						<table class="table table-light text-center">
 						<tr>
-							<th class="bg-light" scope="col">번호</th>
-							<th class="bg-light" scope="col">문장</th>
-							<th class="bg-light" scope="col">국가/도시</th>
+							<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-warning btn-lg">▶</button></th>
+							<td colspan="2" class="so text-center display-4 bg-warning" height="100px">Minnie Mouse</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="13" class="so btn btn-primary">1</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="13" class="so btn btn-primary">▶</button></th>
 							<td colspan="2">Hallo, Minnie Mouse, woher kommst du? <br><span class="tran">&nbsp;<small>안녕, 미니 마우스, 너는 어디에서 왔니?</small></span></td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="14" class="so btn btn-danger">2</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="14" class="so btn btn-danger">▶</button></th>
 							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">⑤</span>. <br><span class="tran">&nbsp;<small>나는 <strong>미국</strong>에서 왔어.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-5">
@@ -136,11 +133,11 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="15" class="so btn btn-danger">3</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="15" class="so btn btn-danger">▶</button></th>
 							<td colspan="2">Und wo wohnst du? <br><span class="tran">&nbsp;<small>그러면 어디에서 살아?</small></span></td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-primary">4</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-primary">▶</button></th>
 							<td>Ich wohne in <span class="btn btn-outline-dark btn-sm">⑥</span>. <br><span class="tran">&nbsp;<small>나는 <strong>캘리포니아</strong>에 살아.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-6">
@@ -220,7 +217,10 @@
 							"13": [41.9,3.2],
 							"14": [48,2.3],
 							"15": [52.1,1.5],
-							"16": [55.5,2]
+							"16": [55.5,2],
+							"17": [10.1,12],
+							"18": [26.8,10.8],
+							"19": [41.9,15.7]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -234,13 +234,17 @@
 					volume : 1.0,
 					multiplay: false,
 					
-					ended_callback: function(obj) {
+					ended_callback: function(obj) {{
 						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
-						};
-					}, ready_callback: function () {
+						} else {
+							if(obj.part > 6) {
+								$("#"+obj.part).html("▶");
+							}
+						}
+					}}, ready_callback: function () {
 						
 				$(".o").on("click", function() {
 					ion.sound.play("Bama_Country_Country");
@@ -286,6 +290,18 @@
 					});
 					$("#0").show();
 					$(this).hide();
+				} else if($(this).html() == "▶") {
+					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+					ion.sound.play("r2 A2", {
+						part: $(this).attr("id")
+					});
+					$(this).html("❚❚");
+				} else if($(this).html() == "❚❚") {
+					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+					ion.sound.pause("r2 A2", {
+						part: $(this).attr("id")
+					});
+					$(this).html("▶");
 				} else {
 					// _p 붙어 있지 않으면 id 그대로 재생
 					ion.sound.play("r2 A2", {

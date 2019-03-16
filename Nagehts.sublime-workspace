@@ -144,29 +144,30 @@
 	"buffers":
 	[
 		{
-			"file": "r1-G2.php",
+			"file": "r2-B1.php",
 			"settings":
 			{
-				"buffer_size": 15865,
+				"buffer_size": 7862,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "※ 저작권법 관점에서 본 중고거래\n\t- 개인의 경우 사적으로 이용하던 제품을 다른 사람에게 주는 것으로 이해하여 대부분 허용\n\t- 사업의 영역에서는 대부분의 경우 허용하지 않는다.\n\t\t- 저작권법적으로는 이러한 적용이 불분명한 경우(일일하게 MS에서 검사할 수 없음)\n\n\t그래서 약관을 살펴보고 이에 위반이 되는지 확인을 해야 함\n\n※ 리테일러의 정의\n\t- MS에서 구매를 하는 관계에서는 MS가 리테일러\n\t- \n\n※ 저작권법 고소 후 수사 가능\n\t- 이전에는 친고죄였으나 지금은 아님\n\n※ MS에서 물을 수 있는 책임은 민사\n\t- 사용금지, 손해배상\n\n※ MS 약관에서의 명시된 사용권\n\t- 최초 구매한(MS로부터 또는 총판에서) 사람에게 사용권이 있고, 그 사람이 다른 이에게 판매한 경우 구매자는 사용권이 없음.\n\n20190314 110417\n20190314 111343 갱신\n",
+			"file": "r2-A6.php",
 			"settings":
 			{
-				"buffer_size": 438,
-				"line_ending": "Windows",
-				"name": "※ 저작권법 관점에서 본 중고거래"
+				"buffer_size": 26397,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<?php include \"header.php\"; ?>\n\t<body>\n<?php include \"nav.php\"; ?>\n<!-- 알림 시작 -->\n<?php require_once \"ready.php\"; ?>\n<!-- 알림 끝 -->\n\t\t<section>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"col-lg-12 mb-4 mt-2 text-center\">\n\t\t\t\t\t\t<h2>Hören Sie und ordnen Sie zu.\n\t\t\t\t\t\t\t<small> 듣고 그림과 내용을 연결해 보세요.</small>\n\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-primary ml-2 btn-inline so\" id=\"0\">\n\t\t\t\t\t\t\tHV\n\t\t\t\t\t\t</button><button type=\"button\" class=\"btn btn-primary ml-2 btn-inline so\" id=\"0_p\">\n\t\t\t\t\t\t\t❚❚\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</h2>\n\t\t\t\t</div>\n\t\t\t\t<!-- 고르는 아이템들 -->\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"mb col-xs-12 col-sm-12 col-md-12 col-lg-12\" id=\"itms\">\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm\" id=\"1\">\n\t\t\t\t\t\t\t<div class=\"display-4\">1</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm\" id=\"2\">\n\t\t\t\t\t\t\t<div class=\"display-4\">2</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm\" id=\"3\">\n\t\t\t\t\t\t\t<div class=\"display-4\">3</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm\" id=\"4\">\n\t\t\t\t\t\t\t<div class=\"display-4\">4</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<button type=\"button\" class=\"mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm\" id=\"5\">\n\t\t\t\t\t\t\t<div class=\"display-4\">5</div>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t<!-- 리스트  시작 -->\n\t\t\t<div class=\"row mt-2\" id=\"lsts\">\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-1\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-1.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-2\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-2.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-3\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-3.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-4\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-4.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"rounded-top border border-outline-dark so itm-lst mx-auto col-auto pt-1\" style=\"min-height: 240px;\" id=\"lst-5\">\n\t\t\t\t\t<img src=\".\\images\\Reihe 1\\Reihe-1-G2-5.png\" style=\"width: auto; max-height: 140px\" class=\"mx-auto d-block ttl\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms1\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"18\">Dialog 1</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingOne\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" area-expanded=\"false\" aria-controls=\"collapseOne\" id=\"6\">\n\t\t\t\t\t\t\t\t\t\tAuf Wiedersehen!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseOne\" aria-labelledby=\"headingOne\" data-parent=\"#accordionitms1\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕히 가세요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingTwo\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-info mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" area-expanded=\"false\" aria-controls=\"collapseTwo\" id=\"7\">\n\t\t\t\t\t\t\t\t\t\tAuf Wiedersehen!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseTwo\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionitms1\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕히 가세요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms2\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"19\">Dialog 2</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingThree\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" area-expanded=\"false\" aria-controls=\"collapseThree\" id=\"8\">\n\t\t\t\t\t\t\t\t\t\tTschüs, Eva! Ich habe dich lieb!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseThree\" aria-labelledby=\"headingThree\" data-parent=\"#accordionitms2\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">잘가, 에바! 사랑해!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingFour\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseFour\" area-expanded=\"false\" aria-controls=\"collapseFour\" id=\"9\">\n\t\t\t\t\t\t\t\t\t\tTschüs, Tim! Ich liebe dich auch! Gute Reise!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseFour\" aria-labelledby=\"headingFour\" data-parent=\"#accordionitms2\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕, 팀! 나도 사랑해! 여행 잘해!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms3\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"20\">Dialog 3</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingFive\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseFive\" area-expanded=\"false\" aria-controls=\"collapseFive\" id=\"10\">\n\t\t\t\t\t\t\t\t\t\tGuten Tag, Frau Kim!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseFive\" aria-labelledby=\"headingFive\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕하세요, 김 선생님.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingSix\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseSix\" area-expanded=\"false\" aria-controls=\"collapseSix\" id=\"11\">\n\t\t\t\t\t\t\t\t\t\tGuten Tag, Herr Cho!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseSix\" aria-labelledby=\"headingSix\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕하세요, 조 선생님!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingSeven\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseSeven\" area-expanded=\"false\" aria-controls=\"collapseSeven\" id=\"12\">\n\t\t\t\t\t\t\t\t\t\tWillkommen in Dresden! Das ist für Sie!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseSeven\" aria-labelledby=\"headingSeven\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">드레스덴에 오신 것을 환영해요! 이거 받으세요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingEight\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseEight\" area-expanded=\"false\" aria-controls=\"collapseEight\" id=\"13\">\n\t\t\t\t\t\t\t\t\t\tOh, Danke. Das ist nett!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseEight\" aria-labelledby=\"headingEight\" data-parent=\"#accordionitms3\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">오, 고마워요. 정말 친절하시네요!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms4\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"21\">Dialog 4</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingNine\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseNine\" area-expanded=\"false\" aria-controls=\"collapseNine\" id=\"14\">\n\t\t\t\t\t\t\t\t\t\tHallo, Julia!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseNine\" aria-labelledby=\"headingNine\" data-parent=\"#accordionitms4\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕, 율리아!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingTen\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTen\" area-expanded=\"false\" aria-controls=\"collapseTen\" id=\"15\">\n\t\t\t\t\t\t\t\t\t\tHallo, Martin! Lange nicht gesehen.\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseTen\" aria-labelledby=\"headingTen\" data-parent=\"#accordionitms4\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">안녕, 마틴! 오랫만이다.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-auto\">\n\t\t\t\t\t<div class=\"accordion\" id=\"accordionitms5\">\n\t\t\t\t\t\t<div class=\"display-4 text-center mb-2 so\" id=\"22\">Dialog 5</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingEleven\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseEleven\" area-expanded=\"false\" aria-controls=\"collapseEleven\" id=\"16\">\n\t\t\t\t\t\t\t\t\t\tMama! Mama!\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseEleven\" aria-labelledby=\"headingEleven\" data-parent=\"#accordionitms5\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">엄마, 엄마!</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t\t<div class=\"card-header\" id=\"headingTwelve\">\n\t\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 so btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwelve\" area-expanded=\"false\" aria-controls=\"collapseTwelve\" id=\"17\">\n\t\t\t\t\t\t\t\t\t\tOh, Mein Schatz! Hast du Hunger?\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"collapse\" id=\"collapseTwelve\" aria-labelledby=\"headingTwelve\" data-parent=\"#accordionitms5\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">오, 우리 강아지! 배고프니?</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\t\t\t\n\t\t</div>\n\t</div>\n</section>\n\t\t\n\n\t\t\n<?php include \"footer.php\"; ?>\n\t\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t\t<script src=\"./js/jquery-3.3.1.min.js\"></script>\n\t\t<!-- Include all compiled plugins (below), or include individual files as needed -->\n\t\t<script src=\"./js/popper.min.js\"></script>\n\t\t<script src=\"./js/bootstrap.js\"></script>\n\t\t<!-- interact.min.js -->\n\t\t<script src=\"./js/taptogroup.js\"></script>\n\t\t<script src=\"./js/ion.sound.min.js\"></script>\n\t\t<script>\n\t\t\t$(\"#0\").hide();\n\t\t\t$(\"#0_p\").hide();\n\t\t\t$(\".collapse\").collapse(\"hide\");\n\n\t\t\t$(document).ready(function() {\n\n\t\t\t\tion.sound({\n\t\t\t\t\tsounds : [{\n\t\t\t\t\t\tname : \"r1 U2\",\n\n\t\t\t\t\t\tsprite : {\n\t\t\t\t\t\t\t\"0\": [4.9,80.9],\n\t\t\t\t\t\t\t\"1\": [8.7,7.7],\n\t\t\t\t\t\t\t\"2\": [18.8,15.7],\n\t\t\t\t\t\t\t\"3\": [40.4,19],\n\t\t\t\t\t\t\t\"4\": [61.5,11.6],\n\t\t\t\t\t\t\t\"5\": [75.1,10],\n\t\t\t\t\t\t\t\"6\": [11.2,1.6],\n\t\t\t\t\t\t\t\"7\": [14.5,2],\n\t\t\t\t\t\t\t\"8\": [22.1,3.2],\n\t\t\t\t\t\t\t\"9\": [29.2,4.5],\n\t\t\t\t\t\t\t\"10\": [40.4,1.6],\n\t\t\t\t\t\t\t\"11\": [45.2,1.7],\n\t\t\t\t\t\t\t\"12\": [49.2,3.3],\n\t\t\t\t\t\t\t\"13\": [56.7,2.5],\n\t\t\t\t\t\t\t\"14\": [64.4,1.4],\n\t\t\t\t\t\t\t\"15\": [69.5,3],\n\t\t\t\t\t\t\t\"16\": [77.17,2],\n\t\t\t\t\t\t\t\"17\": [81.9,2.5],\n\t\t\t\t\t\t\t\"18\": [8.7,7.7],\n\t\t\t\t\t\t\t\"19\": [18.8,15.7],\n\t\t\t\t\t\t\t\"20\": [40.4,19],\n\t\t\t\t\t\t\t\"21\": [61.5,11.6],\n\t\t\t\t\t\t\t\"22\": [75.1,10]\n\t\t\t\t\t\t}\n\t\t\t\t\t},{\n\t\t\t\t\t\tname : \"Bama_Country_Country\",\n\t\t\t\t\t\tpath : \"sounds/\"\n\t\t\t\t\t}, {\n\t\t\t\t\t\tname : \"Cartoon_Boing\",\n\t\t\t\t\t\tpath : \"sounds/\"\n\t\t\t\t\t}],\n\t\t\t\t\tpath : \"sounds/Reihe 1/\",\n\t\t\t\t\tpreload : true,\n\t\t\t\t\tvolume : 1.0,\n\t\t\t\t\tmultiplay: false,\n\t\t\t\t\t\n\t\t\t\t\tended_callback: function(obj) {\n\t\t\t\t\t\tif(obj.part==\"0\") {\n\t\t\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t\t\t$(\"#0_p\").hide();\n\t\t\t\t\t\t};\n\t\t\t\t\t},\n\t\t\t\t\tready_callback: function () {\n\t\t\t\t\t\t$(\".so\").on(\"click\", function () {\n\t\t\t\t\t\t\tif($(this).attr(\"id\").substr(-2) == \"_p\") {\n\t\t\t\t\t\t\t\tion.sound.pause(\"r1 U2\", {\n\t\t\t\t\t\t\t\t\tpart: \"0\"\n\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t\t\t\t$(this).hide();\n\t\t\t\t\t\t\t} else if($(this).attr(\"id\") == 0) {\n\t\t\t\t\t\t\t\t\t\t//_p 붙어 있지 않으면 id 그대로 재생\n\t\t\t\t\t\t\t\t\t\tion.sound.play(\"r1 U2\", {\n\t\t\t\t\t\t\t\t\t\t\tpart: $(this).attr(\"id\")\n\t\t\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\tif($(this).parent()[0].tagName == \"H5\") {\n\t\t\t\t\t\t\t\t\tvar ch = \"#collapse\"+$(this).closest(\".card-header\").attr(\"id\").substr(7);\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\tif(!$(ch).hasClass(\"show\") || !$(this).hasClass(\"btn-secondary\")) {\n\t\t\t\t\t\t\t\t\t\t// _p 붙어 있지 않으면 id 그대로 재생\n\t\t\t\t\t\t\t\t\t\tion.sound.play(\"r1 U2\", {\n\t\t\t\t\t\t\t\t\t\t\tpart: $(this).attr(\"id\")\n\t\t\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t};\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t// 전체 듣기 재생일 때는 일시정지 버튼 보이기\n\t\t\t\t\t\t\t\tif($(this).attr(\"id\") == \"0\") {\n\t\t\t\t\t\t\t\t\t$(this).hide();\n\t\t\t\t\t\t\t\t\t$(\"#0_p\").show();\n\t\t\t\t\t\t\t\t};\n\t\t\t\t\t\t\t});\n\t\t\t\t\t// 준비되면 HV 보이기\n\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t$(\".alert\").hide();\n\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\t\n\t\t\t});\n\t\t\t\n\t\t</script>\n\t\t<!-- ion.sound finished -->\n\t</body>\n</html>",
+			"contents": "https://www.dropbox.com/s/fqnc9vj3fslz7f2/%EC%A7%84%EB%A6%AC%EC%9D%98%20%EA%B9%83%EB%B0%9C%20vol.%20155%2C%20%EC%84%9C%EC%9A%B8%3B%20%ED%95%9C%EA%B5%AD%EA%B0%9C%ED%98%81%EC%A3%BC%EC%9D%98%EC%84%A4%EA%B5%90%EC%97%B0%EA%B5%AC%EC%9B%90%2C%20Feb.%202019.pdf?dl=0\nhttps://www.dropbox.com/s/dtrvg48vyk196a0/%ED%95%9C%EA%B5%AD%EA%B0%9C%ED%98%81%EC%8B%A0%ED%95%99%2C%20Vol.56%20No.-%2C%202017.pdf?dl=0\nhttps://www.dropbox.com/s/5c427v8h8uoypjt/%ED%95%9C%EA%B5%AD%EA%B0%9C%ED%98%81%EC%8B%A0%ED%95%99%2C%20Vol.58%20No.-%2C%202018.pdf?dl=0\nhttps://www.dropbox.com/s/ykjjoanp12loaub/%ED%95%9C%EA%B5%AD%EC%84%B1%EA%B2%BD%EC%8B%A0%ED%95%99%ED%9A%8C%2C%20%EA%B5%90%ED%9A%8C%EC%99%80%20%EB%AC%B8%ED%99%94%3B%20%EC%95%BC%EA%B3%A0%EB%B3%B4%EC%84%9C%20%EC%A3%BC%ED%95%B4%EC%99%80%20%EC%84%A4%EA%B5%90%2C%20Vol.41%20%EC%97%AC%EB%A6%84%2C%202018%2C%20%EB%82%98%EB%88%94%EA%B3%BC%20%EC%84%AC%EA%B9%80.pdf?dl=0\nhttps://www.dropbox.com/s/211drv2msd2z7rs/%ED%95%9C%EA%B5%AD%EC%84%B1%EA%B2%BD%EC%8B%A0%ED%95%99%ED%9A%8C%2C%20%EA%B5%90%ED%9A%8C%EC%99%80%20%EB%AC%B8%ED%99%94%3B%20%EC%97%B4%EC%99%95%EA%B8%B0%EC%84%9C%20%EC%A3%BC%ED%95%B4%EC%99%80%20%EC%84%A4%EA%B5%90%2C%20Vol.39%20%EC%97%AC%EB%A6%84%2C%202017%2C%20%EB%82%98%EB%88%94%EA%B3%BC%20%EC%84%AC%EA%B9%80.pdf?dl=0",
 			"settings":
 			{
-				"buffer_size": 13165,
-				"line_ending": "Windows"
+				"buffer_size": 1246,
+				"line_ending": "Windows",
+				"name": "https://www.dropbox.com/s/fqnc9vj3fslz7f2/%EC%A7%8"
 			}
 		}
 	],
@@ -182,12 +183,44 @@
 		"selected_items":
 		[
 			[
-				"git add",
+				"git add cu",
+				"Git: Add Current File"
+			],
+			[
+				"git:",
+				"Git: Gui"
+			],
+			[
+				"git ",
+				"Git: Commit history"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"gitadd",
 				"Git: Add All"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"change bran",
+				"Git: Change Branch"
+			],
+			[
+				"git bran",
+				"Git: Change Branch"
+			],
+			[
+				"git delete br",
+				"Git: Delete Branch"
+			],
+			[
+				"git add",
+				"Git: Add All"
 			],
 			[
 				"git commit",
@@ -660,38 +693,6 @@
 			[
 				"high",
 				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"hight",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"highl",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"tag",
-				"Emmet: Remove Tag"
-			],
-			[
-				"hightlight",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"word",
-				"Word Wrap: Toggle"
-			],
-			[
-				"fold",
-				"BracketHighlighter: Fold Bracket Content"
-			],
-			[
-				"utf",
-				"ConvertToUTF8: Reload with Encoding"
-			],
-			[
-				"toggle",
-				"Highlight Duplicates: Toggle highlighting"
 			]
 		],
 		"width": 528.0
@@ -718,7 +719,20 @@
 	],
 	"file_history":
 	[
+		"/D/cansmile/csde/nagehts/test.php",
+		"/D/cansmile/csde/nagehts/r2-A6.php",
+		"/D/cansmile/csde/nagehts/r2-A2.php",
+		"/D/cansmile/csde/nagehts/r2-A4.php",
+		"/D/cansmile/csde/nagehts/r2-A5.php",
+		"/D/cansmile/csde/nagehts/nav.php",
+		"/D/cansmile/csde/nagehts/r1-G8.php",
+		"/D/cansmile/csde/nagehts/cp.php",
 		"/D/cansmile/csde/nagehts/r1-G3.php",
+		"/D/cansmile/csde/nagehts/r1-B1.php",
+		"/D/cansmile/csde/nagehts/r1-G7.php",
+		"/D/cansmile/csde/nagehts/r1-Grammatik und Wendungen.php",
+		"/D/cansmile/csde/nagehts/r1-G2.php",
+		"/D/cansmile/csde/nagehts/r1-A2.php",
 		"/C/inetpub/wwwroot/easy-wp-smtp-ko_KR1.sha",
 		"/C/inetpub/wwwroot/easy-wp-smtp-ko_KR.sha",
 		"/D/cansmile/csde/eDeutsch/r0-Alphabet.php",
@@ -832,24 +846,11 @@
 		"/D/cansmile/csde/eDeutsch/index.php",
 		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/conf/info.xml",
 		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/notify.js",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/notify.css",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/message_alarm.addon.php",
-		"/D/cansmile/csde/eDeutsch/r1-G1.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
-		"/D/cansmile/csde/eDeutsch/js/bootstrap.js",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/CSS Format/Example.sublime-keymap",
-		"/D/cansmile/csde/eDeutsch/r8.php",
-		"/D/cansmile/csde/eDeutsch/r9.php",
-		"/D/cansmile/csde/eDeutsch/r6.php",
-		"/D/cansmile/csde/eDeutsch/r7.php",
-		"/D/cansmile/csde/eDeutsch/r5.php",
-		"/D/cansmile/csde/eDeutsch/r4.php",
-		"/D/cansmile/csde/eDeutsch/r3.php"
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/notify.css"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -870,6 +871,82 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"??????",
+			"so",
+			"align-middle",
+			" align-middle",
+			"align-middle",
+			"max-width: 30px;",
+			"max-height: 60px",
+			"<span class=\"ub\">_</span>",
+			"<span class=\"ub\">_</span",
+			"<div class=\"btn-group btn-group-toggle",
+			"<span class=\"nu\">",
+			"hm",
+			"<th scope=\"row\"><button type=\"button\" id=\"",
+			"hm",
+			"<th scope=\"row\"><button type=\"button\" id=\"",
+			"<span class=\"nu\">",
+			"<th scope=\"row\"><button type=\"button\" id=\"",
+			"px; height: auto;\"></th>",
+			" style=\"max-width: 320px; height: auto;\"></th>",
+			"style=\"max-width: 320px; height: auto;\"></th>",
+			"<div class=\"btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-",
+			"r2 A6",
+			".tran",
+			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" ",
+			"r2 A6",
+			"<th class=\"bg-light\" scope=\"row\"><button typ",
+			"</button></th>",
+			" class=\"so btn btn-danger\">",
+			"r2 A6",
+			"<td class=\"text-center align-middle\"><button type=\"but",
+			"Dialog ",
+			"</label>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>",
+			"id=\"qst",
+			"off\"><label for=\"option",
+			"var iq = $(\"#qst-",
+			"<button type=\"button\" id=\"",
+			"<th scope=\"row\"><button type=\"button\" id=\"",
+			"<th colspan=\"3\" scope=\"col\" class=",
+			"<input type=\"radio\" name=\"options\" id=\"option",
+			"<span class=\"nu\">",
+			"<td>Ich komm<span class=\"nu\">",
+			"max-width: 240px",
+			"id=\"qst-",
+			"<th scope=\"row\"><button type=\"button\" id=",
+			"btn-outline-primary\">",
+			"btn-outline-success",
+			"class=\"so btn btn-outline-success\">",
+			"\" class=\"so btn btn-outline-success\">ㅇ",
+			"<button type=\"button\" id=\"7\" class=\"so btn btn-outline-success\">",
+			"http://vimage.moazine.com/000388/0000042628/40.jpg",
+			"btn-outline-danger",
+			"btn-outline-success",
+			"<div class=\"btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-",
+			"<th scope=\"row\"><button type=\"button\" id=\"",
+			"r2 A4 A5",
+			"$\n",
+			"$",
+			"your",
+			"처음사용자용",
+			"데스크탑",
+			"설치",
+			"th scope=\"row\"",
+			"so btn btn-outline-danger",
+			".substring(3);",
+			"btn btn-outline-dark btn-sm",
+			"so btn btn-outline-success",
+			"<th scope=\"row\">",
+			"<th scope=\"row\">1",
+			"<th scope=\"row\">",
+			"btn-group btn-group-toggle q",
+			"<span class=\"btn btn-outline-dark btn-sm\">",
+			"ihnen",
+			"<span class=\"btn btn-outline-dark btn-sm",
+			" itm",
+			" itm ",
+			"itm",
 			"<span class=\"tran\">",
 			"<span class=\"tran\"><small>",
 			"span class=\"btn btn-outline-dark btn-sm nu\"",
@@ -921,83 +998,7 @@
 			"<div class=\"row\">\n\t\t\t\t\t<div class=\"col\">",
 			"<div class=\"col\">",
 			"<div class=\"col",
-			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" id=\"",
-			"$",
-			"btn-md",
-			"<div class=\"itm-lst 1itm\" id=\"lst-",
-			"<div class=\"itm-lst 1it",
-			"<th scope=\"row\" class=\"align-middle\"",
-			"btn-lg",
-			"h2",
-			"h1",
-			"h2",
-			"<h2 class=\"btn btn-warning cmp btn-xl ttl d-block\">\n\t\t\t\t\t\t\t\t\t\t\t▼ </h2>",
-			"<div class=\"itm-lst 1itm\" id=\"lst-",
-			"max-width: 100%; height: ",
-			"<div class=\"col\"><img src=\"./images/Reihe 2/Reihe-2-",
-			"r1 U11",
-			"<div class=\"display-4 text-center mb-2\">Dia",
-			"\"));\n",
-			", ",
-			" ,",
-			",",
-			"=>",
-			"x =>",
-			"-",
-			" $",
-			"<div class=\"card-body\">",
-			".ttl",
-			"cm",
-			"<th scope=\"row\" class=\"align-middle\" id=\"",
-			"cm",
-			"<th",
-			"<div class=\"itm-lst 1itm\" ",
-			"itm-lst 1itm cmp",
-			"<h2 class=\"btn btn-warning cmp btn-xl ttl d-block\">",
-			"dbmasteruser",
-			",\n  ),\n  ",
-			"ls-d514cb0d821e4aa2814f960b69347ffa46ba9126.c2qrwqyc2kd3.ap-northeast-2.rds.amazonaws.com",
-			"btn-sm",
-			"tm",
-			"1itm",
-			"lsts",
-			"<h2 class=\"btn btn-warning cmpr",
-			"<h2 class=\"btn btn-warning cmpl",
-			"string",
-			"ul()",
-			"cmp ",
-			"cmpl",
-			".ttl",
-			"cmp ",
-			"st-2\">\n\t\t\t\t\t\t\t\t\t\t\t<h2 class=\"btn btn-warning ",
-			"st-1\">\n\t\t\t\t\t\t\t\t\t\t\t<h2 class=\"btn btn-warning ",
-			"ad",
-			"lst-1",
-			"R0_Ordnen_Sie",
-			"<div class=\"itm-lst 1itm\" id=\"lst-1",
-			"<div class=\"itm-lst 1itm\" id=\"lst-2",
-			"<div class=\"itm-lst 1itm\" id=\"lst-1",
-			"<div class=\"itm-lst 1itm\" id=\"lst-",
-			"attr",
-			"lst",
-			".lst",
-			"lst-1",
-			"<div class=\"itm-lst 1itm\" id=\"lst-1\"",
-			"<th scope=\"row\" class=\"align-middle\">x</th>",
-			"<th scope=\"row\" class=\"align-middle\"",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ansx btn-lg btn-outline-dark so itm\" id=\"",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm\" id=\"",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm\" id=",
-			"dir",
-			"$user",
-			"aria-divledby=\"headingx",
-			"border border-dark border-left-0",
-			"bg-info ",
-			" border-0",
-			"#",
-			"Wie heißen",
-			" class=\"bg-inverse\""
+			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" id=\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1005,6 +1006,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"r2 A2",
+			"r2 A4 A5",
+			"btn-outline-danger",
+			"btn-outline-primary",
+			"btn-outline-danger",
+			", ",
 			",",
 			"btn-lg",
 			"btn-md",
@@ -1125,14 +1133,7 @@
 			"\",",
 			"\"",
 			",\n",
-			",",
-			"",
-			"\n",
-			"",
-			"\n",
-			"",
-			" ",
-			""
+			","
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1143,54 +1144,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "r1-G2.php",
+					"file": "r2-B1.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15865,
+						"buffer_size": 7862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3148,
-								3148
+								5700,
+								5700
 							]
 						],
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone": 46,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
 									"1":
 									[
-										2920,
-										2921
+										5796,
+										5797
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										2910,
-										2911
+										5664,
+										5665
 									]
 								},
 								"unmatched":
@@ -1199,16 +1200,6 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1224,6 +1215,21 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1234,52 +1240,32 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										3147,
-										3148
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										3144,
-										3145
-									]
 								},
 								"unmatched":
 								{
@@ -1287,16 +1273,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1312,6 +1288,21 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1322,61 +1313,255 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"incomplete_sync": null,
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1164.0,
+						"translation.y": 2856.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 1,
+					"file": "r2-A6.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 438,
+						"buffer_size": 26397,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								437,
-								437
+								20903,
+								20903
 							]
 						],
 						"settings":
 						{
-							"auto_name": "※ 저작권법 관점에서 본 중고거래",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 64,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										20934,
+										20935
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										20853,
+										20854
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1246
+							]
+						],
+						"settings":
+						{
+							"auto_name": "https://www.dropbox.com/s/fqnc9vj3fslz7f2/%EC%A7%8",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.locations":
@@ -1396,46 +1581,36 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1450,10 +1625,20 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
+							"default_dir": "D:\\cansmile\\csde\\nagehts",
 							"incomplete_sync": null,
-							"is_init_dirty_state": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1461,123 +1646,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13165,
-								13165
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										13160,
-										13164
-									]
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"default_dir": "D:\\cansmile\\csde\\nagehts",
-							"incomplete_sync": null,
-							"is_init_dirty_state": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1095.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1629,6 +1697,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 120.0
+	},
 	"output.hex_viewer_inspector":
 	{
 		"height": 124.0
@@ -1649,7 +1721,7 @@
 	"project": "Nagehts.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 66.0
 	},
 	"save_all_on_build": false,
 	"select_file":

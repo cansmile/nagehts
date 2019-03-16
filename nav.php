@@ -19,8 +19,15 @@ wp_set_current_user(wp_validate_auth_cookie($cookie, 'logged_in'));
 // 로그인 했니 안 했니? boolen
 function ul() {
 	$user = wp_get_current_user();
+// 학생만 보게 할 때는 tablepress_add_tables을 할 수 있는지 여부에 따라 반환값 설정 
+	// if(current_user_can("tablepress_add_tables")) {
+	// 	return true;
+	// } else {
+	// 	return false;
+	// }
 	return $user->exists();
 }
+
 
 if(current_user_can("edit_posts")) {
 	$edt = true;

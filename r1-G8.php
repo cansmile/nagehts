@@ -141,10 +141,10 @@
 							Sie Frau Lee?<span class="tran"><br><small>이 여사님이라고 부를까요?</small></span></div></td>
 							<td><div>Ja, das <span class="nu">⑫</span> 
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-12">
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option23" autocomplete="off"><label for="option23">heiße</label>
 									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option24" autocomplete="off"><label for="option24">bin</label>
 									</div>
 								</div>

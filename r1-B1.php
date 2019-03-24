@@ -43,39 +43,43 @@
 
 		<section>
 			<div class="container">
-				<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Hören Sie und sprechen Sie nach.</h2>
-							<p>
-								듣고 따라하세요.
-							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-								HV
-							</button>
-							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
-								❚❚
-							</button>
-							</p>
+				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+							<h2>Hören Sie und sprechen Sie nach.</h2>
+								<p>
+									듣고 따라하세요.
+								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+									HV
+								</button>
+								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+									❚❚
+								</button>
+								</p>
+					</div>
 				</div>
-				<div class="col">
-					<table class="table">
-						<tbody>
-							<tr>
-								<td><button type="button" id="1" class="itm btn btn-outline-danger">1</button></td>
-								<td>Guten Tag! Wie <span class="nu">①</span> Sie?<span class="tran"><br><small>안녕하세요! 당신의 이름은 무엇인가요?</small></span></td>
-							</tr>
-							<tr>
-								<td><button type="button" id="2" class="itm btn btn-outline-primary">2</button></td>
-								<td>Guten Tag! Ich <span class="nu">②</span> Kim.<span class="tran"><br><small>안녕하세요! 저는 김이라고 해요.</small></span></td>
-							</tr>
-							<tr>
-								<td><button type="button" id="3" class="itm btn btn-outline-primary">3</button></td>
-								<td>Freut mich! Und wie <span class="nu">③</span> Ihr Name?<span class="tran"><br><small>반가워요! 그러면 당신의 이름은 무엇인가요?</small></span></td>
-							</tr>
-							<tr>
-								<td><button type="button" id="4" class="itm btn btn-outline-danger">4</button></td>
-								<td>Mein Name <span class="nu">④</span> Sauer, Eva Sauer.<span class="tran"><br><small>제 이름은 자우어에요, 에바 자우어.</small></span></td>
-							</tr>
-						</tbody>
-					</table>
+				<div class="row">
+					<div class="col">
+						<table class="table">
+							<tbody>
+								<tr>
+									<td><button type="button" id="1" class="itm btn btn-outline-danger">1</button></td>
+									<td>Guten Tag! Wie <span class="nu">①</span> Sie?<span class="tran"><br><small>안녕하세요! 당신의 이름은 무엇인가요?</small></span></td>
+								</tr>
+								<tr>
+									<td><button type="button" id="2" class="itm btn btn-outline-primary">2</button></td>
+									<td>Guten Tag! Ich <span class="nu">②</span> Kim.<span class="tran"><br><small>안녕하세요! 저는 김이라고 해요.</small></span></td>
+								</tr>
+								<tr>
+									<td><button type="button" id="3" class="itm btn btn-outline-primary">3</button></td>
+									<td>Freut mich! Und wie <span class="nu">③</span> Ihr Name?<span class="tran"><br><small>반가워요! 그러면 당신의 이름은 무엇인가요?</small></span></td>
+								</tr>
+								<tr>
+									<td><button type="button" id="4" class="itm btn btn-outline-danger">4</button></td>
+									<td>Mein Name <span class="nu">④</span> Sauer, Eva Sauer.<span class="tran"><br><small>제 이름은 자우어에요, 에바 자우어.</small></span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 
 				<!--문제 시작-->

@@ -95,6 +95,6 @@ if(ul()) {
 		
 	}
 } else {
-	echo("      <div class=\"col text-center\">\n       <p class=\"text-center display-4\"><a href=\"{$returnPath}\">로그인</a>이 필요합니다.</p>\n\n     </div>\n");
+	echo("      <div class=\"col text-center\">\n       <p class=\"text-center display-4\"><a href=\"{$returnPath}\">로그인</a>이 필요합니다.<br>로그인 하셨다면, 학번을 입력해주세요.<br>이메일(<a href=\"mailto:cansmile@gmail.com\">cansmile@gmail.com</a>)을 주시면 빠르게 ‘학생’으로 등급이 조정됩니다.</p>\n\n     </div>\n");
 }
 ?>

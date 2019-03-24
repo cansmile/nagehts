@@ -231,23 +231,16 @@
 
 				ion.sound({
 					sounds : [{
-						name : "r1 U3",
-
-						sprite : {}
-					},{
-						name : "Bama_Country_Country",
-						path : "sounds/"
+						name : "Bama_Country_Country"
 					}, {
-						name : "Cartoon_Boing",
-						path : "sounds/"
+						name : "Cartoon_Boing"
 					}],
-					path : "sounds/Reihe 1/",
+					path : "sounds/",
 					preload : true,
 					volume : 1.0,
-					multiplay: false,
-					
-					ready_callback: function () {
-						
+					multiplay : true,
+					ready_callback: function() {
+
 				$(".o").on("click", function() {
 					ion.sound.play("Bama_Country_Country");
 				});

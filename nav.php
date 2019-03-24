@@ -20,12 +20,12 @@ wp_set_current_user(wp_validate_auth_cookie($cookie, 'logged_in'));
 function ul() {
 	$user = wp_get_current_user();
 // 학생만 보게 할 때는 tablepress_add_tables을 할 수 있는지 여부에 따라 반환값 설정 
-	// if(current_user_can("tablepress_add_tables")) {
-	// 	return true;
-	// } else {
-	// 	return false;
-	// }
-	return $user->exists();
+	if(current_user_can("tablepress_add_tables")) {
+		return true;
+	} else {
+		return false;
+	}
+	// return $user->exists(); 가입한 이용자는 다 볼 수 있게 하여라!
 }
 
 
@@ -88,7 +88,7 @@ $rtl = array(
 		"B" => array("B1" => "Ich bin Koreanerin."),
 		"C" => array("C1" => "Ergänzen Sie die Lücken.", "C2" => "Ergänzen Sie die Lücken."),
 		"D" => array("D1" => "Wo liegt das Land?", "D2" => "Hören Sie und sprechen Sie nach.", "D3" => "Antworten Sie."),
-		"E" => array("E1" => "Herkunft", "E2" => "Raten Sie! Wo ist das? Sprechen Sie über die Sehenswürdigkeiten.", "E3" => "Ergänzen Sie die Lücken.", "E4" => "Bilden Sie Sätze und markieren Sie die Verben.", "E5" => "Ordnen Sie zu.", "E6" => "Ergänzen Sie die Fragen.")
+		"E" => array("E1" => "Herkunft", "E2" => "Raten Sie! Wo ist das?", "E3" => "Ergänzen Sie die Lücken.", "E4" => "Bilden Sie Sätze und markieren Sie die Verben.", "E5" => "Ordnen Sie zu.", "E6" => "Ergänzen Sie die Fragen.")
 	)
 );
 
@@ -109,7 +109,7 @@ $rtl_k = array(
 		"B" => array("B1" => "나는 한국여자입니다."),
 		"C" => array("C1" => "빈칸을 채우세요.", "C2" => "빈칸을 채우세요."),
 		"D" => array("D1" => "빈칸에 알맞은 대륙 이름을 넣어보세요.", "D2" => "듣고 따라 하세요.", "D3" => "질문에 대답하세요."),
-		"E" => array("E1" => "출생지", "E2" => "맞춰보세요! 이것은 어디에 있나요? 세계 명소에 대해 말해보세요.", "E3" => "빈칸을 채우세요.", "E4" => "문장을 만들고 동사에 표시하세요.", "E5" => "맞는 답끼리 줄을 그으세요.", "E6" => "질문을 만들어 채우세요.")
+		"E" => array("E1" => "출생지", "E2" => "맞춰보세요! 이것은 어디에 있나요?", "E3" => "빈칸을 채우세요.", "E4" => "문장을 만들고 동사에 표시하세요.", "E5" => "맞는 답끼리 줄을 그으세요.", "E6" => "질문을 만들어 채우세요.")
 	)
 
 );
@@ -311,7 +311,7 @@ if($fn != "inthebeginning") {
 				</div>
 <?php
 		} else {
-			echo("      <div class=\"col text-center\">\n       <p class=\"text-center display-4\"><a href=\"{$returnPath}\">로그인</a>이 필요합니다.</p>\n\n     </div>\n");
+			echo("      <div class=\"col text-center\">\n       <p class=\"text-center display-4\"><a href=\"{$returnPath}\">로그인</a>이 필요합니다.<br>로그인 하셨다면, 학번을 입력해주세요.<br>이메일(<a href=\"mailto:cansmile@gmail.com\">cansmile@gmail.com</a>)을 주시면 빠르게 ‘학생’으로 등급이 조정됩니다.</p>\n\n     </div>\n");
 		}
 ?>
 			</div>

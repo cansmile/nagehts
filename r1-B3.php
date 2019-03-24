@@ -7,65 +7,44 @@
 
 		<section>
 			<div class="container">
-				<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Hören Sie und sprechen Sie nach.</h2>
-							<p>
-								듣고 따라하세요.
-							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-							HV
-						</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
-							❚❚
-						</button>
-						</p>
-				</div>
-				<div class="accordion" id="accordionitms">
-					<div class="card">
-						<div class="card-header" id="headingOne">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
-									Hallo! Ich bin Maria. Und du? Wie heißt du?
-								</button>
-							</h5>
-						</div>
+				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+							<h2>Hören Sie und sprechen Sie nach.</h2>
+								<p>
+									듣고 따라하세요.
+								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+								HV
+							</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+								❚❚
+							</button>
+							</p>
 					</div>
-					<div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms">
-						<div class="card-body">안녕! 난 마리아라고해. 너는? 네 이름은 뭐야?</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingTwo">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
-									Hallo! Ich heiße Joseph.
-								</button>
-							</h5>
-						</div>
-					</div>
-					<div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms">
-						<div class="card-body">안녕! 난 요셉이라고해.</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingThree">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
-									Freut mich, Joseph!
-								</button>
-							</h5>
-						</div>
-					</div>
-					<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
-						<div class="card-body">반가워, 요셉!</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingFour">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
-									Freut mich auch, Maria!
-								</button>
-							</h5>
-						</div>
-					</div>
-					<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
-						<div class="card-body">나도 반가워, 마리아!</div>
+					<div class="col">
+						<table class="table">
+							<thead>
+								<tr>
+									<th scope="col" height="100px" class="text-center display-4 text-white bg-success" colspan="2">Dialog</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row"><button type="button" id="1" class="itm btn btn-outline-danger">▶</button></th>
+									<td>Hallo! Ich bin Maria. Und du? Wie heißt du?<span class="tran"><br><small>안녕! 난 마리아라고해. 너는? 네 이름은 뭐야?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="2" class="itm btn btn-outline-danger">▶</button></th>
+									<td>Hallo! Ich heiße Joseph.<span class="tran"><br><small>안녕! 난 요셉이라고해.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="3" class="itm btn btn-outline-danger">▶</button></th>
+									<td>Freut mich, Joseph!<span class="tran"><br><small>반가워, 요셉!</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="4" class="itm btn btn-outline-danger">▶</button></th>
+									<td>Freut mich auch, Maria!<span class="tran"><br><small>나도 반가워, 마리아!</small></span></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 				<div class="row mt-3">
@@ -135,8 +114,14 @@
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
+			$(".tran").hide();
 
 			$(document).ready(function() {
+				// 각 문장 재생 횟수 초기화
+				var hm = new Array();
+				for(i = 0; i < $(".itm").length; i++) {
+					hm[i] = 0;
+				}
 
 				ion.sound({
 					sounds : [{
@@ -156,40 +141,60 @@
 					multiplay: false,
 					
 					ended_callback: function(obj) {
+						// 재생이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
+						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
-						};
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+
+						} else {
+							$("#"+obj.part).html("▶");
+
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();
+							}
+						}
+
 					}, ready_callback: function () {
 							$(".itm").on("click", function () {
 								if($(this).attr("id").substr(-2) == "_p") {
+									// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
 									ion.sound.pause("r1 B3", {
 										part: "0"
 									});
 									$("#0").show();
 									$(this).hide();
+								} else if($(this).html() == "▶") {
+									// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.play("r1 B3", {
+										part: $(this).attr("id")
+									});
+									$(this).html("❚❚");
+								} else if($(this).html() == "❚❚") {
+									// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.pause("r1 B3", {
+										part: $(this).attr("id")
+									});
+									$(this).html("▶");
 								} else {
-									if($(this).attr("id") != 0) {
-									var ch = "#collapse"+$(this).closest(".card-header").attr("id").substr(7);
-										if(!$(ch).hasClass("show")) {
-											// _p 붙어 있지 않으면 id 그대로 재생
-											ion.sound.play("r1 B3", {
-												part: $(this).attr("id")
-											});
-										}
-									} else {
-											//_p 붙어 있지 않으면 id 그대로 재생
-											ion.sound.play("r1 B3", {
-												part: $(this).attr("id")
-											});
-									}
-									
+									// _p 붙어 있지 않으면 id 그대로 재생
+									ion.sound.play("r1 B3", {
+										part: $(this).attr("id")
+									});
+
 									// 전체 듣기 재생일 때는 일시정지 버튼 보이기
 									if($(this).attr("id") == "0") {
 										$(this).hide();
 										$("#0_p").show();
 									};
-								}
+								};
 							});
 						// 준비되면 HV 보이기
 						$("#0").show();

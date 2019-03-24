@@ -107,13 +107,13 @@
 						<table class="table">
 							<thead>
 								<tr>
-									<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-success btn-lg">▶</button></th>
-									<td colspan="2" class="so text-center display-4 text-white bg-success" height="100px">Dialog 2</td>
+									<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-warning btn-lg">▶</button></th>
+									<td colspan="2" class="so text-center display-4 bg-warning" height="100px">Dialog 2</td>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td><button type="button" id="6" class="so btn btn-outline-success">▶</button></td>
+									<td><button type="button" id="6" class="so btn btn-outline-warning">▶</button></td>
 									<td>Ich heiß<span class="nu">⑤</span>
 										<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-5">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -131,11 +131,11 @@
 									<th scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A6-2.png" alt="Susi" style="max-width: 320px; height: auto;"></th>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="7" class="so btn btn-outline-success">▶</button></th>
+									<th scope="row"><button type="button" id="7" class="so btn btn-outline-warning">▶</button></th>
 									<td>Das ist mein Teddybär, Lars.<span class="tran"><br><small>이것은 나의 태디베어야, 라스야.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="8" class="so btn btn-outline-success">▶</button></th>
+									<th scope="row"><button type="button" id="8" class="so btn btn-outline-warning">▶</button></th>
 									<td>Ich wohn<span class="nu">⑥</span>
 										<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-6">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -151,7 +151,7 @@
 									  in Seoul,<span class="tran"><br><small>나는 서울에 살아.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="9" class="so btn btn-outline-success">▶</button></th>
+									<th scope="row"><button type="button" id="9" class="so btn btn-outline-warning">▶</button></th>
 									<td>Aber ich komm<span class="nu">⑦</span>
 										<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-7">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -167,11 +167,11 @@
 									  aus England.<span class="tran"><br><small>그렇지만 영국에서 왔어.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="10" class="so btn btn-outline-success">▶</button></th>
+									<th scope="row"><button type="button" id="10" class="so btn btn-outline-warning">▶</button></th>
 									<td>Das ist meine Mutter.<span class="tran"><br><small>이 분은 나의 엄마야.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="11" class="so btn btn-outline-success">▶</button></th>
+									<th scope="row"><button type="button" id="11" class="so btn btn-outline-warning">▶</button></th>
 									<td>Sie heiß<span class="nu">⑧</span>
 										<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-8">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -187,7 +187,7 @@
 									  Monalisa<span class="tran"><br><small>그녀는 모나리자라고 불려.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="12" class="so btn btn-outline-success">▶</button></th>
+									<th scope="row"><button type="button" id="12" class="so btn btn-outline-warning">▶</button></th>
 									<td>und wohn<span class="nu">⑨</span>
 										<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-9">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -265,7 +265,7 @@
 												<input type="radio" name="options" id="option36" autocomplete="off"><label for="option36">en</label>
 											</div>
 										</div>
-									  aus Japan,<span class="tran"><br><small>그는 일본에서 왔어.</small></span></td>
+									  aus Japan,<span class="tran"><br><small>그는 일본에서 왔어,</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="17" class="so btn btn-outline-primary">▶</button></th>
@@ -313,7 +313,6 @@
 			$("#0").hide();
 			$("#0_p").hide();
 			$(".tran").hide();
-			$(".nu").hide();
 
 
 			$(document).ready(function() {
@@ -366,6 +365,7 @@
 					ended_callback: function(obj) {
 						// 재상이 끝날 때 2번 이상이면 번역 보이기
 						hmn = obj.part;
+						hm[hmn]++;
 
 						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
@@ -380,7 +380,11 @@
 							$("#"+obj.part).html("▶");
 
 							if(hm[hmn] > 1) {
-								$("#"+hmn).closest("tr").find(".tran").show();
+								if(hmn == 18 || hmn == 19 || hmn == 20) {
+									$("#"+hmn).closest("table").find(".tran").show();
+								} else {
+									$("#"+hmn).closest("tr").find(".tran").show();
+								}
 							}
 						}
 
@@ -536,7 +540,7 @@
 
 					} else if ($(".btn-success").length == $(".q").length) {
 						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-success");
+						$(this).addClass("btn-primary");
 
 					} else {
 						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");

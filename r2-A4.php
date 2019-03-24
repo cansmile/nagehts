@@ -133,7 +133,7 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 							<div class="row">
-								<div class="bg-light py-2 col-6 border-right border-dark">Sie(당신)</div>
+								<div class="bg-light py-2 col-6 border-right border-dark">Sie<br>(<small>당신</small>)</div>
 								<div class="py-2 col-6">wohn<strong>en in</strong>…</div>
 							</div>
 							<div class="row">
@@ -141,7 +141,7 @@
 								<div class="bg-light py-2 col-6">wehn<strong>e in</strong> …</div>
 							</div>
 							<div class="row">
-								<div class="bg-light border-right border-dark py-2 col-6">Meine Mutter(나의 엄마)</div>
+								<div class="bg-light border-right border-dark py-2 col-6">Meine Mutter<br>(<small>나의 엄마</small>)</div>
 								<div class="py-2 col-6">wohn<strong>t in </strong>…</div>
 							</div>
 						</div>
@@ -183,6 +183,11 @@
 			$(".tran").hide();
 
 			$(document).ready(function() {
+				// 각 문장 재생 횟수 초기화
+				var hm = new Array();
+				for(i = 0; i < $(".so").length; i++) {
+					hm[i] = 0;
+				}
 
 				ion.sound({
 					sounds : [{
@@ -218,15 +223,29 @@
 					multiplay: false,
 					
 					ended_callback: function(obj) {
+						// 재생이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
 						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+
 						} else {
 							if(obj.part < 10) {
 								$("#"+obj.part).html("▶");
 							}
+
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();
+							}
 						}
+
 					}, ready_callback: function () {
 						
 				$(".o").on("click", function() {

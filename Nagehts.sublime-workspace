@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"backgre",
+				"background-size\tproperty"
+			],
+			[
+				"table",
+				"table-responsive \tBootstrap 4 Class"
+			],
+			[
+				"text-",
+				"text-weight-bold"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
 				"this",
 				"this\t$(this)"
 			],
@@ -34,10 +50,6 @@
 			[
 				"border-l",
 				"border-left-0 \tBootstrap 4 Class"
-			],
-			[
-				"table",
-				"table-light \tBootstrap 4 Class"
 			],
 			[
 				"border-",
@@ -144,30 +156,30 @@
 	"buffers":
 	[
 		{
-			"file": "r2-B1.php",
+			"contents": "내 키에 대한 \n4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c\n\n인도인키\n2de67392-b7a7-462a-b1ca-108dd189f588\n\nError: 0xC004D302 On a computer running Microsoft Windows non-core edition, run 'slui.exe 0x2a 0xC004D302' to display the error text.",
 			"settings":
 			{
-				"buffer_size": 7862,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "r2-A6.php",
-			"settings":
-			{
-				"buffer_size": 26397,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "https://www.dropbox.com/s/fqnc9vj3fslz7f2/%EC%A7%84%EB%A6%AC%EC%9D%98%20%EA%B9%83%EB%B0%9C%20vol.%20155%2C%20%EC%84%9C%EC%9A%B8%3B%20%ED%95%9C%EA%B5%AD%EA%B0%9C%ED%98%81%EC%A3%BC%EC%9D%98%EC%84%A4%EA%B5%90%EC%97%B0%EA%B5%AC%EC%9B%90%2C%20Feb.%202019.pdf?dl=0\nhttps://www.dropbox.com/s/dtrvg48vyk196a0/%ED%95%9C%EA%B5%AD%EA%B0%9C%ED%98%81%EC%8B%A0%ED%95%99%2C%20Vol.56%20No.-%2C%202017.pdf?dl=0\nhttps://www.dropbox.com/s/5c427v8h8uoypjt/%ED%95%9C%EA%B5%AD%EA%B0%9C%ED%98%81%EC%8B%A0%ED%95%99%2C%20Vol.58%20No.-%2C%202018.pdf?dl=0\nhttps://www.dropbox.com/s/ykjjoanp12loaub/%ED%95%9C%EA%B5%AD%EC%84%B1%EA%B2%BD%EC%8B%A0%ED%95%99%ED%9A%8C%2C%20%EA%B5%90%ED%9A%8C%EC%99%80%20%EB%AC%B8%ED%99%94%3B%20%EC%95%BC%EA%B3%A0%EB%B3%B4%EC%84%9C%20%EC%A3%BC%ED%95%B4%EC%99%80%20%EC%84%A4%EA%B5%90%2C%20Vol.41%20%EC%97%AC%EB%A6%84%2C%202018%2C%20%EB%82%98%EB%88%94%EA%B3%BC%20%EC%84%AC%EA%B9%80.pdf?dl=0\nhttps://www.dropbox.com/s/211drv2msd2z7rs/%ED%95%9C%EA%B5%AD%EC%84%B1%EA%B2%BD%EC%8B%A0%ED%95%99%ED%9A%8C%2C%20%EA%B5%90%ED%9A%8C%EC%99%80%20%EB%AC%B8%ED%99%94%3B%20%EC%97%B4%EC%99%95%EA%B8%B0%EC%84%9C%20%EC%A3%BC%ED%95%B4%EC%99%80%20%EC%84%A4%EA%B5%90%2C%20Vol.39%20%EC%97%AC%EB%A6%84%2C%202017%2C%20%EB%82%98%EB%88%94%EA%B3%BC%20%EC%84%AC%EA%B9%80.pdf?dl=0",
-			"settings":
-			{
-				"buffer_size": 1246,
+				"buffer_size": 223,
 				"line_ending": "Windows",
-				"name": "https://www.dropbox.com/s/fqnc9vj3fslz7f2/%EC%A7%8"
+				"name": "내 키에 대한"
+			}
+		},
+		{
+			"contents": "김요한 목사 주일1부예배 설교 삿3;7~11\n김요한 목사 주일2부예배 설교 삿3;7~11\n김요한 목사 주일저녁예배 설교 삿9;22~29\n\n김요한 목사 두렙회 헌신예배 마9;23~25\n\n",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Windows",
+				"name": "김요한 목사 주일1부예배 설교 삿3;7~11"
+			}
+		},
+		{
+			"file": "r2-E2.php",
+			"settings":
+			{
+				"buffer_size": 14617,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -183,7 +195,59 @@
 		"selected_items":
 		[
 			[
+				"git all",
+				"Git: Add All"
+			],
+			[
+				"git cur",
+				"Git: Add Current File"
+			],
+			[
+				"git addcu",
+				"Git: Add Current File"
+			],
+			[
+				"git add cur",
+				"Git: Add Current File"
+			],
+			[
+				"git add all",
+				"Git: Add All"
+			],
+			[
+				"duplicate",
+				"Highlight Duplicates: Toggle Highlighting"
+			],
+			[
+				"git add curr",
+				"Git: Add Current File"
+			],
+			[
 				"git add cu",
+				"Git: Add Current File"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"git commit",
+				"Git: Commit history"
+			],
+			[
+				"git gui",
+				"Git: Gui"
+			],
+			[
+				"stage",
+				"Git: Diff Staged Files"
+			],
+			[
+				"git add cut",
 				"Git: Add Current File"
 			],
 			[
@@ -223,14 +287,6 @@
 				"Git: Add All"
 			],
 			[
-				"git commit",
-				"Set Syntax: Git Commit"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"commit",
 				"Sublimerge: Show Uncommited Changes..."
 			],
@@ -252,10 +308,6 @@
 			],
 			[
 				"disabl",
-				"Package Control: Disable Package"
-			],
-			[
-				"disable",
 				"Package Control: Disable Package"
 			],
 			[
@@ -587,10 +639,6 @@
 				"MarkdownEditing: Magic Footnotes Command"
 			],
 			[
-				"duplicate",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
 				"toggle hight",
 				"Highlight Duplicates: Toggle highlighting"
 			],
@@ -657,42 +705,6 @@
 			[
 				"uri",
 				"Web encoder: Url encodeURI selection"
-			],
-			[
-				"highli",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"highligh",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"HIGHLIGHT",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"highlgih",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"linter",
-				"Preferences: SublimeLinter Settings – Default"
-			],
-			[
-				"sftp",
-				"Set Syntax: SFTP Output Panel"
-			],
-			[
-				"highlight duplicates",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"up",
-				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"high",
-				"Highlight Duplicates: Toggle highlighting"
 			]
 		],
 		"width": 528.0
@@ -719,17 +731,35 @@
 	],
 	"file_history":
 	[
+		"/D/cansmile/csde/nagehts/r2-E1.php",
+		"/D/cansmile/csde/nagehts/st.php",
+		"/D/cansmile/csde/nagehts/r2-E2.php",
+		"/D/cansmile/csde/nagehts/js/glob.js",
+		"/D/cansmile/csde/nagehts/r2-E3.php",
+		"/D/cansmile/csde/nagehts/nav.php",
+		"/D/cansmile/csde/nagehts/r1-B1.php",
+		"/D/cansmile/cswd/txt/2019031200001 Windows Key.txt",
 		"/D/cansmile/csde/nagehts/test.php",
+		"/D/cansmile/csde/nagehts/r2-D3.php",
+		"/D/cansmile/csde/nagehts/r2-C2.php",
+		"/D/cansmile/csde/nagehts/r2-D2.php",
+		"/D/cansmile/csde/nagehts/r2-D1.php",
 		"/D/cansmile/csde/nagehts/r2-A6.php",
 		"/D/cansmile/csde/nagehts/r2-A2.php",
+		"/D/cansmile/csde/nagehts/r2-C1.php",
 		"/D/cansmile/csde/nagehts/r2-A4.php",
-		"/D/cansmile/csde/nagehts/r2-A5.php",
-		"/D/cansmile/csde/nagehts/nav.php",
+		"/D/cansmile/csde/nagehts/r2-B1.php",
+		"/D/cansmile/csde/nagehts/js/taptogroup.js",
 		"/D/cansmile/csde/nagehts/r1-G8.php",
-		"/D/cansmile/csde/nagehts/cp.php",
-		"/D/cansmile/csde/nagehts/r1-G3.php",
-		"/D/cansmile/csde/nagehts/r1-B1.php",
 		"/D/cansmile/csde/nagehts/r1-G7.php",
+		"/D/cansmile/csde/nagehts/cn.php",
+		"/D/cansmile/csde/nagehts/inhalt.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/st.php",
+		"/D/cansmile/csde/nagehts/r1-G3.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/xl/worksheets/sheet1.xml",
+		"/D/cansmile/csde/nagehts/r1-B3.php",
+		"/D/cansmile/csde/nagehts/r2-A5.php",
+		"/D/cansmile/csde/nagehts/cp.php",
 		"/D/cansmile/csde/nagehts/r1-Grammatik und Wendungen.php",
 		"/D/cansmile/csde/nagehts/r1-G2.php",
 		"/D/cansmile/csde/nagehts/r1-A2.php",
@@ -739,7 +769,6 @@
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
 		"/D/cansmile/csde/eDeutsch/cp.php",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Sublimerge 3/Default (Windows).sublime-keymap",
-		"/D/cansmile/cswd/txt/2019031200001 Windows Key.txt",
 		"/D/cansmile/csde/eDeutsch/nav.php",
 		"/D/cansmile/csde/eDeutsch/r2-A5.php",
 		"/D/cansmile/csde/eDeutsch/r2-A2.php",
@@ -829,28 +858,11 @@
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551622992/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-load.php",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621786/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-login.php",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621641/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-load.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621599/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-blog-header.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551619498/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-includes/user.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621511/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/index.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/6/0/var/www/html/nagehts.org/public_html/wp-config.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/6/0/var/www/html/nagehts.org/public_html/index.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621472/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/index.php",
-		"/D/cansmile/csde/eDeutsch/header.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/wp-login.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/wp-load.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/wp-content/themes/nagehts/header.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551602432/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-includes/functions.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551595839/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/t.php",
-		"/D/cansmile/csde/eDeutsch/wp-content/nagehts/functions.php",
-		"/D/cansmile/csde/eDeutsch/wp-content/nagehts/index.php",
-		"/D/cansmile/csde/eDeutsch/index.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/conf/info.xml",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/notify.js",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/5/0/var/www/html/nagehts.org/public_html/tport/addons/message_alarm/notify.css"
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1551621599/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-blog-header.php"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -871,6 +883,124 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12",
+			"bg-warning text-white",
+			"xico",
+			"py-2 px-2 d-inline-block wd",
+			"ch()",
+			"py-2 px-2 d-inline-block",
+			"\n\t\t\t\t\t",
+			"border py-2 px-2 d-inline-block",
+			"style",
+			"<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"input-group\">",
+			"<td class=\"border-top-0 border-bottom-0\">",
+			"Taco",
+			"<div class=\"input-group\">",
+			"짤",
+			"text-light",
+			"<th class=\"border-top-0 border-bottom-0\">",
+			"<div class=\"input-group\">",
+			"py-2",
+			" id=\"qst-",
+			"col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4",
+			"<td class=\"border-top-0 border-bottom-0\">",
+			"<input type=\"text\"",
+			"/\\ /gi",
+			"<div class=\"my-2",
+			"<td><div class=",
+			"<td><div class",
+			"<span>",
+			"</span><span>",
+			"input-group-text\" id=\"qst-ad",
+			"input-group-append",
+			"</small></span></td>",
+			"<input type=\"text\" pl",
+			"<td class=\"border-top-0 border-bottom-0\">",
+			"Calss",
+			"\"\",",
+			"input-group-text\" id=\"qst-ad",
+			"qst-ad3",
+			"<input type=\"text\" placeholder=\"Antwort\" aria-label=\"Antwort\" aria-describedby=\"basic-addon",
+			"<th class=\"border-top-0 border-bottom-0\">",
+			"$pr ",
+			"$prv",
+			"$pr",
+			"$prv",
+			"$a5 = \" text-right\";",
+			"class=\"tran\"><br><small>남미",
+			"<td class=\"border-top-0 border-bottom-0\">Wo liegt",
+			"$(this).addClass(\"btn-",
+			" input-group-sm\"",
+			"form-control q\" id=\"qst-",
+			"form-control\"",
+			"input-group",
+			"form-control\" id=\"qst-",
+			"</th>\n\t\t\t\t\t\t\t\t\t<td>",
+			"<tr>\n\t\t\t\t\t\t\t\t\t<th>",
+			"<tr>\n\t\t\t\t\t\t\t\t<td",
+			"<tr>\n\t\t\t\t\t\t\t\t<td>",
+			"<span class=\"tran\"><br><small>",
+			"리비야",
+			"btn-outline-danger\">▶</button>",
+			"<th scope=\"row\"><button type=\"button\" id=\"",
+			"r2 B1",
+			"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6",
+			"<td rowspan=\"4\" class=\"text-center align-middle\">",
+			"<td rowspan=\"4\"><img src=\"./images/Reihe 2/",
+			"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6",
+			"hm",
+			"outline-dark so itm",
+			"mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm",
+			"2",
+			"86.9,1",
+			"<td><button type=\"button\" id=\"",
+			"r2 C1",
+			"<td></td>",
+			"<td>&nbsp;</td>",
+			"<th scope=\"",
+			"Kleopatra",
+			"이집트인",
+			"Minnie Mouse",
+			"Pororo",
+			"Sandmännchen",
+			"r2 A2",
+			"btn-lg btn-outline-dark so itm\" id=\"",
+			"r2 A2",
+			"201403042",
+			"확인",
+			"outline-success",
+			".o",
+			"$ds",
+			"201601045\n201602014\n201603030\n201603051\n201603057\n201802031\n201803030\n201901001\n201901002\n201901003\n201901004\n201901005\n201901006\n201901007\n201901008\n201901011\n201901013\n201901014\n201901015\n201901019\n201901020\n201901022\n201901027\n201901032\n201901035\n201901037\n201901038\n201901041\n201901042\n201901044\n201901052\n201901053\n201902001\n201902002\n201902003\n201902004\n201902005\n201902006\n201902007\n201902008\n201902009\n201902010\n201902011\n201902012\n201902013\n201902014\n201902015\n201902016\n201902017\n201902019\n201902020\n201902021\n201902023\n201902024\n201902025\n201902026\n201902027\n201902028\n201902029\n201902030\n201902031\n201902032\n201902033\n201902034\n201902035\n201902036\n201902037\n201902038\n201902039\n201902040\n201902041\n201902042\n201902043\n201902044\n201902045\n201902046\n201902047\n201902048\n201902049\n201902050\n201902051\n201902052\n201902053\n201903001\n201903002\n201903004\n201903005\n201903007\n201903009\n201903010\n201903011\n201903012\n201903013\n201903015\n201903016\n201903017\n201903018\n201903019\n201903020\n201903022\n201903023\n201903024\n201903025\n201903026\n201903027\n201903028\n201903029\n201903030\n201903032\n201903033\n201903034\n201903035\n201903037\n201903038\n201903039\n201903041\n201903042\n201903043\n201903044\n201903045\n201903046\n201903048\n201903049\n201903050\n201903051\n201903052\n201903053\n",
+			"\"201602014\"\n\"201603030\"\n\"201603051\"\n\"201603057\"\n\"201802031\"\n\"201803030\"\n\"201901001\"\n\"201901002\"\n\"201901003\"\n\"201901004\"\n\"201901005\"\n\"201901006\"\n\"201901007\"\n\"201901008\"\n\"201902002\"\n\"201902005\"\n\"201902006\"\n\"201902007\"\n\"201902008\"\n\"201902011\"\n\"201902012\"\n\"201902013\"\n\"201902019\"\n\"201902023\"\n\"201902024\"\n\"201902025\"\n\"201902027\"\n\"201902028\"\n\"201902029\"\n\"201902030\"\n\"201902031\"\n\"201902032\"\n\"201902033\"\n\"201902034\"\n\"201902035\"\n\"201902036\"\n\"201902038\"\n\"201902039\"\n\"201902040\"\n\"201902041\"\n\"201902043\"\n\"201902044\"\n\"201902045\"\n\"201902046\"\n\"201902047\"\n\"201902048\"\n\"201902051\"\n\"201902052\"\n\"201903001\"\n\"201903002\"\n\"201903004\"\n\"201903005\"\n\"201903007\"\n\"201903007\"\n\"201903009\"\n\"201903010\"\n\"201903011\"\n\"201903012\"\n\"201903013\"\n\"201903015\"\n\"201903016\"\n\"201903017\"\n\"201903018\"\n\"201903019\"\n\"201903020\"\n\"201903022\"\n\"201903023\"\n\"201903024\"\n\"201903025\"\n\"201903026\"\n\"201903027\"\n\"201903028\"\n\"201903029\"\n\"201903030\"\n\"201903032\"\n\"201903033\"\n\"201903034\"\n\"201903035\"\n\"201903037\"\n\"201903038\"\n\"201903039\"\n\"201903041\"\n\"201903042\"\n\"201903043\"\n\"201903044\"\n\"201903045\"\n\"201903046\"\n\"201903048\"\n\"201903049\"\n\"201903050\"\n\"201903051\"\n\"201903052\"\n\"201903053\"",
+			", ",
+			"$a4 .= \" text-danger\";",
+			" ",
+			"love",
+			" ",
+			"\n",
+			" ",
+			"danger",
+			",",
+			"$al",
+			"로그인",
+			"$\n",
+			"r1 U3",
+			"id=\"",
+			"id=\"1",
+			"r1 B1",
+			"id=",
+			"so",
+			"for",
+			"r1 U3",
+			"</button></td>",
+			"btn btn-outline-success\">",
+			"r1 B3",
+			"btn btn-outline-danger\">",
+			"btn-outline-primary\">",
+			"++",
+			"r2 B1",
+			"so ",
 			"??????",
 			"so",
 			"align-middle",
@@ -880,125 +1010,7 @@
 			"max-height: 60px",
 			"<span class=\"ub\">_</span>",
 			"<span class=\"ub\">_</span",
-			"<div class=\"btn-group btn-group-toggle",
-			"<span class=\"nu\">",
-			"hm",
-			"<th scope=\"row\"><button type=\"button\" id=\"",
-			"hm",
-			"<th scope=\"row\"><button type=\"button\" id=\"",
-			"<span class=\"nu\">",
-			"<th scope=\"row\"><button type=\"button\" id=\"",
-			"px; height: auto;\"></th>",
-			" style=\"max-width: 320px; height: auto;\"></th>",
-			"style=\"max-width: 320px; height: auto;\"></th>",
-			"<div class=\"btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-",
-			"r2 A6",
-			".tran",
-			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" ",
-			"r2 A6",
-			"<th class=\"bg-light\" scope=\"row\"><button typ",
-			"</button></th>",
-			" class=\"so btn btn-danger\">",
-			"r2 A6",
-			"<td class=\"text-center align-middle\"><button type=\"but",
-			"Dialog ",
-			"</label>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>",
-			"id=\"qst",
-			"off\"><label for=\"option",
-			"var iq = $(\"#qst-",
-			"<button type=\"button\" id=\"",
-			"<th scope=\"row\"><button type=\"button\" id=\"",
-			"<th colspan=\"3\" scope=\"col\" class=",
-			"<input type=\"radio\" name=\"options\" id=\"option",
-			"<span class=\"nu\">",
-			"<td>Ich komm<span class=\"nu\">",
-			"max-width: 240px",
-			"id=\"qst-",
-			"<th scope=\"row\"><button type=\"button\" id=",
-			"btn-outline-primary\">",
-			"btn-outline-success",
-			"class=\"so btn btn-outline-success\">",
-			"\" class=\"so btn btn-outline-success\">ㅇ",
-			"<button type=\"button\" id=\"7\" class=\"so btn btn-outline-success\">",
-			"http://vimage.moazine.com/000388/0000042628/40.jpg",
-			"btn-outline-danger",
-			"btn-outline-success",
-			"<div class=\"btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-",
-			"<th scope=\"row\"><button type=\"button\" id=\"",
-			"r2 A4 A5",
-			"$\n",
-			"$",
-			"your",
-			"처음사용자용",
-			"데스크탑",
-			"설치",
-			"th scope=\"row\"",
-			"so btn btn-outline-danger",
-			".substring(3);",
-			"btn btn-outline-dark btn-sm",
-			"so btn btn-outline-success",
-			"<th scope=\"row\">",
-			"<th scope=\"row\">1",
-			"<th scope=\"row\">",
-			"btn-group btn-group-toggle q",
-			"<span class=\"btn btn-outline-dark btn-sm\">",
-			"ihnen",
-			"<span class=\"btn btn-outline-dark btn-sm",
-			" itm",
-			" itm ",
-			"itm",
-			"<span class=\"tran\">",
-			"<span class=\"tran\"><small>",
-			"span class=\"btn btn-outline-dark btn-sm nu\"",
-			"<span class=\"tran\"><small",
-			"btn-outline-dark btn-sm nu\"",
-			"var tt = $(\"#qst-",
-			"$(this).parent().append(",
-			"$(this).parent().",
-			"<span class=\"tran\"><br><small>",
-			"$(this).parent().append",
-			"<span class=\"btn btn-outline-dark btn-sm\">",
-			"혹은",
-			"<span class=\"tran\">",
-			"addclass",
-			"class=\"tran\">&nbsp;",
-			"<span class=\"tran\">&nbsp;",
-			"<button class=\"btn btn-outline-primary mt-1 mx-1 so itm btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" area-expanded=\"false\" aria-controls=\"collapse",
-			"<div class=\"collapse\" id=\"collapse",
-			"<div class=\"collapse\" id=\"collapseOne\" aria-labelledby=\"heading",
-			"<button class=\"btn btn-outline-primary mt-1 mx-1 so itm btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" area-expanded=\"false\" aria-controls=\"collapseOne\" id=",
-			"<div class=\"card-header\" id=\"headingOne",
-			"headingOne",
-			"<button class=\"btn btn-outline-primary mt-1 mx-1 ",
-			"<button type=\"button\" class=\"mt-1 mx-1 ",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ",
-			"so itm\" id=\"",
-			"<button type=\"button\" class=\"mt",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm\" id=\"",
-			"r2 A4",
-			"r2 A2",
-			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" id=\"",
-			"var iq = $(\"#qst-",
-			"images/Reihe 2/",
-			"<div class=\"col-2\" style=\"min-hegiht:100%;\">",
-			"light",
-			"Register",
-			"username",
-			"Username",
-			"<div class=\"col-2\">",
-			"frameborder=\"0\" width=\"100%\"",
-			" style=\"width:20%;height:100%\">",
-			"col d-block",
-			"<div class=\"col d-block\" style=\"width:100%;height:20%\"",
-			">\");",
-			"\tshow hide show if unread\tshow hide\tremove edit\t Show in IMAP \t ",
-			"\t\tshow hide\tremove edit\t Show in IMAP \t ",
-			"R0_Ordnen_Sie",
-			"<div class=\"col\">\n\t\t\t\t\t\t<table class=\"table table-light text-center\">",
-			"<div class=\"row\">\n\t\t\t\t\t<div class=\"col\">",
-			"<div class=\"col\">",
-			"<div class=\"col",
-			"<th class=\"bg-light\" scope=\"row\"><button type=\"button\" id=\""
+			"<div class=\"btn-group btn-group-toggle"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1006,6 +1018,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"xiko",
+			"리비아",
+			"outline-warning",
+			"\n",
+			",",
+			"\n",
+			",",
 			"",
 			"r2 A2",
 			"r2 A4 A5",
@@ -1126,14 +1145,7 @@
 			"<?php include \"footer.php\"; ?>",
 			".php",
 			"",
-			"(없음)",
-			"절에 포함",
-			"\"",
-			",",
-			"\",",
-			"\"",
-			",\n",
-			","
+			"(없음)"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1144,256 +1156,40 @@
 	"groups":
 	[
 		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "r2-B1.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7862,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5700,
-								5700
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 46,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										5796,
-										5797
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										5664,
-										5665
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2856.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
 			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "r2-A6.php",
+					"buffer": 0,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26397,
+						"buffer_size": 223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20903,
-								20903
+								223,
+								223
 							]
 						],
 						"settings":
 						{
+							"auto_name": "내 키에 대한",
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 64,
+							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										20934,
-										20935
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										20853,
-										20854
-									]
 								},
 								"unmatched":
 								{
@@ -1401,61 +1197,61 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1474,96 +1270,167 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"is_init_dirty_state": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 8756.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1246,
+						"buffer_size": 103,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1246
+								50,
+								76
 							]
 						],
 						"settings":
 						{
-							"auto_name": "https://www.dropbox.com/s/fqnc9vj3fslz7f2/%EC%A7%8",
+							"auto_name": "김요한 목사 주일1부예배 설교 삿3;7~11",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
 							"bracket_highlighter.locations":
 							{
 								"close":
@@ -1586,16 +1453,11 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1611,34 +1473,40 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_round_content"
 							],
 							"default_dir": "D:\\cansmile\\csde\\nagehts",
 							"incomplete_sync": null,
+							"is_init_dirty_state": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1647,13 +1515,225 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "r2-E2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13025,
+								13026
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										13837,
+										13838
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										12857,
+										12858
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										13837,
+										13838
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										12857,
+										12858
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3979.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1668,18 +1748,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1721,7 +1794,7 @@
 	"project": "Nagehts.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 50.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1771,7 +1844,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 201.0,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

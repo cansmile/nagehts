@@ -20,11 +20,6 @@
 					</div>
 				</div>
 
-				<div class="row text-center">
-					<div class="col"><img src="./images/Reihe 2/Reihe-2-A2-1.png" style="max-width: 240px; height: auto;" alt="Sandmännchen"><br>Sandmännchen</div>
-					<div class="col"><img src="./images/Reihe 2/Reihe-2-A2-2.png" style="max-width: 240px; height: auto;" alt="Pororo"><br>Pororo</div>
-					<div class="col"><img src="./images/Reihe 2/Reihe-2-A2-3.png" style="max-width: 150px; height: auto;" alt="Minnie Mouse"><br>Minnie Mouse</div>
-				</div>
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
@@ -48,11 +43,12 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="17" class="so btn btn-warning btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center display-4 bg-warning" height="100px">Sandmännchen</td>
+							<td width="70%" colspan="2" class="so text-center display-4 bg-warning" height="100px">Sandmännchen</td>
+							<td rowspan="4" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-1.png" style="max-width: 240px; height: auto;" alt="Sandmännchen"></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="7" class="so btn btn-primary">▶</button></th>
@@ -80,11 +76,12 @@
 						</tr>
 					</table>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="18" class="so btn btn-warning btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center display-4 bg-warning" height="100px">Pororo</td>
+							<td width="70%" colspan="2" class="so text-center display-4 bg-warning" height="100px">Pororo</td>
+							<td rowspan="4" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-2.png" style="max-width: 240px; height: auto;" alt="Pororo"></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-primary">▶</button></th>
@@ -112,11 +109,12 @@
 						</tr>
 					</table>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-warning btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center display-4 bg-warning" height="100px">Minnie Mouse</td>
+							<td width="70%" colspan="2" class="so text-center display-4 bg-warning" height="100px">Minnie Mouse</td>
+							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-3.png" style="max-width: 150px; height: auto;" alt="Minnie Mouse"></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="13" class="so btn btn-primary">▶</button></th>
@@ -133,11 +131,11 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="15" class="so btn btn-danger">▶</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="15" class="so btn btn-primary">▶</button></th>
 							<td colspan="2">Und wo wohnst du? <br><span class="tran">&nbsp;<small>그러면 어디에서 살아?</small></span></td>
 						</tr>
 						<tr>
-							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-primary">▶</button></th>
+							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-danger">▶</button></th>
 							<td>Ich wohne in <span class="btn btn-outline-dark btn-sm">⑥</span>. <br><span class="tran">&nbsp;<small>나는 <strong>캘리포니아</strong>에 살아.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-6">
@@ -195,6 +193,11 @@
 			$(".tran").hide();
 
 			$(document).ready(function() {
+				// 각 문장 재생 횟수 초기화
+				var hm = new Array();
+				for(i = 0; i < $(".so").length; i++) {
+					hm[i] = 0;
+				}
 
 				ion.sound({
 					sounds : [{
@@ -203,13 +206,13 @@
 						sprite : {
 							"0": [3.1,54.4],
 							"1": [21.1,.6],
-							"2": [56.5,.7],
+							"2": [56.4,.8],
 							"3": [34.1,.6],
 							"4": [36.4,.5],
 							"5": [18.7,.6],
 							"6": [49,.8],
 							"7": [10.1,3.6],
-							"8": [17.8,1.9],
+							"8": [17.6,2],
 							"9": [20,1.9],
 							"10": [26.7,3.4],
 							"11": [33.1,2.1],
@@ -234,17 +237,38 @@
 					volume : 1.0,
 					multiplay: false,
 					
-					ended_callback: function(obj) {{
+					ended_callback: function(obj) {
+						// 재생이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
 						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+
 						} else {
 							if(obj.part > 6) {
 								$("#"+obj.part).html("▶");
 							}
+
+							if(hm[hmn] > 1) {
+								if(hmn == 17 || hmn == 18 || hmn == 19) {
+									$("#"+hmn).closest("table").find(".tran").show();
+								} else {
+									$("#"+hmn).closest("tr").find(".tran").show();									
+								}
+
+							}
+
+
 						}
-					}}, ready_callback: function () {
+
+					}, ready_callback: function () {
 						
 				$(".o").on("click", function() {
 					ion.sound.play("Bama_Country_Country");

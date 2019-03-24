@@ -21,7 +21,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-10 col-xl-10">
+					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9 col-xl-9">
 						<table class="table">
 							<thead>
 								<tr>
@@ -31,87 +31,104 @@
 							<tbody>
 								<tr>
 									<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
-									<td>Woher kommen Sie?<span class="tran"><br><small>당신은 어디에서 오셨나요?</small></span></td>
+									<td>Hallo, ich heiße Abena.<span class="tran"><small>안녕하세요, 저는 아비나에요.</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ich komme aus Korea. Ich bin Koreanerin.<span class="tran"><br><small>저는 한국에서 왔어요. 한국인이에요.</small></span></td>
+									<td>Wie heißen Sie?<span class="tran"><small>당신은 이름이 뭐에요?</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></th>
-									<td>Kommen Sie aus Seoul?<span class="tran"><br><small>서울에서 왔나요?</small></span></td>
+									<th scope="row"><button type="button" id="3" class="so btn btn-outline-info">▶</button></th>
+									<td>Ich bin Muammar.<span class="tran"><small>저는 무아마에요.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></th>
-									<td>Nein, ich komme aus Busan. Aber ich wohne in Seoul.<span class="tran"><br><small>아뇨, 저는 부산 출신이에요. 하지만 서울에 살아요.</small></span></td>
+									<th scope="row"><button type="button" id="4" class="so btn btn-outline-info">▶</button></th>
+									<td>Woher kommen Sie?<span class="tran"><small>당신은 어디에서 왔나요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></th>
-									<td>Woher kommen Sie?<span class="tran"><br><small>당신은 어디에서 살아요?</small></span></td>
+									<td>Ich komme aus Ghana. Und Sie?<span class="tran"><small>저는 가나 출신이에요. 당신은요?</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="6" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ich komme aus Japan. Ich bin Japaner.<span class="tran"><br><small>저는 일본에서 왔어요. 저는 일본인입니다.</small></span></td>
+									<th scope="row"><button type="button" id="6" class="so btn btn-outline-info">▶</button></th>
+									<td>Ich komme aus Libyen.<span class="tran"><small>저는 리비아출신이에요.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="7" class="so btn btn-outline-danger">▶</button></th>
-									<td>Und wo wohnen Sie?<span class="tran"><br><small>그러면 어디에서 살아요?</small></span></td>
+									<th scope="row"><button type="button" id="7" class="so btn btn-outline-info">▶</button></th>
+									<td>Wo liegt Ghana?<span class="tran"><small>가나는 어디에 있죠?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="8" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ich wohne auch in Seoul.<span class="tran"><br><small>저는 서울에서 살아요.</small></span></td>
+									<td>Ghana liegt in Westafrika.<span class="tran"><small>가나는 서아프리카에 있어요.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="9" class="so btn btn-outline-danger">▶</button></th>
+									<td>Wo liegt Libyen?<span class="tran"><small>리비아는 어디에 있나요?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="10" class="so btn btn-outline-danger">▶</button></th>
+									<td>Liegt Libyen in Westafrika?<span class="tran"><small>리비아는 서아프리카에 있나요?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="11" class="so btn btn-outline-info">▶</button></th>
+									<td>Nein, Libyen liegt in Nordafrika.<span class="tran"><small>아뇨, 리비아는 북아프라카에 있어요.</small></span></td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-md-2 col-lg-1 col-xl-1">
-						<table class="table">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+						<table class="table text-center">
 							<thead>
 								<tr>
-									<th scope="col" class="text-center"><img src="./images/sym_frau.png" alt="Frau" style="max-height: 70px; width: auto;"></th>
+									<th scope="col" class="text-center">vier Himmelsrichtungen<br><small>네 방위</small></th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td style="height: 65px;">Koreanerin</td>
+									<td style="height: 65px;">der Norden<br><small>북</small></td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Japanerin</td>
+									<td style="height: 65px;">der Westen<br><small>서</small></td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Chinesin</td>
+									<td style="height: 65px;">der Osten<br><small>동</small></td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Deutsche</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-xs-6 col-sm-3 col-md-2 col-lg-1 col-xl-1">
-						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col" class="text-center"><img src="./images/sym_mann.png" alt="Mann" style="max-height: 70px; width: auto;"></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td style="height: 65px;">Koreaner</td>
+									<td style="height: 65px;">der Süden<br><small>남</small></td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Japaner</td>
+									<td style="height: 65px;">die Mitte<br><small>중앙</small></td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Chinese</td>
-								</tr>
-								<tr>
-									<td style="height: 65px;">Deutscher</td>
+									<td style="height: 65px;"><img src="./images/Reihe 2/Reihe-2-D2-1.png" alt="Map" style="max-width: 100%; height: auto;"></td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
-
+			<div class="row">
+				<div class="col">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td class="border-top-0 border-bottom-0">&nbsp;</td>
+								<td class="border-top-0 border-bottom-0 text-center display-4">Norden</td>
+								<td class="border-top-0 border-bottom-0">&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="border-top-0 border-bottom-0 align-middle text-right display-4">Westen</td>
+								<td class="border-top-0 text-center align-middle border-bottom-0"><img src="./images/Reihe 2/Reihe-2-D2-2.png" alt="Him class="border-top-0 border-bottom-0"melsrichtungen" style="max-height: 320px; width: auto"></td>
+								<td class="border-top-0 border-bottem-0 align-middle text-left display-4">Osten</td>
+							</tr>
+							<tr>
+								<td class="border-top-0 border-bottom-0">&nbsp;</td>
+								<td class="border-top-0 border-bottom-0 text-center display-4">Süden</td>
+								<td class="border-top-0 border-bottom-0">&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</div>
 	</section>
 		
@@ -139,18 +156,21 @@
 				}
 				ion.sound({
 					sounds : [{
-						name : "r2 B1",
+						name : "r2 D2",
 
 						sprite : {
-							"0": [14.3,40.8],
-							"1": [14,1.8],
-							"2": [18,4.2],
-							"3": [25.5,2.3],
-							"4": [29.8,4.8],
-							"5": [39,2],
-							"6": [43.2,3.7],
-							"7": [49,1.8],
-							"8": [52.9,2.3]
+							"0": [3.7,48.2],
+							"1": [8.4,2.8],
+							"2": [11.8,1.3],
+							"3": [17.5,1.4],
+							"4": [19.3,1.4],
+							"5": [24.4,3.3],
+							"6": [30.3,2.1],
+							"7": [32.7,1.3],
+							"8": [37.9,2.1],
+							"9": [40.4,1.3],
+							"10": [42.5,2.2],
+							"11": [48.2,3.8]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -227,26 +247,26 @@
 			$(".so").on("click", function () {
 				if($(this).attr("id").substr(-2) == "_p") {
 					// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r2 B1", {
+					ion.sound.pause("r2 D2", {
 						part: "0"
 					});
 					$("#0").show();
 					$(this).hide();
 				} else if($(this).html() == "▶") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.play("r2 B1", {
+					ion.sound.play("r2 D2", {
 						part: $(this).attr("id")
 					});
 					$(this).html("❚❚");
 				} else if($(this).html() == "❚❚") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r2 B1", {
+					ion.sound.pause("r2 D2", {
 						part: $(this).attr("id")
 					});
 					$(this).html("▶");
 				} else {
 					// _p 붙어 있지 않으면 id 그대로 재생
-					ion.sound.play("r2 B1", {
+					ion.sound.play("r2 D2", {
 						part: $(this).attr("id")
 					});
 

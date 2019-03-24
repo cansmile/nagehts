@@ -25,7 +25,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row"><button type="button" id="1" class="so btn btn-outline-primary">1</button></th>
+							<th scope="row"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></th>
 							<td>
 								Ich heiße Martin<span class="nu">①</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
@@ -40,7 +40,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row"><button type="button" id="2" class="so btn btn-outline-primary">2</button></th>
+							<th scope="row"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></th>
 							<td>
 								Und wie heißt du<span class="nu">②</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
@@ -55,7 +55,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">3</button></th>
+							<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></th>
 							<td>
 								Tim<span class="nu">③</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
@@ -79,7 +79,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row"><button type="button" id="4" class="so btn btn-outline-success">1</button></th>
+							<th scope="row"><button type="button" id="4" class="so btn btn-outline-success">▶</button></th>
 							<td>
 								Wie heißen Sie<span class="nu">④</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
@@ -94,7 +94,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row"><button type="button" id="5" class="so btn btn-outline-info">2</button></th>
+							<th scope="row"><button type="button" id="5" class="so btn btn-outline-info">▶</button></th>
 							<td>
 								Mein Name ist Sauer<span class="nu">⑤</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-5">
@@ -118,7 +118,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row"><button type="button" id="6" class="so btn btn-outline-danger">1</button></th>
+							<th scope="row"><button type="button" id="6" class="so btn btn-outline-danger">▶</button></th>
 							<td>
 								Ich heiße Esswein<span class="nu">⑥</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-6">
@@ -133,7 +133,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row"><button type="button" id="7" class="so btn btn-outline-danger">2</button></th>
+							<th scope="row"><button type="button" id="7" class="so btn btn-outline-danger">▶</button></th>
 							<td>
 								Und Sie<span class="nu">⑦</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-7">
@@ -148,7 +148,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row"><button type="button" id="8" class="so btn btn-outline-primary">3</button></th>
+							<th scope="row"><button type="button" id="8" class="so btn btn-outline-primary">▶</button></th>
 							<td>
 								Anna, Anna Kim<span class="nu">⑧</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-8">
@@ -192,6 +192,11 @@
 			$(".nu").hide();
 
 			$(document).ready(function() {
+				// 각 문장 재생 횟수 초기화
+				var hm = new Array();
+				for(i = 0; i < $(".so").length; i++) {
+					hm[i] = 0;
+				}
 
 				ion.sound({
 					sounds : [{
@@ -221,10 +226,27 @@
 					multiplay: false,
 					
 					ended_callback: function(obj) {
+						// 재생이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
+						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
-						};
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+
+						} else {
+							$("#"+obj.part).html("▶");
+
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();
+							}
+						}
+
 					},
 					ready_callback: function () {
 						
@@ -338,33 +360,36 @@
 
 		
 						$(".so").on("click", function () {
-							if($(this).attr("id").substr(-2) == "_p") {
-								ion.sound.pause("r1 U3", {
-									part: "0"
-								});
-								$("#0").show();
-								$(this).hide();
-							} else if($(this).attr("id") == 0) {
-										//_p 붙어 있지 않으면 id 그대로 재생
-										ion.sound.play("r1 U3", {
-											part: $(this).attr("id")
-										});
-							} else {
-								if($(this).parent()[0].tagName == "H5") {
-									var ch = "#collapse"+$(this).closest(".card-header").attr("id").substr(7);
-								}
-									if(!$(ch).hasClass("show") || !$(this).hasClass("btn-secondary")) {
-										// _p 붙어 있지 않으면 id 그대로 재생
-										ion.sound.play("r1 U3", {
-											part: $(this).attr("id")
-										});
-									}
-								};
-								
-								// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-								if($(this).attr("id") == "0") {
+								if($(this).attr("id").substr(-2) == "_p") {
+									// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.pause("r1 U3", {
+										part: "0"
+									});
+									$("#0").show();
 									$(this).hide();
-									$("#0_p").show();
+								} else if($(this).html() == "▶") {
+									// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.play("r1 U3", {
+										part: $(this).attr("id")
+									});
+									$(this).html("❚❚");
+								} else if($(this).html() == "❚❚") {
+									// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.pause("r1 U3", {
+										part: $(this).attr("id")
+									});
+									$(this).html("▶");
+								} else {
+									// _p 붙어 있지 않으면 id 그대로 재생
+									ion.sound.play("r1 U3", {
+										part: $(this).attr("id")
+									});
+
+									// 전체 듣기 재생일 때는 일시정지 버튼 보이기
+									if($(this).attr("id") == "0") {
+										$(this).hide();
+										$("#0_p").show();
+									};
 								};
 							});
 					// 준비되면 HV 보이기

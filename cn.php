@@ -41,10 +41,24 @@ function ul() {
   
   return $user->exists();
 }
-
 if(current_user_can("tablepress_add_tables")) {
   echo("<br><br><br><br><br>aHaHaHaHaHa<br>".ul()."<br>");
   $edt = true;
+
 }
+
+// 학번들
+$ids = array("201903017","201903018","201903019","201903020","201903022","201903023","201903024","201903025","201903026","201903027","201903028","201903029","201903030","201903032","201903033","201903034","201903035","201903037","201903038","201903039","201903041","201903042","201903043","201903044","201903045","201903046","201903048","201903049","201903050","201903051","201903052","201903053","201803030","201603057","201603030","201603051");
+$link = mysqli_connect('localhost', 'root', 'qudwnWkd321!@#');
+
+echo("<br><br>[ ".count($ids)."명의 학생 조회 ]");
+	for($i = 0; $i < count($ids); $i++) {
+		$q = mysqli_query($link, "select * from `nagehts_users` where `ID` in (select `user_id` from `nagehts_usermeta` where `meta_value`=".$ids[$i].")");
+		$r = $
+		echo("<br>".$ids[$i].$q);
+		// print_r("<br>".$q."|");
+
+}
+  mysqli_close($link); 
 
 ?>

@@ -77,22 +77,6 @@ var tm = 0;
 	$(".itm").removeClass("btn-secondary");
 });
 
-// 되돌리기 누르면 전부 목록으로 넣기
-$("#rst").on("click", function() {
-	for (var i = 1; i <= ($(".itm").length); i++) {
-		var n = eval('"#' + i + '"');
-		$(n).appendTo("#itms");
-		$(n).removeClass("btn-block");
-		$(n).removeClass("btn-light");
-	}
-	$("#itms").children(".itm").removeClass("btn-secondary");
-});
-
-// 정답확인 - 각 lst-n 의 id를 모아 정답과 확인
-$("#chk").on("click", function() {
-	// $("#lst-1").children("button").appendTo(this);
-});
-
 // 로딩되면 단어 여백 초기화
 $(document).ready(function() {
 	$(".itm").appendTo("#itms");

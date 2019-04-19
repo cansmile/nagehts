@@ -36,7 +36,7 @@
 										<input type="radio" name="options" id="option2" autocomplete="off">?
 									</div>
 								</div>
-								<span class="tran"><br><small>저는 마틴이에요<span class="nu">①</span></small></span>
+								<span class="tran"><br><small>나는 마틴이야<span class="nu">①</span></small></span>
 							</td>
 						</tr>
 						<tr>
@@ -51,7 +51,7 @@
 										<input type="radio" name="options" id="option4" autocomplete="off">?
 									</div>
 								</div>
-								<span class="tran"><br><small>당신은요<span class="nu">②</span></small></span>
+								<span class="tran"><br><small>네 이름은 뭐니?<span class="nu">②</span></small></span>
 							</td>
 						</tr>
 						<tr>
@@ -66,7 +66,7 @@
 										<input type="radio" name="options" id="option6" autocomplete="off">?
 									</div>
 								</div>
-								<span class="tran"><br><small>팀<span class="nu">③</span></small></span>
+								<span class="tran"><br><small>팀이야<span class="nu">③</span></small></span>
 							</td>
 						</tr>
 					</tbody>

@@ -16,8 +16,8 @@
 						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
-						</h2><br>
-						<p>(대화문을 2번 들어야 번역을 볼 수 있습니다)</p>
+						</h2>
+						<h3><small>2번 들어야 번역이 나옵니다</small></h3>
 					</div>
 				</div>
 

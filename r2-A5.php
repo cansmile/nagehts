@@ -15,8 +15,9 @@
 							HV
 						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
 							❚❚
-						</button>
+						</button>						
 						</h2>
+						<h3><small>몇 번을 들어도 번역은 나오지 않습니다.<br>문제를 모두 풀고 확인하세요.</small></h3>
 					</div>
 				</div>
 

@@ -2,7 +2,7 @@
 <?php
 // 당분간 필요한 변수
 $lt = 4; // 제목 데쉬 이후의 글자 수 제한
-$rm = 1; // 완성된 페이지만 메인에 노출
+$rm = 3; // 완성된 페이지만 메인에 노출
 
 // header 에서 정의된 변수 [ $fn 은 파일명만, $bn 은 확장자 포함 ]
 $a = " active";
@@ -60,7 +60,7 @@ array("r10-Stadtplan"=>"A. Stadtplan","r10-Nach dem Weg fragen"=>"B. Nach dem We
 $tl_k = array(
 array("r0-Alphabet"=>"알파벳","r0-Quiz-"=>"퀴즈","r0-Zuordnung"=>"연결하기"),
 array("r1-Guten Tag!"=> "안녕하세요!","r1-Wie heissen Sie"=>"이름이 어떻게 되시나요?","r1-Wie geht es Ihnen"=>"어떻게 지내시나요?","r1-Wer ist Hyun Kim"=>"김현이 누구인가요?","r1-Zahlen(1-10)"=>"수(1~10)","r1-Uebungen"=>"연습하기","r1-Grammatik und Wendungen"=>"문법과 표현"),
-array("r2-Woher kommen Sie!"=>"어디서 오셨나요?","r2-Ich bin Koreanerin"=>"나는 한국 여자입니다.","r2-Welche Sprachen sprechen Sie"=>"어떠한 언어를 말할 수 있나요?","r2-Wo liegt das Land"=>"이 나라는 어디에 있나요?","r2-Uebungen"=>"연습문제","r2-Grammatik und Wendungen"=>"문법과 표현"),
+array("r2-Woher kommen Sie!"=>"어디서 오셨나요?","r2-Ich bin Koreanerin"=>"저는 한국(여)인입니다.","r2-Welche Sprachen sprechen Sie"=>"어떠한 언어를 말할 수 있나요?","r2-Wo liegt das Land"=>"이 나라는 어디에 있나요?","r2-Uebungen"=>"연습문제","r2-Grammatik und Wendungen"=>"문법과 표현"),
 array("r3-Wer ist das"=>"이 분은 누구인가요?","r3-Wie alt ist er"=>"그는 몇 살인가요?","r3-Wie viele Geschwister hast du"=>"형제자매가 몇 명이니?","r3-Was sind Sie von Beruf"=>"직업이 어떻게 되나요?","r3-Visitenkarten"=>"명함","r3-Uebungen"=>"연습문제","r3-Grammatik und Wendungen"=>"문법과 표현"),
 array("r4-Wohnen"=>"사는 것","r4-Im Zimmer"=>"방에서","r4-Was ist das"=>"이것은 무엇인가요?","r4-Wie ist das"=>"이것은 어떤가요?","r4-Uebungen"=>"연습문제","r4-Grammatik und Wendungen"=>"문법과 표현"),
 array("r5-Essen und Trinken"=>"먹고 마시기","r5-Was isst du gern und was trinkst du gern"=>"무엇을 즐겨 먹고 마셔?","r5-Was isst und trinkt er/sie"=>"그(녀)는 무엇을 먹고 마시나요?","r5-Im Restaurant. Was bekommen Sie"=>"레스토랑에서 무엇을 원하시나요?","r5-Waehrend des Essens"=>"식사 중에","r5-Was bezahlen Sie"=>"무엇을 지불하시겠어요?","r5-Uebungen"=>"연습문제","r5-Grammatik und Wendungen"=>"문법과 표현"),
@@ -89,6 +89,15 @@ $rtl = array(
 		"C" => array("C1" => "Ergänzen Sie die Lücken.", "C2" => "Ergänzen Sie die Lücken."),
 		"D" => array("D1" => "Wo liegt das Land?", "D2" => "Hören Sie und sprechen Sie nach.", "D3" => "Antworten Sie."),
 		"E" => array("E1" => "Herkunft", "E2" => "Raten Sie! Wo ist das?", "E3" => "Ergänzen Sie die Lücken.", "E4" => "Bilden Sie Sätze und markieren Sie die Verben.", "E5" => "Ordnen Sie zu.", "E6" => "Ergänzen Sie die Fragen.")
+	),
+	3 =>
+	array(
+		"A" => array("A1" => "Meine Familie", "A2" => "Wer ist das?"),
+		"B" => array("B1" => "Zahlen(11-100)", "B2" => "Wie alt ist er?"),
+		"C" => array("C1" => "Wie viele Geschwister hast du?", "C2" => "Familienstand"),
+		"D" => array("D1" => "Lesen Sie die Texte.", "D2" => "Ergänzen Sie die Tabelle.", "D4" => "Was sind die Leute von Beruf?", "D5" => "Was sind Sie von Beruf?"),
+		"E" => array("E1" => "Visitenkarten"),
+		"F" => array("F1" => "Wer ist das?", "F2" => "Ergänzen Sie.", "F3" => "Ergänzen Sie die passende Form.", "F5" => "Schreiben Sie bitte über die Leute aus 4.")
 	)
 );
 
@@ -106,10 +115,19 @@ $rtl_k = array(
 	2 =>
 	array(
 		"A" => array("A1" => "어떤 수도와 국가를 알고 계시나요?", "A2" => "이들은 어디에서 왔을까요?", "A4" => "듣고 빈 칸을 채우세요.", "A5" => "다시 한번 들으세요.", "A6" => "빈칸에 알맞은 동사의 어미를 넣어보세요."),
-		"B" => array("B1" => "나는 한국여자입니다."),
+		"B" => array("B1" => "저는 한국(여)인입니다."),
 		"C" => array("C1" => "빈칸을 채우세요.", "C2" => "빈칸을 채우세요."),
 		"D" => array("D1" => "빈칸에 알맞은 대륙 이름을 넣어보세요.", "D2" => "듣고 따라 하세요.", "D3" => "질문에 대답하세요."),
-		"E" => array("E1" => "출생지", "E2" => "맞춰보세요! 이것은 어디에 있나요?", "E3" => "빈칸을 채우세요.", "E4" => "문장을 만들고 동사에 표시하세요.", "E5" => "맞는 답끼리 줄을 그으세요.", "E6" => "질문을 만들어 채우세요.")
+		"E" => array("E1" => "출생지", "E2" => "맞춰보세요! 이것은 어디에 있나요?", "E3" => "빈칸을 채우세요.", "E4" => "문장을 만들고 동사에 표시하세요.", "E5" => "맞는 답끼리 연결하세요.", "E6" => "질문을 만들어 채우세요.")
+	),
+	3 =>
+	array(
+		"A" => array("A1" => "나의 가족", "A2" => "이분은 누구인가요?"),
+		"B" => array("B1" => "숫자(11~100)", "B2" => "몇 살인가요?"),
+		"C" => array("C1" => "듣고 따라 하세요.", "C2" => "가족상황"),
+		"D" => array("D1" => "듣고 텍스트를 읽으세요.", "D2" => "다음 표를 작성하세요.", "D4" => "이 사람들은 어떤 직업을 가지고 있나요?", "D5" => "직업이 어떻게 돠나요?"),
+		"E" => array("E1" => "빈칸을 채우세요."),
+		"F" => array("F1" => "이 사람은 누구인가요?", "F2" => "빈칸을 채우세요.", "F3" => "빈칸에 동사를 알맞은 형태로 채우세요.", "F5" => "F4의 정보를 가지고 글을 써보세요.")
 	)
 
 );

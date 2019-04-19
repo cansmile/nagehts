@@ -67,18 +67,6 @@
 							<div class="card-body">저도 좋아요. 감사해요.</div>
 						</div>
 					</div>
-					<div class="card">
-						<div class="card-header" id="headingFive">
-							<h5 class="mb-0">
-								<button class="btn btn-secondary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFive" area-expanded="false" aria-controls="collapseFive" id="5">
-									Wie geht es Ihnen?
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionitms">
-							<div class="card-body">어떻게 지내셨어요?</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -108,8 +96,7 @@
 							"1": [14.3,1.8],
 							"2": [17.3,3.8],
 							"3": [22.3,3],
-							"4": [26.5,1.9],
-							"5": [7,1.6]
+							"4": [26.5,1.9]
 						}
 					}],
 					path : "sounds/Reihe 1/",

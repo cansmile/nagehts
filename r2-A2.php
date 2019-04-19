@@ -47,7 +47,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="17" class="so btn btn-warning btn-lg">▶</button></th>
-							<td width="70%" colspan="2" class="so text-center display-4 bg-warning" height="100px">Sandmännchen</td>
+							<td width="70%" colspan="2" class="so text-center bg-warning" height="100px"><h1>Sandmännchen</h1></td>
 							<td rowspan="4" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-1.png" style="max-width: 240px; height: auto;" alt="Sandmännchen"></td>
 						</tr>
 						<tr>
@@ -80,7 +80,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="18" class="so btn btn-warning btn-lg">▶</button></th>
-							<td width="70%" colspan="2" class="so text-center display-4 bg-warning" height="100px">Pororo</td>
+							<td width="70%" colspan="2" class="so text-center bg-warning" height="100px"><h1>Pororo</h1></td>
 							<td rowspan="4" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-2.png" style="max-width: 240px; height: auto;" alt="Pororo"></td>
 						</tr>
 						<tr>
@@ -113,7 +113,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-warning btn-lg">▶</button></th>
-							<td width="70%" colspan="2" class="so text-center display-4 bg-warning" height="100px">Minnie Mouse</td>
+							<td width="70%" colspan="2" class="so text-center bg-warning" height="100px"><h1>Minnie Mouse</h1></td>
 							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-3.png" style="max-width: 150px; height: auto;" alt="Minnie Mouse"></td>
 						</tr>
 						<tr>

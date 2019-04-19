@@ -18,7 +18,7 @@ if($ds) {
 
 $mc = sizeof($kom);
 if(ul()) {
-	if($fn == "inthebeginning") {
+	if($fn == "inthebeginning" || $fn == "") {
 		// 메인 페이지
 		for($i = 0; $i < $mc; $i++) {
 			// $tl의 키 이름 배열
@@ -29,7 +29,7 @@ if(ul()) {
 				$t3 = "&nbsp;";
 			}
 
-			if($i == 0) {
+			if($i < 1) {
 				$t1 = "Deutschland";
 				$t4 = "Reihe 0/D";
 			} else {

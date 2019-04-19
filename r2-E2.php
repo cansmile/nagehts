@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+d<?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
 		<section>
@@ -299,6 +299,7 @@
 									$("#qst-"+(i+1)).hide();
 								}
 								ri++;
+								$(".tran").show();
 							} else {
 								$("#qst-"+(i+1)).val(an[i]);
 								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]+"<br><small class=\"text-dark\">"+ant[i]+"</small></span>");

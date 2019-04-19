@@ -21,100 +21,129 @@
 				</div>
 
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-10 col-xl-10">
-						<table class="table">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+						<table class="table text-center">
 							<thead>
 								<tr>
-									<th colspan="2" class="text-center display-4 text-white bg-success" height="100px">Dialog</th>
+									<th scope="col" colspan="3"><img src="./images/Reihe 3/Reihe3-A-A1-4.png" style="max-width: 100%; height: auto;"></th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
-									<td>Woher kommen Sie?<span class="tran"><br><small>당신은 어디에서 오셨나요?</small></span></td>
+									<th class="bg-light"><small>나의</small>mein</th>
+									<td class="bg-light">Vater</td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ich komme aus Korea. Ich bin Koreanerin.<span class="tran"><br><small>저는 한국에서 왔어요. 한국(여)인이에요.</small></span></td>
+									<th rowspan="2" class="align-middle bg-light">meine</th>
+									<td class="bg-light">Mutter</td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></th>
-									<td>Kommen Sie aus Seoul?<span class="tran"><br><small>서울에서 왔나요?</small></span></td>
+									<td class="bg-light">Eltern</td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></th>
-									<td>Nein, ich komme aus Busan. Aber ich wohne in Seoul.<span class="tran"><br><small>아뇨, 저는 부산 출신이에요. 하지만 서울에 살아요.</small></span></td>
+									<th colspan="3" height="1" class="p-0 m-0 border-0">&nbsp;</th>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></th>
-									<td>Woher kommen Sie?<span class="tran"><br><small>당신은 어디에서 오셨나요?</small></span></td>
+									<th class="bg-light"><small>당신의</small>Ihr</th>
+									<td class="bg-light">Vater</td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="6" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ich komme aus Japan. Ich bin Japaner.<span class="tran"><br><small>저는 일본에서 왔어요. 저는 일본인입니다.</small></span></td>
+									<th rowspan="2" class="align-middle bg-light">Ihre</th>
+									<td class="bg-light">Mutter</td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="7" class="so btn btn-outline-danger">▶</button></th>
-									<td>Und wo wohnen Sie?<span class="tran"><br><small>그러면 어디에서 살아요?</small></span></td>
+									<td class="bg-light">Eltern</td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="8" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ich wohne auch in Seoul.<span class="tran"><br><small>저도 서울에서 살아요.</small></span></td>
+									<th colspan="3" height="1" class="p-0 m-0 border-0">&nbsp;</th>
+								</tr>
+								<tr>
+									<th class="bg-light">ich</th>
+									<td class="bg-light">komme</td>
+								</tr>
+								<tr>
+									<th class="bg-light"><small>당신</small>Sie</th>
+									<td class="bg-light">komm<strong>en</strong></td>
+								</tr>
+								<tr>
+									<th class="bg-light"><small>그들</small>sie</th>
+									<td class="bg-light">komm<strong>en</strong></td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-md-2 col-lg-1 col-xl-1">
+					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9 col-xl-9">
 						<table class="table">
+							<tbody>
+								<tr>
+									<th scope="row"><button type="button" id="1" class="so btn btn-outline-primary text-center">▶</button></th>
+									<td class="text-center">Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></th>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="2" class="so btn btn-outline-danger text-center">▶</button></th>
+									<td class="text-center">Das sind meine Großeltern, mein Opa und meine Oma.<span class="tran"><br><small>이 분들은 저의 조부모님들, 저의 할아버지와 저의 할머니세요. </small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="3" class="so btn btn-outline-primary text-center">▶</button></th>
+									<td class="text-center">Was machen sie?<span class="tran"><br><small>그들은 무엇을 하시나요?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="4" class="so btn btn-outline-danger text-center">▶</button></th>
+									<td class="text-center">Mein Opa ist Pfarrer und meine Oma ist Lehrerin.<span class="tran"><br><small>저의 할아버지께서는 목사님이시고 저의 할머니는 선생님이세요.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="5" class="so btn btn-outline-primary text-center">▶</button></th>
+									<td class="text-center">Kommen sie aus Korea?<span class="tran"><br><small>그들은 한국 출신인가요?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="6" class="so btn btn-outline-danger text-center">▶</button></th>
+									<td class="text-center">Ja, sie kommen aus Seoul, Korea.<span class="tran"><br><small>네, 그분들은 한국, 서울에서 오셨어요.</small></span></td>
+								</tr>
+								<tr>
+							</tbody>
+						</table>
+						<table class="table text-center table-striped">
 							<thead>
 								<tr>
-									<th scope="col" class="text-center"><img src="./images/sym_frau.png" alt="Frau" style="max-height: 70px; width: auto;"></th>
+									<th scope="col">&nbsp;</th>
+									<th scope="col">maskulin(m)</th>
+									<th scope="col">feminin(f)</th>
+									<th scope="col">Plural(Pl.)</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td style="height: 65px;">Koreanerin</td>
+									<th scope="row">&nbsp;</th>
+									<td>Vater</td>
+									<td>Mutter</td>
+									<td>Eltern</td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Japanerin</td>
+									<th scope="row">&nbsp;</th>
+									<td>Bruder</td>
+									<td>Schwester</td>
+									<td>Geschwister</td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Chinesin</td>
+									<th scope="row">&nbsp;</th>
+									<td>Großvater</td>
+									<td>Großmutter</td>
+									<td>Großeltern</td>
 								</tr>
 								<tr>
-									<td style="height: 65px;">Deutsche</td>
+									<th scope="row">&nbsp;</th>
+									<td>Sohn</td>
+									<td>Tochter</td>
+									<td>Kinder</td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-md-2 col-lg-1 col-xl-1">
-						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col" class="text-center"><img src="./images/sym_mann.png" alt="Mann" style="max-height: 70px; width: auto;"></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td style="height: 65px;">Koreaner</td>
-								</tr>
-								<tr>
-									<td style="height: 65px;">Japaner</td>
-								</tr>
-								<tr>
-									<td style="height: 65px;">Chinese</td>
-								</tr>
-								<tr>
-									<td style="height: 65px;">Deutscher</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+					
 				</div>
 
 		</div>
 	</section>
-		
 
 		
 <?php include "footer.php"; ?>
@@ -139,18 +168,16 @@
 				}
 				ion.sound({
 					sounds : [{
-						name : "r2 B1",
+						name : "r3 A2",
 
 						sprite : {
-							"0": [14.3,40.8],
-							"1": [14,1.8],
-							"2": [18,4.2],
-							"3": [25.5,2.3],
-							"4": [29.8,4.8],
-							"5": [39,2],
-							"6": [43.2,3.7],
-							"7": [49,1.8],
-							"8": [52.9,2.3]
+							"0": [10.7,25],
+							"1": [11.1,1.6],
+							"2": [13.9,5.1],
+							"3": [20,1.8],
+							"4": [23,5],
+							"5": [28,2.3],
+							"6": [31,3.6]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -159,7 +186,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "sounds/Reihe 2/",
+					path : "sounds/Reihe 3/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,
@@ -178,7 +205,7 @@
 								$(".tran").show();
 							}
 
-						} else {
+						} else if(hmn < 15) {
 							$("#"+obj.part).html("▶");
 
 							if(hm[hmn] > 1) {
@@ -227,26 +254,26 @@
 			$(".so").on("click", function () {
 				if($(this).attr("id").substr(-2) == "_p") {
 					// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r2 B1", {
+					ion.sound.pause("r3 A2", {
 						part: "0"
 					});
 					$("#0").show();
 					$(this).hide();
 				} else if($(this).html() == "▶") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.play("r2 B1", {
+					ion.sound.play("r3 A2", {
 						part: $(this).attr("id")
 					});
 					$(this).html("❚❚");
 				} else if($(this).html() == "❚❚") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r2 B1", {
+					ion.sound.pause("r3 A2", {
 						part: $(this).attr("id")
 					});
 					$(this).html("▶");
 				} else {
 					// _p 붙어 있지 않으면 id 그대로 재생
-					ion.sound.play("r2 B1", {
+					ion.sound.play("r3 A2", {
 						part: $(this).attr("id")
 					});
 

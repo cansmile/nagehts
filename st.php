@@ -27,7 +27,8 @@ $qr = mysqli_query($link, $q);
 echo("<div class=\"row\"><div class=\"col text-center display-1\">[ 조회 ]</div></div>");
 
 // 등록학생
-echo("<div class=\"row\"><div class=\"col text-left\"><span class=\"bg-success text-white\">초록색 배경</span>이 아니신 분은 학번을 정정해 주세요.<br><span class=\"bg-info text-white\">학번이 2개</span>(계정이 2개) 이신분은 <a href=\"mailto:cansmile@gmail.com\">cansmile@gmail.com</a>로 사용하실 계정을 보내주세요.<br><span class=\"bg-danger text-white\">청강이신 분</span>도 이메일 주시면 교수님께 확인하여서 승급하여 드립니다.) </div></div>");
+echo("<div class=\"row\"><div class=\"col text-left\"> 문의는 <a href=\"mailto:cansmile@gmail.com\">cansmile@gmail.com</a>로 이메일하시면 답변드립니다.<br><span class=\"bg-danger text-white\">청강이신 분</span>도 이메일 주시면 교수님께 확인하여서 승급하여 드립니다.) </div></div>");
+// echo("<div class=\"row\"><div class=\"col text-left\"><span class=\"bg-success text-white\">초록색 배경</span>이 아니신 분은 학번을 정정해 주세요.<br><span class=\"bg-info text-white\">학번이 2개</span>(계정이 2개) 이신분은 <a href=\"mailto:cansmile@gmail.com\">cansmile@gmail.com</a>로 사용하실 계정을 보내주세요.<br><span class=\"bg-danger text-white\">청강이신 분</span>도 이메일 주시면 교수님께 확인하여서 승급하여 드립니다.) </div></div>");
 
 $qnr = mysqli_num_rows($qr); // 읽어온 nagehts_users 갯수
 for($a = 0; $a < $qnr; $a++) {
@@ -77,7 +78,7 @@ for($a = 0; $a < $qnr; $a++) {
 
 	}
 	if(!$f1) {
-		$a2 = " text-white bg-success";
+		// $a2 = " text-white bg-success";
 	}
 		// echo("<div class=\"border border-success col".$a1.$a2.$a3."\">");
 		// echo($al);
@@ -119,7 +120,7 @@ echo("<table class=\"table\"><thead><tr><th scope=\"col\">입력된 학번</th><
 $prv = $rep = $rem = "";
 for($i = 0; $i < $qnr; $i++) {
 	if($prv != "") {
-		$a4 = " bg-success text-white";
+		// $a4 = " bg-success text-white";
 	} else {
 		$a4 = "";
 	}

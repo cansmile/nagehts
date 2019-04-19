@@ -16,7 +16,7 @@
 							❚❚
 						</button>
 						<br>
-						<small>듣지 않고는 정답을 알 수 없습니다.</small>
+						<small>2번 들으면 번역이 나옵니다.</small>
 						</h2>
 					</div>
 				</div>

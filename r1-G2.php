@@ -15,6 +15,7 @@
 							❚❚
 						</button>
 						</h2>
+						<h3><small>듣기를 2번하면 번역이 나옵니다.</small></h3>
 				</div>
 				<!-- 고르는 아이템들 -->
 				<div class="row">
@@ -68,7 +69,7 @@
 							<th scope="row"><button type="button" id="6" class="so btn btn-outline-primary">1</button></th>
 							<td>
 								Auf Wiedersehen!
-								<span class="tran"><br><small>안녕히 계세요!</small></span>
+								<span class="tran"><br><small>안녕히 가세요!</small></span>
 							</td>
 						</tr>
 						<tr>
@@ -225,6 +226,10 @@
 			$(".collapse").collapse("hide");
 
 			$(document).ready(function() {
+				var hm = new Array();
+				for(i = 0; i < $(".so").length; i++) {
+					hm[i] = 0;
+				}
 
 				ion.sound({
 					sounds : [{
@@ -268,9 +273,24 @@
 					multiplay: false,
 					
 					ended_callback: function(obj) {
+						// 재상이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
+						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+						} else {
+							// $("#"+obj.part).html("▶");
+
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();
+							}
 						};
 					},
 					ready_callback: function () {

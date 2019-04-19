@@ -103,7 +103,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms">
-							<div class="card-body">박보검 있나요?</div>
+							<div class="card-body">박보검 인가요?</div>
 						</div>
 					</div>
 					<div class="card">

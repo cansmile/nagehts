@@ -9,14 +9,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-							<h2>Hören Sie und sprechen Sie nach.</h2>
-								<p>
-									듣고 따라하세요.
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-								HV
+							<h2>Hören Sie und sprechen Sie nach.
+							<small>듣고 따라하세요.</small>
+							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+							HV
 							</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
 								❚❚
 							</button>
+						</h2>
+							<h3><small>2번 재생하면 번역이 나옵니다.</small></h3>
 							</p>
 					</div>
 					<div class="col">

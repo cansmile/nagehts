@@ -41,7 +41,7 @@
 							Arabisch
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
-							Koeranisch
+							Koreanisch
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="8">
 							Ägypten
@@ -56,7 +56,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="22" class="so btn btn-danger btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center display-4 bg-danger text-white" height="100px">Dooly</td>
+							<td colspan="2" class="so text-center bg-danger text-white" height="100px"><h1>Dooly</h1></td>
 							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 240px; height: auto;" alt="Dooly"></td>
 						</tr>
 						<tr>
@@ -99,7 +99,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="23" class="so btn btn-info btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center display-4 bg-info text-white" height="100px">Kleopatra</td>
+							<td colspan="2" class="so text-center bg-info text-white" height="100px"><h1>Kleopatra</h1></td>
 							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 240px; height: auto;" alt="Kleopatra"></td>
 						</tr>
 						<tr>
@@ -128,7 +128,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="17" class="so btn btn-info">▶</button></th>
-							<td>Sie spichit <span class="btn btn-outline-dark btn-sm">⑥</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>아랍어</strong>를 말해요.</small></span></td>
+							<td>Sie spricht <span class="btn btn-outline-dark btn-sm">⑥</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>아랍어</strong>를 말해요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-6">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -142,7 +142,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="24" class="so btn btn-primary btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center display-4 bg-primary text-white" height="100px">Mickey Mouse</td>
+							<td colspan="2" class="so text-center bg-primary text-white" height="100px"><h1>Mickey Mouse</h1></td>
 							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 240px; height: auto;" alt="Mickey Mouse"></td>
 						</tr>
 						<tr>

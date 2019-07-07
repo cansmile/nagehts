@@ -56,7 +56,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="22" class="so btn btn-danger btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center bg-danger text-white" height="100px"><h1>Dooly</h1></td>
+							<td colspan="2" class="so text-center bg-danger text-white" height="25px"><h3>Dooly</h3></td>
 							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 240px; height: auto;" alt="Dooly"></td>
 						</tr>
 						<tr>
@@ -99,7 +99,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="23" class="so btn btn-info btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center bg-info text-white" height="100px"><h1>Kleopatra</h1></td>
+							<td colspan="2" class="so text-center bg-info text-white" height="25px"><h3>Kleopatra</h3></td>
 							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 240px; height: auto;" alt="Kleopatra"></td>
 						</tr>
 						<tr>
@@ -142,7 +142,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="24" class="so btn btn-primary btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center bg-primary text-white" height="100px"><h1>Mickey Mouse</h1></td>
+							<td colspan="2" class="so text-center bg-primary text-white" height="25px"><h3>Mickey Mouse</h3></td>
 							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 240px; height: auto;" alt="Mickey Mouse"></td>
 						</tr>
 						<tr>

@@ -5,7 +5,7 @@
 		<!-- 아이템들 시작 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2>단어를 넣을 때는 그림을 누르세요.</h2>
+					<h2>단어를 넣을 때는 그림을 누르세요.<br><small>(다중 선택이 되지만 클릭한 그림 하나에 답안 하나만 배치됩니다.)</small></h2>
 				</div>
 			</div>
 			

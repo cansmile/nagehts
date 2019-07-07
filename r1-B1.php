@@ -1,147 +1,109 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<!-- 알림 시작 -->
-<?php require_once "ready.php"; ?>
-		<div class="alert alert-warning alert-dismissible fade show" role="alert">
-			이 페이지의 문장을 <strong>누르면 들립니다!</strong><br>
-			문제를 모두 풀어야
-			<button class="badge badge-light" disabled>
-				정답확인
-			</button>
-			이 됩니다.
-			<br />
-			<button class="badge badge-light">
-				정답확인
-			</button>
-			을 누르면 지문의 배경색이
-			<button class="badge badge-warning" disabled>
-				선택한 지문
-			</button>
-			,
-			<button class="badge badge-success" disabled>
-				선택한 지문이 정답인 경우
-			</button>
-			,
-			<button class="badge badge-primary" disabled>
-				정답
-			</button>
-			으로 변합니다.
-			<br />
-			<p class="mt-4">
-				각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
-				<button class="badge badge-light" disabled>
-					정답확인
-				</button>
-				에 이용됩니다.
-			</p>
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 mb-4 mt-2 text-center">
+					<h2>Hören Sie und sprechen Sie nach.<br>
+						<small>듣고 따라하세요.</small>
+						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
+						HV
+					</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
+						❚❚
+					</button>
+					</h2>
+					<h3><small>(<button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.<br>음성을 듣고 밑줄이 있는 회색 상자의 단어 중 맞는 것을 고르세요)</small></h3>
+			</div>
 		</div>
-		<!-- 알림 끝 -->
-
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 mb-4 mt-2 text-center">
-							<h2>Hören Sie und sprechen Sie nach.</h2>
-								<p>
-									듣고 따라하세요.
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
-									HV
-								</button>
-								<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
-									❚❚
-								</button>
-								</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<table class="table">
-							<tbody>
-								<tr>
-									<td><button type="button" id="1" class="itm btn btn-outline-danger">1</button></td>
-									<td>Guten Tag! Wie <span class="nu">①</span> Sie?<span class="tran"><br><small>안녕하세요! 당신의 이름은 무엇인가요?</small></span></td>
-								</tr>
-								<tr>
-									<td><button type="button" id="2" class="itm btn btn-outline-primary">2</button></td>
-									<td>Guten Tag! Ich <span class="nu">②</span> Kim.<span class="tran"><br><small>안녕하세요! 저는 김이라고 해요.</small></span></td>
-								</tr>
-								<tr>
-									<td><button type="button" id="3" class="itm btn btn-outline-primary">3</button></td>
-									<td>Freut mich! Und wie <span class="nu">③</span> Ihr Name?<span class="tran"><br><small>반가워요! 그러면 당신의 이름은 무엇인가요?</small></span></td>
-								</tr>
-								<tr>
-									<td><button type="button" id="4" class="itm btn btn-outline-danger">4</button></td>
-									<td>Mein Name <span class="nu">④</span> Sauer, Eva Sauer.<span class="tran"><br><small>제 이름은 자우어에요, 에바 자우어.</small></span></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-
-				<!--문제 시작-->
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-1">
-					<h3 class="mt-1">①에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						heiße
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						heißt
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						heißen
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-2">
-					<h3 class="mt-1">②에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						heiße
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						heißt
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						heißen
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-3">
-					<h3 class="mt-1">③에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						bin
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						ist
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						sind
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12 q" id="qst-4">
-					<h3 class="mt-1">④에 들어갈 단어는?</h3>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						bin
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-						sind
-					</div>
-					<div class="btn btn-info pop btn-lg btn-block o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-						ist
-					</div>
-				</div>
-				<!--문제 끝-->
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<table class="table">
+					<tbody>
+						<tr>
+							<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
+							<td>
+								Guten Tag! Wie <span class="nu">①</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option1" autocomplete="off">heiße
+									</div>
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option2" autocomplete="off">heißt
+									</div>
+									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option3" autocomplete="off">heißen
+									</div>
+								</div> Sie?
+								<span class="tran"><br><small>안녕하세요! 당신의 이름은 무엇인가요?</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></th>
+							<td>
+								Guten Tag! Ich <span class="nu">②</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
+									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+										<input type="radio" name="options" id="option4" autocomplete="off">heiße
+									</div>
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option5" autocomplete="off">heißt
+									</div>
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option6" autocomplete="off">heißen
+									</div>
+								</div> Kim.
+								<span class="tran"><br><small>안녕하세요! 저는 김이라고 해요.</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="3" class="so btn btn-outline-primary">▶</button></th>
+							<td>
+								Freut mich! Und wie <span class="nu">③</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option7" autocomplete="off">bin
+									</div>
+									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+										<input type="radio" name="options" id="option8" autocomplete="off">ist
+									</div>
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option9" autocomplete="off">sind
+									</div>
+								</div> Ihr Name?
+								<span class="tran"><br><small>반가워요! 그러면 당신의 이름은 무엇인가요?</small></span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></th>
+							<td>
+								Mein Name <span class="nu">④</span>
+								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option10" autocomplete="off">bin
+									</div>
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<input type="radio" name="options" id="option11" autocomplete="off">sind
+									</div>
+									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+										<input type="radio" name="options" id="option12" autocomplete="off">ist
+									</div>
+								</div> Sauer, Eva Sauer.
+								<span class="tran"><br><small>제 이름은 자우어에요. 에바 자우어.</small></span>
+							</td>
+						</tr>
+					</tbody>
+				</table></div>
+		</div>
+		<!-- 정답화인 버튼 시작 -->
+		<div class="row">
+			<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+				정답확인
 			</div>
-			<!-- 정답화인 버튼 시작 -->
-			<div class="row">
-				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-					정답확인
-				</div>
-			</div>
-			<!-- 정답확인 버튼 끝 -->
-			<div class="row">
+		</div>
+		<!-- 정답확인 버튼 끝 -->
+		<div class="row">
 				<div class="col"></div>
 				<div class="col-11 text-center">
 					<div class="row">
@@ -171,9 +133,8 @@
 				</div>
 				<div class="col"></div>
 			</div>
-		</div>
-	</section>
-		
+	</div>
+</section>
 
 		
 <?php include "footer.php"; ?>
@@ -182,14 +143,21 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-		<!-- ion.sound -->
+		<!-- interact.min.js -->
+		<script src="./js/taptogroup.js"></script>
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
 			$(".tran").hide();
+			$(".nu").hide();
 
 			$(document).ready(function() {
+				// 각 문장 재생 횟수 초기화
+				var hm = new Array();
+				for(i = 0; i < $(".so").length; i++) {
+					hm[i] = 0;
+				}
 
 				ion.sound({
 					sounds : [{
@@ -215,32 +183,30 @@
 					multiplay: false,
 					
 					ended_callback: function(obj) {
+						// 재생이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
+						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
-						};
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+
+						} else {
+							$("#"+obj.part).html("▶");
+
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();
+							}
+						}
+
 					},
 					ready_callback: function () {
-						$(".itm").on("click", function () {
-							if($(this).attr("id").substr(-2) == "_p") {
-								ion.sound.pause("r1 B1", {
-									part: "0"
-								});
-								$("#0").show();
-								$(this).hide();
-							} else {
-								ion.sound.play("r1 B1", {
-									part: $(this).attr("id")
-								});
-								
-								// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-								if($(this).attr("id") == "0") {
-									$(this).hide();
-									$("#0_p").show();
-								};
-							}
-						});
-
+						
 				$(".o").on("click", function() {
 					ion.sound.play("Bama_Country_Country");
 				});
@@ -248,7 +214,6 @@
 				$(".x").on("click", function() {
 					ion.sound.play("Cartoon_Boing");
 				});
-
 
 				$("[data-toggle='popover']").popover({
 					delay : {
@@ -262,6 +227,7 @@
 					if (!$(this).siblings().hasClass("an")) {
 						$(this).addClass("an");
 						$(this).addClass("btn-warning");
+						$(this).parent().children().removeClass("btn-light");
 					};
 	
 					// 문제 풀이 정도 업데이트
@@ -286,7 +252,7 @@
 							if (na != "") {
 								na += ", ";
 							}
-							na += $(this).attr("id").substr(4);
+							na += $(this).attr("id").substr(-1);
 						};
 					});
 
@@ -304,24 +270,26 @@
 							$(this).addClass("btn-warning");
 						} else {
 							$(this).addClass("btn-light");
-						}
-						;
-					});
-
-					$("span").each(function () {
-						if($(this).text() == "①") {
-							var iq = $("#qst-1>div.o").text();
-						} else if($(this).text() == "②") {
-							var iq = $("#qst-2>div.o").text();
-						} else if($(this).text() == "③") {
-							var iq = $("#qst-3>div.o").text();
-						} else if($(this).text() == "④") {
-							var iq = $("#qst-4>div.o").text();
-						}
-						$(this).text(iq);
-						$(this).addClass("font-weight-bold");
+						};
 					});
 					$(".tran").show();
+					$(".nu").show();
+					$(".q").hide();
+					
+					$("span").each(function () {
+						if($(this).text() == "①") {
+							var tt = $("#qst-1>div.o").text();
+						} else if($(this).text() == "②") {
+							var tt = $("#qst-2>div.o").text();
+						} else if($(this).text() == "③") {
+							var tt = $("#qst-3>div.o").text();
+						} else if($(this).text() == "④") {
+							var tt = $("#qst-4>div.o").text();
+						}
+					$(this).text(tt);
+					$(this).addClass("font-weight-bold");
+					});
+
 
 					$(this).removeClass("btn-light ");
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
@@ -340,9 +308,44 @@
 				};
 			});
 
+		
+						$(".so").on("click", function () {
+								if($(this).attr("id").substr(-2) == "_p") {
+									// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.pause("r1 B1", {
+										part: "0"
+									});
+									$("#0").show();
+									$(this).hide();
+								} else if($(this).html() == "▶") {
+									// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.play("r1 B1", {
+										part: $(this).attr("id")
+									});
+									$(this).html("❚❚");
+								} else if($(this).html() == "❚❚") {
+									// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+									ion.sound.pause("r1 B1", {
+										part: $(this).attr("id")
+									});
+									$(this).html("▶");
+								} else {
+									// _p 붙어 있지 않으면 id 그대로 재생
+									ion.sound.play("r1 B1", {
+										part: $(this).attr("id")
+									});
+
+									// 전체 듣기 재생일 때는 일시정지 버튼 보이기
+									if($(this).attr("id") == "0") {
+										$(this).hide();
+										$("#0_p").show();
+									};
+								};
+							});
 					// 준비되면 HV 보이기
 					$("#0").show();
-					$("#alt").hide();
+					$(".alert").hide();
+
 
 					}
 				});
@@ -350,7 +353,6 @@
 			});
 			
 		</script>
-
 		<!-- ion.sound finished -->
 	</body>
 </html>

@@ -97,7 +97,15 @@ $rtl = array(
 		"C" => array("C1" => "Wie viele Geschwister hast du?", "C2" => "Familienstand"),
 		"D" => array("D1" => "Lesen Sie die Texte.", "D2" => "Ergänzen Sie die Tabelle.", "D4" => "Was sind die Leute von Beruf?", "D5" => "Was sind Sie von Beruf?"),
 		"E" => array("E1" => "Visitenkarten"),
-		"F" => array("F1" => "Wer ist das?", "F2" => "Ergänzen Sie.", "F3" => "Ergänzen Sie die passende Form.", "F5" => "Schreiben Sie bitte über die Leute aus 4.")
+		"F" => array("F1" => "Wer ist das?", "F2" => "Ergänzen Sie.", "F3" => "Ergänzen Sie die passende Form.", "F5" => "Schreiben Sie über die Leute aus 4.")
+	),
+	4 =>
+	array(
+		"A" => array("A1" => "Wie wohnen die Leute?", "A2" => "Ordnen Sie die Bilder dem passenden Text zu.", "A3" => "In meiner Wohnung"),
+		"B" => array("B1" => "Was ist das?", "B2" => "Sortieren Sie die Wörter.", "B4" => "Wie heißt das auf Deutsch?", "B5" => "Was passt zusammen?"),
+		"C" => array("C1" => "Was ist das?", "C2" => "Was hat er/sie oder was hat er/sie nicht?"),
+		"D" => array("D2" => "Adjektive", "D3" => "In meiner Wohnung", "D1" => "Wie heißt das Gegenteil?"),
+		"E" => array("E1" => "Sortieren Sie die Wörter.", "E2" => "Ergänzen Sie die Lücken.", "E3" => "sein oder haben?", "E4" => "Ergänzen Sie die Lücken.", "E5" => "„kein” oder „nicht”?", "E6" => "Schreiben Sie die Sätze.")
 	)
 );
 
@@ -126,8 +134,16 @@ $rtl_k = array(
 		"B" => array("B1" => "숫자(11~100)", "B2" => "몇 살인가요?"),
 		"C" => array("C1" => "듣고 따라 하세요.", "C2" => "가족상황"),
 		"D" => array("D1" => "듣고 텍스트를 읽으세요.", "D2" => "다음 표를 작성하세요.", "D4" => "이 사람들은 어떤 직업을 가지고 있나요?", "D5" => "직업이 어떻게 돠나요?"),
-		"E" => array("E1" => "빈칸을 채우세요."),
+		"E" => array("E1" => "명함"),
 		"F" => array("F1" => "이 사람은 누구인가요?", "F2" => "빈칸을 채우세요.", "F3" => "빈칸에 동사를 알맞은 형태로 채우세요.", "F5" => "F4의 정보를 가지고 글을 써보세요.")
+	),
+	4 =>
+	array(
+		"A" => array("A1" => "사람들은 어떻게 사나요?", "A2" => "그림을 알맞은 텍스트와 연결하세요.", "A3" => "나의 집"),
+		"B" => array("B1" => "이것은 무엇인가요?", "B2" => "위의 단어들을 성에 따라 분류하세요.", "B4" => "이것은 독일어로 뭐라고 하나요?", "B5" => "무엇이 서로 어울리나요?"),
+		"C" => array("C1" => "이것은 무엇일까요?", "C2" => "그(녀)는 무엇을 가지고 있고 무엇을 가지고 있지 않나요?"),
+		"D" => array("D2" => "형용사", "D3" => "나의 집에서", "D1" => "반대말은 무엇인가요?"),
+		"E" => array("E1" => "다음 단어들을 성에 따라 분류하세요.", "E2" => "동사 표를 채우세요.", "E3" => "sein 혹은 haben?", "E4" => "빈칸을 채우세요.", "E5" => "kein 혹은 nicht?", "E6" => "보기와 같이 문장을 만드세요.")
 	)
 
 );

@@ -4,12 +4,12 @@
 		<!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 		<div class="alert alert-warning alert-dismissible fade show" role="alert">
-			이 페이지의 알파벳이나 발음기호를 <strong>누르면 들립니다!</strong>
+			이 페이지의 알파벳이나 발음기호를 <strong>누르면 누른 위치에 해당하는 발음이 들립니다!</strong>
 			<br>
 			<button type="button" class="btn btn-primary btn-sm btn-inline" disabled>
 				HV
 			</button>
-			를 누르면 전체 알파벳을 들으실 수 있어요.
+			를 누르면 전체 알파벳 발음과 예제 단어의 발음을 들으실 수 있어요.
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>
@@ -372,7 +372,7 @@
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Schreiben Sie Ihren Namen und buchstabieren Sie.
 						<br>
-						<small>이름을 써보고 스펠링을 말해보아요.</small></h2>
+						<small>이름을 써보고 스펠링을 말해보아요.<br>(입력은 되지만 별도의 기능이 없어요.)</small></h2>
 						<input type="text" class="form-control-lg" placeholder="Namen">
 					</div>
 				</div>

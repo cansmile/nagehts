@@ -184,9 +184,6 @@
 											<td>Schweiz</td>
 										</tr>
 										<tr>
-											<td>Sudan</td>
-										</tr>
-										<tr>
 											<td>Türkei</td>
 										</tr>
 										<tr>
@@ -205,6 +202,9 @@
 										</tr>
 										<tr>
 											<td>Irak</td>
+										</tr>
+										<tr>
+											<td>Sudan</td>
 										</tr>
 										<tr>
 											<td>…</td>
@@ -253,7 +253,7 @@
 			$("th").addClass("align-middle");
 			$(".tran").hide();
 			var an = new Array();
-			var an = ["aus Deutschland","aus Spanien","aus Russland","aus der Türkei","aus Brasilien","aus Griechenland","aus der Sudan","aus Vietnam","aus China","aus der Ukraine"];
+			var an = ["aus Deutschland","aus Spanien","aus Russland","aus der Türkei","aus Brasilien","aus Griechenland","aus dem Sudan","aus Vietnam","aus China","aus der Ukraine"];
 
 			$(document).ready(function() {
 				$(".q").on("keyup", function () {

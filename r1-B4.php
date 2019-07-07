@@ -6,8 +6,10 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Mädchen- oder Jungennamen?</h2>
-							<p> 여자 혹은 남자이름? </p>
+						<h2>Mädchen- oder Jungennamen?
+							<small>여자 혹은 남자이름?</small>
+						<br><small>(다중 선택이 되지만 클릭한 항목 하나에 답안 하나만 배치됩니다.)</small>
+						</h2>
 				</div>
 					<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">

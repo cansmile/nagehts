@@ -31,10 +31,10 @@
 							<td>Anna Müller wohnt in Berlin.<span class="tran">&nbsp;<small>안나 뮐러는 베를린에 산다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1">richtig</label>
 									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option2" autocomplete="off"><label for="option2">falsch</label>
 									</div>
 								</div>

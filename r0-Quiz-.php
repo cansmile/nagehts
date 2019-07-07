@@ -9,6 +9,13 @@
 			</button>
 			이 됩니다.
 			<br />
+			<p class="mt-4">
+				각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
+				<button class="badge badge-light" disabled>
+					정답확인
+				</button>
+				에 이용됩니다.
+			</p>
 			<button class="badge badge-light">
 				정답확인
 			</button>
@@ -26,13 +33,6 @@
 			</button>
 			으로 변합니다.
 			<br />
-			<p class="mt-4">
-				각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
-				<button class="badge badge-light" disabled>
-					정답확인
-				</button>
-				에 이용됩니다.
-			</p>
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>
@@ -40,6 +40,7 @@
 		<!-- 알림 끝 -->
 
 		<section>
+			<div class="container-fluid">
 			<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Wie viel wissen Sie über Deutschland und über die deutsche Sprache?
@@ -291,6 +292,7 @@
 				</div>
 				<!--문제 끝-->
 			</div>
+		</div>
 		</section>
 		<!-- 정답화인 버튼 시작 -->
 		<div class="rows">

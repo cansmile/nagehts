@@ -3,52 +3,50 @@
 <?php include "nav.php"; ?>
 	<section>
 		<div class="container">
-			
+			<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2> <small> (단어를 선택하고 아래의 성(M, F, N)을 누르면 단어가 이동합니다.) </small>
+						</h2>
+					</div>
+				</div>
 			<!-- 고르는 아이템들 -->
 			<div class="row">
-				<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2><small>(단어를 선택하여 분류에 맞게 배치시키세요. 다중 선택이 됩니다.)</small>
-						</h2>
-				</div>
-				<div class="border-3 border-danger bg-light col-sm-12 col-md-12 col-lg-12">
-						[ 분류: <h6 class="badge badge-primary badge-sm my-3" disabled>남자 Vornamen </h6>&nbsp; <h6 class="badge badge-danger badge-sm my-3" disabled>여자 Vornamen </h6>&nbsp; <h6 class="badge badge-warning badge-sm my-3" disabled>성 Familennamen </h6> ]
-				</div>
 				<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12 so" id="itms">
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
-						Birgit
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
+						Computer
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
-						Luisa
+						Tischlampe
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="3">
-						Thomas
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
+						I-Pad
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="4">
-						Koch
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
+						Rucksack
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
-						Johann
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="5">
+						Bücherregal
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="6">
-						Bauer
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
+						Wanduhr
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
-						Karl
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
+						Bett
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
-						Schumacher
+						Tisch
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
-						Martin
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="9">
+						Kommode
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="10">
-						Monika
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="10">
+						Stuhl
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="11">
-						Schmidt
+						Bild
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="12">
-						Schulz
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="12">
+						Musik-CD
 					</button>
 				</div>
 			</div>
@@ -57,15 +55,15 @@
 			<div class="row" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top bg-primary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-						남자 <strong>Vornamen</strong></h2>&nbsp;
+						남성 <strong>M</strong></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-danger so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-						여자 <strong>Vornamen</strong></h2>&nbsp;
+						여성 <strong>F</strong></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-warning so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-						성 <strong>Familennamen</strong></h2>&nbsp;
+						중성 <strong>N</strong></h2>&nbsp;
 				</div>
 			</div>
 		</div>
@@ -95,10 +93,10 @@
 				});
 
 				// 미리 답 넣어놓기
-				$("#3").insertAfter("#lst-1>h2");
-				$("#1").insertAfter("#lst-2>h2");
-				$("#8").insertAfter("#lst-3>h2");
-				$(".itm-lst>button").addClass("btn-block btn-light");
+				// $("#3").insertAfter("#lst-1>h2");
+				// $("#1").insertAfter("#lst-2>h2");
+				// $("#8").insertAfter("#lst-3>h2");
+				// $(".itm-lst>button").addClass("btn-block btn-light");
 			});
 		</script>
 	</body>

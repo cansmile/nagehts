@@ -4,171 +4,91 @@
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
-
 		<section>
 			<div class="container">
-				<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Hören Sie und sprechen Sie nach.</h2>
-							<p>
-								듣고 따라하세요.
-							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+							<!-- 고르는 아이템들 -->
+				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>Hören Sie und sprechen Sie nach.<br>
+							<small>듣고 따라 하세요.</small>
+						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
-						</p>
+						</h2>
+					</div>
 				</div>
+
 				<div class="row">
-					<div class="col"><img src=".\images\Reihe 1\Reihe-1-D1-1.png" style="max-width: 100%; height: auto;" class="d-block"></div>
-				</div>
-				<div class="accordion" id="accordionitms">
-					<div class="card">
-						<div class="card-header" id="headingOne">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
-									<strong>Frau Klein</strong> Guten Tag, ich heiße Heike Klein. Ich bin Ihre Deutschlehrerin.
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms">
-							<div class="card-body">안녕하세요, 저는 하이케 클라인이라고 해요. 저는 여러분의 독일어 선생님에요.</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingTwo">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-success mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
-									<strong>Studenten</strong> Guten Tag, Frau Klein.
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms">
-							<div class="card-body">안녕하세요, 클라인 선생님.</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingThree">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
-									<strong>Frau Klein</strong> Wer ist Hyun Kim?
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
-							<div class="card-body">김현이 누구인가요?</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingFour">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-info mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
-									<strong>Hyun</strong> Das bin ich.
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
-							<div class="card-body">저에요.</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingFive">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseFive" area-expanded="false" aria-controls="collapseFive" id="5">
-									<strong>Frau Klein</strong> Ist Minjung Kim da?
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionitms">
-							<div class="card-body">김민정 있나요?</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingSix">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-success mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseSix" area-expanded="false" aria-controls="collapseSix" id="6">
-									<strong>Studenten</strong> Nein, Minjung ist nicht da.
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionitms">
-							<div class="card-body">아뇨, 민정이는 없어요.</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingSeven">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseSeven" area-expanded="false" aria-controls="collapseSeven" id="7">
-									<strong>Frau Klein</strong> Sind Sie Bokum Park?
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms">
-							<div class="card-body">박보검 인가요?</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingEight">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseEight" area-expanded="false" aria-controls="collapseEight" id="8">
-									<strong>William</strong> Nein, ich heiße William Park.
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionitms">
-							<div class="card-body">아뇨, 저는 윌리엄박이에요.</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingNine">
-							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseNine" area-expanded="false" aria-controls="collapseNine" id="9">
-									<strong>Frau Klein</strong> Oh, Entschuldigung!
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionitms">
-							<div class="card-body">아, 실례했네요!</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingTen">
-							<h5 class="mb-0">
-								<button class="btn btn-secondary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTen" area-expanded="false" aria-controls="collapseTen" id="10">
-									da
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionitms">
-							<div class="card-body">여기</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingEleven">
-							<h5 class="mb-0">
-								<button class="btn btn-secondary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseEleven" area-expanded="false" aria-controls="collapseEleven" id="11">
-									nicht
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseEleven" aria-labelledby="headingEleven" data-parent="#accordionitms">
-							<div class="card-body">아니다</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingTwelve">
-							<h5 class="mb-0">
-								<button class="btn btn-secondary mt-1 mx-1 itm btn-block" type="button" data-toggle="collapse" data-target="#collapseTwelve" area-expanded="false" aria-controls="collapseTwelve" id="12">
-									Entschuldigung
-								</button>
-							</h5>
-						</div>
-						<div class="collapse" id="collapseTwelve" aria-labelledby="headingTwelve" data-parent="#accordionitms">
-							<div class="card-body">실례합니다</div>
-						</div>
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h3><small>(<button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.)</small></h3>
 					</div>
 				</div>
-			</div>
-			<div class="container">
+
+				<div class="row">
+					<div class="col-12">
+						<table class="table">
+							<thead>
+								<tr>
+									<th colspan="2" class="text-center" height="100px"><img src="./images/Reihe 1/Reihe-1-D1-1.png" alt="Deutschunterricht" style="max-width: 100%; height: auto;"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
+									<td><strong>Frau Klein</strong> Guten Tag, ich heiße Heike Klein. Ich bin Ihre Deutschlehrerin.<span class="tran"><br><small><strong>클라인 선생님</strong> 안녕하세요, 저는 하이케 클라인이라고 해요. 저는 여러분의 독일어 선생님에요.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="2" class="so btn btn-outline-success">▶</button></th>
+									<td><strong>Studenten</strong> Guten Tag, Frau Klein.<span class="tran"><br><small><strong>학생들</strong>안녕하세요, 클라인 선생님.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></th>
+									<td><strong>Frau Klein</strong> Wer ist Hyun Kim?<span class="tran"><br><small><strong>클라인 선생님</strong> 김현이 누구인가요?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="4" class="so btn btn-outline-info">▶</button></th>
+									<td><strong>Hyun</strong> Das bin ich.<span class="tran"><br><small><strong>현</strong>저에요.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></th>
+									<td><strong>Frau Klein</strong> Ist Minjung Kim da?<span class="tran"><br><small><strong>클라인 선생님</strong> 김 민정은 있나요?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="6" class="so btn btn-outline-success">▶</button></th>
+									<td><strong>Studenten</strong> Nein, Minjung ist nicht da.<span class="tran"><br><small><strong>학생들</strong>아뇨, 민정이는 없어요.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="7" class="so btn btn-outline-danger">▶</button></th>
+									<td><strong>Frau Klein</strong> Sind Sie Bokum Park?<span class="tran"><br><small><strong>클라인 선생님</strong> 박보검 인가요?</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="8" class="so btn btn-outline-primary">▶</button></th>
+									<td><strong>William</strong> Nein, ich heiße William Park.<span class="tran"><br><small><strong>윌리엄</strong>아뇨, 저는 윌리엄박이에요.</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="9" class="so btn btn-outline-danger">▶</button></th>
+									<td><strong>Frau Klein</strong> Oh, Entschuldigung!<span class="tran"><br><small><strong>클라인 선생님</strong> 아, 실례했네요!</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="10" class="so btn btn-dark">▶</button></th>
+									<td>da<span class="tran"><br><small>여기</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="11" class="so btn btn-dark">▶</button></th>
+									<td>nicht<span class="tran"><br><small>아니다</small></span></td>
+								</tr>
+								<tr>
+									<th scope="row"><button type="button" id="12" class="so btn btn-dark">▶</button></th>
+									<td>Entschuldigung<span class="tran"><br><small>실례합니다</small></span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+		</div>
+<div class="container">
 				<div class="row mt-3">
 					<div class="col"></div>
 					<div class="col-11 text-center">
@@ -247,7 +167,7 @@
 				</div>
 
 			</div>
-		</section>
+	</section>
 		
 
 		
@@ -257,14 +177,20 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-		<!-- ion.sound -->
+		<script src="./js/taptogroup.js"></script>
+		<!-- interact.min.js -->
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
+			$(".tran").hide();
 
 			$(document).ready(function() {
-
+				// 각 문장 재생 횟수 초기화
+				var hm = new Array();
+				for(i = 0; i < $(".so").length; i++) {
+					hm[i] = 0;
+				}
 				ion.sound({
 					sounds : [{
 						name : "r1 D1",
@@ -284,6 +210,12 @@
 							"11": [38.05,.3],
 							"12": [47.9,1]
 						}
+					},{
+						name : "Bama_Country_Country",
+						path : "sounds/"
+					}, {
+						name : "Cartoon_Boing",
+						path : "sounds/"
 					}],
 					path : "sounds/Reihe 1/",
 					preload : true,
@@ -291,50 +223,107 @@
 					multiplay: false,
 					
 					ended_callback: function(obj) {
+						// 재상이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
+						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
-						};
-					}, ready_callback: function () {
-							$(".itm").on("click", function () {
-								if($(this).attr("id").substr(-2) == "_p") {
-									ion.sound.pause("r1 D1", {
-										part: "0"
-									});
-									$("#0").show();
-									$(this).hide();
-								} else {
-									if($(this).attr("id") != 0) {
-									var ch = "#collapse"+$(this).closest(".card-header").attr("id").substr(7);
-										if(!$(ch).hasClass("show")) {
-											// _p 붙어 있지 않으면 id 그대로 재생
-											ion.sound.play("r1 D1", {
-												part: $(this).attr("id")
-											});
-										}
-									} else {
-											//_p 붙어 있지 않으면 id 그대로 재생
-											ion.sound.play("r1 D1", {
-												part: $(this).attr("id")
-											});
-									}
-									
-									// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-									if($(this).attr("id") == "0") {
-										$(this).hide();
-										$("#0_p").show();
-									};
-								}
-							});
-						// 준비되면 HV 보이기
-						$("#0").show();
-						$(".alert").hide();
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+
+						} else {
+							$("#"+obj.part).html("▶");
+
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();
+							}
 						}
-					})
+
+					}, ready_callback: function () {
+						
+				$(".o").on("click", function() {
+					ion.sound.play("Bama_Country_Country");
 				});
 
-		</script>
+				$(".x").on("click", function() {
+					ion.sound.play("Cartoon_Boing");
+				});
 
+				$("[data-toggle='popover']").popover({
+					delay : {
+						'hide' : 1000
+					},
+					container : "body"
+				});
+			
+				$(".pop").click(function () {
+					// 가장 먼저 지문에 'an' 넣기
+					if (!$(this).siblings().hasClass("an")) {
+						$(this).addClass("an");
+						$(this).addClass("btn-warning");
+						$(this).parent().children().removeClass("btn-light");
+					};
+	
+					// 문제 풀이 정도 업데이트
+					var perc = Math.round(($(".an").length / $(".q").length) * 100);
+					$(".progress>.bar").attr("width", perc + "%;");
+					
+				});
+				
+			// 팝업 내용 사라지기
+			$(".pop").popover().click(function() {
+				setTimeout(function() {
+					$(".pop").popover('hide');
+				}, 500);
+			});
+
+			$(".so").on("click", function () {
+				if($(this).attr("id").substr(-2) == "_p") {
+					// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+					ion.sound.pause("r1 D1", {
+						part: "0"
+					});
+					$("#0").show();
+					$(this).hide();
+				} else if($(this).html() == "▶") {
+					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+					ion.sound.play("r1 D1", {
+						part: $(this).attr("id")
+					});
+					$(this).html("❚❚");
+				} else if($(this).html() == "❚❚") {
+					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+					ion.sound.pause("r1 D1", {
+						part: $(this).attr("id")
+					});
+					$(this).html("▶");
+				} else {
+					// _p 붙어 있지 않으면 id 그대로 재생
+					ion.sound.play("r1 D1", {
+						part: $(this).attr("id")
+					});
+
+					// 전체 듣기 재생일 때는 일시정지 버튼 보이기
+					if($(this).attr("id") == "0") {
+						$(this).hide();
+						$("#0_p").show();
+					};
+				};
+			});
+
+		$("#0").show();
+		$(".alert").hide();
+		}
+	});
+	
+});
+			
+		</script>
 		<!-- ion.sound finished -->
 	</body>
 </html>

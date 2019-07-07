@@ -408,7 +408,7 @@
 												<input type="radio" name="options" id="option14-3" autocomplete="off">Schauspielerin
 											</div>
 										</div>
-										<span class="tran"><br><small>그녀는 유명한(여)배우에요</small></span></td>
+										<span class="tran"><br><small>그녀는 유명한 배우에요</small></span></td>
 								</tr>
 								<tr>
 									<td><button type="button" id="14" class="so btn btn-outline-danger">▶</button></td>
@@ -450,7 +450,7 @@
 												<input type="radio" name="options" id="optionc-5" autocomplete="off">.
 											</div>
 										</div>
-										<span class="tran"><br><small>그녀는 많이 유명해요.</small></span></td>
+										<span class="tran"><br><small>그녀는 매우 유명해요.</small></span></td>
 								</tr>
 							</tbody>
 						</table>

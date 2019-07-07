@@ -10,6 +10,13 @@
 			</button>
 			이 됩니다.
 			<br />
+			<p class="mt-4">
+				각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
+				<button class="badge badge-light" disabled>
+					정답확인
+				</button>
+				에 이용됩니다.
+			</p>
 			<button class="badge badge-light">
 				정답확인
 			</button>
@@ -26,14 +33,6 @@
 				정답
 			</button>
 			으로 변합니다.
-			<br />
-			<p class="mt-4">
-				각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
-				<button class="badge badge-light" disabled>
-					정답확인
-				</button>
-				에 이용됩니다.
-			</p>
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>
@@ -46,7 +45,7 @@
 		<!-- 아이템들 시작 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2>단어를 넣을 때는 그림을 누르세요.</h2>
+					<h2>단어를 넣을 때는 그림을 누르세요.<br><small>(다중 선택이 되지만 클릭한 그림 하나에 답안 하나만 배치됩니다.)</small></h2>
 				</div>
 				<div class="mb-2 text-center" id="itms">
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm" id="1">

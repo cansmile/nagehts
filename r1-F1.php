@@ -25,6 +25,13 @@
 						</p>
 						</h2>
 				</div>
+
+				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h3><small>(<button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼을 누르시면 음성이 들려요. 각 항목을 누르면 해당 그림이 나옵니다.)</small></h3>
+					</div>
+				</div>
+
 				<div class="accordion row" id="accordionitms">
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
 						<div class="card-header" id="headingOne">

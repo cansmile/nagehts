@@ -9,70 +9,103 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2> Was ist Ihr Familienstand? <br>
-							<small>가족상황이 어떻게 되죠?</small>
+						<h2> Hören Sie und Ergänzen Sie.<br>
+							<small>듣고 채우세요.</small>
 						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
 							HV
 						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
 						</h2>
+						<h3><small><br>문장 뒤에 passen zusammen은 자동으로 채워집니다.</small></h3>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-12">
 						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col" class="border-0"><img src="./images/Reihe 3/Reihe-3-C2-1.png" style="max-width: 240px; height: auto;" alt=""></th>
-									<th scope="col" class="border-0"><img src="./images/Reihe 3/Reihe-3-C2-2.png" style="max-width: 240px; height: auto;" alt=""></th>
-									<th scope="col" class="border-0"><img src="./images/Reihe 3/Reihe-3-C2-3.png" style="max-width: 240px; height: auto;" alt=""></th>
-									<th scope="col" class="border-0"><img src="./images/Reihe 3/Reihe-3-C2-4.png" style="max-width: 240px; height: auto;" alt=""></th>
-								</tr>
-							</thead>							
 							<tbody>
 								<tr>
-									<td class="text-center border-0">ledig&nbsp;<small>미혼</small></td>
-									<td class="text-center border-0">verheiratet&nbsp;<small>기혼</small></td>
-									<td class="text-center border-0">geschieden&nbsp;<small>이혼</small></td>
-									<td class="text-center border-0">verwitwet&nbsp;<small>사별</small></td>
+									<td><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
+									<td><div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text">Der Stuhl und </span></div>
+											<input type="text" class="form-control q" aria-label="." id="qst-1">
+											<div class="input-group-append"><span class="input-group-text">.</span></div>
+										</div><span class="tran"><br><small>걸상과 책상이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
-									<td class="text-right" width="25"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
-									<td colspan="3">Was ist Ihr Familienstand?<span class="tran"><br><small>가족상황이 어떻게 되죠?</small></span></td>
+									<td><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
+									<td><div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text">Der Bleistift und </span></div>
+											<input type="text" class="form-control q" aria-label="." id="qst-2">
+											<div class="input-group-append"><span class="input-group-text">.</span></div>
+										</div><span class="tran"><br><small>연필과 연필 깍기가 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
-									<td class="text-right"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
-									<td colspan="3">Ich bin verheiratet.<span class="tran"><br><small>저는 결혼했어요.</small></span></td>
+									<td><button type="button" id="3" class="so btn btn-outline-success">▶</button></td>
+									<td><div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text">Das Fenster und </span></div>
+											<input type="text" class="form-control q" aria-label="." id="qst-3">
+											<div class="input-group-append"><span class="input-group-text">.</span></div>
+										</div><span class="tran"><br><small>창문과 커튼이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
-									<td class="text-right"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></td>
-									<td colspan="3">Haben Sie Kinder?<span class="tran"><br><small>아이가 있으신가요?</small></span></td>
+									<td><button type="button" id="4" class="so btn btn-outline-info">▶</button></td>
+									<td><div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text">Die Blume und </span></div>
+											<input type="text" class="form-control q" aria-label="." id="qst-4">
+											<div class="input-group-append"><span class="input-group-text">.</span></div>
+										</div><span class="tran"><br><small>꽃과 꽃병이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
-									<td class="text-right"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
-									<td colspan="3">Nein, ich habe keine Kinder. Und Sie?<span class="tran"><br><small>아뇨, 저는 아이가 없어요. 당신은요?</small></span></td>
+									<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
+									<td><div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text">Das Auge und </span></div>
+											<input type="text" class="form-control q" aria-label="." id="qst-5">
+											<div class="input-group-append"><span class="input-group-text">.</span></div>
+										</div><span class="tran"><br><small>눈과 안경이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
-									<td class="text-right"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
-									<td colspan="3">Ich bin nicht verheiratet. Ich bin ledig.<span class="tran"><br><small>저는 결혼하지 않았어요. 저는 미혼이에요.</small></span></td>
+									<td><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
+									<td><div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text">Die Hände und </span></div>
+											<input type="text" class="form-control q" aria-label="." id="qst-6">
+											<div class="input-group-append"><span class="input-group-text">.</span></div>
+										</div><span class="tran"><br><small>손과 장갑이 서로 어울려요.</small></span></td>
+								</tr>
+								<tr>
+									<td><button type="button" id="7" class="so btn btn-outline-info">▶</button></td>
+									<td><div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text">Die Zahnbürste und </span></div>
+											<input type="text" class="form-control q" aria-label="." id="qst-7">
+											<div class="input-group-append"><span class="input-group-text">.</span></div>
+										</div><span class="tran"><br><small>치약과 칫솔이 서로 어울려요.</small></span></td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-						<table class="table">
+					<div class="col">
+						<table class="table table-striped text-center">
 							<thead>
 								<tr>
-									<th scope="col" class="bg-light border-0">TIPP</th>
+									<th scope="col">Singular</th>
+									<th scope="col">Plural</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<th scope="row">부정사 nicht는 동사, 형용사, 부사 등을 부정하는데 사용되고, kein은 명사를 부정하는데 사용된다.</th>
+									<td><strong>der</strong> Tisch</td>
+									<td><strong>die</strong> Tische</td>
+								</tr>
+								<tr>
+									<td><strong>das</strong> Auge</td>
+									<td><strong>die</strong> Auge<strong>n</strong></td>
+								</tr>
+								<tr>
+									<td><strong>das</strong> Fenster</td>
+									<td><strong>die</strong> Fenster</td>
 								</tr>
 							</tbody>
 						</table>
@@ -100,7 +133,7 @@
 			$(".ant").hide();
 
 			var an = new Array();
-			var an = ["24","22"];
+			var an = ["der Tisch","der Spitzer","der Vorhang","die Vase","die Brille","die Handschuhe","die Zahnpasta"];
 
 			$(document).ready(function() {
 				$(".q").on("keyup", function () {
@@ -116,34 +149,8 @@
 						$(this).addClass("text-white text-weight-bold");
 						$(this).addClass("bg-success");
 					} else {
-						if((qn+1) == 1) {
-							b = "vierundzwanzig";
-							b = b.substr(0,q);
-							b = b.replace(/ /gi, "");
-
-							if(a == b) {
-								$(this).addClass("bg-success");
-								$(this).addClass("text-white text-weight-bold");
-							} else {
-								$(this).addClass("text-white text-weight-bold");
-								$(this).addClass("bg-danger");
-							}
-						} else if((qn+1) == 2) {
-							b = "zweiundzwanzig";
-							b = b.substr(0,q);
-							b = b.replace(/ /gi, "");
-
-							if(a == b) {
-								$(this).addClass("bg-success");
-								$(this).addClass("text-white text-weight-bold");
-							} else {
-								$(this).addClass("text-white text-weight-bold");
-								$(this).addClass("bg-danger");
-							}
-						} else {
-							$(this).addClass("text-white text-weight-bold");
-							$(this).addClass("bg-danger");
-						}
+						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("bg-danger");
 					}
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
@@ -160,40 +167,13 @@
 					if(a == b) {
 						$(this).addClass("bg-success");
 						$(this).prop("disabled",true);
+						$("#qst-"+(qn+1)).val(an[qn]+" passen zusammen");
 						$(this).addClass("text-weight-bold");
 						$(this).closest("tr").find(".tran").show();
 						$(this).closest("tr").find(".ant").show();
 
 					} else {
-						if((qn+1) == 1) {
-							a = "vierundzwanzig";
-
-							if(a == b) {
-								$(this).addClass("bg-success");
-								$(this).prop("disabled",true);
-								$(this).addClass("text-weight-bold");
-								$(this).closest("tr").find(".tran").show();
-								$(this).closest("tr").find(".ant").show();
-								$(this).closest("tr").find(".ant").text("스물네");
-							} else {
-								$(this).addClass("bg-danger");
-							}
-						} else if((qn+1) == 2) {
-							a = "zweiundzwanzig";
-
-							if(a == b) {
-								$(this).addClass("bg-success");
-								$(this).prop("disabled",true);
-								$(this).addClass("text-weight-bold");
-								$(this).closest("tr").find(".tran").show();
-								$(this).closest("tr").find(".ant").show();
-								$(this).closest("tr").find(".ant").text("스물두");
-							} else {
-								$(this).addClass("bg-danger");
-							}
-						} else {
-							$(this).addClass("bg-danger");
-						}
+						$(this).addClass("bg-danger");
 					}
 
 					if($(this).val()) {
@@ -222,15 +202,17 @@
 
 				ion.sound({
 					sounds : [{
-						name : "r3 C2",
+						name : "r4 B5",
 
 						sprite : {
-							"0": [4.4,23],
-							"1": [7.7,2],
-							"2": [12,1.5],
-							"3": [15,2],
-							"4": [18.3,4],
-							"5": [24.5,3.5]
+							"0": [2.7,53.4],
+							"1": [6.1,6.5],
+							"2": [13.4,6.6],
+							"3": [20.4,6.9],
+							"4": [28.1,6.3],
+							"5": [35,6.5],
+							"6": [42.7,5.7],
+							"7": [49.1,7.2]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -239,7 +221,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "sounds/Reihe 3/",
+					path : "sounds/Reihe 4/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,
@@ -306,26 +288,26 @@
 			$(".so").on("click", function () {
 				if($(this).attr("id").substr(-2) == "_p") {
 					// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r3 C2", {
+					ion.sound.pause("r4 B5", {
 						part: "0"
 					});
 					$("#0").show();
 					$(this).hide();
 				} else if($(this).html() == "▶") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.play("r3 C2", {
+					ion.sound.play("r4 B5", {
 						part: $(this).attr("id")
 					});
 					$(this).html("❚❚");
 				} else if($(this).html() == "❚❚") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r3 C2", {
+					ion.sound.pause("r4 B5", {
 						part: $(this).attr("id")
 					});
 					$(this).html("▶");
 				} else {
 					// _p 붙어 있지 않으면 id 그대로 재생
-					ion.sound.play("r3 C2", {
+					ion.sound.play("r4 B5", {
 						part: $(this).attr("id")
 					});
 
@@ -341,6 +323,9 @@
 		$(".alert").hide();
 		}
 	});
+				$("#qst-1").val(an[0]+" passen zusammen");
+				$("#qst-1").prop("disabled",true);
+				$("#qst-1").closest("tr").find(".tran").show();
 	
 });
 			

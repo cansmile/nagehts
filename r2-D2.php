@@ -23,11 +23,6 @@
 				<div class="row">
 					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9 col-xl-9">
 						<table class="table">
-							<thead>
-								<tr>
-									<th colspan="2" class="text-center display-4 text-white bg-success" height="100px">Dialog</th>
-								</tr>
-							</thead>
 							<tbody>
 								<tr>
 									<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>

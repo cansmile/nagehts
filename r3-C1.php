@@ -4,6 +4,11 @@
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
+<style>
+	td {
+		word-break: keep-all;
+	}
+</style>
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->

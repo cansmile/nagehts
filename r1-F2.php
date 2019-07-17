@@ -13,7 +13,7 @@
 		<div class="container">
 			<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3><small>(번호 단추를 선택하여 해당되는 단어에 배치하세요. 다중 선택은 되지만 한 항목에 숫자 하나만 배치되요.)</small></h3>
+						<h3>[ <small>번호를 알맞은 단어와 짝지우세요.</small> ]</h3>
 					</div>
 				</div>
 

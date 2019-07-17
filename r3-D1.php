@@ -16,8 +16,9 @@
 					</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
 						❚❚
 					</button>
-					<h3><small>문장을 2번 재생하면 번역이 나옵니다.</small></h3>
 					</h2>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+
 			</div>
 		</div>
 		<div class="row">

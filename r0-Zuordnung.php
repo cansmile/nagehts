@@ -23,8 +23,8 @@
 			</div>
 			<!-- 첫 번째 문제 -->
 			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12 mb-1 mt">
-					<h3>단어를 넣을 때는 그림이나 주제를 누르세요.<small><br>(단어는 다중 선택이 되지만 아래 그림을 누르고 나면 모든 선택이 해제됩니다.)</small></h3>
+				<div class="col-sm-12 col-md-12 col-lg-12 mb-1 mt text-center">
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼을 눌러 듣고 단어를 알맞은 그림에 짝지우세요.<br>다중 선택이 되지만 그림에 맞는 단어만 배치됩니다.</small> ]</h3>
 					<div class="border-3 border-danger bg-light col-sm-12 col-md-12 col-lg-12">
 						[ 주제: <h6 class="badge badge-primary badge-sm my-3" disabled>Begrüße 인사 </h6>&nbsp; <h6 class="badge badge-info badge-sm my-3" disabled>Sport 스포츠 </h6>&nbsp; <h6 class="badge badge-success badge-sm my-3" disabled>Musik 음악 </h6>&nbsp; <h6 class="badge badge-danger badge-sm my-3" disabled>Getränke 음료 </h6>&nbsp; <h6 class="badge badge-warning badge-sm my-3" disabled>Familie 가족 </h6> ]
 					</div>

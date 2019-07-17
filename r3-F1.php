@@ -6,8 +6,11 @@ d<?php include "header.php"; ?>
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 							<h2> Sprechen Sie über den Stammbaum.
-								<br><small>아래 가계도에 대해 이야기해보세요.<br><small>입력할 때 초록색이 되면 정답, 빨간색이 되면 입력한 내용을 확인하세요.<br><small>입력한 답이 정답이면 자동으로 입력이 비활성화됩니다.</small></small></small>
+								<br><small>아래 가계도에 대해 이야기해보세요.
 							</h2>
+							<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
+					</div>
 					</div>
 				</div>
 				<div class="row">

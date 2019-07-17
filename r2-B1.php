@@ -17,6 +17,8 @@
 							❚❚
 						</button>
 						</h2>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+
 					</div>
 				</div>
 
@@ -30,7 +32,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
+									<th scope="row"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></th>
 									<td>Woher kommen Sie?<span class="tran"><br><small>당신은 어디에서 오셨나요?</small></span></td>
 								</tr>
 								<tr>
@@ -38,7 +40,7 @@
 									<td>Ich komme aus Korea. Ich bin Koreanerin.<span class="tran"><br><small>저는 한국에서 왔어요. 한국(여)인이에요.</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></th>
+									<th scope="row"><button type="button" id="3" class="so btn btn-outline-primary">▶</button></th>
 									<td>Kommen Sie aus Seoul?<span class="tran"><br><small>서울에서 왔나요?</small></span></td>
 								</tr>
 								<tr>
@@ -50,7 +52,7 @@
 									<td>Woher kommen Sie?<span class="tran"><br><small>당신은 어디에서 오셨나요?</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="6" class="so btn btn-outline-danger">▶</button></th>
+									<th scope="row"><button type="button" id="6" class="so btn btn-outline-primary">▶</button></th>
 									<td>Ich komme aus Japan. Ich bin Japaner.<span class="tran"><br><small>저는 일본에서 왔어요. 저는 일본인입니다.</small></span></td>
 								</tr>
 								<tr>
@@ -58,7 +60,7 @@
 									<td>Und wo wohnen Sie?<span class="tran"><br><small>그러면 어디에서 살아요?</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="8" class="so btn btn-outline-danger">▶</button></th>
+									<th scope="row"><button type="button" id="8" class="so btn btn-outline-primary">▶</button></th>
 									<td>Ich wohne auch in Seoul.<span class="tran"><br><small>저도 서울에서 살아요.</small></span></td>
 								</tr>
 							</tbody>

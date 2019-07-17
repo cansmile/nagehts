@@ -3,6 +3,11 @@
 <?php include "nav.php"; ?>
 		<section>
 			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<h3>[ <small>문제에 맞는 답안을 알맞게 짝지우세요.</small> ]</h3>
+					</div>
+				</div>
 				<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">

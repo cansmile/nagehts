@@ -10,6 +10,9 @@
 						<h2> Wie heißt das Zimmer? Was macht man da?<br>
 							<small> 방 이름이 무엇일까요? 거기서 무엇을 하나요? </small>
 						</h2>
+						<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>[ <small>단어를 항목에 맞게 짝지우세요.</small> ]</h2>
+					</div>
 					</div>
 				</div>
 

@@ -46,6 +46,8 @@
 						<h2>Wie viel wissen Sie über Deutschland und über die deutsche Sprache?
 						<br>
 						<small>독일과 독일어에 대해 얼마나 알고 있나요?</small></h2>
+						<h3>[ <small>답안은 처음 선택한 항목만 인정됩니다.<br>처음 선택한 답안을 답안 확인에 사용합니다.</small> ]</h3>
+
 					</div>
 				</div>
 			<div class="row">

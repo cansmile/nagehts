@@ -4,6 +4,11 @@
 		<section>
 			<div class="container">
 				<div class="row">
+					<div class="col text-center">
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+					</div>
+				</div>
+				<div class="row">
 					<div class="col">
 						<table class="table">
 							<tbody>

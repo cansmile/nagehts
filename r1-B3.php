@@ -17,7 +17,7 @@
 								❚❚
 							</button>
 						</h2>
-					<h3><small>(<button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.<br>음성을 듣고 밑줄이 있는 회색 상자의 단어 중 맞는 것을 고르세요)</small></h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
 
 							</p>
 					</div>
@@ -29,7 +29,7 @@
 									<td>Hallo! Ich bin Maria. Und du? Wie heißt du?<span class="tran"><br><small>안녕! 난 마리아라고해. 너는? 네 이름은 뭐야?</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="2" class="itm btn btn-outline-danger">▶</button></th>
+									<th scope="row"><button type="button" id="2" class="itm btn btn-outline-primary">▶</button></th>
 									<td>Hallo! Ich heiße Joseph.<span class="tran"><br><small>안녕! 난 요셉이라고해.</small></span></td>
 								</tr>
 								<tr>
@@ -37,7 +37,7 @@
 									<td>Freut mich, Joseph!<span class="tran"><br><small>반가워, 요셉!</small></span></td>
 								</tr>
 								<tr>
-									<th scope="row"><button type="button" id="4" class="itm btn btn-outline-danger">▶</button></th>
+									<th scope="row"><button type="button" id="4" class="itm btn btn-outline-primary">▶</button></th>
 									<td>Freut mich auch, Maria!<span class="tran"><br><small>나도 반가워, 마리아!</small></span></td>
 								</tr>
 							</tbody>

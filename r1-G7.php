@@ -4,7 +4,11 @@
 
 <section>
 	<div class="container">
-		<div class="row"></div>
+		<div class="row">
+					<div class="col text-center">
+						<h3>[ <small>문제를 모두 풀어야 번역이 나옵니다.</small> ]</h3>
+					</div>
+				</div>		
 		<!-- 정답화인 버튼 시작 -->
 		<div class="row">
 			<div class="my-3 col-sm-12 col-md-12 col-lg-12" id="qst">

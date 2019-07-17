@@ -15,7 +15,9 @@
 							❚❚
 						</button>
 						</h2>
-						<h3><small>듣기를 2번하면 번역이 나옵니다.</small></h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">번호</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small>번호를 알맞은 그림과 짝지우세요.</small> ]</h3>
+
 				</div>
 				<!-- 고르는 아이템들 -->
 				<div class="row">

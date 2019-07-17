@@ -17,7 +17,8 @@
 							❚❚
 						</button>						
 						</h2>
-						<h3><small><br>음성을 듣고 맞는 그림을 선택하세요.</small></h3>
+						<h3>[ <small>음성을 듣고 있는 것을 선택하세요.<br><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+
 					</div>
 				</div>
 
@@ -27,8 +28,6 @@
 							<tbody>
 								<tr>
 									<td class="align-middle"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
-									<td class="text-justify"><span class="tran">Was ist das? Ist das ein Fahrrad?&nbsp;<small><br>이것은 무엇인가요? 이것은 자전거인가요?</small><br>
-		Nein, das ist kein Fahrrad. Das ist ein Auto.&nbsp;<small><br>아니오, 이것은 자전거가 아니에요. 이것은 자동차에요.</small></span></td>
 									<td>
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -41,8 +40,10 @@
 									</td>
 								</tr>
 								<tr>
+									<td class="text-center" colspan="2"><span class="tran">Was ist das? Ist das ein Fahrrad?&nbsp;Nein, das ist kein Fahrrad. Das ist ein Auto.&nbsp;<small><br>이것은 무엇인가요? 이것은 자전거인가요? 아니오, 이것은 자전거가 아니에요. 이것은 자동차에요.</small></span></td>
+								</tr>
+								<tr>
 									<td class="align-middle"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
-									<td class="text-justify"><span class="tran">Was ist das? Ist das eine Katze?&nbsp;<small><br>이것은 무엇인가요? 이것은 고양이인가요?</small><br>Nein, das ist keine Katze. Das ist ein Hund.&nbsp;<small><br>아니오, 이것은 고양이가 아니에요. 이것은 개에요.</small></span></td>
 									<td>
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -55,8 +56,10 @@
 									</td>
 								</tr>
 								<tr>
+									<td class="text-center" colspan="2"><span class="tran">Was ist das? Ist das eine Katze?&nbsp;Nein, das ist keine Katze. Das ist ein Hund.<small><br>이것은 무엇인가요? 이것은 고양이인가요? 아니오, 이것은 고양이가 아니에요. 이것은 개에요.</small></span></td>
+								</tr>
+								<tr>
 									<td class="align-middle"><button type="button" id="3" class="so btn btn-outline-success">▶</button></td>
-									<td class="text-justify"><span class="tran">Wer ist das? Ist das ein Mann?<span class="tran">&nbsp;<small><br>이 사람은 누구인가요? 이 사람은 남자인가요?</small><br>Nein, das ist kein Mann. Das ist eine Frau.&nbsp;<small><br>아니오, 이 사람은 남자가 아니에요. 이 사람은 여자에요.</small></span></td>
 									<td>
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -67,6 +70,9 @@
 											</div>
 										</div>
 									</td>
+								</tr>
+								<tr>
+									<td class="text-center" colspan="2"><span class="tran">Wer ist das? Ist das ein Mann? Nein, das ist kein Mann. Das ist eine Frau.<span class="tran">&nbsp;<small><br>이 사람은 누구인가요? 이 사람은 남자인가요? 아니오, 이 사람은 남자가 아니에요. 이 사람은 여자에요.</small></span></td>
 								</tr>
 							</tbody>
 						</table>

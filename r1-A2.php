@@ -45,7 +45,8 @@
 		<!-- 아이템들 시작 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2>단어를 넣을 때는 그림을 누르세요.<br><small>(다중 선택이 되지만 클릭한 그림 하나에 답안 하나만 배치됩니다.)</small></h2>
+					<h2>단어를 넣을 때는 그림을 누르세요.</h2>
+					<h3>[ <small>단어를 알맞은 그림에 짝지우세요.<br>다중 선택이 되지만 그림 하나에 단어 하나만 배치됩니다.</small> ]</h3>
 				</div>
 				<div class="mb-2 text-center" id="itms">
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm" id="1">

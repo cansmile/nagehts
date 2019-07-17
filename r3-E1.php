@@ -10,15 +10,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-							<h2> Sprechen Sie über die Sehenswürdigkeiten. </h2>
-								<p>
-									세계 명소에 대해 말해보세요.
-								</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Ergänzen Sie. <small>빈칸을 채우세요.</small></h2>
+						<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
+					</div>
 					</div>
 				</div>
 				<div class="row">

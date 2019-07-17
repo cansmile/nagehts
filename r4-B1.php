@@ -17,6 +17,8 @@
 							❚❚
 						</button>
 						</h2>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼을 눌러 들으면서 단어를 그림과 연결합니다.</small> ]</h3>
+
 					</div>
 				</div>
 

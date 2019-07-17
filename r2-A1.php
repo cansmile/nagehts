@@ -15,8 +15,10 @@
 						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
+						<small> 알맞은 도시와 국가를 써보세요. </small>
 						</h2>
-						<p> 알맞은 도시와 국가를 써보세요. </p>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼을 눌러 듣고 알맞은 위치에 국가와 수도를 짝지우세요.</small> ]</h3>
+
 					</div>
 				</div>
 				<div class="row">

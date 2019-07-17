@@ -10,6 +10,11 @@
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
+					<div class="col text-center">
+					<h2>[ <small>단어를 알맞은 위치에 짝지우세요.</small> ]</h2>
+					</div>
+				</div>
+				<div class="row">
 					<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="1">
 							Tag

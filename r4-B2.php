@@ -5,8 +5,7 @@
 		<div class="container">
 			<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2> <small> (단어를 선택하고 아래의 성(M, F, N)을 누르면 단어가 이동합니다.) </small>
-						</h2>
+						<h2>[ <small>단어를 선택하고 아래의 성(M, F, N)을 누르면 단어가 이동합니다.</small> ]</h2>
 					</div>
 				</div>
 			<!-- 고르는 아이템들 -->

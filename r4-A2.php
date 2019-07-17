@@ -10,7 +10,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Ergänzen Sie. <small>빈칸을 채우세요.<br>(번호 또는 문장 속 항목을 맞추면 같은 줄에 있는 문장속 항목 또는 번호가 자동으로 채워집니다)</small></h2>
+						<h2>Ergänzen Sie. <small>빈칸을 채우세요.</small></h2>
+						<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
+						<h3>[ <small>같은 줄에 있는 답안에 정답을 입력하면 다른 답안은 자동으로 채워집니다.</small> ]</h3>
+					</div>
 					</div>
 				</div>
 				<div class="row">
@@ -119,9 +123,18 @@
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad8">Ich bin Anna und wohne in Leipzig. Meine Familie wohnt in einem</span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q" id="qst-8">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad8">. Da wohnen viele Bewohner. Es ist ein sehr hohes Haus mit vielen Etagen.</span></div>
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad8">.</span></div>
 										</div>
-										<span class="tran">나는 안나이고 라이프찌히에 삽니다. 나의 가족은 한 아파트에서 삽니다. 거기에는 많은 입주민들이 살고 있습니다. 아파트는 여러 층으로 된 매우 높은 집입니다.</span>
+										<span class="tran">나는 안나이고 라이프찌히에 삽니다. 나의 가족은 한 아파트에서 삽니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad8-1">Da wohnen viele Bewohner. Es ist ein sehr hohes Haus mit vielen Etagen.</span></div>
+										</div>
+										<span class="tran">거기에는 많은 입주민들이 살고 있습니다. 아파트는 여러 층으로 된 매우 높은 집입니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -136,9 +149,18 @@
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad9">Meine Eltern wohnen mit ihrem Hund in einem 200 Quadratmeter großen </span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control q" id="qst-9">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad9">. Da haben sie einen großen Garten. Ich verbringe gern meine Ferien bei ihnen.</span></div>
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad9">.</span></div>
 										</div>
-										<span class="tran">나의 부모님은 개 한 마리와 함께 200 평방제곱미터 되는 한가족주택에 살고 있습니다. 거기에서는 커다란 정원이 있습니다. 나는 방학을 부모님집에서 보냅니다.</span>
+										<span class="tran">나의 부모님은 개 한 마리와 함께 200 평방제곱미터 되는 한가족주택에 살고 있습니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad9-1">Da haben sie einen großen Garten. Ich verbringe gern meine Ferien bei ihnen.</span></div>
+										</div>
+										<span class="tran">거기에는 커다란 정원이 있습니다. 나는 방학을 부모님집에서 보냅니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -151,12 +173,20 @@
 									<td>
 										<div id="ant-10"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad10">Hi! Ich bin Anna und komme aus Dresden. Ich studiere Theologie in Berlin.
-Zurzeit wohne ich in einem </span></div>
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad10-1">Hi! Ich bin Anna und komme aus Dresden. Ich studiere Theologie in Berlin.</span></div>
+										</div>
+										<span class="tran">안녕! 나는 안나이고 드레스덴에서 왔어. 그리고 베를린에서 신학을 공부해.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad10">Zurzeit wohne ich in einem </span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="text-center form-control q" id="qst-10">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad10">, denn es ist günstig.</span></div>
 										</div>
-										<span class="tran">안녕! 나는 안나이고 드레스덴에서 왔어. 그리고 베를린에서 신학을 공부해. 현재 나는 기숙사에서 거주하는데 (집세가) 저렴하기 때문이지.</span>
+										<span class="tran">현재 나는 기숙사에서 거주하는데 (임대료가) 저렴하기 때문이지.</span>
 									</td>
 								</tr>
 								<tr>
@@ -169,12 +199,29 @@ Zurzeit wohne ich in einem </span></div>
 									<td>
 										<div id="ant-11"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad11">Ich reise gern. Ich möchte gern in diesem Sommer Heidelberg besuchen. Da will ich das </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="text-center form-control q" id="qst-11">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad11">besuchen. Es ist ein sehr großes und wertvolles Haus mit einem
-großen Garten oder einem Park. Darin lebten früher Könige oder Fürsten.</span></div>
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad11-1">Ich reise gern. Ich möchte gern in diesem Sommer Heidelberg besuchen.</span></div>
 										</div>
-										<span class="tran">나는 여행을 즐겨합니다. 이번 여름에는 하이델베르크에 가고 싶습니다. 거기에서 (하이델베르크) 성을 방문하고 싶어요. 성은 커다란 정원이나 공원이 있는 매우 크고 귀중한 집이지요. 옛날에는 거기에서 왕이나 영주들이 거주했지요.</span>
+										<span class="tran">나는 여행을 즐겨합니다. 이번 여름에는 하이델베르크에 가고 싶습니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad11">Da will ich das </span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="text-center form-control q" id="qst-11">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad11">besuchen.</span></div>
+										</div>
+										<span class="tran">거기에서 (하이델베르크) 성을 방문하고 싶어요.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad11-2">Es ist ein sehr großes und wertvolles Haus mit einem großen Garten oder einem Park. Darin lebten früher Könige oder Fürsten.</span></div>
+										</div>
+										<span class="tran">성은 커다란 정원이나 공원이 있는 매우 크고 귀중한 집이지요. 옛날에는 거기에서 왕이나 영주들이 거주했지요.</span>
 									</td>
 								</tr>
 								<tr>
@@ -187,12 +234,29 @@ großen Garten oder einem Park. Darin lebten früher Könige oder Fürsten.</spa
 									<td>
 										<div id="ant-12"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad12">Ich bin Bauer von Beruf und liebe die Natur.
-Mit meiner Familie wohne ich auf einem</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q" id="qst-12">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad12">. Wir lieben frische Luft und haben Tiere gern, z.B. Kühe, Ziegen, Pferde, Schweine usw... Meine Kinder spielen gern auf dem Hof. Hier fahren wenige Autos. Das ist gut.</span></div>
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad12-1">Ich bin Bauer von Beruf und liebe die Natur.</span></div>
 										</div>
-										<span class="tran">나는 농부이고 자연을 사랑합니다. 나는 나의 가족과 농가에 살고 있어요. 우리는 신선한 공기와 동물들을 좋아하요. 예를들어 소, 염소, 말 그리고 돼지 등등. 나의 아이들은 마당에서 놀기를 즐겨합니다. 여기에는 자동차들이 많이 다니지 않습니다. 그래서 좋습니다.</span>
+										<span class="tran">나는 농부이고 자연을 사랑합니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad12">Mit meiner Familie wohne ich auf einem</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q" id="qst-12">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad12">.</span></div>
+										</div>
+										<span class="tran">나는 나의 가족과 농가에 살고 있어요.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad12-2">Wir lieben frische Luft und haben Tiere gern, z.B. Kühe, Ziegen, Pferde, Schweine usw... Meine Kinder spielen gern auf dem Hof. Hier fahren wenige Autos. Das ist gut.</span></div>
+										</div>
+										<span class="tran">우리는 신선한 공기와 동물들을 좋아하요. 예를들어 소, 염소, 말 그리고 돼지 등등. 나의 아이들은 마당에서 놀기를 즐겨합니다. 여기에는 자동차들이 많이 다니지 않습니다. 그래서 좋습니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -205,11 +269,20 @@ Mit meiner Familie wohne ich auf einem</span></div>
 									<td>
 										<div id="ant-13"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad13">Ich lebe gern umweltfreundlich. Ich fahre gern Rad und esse gern Obst und Gemüse aus Ökoanbau. Ich lebe auch in einem</span></div>
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad13-1">Ich lebe gern umweltfreundlich. Ich fahre gern Rad und esse gern Obst und Gemüse aus Ökoanbau.</span></div>
+										</div>
+										<span class="tran">나는 환경친화적으로 사는 것을 좋아합니다. 나는 자전거를 즐겨 타고 친환경적으로 재배한 과일과 채소를 즐겨 먹습니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+									<td>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad13">Ich lebe auch in einem</span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon13" class="text-center form-control q" id="qst-13">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad13">mit Solarenergie und Wasserspartechnik.</span></div>
 										</div>
-										<span class="tran">나는 환경친화적으로 사는 것을 좋아합니다. 나는 자전거를 즐겨 타고 친환경적으로 재배한 과일과 채소를 즐겨 먹습니다. 나는 또한 태양광 에너지와 물 절약 기능을 있는 에코하우스에서 거주합니다.</span>
+										<span class="tran">나는 또한 태양광 에너지와 물 절약 기능을 있는 에코하우스에서 거주합니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -393,7 +466,7 @@ Mit meiner Familie wohne ich auf einem</span></div>
 							if(oan == nan) {
 								$("#qst-"+(i+1)).addClass("bg-success text-white");
 								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]+"<br><small class=\"text-dark\">"+ant[i]+"</small></span>");
+									$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]);
 									$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-danger\">"+oran+"</span>");
 									$("#qst-"+(i+1)).hide();
 								}
@@ -401,7 +474,7 @@ Mit meiner Familie wohne ich auf einem</span></div>
 								$(".tran").show();
 							} else {
 								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]+"<br><small class=\"text-dark\">"+ant[i]+"</small></span>");
+								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]);
 								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-danger\">"+oran+"</span>");
 								$("#qst-"+(i+1)).hide();
 							}
@@ -430,11 +503,6 @@ Mit meiner Familie wohne ich auf einem</span></div>
 				ch();
 				$("#qst-1").prop("disabled",true);
 				$("#qst-8").prop("disabled",true);
-				var anl;
-				for(i = 0; i < $(".q").length; i++) {
-					anl = an[i].length;
-					$("#qst-"+(i+1)).attr("size",anl);
-				}
 			});
 			
 		</script>

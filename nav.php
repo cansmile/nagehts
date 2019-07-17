@@ -2,7 +2,7 @@
 <?php
 // 당분간 필요한 변수
 $lt = 4; // 제목 데쉬 이후의 글자 수 제한
-$rm = 3; // 완성된 페이지만 메인에 노출
+$rm = 4; // 완성된 페이지만 메인에 노출
 
 // header 에서 정의된 변수 [ $fn 은 파일명만, $bn 은 확장자 포함 ]
 $a = " active";
@@ -48,7 +48,7 @@ array("r1-Guten Tag!"=> "A. Guten Tag!","r1-Wie heissen Sie"=>"B. Wie heißen Si
 array("r2-Woher kommen Sie!"=>"A. Woher kommen Sie?","r2-Ich bin Koreanerin"=>"B. Ich bin Koreanerin.","r2-Welche Sprachen sprechen Sie"=>"C. Welche Sprachen sprechen Sie?","r2-Wo liegt das Land"=>"D. Wo liegt das Land?","r2-Uebungen"=>"E. Übungen","r2-Grammatik und Wendungen"=>"F. Grammatik und Wendungen"),
 array("r3-Wer ist das"=>"A. Wer ist das?","r3-Wie alt ist er"=>"B. Wie alt ist er?","r3-Wie viele Geschwister hast du"=>"C. Wie viele Geschwister hast du?","r3-Was sind Sie von Beruf"=>"D. Was sind Sie von Beruf?","r3-Visitenkarten"=>"E. Visitenkarten","r3-Uebungen"=>"F. Übungen","r3-Grammatik und Wendungen"=>"G. Grammatik und Wendungen"),
 array("r4-Wohnen"=>"A. Wohnen","r4-Im Zimmer"=>"B. Im Zimmer","r4-Was ist das"=>"C. Was ist das?","r4-Wie ist das"=>"D. Wie ist das?","r4-Uebungen"=>"E. Übungen","r4-Grammatik und Wendungen"=>"F. Grammatik und Wendungen"),
-array("r5-Essen und Trinken"=>"A. Essen und Trinken","r5-Was isst du gern und was trinkst du gern"=>"B. Was isst du gern und was trinkst du gern?","r5-Was isst und trinkt er/sie"=>"C. Was isst und trinkt er/sie?","r5-Im Restaurant. Was bekommen Sie"=>"D. Im Restaurant. Was bekommen Sie?","r5-Waehrend des Essens"=>"E. Während des Essens","r5-Was bezahlen Sie"=>"F. Was bezahlen Sie?","r5-Uebungen"=>"G. Übungen","r5-Grammatik und Wendungen"=>"H. Grammatik und Wendungen"),
+array("r5-Essen und Trinken"=>"A. Essen und Trinken","r5-Was isst du gern und was trinkst du gern"=>"B. Was isst du gern und was trinkst du gern?","r5-Was isst und trinkt er,sie"=>"C. Was isst und trinkt er/sie?","r5-Im Restaurant. Was bekommen Sie"=>"D. Im Restaurant. Was bekommen Sie?","r5-Waehrend des Essens"=>"E. Während des Essens","r5-Was bezahlen Sie"=>"F. Was bezahlen Sie?","r5-Uebungen"=>"G. Übungen","r5-Grammatik und Wendungen"=>"H. Grammatik und Wendungen"),
 array("r6-Was machst du gern"=>"A. Was machst du gern?","r6-Wie spaet ist es"=>"B. Wie spät ist es?","r6-Wann hast du Deutschunterricht"=>"C. Wann hast du Deutschunterricht?","r6-Tagesablauf"=>"D. Tagesablauf","r6-Uebungen"=>"E. Übungen","r6-Grammatik und Wendungen"=>"F. Grammatik und Wendungen"),
 array("r7-Wochenende, Was haben Sie am Wochenende vor"=>"A. Wochenende: Was haben Sie am Wochenende vor?","r7-Verabredung. Hast du heute Abend Zeit"=>"B. Verabredung. Hast du heute Abend Zeit?","r7-Anweisungen"=>"C. Anweisungen: Was kann man, was darf man nicht?","r7-Uebungen"=>"D. Übungen","r7-Grammatik und Wendungen"=>"E. Grammatik und Wendungen"),
 array("r8-Koerper und Sport"=>"A. Körper und Sport","r8-Koerperteile und Taetigkeiten"=>"B. Körperteile und Tätigkeiten","r8-Krankheiten und Schmerzen"=>"C. Krankheiten und Schmerzen","r8-Beim Arzt"=>"D. Beim Arzt","r8-Uebungen"=>"E. Übungen","r8-Grammatik und Wendungen"=>"F. Grammatik und Wendungen"),
@@ -63,7 +63,7 @@ array("r1-Guten Tag!"=> "안녕하세요!","r1-Wie heissen Sie"=>"이름이 어�
 array("r2-Woher kommen Sie!"=>"어디서 오셨나요?","r2-Ich bin Koreanerin"=>"저는 한국(여)인입니다.","r2-Welche Sprachen sprechen Sie"=>"어떠한 언어를 말할 수 있나요?","r2-Wo liegt das Land"=>"이 나라는 어디에 있나요?","r2-Uebungen"=>"연습문제","r2-Grammatik und Wendungen"=>"문법과 표현"),
 array("r3-Wer ist das"=>"이 분은 누구인가요?","r3-Wie alt ist er"=>"그는 몇 살인가요?","r3-Wie viele Geschwister hast du"=>"형제자매가 몇 명이니?","r3-Was sind Sie von Beruf"=>"직업이 어떻게 되나요?","r3-Visitenkarten"=>"명함","r3-Uebungen"=>"연습문제","r3-Grammatik und Wendungen"=>"문법과 표현"),
 array("r4-Wohnen"=>"사는 것","r4-Im Zimmer"=>"방에서","r4-Was ist das"=>"이것은 무엇인가요?","r4-Wie ist das"=>"이것은 어떤가요?","r4-Uebungen"=>"연습문제","r4-Grammatik und Wendungen"=>"문법과 표현"),
-array("r5-Essen und Trinken"=>"먹고 마시기","r5-Was isst du gern und was trinkst du gern"=>"무엇을 즐겨 먹고 마셔?","r5-Was isst und trinkt er/sie"=>"그(녀)는 무엇을 먹고 마시나요?","r5-Im Restaurant. Was bekommen Sie"=>"레스토랑에서 무엇을 원하시나요?","r5-Waehrend des Essens"=>"식사 중에","r5-Was bezahlen Sie"=>"무엇을 지불하시겠어요?","r5-Uebungen"=>"연습문제","r5-Grammatik und Wendungen"=>"문법과 표현"),
+array("r5-Essen und Trinken"=>"먹고 마시기","r5-Was isst du gern und was trinkst du gern"=>"무엇을 즐겨 먹고 마셔?","r5-Was isst und trinkt er,sie"=>"그(녀)는 무엇을 먹고 마시나요?","r5-Im Restaurant. Was bekommen Sie"=>"레스토랑에서 무엇을 원하시나요?","r5-Waehrend des Essens"=>"식사 중에","r5-Was bezahlen Sie"=>"무엇을 지불하시겠어요?","r5-Uebungen"=>"연습문제","r5-Grammatik und Wendungen"=>"문법과 표현"),
 array("r6-Was machst du gern"=>"하루일과 중 무엇을 즐겨 하니?","r6-Wie spaet ist es"=>"몇시인가요?","r6-Wann hast du Deutschunterricht"=>"독일어수업이 언제니?","r6-Tagesablauf"=>"하루일과","r6-Uebungen"=>"연습문제","r6-Grammatik und Wendungen"=>"문법과 표현"),
 array("r7-Wochenende, Was haben Sie am Wochenende vor"=>"주말: 주말에 무엇을 하나요?","r7-Verabredung. Hast du heute Abend Zeit"=>"약속. 오늘저녁시간있니?","r7-Anweisungen"=>"지시문. 무엇을 할수 있고 해서는 안되나요?","r7-Uebungen"=>"연습문제","r7-Grammatik und Wendungen"=>"문법과 표현"),
 array("r8-Koerper und Sport"=>"신체와 스포츠","r8-Koerperteile und Taetigkeiten"=>"신체부위와 하는 일","r8-Krankheiten und Schmerzen"=>"질병과 통증","r8-Beim Arzt"=>"개인병원에서","r8-Uebungen"=>"연습문제","r8-Grammatik und Wendungen"=>"문법과 표현"),
@@ -107,6 +107,17 @@ $rtl = array(
 		"D" => array("D2" => "Adjektive", "D3" => "In meiner Wohnung", "D1" => "Wie heißt das Gegenteil?"),
 		"E" => array("E1" => "Sortieren Sie die Wörter.", "E2" => "Ergänzen Sie die Lücken.", "E3" => "sein oder haben?", "E4" => "Ergänzen Sie die Lücken.", "E5" => "„kein” oder „nicht”?", "E6" => "Schreiben Sie die Sätze.")
 	)
+,
+	5 =>
+	array(
+		"A" => array("A1" => "Wo sind die Leute und was machen sie?", "A2" => "Lesen Sie und ergänzen Sie die Lücken.", "A3" => "Ordnen Sie zu."),
+		"B" => array("B1" => "Mein Lieblingsessen", "B2" => "Was trinkst du gern?", "B4" => "Ich esse lieber Brot."),
+		"C" => array("C1" => "Was isst er/sie?", "C2" => "Was isst du und was trinkst du ?", "C4" => "Mahlzeiten - Was isst und trinkt Tim Sager?", "C5" => "Mahlzeiten - Was isst und trinkt Monika Mai?", "C6" => "Mahlzeiten in Korea"),
+		"D" => array("D1" => "Bestellen", "D3" => "Wer sagt das?", "D4" => "Wir möchten gern bestellen.", "D5" => "Was möchten die Personen essen?<br>Was möchten sie trinken?"),
+		"E" => array("E2" => "Geschmack", "E3" => "Üben Sie."),
+		"F" => array("F1" => "Bezahlen", "F2" => "Wir möchten bezahlen."),
+		"G" => array("G1" => "Ordnen Sie und tragen Sie unten ein.", "G3" => "Was essen und trinken Tim und Monika gern?", "G4" => "Der Kellner bringt das Falsche.", "G5" => "Wer möchte was?", "G7" => "Was passt zusammen?", "G10" => "Ergänzen Sie die Tabelle.", "G11" => "Ergänzen Sie ‚e’ oder ‚i’", "G12" => "Ergänzen Sie.", "G13" => "Ergänzen Sie.", "G14" => "Ergänzen Sie: den/die/das.", "G16" => "Wir möchten bezahlen.")
+	)
 );
 
 // 각 중단원 아래의 소단원 해석
@@ -144,6 +155,16 @@ $rtl_k = array(
 		"C" => array("C1" => "이것은 무엇일까요?", "C2" => "그(녀)는 무엇을 가지고 있고 무엇을 가지고 있지 않나요?"),
 		"D" => array("D2" => "형용사", "D3" => "나의 집에서", "D1" => "반대말은 무엇인가요?"),
 		"E" => array("E1" => "다음 단어들을 성에 따라 분류하세요.", "E2" => "동사 표를 채우세요.", "E3" => "sein 혹은 haben?", "E4" => "빈칸을 채우세요.", "E5" => "kein 혹은 nicht?", "E6" => "보기와 같이 문장을 만드세요.")
+	),
+	5 =>
+	array(
+		"A" => array("A1" => "사람들은 어디 있고 무엇을 하나요?", "A2" => "읽고 각 그림에 해당하는 알맞은 단어를 찾아 넣으세요.", "A3" => "알맞게 분류하세요."),
+		"B" => array("B1" => "내가 좋아 하는 음식", "B2" => "무엇을 즐겨 마시니?", "B4" => "나는 차라리 빵을 먹겠어요."),
+		"C" => array("C1" => "그(녀)는 무엇을 먹고 마시나요?", "C2" => "무엇을 먹고 마시니?", "C4" => "식사: 팀 자거가 무엇을 먹고 마시나요?", "C5" => "식사: 모니카 마이는 무엇을 먹고 마시나요?", "C6" => "한국의 식사"),
+		"D" => array("D1" => "주문하기", "D3" => "누가 이야기 하나요?", "D4" => "우리는 주문하고 싶어요.", "D5" => "이 사람들은 무엇을 먹고 마시려고하나요?"),
+		"E" => array("E2" => "입맛", "E3" => "연습하세요."),
+		"F" => array("F1" => "지불하기", "F2" => "계산하고 싶어요."),
+		"G" => array("G1" => "알맞게 나열하세요.", "G3" => "팀과 모니카는 무엇을 즐겨먹고마시나요?", "G4" => "점원이 잘못된 음식을 가지고 왔습니다.", "G5" => "누가 무엇을 주문하나요?", "G7" => "무엇이 맞나요?", "G10" => "표를 채우세요.", "G11" => "‘e’ 또는 ‘i’를 채우세요.", "G12" => "채우세요.", "G13" => "채우세요.", "G14" => "정관사를 채우세요.", "G16" => "계산하고 싶어요.")
 	)
 
 );

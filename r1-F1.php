@@ -28,7 +28,7 @@
 
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3><small>(<button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼을 누르시면 음성이 들려요. 각 항목을 누르면 해당 그림이 나옵니다.)</small></h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 들으면 해당 음성이 재생됩니다.<br>단어를 누르면 그림이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 

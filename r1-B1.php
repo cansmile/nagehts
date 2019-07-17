@@ -14,7 +14,9 @@
 						❚❚
 					</button>
 					</h2>
-					<h3><small>(<button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.<br>음성을 듣고 밑줄이 있는 회색 상자의 단어 중 맞는 것을 고르세요)</small></h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small>듣고 알맞은 단어를 선택하세요.</small> ]</h3>
+
 			</div>
 		</div>
 		<div class="row">

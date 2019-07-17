@@ -14,6 +14,7 @@
 						<h2> Ergänzen Sie die Kontinente.<br>
 							<small>빈칸에 알맞은 대륙 이름을 넣어보세요.</small>
 						</h2>
+						<h3>[ <small>알맞은 위치에 짝지우세요.</small> ]</h3>
 					</div>
 				</div>
 

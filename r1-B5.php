@@ -7,8 +7,7 @@
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2><small>(단어를 선택하여 분류에 맞게 배치시키세요. 다중 선택이 됩니다.)</small>
-						</h2>
+						<h2>[ <small>단어를 알맞은 성에 짝지우세요.</small> ]</h2>
 				</div>
 				<div class="border-3 border-danger bg-light col-sm-12 col-md-12 col-lg-12">
 						[ 분류: <h6 class="badge badge-primary badge-sm my-3" disabled>남자 Vornamen </h6>&nbsp; <h6 class="badge badge-danger badge-sm my-3" disabled>여자 Vornamen </h6>&nbsp; <h6 class="badge badge-warning badge-sm my-3" disabled>성 Familennamen </h6> ]

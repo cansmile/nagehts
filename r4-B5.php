@@ -17,7 +17,9 @@
 							❚❚
 						</button>
 						</h2>
-						<h3><small><br>문장 뒤에 passen zusammen은 자동으로 채워집니다.</small></h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
+						<h3>[ <small>문장 뒤에 passen zusammen은 자동으로 채워집니다.</small> ]</h3>
 					</div>
 				</div>
 
@@ -27,7 +29,7 @@
 							<tbody>
 								<tr>
 									<td><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
-									<td><div class="input-group">
+									<td><div class="ant" id="ant-1"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Der Stuhl und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-1">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
@@ -35,7 +37,7 @@
 								</tr>
 								<tr>
 									<td><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
-									<td><div class="input-group">
+									<td><div class="ant" id="ant-2"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Der Bleistift und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-2">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
@@ -43,7 +45,7 @@
 								</tr>
 								<tr>
 									<td><button type="button" id="3" class="so btn btn-outline-success">▶</button></td>
-									<td><div class="input-group">
+									<td><div class="ant" id="ant-3"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Das Fenster und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-3">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
@@ -51,7 +53,7 @@
 								</tr>
 								<tr>
 									<td><button type="button" id="4" class="so btn btn-outline-info">▶</button></td>
-									<td><div class="input-group">
+									<td><div class="ant" id="ant-4"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Die Blume und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-4">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
@@ -59,7 +61,7 @@
 								</tr>
 								<tr>
 									<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
-									<td><div class="input-group">
+									<td><div class="ant" id="ant-5"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Das Auge und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-5">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
@@ -67,7 +69,7 @@
 								</tr>
 								<tr>
 									<td><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
-									<td><div class="input-group">
+									<td><div class="ant" id="ant-6"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Die Hände und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-6">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
@@ -75,7 +77,7 @@
 								</tr>
 								<tr>
 									<td><button type="button" id="7" class="so btn btn-outline-info">▶</button></td>
-									<td><div class="input-group">
+									<td><div class="ant" id="ant-7"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Die Zahnbürste und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-7">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
@@ -145,32 +147,62 @@
 					b = b.replace(/ /gi, "");
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
 					if(a == b) {
 						$(this).addClass("text-white text-weight-bold");
 						$(this).addClass("bg-success");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 					} else {
 						$(this).addClass("text-white text-weight-bold");
 						$(this).addClass("bg-danger");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
 						$(this).removeClass("text-white text-weight-bold");
 					}
+					if($(this).val()) {
+						$("#ant-"+$(this).attr("id").substr(4)).show();
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					} else {
+						$("#ant-"+$(this).attr("id").substr(4)).hide();
+					}
+				})
+
+				$(".q").on("focusin", function() {
+					$("#ant-"+$(this).attr("id").substr(4)).show();
+					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					}
 				})
 
 				$(".q").on("focusout", function() {
+					$("#ant-"+$(this).attr("id").substr(4)).hide();
 					var qn = ($(this).attr("id").substr(4))-1;
 					var a = an[qn];
 					var b = $(this).val();
 
 					if(a == b) {
 						$(this).addClass("bg-success");
+						
+						if(b.substr(0,5) == "aus d") {
+							$("td").each(function() {
+								if($(this).text().trim() == b.substr(8).trim()) {
+									$(this).addClass("text-dark bg-warning");
+								}
+							})
+						} else {
+							$("td").each(function() {
+								if($(this).text() == b.substr(4)) {
+									$(this).addClass("text-dark bg-warning");
+								}
+							})
+						}
+							
 						$(this).prop("disabled",true);
-						$("#qst-"+(qn+1)).val(an[qn]+" passen zusammen");
 						$(this).addClass("text-weight-bold");
-						$(this).closest("tr").find(".tran").show();
-						$(this).closest("tr").find(".ant").show();
 
 					} else {
 						$(this).addClass("bg-danger");
@@ -188,9 +220,6 @@
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
 
-					if($("input:disabled").length == $(".q").length) {
-						$("input:disabled").addClass("bg-success text-white");
-					}
 				})
 
 

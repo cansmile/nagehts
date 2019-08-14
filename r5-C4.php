@@ -52,6 +52,8 @@
 								</tr>
 							</tbody>
 						</table>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -61,8 +63,8 @@
 								<tr>
 									<td><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
 									<td><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Er trinkt eine </span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-1">
+											<div class="input-group-prepend"><span class="input-group-text">Er trinkt </span></div>
+											<input type="text" class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q" aria-label="." id="qst-1">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
 										</div><span class="tran"><br><small>그는 우유 한 병을 마신다.</small></span></td>
 								</tr>
@@ -70,15 +72,21 @@
 									<td><button type="button" id="3" class="so btn btn-outline-success">▶</button></td>
 									<td><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Mittags isst er einen </span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-2">
+											<input type="text" class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q" aria-label="." id="qst-2">
 											<div class="input-group-append"><span class="input-group-text">und trinkt eine Cola.</span></div>
 										</div><span class="tran"><br><small>점심엔 햄버거와 콜라 한 잔을 마신다.</small></span></td>
 								</tr>
+							</tbody>
+						</table>
+					</div>
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+						<table class="table">
+							<tbody>
 								<tr>
 									<td><button type="button" id="4" class="so btn btn-outline-info">▶</button></td>
 									<td><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Nachmittags isst er Pommes und ein </span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-3">
+											<input type="text" class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q" aria-label="." id="qst-3">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
 										</div><span class="tran"><br><small>오후엔 감자튀김과 아이스크림을 먹는다.</small></span></td>
 								</tr>
@@ -86,14 +94,14 @@
 									<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
 									<td><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Abends isst er eine </span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-4">
+											<input type="text" class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q" aria-label="." id="qst-4">
 										</div><span class="tran"><br><small>저녁엔 피자를 먹고</small></span></td>
 								</tr>
 								<tr>
 									<td><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
 									<td><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">und trinkt eine </span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-5">
+											<input type="text" class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q" aria-label="." id="qst-5">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
 										</div><span class="tran"><br><small>콜라 한 캔을 마신다.</small></span></td>
 								</tr>
@@ -101,7 +109,13 @@
 						</table>
 					</div>
 				</div>
-
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
 			</div>
 		</section>
 		
@@ -123,7 +137,7 @@
 			$(".ant").hide();
 
 			var an = new Array();
-			var an = ["Flasche Milch","Hamburger","Eis","Pizza","Dose Cola"];
+			var an = ["eine Flasche Milch","Hamburger","Eis","Pizza","Dose Cola"];
 
 			$(document).ready(function() {
 				$(".q").on("keyup", function () {
@@ -308,7 +322,56 @@
 					};
 				};
 			});
+				$("#chk").on("click", function() {
+					var na = "";
+					var ri = 0;
+					var qst = $(".q").length;
+					$(".q").each(function () {
+						if(na != "") {
+							na += ", ";
+						}
+						if($(this).val() == "") {
+							na += $(this).attr("id").substr(4,1);
+						}
+					})
+					
+					if($(this).attr("id") == "done") {} else if(na == "") {
+						for(var i = 0; i < an.length; i++) {
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
+							var oran = $("#qst-"+(i+1)).val();
+							if(oan == nan) {
+								$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if($("#qst-"+(i+1)).val() != an[i]) {
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								}
+								ri++;
+							} else {
+								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							}
+						}
 
+					if (ri < (qst/2)) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
+						$(this).addClass("bg-danger text-white");
+					} else if(ri == qst) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("bg-primary text-white");
+					} else {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("bg-warning text-white");
+					}
+
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					$(this).attr("id","done");
+					} else {
+						alert("모든 문제를 풀어주세요!");
+						// alert(na+"번 문제를 풀어주세요!");
+					};
+				})
 		$("#0").show();
 		$(".alert").hide();
 		}

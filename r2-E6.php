@@ -117,6 +117,14 @@
 						</table>
 					</div>
 				</div>
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
+
 				<div class="row text-center">
 				<div class="col"></div>
 				<div class="col-sm-9 col-md-8 col-lg-7 col-xl-10">
@@ -263,6 +271,55 @@
 					}
 				})
 
+				$("#chk").on("click", function() {
+					var na = "";
+					var ri = 0;
+					var qst = $(".q").length;
+					$(".q").each(function () {
+						if(na != "") {
+							na += ", ";
+						}
+						if($(this).val() == "") {
+							na += $(this).attr("id").substr(4,1);
+						}
+					})
+					
+					if($(this).attr("id") == "done") {} else if(na == "") {
+						for(var i = 0; i < an.length; i++) {
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
+							var oran = $("#qst-"+(i+1)).val();
+							if(oan == nan) {
+								$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if($("#qst-"+(i+1)).val() != an[i]) {
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								}
+								ri++;
+							} else {
+								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							}
+						}
+
+					if (ri < (qst/2)) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
+						$(this).addClass("bg-danger text-white");
+					} else if(ri == qst) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("bg-primary text-white");
+					} else {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("bg-warning text-white");
+					}
+
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					$(this).attr("id","done");
+					} else {
+						alert(na+"번 문제를 풀어주세요!");
+					};
+				})
 				$("#qst-1").val(an[0]);
 				$("#qst-1").prop("disabled",true);
 				$("#qst-1").closest("tr").find(".tran").show();

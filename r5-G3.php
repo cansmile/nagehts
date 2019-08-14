@@ -1,266 +1,143 @@
-<?php include "header.php"; ?>
+d<?php include "header.php"; ?>
 	<body>
-		<style>
-			.itm-lst>button:after {content: ".";}
-			.itm-lst>button {word-break: keep-all;}
-		</style>
 <?php include "nav.php"; ?>
-<section>
-	<div class="container">
-					<!-- 고르는 아이템들 -->
-		<div class="row">
-			<div class="col-lg-12 mb-4 mt-2 text-center">
-				<h2>[ <small>단어를 선택하고 알맞은 그림 아래의 노란 단추를 누르세요.</small> ]</h2>
-			</div>
-		</div>
-	<div class="row">
-		<div class="col">
-			<table class="table">
-				<tr>
-					<td rowspan="3" class="border-0">&nbsp;</td>
-					<td class="text-right border border-secondary border-left-0 border-top-0 border-bottom-0">isst</td>
-					<td class="border-0">gern</td>
-					<td rowspan="3" class="text-center align-middle border border-secondary border-left-0 border-top-0 border-bottom-0"><img src="./images/Reihe 5/Reihe-5-G3-1.png" alt="Face" style="max-width: 120px; height: auto;"></td>
-					<td rowspan="3" class="text-center align-middle border-0"><img src="./images/Reihe 5/Reihe-5-G3-2.png" alt="Face" style="max-width: 120px; height: auto;"></td>
-					<td class="border border-secondary border-top-0 border-bottom-0 border-left-0 text-right">mag</td>
-					<td class="border-0">keinen</td>
-				</tr>
-				<tr>
-					<td class="text-right border border-secondary border-left-0 border-top-0 border-bottom-0">trinkt</td>
-					<td class="border-0">&nbsp;</td>
-					<td class="border border-secondary border-left-0 border-top-0 border-bottom-0">&nbsp;</td>
-					<td class="border-0">keine</td>
-				</tr>
-				<tr>
-					<td class="border border-secondary border-left-0 border-top-0 border-bottom-0">&nbsp;</td>
-					<td class="border-0">&nbsp;</td>
-					<td class="border border-secondary border-left-0 border-top-0 border-bottom-0">&nbsp;</td>
-					<td class="border-0">kein</td>
-				</tr>
-				<tr>
-					<td class="border-0">Tim</td>
-					<td colspan="3" class="text-center border border-secondary border-top-0 border-bottom-0 border-left-0">Hamburger, Pizza, Cola</td>
-					<td colspan="3" class="text-center border-0">Salat, Käse, Bier</td>
-				</tr>
-				<tr>
-					<td class="border-0">Monika</td>
-					<td colspan="3" class="text-center border border-secondary border-top-0 border-bottom-0 border-left-0">Obst, Marmeladenbrot, Wein</td>
-					<td colspan="3" class="text-center border-0">Eis, Wurst, Bier</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-		<div class="row">
-			<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-				<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark text-success itm" id="1">
-					Hamburger
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark text-success itm" id="2">
-					Pizza
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans7 btn-sm btn-outline-dark text-success itm" id="3">
-					Cola
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark text-success itm" id="4">
-					Obst
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark text-success itm" id="5">
-					Marmeladenbrot
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans6 btn-sm btn-outline-dark text-success itm" id="6">
-					Wein
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark text-success itm" id="7">
-					
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans8 btn-sm btn-outline-dark text-success itm" id="8">
-					
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark text-success itm" id="9">
-					
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark text-success itm" id="10">
-					
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark text-success itm" id="11">
-					
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark text-success itm" id="12">
-					
-				</button>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="3"><span class="tran"><small>와인이</small><br></span>Der Wein ist</th>
-							<td><span class="tran"><small>셔요.</small><br></span>sauer.</td>
-						</tr>
-						<tr>
-							<td><span class="tran"><small>달아요.</small><br></span>süß.</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="itm-lst 1itm" id="lst-1">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="3"><span class="tran"><small>빵이</small><br></span>Das Brot ist</th>
-							<td><span class="tran"><small>오래됐어요.</small><br></span>alt.</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="itm-lst 1itm" id="lst-2">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="itm-lst 1itm" id="lst-2">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="3"><span class="tran"><small>고기가</small><br></span>Das Fleisch ist</th>
-							<td><span class="tran"><small>너무 기름져요.</small><br></span>zu fettig.</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="itm-lst 1itm" id="lst-3">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td><span class="tran"><small>말랐어요.</small><br></span>trocken.</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>맥주가</small><br></span>Das Bier ist</th>
-							<td>
-								<div class="itm-lst 1itm" id="lst-4">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td><span class="tran"><small>따뜻해요.</small><br></span>warm.</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>스프가</small><br></span>Die Suppe ist</th>
-							<td>
-								<div class="itm-lst 1itm" id="lst-5">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td><span class="tran"><small>너무 매워요</small><br></span>zu scharf.</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>소스가</small><br></span>Die Soße ist</th>
-							<td><span class="tran"><small>짜요</small><br></span>salzig.</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="itm-lst 1itm" id="lst-6">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>레몬에이드가</small><br></span>Die Limo ist</th>
-							<td><span class="tran"><small>미지근해요.</small><br></span>warm.</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="itm-lst 1itm" id="lst-7">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
-				<table class="table">
-					<tbody>
-						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>샐러드가</small><br></span>Der Salat ist</th>
-							<td><span class="tran"><small>짜요.</small><br></span>salzig.</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="itm-lst 1itm" id="lst-8">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-<!-- 정답화인 버튼 시작 -->
-		<div class="row">
-			<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-				정답확인
-			</div>
-		</div>
-	<!-- 정답확인 버튼 끝 -->
-	</div>
-</section>
-		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<table class="table">
+							<tr>
+								<td rowspan="3" class="border-0">&nbsp;</td>
+								<td class="text-right border border-secondary border-left-0 border-top-0 border-bottom-0">isst</td>
+								<td class="border-0">gern</td>
+								<td rowspan="3" class="text-center align-middle border border-secondary border-left-0 border-top-0 border-bottom-0"><img src="./images/Reihe 5/Reihe-5-G3-1.png" alt="Face" style="max-width: 120px; height: auto;"></td>
+								<td rowspan="3" class="text-center align-middle border-0"><img src="./images/Reihe 5/Reihe-5-G3-2.png" alt="Face" style="max-width: 120px; height: auto;"></td>
+								<td class="border border-secondary border-top-0 border-bottom-0 border-left-0 text-right">mag</td>
+								<td class="border-0">keinen</td>
+							</tr>
+							<tr>
+								<td class="text-right border border-secondary border-left-0 border-top-0 border-bottom-0">trinkt</td>
+								<td class="border-0">&nbsp;</td>
+								<td class="border border-secondary border-left-0 border-top-0 border-bottom-0">&nbsp;</td>
+								<td class="border-0">keine</td>
+							</tr>
+							<tr>
+								<td class="border border-secondary border-left-0 border-top-0 border-bottom-0">&nbsp;</td>
+								<td class="border-0">&nbsp;</td>
+								<td class="border border-secondary border-left-0 border-top-0 border-bottom-0">&nbsp;</td>
+								<td class="border-0">kein</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0 bg-warning">Tim</th>
+								<td colspan="3" class="text-center border border-secondary border-top-0 border-bottom-0 border-left-0 bg-warning">Hamburger, Cola</td>
+								<td colspan="3" class="text-center border-0 bg-warning">Käse</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0 bg-warning">Monika</th>
+								<td colspan="3" class="text-center border border-secondary border-top-0 border-bottom-0 border-left-0 bg-warning">Marmeladenbrot, Wein</td>
+								<td colspan="3" class="text-center border-0 bg-warning">Bier</td>
+							</tr>
+						</table>
+					</div>					
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+						<table class="table">
+							<tbody>
+								<tr>
+									<th scope="row" class="text-center align-middle" rowspan="3" width="10em">Tim</th>
+									<td>
+										<div id="ant-1"></div>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad9">Er isst gern </span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control col-4 q" id="qst-1">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">.</span></div>
+										</div>
+										<span class="tran">그는 햄버거 먹기를 좋아합니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div id="ant-2"></div>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">und trinkt gern </span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control col-4 q" id="qst-2">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">.</span></div>
+										</div>
+										<span class="tran">그리고 콜라 마시기를 좋아합니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div id="ant-3"></div>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Aber er mag keinen </span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control col-4 q" id="qst-3">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad3">.</span></div>
+										</div>
+										<span class="tran">하지만 치즈는 좋아하지 않습니다.</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+						<table class="table">
+							<tbody>
 
+								<tr>
+									<th scope="row" class="text-center align-middle" rowspan="3" width="10em">Monika</th>
+									<td>
+										<div id="ant-4"></div>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Sie isst gern </span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control col-4 q" id="qst-4">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">.</span></div>
+										</div>
+										<span class="tran">그녀는 잼 바른 빵 먹는 것을 좋아합니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div id="ant-5"></div>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">und trinkt gern </span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control col-4 q" id="qst-5">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad5">.</span></div>
+										</div>
+										<span class="tran">그리고 와인 마시기를 좋아합니다.</span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div id="ant-6"></div>
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">Aber sie mag kein </span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control col-4 q" id="qst-6">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">.</span></div>
+										</div>
+										<span class="tran">하지만 맥주는 좋아하지 않습니다.</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
+		</div>
+	</section>
+		
+<!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
+<!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 <?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -269,61 +146,159 @@
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
 		<script src="./js/taptogroup.js"></script>
-		<!-- interact.min.js -->
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$(".ant").hide();
+			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
+			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
+			var an = new Array();
+			var an = ["Hamburger","Cola","Käse","Marmeladenbrot","Wein","Bier"];
 
 			$(document).ready(function() {
-				ion.sound({
-					sounds : [{
-						name : "Bama_Country_Country",
-					}, {
-						name : "Cartoon_Boing",
-					}],
-					path : "sounds/",
-					preload : true,
-					volume : 1.0,
-					multiplay: false,
+				$(".q").on("keyup", function () {
+					var q = $(this).val().length;
+					var qn = ($(this).attr("id").substr(4))-1;
+					var a = $(this).val();
+					var b = an[qn].substr(0,q);
+					a = a.replace(/ /gi, "");
+					b = b.replace(/ /gi, "");
+					$(this).removeClass("bg-danger");
+					$(this).removeClass("bg-success");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
+					if(a == b) {
+						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("bg-success");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+					} else {
+						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("bg-danger");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+					}
+					if(!$(this).val()) {
+						$(this).removeClass("bg-danger");
+						$(this).removeClass("bg-success");
+						$(this).removeClass("text-white text-weight-bold");
+					}
+					if($(this).val()) {
+						$("#ant-"+$(this).attr("id").substr(4)).show();
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					} else {
+						$("#ant-"+$(this).attr("id").substr(4)).hide();
+					}
+				})
+
+				$(".q").on("focusin", function() {
+					var q = $(this).val().length;
+					var qn = ($(this).attr("id").substr(4))-1;
+					var a = $(this).val();
+					var b = an[qn].substr(0,q);
+					a = a.replace(/ /gi, "");
+					b = b.replace(/ /gi, "");
+
+					$("#ant-"+$(this).attr("id").substr(4)).show();
+					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					}
+					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
+						if(a == b) {
+							$(this).addClass("text-white text-weight-bold");
+							$(this).addClass("bg-success");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+						} else {
+							$(this).addClass("text-white text-weight-bold");
+							$(this).addClass("bg-danger");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+						}
+					}
+				})
+
+				$(".q").on("focusout", function() {
+					$("#ant-"+$(this).attr("id").substr(4)).hide();
+					var qn = ($(this).attr("id").substr(4))-1;
+					var a = an[qn];
+					var b = $(this).val();
+
+					if(a == b) {
+						$(this).addClass("bg-success");
+					} else {
+						$(this).addClass("bg-danger");
+					}
+					if($(this).val()) {
+						if($(this).hasClass("bg-danger")) {
+							ion.sound.play("Cartoon_Boing");
+						} else if($(this).hasClass("bg-success")){
+							ion.sound.play("Bama_Country_Country");
+							$(this).prop("disabled",true);
+						}
+					}
+
+					$(this).removeClass("text-white text-weight-bold");
+					$(this).removeClass("bg-danger");
+					$(this).removeClass("bg-success");
+
+
+
+				})
+
+				$("#chk").on("click", function() {
+					var na = "";
+					var ri = 0;
+					var qst = $(".q").length;
+					$(".q").each(function () {
+						if(na != "") {
+							na += ", ";
+						}
+						if($(this).val() == "") {
+							na += $(this).attr("id").substr(4,1);
+						}
+					})
 					
-					ready_callback: function () {
-						
-				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
-				});
+					if($(this).attr("id") == "done") {} else if(na == "") {
+						for(var i = 0; i < an.length; i++) {
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
+							var oran = $("#qst-"+(i+1)).val();
+							if(oan == nan) {
+								$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if($("#qst-"+(i+1)).val() != an[i]) {
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								}
+								ri++;
+							} else {
+								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							}
+						}
 
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
+					if (ri < (qst/2)) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
+						$(this).addClass("bg-danger text-white");
+					} else if(ri == qst) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("bg-primary text-white");
+					} else {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("bg-warning text-dark");
+					}
 
-				$("[data-toggle='popover']").popover({
-					delay : {
-						'hide' : 1000
-					},
-					container : "body"
-				});
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					$(this).attr("id","done");
+					} else {
+						alert("모든 문제를 풀어주세요!");
+						// alert(na+"번 문제를 풀어주세요!");
+					};
+				})
+				// $("#qst-2").val(an[1]);
+				// $("#qst-2").prop("disabled",true);
+				// $("#qst-2").closest("tr").find(".tran").show();
+
+
+			});
 			
-				
-
-		}
-	});
-	
-// 정답확인
-	$("#chk").on("click", function() {
-		var na = "";
-		if($("#itms").find("button").length < 1) {
-			$(".tran").show();
-
-			$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-			$(this).removeClass("btn-light");
-			$(this).addClass("btn-primary");
-			$(".btn-lg").text().appendTo($(this).closest("td"));
-			$(".btn-lg").remove();
-		} else {
-			alert("모든 문제를 풀어주세요!");
-		}
-	});
-});
 		</script>
 		<!-- ion.sound finished -->
 	</body>

@@ -270,19 +270,6 @@
 					if(a == b) {
 						$(this).addClass("bg-success");
 						
-						if(b.substr(0,5) == "aus d") {
-							$("td").each(function() {
-								if($(this).text().trim() == b.substr(8).trim()) {
-									$(this).addClass("text-dark bg-warning");
-								}
-							})
-						} else {
-							$("td").each(function() {
-								if($(this).text() == b.substr(4)) {
-									$(this).addClass("text-dark bg-warning");
-								}
-							})
-						}
 							
 						$(this).prop("disabled",true);
 						$(this).addClass("text-weight-bold");

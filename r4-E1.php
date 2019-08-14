@@ -12,40 +12,40 @@
 			<div class="row">
 				<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12 so" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-						Bleistift
+						Bleistift<span class="tran">&nbsp;<small>연필</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
-						Uhr
+						Uhr<span class="tran">&nbsp;<small>시계</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
-						Buch
+						Buch<span class="tran">&nbsp;<small>책</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
-						Laptop
+						Laptop<span class="tran">&nbsp;<small>노트북</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="5">
-						Bibel
+						Bibel<span class="tran">&nbsp;<small>성경</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
-						Brille
+						Brille<span class="tran">&nbsp;<small>안경</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
-						Ledersofa
+						Ledersofa<span class="tran">&nbsp;<small>가죽구두</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
-						Kopfhörer
+						Kopfhörer<span class="tran">&nbsp;<small>헤드폰</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="9">
-						Bett
+						Bett<span class="tran">&nbsp;<small>침대</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="10">
-						Kühlschrank
+						Kühlschrank<span class="tran">&nbsp;<small>냉장고</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="11">
-						Smartphone
+						Smartphone<span class="tran">&nbsp;<small>스마트폰</small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="12">
-						Lampe
+						Lampe<span class="tran">&nbsp;<small>등불</small>
 					</button>
 				</div>
 			</div>
@@ -67,6 +67,14 @@
 			</div>
 		</div>
 		<!-- 리스트 끝 -->
+
+		<!-- 정답화인 버튼 시작 -->
+		<div class="row">
+			<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+				정답확인
+			</div>
+		</div>
+		<!-- 정답확인 버튼 끝 -->
 	</section>
 
 <?php include "footer.php"; ?>
@@ -79,6 +87,7 @@
 		<!-- ion.sound -->
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
+			$(".tran").hide();
 			$(document).ready(function() {
 
 				ion.sound({
@@ -91,6 +100,27 @@
 					multiplay : false					
 				});
 
+			$("#chk").on("click", function() {
+				var na = "";
+				if($("#itms").find("button").length < 1) {
+					$(".tran").show();
+
+					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).removeClass("btn-light");
+					$(this).addClass("btn-primary");
+				} else {
+					$("div.itm-lst").each(function(idx) {
+						if(!$(this).find("button").length) {
+							if(na != "") {
+								na += ", ";
+							}
+							na += (idx+1);
+						}
+					});
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
+				}
+			});
 				// 미리 답 넣어놓기
 				$("#1").insertAfter("#lst-1>h2");
 				$(".itm-lst>button").addClass("btn-block btn-light");

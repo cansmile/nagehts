@@ -21,22 +21,22 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="1">
-							Südamerika
+							Südamerika<span class="tran"><br><small>남미</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="2">
-							Nordamerika
+							Nordamerika<span class="tran"><br><small>북미</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="3">
-							Asien
+							Asien<span class="tran"><br><small>아시아</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="4">
-							Australien
+							Australien<span class="tran"><br><small>호주</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="5">
-							Afrika
+							Afrika<span class="tran"><br><small>아프리카</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="6">
-							Europa
+							Europa<span class="tran"><br><small>유럽</small></span>
 						</button>
 					</div>
 				</div>
@@ -101,7 +101,13 @@
 					</div>
 					<div class="col"></div>
 				</div>
-
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
 			</div>
 		</section>
 		
@@ -115,7 +121,35 @@
 		<script src="./js/bootstrap.js"></script>
 		<script src="./js/taptogroup.js"></script>
 		<script src="./js/ion.sound.min.js"></script>
-		<script></script>
+		<script>
+			$(".tran").hide();
+			// 정답확인
+			$("#chk").on("click", function() {
+				var na = "";
+				if($("#itms").find("button").length < 1) {
+					$(".tran").show();
+					$(".itm-lst").each(function() {
+						$(this).html($(this).find("button").html());
+						$(this).addClass("font-weight-bold bg-white border rounded border-dark");
+					})
+
+					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).removeClass("btn-light");
+					$(this).addClass("btn-primary");
+				} else {
+					$("div.itm-lst").each(function(idx) {
+						if(!$(this).find("button").length) {
+							if(na != "") {
+								na += ", ";
+							}
+							na += (idx+1);
+						}
+					});
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
+				}
+			});
+		</script>
 		<!-- ion.sound finished -->
 	</body>
 </html>

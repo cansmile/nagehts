@@ -4,6 +4,13 @@
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
+<style>
+	td,th {
+		height: 80px;
+		text-align: center;
+		vertical-align: middle;
+	}
+</style>
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -66,7 +73,7 @@
 									<td>
 										<button type="button" id="10" class="so btn btn-outline-primary">▶</button>
 									</td>
-									<td>Verkäufer <span class="tran"><br>&nbsp;(남)점원</span></td>
+									<td>Verkäufer <span class="tran"><small><br>&nbsp;(남)점원</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -77,7 +84,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;웨이터</span></td>
+									 <span class="tran"><small>&nbsp;웨이터</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -88,13 +95,13 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(남)선생님</span></td>
+									 <span class="tran"><small>&nbsp;(남)선생님</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="16" class="so btn btn-outline-primary">▶</button>
 									</td>
-									<td>Architekt <span class="tran"><br>(남)건축가&nbsp;</span></td>
+									<td>Architekt <span class="tran"><small><br>(남)건축가&nbsp;</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -105,13 +112,13 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(남)의사</span></td>
+									 <span class="tran"><small>&nbsp;(남)의사</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="20" class="so btn btn-outline-primary">▶</button>
 									</td>
-									<td>Taxifahrer <span class="tran"><br>&nbsp;(남)택시기사</span></td>
+									<td>Taxifahrer <span class="tran"><small><br>&nbsp;(남)택시기사</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -122,7 +129,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(남)미용사</span></td>
+									 <span class="tran"><small>&nbsp;(남)미용사</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -133,13 +140,13 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(남)비서</span></td>
+									 <span class="tran"><small>&nbsp;(남)비서</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="26" class="so btn btn-outline-primary">▶</button>
 									</td>
-									<td>Ingenieur <span class="tran"><br>&nbsp;(남)기술자</span></td>
+									<td>Ingenieur <span class="tran"><small><br>&nbsp;(남)기술자</small></span></td>
 								</tr>
 							</tbody>
 						</table>
@@ -161,19 +168,19 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(여)점원</span></td>
+									 <span class="tran"><small>&nbsp;(여)점원</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="13" class="so btn btn-outline-danger">▶</button>
 									</td>
-									<td>Kellnerin <span class="tran"><br>&nbsp;웨이트리스</span></td>
+									<td>Kellnerin <span class="tran"><small><br>&nbsp;웨이트리스</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="15" class="so btn btn-outline-danger">▶</button>
 									</td>
-									<td>Lehrerin <span class="tran"><br>&nbsp;(여)선생님</span></td>
+									<td>Lehrerin <span class="tran"><small><br>&nbsp;(여)선생님</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -184,13 +191,13 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(여)건축가</span></td>
+									 <span class="tran"><small>&nbsp;(여)건축가</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="19" class="so btn btn-outline-danger">▶</button>
 									</td>
-									<td>Ärztin <span class="tran"><br>&nbsp;(여)의사</span></td>
+									<td>Ärztin <span class="tran"><small><br>&nbsp;(여)의사</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -201,19 +208,19 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(여)택시기사</span></td>
+									 <span class="tran"><small>&nbsp;(여)택시기사</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="23" class="so btn btn-outline-danger">▶</button>
 									</td>
-									<td>Friseurin <span class="tran"><br>&nbsp;(여)미용사</span></td>
+									<td>Friseurin <span class="tran"><small><br>&nbsp;(여)미용사</small></span></td>
 								</tr>
 								<tr>
 									<td>
 										<button type="button" id="25" class="so btn btn-outline-danger">▶</button>
 									</td>
-									<td>Sekretärin <span class="tran"><br>&nbsp;(여)비서</span></td>
+									<td>Sekretärin <span class="tran"><small><br>&nbsp;(여)비서</small></span></td>
 								</tr>
 								<tr>
 									<td>
@@ -224,7 +231,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-									 <span class="tran">&nbsp;(여)기술자</span></td>
+									 <span class="tran"><small>&nbsp;(여)기술자</small></span></td>
 								</tr>
 							</tbody>
 						</table>
@@ -464,7 +471,10 @@
 				var na = "";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-
+					$(".itm-lst").each(function() {
+						$(this).html($(this).find("button").html());
+						$(this).addClass("font-weight-bold");
+					})
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");

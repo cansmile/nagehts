@@ -11,22 +11,16 @@ d<?php include "header.php"; ?>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 mb-4 mt-2 text-center">
+					<div class="col-12 text-center font-weight-bold"><span class="wd">heißen</span><span class="wd">machen</span><span class="wd">studieren</span><span class="wd">arbeiten</span><span class="wd">sein</span></div>
+					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4 mt-2 text-center">
 						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col">
-										<div class="my-1 text-center"><span class="wd">heißen</span><span class="wd">machen</span><span class="wd">studieren</span><span class="wd">arbeiten</span><span class="wd">sein</span></div>
-									</th>
-								</tr>
-							</thead>
 							<tbody>
 								<tr>
 									<th scope="row">
 										<div class="ant" id="ant-1"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Wie</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-1">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control col-2 q" id="qst-1">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">Sie?</span></div>
 										</div>
 										<span class="tran"><small>당신의 이름은 무엇인가요?</small></span>
@@ -38,7 +32,7 @@ d<?php include "header.php"; ?>
 										<div class="ant" id="ant-2"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control q" id="qst-2">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control col-2 q" id="qst-2">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad2"> Tim Schulz.</span></div>
 										</div>
 										<span class="tran"><small>나는 팀 슐츠에요.</small></span>
@@ -50,7 +44,7 @@ d<?php include "header.php"; ?>
 										<div class="ant" id="ant-3"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Und was </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control q" id="qst-3">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control col-2 q" id="qst-3">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad3"> Sie beruflich?</span></div>
 										</div>
 										<span class="tran"><small>그리고 당신은 무슨 일을 하나요?</small></span>
@@ -62,18 +56,24 @@ d<?php include "header.php"; ?>
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q" id="qst-4">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control col-2 q" id="qst-4">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad4"> Student.</span></div>
 										</div>
 										<span class="tran"><small>저는 학생이에요.</small></span>
 									</th>
 								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4 mt-2 text-center">
+						<table class="table">
+							<tbody>
 								<tr>
 									<th scope="row">
 										<div class="ant" id="ant-5"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">und</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control q" id="qst-5">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control col-2 q" id="qst-5">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad5"> Theologie.</span></div>
 										</div>
 										<span class="tran"><small>그리고 신학을 공부해요.</small></span>
@@ -85,18 +85,18 @@ d<?php include "header.php"; ?>
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">Wie alt </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control q" id="qst-6">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control col-2 q" id="qst-6">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">Sie?</span></div>
 										</div>
 										<span class="tran"><small>당신은 몇 살인가요?</small></span>
 									</th>
 								</tr>
 								<tr>
-									<th scope="row">
+									<th scope="row" colspan="2">
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad7">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q" id="qst-7">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control col-2 q" id="qst-7">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad7">20 Jahre alt.</span></div>
 										</div>
 										<span class="tran"><small>저는 20살이에요.</small></span>
@@ -234,25 +234,21 @@ d<?php include "header.php"; ?>
 						}
 					})
 					
-					if(na == "") {
+					if($(this).attr("id") == "done") {} else if(na == "") {
 						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(/ /gi, "").toLowerCase();
-							var nan = $("#qst-"+(i+1)).val().replace(/ /gi, "").toLowerCase();
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
 							var oran = $("#qst-"+(i+1)).val();
 							if(oan == nan) {
 								$("#qst-"+(i+1)).addClass("bg-success text-white");
 								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]+"<br><small class=\"text-dark\">"+ant[i]+"</small></span>");
-									$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-danger\">"+oran+"</span>");
-									$("#qst-"+(i+1)).hide();
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 								}
 								ri++;
-								$(".tran").show();
 							} else {
 								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]+"<br><small class=\"text-dark\">"+ant[i]+"</small></span>");
-								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-danger\">"+oran+"</span>");
-								$("#qst-"+(i+1)).hide();
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 							}
 						}
 
@@ -264,11 +260,12 @@ d<?php include "header.php"; ?>
 						$(this).addClass("bg-primary text-white");
 					} else {
 						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
+						$(this).addClass("bg-warning text-white");
 					}
 
 					$(this).prop("disabled", true);
 					$(".tran").show();
+					$(this).attr("id","done");
 					} else {
 						alert("모든 문제를 풀어주세요!");
 						// alert(na+"번 문제를 풀어주세요!");

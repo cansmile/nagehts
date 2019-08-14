@@ -93,31 +93,31 @@
 									<td><img src="./images/Reihe 3/Reihe-3-D4-7.png" alt="7" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-1">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-2">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-3">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-4">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-5">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -164,31 +164,31 @@
 									<td><img src="./images/Reihe 3/Reihe-3-D4-4.png" alt="4" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-6">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-7">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-8">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-9">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
 									</td>
-									<td>
+									<td class="text-center">
 										<div class="itm-lst 1itm" id="lst-10">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -378,7 +378,10 @@
 				var na = "";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-
+					$(".itm-lst").each(function() {
+						$(this).html($(this).find("button").html());
+						$(this).addClass("font-weight-bold");
+					})
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");

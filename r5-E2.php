@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 col-md-4 col-lg-2 col-xl-2">
+					<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -53,7 +53,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-sm-4 col-md-4 col-lg-2 col-xl-2">
+					<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -73,7 +73,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-sm-4 col-md-4 col-lg-2 col-xl-2">
+					<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -93,7 +93,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-sm-4 col-md-4 col-lg-2 col-xl-2">
+					<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -113,7 +113,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-sm-4 col-md-4 col-lg-2 col-xl-2">
+					<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -133,7 +133,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-sm-4 col-md-4 col-lg-2 col-xl-2">
+					<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -232,7 +232,10 @@
 				var na = "";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-
+					$(".itm-lst").each(function() {
+						$(this).html($(this).find("button").html());
+						$(this).addClass("font-weight-bold bg-white border rounded border-dark");
+					})
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");

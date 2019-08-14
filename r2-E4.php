@@ -378,7 +378,7 @@
 									<td>
 										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">&lt; 10 &gt;&nbsp;
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-												<input type="radio" name="options" id="option10-1" autocomplete="off">Welche Spachen
+												<input type="radio" name="options" id="option10-1" autocomplete="off">Welche Sprachen
 											</div>
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option10-2" autocomplete="off">sprechen

@@ -29,7 +29,7 @@
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<table class="table table-light text-center">
 						<tr>
-							<td>Anna Müller wohnt in Berlin.<span class="tran">&nbsp;<small>안나 뮐러는 베를린에 산다.</small></span></td>
+							<td>Anna Müller wohnt in Berlin.<span class="tran">&nbsp;<br><small>안나 뮐러는 베를린에 산다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -42,7 +42,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>Max Fernández kommt aus Mexiko.<span class="tran">&nbsp;<small>막스 페르난데즈는 멕시코출신이다.</small></span></td>
+							<td>Max Fernández kommt aus Mexiko.<span class="tran">&nbsp;<br><small>막스 페르난데즈는 멕시코출신이다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -55,7 +55,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>Max Fernández wohnt in Berlin.<span class="tran">&nbsp;<small>막스 페르난데즈는 베를린에 산다.</small></span></td>
+							<td>Max Fernández wohnt in Berlin.<span class="tran">&nbsp;<br><small>막스 페르난데즈는 베를린에 산다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -68,7 +68,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>Anna Müllers Mutter wohnt in Dresden.<span class="tran">&nbsp;<small>안나 뮐러는 드레스덴에 산다.</small></span></td>
+							<td>Anna Müllers Mutter wohnt in Dresden.<span class="tran">&nbsp;<br><small>안나 뮐러는 드레스덴에 산다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -211,7 +211,8 @@
 						};
 					});
 
-					alert(na + "번 문제를 풀어주세요.");
+					alert("모든 문제를 풀어주세요.");
+					// alert(na + "번 문제를 풀어주세요.");
 				} else {
 					$(".tran").show();
 					$(".pop").each(function() {

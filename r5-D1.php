@@ -17,7 +17,7 @@
 						</button>
 						</h2>
 						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다. 음성을 듣고 정답을 입력하세요.</small> ]</h3>
-						<h3>[ <small>정답을 입력하면 입력이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
+						<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 					</div>
 				</div>
 				<div class="row">
@@ -46,7 +46,7 @@
 								</tr>
 								<tr>
 									<td><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
-									<td>Ich nehme ein Steak und trinke ein Bier.<span class="tran"><br><small>스테이크 하나와 맥주 한 잔이요.</small></span></td>
+									<td>Ich esse ein Steak und trinke ein Bier.<span class="tran"><br><small>스테이크 하나와 맥주 한 잔이요.</small></span></td>
 								</tr>
 							</tbody>
 						</table>
@@ -59,7 +59,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-1">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-1">
 											</div>
 									</td>
 									</tr>
@@ -68,7 +68,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-2">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-2">
 											</div>
 									</td>
 									</tr>
@@ -77,7 +77,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-3">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-3">
 											</div>
 									</td>
 									</tr>
@@ -86,7 +86,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-4">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-4">
 											</div>
 									</td>
 									</tr>
@@ -95,7 +95,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-5">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-5">
 											</div>
 									</td>
 									</tr>
@@ -104,7 +104,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-6">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-6">
 											</div>
 									</td>
 									</tr>
@@ -113,7 +113,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-7">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-7">
 											</div>
 									</td>
 									</tr>
@@ -128,7 +128,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-8">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-8">
 											</div>
 									</td>
 									</tr>
@@ -137,7 +137,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">nimm</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-9">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-9">
 											</div>
 									</td>
 									</tr>
@@ -146,7 +146,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-10">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-10">
 											</div>
 									</td>
 									</tr>
@@ -155,7 +155,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">nimm</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-11">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-11">
 											</div>
 									</td>
 									</tr>
@@ -164,7 +164,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-12">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-12">
 											</div>
 									</td>
 									</tr>
@@ -173,7 +173,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-13">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-13">
 											</div>
 									</td>
 									</tr>
@@ -182,7 +182,7 @@
 										<td>
 											<div class="input-group">
 												<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-												<input type="text" class="form-control q pl-0" aria-label="." id="qst-14">
+												<input type="text" class="form-control q pl-0 col-4" aria-label="." id="qst-14">
 											</div>
 									</td>
 									</tr>
@@ -190,6 +190,15 @@
 							</table>
 						</div>
 					</div>
+
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
+				
 					<div class="row">
 						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
 							<table class="table table-striped">
@@ -440,6 +449,57 @@
 					};
 				};
 			});
+
+				$("#chk").on("click", function() {
+					var na = "";
+					var ri = 0;
+					var qst = $(".q").length;
+					$(".q").each(function () {
+						if(na != "") {
+							na += ", ";
+						}
+						if($(this).val() == "") {
+							na += $(this).attr("id").substr(4,1);
+						}
+					})
+					
+					if($(this).attr("id") == "done") {} else if(na == "") {
+						for(var i = 0; i < an.length; i++) {
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
+							var oran = $("#qst-"+(i+1)).val();
+							if(oan == nan) {
+								$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if($("#qst-"+(i+1)).val() != an[i]) {
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								}
+								ri++;
+							} else {
+								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							}
+						}
+
+					if (ri < (qst/2)) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
+						$(this).addClass("bg-danger text-white");
+					} else if(ri == qst) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("bg-primary text-white");
+					} else {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("bg-warning text-white");
+					}
+
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					$(this).attr("id","done");
+					} else {
+						alert("모든 문제를 풀어주세요!");
+						// alert(na+"번 문제를 풀어주세요!");
+					};
+				})
 
 		$("#0").show();
 		$(".alert").hide();

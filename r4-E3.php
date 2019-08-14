@@ -29,7 +29,7 @@
 										<div id="ant-1"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Sie </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q" id="qst-1">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control col-2 q" id="qst-1">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">zwei Kinder.</span></div>
 										</div>
 										<span class="tran"><br>그녀는 두명의 아이가 있습니다.</span>
@@ -40,7 +40,7 @@
 										<div id="ant-2"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Sie </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q" id="qst-2">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control col-2 q" id="qst-2">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">Pfarrerin.</span></div>
 										</div>
 										<span class="tran"><br>그녀는 목사입니다.</span>
@@ -51,7 +51,7 @@
 										<div id="ant-3"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Ihr Mann Paul</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q" id="qst-3">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control col-2 q" id="qst-3">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad3">auch Pfarrer von Beruf.</span></div>
 										</div>
 										<span class="tran"><br>그녀의 남편 Paul 또한 목사입니다.</span>
@@ -63,7 +63,7 @@
 										<div id="ant-4"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Sabine und Achim</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q" id="qst-4">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control col-2 q" id="qst-4">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">nicht verheiratet.</span></div>
 										</div>
 										<span class="tran"><br>Sabine과 Achim은 결혼하지 않았습니다.</span>
@@ -78,7 +78,7 @@
 										<div id="ant-5"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">Sie</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q" id="qst-5">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control col-2 q" id="qst-5">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad5">noch keine Kinder,</span></div>
 										</div>
 										<span class="tran"><br>아이들은 아직 없지만</span>
@@ -117,7 +117,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["haben","ist","ist","sind","haben"];
+			var an = ["hat","ist","ist","sind","hat"];
 
 			function ch() {
 				$(".wd").removeClass("bg-warning text-dark");

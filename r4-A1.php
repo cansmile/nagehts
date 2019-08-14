@@ -17,7 +17,7 @@
 							❚❚
 						</button>
 						</h2>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼을 눌러 듣고 그림에 맞게 짝지우세요.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.</small> ]</h3>
 
 					</div>
 				</div>
@@ -25,25 +25,25 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="1">
-							das Apartment (das Hochhaus)
+							das Apartment (das Hochhaus)<span class="tran"><br><small>아파트</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="2">
-							das Einfamilienhaus
+							das Einfamilienhaus<span class="tran"><br><small>단독주택</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="3">
-							das Reihenhaus
+							das Reihenhaus<span class="tran"><br><small>연합주택</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="4">
-							der Bauernhof
+							der Bauernhof<span class="tran"><br><small>전원주택</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="5">
-							das Studentenwohnheim
+							das Studentenwohnheim<span class="tran"><br><small>기숙사</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
-							das Ökohaus
+							das Ökohaus<span class="tran"><br><small>에코하우스</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
-							das Schloss
+							das Schloss<span class="tran"><br><small>성</small></span>
 						</button>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 						<table class="table text-center align-middle">
 							<tbody>
 								<tr>
-									<td><img src="./images/Reihe 4/Reihe-4-A1-1.png" style="max-width:320px; height: auto;" class="so" id="8"></td>
+									<td><img src="./images/Reihe 4/Reihe-4-A1-1.png" style="max-width:240px; height: auto;" class="so" id="8"></td>
 								</tr>
 								<tr>
 									<td>
@@ -69,7 +69,7 @@
 						<table class="table text-center align-middle">
 							<tbody>
 								<tr>
-									<td><img src="./images/Reihe 4/Reihe-4-A1-2.png" style="max-width:320px; height: auto;" class="so" id="9"></td>
+									<td><img src="./images/Reihe 4/Reihe-4-A1-2.png" style="max-width:240px; height: auto;" class="so" id="9"></td>
 								</tr>
 								<tr>
 									<td>
@@ -86,7 +86,7 @@
 						<table class="table text-center align-middle">
 							<tbody>
 								<tr>
-									<td><img src="./images/Reihe 4/Reihe-4-A1-3.png" style="max-width:320px; height: auto;" class="so" id="10"></td>
+									<td><img src="./images/Reihe 4/Reihe-4-A1-3.png" style="max-width:240px; height: auto;" class="so" id="10"></td>
 								</tr>
 								<tr>
 									<td>
@@ -103,7 +103,7 @@
 						<table class="table text-center align-middle">
 							<tbody>
 								<tr>
-									<td><img src="./images/Reihe 4/Reihe-4-A1-4.png" style="max-width:320px; height: auto;" class="so" id="11"></td>
+									<td><img src="./images/Reihe 4/Reihe-4-A1-4.png" style="max-width:240px; height: auto;" class="so" id="11"></td>
 								</tr>
 								<tr>
 									<td>
@@ -137,7 +137,7 @@
 						<table class="table text-center align-middle">
 							<tbody>
 								<tr>
-									<td><img src="./images/Reihe 4/Reihe-4-A1-6.png" style="max-width:320px; height: auto;" class="so" id="13"></td>
+									<td><img src="./images/Reihe 4/Reihe-4-A1-6.png" style="max-width:240px; height: auto;" class="so" id="13"></td>
 								</tr>
 								<tr>
 									<td>
@@ -154,7 +154,7 @@
 						<table class="table text-center align-middle">
 							<tbody>
 								<tr>
-									<td><img src="./images/Reihe 4/Reihe-4-A1-7.png" style="max-width:320px; height: auto;" class="so" id="14"></td>
+									<td><img src="./images/Reihe 4/Reihe-4-A1-7.png" style="max-width:240px; height: auto;" class="so" id="14"></td>
 								</tr>
 								<tr>
 									<td>
@@ -255,22 +255,7 @@
 							}
 
 							if(hm[hmn] > 1) {
-								if(hmn == 17) {
-									for(j = 7; j <= 9; j++) {
-										$("#"+j).closest("tr").find(".tran").show();		
-									}
-								} else if(hmn == 18) {
-									for(j = 10; j <= 12; j++) {
-										$("#"+j).closest("tr").find(".tran").show();		
-									}
-								} else if(hmn == 19) {
-									for(j = 13; j <= 16; j++) {
-										$("#"+j).closest("tr").find(".tran").show();		
-									}
-								} else {
-									$("#"+hmn).closest("tr").find(".tran").show();									
-								}
-
+								$("#"+hmn).closest("button").find(".tran").show();
 							}
 
 
@@ -354,10 +339,10 @@
 				var na = "";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
+					$(".tran").show();
 				} else {
 					$("div.itm-lst").each(function(idx) {
 						if(!$(this).find("button").length) {
@@ -367,7 +352,8 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
 		$("#0").show();

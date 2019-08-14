@@ -59,7 +59,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-danger">▶</button></th>
-							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">①</span> <br><span class="tran">&nbsp;<small>나는 <strong>독일</strong>에서 왔어.</small></span></td>
+							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">①</span>. <br><span class="tran">&nbsp;<small>나는 <strong>독일</strong>에서 왔어.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -347,21 +347,20 @@
 			// 정답확인
 			$("#chk").on("click", function() {
 				var na = "";
-				if($("#itms").find("button").length < 1) {
-					$(".tran").show();
+				if(!$("#itms").find("button").length) {
 					$("span").each(function () {
 						if($(this).text() == "①") {
-							var iq = $("#lst-1").find("button").text();
+							var iq = $.trim($("#lst-1").find("button").text());
 						} else if($(this).text() == "②") {
-							var iq = $("#lst-2").find("button").text();
+							var iq = $.trim($("#lst-2").find("button").text());
 						} else if($(this).text() == "③") {
-							var iq = $("#lst-3").find("button").text();
+							var iq = $.trim($("#lst-3").find("button").text());
 						} else if($(this).text() == "④") {
-							var iq = $("#lst-4").find("button").text();
+							var iq = $.trim($("#lst-4").find("button").text());
 						} else if($(this).text() == "⑤") {
-							var iq = $("#lst-5").find("button").text();
+							var iq = $.trim($("#lst-5").find("button").text());
 						} else if($(this).text() == "⑥") {
-							var iq = $("#lst-6").find("button").text();
+							var iq = $.trim($("#lst-6").find("button").text());
 						}
 						$(this).text(iq);
 						$(this).removeClass("btn btn-outline-dark btn-sm");
@@ -372,6 +371,8 @@
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
+					$(".tran").show();
+					$(".itm-lst").hide();
 				} else {
 					$("div.itm-lst").each(function(idx) {
 						if(!$(this).find("button").length) {
@@ -381,7 +382,8 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
 		$("#0").show();

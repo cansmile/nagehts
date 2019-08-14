@@ -27,34 +27,34 @@
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="1">
 							Österreicher
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="2">
+						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="2">
 							Schweizerin
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="3">
+						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="3">
 							Amerikaner
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
 							Japanerin
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="5">
+						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="5">
 							Spanierin
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
 							Deutsch
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="7">
+						<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="7">
 							Spanisch
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="8">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="8">
 							Deutsch
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="9">
+						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="9">
 							Englisch
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="10">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="10">
 							Deutsch
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark so itm" id="11">
+						<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="11">
 							Italiener
 						</button>
 					</div>
@@ -134,7 +134,7 @@
 									<td>Österreicherin</td>
 									<td><button type="button" id="30" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-4">
+								<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -147,14 +147,14 @@
 									<td>Schweizer</td>
 									<td><button type="button" id="33" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-5">
+								<div class="itm-lst 1itm" id="lst-4">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
 							</td>
 									<td><button type="button" id="34" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-6">
+								<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -175,7 +175,7 @@
 									<th scope="row">Amerika</th>
 									<td><button type="button" id="40" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-7">
+								<div class="itm-lst 1itm" id="lst-5">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -184,7 +184,7 @@
 									<td>Amerikanerin</td>
 									<td><button type="button" id="42" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-8">
+								<div class="itm-lst 1itm" id="lst-6">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -197,14 +197,14 @@
 									<td>Spanier</td>
 									<td><button type="button" id="45" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-9">
+								<div class="itm-lst 1itm" id="lst-7">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
 							</td>
 									<td><button type="button" id="46" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-10">
+								<div class="itm-lst 1itm" id="lst-8">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -215,7 +215,7 @@
 									<th scope="row">Italien</th>
 									<td><button type="button" id="48" class="so btn btn-danger">▶</button></td>
 									<td>
-								<div class="itm-lst 1itm" id="lst-11">
+								<div class="itm-lst 1itm" id="lst-9">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -467,6 +467,10 @@
 				var na = "";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
+					$(".itm-lst").each(function() {
+						$(this).html($(this).find("button").text());
+						$(this).addClass("font-weight-bold");
+					})
 
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
@@ -480,7 +484,8 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
 		$("#0").show();

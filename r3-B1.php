@@ -24,26 +24,26 @@
 
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-							fünfzehn
+						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="1">
+							siebenundsechzig
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
-							neunzehn
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
+						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="2">
 							dreiundzwanzig
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="3">
+							neunzig
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="4">
 							fünfunddreißig
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="5">
-							siebenundsechzig
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="5">
+							neunzehn
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="6">
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="6">
+							fünfzehn
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="7">
 							achtzig
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="7">
-							neunzig
 						</button>
 					</div>
 				</div>
@@ -265,13 +265,13 @@
 
 						sprite : {
 							"0": [7,78],
-							"1": [25.8,1.5],
-							"2": [37.3,1.6],
-							"3": [50,1.9],
+							"1": [70.5,2.2],
+							"2": [50,1.9],
+							"3": [80,1.5],
 							"4": [56.2,1.8],
-							"5": [70.5,2.2],
-							"6": [76.8,1.6],
-							"7": [80,1.5],
+							"5": [37.3,1.6],
+							"6": [25.8,1.5],
+							"7": [76.8,1.6],
 							"11": [14.4,.8],
 							"12": [16.9,1.2],
 							"13": [20,1.2],
@@ -324,7 +324,7 @@
 							}
 
 						} else {
-							if(obj.part > 11) {
+							if(obj.part > 10) {
 								$("#"+obj.part).html("▶");
 							}
 
@@ -428,7 +428,10 @@
 				var na = "";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-
+					$(".itm-lst").each(function() {
+						$(this).html($(this).find("button").html());
+						// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
+					})
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");

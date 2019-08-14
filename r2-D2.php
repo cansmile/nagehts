@@ -28,47 +28,47 @@
 							<tbody>
 								<tr>
 									<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
-									<td>Hallo, ich heiße Abena.<span class="tran"><small>안녕하세요, 저는 아비나에요.</small></span></td>
+									<td>Hallo, ich heiße Abena.<span class="tran"><br><small>안녕하세요, 저는 아비나에요.</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></th>
-									<td>Wie heißen Sie?<span class="tran"><small>당신은 이름이 뭐에요?</small></span></td>
+									<td>Wie heißen Sie?<span class="tran"><br><small>당신은 이름이 뭐에요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="3" class="so btn btn-outline-info">▶</button></th>
-									<td>Ich bin Muammar.<span class="tran"><small>저는 무아마에요.</small></span></td>
+									<td>Ich bin Muammar.<span class="tran"><br><small>저는 무아마에요.</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="4" class="so btn btn-outline-info">▶</button></th>
-									<td>Woher kommen Sie?<span class="tran"><small>당신은 어디에서 왔나요?</small></span></td>
+									<td>Woher kommen Sie?<span class="tran"><br><small>당신은 어디에서 왔나요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ich komme aus Ghana. Und Sie?<span class="tran"><small>저는 가나 출신이에요. 당신은요?</small></span></td>
+									<td>Ich komme aus Ghana. Und Sie?<span class="tran"><br><small>저는 가나 출신이에요. 당신은요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="6" class="so btn btn-outline-info">▶</button></th>
-									<td>Ich komme aus Libyen.<span class="tran"><small>저는 리비아출신이에요.</small></span></td>
+									<td>Ich komme aus Libyen.<span class="tran"><br><small>저는 리비아출신이에요.</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="7" class="so btn btn-outline-info">▶</button></th>
-									<td>Wo liegt Ghana?<span class="tran"><small>가나는 어디에 있죠?</small></span></td>
+									<td>Wo liegt Ghana?<span class="tran"><br><small>가나는 어디에 있죠?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="8" class="so btn btn-outline-danger">▶</button></th>
-									<td>Ghana liegt in Westafrika.<span class="tran"><small>가나는 서아프리카에 있어요.</small></span></td>
+									<td>Ghana liegt in Westafrika.<span class="tran"><br><small>가나는 서아프리카에 있어요.</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="9" class="so btn btn-outline-danger">▶</button></th>
-									<td>Wo liegt Libyen?<span class="tran"><small>리비아는 어디에 있나요?</small></span></td>
+									<td>Wo liegt Libyen?<span class="tran"><br><small>리비아는 어디에 있나요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="10" class="so btn btn-outline-danger">▶</button></th>
-									<td>Liegt Libyen in Westafrika?<span class="tran"><small>리비아는 서아프리카에 있나요?</small></span></td>
+									<td>Liegt Libyen in Westafrika?<span class="tran"><br><small>리비아는 서아프리카에 있나요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="11" class="so btn btn-outline-info">▶</button></th>
-									<td>Nein, Libyen liegt in Nordafrika.<span class="tran"><small>아뇨, 리비아는 북아프라카에 있어요.</small></span></td>
+									<td>Nein, Libyen liegt in Nordafrika.<span class="tran"><br><small>아뇨, 리비아는 북아프라카에 있어요.</small></span></td>
 								</tr>
 							</tbody>
 						</table>

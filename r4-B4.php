@@ -59,10 +59,10 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-4.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-4.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -76,10 +76,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-2.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-2.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -93,10 +93,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-3.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-3.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -110,10 +110,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-1.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-1.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -127,10 +127,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-5.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-5.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -144,10 +144,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-6.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-6.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -161,10 +161,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-7.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-7.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -178,10 +178,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-8.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-8.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -195,10 +195,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-9.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-9.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -212,10 +212,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-10.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-10.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -229,10 +229,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-11.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-11.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -246,10 +246,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-12.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-12.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -263,10 +263,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-13.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-13.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -280,10 +280,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-14.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B4-14.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>

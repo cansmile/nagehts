@@ -17,7 +17,7 @@
 							❚❚
 						</button>
 						</h2>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼을 눌러 들으면서 단어를 그림과 연결합니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.</small> ]</h3>
 
 					</div>
 				</div>
@@ -25,48 +25,48 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
-							der Computer
+							der Computer<span class="tran"><br><small>컴퓨터</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark so itm" id="2">
-							die Tischlampe
+							die Tischlampe<span class="tran"><br><small>책상용 등</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="3">
-							das I-Pad
+							das I-Pad<span class="tran"><br><small>아이패드</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="4">
-							der Rucksack
+							der Rucksack<span class="tran"><br><small>배낭</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans12 btn-lg btn-outline-dark so itm" id="5">
-							das Bücherregal
+							das Bücherregal<span class="tran"><br><small>책장</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="6">
-							die Wanduhr
+							die Wanduhr<span class="tran"><br><small>벽 시계</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="7">
-							das Bild
+							das Bild<span class="tran"><br><small>그림</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="8">
-							der Tisch
+							der Tisch<span class="tran"><br><small>책상</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="9">
-							die Kommode
+							die Kommode<span class="tran"><br><small>옷장</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="10">
-							der Stuhl
+							der Stuhl<span class="tran"><br><small>의자</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="11">
-							das Bett
+							das Bett<span class="tran"><br><small>침대</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="12">
-							die Musik-CD
+							die Musik-CD<span class="tran"><br><small>음악 CD</small></span>
 						</button>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-1.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-1.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -80,10 +80,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-2.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-2.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -97,10 +97,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-3.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-3.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -114,10 +114,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-4.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-4.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -131,10 +131,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-5.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-5.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -148,10 +148,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-6.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-6.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -165,10 +165,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-7.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-7.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -182,10 +182,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-8.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-8.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -199,10 +199,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-9.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-9.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -216,10 +216,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-10.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-10.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -233,10 +233,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-11.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-11.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -250,10 +250,10 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-12.png" alt="Was ist das?" style="max-width: 240px; height: auto;"></th>
+								<th class="text-center border-0" scope="col"><img src="./images/Reihe 4/Reihe-4-B1-12.png" alt="Was ist das?" style="max-width: 100%; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -353,22 +353,7 @@
 							}
 
 							if(hm[hmn] > 1) {
-								if(hmn == 17) {
-									for(j = 7; j <= 9; j++) {
-										$("#"+j).closest("tr").find(".tran").show();		
-									}
-								} else if(hmn == 18) {
-									for(j = 10; j <= 12; j++) {
-										$("#"+j).closest("tr").find(".tran").show();		
-									}
-								} else if(hmn == 19) {
-									for(j = 13; j <= 16; j++) {
-										$("#"+j).closest("tr").find(".tran").show();		
-									}
-								} else {
-									$("#"+hmn).closest("tr").find(".tran").show();									
-								}
-
+									$("#"+hmn).closest("button").find(".tran").show();									
 							}
 
 
@@ -467,7 +452,8 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
 		$("#0").show();

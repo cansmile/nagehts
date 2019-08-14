@@ -18,7 +18,8 @@
 						❚❚
 					</button>
 					</h2>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 문제를 다 풀면 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">번호</button> 버튼을 눌러 2번 재생이 끝나면 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small>문제를 모두 풀고 정답확인을 해도 정답과 함께 번역이 나옵니다.</small> ]</h3>
 
 			</div>
 		</div>
@@ -32,7 +33,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="1" class="so btn btn-secondary">1</button></th>
-							<td>Wie ist ihr Name?</td>
+							<td>Wie ist ihr Name?<span class="tran"><br><small>당신의 이름은 무엇인가요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -46,7 +47,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="2" class="so btn btn-secondary">2</button></th>
-							<td>Ich heiße Maria Kim.</td>
+							<td>Ich heiße Maria Kim.<span class="tran"><br><small>저는 마리아 킴입니다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -60,7 +61,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="3" class="so btn btn-secondary">3</button></th>
-							<td>Mina. Und du?</td>
+							<td>Mina. Und du?<span class="tran"><br><small>미나야. 너는?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -74,7 +75,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="4" class="so btn btn-secondary">4</button></th>
-							<td>Ja, mein Name ist Kim.</td>
+							<td>Ja, mein Name ist Kim.<span class="tran"><br><small>응, 나의 이름은 김이야.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -88,7 +89,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="5" class="so btn btn-secondary">5</button></th>
-							<td>Wie geht es dir?</td>
+							<td>Wie geht es dir?<span class="tran"><br><small>어떻게 지내?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -111,7 +112,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="6" class="so btn btn-secondary">6</button></th>
-							<td>Danke, gut. Und dir?</td>
+							<td>Danke, gut. Und dir?<span class="tran"><br><small>고마워, 좋아. 너는?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -125,7 +126,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="7" class="so btn btn-secondary">7</button></th>
-							<td>Was machen Sie ?</td>
+							<td>Was machen Sie ?<span class="tran"><br><small>당신은 뭐하고 있나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -139,7 +140,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-secondary">8</button></th>
-							<td>Sind Sie Studentin?</td>
+							<td>Sind Sie Studentin?<span class="tran"><br><small>당신은 학생인가요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -153,7 +154,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-secondary">9</button></th>
-							<td>Woher kommen Sie?</td>
+							<td>Woher kommen Sie?<span class="tran"><br><small>어디에서 왔나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -167,7 +168,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-secondary">10</button></th>
-							<td>Kommen Sie aus Korea?</td>
+							<td>Kommen Sie aus Korea?<span class="tran"><br><small>당신은 한국에서 오셨나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -206,8 +207,14 @@
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
+			$(".tran").hide();
 
 			$(document).ready(function() {
+				// 각 문장 재생 횟수 초기화
+				var hm = new Array();
+				for(i = 0; i < $(".so").length; i++) {
+					hm[i] = 0;
+				}
 
 				ion.sound({
 					sounds : [{
@@ -239,10 +246,24 @@
 					multiplay: false,
 					
 					ended_callback: function(obj) {
+						// 재생이 끝날 때 2번 이상이면 번역 보이기
+						hmn = obj.part;
+						hm[hmn]++;
+
 						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
 						if(obj.part=="0") {
 							$("#0").show();
 							$("#0_p").hide();
+
+							if(hm[hmn] > 1) {
+								$(".tran").show();
+							}
+
+						} else {
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();									
+							}
+
 						};
 					}, ready_callback: function () {
 						
@@ -348,6 +369,7 @@
 
 
 					$(this).removeClass("btn-light ");
+					$(".tran").show();
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
 						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
 						$(this).addClass("btn-danger");

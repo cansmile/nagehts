@@ -21,56 +21,56 @@
 
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="1">
-							die Wurst
+						<button type="button" class="mt-1 mx-1 btn text-danger ans5 btn-lg btn-outline-dark so itm" id="1">
+							die Wurst<span class="tran"><br><small>소시지</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="2">
-							das Brot
+						<button type="button" class="mt-1 mx-1 btn text-secondary ans3 btn-lg btn-outline-dark so itm" id="2">
+							das Brot<span class="tran"><br><small>빵</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans16 btn-lg btn-outline-dark so itm" id="3">
-							das Wasser
+						<button type="button" class="mt-1 mx-1 btn text-secondary ans16 btn-lg btn-outline-dark so itm" id="3">
+							das Wasser<span class="tran"><br><small>물</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans13 btn-lg btn-outline-dark so itm" id="4">
-							der Kaffee
+						<button type="button" class="mt-1 mx-1 btn text-primary ans13 btn-lg btn-outline-dark so itm" id="4">
+							der Kaffee<span class="tran"><br><small>커피</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans12 btn-lg btn-outline-dark so itm" id="5">
-							der Tee
+						<button type="button" class="mt-1 mx-1 btn text-primary ans12 btn-lg btn-outline-dark so itm" id="5">
+							der Tee<span class="tran"><br><small>차</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="6">
-							der Käse
+						<button type="button" class="mt-1 mx-1 btn text-primary ans9 btn-lg btn-outline-dark so itm" id="6">
+							der Käse<span class="tran"><br><small>치즈</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark so itm" id="7">
-							der Reis
+						<button type="button" class="mt-1 mx-1 btn text-primary ans11 btn-lg btn-outline-dark so itm" id="7">
+							der Reis<span class="tran"><br><small>밥</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans14 btn-lg btn-outline-dark so itm" id="8">
-							die Schokolade
+						<button type="button" class="mt-1 mx-1 btn text-danger ans14 btn-lg btn-outline-dark so itm" id="8">
+							die Schokolade<span class="tran"><br><small>쵸콜릿</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans15 btn-lg btn-outline-dark so itm" id="9">
-							der Kuchen
+						<button type="button" class="mt-1 mx-1 btn text-primary ans15 btn-lg btn-outline-dark so itm" id="9">
+							der Kuchen<span class="tran"><br><small>케잌</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="10">
-							das Obst
+						<button type="button" class="mt-1 mx-1 btn text-secondary ans2 btn-lg btn-outline-dark so itm" id="10">
+							das Obst<span class="tran"><br><small>과일</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="11">
-							das Fleisch
+						<button type="button" class="mt-1 mx-1 btn text-secondary ans10 btn-lg btn-outline-dark so itm" id="11">
+							das Fleisch<span class="tran"><br><small>고기</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="12">
-							das Gemüse
+						<button type="button" class="mt-1 mx-1 btn text-secondary ans1 btn-lg btn-outline-dark so itm" id="12">
+							das Gemüse<span class="tran"><br><small>야채</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans17 btn-lg btn-outline-dark so itm" id="13">
-							die Milch
+						<button type="button" class="mt-1 mx-1 btn text-danger ans17 btn-lg btn-outline-dark so itm" id="13">
+							die Milch<span class="tran"><br><small>우유</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="14">
-							der Salat
+						<button type="button" class="mt-1 mx-1 btn text-primary ans4 btn-lg btn-outline-dark so itm" id="14">
+							der Salat<span class="tran"><br><small>샐러드</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="15">
-							das Bier
+						<button type="button" class="mt-1 mx-1 btn text-secondary ans8 btn-lg btn-outline-dark so itm" id="15">
+							das Bier<span class="tran"><br><small>맥주</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="16">
-							das Eis
+						<button type="button" class="mt-1 mx-1 btn text-secondary ans6 btn-lg btn-outline-dark so itm" id="16">
+							das Eis<span class="tran"><br><small>아이스크림</small></span>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="17">
-							die Suppe
+						<button type="button" class="mt-1 mx-1 btn text-danger ans7 btn-lg btn-outline-dark so itm" id="17">
+							die Suppe<span class="tran"><br><small>수프</small></span>
 						</button>
 					</div>
 				</div>
@@ -554,7 +554,8 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
 		$("#0").show();

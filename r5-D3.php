@@ -29,7 +29,7 @@
 						<table class="table table-light text-center">
 						<tr>
 							<td width="10%"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
-							<td>Ein Glas Wasser, bitte.<span class="tran">&nbsp;<small>물 한 잔 주세요.</small></span></td>
+							<td>Ein Glas Wasser, bitte.<span class="tran"><br>&nbsp;<small>물 한 잔 주세요.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -43,7 +43,7 @@
 						</tr>
 						<tr>
 							<td width="10%"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
-							<td>Herr Ober, wir möchten gern bestellen.<span class="tran">&nbsp;<small>여기 주문할게요.</small></span></td>
+							<td>Herr Ober, wir möchten gern bestellen.<span class="tran"><br>&nbsp;<small>여기 주문할게요.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -57,7 +57,7 @@
 						</tr>
 						<tr>
 							<td width="10%"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></td>
-							<td>Ja, sofort. Was bekommen Sie?<span class="tran">&nbsp;<small>네, 바로 가겠습니다. 뭘 드시겠습니까?</small></span></td>
+							<td>Ja, sofort. Was bekommen Sie?<span class="tran"><br>&nbsp;<small>네, 바로 가겠습니다. 뭘 드시겠습니까?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -71,7 +71,7 @@
 						</tr>
 						<tr>
 							<td width="10%"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
-							<td>Eine Schweinehaxe mit Sauerkraut, bitte.<span class="tran">&nbsp;<small>자우어크라우트가 있는 슈바이네학세요.</small></span></td>
+							<td>Eine Schweinehaxe mit Sauerkraut, bitte.<span class="tran"><br>&nbsp;<small>자우어크라우트가 있는 슈바이네학세요.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -85,7 +85,7 @@
 						</tr>
 						<tr>
 							<td width="10%"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
-							<td>Ich nehme eine Gulaschsuppe und einen Salat.<span class="tran">&nbsp;<small>굴라쉬수프와 샐러드요.</small></span></td>
+							<td>Ich nehme eine Gulaschsuppe und einen Salat.<span class="tran"><br>&nbsp;<small>굴라쉬수프와 샐러드요.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -99,7 +99,7 @@
 						</tr>
 						<tr>
 							<td width="10%"><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
-							<td>Und was möchten Sie trinken?<span class="tran">&nbsp;<small>그러면 음료는 뭘 드시겠습니까?</small></span></td>
+							<td>Und was möchten Sie trinken?<span class="tran"><br>&nbsp;<small>그러면 음료는 뭘 드시겠습니까?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">

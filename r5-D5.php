@@ -25,37 +25,37 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-							Salatteller
+							Salatteller<span class="tran"><br>&nbsp;<small>샐러드 접시</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
-							große Cola
+							Cola<span class="tran"><br>&nbsp;<small>콜라</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
-							Schweinebraten mit Salat
+							Schweinebraten mit Salat<span class="tran"><br>&nbsp;<small>샐러드 곁들인 돼지고기 구이 </small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
-							Mineralwasser
+							Mineralwasser<span class="tran"><br>&nbsp;<small>미네랄 물</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="5">
-							Bier
+							Bier<span class="tran"><br>&nbsp;<small>맥주</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
-							Currywurst mit Pommes
+							Currywurst mit Pommes<span class="tran"><br>&nbsp;<small>감자 곁들인 카레 소시지</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="7">
-							Glas Rotwein
+							Rotwein<span class="tran"><br>&nbsp;<small>적 포도주</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="8">
-							Käsekuchen
+							Käsekuchen<span class="tran"><br>&nbsp;<small>치즈 케잌</small>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="9">
-							Fischbraten mit Kartoffelsalat
+						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="9">
+							Fischbraten mit Kartoffelsalat<span class="tran"><br>&nbsp;<small>감자 샐러드 곁들인 생선 구이</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="10">
-							Espresso
+							Espresso<span class="tran"><br>&nbsp;<small>에스프레소</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="11">
-							Kaffee
+							Kaffee<span class="tran"><br>&nbsp;<small>커피</small>
 						</button>
 					</div>
 				</div>
@@ -97,6 +97,15 @@
 						</table>
 					</div>
 				</div>
+
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
+
 				<div class="row">
 					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 						<table class="text-center table table-striped">
@@ -182,12 +191,12 @@
 						sprite : {
 							"0": [2.8,91.5],
 							"1": [36.46,.94],
-							"2": [23.24,.72],
+							"2": [23.7,.27],
 							"3": [81.39,1.52],
 							"4": [37.87,1.1],
-							"5": [83.93,.22],
+							"5": [95.16,1.1],
 							"6": [33.33,1.1],
-							"7": [78.32,1.13],
+							"7": [78.62,.66],
 							"8": [89.03,1],
 							"9": [74.21,2.11],
 							"10": [93.24,.97],

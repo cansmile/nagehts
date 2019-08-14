@@ -30,9 +30,6 @@
 									<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option3" autocomplete="off"><span  class="text-secondary">das</span>
 									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option4" autocomplete="off"><span  class="text-success">die</span>
-									</div>
 								</div> Pizza.
 								<span class="tran"><br><small>저는 피자를 계산하겠습니다.</small></span>
 							</td>
@@ -45,16 +42,13 @@
 								Ich bezahle <span class="nu">②</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
 									<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option5" autocomplete="off"><span  class="text-primary">den</span>
+										<input type="radio" name="options" id="option4" autocomplete="off"><span  class="text-primary">den</span>
 									</div>
 									<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option6" autocomplete="off"><span  class="text-danger">die</span>
+										<input type="radio" name="options" id="option5" autocomplete="off"><span  class="text-danger">die</span>
 									</div>
 									<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option7" autocomplete="off"><span  class="text-secondary">das</span>
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option8" autocomplete="off"><span  class="text-success">die</span>
+										<input type="radio" name="options" id="option6" autocomplete="off"><span  class="text-secondary">das</span>
 									</div>
 								</div> Cola.
 								<span class="tran"><br><small>저는 콜라를 계산하겠습니다.</small></span>
@@ -68,31 +62,25 @@
 								Ich bezahle <span class="nu">③</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
 									<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option9" autocomplete="off"><span  class="text-primary">den</span>
+										<input type="radio" name="options" id="option7" autocomplete="off"><span  class="text-primary">den</span>
 									</div>
 									<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option10" autocomplete="off"><span  class="text-danger">die</span>
+										<input type="radio" name="options" id="option8" autocomplete="off"><span  class="text-danger">die</span>
 									</div>
 									<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option11" autocomplete="off"><span  class="text-secondary">das</span>
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option12" autocomplete="off"><span  class="text-success">die</span>
+										<input type="radio" name="options" id="option9" autocomplete="off"><span  class="text-secondary">das</span>
 									</div>
 								</div> Steak 
 								und <span class="nu">④</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
 									<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option13" autocomplete="off"><span  class="text-primary">den</span>
+										<input type="radio" name="options" id="option10" autocomplete="off"><span  class="text-primary">den</span>
 									</div>
 									<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option14" autocomplete="off"><span  class="text-danger">die</span>
+										<input type="radio" name="options" id="option11" autocomplete="off"><span  class="text-danger">die</span>
 									</div>
 									<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option15" autocomplete="off"><span  class="text-secondary">das</span>
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option16" autocomplete="off"><span  class="text-success">die</span>
+										<input type="radio" name="options" id="option12" autocomplete="off"><span  class="text-secondary">das</span>
 									</div>
 								</div> Wein.
 								<span class="tran"><br><small>저는 스테이크와 와인을 계산하겠습니다.</small></span>
@@ -148,7 +136,6 @@
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
 		<!-- interact.min.js -->
-		<script src="./js/taptogroup.js"></script>
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
@@ -157,8 +144,26 @@
 			$(".nu").hide();
 
 			$(document).ready(function() {
-				// 각 문장 재생 횟수 초기화
+				ion.sound({
+					sounds : [{
+						name : "Bama_Country_Country",
+					}, {
+						name : "Cartoon_Boing",
+					}],
+					path : "sounds/",
+					preload : true,
+					volume : 1.0,
+					multiplay: false,
+	});
 
+						
+				$(".o").on("click", function() {
+					ion.sound.play("Bama_Country_Country");
+				});
+
+				$(".x").on("click", function() {
+					ion.sound.play("Cartoon_Boing");
+				});
 $("[data-toggle='popover']").popover({
 					delay : {
 						'hide' : 1000

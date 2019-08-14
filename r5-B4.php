@@ -17,7 +17,7 @@
 							❚❚
 						</button>
 						</h2>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면<br>문장의 번역이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 
@@ -43,7 +43,7 @@
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="5" class="so btn btn-outline-info">▶</button></th>
-									<td>Ich esse <strong>am liebsten</strong> Käsebrot<span class="tran"><br><small>난 치즈빵 먹는 게 제일 좋아.</small></span></td>
+									<td>Ich esse <strong>am liebsten</strong> Käsebrot.<span class="tran"><br><small>난 치즈빵 먹는 게 제일 좋아.</small></span></td>
 								</tr>
 							</tbody>
 						</table>

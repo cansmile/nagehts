@@ -29,7 +29,7 @@
 							<tbody>
 								<tr>
 									<th scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></th>
-									<td width="25"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
+									<td width="25"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
 									<td>Claudia hat eine Schultasche, aber sie hat kein Lineal.<span class="tran"><br><small>Claudia는 책가방이 있지만 자는 없습니다. </small></span></td>
 								</tr>
 								<tr>
@@ -55,22 +55,22 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="8">
-							die Schultasche
+							die Schultasche<span class="tran"><br><small>책가방</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
-							das Lineal
+							das Lineal<span class="tran"><br><small>자</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="10">
-							der Kleber
+							der Kleber<span class="tran"><br><small>풀</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="11">
-							der Radiergummi
+							der Radiergummi<span class="tran"><br><small>지우개</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="12">
-							die Buntstifte
+							die Buntstifte<span class="tran"><br><small>크레용</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="13">
-							das Geld
+							das Geld<span class="tran"><br><small>돈</small></span>
 						</button>
 					</div>
 				</div>
@@ -214,7 +214,7 @@
 							<tbody>
 								<tr>
 									<th scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></th>
-									<td width="25"><button type="button" id="4" class="so btn btn-outline-primary">▶</button></td>
+									<td width="25"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
 									<td>Michael hat ein Wörterbuch, aber er hat keine Büroklammern.<span class="tran"><br><small>Michael은 사전을 가지고 있지만 종이 클립은 없습니다.</small></span></td>
 								</tr>
 								<tr>
@@ -250,22 +250,22 @@ aber </span></div>
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="14">
-							das Wörterbuch
+							das Wörterbuch<span class="tran"><br><small>사전</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="15">
-							die Büroklammern
+							die Büroklammern<span class="tran"><br><small>클립</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark so itm" id="16">
-							das Geld
+							das Geld<span class="tran"><br><small>돈</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="17">
-							der Bleistift
+							der Bleistift<span class="tran"><br><small>연필</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="18">
-							der Kuli
+							der Kuli<span class="tran"><br><small>볼펜</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans12 btn-lg btn-outline-dark so itm" id="19">
-							die Schultasche
+							die Schultasche<span class="tran"><br><small>책가방</small></span>
 						</button>
 					</div>
 				</div>
@@ -403,6 +403,15 @@ aber </span></div>
 						</table>
 					</div>
 				</div>
+
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
+
 				<div class="row">
 					<div class="col-12">
 						<table class="table table-striped text-center">
@@ -479,6 +488,9 @@ aber </span></div>
 							</tbody>
 						</table>
 					</div>
+
+
+
 				</div>
 
 			</div>
@@ -554,20 +566,6 @@ aber </span></div>
 					if(a == b) {
 						$(this).addClass("bg-success");
 						
-						if(b.substr(0,5) == "aus d") {
-							$("td").each(function() {
-								if($(this).text().trim() == b.substr(8).trim()) {
-									$(this).addClass("text-dark bg-warning");
-								}
-							})
-						} else {
-							$("td").each(function() {
-								if($(this).text() == b.substr(4)) {
-									$(this).addClass("text-dark bg-warning");
-								}
-							})
-						}
-							
 						$(this).prop("disabled",true);
 						$(this).addClass("text-weight-bold");
 
@@ -616,11 +614,11 @@ aber </span></div>
 							"12": [31.3,2.4],
 							"13": [34.9,1.7],
 							"14": [60,1.4],
-							"15": [63.6,2.7],
+							"15": [102.72,1.94],
 							"16": [67.9,2.1],
 							"17": [72,2],
 							"18": [75.8,2.6],
-							"19": [80,2.2]
+							"19": [80,2.2],
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -653,6 +651,10 @@ aber </span></div>
 								$("#"+obj.part).html("▶");
 								if(hm[hmn] > 1) {
 									$("#"+obj.part).closest("tr").find(".tran").show();
+								}
+							} else {
+								if(hm[hmn] > 1) {
+									$("#"+obj.part).closest("button").find(".tran").show();
 								}
 							}
 						}
@@ -728,6 +730,57 @@ aber </span></div>
 					};
 				};
 			});
+
+				$("#chk").on("click", function() {
+					var na = "";
+					var ri = 0;
+					var qst = $(".q").length;
+					$(".q").each(function () {
+						if(na != "") {
+							na += ", ";
+						}
+						if($(this).val() == "") {
+							na += $(this).attr("id").substr(4,1);
+						}
+					})
+					
+					if($(this).attr("id") == "done") {} else if(na == "") {
+						for(var i = 0; i < an.length; i++) {
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
+							var oran = $("#qst-"+(i+1)).val();
+							if(oan == nan) {
+								$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if($("#qst-"+(i+1)).val() != an[i]) {
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								}
+								ri++;
+							} else {
+								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							}
+						}
+
+					if (ri < (qst/2)) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
+						$(this).addClass("bg-danger text-white");
+					} else if(ri == qst) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("bg-primary text-white");
+					} else {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("bg-warning text-white");
+					}
+
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					$(this).attr("id","done");
+					} else {
+						alert("모든 문제를 풀어주세요!");
+						// alert(na+"번 문제를 풀어주세요!");
+					};
+				})
 
 		$("#0").show();
 		$(".alert").hide();

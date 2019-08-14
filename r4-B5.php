@@ -19,7 +19,7 @@
 						</h2>
 						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
 						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
-						<h3>[ <small>문장 뒤에 passen zusammen은 자동으로 채워집니다.</small> ]</h3>
+						<h3>[ <small>문장 뒤에 passen zusammen은 입력란을 벗어나면 자동으로 채워집니다.</small> ]</h3>
 					</div>
 				</div>
 
@@ -87,6 +87,15 @@
 						</table>
 					</div>
 				</div>
+
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
+
 				<div class="row">
 					<div class="col">
 						<table class="table table-striped text-center">
@@ -135,7 +144,7 @@
 			$(".ant").hide();
 
 			var an = new Array();
-			var an = ["der Tisch","der Spitzer","der Vorhang","die Vase","die Brille","die Handschuhe","die Zahnpasta"];
+			var an = ["der Tisch passen zusammen","der Spitzer","der Vorhang","die Vase","die Brille","die Handschuhe","die Zahnpasta"];
 
 			$(document).ready(function() {
 				$(".q").on("keyup", function () {
@@ -186,21 +195,7 @@
 
 					if(a == b) {
 						$(this).addClass("bg-success");
-						
-						if(b.substr(0,5) == "aus d") {
-							$("td").each(function() {
-								if($(this).text().trim() == b.substr(8).trim()) {
-									$(this).addClass("text-dark bg-warning");
-								}
-							})
-						} else {
-							$("td").each(function() {
-								if($(this).text() == b.substr(4)) {
-									$(this).addClass("text-dark bg-warning");
-								}
-							})
-						}
-							
+						$(this).val(an[qn]+" passen zusammen");
 						$(this).prop("disabled",true);
 						$(this).addClass("text-weight-bold");
 
@@ -348,11 +343,65 @@
 				};
 			});
 
+				$("#chk").on("click", function() {
+					var na = "";
+					var ri = 0;
+					var qst = $(".q").length;
+					$(".q").each(function () {
+						if(na != "") {
+							na += ", ";
+						}
+						if($(this).val() == "") {
+							na += $(this).attr("id").substr(4,1);
+						}
+					})
+					
+					if($(this).attr("id") == "done") {} else if(na == "") {
+						$("#qst-1").addClass("bg-success text-white");
+						for(var i = 0; i < an.length; i++) {
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
+							var oran = $("#qst-"+(i+1)).val();
+							if(oan == nan || (oan+"passen zusammen") ==  nan) {
+								$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if($("#qst-"+(i+1)).val() != an[i]) {
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								}
+								ri++;
+							} else {
+								if(i>0) {
+									$("#qst-"+(i+1)).val(an[i]+" passen zusammen");									
+									$("#qst-"+(i+1)).attr("disabled",true);
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								}
+							}
+						}
+
+					if (ri < (qst/2)) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
+						$(this).addClass("bg-danger text-white");
+					} else if(ri == qst) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("bg-primary text-white");
+					} else {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("bg-warning text-white");
+					}
+
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					$(this).attr("id","done");
+					} else {
+						alert("모든 문제를 풀어주세요!");
+						// alert(na+"번 문제를 풀어주세요!");
+					};
+				})
+
 		$("#0").show();
 		$(".alert").hide();
 		}
 	});
-				$("#qst-1").val(an[0]+" passen zusammen");
+				$("#qst-1").val(an[0]);
 				$("#qst-1").prop("disabled",true);
 				$("#qst-1").closest("tr").find(".tran").show();
 	

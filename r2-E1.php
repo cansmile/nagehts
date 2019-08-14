@@ -356,11 +356,11 @@
 							na += ", ";
 						}
 						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+							na += $(this).attr("id").substr(4);
 						}
 					})
 					
-					if(na == "") {
+					if($(this).attr("id") == "done") {} else if(na == "") {
 						for(var i = 0; i < an.length; i++) {
 							var oan = an[i].replace(" ", "").toLowerCase();
 							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
@@ -373,6 +373,7 @@
 								ri++;
 							} else {
 								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
 								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 							}
 						}
@@ -390,6 +391,7 @@
 
 					$(this).prop("disabled", true);
 					$(".tran").show();
+					$(this).attr("id","done");
 					} else {
 						alert(na+"번 문제를 풀어주세요!");
 					};

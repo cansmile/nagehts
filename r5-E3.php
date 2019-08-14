@@ -60,7 +60,7 @@
 					<span class="tran"><small>너무 달아요.</small><br></span>zu süß
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm" id="4">
-					<span class="tran"><small>따뜻해요.</small><br></span>warm
+					<span class="tran"><small>미지근해요.</small><br></span>warm
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm" id="5">
 					<span class="tran"><small>차가워요.</small><br></span>kalt
@@ -302,7 +302,10 @@
 		var na = "";
 		if($("#itms").find("button").length < 1) {
 			$(".tran").show();
-
+			$(".itm-lst").each(function() {
+				$(this).html($(this).find("button").html());
+				$(this).addClass("font-weight-bold");
+			})
 			$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 			$(this).removeClass("btn-light");
 			$(this).addClass("btn-primary");

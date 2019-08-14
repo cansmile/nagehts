@@ -24,7 +24,7 @@
 										<div id="ant-1"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Monika Sager ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q" id="qst-1">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-1">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">ledig.</span></div>
 										</div>
 										<span class="tran">Monika Sager는 미혼이 아닙니다.</span>
@@ -36,7 +36,7 @@
 										<div id="ant-2"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q" id="qst-2">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-2">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">Wolf, sondern ein Hund.</span></div>
 										</div>
 										<span class="tran">이것은 늑대가 아니라, 강아지야.</span>
@@ -48,7 +48,7 @@
 										<div id="ant-3"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Der Test ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q" id="qst-3">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-3">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad3">heute, sondern erst morgen.</span></div>
 										</div>
 										<span class="tran">시험은 오늘이 아니라, 내일이래. </span>
@@ -60,7 +60,7 @@
 										<div id="ant-4"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Manfred studiert</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q" id="qst-4">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-4">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">in München.</span></div>
 										</div>
 										<span class="tran">Manfred는 뮌헨에서 대학에 다니지 않는다.</span>
@@ -93,6 +93,7 @@
 		<script>
 			// $(".tran").hide();
 			$(".ant").hide();
+			$(".tran").hide();
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();

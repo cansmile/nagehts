@@ -371,8 +371,11 @@
 				var na = "";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(".itm-lst").each(function() {
+						$(this).html($(this).find("button").html());
+						$(this).addClass("font-weight-bold text-success");
+					})
+					$(this).html("<h4>모든 답을 다 맞추셨네요!<br>혹시 독일인이세요?</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 					$(".btn-lg").text().appendTo($(this).closest("td"));

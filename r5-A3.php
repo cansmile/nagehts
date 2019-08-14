@@ -9,7 +9,7 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>[ <small>단어를 구분(Essen, Getränk)에 맞게 넣으세요.</small> ]
+						<h2>[ <small>단어를 알맞은 칸(Essen, Getränk)에 넣으세요.</small> ]
 						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
 							HV
 						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
@@ -22,55 +22,55 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-							die Wurst
+							die Wurst<span class="tran">&nbsp;<small>소시지</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="2">
-							das Brot
+							das Brot<span class="tran">&nbsp;<small>빵</small>
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans16 btn-lg btn-outline-dark so itm" id="3">
-							das Wasser
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="3">
+							das Wasser<span class="tran">&nbsp;<small>물</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
-							der Kaffee
+							der Kaffee<span class="tran">&nbsp;<small>커피</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="5">
-							der Tee
+							der Tee<span class="tran">&nbsp;<small>차</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="6">
-							der Käse
+							der Käse<span class="tran">&nbsp;<small>치즈</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
-							der Reis
+							der Reis<span class="tran">&nbsp;<small>밥</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
-							die Schokolade
+							die Schokolade<span class="tran">&nbsp;<small>쵸콜릿</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
-							der Kuchen
+							der Kuchen<span class="tran">&nbsp;<small>케잌</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="10">
-							das Obst
+							das Obst<span class="tran">&nbsp;<small>과일</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="11">
-							das Fleisch
+							das Fleisch<span class="tran">&nbsp;<small>고기</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="12">
-							das Gemüse
+							das Gemüse<span class="tran">&nbsp;<small>야채</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="13">
-							die Milch
+							die Milch<span class="tran">&nbsp;<small>우유</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="14">
-							der Salat
+							der Salat<span class="tran">&nbsp;<small>샐러드</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="15">
-							das Bier
+							das Bier<span class="tran">&nbsp;<small>맥주</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="16">
-							das Eis
+							das Eis<span class="tran">&nbsp;<small>아이스크림</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="17">
-							die Suppe
+							die Suppe<span class="tran">&nbsp;<small>수프</small>
 						</button>
 					</div>
 				</div>
@@ -78,16 +78,22 @@
 			<div class="row" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top bg-info so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					<strong>1. Essen</strong></h2>&nbsp;
+					<strong>1. Essen</strong><span class="tran">&nbsp;<small>음식</small></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-danger so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					<strong>2. Getränk</strong></h2>&nbsp;
+					<strong>2. Getränk</strong><span class="tran">&nbsp;<small>음료</small></h2>&nbsp;
 				</div>
 			</div>
 		</div>
 		<!-- 리스트 끝 -->
-
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
 			</div>
 		</section>
 		
@@ -269,7 +275,8 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
 		// $("#0").show();

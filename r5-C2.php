@@ -23,61 +23,61 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-							einen Schweinebraten.
+							einen Schweinebraten.<span class="tran">&nbsp;<small>돼지 불고기.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
-							eine Bratwurst.
+							eine Bratwurst.<span class="tran">&nbsp;<small>소시지 구이.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="3">
-							ein Bier.
+							ein Bier.<span class="tran">&nbsp;<small>맥주.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
-							eine Suppe.
+							eine Suppe.<span class="tran">&nbsp;<small>수프</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="5">
-							eine Cola.
+							eine Cola.<span class="tran">&nbsp;<small>콜라</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="6">
-							ein Hähnchen.
+							ein Hähnchen.<span class="tran">&nbsp;<small>닭고기.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="7">
-							einen Kaffee.
+							einen Kaffee.<span class="tran">&nbsp;<small>커피.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
-							einen Salat.
+							einen Salat.<span class="tran">&nbsp;<small>샐러드.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="9">
-							ein Mineralwasser.
+							ein Mineralwasser.<span class="tran">&nbsp;<small>미네랄 물.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="10">
-							Marmelade
+							Marmelade.<span class="tran">&nbsp;<small>잼.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="11">
-							einen Käsekuchen.
+							einen Käsekuchen.<span class="tran">&nbsp;<small>치즈 케잌.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="12">
-							ein Wurstbrot.
+							ein Wurstbrot.<span class="tran">&nbsp;<small>소시지 빵.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="13">
-							Butter
+							Butter.<span class="tran">&nbsp;<small>버터.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="14">
-							einen Saft.
+							einen Saft.<span class="tran">&nbsp;<small>주스.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="15">
-							ein Brötchen.
+							ein Brötchen.<span class="tran">&nbsp;<small>하드 롤.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="16">
-							einen Wein.
+							einen Wein.<span class="tran">&nbsp;<small>와인.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="17">
-							eine Milch.
+							eine Milch.<span class="tran">&nbsp;<small>우유.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="18">
-							ein Ei.
+							ein Ei.<span class="tran">&nbsp;<small>계란.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="19">
-							eine Limonade.
+							eine Limonade.<span class="tran">&nbsp;<small>레모네이드.</small>
 						</button>
 					</div>
 				</div>

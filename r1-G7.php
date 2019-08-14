@@ -24,8 +24,7 @@
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option2" autocomplete="off">Sie
 									</div>
-								</div>
-							?<span class="tran"><br><small>나는 팀이라고 해. <strong>너</strong>는?</small></span></td>
+								</div>?<span class="tran"><br><small>나는 팀이라고 해. <strong>너</strong>는?</small></span></td>
 							<td>Mina.<span class="tran"><br><small>미나.</small></span></td>
 						</tr>
 						<tr>
@@ -38,8 +37,7 @@
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option4" autocomplete="off">Sie
 									</div>
-								</div>
-							?<span class="tran"><br><small><strong>당신</strong>의 이름은 무엇인가요?</small></span></td>
+								</div>?<span class="tran"><br><small><strong>당신</strong>의 이름은 무엇인가요?</small></span></td>
 							<td>Mein Name ist Schumacher.<span class="tran"><br><small>나의 이름은 슈마허에요.</small></span></td>
 						</tr>
 						<tr>
@@ -52,8 +50,7 @@
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 										<input type="radio" name="options" id="option6" autocomplete="off">Sie
 									</div>
-								</div>
-								?<span class="tran"><br><small>나는 이라고 해. <strong>너</strong>는?</small></span></td>
+								</div>?<span class="tran"><br><small>나는 이라고 해. <strong>너</strong>는?</small></span></td>
 							<td>Park, Anna Park.<span class="tran"><br><small>박, 안나 박이야.</small></span></td>
 						</tr>
 						<tr>
@@ -66,8 +63,7 @@
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 										<input type="radio" name="options" id="option8" autocomplete="off">Sie
 									</div>
-								</div>
-							?<span class="tran"><br><small>안녕, 나는 막스야! <strong>너</strong>는 이름이 뭐니?</small></span></td>
+								</div>?<span class="tran"><br><small>안녕, 나는 막스야! <strong>너</strong>는 이름이 뭐니?</small></span></td>
 							<td>Ich heiße Susanne!<span class="tran"><br><small>나는 수잔이야!</small></span></td>
 						</tr>
 					</tbody>
@@ -179,13 +175,13 @@
 
 					$("span").each(function () {
 						if($(this).text() == "①") {
-							var iq = $("#qst-1>div.o").find("input").text();
+							var iq = $.trim($("#qst-1>div.o").text());
 						} else if($(this).text() == "②") {
-							var iq = $("#qst-2>div.o").find("input").text();
+							var iq = $.trim($("#qst-2>div.o").text());
 						} else if($(this).text() == "③") {
-							var iq = $("#qst-3>div.o").find("input").text();
+							var iq = $.trim($("#qst-3>div.o").text());
 						} else if($(this).text() == "④") {
-							var iq = $("#qst-4>div.o").find("input").text();
+							var iq = $.trim($("#qst-4>div.o").text());
 						}
 						$(this).text(iq);
 						$(this).addClass("font-weight-bold");

@@ -17,7 +17,7 @@
 							❚❚
 						</button>						
 						</h2>
-						<h3>[ <small>음성을 듣고 있는 것을 선택하세요.<br><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small>음성을 듣고 있는 것을 선택하세요.<br><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장과 번역이 나옵니다.</small> ]</h3>
 
 					</div>
 				</div>
@@ -37,10 +37,7 @@
 												<input type="radio" name="options" id="option2" autocomplete="off"><label for="option2"><img src="./images/Reihe 4/Reihe-4-C1-1.png" alt="Fahrrad" style="max-width: 240px; height: auto;"></label>
 											</div>
 										</div>
-									</td>
-								</tr>
-								<tr>
-									<td class="text-center" colspan="2"><span class="tran">Was ist das? Ist das ein Fahrrad?&nbsp;Nein, das ist kein Fahrrad. Das ist ein Auto.&nbsp;<small><br>이것은 무엇인가요? 이것은 자전거인가요? 아니오, 이것은 자전거가 아니에요. 이것은 자동차에요.</small></span></td>
+										<span class="tran"><br>Was ist das? Ist das ein Fahrrad?&nbsp;Nein, das ist kein Fahrrad. Das ist ein Auto.&nbsp;<small><br>이것은 무엇인가요? 이것은 자전거인가요? 아니오, 이것은 자전거가 아니에요. 이것은 자동차에요.</small></span></td>
 								</tr>
 								<tr>
 									<td class="align-middle"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
@@ -53,10 +50,7 @@
 												<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4"><img src="./images/Reihe 4/Reihe-4-C1-4.png" alt="Hund" style="max-width: 240px; height: auto;"></label>
 											</div>
 										</div>
-									</td>
-								</tr>
-								<tr>
-									<td class="text-center" colspan="2"><span class="tran">Was ist das? Ist das eine Katze?&nbsp;Nein, das ist keine Katze. Das ist ein Hund.<small><br>이것은 무엇인가요? 이것은 고양이인가요? 아니오, 이것은 고양이가 아니에요. 이것은 개에요.</small></span></td>
+										<span class="tran"><br>Was ist das? Ist das eine Katze?&nbsp;Nein, das ist keine Katze. Das ist ein Hund.<small><br>이것은 무엇인가요? 이것은 고양이인가요? 아니오, 이것은 고양이가 아니에요. 이것은 개에요.</small></span></td>
 								</tr>
 								<tr>
 									<td class="align-middle"><button type="button" id="3" class="so btn btn-outline-success">▶</button></td>
@@ -69,10 +63,7 @@
 												<input type="radio" name="options" id="option6" autocomplete="off"><label for="option6"><img src="./images/Reihe 4/Reihe-4-C1-5.png" alt="Mann" style="max-width: 240px; height: auto;"></label>
 											</div>
 										</div>
-									</td>
-								</tr>
-								<tr>
-									<td class="text-center" colspan="2"><span class="tran">Wer ist das? Ist das ein Mann? Nein, das ist kein Mann. Das ist eine Frau.<span class="tran">&nbsp;<small><br>이 사람은 누구인가요? 이 사람은 남자인가요? 아니오, 이 사람은 남자가 아니에요. 이 사람은 여자에요.</small></span></td>
+										<span class="tran"><br>Wer ist das? Ist das ein Mann? Nein, das ist kein Mann. Das ist eine Frau.<span class="tran">&nbsp;<small><br>이 사람은 누구인가요? 이 사람은 남자인가요? 아니오, 이 사람은 남자가 아니에요. 이 사람은 여자에요.</small></span></td>
 								</tr>
 							</tbody>
 						</table>
@@ -276,7 +267,8 @@
 						};
 					});
 
-					alert(na + "번 문제를 풀어주세요.");
+					alert("모든 문제를 풀어주세요.");
+					// alert(na + "번 문제를 풀어주세요.");
 				} else {
 					$(".tran").show();
 					$(".pop").each(function() {
@@ -294,23 +286,6 @@
 						};
 
 						
-					});
-
-					$("span").each(function () {
-						if($(this).text() == "①") {
-							var iq = $("#qst-1>div.o").find("label").text();
-						} else if($(this).text() == "②") {
-							var iq = $("#qst-2>div.o").find("label").text();
-						} else if($(this).text() == "③") {
-							var iq = $("#qst-3>div.o").find("label").text();
-						} else if($(this).text() == "④") {
-							var iq = $("#qst-4>div.o").find("label").text();
-						}
-
-						$(this).text(iq);
-						$(this).removeClass("btn btn-outline-dark btn-sm");
-						$(this).addClass("font-weight-bold");
-
 					});
 
 					$(this).removeClass("btn-light ");

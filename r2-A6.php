@@ -479,7 +479,8 @@
 						};
 					});
 
-					alert(na + "번 문제를 풀어주세요.");
+					alert("모든 문제를 풀어주세요.");
+					// alert(na + "번 문제를 풀어주세요.");
 				} else {
 					$(".tran").show();
 					$(".pop").each(function() {

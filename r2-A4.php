@@ -35,13 +35,13 @@
 						<button type="button" class="mt-1 mx-1 so btn ans1 btn-lg btn-outline-dark itm" id="11">
 							Amerika
 						</button>
-						<button type="button" class="mt-1 mx-1 so btn ans3 btn-lg btn-outline-dark itm" id="12">
+						<button type="button" class="mt-1 mx-1 so btn ans2 btn-lg btn-outline-dark itm" id="12">
 							Berlin
 						</button>
-						<button type="button" class="mt-1 mx-1 so btn ans4 btn-lg btn-outline-dark itm" id="13">
+						<button type="button" class="mt-1 mx-1 so btn ans3 btn-lg btn-outline-dark itm" id="13">
 							Dresden
 						</button>
-						<button type="button" class="mt-1 mx-1 so btn ans5 btn-lg btn-outline-dark itm" id="14">
+						<button type="button" class="mt-1 mx-1 so btn ans2 btn-lg btn-outline-dark itm" id="14">
 							Berlin
 						</button>
 					</div>
@@ -51,22 +51,22 @@
 						<table class="table table-light">
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="1" class="so btn btn-danger">▶</button></th>
-							<td>Hallo, ich bin Anna Müller. <span class="tran">&nbsp;<small>안녕하세요, 저는 안나 뮐러에요.</span></small></td>
+							<td>Hallo, ich bin Anna Müller. <span class="tran">&nbsp;<br><small>안녕하세요, 저는 안나 뮐러에요.</span></small></td>
 							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="2" class="so btn btn-primary">▶</button></th>
-							<td>Hallo, ich heiße Max Fernández. <span class="tran">&nbsp;<small>안녕하세요, 저는 막스 페르난데즈에요.</span></small></td>
+							<td>Hallo, ich heiße Max Fernández. <span class="tran">&nbsp;<br><small>안녕하세요, 저는 막스 페르난데즈에요.</span></small></td>
 							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="3" class="so btn btn-danger">▶</button></th>
-							<td>Ah, kommen Sie aus Mexiko? <span class="tran">&nbsp;<small>아, 멕시코 출신이신가요?</span></small></td>
+							<td>Ah, kommen Sie aus Mexiko? <span class="tran">&nbsp;<br><small>아, 멕시코 출신이신가요?</span></small></td>
 							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="4" class="so btn btn-primary">▶</button></th>
-							<td>Nein, aus <span class="btn btn-outline-dark btn-sm">①</span>. <span class="tran">&nbsp;<small>아니오, <strong>미국</strong> 출신이에요.</span></small></td>
+							<td>Nein, aus <span class="btn btn-outline-dark btn-sm">①</span>. <span class="tran">&nbsp;<br><small>아니오, <strong>미국</strong> 출신이에요.</span></small></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -76,7 +76,7 @@
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="5" class="so btn btn-danger">▶</button></th>
-							<td>Und wohnen Sie hier in <span class="btn btn-outline-dark btn-sm">②</span>? <span class="tran">&nbsp;<small>그러면 당신은 <strong>베를린</strong>에서 사시나요?</span></small></td>
+							<td>Und wohnen Sie hier in <span class="btn btn-outline-dark btn-sm">②</span>? <span class="tran">&nbsp;<br><small>그러면 당신은 <strong>베를린</strong>에서 사시나요?</span></small></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -86,14 +86,14 @@
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="6" class="so btn btn-primary">▶</button></th>
-							<td>Ja. Und Sie? <span class="tran">&nbsp;<small>네, 당신은요?</span></td></small>
+							<td>Ja. Und Sie? <span class="tran">&nbsp;<br><small>네, 당신은요?</span></td></small>
 							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="7" class="so btn btn-primary">▶</button></th>
-							<td>Wohnen Sie auch in <span class="btn btn-outline-dark btn-sm">③</span>? <span class="tran">&nbsp;<small><strong>베를린</strong>에서 사시나요?</span></td>
+							<td>Wohnen Sie auch in <span class="btn btn-outline-dark btn-sm">③</span>? <span class="tran">&nbsp;<br><small><strong>베를린</strong>에서 사시나요?</span></td>
 </small>							<td>
-								<div class="itm-lst 1itm" id="lst-3">
+								<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -101,9 +101,9 @@
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="8" class="so btn btn-danger">▶</button></th>
-							<td>Nein, ich wohne in <span class="btn btn-outline-dark btn-sm">④</span>. <span class="tran">&nbsp;<small>아뇨, 저는 <strong>드레스덴</strong>에서 살아요.</span></small></td>
+							<td>Nein, ich wohne in <span class="btn btn-outline-dark btn-sm">④</span>. <span class="tran">&nbsp;<br><small>아뇨, 저는 <strong>드레스덴</strong>에서 살아요.</span></small></td>
 							<td>
-								<div class="itm-lst 1itm" id="lst-4">
+								<div class="itm-lst 1itm" id="lst-3">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -111,9 +111,9 @@
 						</tr>
 						<tr>
 							<th class="text-right" scope="row"><button type="button" id="9" class="so btn btn-danger">▶</button></th>
-							<td>Aber meine Mutter wohnt hier in <span class="btn btn-outline-dark btn-sm">⑤</span>. <span class="tran">&nbsp;<small>하지만, 제 어머님은 <strong>베를린</strong>에서 사세요.</small></span></td>
+							<td>Aber meine Mutter wohnt hier in <span class="btn btn-outline-dark btn-sm">⑤</span>. <span class="tran">&nbsp;<br><small>하지만, 제 어머님은 <strong>베를린</strong>에서 사세요.</small></span></td>
 							<td>
-								<div class="itm-lst 1itm" id="lst-5">
+								<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 								</div>
@@ -328,15 +328,15 @@
 				if($("#itms").find("button").length < 1) {
 					$("span").each(function () {
 						if($(this).text() == "①") {
-							var iq = $("#lst-1").find("button").text();
+							var iq = $.trim($(this).closest("tr").find("button:last").text());
 						} else if($(this).text() == "②") {
-							var iq = $("#lst-2").find("button").text();
+							var iq = $.trim($(this).closest("tr").find("button:last").text());
 						} else if($(this).text() == "③") {
-							var iq = $("#lst-3").find("button").text();
+							var iq = $.trim($(this).closest("tr").find("button:last").text());
 						} else if($(this).text() == "④") {
-							var iq = $("#lst-4").find("button").text();
+							var iq = $.trim($(this).closest("tr").find("button:last").text());
 						} else if($(this).text() == "⑤") {
-							var iq = $("#lst-5").find("button").text();
+							var iq = $.trim($(this).closest("tr").find("button:last").text());
 						}
 						$(this).text(iq);
 						$(this).removeClass("btn btn-outline-dark btn-sm");
@@ -345,6 +345,7 @@
 					});
 
 					$(".tran").show();
+					$(".itm-lst").hide();
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");

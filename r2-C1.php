@@ -397,32 +397,33 @@
 			$("#chk").on("click", function() {
 				var na = "";
 				if($("#itms").find("button").length < 1) {
-					$(".tran").show();
 					$("span").each(function () {
 						if($(this).text() == "①") {
-							var iq = $("#lst-1").find("button").text();
+							var iq = $.trim($("#lst-1").find("button").text());
 						} else if($(this).text() == "②") {
-							var iq = $("#lst-2").find("button").text();
+							var iq = $.trim($("#lst-2").find("button").text());
 						} else if($(this).text() == "③") {
-							var iq = $("#lst-3").find("button").text();
+							var iq = $.trim($("#lst-3").find("button").text());
 						} else if($(this).text() == "④") {
-							var iq = $("#lst-4").find("button").text();
+							var iq = $.trim($("#lst-4").find("button").text());
 						} else if($(this).text() == "⑤") {
-							var iq = $("#lst-5").find("button").text();
+							var iq = $.trim($("#lst-5").find("button").text());
 						} else if($(this).text() == "⑥") {
-							var iq = $("#lst-6").find("button").text();
+							var iq = $.trim($("#lst-6").find("button").text());
 						} else if($(this).text() == "⑦") {
-							var iq = $("#lst-7").find("button").text();
+							var iq = $.trim($("#lst-7").find("button").text());
 						} else if($(this).text() == "⑧") {
-							var iq = $("#lst-8").find("button").text();
+							var iq = $.trim($("#lst-8").find("button").text());
 						} else if($(this).text() == "⑨") {
-							var iq = $("#lst-9").find("button").text();
+							var iq = $.trim($("#lst-9").find("button").text());
 						}
 						$(this).text(iq);
 						$(this).removeClass("btn btn-outline-dark btn-sm");
 						$(this).addClass("font-weight-bold");
 
 					});
+					$(".tran").show();
+					$(".itm-lst").hide();
 
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");

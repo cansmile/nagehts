@@ -146,6 +146,13 @@
 						</table>
 					</div>
 				</div>
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
 				<div class="row">
 					<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
 						<div class="row">
@@ -208,13 +215,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- 정답화인 버튼 시작 -->
-				<div class="row">
-					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-						정답확인
-					</div>
-				</div>
-				<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
 		
@@ -351,25 +351,21 @@
 						}
 					})
 					
-					if(na == "") {
+					if($(this).attr("id") == "done") {} else if(na == "") {
 						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(/ /gi, "").toLowerCase();
-							var nan = $("#qst-"+(i+1)).val().replace(/ /gi, "").toLowerCase();
+							var oan = an[i].replace(" ", "").toLowerCase();
+							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
 							var oran = $("#qst-"+(i+1)).val();
 							if(oan == nan) {
 								$("#qst-"+(i+1)).addClass("bg-success text-white");
 								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]+"<br><small class=\"text-dark\">"+ant[i]+"</small></span>");
-									$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-danger\">"+oran+"</span>");
-									$("#qst-"+(i+1)).hide();
+									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 								}
 								ri++;
-								$(".tran").show();
 							} else {
 								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-success\">"+an[i]+"<br><small class=\"text-dark\">"+ant[i]+"</small></span>");
-								$("#qst-"+(i+1)).closest("td").append("<br><span class=\"ml-5 text-danger\">"+oran+"</span>");
-								$("#qst-"+(i+1)).hide();
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 							}
 						}
 
@@ -381,13 +377,15 @@
 						$(this).addClass("bg-primary text-white");
 					} else {
 						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
+						$(this).addClass("bg-warning text-white");
 					}
 
 					$(this).prop("disabled", true);
 					$(".tran").show();
+					$(this).attr("id","done");
 					} else {
-						alert(na+"번 문제를 풀어주세요!");
+						alert("모든 문제를 풀어주세요!");
+						// alert(na+"번 문제를 풀어주세요!");
 					};
 				})
 				$("#qst-1").val(an[0]);

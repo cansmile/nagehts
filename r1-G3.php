@@ -53,7 +53,7 @@
 										<input type="radio" name="options" id="option4" autocomplete="off">?
 									</div>
 								</div>
-								<span class="tran"><br><small>네 이름은 뭐니?<span class="nu">②</span></small></span>
+								<span class="tran"><br><small>네 이름은 뭐니<span class="nu">②</span></small></span>
 							</td>
 						</tr>
 						<tr>
@@ -301,7 +301,8 @@
 						};
 					});
 
-					alert(na + "번 문제를 풀어주세요.");
+					alert("모든 문제를 풀어주세요.");
+					// alert(na + "번 문제를 풀어주세요.");
 				} else {
 					$(".pop").each(function() {
 						$(this).removeClass("btn-info");
@@ -323,21 +324,21 @@
 					
 					$("span").each(function () {
 						if($(this).text() == "①") {
-							var tt = $("#qst-1>div.o").text();
+							var tt = $.trim($("#qst-1>div.o").text());
 						} else if($(this).text() == "②") {
-							var tt = $("#qst-2>div.o").text();
+							var tt = $.trim($("#qst-2>div.o").text());
 						} else if($(this).text() == "③") {
-							var tt = $("#qst-3>div.o").text();
+							var tt = $.trim($("#qst-3>div.o").text());
 						} else if($(this).text() == "④") {
-							var tt = $("#qst-4>div.o").text();
+							var tt = $.trim($("#qst-4>div.o").text());
 						} else if($(this).text() == "⑤") {
-							var tt = $("#qst-5>div.o").text();
+							var tt = $.trim($("#qst-5>div.o").text());
 						} else if($(this).text() == "⑥") {
-							var tt = $("#qst-6>div.o").text();
+							var tt = $.trim($("#qst-6>div.o").text());
 						} else if($(this).text() == "⑦") {
-							var tt = $("#qst-7>div.o").text();
+							var tt = $.trim($("#qst-7>div.o").text());
 						} else if($(this).text() == "⑧") {
-							var tt = $("#qst-8>div.o").text();
+							var tt = $.trim($("#qst-8>div.o").text());
 						}
 					$(this).text(tt);
 					});

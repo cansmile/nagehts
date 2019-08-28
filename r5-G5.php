@@ -126,11 +126,11 @@
 										}
 									}
 										if($(this).hasClass("text-danger")) {
-											itms = itms + "eine ";
+											itms = itms + "<strong>eine</strong> ";
 										} else if($(this).hasClass("text-primary")) {
-											itms = itms + "einen ";
+											itms = itms + "<strong>einen</strong> ";
 										} else if($(this).hasClass("text-secondary")) {
-											itms = itms + "ein ";
+											itms = itms + "<strong>ein</strong> ";
 										}
 										itms = itms + $.trim($(this).text());
 								})

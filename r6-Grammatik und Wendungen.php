@@ -1,39 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-<style>
-	.btn-outline-pink {
-	  color: #ff0099;
-	  border-color: #ff0099;
-	}
-
-	.btn-outline-pink:hover {
-	  color: #fff;
-	  background-color: #ff0099;
-	  border-color: #ff0099;
-	}
-
-	.btn-outline-pink:focus, .btn-outline-pink.focus {
-	  box-shadow: 0 0 0 0.2rem rgba(255, 0, 204, 0.5);
-	}
-
-	.btn-outline-pink.disabled, .btn-outline-pink:disabled {
-	  color: #ff0099;
-	  background-color: transparent;
-	}
-
-	.btn-outline-pink:not(:disabled):not(.disabled):active, .btn-outline-pink:not(:disabled):not(.disabled).active,
-	.show > .btn-outline-pink.dropdown-toggle {
-	  color: #fff;
-	  background-color: #ff0099;
-	  border-color: #ff0099;
-	}
-
-	.btn-outline-pink:not(:disabled):not(.disabled):active:focus, .btn-outline-pink:not(:disabled):not(.disabled).active:focus,
-	.show > .btn-outline-pink.dropdown-toggle:focus {
-	  box-shadow: 0 0 0 0.2rem rgba(255, 0, 204, 0.5);
-	}
-</style>
 <section>
 	<div class="container">
 		<div class="row">
@@ -42,7 +9,7 @@
 					<div class="card">
 						<div class="card-header" id="heading1">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
+								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
 									<strong>Trennbare Verben</strong> <small>분리동사</small>
 								</button>
 							</h5>
@@ -51,32 +18,32 @@
 							<table class="table">
 								<tbody>
 									<tr>
-										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-3 text-right pr-0">auf</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">stehen</div></div></td>
+										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-2 text-right pr-0">auf</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">stehen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%">Maria steht auf.</td>
 									</tr>
 									<tr>
-										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-3 text-right pr-0">auf</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">räumen</div></div></td>
+										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-2 text-right pr-0">auf</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">räumen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%">Maria räumt auf.</td>
 									</tr>
 									<tr>
-										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-3 text-right pr-0">aus</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">leeren</div></div></td>
+										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-2 text-right pr-0">aus</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">leeren</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%">Maria leert den Mülleimer aus.</td>
 									</tr>
 									<tr>
-										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-3 text-right pr-0">ab</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">waschen</div></div></td>
+										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-2 text-right pr-0">ab</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">waschen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%">Maria wäscht ab.</td>
 									</tr>
 									<tr>
-										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-3 text-right pr-0">ein</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">kaufen</div></div></td>
+										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-2 text-right pr-0">ein</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">kaufen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%">Sie kauft ein.</td>
 									</tr>
 									<tr>
-										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-3 text-right pr-0">fern</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0"> sehen</div></div></td>
+										<td width="45%" class="text-center"><div class="row"><div class="col">&nbsp;</div><div class="col-2 text-right pr-0">fern</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0"> sehen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%">Sie sieht fern.</td>
 									</tr>
@@ -87,7 +54,7 @@
 					<div class="card">
 						<div class="card-header" id="heading2">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
+								<button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
 									<strong>Trennbare Verben im Satz</strong> <small>문장에서의 분리동사의 위치</small>
 								</button>
 							</h5>
@@ -146,7 +113,7 @@
 					<div class="card">
 						<div class="card-header" id="heading3">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-info mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
+								<button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
 									<strong>Verbkonjugation</strong> <small>동사변화</small>
 								</button>
 							</h5>
@@ -224,7 +191,7 @@
 					<div class="card">
 						<div class="card-header" id="heading4">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse6" id="4">
+								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse6" id="4">
 									<strong>Redewendungen</strong> <small>어휘와 숙어</small>
 								</button>
 							</h5>
@@ -278,7 +245,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%">Frühtstück machen</td>
+										<td width="50%">Frühstück machen</td>
 										<td>das Geschirr abwaschen und abtrocknen</td>
 									</tr>
 									<tr>
@@ -351,36 +318,28 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%">12.00 Es ist zwölf Uhr.</td>
-										<td>Es ist zwölf.</td>
+										<td colspan="2" width="50%"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr.</div><div class="col-2 text-center">12.00</div><div class="col-5 text-center">Es ist zwölf.</div></div></td>
 									</tr>
 									<tr>
-										<td>12.15 Es ist zwölf Uhr fünfzehn.</td>
-										<td>Es ist Viertel nach zwölf.</td>
+										<td colspan="2"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr fünfzehn.</div><div class="col-2 text-center">12.15</div><div class="col-5 text-center">Es ist Viertel nach zwölf.</div></div></td>
 									</tr>
 									<tr>
-										<td>12.20 Es ist zwölf Uhr zwanzig.</td>
-										<td>Es ist zwanzig nach zwölf.</td>
+										<td colspan="2"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr zwanzig.</div><div class="col-2 text-center">12.20</div><div class="col-5 text-center">Es ist zwanzig nach zwölf.</div></div></td>
 									</tr>
 									<tr>
-										<td>12.30 Es ist zwölf Uhr dreißig.</td>
-										<td>Es ist halb eins.</td>
+										<td colspan="2"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr dreißig.</div><div class="col-2 text-center">12.30</div><div class="col-5 text-center">Es ist halb eins.</div></div></td>
 									</tr>
 									<tr>
-										<td>12.40 Es ist zwölf Uhr vierzig.</td>
-										<td>Es ist zwanzig vor eins.</td>
+										<td colspan="2"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr vierzig.</div><div class="col-2 text-center">12.40</div><div class="col-5 text-center">Es ist zwanzig vor eins.</div></div></td>
 									</tr>
 									<tr>
-										<td>12.45 Es ist zwölf Uhr fünfundvierzig.</td>
-										<td>Es ist Viertel vor eins.</td>
+										<td colspan="2"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr fünfundvierzig.</div><div class="col-2 text-center">12.45</div><div class="col-5 text-center">Es ist Viertel vor eins.</div></div></td>
 									</tr>
 									<tr>
-										<td>12.50 Es ist zwölf Uhr fünfzig.</td>
-										<td>Es ist zehn vor eins.</td>
+										<td colspan="2"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr fünfzig.</div><div class="col-2 text-center">12.50</div><div class="col-5 text-center">Es ist zehn vor eins.</div></div></td>
 									</tr>
 									<tr>
-										<td>12.58 Es ist zwölf Uhr achtundfünfzig.</td>
-										<td>Es ist kurz vor eins.</td>
+										<td colspan="2"><div class="row"><div class="col-5 text-center">Es ist zwölf Uhr achtundfünfzig.</div><div class="col-2 text-center">12.58</div><div class="col-5 text-center">Es ist kurz vor eins.</div></div></td>
 									</tr>
 									<tr>
 										<td style="max-height: 10px; font-size: 1pt;" class="p-0 m-0" colspan="2">&nbsp;</td>

@@ -2,11 +2,17 @@
 <?php
 // 당분간 필요한 변수
 $lt = 4; // 제목 데쉬 이후의 글자 수 제한
-$rm = 4; // 완성된 페이지만 메인에 노출
+$rm = 5; // 완성된 페이지만 메인에 노출
+
+// 색상
+$col = array("blue","brown","darkblue","darkgray","flame","gold","grape","gray","green","khaki","lightcyan","navy","orange","pink","primary","purple","red","redbeen","scarlet","skyblue","violet","warning","wine","yellow","yellowgreen");
+// $col = array("blue","brown","danger","darkblue","darkgray","default","flame","gold","grape","gray","green","info","inverse","khaki","lightcyan","navy","orange","pink","primary","purple","red","redbeen","scarlet","skyblue","success","violet","warning","wine","yellow","yellowgreen");
+$color = $col[array_rand($col)];
 
 // header 에서 정의된 변수 [ $fn 은 파일명만, $bn 은 확장자 포함 ]
 $a = " active";
 $sr = " <span class=\"sr-only\">(current)<\/span><\/a>";
+
 
 // 로그인 확인
 include 'wp-load.php';
@@ -111,13 +117,12 @@ $rtl = array(
 	array(
 		"A" => array("A1" => "Wo sind die Leute und was machen sie?", "A2" => "Lesen Sie und ordnen Sie zu.", "A3" => "Ordnen Sie zu."),
 		"B" => array("B1" => "Mein Lieblingsessen", "B2" => "Was trinkst du gern?", "B4" => "Ich esse lieber Brot."),
-		"C" => array("C1" => "Was isst er/sie?", "C2" => "Was isst du und was trinkst du ?", "C4" => "Mahlzeiten - Was isst und trinkt Tim Sager?", "C5" => "Mahlzeiten - Was isst und trinkt Monika Mai?", "C6" => "Mahlzeiten in Korea"),
+		"C" => array("C1" => "Was isst er·sie?", "C2" => "Was isst du und was trinkst du?", "C4" => "Mahlzeiten - Was isst und trinkt Tim Sager?", "C5" => "Mahlzeiten - Was isst und trinkt Monika Mai?", "C6" => "Mahlzeiten in Korea"),
 		"D" => array("D1" => "Bestellen", "D3" => "Wer sagt das?", "D4" => "Wir möchten gern bestellen.", "D5" => "Was möchten die Personen essen?<br>Was möchten sie trinken?"),
 		"E" => array("E2" => "Geschmack", "E3" => "Üben Sie."),
 		"F" => array("F1" => "Bezahlen", "F2" => "Wir möchten bezahlen."),
 		"G" => array("G1" => "Ordnen Sie und tragen Sie unten ein.", "G3" => "Was essen und trinken<br>Tim und Monika gern?", "G4" => "Der Kellner bringt das Falsche.", "G5" => "Wer möchte was?", "G7" => "Was passt zusammen?", "G10" => "Ergänzen Sie die Tabelle.", "G11" => "Ergänzen Sie ‚e’ oder ‚i’", "G12" => "Ergänzen Sie.", "G13" => "Ergänzen Sie.", "G14" => "Ergänzen Sie: den/die/das.", "G16" => "Ich möchte bestellen.<br>Ich möchte bezahlen.")
-	)
-,
+	),
 	6 =>
 	array(
 		"A" => array("A1" => "Was machen sie gern?", "A2" => "Was machen sie (nicht) gern?", "A3" => "Haushalt"),
@@ -125,14 +130,21 @@ $rtl = array(
 		"C" => array("C1" => "Hören Sie und sprechen Sie nach.", "C2" => "Wie sind die Fragen?"),
 		"D" => array("D1" => "Wohin passt das?", "D2" => "Wohin passt das?"),
 		"E" => array("E1" => "Was machen die Leute?", "E2" => "Antworten Sie mit ja, nein, doch.", "E3" => "Schreiben Sie die Uhrzeiten auf.", "E4" => "Trennbar oder nicht trennbar?", "E5" => "Sortieren Sie die Verben.", "E7" => "Lesen Sie den Text.")
-	)
-,
+	),
 	7 =>
 	array(
 		"A" => array("A0" => "Wo ist das?", "A1" => "Was machen Sie am Wochenende?", "A2" => "Was möchten Sie am Wochenende machen?", "A3" => "Sehen Sie sich den Kalender an und lesen Sie. Was geht (nicht)?"),
 		"B" => array("B1" => "Verabredung I", "B2" => "Verabredung II (Telefon)", "B3" => "Verabredung III (Chat)", "B4" => "Was passt?", "B5" => "Verabredung IV (SMS)", "B6" => "Höfliches Absagen bei Kurznachrichten (SMS)"),
 		"C" => array("C1" => "Was kann / muss / darf man (nicht)?", "C2" => "Was soll / will / möchte man (nicht)?", "C3" => "Was kann man, was darf man nicht und was muss man machen?", "C4" => "Lesen Sie den Text und unterstreichen Sie alle Verben.", "C6" => "Anweisung: Ordnen Sie die Sätze.", "C7" => "Hören Sie den Dialog und ergänzen Sie."),
 		"D" => array("D1" => "Was passt zu welchem Bild?", "D2" => "Ergänzen Sie die Lücken.", "D3" => "Ergänzen Sie die Modalverben in der richtigen Form.", "D4" => "Ergänzen Sie.", "D5" => "Wohin kann man gehen?", "D6" => "Schreiben Sie die Sätze neu.", "D7" => "Ergänzen Sie um, am oder in.", "D8" => "Ergänzen Sie das Telefongespräch.")
+	),
+	8 =>
+	array(
+		"A" => array("A1" => "Was machen die Personen?", "A2" => "Lesen Sie die Texte."),
+		"B" => array("B1" => "Wie heißen die Körperteile?", "B2" => "Singen wir das Lied „Kopf, Schulter, Knie” zusammen.", "B3" => "Ergänzen Sie die Körperteile in Singular.", "B4" => "Körperteile und Tätigkeiten. Was passt?", "B5" => "Was passt?"),
+		"C" => array("C1" => "Was für Schmerzen sind das?", "C2" => "Er/Sie ist krank. Was hat er/sie?", "C3" => "Krankheiten: Schreiben Sie.", "C4" => "Hören Sie die Gespräche und kreuzen Sie an.", "C5" => "Welche Verben sind im Nominativ, Akkusativ, Dativ und Akkusativ oder Dativ?", "C7" => "Bilden Sie mit den Verben im Dativ einen Text."),
+		"D" => array("D1" => "Arztbesuch: Zu welchem Arzt gehen Sie?", "D2" => "Zu Hause", "D3" => "Termin beim Arzt", "D4" => "Bei der Ärztin", "D5" => "Und jetzt sind Sie der Doktor! Was sollen die Personen tun?", "D6" => "Ihr(e) Freund(in) hat Probleme. Was würden Sie ihm (ihr) empfehlen?", "DGR" => "Imperativ"),
+		"E" => array("E1" => "Wie heißen die Körperteile?", "E2" => "Was fehlt Ihnen?", "E3" => "Bei der Ärztin: Was sagen sie?", "E4" => "Schreiben Sie die passenden Personalpronomen im Dativ.", "E5" => "Was muss man tun? Was darf man nicht?", "E6" => "Imperativ: Was sagen Sie?")
 	)
 );
 
@@ -197,6 +209,15 @@ $rtl_k = array(
 		"C" => array("C1" => "무엇을 할 수 있고 해야만 하고 해도되나요?", "C2" => "무엇을 해야만 하고 하려고 하고 하고 싶어 하나요?", "C3" => "무엇을 할 수 있고, 해서는 안되고 해야만 할까요?", "C4" => "텍스트를 읽고 모든 동사에 줄을 그세요", "C6" => "지시문: 순서대로 나열하세요.", "C7" => "대화문을 듣고 채우세요."),
 		"D" => array("D1" => "어느 그림에 무엇이 맞나요?", "D2" => "빈칸을 채우세요.", "D3" => "괄호안에 알맞은 형태의 화법조동사를 넣으세요.", "D4" => "빈칸을 채우세요.", "D5" => "어디로 갈 수 있나요?", "D6" => "밑줄친 단어를 이용해 문장을 다시 써보세요.", "D7" => "빈칸에 um, am 또는 in 중 알맞은 전치사를 넣어 보세요.", "D8" => "다음 전화대화를 알맞은 문장을 넣어 완성해보세요.")
 	)
+,
+	8 =>
+	array(
+		"A" => array("A1" => "사람들이 무엇을 하고 있나요?", "A2" => "본문을 읽으세요."),
+		"B" => array("B1" => "신체 부위를 어떻게 부르나요?", "B2" => "“머리, 어깨, 무릎” 노래를 불러보아요.", "B3" => "신체부위(단수형)를 빈칸에 채워 보세요.", "B4" => "신체부위와 그 기능들을 나열해보세요?", "B5" => "무엇이 알맞은가요?"),
+		"C" => array("C1" => "어떤 통증인가요?", "C2" => "그/그녀가 아픕니다. 어디가 아픈가요?", "C3" => "병명을 써보세요.", "C4" => "대화를 듣고 맞는 곳에 표시하세요.", "C5" => "어떤 동사가 주격동사, 직접목적격동사, 간접목적격동사 혹은 직접·간접목적격 동사인가요?", "C7" => "3격 (간접목적격) 지배동사를 가지고 텍스트를 만들어 보세요."),
+		"D" => array("D1" => "병원방문: 어느병원에 가야할까요?", "D2" => "집에서", "D3" => "병원예약", "D4" => "개인병원에서", "D5" => "당신은 의사입니다. 사람들이 무엇을 해야 하나요?", "D6" => "당신의 친구에게 문제가 있어요. 그에게 뭐라고 조언을 해야 하나요?", "DGR" => "명령형"),
+		"E" => array("E1" => "신체 부위를 어떻게 부르나요?", "E2" => "어디가 아픈가요?", "E3" => "개인병원에서: 의사와 김선생님은 무엇이라고 말하나요?", "E4" => "알맞은 간접목적어를 넣으세요.", "E5" => "무엇을 해야 하고 하지말아야 하나요?", "E6" => "명령형: 무엇이라고 말해야 하나요?")
+	)
 
 
 
@@ -223,7 +244,11 @@ if($fn == "inthebeginning") {
 		$rt = "Reihe {$r} - {$da[0]} - Inhalt";
 	} else {
 		$rl = substr($fn,0,($dash));
-		$rt = "Reihe {$fn[1]} - Inhalt";
+		if($fn[2] == "-") {
+			$rt = "Reihe {$fn[1]} - Inhalt";
+		} else {
+			$rt = "Reihe {$fn[1]}{$fn[2]} - Inhalt";
+		}
 	}
 }
 // $dash 변수가 설정됐나?
@@ -241,7 +266,7 @@ if(!$ds) {
 	if(ul()) {
 ?>
 	<a href="<?php echo($rl.".php"); ?>">
-		<button type="button" class="btn btn-dark">
+		<button type="button" class="btn btn-<?php echo($color); ?>">
 			<i class="fas fa-angle-double-left"></i>&nbsp;<?php echo($rt); ?>
 		</button>
 	</a>
@@ -252,7 +277,7 @@ if(!$ds) {
         <ul class="navbar-nav mr-2">
 <?php if(ul()) { ?>
 			<li class="nav-item">
-			  <a class="nav-link <?php if($fn == "inthebeginning") { echo("active"); } ?>" href="http://www.nagehts.org">Na, geht's?</a>
+			  <a class="nav-link <?php if($fn == "inthebeginning") { echo("active bg-<?php echo($color); ?>"); } ?>" href="http://www.nagehts.org">Na, geht's?</a>
 			</li>
 <?php if($ds) { ?>
 			<li class="nav-item">
@@ -283,7 +308,7 @@ if($ds) {
 			if(file_exists($cn.".php")) {
 				echo("<a class=\"dropdown-item");
 				if($fn == $cn) {
-					echo($a);
+					echo($a." bg-".$color);
 					$jt1 = $tl[$r][$cn];
 					$jt2 = $tl_k[$r][$cn];
 				}
@@ -300,7 +325,7 @@ if($ds) {
 			if(file_exists(($cn).".php")) {
 				echo("<a class=\"dropdown-item");
 				if($da == $mkey ) {
-					echo($a);
+					echo($a." bg-".$color);
 					$jt1 = ($i+1).". ".$rtl[$r][$mkey[0]][$mkey];
 					$jt2 = $rtl_k[$r][$mkey[0]][$mkey];
 				}
@@ -324,7 +349,7 @@ if($ds) {
 		if(($i-1) < $rm) {
 			echo("<a class=\"dropdown-item");
 			if($fn == "r".($i)) {
-				echo($a);
+				echo($a." bg-".$color);
 
 				$jt0 = "Reihe ".$r;
 				$jt1 = $itl[$r];
@@ -337,7 +362,7 @@ if($ds) {
 		if(($i-1) >= $rm && $edt) {
 			echo("<a class=\"dropdown-item");
 			if($fn == "r".($i)) {
-				echo($a);
+				echo($a." bg-".$color);
 
 				$jt0 = "Reihe ".$r;
 				$jt1 = $itl[$r];
@@ -352,7 +377,7 @@ if($ds) {
           </li>
 <?php } else { ?>
           <li class="nav-item">
-            <a class="nav-link active" href="<?php echo($returnPath); ?>">이용하시려면 로그인</a>
+            <a class="nav-link active bg-<?php echo($color); ?>" href="<?php echo($returnPath); ?>">이용하시려면 로그인</a>
           </li>
 <?php } ?>
         </ul>
@@ -383,6 +408,7 @@ if($fn != "inthebeginning") {
 
 <?php
 		if(strlen($da) < $lt) {
+			if(substr($da, 1, 2) == "GR") { $da = "GR"; }
 ?>
 					<h2>(교재 <strong><?php echo($da); ?></strong>)</h2>
 <?php

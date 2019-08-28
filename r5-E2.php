@@ -40,7 +40,7 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-1.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+									<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-1.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 								</tr>
 								<tr>
 									<td>
@@ -60,7 +60,7 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-2.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+									<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-2.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 								</tr>
 								<tr>
 									<td>
@@ -80,7 +80,7 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-3.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+									<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-3.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 								</tr>
 								<tr>
 									<td>
@@ -100,7 +100,7 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-4.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+									<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-4.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 								</tr>
 								<tr>
 									<td>
@@ -120,7 +120,7 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-5.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+									<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-5.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 								</tr>
 								<tr>
 									<td>
@@ -140,7 +140,7 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-6.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+									<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-6.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 								</tr>
 								<tr>
 									<td>
@@ -154,6 +154,14 @@
 						</table>
 					</div>
 				</div>
+<!-- 정답화인 버튼 시작 -->
+		<div class="row">
+			<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+				정답확인
+			</div>
+		</div>
+	<!-- 정답확인 버튼 끝 -->
+
 			</div>
 		</section>
 		
@@ -172,65 +180,11 @@
 			$(".tran").hide();
 
 			$(document).ready(function() {
-				// 각 문장 재생 횟수 초기화
-				var hm = new Array();
-				for(i = 0; i < $(".so").length; i++) {
-					hm[i] = 0;
-				}
-
-				ion.sound({
-					sounds : [{
-						name : "Bama_Country_Country",
-					}, {
-						name : "Cartoon_Boing",
-					}],
-					path : "sounds/",
-					preload : true,
-					volume : 1.0,
-					multiplay: false,
-					
-					ready_callback: function () {
-						
-				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
-				});
-
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
-
-				$("[data-toggle='popover']").popover({
-					delay : {
-						'hide' : 1000
-					},
-					container : "body"
-				});
-			
-				$(".pop").click(function () {
-					// 가장 먼저 지문에 'an' 넣기
-					if (!$(this).siblings().hasClass("an")) {
-						$(this).addClass("an");
-						$(this).addClass("btn-warning");
-						$(this).parent().children().removeClass("btn-light");
-					};
-	
-					// 문제 풀이 정도 업데이트
-					var perc = Math.round(($(".an").length / $(".q").length) * 100);
-					$(".progress>.bar").attr("width", perc + "%;");
-					
-				});
-				
-			// 팝업 내용 사라지기
-			$(".pop").popover().click(function() {
-				setTimeout(function() {
-					$(".pop").popover('hide');
-				}, 500);
-			});
-
 			// 정답확인
 			$("#chk").on("click", function() {
 				var na = "";
 				if($("#itms").find("button").length < 1) {
+					$(this).attr("id","done");
 					$(".tran").show();
 					$(".itm-lst").each(function() {
 						$(this).html($(this).find("button").html());
@@ -250,15 +204,11 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
-		$("#0").show();
-		$(".alert").hide();
-		}
 	});
-	
-});
 			
 		</script>
 		<!-- ion.sound finished -->

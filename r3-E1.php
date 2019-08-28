@@ -1,10 +1,5 @@
 <?php include "header.php"; ?>
 	<body>
-<style>
-	.bg-gray {
-		background-color: #cccccc !important;
-	}
-</style>
 <?php include "nav.php"; ?>
 		<section>
 			<div class="container">
@@ -18,7 +13,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-						<div class="row"><div class="col bg-gray">
+						<div class="row"><div class="col bg-gray-light">
 							<table class="table">
 								<tbody>
 									<tr>
@@ -234,76 +229,89 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Ingenieur","Nonnendammallee 72, 13628 Berlin","958313","0941","jonasmeyer@yahoo.de"];
-
-			function ch() {
-				$(".wd").removeClass("bg-warning text-dark");
-				$(".wd").each(function () {
-					var t = $(this);
-					var tt = t.text().trim();
-					$("input").each(function() {
-					if($(this).val().indexOf(tt) != -1) {
-						t.addClass("bg-warning text-dark");
-					}
-				})
-
-				})
-			}
+			var an = ["Ingenieur",["Nonnendammallee 72, 13628 Berlin", "Nonnendammallee "],"958313","0941","jonasmeyer@yahoo.de"];
 
 			$(document).ready(function() {
+/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+// 값 확인해보자, io값이 참이면 전체 검사
+function rfchk(th,io) {
+	var q, qn, a, b, fl;
+	q = th.val().length;
+	qn = (th.attr("id").substr(4))-1;
+	a = th.val();
+	a = a.replace(/ /gi, "");
+	if(!$.isArray(an[qn])) {
+		// 1 인 경우 
+		if(io) {
+			b = an[qn];
+		} else {
+			b = an[qn].substr(0,q);
+		}
+		b = b.replace(/ /gi, "");
+
+		if(a == b) {
+			return true;
+		}
+
+	} else {
+		// 2 이상인 경우
+		for(var fd = 0; fd < an[qn].length; fd++) {
+			if(io) {
+				b = an[qn][fd];
+			} else {
+				b = an[qn][fd].substr(0,q);
+			}
+			b = b.replace(/ /gi, "");
+			
+			if(a == b) {
+				return true;
+			}
+		}
+		
+	}
+}
 				$(".q").on("keyup", function () {
-					var q = $(this).val().length;
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = $(this).val();
-					var b = an[qn].substr(0,q);
-					a = a.replace(/ /gi, "");
-					b = b.replace(/ /gi, "");
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
-					if(a == b) {
-						$(this).addClass("text-white text-weight-bold");
+
+					if(rfchk($(this))) {
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 					} else {
-						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
+
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white text-weight-bold");
+						$(this).removeClass("text-white font-weight-bold");
 					}
+					
 					if($(this).val()) {
 						$("#ant-"+$(this).attr("id").substr(4)).show();
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
 					} else {
 						$("#ant-"+$(this).attr("id").substr(4)).hide();
 					}
-					ch();
 				})
 
 				$(".q").on("focusin", function() {
-					var q = $(this).val().length;
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = $(this).val();
-					var b = an[qn].substr(0,q);
-					a = a.replace(/ /gi, "");
-					b = b.replace(/ /gi, "");
-
 					$("#ant-"+$(this).attr("id").substr(4)).show();
 					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
 					}
 					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
-						if(a == b) {
-							$(this).addClass("text-white text-weight-bold");
+						if(rfchk($(this))) {
+							$(this).addClass("text-white font-weight-bold");
 							$(this).addClass("bg-success");
 							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 						} else {
-							$(this).addClass("text-white text-weight-bold");
+							$(this).addClass("text-white font-weight-bold");
 							$(this).addClass("bg-danger");
 							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 						}
@@ -312,12 +320,10 @@
 
 				$(".q").on("focusout", function() {
 					$("#ant-"+$(this).attr("id").substr(4)).hide();
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = an[qn];
-					var b = $(this).val();
 
-					if(a == b) {
+					if(rfchk($(this),true)) {
 						$(this).addClass("bg-success");
+						$(this).addClass("text-white");
 					} else {
 						$(this).addClass("bg-danger");
 					}
@@ -330,13 +336,13 @@
 						}
 					}
 
-					$(this).removeClass("text-white text-weight-bold");
 					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
-
-
-
+					if(!$(this).attr("disabled")) {
+						$(this).removeClass("text-white font-weight-bold");
+						$(this).removeClass("bg-success");
+					}
 				})
+/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
 					var na = "";
@@ -352,21 +358,21 @@
 					})
 					
 					if($(this).attr("id") == "done") {} else if(na == "") {
+						
 						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(" ", "").toLowerCase();
-							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
 							var oran = $("#qst-"+(i+1)).val();
-							if(oan == nan) {
+							if(rfchk($("#qst-"+(i+1)))) {
 								$("#qst-"+(i+1)).addClass("bg-success text-white");
-								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-								}
-								ri++;
 							} else {
 								$("#qst-"+(i+1)).val(an[i]);
 								$("#qst-"+(i+1)).attr("disabled",true);
 								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 							}
+
+							if($("#qst-"+(i+1)).hasClass("bg-success")) {
+								ri++;
+							}
+
 						}
 
 					if (ri < (qst/2)) {
@@ -389,7 +395,7 @@
 					};
 				})
 				$("#qst-1").val(an[0]);
-				ch();
+				$("#qst-1").addClass("bg-success text-white font-weight-bold");
 				$("input:first()").prop("disabled",true);
 			});
 			

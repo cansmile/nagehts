@@ -6,7 +6,6 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Hier sind die Antworten. <small>질문이 주어져 있어요.</small></h2>
 						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
 					</div>
 				</div>

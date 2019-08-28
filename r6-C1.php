@@ -122,7 +122,7 @@ Ein neues Leben fängt an. <br><span class="pl-2"><small>새로운 인생이 시
 									<td class="bg-light border border-top-0">
 Ich komme <strong>um</strong> 11 Uhr nachts nach Hause. <br><span class="pl-2"><small>나는 밤 11시<strong>에</strong> 귀가한다.</small></span><br>
 <strong>Um</strong> 9 Uhr beginnt der Deutschunterricht. <br><span class="pl-2"><small>9시<strong>에</strong> 독일어 수업이 시작된다.</small></span><br>
-<strong>Um</strong> 7 Uhr abends gehe ich nach hause. <br><span class="pl-2"><small>저녁 7시<strong>에</strong> 집에 간다.</small></span><br>
+<strong>Um</strong> 7 Uhr abends gehe ich nach Hause. <br><span class="pl-2"><small>저녁 7시<strong>에</strong> 집에 간다.</small></span><br>
 									</td>
 								</tr>
 								<tr>

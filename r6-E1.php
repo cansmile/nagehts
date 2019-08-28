@@ -108,7 +108,7 @@
 								</tr>
 								<tr>
 									<th class="align-middle border-0 text-center" scope="row">5.</th>
-									<td class="align-middle border-0">Jemand macht eine Flasche Sekt auf.<span class="tran"><small><br>어떤 사람이 샴페인 병의 뚜껑을 연다.</small></span></td>
+									<td class="align-middle border-0">Jemand macht eine Flasche Sekt auf.<span class="tran"><small><br>어떤 사람이 샴페인 병을 연다.</small></span></td>
 									<td class="align-middle border-0">
 										<div class="itm-lst 1itm py-0 my-0" id="lst-5">
 													<h2 class="btn btn-warning btn-lg ttl d-block">

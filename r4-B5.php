@@ -19,12 +19,11 @@
 						</h2>
 						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
 						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
-						<h3>[ <small>문장 뒤에 passen zusammen은 입력란을 벗어나면 자동으로 채워집니다.</small> ]</h3>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-12">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -32,7 +31,7 @@
 									<td><div class="ant" id="ant-1"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Der Stuhl und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-1">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
 										</div><span class="tran"><br><small>걸상과 책상이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
@@ -40,7 +39,7 @@
 									<td><div class="ant" id="ant-2"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Der Bleistift und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-2">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
 										</div><span class="tran"><br><small>연필과 연필 깍기가 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
@@ -48,7 +47,7 @@
 									<td><div class="ant" id="ant-3"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Das Fenster und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-3">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
 										</div><span class="tran"><br><small>창문과 커튼이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
@@ -56,15 +55,21 @@
 									<td><div class="ant" id="ant-4"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Die Blume und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-4">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
 										</div><span class="tran"><br><small>꽃과 꽃병이 서로 어울려요.</small></span></td>
 								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<table class="table">
+							<tbody>
 								<tr>
 									<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
 									<td><div class="ant" id="ant-5"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Das Auge und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-5">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
 										</div><span class="tran"><br><small>눈과 안경이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
@@ -72,7 +77,7 @@
 									<td><div class="ant" id="ant-6"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Die Hände und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-6">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
 										</div><span class="tran"><br><small>손과 장갑이 서로 어울려요.</small></span></td>
 								</tr>
 								<tr>
@@ -80,7 +85,7 @@
 									<td><div class="ant" id="ant-7"></div><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Die Zahnbürste und </span></div>
 											<input type="text" class="form-control q" aria-label="." id="qst-7">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
 										</div><span class="tran"><br><small>치약과 칫솔이 서로 어울려요.</small></span></td>
 								</tr>
 							</tbody>
@@ -144,34 +149,69 @@
 			$(".ant").hide();
 
 			var an = new Array();
-			var an = ["der Tisch passen zusammen","der Spitzer","der Vorhang","die Vase","die Brille","die Handschuhe","die Zahnpasta"];
+			var an = ["der Tisch","der Spitzer","der Vorhang","die Vase","die Brille","die Handschuhe","die Zahnpasta"];
 
 			$(document).ready(function() {
+/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+// 값 확인해보자, io값이 참이면 전체 검사
+function rfchk(th,io) {
+	var q, qn, a, b, fl;
+	q = th.val().length;
+	qn = (th.attr("id").substr(4))-1;
+	a = th.val();
+	a = a.replace(/ /gi, "");
+	if(!$.isArray(an[qn])) {
+		// 1 인 경우 
+		if(io) {
+			b = an[qn];
+		} else {
+			b = an[qn].substr(0,q);
+		}
+		b = b.replace(/ /gi, "");
+
+		if(a == b) {
+			return true;
+		}
+
+	} else {
+		// 2 이상인 경우
+		for(var fd = 0; fd < an[qn].length; fd++) {
+			if(io) {
+				b = an[qn][fd];
+			} else {
+				b = an[qn][fd].substr(0,q);
+			}
+			b = b.replace(/ /gi, "");
+			
+			if(a == b) {
+				return true;
+			}
+		}
+		
+	}
+}
 				$(".q").on("keyup", function () {
-					var q = $(this).val().length;
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = $(this).val();
-					var b = an[qn].substr(0,q);
-					a = a.replace(/ /gi, "");
-					b = b.replace(/ /gi, "");
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
-					if(a == b) {
-						$(this).addClass("text-white text-weight-bold");
+
+					if(rfchk($(this))) {
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 					} else {
-						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
+
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white text-weight-bold");
+						$(this).removeClass("text-white font-weight-bold");
 					}
+					
 					if($(this).val()) {
 						$("#ant-"+$(this).attr("id").substr(4)).show();
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -185,38 +225,44 @@
 					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
 					}
+					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
+						if(rfchk($(this))) {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-success");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+						} else {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-danger");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+						}
+					}
 				})
 
 				$(".q").on("focusout", function() {
 					$("#ant-"+$(this).attr("id").substr(4)).hide();
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = an[qn];
-					var b = $(this).val();
 
-					if(a == b) {
+					if(rfchk($(this),true)) {
 						$(this).addClass("bg-success");
-						$(this).val(an[qn]+" passen zusammen");
-						$(this).prop("disabled",true);
-						$(this).addClass("text-weight-bold");
-
+						$(this).addClass("text-white");
 					} else {
 						$(this).addClass("bg-danger");
 					}
-
 					if($(this).val()) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
 							ion.sound.play("Bama_Country_Country");
+							$(this).prop("disabled",true);
 						}
 					}
 
-					$(this).removeClass("text-white text-weight-bold");
 					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
-
+					if(!$(this).attr("disabled")) {
+						$(this).removeClass("text-white font-weight-bold");
+						$(this).removeClass("bg-success");
+					}
 				})
-
+/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				// 각 문장 재생 횟수 초기화
 				var hm = new Array();
@@ -357,24 +403,20 @@
 					})
 					
 					if($(this).attr("id") == "done") {} else if(na == "") {
-						$("#qst-1").addClass("bg-success text-white");
 						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(" ", "").toLowerCase();
-							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
 							var oran = $("#qst-"+(i+1)).val();
-							if(oan == nan || (oan+"passen zusammen") ==  nan) {
+							if(rfchk($("#qst-"+(i+1)))) {
 								$("#qst-"+(i+1)).addClass("bg-success text-white");
-								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-								}
-								ri++;
 							} else {
-								if(i>0) {
-									$("#qst-"+(i+1)).val(an[i]+" passen zusammen");									
-									$("#qst-"+(i+1)).attr("disabled",true);
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-								}
+								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 							}
+
+							if($("#qst-"+(i+1)).hasClass("bg-success")) {
+								ri++;
+							}
+
 						}
 
 					if (ri < (qst/2)) {
@@ -403,6 +445,7 @@
 	});
 				$("#qst-1").val(an[0]);
 				$("#qst-1").prop("disabled",true);
+				$("#qst-1").addClass("bg-success text-white font-weight-bold");
 				$("#qst-1").closest("tr").find(".tran").show();
 	
 });

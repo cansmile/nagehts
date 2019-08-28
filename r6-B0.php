@@ -63,8 +63,8 @@ $double_cell_height = $a_cell_height * 2;
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm py-0 my-0" id="15">
 							fünfzehn Uhr zwanzig.
 						</button>
-						<button type="button" class="mt-1 mx-1 btn ans24 btn-lg btn-outline-dark itm py-0 my-0" id="16">
-							kurz nach elf.
+						<button type="button" class="mt-1 mx-1 btn ans14 btn-lg btn-outline-dark itm py-0 my-0" id="16">
+							dreiundzwanzig Uhr drei.
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm py-0 my-0" id="17">
 							vierzehn Uhr fünfundfünfzig.

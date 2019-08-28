@@ -1,10 +1,5 @@
 <?php include "header.php"; ?>
 	<body>
-<style>
-	.bg-gray {
-		background-color: #cccccc !important;
-	}
-</style>
 <?php include "nav.php"; ?>
 		<section>
 			<div class="container">

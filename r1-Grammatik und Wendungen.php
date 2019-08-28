@@ -10,7 +10,7 @@
 					<div class="card">
 						<div class="card-header" id="heading1">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
+								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
 									<strong>W-Fragen und Antworten</strong> <small>의문사로 시작하는 의문문과 대답</small>
 								</button>
 							</h5>
@@ -39,7 +39,7 @@
 					<div class="card">
 						<div class="card-header" id="heading2">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
+								<button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
 									<strong>Ja / Nein Fragen und Antworten</strong> <small>“예”, “아니요”로 시작하는 의문문과 대답</small>
 								</button>
 							</h5>
@@ -68,7 +68,7 @@
 					<div class="card">
 						<div class="card-header" id="heading3">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-info mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
+								<button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
 									<strong>Verbkonjugation</strong> <small>동사변화</small>
 								</button>
 							</h5>
@@ -113,7 +113,7 @@
 												<div class="py-2 col-6"><strong>bist</strong></div>
 											</div>
 											<div class="row">
-												<div class="py-2 col-6 border-right border-dark"><strong>Sie</strong></div>
+												<div class="py-2 col-6 border-right border-dark"><strong>Sie</strong<>/div>
 												<div class="bg-light py-2 col-6"><strong>sind</strong></div>
 											</div>
 											<div class="row">
@@ -129,7 +129,7 @@
 					<div class="card">
 						<div class="card-header" id="heading4">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-success mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
+								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
 									<strong>Wortstellung</strong> <small>어순</small>
 								</button>
 							</h5>
@@ -172,7 +172,7 @@
 					<div class="card">
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
+								<button class="btn btn-outline-purple mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
 									<strong>Redewendungen</strong> <small>어휘와 숙어</small>
 								</button>
 							</h5>

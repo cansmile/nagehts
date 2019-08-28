@@ -739,39 +739,72 @@
 					}, 500);
 				});
 
+/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+// 값 확인해보자, io값이 참이면 전체 검사
+function rfchk(th,io) {
+	var q, qn, a, b, fl;
+	q = th.val().length;
+	qn = (th.attr("id").substr(4))-1;
+	a = th.val();
+	a = a.replace(/ /gi, "");
+	if(!$.isArray(an[qn])) {
+		// 1 인 경우 
+		if(io) {
+			b = an[qn];
+		} else {
+			b = an[qn].substr(0,q);
+		}
+		b = b.replace(/ /gi, "");
 
+		if(a == b) {
+			return true;
+		}
+
+	} else {
+		// 2 이상인 경우
+		for(var fd = 0; fd < an[qn].length; fd++) {
+			if(io) {
+				b = an[qn][fd];
+			} else {
+				b = an[qn][fd].substr(0,q);
+			}
+			b = b.replace(/ /gi, "");
+			
+			if(a == b) {
+				return true;
+			}
+		}
+		
+	}
+}
 				$(".qt").on("keyup", function () {
-					var q = $(this).val().length;
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = $(this).val();
-					var b = an[qn].substr(0,q);
-					a = a.replace(/ /gi, "");
-					b = b.replace(/ /gi, "");
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
-					if(a == b) {
-						$(this).addClass("text-white text-weight-bold");
+
+					if(rfchk($(this))) {
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 					} else {
-						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
+
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white text-weight-bold");
+						$(this).removeClass("text-white font-weight-bold");
 					}
+					
 					if($(this).val()) {
 						$("#ant-"+$(this).attr("id").substr(4)).show();
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
 					} else {
 						$("#ant-"+$(this).attr("id").substr(4)).hide();
 					}
-
 				})
 
 				$(".qt").on("focusin", function() {
@@ -779,34 +812,25 @@
 					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
 					}
+					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
+						if(rfchk($(this))) {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-success");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+						} else {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-danger");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+						}
+					}
 				})
-
 
 				$(".qt").on("focusout", function() {
 					$("#ant-"+$(this).attr("id").substr(4)).hide();
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = an[qn];
-					var b = $(this).val();
 
-					if(a == b) {
+					if(rfchk($(this),true)) {
 						$(this).addClass("bg-success");
-						
-						$("td").each(function() {
-							if($(this).text() == b.substr(4)) {
-								$(this).addClass("text-dark bg-warning");
-							}
-						})
-							
-						$(this).prop("disabled",true);
-						$(this).addClass("text-weight-bold");
-						$(this).closest("table").find(".q").show();
-						$(this).closest("table").find(".tran").each(function () {
-							$(this).show();
-						})
-						$(this).closest("table").find(".wd").each(function () {
-							$(this).addClass("text-muted");
-						})
-
+						$(this).addClass("text-white");
 					} else {
 						$(this).addClass("bg-danger");
 					}
@@ -816,14 +840,22 @@
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
 							ion.sound.play("Bama_Country_Country");
+							$(this).prop("disabled",true);
 						}
 					}
 
-					$(this).removeClass("text-white text-weight-bold");
 					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
-
+					if(!$(this).attr("disabled")) {
+						$(this).removeClass("text-white font-weight-bold");
+						$(this).removeClass("bg-success");
+						$(this).closest("table").find(".q").show();
+						$(this).closest("table").find(".tran").each(function () {
+							$(this).show();
+						})
+					}
 				})
+/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
+
 
 				$("#chk").on("click", function() {
 					var na = "";
@@ -846,20 +878,19 @@
 					
 					if(na == "" && da == "") {
 						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(/ /gi, "").toLowerCase();
-							var nan = $("#txt-"+(i+1)).val().replace(/ /gi, "").toLowerCase();
 							var oran = $("#txt-"+(i+1)).val();
-							if(oan == nan) {
+							if(rfchk($("#txt-"+(i+1)))) {
 								$("#txt-"+(i+1)).addClass("bg-success text-white");
-								if($("#txt-"+(i+1)).val() != an[i]) {
-									$("#txt-"+(i+1)).parent().append("<div class=\"ml-5 text-danger\">"+oran+"</div>");
-								}
-								ri++;
 							} else {
-								$("#txt-"+(i+1)).hide();
-								$("#txt-"+(i+1)).parent().append("<div class=\"ml-5 d-block text-success\">"+an[i]+"</div><br>");
-								$("#txt-"+(i+1)).parent().append("<div class=\"ml-5 d-block text-danger\">"+oran+"</div>");
+								$("#txt-"+(i+1)).val(an[i]);
+								$("#txt-"+(i+1)).attr("disabled",true);
+								$("#txt-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 							}
+
+							if($("#txt-"+(i+1)).hasClass("bg-success")) {
+								ri++;
+							}
+
 						}
 
 					$(".pop").each(function() {
@@ -908,6 +939,7 @@
 				$("#option1-2").parent().addClass("btn-warning");
 				$("#option1-2").parent().removeClass("btn-light");
 				$("#txt-1").prop("disabled",true);
+				$("#txt-1").addClass("bg-success text-white font-weight-bold");
 				$("#qst-1").show();
 				$("#qst-1").closest("table").find(".tran").each(function () {
 					$(this).show();

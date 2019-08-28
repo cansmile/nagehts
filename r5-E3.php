@@ -18,11 +18,11 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<th scope="row" rowspan="4" class="align-middle text-center" width="20%"><img src="./images/Reihe 5/Reihe-5-E3-1.png" alt="Face" style="max-width: 120px; height: auto;"></th>
-						<td colspan="4">Schmeckt der Wein?</td>
+						<th scope="row" rowspan="4" class="border-0" class="align-middle text-center border-0" width="20%"><img src="./images/Reihe 5/Reihe-5-E3-1.png" alt="Face" style="max-width: 120px; height: auto;"></th>
+						<td colspan="4" class="border-0">Schmeckt der Wein?</td>
 					</tr>
 					<tr>
-						<td rowspan="3">Danke, ja,</td>
+						<td rowspan="3" class="border-0">Danke, ja,</td>
 						<td class="border border-secondary border-right-0 border-top-0 border-bottom-0">er</td>
 						<td class="border border-secondary border-right-0 border-top-0 border-bottom-0">ist</td>
 						<td class="border border-secondary border-right-0 border-top-0 border-bottom-0">köstlich.</td>
@@ -38,11 +38,11 @@
 						<td class="border border-secondary border-right-0 border-top-0 border-bottom-0">gut.</td>
 					</tr>
 					<tr>
-						<th scope="row" rowspan="2" class="align-middle text-center" width="20%"><img src="./images/Reihe 5/Reihe-5-E3-2.png" alt="Face" style="max-width: 120px; height: auto;"></th>
-						<td colspan="4">Schmeckt der Wein?</td>
+						<th scope="row" rowspan="2" class="border-0" class="align-middle text-center border-0" width="20%"><img src="./images/Reihe 5/Reihe-5-E3-2.png" alt="Face" style="max-width: 120px; height: auto;"></th>
+						<td colspan="4" class="border-0">Schmeckt der Wein?</td>
 					</tr>
 					<tr>
-						<td colspan="4">Nein, er ist sauer.</td>
+						<td colspan="4" class="border-0">Nein, er ist sauer.</td>
 					</tr>
 				</tbody>
 			</table>
@@ -84,14 +84,14 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="3"><span class="tran"><small>와인이</small><br></span>Der Wein ist</th>
-							<td><span class="tran"><small>셔요.</small><br></span>sauer.</td>
+							<th scope="row" rowspan="3" class="border-0"><span class="tran"><small>와인이</small><br></span>Der Wein ist</th>
+							<td class="border-0"><span class="tran"><small>셔요.</small><br></span>sauer.</td>
 						</tr>
 						<tr>
-							<td><span class="tran"><small>달아요.</small><br></span>süß.</td>
+							<td class="border-0"><span class="tran"><small>달아요.</small><br></span>süß.</td>
 						</tr>
 						<tr>
-							<td>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -105,11 +105,11 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="3"><span class="tran"><small>빵이</small><br></span>Das Brot ist</th>
-							<td><span class="tran"><small>오래됐어요.</small><br></span>alt.</td>
+							<th scope="row" rowspan="3" class="border-0"><span class="tran"><small>빵이</small><br></span>Das Brot ist</th>
+							<td class="border-0"><span class="tran"><small>오래됐어요.</small><br></span>alt.</td>
 						</tr>
 						<tr>
-							<td>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -117,7 +117,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -131,11 +131,11 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="3"><span class="tran"><small>고기가</small><br></span>Das Fleisch ist</th>
-							<td><span class="tran"><small>너무 기름져요.</small><br></span>zu fettig.</td>
+							<th scope="row" rowspan="3" class="border-0"><span class="tran"><small>고기가</small><br></span>Das Fleisch ist</th>
+							<td class="border-0"><span class="tran"><small>너무 기름져요.</small><br></span>zu fettig.</td>
 						</tr>
 						<tr>
-							<td>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-3">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -143,7 +143,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td><span class="tran"><small>말랐어요.</small><br></span>trocken.</td>
+							<td class="border-0"><span class="tran"><small>말랐어요.</small><br></span>trocken.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -152,8 +152,8 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>맥주가</small><br></span>Das Bier ist</th>
-							<td>
+							<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>맥주가</small><br></span>Das Bier ist</th>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-4">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -161,7 +161,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td><span class="tran"><small>따뜻해요.</small><br></span>warm.</td>
+							<td class="border-0"><span class="tran"><small>따뜻해요.</small><br></span>warm.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -170,8 +170,8 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>스프가</small><br></span>Die Suppe ist</th>
-							<td>
+							<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>스프가</small><br></span>Die Suppe ist</th>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-5">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -179,7 +179,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td><span class="tran"><small>너무 매워요</small><br></span>zu scharf.</td>
+							<td class="border-0"><span class="tran"><small>너무 매워요</small><br></span>zu scharf.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -188,11 +188,11 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>소스가</small><br></span>Die Soße ist</th>
-							<td><span class="tran"><small>짜요</small><br></span>salzig.</td>
+							<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>소스가</small><br></span>Die Soße ist</th>
+							<td class="border-0"><span class="tran"><small>짜요</small><br></span>salzig.</td>
 						</tr>
 						<tr>
-							<td>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-6">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -206,11 +206,11 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>레몬에이드가</small><br></span>Die Limo ist</th>
-							<td><span class="tran"><small>미지근해요.</small><br></span>warm.</td>
+							<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>레몬에이드가</small><br></span>Die Limo ist</th>
+							<td class="border-0"><span class="tran"><small>미지근해요.</small><br></span>warm.</td>
 						</tr>
 						<tr>
-							<td>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-7">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -224,11 +224,11 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<th scope="row" rowspan="2"><span class="tran"><small>샐러드가</small><br></span>Der Salat ist</th>
-							<td><span class="tran"><small>짜요.</small><br></span>salzig.</td>
+							<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>샐러드가</small><br></span>Der Salat ist</th>
+							<td class="border-0"><span class="tran"><small>짜요.</small><br></span>salzig.</td>
 						</tr>
 						<tr>
-							<td>
+							<td class="border-0">
 								<div class="itm-lst 1itm" id="lst-8">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -261,42 +261,9 @@
 		<!-- interact.min.js -->
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
-			$(".tran").hide();
+			// $(".tran").hide();
 
 			$(document).ready(function() {
-				ion.sound({
-					sounds : [{
-						name : "Bama_Country_Country",
-					}, {
-						name : "Cartoon_Boing",
-					}],
-					path : "sounds/",
-					preload : true,
-					volume : 1.0,
-					multiplay: false,
-					
-					ready_callback: function () {
-						
-				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
-				});
-
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
-
-				$("[data-toggle='popover']").popover({
-					delay : {
-						'hide' : 1000
-					},
-					container : "body"
-				});
-			
-				
-
-		}
-	});
-	
 // 정답확인
 	$("#chk").on("click", function() {
 		var na = "";

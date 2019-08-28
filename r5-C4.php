@@ -64,7 +64,7 @@
 									<td><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
 									<td><div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text">Er trinkt </span></div>
-											<input type="text" class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q" aria-label="." id="qst-1">
+											<input type="text" class="form-control col-sm-4 col-md-3 col-lg-4 col-xl-4 q" aria-label="." id="qst-1">
 											<div class="input-group-append"><span class="input-group-text">.</span></div>
 										</div><span class="tran"><br><small>그는 우유 한 병을 마신다.</small></span></td>
 								</tr>
@@ -140,64 +140,117 @@
 			var an = ["eine Flasche Milch","Hamburger","Eis","Pizza","Dose Cola"];
 
 			$(document).ready(function() {
+/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+// 값 확인해보자, io값이 참이면 전체 검사
+function rfchk(th,io) {
+	var q, qn, a, b, fl;
+	q = th.val().length;
+	qn = (th.attr("id").substr(4))-1;
+	a = th.val();
+	a = a.replace(/ /gi, "");
+	if(!$.isArray(an[qn])) {
+		// 1 인 경우 
+		if(io) {
+			b = an[qn];
+		} else {
+			b = an[qn].substr(0,q);
+		}
+		b = b.replace(/ /gi, "");
+
+		if(a == b) {
+			return true;
+		}
+
+	} else {
+		// 2 이상인 경우
+		for(var fd = 0; fd < an[qn].length; fd++) {
+			if(io) {
+				b = an[qn][fd];
+			} else {
+				b = an[qn][fd].substr(0,q);
+			}
+			b = b.replace(/ /gi, "");
+			
+			if(a == b) {
+				return true;
+			}
+		}
+		
+	}
+}
 				$(".q").on("keyup", function () {
-					var q = $(this).val().length;
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = $(this).val();
-					var b = an[qn].substr(0,q);
-					a = a.replace(/ /gi, "");
-					b = b.replace(/ /gi, "");
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
-					if(a == b) {
-						$(this).addClass("text-white text-weight-bold");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
+
+					if(rfchk($(this))) {
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 					} else {
-						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
+
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white text-weight-bold");
+						$(this).removeClass("text-white font-weight-bold");
+					}
+					
+					if($(this).val()) {
+						$("#ant-"+$(this).attr("id").substr(4)).show();
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					} else {
+						$("#ant-"+$(this).attr("id").substr(4)).hide();
+					}
+				})
+
+				$(".q").on("focusin", function() {
+					$("#ant-"+$(this).attr("id").substr(4)).show();
+					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					}
+					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
+						if(rfchk($(this))) {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-success");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+						} else {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-danger");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+						}
 					}
 				})
 
 				$(".q").on("focusout", function() {
-					var qn = ($(this).attr("id").substr(4))-1;
-					var a = an[qn];
-					var b = $(this).val();
+					$("#ant-"+$(this).attr("id").substr(4)).hide();
 
-					if(a == b) {
+					if(rfchk($(this),true)) {
 						$(this).addClass("bg-success");
-						$(this).prop("disabled",true);
-						$("#qst-"+(qn+1)).val(an[qn]);
-						$(this).addClass("text-weight-bold");
-						$(this).closest("tr").find(".tran").show();
-						$(this).closest("tr").find(".ant").show();
-
+						$(this).addClass("text-white");
 					} else {
 						$(this).addClass("bg-danger");
 					}
-
 					if($(this).val()) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
 							ion.sound.play("Bama_Country_Country");
+							$(this).prop("disabled",true);
 						}
 					}
 
-					$(this).removeClass("text-white text-weight-bold");
 					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
-
-					if($("input:disabled").length == $(".q").length) {
-						$("input:disabled").addClass("bg-success text-white");
-						$(".tran").show();
+					if(!$(this).attr("disabled")) {
+						$(this).removeClass("text-white font-weight-bold");
+						$(this).removeClass("bg-success");
 					}
 				})
-
+/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				// 각 문장 재생 횟수 초기화
 				var hm = new Array();
@@ -322,6 +375,7 @@
 					};
 				};
 			});
+
 				$("#chk").on("click", function() {
 					var na = "";
 					var ri = 0;
@@ -337,20 +391,19 @@
 					
 					if($(this).attr("id") == "done") {} else if(na == "") {
 						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(" ", "").toLowerCase();
-							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
 							var oran = $("#qst-"+(i+1)).val();
-							if(oan == nan) {
+							if(rfchk($("#qst-"+(i+1)))) {
 								$("#qst-"+(i+1)).addClass("bg-success text-white");
-								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-								}
-								ri++;
 							} else {
 								$("#qst-"+(i+1)).val(an[i]);
 								$("#qst-"+(i+1)).attr("disabled",true);
 								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
 							}
+
+							if($("#qst-"+(i+1)).hasClass("bg-success")) {
+								ri++;
+							}
+
 						}
 
 					if (ri < (qst/2)) {

@@ -59,7 +59,7 @@
 							ein Wurstbrot.<span class="tran">&nbsp;<small>소시지 빵.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="13">
-							Butter.<span class="tran">&nbsp;<small>버터.</small>
+							Butter(f).<span class="tran">&nbsp;<small>버터.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="14">
 							einen Saft.<span class="tran">&nbsp;<small>주스.</small>
@@ -71,7 +71,7 @@
 							einen Wein.<span class="tran">&nbsp;<small>와인.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="17">
-							eine Milch.<span class="tran">&nbsp;<small>우유.</small>
+							Milch(f).<span class="tran">&nbsp;<small>우유.</small>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="18">
 							ein Ei.<span class="tran">&nbsp;<small>계란.</small>

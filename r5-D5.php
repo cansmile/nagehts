@@ -61,14 +61,46 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-						<table class="table table-striped text-center">
+						<table class="table table-striped">
 							<thead>
 								<tr>
-									<th scope="col"><button type="button" id="12" class="so btn btn-outline-primary">▶</button> Hörtext 1</th>
-									<th scope="col"><button type="button" id="13" class="so btn btn-outline-success">▶</button> Hörtext 2</th>
+									<th scope="col" class="text-center"><button type="button" id="12" class="so btn btn-outline-primary">▶</button> Hörtext 1</th>
+									<th scope="col" class="text-center"><button type="button" id="13" class="so btn btn-outline-success">▶</button> Hörtext 2</th>
 								</tr>
 							</thead>
 							<tbody>
+								<tr>
+									<td class="m-0 p-0"><span class="tran text-left"><br>
+<strong>Mama: Na, Tim, was möchtest du trinken?</strong><br>
+<small>엄마: 글쎄, 팀, 무엇을 마실래?</small><br>
+<strong>Kind: Aja, ich möchte gern eine große Cola trinken. Darf ich, Mama?</strong><br>
+<small>아이: 음, 나는 큰 콜라를 마시고 싶어요. 그래도 되요, 엄마?</small><br>
+<strong>Mama: Na klar! Was möchtest du essen? Hier ist die Currywurst sehr lecker.</strong><br>
+<small>엄마: 물론이지! 무엇을 먹기 원하니? 여기 카레소시지가 맛있단다.</small><br>
+<strong>Kind: Ach, echt? Ich liebe Currywurst mit Pommes.</strong><br>
+<small>아이: 아, 정말요? 저는 감자칩과 함께 카레소시지가 좋아요.</small><br>
+<strong>Mama: Ich nehme dann einen Salatteller und ein Mineralwasser.</strong><br>
+<small>엄마: 그럼 나는 샐러드 한 접시하고 미네랄물을 먹어야겠다.</small><br>
+</span></td>
+									<td class="m-0 p-0"><span class="tran text-left"><br>
+<strong>die Frau: Ah! das Restaurant ist wirklich schön. Und die Musik! Ausgezeichnet!</strong><br>
+<small>여자: 아! 레스토랑 좋네요. 그리고 음악도! 정말 좋아요!</small><br>
+<strong>der Mann: Ich freue mich, dass es dir gefällt. Was möchtest du? Ich lade dich ein.</strong><br>
+<small>남자: 저도 기쁘네요, 당신이 좋아하니까. 뭐드시겠어요? 당신 먼저 고르세요. </small><br>
+<strong>die Frau: Oh, danke. Das ist sehr nett von dir. Ich bin hier zum ersten Mal. Kannst du mir etwas empfehlen?</strong><br>
+<small>여자: 오, 고마워요. 정말 좋아요. 저는 여기 처음이에요. 저에게 추천해 주실 수 있나요?</small><br>
+<strong>der Mann: Du isst nur vegetarisch oder? Der Fischbraten hier ist sehr gut. Er wird dir gut schmecken.</strong><br>
+<small>남자: 채식만 하시나요? 여기 생성 구이는 정말 좋아요. 맛있을거에요.</small><br>
+<strong>die Frau: Gut! Ich nehme dann den Fischbraten mit Kartoffelsalat. Als Getränk nehme ich ein Glas Rotwein.</strong><br>
+<small>여자: 좋아요! 저는 그런다음 감자샐러드와 함께 생선구이로 할래요. 음료로는 적포도주 한잔으로 할게요.</small><br>
+<strong>der Mann: Gut, dann nehme ich einen Schweinebraten mit Salat und trinke ein Bier dazu. Und als Nachtisch?</strong><br>
+<small>남자: 좋아요, 그럼 저는 샐러드와 함ㄲ게 구운 돼지 고기를 먹고 맥주를 마실게요. 그리고 디저트는요?</small><br>
+<strong>die Frau: Einen Kaffee und einen Käsekuchen! Und was möchtest du?</strong><br>
+<small>여자: 커피와 치즈 케이크! 그리고 당신은요?</small><br>
+<strong>der Mann: Ich nehme einen Espresso.</strong><br>
+<small>남자: 저는 에스프레소 한잔이요.</small><br>
+</span></td>
+								</tr>
 								<tr>
 									<td width="30%">
 										<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
@@ -330,7 +362,8 @@
 							na += (idx+1);
 						}
 					});
-					alert(na+"번 문제를 풀어주세요!");
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
 		$("#0").show();

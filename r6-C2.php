@@ -13,7 +13,7 @@
 				<div class="row">
 					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm py-0 my-0" id="1">
-							Wann ist die Sprechstunde von Dr. Fiedler am Mittwoch?<span class="tran"><small><br>피들러 선생님의 수요일 진료시간은 몇 시인가요?</small></span>
+							Wann sind die Sprechzeiten von Dr. Fiedler am Mittwoch?<span class="tran"><small><br>피들러 선생님의 수요일 진료시간은 몇 시인가요?</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm py-0 my-0" id="2">
 							Wann läuft der Film am Samstag ?<span class="tran"><small><br>토요일 영화 상영시간은 언제인가요?</small></span>
@@ -22,7 +22,7 @@
 							Wann sind die Sprechzeiten freitags von der Allianz?<span class="tran"><small><br>알리안츠 보험회사의 금요일 상담시간은 언제인가요?</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm py-0 my-0" id="4">
-							Was kostet die Tanzschule pro Stunde?<span class="tran"><small><br>댄스 교습소의 시간당 얼마인가요?</small></span>
+							Was kostet der Tanzkurs pro Stunde?<span class="tran"><small><br>댄스 교습소의 시간당 얼마인가요?</small></span>
 						</button>
 					</div>
 				</div>

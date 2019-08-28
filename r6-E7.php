@@ -28,7 +28,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C6">große</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C7">Party</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C8">.</span>
-						<span class="tran"><br>토요일 저녁에 미나는 큰 파티를 한다.<br></span>
+						<span class="tran"><br>토요일 저녁에 미나는 파티를 크게 연다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C9">Sie</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C10">feiert</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C11">ihren</span>
@@ -36,7 +36,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C13">.</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C14">Geburtstag</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C15">.</span>
-						<span class="tran"><br>그녀는 그녀의 20살 생일을 축하한다.<br></span>
+						<span class="tran"><br>그녀는 자기의 스무살 생일을 축하한다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C16">Am</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C17">Mittwoch</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C18">ruft</span>
@@ -49,14 +49,14 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C25">sie</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C26">ein</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C27">.</span>
-						<span class="tran"><br>수요일에 그녀의 친구들에게 전화를 하고 그들을 초대했다. <br></span>
+						<span class="tran"><br>수요일에 친구들에게 전화를 해서 초대한다. <br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C28">Alle</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C29">kommen</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C30">gern</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C31">zur</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C32">Party</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C33">.</span>
-						<span class="tran"><br>모두가 파티에 오는 것을 좋아했다.<br></span>
+						<span class="tran"><br>모두가 파티에 오는 것을 좋아한다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C34">Sie</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C35">bringen</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C36">einiges</span>
@@ -72,18 +72,18 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C46">kaufen</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C47">Kekse</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C48">.</span>
-						<span class="tran"><br>그들은 몇 가지를 가지고 왔다: 팀은 음료를 사왔고, 율리아와 맥스는 과자를 사왔다.<br></span>
+						<span class="tran"><br>그들은 몇 가지를 가져온다: 팀은 음료를, 율리아와 맥스는 과자를 사온다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C49">Sumin</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C50">bringt</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C51">Musik-CDs</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C52">mit</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C53">.</span>
-						<span class="tran"><br>수민이는 음악 CD를 지참하였다.<br></span>
+						<span class="tran"><br>수민이는 음악 CD를 가져온다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C54">Es</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C55">ist</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C56">Samstag</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C57">.</span>
-						<span class="tran"><br>이제 토요일이다.<br></span>
+						<span class="tran"><br>토요일이다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C58">Mina</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C59">schmückt</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C60">schön</span>
@@ -96,7 +96,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C67">Trinken</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C68">vor</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C69">.</span>
-						<span class="tran"><br>미나는 아파트를 꾸미고 음식과 음료를 준비했다.<br></span>
+						<span class="tran"><br>미나는 아파트를 예쁘게 꾸미고 음식과 음료를 준비한다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C70">Um</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C71">17</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C72">Uhr</span>
@@ -104,7 +104,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C74">die</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C75">Party</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C76">.</span>
-						<span class="tran"><br>17시에 파티를 시작했다.<br></span>
+						<span class="tran"><br>17시에 파티가 시작된다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C77">Alle</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C78">feiern</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C79">, </span>
@@ -114,7 +114,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C83">und</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C84">unterhalten sich</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C85">.</span>
-						<span class="tran"><br>모두 생일을 축하하고, 춤주고, 웃고, 얘기했다.<br></span>
+						<span class="tran"><br>모두 생일을 축하하고, 춤주고, 웃고, 이야기를 나눈다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C86">Nur</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C87">Minas</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C88">Eltern</span>
@@ -126,7 +126,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C94">denken</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C95">sich</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C96">:</span>
-						<span class="tran"><br>오직 그녀의 부모님은 깨어서 침대에서 생각했다.<br></span>
+						<span class="tran"><br>그녀의 부모님만 깨어서 침대에서 생각하신다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C97">„</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C98">Hoffentlich</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C99">hört</span>
@@ -135,7 +135,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C102">bald</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C103">auf</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C104">!“</span>
-						<span class="tran"><br>“제발 파티가 끝났으면 좋겠네!”<br></span>
+						<span class="tran"><br>“파티가 금방 끝나길 바란다!”<br></span>
 					</div>
 				</div>
 				<div class="row">
@@ -262,10 +262,10 @@
 						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="86">Nur</button>
 						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="87">Minas</button>
 						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="88">Eltern</button>
-						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="89">liegen
+						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="89">liegen
 						<span class="tran"><small>누워있다</small></span>
 						</button>
-						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="90">wach</button>
+						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0 89" id="90">wach</button>
 						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="91">im</button>
 						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="92">Bett</button>
 						<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="93">und</button>
@@ -320,7 +320,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>unter는 분리 및 비분리로 사용될 수 있다.</td>
+									<td>unter는 분리 및 비분리 전철로 사용될 수 있다.</td>
 								</tr>
 							</tbody>
 						</table>

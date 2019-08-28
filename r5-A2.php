@@ -78,7 +78,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-1.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-1.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -95,7 +95,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-2.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-2.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -112,7 +112,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-3.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-3.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -129,7 +129,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-4.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-4.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -146,7 +146,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-11.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-11.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -163,7 +163,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-10.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-10.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -180,7 +180,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-9.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-9.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -197,7 +197,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-8.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-8.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -214,7 +214,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-7.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-7.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -231,7 +231,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -248,7 +248,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-13.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-13.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -265,7 +265,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -282,7 +282,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-12.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-12.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -299,7 +299,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-14.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-14.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -316,7 +316,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-15.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-15.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -333,7 +333,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-16.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-16.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>
@@ -350,7 +350,7 @@
 					<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<table class="table">
 							<thead>
-								<th class="text-center border-0" scope="col"><img src="./images/Reihe 5/Reihe-5-A2-17.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+								<th class="text-center align-middle border-0" scope="col" height="250"><img src="./images/Reihe 5/Reihe-5-A2-17.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 							</thead>
 							<tbody>
 								<tr>

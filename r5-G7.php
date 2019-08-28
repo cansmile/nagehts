@@ -122,7 +122,7 @@
 						</tr>
 						<tr>
 							<th scope="row" height="80" class="align-middle bg-dark text-white text-center">b</th>
-							<td class="align-middle">Nein, aber Gulaschsuppe.<span class="tran"><br><small>아니,하지만 굴 라쉬 수프.</small></span></td>
+							<td class="align-middle">Nein, aber Gulaschsuppe.<span class="tran"><br><small>아니, 하지만 굴 라쉬 수프.</small></span></td>
 						</tr>
 						<tr>
 							<th scope="row" height="80" class="align-middle bg-dark text-white text-center">c</th>

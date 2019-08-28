@@ -46,7 +46,7 @@
 							aufstehen<span class="tran"><br><small>일어나다</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
-							zählen<span class="tran"><br><small>계산하다</small></span>
+							zählen<span class="tran"><br><small>세다</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="10">
 							bezahlen<span class="tran"><br><small>지불하다</small></span>
@@ -70,7 +70,7 @@
 							kaufen<span class="tran"><br><small>구매하다</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="17">
-							anrufen<span class="tran"><br><small>전화하다</small></span>
+							anrufen<span class="tran"><br><small>전화를 걸다</small></span>
 						</button>
 						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="18">
 							erzählen<span class="tran"><br><small>이야기하다</small></span>

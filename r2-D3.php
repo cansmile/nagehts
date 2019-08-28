@@ -121,46 +121,117 @@
 			var an = new Array();
 			var an = ["In Asien","In Australien","In Nordamerika","In Europa","In Asien","In Asien","In Afrika","In Europa"];
 			$(document).ready(function() {
+/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+// 값 확인해보자, io값이 참이면 전체 검사
+function rfchk(th,io) {
+	var q, qn, a, b, fl;
+	q = th.val().length;
+	qn = (th.attr("id").substr(4))-1;
+	a = th.val();
+	a = a.replace(/ /gi, "");
+	if(!$.isArray(an[qn])) {
+		// 1 인 경우 
+		if(io) {
+			b = an[qn];
+		} else {
+			b = an[qn].substr(0,q);
+		}
+		b = b.replace(/ /gi, "");
+
+		if(a == b) {
+			return true;
+		}
+
+	} else {
+		// 2 이상인 경우
+		for(var fd = 0; fd < an[qn].length; fd++) {
+			if(io) {
+				b = an[qn][fd];
+			} else {
+				b = an[qn][fd].substr(0,q);
+			}
+			b = b.replace(/ /gi, "");
+			
+			if(a == b) {
+				return true;
+			}
+		}
+		
+	}
+}
 				$(".q").on("keyup", function () {
-					var q = $(this).val().length;
-					var qn = ($(this).attr("id").substr(4))-1;
-					if($(this).val() == an[qn].substr(0,q)) {
-						$(this).removeClass("bg-danger");
-						$(this).removeClass("bg-success");
-						$(this).addClass("text-white text-weight-bold");
+					$(this).removeClass("bg-danger");
+					$(this).removeClass("bg-success");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
+					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
+
+					if(rfchk($(this))) {
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 					} else {
-						$(this).removeClass("bg-danger");
-						$(this).removeClass("bg-success");
-						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
+						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
+
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white text-weight-bold");
+						$(this).removeClass("text-white font-weight-bold");
+					}
+					
+					if($(this).val()) {
+						$("#ant-"+$(this).attr("id").substr(4)).show();
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					} else {
+						$("#ant-"+$(this).attr("id").substr(4)).hide();
+					}
+				})
+
+				$(".q").on("focusin", function() {
+					$("#ant-"+$(this).attr("id").substr(4)).show();
+					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
+						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+					}
+					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
+						if(rfchk($(this))) {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-success");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+						} else {
+							$(this).addClass("text-white font-weight-bold");
+							$(this).addClass("bg-danger");
+							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+						}
 					}
 				})
 
 				$(".q").on("focusout", function() {
-					var qn = ($(this).attr("id").substr(4))-1;
-					if($(this).val() == an[qn]) {
+					$("#ant-"+$(this).attr("id").substr(4)).hide();
+
+					if(rfchk($(this),true)) {
 						$(this).addClass("bg-success");
+						$(this).addClass("text-white");
 					} else {
 						$(this).addClass("bg-danger");
 					}
-					
-					if($(this).hasClass("bg-danger")) {
-						ion.sound.play("Cartoon_Boing");
-					} else if($(this).hasClass("bg-success")){
-						ion.sound.play("Bama_Country_Country");
+					if($(this).val()) {
+						if($(this).hasClass("bg-danger")) {
+							ion.sound.play("Cartoon_Boing");
+						} else if($(this).hasClass("bg-success")){
+							ion.sound.play("Bama_Country_Country");
+							$(this).prop("disabled",true);
+						}
 					}
 
-					$(this).removeClass("text-white text-weight-bold");
 					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
-
+					if(!$(this).attr("disabled")) {
+						$(this).removeClass("text-white font-weight-bold");
+						$(this).removeClass("bg-success");
+					}
 				})
+/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
 					var na = "";
@@ -212,6 +283,7 @@
 					};
 				})
 				$("#qst-1").val("In Asien");
+				$("#qst-1").addClass("bg-success text-white font-weight-bold")
 				$("#qst-1").attr("disabled",true);
 
 			});

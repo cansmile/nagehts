@@ -1,0 +1,125 @@
+<?php include "header.php"; ?>
+	<body>
+<?php include "nav.php"; ?>
+		<section>
+			<div class="container">
+							<!-- 고르는 아이템들 -->
+				<div class="row">
+					<div class="col-lg-12 mb-4 mt-2 text-center">
+						<h2>[ <small>단어를 알맞은 그림에 넣으세요.</small> ]
+						</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
+							das Auge<span class="tran"><br><small>눈</small></span>
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="2">
+							der Kopf<span class="tran"><br><small>머리</small></span>
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
+							der Fuß<span class="tran"><br><small>발</small></span>
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
+							die Ohren<span class="tran"><br><small>귀(양쪽)</small></span>
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
+							die Haare<span class="tran"><br><small>머리카락</small></span>
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
+							das Ohr<span class="tran"><br><small>귀</small></span>
+						</button>
+						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
+							der Zeh<span class="tran"><br><small>발가락</small></span>
+						</button>
+					</div>
+				</div>
+			<!-- 리스트  시작 -->
+			<div class="row" id="lsts">
+				<div style="min-height: 240px;" class="rounded-top border bg-danger border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-1">
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-1.png" alt="Hand" style="max-height: 120px; width: auto;"></h2>&nbsp;
+				</div>
+				<div style="min-height: 240px;" class="rounded-top border bg-success border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-2">
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-2.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+				</div>
+				<div style="min-height: 240px;" class="rounded-top border bg-primary border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-3">
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-3.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+				</div>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-4">
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-4.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+				</div>
+			</div>
+		</div>
+		<!-- 리스트 끝 -->
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
+			</div>
+		</section>
+		
+
+		
+<?php include "footer.php"; ?>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="./js/jquery-3.3.1.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="./js/popper.min.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/taptogroup.js"></script>
+		<!-- interact.min.js -->
+		<script src="./js/ion.sound.min.js"></script>
+		<script>
+			$(".tran").hide();
+
+			$(document).ready(function() {
+
+			// 정답확인
+			$("#chk").on("click", function() {
+				var na = "";
+				if($("#itms").find("button").length < 1) {
+					$(".tran").show();
+
+					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).removeClass("btn-light");
+					$(this).addClass("btn-primary");
+					$(".btn-lg").text().appendTo($(this).closest("td"));
+					$(".btn-lg").remove();
+				} else {
+					$("div.itm-lst").each(function(idx) {
+						if(!$(this).find("button").length) {
+							if(na != "") {
+								na += ", ";
+							}
+							na += (idx+1);
+						}
+					});
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
+				}
+			});
+
+		var pan = new Array(), pann;
+		pan = [2,5];
+		for(var p = 0; p < pan.length; p++) {
+			pann = "#"+pan[p];
+			for(var i = 0; i < $(".itm-lst").length; i++) {
+				if($(pann).hasClass("ans" + (i+1))) {
+					$(pann).insertAfter("#lst-" + (i+1) + ">h2");
+				}
+			}
+			$(pann).find(".tran").show();
+		}
+		$(".itm-lst>button").addClass("btn-block btn-light");
+	
+});
+			
+		</script>
+		<!-- ion.sound finished -->
+	</body>
+</html>

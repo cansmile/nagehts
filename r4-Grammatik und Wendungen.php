@@ -1,39 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-<style>
-	.btn-outline-pink {
-	  color: #ff0099;
-	  border-color: #ff0099;
-	}
-
-	.btn-outline-pink:hover {
-	  color: #fff;
-	  background-color: #ff0099;
-	  border-color: #ff0099;
-	}
-
-	.btn-outline-pink:focus, .btn-outline-pink.focus {
-	  box-shadow: 0 0 0 0.2rem rgba(255, 0, 204, 0.5);
-	}
-
-	.btn-outline-pink.disabled, .btn-outline-pink:disabled {
-	  color: #ff0099;
-	  background-color: transparent;
-	}
-
-	.btn-outline-pink:not(:disabled):not(.disabled):active, .btn-outline-pink:not(:disabled):not(.disabled).active,
-	.show > .btn-outline-pink.dropdown-toggle {
-	  color: #fff;
-	  background-color: #ff0099;
-	  border-color: #ff0099;
-	}
-
-	.btn-outline-pink:not(:disabled):not(.disabled):active:focus, .btn-outline-pink:not(:disabled):not(.disabled).active:focus,
-	.show > .btn-outline-pink.dropdown-toggle:focus {
-	  box-shadow: 0 0 0 0.2rem rgba(255, 0, 204, 0.5);
-	}
-</style>
 <section>
 	<div class="container">
 		<div class="row">
@@ -42,7 +9,7 @@
 					<div class="card">
 						<div class="card-header" id="heading1">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
+								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
 									<strong>unbestimmter Artikel im Nominativ und Akkusativ</strong> <small>주격 및 목적격 부정관사</small>
 								</button>
 							</h5>
@@ -99,7 +66,7 @@
 					<div class="card">
 						<div class="card-header" id="heading2">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
+								<button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
 									<strong>bestimmter Artikel im Nominativ und Akkusativ</strong> <small>주격 및 목적격 정관사</small>
 								</button>
 							</h5>
@@ -148,7 +115,7 @@
 					<div class="card">
 						<div class="card-header" id="heading3">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-info mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
+								<button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
 									<strong>Verbkonjugation von haben und sein</strong> <small>haben과 sein의 동사변화</small>
 								</button>
 							</h5>
@@ -200,7 +167,7 @@
 					<div class="card">
 						<div class="card-header" id="heading4">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-success mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
+								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
 									<strong>Negation: kein / keine / nicht</strong> <small>부정어: kein / keine / nicht</small>
 								</button>
 							</h5>
@@ -227,7 +194,7 @@
 					<div class="card">
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-pink mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
+								<button class="btn btn-outline-purple mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
 									<strong>Personalpronomen im Nominativ</strong> <small>주격 인칭대명사</small>
 								</button>
 							</h5>
@@ -254,7 +221,7 @@
 					<div class="card">
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
-								<button class="btn btn-outline-dark mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse6" area-expanded="false" aria-controls="collapse6" id="6">
+								<button class="btn btn-outline-pink mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse6" area-expanded="false" aria-controls="collapse6" id="6">
 									<strong>Redewendungen</strong> <small>어휘와 숙어</small>
 								</button>
 							</h5>

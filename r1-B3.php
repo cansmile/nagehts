@@ -11,13 +11,13 @@
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 							<h2>Hören Sie und sprechen Sie nach.
 							<small>듣고 따라하세요.</small>
-							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+							<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="0">
 							HV
-							</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+							</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="0_p">
 								❚❚
 							</button>
 						</h2>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 
 							</p>
 					</div>
@@ -88,19 +88,6 @@
 		
 
 		
-		<!-- 꼬리말 시작 -->
-		<footer class="text-center mt-5">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-12">
-						<p>
-							Copyright © Na, geht's? All rights reserved.
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- 꼬리말 끝 -->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -203,5 +190,6 @@
 		</script>
 
 		<!-- ion.sound finished -->
+<?php include "footer.php"; ?>
 	</body>
 </html>

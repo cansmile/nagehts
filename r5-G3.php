@@ -1,11 +1,12 @@
-d<?php include "header.php"; ?>
+<?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -54,7 +55,7 @@ d<?php include "header.php"; ?>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad9">Er isst gern </span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control col-4 q" id="qst-1">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">.</span></div>
+											</div>
 										</div>
 										<span class="tran">그는 햄버거 먹기를 좋아합니다.</span>
 									</td>
@@ -95,7 +96,7 @@ d<?php include "header.php"; ?>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Sie isst gern </span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control col-4 q" id="qst-4">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">.</span></div>
+											</div>
 										</div>
 										<span class="tran">그녀는 잼 바른 빵 먹는 것을 좋아합니다.</span>
 									</td>
@@ -139,7 +140,6 @@ d<?php include "header.php"; ?>
 <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -326,5 +326,7 @@ function rfchk(th,io) {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

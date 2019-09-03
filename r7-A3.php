@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -22,8 +23,8 @@
 					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./images/Reihe 7/Reihe-7-A2-7.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-						<table class="table table-light text-center">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+						<table class="table table-light text-center my-0">
 							<tbody>
 								<tr>
 									<th scope="row" width="50">1.</th>
@@ -58,8 +59,8 @@
 						</tbody>
 					</table>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-						<table class="table table-light text-center">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+						<table class="table table-light text-center my-0">
 							<tbody>
 								<tr>
 									<th scope="row" width="50">3.</th>
@@ -108,7 +109,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -234,5 +234,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

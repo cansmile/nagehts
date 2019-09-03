@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
@@ -135,7 +136,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -149,7 +149,7 @@
 			$(".ant").hide();
 
 			var an = new Array();
-			var an = ["Koph","Zahn","Hals","Rücken","Bauch"];
+			var an = ["Kopf","Zahn","Hals","Rücken","Bauch"];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
@@ -329,5 +329,7 @@ function rfchk(th,io) {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

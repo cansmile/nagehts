@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <section>
 	<div class="container">
 		<div class="row">
@@ -43,21 +44,21 @@
 								<tbody>
 									<tr>
 										<th scope="col">&nbsp;</th>
-										<th scope="col">m</th>
-										<th scope="col">f</th>
-										<th scope="col">n</th>
+										<th class="text-primary" scope="col">m</th>
+										<th class="text-danger" scope="col">f</th>
+										<th class="text-purple" scope="col">n</th>
 									</tr>
 									<tr>
 										<th scope="row">Nominativ</th>
-										<td>ein Computer</td>
-										<td>eine Uhr</td>
-										<td>ein Smartphone</td>
+										<td class="text-primary">ein Computer</td>
+										<td class="text-danger">eine Uhr</td>
+										<td class="text-purple">ein Smartphone</td>
 									</tr>
 									<tr>
 										<th scope="row">Akkusativ</th>
-										<td>einen Computer</td>
-										<td>eine Uhr</td>
-										<td>ein Smartphone</td>
+										<td class="text-primary">einen Computer</td>
+										<td class="text-danger">eine Uhr</td>
+										<td class="text-purple">ein Smartphone</td>
 									</tr>
 								</tbody>
 							</table>
@@ -92,21 +93,21 @@
 								<tbody>
 									<tr>
 										<th scope="col">&nbsp;</th>
-										<th scope="col">m</th>
-										<th scope="col">f</th>
-										<th scope="col">n</th>
+										<th class="text-primary" scope="col">m</th>
+										<th class="text-danger" scope="col">f</th>
+										<th class="text-purple" scope="col">n</th>
 									</tr>
 									<tr>
 										<th scope="row">Nominativ</th>
-										<td>der Computer</td>
-										<td>die Uhr</td>
-										<td>das Smartphone</td>
+										<td class="text-primary">der Computer</td>
+										<td class="text-danger">die Uhr</td>
+										<td class="text-purple">das Smartphone</td>
 									</tr>
 									<tr>
 										<th scope="row">Akkusativ</th>
-										<td>den Computer</td>
-										<td>die Uhr</td>
-										<td>das Smartphone</td>
+										<td class="text-primary">den Computer</td>
+										<td class="text-danger">die Uhr</td>
+										<td class="text-purple">das Smartphone</td>
 									</tr>
 								</tbody>
 							</table>
@@ -329,11 +330,12 @@
 </section>
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

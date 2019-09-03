@@ -1,11 +1,12 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col text-center">
-						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
 						<h3>[ <small>답안을 보고 알맞은 문제를 입력하세요.</small> ]</h3>
 					</div>
 				</div>
@@ -131,7 +132,7 @@
 					<table class="table text-center">
 						<thead>
 							<th scope="col">
-								※ 참고
+								<span class="bg-lime font-weight-bold rounded p-1 px-2 m-1 text-left">TIPP</span>※ 참고
 							</th>
 						</thead>
 						<tbody>
@@ -148,7 +149,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -334,5 +334,7 @@ function rfchk(th,io) {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

@@ -1,12 +1,13 @@
 <?php include "header.php"; ?>
 	<body>
+<?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<style>
 			button.itm {
 				word-break: keep-all;
 				word-wrap: normal;
 			}
 		</style>
-<?php include "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -16,10 +17,10 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Hören Sie und sprechen Sie nach.<br>
 							<p>
-								듣고 따라하세요.
-							<button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0">
+								듣고 따라하세요
+							<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="0">
 							HV
-						</button><button type="button" class="btn btn-primary ml-2 btn-inline itm" id="0_p">
+						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="0_p">
 							❚❚
 						</button>
 						</p>
@@ -28,7 +29,7 @@
 
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 들으면 해당 음성이 재생됩니다.<br>단어를 누르면 그림이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 들으면 해당 음성이 재생됩니다. 단어를 누르면 그림이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 
@@ -159,7 +160,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -242,5 +242,7 @@
 		</script>
 
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

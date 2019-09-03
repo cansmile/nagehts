@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <section>
 	<div class="container">
 		<div class="row">
@@ -21,8 +22,8 @@
 										<th scope="col" width="20%">&nbsp;</th>
 										<th scope="col" width="20%" class="text-primary">m</th>
 										<th scope="col" width="20%" class="text-danger">f</th>
-										<th scope="col" width="20%" class="text-success">n</th>
-										<th scope="col" width="20%" class="text-dark">Pl.</th>
+										<th scope="col" width="20%" class="text-purple">n</th>
+										<th scope="col" width="20%" class="text-khaki">Pl.</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -30,15 +31,15 @@
 										<th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span></th>
 										<td class="text-primary">der</td>
 										<td class="text-danger">die</td>
-										<td class="text-success">das</td>
-										<td class="text-dark">die</td>
+										<td class="text-purple">das</td>
+										<td class="text-khaki">die</td>
 									</tr>
 									<tr>
 										<th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span></th>
 										<td class="text-primary">den</td>
 										<td class="text-danger">die</td>
-										<td class="text-success">das</td>
-										<td class="text-dark">die</td>
+										<td class="text-purple">das</td>
+										<td class="text-khaki">die</td>
 									</tr>
 								</tbody>
 							</table>
@@ -76,8 +77,8 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 										<th scope="col" width="20%">&nbsp;</th>
 										<th class="text-primary" scope="col" width="20%">m</th>
 										<th class="text-danger" scope="col" width="20%">f</th>
-										<th class="text-success" scope="col" width="20%">n</th>
-										<th class="text-dark" scope="col" width="20%">Pl.</th>
+										<th class="text-purple" scope="col" width="20%">n</th>
+										<th class="text-khaki" scope="col" width="20%">Pl.</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -85,15 +86,15 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 										<th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span></th>
 										<td class="text-primary">der Salat</td>
 										<td class="text-danger">die Pizza</td>
-										<td class="text-success">das Steak</td>
-										<td class="text-dark">die Spaghettis</td>
+										<td class="text-purple">das Steak</td>
+										<td class="text-khaki">die Spaghettis</td>
 									</tr>
 									<tr>
 										<th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span></th>
 										<td class="text-primary">den Salat</td>
 										<td class="text-danger">die Pizza</td>
-										<td class="text-success">das Steak</td>
-										<td class="text-dark">die Spaghettis</td>
+										<td class="text-purple">das Steak</td>
+										<td class="text-khaki">die Spaghettis</td>
 									</tr>
 									<tr>
 										<td colspan="5">Ich bezahle <strong>den</strong> Salat.</td>
@@ -117,7 +118,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 										<th scope="col" width="25%">&nbsp;</th>
 										<th class="text-primary" scope="col" width="25%">m</th>
 										<th class="text-danger" scope="col" width="25%">f</th>
-										<th class="text-success" scope="col" width="25%">n</th>
+										<th class="text-purple" scope="col" width="25%">n</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -125,13 +126,13 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 										<th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span></th>
 										<td class="text-primary">ein Salat</td>
 										<td class="text-danger">eine Pizza</td>
-										<td class="text-success">ein Steak</td>
+										<td class="text-purple">ein Steak</td>
 									</tr>
 									<tr>
 										<th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span></th>
 										<td class="text-primary"><strong>einen</strong> Salat</td>
 										<td class="text-danger">eine Pizza</td>
-										<td class="text-success">ein Steak</td>
+										<td class="text-purple">ein Steak</td>
 									</tr>
 									<tr>
 										<td colspan="4">Ich bekomme einen Salat.</td>
@@ -155,8 +156,8 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 										<th scope="col" width="20%">&nbsp;</th>
 										<th class="text-primary" scope="col" width="20%">m</th>
 										<th class="text-danger" scope="col" width="20%">f</th>
-										<th class="text-success" scope="col" width="20%">n</th>
-										<th class="text-dark" scope="col" width="20%">Pl.</th>
+										<th class="text-purple" scope="col" width="20%">n</th>
+										<th class="text-khaki" scope="col" width="20%">Pl.</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -164,15 +165,15 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 										<th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span></th>
 										<td class="text-primary">kein Salat</td>
 										<td class="text-danger">keine Pizza</td>
-										<td class="text-success">kein Steak</td>
-										<td class="text-dark">keine Spaghettis</td>
+										<td class="text-purple">kein Steak</td>
+										<td class="text-khaki">keine Spaghettis</td>
 									</tr>
 									<tr>
 										<th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span></th>
 										<td class="text-primary">keinen Salat</td>
 										<td class="text-danger">keine Pizza</td>
-										<td class="text-success">kein Steak</td>
-										<td class="text-dark">keine Spaghettis</td>
+										<td class="text-purple">kein Steak</td>
+										<td class="text-khaki">keine Spaghettis</td>
 									</tr>
 									<tr>
 										<td colspan="5">Ich nehme <strong>keinen</strong> Salat.</td>
@@ -348,11 +349,12 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 </section>
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

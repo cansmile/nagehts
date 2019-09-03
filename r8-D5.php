@@ -1,31 +1,39 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-2" id="1">
+					Aspirin nehmen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm px-2" id="2">
+					Gymnastik machen und mehr Sport treibe.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="3">
+					nicht mehr rauchen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-2" id="4">
+					mehr Obst und Gemüse essen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-2" id="4">
+					abends Schlaftee trinken.
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-2" id="1">
-							Aspirin nehmen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm px-2" id="2">
-							Gymnastik machen und mehr Sport treibe.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="3">
-							nicht mehr rauchen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-2" id="4">
-							mehr Obst und Gemüse essen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-2" id="4">
-							abends Schlaftee trinken.
-						</button>
 					</div>
 				</div>
 				<div class="row">
@@ -43,8 +51,8 @@
 									<div class="itm-lst 1itm d-inline-block" id="lst-1" style="min-width: 50%;">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
-									</div>.
-									<span class="tran"><br><small>그녀는 더 많은 과일과 채소를 먹어야 합니다.</small></span>
+									</div>
+									<span class="tran"><br><small>그녀는 과일과 채소를 더 많이 먹어야 합니다.</small></span>
 								</td>
 							</tr>
 						</table>
@@ -63,8 +71,8 @@
 									<div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 50%;">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
-									</div>.
-									<span class="tran"><br><small>그는 아스피린을 먹어야 합니다.</small></span>
+									</div>
+									<span class="tran"><br><small>그는 아스피린을 복용해야 합니다.</small></span>
 								</td>
 							</tr>
 						</table>
@@ -83,7 +91,7 @@
 									<div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 50%;">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
-									</div>.
+									</div>
 									<span class="tran"><br><small>그녀는 잠이 오는 차를 마셔야 합니다.</small></span>
 								</td>
 							</tr>
@@ -103,7 +111,7 @@
 									<div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 50%;">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
-									</div>.
+									</div>
 									<span class="tran"><br><small>그는 담배를 피우지 않아야 합니다.</small></span>
 								</td>
 							</tr>
@@ -123,7 +131,7 @@
 									<div class="itm-lst 1itm d-inline-block" id="lst-5" style="min-width: 50%;">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
-									</div>.
+									</div>
 									<span class="tran"><br><small>그녀는 체조를 하고 더 많은 운동을 해야 합니다.</small></span>
 								</td>
 							</tr>
@@ -141,9 +149,8 @@
 			</div>
 		</section>
 		
-
+<div id="marg"></div>
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -154,6 +161,7 @@
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
 
@@ -182,6 +190,9 @@
 				}
 			});
 
+<?php include "wahl.php"; ?>
+
+
 			var pan = new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10"];
 			pan = [1];
@@ -191,8 +202,8 @@
 				$(".itm").each(function() {
 					if($(this).hasClass("ans" + pan[p])) {
 						$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-						$("#lst-" + pan[p] + ">button").addClass("btn-block");
-						$("#lst-" + pan[p] + ">button").addClass("btn-light");
+						$("#lst-" + pan[p] + ">.itm").addClass("btn-block font-weight-bold");
+						$("#lst-" + pan[p] + ">.itm").addClass("border-0");
 						$("#lst-" + pan[p] + ">h2").remove();
 						$("#lst-" + pan[p]).closest("table").find(".tran").show();
 					}
@@ -203,5 +214,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -10,54 +11,63 @@
 		border-style: hidden;
 	}
 </style>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-left" id="1">
+					Dann bleib im Bett. Ich rufe in der Schule an.
+					<span class="tran"><br><small>그럼 누워있으렴. 내가 학교에 전화할게.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-left" id="2">
+					Deshalb kann ich heute nicht zur Schule gehen.
+					<span class="tran"><br><small>그래서 오늘 학교에 갈 수 없어요.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-left" id="3">
+					Was hast du denn?
+					<span class="tran"><br><small>무슨일이니?</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-left" id="4">
+					Mama, mir geht es nicht gut.
+					<span class="tran"><br><small>엄마, 저 기분이 좋지 않아요.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-left" id="5">
+					Aua, der Bauch tut mir so weh!
+					<span class="tran"><br><small>어우, 배가 너무 아파요!</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="6">
+					Ich habe Fieber und starke Bauchschmerzen.
+					<span class="tran"><br><small>저 열이 나고 복통이 심해요.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-left" id="7">
+					Komm, wir gehen zum Arzt!
+					<span class="tran"><br><small>그래, 우리 의사한테 가자!</small></span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Ergänzen Sie den Dialog. <small>문장을 완성해 보세요.</small>
-						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
+						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
+						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>						
 						</h2>
 						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">보기</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">보기</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-left" id="1">
-							Dann bleib im Bett. Ich rufe in der Schule an.
-							<span class="tran"><br><small>그럼 침대에서 좀 쉬렴. 내가 학교에 전화할게.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-left" id="2">
-							Deshalb kann ich heute nicht zur Schule gehen.
-							<span class="tran"><br><small>이게 제가 오늘 학교에 갈 수 없는 이유에요.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-left" id="3">
-							Was hast du denn?
-							<span class="tran"><br><small>네 상태가 어떠니?</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-left" id="4">
-							Mama, mir geht es nicht gut.
-							<span class="tran"><br><small>엄마, 저 기분이 좋지 않아요.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-left" id="5">
-							Aua, der Bauch tut mir so weh!
-							<span class="tran"><br><small>어우, 배가 너무 아파요!</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="6">
-							Ich habe Fieber und starke Bauchschmerzen.
-							<span class="tran"><br><small>저 열도 있고 강한 복통도 있어요.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-left" id="7">
-							Komm, wir gehen zum Arzt!
-							<span class="tran"><br><small>얼른, 우리 의사한테 가자!</small></span>
-						</button>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -137,9 +147,8 @@
 			</div>
 		</section>
 		
-
+		<div id="marg"></div>
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -150,14 +159,16 @@
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$("#chk").hide();
 			$("#0").hide();
 			$("#0_p").hide();
 
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
-				var hm = new Array();
+				var hm = new Array(), sen = new Array();
 				for(i = 0; i < $(".so").length; i++) {
 					hm[i] = 0;
+					sen[i] = 0;
 				}
 
 				ion.sound({
@@ -312,6 +323,8 @@
 		$("#0").show();
 		$(".alert").hide();
 
+<?php include "wahl.php"; ?>
+
 			var pan = new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
 			pan = [1,2,3,5,7];
@@ -321,8 +334,8 @@
 				$(".itm").each(function() {
 					if($(this).hasClass("ans" + pan[p])) {
 						$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-						$("#" + $(this).attr("id")).addClass("btn-block");
-						$("#" + $(this).attr("id")).addClass("btn-light");
+						$("#" + $(this).attr("id")).addClass("btn-block font-weight-bold");
+						$("#" + $(this).attr("id")).addClass("border-0");
 						$("#lst-" + pan[p] + ">h2").remove();
 						// $("#lst-" + pan[p]).parent().find(".tran").show();
 					}
@@ -335,5 +348,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

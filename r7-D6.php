@@ -1,11 +1,12 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -95,7 +96,6 @@
 <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -109,7 +109,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Hallo Mina","habe ich heute keine Zeit","habe ich einen Deutschkurs.","besuche ich dann meine Oma.","können wir am Sonntag ins Kino gehen."];
+			var an = ["Hallo Mina","habe ich heute keine Zeit","habe ich einen Deutschkurs","besuche ich dann meine Oma","können wir am Sonntag ins Kino gehen"];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
@@ -288,5 +288,7 @@ function rfchk(th,io) {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

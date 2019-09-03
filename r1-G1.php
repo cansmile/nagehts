@@ -1,36 +1,41 @@
 <?php include "header.php"; ?>
-	<body>
-		<style>
-			.itm-lst>button.so:before {content: "Guten";}
-			.itm-lst#lst-4>button.itm:before {content: "Gute";}
-			.itm-lst>button.so:after {content: "!";}
-		</style>
-<?php include "nav.php"; ?>
-		<section>
-			<div class="container">
-							<!-- 고르는 아이템들 -->
-				<div class="row">
-					<div class="col text-center">
+<body>
+	<?php include "nav.php"; ?>
+	<?php if(ul()) { ?>
+	<!-- 보기시작 -->
+	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+		<div class="container">
+			<div class="row">
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col-12" id="itms">
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="1">
+					Tag
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="2">
+					Abend
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="3">
+					Morgen
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark so itm" id="4">
+					Nacht
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<style>
+		.itm-lst>button.so:before {content: "Guten";}
+		.itm-lst#lst-4>button.itm:before {content: "Gute";}
+		.itm-lst>button.so:after {content: "!";}
+	</style>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
 					<h2>[ <small>단어를 알맞은 위치에 짝지우세요.</small> ]</h2>
-					</div>
 				</div>
-				<div class="row">
-					<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark so itm" id="1">
-							Tag
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark so itm" id="2">
-							Abend
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="3">
-							Morgen
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark so itm" id="4">
-							Nacht
-						</button>
-					</div>
-				</div>
-
+			</div>
 			<!-- 리스트  시작 -->
 			<div class="row mt-2" id="lsts">
 				<div class="rounded-top border border-outline-dark so itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1" id="lst-1">
@@ -53,43 +58,92 @@
 					<h2 class="btn btn-warning btn-xl ttl d-block">Guten ___________ ! </h2>&nbsp;
 				</div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
 				</div>
 			</div>
-		</section>
-		
+			<!-- 정답확인 버튼 끝 -->
+		</div>
+	</section>
+	<div id="marg"></div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/taptogroup.js"></script>
+	<!-- interact.min.js -->
+	<script src="./js/ion.sound.min.js"></script>
+	<script>
+		$(".tran").hide();
+		$("#chk").hide();
+		$(document).ready(function() {
+			ion.sound( {
+				sounds : [ {
+					name: "Cartoon_Boing",
+				}
+				],
+				path : "sounds/",
+				preload : true,
+				volume : 1.0,
+				multiplay : false
+			}
+			);
+			// 정답확인
+			$("#chk").on("click", function() {
+				var na="";
+				if($("#itms").find("button").length < 1) {
+					$(".tran").show();
+					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).removeClass("btn-light");
+					$(this).addClass("btn-primary");
+					$(".btn-lg").text().appendTo($(this).closest("td"));
+					$(".btn-lg").remove();
+				}
+				else {
+					$("div.itm-lst").each(function(idx) {
+						if( !$(this).find("button").length) {
+							if(na !="") {
+								na +=", ";
+							}
+							na +=(idx+1);
+						}
+					}
+					);
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
+				}
+			}
+			);
 
-		
-<?php include "footer.php"; ?>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<!-- interact.min.js -->
-		<script src="./js/ion.sound.min.js"></script>
-		<script>
-			
-			$(document).ready(function() {
+			<?php include "wahl.php"; ?>
 
-				ion.sound({
-					sounds : [{
-						name : "Cartoon_Boing",
-					}],
-					path : "sounds/",
-					preload : true,
-					volume : 1.0,
-					multiplay : false
-				});
+			// 미리 답 넣어놓기
+			var pan=new Array();
+			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
+			pan=[4];
+			for(var p=0;
+			p < pan.length;
+			p++) {
+				var pani="#"+pan[p];
+				for(var i=0;
+				i < $(".itm-lst").length;
+				i++) {
+					if($(pani).hasClass("ans"+ (i+1))) {
+						$(pani).insertAfter($("#lst-"+ (i+1) + ">h2"));
+						$(pani).addClass("btn-block btn-light");
+						$("#lst-"+ (i+1) + ">h2").remove();
+					}
+				}
+			}
+		}
+		);
 
-				// 미리 답 넣어놓기
-				$("#4").insertAfter("#lst-4>h2");
-				$("#lst-4>h2").remove();
-				$(".itm-lst>button").addClass("btn-block btn-light");
-			});
-
-		
-		</script>
-		<!-- ion.sound finished -->
-	</body>
+	</script>
+	<!-- ion.sound finished -->
+	<?php include "footer.php"; ?>
+	<? } ?>
+</body>
 </html>

@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <section>
 	<div class="container">
 		<div class="row">
@@ -22,23 +23,23 @@
 									</tr>
 									<tr>
 										<th class="align-middle text-center border-0" scope="col">&nbsp;</th>
-										<th class="align-middle text-center border-0" scope="col">m</th>
-										<th class="align-middle text-center border-0" scope="col">f</th>
-										<th class="align-middle text-center border-0" scope="col">n</th>
+										<th class="align-middle text-center border-0 text-primary" scope="col">m</th>
+										<th class="align-middle text-center border-0 text-danger" scope="col">f</th>
+										<th class="align-middle text-center border-0 text-purple" scope="col">n</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<th class="align-middle text-center border-0" scope="row">in (+Akkusativ)</th>
-										<td class="align-middle text-center border-0">in den Supermarkt</td>
-										<td class="align-middle text-center border-0">in die Disko</td>
-										<td class="align-middle text-center border-0">in das/ ins Kino</td>
+										<td class="align-middle text-center border-0 text-primary">in den Supermarkt</td>
+										<td class="align-middle text-center border-0 text-danger">in die Disko</td>
+										<td class="align-middle text-center border-0 text-purple">in das/ ins Kino</td>
 									</tr>
 									<tr>
 										<th class="align-middle text-center border-0" scope="row">zu (+Dativ)</th>
-										<td class="align-middle text-center border-0">zu dem<br> ▼<br> zum Flohmarkt</td>
-										<td class="align-middle text-center border-0">zu der<br> ▼<br> zur Musikmesse</td>
-										<td class="align-middle text-center border-0">zu dem<br> ▼<br> zum Fußballspiel</td>
+										<td class="align-middle text-center border-0 text-primary">zu dem<br> ▼<br> zum Flohmarkt</td>
+										<td class="align-middle text-center border-0 text-danger">zu der<br> ▼<br> zur Musikmesse</td>
+										<td class="align-middle text-center border-0 text-purple">zu dem<br> ▼<br> zum Fußballspiel</td>
 									</tr>
 								</tbody>
 							</table>
@@ -355,11 +356,12 @@
 </section>
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

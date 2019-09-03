@@ -1,23 +1,28 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
 					</div>
 					</div>
 				</div>				
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-8 col-lg-9 col-xl-9">
-						<table class="table table-responsive">
-							<thead>
+					<div class="col-12">
+						<table class="table" style="height: 100%;">
+							<tbody>
 								<tr>
-									<th colspan="3" scope="col"><img src="./images/Reihe 2/Reihe-2-E-1.png" alt="Herkunft" style="max-width: 100%; height: auto;"></th>
+									<td class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-E-1.png" alt="Herkunft" style="max-width: 100%;  height: auto;"></td>
 								</tr>
-							</thead>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<table class="table table-responsive">
 							<tbody>
 								<tr>
 									<th class="border-top-0 border-bottom-0">1.</th>
@@ -132,7 +137,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
 								<table class="table">
 									<tbody>
 										<tr>
@@ -183,7 +188,8 @@
 										</tr>
 									</tbody>
 								</table>
-
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
 								<table class="table">
 									<tbody>
 										<tr>
@@ -234,6 +240,7 @@
 								</table>
 							
 					</div>
+
 				</div>
 				<!-- 정답화인 버튼 시작 -->
 				<div class="row">
@@ -247,7 +254,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -431,5 +437,7 @@ function rfchk(th,io) {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body> 
 </html>

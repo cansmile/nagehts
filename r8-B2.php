@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <style>
 	.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;} 
 	.video-container iframe,.video-container object,.video-container embed {position:absolute; top:0; left:0; width:100%; height:100%;} 
@@ -23,7 +24,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -149,5 +149,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

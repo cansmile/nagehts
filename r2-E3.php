@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
@@ -9,7 +10,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<thead>
 								<tr>
@@ -53,7 +54,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<thead>
 								<tr>
@@ -97,7 +98,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<thead>
 								<tr>
@@ -155,7 +156,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -341,5 +341,7 @@ function rfchk(th,io) {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

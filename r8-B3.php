@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -45,7 +46,7 @@
 								</tr>
 								<tr>
 									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w10">Fuß<span class="tran"><br><small>발</small></span></div>
+										<div class="border border-light p-1" id="w10">Fuß(Fuss)<span class="tran"><br><small>발</small></span></div>
 									</td>
 									<td class="border-0 p-1 m-1">
 										<div class="border border-light p-1" id="w11">Zahn<span class="tran"><br><small>이</small></span></div>
@@ -1506,10 +1507,8 @@
 				<!-- 정답확인 버튼 끝 -->
 			</div>
 		</section>
-		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -1637,5 +1636,7 @@ function btchk(th) {
 				
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

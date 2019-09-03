@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -12,15 +13,47 @@
 
 
 </style>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
+					Hallo Kinder, was macht ihr da?
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="2">
+					Hier dürft ihr nicht Basketball spielen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="3">
+					Warum dürfen wir nicht spielen?
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="4">
+					Gut,
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="5">
+					Wir spielen Basketball!
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
+					Das ist verboten.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="7">
+					dann hören wir auf damit.
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>순서에 맞게 노란 단추를 눌러 넣세요.</small> ]
-						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
+						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
+						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
 						</h2>
@@ -28,30 +61,7 @@
 				</div>
 
 				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-6 col-lg-6" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-							Hallo Kinder, was macht ihr da?
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="2">
-							Hier dürft ihr nicht Basketball spielen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="3">
-							Warum dürfen wir nicht spielen?
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="4">
-							Gut,
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="5">
-							Wir spielen Basketball!
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
-							Das ist verboten.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="7">
-							dann hören wir auf damit.
-						</button>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="col-12">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -127,8 +137,9 @@
 		</section>
 		
 
+	<div id="marg"></div>
+
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -141,12 +152,14 @@
 			$("#0").hide();
 			$("#0_p").hide();
 			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
-				var hm = new Array();
+				var hm = new Array(), sen = new Array();
 				for(i = 0; i < $(".so").length; i++) {
 					hm[i] = 0;
+					sen[i] = 0;
 				}
 
 				ion.sound({
@@ -301,6 +314,8 @@
 		$("#0").show();
 		$(".alert").hide();
 
+<?php include "wahl.php"; ?>
+
 			var pan = new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10"];
 			pan = ["1","3","4","6"];
@@ -310,8 +325,8 @@
 				$(".itm").each(function() {
 					if($(this).hasClass("ans" + pan[p])) {
 						$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-						$("#" + $(this).attr("id")).addClass("btn-block");
-						$("#" + $(this).attr("id")).addClass("btn-light");
+						$("#" + $(this).attr("id")).addClass("btn-block font-weight-bold");
+						$("#" + $(this).attr("id")).addClass("border-0");
 						$("#lst-" + pan[p] + ">h2").remove();
 						// $("#lst-" + pan[p]).parent().find(".tran").show();
 					}
@@ -325,5 +340,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

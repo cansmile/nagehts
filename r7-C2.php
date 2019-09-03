@@ -1,34 +1,42 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="1">
+					a. Du sollst nicht stehlen.<span class="tran"><br><small>도적질 하지 말라.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="2">
+					b. Der Arzt hat gesagt, du sollst zwei Tabletten nehmen.<span class="tran"><br><small>의사는 처방했다, 너는 2알을 먹으렴.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="3">
+					c. Der Arzt hat gesagt, ich soll nicht rauchen.<span class="tran"><br><small>그 의사가 처방했다, 나는 담배를 피우면 안돼.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="4">
+					d. Willst du meine Frau werden? Ja, ich will.<span class="tran"><br><small>내 아내가 되어 줄래? 네, 그럴게요.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="5">
+					e. Wir wollen nach Amerika.<span class="tran"><br><small>우리는 나중에 미국에 갈거야.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="6">
+					f. Ich möchte bitte ein Glas Wasser.<span class="tran"><br><small>난 물 한잔을 원해요.</small></span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="1">
-							a. Du sollst nicht stehlen.<span class="tran"><br><small>도적질 하지 말라.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="2">
-							b. Der Arzt hat gesagt, du sollst zwei Tabletten nehmen.<span class="tran"><br><small>의사는 처방했다, 너는 2알을 먹으렴.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="3">
-							c. Der Arzt hat gesagt, ich soll nicht rauchen.<br>Es kann aber noch nicht laufen.<span class="tran"><br><small>그 의사가 처방했다, 나는 담배를 피우면 안돼.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="4">
-							d. Willst du meine Frau werden? Ja, ich will.<span class="tran"><br><small>내 아내가 되어 줄래? 네, 그럴게요.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="5">
-							e. Wir wollen nach Amerika.<span class="tran"><br><small>우리는 나중에 미국에 갈거야.</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="6">
-							f. Ich möchte bitte ein Glas Wasser.<span class="tran"><br><small>난 물 한잔을 원해요.</small></span>
-						</button>
 					</div>
 				</div>
 				<div class="row">
@@ -146,9 +154,8 @@
 			</div>
 		</section>
 		
-
+<div id="marg"></div>
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -159,6 +166,8 @@
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$("#chk").hide();
+
 
 			$(document).ready(function() {
 
@@ -187,6 +196,8 @@
 				}
 			});
 
+<?php include "wahl.php"; ?>
+
 			var pan = new Array();
 			// pan = ["1","2","3","4","5","6"];
 			pan = [];
@@ -208,5 +219,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

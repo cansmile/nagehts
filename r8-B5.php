@@ -1,6 +1,39 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
+					das Auge<span class="tran"><br><small>눈</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="2">
+					der Kopf<span class="tran"><br><small>머리</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
+					der Fuß<span class="tran"><br><small>발</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="4">
+					die Ohren<span class="tran"><br><small>귀(양쪽)</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
+					die Haare<span class="tran"><br><small>머리카락</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="6">
+					das Ohr<span class="tran"><br><small>귀</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
+					der Zeh<span class="tran"><br><small>발가락</small></span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -8,32 +41,6 @@
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>단어를 알맞은 그림에 넣으세요.</small> ]
 						</h2>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
-							das Auge<span class="tran"><br><small>눈</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="2">
-							der Kopf<span class="tran"><br><small>머리</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
-							der Fuß<span class="tran"><br><small>발</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
-							die Ohren<span class="tran"><br><small>귀(양쪽)</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
-							die Haare<span class="tran"><br><small>머리카락</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
-							das Ohr<span class="tran"><br><small>귀</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
-							der Zeh<span class="tran"><br><small>발가락</small></span>
-						</button>
 					</div>
 				</div>
 			<!-- 리스트  시작 -->
@@ -51,21 +58,20 @@
 					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-4.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 		<!-- 리스트 끝 -->
-				<!-- 정답화인 버튼 시작 -->
-				<div class="row">
-					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-						정답확인
-					</div>
-				</div>
-				<!-- 정답확인 버튼 끝 -->
 			</div>
 		</section>
 		
-
+<div id="marg"></div>
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -76,6 +82,7 @@
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
 
@@ -104,6 +111,8 @@
 				}
 			});
 
+<?php include "wahl.php"; ?>
+
 		var pan = new Array(), pann;
 		pan = [2,5];
 		for(var p = 0; p < pan.length; p++) {
@@ -121,5 +130,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

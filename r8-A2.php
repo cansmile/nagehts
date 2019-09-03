@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -12,15 +13,35 @@
 
 
 </style>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="1">
+					a
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="2">
+					b
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="3">
+					c
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>순서에 맞게 노란 단추를 눌러 넣세요.</small> ]
-						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
+						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
+						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
 						</h2>
@@ -41,20 +62,25 @@
 								</tr>
 							</tbody>
 						</table>
+						<table class="table text-center">
+							<thead>
+								<tr>
+									<th class="border-0 align-middle" socpe="col">a</th>
+									<th class="border-0 align-middle" socpe="col">b</th>
+									<th class="border-0 align-middle" socpe="col">c</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="border-0 align-middle border-0"><button type="button" id="4" class="so btn btn-outline-pink">▶</button></td>
+									<td class="border-0 align-middle border-0"><button type="button" id="5" class="so btn btn-outline-lime">▶</button></td>
+									<td class="border-0 align-middle border-0"><button type="button" id="6" class="so btn btn-outline-info">▶</button></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 				<div class="row">
-					<div class="my-2 col" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-							a
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="2">
-							b
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="3">
-							c
-						</button>
-					</div>
 					<div class="col-12">
 						<table class="table text-center align-middle">
 							<thead>
@@ -108,9 +134,8 @@
 			</div>
 		</section>
 		
+	<div id="marg"></div>
 
-		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -123,12 +148,14 @@
 			$("#0").hide();
 			$("#0_p").hide();
 			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
-				var hm = new Array();
+				var hm = new Array(), sen = new Array();
 				for(i = 0; i < $(".so").length; i++) {
 					hm[i] = 0;
+					sen[i] = 0;
 				}
 
 				ion.sound({
@@ -137,9 +164,9 @@
 
 						sprite : {
 							"0": [2.13,63.43],
-							"1": [8.7,18.47],
-							"2": [27.93,16.71],
-							"3": [46.71,19.61]
+							"4": [8.7,18.47],
+							"5": [27.93,16.71],
+							"6": [46.71,19.61]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -168,7 +195,7 @@
 							}
 
 						} else {
-							if(obj.part < 1) {
+							if(obj.part < 4) {
 								$("#"+obj.part).html("▶");
 							}
 
@@ -279,6 +306,8 @@
 		$("#0").show();
 		$(".alert").hide();
 
+<?php include "wahl.php"; ?>
+
 			var pan = new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10"];
 			pan = [];
@@ -303,5 +332,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

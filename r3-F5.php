@@ -1,12 +1,13 @@
-d<?php include "header.php"; ?>
+<?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
 					</div>
 					</div>
 				</div>
@@ -15,20 +16,20 @@ d<?php include "header.php"; ?>
 						<table class="table">
 							<tbody>
 								<tr>
-									<td><s>Vivien(Krankenschwester / Ungarn)</s></td>
-									<td>Sumi (Ärztin / Korea)</td>
+									<td class="border-0"><s>Vivien(Krankenschwester / Ungarn)</s></td>
+									<td class="border-0">Sumi (Ärztin / Korea)</td>
 								</tr>
 								<tr>
-									<td><s>Pierre (Lehrer / Frankreich)</s></td>
-									<td>Diana (Studentin / Griechenland)</td>
+									<td class="border-0"><s>Pierre (Lehrer / Frankreich)</s></td>
+									<td class="border-0">Diana (Studentin / Griechenland)</td>
 								</tr>
 								<tr>
-									<td>Max (Fußballspieler / Deutschland)</td>
-									<td>Carlos (Kellner / Mexiko)</td>
+									<td class="border-0">Max (Fußballspieler / Deutschland)</td>
+									<td class="border-0">Carlos (Kellner / Mexiko)</td>
 								</tr>
 								<tr>
-									<td>Julia (Bankkauffrau / Polen)</td>
-									<td>Amit (Chemiker/ Indien)</td>
+									<td class="border-0">Julia (Bankkauffrau / Polen)</td>
+									<td class="border-0">Amit (Chemiker/ Indien)</td>
 								</tr>
 							</tbody>
 						</table>
@@ -129,7 +130,6 @@ d<?php include "header.php"; ?>
 <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -307,18 +307,24 @@ function rfchk(th,io) {
 						// alert(na+"번 문제를 풀어주세요!");
 					};
 				})
-				$("#qst-1").val(an[0]);
-				$("#qst-1").prop("disabled",true);
-				$("#qst-1").closest("tr").find(".tran").show();
 
-				$("#qst-5").val(an[4]);
-				$("#qst-5").prop("disabled",true);
-				$("#qst-5").closest("tr").find(".tran").show();
+				var pan = new Array();
+				pan = [1,5];
+				// pan = ["1","2","4","6","8"];
+				for(var p = 0; p < pan.length; p++) {
+					var pann = "#qst-"+pan[p];
+					$(pann).val(an[(pan[p]-1)]);
+					$(pann).prop("disabled",true);
+					$(pann).addClass("bg-success text-white font-weight-bold");
+					$(pann).closest("tr").find(".tran").show();
+				}				
 
 
 			});
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

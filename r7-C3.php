@@ -1,46 +1,54 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm px-2" id="1">
+					essen und trinken.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm px-2" id="2">
+					duschen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm px-2" id="3">
+					rauchen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm px-2" id="4">
+					schwimmen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm px-2" id="4">
+					darf
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm px-2" id="5">
+					Bücher lesen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm px-2" id="6">
+					essen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm px-2" id="7">
+					einen Film sehen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm px-2" id="8">
+					keine Getränke mitbringen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm px-2" id="9">
+					leise sprechen.
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm px-2" id="1">
-							essen und trinken.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm px-2" id="2">
-							duschen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm px-2" id="3">
-							rauchen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm px-2" id="4">
-							schwimmen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm px-2" id="4">
-							darf
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm px-2" id="5">
-							Bücher lesen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm px-2" id="6">
-							essen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm px-2" id="7">
-							einen Film sehen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm px-2" id="8">
-							keine Getränke mitbringen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm px-2" id="9">
-							leise sprechen.
-						</button>
 					</div>
 				</div>
 				<div class="row">
@@ -206,9 +214,8 @@
 			</div>
 		</section>
 		
-
+<div id="marg"></div>
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -219,6 +226,7 @@
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
 
@@ -247,6 +255,8 @@
 				}
 			});
 
+<?php include "wahl.php"; ?>
+
 			var pan = new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10"];
 			pan = [];
@@ -268,5 +278,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

@@ -1,6 +1,39 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm rounded-circle px-3" id="1">
+					a
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm rounded-circle px-3" id="2">
+					b
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm rounded-circle px-3" id="3">
+					c
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
+					d
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
+					e
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
+					f
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
+					g
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -10,67 +43,46 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="itms">
+					<div class="my-2 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 						<table class="table">
 							<tbody>
 								<tr>
 									<th class="border-0 align-middle" scope="row">a</th>
 									<td class="border-0 align-middle">Nimm doch Hustensaft!
-										<span class="tran"><br><small>감기 시럽 복용!</small></td>
+										<span class="tran"><br><small>기침 시럽 복용!</small></td>
 								</tr>
 								<tr>
 									<th class="border-0 align-middle" scope="row">b</th>
 									<td class="border-0 align-middle">Lernt nicht viel und geht spazieren!
-									<span class="tran"><br><small>많이 공부하지 말고 산책하기!</small></td>
+									<span class="tran"><br><small>(너희들) 많이 공부하지 말고 산책가거라!</small></td>
 								</tr>
 								<tr>
 									<th class="border-0 align-middle" scope="row">c</th>
 									<td class="border-0 align-middle">Seien Sie bitte ruhig!
-									<span class="tran"><br><small>말하지 않기!</small></td>
+									<span class="tran"><br><small>조용히 하세요!</small></td>
 								</tr>
 								<tr>
 									<th class="border-0 align-middle" scope="row">d</th>
 									<td class="border-0 align-middle">Geh zum Arzt!
-									<span class="tran"><br><small>의사에게 가기!</small></td>
+									<span class="tran"><br><small>의사에게 가거라(너)!</small></td>
 								</tr>
 								<tr>
 									<th class="border-0 align-middle" scope="row">e</th>
 									<td class="border-0 align-middle">Habt keine Angst!
-									<span class="tran"><br><small>두려워하지 말기!</small></td>
+									<span class="tran"><br><small>두려워하지 말아라(너희들)!</small></td>
 								</tr>
 								<tr>
 									<th class="border-0 align-middle" scope="row">f</th>
 									<td class="border-0 align-middle">Trinken Sie Kamillentee!
-									<span class="tran"><br><small>카모마일 차 마시기!</small></td>
+									<span class="tran"><br><small>카모마일 차 마시지요!</small></td>
 								</tr>
 								<tr>
 									<th class="border-0 align-middle" scope="row">g</th>
 									<td class="border-0 align-middle">Machen Sie Rückengymnastik!
-									<span class="tran"><br><small>운동 하기!</small></td>
+									<span class="tran"><br><small>허리 운동하세요!</small></td>
 								</tr>
 							</tbody>
 						</table>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm rounded-circle px-3" id="1">
-							a
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm rounded-circle px-3" id="2">
-							b
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm rounded-circle px-3" id="3">
-							c
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-							d
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-							e
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-							f
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-							g
-						</button>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 						<table class="table">
@@ -167,9 +179,8 @@
 			</div>
 		</section>
 		
-
+<div id="marg"></div>
 		
-<?php include "footer.php"; ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="./js/jquery-3.3.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -180,6 +191,7 @@
 <script src="./js/ion.sound.min.js"></script>
 <script>
 $(".tran").hide();
+$("#chk").hide();
 
 $(document).ready(function() {
 
@@ -208,6 +220,8 @@ $(document).ready(function() {
 		}
 	});
 
+<?php include "wahl.php"; ?>
+
 	var pan = new Array();
 	// pan = ["1","2","3","4","5","6","7","8","9","10"];
 	pan = [1];
@@ -228,5 +242,7 @@ $(document).ready(function() {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

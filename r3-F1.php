@@ -1,7 +1,8 @@
-d<?php include "header.php"; ?>
+<?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-		<section>
+<?php if(ul()) { ?>
+<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
@@ -9,7 +10,7 @@ d<?php include "header.php"; ?>
 								<br><small>아래 가계도에 대해 이야기해보세요.
 							</h2>
 							<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
+						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
 					</div>
 					</div>
 				</div>
@@ -264,7 +265,6 @@ d<?php include "header.php"; ?>
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -446,5 +446,7 @@ function rfchk(th,io) {
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

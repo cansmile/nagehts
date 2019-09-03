@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <section>
 	<div class="container">	
 		<div class="row">
@@ -86,24 +87,24 @@
 					<tbody>
 						<tr>
 							<th scope="row">&nbsp;</th>
-							<td><strong>m</strong></td>
-							<td><strong>f</strong></td>
-							<td><strong>n</strong></td>
-							<td><strong>Pl.</strong></td>
+							<td class="text-primary"><strong>m</strong></td>
+							<td class="text-danger"><strong>f</strong></td>
+							<td class="text-purple"><strong>n</strong></td>
+							<td class="text-khaki"><strong>Pl.</strong></td>
 						</tr>
 						<tr>
 							<th scope="row">Nominativ</th>
-							<td>ein Kaffee</td>
-							<td>eine Wurst</td>
-							<td>ein Eis</td>
-							<td>Spaghettis</td>
+							<td class="text-primary">ein Kaffee</td>
+							<td class="text-danger">eine Wurst</td>
+							<td class="text-purple">ein Eis</td>
+							<td class="text-khaki">Spaghettis</td>
 						</tr>
 						<tr>
 							<th scope="row">Akkusativ</th>
-							<td>einen Kaffee</td>
-							<td>eine Wurst</td>
-							<td>ein Eis</td>
-							<td>Spaghettis</td>
+							<td class="text-primary">einen Kaffee</td>
+							<td class="text-danger">eine Wurst</td>
+							<td class="text-purple">ein Eis</td>
+							<td class="text-khaki">Spaghettis</td>
 						</tr>
 					</tbody>
 				</table>
@@ -111,6 +112,7 @@
 		</div>
 	</div>
 </section>
+<? } ?>
 <?php include "footer.php"; ?>
 
 	</body>

@@ -1,13 +1,14 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Ergänzen Sie. <small>빈칸을 채우세요.</small></h2>
 						<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
+						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
 						<h3>[ <small>같은 줄에 있는 답안에 정답을 입력하면 다른 답안은 자동으로 채워집니다.</small> ]</h3>
 					</div>
 					</div>
@@ -353,7 +354,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -369,20 +369,6 @@
 			var an = new Array();
 			var an = ["3","4","5","1","7","2","6","Apartment","Einfamilienhaus","Studentenwohnheim","Schloss","Bauernhof","Ökohaus","Reihenhaus","Reihenhaus"];
 
-			function ch() {
-				$(".wd").removeClass("bg-warning text-dark");
-				$(".wd").each(function () {
-					var t = $(this);
-					var tt = t.text().trim();
-					$("input").each(function() {
-					if($(this).val().indexOf(tt) != -1) {
-						t.addClass("bg-warning text-dark");
-					}
-				})
-
-				})
-			}
-
 			$(document).ready(function() {
 				$(".q").on("keyup", function () {
 					var q = $(this).val().length;
@@ -396,18 +382,18 @@
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
 					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
 					if(a == b) {
-						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 					} else {
-						$(this).addClass("text-white text-weight-bold");
+						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
 					if(!$(this).val()) {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white text-weight-bold");
+						$(this).removeClass("text-white font-weight-bold");
 					}
 					if($(this).val()) {
 						$("#ant-"+$(this).attr("id").substr(4)).show();
@@ -415,7 +401,6 @@
 					} else {
 						$("#ant-"+$(this).attr("id").substr(4)).hide();
 					}
-					ch();
 				})
 
 				$(".q").on("focusin", function() {
@@ -432,11 +417,11 @@
 					}
 					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
 						if(a == b) {
-							$(this).addClass("text-white text-weight-bold");
+							$(this).addClass("text-white font-weight-bold");
 							$(this).addClass("bg-success");
 							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
 						} else {
-							$(this).addClass("text-white text-weight-bold");
+							$(this).addClass("text-white font-weight-bold");
 							$(this).addClass("bg-danger");
 							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 						}
@@ -455,10 +440,12 @@
 							var aa = qn-7+1;
 							$("#qst-"+aa).val(an[(aa-1)]);
 							$("#qst-"+aa).prop("disabled",true);
+							$("#qst-"+aa).addClass("bg-success text-white font-weight-bold");
 						} else {
 							var aa = qn+7+1;
 							$("#qst-"+aa).val(an[(aa-1)]);
 							$("#qst-"+aa).prop("disabled",true);
+							$("#qst-"+aa).addClass("bg-success text-white font-weight-bold");
 						}
 					} else {
 						$(this).addClass("bg-danger");
@@ -466,15 +453,15 @@
 					if($(this).val()) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
+							$(this).removeClass("bg-danger");
 						} else if($(this).hasClass("bg-success")){
 							ion.sound.play("Bama_Country_Country");
 							$(this).prop("disabled",true);
 						}
+					} else {
+						$(this).removeClass("bg-danger");
 					}
 
-					$(this).removeClass("text-white text-weight-bold");
-					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
 
 
 
@@ -530,14 +517,22 @@
 						// alert(na+"번 문제를 풀어주세요!");
 					};
 				})
-				$("#qst-1").val(an[0]);
-				$("#qst-8").val(an[7]);
-				ch();
-				$("#qst-1").prop("disabled",true);
-				$("#qst-8").prop("disabled",true);
+
+				var pan = new Array();
+				pan = [1,8];
+				// pan = ["1","2","4","6","8"];
+				for(var p = 0; p < pan.length; p++) {
+					var pann = "#qst-"+pan[p];
+					$(pann).val(an[(pan[p]-1)]);
+					$(pann).prop("disabled",true);
+					$(pann).addClass("bg-success text-white font-weight-bold");
+					$(pann).closest("tr").find(".tran").show();
+				}				
 			});
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

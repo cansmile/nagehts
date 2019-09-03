@@ -1,6 +1,81 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
+					anfassen<span class="tran"><br><small>건드리다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
+					essen<span class="tran"><br><small>먹다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="3">
+					trinken<span class="tran"><br><small>마시다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
+					lachen<span class="tran"><br><small>웃다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="5">
+					sehen<span class="tran"><br><small>보다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
+					hören<span class="tran"><br><small>듣다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
+					stehen<span class="tran"><br><small>서다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="8">
+					gehen<span class="tran"><br><small>걷다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
+					geben<span class="tran"><br><small>주다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="10">
+					tragen<span class="tran"><br><small>들다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="11">
+					schneiden<span class="tran"><br><small>자르다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="12">
+					lesen<span class="tran"><br><small>읽다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="13">
+					schreiben<span class="tran"><br><small>쓰다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="14">
+					rauchen<span class="tran"><br><small>담배피우다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="15">
+					aufmachen<span class="tran"><br><small>열다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="16">
+					küssen<span class="tran"><br><small>키스하다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="17">
+					riechen<span class="tran"><br><small>냄새를 맡다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="18">
+					atmen<span class="tran"><br><small>호흡하다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="19">
+					singen<span class="tran"><br><small>노래하다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="20">
+					tanzen<span class="tran"><br><small>춤추다</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="21">
+					husten<span class="tran"><br><small>기침하다</small></span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -8,74 +83,6 @@
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>단어를 알맞은 그림에 넣으세요.</small> ]
 						</h2>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-							anfassen<span class="tran"><br><small>건드리다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
-							essen<span class="tran"><br><small>먹다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="3">
-							trinken<span class="tran"><br><small>마시다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
-							lachen<span class="tran"><br><small>웃다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="5">
-							sehen<span class="tran"><br><small>보다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
-							hören<span class="tran"><br><small>듣다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
-							stehen<span class="tran"><br><small>서다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="8">
-							gehen<span class="tran"><br><small>걷다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
-							geben<span class="tran"><br><small>주다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="10">
-							tragen<span class="tran"><br><small>들다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="11">
-							schneiden<span class="tran"><br><small>자르다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="12">
-							lesen<span class="tran"><br><small>읽다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="13">
-							schreiben<span class="tran"><br><small>쓰다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="14">
-							rauchen<span class="tran"><br><small>담배피우다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="15">
-							aufmachen<span class="tran"><br><small>열다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="16">
-							küssen<span class="tran"><br><small>키스하다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="17">
-							riechen<span class="tran"><br><small>냄새를 맡다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="18">
-							atmen<span class="tran"><br><small>호흡하다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="19">
-							singen<span class="tran"><br><small>노래하다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="20">
-							tanzen<span class="tran"><br><small>춤추다</small></span>
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="21">
-							husten<span class="tran"><br><small>기침하다</small></span>
-						</button>
 					</div>
 				</div>
 			<!-- 리스트  시작 -->
@@ -110,10 +117,9 @@
 				<!-- 정답확인 버튼 끝 -->
 			</div>
 		</section>
-		
 
+<div id="marg" class="border-danger"></div>		
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -124,6 +130,7 @@
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
 
@@ -152,6 +159,8 @@
 				}
 			});
 
+<?php include "wahl.php"; ?>
+
 		var pan = new Array(), pann;
 		pan = [1,9,10,11,13,15,21];
 		for(var p = 0; p < pan.length; p++) {
@@ -169,5 +178,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

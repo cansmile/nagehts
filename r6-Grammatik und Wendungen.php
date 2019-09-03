@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <section>
 	<div class="container">
 		<div class="row">
@@ -353,7 +354,7 @@
 										<td>Es ist halb zehn.</td>
 									</tr>
 									<tr>
-										<td colspan="2">am Morgen, am Vormittag, am Mittag, am Nachmittag, am Abend, am Freitagabend, am Sonntagmorgen, am Montagnachmittag, in der Nacht</td>
+										<td colspan="2"><span class="d-inline-block">am Morgen</span>, <span class="d-inline-block">am Vormittag</span>, <span class="d-inline-block">am Mittag</span>, <span class="d-inline-block">am Nachmittag</span>, <span class="d-inline-block">am Abend</span>, <span class="d-inline-block">am Freitagabend</span>, <span class="d-inline-block">am Sonntagmorgen</span>, <span class="d-inline-block">am Montagnachmittag</span>, <span class="d-inline-block">in der Nacht</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -366,11 +367,12 @@
 </section>
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

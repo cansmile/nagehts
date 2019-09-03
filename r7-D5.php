@@ -1,34 +1,42 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<div class="container">
+		<div class="row">
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col-12" id="itms">
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-2" id="1">
+					ins Café gehen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm px-2" id="2">
+					in den Supermarkt gehen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-2" id="3">
+					ins Restaurant gehen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="4">
+					in die Buchhandlung gehen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm px-2" id="5">
+					ins Kino gehen.
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-2" id="6">
+					in die Sprachschule gehen.
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
-						<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-2" id="1">
-							ins Café gehen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm px-2" id="2">
-							in den Supermarkt gehen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-2" id="3">
-							ins Restaurant gehen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="4">
-							in die Buchhandlung gehen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm px-2" id="5">
-							ins Kino gehen.
-						</button>
-						<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-2" id="6">
-							in die Sprachschule gehen.
-						</button>
 					</div>
 				</div>
 				<div class="row">
@@ -52,7 +60,7 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">1.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Wir wollen essen gehen. Dann können wir&nbsp;
+											Wir wollen essen gehen. Dann sellten wir&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -65,7 +73,7 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">2.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Frau Lee will Kuchen essen und Kaffee trinken. Dann kann sie&nbsp;
+											Frau Lee will Kuchen essen und Kaffee trinken. Dann sollte sie&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -78,7 +86,7 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">3.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Er will ein Buch kaufen. Dann kann er&nbsp;
+											Er will ein Buch kaufen. Dann sollten er&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -91,7 +99,7 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">4.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Wir wollen einen Film sehen. Dann können wir&nbsp;
+											Wir wollen einen Film sehen. Dann sollten wir&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-5" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -104,7 +112,7 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">5.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Ich will Fleisch besorgen. Dann kann ich&nbsp;
+											Ich will Fleisch besorgen. Dann sollte ich&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-6" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -129,8 +137,9 @@
 		</section>
 		
 
+	<div id="marg"></div>
+
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -141,8 +150,11 @@
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
+
+<?php include "wahl.php"; ?>
 
 			// 정답확인
 			$("#chk").on("click", function() {
@@ -178,8 +190,8 @@
 				$(".itm").each(function() {
 					if($(this).hasClass("ans" + pan[p])) {
 						$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-						$("#" + $(this).attr("id")).addClass("btn-block");
-						$("#" + $(this).attr("id")).addClass("btn-light");
+						$("#" + $(this).attr("id")).addClass("btn-block font-weight-bold");
+						$("#" + $(this).attr("id")).addClass("border-0");
 						$("#lst-" + pan[p] + ">h2").remove();
 						$("#lst-" + pan[p]).parent().find(".tran").show();
 					}
@@ -190,5 +202,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

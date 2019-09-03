@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -11,12 +12,12 @@
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Der Kellner oder der Gast?<br>
 							<small>종업원? 손님?</small>
-						<button type="button" class="btn btn-primary ml-2 btn-inline so" id="0">
+						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn btn-primary ml-2 btn-inline so" id="0_p">
+						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button><br>
-						[ <small><button type="button" class="btn disabled btn-sm btn-primary">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 선택하세요.</small> ]
+						[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 선택하세요.</small> ]
 
 						</h2>
 						<h3>[ <small>몇 번을 들어도 번역은 나오지 않습니다.<br>문제를 모두 풀고 번역을 확인하세요.</small> ]</h3>
@@ -127,7 +128,6 @@
 		
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -297,5 +297,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

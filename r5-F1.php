@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 
 <section>
 	<div class="container">
@@ -98,7 +99,7 @@
 								<th scope="col" width="25%" class="border border-white ">&nbsp;</th>
 								<th scope="col" width="25%" class="border border-white bg-light text-primary">m</th>
 								<th scope="col" width="25%" class="border border-white bg-light text-danger">f</th>
-								<th scope="col" width="25%" class="border border-white bg-light text-secondary">n</th>
+								<th scope="col" width="25%" class="border border-white bg-light text-purple">n</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -106,13 +107,13 @@
 								<th class="border border-white bg-light" scope="row">Nominativ</th>
 								<td class="border border-white text-primary"><strong>der</strong> Salat</td>
 								<td class="border border-white text-danger"><strong>die</strong> Pizza</td>
-								<td class="border border-white text-secondary"><strong>das</strong> Steak</td>
+								<td class="border border-white text-purple"><strong>das</strong> Steak</td>
 							</tr>
 							<tr>
 								<th class="border border-white bg-light" scope="row">Akkusativ</th>
 								<td class="border border-white text-primary"><strong>den</strong> Salat</td>
 								<td class="border border-white text-danger"><strong>die</strong> Pizza</td>
-								<td class="border border-white text-secondary"><strong>das</strong> Steak</td>
+								<td class="border border-white text-purple"><strong>das</strong> Steak</td>
 							</tr>
 						</tbody>
 					</table>
@@ -129,7 +130,6 @@
 </section>
 
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -261,5 +261,7 @@ $("[data-toggle='popover']").popover({
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

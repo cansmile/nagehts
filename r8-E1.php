@@ -17,49 +17,59 @@
 		<div class="row">
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
-				<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="1">
-					Guten Tag, Frau Lehmenn? Was kann ich für Sie tun?
-					<span class="tran"><br><small>안녕하세요, 레만 부인? 제가 뭘 도와드릴까요?</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
+					das Auge<span class="tran">&nbsp;<small>눈</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so text-left" id="2">
-					Ich komme gleich mit ihm!
-					<span class="tran"><br><small>제가 아들을 데리고 갈게요!</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="2">
+					das Bein<span class="tran">&nbsp;<small>다리</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-left" id="3">
-					Kann er für heute Vormittag einen Termin haben?
-					<span class="tran"><br><small>오늘 오전에 예약할 수 있나요?</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark so itm" id="3">
+					das Gesicht<span class="tran">&nbsp;<small>얼굴</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so text-left" id="4">
-					Vielen Dank!
-					<span class="tran"><br><small>감사합니다!</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans17 btn-lg btn-outline-dark so itm" id="4">
+					das Knie<span class="tran">&nbsp;<small>무릎</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so text-left" id="5">
-					Bis dann!
-					<span class="tran"><br><small>이 따 뵐게요!</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="5">
+					das Ohr<span class="tran">&nbsp;<small>귀</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-left" id="6">
-					Guten Tag, mein Name ist Lehmann.
-					<span class="tran"><br><small>안녕하세요, 저는 레만이라고 해요.</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
+					der Arm<span class="tran">&nbsp;<small>팔</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-left" id="7">
-					Mein Sohn Peter hat Fieber und starke Bauchschmerzen.
-					<span class="tran"><br><small>제 아들 피터가 열이 나고 복통이 심해요.</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="7">
+					der Bauch<span class="tran">&nbsp;<small>배</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-left" id="8">
-					Das ist gut!
-					<span class="tran"><br><small>다행이네요!</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans15 btn-lg btn-outline-dark so itm" id="8">
+					der Finger<span class="tran">&nbsp;<small>손가락</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-left" id="9">
-					Ja. Wir haben um 11 Uhr einen Termin frei.
-					<span class="tran"><br><small>네. 11시에 시간이 비어있네요.</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="9">
+					der Fuß<span class="tran">&nbsp;<small>발</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-left" id="10">
-					Guten Tag, Praxis Dr. Fischer.
-					<span class="tran"><br><small>안녕하세요, 피셔 병원입니다.</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans13 btn-lg btn-outline-dark so itm" id="10">
+					der Hals<span class="tran">&nbsp;<small>목</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so text-left" id="11">
-					Keine Ursache. Bis gleich, Frau Lehmann.
-					<span class="tran"><br><small>천만에요. 곧 뵙겠습니다, 레만 부인.</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="11">
+					der Kopf<span class="tran">&nbsp;<small>머리</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="12">
+					der Mund<span class="tran">&nbsp;<small>입</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans14 btn-lg btn-outline-dark so itm" id="13">
+					der Rücken<span class="tran">&nbsp;<small>등</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans18 btn-lg btn-outline-dark so itm" id="14">
+					der Zeh<span class="tran">&nbsp;<small>발가락</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans16 btn-lg btn-outline-dark so itm" id="15">
+					die Brust<span class="tran">&nbsp;<small>가슴</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="16">
+					die Hand<span class="tran">&nbsp;<small>손</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="17">
+					die Nase<span class="tran">&nbsp;<small>코</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans12 btn-lg btn-outline-dark so itm" id="18">
+					die Zähne<span class="tran">&nbsp;<small>치아</small></span>
 				</button>
 			</div>
 		</div>
@@ -71,33 +81,30 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Ergänzen Sie den Dialog. <small>문장을 완성해 보세요.</small>
+						<h2>[ <small>단어를 누르면 소리가 납니다.</small> ]
 						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
 						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
-						</button>						
+						</button>
 						</h2>
-						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">보기</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 						<table class="table">
 							<tbody>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td width="50%" class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -105,8 +112,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-3">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -114,8 +120,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-4">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -123,8 +128,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">&nbsp;</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-5">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -132,8 +136,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-6">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -141,25 +144,38 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
-										<div class="itm-lst 1itm d-inline-block" style="min-width: 32%;"  id="lst-7">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-										</div>
-										<div class="itm-lst 1itm d-inline-block" style="min-width: 32%;" id="lst-8">
-											<h2 class="btn btn-warning btn-xl ttl d-block">
-											▼ </h2>
-										</div>
-										<div class="itm-lst 1itm d-inline-block" style="min-width: 32%;" id="lst-9">
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-7">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-8">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-9">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+						<table class="table">
+							<tbody>
+								<tr>
+									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
+									<td width="50%" class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-10">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
@@ -167,9 +183,64 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
-									<td class="pb-0 pt-3 border-0 align-middle">
+									<td class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-11">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-12">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-13">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-14">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-15">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-16">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-17">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="border-0 align-middle p-0 m-1">
+										<div class="itm-lst 1itm" id="lst-18">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
@@ -186,11 +257,11 @@
 					</div>
 				</div>
 				<!-- 정답확인 버튼 끝 -->
+
 			</div>
 		</section>
-		
-		<div class="marg"></div>
 
+		<div id="marg"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
@@ -201,10 +272,10 @@
 		<!-- interact.min.js -->
 		<script src="./js/ion.sound.min.js"></script>
 		<script>
-			$(".tran").hide();
-			$("#chk").hide();
 			$("#0").hide();
 			$("#0_p").hide();
+			$(".tran").hide();
+			$("#chk").hide();
 
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
@@ -216,21 +287,28 @@
 
 				ion.sound({
 					sounds : [{
-						name : "r8 D3 Termin beim Arzt",
+						name : "r8 B1",
 
 						sprite : {
-							"0": [5,46.31],
-							"1": [18.74,3.67],
-							"2": [40.79,1.86],
-							"3": [28.81,3.61],
-							"4": [43.03,1.21],
-							"5": [49.7,1.56],
-							"6": [14.17,3.18],
-							"7": [23.8,4.32],
-							"8": [39.34,1.22],
-							"9": [34.47,3.43],
-							"10": [9.23,3.54],
-							"11": [44.82,3.66]
+							"0": [7.9,82.09],
+							"1": [20,2.9],
+							"2": [43.28,2.09],
+							"3": [58.46,2.01],
+							"4": [83.41,2.1],
+							"5": [54.49,1.71],
+							"6": [32.03,1.8],
+							"7": [39.77,1.75],
+							"8": [79.16,1.98],
+							"9": [47.14,2.13],
+							"10": [66.85,2.15],
+							"11": [16.85,1.87],
+							"12": [28,2.23],
+							"13": [71.2,2.1],
+							"14": [87.65,2.07],
+							"15": [75.15,1.86],
+							"16": [35.82,1.6],
+							"17": [24.56,1.97],
+							"18": [62.65,2.17]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -259,12 +337,12 @@
 							}
 
 						} else {
-							if(obj.part > 11) {
+							if(obj.part < 1) {
 								$("#"+obj.part).html("▶");
 							}
 
 							if(hm[hmn] > 1) {
-									$("#"+hmn).find(".tran").show();		
+									$("#"+hmn).closest("button").find(".tran").show();		
 							}
 
 
@@ -311,26 +389,26 @@
 			$(".so").on("click", function () {
 				if($(this).attr("id").substr(-2) == "_p") {
 					// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r8 D3 Termin beim Arzt", {
+					ion.sound.pause("r8 B1", {
 						part: "0"
 					});
 					$("#0").show();
 					$(this).hide();
 				} else if($(this).html() == "▶") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.play("r8 D3 Termin beim Arzt", {
+					ion.sound.play("r8 B1", {
 						part: $(this).attr("id")
 					});
 					$(this).html("❚❚");
 				} else if($(this).html() == "❚❚") {
 					// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-					ion.sound.pause("r8 D3 Termin beim Arzt", {
+					ion.sound.pause("r8 B1", {
 						part: $(this).attr("id")
 					});
 					$(this).html("▶");
 				} else {
 					// _p 붙어 있지 않으면 id 그대로 재생
-					ion.sound.play("r8 D3 Termin beim Arzt", {
+					ion.sound.play("r8 B1", {
 						part: $(this).attr("id")
 					});
 
@@ -341,7 +419,6 @@
 					};
 				};
 			});
-
 
 			// 정답확인
 			$("#chk").on("click", function() {
@@ -367,27 +444,34 @@
 					// alert(na+"번 문제를 풀어주세요!");
 				}
 			});
-		$("#0").show();
-		$(".alert").hide();
+
+
+			$("#0").show();
+			$(".alert").hide();
 
 <?php include "wahl.php"; ?>
 
+
+			// 자동 답 채우기
 			var pan = new Array();
-			pan = [1, 2, 3, 4, 6, 7, 9, 10, 11];
+			// pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+			pan = [1,3,4,5,6,9,11,13,15,17];
 			var il = $("#itms>.itm").length;
 			for(var p = 0; p < pan.length; p++) {
 			var pani = "#lst-" + pan[p];
 				$(".itm").each(function() {
 					if($(this).hasClass("ans" + pan[p])) {
 						$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-						$("#" + $(this).attr("id")).addClass("btn-block font-weight-bold");
-						$("#" + $(this).attr("id")).addClass("border-0");
+						$("#" + $(this).attr("id")).addClass("btn-block");
+						$("#" + $(this).attr("id")).addClass("btn-light");
 						$("#lst-" + pan[p] + ">h2").remove();
-						// $("#lst-" + pan[p]).parent().find(".tran").show();
+						// $("#lst-" + pan[p]).closest("tr").find(".tran").show();
 					}
 				})
 			}
+
 		}
+
 	});
 	
 });

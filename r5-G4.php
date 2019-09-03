@@ -1,11 +1,12 @@
 d<?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+<?php if(ul()) { ?>
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고,<br> 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
+						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -14,13 +15,16 @@ d<?php include "header.php"; ?>
 							<thead>
 								<tr>
 									<th scope="col" class="text-center" width="15%">das Falsche</th>
-									<th scope="col" class="text-center">&nbsp;</th>
+									<th scope="col" class="text-center">
+										<span class="p-1 px-2 m-1 bg-primary align-middle text-white rounded font-weight-bold">m</span>
+										<span class="p-1 px-2 m-1 bg-danger align-middle text-white rounded font-weight-bold">f</span>
+										<span class="p-1 px-2 m-1 bg-purple align-middle text-white rounded font-weight-bold">n</span></th>
 									<th scope="col" class="text-center" width="15%">das Richtige</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td rowspan="2" class="border-0 text-center align-middle"><img src="./images/Reihe 5/Reihe-5-G4-1.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Käsebrötchen</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-1.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Käsebrötchen</td>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-1"></div>
 										<div class="input-group">
@@ -29,7 +33,7 @@ d<?php include "header.php"; ?>
 										</div>
 										<span class="tran"><small>저는 치즈빵을 주문하지 않았어요.</small></span>
 									</td>
-									<td rowspan="2" class="border-0 text-center align-middle"><img src="./images/Reihe 5/Reihe-5-G4-2.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bratwurstbrötchen</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-2.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bratwurstbrötchen</td>
 								</tr>
 								<tr>
 									<td class="border-0 text-left align-middle">
@@ -42,7 +46,7 @@ d<?php include "header.php"; ?>
 									</td>
 								</tr>
 								<tr>
-									<td rowspan="2" class="border-0 text-center align-middle"><img src="./images/Reihe 5/Reihe-5-G4-3.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Cola</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-danger font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-3.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Cola</td>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-3"></div>
 										<div class="input-group">
@@ -51,7 +55,7 @@ d<?php include "header.php"; ?>
 										</div>
 										<span class="tran"><small>저는 콜라를 주문하지 않있어요.	</small></span>
 									</td>
-									<td rowspan="2" class="border-0 text-center align-middle"><img src="./images/Reihe 5/Reihe-5-G4-4.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Orangensaft</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-primary font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-4.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Orangensaft</td>
 								</tr>
 								<tr>
 									<td class="border-0 text-left align-middle">
@@ -64,7 +68,7 @@ d<?php include "header.php"; ?>
 									</td>
 								</tr>
 								<tr>
-									<td rowspan="2" class="border-0 text-center align-middle"><img src="./images/Reihe 5/Reihe-5-G4-5.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Wein</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-primary font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-5.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Wein</td>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-5"></div>
 										<div class="input-group">
@@ -73,7 +77,7 @@ d<?php include "header.php"; ?>
 										</div>
 										<span class="tran"><small>저는 와인 한 잔을 주문하지 않았어요.</small></span>
 									</td>
-									<td rowspan="2" class="border-0 text-center align-middle"><img src="./images/Reihe 5/Reihe-5-G4-6.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bier</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-6.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bier</td>
 								</tr>
 								<tr>
 									<td class="border-0 text-left align-middle">
@@ -102,7 +106,6 @@ d<?php include "header.php"; ?>
 <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
-<?php include "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.3.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -280,18 +283,23 @@ function rfchk(th,io) {
 						// alert(na+"번 문제를 풀어주세요!");
 					};
 				})
-				$("#qst-1").val(an[0]);
-				$("#qst-1").prop("disabled",true);
-				$("#qst-1").closest("tr").find(".tran").show();
 
-				$("#qst-2").val(an[1]);
-				$("#qst-2").prop("disabled",true);
-				$("#qst-2").closest("tr").find(".tran").show();
-
+				var pan = new Array();
+				pan = ["1","2"];
+				// pan = ["1","2","4","6","8"];
+				for(var p = 0; p < pan.length; p++) {
+					var pann = "#qst-"+pan[p];
+					$(pann).val(an[(pan[p]-1)]);
+					$(pann).prop("disabled",true);
+					$(pann).addClass("bg-success text-white font-weight-bold");
+					$(pann).closest("tr").find(".tran").show();
+				}				
 
 			});
 			
 		</script>
 		<!-- ion.sound finished -->
+<? } ?>
+<?php include "footer.php"; ?>
 	</body>
 </html>

@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"cansmile"
+			],
+			[
+				"real",
+				"real_k8805〔variable〕"
+			],
+			[
+				"in",
+				"in_str"
+			],
+			[
 				"collapse",
 				"collapse-preserve-inline"
 			],
@@ -156,10 +168,6 @@
 				"btn-danger \tBootstrap 4 Class"
 			],
 			[
-				"c",
-				"content-name"
-			],
-			[
 				"margin",
 				"margin"
 			],
@@ -178,10 +186,6 @@
 			[
 				"doc",
 				"DOCTYPE  (doctype)"
-			],
-			[
-				"in",
-				"inline-block"
 			],
 			[
 				"str",
@@ -223,6 +227,27 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Container/2.rb",
+			"settings":
+			{
+				"buffer_size": 132,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "al = ['A','B','C']\nprint(len(al))\nprint(al)\ndel(al[0])\nprint(al",
+			"file": "Container/2.py",
+			"file_size": 68,
+			"file_write_time": 132121738608581215,
+			"settings":
+			{
+				"buffer_size": 63,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -324,6 +349,18 @@
 		"selected_items":
 		[
 			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
 				"installpa",
 				"Package Control: Install Package"
 			],
@@ -336,20 +373,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"remove pack",
 				"Package Control: Remove Package"
-			],
-			[
-				"install pack",
-				"Package Control: Install Package"
 			],
 			[
 				"removepack",
@@ -856,14 +881,32 @@
 	},
 	"expanded_folders":
 	[
-		"/D/cansmile/csde/nagehts"
+		"/D/cansmile/csde/nagehts/pyrb",
+		"/D/cansmile/csde/nagehts/pyrb/Container"
 	],
 	"file_history":
 	[
-		"/D/cansmile/csde/nagehts/inhalt.php",
-		"/D/cansmile/csde/nagehts/nav.php",
-		"/D/cansmile/csde/nagehts/header.php",
-		"/D/cansmile/csde/nagehts/r8-E2.php",
+		"/D/cansmile/csde/nagehts/pyrb/Container/1.py",
+		"/D/cansmile/csde/nagehts/pyrb/Container/1.rb",
+		"/D/cansmile/csde/nagehts/pyrb/Comment/1.py",
+		"/D/cansmile/csde/nagehts/pyrb/Comment/1.rb",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/tfp84251401173103395.tmp",
+		"/D/cansmile/csde/nagehts/pyrb/Logical_Operator/3.rb",
+		"/D/cansmile/csde/nagehts/pyrb/Logical_Operator/3.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Glue/Glue.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Glue/keymaps/Default (Windows).sublime-keymap",
+		"/D/cansmile/csde/nagehts/pyrb/Logical_Operator/1.rb",
+		"/D/cansmile/csde/nagehts/pyrb/Logical_Operator/2.rb",
+		"/D/cansmile/csde/nagehts/pyrb/Input_Output/2.rb",
+		"/D/cansmile/csde/nagehts/pyrb/Input_Output/2.py",
+		"/D/cansmile/csde/nagehts/pyrb/conditional/5.py",
+		"/D/cansmile/csde/nagehts/pyrb/conditional/5.rb",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/D/cansmile/csde/nagehts/pyrb/conditional/1.py",
+		"/D/cansmile/csde/nagehts/pyrb/conditional/1.rb",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/BeautifyRuby.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BeautifyRuby/BeautifyRuby.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BeautifyRuby/Default (Windows).sublime-keymap",
 		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/2.rb",
 		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/2.py",
 		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/1.py",
@@ -897,11 +940,12 @@
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567564280/nagehts.json/nagehts/pyrb/string/2.pf",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567563762/nagehts.json/var/www/html/nagehts.org/public_html/pyrb/string/1.py",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567563789/nagehts.json/var/www/html/nagehts.org/public_html/pyrb/string/1.rb",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
 		"/D/cansmile/csde/nagehts/pyrb/math/1.py",
 		"/D/cansmile/csde/nagehts/pyrb/math/1.rb",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567561407/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/hello.py",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567558399/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/hello.py",
+		"/D/cansmile/csde/nagehts/nav.php",
+		"/D/cansmile/csde/nagehts/header.php",
 		"/D/cansmile/csde/nagehts/r0-Zuordnung.php",
 		"/D/cansmile/csde/nagehts/r8-E1.php",
 		"/D/cansmile/csde/nagehts/r8-DGR.php",
@@ -969,29 +1013,11 @@
 		"/D/cansmile/csde/nagehts/r2-C2.php",
 		"/D/cansmile/csde/nagehts/r2-C1.php",
 		"/D/cansmile/csde/nagehts/r2-A4.php",
-		"/D/cansmile/csde/nagehts/r2-A2.php",
-		"/D/cansmile/csde/nagehts/r2-A1.php",
-		"/D/cansmile/csde/nagehts/r1-G2.php",
-		"/D/cansmile/csde/nagehts/r1-G1.php",
-		"/D/cansmile/csde/nagehts/r1-F2.php",
-		"/D/cansmile/csde/nagehts/r1-C2.php",
-		"/D/cansmile/csde/nagehts/r1-B5.php",
-		"/D/cansmile/csde/nagehts/r1-B4.php",
-		"/D/cansmile/csde/nagehts/r1-A3.php",
-		"/D/cansmile/csde/nagehts/r1-A2.php",
-		"/D/cansmile/csde/nagehts/r1-G3.php",
-		"/D/cansmile/csde/nagehts/r2-B1.php",
-		"/D/cansmile/csde/nagehts/r2-A6.php",
-		"/D/cansmile/csde/nagehts/r3-A2.php",
-		"/D/cansmile/csde/nagehts/r3-A1.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
-		"/D/cansmile/csde/nagehts/r2-D2.php",
-		"/D/cansmile/csde/nagehts/r3-D1.php"
+		"/D/cansmile/csde/nagehts/r2-A2.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -1021,23 +1047,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3",
-			"col-lg-4 col-md-6 col-sm-12 ",
-			"file_exists",
-			"file_exist",
-			"text-gray",
-			"favi",
-			"fav",
-			"table text-center",
-			") if",
-			") $",
-			"<div class=\"ant\" id=\"ant-",
-			"<th rowspan=\"2\" scope=\"row\" width=\"30\" class=\"align-middle border-0\">1",
-			"<div class=\"ant\" id=\"ant-",
-			"<img src=\"./images/Reihe 8/Reihe-8-E2-",
-			"<div class=\"ant\" id=\"ant-",
-			"./images/Reihe 8/Reihe-8-E2-",
-			"./images/Reihe 8/Reihe-8-E2-2.png",
+			"print",
+			"pw",
+			"in_str",
+			"egoing",
+			"input",
 			")",
 			"D:\\cansmile\\csde\\nagehts\\",
 			"-",
@@ -1148,7 +1162,19 @@
 			"교재",
 			"p-1 px-2",
 			" if($(this).",
-			") $(\".q\").on("
+			") $(\".q\").on(",
+			"marg",
+			"id=\"marg",
+			"wahl",
+			"</small></span></td>",
+			"$(\".q\").on(\"focusin\", function() {",
+			") $(\".q\").on(\"focusin\", function() {",
+			"newline",
+			"new",
+			"==",
+			"=  =",
+			"==",
+			"= ="
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1156,9 +1182,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"\t\t\t\t</",
-			"\");\n",
-			" ?>\n\t\t<section>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-lg-12 mb-4 mt-2 text-center\">\n\t\t\t\t\t\t<h2> Schreiben Sie. <br>\n\t\t\t\t\t\t\t<small>써보세요.</small>\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3>[ <small>대문자로 된 부분을 바른 단어로 입력하세요.</small> ]</h3>\n\t\t\t\t\t\t<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<!-- 정답화인 버튼 시작 -->\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"btn my-3 btn-light col-sm-12 col-md-12 col-lg-12\" id=\"chk\">\n\t\t\t\t\t\t정답확인\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- 정답확인 버튼 끝 -->\n\t\t\t</div>\n\t\t</section>\n\t\t\n\n\t\t\n\t\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t\t<script src=\"./js/jquery-3.3.1.min.js\"></script>\n\t\t<!-- Include all compiled plugins (below), or include individual files as needed -->\n\t\t<script src=\"./js/popper.min.js\"></script>\n\t\t<script src=\"./js/bootstrap.js\"></script>\n\t\t<script src=\"./js/taptogroupnomove.js\"></script>\n\t\t<!-- interact.min.js -->\n\t\t<script src=\"./js/ion.sound.min.js\"></script>\n\t\t<script>\n\t\t\t$(\".tran\").hide();\n\t\t\t$(\".ant\").hide();\n\n\t\t\tvar an = new Array();\n\t\t\tvar an = [\"Kopf\",\"Zahn\",\"Hals\",\"Rücken\",\"Bauch\"];\n\n\t\t\t$(document).ready(function() {\n/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */\n// 값 확인해보자, io값이 참이면 전체 검사\nfunction rfchk(th,io) {\n\tvar q, qn, a, b, fl;\n\tq = th.val().length;\n\tqn = (th.attr(\"id\").substr(4))-1;\n\ta = th.val();\n\ta = a.replace(/ /gi, \"\");\n\tif(!$.isArray(an[qn])) {\n\t\t// 1 인 경우 \n\t\tif(io) {\n\t\t\tb = an[qn];\n\t\t} else {\n\t\t\tb = an[qn].substr(0,q);\n\t\t}\n\t\tb = b.replace(/ /gi, \"\");\n\n\t\tif(a == b) {\n\t\t\treturn true;\n\t\t}\n\n\t} else {\n\t\t// 2 이상인 경우\n\t\tfor(var fd = 0; fd < an[qn].length; fd++) {\n\t\t\tif(io) {\n\t\t\t\tb = an[qn][fd];\n\t\t\t} else {\n\t\t\t\tb = an[qn][fd].substr(0,q);\n\t\t\t}\n\t\t\tb = b.replace(/ /gi, \"\");\n\t\t\t\n\t\t\tif(a == b) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t}\n\t\t\n\t}\n}\n\t\t\t\t$(\".q\").on(\"keyup\", function () {\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-danger\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-success\");\n\n\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t}\n\n\t\t\t\t\tif(!$(this).val()) {\n\t\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".q\").on(\"focusin\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\tif(!$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t}\n\t\t\t\t\tif($(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".q\").on(\"focusout\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\n\t\t\t\t\tif(rfchk($(this),true)) {\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(this).addClass(\"text-white\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t}\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\tif($(this).hasClass(\"bg-danger\")) {\n\t\t\t\t\t\t\tion.sound.play(\"Cartoon_Boing\");\n\t\t\t\t\t\t} else if($(this).hasClass(\"bg-success\")){\n\t\t\t\t\t\t\tion.sound.play(\"Bama_Country_Country\");\n\t\t\t\t\t\t\t$(this).prop(\"disabled\",true);\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\tif(!$(this).attr(\"disabled\")) {\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t}\n\t\t\t\t})\n/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */\n\n\t\t\t\t$(\"#chk\").on(\"click\", function() {\n\t\t\t\t\tvar na = \"\";\n\t\t\t\t\tvar ri = 0;\n\t\t\t\t\tvar qst = $(\".q\").length;\n\t\t\t\t\t$(\".q\").each(function () {\n\t\t\t\t\t\tif(na != \"\") {\n\t\t\t\t\t\t\tna += \", \";\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif($(this).val() == \"\") {\n\t\t\t\t\t\t\tna += $(this).attr(\"id\").substr(4,1);\n\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t\t\n\t\t\t\t\tif($(this).attr(\"id\") == \"done\") {} else if(na == \"\") {\n\t\t\t\t\t\tfor(var i = 0; i < an.length; i++) {\n\t\t\t\t\t\t\tvar oran = $(\"#qst-\"+(i+1)).val();\n\t\t\t\t\t\t\tif(rfchk($(\"#qst-\"+(i+1)))) {\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).addClass(\"bg-success text-white\");\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).val(an[i]);\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).attr(\"disabled\",true);\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).parent().append(\"<span class=\\\"ml-5 text-danger\\\">\"+oran+\"</span>\");\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\tif($(\"#qst-\"+(i+1)).hasClass(\"bg-success\")) {\n\t\t\t\t\t\t\t\tri++;\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\tif (ri < (qst/2)) {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-danger text-white\");\n\t\t\t\t\t} else if(ri == qst) {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!<br>혹시 독일인이세요?</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-primary text-white\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!<br>훌륭합니다!</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-warning text-white\");\n\t\t\t\t\t}\n\n\t\t\t\t\t$(this).prop(\"disabled\", true);\n\t\t\t\t\t$(\".tran\").show();\n\t\t\t\t\t$(this).attr(\"id\",\"done\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\talert(\"모든 문제를 풀어주세요!\");\n\t\t\t\t\t\t// alert(na+\"번 문제를 풀어주세요!\");\n\t\t\t\t\t};\n\t\t\t\t})\n\n\t\t\t\tvar pan = new Array();\n\t\t\t\tpan = [\"1\"];\n\t\t\t\t// pan = [\"1\",\"2\",\"4\",\"6\",\"8\"];\n\t\t\t\tfor(var p = 0; p < pan.length; p++) {\n\t\t\t\t\tvar pann = \"#qst-\"+pan[p];\n\t\t\t\t\t$(pann).val(an[(pan[p]-1)]);\n\t\t\t\t\t$(pann).addClass(\"bg-success text-white font-weight-bold\");\n\t\t\t\t\t$(pann).prop(\"disabled\",true);\n\t\t\t\t\t$(pann).closest(\"tr\").find(\".tran\").show();\n\t\t\t\t}\t\t\t\t\n\n});\n\t\t\t\n\t\t</script>\n\t\t<!-- ion.sound finished -->\n<? ",
 			"",
 			";",
 			";\n",
@@ -1283,7 +1306,10 @@
 			"6200bf",
 			"150, 38, 255",
 			"6900cc",
-			"7000d9"
+			"7000d9",
+			"0069d9 ",
+			"8300ff",
+			"d19fff"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1294,14 +1320,419 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Container/2.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"SL.72.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 72,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										131,
+										132
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										128,
+										129
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "Container/2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"SL.73.region_keys":
+							[
+								"SL.flake8.Highlights.|b7edf05f891d88e1b2b9df42f1e603ccc1b762fbc421e2a0df2664f1f5072eca|region.redish markup.error.sublime_linter|32",
+								"SL.flake8.Highlights.|d60d5ead1f2720f25bd384d90ebdc12394943888a5989b2bd4b1985479ded1ce|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.flake8.Highlights.|0b1aba9b458df9850952589b207df335cb6e264ec932108a100120960e578630|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										60,
+										61
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										60,
+										61
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -1316,11 +1747,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1363,10 +1801,10 @@
 		"height": 329.0
 	},
 	"pinned_build_system": "",
-	"project": "Nagehts.sublime-project",
+	"project": "pyrb.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 66.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1424,6 +1862,5 @@
 	"status_bar_visible": true,
 	"template_settings":
 	{
-		"max_columns": 5
 	}
 }

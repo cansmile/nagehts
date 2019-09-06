@@ -12,28 +12,28 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="1">
-					<small>Tanzkurs</small> (So. 18 Uhr)
+					<small>Tanzkurs</small><span class="tran"><br>(So. 18 Uhr)</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="2">
-					<small>Stadtführung</small> (Fr.11 Uhr)
+					<small>Stadtführung</small><span class="tran"><br>(Fr.11 Uhr)</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="3">
-					<small>Staatsoperette</small> (Sa. 14.30)
+					<small>Staatsoperette Führung in der Gemäldegalerie</small><span class="tran"><br>(Sa. 14.30)</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="4">
-					<small>Galakonzerte</small> (Sa. 22 Uhr)
+					<small>Galakonzerte</small><span class="tran"><br>(Sa. 22 Uhr)</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="5">
-					<small>Kino</small> (Fr. bis Sa. 15.30)
+					<small>Kino</small><span class="tran"><br>(Fr. bis Sa. 15.30)</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="6">
-					<small>Stadtführung</small> (Mo, Mi, Fr., Sa. 18.30)
+					<small>Stadtführung Glanzlicher Dresdens</small><span class="tran"><br>(Mo, Mi, Fr., Sa. 18.30)</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="7">
-					<small>Circus Krone</small> (So. 15.30)
+					<small>Circus Krone</small><span class="tran"><br>(So. 15.30)</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="8">
-					<small>Kino</small> (Fr. bis Sa. 17.45, 20.00)
+					<small>Kino</small><span class="tran"><br>(Fr. bis Sa. 17.45, 20.00)</span>
 					</button>
 				</div>
 			</div>

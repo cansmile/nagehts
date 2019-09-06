@@ -287,8 +287,8 @@ if(!$ds) {
 	if(ul()) {
 ?>
 	<a href="<?php echo($rl.".php"); ?>">
-		<button type="button" class="btn btn-<?php echo($color); ?>">
-			<i class="fas fa-angle-double-left"></i>&nbsp;<?php echo($rt); ?>
+		<button type="button" class="btn pt-0 mt-0 mr-2 btn-<?php echo($color); ?>">
+			<!-- <i class="fas fa-angle-double-left"></i> --><span class="font-weight-bold p-0 m-0" style="font-size: 1.75em;">«</span>&nbsp;<?php echo($rt); ?>
 		</button>
 	</a>
 <?php

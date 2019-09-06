@@ -68,7 +68,7 @@
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2>Sprechen Sie in der Klasse. <small>수업시간에 이야기해보아요.</small>
+					<h2>Sprechen Sie in der Klasse. <small>수업시간에 이야기해보세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
@@ -110,7 +110,7 @@
 							</tr>
 							<tr>
 								<td class="p-1 m-0 border-0 align-middle" style="line-height: 250%;">
-									<span class="p-2 my-2 bg-success text-white rounded">거기서 나는 먹는다.</span><br>
+									<span class="p-2 my-2 bg-success text-white rounded">거기서 나는 식사를 한다.</span><br>
 								</td>
 							</tr>
 						</tbody>
@@ -332,7 +332,7 @@
 							</tr>
 							<tr>
 								<td class="p-1 m-0 border-0 align-middle" style="line-height: 250%;">
-									<span class="p-2 my-2 bg-success text-white rounded">거기서 나는 좋은 물건을 산다.</span><br>
+									<span class="p-2 my-2 bg-success text-white rounded">거기서 나는 중고 물건을 산다.</span><br>
 								</td>
 							</tr>
 						</tbody>
@@ -357,7 +357,7 @@
 						<tr>
 							<td width="50%">
 								<strong>Wohin gehen?</strong><br>
-								<span class="ml-3">• in den(m), die(f), ins (n) + Haus und Gebäude/ Ort</span><br>
+								<span class="ml-3">• in den(m), die(f), ins (n) + Haus und Gebäude, Ort</span><br>
 								<span class="ml-3">• zum (m,n) zur(f) + Aktivitäten, Person</span><br>
 							</td>
 							<td class="align-middle text-center">

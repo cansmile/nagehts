@@ -307,8 +307,7 @@
 			, 500);
 		}
 		);
-
-		<?php include "wahl.php"; ?>
+<?php include "wahl.php"; ?>
 
 		// 정답확인
 		$("#chk").on("click", function() {
@@ -365,7 +364,7 @@
 		);
 
 	</script>
-	<? } ?>
+<?php } ?>
 	<?php include "footer.php"; ?>
 </body>
 </html>

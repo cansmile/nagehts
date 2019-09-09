@@ -1,3 +1,9 @@
+#!/usr/bin/python
+import cgi;
+import cgitb;cgitb.enable()
+print("Content-Type: text/html\n")
+
+
 #-*- coding: utf-8 -*-
 name = "cansmile"
 print("안녕하세요 "+name+"님!")

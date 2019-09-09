@@ -1,3 +1,8 @@
+#!/usr/bin/python
+import cgi;
+import cgitb;cgitb.enable()
+print("Content-Type: text/html\n")
+
 input_id = input("아이디를 입력해주세요.\n")
 input_pwd = input("비밀번호를 입력해주세요.\n")
 real_id = "cansmile"

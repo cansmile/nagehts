@@ -47,7 +47,7 @@ if(ul()) {
 		// 작업 단원($rm) 이하일 때
 		if(($i-2) < $rm) {
 			if(file_exists($t1.".php")) {
-					echo("      <div class=\"{$col} text-center\">\n       <a href=\"{$t1}.php\" class=\"text-dark\">\n<img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3>{$t2}</h3>\n{$mc}        <p>\n{$t3}<br></p>\n       </a>\n      </div>\n");
+					echo("      <div class=\"{$col} text-center\">\n       <a href=\"{$t1}.php\" class=\"text-dark\">\n<img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3>{$t2}</h3>\n        <p>\n{$t3}<br></p>\n       </a>\n      </div>\n");
 			} else if(!file_exists($t1.".php")) {
 				echo("      <div class=\"{$col} text-center\">\n       <img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">{$t2}</h3>\n        <p class=\"text-secondary\">\n{$t3}</p>\n\n     </div>\n");
 			}

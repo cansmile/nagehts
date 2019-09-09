@@ -1,3 +1,9 @@
+#!/usr/bin/ruby
+puts <<EOS
+Content-type: text/html
+
+EOS
+
 input = 11
 real_egoing = 11
 real_k8805 = "ab"

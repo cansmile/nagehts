@@ -1,3 +1,9 @@
+#!/usr/bin/ruby
+puts <<EOS
+Content-type: text/html
+
+EOS
+
 #!/usr/bin/ruby2
 puts('hello world'.capitalize())
 puts('hello world'.upcase())

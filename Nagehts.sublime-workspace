@@ -324,6 +324,18 @@
 		"selected_items":
 		[
 			[
+				"git:",
+				"Git: Log All"
+			],
+			[
+				"git: commit",
+				"Git: Commit history"
+			],
+			[
+				"git list",
+				"Git: Stash List"
+			],
+			[
 				"installpa",
 				"Package Control: Install Package"
 			],
@@ -474,10 +486,6 @@
 			[
 				"git add cut",
 				"Git: Add Current File"
-			],
-			[
-				"git:",
-				"Git: Gui"
 			],
 			[
 				"git ",
@@ -826,14 +834,6 @@
 			[
 				"toggle hight",
 				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"toggle ",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"print page",
-				"Package Control: Install Package"
 			]
 		],
 		"width": 528.0
@@ -860,10 +860,22 @@
 	],
 	"file_history":
 	[
-		"/D/cansmile/csde/nagehts/inhalt.php",
+		"/D/cansmile/csde/nagehts/inthebeginning.php",
+		"/D/cansmile/csde/nagehts/r1-A2.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568050526/nagehts.json/etc/php/7.3/apache2/php.ini",
+		"/C/inetpub/php/php.ini",
+		"/D/cansmile/csde/nagehts/wahl.php",
+		"/D/cansmile/csde/nagehts/footer.php",
 		"/D/cansmile/csde/nagehts/nav.php",
-		"/D/cansmile/csde/nagehts/header.php",
+		"/D/cansmile/csde/nagehts/inhalt.php",
+		"/D/cansmile/csde/nagehts/test.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568040947/nagehts.json/var/www/html/nagehts.org/public_html/wp-settings.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568039536/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568040818/nagehts.json/etc/php/7.0/apache2/php.ini.save",
 		"/D/cansmile/csde/nagehts/r8-E2.php",
+		"/D/cansmile/csde/nagehts/r7-A2.php",
+		"/D/cansmile/csde/nagehts/r7-A1.php",
+		"/D/cansmile/csde/nagehts/header.php",
 		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/2.rb",
 		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/2.py",
 		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/1.py",
@@ -932,8 +944,6 @@
 		"/D/cansmile/csde/nagehts/r7-B6.php",
 		"/D/cansmile/csde/nagehts/r7-B4.php",
 		"/D/cansmile/csde/nagehts/r7-B2.php",
-		"/D/cansmile/csde/nagehts/r7-A2.php",
-		"/D/cansmile/csde/nagehts/r7-A1.php",
 		"/D/cansmile/csde/nagehts/r7-A0.php",
 		"/D/cansmile/csde/nagehts/r6-E7.php",
 		"/D/cansmile/csde/nagehts/r6-E5.php",
@@ -977,21 +987,11 @@
 		"/D/cansmile/csde/nagehts/r1-C2.php",
 		"/D/cansmile/csde/nagehts/r1-B5.php",
 		"/D/cansmile/csde/nagehts/r1-B4.php",
-		"/D/cansmile/csde/nagehts/r1-A3.php",
-		"/D/cansmile/csde/nagehts/r1-A2.php",
-		"/D/cansmile/csde/nagehts/r1-G3.php",
-		"/D/cansmile/csde/nagehts/r2-B1.php",
-		"/D/cansmile/csde/nagehts/r2-A6.php",
-		"/D/cansmile/csde/nagehts/r3-A2.php",
-		"/D/cansmile/csde/nagehts/r3-A1.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
-		"/D/cansmile/csde/nagehts/r2-D2.php",
-		"/D/cansmile/csde/nagehts/r3-D1.php"
+		"/D/cansmile/csde/nagehts/r1-A3.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -1021,6 +1021,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"short_open",
+			"<?php if(ul()) { ?>",
+			"<<<end",
+			"<?php",
+			"php",
+			"}",
+			"{",
+			"<?php include",
+			"WP_MEMORY_LIMIT ",
+			"Notice: Constant WP_MEMORY_LIMIT ",
+			"/usr/share",
+			"php_extension",
+			"설치하거나 활성화",
+			"{$mc}",
+			"sizeof",
+			"</small><span class=\"tran\">",
+			"Ort",
+			"물건을",
+			"보아요",
 			"col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3",
 			"col-lg-4 col-md-6 col-sm-12 ",
 			"file_exists",
@@ -1129,26 +1148,7 @@
 			") i",
 			"<span class=\"tran\">&nbsp;<small",
 			") i",
-			") $",
-			") ",
-			") if",
-			" $(\".q\").on",
-			" $(\".q\").on(",
-			" as möchten die Personen essen?",
-			" Was möchten die Personen essen?",
-			"<span class=\"tran\"><br>&nbsp;<small>",
-			"</button>",
-			"\t\t\t\t\t\t</",
-			"text-secondary",
-			"text-dark",
-			"() +",
-			"text-secondary",
-			"outline-dark",
-			"pommes",
-			"교재",
-			"p-1 px-2",
-			" if($(this).",
-			") $(\".q\").on("
+			") $"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1305,7 +1305,7 @@
 	},
 	"input":
 	{
-		"height": 211.0
+		"height": 221.0
 	},
 	"layout":
 	{

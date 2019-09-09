@@ -1,3 +1,9 @@
+#!/usr/bin/ruby
+puts <<EOS
+Content-type: text/html
+
+EOS
+
 al = ['A','B','C','D']
 puts(al.length)
 al.push('E')

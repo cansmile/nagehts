@@ -377,7 +377,7 @@
 		}
 		);
 </script>
-	< !-- ion.sound finished -->
+	<!-- ion.sound finished -->
 	<? } ?>
 	<?php include "footer.php"; ?>
 </body>

@@ -24,7 +24,7 @@
 		<section>
 			<div class="container">
 				<div class="row">
-<?php  include "inhalt.php"; ?>
+<?php include "inhalt.php"; ?>
 				</div>
 			</div>
 		</section>
@@ -34,7 +34,7 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-<? } ?>
+<?php } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

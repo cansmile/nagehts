@@ -1,3 +1,8 @@
+#!/usr/bin/python
+import cgi;
+import cgitb;cgitb.enable()
+print("Content-Type: text/html\n")
+
 in_str = input("아이디를 입력하세요.\n  ")
 print(type(in_str))
 real_egoing = "11"

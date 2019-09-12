@@ -122,7 +122,7 @@ $rtl = array(
 		"D" => array("D1" => "Bestellen", "D3" => "Wer sagt das?", "D4" => "Wir möchten gern bestellen.", "D5" => "Was möchten die Personen essen? Was möchten sie trinken?"),
 		"E" => array("E2" => "Geschmack", "E3" => "Üben Sie."),
 		"F" => array("F1" => "Bezahlen", "F2" => "Wir möchten bezahlen."),
-		"G" => array("G1" => "Ordnen Sie und tragen Sie unten ein.", "G3" => "Was essen und trinken<br>Tim und Monika gern?", "G4" => "Der Kellner bringt das Falsche.", "G5" => "Wer möchte was?", "G7" => "Was passt zusammen?", "G10" => "Ergänzen Sie die Tabelle.", "G11" => "Ergänzen Sie ‚e’ oder ‚i’", "G12" => "Ergänzen Sie.", "G13" => "Ergänzen Sie.", "G14" => "Ergänzen Sie: den/die/das.", "G16" => "Ich möchte bestellen.<br>Ich möchte bezahlen.")
+		"G" => array("G1" => "Ordnen Sie und tragen Sie unten ein.", "G3" => "Was essen und trinken<br>Tim und Monika gern?", "G4" => "Der Kellner bringt das Falsche.", "G5" => "Wer möchte was?", "G7" => "Was passt zusammen?", "G10" => "Ergänzen Sie die Tabelle.", "G11" => "Ergänzen Sie ‚e’ oder ‚i’", "G12" => "Ergänzen Sie.", "G13" => "Ergänzen Sie.", "G14" => "Ergänzen Sie: den/die/das.", "G16" => "Ich möchte bestellen. Ich möchte bezahlen.")
 	),
 	6 =>
 	array(
@@ -193,7 +193,7 @@ $rtl_k = array(
 		"D" => array("D1" => "주문하기", "D3" => "누가 이야기 하나요?", "D4" => "우리는 주문하고 싶어요.", "D5" => "이 사람들은 무엇을 먹으려하나요?<br>그들은 무엇을 마시려하나요?"),
 		"E" => array("E2" => "입맛", "E3" => "연습하세요."),
 		"F" => array("F1" => "지불하기", "F2" => "계산하고 싶어요."),
-		"G" => array("G1" => "알맞게 나열하세요.", "G3" => "팀과 모니카는<br>무엇을 즐겨 먹고 마시나요?", "G4" => "점원이 잘못된 음식을 가져 왔습니다.", "G5" => "누가 무엇을 주문하나요?", "G7" => "무엇이 맞나요?", "G10" => "표를 채우세요.", "G11" => "‘e’ 또는 ‘i’를 채우세요.", "G12" => "채우세요.", "G13" => "채우세요.", "G14" => "정관사·지시대명사를 채우세요.", "G16" => "주문하고 싶어요<br>계산하고 싶어요.")
+		"G" => array("G1" => "알맞게 나열하세요.", "G3" => "팀과 모니카는<br>무엇을 즐겨 먹고 마시나요?", "G4" => "점원이 잘못된 음식을 가져 왔습니다.", "G5" => "누가 무엇을 주문하나요?", "G7" => "무엇이 맞나요?", "G10" => "표를 채우세요.", "G11" => "‘e’ 또는 ‘i’를 채우세요.", "G12" => "채우세요.", "G13" => "채우세요.", "G14" => "정관사·지시대명사를 채우세요.", "G16" => "주문하고 싶어요 계산하고 싶어요.")
 	),
 	6 =>
 	array(

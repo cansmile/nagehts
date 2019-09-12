@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-<?php if(ul()) { ?>
 
 <section>
 	<div class="container">
@@ -271,7 +270,6 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

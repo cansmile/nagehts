@@ -29,10 +29,10 @@
 					Hier dürfen Sie nicht essen.<span class="tran">&nbsp;<small>여기서 먹으면 안되요.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
-					Ich esse.<span class="tran">&nbsp;<small>먹는데요.</small></span>
+					Ich esse.<span class="tran">&nbsp;<small>먹는중인데요.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
-					Was machen Sie denn da?<span class="tran">&nbsp;<small>거기서 뭐하고 있나요?</small></span>
+					Was machen Sie denn da?<span class="tran">&nbsp;<small>거기서 뭐하고 계시나요?</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
 					Das ist verboten.<span class="tran">&nbsp;<small>금지되어 있어요.</small></span>
@@ -174,10 +174,10 @@
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
 				var hm = new Array(), sen = new Array();
-				for(i = 0; i < $(".so").length; i++) {
-					hm[i] = 0;
-					sen[i] = 0;
-				}
+				$(".so").each(function() {
+					hm[$(this).attr("id")] = 0;
+					sen[$(this).attr("id")] = 0;
+				});
 
 				ion.sound({
 					sounds : [{

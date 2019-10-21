@@ -47,7 +47,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-1 q pl-0 " id="qst-3">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">Kaffee.</span></div>
 										</div>
-										<span class="tran">커피를 마신다.</span>
+										<span class="tran">커피 한잔을 마신다.</span>
 									</td>
 								</tr>
 							</tbody>
@@ -65,7 +65,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-1 q pl-0 " id="qst-4">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad8">Zwiebelsuppe,</span></div>
 										</div>
-										<span class="tran">안나는 양파 스프,</span>
+										<span class="tran">안나는 양파 스프 하나와,</span>
 									</td>
 								</tr>
 								<tr>
@@ -101,7 +101,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-1 q pl-0 " id="qst-7">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad14">Stück Erdbeerkuchen</span></div>
 										</div>
-										<span class="tran">무엇을 드시겠습니까? 딸기케이크와 </span>
+										<span class="tran">무엇을 드시겠습니까? 딸기케이크 한 조각과 </span>
 									</td>
 								</tr>
 								<tr>

@@ -37,6 +37,7 @@
 											<input type="text" class="form-control q" aria-label="." id="qst-1">
 											<div class="input-group-append pr-0 mr-0"><span class="input-group-text">gern</span></div>
 										</div>
+										<span class="tran"><br><small>그는 자전거타기를 좋아합니다.</small></span>
 										<div class="ant" id="ant-1"></div>
 									</td>
 									<td class="ml-0 pl-0 border-0">
@@ -55,6 +56,7 @@
 											<input type="text" class="form-control col-3 q" aria-label="." id="qst-3">
 											<div class="input-group-append"><span class="input-group-text">gern Fußball.</span></div>
 										</div>
+										<span class="tran"><br><small>그는 축구하기를 좋하합니다.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -65,6 +67,7 @@
 											<input type="text" class="form-control col-3 q" aria-label="." id="qst-4">
 											<div class="input-group-append"><span class="input-group-text">gern.</span></div>
 										</div>
+										<span class="tran"><br><small>그는 수영하기를 좋아합니다.</small></span>
 									</td>
 								</tr>
 							</tbody>
@@ -98,6 +101,7 @@
 											<input type="text" class="form-control col-3 q" aria-label="." id="qst-5">
 											<div class="input-group-append pr-0 mr-0"><span class="input-group-text">nicht gern Bücher.</span></div>
 										</div>
+										<span class="tran"><br><small>그는 책 읽기를 좋아하지 않습니다.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -108,6 +112,7 @@
 											<input type="text" class="form-control col-3 q" aria-label="." id="qst-6">
 											<div class="input-group-append"><span class="input-group-text">nicht gern Freunde.</span></div>
 										</div>
+										<span class="tran"><br><small>그는 친구만나기를 좋아하지 않습니다.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -118,6 +123,7 @@
 											<input type="text" class="form-control col-3 q" aria-label="." id="qst-7">
 											<div class="input-group-append"><span class="input-group-text">nicht gern Auto.</span></div>
 										</div>
+										<span class="tran"><br><small>그는 자동차 운전하기를 좋아하지 않습니다.</small></span>
 									</td>
 								</tr>
 							</tbody>
@@ -344,10 +350,15 @@ function rfchk(th,io) {
 						// alert(na+"번 문제를 풀어주세요!");
 					};
 				})
-				// $("#qst-2").val(an[1]);
-				// $("#qst-2").prop("disabled",true);
-				// $("#qst-2").closest("tr").find(".tran").show();
-
+				var pan = new Array();
+				pan = [];
+				for(var p = 0; p < pan.length; p++) {
+					var pann = "#qst-"+pan[p];
+					$(pann).val(an[(pan[p]-1)]);
+					$(pann).prop("disabled",true);
+					$(pann).addClass("bg-success text-white font-weight-bold");
+					$(pann).closest("tr").find(".tran").show();
+				}
 
 			});
 			

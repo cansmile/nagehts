@@ -88,7 +88,7 @@
 									<strong>die Frau: Gut! Ich nehme dann den Fischbraten mit Kartoffelsalat. Als Getränk nehme ich ein Glas Rotwein.</strong><br>
 									<small>여자: 좋아요! 저는 그런다음 감자샐러드와 함께 생선구이로 할래요. 음료로는 적포도주 한잔으로 할게요.</small><br>
 									<strong>der Mann: Gut, dann nehme ich einen Schweinebraten mit Salat und trinke ein Bier dazu. Und als Nachtisch?</strong><br>
-									<small>남자: 좋아요, 그럼 저는 샐러드와 함ㄲ게 구운 돼지 고기를 먹고 맥주를 마실게요. 그리고 디저트는요?</small><br>
+									<small>남자: 좋아요, 그럼 저는 샐러드와 함께 구운 돼지 고기를 먹고 맥주를 마실게요. 그리고 디저트는요?</small><br>
 									<strong>die Frau: Einen Kaffee und einen Käsekuchen! Und was möchtest du?</strong><br>
 									<small>여자: 커피와 치즈 케이크! 그리고 당신은요?</small><br>
 									<strong>der Mann: Ich nehme einen Espresso.</strong><br>

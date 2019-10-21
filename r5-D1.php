@@ -47,7 +47,7 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ich esse ein Steak und trinke ein Bier.<span class="tran"><br><small>스테이크 하나와 맥주 한 잔이요.</small></span></td>
+								<td>Ich nehme ein Steak und trinke ein Bier.<span class="tran"><br><small>스테이크 하나와 맥주 한 잔이요.</small></span></td>
 							</tr>
 						</tbody>
 					</table>

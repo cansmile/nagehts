@@ -11,8 +11,8 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-12 text-center align-middle display-4 p-5 m-1 border border-dark rounded"><small>
-					<div class="bg-light text-secondary p-1 px-2 m-1 rounded">Kopf und Schulter , Knie und Fuß, Knie und Fuß.</div>
-					<div class="bg-secondary text-white p-1 px-2 m-1 rounded">Kopf und Schulter , Knie und Fuß, Knie und Fuß.</div>
+					<div class="bg-light text-secondary p-1 px-2 m-1 rounded">Kopf und Schulter, Knie und Fuß, Knie und Fuß.</div>
+					<div class="bg-secondary text-white p-1 px-2 m-1 rounded">Kopf und Schulter, Knie und Fuß, Knie und Fuß.</div>
 					<div class="bg-light text-secondary p-1 px-2 m-1 rounded">Augen, Ohren und Nase und Mund.</div>
 					<div class="bg-secondary text-white p-1 px-2 m-1 rounded">Kopf und Schulter, Knie und Fuß, Knie und Fuß.</div>
 					</small></div>

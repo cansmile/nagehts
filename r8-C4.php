@@ -26,8 +26,8 @@
 					<div class="col-12">
 						<table class="table text-center">
 							<tr>
-								<td class="border-0" width="30%"><button type="button" id="1" class="so btn btn-outline-orange">▶</button>&nbsp;Herr Martin Fischer</td>
-								<td class="border-0" width="30%"><button type="button" id="2" class="so btn btn-outline-success">▶</button>&nbsp;Frau Marie Schmidt</td>
+								<td class="border-0" width="30%"><button type="button" id="1" class="so btn btn-outline-orange">▶</button>&nbsp;Martin Fischer</td>
+								<td class="border-0" width="30%"><button type="button" id="2" class="so btn btn-outline-success">▶</button>&nbsp;Marie Schmidt</td>
 								<td class="border-0" width="30%"><button type="button" id="3" class="so btn btn-outline-purple">▶</button>&nbsp;Max</td>
 							</tr>
 						</table>
@@ -39,10 +39,10 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option2" autocomplete="off"><label for="option2">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option2" autocomplete="off"><label for="option2">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option3" autocomplete="off"><label for="option3">Max</label>
@@ -55,10 +55,10 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option5" autocomplete="off"><label for="option5">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option5" autocomplete="off"><label for="option5">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option6" autocomplete="off"><label for="option6">Max</label>
@@ -71,10 +71,10 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option7" autocomplete="off"><label for="option7">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option7" autocomplete="off"><label for="option7">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option8" autocomplete="off"><label for="option8">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option8" autocomplete="off"><label for="option8">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option9" autocomplete="off"><label for="option9">Max</label>
@@ -87,10 +87,10 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option10" autocomplete="off"><label for="option10">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option10" autocomplete="off"><label for="option10">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option11" autocomplete="off"><label for="option11">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option11" autocomplete="off"><label for="option11">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option12" autocomplete="off"><label for="option12">Max</label>
@@ -103,10 +103,10 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option13" autocomplete="off"><label for="option13">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option13" autocomplete="off"><label for="option13">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option14" autocomplete="off"><label for="option14">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option14" autocomplete="off"><label for="option14">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option15" autocomplete="off"><label for="option15">Max</label>
@@ -119,10 +119,10 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option16" autocomplete="off"><label for="option16">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option16" autocomplete="off"><label for="option16">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option17" autocomplete="off"><label for="option17">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option17" autocomplete="off"><label for="option17">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option18" autocomplete="off"><label for="option18">Max</label>
@@ -138,26 +138,26 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option19" autocomplete="off"><label for="option19">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option19" autocomplete="off"><label for="option19">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option20" autocomplete="off"><label for="option20">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option20" autocomplete="off"><label for="option20">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option21" autocomplete="off"><label for="option21">Max</label>
 											</div>
 										</div>
 									</td>
-									<th class="border-0" scope="row">„Du sollst Aspirin einnehmen.</th>
+									<th class="border-0" scope="row">„Du sollst Aspirin einnehmen“</th>
 								</tr>
 								<tr>
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option22" autocomplete="off"><label for="option22">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option22" autocomplete="off"><label for="option22">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option23" autocomplete="off"><label for="option23">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option23" autocomplete="off"><label for="option23">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option24" autocomplete="off"><label for="option24">Max</label>
@@ -170,10 +170,10 @@
 									<td class="border-0 text-right py-0">
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option25" autocomplete="off"><label for="option25">Herr Martin Fischer</label>
+											<input type="radio" name="options" id="option25" autocomplete="off"><label for="option25">Martin Fischer</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option26" autocomplete="off"><label for="option26">Frau Marie Schmidt</label>
+											<input type="radio" name="options" id="option26" autocomplete="off"><label for="option26">Marie Schmidt</label>
 											</div>
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option27" autocomplete="off"><label for="option27">Max</label>
@@ -213,9 +213,9 @@
 			$(".tran").hide();
 			// 각 문장 재생 횟수 초기화
 			var hm = new Array();
-			for(i = 0; i < $(".so").length; i++) {
-				hm[i] = 0;
-			}
+			$(".so").each(function() {
+				hm[$(this).attr("id")] = 0;
+			});
 
 			$(document).ready(function() {
 

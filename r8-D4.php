@@ -252,10 +252,10 @@
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
 				var hm = new Array(), sen = new Array();
-				for(i = 0; i < $(".so").length; i++) {
-					hm[i] = 0;
-					sen[i] = 0;
-				}
+				$(".so").each(function() {
+					hm[$(this).attr("id")] = 0;
+					sen[$(this).attr("id")] = 0;
+				});
 
 				ion.sound({
 					sounds : [{

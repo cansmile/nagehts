@@ -185,7 +185,7 @@
 						</tr>
 						<tr>
 							<th class="border-0 align-middle" scope="row" width="30">4.</th>
-							<td class="border-0 align-middle" width="100">Hustenschmerzen<br>Halsschmerzen</td>
+							<td class="border-0 align-middle" width="100">Husten/<br>Halsschmerzen</td>
 							<td class="border-0 align-middle">
 								<div class="ant" id="ant-4"></div>
 								<div class="input-group">
@@ -207,7 +207,7 @@
 						</tr>
 						<tr>
 							<th class="border-0 align-middle" scope="row" width="30">6.</th>
-							<td class="border-0 align-middle" width="100">Durchfall<br>Verstopfung</td>
+							<td class="border-0 align-middle" width="100">Durchfall/<br>Verstopfung</td>
 							<td class="border-0 align-middle">
 								<div class="ant" id="ant-6"></div>
 								<div class="input-group">
@@ -334,7 +334,7 @@
 	$(".ant").hide();
 
 	var an = new Array();
-	var an = ["Ihr Kopf tut weh. Sie hat Kopfschmerzen.","Ihr Zahn tut weh. Sie hat Zahnschmerzen.","Ihr Bauch tut weh. Sie hat Bauchschmerzen.","Sein Hals tut weh. Er hat Husten und Halsschmerzen.","Sie hat Fieber. Sie hat Grippe.","Sein Bauch tut weh. Er hat Durchfall oder Verstopfung."];
+	var an = ["Ihr Kopf tut weh. Sie hat Kopfschmerzen.","Ihr Zahn tut weh. Sie hat Zahnschmerzen.","Ihr Bauch tut weh. Sie hat Bauchschmerzen.",["Sein Hals tut weh. Er hat Husten und Halsschmerzen.","Sein Hals tut weh. Er hat Husten/Halsschmerzen."],"Sie hat Fieber. Sie hat Grippe.",["Sein Bauch tut weh. Er hat Durchfall oder Verstopfung.","Sein Bauch tut weh. Er hat Durchfall/Verstopfung."]];
 
 	$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

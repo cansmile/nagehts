@@ -52,7 +52,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control q" id="qst-2">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">.</span></div>
 										</div>
-										<span class="tran"><small>저의 부모님은 실비아 마크와 한스 홀름이에요.</small></span>
+										<span class="tran"><small>저의 부모님은 질비아 마크와 한스 홀름이에요.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -73,7 +73,7 @@
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ada">3. Mein Bruder heißt Alex.</span></div>
 											<!-- <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control q" id="qst-a"> -->
 										</div>
-										<span class="tran"><small>저의 형제는 알렉스에요.</small></span>
+										<span class="tran"><small>저의 남동생은 알렉스에요.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -83,7 +83,7 @@
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-adb">4. Mein Vater hat eine Schwester.</span></div>
 											<!-- <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control q" id="qst-b"> -->
 										</div>
-										<span class="tran"><small>저의 아버지는 자매가 한 분 있으세요.</small></span>
+										<span class="tran"><small>저의 아버지는 여동생이 한 분 있어요.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -94,7 +94,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q" id="qst-4">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">.</span></div>
 										</div>
-										<span class="tran"><small>그녀는 사빈 홀름이에요.</small></span>
+										<span class="tran"><small>그녀는 자비네 홀름이에요.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -104,7 +104,7 @@
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">1.2 Wer bin ich? </span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control q" id="qst-5">
 										</div>
-										<span class="tran"><small>저는 누구인가요? 로버트 홀름</small></span>
+										<span class="tran"><small>나는 누구인가요? 로버트 홀름</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -125,7 +125,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control q" id="qst-6">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">.</span></div>
 										</div>
-										<span class="tran"><small>제 아이들은 한스,게오르그와 사빈이에요.</small></span>
+										<span class="tran"><small>제 아이들은 한스,게오르그와 자비네이에요.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -167,7 +167,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q" id="qst-8">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad8">.</span></div>
 										</div>
-										<span class="tran"><small>그는 프란쯔 스콜이에요.</small></span>
+										<span class="tran"><small>그는 프란쯔 숄이에요.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -178,7 +178,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control q" id="qst-9">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">.</span></div>
 										</div>
-										<span class="tran"><small>저의 며느리는 실비아 마크에요.</small></span>
+										<span class="tran"><small>저의 며느리는 질비아 마크에요.</small></span>
 									</td>
 								</tr>
 							</tbody>
@@ -278,7 +278,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Nora","Silvia Mark und Hans Holm","Maria Holm und Robert Holm","Sabine Holm","Robert Holm","Hans, Georg und Sabine","Nora","Franz Scholl","Silvia Mark"];
+			var an = ["Nora",["Silvia Mark und Hans Holm","Hans Holm und Silvia Mark"],["Maria Holm und Robert Holm","Robert Holm und Maria Holm"],"Sabine Holm","Robert Holm",["Hans, Georg und Sabine","Hans, Sabine und Georg","Georg, Hans und Sabine","Georg, Sabine und Hans","Sabine, Georg und Hans","Sabine, Hans und Georg"],"Nora","Franz Scholl","Silvia Mark"];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

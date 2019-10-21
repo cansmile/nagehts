@@ -49,7 +49,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="min-width: 100px;" id="qst-2">
 											 .
 										</div>
-										<span class="tran"><small>안타깝게도 나 오늘 시간 없어.</small></span>
+										<span class="tran"><small>미안하지만 나 오늘 시간 없어.</small></span>
 									 </td>
 								</tr>
 								<tr>
@@ -76,7 +76,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="min-width: 100px;" id="qst-5">
 											 .
 										</div>
-										<span class="tran"><small>아마 우리 일요일에 영화관에 갈 수 있을거야.</small></span>
+										<span class="tran"><small>아마 일요일엔 영화관에 갈 수 있을거야.</small></span>
 									 </td>
 								</tr>
 							</tbody>
@@ -109,7 +109,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Hallo Mina","habe ich heute keine Zeit","habe ich einen Deutschkurs","besuche ich dann meine Oma","können wir am Sonntag ins Kino gehen"];
+			var an = ["Hallo Mina","habe ich heute keine Zeit","habe ich einen Deutschkurs","besuche ich meine Oma","können wir am Sonntag ins Kino gehen"];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

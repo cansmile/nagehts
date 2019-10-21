@@ -70,7 +70,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-										<span class="tran"><small>안녕 어린이들, 여기서 뭐하나요?</small></span>
+										<span class="tran"><small>안녕 애들아, 거기서 뭐하니?</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -88,7 +88,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-										<span class="tran"><small>여기서 농구하면 안되요.</small></span>
+										<span class="tran"><small>여기서 농구하면 안된단다.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -106,7 +106,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
-										<span class="tran"><small>금지되어 있어요.</small></span>
+										<span class="tran"><small>금지되어 있어.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -157,10 +157,10 @@
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
 				var hm = new Array(), sen = new Array();
-				for(i = 0; i < $(".so").length; i++) {
-					hm[i] = 0;
-					sen[i] = 0;
-				}
+				$(".so").each(function() {
+					hm[$(this).attr("id")] = 0;
+					sen[$(this).attr("id")] = 0;
+				});
 
 				ion.sound({
 					sounds : [{

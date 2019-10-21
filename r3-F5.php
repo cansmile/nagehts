@@ -16,20 +16,20 @@
 						<table class="table">
 							<tbody>
 								<tr>
-									<td class="border-0"><s>Vivien(Krankenschwester / Ungarn)</s></td>
-									<td class="border-0">Sumi (Ärztin / Korea)</td>
+									<td class="border-0"><s>Vivien(Krankenschwester / Ungarn / Ungarin)</s></td>
+									<td class="border-0">Sumi (Ärztin / Korea / Koreanerin)</td>
 								</tr>
 								<tr>
-									<td class="border-0"><s>Pierre (Lehrer / Frankreich)</s></td>
-									<td class="border-0">Diana (Studentin / Griechenland)</td>
+									<td class="border-0"><s>Pierre (Lehrer / Frankreich / Franzose)</s></td>
+									<td class="border-0">Diana (Studentin / Griechenland / Griechin)</td>
 								</tr>
 								<tr>
-									<td class="border-0">Max (Fußballspieler / Deutschland)</td>
-									<td class="border-0">Carlos (Kellner / Mexiko)</td>
+									<td class="border-0">Max (Fußballspieler / Deutschland / Deutscher)</td>
+									<td class="border-0">Carlos (Kellner / Mexiko / Mexikaner)</td>
 								</tr>
 								<tr>
-									<td class="border-0">Julia (Bankkauffrau / Polen)</td>
-									<td class="border-0">Amit (Chemiker/ Indien)</td>
+									<td class="border-0">Julia (Bankkauffrau / Polen / Polin)</td>
+									<td class="border-0">Amit (Chemiker/ Indien / Inder)</td>
 								</tr>
 							</tbody>
 						</table>
@@ -56,7 +56,7 @@
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">Pierre</span></div>
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-5">
 										</div>
-										<span class="tran"><small>피에르는 프랑스 출신이에요. 그는 직업상 교사에요.</small></span>
+										<span class="tran"><small>피에르는 프랑스 출신이에요. 그는 교사에요.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -143,7 +143,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Vivien kommt aus Ungarn. Sie ist Krankenschwester.","Sumi kommt aus Korea. Sie ist Ärztin.","Julia ist Polin und Bankkauffrau.","Diana ist Griechin. Sie ist Studentin.","Pierre kommt aus Frankreich. Er ist Lehrer von Beruf.","Max ist Deutscher und Fußballspieler.","Carlos kommt aus Mexiko. Er ist Kellner.","Amit ist Inder und Chemiker"];
+			var an = ["Vivien kommt aus Ungarn. Sie ist Krankenschwester.",["Sumi kommt aus Korea. Sie ist Ärztin.","Sumi ist Koreanerin. Sie ist Ärztin.","Sumi ist Koreanerin und Ärztin."],["Julia kommt aus Polen. Sie ist Bankkauffrau.","Julia ist Polin. Sie ist Bankkauffrau.","Julia ist Polin und Bankkauffrau."],["Diana kommt aus Griechenland. Sie ist Studentin.","Diana ist Griechin. Sie ist Studentin.","Diana ist Griechin und Studentin."],"Pierre kommt aus Frankreich. Er ist Lehrer.",["Max kommt aus Deutschland. Er ist Fußballspieler.","Max ist Deutscher. Er ist Fußballspieler.","Max ist Deutscher und Fußballspieler."],["Carlos kommt aus Mexiko. Er ist Kellner.","Carlos ist Mexikaner. Er ist Kellner.","Carlos ist Mexikaner und Kellner."],["Amit kommt aus Indien. Er ist Chemiker.","Amit ist Inder. Er ist Chemiker.","Amit ist Inder und Chemiker."]];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

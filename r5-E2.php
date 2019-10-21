@@ -9,22 +9,22 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="1">
-					bitter
+					bitter<span class="tran"><br><small>쓴</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="2">
-					sauer
+					sauer<span class="tran"><br><small>신</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="3">
-					scharf
+					scharf<span class="tran"><br><small>매운</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="4">
-					fettig
+					fettig<span class="tran"><br><small>기름진</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="5">
-					salzig
+					salzig<span class="tran"><br><small>짠</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="6">
-					süß
+					süß<span class="tran"><br><small>단</small></span>
 					</button>
 				</div>
 			</div>
@@ -194,14 +194,14 @@
 					$(".tran").show();
 					$(".itm-lst").each(function() {
 						$(this).html($(this).find("button").html());
-						$(this).addClass("font-weight-bold bg-white border rounded border-dark");
+						$(this).addClass("font-weight-bold text-center bg-white border rounded border-dark");
 					}
 					);
 					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 					$(".btn-lg").text().appendTo($(this).closest("td"));
-					$(".btn-lg").remove();
+					// $(".btn-lg").remove();
 				}
 				else {
 					$("div.itm-lst").each(function(idx) {

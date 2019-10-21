@@ -9,10 +9,10 @@
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="1">
-					Fußball<span class="tran"><br><small>축구</small></span>
+					Fußball spielen<span class="tran"><br><small>축구</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="2">
-					Karten<span class="tran"><br><small>카드 놀이하다</small></span>
+					Karten spielen<span class="tran"><br><small>카드 놀이하다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="3">
 					Tennis spielen<span class="tran"><br><small>테니스 하기</small></span>
@@ -21,55 +21,61 @@
 					in den Park gehen<span class="tran"><br><small>공원에 가다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="5">
-					in die Disko<span class="tran"><br><small>디스코장에서</small></span>
+					in die Disko gehen<span class="tran"><br><small>디스코장에서</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm" id="6">
-					in die Oper<span class="tran"><br><small>오페라 하우스에서</small></span>
+					in die Oper gehen<span class="tran"><br><small>오페라 하우스에서</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="7">
-					in die Stadt<span class="tran"><br><small>시내에서</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="7">
+					in die Stadt gehen<span class="tran"><br><small>시내에서</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="8">
+				<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm" id="8">
+					in den Zoo gehen<span class="tran"><br><small>동물원에서</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="9">
 					in die Bibliothek gehen<span class="tran"><br><small>도서관에 가다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm" id="9">
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm" id="10">
 					ins Kino<span class="tran"><br><small>영화관에서</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="10">
+				<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm" id="11">
 					ins Theater<span class="tran"><br><small>극장에서</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="11">
-					ins Museum<span class="tran"><br><small>박물관에서</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="12">
+					ins Museum gehen<span class="tran"><br><small>박물관에서</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="12">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="13">
 					ins Konzert gehen<span class="tran"><br><small>콘서트에 가다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="13">
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="14">
 					fotografieren<span class="tran"><br><small>사진찍다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="14">
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="15">
 					joggen<span class="tran"><br><small>조깅하다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="15">
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="16">
 					lesen<span class="tran"><br><small>읽다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="16">
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="17">
 					schwimmen<span class="tran"><br><small>수영하다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="17">
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="18">
 					tanzen<span class="tran"><br><small>춤추다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="18">
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="19">
 					Fahrrad fahren<span class="tran"><br><small>운전하다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="19">
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="20">
 					spazieren gehen<span class="tran"><br><small>산책하다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="20">
+				<button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm" id="21">
 					Musik hören<span class="tran"><br><small>음악 듣기</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="21">
-					ins Café<span class="tran"><br><small>카페에서</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="22">
+					ins Café gehen<span class="tran"><br><small>카페에서</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="23">
+					ins Restaurant gehen<span class="tran"><br><small>레스토랑에서</small></span>
 				</button>
 			</div>
 		</div>
@@ -89,11 +95,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-1">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -105,11 +111,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-2.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-2.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-2">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -121,11 +127,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-3.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-3.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-3">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-3">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -137,11 +143,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-4.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-4.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-4">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-4">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -153,11 +159,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-5.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-5.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-5">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-5">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -169,11 +175,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-6.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-6.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-6">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-6">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -185,11 +191,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-7.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-7.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-7">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-7">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -201,11 +207,11 @@
 						<table class="table border-0">
 							<tbody>
 								<tr>
-									<td height="350" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-8.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+									<td height="300" class="border-0 align-middle"><img src="./images/Reihe 7/Reihe-7-D1-8.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-8">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-8">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -221,7 +227,7 @@
 								</tr>
 								<tr>
 									<td class="border-0">
-										<div style="min-height: 240px;" class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-9">
+										<div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-9">
 											<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 										</div>
 									</td>
@@ -243,7 +249,7 @@
 									<tbody>
 										<tr>
 											<th class="border-0" scope="row" width="50">1.</th>
-											<td class="border-0">Ich gehe / ins Kino. Da sehe ich / einen Film.</td>
+											<td class="border-0" width="40%">- ins Kino./ gehe / Ich <br>- einen Film. / Da / sehe ich</td>
 										</tr>
 									</tbody>
 								</table>
@@ -256,7 +262,7 @@
 												<div class="ant" id="ant-1"></div>
 												<div class="input-group">										
 													<input type="text" class="form-control q" aria-label="." id="qst-1">
-												</div><span class="tran"><small><br>네, 치우는 거 좋아해요.</small></span>
+												</div><span class="tran"><small><br>저는 영화관에 갑니다. 거기서 영화를 봅니다.</small></span>
 											</td>
 										</tr>
 									</tbody>
@@ -269,7 +275,7 @@
 									<tbody>
 										<tr>
 											<th class="border-0" scope="row" width="50">2.</th>
-											<td class="border-0">Sie geht/ in die Bibliothek. Da liest sie / Bücher.</td>
+											<td class="border-0" width="40%">- in die Bibliothek. / Sie geht<br>- Da / Bücher. / liest sie</td>
 										</tr>
 									</tbody>
 								</table>
@@ -282,7 +288,7 @@
 												<div class="ant" id="ant-2"></div>
 												<div class="input-group">										
 													<input type="text" class="form-control q" aria-label="." id="qst-2">
-												</div><span class="tran"><small><br>네, 치우는 거 좋아해요.</small></span>
+												</div><span class="tran"><small><br>그녀는 도서관에 갑니다. 거기서 책을 읽습니다.</small></span>
 											</td>
 										</tr>
 									</tbody>
@@ -295,7 +301,7 @@
 									<tbody>
 										<tr>
 											<th class="border-0" scope="row" width="50">3.</th>
-											<td class="border-0">Er geht- in den Partk/ Da joggt er .</td>
+											<td class="border-0" width="40%">- geht / in den Park. / Er <br>- joggt / er. / Da</td>
 										</tr>
 									</tbody>
 								</table>
@@ -308,7 +314,7 @@
 												<div class="ant" id="ant-3"></div>
 												<div class="input-group">										
 													<input type="text" class="form-control q" aria-label="." id="qst-3">
-												</div><span class="tran"><small><br>네, 치우는 거 좋아해요.</small></span>
+												</div><span class="tran"><small><br>그는 공원에 갑니다. 거기서 조깅을 합니다.</small></span>
 											</td>
 										</tr>
 									</tbody>
@@ -321,7 +327,7 @@
 									<tbody>
 										<tr>
 											<th class="border-0" scope="row" width="50">4.</th>
-											<td class="border-0">Er geht / ins Konzert. Da hört er/ Musik.</td>
+											<td class="border-0" width="40%">- ins Konzert. / Er / geht<br>- hört / er / Da / Musik.</td>
 										</tr>
 									</tbody>
 								</table>
@@ -334,7 +340,7 @@
 												<div class="ant" id="ant-4"></div>
 												<div class="input-group">										
 													<input type="text" class="form-control q" aria-label="." id="qst-4">
-												</div><span class="tran"><small><br>네, 치우는 거 좋아해요.</small></span>
+												</div><span class="tran"><small><br>그는 음악회에 갑니다. 거기서 음악을 듣습니다.</small></span>
 											</td>
 										</tr>
 									</tbody>
@@ -347,7 +353,7 @@
 									<tbody>
 										<tr>
 											<th class="border-0" scope="row" width="50">5.</th>
-											<td class="border-0">Sie geht /zum Fußballplatz. Da spielt sie/ Fußball.</td>
+											<td class="border-0" width="40%">- zum Fußballplatz. / geht / Sie<br>- spielt / sie / Da / Fußball. </td>
 										</tr>
 									</tbody>
 								</table>
@@ -360,7 +366,7 @@
 												<div class="ant" id="ant-5"></div>
 												<div class="input-group">										
 													<input type="text" class="form-control q" aria-label="." id="qst-5">
-												</div><span class="tran"><small><br>네, 치우는 거 좋아해요.</small></span>
+												</div><span class="tran"><small><br>그녀는 축구장에 갑니다. 거기서 축구를 합니다.</small></span>
 											</td>
 										</tr>
 									</tbody>
@@ -373,7 +379,7 @@
 									<tbody>
 										<tr>
 											<th class="border-0" scope="row" width="50">6.</th>
-											<td class="border-0">Ich gehe /in die Disko. Da tanze ich.</td>
+											<td class="border-0" width="40%">- gehe / Ich / in die Disko. <br>- tanze / ich. / Da</td>
 										</tr>
 									</tbody>
 								</table>
@@ -386,7 +392,7 @@
 												<div class="ant" id="ant-6"></div>
 												<div class="input-group">										
 													<input type="text" class="form-control q" aria-label="." id="qst-6">
-												</div><span class="tran"><small><br>네, 치우는 거 좋아해요.</small></span>
+												</div><span class="tran"><small><br>나는 클럽에 갑니다. 거기서 춤을 춥니다.</small></span>
 											</td>
 										</tr>
 									</tbody>
@@ -424,8 +430,8 @@
 			$("#chk").hide();
 
 			var an = new Array(), antr = new Array();
-			var an = ["Ich gehe ins Kino. Da sehe ich einen Film.","Sie geht in die Bibliothek. Da liest sie Bücher","Er geht in den Park. Da joggt er.","Er geht ins Konzert. Da hört er Musik."];
-			var antr = ["Ich gehe ins Kino. Da sehe ich einen Film","Sie geht in die Bibliothek. Da liest sie Bücher","Er geht in den Park. Da joggt er.","Er geht ins Konzert. Da hört er Musik."];
+			var an = ["Ich gehe ins Kino. Da sehe ich einen Film.","Sie geht in die Bibliothek. Da liest sie Bücher.","Er geht in den Park. Da joggt er.","Er geht ins Konzert. Da hört er Musik.","Sie geht zum Fußallplatz. Da sie spielt Fußball.","Ich gehe in die Disko. Da tanze ich."];
+			var antr = ["Ich gehe ins Kino. Da sehe ich einen Film.","Sie geht in die Bibliothek. Da liest sie Bücher","Er geht in den Park. Da joggt er.","Er geht ins Konzert. Da hört er Musik.","Sie geht zum Fußallplatz. Da sie spielt Fußball.","Ich gehe in die Disko. Da tanze ich."];
 
 			$(document).ready(function() {
 
@@ -594,7 +600,7 @@ function rfchk(th,io) {
 				})
 
 				var pan = new Array();
-				pan = ["1"];
+				pan = [1];
 				// pan = ["1","2","4","6","8"];
 				for(var p = 0; p < pan.length; p++) {
 					var pann = "#qst-"+pan[p];
@@ -605,7 +611,7 @@ function rfchk(th,io) {
 				}
 
 				pan = [];
-				// pan = [6,7,9,11,12,16,21];
+				// pan = [1,6,8,10,12,13,17,22,23];
 				for(var p = 0; p < pan.length; p++) {
 					var pann = "#"+pan[p];
 					for(n = 1; n < $(".itm-lst").length; n++) {

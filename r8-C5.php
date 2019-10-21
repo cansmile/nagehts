@@ -88,7 +88,7 @@
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
 			<div style="min-height: 240px;" class="rounded-top border bg-danger border-white so itm-lst col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-2 pr-3" id="lst-1">
-					<h2 style="min-height: 60px;" class="btn btn-xl bg-white ttl d-block pt-sm-2 pt-md-3 pt-lg-3 pt-xl-3">Verben im Nominative<span class="tran"><small><br>1격 지배 동사</small></span>
+					<h2 style="min-height: 60px;" class="btn btn-xl bg-white ttl d-block pt-sm-2 pt-md-3 pt-lg-3 pt-xl-3">Verben im Nominativ<span class="tran"><small><br>1격 지배 동사</small></span>
 </h2>&nbsp;
 				</div>
 			<div style="min-height: 240px;" class="rounded-top border bg-orange border-white so itm-lst col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-2 pr-3" id="lst-2">

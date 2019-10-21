@@ -49,7 +49,7 @@
 							<tr>
 								<td class="border-0 p-0 pt-2">
 									<span class="bg-dark text-white m-0 p-1 px-2 rounded" style="font-size: 1.5em;">Betreff: Kino</span>
-									<div class="rounded bg-info text-white m-0 p-3" style="font-size: 1.5em;">Max, ich komme nicht. keine Lust! Mina</div>
+									<div class="rounded bg-info text-white m-0 p-3" style="font-size: 1.5em;">Max, ich komme nicht. Keine Lust! Mina</div>
 								</td>
 							</tr>
 						</tbody>
@@ -60,10 +60,10 @@
 								<td class="border-0 p-0 align-middle">
 									Die SMS ist
 									<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
-										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+										<div class="btn btn-light pop x pb-0" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option3" autocomplete="off"><label for="option3">höflich.</label>
 										</div>
-										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+										<div class="btn btn-light pop o pb-0" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4">unhöflich.</label>
 										</div>
 									</div>
@@ -84,7 +84,7 @@
 					</button>						
 					</h2>
 					<h3>[ <small>음성을 듣고 내용과 일치하는 문장을 선택하세요.</small> ]</h3>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장과 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼을 눌러 듣기를 2번 완료하면 문장과 번역이 나옵니다.</small> ]</h3>
 
 				</div>
 				<table class="table">
@@ -163,10 +163,10 @@
 
 				// 각 문장 재생 횟수 초기화
 				var hm = new Array(), sen = new Array();
-				for(i = 0; i < $(".so").length; i++) {
-					hm[i] = 0;
-					sen[i] = 0;
-				}
+				$(".so").each(function() {
+					hm[$(this).attr("id")] = 0;
+					sen[$(this).attr("id")] = 0;
+				});
 
 
 				ion.sound({

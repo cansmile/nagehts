@@ -14,20 +14,20 @@
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm px-2" id="2">
 					duschen.
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm px-2" id="3">
+				<button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm px-2" id="3">
 					rauchen.
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm px-2" id="4">
 					schwimmen.
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm px-2" id="4">
+				<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm px-2" id="4">
 					darf
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm px-2" id="5">
 					Bücher lesen.
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm px-2" id="6">
-					essen.
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm px-2" id="6">
+					essen und trinken.
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm px-2" id="7">
 					einen Film sehen.
@@ -179,7 +179,7 @@
 								<tr>
 									<td class="border-0 align-middle">
 										Hier kann man
-										<div class="itm-lst 1itm d-inline-block" id="lst-8" style="min-width: 40%; ">
+										<div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 40%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>
@@ -188,12 +188,12 @@
 								<tr>
 									<td class="border-0 align-middle">
 										Hier
-										<div class="itm-lst 1itm d-inline-block" id="lst-9" style="min-width: 20%; ">
+										<div class="itm-lst 1itm d-inline-block" id="lst-8" style="min-width: 20%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>&nbsp;
 										man nicht
-										<div class="itm-lst 1itm d-inline-block" id="lst-10" style="min-width: 40%; ">
+										<div class="itm-lst 1itm d-inline-block" id="lst-9" style="min-width: 40%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 										</div>

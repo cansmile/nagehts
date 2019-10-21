@@ -23,7 +23,7 @@
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
 					die Haare<span class="tran"><br><small>머리카락</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="6">
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
 					das Ohr<span class="tran"><br><small>귀</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
@@ -39,7 +39,7 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>[ <small>단어를 알맞은 그림에 넣으세요.</small> ]
+						<h2>[ <small>다음 물건에 필요한 단어를 그림에 넣으세요.</small> ]
 						</h2>
 					</div>
 				</div>

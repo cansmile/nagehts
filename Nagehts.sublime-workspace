@@ -224,11 +224,28 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "r8-E5.php",
+			"settings":
+			{
+				"buffer_size": 19082,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"settings":
 			{
 				"buffer_size": 0,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "r8-E2.php",
+			"settings":
+			{
+				"buffer_size": 13724,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -332,12 +349,44 @@
 		"selected_items":
 		[
 			[
-				"compare",
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"64",
+				"StringEncode: Base64 Decode"
+			],
+			[
+				"decode",
+				"StringEncode: Base64 Decode"
+			],
+			[
+				"emmet:encod",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"check",
+				"Snippet: Checkbox"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"compa",
 				"Sublimerge: Compare to View..."
 			],
 			[
 				"compare ",
-				"Sublimerge: Compare to Snapshot"
+				"Sublimerge: Compare to Revision..."
+			],
+			[
+				"compare",
+				"Sublimerge: Compare to View..."
 			],
 			[
 				"git fetch",
@@ -372,16 +421,8 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"remove pack",
 				"Package Control: Remove Package"
-			],
-			[
-				"install pack",
-				"Package Control: Install Package"
 			],
 			[
 				"removepack",
@@ -418,14 +459,6 @@
 			[
 				"remove tag",
 				"Emmet: Remove Tag"
-			],
-			[
-				"compa",
-				"Sublimerge: Compare to Snapshot"
-			],
-			[
-				"decode",
-				"StringEncode: URL Decode"
 			],
 			[
 				"upadte",
@@ -482,10 +515,6 @@
 			[
 				"git add cu",
 				"Git: Add Current File"
-			],
-			[
-				"disable",
-				"Package Control: Disable Package"
 			],
 			[
 				"git commit",
@@ -830,18 +859,6 @@
 			[
 				"duplicat",
 				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"dupli",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"dupl",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"du",
-				"Highlight Duplicates: Toggle highlighting"
 			]
 		],
 		"width": 528.0
@@ -868,144 +885,145 @@
 	],
 	"file_history":
 	[
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568256551/nagehts.json/etc/apache2/sites-enabled/cansmile.org.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568255694/nagehts.json/etc/apache2/sites-enabled/nagehts.org.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568255101/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568220104/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/inhalt.php",
-		"/D/cansmile/csde/nagehts/inhalt.php",
-		"/D/cansmile/csde/nagehts/r1-Grammatik und Wendungen.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568218808/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568219101/nagehts.json/etc/php/7.1/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568219296/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/r1-Grammatik und Wendungen.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568219226/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/r1-Grammatik und Wendungen.php",
+		"/D/cansmile/csde/nagehts/r8-A2.php",
+		"/D/cansmile/csde/nagehts/r8-E6.php",
+		"/D/cansmile/csde/nagehts/r8-C4.php",
+		"/D/cansmile/csde/nagehts/r8-C3.php",
+		"/D/cansmile/csde/nagehts/r8-B5.php",
 		"/D/cansmile/csde/nagehts/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568218019/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/nav.php",
-		"/D/cansmile/csde/nagehts/md-menu.php",
-		"/D/cansmile/csde/nagehts/me-menu.php",
-		"/D/cansmile/csde/nagehts/header.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568187017/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568186479/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568185692/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/inhalt.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568185770/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568185710/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/header.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568180652/nagehts.json/var/www/html/nagehts.org/public_html/.htaccess",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568180644/nagehts.json/var/www/html/cansmile.org/public_html/.htaccess",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568180630/nagehts.json/var/www/html/.htaccess",
-		"/D/cansmile/csde/nagehts/r8-E2.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568179007/nagehts.json/var/www/html/.htaccess",
-		"/D/cansmile/csde/nagehts/sftp-config.json",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568149734/nagehts.json/etc/php/7.1/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568145607/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568147736/nagehts.json/etc/php/7.2/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568145460/nagehts.json/etc/php/7.2/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568147167/nagehts.json/etc/php/7.1/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568147116/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568142070/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568145026/nagehts.json/etc/php/7.2/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568140345/nagehts.json/etc/php/7.3/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568141588/nagehts.json/etc/php/7.1/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568139255/nagehts.json/var/www/html/nagehts.org/public_html/tport/files/config/db.config.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568138253/nagehts.json/var/www/html/nagehts.org/public_html/.htaccess",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568138207/nagehts.json/var/www/html/cansmile.org/public_html/.htaccess",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568137028/nagehts.json/var/www/html/nagehts.org/public_html/tport/files/config/db.config.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568137710/nagehts.json/etc/php/7.3/cgi/php.ini",
-		"/D/cansmile/ex-jobs/Moodle/ko/assignsubmission_comments.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/ko/access.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124790/nagehts.json/etc/php/7.3/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124740/nagehts.json/etc/php/7.3/cgi/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124677/nagehts.json/etc/php/7.3/cli/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124600/nagehts.json/etc/php/7.3/fpm/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568123967/nagehts.json/etc/php/7.3/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124005/nagehts.json/etc/php/7.3/cgi/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124019/nagehts.json/etc/php/7.3/cli/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124070/nagehts.json/etc/php/7.3/fpm/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568124083/nagehts.json/etc/php/7.3/mods-available/ftp.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568123815/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/lern/config.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568123623/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/lern/config.php",
-		"/D/cansmile/csde/nagehts/test.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568123352/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/lern/index.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568098317/nagehts.json/var/www/html/nagehts.org/public_html/lern/config.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568080787/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/lern/admin/index.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568081642/nagehts.json/var/www/html/nagehts.org/public_html/lern/config.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568079486/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/lern/admin/index.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/lern/admin/index.php",
-		"/C/inetpub/wwwroot/phpinfo.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568056527/nagehts.json/etc/php/7.3/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568056427/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568055753/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568055809/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/inhalt.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568055416/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/inhalt.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568055434/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568055483/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/schnupperseite/header.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/lern/local/upgrade.txt",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568053040/nagehts.json/etc/php/7.3/cgi/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568052899/nagehts.json/etc/php/7.3/fpm/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568052310/nagehts.json/etc/php/7.3/apache2/php.ini",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568051992/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/lern/config.php",
-		"/D/cansmile/csde/nagehts/inthebeginning.php",
-		"/D/cansmile/csde/nagehts/r1-A2.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568050526/nagehts.json/etc/php/7.3/apache2/php.ini",
-		"/C/inetpub/php/php.ini",
-		"/D/cansmile/csde/nagehts/wahl.php",
-		"/D/cansmile/csde/nagehts/footer.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568040947/nagehts.json/var/www/html/nagehts.org/public_html/wp-settings.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568039536/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/wp-config.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1568040818/nagehts.json/etc/php/7.0/apache2/php.ini.save",
-		"/D/cansmile/csde/nagehts/r7-A2.php",
-		"/D/cansmile/csde/nagehts/r7-A1.php",
-		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/2.rb",
-		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/2.py",
-		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/1.py",
-		"/D/cansmile/csde/nagehts/pyrb/compare_boolean/1.rb",
-		"/D/cansmile/csde/nagehts/pyrb/variable/.rb",
-		"/D/cansmile/csde/nagehts/pyrb/variable/4.rb",
-		"/D/cansmile/csde/nagehts/pyrb/variable/4.py",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-		"/D/cansmile/csde/nagehts/pyrb/variable/3.py",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
-		"/D/cansmile/csde/nagehts/pyrb/variable/3.rb",
-		"/D/cansmile/csde/nagehts/pyrb/variable/3ert",
-		"/D/cansmile/csde/nagehts/pyrb/variable/3eon",
-		"/D/cansmile/csde/nagehts/pyrb/variable/2.py",
-		"/D/cansmile/csde/nagehts/pyrb/variable/2.rb",
-		"/D/cansmile/csde/nagehts/2.rb",
-		"/D/cansmile/csde/nagehts/pyrb/variable/1.rb",
-		"/D/cansmile/csde/nagehts/pyrb/variable/1.py",
-		"/D/cansmile/csde/nagehts/pyrb/string/z.py",
-		"/D/cansmile/csde/nagehts/pyrb/string/z.rb",
-		"/D/cansmile/csde/nagehts/pyrb/string/5.py",
-		"/D/cansmile/csde/nagehts/pyrb/string/5.rb",
-		"/D/cansmile/csde/nagehts/pyrb/string/4.py",
-		"/D/cansmile/csde/nagehts/pyrb/string/4.rb",
-		"/D/cansmile/csde/nagehts/pyrb/string/3.py",
-		"/D/cansmile/csde/nagehts/pyrb/string/3.rb",
-		"/D/cansmile/csde/nagehts/pyrb/string/2.py",
-		"/D/cansmile/csde/nagehts/pyrb/string/2.rb",
-		"/D/cansmile/csde/nagehts/pyrb/str",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567564251/nagehts.json/nagehts/pyrb/string/2.rb",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567564280/nagehts.json/nagehts/pyrb/string/2.pf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567563762/nagehts.json/var/www/html/nagehts.org/public_html/pyrb/string/1.py",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567563789/nagehts.json/var/www/html/nagehts.org/public_html/pyrb/string/1.rb",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
-		"/D/cansmile/csde/nagehts/pyrb/math/1.py",
-		"/D/cansmile/csde/nagehts/pyrb/math/1.rb",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567561407/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/hello.py",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1567558399/nagehts.json/home/cansmile/www/html/nagehts.org/public_html/hello.py",
-		"/D/cansmile/csde/nagehts/r0-Zuordnung.php",
-		"/D/cansmile/csde/nagehts/r8-E1.php",
-		"/D/cansmile/csde/nagehts/r8-DGR.php",
+		"/D/cansmile/csde/nagehts/r8-B2.php",
+		"/D/cansmile/csde/nagehts/r3-F1.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1571619035/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1571618931/nagehts.json/etc/apache2/sites-enabled/nagehts.org.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1571618811/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00005 Scrivener 1.9.3 testing.scriv/cscri19-00005 Scrivener 1.9.3 testing.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Preaching.ini",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00001 스크리브너 처음 따라하기.scriv/cscri19-00001 스크리브너 처음 따라하기.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00008 cansmile.org-Wordpress.scriv/cscri19-00008 cansmile.org-Wordpress.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00007 190911 우리가 교회에 모이는 이유 고전12;12~13.scriv/cscri19-00007 190911 우리가 교회에 모이는 이유 고전12;12~13.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00006 190915 학생부 주일예배 설교 공존 겔37;1~14.scriv/cscri19-00006 190915 학생부 주일예배 설교 공존 겔37;1~14.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00003 190901 학생부 주일예배 설교 새 언약 렘31;31~34.scriv/cscri19-00003 190901 학생부 주일예배 설교 새 언약 렘31;31~34.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00002 190825 학생부 주일예배 설교 네 입, 내 일 렘1;4~10.scriv/cscri19-00002 190825 학생부 주일예배 설교 네 입, 내 일 렘1;4~10.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00004 190908 학생부 주일예배 설교 고집 렘38;24~28.scriv/cscri19-00004 190908 학생부 주일예배 설교 고집 렘38;24~28.scrivx",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00016 191020 학생부 주일예배 설교 기초 스3;9~13.scriv/cscri19-00016 191020 학생부 주일예배 설교 기초 스3;9~13.scrivx",
+		"/C/Users/Administrator/AppData/Local/LiteratureAndLatte/Scrivener/ProjectTemplates/Preacher.scrivtemplate",
+		"/C/Users/Administrator/AppData/Local/LiteratureAndLatte/Scrivener/ProjectTemplates/aa.scrivtemplate",
+		"/D/cansmile/cswd/txt/Jason S. DeRouchie, 정옥배, 구약, 어떻게 해석할 것인가; 주해에서 신학에 이르는 12단계, 서울;죠이선교회, 2019.txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/AccordanceBible/csfp19-00007 Accordance Bible Software.fpfx",
+		"/D/cansmile/cswd/txt/2019101800001 Scrivener 3.0 Beta 26 (Download Links & Change List).txt",
+		"/D/cansmile/cswd/txt/2019101800002 Scrivener 1.9.015 Release Note.txt",
+		"/D/cansmile/csde/nagehts/r8-E5.php",
+		"/D/cansmile/csde/nagehts/r8-E4.php",
+		"/D/cansmile/csde/nagehts/r8-E3.php",
+		"/D/cansmile/csde/nagehts/r8-Grammatik und Wendungen.php",
+		"/D/cansmile/cswd/txt/2019101700001 Nagehts-R8-E6.txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/Na, geht's/2019101700001 Nagehts-R8-E5_deukor.ftfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/Na, geht's/2019101700001 Nagehts-R8-E6_deukor.ftfx",
+		"/D/cansmile/cswd/txt/2019101700001 Nagehts-R8-E5.txt",
+		"/D/cansmile/csde/nagehts/r3-F3.php",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00015 Na, geht's.fpfx",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
 		"/D/cansmile/csde/nagehts/r8-D6.php",
-		"/D/cansmile/csde/nagehts/r8-D5.php"
+		"/D/cansmile/csde/nagehts/sounds/Reihe 8/r8 U3.mp3",
+		"/D/cansmile/cswd/txt/2019101400001.txt",
+		"/D/cansmile/csde/nagehts/r1-D1.php",
+		"/D/cansmile/csde/nagehts/css/bootstrap-grid.css",
+		"/D/cansmile/csde/nagehts/r0-Zuordnung.php",
+		"/D/cansmile/cswd/txt/2019101100002 Scrivener 3.0 Beta 25 (Download Links & Change List).txt",
+		"/D/cansmile/cswd/txt/2019101100001 Scrivener Update Note.txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00014 Google Fonts Typography.fpfx",
+		"/D/cansmile/csde/nagehts/r1-A2.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570683828/nagehts.json/var/www/html/cansmile.org/public_html/wp-config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570623023/nagehts.json/var/www/html/cansmile.org/public_html/wp-config.php",
+		"/D/cansmile/Dropbox/Documents/Fluency/BibleShow5/BibleShow 5.3 Term of use and Software License Agreement.txt",
+		"/C/BibleShow5/BibleShow.lng",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/BibleShow.lng",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00011 Gutenberg.fpfx",
+		"/D/Videos/just Clips/2019100900001 Phoenix (ft. Cailin Russo and Chrissy Costanza) - Worlds 2019 - League of Legends - YouTube_4_es-ES.srt",
+		"/D/Videos/just Clips/2019100900001 Phoenix (ft. Cailin Russo and Chrissy Costanza) - Worlds 2019 - League of Legends - YouTube_5_es.srt",
+		"/D/Videos/just Clips/2019100900001 Phoenix (ft. Cailin Russo and Chrissy Costanza) - Worlds 2019 - League of Legends - YouTube_2_el.srt",
+		"/D/Videos/just Clips/2019100900001 Phoenix (ft. Cailin Russo and Chrissy Costanza) - Worlds 2019 - League of Legends - YouTube_0_cs.srt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570622841/nagehts.json/var/www/html/cansmile.org/public_html/.htaccess",
+		"/C/BibleShow5/BibleShow.ini",
+		"/C/BibleShow5/BibleShow.css",
+		"/D/Videos/just Clips/The Bible Projects/Word Study- Euangelion - -Gospel-.txt",
+		"/D/cansmile/cswd/txt/2019100900001 gReader Play Store.txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00013 gReader.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/The Bible Project/The Satan and Deamons_ko.srt",
+		"/D/cansmile/Dropbox/Documents/Fluency/The Bible Project/The Satan and Deamons_en_engkor.ftfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/The Bible Project/The Satan and Deamons_en.srt",
+		"/D/cansmile/Dropbox/Documents/Fluency/LiteratureandLatte/Scrivener Release Notes _ Literature & Latte.html",
+		"/D/Videos/just Clips/The Bible Projects/2019052400001 The Satan and Demons - YouTube.srt",
+		"/D/Videos/just Clips/The Bible Projects/Angel of the Lord.srt",
+		"/C/Program Files (x86)/Google2SRT/run.sh",
+		"/D/cansmile/csde/nagehts/r3-F5.php",
+		"/D/cansmile/csde/nagehts/r6-A2.php",
+		"/C/Users/Administrator/AppData/Roaming/Ditto/Ditto_1.db",
+		"/D/cansmile/Dropbox/Documents/Fluency/Synchronization/2019092400001.sync",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00007 Accordance Bible Software.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00008 Simple History.fpfx",
+		"/C/ProgramData/Western Standard/Fluency Now/DB/Configuration.db",
+		"/D/cansmile/cswd/txt/2019100700001 csfl19-00002 Bibleshow 5 interface.txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00012 Flavius Josephus.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/Josephus/Book X; CONTAINING THE INTERVAL OF ONE HUNDRED AND EIGHTY-TWO YEARS AND A HALF. FROM THE CAPTIVITY OF THE TEN TRIBES TO THE FIRST YEAR OF CYRUS.xml",
+		"/D/cansmile/Dropbox/Documents/정리되는 책들/정리 완료/epub/Flavius Josephus, William Whiston tr., The works of flavius josephus.epub",
+		"/C/inetpub/www/wp-content/plugins/easy-footnotes/easy-footnotes-admin.php",
+		"/C/inetpub/www/wp-content/plugins/easy-footnotes/easy-footnotes.php",
+		"/D/cansmile/Dropbox/Documents/Fluency/The Bible Project/Angel of God.srt",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfl19-00002 Bibleshow 5 interface.ftfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfl19-00001.ftfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csft19-00001.ftpx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00005 LiteratureandLatte.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00011 Scrivener.fpfx",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570181027/nagehts.json/var/www/html/cansmile.org/public_html/robots.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570180600/nagehts.json/var/www/html/cansmile.org/public_html/a.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570180389/nagehts.json/var/www/html/cansmile.org/public_html/wp-load.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570180414/nagehts.json/var/www/html/cansmile.org/public_html/wp-load.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570180369/nagehts.json/var/www/html/cansmile.org/public_html/xmlrpc.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570180341/nagehts.json/var/www/html/cansmile.org/public_html/wp-load.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570180329/nagehts.json/var/www/html/cansmile.org/public_html/wp-blog-header.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570180308/nagehts.json/var/www/html/cansmile.org/public_html/index.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/cansmile.org/public_html/wp-blog-header.php",
+		"/D/cansmile/Dropbox/Documents/Fluency/Scrivener.fpfx",
+		"/D/cansmile/cswd/txt/2019100400001 Scrivener 3.0 Beta 24 Change List.txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/csft19-00002.ftfx",
+		"/D/cansmile/Dropbox/apps/Accordance/Accordance Preferences/ãæ½æ¥¤æ®æ° æ©ç¡çµå¥âµã´â¼°äµTf",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00010 Theme My Login.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/Easy Footnotes.fpfx",
+		"/C/inetpub/www/wp-content/plugins/easy-footnotes/readme.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570109895/nagehts.json/etc/apache2/sites-enabled/cansmile.org.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570077830/nagehts.json/etc/apache2/sites-enabled/nagehts.org.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570109775/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
+		"/D/cansmile/Dropbox/Documents/Fluency/_csfp19-00008 Simple History.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/Simple History.fpfx",
+		"/C/inetpub/www/wp-content/plugins/user-login-history/languages/faulh-ko_KR.po",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570028926/nagehts.json/etc/apache2/sites-enabled/nagehts.org.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570029345/nagehts.json/etc/apache2/sites-enabled/cansmile.org.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570029425/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570029742/nagehts.json/var/www/html/nagehts.org/public_html/.htaccess",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1570029696/nagehts.json/var/www/html/.htaccess",
+		"/C/inetpub/www/phpinfo.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/inetpub/php/php.ini",
+		"/C/inetpub/www/wp-config.php",
+		"/C/inetpub/wwwroot/wp-config-sample.php",
+		"/C/inetpub/phpMyAdmin/config.inc.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/robots.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1569965950/nagehts.json/var/www/html/nagehts.org/public_html/r0.php",
+		"/D/cansmile/csde/nagehts/r1-A3.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1569965717/nagehts.json/etc/apache2/apache2.conf"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
 		"height": 625.0,
 		"where_history":
 		[
+			"D:\\cansmile\\csde\\nagehts",
 			"d:\\cansmile\\ex-jobs\\Moodle\\ko\\",
 			"D:\\cansmile\\csde\\nagehts",
 			"<open files>",
@@ -1030,134 +1048,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"/var/www/html/nagehts.org/logs",
-			"/var/www/html/nagehts.org/logs/",
-			"</VirtualHost>",
-			"\n\t<IfModule mod_rewrite.c>\n\t\tRewriteEngine On\n\t\tRewriteCond %{HTTPS} off\n\t\tRewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]\n\t</IfModule>",
-			"nagehts.org",
-			"ftp.nagehts.org",
-			"cansmile.org",
-			"ul()",
-			"display_errors",
-			"md-m",
-			"s",
-			"md-menu",
-			"jt1",
-			"?>",
-			"ul()",
-			"$rl",
-			"주문하고 싶어",
-			"chte bestellen.",
-			"error_log = ",
-			"short-op",
-			"extension=mysqli",
-			"extension_dir",
-			"max_uplo",
-			"short_ope",
-			"max_",
-			"short_ope",
-			"nagehts.org",
-			"extension=mysqli",
-			"memory_",
-			"mysqli",
-			"https",
-			"\\",
-			"https",
-			"mlrpc",
-			"xmlrpc",
-			"tport.nagehts.org",
-			"lern.nagehts.org",
-			"www.nagehts.org",
-			"www.cansmile.org",
-			"해당도메인주소",
-			"chain",
-			"/path/to/",
-			"도메인명",
-			"/etc/letsencrypt/live/도메인명/",
-			"accredible",
-			"배지 및 인증서의 모양을 업데이트하려면 <a href=\"https://dashboard.accredible.com\" target=\"_blank\"> https://dashboard.accredible.com </a>을 방문하십시오.",
-			"extension=",
-			"extension",
-			"timezone",
+			"Ich habe",
+			" col-3",
+			"form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0",
+			"rounded d-none-sm d-block-md d-block-lg d-block-xl",
+			"<img src=\"./images/Reihe 8/Reihe-8-E5-1.png\" alt=\"erkältet\" class=\"rounded",
+			"<img src=\"./images/Reihe 8/Reihe-8-E5-",
+			"<th scope=\"row\" class=\"border-0\" rowspan=\"4\"",
+			"aria-describedby=\"basic-addon",
+			"id=\"qst-",
+			"hat",
+			"aria-describedby=\"basic-addon",
+			"id=\"qst-",
+			"border-top-0 border-right-0 border-left-0 border-dark rounded-0",
+			"사우어",
+			"id=\"qst-",
+			"border-dark rounded-0",
+			"Du sollst Aspiri",
+			"(단수형)",
+			"방학",
+			"Hans Holm und Silvia",
+			"Hans Holm",
+			" <VirtualHost *:443> \n  ServerName schnupperseite.nagehts.org\n  DocumentRoot  /var/www/html/nagehts.org/public_html/schnupperseite\n\n  SSLEngine on  \n  SSLProtocol all -SSLv2 -SSLv3  \n  SSLCipherSuite ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA   \n  SSLHonorCipherOrder on   \n  SSLCertificateFile \"/etc/letsencrypt/live/schnupperseite.nagehts.org/cert.pem\"\n  SSLCertificateKeyFile \"/etc/letsencrypt/live/schnupperseite.nagehts.org/privkey.pem\"\n  SSLCertificateChainFile \"/etc/letsencrypt/live/schnupperseite.nagehts.org/chain.pem\"  \n </VirtualHost>\n\n",
+			"<button type=\"button\" id=\"",
+			"border-left-0 border-dark rounded-0\" id=\"qst-",
+			"\",\"",
+			"<th scope=\"row\" class=\"border-0\" rowspan=\"4\"",
+			"<th scope=\"row\" class=\"border-0\" rowspan=\"4\">",
+			"<strong>erkältet :</strong>",
+			"<th scope=\"row\" class=\"border-0\" rowspan=\"4\"",
+			"<th scope=\"row\" class=\"border-0\" rowspan=\"4\" width=\"5%\">",
+			"<th scope=\"row\" class=\"border-0\" rowspan=\"4\" width=\"5%\"",
+			"E6",
+			"e5",
+			"E5",
+			",",
+			", ",
+			"\"",
+			"style=\"max-width: 100px;\" ",
+			"input-group d-inline-flex align-items-baseline",
+			"text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0",
+			"<div class=\"input-group d-inline-flex align-items-baseline\">",
+			"<th scope=\"row\" class=\"border-0\" rowspan=\"4\">",
+			"<input type=\"text\" placeholder=\"Antwort\" aria-label=\"Antwort\" aria-describedby=\"basic-addon",
+			"<th scope=\"row\" class=\"border-0\">",
+			"TortoiseProc",
+			"Hans Holm",
+			"col-2",
+			"student",
+			"Hans",
+			"(können)",
+			"basic-addon",
+			"border-left-0 border-dark rounded-0\" style=\"max-width: 100px;\" id=\"qst-",
+			"border-top-0 border-left-0 border-right-0 border border-dark rounded-0\" id=\"qst-",
+			"<div class=\"ant\" id=\"ant-",
+			"</th>",
+			"<th",
+			"<th scope=\"col",
+			"<th scope=\"col\">",
+			"<th scope=\"col\" width=\"50\">",
+			"<span><br><small>",
+			"\" class=\"so btn btn-outline-",
+			"<div class=\"itm-lst 1itm\" id=\"lst-",
+			"<div class=\"itm-lst 1itm\" id=\"lst-1\">",
+			"small></span></th>",
+			"show()",
+			"r8 B1",
+			"<button type=\"button\" id=\"",
+			"r8 B1",
+			"<span><br><small>",
+			"▶\t",
+			"\" class=\"so btn btn-outline-danger\">",
+			"<th scope=\"col\"><span><br><small></small></span></th>",
+			"<span class=\"tran\">",
+			"<td><strong>",
+			"white",
+			"인사",
+			"다른",
+			"세로 위치",
+			"세로",
+			"import",
+			"일러",
+			" -->",
+			"처음된",
+			"처음 된",
 			".",
-			"$purifier->",
-			"index.php?sessionstarted=1&amp;lang=",
-			"$rt",
-			"$lm",
-			"<<<",
-			"ul()",
-			"$rm",
-			"extension=",
-			"extension",
-			"opcache.enable",
-			"opacache",
-			"file_uploads",
-			"extension=iconv",
-			"/ext",
-			"ext",
-			"iconv",
-			"설치하거나 활성화",
-			"short_open",
-			"<?php if(ul()) { ?>",
-			"<<<end",
-			"<?php",
-			"php",
-			"}",
-			"{",
-			"<?php include",
-			"WP_MEMORY_LIMIT ",
-			"Notice: Constant WP_MEMORY_LIMIT ",
-			"/usr/share",
-			"php_extension",
-			"설치하거나 활성화",
-			"{$mc}",
-			"sizeof",
-			"</small><span class=\"tran\">",
-			"Ort",
-			"물건을",
-			"보아요",
-			"col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3",
-			"col-lg-4 col-md-6 col-sm-12 ",
-			"file_exists",
-			"file_exist",
-			"text-gray",
-			"favi",
-			"fav",
-			"table text-center",
-			") if",
-			") $",
-			"<div class=\"ant\" id=\"ant-",
-			"<th rowspan=\"2\" scope=\"row\" width=\"30\" class=\"align-middle border-0\">1",
-			"<div class=\"ant\" id=\"ant-",
-			"<img src=\"./images/Reihe 8/Reihe-8-E2-",
-			"<div class=\"ant\" id=\"ant-",
-			"./images/Reihe 8/Reihe-8-E2-",
-			"./images/Reihe 8/Reihe-8-E2-2.png",
-			")",
-			"D:\\cansmile\\csde\\nagehts\\",
-			"-",
-			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; bottom: 0; z-index: 9999; width: 100%;\" id=\"wahl\">",
-			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; bottom: 0; z-index: 1; width: 100%;\" id=\"wahl\">",
-			"; ",
-			";",
-			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; bottom: 0; z-index: 1; width: 100%;\" id=\"wahl\">",
-			"ㄴ",
-			") $",
-			") if",
-			"<span class=\"tran\"><small>",
-			"<div style=\"min-height: 240px;\" class=\"itm",
-			"다중",
-			"<?php include \"wahl.php\"; ?>",
-			"<img style=\"width: 100%; height: auto;\" src=\".\\images\\Reihe 1\\Reihe-1",
-			"rounded-top border border-outline-dark itm-lst text-center text-dark col-auto my-4 mx-1",
-			") $",
-			") if",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"footer",
-			"<span class=\"tran\"><small>",
-			") $",
-			") if",
-			") $"
+			"-->",
+			"직업",
+			"<span style=\"position: relative; top: 5px;\" class=\"col-3 font-weight-bold\">&nbsp;",
+			"ungar",
+			"<span style=\"position: relative; top: 5px;\">",
+			"Fran",
+			"fran",
+			"<span class=\"tran\"><br><small>",
+			"aria-label=\".\" id=\"qst-",
+			"<input type=\"text\" class=\"form-control q\" aria-label=\".\" id=\"qst-",
+			"<project>",
+			"<project",
+			"cstr19-0000",
+			"d:\\cansmile\\cswd\\txt\\",
+			"<meta ",
+			"easy_footnote",
+			"header",
+			"  ",
+			"ftp.nage",
+			"  ",
+			"ftp.nagehts",
+			"ftp.nagehts.org",
+			"session.save_path",
+			"register_globals",
+			"active",
+			"root",
+			"allow_anon_ssl=NO",
+			"ssl_enable=YES",
+			"tcp_wrappers=YES",
+			"userlist_enable=YES",
+			"pam_service_name=vsftpd",
+			"구운",
+			"낚",
+			"달아요",
+			"매워요",
+			"차가워요",
+			"online",
+			"wp-load.php",
+			"der wein",
+			"tran",
+			"theater",
+			"%",
+			"와인"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1165,6 +1183,21 @@
 		"regex": false,
 		"replace_history":
 		[
+			"treiben",
+			".\",\"",
+			"text",
+			".\n",
+			" ",
+			"; ",
+			"ko_KR",
+			"-",
+			";\n",
+			".\n",
+			"게시판",
+			"ko_KR",
+			"\t\t$(\".so\").each(function() {\n\t\t\thm[$(this).attr(\"id\")] = 0;\n\t\t\tsen[$(this).attr(\"id\")] = 0;\n\t\t})\n",
+			" ",
+			"#",
 			"\t\t\t\t</",
 			"\");\n",
 			" ?>\n\t\t<section>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-lg-12 mb-4 mt-2 text-center\">\n\t\t\t\t\t\t<h2> Schreiben Sie. <br>\n\t\t\t\t\t\t\t<small>써보세요.</small>\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3>[ <small>대문자로 된 부분을 바른 단어로 입력하세요.</small> ]</h3>\n\t\t\t\t\t\t<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<!-- 정답화인 버튼 시작 -->\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"btn my-3 btn-light col-sm-12 col-md-12 col-lg-12\" id=\"chk\">\n\t\t\t\t\t\t정답확인\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- 정답확인 버튼 끝 -->\n\t\t\t</div>\n\t\t</section>\n\t\t\n\n\t\t\n\t\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t\t<script src=\"./js/jquery-3.3.1.min.js\"></script>\n\t\t<!-- Include all compiled plugins (below), or include individual files as needed -->\n\t\t<script src=\"./js/popper.min.js\"></script>\n\t\t<script src=\"./js/bootstrap.js\"></script>\n\t\t<script src=\"./js/taptogroupnomove.js\"></script>\n\t\t<!-- interact.min.js -->\n\t\t<script src=\"./js/ion.sound.min.js\"></script>\n\t\t<script>\n\t\t\t$(\".tran\").hide();\n\t\t\t$(\".ant\").hide();\n\n\t\t\tvar an = new Array();\n\t\t\tvar an = [\"Kopf\",\"Zahn\",\"Hals\",\"Rücken\",\"Bauch\"];\n\n\t\t\t$(document).ready(function() {\n/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */\n// 값 확인해보자, io값이 참이면 전체 검사\nfunction rfchk(th,io) {\n\tvar q, qn, a, b, fl;\n\tq = th.val().length;\n\tqn = (th.attr(\"id\").substr(4))-1;\n\ta = th.val();\n\ta = a.replace(/ /gi, \"\");\n\tif(!$.isArray(an[qn])) {\n\t\t// 1 인 경우 \n\t\tif(io) {\n\t\t\tb = an[qn];\n\t\t} else {\n\t\t\tb = an[qn].substr(0,q);\n\t\t}\n\t\tb = b.replace(/ /gi, \"\");\n\n\t\tif(a == b) {\n\t\t\treturn true;\n\t\t}\n\n\t} else {\n\t\t// 2 이상인 경우\n\t\tfor(var fd = 0; fd < an[qn].length; fd++) {\n\t\t\tif(io) {\n\t\t\t\tb = an[qn][fd];\n\t\t\t} else {\n\t\t\t\tb = an[qn][fd].substr(0,q);\n\t\t\t}\n\t\t\tb = b.replace(/ /gi, \"\");\n\t\t\t\n\t\t\tif(a == b) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t}\n\t\t\n\t}\n}\n\t\t\t\t$(\".q\").on(\"keyup\", function () {\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-danger\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-success\");\n\n\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t}\n\n\t\t\t\t\tif(!$(this).val()) {\n\t\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".q\").on(\"focusin\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\tif(!$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t}\n\t\t\t\t\tif($(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".q\").on(\"focusout\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\n\t\t\t\t\tif(rfchk($(this),true)) {\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(this).addClass(\"text-white\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t}\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\tif($(this).hasClass(\"bg-danger\")) {\n\t\t\t\t\t\t\tion.sound.play(\"Cartoon_Boing\");\n\t\t\t\t\t\t} else if($(this).hasClass(\"bg-success\")){\n\t\t\t\t\t\t\tion.sound.play(\"Bama_Country_Country\");\n\t\t\t\t\t\t\t$(this).prop(\"disabled\",true);\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\tif(!$(this).attr(\"disabled\")) {\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t}\n\t\t\t\t})\n/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */\n\n\t\t\t\t$(\"#chk\").on(\"click\", function() {\n\t\t\t\t\tvar na = \"\";\n\t\t\t\t\tvar ri = 0;\n\t\t\t\t\tvar qst = $(\".q\").length;\n\t\t\t\t\t$(\".q\").each(function () {\n\t\t\t\t\t\tif(na != \"\") {\n\t\t\t\t\t\t\tna += \", \";\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif($(this).val() == \"\") {\n\t\t\t\t\t\t\tna += $(this).attr(\"id\").substr(4,1);\n\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t\t\n\t\t\t\t\tif($(this).attr(\"id\") == \"done\") {} else if(na == \"\") {\n\t\t\t\t\t\tfor(var i = 0; i < an.length; i++) {\n\t\t\t\t\t\t\tvar oran = $(\"#qst-\"+(i+1)).val();\n\t\t\t\t\t\t\tif(rfchk($(\"#qst-\"+(i+1)))) {\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).addClass(\"bg-success text-white\");\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).val(an[i]);\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).attr(\"disabled\",true);\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).parent().append(\"<span class=\\\"ml-5 text-danger\\\">\"+oran+\"</span>\");\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\tif($(\"#qst-\"+(i+1)).hasClass(\"bg-success\")) {\n\t\t\t\t\t\t\t\tri++;\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\tif (ri < (qst/2)) {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-danger text-white\");\n\t\t\t\t\t} else if(ri == qst) {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!<br>혹시 독일인이세요?</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-primary text-white\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!<br>훌륭합니다!</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-warning text-white\");\n\t\t\t\t\t}\n\n\t\t\t\t\t$(this).prop(\"disabled\", true);\n\t\t\t\t\t$(\".tran\").show();\n\t\t\t\t\t$(this).attr(\"id\",\"done\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\talert(\"모든 문제를 풀어주세요!\");\n\t\t\t\t\t\t// alert(na+\"번 문제를 풀어주세요!\");\n\t\t\t\t\t};\n\t\t\t\t})\n\n\t\t\t\tvar pan = new Array();\n\t\t\t\tpan = [\"1\"];\n\t\t\t\t// pan = [\"1\",\"2\",\"4\",\"6\",\"8\"];\n\t\t\t\tfor(var p = 0; p < pan.length; p++) {\n\t\t\t\t\tvar pann = \"#qst-\"+pan[p];\n\t\t\t\t\t$(pann).val(an[(pan[p]-1)]);\n\t\t\t\t\t$(pann).addClass(\"bg-success text-white font-weight-bold\");\n\t\t\t\t\t$(pann).prop(\"disabled\",true);\n\t\t\t\t\t$(pann).closest(\"tr\").find(\".tran\").show();\n\t\t\t\t}\t\t\t\t\n\n});\n\t\t\t\n\t\t</script>\n\t\t<!-- ion.sound finished -->\n<? ",
@@ -1277,22 +1310,7 @@
 			"ddb8ff",
 			"bf7aff",
 			"d19fff",
-			"8300ff",
-			"7000d9",
-			"6900cc",
-			"150, 38, 255",
-			"6200bf",
-			"450085",
-			"e6ccff",
-			"221, 184, 255",
-			"2b0052",
-			"221, 184, 255",
-			"e6ccff",
-			"450085",
-			"6200bf",
-			"150, 38, 255",
-			"6900cc",
-			"7000d9"
+			"8300ff"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1303,11 +1321,327 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "r8-E5.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								653,
+								653
+							],
+							[
+								4065,
+								4065
+							],
+							[
+								7205,
+								7205
+							],
+							[
+								10393,
+								10393
+							]
+						],
+						"settings":
+						{
+							"SL.59.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										660,
+										661
+									],
+									"2":
+									[
+										4072,
+										4073
+									],
+									"3":
+									[
+										7212,
+										7213
+									],
+									"4":
+									[
+										10400,
+										10401
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"3":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"4":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										608,
+										609
+									],
+									"2":
+									[
+										4020,
+										4021
+									],
+									"3":
+									[
+										7160,
+										7161
+									],
+									"4":
+									[
+										10348,
+										10349
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										660,
+										661
+									],
+									"2":
+									[
+										4072,
+										4073
+									],
+									"3":
+									[
+										7212,
+										7213
+									],
+									"4":
+									[
+										10400,
+										10401
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"3":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"4":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										608,
+										609
+									],
+									"2":
+									[
+										4020,
+										4021
+									],
+									"3":
+									[
+										7160,
+										7161
+									],
+									"4":
+									[
+										10348,
+										10349
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1324,85 +1658,8 @@
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
-							[
-							],
-							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
 							"bracket_highlighter.locations":
 							{
 								"close":
@@ -1420,31 +1677,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1455,32 +1687,422 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
+							"default_dir": "D:\\cansmile\\csde\\nagehts",
 							"incomplete_sync": null,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "r8-E2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1570,
+								1578
+							],
+							[
+								2030,
+								2038
+							],
+							[
+								2920,
+								2928
+							],
+							[
+								4274,
+								4282
+							],
+							[
+								5631,
+								5639
+							],
+							[
+								7455,
+								7463
+							]
+						],
+						"settings":
+						{
+							"SL.70.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1721,
+										1722
+									],
+									"10":
+									[
+										7606,
+										7607
+									],
+									"2":
+									[
+										2181,
+										2182
+									],
+									"3":
+									[
+										3071,
+										3072
+									],
+									"4":
+									[
+										3523,
+										3524
+									],
+									"5":
+									[
+										4425,
+										4426
+									],
+									"6":
+									[
+										4878,
+										4879
+									],
+									"7":
+									[
+										5782,
+										5783
+									],
+									"8":
+									[
+										6234,
+										6235
+									],
+									"9":
+									[
+										7131,
+										7132
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"10":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"3":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"4":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"5":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"6":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"7":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"8":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"9":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1614,
+										1615
+									],
+									"10":
+									[
+										7499,
+										7500
+									],
+									"2":
+									[
+										2074,
+										2075
+									],
+									"3":
+									[
+										2964,
+										2965
+									],
+									"4":
+									[
+										3416,
+										3417
+									],
+									"5":
+									[
+										4318,
+										4319
+									],
+									"6":
+									[
+										4771,
+										4772
+									],
+									"7":
+									[
+										5675,
+										5676
+									],
+									"8":
+									[
+										6127,
+										6128
+									],
+									"9":
+									[
+										7024,
+										7025
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										83,
+										84
+									],
+									"2":
+									[
+										83,
+										84
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 543.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

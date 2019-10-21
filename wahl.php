@@ -4,7 +4,7 @@ function donewahl() {
 	$("#marg").hide();
 	$("#chk").show();
 }
-$("#marg").height($("#wahl").innerHeight() * 1.5); // wahl 높이만큼 여백 만들기
+$("#marg").height($("#wahl").innerHeight() * 2.5); // wahl 높이만큼 여백 만들기
 $(document).on("click", function() {
 	if($("#wahl").find(".itm").length < 1) {
 		donewahl();

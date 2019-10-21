@@ -110,24 +110,26 @@
 					<table class="table text-center">
 						<tbody>
 							<tr>
-								<td class="align-middle border-0">Ja, das klingt gut!</td>
+								<td class="align-middle border border-dark border-top-0 border-bottom-0 border-left-0" colspan="2">Ja, das klingt gut!</td>
+								<td class="align-middle border-0" rowspan="2">&nbsp;</td>
 							</tr>
 							<tr>
-								<td class="align-middle border-0">Ja, gerne. Ich habe Zeit.</td>
+								<td class="align-middle border border-dark border-top-0 border-bottom-0 border-left-0" colspan="2">Ja, gerne. Ich habe Zeit.</td>
 							</tr>
-						</tbody>
-					</table>
-					<table class="table text-center">
-						<tbody>
+							<tr>
+								<td class="border-0 align-middle p-0" height="5"></td>
+							</tr>
 							<tr>
 								<td class="align-middle border border-dark border-left-0 border-top-0 border-bottom-0">Wann</td>
-								<td class="align-middle border-0">fängt das denn an? Um 4 Uhr.</td>
+								<td class="align-middle border border-dark border-left-0 border-top-0 border-bottom-0">fängt das denn an?</td>
+								<td class="align-middle border-0"> Um 4 Uhr.</td>
 							</tr>
 							<tr>
-								<td class="align-middle border border-dark border-left-0 border-top-0 border-bottom-0" rowspan="2">Wo</td>
-								<td class="align-middle border-0">treffen wir uns?</td>
+								<td class="border-0 align-middle p-0" height="5"></td>
 							</tr>
 							<tr>
+								<td class="align-middle border border-dark border-left-0 border-top-0 border-bottom-0">Wo</td>
+								<td class="align-middle border border-dark border-left-0 border-top-0 border-bottom-0">treffen wir uns?</td>
 								<td class="align-middle border-0">Bei mir zu Hause.</td>
 							</tr>
 						</tbody>
@@ -179,13 +181,15 @@
 								<td class="align-middle border-0">leider keine Zeit.</td>
 							</tr>
 							<tr>
+								<td class="border-0 align-middle p-0" height="5"></td>
+							</tr>
+							<tr>
 								<td class="align-middle border border-dark border-left-0 border-top-0 border-bottom-0">Ich muss</td>
 								<td class="align-middle border-0">lernen.</td>
 							</tr>
-						</tbody>
-					</table>
-					<table class="table text-center">
-						<tbody>
+							<tr>
+								<td class="border-0 align-middle p-0" height="5"></td>
+							</tr>
 							<tr>
 								<td class="align-middle border border-dark border-left-0 border-top-0 border-bottom-0">Vielleicht</td>
 								<td class="align-middle border-0">das nächste Mal.</td>
@@ -243,10 +247,10 @@
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
 				var hm = new Array(), sen = new Array();
-				for(i = 0; i < $(".so").length; i++) {
-					hm[i] = 0;
-					sen[i] = 0;
-				}
+				$(".so").each(function() {
+					hm[$(this).attr("id")] = 0;
+					sen[$(this).attr("id")] = 0;
+				});
 				ion.sound({
 					sounds : [{
 						name : "r7 B1",
@@ -280,6 +284,7 @@
 					}, {
 						name : "Cartoon_Boing",
 						path : "sounds/"
+						
 					}],
 					path : "sounds/Reihe 7/",
 					preload : true,

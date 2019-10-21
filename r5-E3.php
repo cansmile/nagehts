@@ -95,10 +95,11 @@
 								<td class="border-0"><span class="tran"><small>셔요.</small><br></span>sauer.</td>
 							</tr>
 							<tr>
-								<td class="border-0"><span class="tran"><small>달아요.</small><br></span>süß.</td>
+								<td class="border-0"><span class="tran"><small>너무 달아요.</small><br></span>süß.</td>
 							</tr>
 							<tr>
 								<td class="border-0">
+									<span class="tran"><small>따뜻해요.</small></span>
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -117,6 +118,7 @@
 							</tr>
 							<tr>
 								<td class="border-0">
+									<span class="tran"><small>말랐어요.</small></span>
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -125,6 +127,7 @@
 							</tr>
 							<tr>
 								<td class="border-0">
+									<span class="tran"><small>딱딱해요.</small></span>
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -143,6 +146,7 @@
 							</tr>
 							<tr>
 								<td class="border-0">
+									<span class="tran"><small>차가워요.</small></span>
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -161,6 +165,7 @@
 							<tr>
 								<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>맥주가</small><br></span>Das Bier ist</th>
 								<td class="border-0">
+									<span class="tran"><small>너무 써요.</small></span>
 									<div class="itm-lst 1itm" id="lst-4">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -179,6 +184,7 @@
 							<tr>
 								<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>스프가</small><br></span>Die Suppe ist</th>
 								<td class="border-0">
+									<span class="tran"><small>짜요.</small></span>
 									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -200,6 +206,7 @@
 							</tr>
 							<tr>
 								<td class="border-0">
+									<span class="tran"><small>너무 매워요.</small></span>
 									<div class="itm-lst 1itm" id="lst-6">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -218,6 +225,7 @@
 							</tr>
 							<tr>
 								<td class="border-0">
+									<span class="tran"><small>달아요.</small></span>
 									<div class="itm-lst 1itm" id="lst-7">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -236,6 +244,7 @@
 							</tr>
 							<tr>
 								<td class="border-0">
+									<span class="tran"><small>신선하지 않아요.</small></span>
 									<div class="itm-lst 1itm" id="lst-8">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -268,6 +277,11 @@
 	<script src="./js/ion.sound.min.js"></script>
 	<script>
 		$("#chk").hide();
+		$(".tran").hide();
+		$(".itm-lst").each(function() {
+			$(this).closest("td").find(".tran").show();
+		});
+		$("#wahl").find(".tran").hide();
 		$(document).ready(function() {
 			<?php include "wahl.php"; ?>
 

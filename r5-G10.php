@@ -360,19 +360,19 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>의미: 동사의 변화의 정도가 큰 동사</td>
-									<td>① 어간 e → i</td>
+									<td>의미: 불규칙 변화동사의 변화의 정도가 큰 동사</td>
+									<td>① 어간 e → i<br><small>(단음 e)</small></td>
 									<td>sprechen → spricht</td>
 								</tr>
 								<tr>
-									<td>→ 현재 및 과거형에서 동사어간에 모음 교체 현상이 일어나는 동사</td>
-									<td>② 어간 a → ä</td>
-									<td>fahren → fährt</td>
+									<td>예) helfen → hilft</td>
+									<td>② 어간 e → ie<br><small>(장음 e)</small></td>
+									<td>lesen → liest</td>
 								</tr>
 								<tr>
-									<td>예) helfen → hilft</td>
-									<td>③ 어간 e → ie</td>
-									<td>lesen → liest</td>
+									<td>→ 현재 및 과거형에서 동사어간에 모음 교체 현상이 일어나는 동사</td>
+									<td>③ 어간 a → ä</td>
+									<td>fahren → fährt</td>
 								</tr>
 							</tbody>
 						</table>

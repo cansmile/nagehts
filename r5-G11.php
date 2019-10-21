@@ -46,7 +46,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control col-1 q" id="qst-3">
 											<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad3">hmen Sie? Steak oder Salat?</span></div>
 										</div>
-										<span class="tran">스테이크 혹은 샐러드?</span>
+										<span class="tran">무엇을 드시겠어요? 스테이크 혹은 샐러드?</span>
 									</td>
 								</tr>
 							</tbody>

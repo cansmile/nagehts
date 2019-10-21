@@ -13,7 +13,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12 text-center font-weight-bold"><span class="wd">heißen</span><span class="wd">machen</span><span class="wd">studieren</span><span class="wd">arbeiten</span><span class="wd">sein</span></div>
-					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4 mt-2 text-center">
+					<div class="col-12 mb-4 mt-2 text-center">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -21,7 +21,7 @@
 										<div class="ant" id="ant-1"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Wie</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control col-2 q" id="qst-1">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control col-3 q" id="qst-1">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">Sie?</span></div>
 										</div>
 										<span class="tran"><small>당신의 이름은 무엇인가요?</small></span>
@@ -33,10 +33,10 @@
 										<div class="ant" id="ant-2"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control col-2 q" id="qst-2">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control col-3 q" id="qst-2">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad2"> Tim Schulz.</span></div>
 										</div>
-										<span class="tran"><small>나는 팀 슐츠에요.</small></span>
+										<span class="tran"><small>저는 팀 슐츠에요.</small></span>
 
 									</th>
 								</tr>
@@ -45,7 +45,7 @@
 										<div class="ant" id="ant-3"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Und was </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control col-2 q" id="qst-3">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control col-3 q" id="qst-3">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad3"> Sie beruflich?</span></div>
 										</div>
 										<span class="tran"><small>그리고 당신은 무슨 일을 하나요?</small></span>
@@ -57,28 +57,12 @@
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control col-2 q" id="qst-4">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad4"> Student.</span></div>
-										</div>
-										<span class="tran"><small>저는 학생이에요.</small></span>
-									</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-4 mt-2 text-center">
-						<table class="table">
-							<tbody>
-								<tr>
-									<th scope="row">
-										<div class="ant" id="ant-5"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">und</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control col-2 q" id="qst-5">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control col-3 q" id="qst-4">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad4"> Student und</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control col-3 q" id="qst-5">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad5"> Theologie.</span></div>
 										</div>
-										<span class="tran"><small>그리고 신학을 공부해요.</small></span>
-
+										<span class="tran"><small>저는 학생이고 신학을 공부해요</small></span>
 									</th>
 								</tr>
 								<tr>
@@ -86,7 +70,7 @@
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">Wie alt </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control col-2 q" id="qst-6">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control col-3 q" id="qst-6">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">Sie?</span></div>
 										</div>
 										<span class="tran"><small>당신은 몇 살인가요?</small></span>
@@ -97,7 +81,7 @@
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
 											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad7">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control col-2 q" id="qst-7">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control col-3 q" id="qst-7">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad7">20 Jahre alt.</span></div>
 										</div>
 										<span class="tran"><small>저는 20살이에요.</small></span>

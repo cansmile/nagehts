@@ -53,9 +53,8 @@
 								<td><div class="input-group">
 									<div class="input-group-prepend"><span class="input-group-text">und meine Schwester ist</span></div>
 									<input type="text" class="form-control q" aria-label="." id="qst-2">
-									<div class="input-group-append"><span class="input-group-text"> Jahre alt.</span><
-									/div>
-									</div><span class="tran"><br><small>그리고 나의 자매는 22살이에요.</small></span>\
+									<div class="input-group-append"><span class="input-group-text"> Jahre alt.</span></div>
+									</div><span class="tran"><br><small>그리고 나의 자매는 22살이에요.</small></span>
 								</td>
 							</tr>
 							<tr>

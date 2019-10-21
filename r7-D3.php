@@ -60,7 +60,7 @@
 											<input type="text" placeholder="(dürfen)" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-6">
 											 &nbsp;ich Sie etwas fragen? – Na klar.
 										</div>
-										<span class="tran"><small>내가 물어봐도 되나요? 그럼.</small></span>
+										<span class="tran"><small>제가 뭔가 여쭈어봐도 되나요? 그럼.</small></span>
 									</td>
 								</tr>
 							</tbody>

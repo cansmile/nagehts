@@ -265,7 +265,7 @@
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control col-2 q text-center" id="qst-19">
 										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad30">,</span></div>
 									</div>
-									<span class="tran"><small>스태이크,</small></span>
+									<span class="tran"><small>스태이크 하나,</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -277,7 +277,7 @@
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control q pr-0 text-center" id="qst-20">
 										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad32">...,</span></div>
 									</div>
-									<span class="tran"><small>그리고 와인…,</small></span>
+									<span class="tran"><small>그리고 와인 한 잔…,</small></span>
 								</td>
 							</tr>
 							<tr>

@@ -165,14 +165,14 @@
 										<td>möchte</td>
 										<td>will</td>
 										<td>kann</td>
-										<td>kann</td>
+										<td>muss</td>
 										<td>darf</td>
 										<td>soll</td>
 									</tr>
 									<tr>
 										<th scope="row">wir</th>
-										<td>wir</td>
-										<td>wir</td>
+										<td>möchten</td>
+										<td>wollen</td>
 										<td>können</td>
 										<td>müssen</td>
 										<td>dürfen</td>
@@ -190,8 +190,8 @@
 									<tr>
 										<th scope="row">sie/Sie</th>
 										<td>möchten</td>
-										<td>möchten</td>
-										<td>möchten</td>
+										<td>wollen</td>
+										<td>können</td>
 										<td>müssen</td>
 										<td>dürfen</td>
 										<td>sollen</td>
@@ -263,15 +263,12 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td colspan="2">Das ist verboten!</td>
-									</tr>
-									<tr>
 										<td width="50%">Hier dürfen Sie nicht rauchen.</td>
-										<td>- Warum nicht?</td>
+										<td>&nbsp;</td>
 									</tr>
 									<tr>
 										<td>Das ist verboten.</td>
-										<td>- Na, gut. Dann höre ich auf.</td>
+										<td>&nbsp;</td>
 									</tr>
 									<tr>
 										<td colspan="2">Hier kann man Bücher lesen.</td>
@@ -280,70 +277,61 @@
 										<td colspan="2">Hier muss man leise sprechen.</td>
 									</tr>
 									<tr>
-										<td colspan="2">Hier darf man nicht rauchen.</td>
-									</tr>
-									<tr>
 										<td style="max-height: 10px; font-size: 1pt;" class="p-0 m-0" colspan="2">&nbsp;</td>
 									</tr>
 									<tr>
-										<td width="50%">Ich möchte tanzen.</td>
-										<td>- Dann solltest du in die Disko gehen.</td>
+										<td colspan="2">Dann solltest du in die Disko gehen.</td>
 									</tr>
 									<tr>
-										<td>Sie möchte einen Film sehen.</td>
-										<td>- Dann sollte sie ins Kino gehen.</td>
+										<td colspan="2">Dann sollte sie ins Kino gehen.</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<thead>
 									<tr>
-										<th scope="col" colspan="2">Verabredungen absagen</th>
+										<th scope="col" colspan="2">Verabredung zusagen</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td colspan="2">
-											<div class="row">
-												<div class="col-4 text-center">Ich kann leider nicht.</div>
-												<div class="col-4 text-center">Das geht leider nicht.</div>
-												<div class="col-4 text-center">Das passt leider nicht.</div>
-											</div>
-										</td>
+										<td colspan="2">Ja, klar.</td>
+									</tr>
+									<tr>
+										<td colspan="2">Gute Idee! / Okay!</td>
+									</tr>
+									<tr>
+										<td colspan="2">Ja, gut!</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left bg-light">
 								<thead>
 									<tr>
-										<th scope="col" colspan="2">Einen Zeitpunkt angeben</th>
+										<th scope="col" colspan="2">Verabredung absagen</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%">Wann / Um wie viel Uhr?</td>
-										<td>- Am Dienstag / Abend / Mittwochabend /.....</td>
+										<td colspan="2">Heute Abend / Am …… habe ich leider keine Zeit.</td>
 									</tr>
 									<tr>
-										<td>&nbsp;</td>
-										<td>- Um ..... Uhr.</td>
-									</tr>
-									<tr>
-										<td>&nbsp;</td>
-										<td>- Um drei / halb vier.</td>
+										<td colspan="2">Nein, leider nicht. Ich habe keine Zeit.</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<thead>
 									<tr>
-										<th scope="col" colspan="2">Uhrzeit</th>
+										<th scope="col" colspan="2">Unsicherheit ausdrücken </th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%">Wie spät ist es? / Wie viel Uhr ist es?</td>
-										<td>- Es ist Viertel vor drei / halb sechs.</td>
+										<td colspan="2">Das weiß ich noch nicht.</td>
+									</tr>
+									<tr>
+										<td colspan="2">Vielleicht.</td>
 									</tr>
 								</tbody>
 							</table>

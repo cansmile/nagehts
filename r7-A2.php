@@ -12,28 +12,28 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="1">
-					<small>Tanzkurs</small><span class="tran"><br>(So. 18 Uhr)</span>
+					<small>Tanzkurs<span class="tran"><br>(So. 18 Uhr)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="2">
-					<small>Stadtführung</small><span class="tran"><br>(Fr.11 Uhr)</span>
+					<small>Führung in der Gemäldegalerie<span class="tran"><br>(Fr. 11 Uhr)</span></small>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="3">
-					<small>Staatsoperette Führung in der Gemäldegalerie</small><span class="tran"><br>(Sa. 14.30)</span>
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="3">
+					<small>Galakonzerte<span class="tran"><br>(Sa. 22 Uhr)</span></small>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="4">
-					<small>Galakonzerte</small><span class="tran"><br>(Sa. 22 Uhr)</span>
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="4">
+					<small>Kino<span class="tran"><br>(Fr. bis Sa. 15.30)</span></small>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="5">
-					<small>Kino</small><span class="tran"><br>(Fr. bis Sa. 15.30)</span>
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="5">
+					<small>Stadtführung Glanzlicher Dresdens<span class="tran"><br>(Mo, Mi, Fr., Sa. 18.30)</</span>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="6">
-					<small>Stadtführung Glanzlicher Dresdens</small><span class="tran"><br>(Mo, Mi, Fr., Sa. 18.30)</span>
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="6">
+					<small>Circus Krone<span class="tran"><br>(So. 15.30)</span></small>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="7">
-					<small>Circus Krone</small><span class="tran"><br>(So. 15.30)</span>
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="7">
+					<small>Kino<span class="tran"><br>(Fr. bis Sa. 17.45, 20.00)</span></small>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="8">
-					<small>Kino</small><span class="tran"><br>(Fr. bis Sa. 17.45, 20.00)</span>
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="8">
+					<small>Staatsoperette<span class="tran"><br>(Sa. 14.30)</span></small>
 					</button>
 				</div>
 			</div>
@@ -59,16 +59,16 @@
 			</div>
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
-				<div style="min-height: 240px;" class="rounded-top bg-danger itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 pt-1 border border-white" id="lst-1">
+				<div style="min-height: 240px;" class="rounded-top bg-danger itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-1 border border-white" id="lst-1">
 					<h2 class="btn btn-light btn-xl ttl d-block"><small><strong>Am Vormittag</strong></small><br>(7-10 Uhr)</h2>&nbsp;
 				</div>
-				<div style="min-height: 240px;" class="rounded-top bg-success itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 pt-1 border border-white" id="lst-2">
+				<div style="min-height: 240px;" class="rounded-top bg-success itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-1 border border-white" id="lst-2">
 					<h2 class="btn btn-light btn-xl ttl d-block"><small><strong>Am Mittag</strong></small><br>(11-13 Uhr)</h2>&nbsp;
 				</div>
-				<div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 pt-1 border border-white" id="lst-3">
+				<div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-1 border border-white" id="lst-3">
 					<h2 class="btn btn-light btn-xl ttl d-block"><small><strong>Am Nachmittag</strong></small><br>(13-18 Uhr)</h2>&nbsp;
 				</div>
-				<div style="min-height: 240px;" class="rounded-top bg-primary itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3 pt-1 border border-white" id="lst-4">
+				<div style="min-height: 240px;" class="rounded-top bg-primary itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-1 border border-white" id="lst-4">
 					<h2 class="btn btn-light btn-xl ttl d-block"><small><strong>Am Abend</strong></small><br>(17-22 Uhr)</h2>&nbsp;
 				</div>
 			</div>

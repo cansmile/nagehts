@@ -217,7 +217,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-12 q" id="7">
-					<h3 class="mt-3"><small>다른 </small>헤어질 때 인사</h3>
+					<h3 class="mt-3">헤어질 때 인사</h3>
 					<div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 						a. Hallo!
 					</div>

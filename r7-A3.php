@@ -79,14 +79,14 @@
 								</tr>
 								<tr>
 									<th scope="row" width="50">4.</th>
-									<td>Ich gehe am Freitagmittag zur Stadtführung in die Altstadt. <strong>Willst</strong> du mit?
-									<span class="tran"><br><small>나 금요일 점심에 시내에 있는 시티투어 갈거야. 너도 갈래?</small></span></td>
+									<td>Ich gehe am Freitagmittag zur Stadtführung und Führung in der Gemäldegalerie. <strong>Willst</strong> du mit?
+									<span class="tran"><br><small>나 금요일 점심에 시티투어와 미술관 관람 할거야. 너도 갈래?</small></span></td>
 									<td>
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
-											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option7">Ja , das geht.</label>
 											</div>
-											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option2" autocomplete="off"><label for="option8">Nein, das geht leider nicht !</label>
 											</div>
 										</div>

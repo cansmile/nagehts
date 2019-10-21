@@ -123,11 +123,11 @@
 						<tbody>
 							<tr>
 								<th scope="row" height="80" class="align-middle bg-dark text-white text-center" width="50">a</th>
-								<td class="align-middle">Nein, ich esse lieber Fleisch.<span class="tran"><br><small>아니, 나는 고기를 먹는 걸 더 좋아합니다.</small></span></td>
+								<td class="align-middle">Nein, ich esse lieber Fleisch.<span class="tran"><br><small>아니요, 나는 고기를 먹는 걸 더 좋아합니다.</small></span></td>
 							</tr>
 							<tr>
 								<th scope="row" height="80" class="align-middle bg-dark text-white text-center">b</th>
-								<td class="align-middle">Nein, aber Gulaschsuppe.<span class="tran"><br><small>아니, 하지만 굴라쉬 수프.</small></span></td>
+								<td class="align-middle">Nein, aber Gulaschsuppe.<span class="tran"><br><small>아니요, 하지만 굴라쉬 수프.</small></span></td>
 							</tr>
 							<tr>
 								<th scope="row" height="80" class="align-middle bg-dark text-white text-center">c</th>

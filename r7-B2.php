@@ -46,7 +46,7 @@
 					❚❚
 				</button>						
 				</h2>
-				<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
+				<h3>[ <small>단어를 선택하고 알맞은 위치의 단추를 누르세요.</small> ]</h3>
 			</div>
 		</div>
 		<div class="row">
@@ -220,10 +220,10 @@
 	$(document).ready(function() {
 		// 각 문장 재생 횟수 초기화
 		var hm = new Array(), sen = new Array();
-		for(i = 0; i < $(".so").length; i++) {
-			hm[i] = 0;
-			sen[i] = 0;
-		}
+		$(".so").each(function() {
+			hm[$(this).attr("id")] = 0;
+			sen[$(this).attr("id")] = 0;
+		});
 
 		ion.sound({
 			sounds : [{

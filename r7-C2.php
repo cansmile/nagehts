@@ -12,16 +12,16 @@
 					a. Du sollst nicht stehlen.<span class="tran"><br><small>도적질 하지 말라.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="2">
-					b. Der Arzt hat gesagt, du sollst zwei Tabletten nehmen.<span class="tran"><br><small>의사는 처방했다, 너는 2알을 먹으렴.</small></span>
+					b. Der Arzt hat gesagt, du sollst zwei Tabletten nehmen.<span class="tran"><br><small>의사가 네가 약을 두 알 먹어야 한다고 했어.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="3">
-					c. Der Arzt hat gesagt, ich soll nicht rauchen.<span class="tran"><br><small>그 의사가 처방했다, 나는 담배를 피우면 안돼.</small></span>
+					c. Der Arzt hat gesagt, ich soll nicht rauchen.<span class="tran"><br><small>의사가 담배를 피우지 말아야 한다고 했어.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="4">
-					d. Willst du meine Frau werden? Ja, ich will.<span class="tran"><br><small>내 아내가 되어 줄래? 네, 그럴게요.</small></span>
+					d. Willst du meine Frau werden? Ja, ich will.<span class="tran"><br><small>내 아내가 되어 줄래? 응, 그럴게.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="5">
-					e. Wir wollen nach Amerika.<span class="tran"><br><small>우리는 나중에 미국에 갈거야.</small></span>
+					e. Wir wollen nach Amerika.<span class="tran"><br><small>우리는 미국에 갈거야.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="6">
 					f. Ich möchte bitte ein Glas Wasser.<span class="tran"><br><small>난 물 한잔을 원해요.</small></span>

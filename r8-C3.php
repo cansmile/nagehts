@@ -39,7 +39,7 @@
 						<tr>
 							<th class="border-0" scope="row" width="30">1.</th>
 							<td class="border-0">Er kann nicht laut sprechen.
-							<span class="tran"><br><small>그는 말할 수 없다.</small></span></td>
+							<span class="tran"><br><small>그는 크게 말할 수 없다.</small></span></td>
 						</tr>
 						<tr>
 							<td class="border-0">&nbsp;</td>
@@ -59,7 +59,7 @@
 						<tr>
 							<th class="border-0" scope="row" width="30">2.</th>
 							<td class="border-0">Minas Körpertemperatur ist 38.5˚Celsius.
-							<span class="tran"><br><small>미나의 체열이 38.5도이다.</small></span></td>
+							<span class="tran"><br><small>미나의 체온이 38.5도이다.</small></span></td>
 						</tr>
 						<tr>
 							<td class="border-0">&nbsp;</td>
@@ -79,7 +79,7 @@
 						<tr>
 							<th class="border-0" scope="row" width="30">3.</th>
 							<td class="border-0">Meine Ohren tun weh.
-							<span class="tran"><br><small>나의 귀가 아프다.</small></span></td>
+							<span class="tran"><br><small>나는 귀가 아프다.</small></span></td>
 						</tr>
 						<tr>
 							<td class="border-0">&nbsp;</td>
@@ -89,7 +89,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 								</div>.
-								<span class="tran"><br><small>나는 이통을 가지고 있다.</small></span>
+								<span class="tran"><br><small>나는 귀통증이 있다.</small></span>
 							</td>
 						</tr>
 					</table>

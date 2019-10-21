@@ -62,7 +62,7 @@
 									<button type="button" id="4" class="so btn btn-sm btn-outline-danger">▶</button>
 									<span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Nöö. Keine Lust!
 									</span>
-									<span class="tran mr-5"><br><small>싫으어. 별로 하고 싶지 않은데!</small></span>
+									<span class="tran mr-5"><br><small>싫어. 별로 하고 싶지 않은데!</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -100,9 +100,9 @@
 									<span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
 									<br>
 									<button type="button" id="8" class="so btn btn-sm btn-outline-danger">▶</button>
-									<span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Gehen wir um vier.
+									<span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Gehen wir um vier?
 									</span>
-									<span class="tran mr-5"><br><small>우리 4시에 보자.</small></span>
+									<span class="tran mr-5"><br><small>우리 4시에 볼까?</small></span>
 								</td>
 							</tr>
 							<tr>

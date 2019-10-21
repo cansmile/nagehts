@@ -52,7 +52,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											<span class="tran"><br><small>김 선생님은 독일어를 배울 것이다. 그럼 그는 언어학교에 갈 수 있다.</small></span>
+											<span class="tran"><br><small>김 선생님은 독일어를 배우려고 한다. 그럼 그는 언어학교에 가는 것이 좋다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -60,12 +60,12 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">1.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Wir wollen essen gehen. Dann sellten wir&nbsp;
+											Wir wollen essen gehen. Dann sollten wir&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											<span class="tran"><br><small>우리는 먹을 것이다. 그럼 우리는 식당에 갈 수 있다.</small></span>
+											<span class="tran"><br><small>우리는 식사를 하려고 한다. 그럼 우리는 식당에 가는 것이 좋다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -78,7 +78,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											<span class="tran"><br><small>이 여사는 케잌을 먹고 커피를 마실 것이다. 그럼 그녀는 카페에 갈 수 있다.</small></span>
+											<span class="tran"><br><small>이 선생님은 케잌을 먹고 커피를 마시려고 한다. 그럼 그녀는 카페에 가는 것이 좋다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -86,12 +86,12 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">3.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Er will ein Buch kaufen. Dann sollten er&nbsp;
+											Er will ein Buch kaufen. Dann sollt er&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											<span class="tran"><br><small>그는 책을 살 것이다. 그럼 그는 서점에 갈 수 있다.</small></span>
+											<span class="tran"><br><small>그는 책을 사려고 한다. 그럼 그는 서점에 가는 것이 좋다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -104,7 +104,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											<span class="tran"><br><small>우리는 영화를 볼 것이다. 그럼 우리는 영화관에 갈 수 있다.</small></span>
+											<span class="tran"><br><small>우리는 영화를 보려고 한다. 그럼 우리는 영화관에 가는 것이 좋다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -117,7 +117,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											<span class="tran"><br><small>나는 고기를 먹을 것이다. 그럼 슈퍼마켓에 갈 수 있다.</small></span>
+											<span class="tran"><br><small>나는 고기를 사려고 한다. 그럼 슈퍼마켓에 가는 것이 좋다.</small></span>
 										</div>
 									</td>
 								</tr>

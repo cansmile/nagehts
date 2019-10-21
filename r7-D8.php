@@ -52,8 +52,8 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											Wollen wir ins Kino gehen?
-											<span class="tran"><br><small>안녕 미나, 나 팀이야. 토요일에 시간 있어? 영화관에 갈래?</small></span>
+											<br>Wollen wir ins Kino gehen?
+											<span class="tran"><br><small>안녕 미나, 나 팀이야. 토요일에 시간 있어?<br>영화관에 갈래?</small></span>
 										</div>
 									</td>
 								</tr>
@@ -66,7 +66,7 @@
 													▼ </h2>
 											</div>
 											&nbsp;Ich gehe am Samstag in die Kirche.
-											<span class="tran"><br><small>안타깝게도 난 못갈 것 같아. 나 토요일에 교회가.</small></span>
+											<span class="tran"><br><small>아쉽지만 난 못갈 것 같아. 나 토요일에 교회가.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -78,7 +78,7 @@
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
 											</div>
-											<span class="tran"><br><small>그럼 토요일저녁은?</small></span>
+											<span class="tran"><br><small>그럼 일요일 저녁은?</small></span>
 										</div>
 									</td>
 								</tr>

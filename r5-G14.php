@@ -34,7 +34,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-2">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">ist zu warm.</span></div>
 										</div>
-										<span class="tran">맥주가 너무 미지근하다.</span>
+										<span class="tran">이 맥주가 너무 미지근하다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -56,7 +56,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-4">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad8">ist nicht frisch.</span></div>
 										</div>
-										<span class="tran">샐러드가 신선하지 않다.</span>
+										<span class="tran">이것은 신선하지 않다.</span>
 									</td>
 								</tr>
 							</tbody>
@@ -85,7 +85,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-6">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad12">ist sauer.</span></div>
 										</div>
-										<span class="tran">우유가 상했다.</span>
+										<span class="tran">이 우유가 상했다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -107,7 +107,7 @@
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-8">
 											<div class="input-group-append"><span class="input-group-text" id="qst-ad16">sind kalt.</span></div>
 										</div>
-										<span class="tran">감자들이 너무 차갑다.</span>
+										<span class="tran">이 감자들이 너무 차갑다.</span>
 									</td>
 								</tr>
 							</tbody>

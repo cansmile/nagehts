@@ -44,6 +44,60 @@
 										<span class="tran"><small>내 부모님은 월요일 11시 30분에 오신다.</small></span>
 									 </td>
 							</tr>
+							<tr>
+								<th class="align-middle text-center border-0" scope="row" width="50">4.</th>
+								<td class="align-middle border-0">
+										<div class="input-group d-inline-flex align-items-baseline">Wollen wir heute einkaufen? Sagen wir&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-lowercase text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 120px;" id="qst-5">
+											 &nbsp;3 Uhr?
+										</div>
+										<span class="tran"><small>오늘 장볼까? 3시경에 어때?</small></span>
+									 </td>
+							</tr>
+							<tr>
+								<th class="align-middle text-center border-0" scope="row" width="50">5.</th>
+								<td class="align-middle border-0">
+										<div class="input-group d-inline-flex align-items-baseline">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-capitalize text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 120px;" id="qst-6">
+											&nbsp;Freitag Vormittag treffe ich meinen Professor. Wir treffen uns&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-lowercase text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 120px;" id="qst-7">
+											 &nbsp;10 Uhr vor der Universität.
+										</div>
+										<span class="tran"><small>나는 금요일 오전에 교수님을 만나기로 했다. 우리는 10시에 학교앞에서 만날꺼야. </small></span>
+									 </td>
+							</tr>
+							<tr>
+								<th class="align-middle text-center border-0" scope="row" width="50">6.</th>
+								<td class="align-middle border-0">
+										<div class="input-group d-inline-flex align-items-baseline">Mein Baby kann nicht schlafen. Es schreit und weint immer&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-lowercase text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 120px;" id="qst-8">
+											&nbsp;der Nacht.
+										</div>
+										<span class="tran"><small>내 아이는 잠을 못 잔다. 소리지르며 밤마다 늘 운다. </small></span>
+									 </td>
+							</tr>
+							<tr>
+								<th class="align-middle text-center border-0" scope="row" width="50">7.</th>
+								<td class="align-middle border-0">
+										<div class="input-group d-inline-flex align-items-baseline">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-capitalize text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 120px;" id="qst-9">
+											&nbsp;Sonntag&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-lowercase text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 120px;" id="qst-10">
+											 &nbsp;20 Uhr läuft ein Konzert von Nena im Fernsehen. 
+										</div>
+										<span class="tran"><small>일요일 20시에 Nena 콘서트가 티비에 나온다. </small></span>
+									 </td>
+							</tr>
+							<tr>
+								<th class="align-middle text-center border-0" scope="row" width="50">8.</th>
+								<td class="align-middle border-0">
+										<div class="input-group d-inline-flex align-items-baseline">Wann wollen wir uns heute sehen? -Hm, vielleicht&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-lowercase text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 120px;" id="qst-11">
+											&nbsp;1?
+										</div>
+										<span class="tran"><small>우리 오늘 언제 볼까? - 글쎄, 한 1시에 어때?</small></span>
+									 </td>
+							</tr>
 						</table>
 					</div>
 				</div>
@@ -73,7 +127,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Am","in","am","um"];
+			var an = ["Am","in","am","um","um","Am","um","in","Am","um","um"];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

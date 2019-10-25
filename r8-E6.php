@@ -23,7 +23,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-1" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-1" style="position: relative; top: -6px;">
 										&nbsp;bitte mehr Sport!
 									</div>
 									<span class="tran"><small>운동을 더 많이 해라!</small></span>
@@ -49,7 +49,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-3" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-3" style="position: relative; top: -6px;">
 										&nbsp;bitte deine Hände!
 									</div>
 									<span class="tran"><small>손을 씻으렴!</small></span>
@@ -62,7 +62,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-4" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-4" style="position: relative; top: -6px;">
 										&nbsp;nicht so viel Eis!
 									</div>
 									<span class="tran"><small>아이스크림을 그렇게 많이 먹지 말아라!</small></span>
@@ -83,7 +83,7 @@
 							</tr>
 							<tr>
 								<th scope="row" class="border-0">6.</th>
-								<td class="border-0">nicht viel rauchen (Sie)
+								<td class="border-0">nicht viel rauchen (du)
 									<span class="tran"><br><small>담배를 많이 피우지 않는다</small></span>
 								</td>
 								<td class="border-0">
@@ -101,7 +101,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-7" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-7" style="position: relative; top: -6px;">
 										&nbsp;mehr Obst und Gemüse, bitte!
 									</div>
 									<span class="tran"><small>과일과 채소를 더 많이 먹으렴!</small></span>
@@ -114,7 +114,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-8" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-8" style="position: relative; top: -6px;">
 										&nbsp;regelmäßig Rad, bitte!
 									</div>
 									<span class="tran"><small>정기적으로 자전거를 타라, 제발!</small></span>
@@ -147,7 +147,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["Treibt","Sprechen Sie","Wasch","Esst","Erklären Sie","Rauchen Sie","Esst","Fahr"];
+		var an=["Treibt","Sprechen Sie","Wasch","Esst","Erklären Sie","Rauche","Esst","Fahr"];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사
@@ -318,7 +318,7 @@
 			);
 			var pan=new Array();
 			// pan=[1,2,3,4,5,6,7,8,9,10];
-			pan = [1,2,3];
+			pan = [1,3,5];
 			for(var p=0;
 			p < pan.length;
 			p++) {

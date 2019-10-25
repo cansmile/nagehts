@@ -18,31 +18,31 @@
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
-					das Auge<span class="tran">&nbsp;<small>눈</small></span>
+					das Auge, -n<span class="tran">&nbsp;<small>눈</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="2">
-					das Bein<span class="tran">&nbsp;<small>다리</small></span>
+					das Bein, -e<span class="tran">&nbsp;<small>다리</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark so itm" id="3">
 					das Gesicht<span class="tran">&nbsp;<small>얼굴</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans17 btn-lg btn-outline-dark so itm" id="4">
-					das Knie<span class="tran">&nbsp;<small>무릎</small></span>
+					das Knie, -<span class="tran">&nbsp;<small>무릎</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="5">
-					das Ohr<span class="tran">&nbsp;<small>귀</small></span>
+					das Ohr, -en<span class="tran">&nbsp;<small>귀</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
-					der Arm<span class="tran">&nbsp;<small>팔</small></span>
+					der Arm, -e<span class="tran">&nbsp;<small>팔</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="7">
 					der Bauch<span class="tran">&nbsp;<small>배</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans15 btn-lg btn-outline-dark so itm" id="8">
-					der Finger<span class="tran">&nbsp;<small>손가락</small></span>
+					der Finger, -<span class="tran">&nbsp;<small>손가락</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="9">
-					der Fuß<span class="tran">&nbsp;<small>발</small></span>
+					der Fuß, -<span style="position: relative; left: -.2em;">̈ e</span><span class="tran">&nbsp;<small>발</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans13 btn-lg btn-outline-dark so itm" id="10">
 					der Hals<span class="tran">&nbsp;<small>목</small></span>
@@ -57,13 +57,13 @@
 					der Rücken<span class="tran">&nbsp;<small>등</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans18 btn-lg btn-outline-dark so itm" id="14">
-					der Zeh<span class="tran">&nbsp;<small>발가락</small></span>
+					der Zeh, -en<span class="tran">&nbsp;<small>발가락</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans16 btn-lg btn-outline-dark so itm" id="15">
-					die Brust<span class="tran">&nbsp;<small>가슴</small></span>
+					die Brust, -<span style="position: relative; left: -.2em;">̈ e</span><span class="tran">&nbsp;<small>가슴</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="16">
-					die Hand<span class="tran">&nbsp;<small>손</small></span>
+					die Hand, -<span style="position: relative; left: -.2em;">̈ e</span><span class="tran">&nbsp;<small>손</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="17">
 					die Nase<span class="tran">&nbsp;<small>코</small></span>

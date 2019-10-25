@@ -38,7 +38,6 @@
 				<h2> Schreiben Sie. <br>
 					<small>써보세요.</small>
 				</h2>
-				<h3>[ <small>대문자로 된 부분을 바른 단어로 입력하세요.</small> ]</h3>
 				<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 			</div>
 		</div>

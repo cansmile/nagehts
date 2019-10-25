@@ -327,7 +327,7 @@
 
 			var pan = new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
-			pan = [1,2,3,5,7];
+			pan = [1];
 			var il = $("#itms>.itm").length;
 			for(var p = 0; p < pan.length; p++) {
 			var pani = "#lst-" + pan[p];

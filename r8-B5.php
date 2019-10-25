@@ -14,20 +14,20 @@
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="2">
 					der Kopf<span class="tran"><br><small>머리</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="3">
+					die Augen<span class="tran"><br><small>눈(들)</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="4">
 					der Fuß<span class="tran"><br><small>발</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="4">
-					die Ohren<span class="tran"><br><small>귀(양쪽)</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="5">
+					die Füße<span class="tran"><br><small>발(들)</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
-					die Haare<span class="tran"><br><small>머리카락</small></span>
-				</button>
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="6">
 					das Ohr<span class="tran"><br><small>귀</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
-					der Zeh<span class="tran"><br><small>발가락</small></span>
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="7">
+					die Ohren<span class="tran"><br><small>귀(양쪽)</small></span>
 				</button>
 			</div>
 		</div>

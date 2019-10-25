@@ -38,20 +38,20 @@
 									<img src="./images/Reihe 8/Reihe-8-E2-2.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-1"></div>
+									<div class="ant text-capitalize" id="ant-1"></div>
 									<div class="input-group">Ich habe&nbsp;
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-1">.
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-1">.
 									</div>
-									<span class="tran"><small>저는 열이 나요.</small></span><br>
+									<span class="tran"><small>열이 나요.</small></span><br>
 								</td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-2"></div>
+									<div class="ant text-capitalize" id="ant-2"></div>
 									<div class="input-group">Ich habe&nbsp;
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-2">.
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-2">.
 									</div>
-									<span class="tran"><small>저는 독감이에요.</small></span><br>
+									<span class="tran"><small>독감이에요.</small></span><br>
 								</td>
 							</tr>
 						</tbody>
@@ -66,18 +66,18 @@
 									<img src="./images/Reihe 8/Reihe-8-E2-3.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-3"></div>
+									<div class="ant text-capitalize" id="ant-3"></div>
 									<div class="input-group">Ich habe&nbsp;
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-3">.
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-3">.
 									</div>
-									<span class="tran"><small>저는 두통이에요.</small></span><br>
+									<span class="tran"><small>두통이에요.</small></span><br>
 								</td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-4"></div>
-									<div class="input-group">
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-4">&nbsp;tut weh.
+									<div class="ant text-capitalize" id="ant-4"></div>
+									<div class="input-group">Mein&nbsp;
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-4">&nbsp;tut weh.
 									</div>
 									<span class="tran"><small>머리가 아파요.</small></span><br>
 								</td>
@@ -94,20 +94,20 @@
 									<img src="./images/Reihe 8/Reihe-8-E2-4.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-5"></div>
+									<div class="ant text-capitalize" id="ant-5"></div>
 									<div class="input-group">Ich habe&nbsp;
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-5">.
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-5">.
 									</div>
-									<span class="tran"><small>저는 후두염이에요.</small></span><br>
+									<span class="tran"><small>후두염이에요.</small></span><br>
 								</td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-6"></div>
+									<div class="ant text-capitalize" id="ant-6"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-6">&nbsp;tut weh.
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-6">&nbsp;tut weh.
 									</div>
-									<span class="tran"><small>저는 목이 아파요.</small></span><br>
+									<span class="tran"><small>목이 아파요.</small></span><br>
 								</td>
 							</tr>
 						</tbody>
@@ -122,20 +122,20 @@
 									<img src="./images/Reihe 8/Reihe-8-E2-5.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-7"></div>
+									<div class="ant text-capitalize" id="ant-7"></div>
 									<div class="input-group">Ich habe&nbsp;
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-7">.
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-7">.
 									</div>
-									<span class="tran"><small>저는 치통이에요.</small></span><br>
+									<span class="tran"><small>이가 아파요.</small></span><br>
 								</td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-8"></div>
-									<div class="input-group">
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-8">&nbsp;tun weh.
+									<div class="ant text-capitalize" id="ant-8"></div>
+									<div class="input-group">Mein&nbsp;
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-8">&nbsp;tut weh.
 									</div>
-									<span class="tran"><small>저는 치아가 아파요.</small></span><br>
+									<span class="tran"><small>치아가 아파요.</small></span><br>
 								</td>
 							</tr>
 						</tbody>
@@ -150,20 +150,20 @@
 									<img src="./images/Reihe 8/Reihe-8-E2-6.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-9"></div>
-									<div class="input-group">
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-9">&nbsp;tut weh.
+									<div class="ant text-capitalize" id="ant-9"></div>
+									<div class="input-group">Mein&nbsp;
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-9">&nbsp;tut weh.
 									</div>
-									<span class="tran"><small>저는 배가 아파요.</small></span><br>
+									<span class="tran"><small>배가 아파요.</small></span><br>
 								</td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle">
-									<div class="ant" id="ant-10"></div>
+									<div class="ant text-capitalize" id="ant-10"></div>
 									<div class="input-group">Ich habe&nbsp;
-										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center" style="position: relative; top: -6px;" aria-label="." id="qst-10">.
+										<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 border border-dark rounded-0 col-auto text-center text-capitalize" style="position: relative; top: -6px;" aria-label="." id="qst-10">.
 									</div>
-									<span class="tran"><small>저는 복통이에요.</small></span><br>
+									<span class="tran"><small>복통이에요.</small></span><br>
 								</td>
 							</tr>
 						</tbody>
@@ -193,7 +193,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["Fieber", "Grippe", "Kopfschmerzen", "Mein Kopf", "Halsschmerzen", "Mein Hals", "Zahnschmerzen.", "Meine Zähne", "Mein Bauch", "Bauchschmerzen"];
+		var an=["Fieber", "Grippe", "Kopfschmerzen", "Kopf", "Halsschmerzen", "Mein Hals", "Zahnschmerzen.", "Zahn", "Bauch", "Bauchschmerzen"];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사

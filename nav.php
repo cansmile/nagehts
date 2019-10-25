@@ -142,9 +142,9 @@ $rtl = array(
 	8 =>
 	array(
 		"A" => array("A1" => "Was machen die Personen?", "A2" => "Lesen Sie die Texte."),
-		"B" => array("B1" => "Wie heißen die Körperteile?", "B2" => "Singen wir das Lied „Kopf, Schulter, Knie” zusammen.", "B3" => "Ergänzen Sie die Körperteile in Singular.", "B4" => "Körperteile und Tätigkeiten. Was passt?", "B5" => "Was passt?"),
-		"C" => array("C1" => "Was für Schmerzen sind das?", "C2" => "Er/Sie ist krank. Was hat er/sie?", "C3" => "Krankheiten: Schreiben Sie.", "C4" => "Hören Sie die Gespräche und klicken Sie an.", "C5" => "Welche Verben sind im Nominativ, Akkusativ, Dativ und Akkusativ oder Dativ?", "C7" => "Bilden Sie mit den Verben im Dativ einen Text."),
-		"D" => array("D1" => "Arztbesuch: Zu welchem Arzt gehen Sie?", "D2" => "Zu Hause", "D3" => "Termin beim Arzt", "D4" => "Bei der Ärztin", "D5" => "Und jetzt sind Sie der Doktor! Was sollen die Personen tun?", "D6" => "Ihr(e) Freund(in) hat Probleme. Was würden Sie ihm (ihr) empfehlen?", "DGR" => "Imperativ"),
+		"B" => array("B1" => "Wie heißen die Körperteile?", "B2" => "Singen wir das Lied „Kopf, Schulter, Knie” zusammen.", "B3" => "Suchen Sie die Körperteile.", "B4" => "Körperteile und Tätigkeiten. Was passt?", "B5" => "Was passt?"),
+		"C" => array("C1" => "Was für Schmerzen sind das?", "C2" => "Er/Sie ist krank. Was hat er/sie?", "C3" => "Krankheiten: Ergänzen Sie.", "C4" => "Hören Sie die Gespräche und klicken Sie an.", "C5" => "Welche Verben sind im Nominativ, Akkusativ, Dativ und Akkusativ oder Dativ?", "C7" => "Bilden Sie mit den Verben im Dativ einen Text."),
+		"D" => array("D1" => "Arztbesuch: Zu welchem Arzt gehen Sie?", "D2" => "Zu Hause", "D3" => "Termin beim Arzt", "D4" => "Bei der Ärztin", "D5" => "Und jetzt sind Sie der Doktor! Was sollen die Personen tun?", "D6" => "Ihr(e) Freund(in) hat Probleme. Was würden Sie ihm (ihr) empfehlen?"),
 		"E" => array("E1" => "Wie heißen die Körperteile?", "E2" => "Was fehlt Ihnen?", "E3" => "Bei der Ärztin: Was sagen sie?", "E4" => "Schreiben Sie die passenden Personalpronomen im Dativ.", "E5" => "Was muss man tun? Was darf man nicht?", "E6" => "Imperativ: Was sagen Sie?")
 	)
 );
@@ -214,9 +214,9 @@ $rtl_k = array(
 	8 =>
 	array(
 		"A" => array("A1" => "사람들이 무엇을 하고 있나요?", "A2" => "본문을 읽으세요."),
-		"B" => array("B1" => "신체 부위를 어떻게 부르나요?", "B2" => "“머리, 어깨, 무릎” 노래를 불러보아요.", "B3" => "신체부위(단수형)를 채워 보세요.", "B4" => "신체부위와 그 기능들을 나열해보세요.", "B5" => "무엇이 알맞은가요?"),
-		"C" => array("C1" => "어떤 통증인가요?", "C2" => "그/그녀가 아픕니다. 어디가 아픈가요?", "C3" => "병명을 써보세요.", "C4" => "대화를 듣고 맞는 곳에 표시하세요.", "C5" => "어떤 동사가 주격동사, 직접목적격동사, 간접목적격동사 혹은 직접·간접목적격 동사인가요?", "C7" => "3격 (간접목적격) 지배동사를 가지고 텍스트를 만들어 보세요."),
-		"D" => array("D1" => "병원방문: 어느병원에 가야할까요?", "D2" => "집에서", "D3" => "병원예약", "D4" => "개인병원에서", "D5" => "당신은 의사입니다. 사람들이 무엇을 해야 하나요?", "D6" => "당신의 친구에게 문제가 있어요. 그에게 뭐라고 조언을 해야 하나요?", "DGR" => "명령형"),
+		"B" => array("B1" => "신체 부위를 어떻게 부르나요?", "B2" => "“머리, 어깨, 무릎” 노래를 불러보아요.", "B3" => "신체부위를 찾아 보세요.", "B4" => "신체부위와 그 기능들을 나열해보세요.", "B5" => "무엇이 알맞은가요?"),
+		"C" => array("C1" => "어떤 통증인가요?", "C2" => "그/그녀가 아픕니다. 어디가 아픈가요?", "C3" => "병명을 채우세요.", "C4" => "대화를 듣고 맞는 곳에 표시하세요.", "C5" => "어떤 동사가 주격동사, 직접목적격동사, 간접목적격동사 혹은 직접·간접목적격 동사인가요?", "C7" => "3격 (간접목적격) 지배동사를 가지고 텍스트를 만들어 보세요."),
+		"D" => array("D1" => "병원방문: 어느병원에 가야할까요?", "D2" => "집에서", "D3" => "병원예약", "D4" => "개인병원에서", "D5" => "당신은 의사입니다. 사람들이 무엇을 해야 하나요?", "D6" => "당신의 친구에게 문제가 있어요. 그에게 뭐라고 조언을 해야 하나요?"),
 		"E" => array("E1" => "신체 부위를 어떻게 부르나요?", "E2" => "어디가 아픈가요?", "E3" => "개인병원에서: 의사와 김선생님은 무엇이라고 말하나요?", "E4" => "알맞은 간접목적어를 넣으세요.", "E5" => "무엇을 해야 하고 하지말아야 하나요?", "E6" => "명령형: 무엇이라고 말해야 하나요?")
 	)
 

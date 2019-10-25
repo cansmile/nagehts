@@ -18,7 +18,7 @@
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="1">
-					Guten Tag, Frau Lehmenn? Was kann ich für Sie tun?
+					Guten Tag, Frau Lehmann? Was kann ich für Sie tun?
 					<span class="tran"><br><small>안녕하세요, 레만 부인? 제가 뭘 도와드릴까요?</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so text-left" id="2">
@@ -87,7 +87,7 @@
 						<table class="table">
 							<tbody>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Arzthelfer:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -96,7 +96,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Frau Lehmann:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -105,7 +105,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Arzthelfer:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-3">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -114,7 +114,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Frau Lehmann:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-4">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -123,7 +123,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">&nbsp;</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">&nbsp;</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-5">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -132,7 +132,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Arzthelfer:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-6">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -141,7 +141,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Frau Lehmann:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm d-inline-block" style="min-width: 32%;"  id="lst-7">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -158,7 +158,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Arzthelfer:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Arzthelfer:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-10">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -167,7 +167,7 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Frau Lehmann:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="200">Frau Lehmann:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-11">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -189,7 +189,7 @@
 			</div>
 		</section>
 		
-		<div class="marg"></div>
+		<div id="marg"></div>
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -373,7 +373,7 @@
 <?php include "wahl.php"; ?>
 
 			var pan = new Array();
-			pan = [1, 2, 3, 4, 6, 7, 9, 10, 11];
+			pan = [1, 4, 6, 7, 9, 11];
 			var il = $("#itms>.itm").length;
 			for(var p = 0; p < pan.length; p++) {
 			var pani = "#lst-" + pan[p];

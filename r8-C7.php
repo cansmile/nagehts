@@ -9,7 +9,7 @@
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn text-left ans1 btn-lg btn-outline-dark itm px-3" id="1">
-					Liebe ○○○
+					Liebe Julia,
 					<span class="tran"><br><small>사랑하는 ○○○</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn text-left ans10 btn-lg btn-outline-dark itm px-3" id="2">

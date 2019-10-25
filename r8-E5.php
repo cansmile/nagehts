@@ -44,13 +44,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">schwimmen gehen
+								<td class="border-0">nicht schwimmen gehen
 									<span class="tran"><br><small>수영하러 가다</small></span>
 								</td>
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-4" style="position: relative; top: -6px;">
-										&nbsp;schwimmen&nbsp;
+										&nbsp;nichschwimmen&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-5" style="position: relative; top: -6px;">.
 									</div>
 									<span class="tran"><small>그녀는 수영하러 가면 안됩니다.</small></span>
@@ -58,15 +58,15 @@
 							</tr>
 							<tr>
 								<td class="border-0">Nasentropfen nehmen.
-									<span class="tran"><br><small>코에 물약을 넣다</small></span>
+									<span class="tran"><br><small>콧물약을 넣다</small></span>
 								</td>
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-6" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-6" style="position: relative; top: -6px;">
 										&nbsp;Nasentropfen&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-7" style="position: relative; top: -6px;">.
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-7" style="position: relative; top: -6px;">.
 									</div>
-									<span class="tran"><small>그녀는 코에 물약을 넣어야만 합니다.</small></span>
+									<span class="tran"><small>그녀는 콧물약을 넣어야만 합니다.</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -90,7 +90,7 @@
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-5" id="qst-9" style="position: relative; top: -6px;">
-										&nbsp;Alkohol.&nbsp;
+										&nbsp;keinen Alkohol.&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-10" style="position: relative; top: -6px;">.
 									</div>
 									<span class="tran"><small>그녀는 술을 마시지 말아야합니다.</small></span>
@@ -103,8 +103,8 @@
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-11" style="position: relative; top: -6px;">
-										&nbsp;Gumnastik&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-12" style="position: relative; top: -6px;">.
+										&nbsp;Gymnastik&nbsp;
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-12" style="position: relative; top: -6px;">
 									</div>
 									<span class="tran"><small>그녀는 체조를 해야합니다.</small></span>
 								</td>
@@ -154,7 +154,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">Er&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon17" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-17" style="position: relative; top: -6px;">Schokolade.
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon17" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-17" style="position: relative; top: -6px;">&nbsp;keine Schokolade
 									</div>
 									<span class="tran"><small>그는 초콜릿을 먹어서는 안됩니다.</small></span>
 								</td>
@@ -166,9 +166,7 @@
 								<td class="border-0">
 									<div class="input-group">und&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-18" style="position: relative; top: -6px;">
-										&nbsp;Eis&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-19" style="position: relative; top: -6px;">
-										.
+										&nbsp;Eis.
 									</div>
 									<span class="tran"><small>그리고 아이스크림을 먹어서는 안됩니다.</small></span>
 								</td>
@@ -181,7 +179,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-20" style="position: relative; top: -6px;">Rückenschmerzen.
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-19" style="position: relative; top: -6px;">Rückenschmerzen.
 									</div>
 									<span class="tran"><small>그녀는 허리 통증이 있습니다.</small></span>
 								</td>
@@ -192,9 +190,9 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon21" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-21" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-20" style="position: relative; top: -6px;">
 										&nbsp;Sport&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon22" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-22" style="position: relative; top: -6px;">,
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon21" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-21" style="position: relative; top: -6px;">,
 									</div>
 									<span class="tran"><small>그녀는 운동을 해야 합니다.</small></span>
 								</td>
@@ -205,7 +203,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">z.B. Yoga&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon23" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-23" style="position: relative; top: -6px;">
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon22" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-22" style="position: relative; top: -6px;">
 									</div>
 									<span class="tran"><small>예를 들어 요가를 해야하고</small></span>
 								</td>
@@ -216,7 +214,7 @@
 								</td>
 								<td class="border-0">
 									<div class="input-group">und gerade&nbsp;
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon24" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-24" style="position: relative; top: -6px;">.
+										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon23" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-23" style="position: relative; top: -6px;">.
 									</div>
 									<span class="tran"><small>바르게 앉아야 합니다.</small></span>
 								</td>
@@ -248,7 +246,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["ist",["soll","muss"],"bleiben","darf nicht","gehen",["soll","muss"],"nehmen","ist","darf keinen","trinken",["soll","muss"],"machen","gehen","hat",["soll","muss"],"trinken","darf keine","kein","essen","hat",["soll","muss"],"treiben","machen","sitzen"];
+		var an=["ist",["soll","muss"],"bleiben","darf","gehen",["soll","muss"],"nehmen","ist","darf","trinken",["soll","muss"],"machen","gehen","hat",["soll","muss"],"trinken","darf","essen","hat",["soll","muss"],"treiben","machen","sitzen"];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사
@@ -418,8 +416,8 @@
 			}
 			);
 			var pan=new Array();
-			// pan=[1,2,3,4,5,6,7,8,9,10];
-			pan = [1,2,3,4,5,6,7];
+			// pan=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,30,31,32,33,34];
+			pan = [1,9,10,15,16,20];
 			for(var p=0;
 			p < pan.length;
 			p++) {

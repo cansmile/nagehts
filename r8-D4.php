@@ -25,7 +25,7 @@
 					Das ist aber nicht gut! Du musst viel Obst und Gemüse essen.
 					<span class="tran"><br><small>그것은 안좋아! 과일과 채소를 많이 먹어야 하는데.</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so text-left" id="3">
+				<button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so text-left" id="3">
 					Heute verschreibe ich dir ein Medikament!
 					<span class="tran"><br><small>오늘 약을 처방해줄게!</small></span>
 				</button>
@@ -33,7 +33,7 @@
 					Guten Tag, Frau Doktor!
 					<span class="tran"><br><small>안녕하세요, 선생님!</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so text-left" id="5">
+				<button type="button" class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so text-left" id="5">
 					Gute Besserung!
 					<span class="tran"><br><small>얼른 나으렴!</small></span>
 				</button>
@@ -57,7 +57,7 @@
 					Ich esse meistens Fast Food, Hamburger oder Pizza.
 					<span class="tran"><br><small>저는 보통 패스트푸드 먹는데, 햄버거나 피자에요.</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so text-left" id="11">
+				<button type="button" class="mt-1 mx-1 btn ans15 btn-md btn-outline-dark itm so text-left" id="11">
 					Danke schön, Frau Doktor!
 					<span class="tran"><br><small>고맙습니다, 선생님!</small></span>
 				</button>
@@ -66,10 +66,14 @@
 					<span class="tran"><br><small>네, 알아요.</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so text-left" id="13">
-					(nach der Untersuchung) Peter! Du hast Darmgrippe.
-					<span class="tran"><br><small>(검진 후)피터! 장염에 걸렸구나.</small></span>
+					(nach der Untersuchung) Peter!
+					<span class="tran"><br><small>(검진 후)피터!</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so text-left" id="14">
+				<button type="button" class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so text-left" id="14">
+					Du hast Darmgrippe.
+					<span class="tran"><br><small>장염에 걸렸구나.</small></span>
+				</button>
+				<button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so text-left" id="15">
 					 Aber ich bin den ganzen Tag in der Schule und gleich danach habe ich Nachhilfeunterricht.
 					<span class="tran"><br><small>하지만 저는 하루 종일 학교에 있고, 곧바로 과외를 가요.</small></span>
 				</button>
@@ -101,7 +105,7 @@
 								<tr>
 									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Ärztin:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
-										<div class="itm-lst 1itm" id="lst-1">
+										<div class="itm-lst 1itm col-4" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
@@ -110,7 +114,7 @@
 								<tr>
 									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Peter:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
-										<div class="itm-lst 1itm" id="lst-2">
+										<div class="itm-lst 1itm col-5" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
@@ -119,7 +123,7 @@
 								<tr>
 									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Ärztin:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
-										<div class="itm-lst 1itm" id="lst-3">
+										<div class="itm-lst 1itm col-5" id="lst-3">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
@@ -211,9 +215,18 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Peter:</th>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">&nbsp;</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-14">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
+											▼ </h2>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Peter:</th>
+									<td class="pb-0 pt-3 border-0 align-middle">
+										<div class="itm-lst 1itm" id="lst-15">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
@@ -275,8 +288,9 @@
 							"10": [24.67,4.1],
 							"11": [50.18,1.93],
 							"12": [33.81,1.57],
-							"13": [42.81,2.41],
-							"14": [35.59,5.3]
+							"13": [42.81,.93],
+							"14": [43.78,1.32],
+							"15": [35.59,5.3]
 						}
 					},{
 						name : "Bama_Country_Country",
@@ -305,7 +319,7 @@
 							}
 
 						} else {
-							if(obj.part > 14) {
+							if(obj.part > 15) {
 								$("#"+obj.part).html("▶");
 							}
 
@@ -419,7 +433,8 @@
 <?php include "wahl.php"; ?>
 
 			var pan = new Array();
-			pan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12];
+			pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+			// pan = [1, 2, 4, 5, 6, 8, 9, 11, 12, 13, 14];
 			var il = $("#itms>.itm").length;
 			for(var p = 0; p < pan.length; p++) {
 			var pani = "#lst-" + pan[p];

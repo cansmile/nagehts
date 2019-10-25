@@ -12,7 +12,7 @@
 					Aspirin nehmen.
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm px-2" id="2">
-					Gymnastik machen und mehr Sport treibe.
+					Gymnastik machen und mehr Sport treiben.
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="3">
 					nicht mehr rauchen.

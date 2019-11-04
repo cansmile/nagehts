@@ -240,7 +240,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["sechs Uhr fünf","fünf nach sechs","zwei Uhr fünfzehn","Viertel nach zwei","dreizehn Uhr",["eins", "ein Uhr"],"fünfzehn Uhr fünfundvierzig","Viertel vor vier","acht Uhr fünfundzwanzig","fünf vor halb neun","vierzehn Uhr siebenundfünfzig","kurz vor drei","sechs Uhr drei","kurz nach sechs"];
+			var an = [["sechs Uhr fünf", "6 Uhr 5"],["fünf nach sechs", "5 nach 6"],["zwei Uhr fünfzehn", "2 Uhr 15"],["Viertel nach zwei", "Viertel nach 2"],["dreizehn Uhr", "13 Uhr"],["eins", "ein Uhr"],["fünfzehn Uhr fünfundvierzig", "15 Uhr 45"],["Viertel vor vier", "Viertel vor 4"],["acht Uhr fünfundzwanzig", "8 Uhr 25"],["fünf vor halb neun", "5 Vor halb 9"],["vierzehn Uhr siebenundfünfzig", "14 Uhr 57"],["kurz vor drei", "kurz vor 3"],["sechs Uhr drei", "6 Uhr 3"],["kurz nach sechs", "kurz nach 6"]];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

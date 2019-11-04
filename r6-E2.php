@@ -277,7 +277,8 @@
 						}
 					}
 				}
-			}
+			};
+
 			$(".q").on("keyup", function () {
 				$(this).removeClass("bg-danger");
 				$(this).removeClass("bg-success");
@@ -306,7 +307,9 @@
 					$("#ant-"+$(this).attr("id").substr(4)).hide();
 				}
 			}
-			) $(".q").on("focusin", function() {
+			);
+
+			$(".q").on("focusin", function() {
 				$("#ant-"+$(this).attr("id").substr(4)).show();
 				if( !$("#ant-"+$(this).attr("id").substr(4)).text()) {
 					$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -324,7 +327,9 @@
 					}
 				}
 			}
-			) $(".q").on("focusout", function() {
+			);
+
+			$(".q").on("focusout", function() {
 				$("#ant-"+$(this).attr("id").substr(4)).hide();
 				if(rfchk($(this), true)) {
 					$(this).addClass("bg-success");
@@ -348,7 +353,8 @@
 					$(this).removeClass("bg-success");
 				}
 			}
-			)
+			);
+
 			/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 			// 각 문장 재생 횟수 초기화
 			var hm=new Array(), sen=new Array();
@@ -493,7 +499,9 @@
 								na +=$(this).attr("id").substr(4, 1);
 							}
 						}
-						) if($(this).attr("id")=="done") {}
+						);
+						
+						if($(this).attr("id")=="done") {}
 						else if(na=="") {
 							for(var i=0;
 							i < an.length;

@@ -34,11 +34,11 @@
 								<td><img src="./images/Reihe 6/Reihe-6-D1-2.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
-								<td class="border-0 text-center">sechs Uhr</td>
-								<td class="border-0 text-center">acht Uhr</td>
-								<td class="border-0 text-center">halb zehn</td>
-								<td class="border-0 text-center">elf Uhr</td>
-								<td class="border-0 text-center">ein Uhr</td>
+								<td class="border-0 text-center">6.00 Uhr</td>
+								<td class="border-0 text-center">8.00 Uhr</td>
+								<td class="border-0 text-center">9.30 Uhr</td>
+								<td class="border-0 text-center">11.00 Uhr</td>
+								<td class="border-0 text-center">1.00 Uhr</td>
 							</tr>
 						</tbody>
 					</table>

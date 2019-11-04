@@ -128,21 +128,21 @@
 								<tbody>
 									<tr>
 										<td>ich</td>
-										<td>mein-</td>
+										<td><strong>mein-</strong></td>
 										<td>er</td>
-										<td>sein-</td>
+										<td><strong>sein-</strong></td>
 									</tr>
 									<tr>
 										<td>du</td>
-										<td>dein-</td>
+										<td><strong>dein-</strong></td>
 										<td>sie</td>
-										<td>ihr-</td>
+										<td><strong>ihr-</strong></td>
 									</tr>
 									<tr>
 										<td>Sie</td>
-										<td>Ihr-</td>
+										<td><strong>Ihr-</strong></td>
 										<td>es</td>
-										<td>sein-</td>
+										<td><strong>sein-</strong></td>
 									</tr>
 								</tbody>
 							</table>
@@ -304,11 +304,11 @@
 								<tbody>
 									<tr>
 										<td width="50%">Wie alt sind Sie?</td>
-										<td>- Ich bin 19 Jahre alt.</td>
+										<td>- Ich bin 35 Jahre alt.</td>
 									</tr>
 									<tr>
 										<td>Wie alt bist du?</td>
-										<td>- Ich bin 35 Jahre alt.</td>
+										<td>- Ich bin 19 Jahre alt.</td>
 									</tr>
 									<tr>
 										<td>Wie alt ist er?</td>

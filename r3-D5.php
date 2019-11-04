@@ -66,7 +66,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -161,7 +161,7 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -250,7 +250,7 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>

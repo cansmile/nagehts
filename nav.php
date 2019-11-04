@@ -2,7 +2,7 @@
 <?php
 // 당분간 필요한 변수
 $lt = 4; // 제목 데쉬 이후의 글자 수 제한
-$rm = 6; // 완성된 페이지만 메인에 노출
+$rm = 7; // 완성된 페이지만 메인에 노출
 $subttl = 21; // 모바일 레이아웃에서 잘리는 글자수
 
 // 색상
@@ -130,7 +130,7 @@ $rtl = array(
 		"B" => array("B0" => "Wie spät ist es?", "B1" => "Hören Sie die Uhrzeiten und notieren Sie."),
 		"C" => array("C1" => "Hören Sie und sprechen Sie nach.", "C2" => "Wie sind die Fragen?"),
 		"D" => array("D1" => "Wohin passt das?", "D2" => "Wohin passt das?"),
-		"E" => array("E1" => "Was machen die Leute?", "E2" => "Antworten Sie mit ja, nein, doch.", "E3" => "Schreiben Sie die Uhrzeiten auf.", "E4" => "Trennbar oder nicht trennbar?", "E5" => "Sortieren Sie die Verben.", "E7" => "Lesen Sie den Text.")
+		"E" => array("E1" => "Was machen die Leute?", "E2" => "Antworten Sie mit ja, nein, doch.", "E3" => "Schreiben Sie die Uhrzeiten auf.", "E4" => "Trennbar oder nicht trennbar?", "E5" => "Sortieren Sie die Verben.", "E6" => "Was macht er am Freitag?", "E7" => "Lesen Sie den Text.")
 	),
 	7 =>
 	array(
@@ -146,6 +146,14 @@ $rtl = array(
 		"C" => array("C1" => "Was für Schmerzen sind das?", "C2" => "Er/Sie ist krank. Was hat er/sie?", "C3" => "Krankheiten: Ergänzen Sie.", "C4" => "Hören Sie die Gespräche und klicken Sie an.", "C5" => "Welche Verben sind im Nominativ, Akkusativ, Dativ und Akkusativ oder Dativ?", "C7" => "Bilden Sie mit den Verben im Dativ einen Text."),
 		"D" => array("D1" => "Arztbesuch: Zu welchem Arzt gehen Sie?", "D2" => "Zu Hause", "D3" => "Termin beim Arzt", "D4" => "Bei der Ärztin", "D5" => "Und jetzt sind Sie der Doktor! Was sollen die Personen tun?", "D6" => "Ihr(e) Freund(in) hat Probleme. Was würden Sie ihm (ihr) empfehlen?"),
 		"E" => array("E1" => "Wie heißen die Körperteile?", "E2" => "Was fehlt Ihnen?", "E3" => "Bei der Ärztin: Was sagen sie?", "E4" => "Schreiben Sie die passenden Personalpronomen im Dativ.", "E5" => "Was muss man tun? Was darf man nicht?", "E6" => "Imperativ: Was sagen Sie?")
+	),
+	9 =>
+	array(
+		"A" => array("A0" => "Wie heißen die Feste in Deutschland?", "A1" => "Wie begrüßt man sich auf den Festen?", "A2" => "Wie heißen die Feste in Deutschland?", "A3" => "Temporale Angaben und Zahlen.", "AGR" => "Grundzahlen und Ordnungszahlen", "A4" => "Schreiben Sie die Tage.", "A5" => "Wann ist welcher Feiertag?", "A6" => "Neujahr in Korea. Frohes neues Jahr!"),
+		"B" => array("B1" => "Wer spricht mit wem?", "B2" => "Geburtstagsfeier in Deutschland und in Korea", "B3" => "Feste und Geschenkideen", "BGR" => "Personalpronomen und (un)bestimmter Artikel im Dativ und Akkusativ"),
+		"C" => array("C1" => "Was passt zusammen?", "C3" => "Geschenke", "C4" => "Was möchten Sie zum Geburtstag haben? Warum?"),
+		"D" => array("D1" => "Schreiben Sie eine Einladungskarte.", "D2" => "Ergänzen S D2 ie die Personalpronomen.", "D3" => "Schreiben Sie einen Einladungskarte zur Einweihungsfeier.", "D4" => "Meine 20. Geburtstagsfeier"),
+		"E" => array("E1" => "Feste und Jahreszeiten", "E2" => "Wie heißen die Feste?", "E3" => "Schreiben Sie die Tage.", "E4" => "Diese Personen haben Geburtstag. Was kann man ihnen schenken? Warum?", "E5" => "Mein schönstes Fest", "E6" => "Wann sagt man das?", "E7" => "Ergänzen Sie die Personalpronomen im Dativ und die Verben in der richtigen Form.", "E8" => "Ergänzen Sie die Personalpronomen im Nominativ, Akkusativ oder Dativ.", "E9" => "Präteritum", "E10" => "Das Perfekt mit „haben“ oder „sein“ ?", "E11" => "Perfekt", "E12" => "Wie war das Fest zu Neujahr, in Korea ,Seolnal‘?")
 	)
 );
 
@@ -201,7 +209,7 @@ $rtl_k = array(
 		"B" => array("B0" => "몇시인가요?", "B1" => "시각을 듣고 메모를 하세요."),
 		"C" => array("C1" => "듣고 따라 하세요.", "C2" => "어떤 질문을 할까요?"),
 		"D" => array("D1" => "무엇이 어디에 맞을까요?", "D2" => "무엇이 어디에 맞을까요?"),
-		"E" => array("E1" => "사람들이 무엇을 하나요?", "E2" => "ja, nein, doch로 대답하세요.", "E3" => "시각을 쓰세요.", "E4" => "분리 혹은 비분리 동사?", "E5" => "동사를 분류하세요.", "E7" => "다음 글을 읽으세요.")
+		"E" => array("E1" => "사람들이 무엇을 하나요?", "E2" => "ja, nein, doch로 대답하세요.", "E3" => "시각을 쓰세요.", "E4" => "분리 혹은 비분리 동사?", "E5" => "동사를 분류하세요.", "E6" => "그는 금요일에 실제로 무엇을 하나요?", "E7" => "다음 글을 읽으세요.")
 	),
 	7 =>
 	array(
@@ -218,6 +226,14 @@ $rtl_k = array(
 		"C" => array("C1" => "어떤 통증인가요?", "C2" => "그/그녀가 아픕니다. 어디가 아픈가요?", "C3" => "병명을 채우세요.", "C4" => "대화를 듣고 맞는 곳에 표시하세요.", "C5" => "어떤 동사가 주격동사, 직접목적격동사, 간접목적격동사 혹은 직접·간접목적격 동사인가요?", "C7" => "3격 (간접목적격) 지배동사를 가지고 텍스트를 만들어 보세요."),
 		"D" => array("D1" => "병원방문: 어느병원에 가야할까요?", "D2" => "집에서", "D3" => "병원예약", "D4" => "개인병원에서", "D5" => "당신은 의사입니다. 사람들이 무엇을 해야 하나요?", "D6" => "당신의 친구에게 문제가 있어요. 그에게 뭐라고 조언을 해야 하나요?"),
 		"E" => array("E1" => "신체 부위를 어떻게 부르나요?", "E2" => "어디가 아픈가요?", "E3" => "개인병원에서: 의사와 김선생님은 무엇이라고 말하나요?", "E4" => "알맞은 간접목적어를 넣으세요.", "E5" => "무엇을 해야 하고 하지말아야 하나요?", "E6" => "명령형: 무엇이라고 말해야 하나요?")
+	),
+	9 =>
+	array(
+		"A" => array("A0" => "독일의 축일을 뭐라고 하나요?", "A1" => "축제 때 어떻게 인사하나요?", "A2" => "독일의 축일을 뭐라고 하나요?", "A3" => "시간정보와 수", "AGR" => "기수 · 서수", "A4" => "날짜를 쓰세요.", "A5" => "언제 어떤 축제일인가요?", "A6" => "한국의 설날. 새해 복많이 받으세요!"),
+		"B" => array("B1" => "누가 누구랑 이야기하나요?", "B2" => "독일과 한국에서의 생일파티", "B3" => "축제와 선물아이템: 무엇인가요?", "BGR" => "3,4격 인칭대명사 및 정관사, 부정관사"),
+		"C" => array("C1" => "무엇이 무엇과 어울리나요?", "C3" => "선물", "C4" => "생일선물로 무엇을 가지고 싶나요? 왜요?"),
+		"D" => array("D1" => "초대장을 써보세요. 순서에 맞게 문장을 써보세요.", "D2" => "알맞은 인칭대명사를 쓰세요.", "D3" => "집들이 파티에 초장을 쓰세요.", "D4" => "나의 스무번째 생일"),
+		"E" => array("E1" => "축일과 계절", "E2" => "축일 이름은?", "E3" => "날짜를 쓰세요.", "E4" => "아래의 사람들이 생일을 맞이하였어요. 그들에게 무엇을 선물할까요? 왜요?", "E5" => "나의 가장 아름다운 축일", "E6" => "언제 이렇게 말하지요?", "E7" => "3격 인칭대명사와 동사를 올바르게 집어넣으세요.", "E8" => "1,3,4격 인칭대명사를 넣으세요.", "E9" => "과거형", "E10" => "완료형에서 조동사 haben 혹은 sein 중 어느 것이 맞나요?", "E11" => "완료형", "E12" => "한국의 설날은 어떻게 보내셨나요?")
 	)
 
 

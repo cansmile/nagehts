@@ -21,7 +21,7 @@
 										<td class="border-0 text-left">Jonas Meyer</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">&nbsp;&nbsp;Diplom Ingenieur Siemens</td>
+										<td class="border-0 text-left">&nbsp;&amp; bsp;Diplom Ingenieur Siemens</td>
 									</tr>
 									<tr>
 										<td class="border-0 text-left">Nonnendammallee 72</td>

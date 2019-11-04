@@ -10,36 +10,47 @@
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="1">
 					Gehen wir ins Café?
+					<span class="tran"><br />커피숍 갈까?</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm" id="2">
 					Vielleicht...
+					<span class="tran"><br />아마도...</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="3">
 					Gehen wir morgen Abend ins Kino?
+					<span class="tran"><br />내일 저녁에 극장 갈까?</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm" id="4">
 					Tut mir leid, ich habe leider keine Zeit.
+					<span class="tran"><br />미안해, 내가 시간이 없어.</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="5">
 					Ich kann leider nicht.
+					<span class="tran"><br />나 못할 거 같아.</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="6">
 					Ich habe schon etwas vor.
+					<span class="tran"><br />나 선약이 있어.</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm" id="7">
 					Das weiß ich noch nicht.
+					<span class="tran"><br />아직 모르겠어.</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="8">
 					Okay!
+					<span class="tran"><br />오케이!</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="9">
 					Ja, klar!
+					<span class="tran"><br />아, 좋아!</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="10">
 					Lust auf ...?
+					<span class="tran"><br />~에 흥미있어?</span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="11">
 					Gute Idee!
+					<span class="tran"><br />좋은 생각이야!</span>
 				</button>
 			</div>
 		</div>

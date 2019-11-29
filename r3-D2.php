@@ -21,7 +21,7 @@
 					Frankreich
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="4">
-					25
+					28
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
 					Becker
@@ -233,7 +233,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -263,7 +263,7 @@
 						"12": [70,13.8]
 					}
 				},{
-					name : "Bama_Country_Country",
+					name : "dingdongdang",
 					path : "sounds/"
 				}, {
 					name : "Cartoon_Boing",
@@ -294,7 +294,7 @@
 				}, ready_callback: function () {
 					
 			$(".o").on("click", function() {
-				ion.sound.play("Bama_Country_Country");
+				ion.sound.play("dingdongdang");
 			});
 			$(".x").on("click", function() {
 				ion.sound.play("Cartoon_Boing");
@@ -370,7 +370,7 @@
 					$(this).html($(this).find("button").html());
 					$(this).addClass("font-weight-bold text-success");
 				})
-				$(this).html("<h4>모든 답을 다 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+				$(this).html("<h4>모든 답을 다 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 				$(this).removeClass("btn-light");
 				$(this).addClass("btn-primary");
 				$(".btn-lg").text().appendTo($(this).closest("td"));

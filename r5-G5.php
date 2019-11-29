@@ -9,25 +9,25 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn text-purple ans2 btn-lg btn-outline-dark so itm" id="1">
-					Eis
+					<span class="gen">ein</span><span class="sen">Eis</span><span class="tran">얼음</span><span class="con1">과</span><span class="con2">을</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn text-danger ans1 btn-lg btn-outline-dark so itm" id="2">
-					Sprite
+					<span class="gen">eine</span><span class="sen">Sprite</span><span class="tran">스프라이트</span><span class="con1">와</span><span class="con2">를</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn text-khaki ans1 btn-lg btn-outline-dark so itm" id="3">
-					Pommes frites
+					<span class="gen"></span><span class="sen">Pommes frites</span><span class="tran">감자 튀김</span><span class="con1">과</span><span class="con2">을</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn text-danger ans2 btn-lg btn-outline-dark so itm" id="4">
-					Cola
+					<span class="gen">eine</span><span class="sen">Cola</span><span class="tran">콜라</span><span class="con1">와</span><span class="con2">를</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn text-primary ans3 btn-lg btn-outline-dark so itm" id="5">
-					Kaffee
+					<span class="gen">einen</span><span class="sen">Kaffee</span><span class="tran">커피</span><span class="con1">와</span><span class="con2">를</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn text-primary ans3 btn-lg btn-outline-dark so itm" id="6">
-					Kuchen
+					<span class="gen">einen</span><span class="sen">Kuchen</span><span class="tran">케잌</span><span class="con1">과</span><span class="con2">을</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn text-primary ans2 btn-lg btn-outline-dark so itm" id="7">
-					Hamburger
+					<span class="gen">einen</span><span class="sen">Hamburger</span><span class="tran">햄버거</span><span class="con1">와</span><span class="con2">를</span>
 					</button>
 				</div>
 			</div>
@@ -49,18 +49,24 @@
 							<tr>
 								<td>
 									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
-										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>팀은 감자 튀김과 스프라이트를 주문하였습니다.<br></small></span>Tim bestellt</h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>팀은<br></small></span><span class="sen">Tim bestellt</span></h2>
 									</div>
+									<div id="ans-1"></div>
+									<div id="tra-1"></div>
 								</td>
 								<td>
 									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
-										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>프레디는 햄버거, 콜라와 얼음을 주문하였습니다.<br></small></span>Fredi bestellt</h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>프레디는<br></small></span><span class="sen">Fredi bestellt</span></h2>
 									</div>
+									<div id="ans-2"></div>
+									<div id="tra-2"></div>
 								</td>
 								<td>
 									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
-										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>안나는 케잌과 커피를 주문하였습니다.<br></small></span>Anna bestellt</h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>안나는<br></small></span><span class="sen">Anna bestellt</span></h2>
 									</div>
+									<div id="ans-3"></div>
+									<div id="tra-3"></div>
 								</td>
 							</tr>
 						</tbody>
@@ -80,7 +86,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -88,83 +94,99 @@
 	<!-- interact.min.js -->
 	<script src="./js/ion.sound.min.js"></script>
 	<script>
+		$(".gen").hide();
 		$(".tran").hide();
+		$(".con1").hide();
+		$(".con2").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
 			<?php include "wahl.php"; ?>
 
 			$("#chk").on("click", function() {
-				var na="";
-				var ri=0;
-				var qst=$(".q").length;
-				$(".q").each(function () {
-					if(na !="") {
-						na +=", ";
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm.text-danger").removeClass("text-danger");
+					$(".itm.text-primary").removeClass("text-primary");
+					$(".itm.text-purple").removeClass("text-purple");
+					$(".itm.text-khaki").removeClass("text-khaki");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+						}
+						if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
+						}
+						else {
+							$(this).addClass("text-warning font-weight-bold");
+						}
+						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+									// $(lstn).append(i);
+								}
+							}
+						};
 					}
-					if($(this).val()=="") {
-						na +=$(this).attr("id").substr(4, 1);
-					}
-				}
 				);
 
-				if($(this).attr("id")=="chk") {
-					if($("#itms").find("button").length < 1) {
-						var itms="";
-						var qq;
-						for(var q=0;
-						q < $(".itm").length;
-						q++) {
-							qq=$("#"+q);
-							if(qq.hasClass("ans1")) {
-								qq.appendTo("#lst1");
+				for(var i = 1; i <= $(".itm-lst").length; i++) {
+					var ind = 0;
+					var lst = new Array();
+					var tind = $("#lst-"+i).find(".text-success").length + $("#lst-"+i).find(".text-danger").length;
+					$("#ans-"+i).append($("#lst-"+i+">h2>.sen").text() + " ");
+					$("#tra-"+i).append("<small>" + $("#lst-"+i+">h2>.tran").text() + " ");
+					$("#lst-"+i+">button").each(function() {
+						if($(this).hasClass("font-weight-bold") && ($(this).hasClass("text-success") || $(this).hasClass("text-danger"))) {
+							ind++;
+							switch($(this).find(".gen").text()) {
+								case '':
+									var ao = "<span class=\"bg-khaki text-white p-0 px-1 rounded\">";
+									break;
+								case 'einen':
+									var ao = "<span class=\"bg-primary text-white p-0 px-1 rounded\">";
+									break;
+								case 'eine':
+									var ao = "<span class=\"bg-danger text-white p-0 px-1 rounded\">";
+									break;
+								case 'ein':
+									var ao = "<span class=\"bg-purple text-white p-0 px-1 rounded\">";
+									break;
 							}
-							else if(qq.hasClass("ans2")) {
-								qq.appendTo("#lst2");
-							}
-							else if(qq.hasClass("ans3")) {
-								qq.appendTo("#lst3");
+							var ac = "</span>";
+							if(ind == (tind - 1)) {
+								$("#ans-"+i).append(ao + "<strong>" + $(this).find(".gen").text() + "</strong> " + $(this).find(".sen").text() + ac + " und ");
+								$("#tra-"+i).append(ao + $(this).find(".tran").text() + ac + $(this).find(".con1").text() + " ");
+							} else if(ind == tind) {
+								$("#ans-"+i).append(ao + "<strong>" + $(this).find(".gen").text() + "</strong> " + $(this).find(".sen").text() + ac + ".");
+								$("#tra-"+i).append(ao + $(this).find(".tran").text() + ac + $(this).find(".con2").text());
+							} else {
+								$("#ans-"+i).append(ao + "<strong>" + $(this).find(".gen").text() + "</strong> " + $(this).find(".sen").text() + ac + ", ");
+								$("#tra-"+i).append(ao + $(this).find(".tran").text() + ac + ", ");
 							}
 						}
-						$(".itm-lst").each(function () {
-							$(this).find("button").each(function() {
-								$.trim(itms);
-								if(itms !="") {
-									if($(this).is(":last-child")) {
-										itms=itms + " und ";
-									}
-									else {
-										itms=itms + ", ";
-									}
-								}
-								if($(this).hasClass("text-danger")) {
-									itms=itms + "<strong>eine</strong> ";
-								}
-								else if($(this).hasClass("text-primary")) {
-									itms=itms + "<strong>einen</strong> ";
-								}
-								else if($(this).hasClass("text-purple")) {
-									itms=itms + "<strong>ein</strong> ";
-								}
-								itms=itms + $.trim($(this).text());
-							}
-							);
-							$(this).html($(this).find("h2").html() + " "+ itms + ".");
-							itms="";
-						}
-						);
-						$(this).attr("id", "done");
-						$(this).html("<h4>문제를 모두 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-						$(this).prop("disabled", true);
-						$(".tran").show();
-						$(this).attr("id", "done");
-					}
-					else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					}
-					;
+					});
+					$("#tra-"+i).append(" 주문하였습니다.</small>");
 				}
+				
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
+			}
 			}
 			)
 		}

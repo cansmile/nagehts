@@ -59,8 +59,8 @@
 								<th scope="row" width="20%">ich</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-1">
+										möcht
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-1">
 									</div>
 								</td>
 							</tr>
@@ -68,8 +68,8 @@
 								<th scope="row">du</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-2">
+										möcht
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-2">
 									</div>
 								</td>
 							</tr>
@@ -77,8 +77,8 @@
 								<th scope="row">Sie</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-3">
+										möcht
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-3">
 									</div>
 								</td>
 							</tr>
@@ -86,8 +86,8 @@
 								<th scope="row">er/sie/es</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-4">
+										möcht
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-4">
 									</div>
 								</td>
 							</tr>
@@ -95,8 +95,8 @@
 								<th scope="row">wir</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-5">
+										möcht
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-5">
 									</div>
 								</td>
 							</tr>
@@ -104,8 +104,8 @@
 								<th scope="row">ihr</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-6">
+										möcht
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-6">
 									</div>
 								</td>
 							</tr>
@@ -113,8 +113,8 @@
 								<th scope="row">Sie/sie</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">möcht</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-7">
+										möcht
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-7">
 									</div>
 								</td>
 							</tr>
@@ -128,8 +128,8 @@
 								<th scope="row" width="20%">ich</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-8">
+										nehm
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-8">
 									</div>
 								</td>
 							</tr>
@@ -137,8 +137,8 @@
 								<th scope="row">du</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">nimm</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-9">
+										nimm
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-9">
 									</div>
 								</td>
 							</tr>
@@ -146,8 +146,8 @@
 								<th scope="row">Sie</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-10">
+										nehm
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-10">
 									</div>
 								</td>
 							</tr>
@@ -155,8 +155,8 @@
 								<th scope="row">er/sie/es</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">nimm</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-11">
+										nimm
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-11">
 									</div>
 								</td>
 							</tr>
@@ -164,8 +164,8 @@
 								<th scope="row">wir</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-12">
+										nehm
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-12">
 									</div>
 								</td>
 							</tr>
@@ -173,8 +173,8 @@
 								<th scope="row">ihr</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-13">
+										nehm
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-13">
 									</div>
 								</td>
 							</tr>
@@ -182,8 +182,8 @@
 								<th scope="row">Sie/sie</th>
 								<td>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">nehm</span></div>
-										<input type="text" class="text-lowercase form-control q pl-0 col-4" aria-label="." id="qst-14">
+										nehm
+										<input type="text" class="text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0" style="position: relative; top: -6px;" aria-label="." id="qst-14">
 									</div>
 								</td>
 							</tr>
@@ -209,7 +209,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>bekommen, nehmen : get, take<br>Was darf es denn sein? 뭘 드시겠어요?<br><br>주문할 때 <strong>부정관사</strong>를 사용한다. 그리고 계산할 때에는 먹은 음식을 계산한 것이므로 <strong>정관사</strong>를 사용한다.</td>
+								<td>bekommen, nehmen : to get, to take<br>Was darf es denn sein? 뭘 드시겠어요?<br><br>주문할 때 <strong>부정관사</strong>를 사용한다. 그리고 계산할 때에는 먹은 음식을 계산한 것이므로 <strong>정관사</strong>를 사용한다.</td>
 							</tr>
 						</tbody>
 					</table>
@@ -237,7 +237,14 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>Das ist <strong>ein</strong> Salat.<br>Ich nehme <strong>einen</strong> Salat.</td>
+								<td>
+									<div class="row">
+										<div class="col-7 text-center">Das ist <strong>ein</strong> Salat.</div>
+										<div class="col-5 text-center">(ein → 1격)</div>
+										<div class="col-7 text-center">Ich nehme <strong>einen</strong> Salat.</div>
+										<div class="col-5 text-center">(einen → 4격)</div>
+									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -248,7 +255,7 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -364,7 +371,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 						$(this).prop("disabled", true);
 					}
 				}
@@ -398,7 +405,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -431,7 +438,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -528,28 +535,31 @@
 							i < an.length;
 							i++) {
 								var oran=$("#qst-"+(i+1)).val();
-								if(rfchk($("#qst-"+(i+1)))) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
 								}
 								else {
-									$("#qst-"+(i+1)).val(an[i]);
+									$("#qst-"+(i+1)).val(oran);
 									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;
 								}
 							}
 							if (ri < (qst/2)) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
 								$(this).addClass("bg-danger text-white");
 							}
 							else if(ri==qst) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("bg-primary text-white");
 							}
 							else {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("bg-warning text-white");
 							}
 							$(this).prop("disabled", true);

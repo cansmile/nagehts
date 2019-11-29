@@ -12,61 +12,61 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-					einen Schweinebraten.<span class="tran">&nbsp;<small>돼지 불고기.</small></span>
+					einen Schweinebraten.<span class="tran">&nbsp;<br /><small>돼지 불고기.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
-					eine Bratwurst.<span class="tran">&nbsp;<small>소시지 구이.</small></span>
+					eine Bratwurst.<span class="tran">&nbsp;<br /><small>소시지 구이.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="3">
-					ein Bier.<span class="tran">&nbsp;<small>맥주.</small></span>
+					ein Bier.<span class="tran">&nbsp;<br /><small>맥주.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="4">
-					eine Suppe.<span class="tran">&nbsp;<small>수프</small></span>
+					eine Suppe.<span class="tran">&nbsp;<br /><small>수프</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="5">
-					eine Cola.<span class="tran">&nbsp;<small>콜라</small></span>
+					eine Cola.<span class="tran">&nbsp;<br /><small>콜라</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="6">
-					ein Hähnchen.<span class="tran">&nbsp;<small>닭고기.</small></span>
+					ein Hähnchen.<span class="tran">&nbsp;<br /><small>닭고기.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="7">
-					einen Kaffee.<span class="tran">&nbsp;<small>커피.</small></span>
+					einen Kaffee.<span class="tran">&nbsp;<br /><small>커피.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
-					einen Salat.<span class="tran">&nbsp;<small>샐러드.</small></span>
+					einen Salat.<span class="tran">&nbsp;<br /><small>샐러드.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="9">
-					ein Mineralwasser.<span class="tran">&nbsp;<small>미네랄 물.</small></span>
+					ein Mineralwasser.<span class="tran">&nbsp;<br /><small>미네랄 워터.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="10">
-					Marmelade.<span class="tran">&nbsp;<small>잼.</small></span>
+					Marmelade.<span class="tran">&nbsp;<br /><small>잼.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="11">
-					einen Käsekuchen.<span class="tran">&nbsp;<small>치즈 케잌.</small></span>
+					einen Käsekuchen.<span class="tran">&nbsp;<br /><small>치즈 케잌.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="12">
-					ein Wurstbrot.<span class="tran">&nbsp;<small>소시지 빵.</small></span>
+					ein Wurstbrot.<span class="tran">&nbsp;<br /><small>소시지 빵.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="13">
-					Butter(f).<span class="tran">&nbsp;<small>버터.</small></span>
+					Butter(f).<span class="tran">&nbsp;<br /><small>버터.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="14">
-					einen Saft.<span class="tran">&nbsp;<small>주스.</small></span>
+					einen Saft.<span class="tran">&nbsp;<br /><small>주스.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="15">
-					ein Brötchen.<span class="tran">&nbsp;<small>하드 롤.</small></span>
+					ein Brötchen.<span class="tran">&nbsp;<br /><small>하드 롤.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="16">
-					einen Wein.<span class="tran">&nbsp;<small>와인.</small></span>
+					einen Wein.<span class="tran">&nbsp;<br /><small>와인.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="17">
-					Milch(f).<span class="tran">&nbsp;<small>우유.</small></span>
+					Milch(f).<span class="tran">&nbsp;<br /><small>우유.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="18">
-					ein Ei.<span class="tran">&nbsp;<small>계란.</small></span>
+					ein Ei.<span class="tran">&nbsp;<br /><small>계란.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="19">
-					eine Limonade.<span class="tran">&nbsp;<small>레모네이드.</small></span>
+					eine Limonade.<span class="tran">&nbsp;<br /><small>레모네이드.</small></span>
 					</button>
 				</div>
 			</div>
@@ -100,8 +100,8 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td width="5%" class="align-middle">Ich</td>
-								<td width="5%" class="align-middle">esse</td>
+								<td width="5%" class="align-middle">Ich<span class="tran"><br><small>나는</small></span></td>
+								<td width="5%" class="align-middle">esse<span class="tran"><br><small>먹는다</small></span></td>
 								<td width="30%">
 									<div style="min-height: 240px;" class="rounded-top border border-primary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 										<h2 class="btn btn-primary btn-xl ttl d-block">▼</h2>&nbsp;
@@ -119,8 +119,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="align-middle">Ich</td>
-								<td class="align-middle">trinke</td>
+								<td class="align-middle">Ich<span class="tran"><br><small>나는</small></span></td>
+								<td class="align-middle">trinke<span class="tran"><br><small>마신다</small></span></td>
 								<td>
 									<div style="min-height: 240px;" class="rounded-top border border-primary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-4">
 										<h2 class="btn btn-primary btn-xl ttl d-block">▼</h2>&nbsp;
@@ -209,7 +209,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -257,7 +257,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -290,7 +290,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -373,29 +373,52 @@
 
 					// 정답확인
 					$("#chk").on("click", function() {
-						var na="";
-						if($("#itms").find("button").length < 1) {
-							$(".tran").show();
-							$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-							$(this).removeClass("btn-light");
-							$(this).addClass("btn-primary");
-							$(".btn-lg").text().appendTo($(this).closest("td"));
-							$(".btn-lg").remove();
-						}
-						else {
-							$("div.itm-lst").each(function(idx) {
-								if( !$(this).find("button").length) {
-									if(na !="") {
-										na +=", ";
-									}
-									na +=(idx+1);
-								}
+					if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+						$(this).attr("id", "done");
+						$(".tran").show();
+						$(".itm").each(function() {
+							if($(this).parent().attr("id").length > 5) {
+								var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+							} else {
+								var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 							}
-							);
-							alert("빈 칸을 모두 채워주세요.");
-							// alert(na+"번 문제를 풀어주세요!");
+							$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+								$(this).addClass("text-success font-weight-bold");
+							}
+							else {
+								$(this).addClass("text-warning font-weight-bold");
+								$(this).find(".tran").show();
+
+							}
+							;
+
+							if($(this).hasClass("text-warning")) {
+								// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+								for(var i = 1; i <= $(".itm-lst").length; i++) {
+									if($(this).hasClass("ans"+i)) {
+										$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+										// $(lstn).append(i);
+									}
+								}
+							};
+
 						}
+					);
+
+					if($(".itm").length==$(".itm.text-success").length) {
+						ion.sound.play("dingdongdang");
+						$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+						$(this).addClass("bg-success font-weight-bold text-white");
 					}
+					else {
+						ion.sound.play("Cartoon_Boing");
+						$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+						$(this).addClass("bg-orange font-weight-bold text-white");
+					}
+					;
+				}
+			}
 					);
 					$("#0").show();
 					$(".alert").hide();

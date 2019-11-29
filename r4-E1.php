@@ -27,7 +27,7 @@
 					Brille<span class="tran">&nbsp;<small>안경</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
-					Ledersofa<span class="tran">&nbsp;<small>가죽구두</small></span>
+					Ledersofa<span class="tran">&nbsp;<small>가죽소파</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
 					Kopfhörer<span class="tran">&nbsp;<small>헤드폰</small></span>
@@ -42,7 +42,7 @@
 					Smartphone<span class="tran">&nbsp;<small>스마트폰</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="12">
-					Lampe<span class="tran">&nbsp;<small>등불</small></span>
+					Lampe<span class="tran">&nbsp;<small>전등</small></span>
 					</button>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 	</section>
 	<div id="marg"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -108,7 +108,7 @@
 				var na="";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 				}

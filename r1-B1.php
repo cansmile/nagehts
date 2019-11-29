@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+	<?php if(ul()) { ?>
 <section>
 	<div class="container">
 		<div class="row">
@@ -25,72 +26,72 @@
 						<tr>
 							<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
 							<td>
-								Guten Tag! Wie <span class="nu">①</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option1" autocomplete="off">heiße
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option2" autocomplete="off">heißt
-									</div>
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option3" autocomplete="off">heißen
-									</div>
-								</div> Sie?
+								<span class="sen">Guten Tag! Wie <span class="nu">①</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option1" autocomplete="off">heiße
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option2" autocomplete="off">heißt
+										</div>
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option3" autocomplete="off">heißen
+										</div>
+									</div> Sie?<span class="ans">&nbsp;</span></span>
 								<span class="tran"><br><small>안녕하세요! 당신의 이름은 무엇인가요?</small></span>
 							</td>
 						</tr>
 						<tr>
 							<th scope="row"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></th>
 							<td>
-								Guten Tag! Ich <span class="nu">②</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option4" autocomplete="off">heiße
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option5" autocomplete="off">heißt
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option6" autocomplete="off">heißen
-									</div>
-								</div> Kim.
+								<span class="sen">Guten Tag! Ich <span class="nu">②</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option4" autocomplete="off">heiße
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option5" autocomplete="off">heißt
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option6" autocomplete="off">heißen
+										</div>
+									</div> Kim.<span class="ans">&nbsp;</span></span>
 								<span class="tran"><br><small>안녕하세요! 저는 김이라고 해요.</small></span>
 							</td>
 						</tr>
 						<tr>
 							<th scope="row"><button type="button" id="3" class="so btn btn-outline-primary">▶</button></th>
 							<td>
-								Freut mich! Und wie <span class="nu">③</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option7" autocomplete="off">bin
-									</div>
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option8" autocomplete="off">ist
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option9" autocomplete="off">sind
-									</div>
-								</div> Ihr Name?
+								<span class="sen">Freut mich! Und wie <span class="nu">③</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option7" autocomplete="off">bin
+										</div>
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option8" autocomplete="off">ist
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option9" autocomplete="off">sind
+										</div>
+									</div> Ihr Name<span class="ans">?&nbsp;</span></span>
 								<span class="tran"><br><small>반가워요! 그러면 당신의 이름은 무엇인가요?</small></span>
 							</td>
 						</tr>
 						<tr>
 							<th scope="row"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></th>
 							<td>
-								Mein Name <span class="nu">④</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option10" autocomplete="off">bin
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option11" autocomplete="off">sind
-									</div>
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option12" autocomplete="off">ist
-									</div>
-								</div> Sauer, Eva Sauer.
+								<span class="sen">Mein Name <span class="nu">④</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option10" autocomplete="off">bin
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option11" autocomplete="off">sind
+										</div>
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option12" autocomplete="off">ist
+										</div>
+									</div> Sauer, Eva Saue<span class="ans">r.&nbsp;</span></span>
 								<span class="tran"><br><small>제 이름은 자우어에요. 에바 자우어.</small></span>
 							</td>
 						</tr>
@@ -139,13 +140,16 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
 		<!-- interact.min.js -->
 		<script src="./js/taptogroup.js"></script>
 		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+<?php require_once("./oxsound.php"); ?>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -171,12 +175,6 @@
 							"3": [21.7,2.6],
 							"4": [27.1,2.7]
 						}
-					},{
-						name : "Bama_Country_Country",
-						path : "sounds/"
-					}, {
-						name : "Cartoon_Boing",
-						path : "sounds/"
 					}],
 					path : "sounds/Reihe 1/",
 					preload : true,
@@ -207,109 +205,89 @@
 
 					},
 					ready_callback: function () {
-						
-				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
-				});
 
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
-
-				$("[data-toggle='popover']").popover({
-					delay : {
-						'hide' : 1000
-					},
-					container : "body"
-				});
+						$("[data-toggle='popover']").popover({
+							delay : {
+								'hide' : 1000
+							},
+							container : "body"
+						});
 			
-				$(".pop").click(function () {
-					// 가장 먼저 지문에 'an' 넣기
-					if (!$(this).siblings().hasClass("an")) {
-						$(this).addClass("an");
-						$(this).addClass("btn-warning");
-						$(this).parent().children().removeClass("btn-light");
-					};
-	
-					// 문제 풀이 정도 업데이트
-					var perc = Math.round(($(".an").length / $(".q").length) * 100);
-					$(".progress>.bar").attr("width", perc + "%;");
-					
-				});
+						$(".pop").click(function () {
+							// 가장 먼저 지문에 'an' 넣기
+							if (!$(this).siblings().hasClass("an")) {
+								$(this).addClass("an");
+								$(this).addClass("btn-warning");
+								$(this).parent().children().removeClass("btn-light");
+							};										
+						});
 				
-			// 팝업 내용 사라지기
-			$(".pop").popover().click(function() {
-				setTimeout(function() {
-					$(".pop").popover('hide');
-				}, 500);
-			});
+						// 팝업 내용 사라지기
+						$(".pop").popover().click(function() {
+							setTimeout(function() {
+								$(".pop").popover('hide');
+							}, 500);
+						});
 
-			// 정답확인
-			$("#chk").on("click", function() {
-				if ($(".an").length < $(".q").length) {
-					var na = "";
-					$(".q").each(function() {
-						if (!$(this).find("div").hasClass("an")) {
-							if (na != "") {
-								na += ", ";
-							}
-							na += $(this).attr("id").substr(-1);
-						};
-					});
+						// 정답확인
+						$("#chk").on("click", function() {
+							if ($(".an").length < $(".q").length) {
+								var na = "";
+								$(".q").each(function() {
+									if (!$(this).find("div").hasClass("an")) {
+										if (na != "") {
+											na += ", ";
+										}
+										na += $(this).attr("id").substr(-1);
+									};
+								});
 
-					alert("모든 문제를 풀어주세요.");
-					// alert(na + "번 문제를 풀어주세요.");
-				} else {
-					$(".pop").each(function() {
-						$(this).removeClass("btn-info");
+								alert("모든 문제를 풀어주세요.");
+								// alert(na + "번 문제를 풀어주세요.");
+							} else {
+								$(".pop").each(function() {
+									$(this).removeClass("btn-info");
 
-						if ($(this).hasClass("o") && $(this).hasClass("an")) {
-							$(this).removeClass("btn-warning");
-							$(this).addClass("btn-success");
-						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-<?php echo($color); ?>");
-						} else if ($(this).hasClass("an")) {
-							$(this).addClass("btn-warning");
-						} else {
-							$(this).addClass("btn-light");
-						};
-					});
-					$(".tran").show();
-					$(".nu").show();
-					$(".q").hide();
-					
-					$("span").each(function () {
-						if($(this).text() == "①") {
-							var tt = $("#qst-1>div.o").text();
-						} else if($(this).text() == "②") {
-							var tt = $("#qst-2>div.o").text();
-						} else if($(this).text() == "③") {
-							var tt = $("#qst-3>div.o").text();
-						} else if($(this).text() == "④") {
-							var tt = $("#qst-4>div.o").text();
-						}
-					$(this).text(tt);
-					$(this).addClass("font-weight-bold");
-					});
+									if ($(this).hasClass("o") && $(this).hasClass("an")) {
+										$(this).removeClass("btn-warning");
+										$(this).addClass("btn-success");
+										$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
+										$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+									} else if ($(this).hasClass("o")) {
+										$(this).addClass("btn-<?php echo($color); ?>");
+										$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
+										$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
+										$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");
+									} else if ($(this).hasClass("an")) {
+										$(this).addClass("btn-warning");
+										$(this).closest("td").find(".nu").text($.trim($(this).text()));
+									} else {
+										$(this).addClass("btn-light");
+									};
+									$(this).remove();
+								});
+								$(".tran").show();
+								$(".nu").show();
+								$(".q").hide();
+								
 
 
-					$(this).removeClass("btn-light ");
-					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
-						$(this).addClass("btn-danger");
+								$(this).removeClass("btn-light ");
+								if ($(".bg-success.font-weight-bold").length < Math.ceil($(".q").length/2)) {
+									$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!</h4>");
+									$(this).addClass("btn-danger");
 
-					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-<?php echo($color); ?>");
+								} else if ($(".btn-success").length == $(".q").length) {
+									$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+									$(this).addClass("btn-<?php echo($color); ?>");
 
-					} else {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("btn-warning");
+								} else {
+									$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+									$(this).addClass("btn-warning");
 
-					};
-				};
-			});
-
+								};
+							};
+						});
 		
 						$(".so").on("click", function () {
 								if($(this).attr("id").substr(-2) == "_p") {
@@ -356,6 +334,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+	<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

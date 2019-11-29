@@ -130,7 +130,7 @@
 		<area id="20" class="so" alt="ich" title="ich" coords="350,62,346,54,366,36,393,36,402,40,402,28,417,46,424,36,424,52,434,58,432,82,437,87,436,101,426,107,429,117,426,112,424,128,413,144,402,149,406,160,432,172,451,188,462,218,464,254,440,253,352,250,346,223,327,212,331,186,344,182,346,191,357,177,357,166,385,161,380,149,366,144,357,134,347,112,339,101,347,87" shape="poly">
 	</map>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -181,7 +181,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -214,7 +214,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {

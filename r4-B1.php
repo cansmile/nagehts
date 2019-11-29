@@ -15,7 +15,7 @@
 					der Computer<span class="tran"><br><small>컴퓨터</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark so itm" id="2">
-					die Tischlampe<span class="tran"><br><small>책상용 등</small></span>
+					die Tischlampe<span class="tran"><br><small>스탠드</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="3">
 					das I-Pad<span class="tran"><br><small>아이패드</small></span>
@@ -24,10 +24,10 @@
 					der Rucksack<span class="tran"><br><small>배낭</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans12 btn-lg btn-outline-dark so itm" id="5">
-					das Bücherregal<span class="tran"><br><small>책장</small></span>
+					das Bücherregal<span class="tran"><br><small>책꽂이</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="6">
-					die Wanduhr<span class="tran"><br><small>벽 시계</small></span>
+					die Wanduhr<span class="tran"><br><small>벽시계</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="7">
 					das Bild<span class="tran"><br><small>그림</small></span>
@@ -286,7 +286,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -324,7 +324,7 @@
 						"4": [27.3,1.7]
 					}
 				},{
-					name : "Bama_Country_Country",
+					name : "dingdongdang",
 					path : "sounds/"
 				}, {
 					name : "Cartoon_Boing",
@@ -357,7 +357,7 @@
 				}, ready_callback: function () {
 					
 			$(".o").on("click", function() {
-				ion.sound.play("Bama_Country_Country");
+				ion.sound.play("dingdongdang");
 			});
 			$(".x").on("click", function() {
 				ion.sound.play("Cartoon_Boing");
@@ -429,7 +429,7 @@
 			var na = "";
 			if($("#itms").find("button").length < 1) {
 				$(".tran").show();
-				$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+				$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 				$(this).removeClass("btn-light");
 				$(this).addClass("btn-primary");
 				$(".btn-lg").text().appendTo($(this).closest("td"));

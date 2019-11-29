@@ -14,48 +14,54 @@
 						<table class="table">
 							<tbody>
 								<tr>
-									<th scope="row" colspan="2" class="border-secondary border p-4">Tisch – klein - 80 €<br>Das ist ein Tisch. Der Tisch ist klein. Er kostet 80 Euro.</th>
+									<th scope="row" colspan="2" class="border-secondary border p-4"><span class="text-white p-1 px-2 m-1 rounded bg-primary font-weight-bold">Tisch(m)</span> – klein - 80 €<br>Das ist ein Tisch. Der Tisch ist klein. Er kostet 80 Euro.</th>
 								</tr>
 								<tr>
 									<th scope="row" width="10%">1.</th>
-									<td>Stühle – teuer – 399 €</td>
+									<td><span class="text-white p-1 px-2 m-1 rounded bg-khaki font-weight-bold">Stühle(Pl)</span> – teuer – 399 €</td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
 									<td>
-										<div id="ant-1"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q" id="qst-1">
+										<div id="ant-1"></div><div id="ant-2"></div>
+										<div class="input-group">Das sind&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control border-top-0 border-left-0 border-right-0 rounded-0 q col-2" id="qst-1" style="position: relative; top: -5px;">
+											.&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control border-top-0 border-left-0 border-right-0 rounded-0 q col-3" id="qst-2" style="position: relative; top: -5px;">&nbsp;sind teuer. Sie kosten 399 Euro.
 										</div>
-										<span class="tran">이것들은 의자입니다. 이 의자들은 비쌉니다. 비용은 399유로입니다.</span>
+										<span class="tran">이것들은 의자입니다. 이 의자들은 비쌉니다. 가격은 399유로입니다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">2.</th>
-									<td>Lampe – praktisch – 52 €</td>
+									<td><span class="text-white p-1 px-2 m-1 rounded bg-danger font-weight-bold">Lampe(f)</span> – praktisch – 52 €</td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
 									<td>
-										<div id="ant-2"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q" id="qst-2">
+										<div id="ant-3"></div><div id="ant-4"></div>
+										<div class="input-group">Das ist&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control border-top-0 border-left-0 border-right-0 rounded-0 q col-3" id="qst-3" style="position: relative; top: -5px;">
+											.&nbsp;Die Lampe ist praktisch.&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control border-top-0 border-left-0 border-right-0 rounded-0 q col-2" id="qst-4" style="position: relative; top: -5px;">&nbsp;kostet 52 Euro.
 										</div>
-										<span class="tran">이것은 램프입니다. 이 램프는 실용적입니다. 비용은 52유로입니다.</span>
+										<span class="tran">이것은 램프입니다. 이 램프는 실용적입니다. 가격은 52유로입니다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">3.</th>
-									<td>Lineal – lang - 5 €</td>
+									<td><span class="text-white p-1 px-2 m-1 rounded bg-purple font-weight-bold">Lineal(n)</span> – lang - 5 €</td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
 									<td>
-										<div id="ant-3"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q" id="qst-3">
+										<div id="ant-5"></div><div id="ant-6"></div>
+										<div class="input-group">Das ist ein Lineal.&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control border-top-0 border-left-0 border-right-0 rounded-0 q col-3" id="qst-5" style="position: relative; top: -5px;">
+											&nbsp;ist lang.&nbsp;
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control border-top-0 border-left-0 border-right-0 rounded-0 q col-2" id="qst-6" style="position: relative; top: -5px;">&nbsp;kostet 5 Euro.
 										</div>
-										<span class="tran">이것은 자입니다. 이 자는 깁니다. 비용은 5유로입니다. </span>
+										<span class="tran">이것은 자입니다. 이 자는 깁니다. 가격은 5유로입니다. </span>
 									</td>
 								</tr>
 							</tbody>
@@ -75,7 +81,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -87,7 +93,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Das sind Stühle. Die Stühle sind teuer. Sie kosten 399 Euro.","Das ist eine Lampe. Die Lampe ist praktisch. Sie kostet 52 Euro.","Das ist ein Lineal. Das Lineal ist lang. Es kostet 5 Euro."];
+			var an = ["Stühle", "Die Stühle","eine Lampe", "Sie", "Das Lineal", "Es"];
 
 			function ch() {
 				$(".wd").removeClass("bg-warning text-dark");
@@ -203,7 +209,7 @@ function rfchk(th,io) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("Bama_Country_Country");
+							ion.sound.play("dingdongdang");
 							$(this).prop("disabled",true);
 						}
 					}
@@ -247,13 +253,13 @@ function rfchk(th,io) {
 						}
 
 					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
 						$(this).addClass("bg-danger text-white");
 					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 						$(this).addClass("bg-primary text-white");
 					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 						$(this).addClass("bg-warning text-dark");
 					}
 

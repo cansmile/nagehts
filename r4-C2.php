@@ -68,38 +68,14 @@
 					❚❚
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					<h3>[ <small>듣고 빈 칸에 어울리는 단어로 채우세요. 단어를 그림에 맞게 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12">
-					<table class="table">
-						<tbody>
-							<tr>
-								<th scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></th>
-								<td width="25"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
-								<td>Claudia hat eine Schultasche, aber sie hat kein Lineal.<span class="tran"><br><small>Claudia는 책가방이 있지만 자는 없습니다. </small></span></td>
-							</tr>
-							<tr>
-								<td><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
-								<td><div class="ant" id="ant-1"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Sie hat einen Kleber, aber </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-1">
-								<div class="input-group-append"><span class="input-group-text">Radiergummi.</span></div>
-								</div><span class="tran"><br><small>그녀는 접착제가 있지만 지우개가 없습니다.</small></span></td>
-							</tr>
-							<tr>
-								<td><button type="button" id="3" class="so btn btn-outline-danger">▶</button></td>
-								<td><div class="ant" id="ant-2"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Sie hat Buntstifte, aber </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-2">
-								<div class="input-group-append"><span class="input-group-text"> Geld.</span></div>
-								</div><span class="tran"><br><small>그녀에게는 크레용이 있지만 돈은 없습니다.</small></span></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+				<div class="col text-center">
+					<span class="display-1 font-weight-bold">1</span>
+					<img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></div>
 			</div>
 			<div class="row">
 				<div closs="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
@@ -236,43 +212,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12">
-					<table class="table">
-						<tbody>
-							<tr>
-								<th scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></th>
-								<td width="25"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
-								<td>Michael hat ein Wörterbuch, aber er hat keine Büroklammern.<span class="tran"><br><small>Michael은 사전을 가지고 있지만 종이 클립은 없습니다.</small></span></td>
-							</tr>
-							<tr>
-								<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
-								<td><div class="ant" id="ant-3"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Er hat Geld,
-								aber </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-3">
-								<div class="input-group-append"><span class="input-group-text">Bleistift.</span></div>
-							</div><span class="tran"><br><small>그는 돈이 있지만 연필은 없습니다.
-						</small></span></td>
-					</tr>
-					<tr>
-						<td><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
-						<td><div class="ant" id="ant-4"></div><div class="input-group">
-						<div class="input-group-prepend"><span class="input-group-text">Er hat </span></div>
-						<input type="text" class="form-control q" aria-label="." id="qst-4">
-						<div class="input-group-append"><span class="input-group-text"> Kuli,</span></div>
-						</div><span class="tran"><br><small>그는 펜이 있지만</small></span></td>
-					</tr>
-					<tr>
-						<td><button type="button" id="7" class="so btn btn-outline-danger">▶</button></td>
-						<td><div class="ant" id="ant-5"></div><div class="input-group">
-						<div class="input-group-prepend"><span class="input-group-text">aber </span></div>
-						<input type="text" class="form-control q" aria-label="." id="qst-5">
-						<div class="input-group-append"><span class="input-group-text"> Schultasche.</span></div>
-						</div><span class="tran"><br><small>책가방은 가지고 있지 않습니다.</small></span></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+				<div class="col text-center">
+					<span class="display-1 font-weight-bold">2</span>
+					<img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;">
+				</div>
 	</div>
 	<div class="row">
 		<div class="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
@@ -284,7 +227,8 @@
 						</td>
 					</tr>
 					<tr>
-						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+						<td height="250" class="align-middle border-0">
+							<img src="./images/Reihe 4/Reihe-4-C2-2-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 					</tr>
 					<tr>
 						<td>
@@ -498,7 +442,7 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.js"></script>
@@ -510,123 +454,7 @@
 	$("#0_p").hide();
 	$(".tran").hide();
 	$("#chk").hide();
-	$(".ant").hide();
-	var an=new Array();
-	var an=["keinen", "kein", "keinen", "einen", "keine"];
 	$(document).ready(function() {
-		/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
-		// 값 확인해보자, io값이 참이면 전체 검사
-		function rfchk(th, io) {
-			var q, qn, a, b, fl;
-			q=th.val().length;
-			qn=(th.attr("id").substr(4))-1;
-			a=th.val();
-			a=a.replace(/ /gi, "");
-			if( !$.isArray(an[qn])) {
-				// 1 인 경우
-				if(io) {
-					b=an[qn];
-				}
-				else {
-					b=an[qn].substr(0, q);
-				}
-				b=b.replace(/ /gi, "");
-				if(a==b) {
-					return true;
-				}
-			}
-			else {
-				// 2 이상인 경우
-				for(var fd=0;
-				fd < an[qn].length;
-				fd++) {
-					if(io) {
-						b=an[qn][fd];
-					}
-					else {
-						b=an[qn][fd].substr(0, q);
-					}
-					b=b.replace(/ /gi, "");
-					if(a==b) {
-						return true;
-					}
-				}
-			}
-		}
-		$(".q").on("keyup", function () {
-			$(this).removeClass("bg-danger");
-			$(this).removeClass("bg-success");
-			$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
-			$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
-			if(rfchk($(this))) {
-				$(this).addClass("text-white font-weight-bold");
-				$(this).addClass("bg-success");
-				$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-			}
-			else {
-				$(this).addClass("text-white font-weight-bold");
-				$(this).addClass("bg-danger");
-				$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
-			}
-			if( !$(this).val()) {
-				$(this).removeClass("bg-danger");
-				$(this).removeClass("bg-success");
-				$(this).removeClass("text-white font-weight-bold");
-			}
-			if($(this).val()) {
-				$("#ant-"+$(this).attr("id").substr(4)).show();
-				$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-			}
-			else {
-				$("#ant-"+$(this).attr("id").substr(4)).hide();
-			}
-		}
-		);
-		$(".q").on("focusin", function() {
-			$("#ant-"+$(this).attr("id").substr(4)).show();
-			if( !$("#ant-"+$(this).attr("id").substr(4)).text()) {
-				$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-			}
-			if($("#ant-"+$(this).attr("id").substr(4)).text()) {
-				if(rfchk($(this))) {
-					$(this).addClass("text-white font-weight-bold");
-					$(this).addClass("bg-success");
-					$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-				}
-				else {
-					$(this).addClass("text-white font-weight-bold");
-					$(this).addClass("bg-danger");
-					$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
-				}
-			}
-		}
-		);
-		$(".q").on("focusout", function() {
-			$("#ant-"+$(this).attr("id").substr(4)).hide();
-			if(rfchk($(this), true)) {
-				$(this).addClass("bg-success");
-				$(this).addClass("text-white");
-			}
-			else {
-				$(this).addClass("bg-danger");
-			}
-			if($(this).val()) {
-				if($(this).hasClass("bg-danger")) {
-					ion.sound.play("Cartoon_Boing");
-				}
-				else if($(this).hasClass("bg-success")) {
-					ion.sound.play("Bama_Country_Country");
-					$(this).prop("disabled", true);
-				}
-			}
-			$(this).removeClass("bg-danger");
-			if( !$(this).attr("disabled")) {
-				$(this).removeClass("text-white font-weight-bold");
-				$(this).removeClass("bg-success");
-			}
-		}
-		)
-		/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 		// 각 문장 재생 횟수 초기화
 		var hm=new Array(), sen=new Array();
 		for(i=0;
@@ -653,16 +481,16 @@
 						"11": [27.5, 2.5],
 						"12": [31.3, 2.4],
 						"13": [34.9, 1.7],
-						"14": [60, 1.4],
-						"15": [102.72, 1.94],
-						"16": [67.9, 2.1],
-						"17": [72, 2],
-						"18": [75.8, 2.6],
-						"19": [80, 2.2],
+						"14": [41.000,1.000],
+						"15": [45.000,1.408],
+						"16": [49.352,1.017],
+						"17": [53.174,1.402],
+						"18": [57.374,.969],
+						"19": [61.000,1.141],
 				}
 			}
 			, {
-				name: "Bama_Country_Country",
+				name: "dingdongdang",
 					path: "sounds/"
 			}
 			, {
@@ -702,7 +530,7 @@
 			}
 			, ready_callback: function () {
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				}
 				);
 				$(".x").on("click", function() {
@@ -785,58 +613,71 @@
 
 				// 정답확인
 				$("#chk").on("click", function() {
-					var na="";
-					var ri=0;
-					var qst=$(".q").length;
-					$(".q").each(function () {
-						if(na !="") {
-							na +=", ";
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
-						if($(this).val()=="") {
-							na +=$(this).attr("id").substr(4, 1);
-						}
-					}
-					);
-					if($(this).attr("id")=="done") {}
-					else if(na=="") {
-						for(var i=0;
-						i < an.length;
-						i++) {
-							var oran=$("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							}
-							else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled", true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-						}
-						if (ri < (qst/2)) {
-							$(this).html('<h4>쓰기 '+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
-							$(this).addClass("bg-danger text-white");
-						}
-						else if(ri==qst) {
-							$(this).html('<h4>쓰기 '+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-							$(this).addClass("bg-primary text-white");
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
 						}
 						else {
-							$(this).html('<h4>쓰기 '+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-							$(this).addClass("bg-warning text-white");
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
+
 						}
-						$(this).prop("disabled", true);
-						$(".tran").show();
-						$(this).attr("id", "done");
+						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+									// $(lstn).append(i);
+								}
+							}
+						};
+
+					}
+				);
+
+
+				$(".pop").each(function() {
+					$(this).removeClass("btn-info");
+					if ($(this).hasClass("o") && $(this).hasClass("an")) {
+						$(this).removeClass("btn-warning");
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else if ($(this).hasClass("o")) {
+						$(this).addClass("text-danger font-weight-bold");
+					}
+					else if ($(this).hasClass("an")) {
+						$(this).addClass("btn-warning");
 					}
 					else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
+						$(this).addClass("btn-light");
 					}
 					;
 				}
+				);
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
+			}
+			}
 				);
 				$("#0").show();
 				$(".alert").hide();

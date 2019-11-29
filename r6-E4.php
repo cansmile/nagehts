@@ -10,7 +10,7 @@
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2> Hören Sie und markiern Sie.
+					<h2> Hören Sie und markieren Sie.
 					<small><br> 듣고 표시하세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
@@ -259,7 +259,7 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -299,7 +299,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -332,7 +332,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -436,10 +436,10 @@
 									$(this).addClass("btn-success");
 								}
 								else if ($(this).hasClass("o")) {
-									$(this).addClass("btn-primary");
+									$(this).addClass("btn-warning font-weight-bold");
 								}
 								else if ($(this).hasClass("an")) {
-									$(this).addClass("btn-warning");
+									$(this).addClass("btn-danger");
 								}
 								else {
 									$(this).addClass("btn-light");
@@ -449,15 +449,15 @@
 							);
 							$(this).removeClass("btn-light ");
 							if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-								$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞추셨네요!</h4>");
+								$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞히셨네요!</h4>");
 								$(this).addClass("btn-danger");
 							}
 							else if ($(".btn-success").length==$(".q").length) {
-								$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("btn-success");
 							}
 							else {
-								$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("btn-warning");
 							}
 							;

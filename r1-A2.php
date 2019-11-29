@@ -46,25 +46,25 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div id="itms">
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm" id="1">
-					Guten Morgen!
+					Guten Morgen!<span class="tran"><br><small>아침인사</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 itm" id="2">
-					Guten Tag!
+					Guten Tag!<span class="tran"><br><small>낮 인사</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 itm" id="3">
-					Guten Abend!
+					Guten Abend!<span class="tran"><br><small>저녁인사</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 itm" id="4">
-					Hallo!
+					Hallo!<span class="tran"><br><small>일반인사</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 itm" id="5">
-					Tschüs!
+					Tschüs!<span class="tran"><br><small>헤어질 때 인사</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 itm" id="6">
-					Gute Nacht!
+					Gute Nacht!<span class="tran"><br><small>밤인사</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 itm" id="7">
-					Auf Wiedersehen!
+					Auf Wiedersehen!<span class="tran"><br><small>헤어질 때 인사</small></span>
 					</button>
 				</div>
 			</div>
@@ -247,39 +247,19 @@
 	<div id="marg"></div>
 	<!-- 정답확인 버튼 끝 -->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<script src="./js/interact.min.js"></script>
-	<!-- ion.sound -->
 	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+<?php require_once("./oxsound.php"); ?>
+	<script src="./js/taptogroup.js"></script>
 	<script>
 		$("#chk").hide();
+		$(".tran").hide();
 		$(document).ready(function() {
-			ion.sound( {
-				sounds : [ {
-					name: "Bama_Country_Country"
-				}
-				, {
-					name: "Cartoon_Boing"
-				}
-				],
-				path : "sounds/",
-				preload : true,
-				volume : 1.0,
-				multiplay : true
-			}
-			);
-			$(".o").on("click", function() {
-				ion.sound.play("Bama_Country_Country");
-			}
-			);
-			$(".x").on("click", function() {
-				ion.sound.play("Cartoon_Boing");
-			}
-			);
 			$("[data-toggle='popover']").popover( {
 				delay : {
 					'hide': 1000
@@ -318,22 +298,53 @@
 						if (na !="") {
 							na +=", ";
 						}
-						na +=$(this).attr("id");
+						na +=$(this).find("h3").text();
 					}
 					;
 				}
 				);
-				alert(na + "번 문제를 풀어주세요.");
+				alert(na + " 문제를 풀어주세요.");
 			}
 			else {
+				$(".itm").each(function() {
+					if($(this).parent().attr("id").length > 5) {
+						var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+					} else {
+						var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+					}
+					$(".tran").show();
+					if($(this).hasClass("ans"+ (a))) {
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else {
+						$(this).addClass("text-warning font-weight-bold");
+						$(this).find(".tran").show();
+
+					}
+					;
+
+					if($(this).hasClass("text-warning")) {
+						// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+						for(var i = 1; i <= $(".itm-lst").length; i++) {
+							if($(this).hasClass("ans"+i)) {
+								$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger font-weight-bold\">" + $(this).html() + "</button>");
+								// $(lstn).append(i);
+							}
+						}
+					};
+
+				}
+				);
+
+
 				$(".pop").each(function() {
 					$(this).removeClass("btn-info");
 					if ($(this).hasClass("o") && $(this).hasClass("an")) {
 						$(this).removeClass("btn-warning");
-						$(this).addClass("btn-success");
+						$(this).addClass("text-success font-weight-bold");
 					}
 					else if ($(this).hasClass("o")) {
-						$(this).addClass("btn-primary");
+						$(this).addClass("text-danger font-weight-bold");
 					}
 					else if ($(this).hasClass("an")) {
 						$(this).addClass("btn-warning");
@@ -344,18 +355,16 @@
 					;
 				}
 				);
-				$(this).removeClass("btn-light ");
-				if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-					$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞추셨네요!</h4>");
-					$(this).addClass("btn-danger");
-				}
-				else if ($(".btn-success").length==$(".q").length) {
-					$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-					$(this).addClass("btn-primary");
+
+				if(($(".q").length+$(".itm-lst")) == $(".text-success").length) {
+					o.play();
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
 				}
 				else {
-					$(this).html('<h4>'+ $(".q").length + "문제 중 "+ $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-					$(this).addClass("btn-warning");
+					x.play();
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
 				}
 				;
 			}

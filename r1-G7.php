@@ -16,54 +16,54 @@
 					<tbody>
 						<tr>
 							<th scope="row">1</th>
-							<td>Ich heiße Tim, und <span class="nu">①</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option1" autocomplete="off">du
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option2" autocomplete="off">Sie
-									</div>
-								</div>?<span class="tran"><br><small>나는 팀이라고 해. <strong>너</strong>는?</small></span></td>
+							<td><span class="sen">Ich heiße Tim, und <span class="nu">①</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option1" autocomplete="off">du
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option2" autocomplete="off">Sie
+										</div>
+									</div>?</span><span class="tran"><br><small>나는 팀이라고 해. <strong>너</strong>는?</small></span></td>
 							<td>Mina.<span class="tran"><br><small>미나.</small></span></td>
 						</tr>
 						<tr>
 							<th scope="row">2</th>
-							<td>Wie heißen <span class="nu">②</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option3" autocomplete="off">du
-									</div>
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option4" autocomplete="off">Sie
-									</div>
-								</div>?<span class="tran"><br><small><strong>당신</strong>의 이름은 무엇인가요?</small></span></td>
+							<td><span class="sen">Wie heißen <span class="nu">②</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option3" autocomplete="off">du
+										</div>
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option4" autocomplete="off">Sie
+										</div>
+									</div>?</span><span class="tran"><br><small><strong>당신</strong>의 이름은 무엇인가요?</small></span></td>
 							<td>Mein Name ist Schumacher.<span class="tran"><br><small>나의 이름은 슈마허에요.</small></span></td>
 						</tr>
 						<tr>
 							<th scope="row">3</th>
-							<td>Ich heiße Lee, Und <span class="nu">③</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option5" autocomplete="off">du
-									</div>
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option6" autocomplete="off">Sie
-									</div>
-								</div>?<span class="tran"><br><small>나는 이라고 해. <strong>너</strong>는?</small></span></td>
+							<td><span class="sen">Ich heiße Lee, Und <span class="nu">③</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option5" autocomplete="off">du
+										</div>
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option6" autocomplete="off">Sie
+										</div>
+									</div>?</span><span class="tran"><br><small>나는 이라고 해. <strong>너</strong>는?</small></span></td>
 							<td>Park, Anna Park.<span class="tran"><br><small>박, 안나 박이야.</small></span></td>
 						</tr>
 						<tr>
 							<th scope="row">4</th>
-							<td>Hallo, ich bin Max! Und wie heißt <span class="nu">④</span>
-								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
-									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-										<input type="radio" name="options" id="option7" autocomplete="off">du
-									</div>
-									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-										<input type="radio" name="options" id="option8" autocomplete="off">Sie
-									</div>
-								</div>?<span class="tran"><br><small>안녕, 나는 막스야! <strong>너</strong>는 이름이 뭐니?</small></span></td>
+							<td><span class="sen">Hallo, ich bin Max! Und wie heißt <span class="nu">④</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option7" autocomplete="off">du
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option8" autocomplete="off">Sie
+										</div>
+									</div>?</span><span class="tran"><br><small>안녕, 나는 막스야! <strong>너</strong>는 이름이 뭐니?</small></span></td>
 							<td>Ich heiße Susanne!<span class="tran"><br><small>나는 수잔이야!</small></span></td>
 						</tr>
 					</tbody>
@@ -79,7 +79,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -98,7 +98,7 @@
 
 					},{
 						path : "sounds/",
-						name : "Bama_Country_Country"
+						name : "dingdongdang"
 					}, {
 						path : "sounds/",
 						name : "Cartoon_Boing"
@@ -110,7 +110,7 @@
 					ready_callback: function() {
 
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				});
 
 				$(".x").on("click", function() {
@@ -157,34 +157,26 @@
 				} else {
 					$(".pop").each(function() {
 						$(this).removeClass("btn-info");
-
 						if ($(this).hasClass("o") && $(this).hasClass("an")) {
 							$(this).removeClass("btn-warning");
 							$(this).addClass("btn-success");
-						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-primary");
-						} else if ($(this).hasClass("an")) {
-							$(this).addClass("btn-warning");
-						} else {
-							$(this).addClass("btn-light");
-						};
-
-						
-					});
-
-					$("span").each(function () {
-						if($(this).text() == "①") {
-							var iq = $.trim($("#qst-1>div.o").text());
-						} else if($(this).text() == "②") {
-							var iq = $.trim($("#qst-2>div.o").text());
-						} else if($(this).text() == "③") {
-							var iq = $.trim($("#qst-3>div.o").text());
-						} else if($(this).text() == "④") {
-							var iq = $.trim($("#qst-4>div.o").text());
+							$(this).parent().find(".nu").addClass("bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0");
+							$(this).closest("td").find(".nu").addClass("bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0");
+							$(this).closest("td").find(".nu").text($.trim($(this).text()));
 						}
-						$(this).text(iq);
-						$(this).addClass("font-weight-bold");
-
+						else if ($(this).hasClass("o")) {
+							$(this).addClass("btn-primary");
+							$(this).closest("td").find(".sen").append("<button class=\"btn btn-warning text-dark rounded font-weight-bold p-1 px-2 m-1\">" + $(this).closest("td").find(".o").text() + "</button>");
+							$(this).closest("td").find(".nu").addClass("btn p-1 px-2 m-1 btn-danger text-white font-weight-bold");
+						}
+						else if ($(this).hasClass("an")) {
+							$(this).addClass("btn-warning");
+							$(this).closest("td").find(".nu").text($.trim($(this).text()));
+						}
+						else {
+							$(this).addClass("btn-light");
+						}
+						;
 					});
 
 					$(".tran").show();
@@ -193,15 +185,15 @@
 
 					$(this).removeClass("btn-light ");
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!</h4>");
 						$(this).addClass("btn-danger");
 
 					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 						$(this).addClass("btn-success");
 
 					} else {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 						$(this).addClass("btn-warning");
 
 					};

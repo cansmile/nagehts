@@ -21,9 +21,9 @@
 									<td>
 										<div id="ant-1"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Ist das</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q" id="qst-1">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">Computer?</span></div>
+											Ist das
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-1">
+											Computer?
 										</div>
 										<span class="tran">이것은 컴퓨터입니까?</span>
 									</td>
@@ -33,9 +33,9 @@
 									<td>
 										<div id="ant-2"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Nein, das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q" id="qst-2">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">Computer.</span></div>
+											Nein, das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-2">
+											Computer.
 										</div>
 										<span class="tran">아니오, 컴퓨터가 아닙니다.</span>
 									</td>
@@ -45,9 +45,9 @@
 									<td>
 										<div id="ant-3"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q" id="qst-3">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad3">Fernseher.</span></div>
+											Das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-3">
+											Fernseher.
 										</div>
 										<span class="tran">이것은 텔레비전입니다.</span>
 									</td>
@@ -57,9 +57,9 @@
 									<td>
 										<div id="ant-4"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q" id="qst-4">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">Fernseher von Kim.</span></div>
+											Das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-4">
+											Fernseher von Kim.
 										</div>
 										<span class="tran">김의 텔레비전입니다.</span>
 									</td>
@@ -78,9 +78,9 @@
 									<td>
 										<div id="ant-5"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">Ist das</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q" id="qst-5">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad5">Handy?</span></div>
+											Ist das
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-5">
+											Handy?
 										</div>
 										<span class="tran">이것은 휴대폰입니까?</span>
 									</td>
@@ -90,9 +90,9 @@
 									<td>
 										<div id="ant-6"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">Nein, das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q" id="qst-6">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">Handy.</span></div>
+											Nein, das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-6">
+											Handy.
 										</div>
 										<span class="tran">아니오, 이것은 휴대폰이 아닙니다.</span>
 									</td>
@@ -102,9 +102,9 @@
 									<td>
 										<div id="ant-7"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad7">Das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q" id="qst-7">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad7">Telefon.</span></div>
+											Das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-7">
+											Telefon.
 										</div>
 										<span class="tran">이것은 전화기입니다.</span>
 									</td>
@@ -114,9 +114,9 @@
 									<td>
 										<div id="ant-8"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad8">Das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q" id="qst-8">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad8">Telefon von Mina.</span></div>
+											Das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-8">
+											Telefon von Mina.
 										</div>
 										<span class="tran">이것은 미나의 전화기입니다. </span>
 									</td>
@@ -135,9 +135,9 @@
 									<td>
 										<div id="ant-9"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad9">Ist das</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control q" id="qst-9">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad9">Uhr?</span></div>
+											Ist das
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-9">
+											Uhr?
 										</div>
 										<span class="tran">이것은 시계입니까?</span>
 									</td>
@@ -147,9 +147,9 @@
 									<td>
 										<div id="ant-10"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad10">Nein, das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="text-center form-control q" id="qst-10">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad10">Uhr.</span></div>
+											Nein, das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-10">
+											Uhr.
 										</div>
 										<span class="tran">아니오, 이것은 시계가 아닙니다.</span>
 									</td>
@@ -159,9 +159,9 @@
 									<td>
 										<div id="ant-11"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad11">Das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="text-center form-control q" id="qst-11">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad11">Brille.</span></div>
+											Das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-11">
+											Brille.
 										</div>
 										<span class="tran">이것은 안경입니다.</span>
 									</td>
@@ -171,9 +171,9 @@
 									<td>
 										<div id="ant-12"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad12">Das ist</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q" id="qst-12">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad12">Brille von Park.</span></div>
+											Das ist
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-12">
+											Brille von Park.
 										</div>
 										<span class="tran">이것은 박선생님의 안경입니다.</span>
 									</td>
@@ -195,7 +195,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -309,7 +309,7 @@ function rfchk(th,io) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("Bama_Country_Country");
+							ion.sound.play("dingdongdang");
 							$(this).prop("disabled",true);
 						}
 					}
@@ -323,53 +323,61 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 				// $("#qst-1").val(an[0]);
 				// $("#qst-8").val(an[7]);
 				ch();

@@ -27,7 +27,9 @@ wp_set_current_user(wp_validate_auth_cookie($cookie, 'logged_in'));
 function ul() {
 	$user = wp_get_current_user();
 // 학생만 보게 할 때는 tablepress_add_tables을 할 수 있는지 여부에 따라 반환값 설정 
-	if(current_user_can("tablepress_add_tables")) {
+	if(substr($_SERVER["HTTP_HOST"], 0, 14) == 'schnupperseite') {
+		return true;
+	} else if(current_user_can("tablepress_add_tables")) {
 		return true;
 	} else {
 		return false;
@@ -44,7 +46,7 @@ $returnPath = get_settings('siteurl') . '/wp-login.php?redirect_to=' . urlencode
 
 
 // 각 과별 대단원 파일명과 제목
-$itl = array("D" => "Deutschland", 0 => "Deutschland und die deutsche Spache", 1 => "Wie heißen Sie?", 2 => "Woher kommen Sie?", 3 => "Wer ist das?", 4 => "In meiner Wohnung", 5 => "Essen und Trinken", 6 => "Was machst du heute?", 7 => "Was hast du am Wochnende vor?", 8 => "Was fehlt Ihnen?", 9 => "Feste! Feste!", 10 => "Wie komme ich zur Bank?");
+$itl = array("D" => "Deutschland", 0 => "Deutschland und die deutsche Spache", 1 => "Wie heißen Sie?", 2 => "Woher kommen Sie?", 3 => "Wer ist das?", 4 => "In meiner Wohnung", 5 => "Essen und Trinken", 6 => "Was machst du heute?", 7 => "Was hast du am Wochenende vor?", 8 => "Was fehlt Ihnen?", 9 => "Feste! Feste!", 10 => "Wie komme ich zur Bank?");
 
 $itl_k = array("D" => "독일은…", 0 => "독일과 독일어", 1 => "이름이 어떻게 되시나요?", 2 => "어디서 오셨나요?", 3 => "이 분은 누구인가요?", 4 => "나의 집에서", 5 => "먹고 마시기", 6 => "오늘 뭐하니?", 7 => "주말에 뭐 하니?", 8 => "어디가 아픈가요?", 9 => "축제! 축제!", 10 => "은행에 어떻게 가나요?");
 
@@ -70,7 +72,7 @@ array("r1-Guten Tag!"=> "안녕하세요!","r1-Wie heissen Sie"=>"이름이 어�
 array("r2-Woher kommen Sie!"=>"어디서 오셨나요?","r2-Ich bin Koreanerin"=>"저는 한국(여)인입니다.","r2-Welche Sprachen sprechen Sie"=>"어떠한 언어를 말할 수 있나요?","r2-Wo liegt das Land"=>"이 나라는 어디에 있나요?","r2-Uebungen"=>"연습문제","r2-Grammatik und Wendungen"=>"문법과 표현"),
 array("r3-Wer ist das"=>"이 분은 누구인가요?","r3-Wie alt ist er"=>"그는 몇 살인가요?","r3-Wie viele Geschwister hast du"=>"형제자매가 몇 명이니?","r3-Was sind Sie von Beruf"=>"직업이 어떻게 되나요?","r3-Visitenkarten"=>"명함","r3-Uebungen"=>"연습문제","r3-Grammatik und Wendungen"=>"문법과 표현"),
 array("r4-Wohnen"=>"사는 것","r4-Im Zimmer"=>"방에서","r4-Was ist das"=>"이것은 무엇인가요?","r4-Wie ist das"=>"이것은 어떤가요?","r4-Uebungen"=>"연습문제","r4-Grammatik und Wendungen"=>"문법과 표현"),
-array("r5-Essen und Trinken"=>"먹고 마시기","r5-Was isst du gern und was trinkst du gern"=>"무엇을 즐겨 먹고 마셔?","r5-Was isst und trinkt er,sie"=>"그(녀)는 무엇을 먹고 마시나요?","r5-Im Restaurant. Was bekommen Sie"=>"레스토랑에서.<br>무엇을 원하시나요?","r5-Waehrend des Essens"=>"식사 중에","r5-Was bezahlen Sie"=>"무엇을 지불하시겠어요?","r5-Uebungen"=>"연습문제","r5-Grammatik und Wendungen"=>"문법과 표현"),
+array("r5-Essen und Trinken"=>"먹고 마시기","r5-Was isst du gern und was trinkst du gern"=>"무엇을 즐겨 먹고 마셔?","r5-Was isst und trinkt er,sie"=>"그(녀)는 무엇을 먹고 마시나요?","r5-Im Restaurant. Was bekommen Sie"=>"레스토랑에서.<br>무엇을 주문하시겠어요?","r5-Waehrend des Essens"=>"식사 중에","r5-Was bezahlen Sie"=>"무엇을 지불하시겠어요?","r5-Uebungen"=>"연습문제","r5-Grammatik und Wendungen"=>"문법과 표현"),
 array("r6-Was machst du gern"=>"하루일과 중 무엇을 즐겨 하니?","r6-Wie spaet ist es"=>"몇시인가요?","r6-Wann hast du Deutschunterricht"=>"독일어 수업이 언제니?","r6-Tagesablauf"=>"하루일과","r6-Uebungen"=>"연습문제","r6-Grammatik und Wendungen"=>"문법과 표현"),
 array("r7-Wochenende, Was haben Sie am Wochenende vor"=>"주말: 주말에 무엇을 하나요?","r7-Verabredung. Hast du heute Abend Zeit"=>"약속. 오늘저녁시간있니?","r7-Anweisungen"=>"지시문. 무엇을 할 수 있고 해서는 안되나요?","r7-Uebungen"=>"연습문제","r7-Grammatik und Wendungen"=>"문법과 표현"),
 array("r8-Koerper und Sport"=>"신체와 스포츠","r8-Koerperteile und Taetigkeiten"=>"신체부위와 하는 일","r8-Krankheiten und Schmerzen"=>"질병과 통증","r8-Beim Arzt"=>"개인병원에서","r8-Uebungen"=>"연습문제","r8-Grammatik und Wendungen"=>"문법과 표현"),
@@ -110,26 +112,26 @@ $rtl = array(
 	array(
 		"A" => array("A1" => "Wie wohnen die Leute?", "A2" => "Ordnen Sie die Bilder dem passenden Text zu.", "A3" => "In meiner Wohnung"),
 		"B" => array("B1" => "Was ist das?", "B2" => "Sortieren Sie die Wörter.", "B4" => "Wie heißt das auf Deutsch?", "B5" => "Was passt zusammen?"),
-		"C" => array("C1" => "Was ist das?", "C2" => "Was hat er/sie oder was hat er/sie nicht?"),
-		"D" => array("D2" => "Adjektive", "D3" => "In meiner Wohnung", "D1" => "Wie heißt das Gegenteil?"),
-		"E" => array("E1" => "Sortieren Sie die Wörter.", "E2" => "Ergänzen Sie die Lücken.", "E3" => "sein oder haben?", "E4" => "Ergänzen Sie die Lücken.", "E5" => "„kein” oder „nicht”?", "E6" => "Schreiben Sie die Sätze.")
+		"C" => array("C1" => "Was ist das?", "C2" => "Wie heißt das?", "C2+" => "Was hat er/sie oder was hat er/sie nicht?"),
+		"D" => array("D1" => "Wie heißt das Gegenteil?", "D2" => "Adjektive", "D3" => "In meiner Wohnung"),
+		"E" => array("E1" => "Sortieren Sie die Wörter.", "E2" => "Ergänzen Sie mit Artikeln.", "E3" => "sein oder haben?", "E4" => "Ergänzen Sie mit Artikeln.", "E5" => "„kein” oder „nicht”?", "E6" => "Schreiben Sie die Sätze.")
 	),
 	5 =>
 	array(
-		"A" => array("A1" => "Wo sind die Leute und was machen sie?", "A2" => "Lesen Sie und ordnen Sie zu.", "A3" => "Ordnen Sie zu."),
+		"A" => array("A1" => "Wo sind die Leute und was machen sie?", "A2" => "Lesen Sie und ergänzen Sie die Lücken.", "A3" => "Ordnen Sie zu."),
 		"B" => array("B1" => "Mein Lieblingsessen", "B2" => "Was trinkst du gern?", "B4" => "Ich esse lieber Brot."),
-		"C" => array("C1" => "Was isst er·sie?", "C2" => "Was isst du und was trinkst du?", "C4" => "Mahlzeiten - Was isst und trinkt Tim Sager?", "C5" => "Mahlzeiten - Was isst und trinkt Monika Mai?", "C6" => "Mahlzeiten in Korea"),
+		"C" => array("C1" => "Was isst er(sie)?", "C2" => "Was isst du und was trinkst du?", "C4" => "Mahlzeiten: Was isst und trinkt Tim Sager?", "C5" => "Mahlzeiten: Was isst und trinkt Monika Mai?", "C6" => "Mahlzeiten in Korea"),
 		"D" => array("D1" => "Bestellen", "D3" => "Wer sagt das?", "D4" => "Wir möchten gern bestellen.", "D5" => "Was möchten die Personen essen? Was möchten sie trinken?"),
 		"E" => array("E2" => "Geschmack", "E3" => "Üben Sie."),
 		"F" => array("F1" => "Bezahlen", "F2" => "Wir möchten bezahlen."),
-		"G" => array("G1" => "Ordnen Sie und tragen Sie unten ein.", "G3" => "Was essen und trinken<br>Tim und Monika gern?", "G4" => "Der Kellner bringt das Falsche.", "G5" => "Wer möchte was?", "G7" => "Was passt zusammen?", "G10" => "Ergänzen Sie die Tabelle.", "G11" => "Ergänzen Sie ‚e’ oder ‚i’", "G12" => "Ergänzen Sie.", "G13" => "Ergänzen Sie.", "G14" => "Ergänzen Sie: den/die/das.", "G16" => "Ich möchte bestellen. Ich möchte bezahlen.")
+		"G" => array("G1" => "Ordnen Sie und tragen Sie unten ein.", "G3" => "Was essen und trinken<br>Tim und Monika gern?", "G4" => "Der Kellner bringt das Falsche.", "G5" => "Wer möchte was?", "G7" => "Was passt zusammen?", "G10" => "Ergänzen Sie die Tabelle.", "G11" => "Ergänzen Sie ‚e’ oder ‚i’", "G12" => "Ergänzen Sie.", "G13" => "Ergänzen Sie.", "G14" => "Ergänzen Sie: der/den/die/das.", "G16" => "Ich möchte bestellen. Ich möchte bezahlen.")
 	),
 	6 =>
 	array(
 		"A" => array("A1" => "Was machen sie gern?", "A2" => "Was machen sie (nicht) gern?", "A3" => "Haushalt"),
 		"B" => array("B0" => "Wie spät ist es?", "B1" => "Hören Sie die Uhrzeiten und notieren Sie."),
 		"C" => array("C1" => "Hören Sie und sprechen Sie nach.", "C2" => "Wie sind die Fragen?"),
-		"D" => array("D1" => "Wohin passt das?", "D2" => "Wohin passt das?"),
+		"D" => array("D1" => "Wohin passt das? Schreiben Sie.", "D2" => "Wohin passt das? Schreiben Sie."),
 		"E" => array("E1" => "Was machen die Leute?", "E2" => "Antworten Sie mit ja, nein, doch.", "E3" => "Schreiben Sie die Uhrzeiten auf.", "E4" => "Trennbar oder nicht trennbar?", "E5" => "Sortieren Sie die Verben.", "E6" => "Was macht er am Freitag?", "E7" => "Lesen Sie den Text.")
 	),
 	7 =>
@@ -189,9 +191,9 @@ $rtl_k = array(
 	array(
 		"A" => array("A1" => "사람들은 어떻게 사나요?", "A2" => "그림을 알맞은 텍스트와 연결하세요.", "A3" => "나의 집"),
 		"B" => array("B1" => "이것은 무엇인가요?", "B2" => "위의 단어들을 성에 따라 분류하세요.", "B4" => "이것은 독일어로 뭐라고 하나요?", "B5" => "무엇이 서로 어울리나요?"),
-		"C" => array("C1" => "이것은 무엇일까요?", "C2" => "그(녀)는 무엇을 가지고 있고 무엇을 가지고 있지 않나요?"),
-		"D" => array("D2" => "형용사", "D3" => "나의 집에서", "D1" => "반대말은 무엇인가요?"),
-		"E" => array("E1" => "다음 단어들을 성에 따라 분류하세요.", "E2" => "동사 표를 채우세요.", "E3" => "sein 혹은 haben?", "E4" => "빈칸을 채우세요.", "E5" => "kein 혹은 nicht?", "E6" => "보기와 같이 문장을 만드세요.")
+		"C" => array("C1" => "이것은 무엇일까요?", "C2" => "뭐라고 부르나요?", "C2+" => "그(녀)는 무엇을 가지고 있고 무엇을 가지고 있지 않나요?"),
+		"D" => array("D1" => "반대말은 무엇인가요?", "D2" => "형용사", "D3" => "나의 집에서"),
+		"E" => array("E1" => "다음 단어들을 성에 따라 분류하세요.", "E2" => "동사 표를 채우세요.", "E3" => "sein 혹은 haben?", "E4" => "관사를 채우세요.", "E5" => "kein 혹은 nicht?", "E6" => "보기와 같이 문장을 만드세요.")
 	),
 	5 =>
 	array(
@@ -208,15 +210,15 @@ $rtl_k = array(
 		"A" => array("A1" => "그들은 무엇하기를 좋아하나요?", "A2" => "무엇을 즐겨 하나(하지 않나)요?", "A3" => "가사일"),
 		"B" => array("B0" => "몇시인가요?", "B1" => "시각을 듣고 메모를 하세요."),
 		"C" => array("C1" => "듣고 따라 하세요.", "C2" => "어떤 질문을 할까요?"),
-		"D" => array("D1" => "무엇이 어디에 맞을까요?", "D2" => "무엇이 어디에 맞을까요?"),
-		"E" => array("E1" => "사람들이 무엇을 하나요?", "E2" => "ja, nein, doch로 대답하세요.", "E3" => "시각을 쓰세요.", "E4" => "분리 혹은 비분리 동사?", "E5" => "동사를 분류하세요.", "E6" => "그는 금요일에 실제로 무엇을 하나요?", "E7" => "다음 글을 읽으세요.")
+		"D" => array("D1" => "무엇이 어디에 맞을까요? 써보세요.", "D2" => "무엇이 어디에 맞을까요? 써보세요."),
+		"E" => array("E1" => "이 사람들은 무엇을 하나요?", "E2" => "ja, nein, doch로 대답하세요.", "E3" => "시각을 쓰세요.", "E4" => "분리 혹은 비분리 동사?", "E5" => "동사를 분류하세요.", "E6" => "그는 금요일에 실제로 무엇을 하나요?", "E7" => "다음 글을 읽으세요.")
 	),
 	7 =>
 	array(
 		"A" => array("A0" => "어디인가요?", "A1" => "주말에 뭐하세요?", "A2" => "주말에 무엇을 하고 싶나요?", "A3" => "행사 캘린더를 보면 무엇이 가능(불가능)한가요?"),
 		"B" => array("B1" => "약속 I", "B2" => "약속 II (전화)", "B3" => "약속 III (채팅)", "B4" => "무엇이 알맞은가요?", "B5" => "약속 III (문자메시지)", "B6" => "문자메시지 상에서의 공손한 거절"),
 		"C" => array("C1" => "무엇을 할 수 있고 해야만 하고 해도 되나요?", "C2" => "무엇을 해야만 하고 하려고 하고 하고싶어 하나요?", "C3" => "무엇을 할 수 있고, 해서는 안되고 해야만 할까요?", "C4" => "텍스트를 읽고 모든 동사에 줄을 그으세요.", "C6" => "지시문: 순서대로 나열하세요.", "C7" => "대화문을 듣고 채우세요."),
-		"D" => array("D1" => "어느 그림에 무엇이 맞나요?", "D2" => "빈칸을 채우세요.", "D3" => "괄호안에 알맞은 형태의 화법조동사를 넣으세요.", "D4" => "빈칸을 채우세요.", "D5" => "어디로 가는 것이 좋은가요?", "D6" => "밑줄친 단어를 이용해 문장을 다시 써보세요.", "D7" => "빈칸에 um, am 또는 in 중 알맞은 전치사를 넣어 보세요.", "D8" => "다음 전화대화를 알맞은 문장을 넣어 완성해보세요.")
+		"D" => array("D1" => "어느 그림에 무엇이 맞나요?", "D2" => "빈칸을 채우세요.", "D3" => "괄호안에 알맞은 형태의 화법조동사를 넣으세요.", "D4" => "빈칸을 채우세요.", "D5" => "어디로 가는 것이 좋은가요?", "D6" => "밑줄친 단어를 이용해 문장을 다시 써보세요.", "D7" => "빈칸에 um, am 또는 in 중 알맞은 전치사를 넣어 보세요.", "D8" => "다음 전화통화 내용에 알맞은 답을 넣어 문장을 완성해 보세요.")
 	)
 ,
 	8 =>
@@ -292,6 +294,8 @@ if(!$ds) {
 					} else {
 						if(substr($da, 1, 2) == "GR") {
 							echo(" - ".substr($da, 1, 2)."\n");
+						} else if($da == "Uebungen") {
+							echo(" - Übungen\n");
 						} else {
 							echo(" - ".$da."\n");
 						}
@@ -334,7 +338,7 @@ if(!$ds) {
           </li>
 <?php
 }
-if(substr($da, 1, 2) == "GR") { $la = "GR"; } else { $la = $da; }
+if(substr($da, 1, 2) == "GR") { $la = "GR"; } else if($da == "Uebungen") { $la = "Übungen"; } else { $la = $da; }
 ?>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle<?php if($fn[0] == "r") { echo($a); } ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <?php if($ds) { if(strlen($da) > $lt) { echo($tl[$r][$fn]); } else { for($z = 0; $z < sizeof($rtl[$r][$da[0]]); $z++) { if(array_keys($rtl[$r][$da[0]])[$z] == $da) { echo($z + 1); }; }; echo(". <small><span class=\"font-weight-bold p-1 px-2 m-1 rounded bg-{$color}\">".$la."</span></small> ".$rtl[$r][$da[0]][$da]); } } else if($fn == "inthebeginning" || $fn == "Deutschland") { echo("학습하기"); } else { echo("Reihe ".$r); } ?> </a>
@@ -371,7 +375,7 @@ if($ds) {
 					$jt2 = $rtl_k[$r][$mkey[0]][$mkey];
 				}
 				$n = $i+1;
-				if(substr($mkey, 1, 2) == "GR") { $la = "GR"; } else { $la = $mkey; }
+				if(substr($mkey, 1, 2) == "GR") { $la = "GR"; } else if($da == "Uebungen") { $la = "Übungen"; } else { $la = $mkey; }
 				echo("\" href=\"{$cn}.php\">{$n}. <small><span class=\"font-weight-bold p-1 px-2 m-1 rounded bg-{$color}\">".$la."</span></small> ".substr($kom[$mkey],0,$subttl)." </a> ");
 			}
 		}

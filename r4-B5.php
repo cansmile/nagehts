@@ -23,40 +23,49 @@
 				</div>
 			</div>
 			<div class="row">
+				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Brille</div>
+				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Handschule</div>
+				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Vase</div>
+				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">der Tisch</div>
+				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Zahnpasta</div>
+				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">der Spitzer</div>
+				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">der Vorhang</div>
+			</div>
+			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 					<table class="table">
 						<tbody>
 							<tr>
 								<td><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
-								<td><div class="ant" id="ant-1"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Der Stuhl und </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-1">
-								<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
-								</div><span class="tran"><br><small>걸상과 책상이 서로 어울려요.</small></span></td>
+								<td><span class="sen"><div class="ant" id="ant-1"></div><div class="input-group">
+									Der Stuhl und 
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+									 passen zusammen.
+									</div></span><span class="tran"><br><small>의자와 책상이 서로 어울려요.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
-								<td><div class="ant" id="ant-2"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Der Bleistift und </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-2">
-								<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
-								</div><span class="tran"><br><small>연필과 연필 깍기가 서로 어울려요.</small></span></td>
+								<td><span class="sen"><div class="ant" id="ant-2"></div><div class="input-group">
+									Der Bleistift und 
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+									 passen zusammen.
+									</div></span><span class="tran"><br><small>연필과 연필 깍기가 서로 어울려요.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="3" class="so btn btn-outline-success">▶</button></td>
-								<td><div class="ant" id="ant-3"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Das Fenster und </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-3">
-								<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
-								</div><span class="tran"><br><small>창문과 커튼이 서로 어울려요.</small></span></td>
+								<td><span class="sen"><div class="ant" id="ant-3"></div><div class="input-group">
+									Das Fenster und 
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-3">
+									 passen zusammen.
+									</div></span><span class="tran"><br><small>창문과 커튼이 서로 어울려요.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="4" class="so btn btn-outline-info">▶</button></td>
-								<td><div class="ant" id="ant-4"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Die Blume und </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-4">
-								<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
-								</div><span class="tran"><br><small>꽃과 꽃병이 서로 어울려요.</small></span></td>
+								<td><span class="sen"><div class="ant" id="ant-4"></div><div class="input-group">
+									Die Blume und 
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-4">
+									 passen zusammen.
+									</div></span><span class="tran"><br><small>꽃과 꽃병이 서로 어울려요.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -66,27 +75,27 @@
 						<tbody>
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
-								<td><div class="ant" id="ant-5"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Das Auge und </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-5">
-								<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
-								</div><span class="tran"><br><small>눈과 안경이 서로 어울려요.</small></span></td>
+								<td><span class="sen"><div class="ant" id="ant-5"></div><div class="input-group">
+									Das Auge und 
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-5">
+									 passen zusammen.
+									</div></span><span class="tran"><br><small>눈과 안경이 서로 어울려요.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
-								<td><div class="ant" id="ant-6"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Die Hände und </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-6">
-								<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
-								</div><span class="tran"><br><small>손과 장갑이 서로 어울려요.</small></span></td>
+								<td><span class="sen"><div class="ant" id="ant-6"></div><div class="input-group">
+									Die Hände und 
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-6">
+									 passen zusammen.
+									</div></span><span class="tran"><br><small>손과 장갑이 서로 어울려요.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="7" class="so btn btn-outline-info">▶</button></td>
-								<td><div class="ant" id="ant-7"></div><div class="input-group">
-								<div class="input-group-prepend"><span class="input-group-text">Die Zahnbürste und </span></div>
-								<input type="text" class="form-control q" aria-label="." id="qst-7">
-								<div class="input-group-append"><span class="input-group-text"> passen zusammen.</span></div>
-								</div><span class="tran"><br><small>치약과 칫솔이 서로 어울려요.</small></span></td>
+								<td><span class="sen"><div class="ant" id="ant-7"></div><div class="input-group">
+									Die Zahnbürste und 
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-7">
+									 passen zusammen.
+									</div></span><span class="tran"><br><small>치약과 칫솔이 서로 어울려요.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -130,7 +139,7 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -246,7 +255,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 						$(this).prop("disabled", true);
 					}
 				}
@@ -281,7 +290,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -314,7 +323,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -411,28 +420,31 @@
 							i < an.length;
 							i++) {
 								var oran=$("#qst-"+(i+1)).val();
-								if(rfchk($("#qst-"+(i+1)))) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
 								}
 								else {
-									$("#qst-"+(i+1)).val(an[i]);
+									$("#qst-"+(i+1)).val(oran);
 									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).closest(".sen").append("<br /><div class=\"d-inline-flex text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;
 								}
 							}
 							if (ri < (qst/2)) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
 								$(this).addClass("bg-danger text-white");
 							}
 							else if(ri==qst) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("bg-primary text-white");
 							}
 							else {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("bg-warning text-white");
 							}
 							$(this).prop("disabled", true);
@@ -453,6 +465,7 @@
 			);
 			$("#qst-1").val(an[0]);
 			$("#qst-1").prop("disabled", true);
+			$("#qst-1").removeClass("rounded-0");
 			$("#qst-1").addClass("bg-success text-white font-weight-bold");
 			$("#qst-1").closest("tr").find(".tran").show();
 		}

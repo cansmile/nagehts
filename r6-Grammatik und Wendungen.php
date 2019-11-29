@@ -120,70 +120,70 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms">
-							<table class="table table-striped align-middle text-center border-0">
+							<table class="table table-striped align-middle text-center">
 								<thead>
 									<tr>
-										<th scope="col">&nbsp;</th>
-										<th scope="col" colspan="2">fernsehen</th>
-										<th scope="col">treffen</th>
-										<th scope="col">fahren</th>
-										<th scope="col" colspan="2">anfangen</th>
+										<th class="border border-0" scope="col">&nbsp;</th>
+										<th class="border border-0" scope="col" colspan="2">fernsehen</th>
+										<th class="border border-top-0 border-dark border-bottom-0 border-right-0" scope="col">treffen</th>
+										<th class="border border-top-0 border-dark border-bottom-0" scope="col">fahren</th>
+										<th class="border border-0" scope="col" colspan="2">anfangen</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<th scope="row">ich</th>
-										<td>sehe</td>
-										<td>fern</td>
-										<td>treffe</td>
-										<td>fahre</td>
-										<td>fange</td>
-										<td>an</td>
+										<th class="border border-0" scope="row">ich</th>
+										<td class="border border-0">sehe</td>
+										<td class="border border-0">fern</td>
+										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">treffe</td>
+										<td class="border border-top-0 border-dark border-bottom-0">fahre</td>
+										<td class="border border-0">fange</td>
+										<td class="border border-0">an</td>
 									</tr>
 									<tr>
-										<th scope="row">du</th>
-										<td>siehst</td>
-										<td>fern</td>
-										<td>triffst</td>
-										<td>fährst</td>
-										<td>fängst</td>
-										<td>an</td>
+										<th class="border border-0" scope="row">du</th>
+										<td class="border border-0">siehst</td>
+										<td class="border border-0">fern</td>
+										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">triffst</td>
+										<td class="border border-top-0 border-dark border-bottom-0">fährst</td>
+										<td class="border border-0">fängst</td>
+										<td class="border border-0">an</td>
 									</tr>
 									<tr>
-										<th scope="row">er/sie/es</th>
-										<td>sieht</td>
-										<td>fern</td>
-										<td>trifft</td>
-										<td>fährt</td>
-										<td>fängt</td>
-										<td>an</td>
+										<th class="border border-0" scope="row">er/sie/es</th>
+										<td class="border border-0">sieht</td>
+										<td class="border border-0">fern</td>
+										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">trifft</td>
+										<td class="border border-top-0 border-dark border-bottom-0">fährt</td>
+										<td class="border border-0">fängt</td>
+										<td class="border border-0">an</td>
 									</tr>
 									<tr>
-										<th scope="row">wir</th>
-										<td>sehen</td>
-										<td>fern</td>
-										<td>treffen</td>
-										<td>fahren</td>
-										<td>fangen</td>
-										<td>an</td>
+										<th class="border border-0" scope="row">wir</th>
+										<td class="border border-0">sehen</td>
+										<td class="border border-0">fern</td>
+										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">treffen</td>
+										<td class="border border-top-0 border-dark border-bottom-0">fahren</td>
+										<td class="border border-0">fangen</td>
+										<td class="border border-0">an</td>
 									</tr>
 									<tr>
-										<th scope="row">ihr</th>
-										<td>seht</td>
-										<td>fern</td>
-										<td>trefft</td>
-										<td>fahrt</td>
-										<td>fangt</td>
-										<td>an</td>
+										<th class="border border-0" scope="row">ihr</th>
+										<td class="border border-0">seht</td>
+										<td class="border border-0">fern</td>
+										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">trefft</td>
+										<td class="border border-top-0 border-dark border-bottom-0">fahrt</td>
+										<td class="border border-0">fangt</td>
+										<td class="border border-0">an</td>
 									</tr>
 									<tr>
-										<th scope="row">sie/Sie</th>
-										<td>sehen</td>
-										<td>fern</td>
-										<td>treffen</td>
-										<td>fahren</td>
-										<td>fangen</td>
-										<td>an</td>
+										<th class="border border-0" scope="row">sie/Sie</th>
+										<td class="border border-0">sehen</td>
+										<td class="border border-0">fern</td>
+										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">treffen</td>
+										<td class="border border-top-0 border-dark border-bottom-0">fahren</td>
+										<td class="border border-0">fangen</td>
+										<td class="border border-0">an</td>
 									</tr>
 								</tbody>
 							</table>
@@ -368,7 +368,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>

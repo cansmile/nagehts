@@ -9,70 +9,70 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
-					bequem
+					bequem<span class="tran"><br /><small>편안한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="2">
-					schmutzig
+					schmutzig<span class="tran"><br /><small>더러운</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="3">
-					sehr praktisch
+					sehr praktisch<span class="tran"><br /><small>매우 실용적인</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
-					super
+					super<span class="tran"><br /><small>매우 좋은</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="5">
-					sehr hübsch
+					sehr hübsch<span class="tran"><br /><small>매우 귀여운</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="6">
-					ganz schön
+					ganz schön<span class="tran"><br /><small>제법 예쁜</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
-					toll
+					toll<span class="tran"><br /><small>대단히 좋은</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="8">
-					modern
+					modern<span class="tran"><br /><small>현대식의</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="9">
-					sehr interessant
+					sehr interessant<span class="tran"><br /><small>매우 흥미로운</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="10">
-					langweilig
+					langweilig<span class="tran"><br /><small>지루한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="11">
-					hässlich
+					hässlich<span class="tran"><br /><small>못생긴</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="12">
-					schlecht
+					schlecht<span class="tran"><br /><small>나쁜</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="13">
-					hell
+					hell<span class="tran"><br /><small>밝은</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="14">
-					laut
+					laut<span class="tran"><br /><small>시끄러운</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="15">
-					unpraktisch
+					unpraktisch<span class="tran"><br /><small>비실용적인</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="16">
-					sauber
+					sauber<span class="tran"><br /><small>깨끗한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="17">
-					zu klein
+					zu klein<span class="tran"><br /><small>너무 작은</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="18">
-					günstig
+					günstig<span class="tran"><br /><small>저렴한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="19">
-					schick
+					schick<span class="tran"><br /><small>세련된</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="20">
-					originell
+					originell<span class="tran"><br /><small>독창적인</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="21">
-					zu teuer
+					zu teuer<span class="tran"><br /><small>너무 비싼</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="22">
-					sehr ruhig
+					sehr ruhig<span class="tran"><br /><small>매우 조용한</small></span>
 					</button>
 				</div>
 			</div>
@@ -90,15 +90,15 @@
 			<div class="row" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top bg-success so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					sehr gut</h2>&nbsp;
+					sehr gut<span class="tran"><br />매우 좋은</span></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-primary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					gut</h2>&nbsp;
+					gut<span class="tran"><br />좋은</span></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-khaki so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					nicht gut</h2>&nbsp;
+					nicht gut<span class="tran"><br />좋지 않은</span></h2>&nbsp;
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->
@@ -113,7 +113,7 @@
 	</section>
 	<div id="marg"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -122,6 +122,7 @@
 	<script src="./js/ion.sound.min.js"></script>
 	<script>
 		$("#chk").hide();
+		$(".tran").hide();
 		$(document).ready(function() {
 			ion.sound( {
 				sounds : [ {
@@ -136,28 +137,50 @@
 			);
 			// 정답확인
 			$("#chk").on("click", function() {
-				var na="";
-				if($("#itms").find("button").length < 1) {
-					$(".tran").show();
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-					$(this).removeClass("btn-light");
-					$(this).addClass("btn-primary");
-					$(".btn-lg").text().appendTo($(this).closest("td"));
-					$(".btn-lg").remove();
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+						}
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
+						}
+						else {
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
+
+						}
+						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+									// $(lstn).append(i);
+								}
+							}
+						};
+
+					}
+				);
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
 				}
 				else {
-					$("div.itm-lst").each(function(idx) {
-						if( !$(this).find("button").length) {
-							if(na !="") {
-								na +=", ";
-							}
-							na +=(idx+1);
-						}
-					}
-					);
-					alert("모든 문제를 풀어주세요!");
-					// alert(na+"번 문제를 풀어주세요!");
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
 				}
+				;
+			}
 			}
 			);
 			<?php include "wahl.php";

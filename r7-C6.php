@@ -42,7 +42,7 @@
 		</div>
 	</div>
 </section>
-
+	
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -59,7 +59,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+					<div class="col">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -93,23 +93,8 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 text-center p-0 m-0 d-sm-block d-md-none d-lg-none d-xl-none" style="font-size: 2em;">▼</td>
+									<td class="border-0 text-center p-0 m-0" style="font-size: 2em;">▼</td>
 								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="d-sm-none d-md-block d-lg-block d-xl-block col-md-2 col-lg-2 col-xl-2\">
-						<table class="table text-center" style="height: 100%;">
-							<tbody>
-								<tr>
-									<td class="align-middle display-1">▶</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-						<table class="table">
-							<tbody>
 								<tr>
 									<td class="border-0 text-center p-0 m-0">
 										<div class="itm-lst 1itm" id="lst-4">
@@ -158,7 +143,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -193,7 +178,7 @@
 							"6": [16.52,1.29]
 						}
 					},{
-						name : "Bama_Country_Country",
+						name : "dingdongdang",
 						path : "sounds/"
 					}, {
 						name : "Cartoon_Boing",
@@ -233,7 +218,7 @@
 					}, ready_callback: function () {
 						
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				});
 
 				$(".x").on("click", function() {
@@ -309,7 +294,7 @@
 				if($("#itms").find("button.itm").length < 1) {
 					$(".tran").show();
 
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 					$(".btn-lg").text().appendTo($(this).closest("td"));

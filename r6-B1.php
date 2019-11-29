@@ -31,7 +31,7 @@
 								<td>
 									<div class="ant" id="ant-1"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-1">
+										<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" aria-label="." id="qst-1">
 									</div>
 								</td>
 							</tr>
@@ -41,7 +41,7 @@
 								<td>
 									<div class="ant" id="ant-2"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-2">
+										<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" aria-label="." id="qst-2">
 									</div>
 								</td>
 							</tr>
@@ -57,7 +57,7 @@
 								<td>
 									<div class="ant" id="ant-3"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-3">
+										<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" aria-label="." id="qst-3">
 									</div>
 								</td>
 							</tr>
@@ -67,7 +67,7 @@
 								<td>
 									<div class="ant" id="ant-4"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-4">
+										<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" aria-label="." id="qst-4">
 									</div>
 								</td>
 							</tr>
@@ -87,7 +87,7 @@
 	</section>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -203,7 +203,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 						$(this).prop("disabled", true);
 					}
 				}
@@ -235,7 +235,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -268,7 +268,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -366,28 +366,31 @@
 							i < an.length;
 							i++) {
 								var oran=$("#qst-"+(i+1)).val();
-								if(rfchk($("#qst-"+(i+1)))) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
 								}
 								else {
-									$("#qst-"+(i+1)).val(an[i]);
+									$("#qst-"+(i+1)).val(oran);
 									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;
 								}
 							}
 							if (ri < (qst/2)) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
 								$(this).addClass("bg-danger text-white");
 							}
 							else if(ri==qst) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("bg-primary text-white");
 							}
 							else {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("bg-warning text-white");
 							}
 							$(this).prop("disabled", true);

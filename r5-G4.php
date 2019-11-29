@@ -28,8 +28,8 @@ d<?php include "header.php"; ?>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-1"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q" id="qst-1">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">.</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-1">
+											.
 										</div>
 										<span class="tran"><small>저는 치즈빵을 주문하지 않았어요.</small></span>
 									</td>
@@ -39,8 +39,8 @@ d<?php include "header.php"; ?>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-2"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q" id="qst-2">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">.</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-2">
+											.
 										</div>
 										<span class="tran"><small>저는 소시지빵을 주문하였어요.</small></span>
 									</td>
@@ -50,8 +50,8 @@ d<?php include "header.php"; ?>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-3"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q" id="qst-3">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad3">.</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-3">
+											.
 										</div>
 										<span class="tran"><small>저는 콜라를 주문하지 않있어요.	</small></span>
 									</td>
@@ -61,8 +61,8 @@ d<?php include "header.php"; ?>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-4"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q" id="qst-4">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">.</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-4">
+											.
 										</div>
 										<span class="tran"><small>저는 오렌지주스 한 잔을 주문하였어요.</small></span>
 									</td>
@@ -72,8 +72,8 @@ d<?php include "header.php"; ?>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-5"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q" id="qst-5">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad5">.</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-5">
+											.
 										</div>
 										<span class="tran"><small>저는 와인 한 잔을 주문하지 않았어요.</small></span>
 									</td>
@@ -83,8 +83,8 @@ d<?php include "header.php"; ?>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-6"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q" id="qst-6">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">.</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-6">
+											.
 										</div>
 										<span class="tran"><small>저는 맥주를 주문하였어요.</small></span>
 									</td>
@@ -107,7 +107,7 @@ d<?php include "header.php"; ?>
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -221,7 +221,7 @@ function rfchk(th,io) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("Bama_Country_Country");
+							ion.sound.play("dingdongdang");
 							$(this).prop("disabled",true);
 						}
 					}
@@ -235,54 +235,61 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 
 				var pan = new Array();
 				pan = ["1","2"];
@@ -291,6 +298,7 @@ function rfchk(th,io) {
 					var pann = "#qst-"+pan[p];
 					$(pann).val(an[(pan[p]-1)]);
 					$(pann).prop("disabled",true);
+					$(pann).removeClass("rounded-0");
 					$(pann).addClass("bg-success text-white font-weight-bold");
 					$(pann).closest("tr").find(".tran").show();
 				}				

@@ -45,8 +45,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-1"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-1">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich räume gern auf.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+										, ich räume gern auf.
 									</div><span class="tran"><small><br>네, 치우는 거 좋아해요.</small>
 								</td>
 							</tr>
@@ -54,8 +54,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-2"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-2">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich räume nicht gern auf.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+										, ich räume nicht gern auf.
 									</div><span class="tran"><small><br>아뇨, 저는 치우는 거 좋아하지 않아요.</small>
 								</td>
 							</tr>
@@ -86,8 +86,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-3"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-3">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich gehe gern spazieren.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-3">
+										, ich gehe gern spazieren.
 									</div><span class="tran"><small><br>네, 산책하는 거 좋아해요.</small>
 								</td>
 							</tr>
@@ -95,8 +95,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-4"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-4">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich gehe nicht gern spazieren.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-4">
+										, ich gehe nicht gern spazieren.
 									</div><span class="tran"><small><br>아뇨, 저는 산책하는 거 좋아하지 않아요.</small>
 								</td>
 							</tr>
@@ -127,8 +127,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-5"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-5">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich gehe gern schwimmen.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-5">
+										, ich gehe gern schwimmen.
 									</div><span class="tran"><small><br>네, 수영하는거 좋아해요.</small>
 								</td>
 							</tr>
@@ -136,8 +136,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-6"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-6">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich gehe nicht gern schwimmen.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-6">
+										, ich gehe nicht gern schwimmen.
 									</div><span class="tran"><small><br>아뇨, 수영하는 거 좋아하지 않아요.</small>
 								</td>
 							</tr>
@@ -168,8 +168,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-7"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-7">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich koche gern.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-7">
+										, ich koche gern.
 									</div><span class="tran"><small><br>네, 저는 요리하는거 좋아해요.</small>
 								</td>
 							</tr>
@@ -177,8 +177,8 @@
 								<td height="<?php echo($single_line_height); ?>" class="border-0 align-middle">
 									<div class="ant" id="ant-8"></div>
 									<div class="input-group">
-										<input type="text" class="form-control text-right col-2 pr-0 mr-0 q" aria-label="." id="qst-8">
-										<div class="input-group-append"><span class="pl-0 ml-0 input-group-text">, ich koche nicht gern.</span></div>
+										<input type="text" class="form-control text-right col-2 pr-0 mr-0 border-top-0 border-left-0 border-right-0 rounded q" style="position: relative; top: -6px;" aria-label="." id="qst-8">
+										, ich koche nicht gern.
 									</div><span class="tran"><small><br>아뇨, 저는 요리하는 거 좋아하지 않아요.</small>
 								</td>
 							</tr>
@@ -224,7 +224,7 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -343,7 +343,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 						$(this).prop("disabled", true);
 					}
 				}
@@ -376,7 +376,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -409,7 +409,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -500,35 +500,37 @@
 							}
 						}
 						);
-						
 						if($(this).attr("id")=="done") {}
 						else if(na=="") {
 							for(var i=0;
 							i < an.length;
 							i++) {
 								var oran=$("#qst-"+(i+1)).val();
-								if(rfchk($("#qst-"+(i+1)))) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
 								}
 								else {
-									$("#qst-"+(i+1)).val(an[i]);
+									$("#qst-"+(i+1)).val(oran);
 									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;
 								}
 							}
 							if (ri < (qst/2)) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
 								$(this).addClass("bg-danger text-white");
 							}
 							else if(ri==qst) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("bg-primary text-white");
 							}
 							else {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("bg-warning text-white");
 							}
 							$(this).prop("disabled", true);

@@ -300,7 +300,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 									</tr>
 									<tr>
 										<td>Was nimmst du?</td>
-										<td><span class="text-light">- </span>einen/ eine / ein ...</td>
+										<td><span class="text-light">- </span>Einen/ Eine / Ein ...</td>
 									</tr>
 									<tr>
 										<td>Was darf es sein?</td>
@@ -316,7 +316,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 									</tr>
 									<tr>
 										<td>Was trinkst du gern?</td>
-										<td>- Ich trinke ...</td>
+										<td>- Ich trinke gern ...</td>
 									</tr>
 								</tbody>
 							</table>
@@ -336,7 +336,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 									</tr>
 									<tr>
 										<td>Stimmt so.</td>
-										<td>&nbsp;</td>
+										<td>- Vielen Dank.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -350,7 +350,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>

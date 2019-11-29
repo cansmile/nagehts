@@ -58,7 +58,12 @@ if($("#th-"+opp).find("button").length) {
 		// 답안 번호랑 맞는 것만 넣기
 		if(a != tn) {
 				// 틀리면 띠용
-				ion.sound.play("Cartoon_Boing");
+					if(typeof x === 'undefined') {
+						ion.sound.play("Cartoon_Boing");
+					} else {
+						x.play();
+					}
+
 				if($(this).parent().hasClass("itm-lst")) {
 					$(this).blur();
 					$(this).addClass("btn-light");
@@ -69,7 +74,12 @@ if($("#th-"+opp).find("button").length) {
 				if(cpi) {
 					if(cpi == tt.attr("id")) {
 						if(tm == 0) {
-							ion.sound.play("Bama_Country_Country");
+							if(typeof o === 'undefined') {
+								ion.sound.play("dingdongdang");
+							} else {
+								o.play();
+							}
+
 							$(this).addClass("btn-block btn-light");
 							$(this).insertAfter(t);
 						}
@@ -85,7 +95,12 @@ if($("#th-"+opp).find("button").length) {
 							$(this).removeClass('btn-secondary');
 						}
 					} else {
+					if(typeof x === 'undefined') {
 						ion.sound.play("Cartoon_Boing");
+					} else {
+						x.play();
+					}
+
 						if($(this).parent().hasClass("itm-lst")) {
 							$(this).blur();
 							$(this).addClass("btn-light");
@@ -96,7 +111,12 @@ if($("#th-"+opp).find("button").length) {
 					// 맞는지 검사하는데, 반대쪽 항목이 #itms에 있으면 넣기
 					if($("#itms").find("button#"+cp[(tt.attr("id")-1)]).length) {
 						if(tm == 0) {
-							ion.sound.play("Bama_Country_Country");
+							if(typeof o === 'undefined') {
+								ion.sound.play("dingdongdang");
+							} else {
+								o.play();
+							}
+
 							$(this).addClass("btn-block btn-light");
 							$(this).insertAfter(t);
 						}
@@ -113,7 +133,12 @@ if($("#th-"+opp).find("button").length) {
 						}
 					} else {
 						// #itms에 반대쪽 항목이 없어서 띠용
+					if(typeof x === 'undefined') {
 						ion.sound.play("Cartoon_Boing");
+					} else {
+						x.play();
+					}
+
 						if($(this).parent().hasClass("itm-lst")) {
 							$(this).blur();
 							$(this).addClass("btn-light");
@@ -124,6 +149,11 @@ if($("#th-"+opp).find("button").length) {
 
 		} // 답안 번호랑 맞는 것만 넣기 마감
 
+							// if(typeof o === 'undefined') {
+							// 	ion.sound.play("dingdongdang");
+							// } else {
+							// 	o.play();
+							// }
 
 	}); // btn-secondary.each() 마감
 
@@ -156,14 +186,14 @@ $(document).ready(function() {
 	// 오답 일 때 띠용~
 	ion.sound({
 		sounds : [{
-			name : "Bama_Country_Country"
+			name : "dingdongdang"
 		}, {
 			name : "Cartoon_Boing"
 		}],
 		path : "sounds/",
 		preload : true,
 		volume : 1.0,
-		multiplay : false
+		multiplay : true
 	});
 
 	$("[data-toggle='popover']").popover({container : "body"});

@@ -46,7 +46,7 @@
 										<input type="text" class="form-control q" aria-label="." id="qst-1">
 										<div class="input-group-append"><span class="input-group-text"> Küche ist komplett.</span>
 									</div>
-									</div><span class="tran"><br><small>이 부엌은 완비되었습니다.</small></span>
+									</div><span class="tran"><br><small>이 부엌은 완비되어 있습니다.</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -57,7 +57,7 @@
 										<input type="text" class="form-control q" aria-label="." id="qst-2">
 										<div class="input-group-append"><span class="input-group-text"> kostet 999 Euro.</span>
 									</div>
-									</div><span class="tran"><br><small>비용은 999 유로입니다.</small></span>
+									</div><span class="tran"><br><small>가격은 999 유로입니다.</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -123,7 +123,7 @@
 											<input type="text" class="form-control q" aria-label="." id="qst-7">
 											<div class="input-group-append"><span class="input-group-text"> kostet 599 Euro.</span>
 										</div>
-										</div><span class="tran"><br><small>비용은 599 유로입니다.</small></span>
+										</div><span class="tran"><br><small>가격은 599 유로입니다.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -168,7 +168,7 @@
 										<input type="text" class="form-control q" aria-label="." id="qst-10">
 										<div class="input-group-append"><span class="input-group-text"> Bett.</span>
 									</div>
-									</div><span class="tran"><br><small>여기 이 것은 침대입니다.</small></span>
+									</div><span class="tran"><br><small>여기 이것은 침대입니다.</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -190,7 +190,7 @@
 										<input type="text" class="form-control q" aria-label="." id="qst-12">
 										<div class="input-group-append"><span class="input-group-text"> ist 499 Euro.</span>
 									</div>
-									</div><span class="tran"><br><small>비용은 499 유로입니다.</small></span>
+									</div><span class="tran"><br><small>가격은 499 유로입니다.</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -219,7 +219,7 @@
 		</div>
 	</section>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -335,7 +335,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 						$(this).prop("disabled", true);
 					}
 				}
@@ -366,7 +366,7 @@
 					i < an.length;
 					i++) {
 						var oran=$("#qst-"+(i+1)).val();
-						if(rfchk($("#qst-"+(i+1)))) {
+						if(rfchk($("#qst-"+(i+1)), true)) {
 							$("#qst-"+(i+1)).addClass("bg-success text-white");
 						}
 						else {
@@ -379,15 +379,15 @@
 						}
 					}
 					if (ri < (qst/2)) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
+						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
 						$(this).addClass("bg-danger text-white");
 					}
 					else if(ri==qst) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 						$(this).addClass("bg-primary text-white");
 					}
 					else {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 						$(this).addClass("bg-warning text-dark");
 					}
 					$(this).prop("disabled", true);
@@ -431,7 +431,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -464,7 +464,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {

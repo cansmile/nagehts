@@ -1,55 +1,54 @@
 <?php include "header.php"; ?>
-	<body>
-<?php include "nav.php"; ?>
-<?php if(ul()) { ?>
-		<div class="alert alert-warning alert-dismissible fade show" role="alert">
-			문제를 모두 풀어야
+<body>
+	<?php include "nav.php"; ?>
+	<?php require_once "ready.php"; ?>
+	<?php if(ul()) { ?>
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		문제를 모두 풀어야
+		<button class="badge badge-light" disabled>
+		정답확인
+		</button>
+		이 됩니다.
+		<br />
+		<p class="mt-4">
+			각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
 			<button class="badge badge-light" disabled>
-				정답확인
+			정답확인
 			</button>
-			이 됩니다.
-			<br />
-			<p class="mt-4">
-				각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
-				<button class="badge badge-light" disabled>
-					정답확인
-				</button>
-				에 이용됩니다.
-			</p>
-			<button class="badge badge-light">
-				정답확인
-			</button>
-			을 누르면 지문의 배경색이
-			<button class="badge badge-danger" disabled>
-				선택한 지문
-			</button>
-			,
-			<button class="badge badge-lime text-dark" disabled>
-				선택한 지문이 정답인 경우
-			</button>
-			,
-			<button class="badge badge-success" disabled>
-				정답
-			</button>
-			으로 변합니다.
-			<br />
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
-		</div>
-		<!-- 알림 끝 -->
-
-		<section>
-			<div class="container">
+			에 이용됩니다.
+		</p>
+		<button class="badge badge-light">
+		정답확인
+		</button>
+		을 누르면 지문의 배경색이
+		<button class="badge badge-danger" disabled>
+		선택한 지문
+		</button>
+		,
+		<button class="badge badge-lime text-dark" disabled>
+		선택한 지문이 정답인 경우
+		</button>
+		,
+		<button class="badge badge-success" disabled>
+		정답
+		</button>
+		으로 변합니다.
+		<br />
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<!-- 알림 끝 -->
+	<section>
+		<div class="container">
 			<div class="row">
-					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Wie viel wissen Sie über Deutschland und über die deutsche Sprache?
-						<br>
-						<small>독일과 독일어에 대해 얼마나 알고 있나요?</small></h2>
-						<h3>[ <small>답안은 처음 선택한 항목만 인정됩니다.<br>처음 선택한 답안을 답안 확인에 사용합니다.</small> ]</h3>
-
-					</div>
+				<div class="col-lg-12 mb-4 mt-2 text-center">
+					<h2>Wie viel wissen Sie über Deutschland und über die deutsche Sprache?
+					<br>
+					<small>독일과 독일어에 대해 얼마나 알고 있나요?</small></h2>
+					<h3>[ <small>답안은 처음 선택한 항목만 인정됩니다.<br>처음 선택한 답안을 답안 확인에 사용합니다.</small> ]</h3>
 				</div>
+			</div>
 			<div class="row">
 				<!--문제 시작-->
 				<div class="col-lg-3 col-md-6 col-sm-12 q border-lime rounded border" id="1" style="min-height: 450px; position: relative;">
@@ -342,134 +341,92 @@
 			</div>
 			<!-- 정답확인 버튼 끝 -->
 		</div>
-		</section>
+	</section>
 
-		<!-- 문제 풀이 진행 시작 -->
-		<div class="progress progress-striped active fixed-bottom">
-			<div class="bar" style="width: 0%;"></div>
-		</div>
-		<!-- 문제 풀이 진행 끝 -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<!-- ion.sound -->
+	<script src="./js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<!-- ion.sound -->
-		<script src="./js/ion.sound.min.js"></script>
-		<script>
-			$(document).ready(function() {
-
-				ion.sound({
-					sounds : [{
-						name : "Bama_Country_Country"
-					}, {
-						name : "Cartoon_Boing"
-					}],
-					path : "sounds/",
-					preload : true,
-					volume : 1.0,
-					multiplay : true,
-					ready_callback: function() {
-
-				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
-				});
-
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
-
-				$("[data-toggle='popover']").popover({
-					delay : {
-						'hide' : 1000
-					},
-					container : "body"
-				});
-			
-				$(".pop").click(function () {
-					// 가장 먼저 지문에 'an' 넣기
-					if (!$(this).siblings().hasClass("an")) {
-						$(this).addClass("an");
-						$(this).addClass("btn-warning");
-
-					};
-	
-					// 문제 풀이 정도 업데이트
-					var perc = Math.round(($(".an").length / $(".q").length) * 100);
-					$(".progress>.bar").attr("width", perc + "%;");
-					
-				});
-				
-			// 팝업 내용 사라지기
-			$(".pop").popover().click(function() {
-				setTimeout(function() {
-					$(".pop").popover('hide');
-				}, 500);
+	<script>
+		$(document).ready(function() {
+			// 팝업 설정
+			$("[data-toggle='popover']").popover({
+				delay : {
+					'hide' : 1000
+				},
+				container : "body"
 			});
+		
+			$(".pop").click(function () {
+				// 가장 먼저 지문에 'an' 넣기
+				if (!$(this).siblings().hasClass("an")) {
+					$(this).addClass("an");
+					$(this).addClass("btn-warning");
+				};
+			});
+						// 팝업 내용 사라지기
+		$(".pop").popover().click(function() {
+			setTimeout(function() {
+				$(".pop").popover('hide');
+			}, 500);
+		});
 
-			// 정답확인
-			$("#chk").on("click", function() {
-				if($(this).attr("id") == "chk") {
-					if ($(".an").length < $(".q").length) {
-						var na = "";
-						$(".q").each(function() {
-							if (!$(this).find("div").hasClass("an")) {
-								if (na != "") {
-									na += ", ";
-								}
-								na += $(this).attr("id");
-							};
-						});
-
-						alert(na + "번 문제를 풀어주세요.");
-					} else {
-						$(this).attr("id","done");
-						$(".pop").each(function() {
-							$(this).removeClass("btn-info");
-
-							if ($(this).hasClass("o") && $(this).hasClass("an")) {
-								$(this).removeClass("btn-warning");
-								$(this).addClass("btn-lime text-dark");
-							} else if ($(this).hasClass("o")) {
-								$(this).addClass("btn-success");
-							} else if ($(this).hasClass("an")) {
-								$(this).addClass("btn-danger");
-							} else {
-								$(this).addClass("btn-light");
+		// 정답확인
+		$("#chk").on("click", function() {
+			if($(this).attr("id") == "chk") {
+				if ($(".an").length < $(".q").length) {
+					var na = "";
+					$(".q").each(function() {
+						if (!$(this).find("div").hasClass("an")) {
+							if (na != "") {
+								na += ", ";
 							}
-							;
-						});
-
-						$(this).removeClass("btn-light ");
-						if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-lime").length + "개를 맞추셨네요!</h4>");
-							$(this).addClass("btn-danger");
-
-						} else if ($(".btn-success").length == $(".q").length) {
-							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-lime").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-							$(this).addClass("btn-primary");
-
-						} else {
-							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-lime").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-							$(this).addClass("btn-warning");
-
+							na += $(this).attr("id");
 						};
+					});
+					alert(na + "번 문제를 풀어주세요.");
+				} else {
+					$(this).attr("id","done");
+					$(".pop").each(function() {
+						$(this).removeClass("btn-info");
+						if ($(this).hasClass("o") && $(this).hasClass("an")) {
+							$(this).removeClass("btn-warning");
+							$(this).addClass("btn-lime text-dark");
+						} else if ($(this).hasClass("o")) {
+							$(this).addClass("btn-warning font-weight-bold");
+						} else if ($(this).hasClass("an")) {
+							$(this).addClass("btn-danger");
+						} else {
+							$(this).addClass("btn-light");
+						}
+						;
+					});
+					$(this).removeClass("btn-light ");
+					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-lime").length + "개를 맞히셨네요!</h4>");
+						$(this).addClass("btn-danger");
+					} else if ($(".btn-success").length == $(".q").length) {
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-lime").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("btn-primary");
+					} else {
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-lime").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("btn-warning");
 					};
-				}
-
-			});
-
-		}
+				};
+			}
+		});
 	});
-});
-
-		</script>
-		<!-- 알림 시작 -->
-<? } ?>
-<?php include "footer.php"; ?>
-	</body>
+	</script>
+	<!-- 알림 시작 -->
+	<? } ?>
+	<?php include "footer.php"; ?>
+</body>
 </html>

@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
-
+	<?php if(ul()) { ?>
 <section>
 	<div class="container">
 		<div class="row">
@@ -113,7 +113,7 @@
 												<div class="py-2 col-6"><strong>bist</strong></div>
 											</div>
 											<div class="row">
-												<div class="py-2 col-6 border-right border-dark"><strong>Sie</strong<>/div>
+												<div class="py-2 col-6 border-right border-dark"><strong>Sie</strong></div>
 												<div class="bg-light py-2 col-6"><strong>sind</strong></div>
 											</div>
 											<div class="row">
@@ -185,11 +185,11 @@
 									</tr>
 									<tr>
 										<td class="border-top-0 border-bottom-0 border-dark border">Guten Morgen!</td>
-										<td class="bg-light border border-dark border-top-0">Auf Wiedershen!</td>
+										<td class="bg-light border border-dark border-top-0">Auf Wiedersehen!</td>
 									</tr>
 									<tr>
 										<td class="border-top-0 border-bottom-0 border-dark border">Guten Tag!</td>
-										<td class="border border-dark border-bottom-0">Enschuldigung.</td>
+										<td class="border border-dark border-bottom-0">Entschuldigung.</td>
 									</tr>
 									<tr>
 										<td class="border-top-0 border-bottom-0 border-dark border">Guten Abend!</td>
@@ -266,10 +266,11 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+	<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

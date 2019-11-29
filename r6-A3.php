@@ -15,16 +15,16 @@
 					Staub saugen<span class="tran"><br><small>(진공청소기로) 청소하다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="2">
-					die Wäsche auf|hängen<span class="tran"><br><small>씻다</small></span>
+					die Wäsche auf|hängen<span class="tran"><br><small>빨래를 널다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark so itm" id="3">
 					den Mülleimer aus|leeren<span class="tran"><br><small>쓰레기통을 비우다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="4">
-					ein|kaufen<span class="tran"><br><small>구매하다</small></span>
+					ein|kaufen<span class="tran"><br><small>장을 보다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="5">
-					eine Pause machen<span class="tran"><br><small>쉬다</small></span>
+					(eine) Pause machen<span class="tran"><br><small>쉬다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
 					auf|räumen<span class="tran"><br><small>정리하다</small></span>
@@ -242,7 +242,7 @@
 <div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -280,7 +280,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -315,7 +315,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -398,29 +398,85 @@
 
 					// 정답확인
 					$("#chk").on("click", function() {
-						var na="";
-						if($("#itms").find("button").length < 1) {
-							$(".tran").show();
-							$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-							$(this).removeClass("btn-light");
-							$(this).addClass("btn-primary");
-							$(".btn-lg").text().appendTo($(this).closest("td"));
-							$(".btn-lg").remove();
+			if ($(".an").length < $(".q").length) {
+				var na="";
+				$(".q").each(function() {
+					if ( !$(this).find("div").hasClass("an")) {
+						if (na !="") {
+							na +=", ";
 						}
-						else {
-							$("div.itm-lst").each(function(idx) {
-								if( !$(this).find("button").length) {
-									if(na !="") {
-										na +=", ";
-									}
-									na +=(idx+1);
-								}
-							}
-							);
-							alert("모든 문제를 풀어주세요!");
-							// alert(na+"번 문제를 풀어주세요!");
-						}
+						na +=$(this).attr("id");
 					}
+					;
+				}
+				);
+				alert(na + "번 문제를 풀어주세요.");
+			}
+			else {
+				$(".itm").each(function() {
+					if($(this).parent().attr("id").length > 5) {
+						var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+					} else {
+						var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+					}
+					$(".tran").show();
+					if($(this).hasClass("ans"+ (a))) {
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else {
+						$(this).addClass("text-warning font-weight-bold");
+						$(this).find(".tran").show();
+
+					}
+					;
+
+					if($(this).hasClass("text-warning")) {
+						// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+						for(var i = 1; i <= $(".itm-lst").length; i++) {
+							if($(this).hasClass("ans"+i)) {
+								$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger font-weight-bold\">" + $(this).html() + "</button>");
+								// $(lstn).append(i);
+							}
+						}
+					};
+
+				}
+				);
+
+
+				$(".pop").each(function() {
+					$(this).removeClass("btn-info");
+					if ($(this).hasClass("o") && $(this).hasClass("an")) {
+						$(this).removeClass("btn-warning");
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else if ($(this).hasClass("o")) {
+						$(this).addClass("text-danger font-weight-bold");
+					}
+					else if ($(this).hasClass("an")) {
+						$(this).addClass("btn-warning");
+					}
+					else {
+						$(this).addClass("btn-light");
+					}
+					;
+				}
+				);
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
+			}
+			;
+		}
 					);
 					$("#0").show();
 					$(".alert").hide();

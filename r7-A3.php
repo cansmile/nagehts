@@ -83,10 +83,10 @@
 									<span class="tran"><br><small>나 금요일 점심에 시티투어와 미술관 관람 할거야. 너도 갈래?</small></span></td>
 									<td>
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
-											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option7">Ja , das geht.</label>
 											</div>
-											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option2" autocomplete="off"><label for="option8">Nein, das geht leider nicht !</label>
 											</div>
 										</div>
@@ -110,7 +110,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -124,7 +124,7 @@
 
 				ion.sound({
 					sounds : [{
-						name : "Bama_Country_Country",
+						name : "dingdongdang",
 					}, {
 						name : "Cartoon_Boing",
 					}],
@@ -136,7 +136,7 @@
 
 						
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				});
 
 				$(".x").on("click", function() {
@@ -209,15 +209,15 @@
 
 						$(this).removeClass("btn-light ");
 						if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
+							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!</h4>");
 							$(this).addClass("btn-danger");
 
 						} else if ($(".btn-success").length == $(".q").length) {
-							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 							$(this).addClass("btn-success");
 
 						} else {
-							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+							$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 							$(this).addClass("btn-warning");
 
 						};

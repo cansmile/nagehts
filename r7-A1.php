@@ -357,8 +357,8 @@
 						<tr>
 							<td width="50%">
 								<strong>Wohin gehen?</strong><br>
-								<span class="ml-3">• in den(m), die(f), ins (n) + Haus und Gebäude, Ort</span><br>
-								<span class="ml-3">• zum (m,n) zur(f) + Aktivitäten, Person</span><br>
+								<span class="ml-3">• in den (m), die (f), ins (n) + Haus und Gebäude, Ort</span><br>
+								<span class="ml-3">• zum (m,n) zur (f) + Aktivitäten, Person</span><br>
 							</td>
 							<td class="align-middle text-center">
 								<table class="table">
@@ -413,7 +413,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -441,7 +441,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -476,7 +476,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -559,7 +559,7 @@
 						var na="";
 						if($("#itms").find("button").length < 1) {
 							$(".tran").show();
-							$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+							$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 							$(this).removeClass("btn-light");
 							$(this).addClass("btn-primary");
 							$(".btn-lg").text().appendTo($(this).closest("td"));

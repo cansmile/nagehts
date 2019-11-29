@@ -75,12 +75,19 @@
 					성 <strong>Familennamen</strong></h2>&nbsp;
 				</div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 		<!-- 리스트 끝 -->
 	</section>
 	<div id="marg"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -89,38 +96,95 @@
 	<script src="./js/ion.sound.min.js"></script>
 	<script>
 		$("#chk").hide();
-		$(document).ready(function() {
-			ion.sound( {
-				sounds : [ {
-					name: "Cartoon_Boing",
+	$(document).ready(function() {
+		// 정답확인
+		$("#chk").on("click", function() {
+			if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+				$(this).attr("id", "done");
+				$(".itm").each(function() {
+					if($(this).parent().attr("id").length > 5) {
+						var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+					} else {
+						var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+					}
+					$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else {
+						$(this).addClass("text-warning font-weight-bold");
+						$(this).find(".tran").show();
+
+					}
+					;
+
+					if($(this).hasClass("text-warning")) {
+						// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+						for(var i = 1; i <= $(".itm-lst").length; i++) {
+							if($(this).hasClass("ans"+i)) {
+								$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block bg-white text-danger font-weight-bold\">" + $(this).html() + "</button>");
+								// $(lstn).append(i);
+							}
+						}
+					};
+
 				}
-				],
-				path : "sounds/",
-				preload : true,
-				volume : 1.0,
-				multiplay : false
+			);
+
+
+			$(".pop").each(function() {
+				$(this).removeClass("btn-info");
+				if ($(this).hasClass("o") && $(this).hasClass("an")) {
+					$(this).removeClass("btn-warning");
+					$(this).addClass("text-success font-weight-bold");
+				}
+				else if ($(this).hasClass("o")) {
+					$(this).addClass("text-danger font-weight-bold");
+				}
+				else if ($(this).hasClass("an")) {
+					$(this).addClass("btn-warning");
+				}
+				else {
+					$(this).addClass("btn-light");
+				}
+				;
 			}
 			);
-			<?php include "wahl.php"; ?>
-			// 미리 답 넣어놓기
-			var pan=new Array();
-			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
-			pan=[1, 3, 8];
-			for(var p=0;
-			p < pan.length;
-			p++) {
-				var pani="#"+pan[p];
-				for(var i=0;
-				i < $(".itm-lst").length;
-				i++) {
-					if($(pani).hasClass("ans"+ (i+1))) {
-						$(pani).insertAfter($("#lst-"+ (i+1) + ">h2"));
-						$(pani).addClass("btn-block btn-light");
-					}
+
+			if($(".itm").length==$(".itm.text-success").length) {
+				ion.sound.play("dingdongdang");
+				$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+				$(this).addClass("bg-success font-weight-bold text-white");
+			}
+			else {
+				ion.sound.play("Cartoon_Boing");
+				$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+				$(this).addClass("bg-orange font-weight-bold text-white");
+			}
+			;
+		}
+		}
+		);
+		<?php include "wahl.php"; ?>
+		// 미리 답 넣어놓기
+		var pan=new Array();
+		// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
+		pan=[1, 3, 8];
+		for(var p=0;
+		p < pan.length;
+		p++) {
+			var pani="#"+pan[p];
+			for(var i=0;
+			i < $(".itm-lst").length;
+			i++) {
+				if($(pani).hasClass("ans"+ (i+1))) {
+					$(pani).insertAfter($("#lst-"+ (i+1) + ">h2"));
+					$(pani).addClass("btn-block btn-light");
 				}
 			}
 		}
-		);
+	}
+	);
 
 	</script>
 	<? } ?>

@@ -80,19 +80,19 @@
 						<tbody>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="4" class="so btn btn-outline-primary">▶</button></td>
-								<td class="border-0 align-middle">Ich möchte gern zum Fußballspiel gehen. <span class="tran"><br><small>나 축구하러 가려고해.</small></span></td>
+								<td class="border-0 align-middle">Ich möchte gern zum Fußballspiel gehen. <span class="tran"><br><small>나 축구하러 가려고 해.</small></span></td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="5" class="so btn btn-outline-primary">▶</button></td>
-								<td class="border-0 align-middle">Ich möchte gern ins Konzert gehen. <span class="tran"><br><small>나 콘서트에 가려고해</small></span></td>
+								<td class="border-0 align-middle">Ich möchte gern ins Konzert gehen. <span class="tran"><br><small>나 콘서트에 가려고 해.</small></span></td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
-								<td class="border-0 align-middle">Ich möchte gern ins Kino gehen. <span class="tran"><br><small>나 영화관에 가려고해.</small></span></td>
+								<td class="border-0 align-middle">Ich möchte gern ins Kino gehen. <span class="tran"><br><small>나 영화관에 가려고 해.</small></span></td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="7" class="so btn btn-outline-primary">▶</button></td>
-								<td class="border-0 align-middle">Ich möchte gern essen gehen. <span class="tran"><br><small>나 먹으러 가려고해.</small></span></td>
+								<td class="border-0 align-middle">Ich möchte gern essen gehen. <span class="tran"><br><small>나 먹으러 가려고 해.</small></span></td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="8" class="so btn btn-outline-primary">▶</button></td>
@@ -160,7 +160,7 @@
 							</tr>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="15" class="so btn btn-outline-success">▶</button></td>
-								<td class="border-0 align-middle">Bei mir zu Hause. <span class="tran"><br><small>우리집에서.</small></span></td>
+								<td class="border-0 align-middle">Bei mir zu Hause. <span class="tran"><br><small>우리 집에서.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -214,7 +214,7 @@
 							</tr>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="18" class="so btn btn-outline-danger">▶</button></td>
-								<td class="border-0 align-middle">Ich muss lernen. <span class="tran"><br><small>나 공부해야해.</small></span></td>
+								<td class="border-0 align-middle">Ich muss lernen. <span class="tran"><br><small>나 공부해야 해.</small></span></td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle" width="50"><button type="button" id="19" class="so btn btn-outline-danger">▶</button></td>
@@ -231,7 +231,7 @@
 		</div>
 	</section>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -279,7 +279,7 @@
 							"20": [166.55,4.15]
 						}
 					},{
-						name : "Bama_Country_Country",
+						name : "dingdongdang",
 						path : "sounds/"
 					}, {
 						name : "Cartoon_Boing",
@@ -316,7 +316,7 @@
 					}, ready_callback: function () {
 						
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				});
 
 				$(".x").on("click", function() {

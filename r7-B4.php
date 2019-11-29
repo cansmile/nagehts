@@ -62,7 +62,7 @@
 					<!-- 고르는 아이템들 -->
 		<div class="row">
 			<div class="col-lg-12 mb-4 mt-2 text-center">
-				<h2>Hier sind die Antworten. <small>질문이 주어져 있어요.</small></h2>
+				<h2>Fragen Sie und reagieren Sie.<small>질문하고 반응해 보세요.</small></h2>
 				<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
 			</div>
 		</div>
@@ -196,7 +196,7 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.js"></script>
@@ -217,7 +217,7 @@
 		if($("#itms").find("button").length < 1) {
 			$(".tran").show();
 
-			$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+			$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 			$(this).removeClass("btn-light");
 			$(this).addClass("btn-primary");
 			$(".btn-lg").text().appendTo($(this).closest("td"));
@@ -248,7 +248,7 @@
 				$("#" + $(this).attr("id")).addClass("btn-block font-weight-bold");
 				$("#" + $(this).attr("id")).addClass("border-0");
 				$("#lst-" + pan[p] + ">h2").remove();
-				$("#lst-" + pan[p]).parent().find(".tran").show();
+				// $("#lst-" + pan[p]).parent().find(".tran").show();
 			}
 		})
 	}

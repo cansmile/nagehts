@@ -2,42 +2,38 @@
 <body>
 	<?php include "nav.php"; ?>
 	<?php if(ul()) { ?>
-	<style>
-		.itm-lst>button:after {content: ".";}
-		.itm-lst>button {word-break: keep-all;}
-	</style>
 	<!-- 보기시작 -->
 	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm" id="1">
-					<span class="tran"><small>짜요.</small><br></span>salzig
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-sm btn-outline-dark itm" id="1">
+					salzig<span class="tran"><br /><small>짜요.</small></span>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm" id="2">
-					<span class="tran"><small>딱딱해요.</small><br></span>hart
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm" id="2">
+					hart<span class="tran"><br /><small>딱딱해요.</small></span>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans7 btn-sm btn-outline-dark itm" id="3">
-					<span class="tran"><small>너무 달아요.</small><br></span>zu süß
+					<button type="button" class="mt-1 mx-1 btn ans8 btn-sm btn-outline-dark itm" id="3">
+					zu süß<span class="tran"><br /><small>너무 달아요.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm" id="4">
-					<span class="tran"><small>미지근해요.</small><br></span>warm
+					warm<span class="tran"><br /><small>미지근해요.</small></span>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm" id="5">
-					<span class="tran"><small>차가워요.</small><br></span>kalt
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm" id="5">
+					kalt<span class="tran"><br /><small>차가워요.</small></span>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans6 btn-sm btn-outline-dark itm" id="6">
-					<span class="tran"><small>너무 매워요.</small><br></span>zu scharf
+					<button type="button" class="mt-1 mx-1 btn ans7 btn-sm btn-outline-dark itm" id="6">
+					zu scharf<span class="tran"><br /><small>너무 매워요.</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm" id="7">
-					<span class="tran"><small>말랐어요.</small><br></span>trocken
+					trocken<span class="tran"><br /><small>말랐어요.</small></span>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans8 btn-sm btn-outline-dark itm" id="8">
-					<span class="tran"><small>신선하지 않아요.</small><br></span>nicht frisch
+					<button type="button" class="mt-1 mx-1 btn ans9 btn-sm btn-outline-dark itm" id="8">
+					nicht frisch<span class="tran"><br /><small>신선하지 않아요.</small></span>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm" id="9">
-					<span class="tran"><small>너무 써요.</small><br></span>zu bitter
+					<button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm" id="9">
+					zu bitter<span class="tran"><br /><small>너무 써요.</small></span>
 					</button>
 				</div>
 			</div>
@@ -128,7 +124,7 @@
 							<tr>
 								<td class="border-0">
 									<span class="tran"><small>딱딱해요.</small></span>
-									<div class="itm-lst 1itm" id="lst-2">
+									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
@@ -147,7 +143,7 @@
 							<tr>
 								<td class="border-0">
 									<span class="tran"><small>차가워요.</small></span>
-									<div class="itm-lst 1itm" id="lst-3">
+									<div class="itm-lst 1itm" id="lst-4">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
@@ -166,7 +162,7 @@
 								<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>맥주가</small><br></span>Das Bier ist</th>
 								<td class="border-0">
 									<span class="tran"><small>너무 써요.</small></span>
-									<div class="itm-lst 1itm" id="lst-4">
+									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
@@ -185,7 +181,7 @@
 								<th scope="row" rowspan="2" class="border-0"><span class="tran"><small>스프가</small><br></span>Die Suppe ist</th>
 								<td class="border-0">
 									<span class="tran"><small>짜요.</small></span>
-									<div class="itm-lst 1itm" id="lst-5">
+									<div class="itm-lst 1itm" id="lst-6">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
@@ -207,7 +203,7 @@
 							<tr>
 								<td class="border-0">
 									<span class="tran"><small>너무 매워요.</small></span>
-									<div class="itm-lst 1itm" id="lst-6">
+									<div class="itm-lst 1itm" id="lst-7">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
@@ -225,8 +221,8 @@
 							</tr>
 							<tr>
 								<td class="border-0">
-									<span class="tran"><small>달아요.</small></span>
-									<div class="itm-lst 1itm" id="lst-7">
+									<span class="tran"><small>너무 달아요.</small></span>
+									<div class="itm-lst 1itm" id="lst-8">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
@@ -245,7 +241,7 @@
 							<tr>
 								<td class="border-0">
 									<span class="tran"><small>신선하지 않아요.</small></span>
-									<div class="itm-lst 1itm" id="lst-8">
+									<div class="itm-lst 1itm" id="lst-9">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
@@ -268,7 +264,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -287,23 +283,70 @@
 
 			// 정답확인
 			$("#chk").on("click", function() {
-				var na="";
-				if($("#itms").find("button").length < 1) {
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
 					$(".tran").show();
-					$(".itm-lst").each(function() {
-						$(this).html($(this).find("button").html());
-						$(this).addClass("font-weight-bold");
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+						}
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
+						}
+						else {
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
+
+						}
+						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-md btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+								}
+							}
+						};
+
 					}
-					);
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-					$(this).removeClass("btn-light");
-					$(this).addClass("btn-primary");
-					$(".btn-lg").text().appendTo($(this).closest("td"));
-					$(".btn-lg").remove();
+				);
+
+
+				$(".pop").each(function() {
+					$(this).removeClass("btn-info");
+					if ($(this).hasClass("o") && $(this).hasClass("an")) {
+						$(this).removeClass("btn-warning");
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else if ($(this).hasClass("o")) {
+						$(this).addClass("text-danger font-weight-bold");
+					}
+					else if ($(this).hasClass("an")) {
+						$(this).addClass("btn-warning");
+					}
+					else {
+						$(this).addClass("btn-light");
+					}
+					;
+				}
+				);
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
 				}
 				else {
-					alert("모든 문제를 풀어주세요!");
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
 				}
+				;
+			}
 			}
 			);
 		}

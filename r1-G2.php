@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 <body>
 	<?php include "nav.php"; ?>
+	<?php if(ul()) { ?>
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
 	<!-- 보기시작 -->
@@ -213,9 +214,8 @@
 	
 	<div id="marg"></div>
 	
-	<?php include "footer.php"; ?>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -266,7 +266,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -336,46 +336,51 @@
 
 					// 정답확인
 					$("#chk").on("click", function() {
-						if ($("#itms").find("button").length > 0) {
-							var na="";
-							$(".itm").each(function() {
-								if ($(this).parent("#itms").length) {
-									if (na !="") {
-										na +=", ";
-									}
-									na +=$(this).attr("id");
-								}
-								;
-							}
-							);
-							alert(na + "번 항목을 넣어주세요.");
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+						}
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
 						}
 						else {
-							$(".pop").each(function() {
-								$(this).removeClass("btn-info");
-								if ($(this).hasClass("o") && $(this).hasClass("an")) {
-									$(this).removeClass("btn-warning");
-									$(this).addClass("btn-success");
-								}
-								else if ($(this).hasClass("o")) {
-									$(this).addClass("btn-primary");
-								}
-								else if ($(this).hasClass("an")) {
-									$(this).addClass("btn-warning");
-								}
-								else {
-									$(this).addClass("btn-light");
-								}
-								;
-							}
-							);
-							$(".tran").show();
-							$(this).removeClass("btn-light ");
-							$(this).html("<h4>문제를 모두 맞추셨네요!<br>훌륭합니다!</h4>");
-							$(this).addClass("btn-primary");
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
+
 						}
 						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+									// $(lstn).append(i);
+								}
+							}
+						};
+
 					}
+				);
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
+			}
+			}
 					);
 					// 준비되면 HV 보이기
 					$("#0").show();
@@ -388,6 +393,7 @@
 
 	</script>
 	<!-- ion.sound finished -->
+	<? } ?>
 	<?php include "footer.php"; ?><!-- 알림 시작 -->
 </body>
 </html>

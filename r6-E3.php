@@ -24,25 +24,25 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-center border-0 align-middle">6.05</td>
+									<td class="text-center border-0 align-middle" id="t1">6.05</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">2.15</td>
+									<td class="text-center border-0 align-middle" id="t2">2.15</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">13.00</td>
+									<td class="text-center border-0 align-middle" id="t3">13.00</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">15.45</td>
+									<td class="text-center border-0 align-middle" id="t4">15.45</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">8.25</td>
+									<td class="text-center border-0 align-middle" id="t5">8.25</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">14.57</td>
+									<td class="text-center border-0 align-middle" id="t6">14.57</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">6.03</td>
+									<td class="text-center border-0 align-middle" id="t7">6.03</td>
 								</tr>
 							</tbody>
 						</table>
@@ -56,58 +56,58 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b1">
 										<div class="ant" id="ant-1"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-1">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-1">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b2">
 										<div class="ant" id="ant-3"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-3">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-3">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b3">
 										<div class="ant" id="ant-5"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-5">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-5">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b4">
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-7">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-7">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b5">
 										<div class="ant" id="ant-9"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-9">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-9">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b6">
 										<div class="ant" id="ant-11"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-11">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-11">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b7">
 										<div class="ant" id="ant-13"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-13">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-13">
 										</div>
 									</td>
 								</tr>
@@ -123,25 +123,25 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-center border-0 align-middle">6.05</td>
+									<td class="text-center border-0 align-middle" id="t8">6.05</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">2.15</td>
+									<td class="text-center border-0 align-middle" id="t9">2.15</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">13.00</td>
+									<td class="text-center border-0 align-middle" id="t10">13.00</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">15.45</td>
+									<td class="text-center border-0 align-middle" id="t11">15.45</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">8.25</td>
+									<td class="text-center border-0 align-middle" id="t12">8.25</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">14.57</td>
+									<td class="text-center border-0 align-middle" id="t13">14.57</td>
 								</tr>
 								<tr>
-									<td class="text-center border-0 align-middle">6.03</td>
+									<td class="text-center border-0 align-middle" id="t14">6.03</td>
 								</tr>
 							</tbody>
 						</table>
@@ -155,58 +155,58 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b8">
 										<div class="ant" id="ant-2"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-2">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-2">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b9">
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-4">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-4">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b10">
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-6">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-6">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b11">
 										<div class="ant" id="ant-8"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-8">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-8">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b12">
 										<div class="ant" id="ant-10"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-10">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-10">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b13">
 										<div class="ant" id="ant-12"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-12">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-12">
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle">
+									<td class="border-0 align-middle" id="b14">
 										<div class="ant" id="ant-14"></div>
 										<div class="input-group">
-											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q" aria-label="." id="qst-14">
+											Es ist&nbsp;<input type="text" style="position: relative; top; -35px;" class="d-inline-block form-control q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-14">
 										</div>
 									</td>
 								</tr>
@@ -228,7 +228,7 @@
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -240,7 +240,25 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = [["sechs Uhr fünf", "6 Uhr 5"],["fünf nach sechs", "5 nach 6"],["zwei Uhr fünfzehn", "2 Uhr 15"],["Viertel nach zwei", "Viertel nach 2"],["dreizehn Uhr", "13 Uhr"],["eins", "ein Uhr"],["fünfzehn Uhr fünfundvierzig", "15 Uhr 45"],["Viertel vor vier", "Viertel vor 4"],["acht Uhr fünfundzwanzig", "8 Uhr 25"],["fünf vor halb neun", "5 Vor halb 9"],["vierzehn Uhr siebenundfünfzig", "14 Uhr 57"],["kurz vor drei", "kurz vor 3"],["sechs Uhr drei", "6 Uhr 3"],["kurz nach sechs", "kurz nach 6"]];
+			var an = [["sechs Uhr fünf", "6 Uhr 5"],["fünf nach sechs", "5 nach 6"],["zwei Uhr fünfzehn", "2 Uhr 15"],["Viertel nach zwei", "Viertel nach 2"],["dreizehn Uhr", "13 Uhr", "1", "1 Uhr"],["eins", "ein Uhr", "1", "1 Uhr"],["fünfzehn Uhr fünfundvierzig", "15 Uhr 45"],["Viertel vor vier", "Viertel vor 4"],["acht Uhr fünfundzwanzig", "8 Uhr 25", "5 vor halb 9"],["fünf vor halb neun", "5 Vor halb 9"],["vierzehn Uhr siebenundfünfzig", "14 Uhr 57"],["kurz vor drei", "kurz vor 3"],["sechs Uhr drei", "6 Uhr 3"],["kurz nach sechs", "kurz nach 6"]];
+
+			function checkHeight() {
+				// 좌우 셀 높이 맞추어 주기
+				var tbn = 7; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
+				for(var i = 1; i <= tbn; i++) {
+					if( $("#b"+i).height() > $("#b"+(i+tbn)).height() ) {
+						$("#t"+(i+tbn)).height($("#b"+i).height());
+						$("#t"+(i)).height($("#b"+i).height());
+						$("#b"+(i+tbn)).height($("#b"+i).height());
+					} else if( ($("#b"+i).height() < $("#b"+(i+tbn)).height()) || ($("#b"+i).height() == $("#b"+(i+tbn)).height()) ) {
+						$("#t"+(i)).height($("#b"+(i+tbn)).height());
+						$("#t"+(i+tbn)).height($("#b"+(i+tbn)).height());
+						$("#b"+(i)).height($("#b"+(i+tbn)).height());
+					}
+				}
+			}
+
+			$(document).on("click", function() { checkHeight(); });
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
@@ -342,7 +360,7 @@ function rfchk(th,io) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("Bama_Country_Country");
+							ion.sound.play("dingdongdang");
 							$(this).prop("disabled",true);
 						}
 					}
@@ -356,54 +374,63 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i][0]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
+
+							checkHeight();
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 				// $("#qst-2").val(an[1]);
 				// $("#qst-2").prop("disabled",true);
 				// $("#qst-2").closest("tr").find(".tran").show();

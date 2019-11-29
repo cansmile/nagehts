@@ -66,7 +66,7 @@
 													▼ </h2>
 											</div>
 											&nbsp;Ich gehe am Samstag in die Kirche.
-											<span class="tran"><br><small>아쉽지만 난 못갈 것 같아. 나 토요일에 교회가.</small></span>
+											<span class="tran"><br><small>아쉽지만 난 못갈 것 같아. 나 토요일에 교회 가.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -138,7 +138,7 @@
 	<div id="marg"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -160,7 +160,7 @@
 				if($("#itms").find("button").length == $("#itms").find("button.ans0").length) {
 					$(".tran").show();
 
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 					$(".btn-lg").text().appendTo($(this).closest("td"));

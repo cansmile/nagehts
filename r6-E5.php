@@ -9,7 +9,7 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
-					einkaufen<span class="tran"><br><small>구입하다</small></span>
+					einkaufen<span class="tran"><br><small>쇼핑하다, 장을보다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
 					zuhören<span class="tran"><br><small>경청하다</small></span>
@@ -48,7 +48,7 @@
 					schlafen<span class="tran"><br><small>자다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="14">
-					bestehen<span class="tran"><br><small>존재하다</small></span>
+					bestehen<span class="tran"><br><small>합격하다</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="15">
 					einschlafen<span class="tran"><br><small>잠들다</small></span>
@@ -71,13 +71,7 @@
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2>[ <small>단어를 알맞은 칸(einfache Verben, trennbare Verben, untrennbare Verben)에 넣으세요.</small> ]
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
-					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-					❚❚
-					</button>
-					</h2>
+					<h2>[ <small>단어를 알맞은 칸(einfache Verben, trennbare Verben, untrennbare Verben)에 넣으세요.</small> ]</h2>
 				</div>
 			</div>
 			<!-- 리스트  시작 -->
@@ -108,7 +102,7 @@
 </section>
 <div id="marg"></div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.js"></script>
@@ -122,29 +116,71 @@
 		<?php include "wahl.php";
 		?> // 정답확인
 		$("#chk").on("click", function() {
-			var na="";
-			if($("#itms").find("button").length < 1) {
-				$(".tran").show();
-				$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-				$(this).removeClass("btn-light");
-				$(this).addClass("btn-primary");
-				$(".btn-lg").text().appendTo($(this).closest("td"));
-				$(".btn-lg").remove();
-			}
-			else {
-				$("div.itm-lst").each(function(idx) {
-					if( !$(this).find("button").length) {
-						if(na !="") {
-							na +=", ";
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
-						na +=(idx+1);
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
+						}
+						else {
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
+
+						}
+						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+									// $(lstn).append(i);
+								}
+							}
+						};
+
 					}
+				);
+
+
+				$(".pop").each(function() {
+					$(this).removeClass("btn-info");
+					if ($(this).hasClass("o") && $(this).hasClass("an")) {
+						$(this).removeClass("btn-warning");
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else if ($(this).hasClass("o")) {
+						$(this).addClass("text-danger font-weight-bold");
+					}
+					else if ($(this).hasClass("an")) {
+						$(this).addClass("btn-warning");
+					}
+					else {
+						$(this).addClass("btn-light");
+					}
+					;
 				}
 				);
-				alert("모든 문제를 풀어주세요!");
-				// alert(na+"번 문제를 풀어주세요!");
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
 			}
-		}
+			}
 		);
 		// $("#0").show();
 		var pan=new Array();

@@ -10,8 +10,8 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Hören Sie und sprechen Sie nach.<br>
-							<small>듣고 따라 하세요.</small>
+						<h2>Hören Sie und Ergänzen Sie mit Verben.<br>
+							<small>듣고 동사를 채우세요.</small>
 						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
 						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
@@ -40,7 +40,34 @@
 									<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
 									<td><div class="row">
 										<div class="col-2"><strong>Frau Klein</strong><span class="tran"><br><small><strong>클라인 선생님</strong></small></span></div>
-										<div class="col-10">Guten Tag, ich heiße Heike Klein. Ich bin Ihre Deutschlehrerin.<span class="tran"><br><small>안녕하세요, 저는 하이케 클라인이라고 해요. 저는 여러분의 독일어 선생님에요.</small></span></div>
+										<div class="col-10">
+											<span class="sen">Guten Tag, ich <span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option1" autocomplete="off">heiße
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option2" autocomplete="off">heißt
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option3" autocomplete="off">heißen
+													</div>
+												</div> Heike Klein.<span class="ans">&nbsp;</span>
+											</span>
+											<span class="sen">Ich <span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option4" autocomplete="off">bin
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option5" autocomplete="off">sind
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option6" autocomplete="off">ist
+													</div>
+												</div> Ihre Deutschlehrerin.<span class="ans">&nbsp;</span>
+											</span>
+										  <span class="tran"><br><small>안녕하세요, 저는 하이케 클라인이라고 해요. 저는 여러분의 독일어 선생님에요.</small></span></div>
 									</div>
 								</td>
 								</tr>
@@ -56,7 +83,21 @@
 									<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></th>
 									<td><div class="row">
 										<div class="col-2"><strong>Frau Klein</strong><span class="tran"><br><small><strong>클라인 선생님</strong></small></span></div>
-										<div class="col-10">Wer ist Hyun Kim?<span class="tran"><br><small>김현이 누구인가요?</small></span></div>
+										<div class="col-10">
+											<span class="sen">Wer <span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">bin
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option5" autocomplete="off">sind
+													</div>
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option6" autocomplete="off">ist
+													</div>
+												</div> Hyun Kim?<span class="ans">&nbsp;</span>
+											</span>
+										  <span class="tran"><br><small>김현이 누구인가요?</small></span></div>
 									</div>
 								</td>
 								</tr>
@@ -64,7 +105,21 @@
 									<th scope="row"><button type="button" id="4" class="so btn btn-outline-info">▶</button></th>
 									<td><div class="row">
 										<div class="col-2"><strong>Hyun</strong><span class="tran"><br><small><strong>현</strong></small></span></div>
-										<div class="col-10">Das bin ich.<span class="tran"><br><small>저에요.</small></span></div>
+										<div class="col-10">
+											<span class="sen">Das <span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option4" autocomplete="off">bin
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option5" autocomplete="off">sind
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option6" autocomplete="off">ist
+													</div>
+												</div> ich.<span class="ans">&nbsp;</span>
+											</span>
+										  <span class="tran"><br><small>저에요.</small></span></div>
 									</div>
 								</td>
 								</tr>
@@ -72,7 +127,21 @@
 									<th scope="row"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></th>
 									<td><div class="row">
 										<div class="col-2"><strong>Frau Klein</strong><span class="tran"><br><small><strong>클라인 선생님</strong></small></span></div>
-										<div class="col-10">Ist Minjung Kim da?<span class="tran"><br><small>김 민정은 있나요?</small></span></div>
+										<div class="col-10">
+											<span class="sen"><span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-5">
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">Bin
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option5" autocomplete="off">Sind
+													</div>
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option6" autocomplete="off">Ist
+													</div>
+												</div> Minjung Kim da?<span class="ans">&nbsp;</span>
+											</span>
+										  <span class="tran"><br><small>김민정은 있나요?</small></span></div>
 									</div>
 								</td>
 								</tr>
@@ -80,7 +149,21 @@
 									<th scope="row"><button type="button" id="6" class="so btn btn-outline-success">▶</button></th>
 									<td><div class="row">
 										<div class="col-2"><strong>Studenten</strong><span class="tran"><br><small><strong>학생들</strong></small></span></div>
-										<div class="col-10">Nein, Minjung ist nicht da.<span class="tran"><br><small>아뇨, 민정이는 없어요.</small></span></div>
+										<div class="col-10">
+											<span class="sen">Nein, Minjung <span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-6">
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">bin
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option5" autocomplete="off">sind
+													</div>
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option6" autocomplete="off">ist
+													</div>
+												</div> nicht da.<span class="ans">&nbsp;</span>
+											</span>
+										  <span class="tran"><br><small>아뇨, 민정이는 없어요.</small></span></div>
 									</div>
 								</td>
 								</tr>
@@ -88,7 +171,21 @@
 									<th scope="row"><button type="button" id="7" class="so btn btn-outline-danger">▶</button></th>
 									<td><div class="row">
 										<div class="col-2"><strong>Frau Klein</strong><span class="tran"><br><small><strong>클라인 선생님</strong></small></span></div>
-										<div class="col-10">Sind Sie Bokum Park?<span class="tran"><br><small>박보검 인가요?</small></span></div>
+										<div class="col-10">
+											<span class="sen"><span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-7">
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">Bin
+													</div>
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option5" autocomplete="off">Sind
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option6" autocomplete="off">Ist
+													</div>
+												</div> Sie Bokum Park?<span class="ans">&nbsp;</span>
+											</span>
+										  <span class="tran"><br><small>박보검 인가요?</small></span></div>
 									</div>
 								</td>
 								</tr>
@@ -96,7 +193,21 @@
 									<th scope="row"><button type="button" id="8" class="so btn btn-outline-primary">▶</button></th>
 									<td><div class="row">
 										<div class="col-2"><strong>William</strong><span class="tran"><br><small><strong>윌리엄</strong></small></span></div>
-										<div class="col-10">Nein, ich heiße William Park.<span class="tran"><br><small>아뇨, 저는 윌리엄박이에요.</small></span></div>
+										<div class="col-10">
+											<span class="sen">Nein, ich  <span class="nu"></span>
+												<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
+													<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option1" autocomplete="off">heiße
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option2" autocomplete="off">heißt
+													</div>
+													<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option3" autocomplete="off">heißen
+													</div>
+												</div> William Park.<span class="ans">&nbsp;</span>
+											</span>
+											<span class="tran"><br><small>아뇨, 저는 윌리엄 박이에요.</small></span></div>
 									</div>
 								</td>
 								</tr>
@@ -112,6 +223,13 @@
 						</table>
 					</div>
 				</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 	<div class="container">
 
@@ -123,8 +241,8 @@
 						<th scope="row" class="border-top-0">
 							<div class="row text-center">
 								<div class="col-3"><span class="p-1 m-1 px-2 bg-lime">TIPP</span></div>
-								<div class="col-3">da <small>이것</small></div>
-								<div class="col-3">nicht <small>아니다</small></div>
+								<div class="col-3">da <small>여기, 거기(있는, 출석한)</small></div>
+								<div class="col-3">nicht da<small>(없는, 결석한)</small></div>
 								<div class="col-3">Entschldigung <small>실례합니다</small></div>
 							</div></th>
 					</tr>
@@ -214,17 +332,21 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
 		<script src="./js/taptogroup.js"></script>
 		<!-- interact.min.js -->
 		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+<?php require_once("./oxsound.php"); ?>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
 			$(".tran").hide();
+			$(".nu").hide();
 
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
@@ -251,7 +373,7 @@
 							"9": [47,1.9]
 						}
 					},{
-						name : "Bama_Country_Country",
+						name : "dingdongdang",
 						path : "sounds/"
 					}, {
 						name : "Cartoon_Boing",
@@ -285,14 +407,6 @@
 						}
 
 					}, ready_callback: function () {
-						
-				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
-				});
-
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
 
 				$("[data-toggle='popover']").popover({
 					delay : {
@@ -321,6 +435,66 @@
 					$(".pop").popover('hide');
 				}, 500);
 			});
+
+						// 정답확인
+						$("#chk").on("click", function() {
+							if ($(".an").length < $(".q").length) {
+								var na = "";
+								$(".q").each(function() {
+									if (!$(this).find("div").hasClass("an")) {
+										if (na != "") {
+											na += ", ";
+										}
+										na += $(this).attr("id").substr(-1);
+									};
+								});
+
+								alert("모든 문제를 풀어주세요.");
+								// alert(na + "번 문제를 풀어주세요.");
+							} else {
+								$(".pop").each(function() {
+									$(this).removeClass("btn-info");
+
+									if ($(this).hasClass("o") && $(this).hasClass("an")) {
+										$(this).removeClass("btn-warning");
+										$(this).addClass("btn-success");
+										$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
+										$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+									} else if ($(this).hasClass("o")) {
+										$(this).addClass("btn-<?php echo($color); ?>");
+										$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
+										$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
+										$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");
+									} else if ($(this).hasClass("an")) {
+										$(this).addClass("btn-warning");
+										$(this).closest("td").find(".nu").text($.trim($(this).text()));
+									} else {
+										$(this).addClass("btn-light");
+									};
+									$(this).remove();
+								});
+								$(".tran").show();
+								$(".nu").show();
+								$(".q").hide();
+								
+
+
+								$(this).removeClass("btn-light ");
+								if ($(".bg-success.font-weight-bold").length < Math.ceil($(".q").length/2)) {
+									$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!</h4>");
+									$(this).addClass("btn-danger");
+
+								} else if ($(".btn-success").length == $(".q").length) {
+									$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+									$(this).addClass("btn-<?php echo($color); ?>");
+
+								} else {
+									$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+									$(this).addClass("btn-warning");
+
+								};
+							};
+						});
 
 			$(".so").on("click", function () {
 				if($(this).attr("id").substr(-2) == "_p") {

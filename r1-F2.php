@@ -42,11 +42,6 @@
 			</div>
 		</div>
 	</section>
-	<style>
-		button.itm {
-			word-break: keep-all;
-		}
-	</style>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -59,44 +54,51 @@
 			</div>
 			<!-- 리스트 시작 -->
 			<div class="row text-center" id="lsts">
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-1">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>eins</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-1">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="eins">eins</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-2">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>zwei</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-2">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="zwei">zwei</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-3">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>drei</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-3">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="drei">drei</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-4">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>sechs</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-4">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="sechs">sechs</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-5">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>acht</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-5">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="acht">acht</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-6">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>vier</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-6">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="vier">vier</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-7">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>fünf</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-7">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="fünf">fünf</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-8">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>sieben</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-8">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="sieben">sieben</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-9">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>neun</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-9">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="neun">neun</strong></h2>
 				</div>
-				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4" id="lst-10">
-					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong>zehn</strong></h2>
+				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-10">
+					<h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="zehn">zehn</strong></h2>
 				</div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
 	
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -113,16 +115,26 @@
 					name : "r1 F1",
 					sprite : {
 						"0": [7.1, 27.4],
-							"1": [11.4, 1.2],
-							"2": [14.1, 1],
-							"3": [16.8, 1],
-							"4": [19.1, 1.2],
-							"5": [21.6, 1.2],
-							"6": [24.1, 1.3],
-							"7": [26.7, 1.2],
-							"8": [28.9, 1],
-							"9": [31.3, 1],
-							"10": [33.3, 1.3]
+						"1": [11.4, 1.2],
+						"2": [14.1, 1],
+						"3": [16.8, 1],
+						"4": [19.1, 1.2],
+						"5": [21.6, 1.2],
+						"6": [24.1, 1.3],
+						"7": [26.7, 1.2],
+						"8": [28.9, 1],
+						"9": [31.3, 1],
+						"10": [33.3, 1.3],
+						"eins": [11.4, 1.2],
+						"zwei": [14.1, 1],
+						"drei": [16.8, 1],
+						"sechs": [24.1, 1.3],
+						"acht": [28.9, 1],
+						"vier": [19.1, 1.2],
+						"fünf": [21.6, 1.2],
+						"sieben": [26.7, 1.2],
+						"neun": [31.3, 1],
+						"zehn": [33.3, 1.3]
 					}
 				}
 				],
@@ -166,9 +178,53 @@
 					);
 					// 준비되면 HV 보이기
 					$(".alert").hide();
+
+					// 정답확인
+					$("#chk").on("click", function() {
+						if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+							$(this).attr("id", "done");
+							$(".itm").each(function() {
+								if($(this).hasClass("ans"+ ($(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1)))) {
+									$(this).addClass("text-success font-weight-bold");
+								}
+								else {
+									$(this).addClass("text-warning font-weight-bold");
+									$(this).find(".tran").show();
+
+								}
+								;
+
+								if($(this).hasClass("text-warning")) {
+									// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+									for(var i = 1; i <= $(".itm-lst").length; i++) {
+										if($(this).hasClass("ans"+i)) {
+											$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block bg-white text-danger font-weight-bold\">" + $(this).html() + "</button>");
+											// $(lstn).append(i);
+										}
+									}
+								};
+
+							}
+						);
+
+						if($(".itm").length==$(".itm.text-success").length) {
+							ion.sound.play("dingdongdang");
+							$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+							$(this).addClass("bg-success font-weight-bold text-white");
+						}
+						else {
+							ion.sound.play("Cartoon_Boing");
+							$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+							$(this).addClass("bg-orange font-weight-bold text-white");
+						}
+						;
+					}
+					}
+					);
 				}
 			}
 			);
+			<?php include "wahl.php"; ?>
 			// 정답 자동채우기
 			var pan=new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];

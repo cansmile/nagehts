@@ -40,7 +40,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2">
 				<div class="col-12 mb-4 mt-2 text-center">
-					<h2> Wählen Sie aus.
+					<h2>1. Wählen Sie aus.
 						<small><br> 선택하세요.</small>
 					</h2>
 				</div>
@@ -75,7 +75,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 					<div class="col-12 mb-4 mt-2 text-center">
-					<h2> Sortieren Sie Wendungen. Schreiben Sie dann die E-Mail neu.
+					<h2>2. Sortieren Sie Wendungen. Schreiben Sie dann die E-Mail neu.
 						<small><br> 아래의 낱말들을 맞는 순으로 정렬하여 이메일을 새로 써보세요. </small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 						HV
@@ -146,7 +146,7 @@
 <div id="marg"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -182,7 +182,7 @@
 							"5": [12.43,1.26]
 						}
 					},{
-						name : "Bama_Country_Country",
+						name : "dingdongdang",
 						path : "sounds/"
 					}, {
 						name : "Cartoon_Boing",
@@ -219,7 +219,7 @@
 					}, ready_callback: function () {
 						
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				});
 
 				$(".x").on("click", function() {
@@ -327,7 +327,7 @@
 						});
 
 						$(this).removeClass("btn-light ");
-						$(this).html("<h4>모든 문제를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).html("<h4>모든 문제를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 						$(this).addClass("btn-success");
 					};
 				}

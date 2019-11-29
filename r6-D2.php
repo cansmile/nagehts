@@ -25,12 +25,12 @@
 					</h2>
 				</div>
 			</div>
-			<div class="row" style="height: 50px;">
-				<div class="col text-center">zu Abend essen<span class="tran"><br /><small>저녁 먹기</small></span></div>
-				<div class="col text-center">die Zeitung lesen<span class="tran"><br /><small>신문읽기</small></span></div>
-				<div class="col text-center">fernsehen<span class="tran"><br /><small>TV 보기</small></span></div>
-				<div class="col text-center">Fotos machen<span class="tran"><br /><small>사진찍기</small></span></div>
-				<div class="col text-center">das Mittagessen bestellen<span class="tran"><br /><small>점심 주문하기</small></span></div>
+			<div class="row">
+				<div class="col align-middle text-center border border-light bg-dark text-white p-1 px-2 pt-2 m-1 rounded">zu Abend essen<span class="tran"><br /><small>저녁 먹기</small></span></div>
+				<div class="col align-middle text-center border border-light bg-dark text-white p-1 px-2 pt-2 m-1 rounded">die Zeitung lesen<span class="tran"><br /><small>신문읽기</small></span></div>
+				<div class="col align-middle text-center border border-light bg-dark text-white p-1 px-2 pt-2 m-1 rounded">fernsehen<span class="tran"><br /><small>TV 보기</small></span></div>
+				<div class="col align-middle text-center border border-light bg-dark text-white p-1 px-2 pt-2 m-1 rounded">Fotos machen<span class="tran"><br /><small>사진찍기</small></span></div>
+				<div class="col align-middle text-center border border-light bg-dark text-white p-1 px-2 pt-2 m-1 rounded">Mittagessen bestellen<span class="tran"><br /><small>점심 주문하기</small></span></div>
 			</div>
 			<div class="row">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
@@ -165,7 +165,7 @@
 	</section>
 		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -281,7 +281,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 						$(this).prop("disabled", true);
 					}
 				}
@@ -309,13 +309,13 @@
 							"6": [12.26, 3.06],
 							"7": [18.4, 2.94],
 							"8": [25.12, 3.59],
-							"9": [32.2, 3.36],
+							"9": [32.1, 3.46],
 							"10": [38.92, 3.42],
 							"11": [46.29, 2.88]
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -350,7 +350,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -431,59 +431,61 @@
 
 					// 정답확인
 					$("#chk").on("click", function() {
-				var na="";
-				var ri=0;
-				var qst=$(".q").length;
-				$(".q").each(function () {
-					if(na !="") {
-						na +=", ";
-					}
-					if($(this).val()=="") {
-						na +=$(this).attr("id").substr(4, 1);
-					}
-				}
-				);
-
-				if($(this).attr("id")=="done") {}
-				else if(na=="") {
-					for(var i=0;
-					i < an.length;
-					i++) {
-						var oran=$("#qst-"+(i+1)).val();
-						if(rfchk($("#qst-"+(i+1)))) {
-							$("#qst-"+(i+1)).addClass("bg-success text-white");
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
+						}
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger d-block text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i][1]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
 						else {
-							$("#qst-"+(i+1)).val(an[i]);
-							$("#qst-"+(i+1)).attr("disabled", true);
-							$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
 						}
-						if($("#qst-"+(i+1)).hasClass("bg-success")) {
-							ri++;
-						}
+						;
 					}
-					if (ri < (qst/2)) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					}
-					else if(ri==qst) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					}
-					else {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id", "done");
-				}
-				else {
-					alert("모든 문제를 풀어주세요!");
-					// alert(na+"번 문제를 풀어주세요!");
-				}
-				;
-			}
 					);
 					$("#0").show();
 					$(".alert").hide();

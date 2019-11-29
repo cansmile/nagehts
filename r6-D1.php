@@ -47,30 +47,31 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
-								<td>Das ist Maria Berndt.<span class="tran"><small><br>이 사람은 마리아 베른트이다.</small></td>
+								<td id="t1"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
+								<td id="b1">Das ist Maria Berndt.<span class="tran"><small><br>이 사람은 마리아 베른트이다.</small></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
-								<td>Maria Berndt ist Hausfrau.<span class="tran"><small><br>마리아 베른트는 주부이다.</small></td>
+								<td id="t2"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></td>
+								<td id="b2">Maria Berndt ist Hausfrau.<span class="tran"><small><br>마리아 베른트는 주부이다.</small></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="3" class="so btn btn-outline-primary">▶</button></td>
-								<td>
+								<td id="t3"><button type="button" id="3" class="so btn btn-outline-primary">▶</button></td>
+								<td id="b3">
 									<div class="ant" id="ant-1"></div>
-									<div class="input-group">											<div class="input-group-prepend"><span class="input-group-text">Sie schläft</span></div>
-									<input type="text" class="form-control col-3 q" aria-label="." id="qst-1">
-									<div class="input-group-append"><span class="input-group-text">.</span></div>
-								</div><span class="tran"><small><br>그녀는 6시에 자고있다.</small>
+									<div class="input-group">
+									Sie schläft
+									<input type="text" class="form-control col-3 q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+									.
+								</div><span class="tran"><small><br>그녀는 6시에 잔다.</small>
 							</td>
 						</tr>
 						<tr>
-							<td><button type="button" id="4" class="so btn btn-outline-primary">▶</button></td>
-							<td>
+							<td id="t4"><button type="button" id="4" class="so btn btn-outline-primary">▶</button></td>
+							<td id="b4">
 								<div class="ant" id="ant-2"></div>
 								<div class="input-group">
-									<input type="text" class="form-control col-3 q" aria-label="." id="qst-2">
-									<div class="input-group-append"><span class="input-group-text">steht sie auf.</span></div>
+									<input type="text" class="form-control col-3 q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+									steht sie auf.
 								</div><span class="tran"><small><br>8시에 그녀는 일어난다.</small>
 							</td>
 						</tr>
@@ -81,36 +82,36 @@
 				<table class="table">
 					<tbody>
 						<tr>
-							<td><button type="button" id="5" class="so btn btn-outline-primary">▶</button></td>
-							<td>
+							<td id="t5"><button type="button" id="5" class="so btn btn-outline-primary">▶</button></td>
+							<td id="b5">
 								<div class="ant" id="ant-3"></div>
 								<div class="input-group">
-									<input type="text" class="form-control col-3 q" aria-label="." id="qst-3">
-									<div class="input-group-append"><span class="input-group-text">frühstückt sie.</span></div>
+									<input type="text" class="form-control col-3 q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-3">
+									frühstückt sie.
 								</div><span class="tran"><small><br>9시 반에 그녀는 아침을 먹는다.</small>
 							</td>
 						</tr>
 						<tr>
-							<td><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
-							<td>Da isst sie ein Brötchen und trinkt Kaffee.<span class="tran"><small><br>작은 빵을 먹고 커피를 마신다.</small></td>
+							<td id="t6"><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
+							<td id="b6">Da isst sie ein Brötchen und trinkt Kaffee.<span class="tran"><small><br>그때는 작은 빵을 먹고 커피를 마신다.</small></td>
 						</tr>
 						<tr>
-							<td><button type="button" id="7" class="so btn btn-outline-primary">▶</button></td>
-							<td>
+							<td id="t7"><button type="button" id="7" class="so btn btn-outline-primary">▶</button></td>
+							<td id="b7">
 								<div class="ant" id="ant-4"></div>
 								<div class="input-group">
-									<input type="text" class="form-control col-3 q" aria-label="." id="qst-4">
-									<div class="input-group-append"><span class="input-group-text">kauft sie Lebensmittel ein.</span></div>
+									<input type="text" class="form-control col-3 q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-4">
+									kauft sie Lebensmittel ein.
 								</div><span class="tran"><small><br>11시에 그녀는 식료품을 산다.</small>
 							</td>
 						</tr>
 						<tr>
-							<td><button type="button" id="8" class="so btn btn-outline-primary">▶</button></td>
-							<td>
+							<td id="t8"><button type="button" id="8" class="so btn btn-outline-primary">▶</button></td>
+							<td id="b8">
 								<div class="ant" id="ant-5"></div>
 								<div class="input-group">
-									<input type="text" class="form-control col-3 q" aria-label="." id="qst-5">
-									<div class="input-group-append"><span class="input-group-text">isst sie zu Mittag.</span></div>
+									<input type="text" class="form-control col-3 q border-top-0 border-left-0 border-right-0 rounded" style="position: relative; top: -6px;" aria-label="." id="qst-5">
+									isst sie zu Mittag.
 								</div><span class="tran"><small><br>1시에 그녀는 점심을 먹는다.</small>
 							</td>
 						</tr>
@@ -131,7 +132,7 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.js"></script>
@@ -145,7 +146,26 @@ $(".tran").hide();
 $(".ant").hide();
 var an=new Array();
 var an=[["um sechs Uhr", "um 6 Uhr"], ["Um acht Uhr", "Um 8 Uhr"], ["Um halb zehn", "Um 9.30 Uhr"], ["Um elf Uhr", "Um 11 Uhr"], ["Um ein Uhr", "Um 1 Uhr"]];
+function checkHeight() {
+	// 좌우 셀 높이 맞추어 주기
+	var tbn = 4; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
+	for(var i = 1; i <= tbn; i++) {
+		if( $("#b"+i).height() > $("#b"+(i+tbn)).height() ) {
+			$("#t"+(i+tbn)).height($("#b"+i).height());
+			$("#t"+(i)).height($("#b"+i).height());
+			$("#b"+(i+tbn)).height($("#b"+i).height());
+		} else if( ($("#b"+i).height() < $("#b"+(i+tbn)).height()) || ($("#b"+i).height() == $("#b"+(i+tbn)).height()) ) {
+			$("#t"+(i)).height($("#b"+(i+tbn)).height());
+			$("#t"+(i+tbn)).height($("#b"+(i+tbn)).height());
+			$("#b"+(i)).height($("#b"+(i+tbn)).height());
+		}
+	}
+}
+
+$(document).on("click", function() { checkHeight(); });
+
 $(document).ready(function() {
+
 	/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 	// 값 확인해보자, io값이 참이면 전체 검사
 	function rfchk(th, io) {
@@ -247,7 +267,7 @@ $(document).ready(function() {
 				ion.sound.play("Cartoon_Boing");
 			}
 			else if($(this).hasClass("bg-success")) {
-				ion.sound.play("Bama_Country_Country");
+				ion.sound.play("dingdongdang");
 				$(this).prop("disabled", true);
 			}
 		}
@@ -283,7 +303,7 @@ $(document).ready(function() {
 			}
 		}
 		, {
-			name: "Bama_Country_Country",
+			name: "dingdongdang",
 				path: "sounds/"
 		}
 		, {
@@ -316,7 +336,7 @@ $(document).ready(function() {
 		}
 		, ready_callback: function () {
 			$(".o").on("click", function() {
-				ion.sound.play("Bama_Country_Country");
+				ion.sound.play("dingdongdang");
 			}
 			);
 			$(".x").on("click", function() {
@@ -395,59 +415,63 @@ $(document).ready(function() {
 			}
 			);
 			$("#chk").on("click", function() {
-				var na="";
-				var ri=0;
-				var qst=$(".q").length;
-				$(".q").each(function () {
-					if(na !="") {
-						na +=", ";
-					}
-					if($(this).val()=="") {
-						na +=$(this).attr("id").substr(4, 1);
-					}
-				}
-				);
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
+						}
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 
-				if($(this).attr("id")=="done") {}
-				else if(na=="") {
-					for(var i=0;
-					i < an.length;
-					i++) {
-						var oran=$("#qst-"+(i+1)).val();
-						if(rfchk($("#qst-"+(i+1)))) {
-							$("#qst-"+(i+1)).addClass("bg-success text-white");
+							checkHeight();
 						}
 						else {
-							$("#qst-"+(i+1)).val(an[i]);
-							$("#qst-"+(i+1)).attr("disabled", true);
-							$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
 						}
-						if($("#qst-"+(i+1)).hasClass("bg-success")) {
-							ri++;
-						}
+						;
 					}
-					if (ri < (qst/2)) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					}
-					else if(ri==qst) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					}
-					else {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id", "done");
-				}
-				else {
-					alert("모든 문제를 풀어주세요!");
-					// alert(na+"번 문제를 풀어주세요!");
-				}
-				;
-			}
 			);
 			$("#0").show();
 			$(".alert").hide();

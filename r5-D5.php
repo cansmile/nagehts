@@ -18,7 +18,7 @@
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
 					Schweinebraten mit Salat<span class="tran"><br>&nbsp;<small>샐러드 곁들인 돼지고기 구이 </small></span></button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
-					Mineralwasser<span class="tran"><br>&nbsp;<small>미네랄 물</small></span></button>
+					Mineralwasser<span class="tran"><br>&nbsp;<small>미네랄 워터</small></span></button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="5">
 					Bier<span class="tran"><br>&nbsp;<small>맥주</small></span></button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
@@ -72,26 +72,26 @@
 									<strong>Mama: Na klar! Was möchtest du essen? Hier ist die Currywurst sehr lecker.</strong><br>
 									<small>엄마: 물론이지! 무엇을 먹기 원하니? 여기 카레소시지가 맛있단다.</small><br>
 									<strong>Kind: Ach, echt? Ich liebe Currywurst mit Pommes.</strong><br>
-									<small>아이: 아, 정말요? 저는 감자칩과 함께 카레소시지가 좋아요.</small><br>
+									<small>아이: 아, 정말요? 저는 감자튀김과 함께 카레소시지가 좋아요.</small><br>
 									<strong>Mama: Ich nehme dann einen Salatteller und ein Mineralwasser.</strong><br>
-									<small>엄마: 그럼 나는 샐러드 한 접시하고 미네랄물을 먹어야겠다.</small><br>
+									<small>엄마: 그럼 나는 샐러드 한 접시하고 미네랄워터를 먹어야겠다.</small><br>
 								</span></td>
 								<td class="m-0 p-0"><span class="tran text-left"><br>
-									<strong>die Frau: Ah! das Restaurant ist wirklich schön. Und die Musik! Ausgezeichnet!</strong><br>
+									<strong>Frau: Ah! das Restaurant ist wirklich schön. Und die Musik! Ausgezeichnet!</strong><br>
 									<small>여자: 아! 레스토랑 좋네요. 그리고 음악도! 정말 좋아요!</small><br>
-									<strong>der Mann: Ich freue mich, dass es dir gefällt. Was möchtest du? Ich lade dich ein.</strong><br>
+									<strong>Mann: Ich freue mich, dass es dir gefällt. Was möchtest du? Ich lade dich ein.</strong><br>
 									<small>남자: 저도 기쁘네요, 당신이 좋아하니까. 뭐드시겠어요? 당신 먼저 고르세요. </small><br>
-									<strong>die Frau: Oh, danke. Das ist sehr nett von dir. Ich bin hier zum ersten Mal. Kannst du mir etwas empfehlen?</strong><br>
+									<strong>Frau: Oh, danke. Das ist sehr nett von dir. Ich bin hier zum ersten Mal. Kannst du mir etwas empfehlen?</strong><br>
 									<small>여자: 오, 고마워요. 정말 좋아요. 저는 여기 처음이에요. 저에게 추천해 주실 수 있나요?</small><br>
-									<strong>der Mann: Du isst nur vegetarisch oder? Der Fischbraten hier ist sehr gut. Er wird dir gut schmecken.</strong><br>
-									<small>남자: 채식만 하시나요? 여기 생성 구이는 정말 좋아요. 맛있을거에요.</small><br>
-									<strong>die Frau: Gut! Ich nehme dann den Fischbraten mit Kartoffelsalat. Als Getränk nehme ich ein Glas Rotwein.</strong><br>
-									<small>여자: 좋아요! 저는 그런다음 감자샐러드와 함께 생선구이로 할래요. 음료로는 적포도주 한잔으로 할게요.</small><br>
-									<strong>der Mann: Gut, dann nehme ich einen Schweinebraten mit Salat und trinke ein Bier dazu. Und als Nachtisch?</strong><br>
+									<strong>Mann: Du isst nur vegetarisch oder? Der Fischbraten hier ist sehr gut. Er wird dir gut schmecken.</strong><br>
+									<small>남자: 채식만 하시지요? 여기 생선 구이는 정말 좋아요. 맛있을거에요.</small><br>
+									<strong>Frau: Gut! Ich nehme dann den Fischbraten mit Kartoffelsalat. Als Getränk nehme ich ein Glas Rotwein.</strong><br>
+									<small>여자: 좋아요! 저는 그러면 감자샐러드와 함께 생선구이로 할래요. 음료로는 적포도주 한잔으로 할게요.</small><br>
+									<strong>Mann: Gut, dann nehme ich einen Schweinebraten mit Salat und trinke ein Bier dazu. Und als Nachtisch?</strong><br>
 									<small>남자: 좋아요, 그럼 저는 샐러드와 함께 구운 돼지 고기를 먹고 맥주를 마실게요. 그리고 디저트는요?</small><br>
-									<strong>die Frau: Einen Kaffee und einen Käsekuchen! Und was möchtest du?</strong><br>
+									<strong>Frau: Einen Kaffee und einen Käsekuchen! Und was möchtest du?</strong><br>
 									<small>여자: 커피와 치즈 케이크! 그리고 당신은요?</small><br>
-									<strong>der Mann: Ich nehme einen Espresso.</strong><br>
+									<strong>Mann: Ich nehme einen Espresso.</strong><br>
 									<small>남자: 저는 에스프레소 한잔이요.</small><br>
 								</span></td>
 							</tr>
@@ -103,7 +103,7 @@
 								</td>
 								<td width="30%">
 									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
-										<h2 class="btn btn-success btn-xl ttl d-block">der Mann</h2>&nbsp;
+										<h2 class="btn btn-success btn-xl ttl d-block">Mann</h2>&nbsp;
 									</div>
 								</td>
 							</tr>
@@ -156,7 +156,7 @@
 					<table class="text-center table table-striped">
 						<tbody>
 							<tr>
-								<th scope="row">Der Mann</th>
+								<th scope="row">Mann</th>
 								<td>nimmt</td>
 								<td>einen ...</td>
 							</tr>
@@ -187,7 +187,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -229,7 +229,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -262,7 +262,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -345,29 +345,71 @@
 
 					// 정답확인
 					$("#chk").on("click", function() {
-						var na="";
-						if($("#itms").find("button").length < 1) {
-							$(".tran").show();
-							$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-							$(this).removeClass("btn-light");
-							$(this).addClass("btn-primary");
-							$(".btn-sm").text().appendTo($(this).closest("td"));
-							$(".btn-sm").remove();
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+						}
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
 						}
 						else {
-							$("div.itm-lst").each(function(idx) {
-								if( !$(this).find("button").length) {
-									if(na !="") {
-										na +=", ";
-									}
-									na +=(idx+1);
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
+
+						}
+						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
+									// $(lstn).append(i);
 								}
 							}
-							);
-							alert("모든 문제를 풀어주세요!");
-							// alert(na+"번 문제를 풀어주세요!");
-						}
+						};
+
 					}
+				);
+
+
+				$(".pop").each(function() {
+					$(this).removeClass("btn-info");
+					if ($(this).hasClass("o") && $(this).hasClass("an")) {
+						$(this).removeClass("btn-warning");
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else if ($(this).hasClass("o")) {
+						$(this).addClass("text-danger font-weight-bold");
+					}
+					else if ($(this).hasClass("an")) {
+						$(this).addClass("btn-warning");
+					}
+					else {
+						$(this).addClass("btn-light");
+					}
+					;
+				}
+				);
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
+			}
+			}
 					);
 					$("#0").show();
 					$(".alert").hide();

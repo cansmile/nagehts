@@ -39,7 +39,6 @@
 					<!-- 고르는 아이템들 -->
 		<div class="row">
 			<div class="col-lg-12 mb-4 mt-2 text-center">
-				<h2>Sprechen Sie in der Klasse. <small>수업시간에 이야기해보아요.</small>
 				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 				</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
@@ -172,7 +171,7 @@
 						<tr>
 							<td width="50"><button type="button" id="21" class="so btn btn-outline-primary">▶</button></td>
 							<td>Gut. Treffen wir uns um halb neun? Soll ich dich abholen?
-								<span class="tran"><br><small>좋아. 우리 8시 반에 만날까?</small></span>
+								<span class="tran"><br><small>좋아. 우리 8시 반에 데리러갈까?</small></span>
 							</td>
 						</tr>
 						<tr>
@@ -204,7 +203,7 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.js"></script>
@@ -256,7 +255,7 @@
 					"23": [60,1.92]
 				}
 			},{
-				name : "Bama_Country_Country",
+				name : "dingdongdang",
 				path : "sounds/"
 			}, {
 				name : "Cartoon_Boing",
@@ -296,7 +295,7 @@
 			}, ready_callback: function () {
 				
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				});
 
 				$(".x").on("click", function() {
@@ -372,7 +371,7 @@
 					if($("#itms").find("button").length < 1) {
 						$(".tran").show();
 
-						$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+						$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 						$(this).removeClass("btn-light");
 						$(this).addClass("btn-primary");
 						$(".btn-lg").text().appendTo($(this).closest("td"));

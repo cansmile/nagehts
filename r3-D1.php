@@ -483,7 +483,7 @@
 		</div>
 	</section>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -527,7 +527,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -561,7 +561,7 @@
 				,
 				ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -657,15 +657,15 @@
 							$(".btn-group").addClass("border-0");
 							$(this).removeClass("btn-light ");
 							if ($(".text-success").length < Math.ceil(ql/2)) {
-								$(this).html('<h4>'+ $(".text-success").length + "개를 맞추셨네요!</h4>");
+								$(this).html('<h4>'+ $(".text-success").length + "개를 맞히셨네요!</h4>");
 								$(this).addClass("btn-danger");
 							}
 							else if ($(".text-success").length==ql) {
-								$(this).html('<h4>'+ $(".text-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ $(".text-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("btn-primary");
 							}
 							else {
-								$(this).html('<h4>'+ $(".text-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ $(".text-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("btn-warning");
 							}
 							;

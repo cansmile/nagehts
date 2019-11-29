@@ -33,17 +33,17 @@
 								<tr>
 									<td class="mr-0 pr-0 border-0">
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Er</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-1">
-											<div class="input-group-append pr-0 mr-0"><span class="input-group-text">gern</span></div>
+											Er
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+											gern
 										</div>
 										<span class="tran"><br><small>그는 자전거타기를 좋아합니다.</small></span>
 										<div class="ant" id="ant-1"></div>
 									</td>
 									<td class="ml-0 pl-0 border-0">
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-2">
-											<div class="input-group-append"><span class="input-group-text">.</span></div>
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+											.
 										</div>
 										<div class="ant" id="ant-2"></div>
 									</td>
@@ -52,9 +52,9 @@
 									<td colspan="2" class="border-0">
 										<div class="ant" id="ant-3"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Er</span></div>
-											<input type="text" class="form-control col-3 q" aria-label="." id="qst-3">
-											<div class="input-group-append"><span class="input-group-text">gern Fußball.</span></div>
+											Er
+											<input type="text" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-3">
+											gern Fußball.
 										</div>
 										<span class="tran"><br><small>그는 축구하기를 좋하합니다.</small></span>
 									</td>
@@ -63,9 +63,9 @@
 									<td colspan="2" class="border-0">
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Er</span></div>
-											<input type="text" class="form-control col-3 q" aria-label="." id="qst-4">
-											<div class="input-group-append"><span class="input-group-text">gern.</span></div>
+											Er
+											<input type="text" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-4">
+											gern.
 										</div>
 										<span class="tran"><br><small>그는 수영하기를 좋아합니다.</small></span>
 									</td>
@@ -97,9 +97,9 @@
 									<td class="mr-0 pr-0 border-0">
 										<div class="ant" id="ant-5"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Er</span></div>
-											<input type="text" class="form-control col-3 q" aria-label="." id="qst-5">
-											<div class="input-group-append pr-0 mr-0"><span class="input-group-text">nicht gern Bücher.</span></div>
+											Er
+											<input type="text" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-5">
+											nicht gern Bücher.
 										</div>
 										<span class="tran"><br><small>그는 책 읽기를 좋아하지 않습니다.</small></span>
 									</td>
@@ -108,9 +108,9 @@
 									<td class="border-0">
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Er</span></div>
-											<input type="text" class="form-control col-3 q" aria-label="." id="qst-6">
-											<div class="input-group-append"><span class="input-group-text">nicht gern Freunde.</span></div>
+											Er
+											<input type="text" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-6">
+											nicht gern Freunde.
 										</div>
 										<span class="tran"><br><small>그는 친구만나기를 좋아하지 않습니다.</small></span>
 									</td>
@@ -119,9 +119,9 @@
 									<td class="pr-0 mr-0 border-0">
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Er</span></div>
-											<input type="text" class="form-control col-3 q" aria-label="." id="qst-7">
-											<div class="input-group-append"><span class="input-group-text">nicht gern Auto.</span></div>
+											Er
+											<input type="text" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded ml-1" style="position: relative; top: -6px;" aria-label="." id="qst-7">
+											nicht gern Auto.
 										</div>
 										<span class="tran"><br><small>그는 자동차 운전하기를 좋아하지 않습니다.</small></span>
 									</td>
@@ -174,7 +174,7 @@
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -288,7 +288,7 @@ function rfchk(th,io) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("Bama_Country_Country");
+							ion.sound.play("dingdongdang");
 							$(this).prop("disabled",true);
 						}
 					}
@@ -302,54 +302,61 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 				var pan = new Array();
 				pan = [];
 				for(var p = 0; p < pan.length; p++) {

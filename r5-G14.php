@@ -17,45 +17,45 @@
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">1.</th>
 									<td>
-										<div id="ant-1"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Ich trinke nicht</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-1">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">Bier.</span></div>
-										</div>
+										<span class="sen"><div id="ant-1"></div>
+											<div class="input-group">
+												Ich trinke nicht
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-1">
+												Bier.
+											</div></span>
 										<span class="tran">나는 이 맥주를 마시지 않는다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">&nbsp;</th>
 									<td>
-										<div id="ant-2"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-2">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">ist zu warm.</span></div>
-										</div>
+										<span class="sen"><div id="ant-2"></div>
+											<div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-2">
+												ist zu warm.
+											</div></span>
 										<span class="tran">이 맥주가 너무 미지근하다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">2.</th>
 									<td>
-										<div id="ant-3"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-3">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">Salat esse ich nicht.</span></div>
-										</div>
+										<span class="sen"><div id="ant-3"></div>
+											<div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-3">
+												Salat esse ich nicht.
+											</div></span>
 										<span class="tran">나는 이 샐러드를 먹지 않는다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">&nbsp;</th>
 									<td>
-										<div id="ant-4"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-4">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad8">ist nicht frisch.</span></div>
-										</div>
+										<span class="sen"><div id="ant-4"></div>
+											<div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-4">
+												ist nicht frisch.
+											</div></span>
 										<span class="tran">이것은 신선하지 않다.</span>
 									</td>
 								</tr>
@@ -68,45 +68,45 @@
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">3.</th>
 									<td>
-										<div id="ant-5"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad9">Ich trinke nicht</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-5">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad10">Milch.</span></div>
-										</div>
+										<span class="sen"><div id="ant-5"></div>
+											<div class="input-group">
+												Ich trinke nicht
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-5">
+												Milch.
+											</div></span>
 										<span class="tran">나는 이 우유를 마시지 않는다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">&nbsp;</th>
 									<td>
-										<div id="ant-6"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-6">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad12">ist sauer.</span></div>
-										</div>
+										<span class="sen"><div id="ant-6"></div>
+											<div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-6">
+												ist sauer.
+											</div></span>
 										<span class="tran">이 우유가 상했다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">4.</th>
 									<td>
-										<div id="ant-7"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-7">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad14">Kartoffeln esse ich nicht.</span></div>
-										</div>
+										<span class="sen"><div id="ant-7"></div>
+											<div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-7">
+												Kartoffeln esse ich nicht.
+											</div></span>
 										<span class="tran">나는 이 감자들을 먹지 않는다.</span>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row" width="50" class="text-center align-middle">&nbsp;</th>
 									<td>
-										<div id="ant-8"></div>
-										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-8">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad16">sind kalt.</span></div>
-										</div>
+										<span class="sen"><div id="ant-8"></div>
+											<div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-8">
+												sind kalt.
+											</div></span>
 										<span class="tran">이 감자들이 너무 차갑다.</span>
 									</td>
 								</tr>
@@ -128,7 +128,7 @@
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -242,7 +242,7 @@ function rfchk(th,io) {
 						if($(this).hasClass("bg-danger")) {
 							ion.sound.play("Cartoon_Boing");
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("Bama_Country_Country");
+							ion.sound.play("dingdongdang");
 							$(this).prop("disabled",true);
 						}
 					}
@@ -256,54 +256,61 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 
 				var pan = new Array();
 				pan = ["1","2"];
@@ -312,6 +319,7 @@ function rfchk(th,io) {
 					var pann = "#qst-"+pan[p];
 					$(pann).val(an[(pan[p]-1)]);
 					$(pann).prop("disabled",true);
+					$(pann).removeClass("rounded-0");
 					$(pann).addClass("bg-success text-white font-weight-bold");
 					$(pann).closest("tr").find(".tran").show();
 				}				

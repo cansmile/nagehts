@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 	<body>
 <?php include "nav.php"; ?>
+	<?php if(ul()) { ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -28,7 +29,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-10 col-xl-10">
+					<div class="col-12">
 						<table class="table">
 							<tbody>
 								<tr>
@@ -37,11 +38,37 @@
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></th>
-									<td>Guten Tag, Herr Park. Wie geht es Ihnen?<span class="tran"><br><small>안녕하세요, 박 선생님. 어떻게 지내시나요?</small></span></td>
+									<td>
+								<span class="sen">Guten Tag, Herr Park. Wie geht es <span class="nu">①</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option1" autocomplete="off">Sie
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option2" autocomplete="off">dir
+										</div>
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option3" autocomplete="off">Ihnen
+										</div>
+									</div>?<span class="ans">&nbsp;</span></span>
+								<span class="tran"><br><small>안녕하세요, 박 선생님. 어떻게 지내시나요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="3" class="so btn btn-outline-primary">▶</button></th>
-									<td>Danke, gut. Und Ihnen?<span class="tran"><br><small>감사합니다, 좋아요. 선생님은요?</small></span></td>
+									<td>
+								<span class="sen">Danke, gut. Und <span class="nu">②</span>
+									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
+										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<input type="radio" name="options" id="option4" autocomplete="off">Ihnen
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option5" autocomplete="off">dir
+										</div>
+										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<input type="radio" name="options" id="option6" autocomplete="off">Sie
+										</div>
+									</div>?<span class="ans">&nbsp;</span></span>
+									<span class="tran"><br><small>감사합니다, 좋아요. 선생님은요?</small></span></td>
 								</tr>
 								<tr>
 									<th scope="row"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></th>
@@ -51,24 +78,34 @@
 						</table>
 					</div>
 				</div>
-
+				<!-- 정답화인 버튼 시작 -->
+				<div class="row">
+					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+						정답확인
+					</div>
+				</div>
+				<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
 		
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
 		<script src="./js/taptogroup.js"></script>
 		<!-- interact.min.js -->
 		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+<?php require_once("./oxsound.php"); ?>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
 			$(".tran").hide();
+			$(".nu").hide();
 
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
@@ -89,12 +126,6 @@
 							"3": [22.3,3],
 							"4": [26.5,1.9]
 						}
-					},{
-						name : "Bama_Country_Country",
-						path : "sounds/"
-					}, {
-						name : "Cartoon_Boing",
-						path : "sounds/"
 					}],
 					path : "sounds/Reihe 1/",
 					preload : true,
@@ -125,14 +156,6 @@
 
 					}, ready_callback: function () {
 						
-				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
-				});
-
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
-
 				$("[data-toggle='popover']").popover({
 					delay : {
 						'hide' : 1000
@@ -159,6 +182,66 @@
 				setTimeout(function() {
 					$(".pop").popover('hide');
 				}, 500);
+			});
+
+			// 정답확인
+			$("#chk").on("click", function() {
+				if ($(".an").length < $(".q").length) {
+					var na = "";
+					$(".q").each(function() {
+						if (!$(this).find("div").hasClass("an")) {
+							if (na != "") {
+								na += ", ";
+							}
+							na += $(this).attr("id").substr(-1);
+						};
+					});
+
+					alert("모든 문제를 풀어주세요.");
+					// alert(na + "번 문제를 풀어주세요.");
+				} else {
+					$(".pop").each(function() {
+						$(this).removeClass("btn-info");
+
+						if ($(this).hasClass("o") && $(this).hasClass("an")) {
+							$(this).removeClass("btn-warning");
+							$(this).addClass("btn-success");
+							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
+							$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+						} else if ($(this).hasClass("o")) {
+							$(this).addClass("btn-<?php echo($color); ?>");
+							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
+							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
+							$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");
+						} else if ($(this).hasClass("an")) {
+							$(this).addClass("btn-warning");
+							$(this).closest("td").find(".nu").text($.trim($(this).text()));
+						} else {
+							$(this).addClass("btn-light");
+						};
+						$(this).remove();
+					});
+					$(".tran").show();
+					$(".nu").show();
+					$(".q").hide();
+					
+
+
+					$(this).removeClass("btn-light ");
+					if ($(".bg-success.font-weight-bold").length < Math.ceil($(".q").length/2)) {
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!</h4>");
+						$(this).addClass("btn-danger");
+
+					} else if ($(".btn-success").length == $(".q").length) {
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("btn-<?php echo($color); ?>");
+
+					} else {
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("btn-warning");
+
+					};
+				};
 			});
 
 			$(".so").on("click", function () {
@@ -204,6 +287,7 @@
 			
 		</script>
 		<!-- ion.sound finished -->
+	<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

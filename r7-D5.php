@@ -86,7 +86,7 @@
 									<th class="text-center align-middle border-0" scope="row" width="50">3.</th>
 									<td class="align-middle border-0">
 										<div class="p-2 m-0">
-											Er will ein Buch kaufen. Dann sollt er&nbsp;
+											Er will ein Buch kaufen. Dann sollte&nbsp;
 											<div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 30%; ">
 													<h2 class="btn btn-warning btn-xl ttl d-block">
 													▼ </h2>
@@ -141,7 +141,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -162,7 +162,7 @@
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
 
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 					$(".btn-lg").text().appendTo($(this).closest("td"));

@@ -43,7 +43,13 @@ var tm = 0;
 		// 답안 번호랑 맞는 것만 넣기
 		if(a != tn) {
 				// 틀리면 띠용
-				ion.sound.play("Cartoon_Boing");
+					if(typeof x === 'undefined') {
+						ion.sound.play("Cartoon_Boing");
+					} else {
+						x.play();
+					}
+
+
 				if($(this).parent().hasClass("itm-lst")) {
 					$(this).blur();
 					$(this).addClass("btn-light");
@@ -52,7 +58,12 @@ var tm = 0;
 		} else {
 				// 맞으면 넣기
 				if(tm == 0) {
-					ion.sound.play("Bama_Country_Country");
+					if(typeof o === 'undefined') {
+						ion.sound.play("dingdongdang");
+					} else {
+						o.play();
+					}
+
 					$(this).addClass("btn-block btn-light");
 					$(this).insertAfter(t);
 				}
@@ -84,14 +95,14 @@ $(document).ready(function() {
 	// 오답 일 때 띠용~
 	ion.sound({
 		sounds : [{
-			name : "Bama_Country_Country"
+			name : "dingdongdang"
 		}, {
 			name : "Cartoon_Boing"
 		}],
 		path : "sounds/",
 		preload : true,
 		volume : 1.0,
-		multiplay : false
+		multiplay : true
 	});
 
 	$("[data-toggle='popover']").popover({container : "body"});

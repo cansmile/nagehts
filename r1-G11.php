@@ -127,7 +127,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="7" class="so btn btn-secondary">7</button></th>
-							<td>Was machen Sie ?<span class="tran"><br><small>당신은 뭐하고 있나요?</small></span></td>
+							<td>Was machen Sie ?<span class="tran"><br><small>당신은 무슨 일을 하시나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -155,7 +155,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-secondary">9</button></th>
-							<td>Woher kommen Sie?<span class="tran"><br><small>어디에서 왔나요?</small></span></td>
+							<td>Woher kommen Sie?<span class="tran"><br><small>어디에서 오셨나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -197,7 +197,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -234,7 +234,7 @@
 							"10": [62.5,2.1]
 						}
 					},{
-						name : "Bama_Country_Country",
+						name : "dingdongdang",
 						path : "sounds/"
 					}, {
 						name : "Cartoon_Boing",
@@ -268,7 +268,7 @@
 					}, ready_callback: function () {
 						
 				$(".o").on("click", function() {
-					ion.sound.play("Bama_Country_Country");
+					ion.sound.play("dingdongdang");
 				});
 
 				$(".x").on("click", function() {
@@ -357,9 +357,9 @@
 							$(this).removeClass("btn-warning");
 							$(this).addClass("btn-success");
 						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-primary");
+							$(this).addClass("btn-warning text-dark");
 						} else if ($(this).hasClass("an")) {
-							$(this).addClass("btn-warning");
+							$(this).addClass("btn-danger");
 						} else {
 							$(this).addClass("btn-light");
 						};
@@ -371,15 +371,15 @@
 					$(this).removeClass("btn-light ");
 					$(".tran").show();
 					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!</h4>");
 						$(this).addClass("btn-danger");
 
 					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 						$(this).addClass("btn-primary");
 
 					} else {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 						$(this).addClass("btn-warning");
 
 					};

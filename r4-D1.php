@@ -9,52 +9,52 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="1">
-					modern
+					modern<span class="tran"><br><small>현대식의</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="2">
-					günstig
+					günstig<span class="tran"><br><small>저렴한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="3">
-					praktisch
+					praktisch<span class="tran"><br><small>실용적인</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="4">
-					interessant
+					interessant<span class="tran"><br><small>흥미로운</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="5">
-					bequem
+					bequem<span class="tran"><br><small>편안한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="6">
-					schön
+					schön<span class="tran"><br><small>아름다운</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="7">
-					gut
+					gut<span class="tran"><br><small>좋은</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-danger so itm" id="8">
-					groß
+					groß<span class="tran"><br><small>큰</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="9">
-					hässlich
+					hässlich<span class="tran"><br><small>못생긴</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="10">
-					unpraktisch
+					unpraktisch<span class="tran"><br><small>비실용적인</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="11">
-					klein
+					klein<span class="tran"><br><small>작은</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="12">
-					unbequem
+					unbequem<span class="tran"><br><small>불편한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="13">
-					teuer
+					teuer<span class="tran"><br><small>비싼</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="14">
-					altmodisch
+					altmodisch<span class="tran"><br><small>구식의</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="15">
-					langweilig
+					langweilig<span class="tran"><br><small>지루한</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-primary so itm" id="16">
-					schlecht
+					schlecht<span class="tran"><br><small>나쁜</small></span>
 					</button>
 				</div>
 			</div>
@@ -77,65 +77,65 @@
 					<table class="table text-center">
 						<tbody>
 							<tr>
-								<th scope="row" class="align-middle" id="th-1">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-1">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-2">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-2">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-3">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-3">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-4">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-4">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-5">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-5">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-6">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-6">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-7">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-7">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-8">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-1">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-8">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-1">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
@@ -147,65 +147,65 @@
 					<table class="table text-center">
 						<tbody>
 							<tr>
-								<th scope="row" class="align-middle" id="th-9">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-9">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-10">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-10">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-11">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-11">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-12">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-12">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-13">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-13">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-14">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-14">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-15">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-15">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle" id="th-16">
-									<div class="itm-lst 1itm" style="min-height: 50px;" id="lst-2">
-										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
+								<th scope="row" id="th-16">
+									<div class="align-middle itm-lst 1itm py-0" style="min-height: 50px;" id="lst-2">
+										<h1 class="btn btn-warning my-0 cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
@@ -226,7 +226,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -235,8 +235,10 @@
 	<script src="./js/ion.sound.min.js"></script>
 	<script>
 		$("#chk").hide();
+		$(".tran").hide();
 		var cp=new Array();
 		var cp=[14, 13, 10, 15, 12, 9, 16, 11, 6, 3, 8, 5, 2, 1, 4, 7];
+
 		$(document).ready(function() {
 			ion.sound( {
 				sounds : [ {
@@ -254,7 +256,7 @@
 				var na="";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 					$(".btn-lg").text().appendTo($(this).closest("td"));

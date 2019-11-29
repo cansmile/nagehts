@@ -1,9 +1,9 @@
 * {
 	font-face: Roboto!important;
+  word-break: keep-all!important;
 }
 
 h1,h2,h3,h4,h5,h6,.itm,.so {
-    word-break: keep-all;
     word-wrap: normal;
 }
 

@@ -27,7 +27,7 @@
 			<div class="col" id="rs2"></div>
 		</div>
 	</div>
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script>
 		document.getElementById('wd2').onload = function(){ setTimeout("document.getElementById('wd2').contentWindow.scrollTo(5, 20)", 5) }

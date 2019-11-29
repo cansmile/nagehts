@@ -64,7 +64,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-danger">▶</button></th>
-							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">①</span>. <br><span class="tran">&nbsp;<small>나는 <strong>독일</strong>에서 왔어.</small></span></td>
+							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm nu">①</span>. <br><span class="tran">&nbsp;<small>나는 <strong>독일</strong>에서 왔어.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-1">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -74,7 +74,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-danger">▶</button></th>
-							<td>und ich wohne in <span class="btn btn-outline-dark btn-sm">②</span>. <br><span class="tran">&nbsp;<small>그리고 나는 <strong>베를린</strong>에 살아.</small></span></td>
+							<td>und ich wohne in <span class="btn btn-outline-dark btn-sm nu">②</span>. <br><span class="tran">&nbsp;<small>그리고 나는 <strong>베를린</strong>에 살아.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-2">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -97,7 +97,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="11" class="so btn btn-danger">▶</button></th>
-							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">③</span>. <br><span class="tran">&nbsp;<small>나는 <strong>한국</strong>에서 왔어.</small></span></td>
+							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm nu">③</span>. <br><span class="tran">&nbsp;<small>나는 <strong>한국</strong>에서 왔어.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-3">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -107,7 +107,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="12" class="so btn btn-danger">▶</button></th>
-							<td>Ich wohne in <span class="btn btn-outline-dark btn-sm">④</span>. <br><span class="tran">&nbsp;<small>나는 <strong>서울</strong>에서 살아.</small></span></td>
+							<td>Ich wohne in <span class="btn btn-outline-dark btn-sm nu">④</span>. <br><span class="tran">&nbsp;<small>나는 <strong>서울</strong>에서 살아.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-4">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -130,7 +130,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="14" class="so btn btn-danger">▶</button></th>
-							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm">⑤</span>. <br><span class="tran">&nbsp;<small>나는 <strong>미국</strong>에서 왔어.</small></span></td>
+							<td>Ich komme aus <span class="btn btn-outline-dark btn-sm nu">⑤</span>. <br><span class="tran">&nbsp;<small>나는 <strong>미국</strong>에서 왔어.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-5">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -144,7 +144,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-danger">▶</button></th>
-							<td>Ich wohne in <span class="btn btn-outline-dark btn-sm">⑥</span>. <br><span class="tran">&nbsp;<small>나는 <strong>캘리포니아</strong>에 살아.</small></span></td>
+							<td>Ich wohne in <span class="btn btn-outline-dark btn-sm nu">⑥</span>. <br><span class="tran">&nbsp;<small>나는 <strong>캘리포니아</strong>에 살아.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-6">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -185,7 +185,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -233,7 +233,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -273,7 +273,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -358,7 +358,7 @@
 					$("#chk").on("click", function() {
 						var na="";
 						if( !$("#itms").find("button").length) {
-							$("span").each(function () {
+							$("span.nu").each(function () {
 								if($(this).text()=="①") {
 									var iq=$.trim($("#lst-1").find("button").text());
 								}
@@ -378,11 +378,11 @@
 									var iq=$.trim($("#lst-6").find("button").text());
 								}
 								$(this).text(iq);
-								$(this).removeClass("btn btn-outline-dark btn-sm");
-								$(this).addClass("font-weight-bold");
+								$(this).removeClass("btn btn-outline-dark btn-sm nu");
+								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
 							}
 							);
-							$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+							$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 							$(this).removeClass("btn-light");
 							$(this).addClass("btn-primary");
 							$(".tran").show();

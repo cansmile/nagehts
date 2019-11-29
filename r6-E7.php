@@ -13,14 +13,14 @@
 				<div class="col-12" id="itms">
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="1">Am</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="2">Samstagabend</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="3">macht<span class="tran"><small>~을 하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="3">macht<span class="tran">&nbsp;<small>~을 하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="4">Mina</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="5">eine</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="6">große</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="7">Party</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="8">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="9">Sie</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="10">feiert<span class="tran"><small>축하하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="10">feiert<span class="tran">&nbsp;<small>축하하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="11">ihren</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="12">20</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="13">.</button>
@@ -28,53 +28,53 @@
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="15">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="16">Am</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="17">Mittwoch</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="18">ruft<span class="tran"><small>전화하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="18">ruft<span class="tran">&nbsp;<small>전화하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="19">sie</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="20">ihre</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="21">Freunde</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0 18" id="22">an</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="23">und</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="24">lädt<span class="tran"><small>초대하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="24">lädt<span class="tran">&nbsp;<small>초대하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="25">sie</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0 24" id="26">ein</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="27">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="28">Alle</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="29">kommen<span class="tran"><small>오다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="29">kommen<span class="tran">&nbsp;<small>오다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="30">gern</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="31">zur</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="32">Party</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="33">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="34">Sie</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="35">bringen<span class="tran"><small>가지고 오다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="35">bringen<span class="tran">&nbsp;<small>가지고 오다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="36">einiges</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0 35" id="37">mit</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="38">:</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="39">Tim</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-outline-dark itm border-0" id="40">besorgt<span class="tran"><small>구입하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-outline-dark itm border-0" id="40">besorgt<span class="tran">&nbsp;<small>구입하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="41">Getränke</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="42">,</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="43">Julia</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="44">und</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="45">Max</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="46">kaufen<span class="tran"><small>사다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="46">kaufen<span class="tran">&nbsp;<small>사다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="47">Kekse</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="48">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="49">Sumin</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="50">bringt<span class="tran"><small>가지고오다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="50">bringt<span class="tran">&nbsp;<small>가지고오다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="51">Musik-CDs</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0 50" id="52">mit</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="53">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="54">Es</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="55">ist<span class="tran"><small>~이다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="55">ist<span class="tran">&nbsp;<small>~이다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="56">Samstag</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="57">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="58">Mina</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="59">schmückt<span class="tran"><small>꾸미다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="59">schmückt<span class="tran">&nbsp;<small>꾸미다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="60">schön</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="61">die</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="62">Wohnung</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="63">und</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="64">bereitet<span class="tran"><small>준비하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="64">bereitet<span class="tran">&nbsp;<small>준비하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="65">Essen</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="66">und</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="67">Trinken</button>
@@ -83,32 +83,32 @@
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="70">Um</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="71">17</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="72">Uhr</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-outline-dark itm border-0" id="73">beginnt<span class="tran"><small>시작하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-outline-dark itm border-0" id="73">beginnt<span class="tran">&nbsp;<small>시작하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="74">die</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="75">Party</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="76">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="77">Alle</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="78">feiern<span class="tran"><small>축하하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="78">feiern<span class="tran">&nbsp;<small>축하하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="79">,</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="80">tanzen<span class="tran"><small>춤추다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="80">tanzen<span class="tran">&nbsp;<small>춤추다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="81">,</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="82">lachen<span class="tran"><small>웃다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="82">lachen<span class="tran">&nbsp;<small>웃다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="83">und</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-outline-dark itm border-0" id="84">unterhalten sich<span class="tran"><small>말하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-outline-dark itm border-0" id="84">unterhalten sich<span class="tran">&nbsp;<small>말하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="85">.</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="86">Nur</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="87">Minas</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="88">Eltern</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="89">liegen<span class="tran"><small>누워있다</small></span></button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0 89" id="90">wach</button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="89">liegen<span class="tran">&nbsp;<small>누워있다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="90">wach</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="91">im</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="92">Bett</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="93">und</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="94">denken sich<span class="tran"><small>생각하다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="94">denken sich<span class="tran">&nbsp;<small>생각하다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="95">:</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="96">„</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="97">Hoffentlich</button>
-					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="98">hört<span class="tran"><small>끝나다</small></span></button>
+					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-outline-dark itm border-0" id="98">hört<span class="tran">&nbsp;<small>끝나다</small></span></button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="99">die</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="100">Party</button>
 					<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="101">bald</button>
@@ -298,7 +298,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -328,7 +328,7 @@
 						}
 					}
 					, {
-						name: "Bama_Country_Country",
+						name: "dingdongdang",
 							path: "sounds/"
 					}
 					, {
@@ -363,7 +363,7 @@
 					}
 					, ready_callback: function () {
 						$(".o").on("click", function() {
-							ion.sound.play("Bama_Country_Country");
+							ion.sound.play("dingdongdang");
 						}
 						);
 						$(".x").on("click", function() {
@@ -496,33 +496,65 @@
 						<?php include "wahl.php";
 						?> // 정답확인
 						$("#chk").on("click", function() {
-							var na="";
-							if($(this).attr("id")=="chk") {
-								if($("#itms>button.ans1").length < 1 && $("#itms>button.ans2").length < 1 && $("#itms>button.ans3").length < 1) {
-									$(this).attr("id", "done");
-									$(".tran").show();
-									$(".ans0").hide();
-									$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-									$(this).removeClass("btn-light");
-									$(this).addClass("btn-primary");
-									$(".btn-lg").text().appendTo($(this).closest("td"));
-									$(".btn-lg").remove();
-								}
-								else {
-									$("div.itm-lst").each(function(idx) {
-										if( !$(this).find("button").length) {
-											if(na !="") {
-												na +=", ";
-											}
-											na +=(idx+1);
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+						}
+						$(".tran").show();
+						if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
+						}
+						else {
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
+
+						}
+						;
+
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									for(var c = 1; c <= $(".cbtn").length; c++) {
+										if($(this).hasClass(c)) {
+											var cc = c;
 										}
 									}
-									);
-									alert("모든 문제를 풀어주세요!");
-									// alert(na+"번 문제를 풀어주세요!");
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold " + cc + "\" id=\"" + $(this).attr("id") + "\">" + $(this).html() + "</button>");
 								}
 							}
-						}
+						};
+
+					}
+				);
+
+				ccl();
+				$("#lst-2>.undefined").each(function() {
+					if(!$(this).hasClass("text-warning")) {
+						$(this).remove();
+					}
+				}
+				)
+				;
+
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
+			}
+			}
 						);
 						$("#0").show();
 						$(".alert").hide();

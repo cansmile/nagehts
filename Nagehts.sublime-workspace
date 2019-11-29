@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"requ",
+				"require_once"
+			],
+			[
+				"d-inline",
+				"d-inline \tBootstrap 4 Class"
+			],
+			[
+				"min",
+				"minHeight\t = 'inherit' Style CSS"
+			],
+			[
+				"btn-",
+				"btn-secondary"
+			],
+			[
+				"ins",
+				"insertBefore〔function〕"
+			],
+			[
+				"decora",
+				"textDecoration\t = 'line-through' Style CSS"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"sub",
+				"substr〔function〕"
+			],
+			[
+				"search",
+				"array_search"
+			],
+			[
 				"char",
 				"char\t<meta>"
 			],
@@ -132,10 +168,6 @@
 				"replaceWith\t.replaceWith()"
 			],
 			[
-				"ins",
-				"insertAfter\t.insertAfter()"
-			],
-			[
 				"text-gray",
 				"text-gray-dark \tBootstrap 4 Class"
 			],
@@ -244,7 +276,7 @@
 			}
 		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -334,6 +366,22 @@
 				"Packages/Ruby/Ruby.sublime-build",
 				""
 			]
+		],
+		[
+			[
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/TypeScript/TypeScript.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+				""
+			]
 		]
 	],
 	"build_varint": "",
@@ -344,7 +392,67 @@
 		"selected_items":
 		[
 			[
+				"decode",
+				"StringEncode: Base64 Decode"
+			],
+			[
+				"base64",
+				"StringEncode: Base64 Decode"
+			],
+			[
+				"deco",
+				"StringEncode: Base64 Decode"
+			],
+			[
 				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"minify",
+				"HTML Minfier: Minify File (modify existing)"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install package",
 				"Package Control: Install Package"
 			],
 			[
@@ -356,19 +464,7 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"remove pack",
-				"Package Control: Remove Package"
-			],
-			[
 				"64",
-				"StringEncode: Base64 Decode"
-			],
-			[
-				"decode",
 				"StringEncode: Base64 Decode"
 			],
 			[
@@ -378,10 +474,6 @@
 			[
 				"check",
 				"Snippet: Checkbox"
-			],
-			[
-				"install pack",
-				"Package Control: Install Package"
 			],
 			[
 				"compa",
@@ -412,10 +504,6 @@
 				"Git: Stash List"
 			],
 			[
-				"installpa",
-				"Package Control: Install Package"
-			],
-			[
 				"python",
 				"Pretty Print: Format (Pretty Print) Python code"
 			],
@@ -430,18 +518,6 @@
 			[
 				"js pretti",
 				"JsPrettier: Format Code"
-			],
-			[
-				"remove pa",
-				"Package Control: Remove Package"
-			],
-			[
-				"remove packa",
-				"Package Control: Remove Package"
-			],
-			[
-				"removepa",
-				"Package Control: Remove Package"
 			],
 			[
 				"install ",
@@ -572,10 +648,6 @@
 				"Package Control: Enable Package"
 			],
 			[
-				"deco",
-				"StringEncode: Base64 Decode"
-			],
-			[
 				"disabl",
 				"Package Control: Disable Package"
 			],
@@ -628,10 +700,6 @@
 				"Package Control: Enable Package"
 			],
 			[
-				"minify",
-				"Formatter: Minify With JSONMin"
-			],
-			[
 				"miniy",
 				"Formatter: Minify With JSONMin"
 			],
@@ -678,10 +746,6 @@
 			[
 				"jquery",
 				"Snippet: jQuery.sub"
-			],
-			[
-				"markdown",
-				"Set Syntax: MultiMarkdown"
 			],
 			[
 				"foot",
@@ -800,10 +864,6 @@
 				"StringEncode: URL Decode"
 			],
 			[
-				"install package",
-				"Package Control: Install Package"
-			],
-			[
 				"install packa",
 				"Package Control: Install Package"
 			],
@@ -842,18 +902,6 @@
 			[
 				"footnote",
 				"MarkdownEditing: Magic Footnotes Command"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"duplica",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"duplicat",
-				"Highlight Duplicates: Toggle highlighting"
 			]
 		],
 		"width": 528.0
@@ -876,138 +924,139 @@
 	},
 	"expanded_folders":
 	[
-		"/D/cansmile/csde/nagehts"
+		"/D/cansmile/csde/nagehts",
+		"/D/cansmile/csde/nagehts/js"
 	],
 	"file_history":
 	[
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/metadata.xml",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/rvmetadata.xml",
-		"/D/cansmile/csde/nagehts/r6-E6.php",
-		"/D/cansmile/csde/nagehts/nav.php",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00005 LiteratureandLatte/csfp19-00005 LiteratureandLatte.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00017 BibleShow 5.4/2019102600001 BibleShow 5.4 Language.apjx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00018 Orbitfox/csfp19-00018 Orbitfox.fpfx",
+		"/D/cansmile/cswd/txt/2019112900001 Scrivener 3.0 Beta 30 (Download Links & Change List).txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/Fluency Now-9f3cd335bb6b.json",
+		"/D/cansmile/csde/nagehts/r6-E7.php",
+		"/D/cansmile/csde/nagehts/r4-A2.php",
+		"/D/cansmile/csde/nagehts/r4-A3.php",
+		"/D/cansmile/csde/nagehts/r4-B2.php",
+		"/D/cansmile/cswd/txt/2019112600001 Von guten Mächten.txt",
+		"/D/Videos/just Clips/Thumbs.db",
+		"/D/cansmile/csde/nagehts/r5-A1.php",
+		"/D/cansmile/csde/nagehts/r3-E1.php",
+		"/D/cansmile/csde/nagehts/r7-D7.php",
+		"/D/cansmile/csde/nagehts/r1-A2.php",
+		"/D/cansmile/csde/nagehts/r1-C3.php",
+		"/D/cansmile/csde/nagehts/r4-A1.php",
+		"/D/cansmile/Dropbox/backup/Sublime Text Backups/2019-11-25/D/cansmile/csde/nagehts/r4-A2_105927.php",
+		"/D/cansmile/csde/nagehts/r1-F2.php",
+		"/D/cansmile/csde/nagehts/r4-E3.php",
 		"/D/cansmile/csde/nagehts/r6-D2.php",
+		"/D/cansmile/csde/nagehts/r4-C2.php",
+		"/D/cansmile/csde/nagehts/r4-C2+.php",
+		"/D/cansmile/csde/nagehts/r0-Zuordnung.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574662824/nagehts.json/var/www/html/nagehts.org/public_html/tport/addons/sejin7940_kakao_link/sejin7940_kakao_link.addon.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574661136/nagehts.json/var/www/html/nagehts.org/public_html/tport/addons/sejin7940_kakao_link/sejin7940_kakao_link.addon.php",
+		"/D/cansmile/csde/nagehts/r1-A3.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574661588/nagehts.json/var/www/html/nagehts.org/public_html/tport/kakao.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/var/www/html/nagehts.org/public_html/tport/addons/sejin7940_kakao_link/sejin7940.txt",
+		"/D/cansmile/csdn/My First Project-9db56d80e908.json",
+		"/D/cansmile/csde/nagehts/r4-D1.php",
+		"/D/cansmile/csde/nagehts/js/taptocompare.js",
+		"/D/cansmile/csde/nagehts/r4-D2.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574656848/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/nav.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574657956/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/inhalt.php",
+		"/D/cansmile/csde/nagehts/r4-Grammatik und Wendungen.php",
+		"/D/cansmile/csde/nagehts/r4-E6.php",
+		"/D/cansmile/csde/nagehts/r4-E1.php",
+		"/D/cansmile/csde/nagehts/r4-B1.php",
+		"/D/cansmile/csde/nagehts/r4-B5.php",
+		"/D/cansmile/csde/nagehts/r1-Grammatik und Wendungen.php",
+		"/D/cansmile/csde/nagehts/r1-G11.php",
+		"/D/cansmile/csde/nagehts/r1-G8.php",
+		"/D/cansmile/csde/nagehts/r1-D1.php",
+		"/D/cansmile/csde/nagehts/r1-B1.php",
+		"/D/cansmile/csde/nagehts/r1-C1.php",
+		"/D/cansmile/csde/nagehts/r1-B3.php",
+		"/D/cansmile/csde/nagehts/r4-D3.php",
+		"/D/cansmile/csde/nagehts/r4-E2.php",
+		"/D/cansmile/csde/nagehts/r4-E4.php",
+		"/D/cansmile/csde/nagehts/r4-E5.php",
+		"/D/cansmile/csde/nagehts/r5-A2.php",
+		"/D/cansmile/csde/nagehts/r5-A3.php",
+		"/D/cansmile/csde/nagehts/r5-B1.php",
+		"/D/cansmile/csde/nagehts/r5-B2.php",
+		"/D/cansmile/csde/nagehts/r5-B4.php",
+		"/D/cansmile/csde/nagehts/r5-C2.php",
+		"/D/cansmile/csde/nagehts/r5-C4.php",
+		"/D/cansmile/csde/nagehts/r5-C5.php",
+		"/D/cansmile/csde/nagehts/r5-C6.php",
+		"/D/cansmile/csde/nagehts/r5-D1.php",
+		"/D/cansmile/csde/nagehts/r5-D3.php",
+		"/D/cansmile/csde/nagehts/r5-D4.php",
+		"/D/cansmile/csde/nagehts/r5-D5.php",
+		"/D/cansmile/csde/nagehts/r5-E2.php",
+		"/D/cansmile/csde/nagehts/r5-E3.php",
+		"/D/cansmile/csde/nagehts/r5-F2.php",
+		"/D/cansmile/csde/nagehts/r5-G1.php",
+		"/D/cansmile/csde/nagehts/r5-G10.php",
+		"/D/cansmile/csde/nagehts/r5-G11.php",
+		"/D/cansmile/csde/nagehts/r5-G12.php",
+		"/D/cansmile/csde/nagehts/r5-G13.php",
+		"/D/cansmile/csde/nagehts/r5-G14.php",
+		"/D/cansmile/csde/nagehts/r5-G16.php",
+		"/D/cansmile/csde/nagehts/r5-G3.php",
+		"/D/cansmile/csde/nagehts/r5-G4.php",
+		"/D/cansmile/csde/nagehts/r5-G5.php",
+		"/D/cansmile/csde/nagehts/r5-G7.php",
+		"/D/cansmile/csde/nagehts/r6-A1.php",
+		"/D/cansmile/csde/nagehts/r6-A2.php",
+		"/D/cansmile/csde/nagehts/r6-A3.php",
+		"/D/cansmile/csde/nagehts/r6-B0.php",
+		"/D/cansmile/csde/nagehts/r6-B1.php",
+		"/D/cansmile/csde/nagehts/r6-C1.php",
+		"/D/cansmile/csde/nagehts/r6-C2.php",
 		"/D/cansmile/csde/nagehts/r6-D1.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/license.xml",
-		"/C/apache/htdocs/metadata.xml",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/USX/1CH.usx",
-		"/D/cansmile/csde/nagehts/ProPresenter/toDb.php",
-		"/C/apache/htdocs/1.py",
-		"/C/apache/htdocs/1.rb",
-		"/C/php/php.ini",
-		"/C/mysql-init.txt",
-		"/D/cansmile/csde/nagehts/ProPresenter/nkr.txt",
-		"/C/apache/conf/httpd.conf",
-		"/C/apache/conf/php.ini",
-		"/C/php/php.ini-development",
-		"/C/mysql/bin/CANOTEBOOK.err",
-		"/C/Windows/my.ini",
-		"/C/apache/htdocs/toDb.php",
-		"/D/cansmile/csde/nagehts/pyrb/Comment/1.py",
-		"/C/apache/logs/error.log",
-		"/C/apache/htdocs/phpinfo.php",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/apache/htdocs/index.html",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/Apache24/htdocs/index.html",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1572335564/nagehts.json/var/www/html/nagehts.org/public_html/ProPresenter/toDb.php",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00018 Impulse/01. S2E1 'Mind on Fire' - Impulse (UNCENSORED)_ko.txt",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00018 Impulse/csfp19-00018 Impulse.fpfx",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00018 Impulse/csfp19-00017 Impulse.fpfx",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00019 Impulse/csfp19-00017 Impulse.fpfx",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00019 Impulse/01. S2E1 'Mind on Fire' - Impulse (UNCENSORED)_en.srt",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/ProPresenter/nkr.txt",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00019 Impulse/01. S2E1 'Mind on Fire' - Impulse (UNCENSORED)_en.txt",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00019 Impulse/01. S2E1 'Mind on Fire' - Impulse (UNCENSORED)_ko.txt",
-		"/C/BibleShow5/BibleShow.lng",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00017 BibleShow 5.4/2019102600001 bibleshow 5.4 language_eng-us_kor-kr.txt",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00019 Impurse/01. S2E1 'Mind on Fire' - Impulse (UNCENSORED)_ko.srt",
-		"/D/Videos/just Clips/Impulse Season 2 - New episode every Wednesday - YouTube/E7qyZawdbww_1_en.srt",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00000 testing.scriv/cscri19-00000 testing.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00001 스크리브너 처음 따라하기.scriv/cscri19-00001 스크리브너 처음 따라하기.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00002 190825 학생부 주일예배 설교 네 입, 내 일 렘1;4~10.scriv/cscri19-00002 190825 학생부 주일예배 설교 네 입, 내 일 렘1;4~10.scrivx",
-		"/D/cansmile/csde/PropresentBible/src/American King James Version.sha",
-		"/D/cansmile/csde/PropresentBible/src/American King James Version.bin",
-		"/D/cansmile/csde/PropresentBible/src/American King James Version.md5",
-		"/D/cansmile/csde/PropresentBible/src/American King James Version.sfv",
-		"/C/Program Files (x86)/BibleWorks 9/userdb/nkr.txt",
-		"/D/cansmile/csde/PropresentBible/src/American King James Version",
-		"/D/cansmile/csde/PropresentBible/src/Results/1CH.usx",
-		"/D/cansmile/csde/PropresenterBible-master/src/PropresenterBible.mxml",
-		"/D/cansmile/csde/PropresenterBible-master/bin-debug/PropresenterBible-app.xml",
-		"/D/cansmile/csde/PropresenterBible-master/src/PropresenterBible-app.xml",
-		"/D/cansmile/cswd/txt/2019102700001 Scrivener 3.0 Beta 27  (Download Links & Change List).txt",
-		"/D/cansmile/cswd/txt/2019102600001 BibleShow 5.4 Language.txt",
-		"/D/cansmile/csde/PropresenterBible-master/.actionScriptProperties",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00017 BibleShow 5.4/csfp19-00017 BibleShow 5.4.fpfx",
-		"/D/cansmile/csde/PropresenterBible-master/.flexProperties",
-		"/C/BibleShow5/BibleShow.css",
-		"/D/cansmile/csde/PropresenterBible-master/PropresenterBible.iml",
-		"/D/cansmile/csdn/PropresenterBible.iml",
-		"/D/cansmile/csde/PropresenterBible-master/bible2+1.sql",
-		"/D/cansmile/csde/PropresenterBible-master/bible2+1.sqlite",
-		"/D/cansmile/csde/PropresenterBible-master/.project",
-		"/D/cansmile/csde/PropresenterBible-master/README.md",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00017 BibleShow 5.4/2019102600001 BibleShow 5.4 Language.txt",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00017 BibleShow 5.4/Korean1.xlsx",
-		"/D/cansmile/csde/nagehts/r8-B5.php",
-		"/D/cansmile/csde/nagehts/r8-E6.php",
-		"/D/cansmile/csde/nagehts/r8-D5.php",
-		"/D/cansmile/csde/nagehts/r8-D4.php",
-		"/D/cansmile/csde/nagehts/r8-D3.php",
-		"/D/cansmile/csde/nagehts/r8-D2.php",
-		"/D/cansmile/csde/nagehts/wahl.php",
-		"/D/cansmile/csde/nagehts/r8-C7.php",
-		"/D/cansmile/csde/nagehts/r8-C2.php",
-		"/D/cansmile/csde/nagehts/r8-E1.php",
-		"/D/cansmile/csde/nagehts/r8-E2.php",
-		"/D/cansmile/csde/nagehts/r8-E5.php",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00017 It's not easy to be a man after travelling to the future.scriv/Settings/ui.ini",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00017 It's not easy to be a man after travelling to the future.scriv/Settings/ui-common.xml",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00017 It's not easy to be a man after travelling to the future.scriv/cscri19-00017 It's not easy to be a man after travelling to the future.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00017 It's not easy to be a man after travelling to the future.scriv/Files/writing.history",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00017 It's not easy to be a man after travelling to the future.scriv/Files/styles.xml",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Themes/Blush Scrivener Theme.stheme",
-		"/D/cansmile/csdn/american_english_3_8_0/language/en_us/app.php",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00016 phpBB/american_english_3_8_0/language/en_us/groups.php",
-		"/D/cansmile/csdn/--locale-ko-glossary.csv",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00014 Google Fonts Typography/Glossary for Korean.tbx",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00016 phpBB/american_english_3_8_0/ext/phpbb/viglink/language/en_us/info_acp_viglink.php",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00016 phpBB/american_english_3_8_0/language/en_us/acp/bots.php",
-		"/D/cansmile/csde/nagehts/r8-DGR.php",
+		"/D/cansmile/csde/nagehts/r6-E1.php",
+		"/D/cansmile/csde/nagehts/r6-E2.php",
+		"/D/cansmile/csde/nagehts/r6-E3.php",
+		"/D/cansmile/csde/nagehts/r6-E4.php",
+		"/D/cansmile/csde/nagehts/r6-E5.php",
+		"/D/cansmile/csde/nagehts/r6-E6.php",
+		"/D/cansmile/csde/nagehts/r7-A0.php",
+		"/D/cansmile/csde/nagehts/r7-A1.php",
+		"/D/cansmile/csde/nagehts/r7-A2.php",
+		"/D/cansmile/csde/nagehts/r7-A3.php",
+		"/D/cansmile/csde/nagehts/r7-B1.php",
+		"/D/cansmile/csde/nagehts/r7-B2.php",
+		"/D/cansmile/csde/nagehts/r7-B3.php",
+		"/D/cansmile/csde/nagehts/r7-B4.php",
+		"/D/cansmile/csde/nagehts/r7-B5.php",
+		"/D/cansmile/csde/nagehts/r7-B6.php",
+		"/D/cansmile/csde/nagehts/r7-C1.php",
+		"/D/cansmile/csde/nagehts/r7-C2.php",
+		"/D/cansmile/csde/nagehts/r7-C3.php",
+		"/D/cansmile/csde/nagehts/r7-C4.php",
+		"/D/cansmile/csde/nagehts/r7-C6.php",
+		"/D/cansmile/csde/nagehts/r7-C7.php",
+		"/D/cansmile/csde/nagehts/r7-D1.php",
+		"/D/cansmile/csde/nagehts/r7-D2.php",
+		"/D/cansmile/csde/nagehts/r7-D3.php",
+		"/D/cansmile/csde/nagehts/r7-D4.php",
+		"/D/cansmile/csde/nagehts/r7-D5.php",
+		"/D/cansmile/csde/nagehts/r7-D6.php",
+		"/D/cansmile/csde/nagehts/r7-D8.php",
+		"/D/cansmile/csde/nagehts/r8-A1.php",
+		"/D/cansmile/csde/nagehts/r8-B1.php",
 		"/D/cansmile/csde/nagehts/r8-A2.php",
-		"/D/cansmile/csde/nagehts/r8-C4.php",
-		"/D/cansmile/csde/nagehts/r8-C3.php",
 		"/D/cansmile/csde/nagehts/r8-B2.php",
-		"/D/cansmile/csde/nagehts/r3-F1.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1571619035/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1571618931/nagehts.json/etc/apache2/sites-enabled/nagehts.org.conf",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1571618811/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00005 Scrivener 1.9.3 testing.scriv/cscri19-00005 Scrivener 1.9.3 testing.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Preaching.ini",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00008 cansmile.org-Wordpress.scriv/cscri19-00008 cansmile.org-Wordpress.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00007 190911 우리가 교회에 모이는 이유 고전12;12~13.scriv/cscri19-00007 190911 우리가 교회에 모이는 이유 고전12;12~13.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00006 190915 학생부 주일예배 설교 공존 겔37;1~14.scriv/cscri19-00006 190915 학생부 주일예배 설교 공존 겔37;1~14.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00003 190901 학생부 주일예배 설교 새 언약 렘31;31~34.scriv/cscri19-00003 190901 학생부 주일예배 설교 새 언약 렘31;31~34.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00004 190908 학생부 주일예배 설교 고집 렘38;24~28.scriv/cscri19-00004 190908 학생부 주일예배 설교 고집 렘38;24~28.scrivx",
-		"/D/cansmile/Dropbox/Documents/Scrivener/Scrivener Projects/cscri19-00016 191020 학생부 주일예배 설교 기초 스3;9~13.scriv/cscri19-00016 191020 학생부 주일예배 설교 기초 스3;9~13.scrivx",
-		"/C/Users/Administrator/AppData/Local/LiteratureAndLatte/Scrivener/ProjectTemplates/Preacher.scrivtemplate",
-		"/C/Users/Administrator/AppData/Local/LiteratureAndLatte/Scrivener/ProjectTemplates/aa.scrivtemplate",
-		"/D/cansmile/cswd/txt/Jason S. DeRouchie, 정옥배, 구약, 어떻게 해석할 것인가; 주해에서 신학에 이르는 12단계, 서울;죠이선교회, 2019.txt",
-		"/D/cansmile/Dropbox/Documents/Fluency/AccordanceBible/csfp19-00007 Accordance Bible Software.fpfx",
-		"/D/cansmile/cswd/txt/2019101800001 Scrivener 3.0 Beta 26 (Download Links & Change List).txt",
-		"/D/cansmile/cswd/txt/2019101800002 Scrivener 1.9.015 Release Note.txt",
-		"/D/cansmile/csde/nagehts/r8-E4.php",
-		"/D/cansmile/csde/nagehts/r8-E3.php",
-		"/D/cansmile/csde/nagehts/r8-Grammatik und Wendungen.php",
-		"/D/cansmile/cswd/txt/2019101700001 Nagehts-R8-E6.txt",
-		"/D/cansmile/Dropbox/Documents/Fluency/Na, geht's/2019101700001 Nagehts-R8-E5_deukor.ftfx",
-		"/D/cansmile/Dropbox/Documents/Fluency/Na, geht's/2019101700001 Nagehts-R8-E6_deukor.ftfx",
-		"/D/cansmile/cswd/txt/2019101700001 Nagehts-R8-E5.txt",
-		"/D/cansmile/csde/nagehts/r3-F3.php",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00015 Na, geht's.fpfx",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
-		"/D/cansmile/csde/nagehts/r8-D6.php",
-		"/D/cansmile/csde/nagehts/sounds/Reihe 8/r8 U3.mp3",
-		"/D/cansmile/cswd/txt/2019101400001.txt"
+		"/D/cansmile/csde/nagehts/r8-B4.php",
+		"/D/cansmile/csde/nagehts/r8-B5.php",
+		"/D/cansmile/csde/nagehts/r8-C1.php",
+		"/D/cansmile/csde/nagehts/r8-C2.php",
+		"/D/cansmile/csde/nagehts/r8-C3.php",
+		"/D/cansmile/csde/nagehts/r8-C4.php",
+		"/D/cansmile/csde/nagehts/r8-C5.php",
+		"/D/cansmile/csde/nagehts/r8-C7.php",
+		"/D/cansmile/csde/nagehts/r8-D1.php"
 	],
 	"find":
 	{
@@ -1015,7 +1064,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 625.0,
+		"height": 647.0,
 		"where_history":
 		[
 			"D:\\cansmile\\csde\\nagehts",
@@ -1043,134 +1092,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"느헤",
-			"<br>그녀는 6시에 자고있다.",
-			"form-control col-4 d-inline rounded-0 border-top-0 border-left-0 border-right-0 border border-dark q",
-			"<input type=\"text\" class=\"form-control col-3",
-			"aria-label=\".\" id=\"qst-",
-			"<div class=\"ant\" id=\"ant-",
-			"</div>\n\t\t\t\t\t\t\t\t\t<div class=\"input-group\">",
-			"<input type=\"text\" class=\"form-control col-3 d-inline rounded-0 border-top-0 border-left-0 border-right-0 border border-dark q\" aria-label=\".\" id=\"qst-",
-			"<div class=\"ant\" id=\"ant-",
-			"alt=\"Was macht er am Freitag?\" style=\"max-width: 100%; hei",
-			"<td class=\"text-center border-0\"><img src=\"./images/Reihe 6/Reihe-6-E6-",
-			"images/Reihe-6-E6-",
-			"zeitung",
-			"relation; top: -",
-			"relation; top:",
-			"<div class=\"ant\" id=\"ant-",
-			"<tr height=\"100\" class=\"align-middle\">",
-			"<td height=\"200\" class=\"align-middle text-center\"><img ",
-			" height=\"100\" class=\"align-middle\"",
-			"<div class=\"input-group\">Um ",
-			"<div class=\"ant\" id=\"ant-",
-			"><span class=\"tran\"><small>",
-			"<div class=\"itm-lst 1itm py-0 my-0\" id=\"lst-",
-			"<div class=\"col-12 text-center\"><span class=\"tran\"><br><small>",
-			"&#",
-			"&#54997;바（후ㅂ바）",
-			"&#",
-			"벧아스마&#50939;（벧아스마웨ㅅ）",
-			"&#",
-			"하살마&#50939;（하살마웨ㅅ）",
-			"&#",
-			"아스마&#50939;（아스마웨ㅅ）",
-			"&#",
-			"&#54997;빔（후ㅂ빔）",
-			"&#",
-			"=mysqli",
-			"57",
-			"extension=mysql",
-			"extension=mysqli\n",
-			"exten",
-			"php_gd2",
-			"mysqli",
-			"\\",
-			"encoding",
-			"SRVROOT",
-			"\\",
-			"c:/",
-			"AllowOverr",
-			"<directory",
-			"directory",
-			"Dictionary",
-			"addtype",
-			"cgi",
-			"fast",
-			"fast-cgi",
-			"servername",
-			"server name",
-			"hcd",
-			"csfp19-00019",
-			"&#",
-			"&#54997;바（후ㅂ바）",
-			"벧아스마&#50939;（벧아스마웨ㅅ）",
-			"&#",
-			"&#49220;라（쀼ㄹ라）",
-			"아스마&#50939;（아스마웨ㅅ）",
-			"&#54997;빔（후ㅂ빔）",
-			"하살마&#50939;（하살마웨ㅅ）",
-			"&#",
-			"쀼",
-			"쁄",
-			"아스마",
-			"file",
-			"\n\n",
-			"-->",
-			"\n\n",
-			"-->",
-			"\"E1\" => \"\", ",
-			"INSERT INTO \"main\".\"bible\"",
-			"말 것이니라 하면 그는 가지 말 ",
-			"$",
-			"'",
-			"Gen",
-			"Exo",
-			"Lev",
-			"Num",
-			"Deu",
-			"Jos",
-			"Jdg",
-			"Rut",
-			"1Sa",
-			"2Sa",
-			"1Ki",
-			"2Ki",
-			"1Ch",
-			"2Ch",
-			"Ezr",
-			"Neh",
-			"Est",
-			"Job",
-			"Psa",
-			"Pro",
-			"Ecc",
-			"Sol",
-			"Isa",
-			"Jer",
-			"Lam",
-			"Eze",
-			"Dan",
-			"Hos",
-			"Joe",
-			"Amo",
-			"Oba",
-			"Jon",
-			"Mic",
-			"Nah",
-			"Hab",
-			"Zep",
-			"Hag",
-			"Zec",
-			"Mal",
-			"Mat",
-			"Mar",
-			"Luk",
-			"Joh",
-			"Act",
-			"Rom",
-			"1Co",
-			"2Co"
+			"wach",
+			"구약",
+			" | ",
+			"chk",
+			"substr",
+			"pan",
+			"100%;height:auto;\" class=\"so\" id=\"",
+			"Freitag Vormittag",
+			"Am Freitag Vormittag",
+			"<span class=\"tran\"><small>",
+			"itm-lst 1itm d-inline mb-0 col-3",
+			"itm-lst 1itm d-inline mb-0 col-3 mr-0",
+			"나의 가족은",
+			"btn btn-warning btn-xl ttl d-block",
+			"<div id=\"ant-",
+			"itm-lst 1itm d-inline col-3",
+			"position: relative; top: -6px;",
+			"rfchk($(this))",
+			"rfch",
+			"ant",
+			"<div class=\"itm-lst 1itm d-inline col-3\" style=\"position: relative; top: -6px;\" id=\"lst-",
+			"text-center align-middle border-0 display-4",
+			"<td class=\"border-0\"><img src=\"./images/Reihe 4/Reihe-4-A1-",
+			" class=\"so\" id=\"",
+			"<input type=\"text\" placeholder=\"Antwort\" aria-label=\"Antwort\" ",
+			"<input type=\"text\" placeholder=\"Antwort\" aria-label=\"Antwort\"",
+			"control q",
+			">\n",
+			"rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4",
+			"<span class=\"tran\"><br>",
+			"<div id=\"ant-",
+			"rounded-0 mx-1\" style=\"position: relative; top: -6px;\" id=\"qst-",
+			"text-center form-control col-2 q border-left-0 border-top-0 border-right-0 rounded mx-1",
+			"text-center form-control col-2 q",
+			"border-radius: .25em;",
+			"<strong>",
+			"<span class=\"display-1 font-weight-bold\">",
+			"<img src=\"./images/Reihe 4/Reihe-4-C2-2-",
+			"r4 C2+",
+			"r4 C2",
+			"$oDocument",
+			"link",
+			"$sns_link",
+			"function",
+			"$addon_info",
+			"tar",
+			"ata-type=",
+			"img",
+			"exist",
+			"aaa",
+			"nicht klein",
+			"Vase",
+			"비용",
+			"가죽",
+			"등보",
+			"클립",
+			"장롱",
+			"걸상",
+			"mein",
+			"Sie/div",
+			"/div",
+			"<span class=\"nu\">",
+			"저에요",
+			"이것",
+			"윌리엄",
+			"<strong id=",
+			"<div style=\"min-height: 240px;\" class=\"rounded-top border bg-lime border-white itm-lst text-center text-dark col-auto my-4\" id=\"lst-",
+			"<input type=\"radio\" name=\"options\" id=\"option",
+			"itm",
+			"<script src=\"./js/tapto",
+			"ion.sound",
+			"x.play",
+			"checkafter.js\"></script>",
+			"<script src=\"./js/tapto",
+			" === undefined",
+			"undefined",
+			"=== undefined",
+			".play() === undefined",
+			"o.play();",
+			"o.play()",
+			"x.play();",
+			"play();",
+			"play()",
+			"ion.soun",
+			"맞고",
+			"ion.sound",
+			"ion",
+			"l;j",
+			"<script src=\"./js/tapto",
+			"ion.sound.play(\"dingdongdang\");",
+			"ion.sound.play(\"Cartoon_Boing\");",
+			"ion",
+			"play()",
+			"ion",
+			"ion.sound.play",
+			"ion.",
+			"ion.sound.play(\"Cartoon_Boing\");",
+			"so itm-lst",
+			"itm",
+			"ion",
+			"idx",
+			".js",
+			"so",
+			"start",
+			"console",
+			"330",
+			"\" class=\"itm\"><h4>",
+			"<button class=\"itm btn btn-outline-dark\" ",
+			"<span class=\"itm\" ",
+			"<span class=\"itm\" id=\"Ä_lg\">",
+			"images/Reihe 0",
+			"\" data-holder-rendered=\"true\"",
+			"seek",
+			"duration",
+			"seek",
+			"currentTime",
+			"Time",
+			"time",
+			"current",
+			".stop",
+			"ids",
+			"_getSoundIds(id);",
+			"id",
+			"sounds",
+			"sound",
+			"#cnt-",
+			"var last",
+			"봐야 해"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1178,6 +1227,21 @@
 		"regex": false,
 		"replace_history":
 		[
+			"신약",
+			"|",
+			"가격",
+			".js\"></script>",
+			"dingdongdang",
+			"$(\"#qst-\"+(i+1)).after(\"<div class=\\\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\\\" style=\\\"position: relative; top: -6px;\\\">\"",
+			"<script src=\"./js/jquery-3.4.1.min.js\"></script>",
+			"$(\".tran\").show();\nif($(this).hasClass(\"ans\"+ (a))) {",
+			"and",
+			"if($(\"#wahl\").visibility != \"visible\" && $(this).attr(\"id\") == \"chk\") {",
+			"if($(\"#wahl\").visibility !=\"visible\" && $(this).attr(\"id\") == \"chk\" {",
+			"$(\"#chk\").on(\"click\", function() {\n\t\t\t\tif($(\"#wahl\").visibility !=\"visible\" && $(this).attr(\"id\") == \"chk\" {",
+			"맞히셨네요",
+			"/",
+			"\n",
 			"/",
 			"\n",
 			"');",
@@ -1290,22 +1354,7 @@
 			"219, 219, 219",
 			"e5e5e5",
 			"424242",
-			"5f5f5f",
-			"146, 146, 146",
-			"666666",
-			"6c6c6c",
-			"7f7f7f",
-			"cfcfcf",
-			"bcbcbc",
-			"dbdbdb",
-			"e5e5e5",
-			"424242",
-			"5f5f5f",
-			"146, 146, 146",
-			"6c6c6c",
-			"7f7f7f",
-			"cfcfcf",
-			"bcbcbc"
+			"5f5f5f"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1340,79 +1389,6 @@
 							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
 							"bracket_highlighter.locations":
 							{
 								"close":
@@ -1430,51 +1406,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1484,11 +1440,30 @@
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
+							"default_dir": "D:\\cansmile\\Dropbox\\Documents\\Fluency\\csfp19-00005 LiteratureandLatte",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1498,11 +1473,6 @@
 					"stack_index": 0,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -1523,18 +1493,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1545,6 +1508,10 @@
 	},
 	"menu_visible": true,
 	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.doc":
 	{
 		"height": 0.0
 	},
@@ -1576,7 +1543,7 @@
 	{
 		"height": 329.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/TypeScript/TypeScript.sublime-build",
 	"project": "Nagehts.sublime-project",
 	"replace":
 	{
@@ -1589,6 +1556,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"140",
+				"sounds\\Reihe 10\\r10 B4.aac"
+			],
 			[
 				".tran",
 				".settings\\com.aptana.editor.common.prefs"

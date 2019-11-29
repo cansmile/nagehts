@@ -26,7 +26,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" colspan="2">Bestellung im Restaurant<span class="tran"><small>주문</small></span></th>
+								<th scope="col" colspan="2">Bestellung im Restaurant<span class="tran"><small>&nbsp;주문</small></span></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -35,9 +35,9 @@
 								<td>
 									<div id="ant-1"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Herr Ober,</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q text-center col-4" id="qst-1">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad2">bitte.</span></div>
+										<div class="sen d-inline-flex">Herr Ober,
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q text-center col-4 border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-1">
+											bitte.</div>
 									</div>
 									<span class="tran"><small>여기 메뉴판 좀 주세요.</small></span>
 								</td>
@@ -49,11 +49,11 @@
 							<tr>
 								<td><button type="button" id="3" class="so btn btn-outline-danger">▶</button></td>
 								<td>
-									<div id="ant-3"></div>
+									<div id="ant-2"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Wir möchten</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control col-3 q pr-0 text-center" id="qst-2">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad4">.</span></div>
+										<div class="sen d-inline-flex">Wir möchten
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control col-3 q pr-0 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-2">
+											.</div>
 									</div>
 									<span class="tran"><small>주문할게요.</small></span>
 								</td>
@@ -61,11 +61,11 @@
 							<tr>
 								<td><button type="button" id="4" class="so btn btn-outline-success">▶</button></td>
 								<td>
-									<div id="ant-4"></div>
+									<div id="ant-3"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">Ja natürlich! </span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control col-4 q text-right pr-0" id="qst-3">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad6">?</span></div>
+										<div class="sen d-inline-flex">Ja natürlich! 
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control col-4 q text-right pr-0 border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-3">
+											?</div>
 									</div>
 									<span class="tran"><small>네, 알겠습니다. 무엇을 드시겠습니까?</small></span>
 								</td>
@@ -73,11 +73,11 @@
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
 								<td>
-									<div id="ant-5"></div>
+									<div id="ant-4"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad7">Ich nehme</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="pr-0 form-control col-6 q text-center" id="qst-4">
-										<div class="input-group-append"><span class="pl-0 input-group-text" id="qst-ad8">.</span></div>
+										<div class="sen d-inline-flex">Ich nehme
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="pr-0 form-control col-6 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-4">
+											.</div>
 									</div>
 									<span class="tran"><small>전 피자 하나와 샐러드 하나요.</small></span>
 								</td>
@@ -85,11 +85,11 @@
 							<tr>
 								<td><button type="button" id="6" class="so btn btn-outline-success">▶</button></td>
 								<td>
-									<div id="ant-6"></div>
+									<div id="ant-5"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad9">Und was möchten Sie </span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control col-2 q pr-0 text-center" id="qst-5">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad10">?</span></div>
+										<div class="sen d-inline-flex">Und was möchten Sie 
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control col-3 q pr-0 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-5">
+											?</div>
 									</div>
 									<span class="tran"><small>그리고 음료는요?</small></span>
 								</td>
@@ -97,10 +97,10 @@
 							<tr>
 								<td><button type="button" id="7" class="so btn btn-outline-danger">▶</button></td>
 								<td>
-									<div id="ant-7"></div>
+									<div id="ant-6"></div>
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q col-6 text-center" id="qst-6">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad11">.</span></div>
+										<div class="sen d-inline-flex"><input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q col-6 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-6">
+											.</div>
 									</div>
 									<span class="tran"><small>콜라 한 잔 주세요.</small></span>
 								</td>
@@ -108,11 +108,11 @@
 							<tr>
 								<td><button type="button" id="8" class="so btn btn-outline-success">▶</button></td>
 								<td>
-									<div id="ant-8"></div>
+									<div id="ant-7"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad12">Und Sie?</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q text-center col-6" id="qst-7">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad13">?</span></div>
+										<div class="sen d-inline-flex">Und Sie?
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q text-center col-6 border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-7">
+											?</div>
 									</div>
 									<span class="tran"><small>이 쪽 분은 무엇을 드시겠습니까?</small></span>
 								</td>
@@ -120,20 +120,23 @@
 							<tr>
 								<td><button type="button" id="9" class="so btn btn-outline-primary">▶</button></td>
 								<td>
-									<div id="ant-9"></div>
+									<div id="ant-8"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad14">Ich esse</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-2 q text-center" id="qst-8">
+										<div class="sen d-inline-flex">
+											Ich esse
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-4 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-8">
+										</div>
 									</div>
 								</td>
 							</tr>
 							<tr>
 								<td>&nbsp;</td>
 								<td>
+									<div id="ant-9"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad15">und trinke</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-3 q text-center" id="qst-9">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad16">.</span></div>
+										<div class="sen d-inline-flex">und trinke
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control col-3 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-9">
+											.</div>
 									</div>
 									<span class="tran"><small>전 스테이크 하나와 와인 한 잔이요.</small></span>
 								</td>
@@ -145,7 +148,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" colspan="2">Bezahlung im Restaurant<span class="tran"><small>주문</small></span></th>
+								<th scope="col" colspan="2">Bezahlung im Restaurant<span class="tran"><small>&nbsp;계산</small></span></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -154,9 +157,9 @@
 								<td>
 									<div id="ant-10"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad17">Wir möchten bitte</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="form-control col-3 q text-center" id="qst-10">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad18">.</span></div>
+										<div class="sen d-inline-flex">Wir möchten bitte
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="form-control col-4 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-10">
+											.</div>
 									</div>
 									<span class="tran"><small>계산하겠습니다.</small></span>
 								</td>
@@ -166,9 +169,9 @@
 								<td>
 									<div id="ant-11"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad19">Bitte schön.</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="form-control col-6 q text-center" id="qst-11">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad20">?</span></div>
+										<div class="sen d-inline-flex">Bitte schön.
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="form-control col-6 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-11">
+											?</div>
 									</div>
 									<span class="tran"><small>네. 같이 하시겠어요, 아니면 따로 하시겠어요?</small></span>
 								</td>
@@ -178,8 +181,8 @@
 								<td>
 									<div id="ant-12"></div>
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="form-control col-3 q pr-0 text-center" id="qst-12">
-										<div class="input-group-append"><span class="pl-0 input-group-text" id="qst-ad21">, bitte.</span></div>
+										<div class="sen d-inline-flex"><input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="form-control col-3 q pr-0 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-12">
+											, bitte.</div>
 									</div>
 									<span class="tran"><small>따로요.</small></span>
 								</td>
@@ -189,9 +192,9 @@
 								<td>
 									<div id="ant-13"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad22">und</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon13" class="form-control col-5 q text-center" id="qst-13">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad23">?</span></div>
+										<div class="sen d-inline-flex">und
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon13" class="form-control col-5 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-13">
+											?</div>
 									</div>
 									<span class="tran"><small>그럼 무엇을 계산하시나요?</small></span>
 								</td>
@@ -201,7 +204,9 @@
 								<td>
 									<div id="ant-14"></div>
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon14" class="form-control col-6 q text-center" id="qst-14">
+										<div class="sen d-inline-flex">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon14" class="form-control col-6 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-14">
+										</div>
 									</div>
 									<span class="tran"><small>피자, 샐러드,</small></span>
 								</td>
@@ -209,11 +214,11 @@
 							<tr>
 								<td>&nbsp;</td>
 								<td>
-									<div id="ant-14"></div>
+									<div id="ant-15"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad24">Und</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon14" class="form-control col-6 q text-center" id="qst-15">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad25">.</span></div>
+										<div class="sen d-inline-flex">Und
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon14" class="form-control col-6 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-15">
+											.</div>
 									</div>
 									<span class="tran"><small>그리고 콜라요.</small></span>
 								</td>
@@ -221,10 +226,10 @@
 							<tr>
 								<td><button type="button" id="15" class="so btn btn-outline-success">▶</button></td>
 								<td>
-									<div id="ant-15"></div>
+									<div id="ant-16"></div>
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon15" class="form-control col-5 q text-center" id="qst-16">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad26">9,70 €.</span></div>
+										<div class="sen d-inline-flex"><input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon15" class="form-control col-5 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-16">
+											9,70 €.</div>
 									</div>
 									<span class="tran"><small>9유로 70 입니다.</small></span>
 								</td>
@@ -246,13 +251,13 @@
 							<tr>
 								<td><button type="button" id="18" class="so btn btn-outline-primary">▶</button></td>
 								<td>
-									<div id="ant-18"></div>
+									<div id="ant-17"></div><div id="ant-18"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad27">Und ich bezahle</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="form-control q text-center" id="qst-17">
-										<div class="input-group-append border-left-0 border-right-0"><span class="input-group-text" id="qst-ad28">und</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="form-control q text-center" id="qst-18">
-										<div class="input-group-append"><span class="input-group-text" id="qst-ad29">.</span></div>
+										<div class="sen d-inline-flex">Und ich bezahle
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="form-control q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-17">
+											und</div>
+										<div class="sen d-inline-flex"><input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="form-control q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-18">
+											.</div>
 									</div>
 									<span class="tran"><small>그리고 전 스테이크와 와인을 계산하겠습니다.</small></span>
 								</td>
@@ -262,8 +267,8 @@
 								<td>
 									<div id="ant-19"></div>
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control col-2 q text-center" id="qst-19">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad30">,</span></div>
+										<div class="sen d-inline-flex"><input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control col-2 q text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-19">
+											,</div>
 									</div>
 									<span class="tran"><small>스태이크 하나,</small></span>
 								</td>
@@ -271,11 +276,11 @@
 							<tr>
 								<td>&nbsp;</td>
 								<td>
-									<div id="ant-19"></div>
+									<div id="ant-20"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad31">und</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control q pr-0 text-center" id="qst-20">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad32">...,</span></div>
+										<div class="sen d-inline-flex">und
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control q pr-0 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-20">
+											...,</div>
 									</div>
 									<span class="tran"><small>그리고 와인 한 잔…,</small></span>
 								</td>
@@ -283,10 +288,10 @@
 							<tr>
 								<td>&nbsp;</td>
 								<td>
-									<div id="ant-19"></div>
+									<div id="ant-21"></div>
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control q pr-0 text-center" id="qst-21">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad33">18,50 €.</span></div>
+										<div class="sen d-inline-flex"><input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control q pr-0 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-21">
+											18,50 €.</div>
 									</div>
 									<span class="tran"><small>18유로 50입니다.</small></span>
 								</td>
@@ -294,11 +299,11 @@
 							<tr>
 								<td><button type="button" id="20" class="so btn btn-outline-primary">▶</button></td>
 								<td>
-									<div id="ant-20"></div>
+									<div id="ant-22"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text" id="qst-ad34">Hier, bitte. 20 €.</span></div>
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="form-control q pr-0 text-center" id="qst-22">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad35">!</span></div>
+										<div class="sen d-inline-flex">Hier, bitte. 20 €.
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="form-control q pr-0 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-22">
+											!</div>
 									</div>
 									<span class="tran"><small>여기 있습니다. 20유로. 됐습니다.</small></span>
 								</td>
@@ -306,10 +311,10 @@
 							<tr>
 								<td><button type="button" id="21" class="so btn btn-outline-success">▶</button></td>
 								<td>
-									<div id="ant-21"></div>
+									<div id="ant-23"></div>
 									<div class="input-group">
-										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon21" class="form-control q pr-0 text-center" id="qst-23">
-										<div class="input-group-append"><span class="input-group-text pl-0" id="qst-ad36">!</span></div>
+										<div class="sen d-inline-flex"><input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon21" class="form-control q pr-0 text-center border-left-0 border-top-0 border-right-0 rounded-0 ml-1" style="position: relative; top: -6px;" id="qst-23">
+											!</div>
 									</div>
 									<span class="tran"><small>감사합니다!</small></span>
 								</td>
@@ -331,11 +336,11 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroupnomove.js"></script>
+	<script src="./js/taptogroup.js"></script>
 	<!-- interact.min.js -->
 	<script src="./js/ion.sound.min.js"></script>
 	<script>
@@ -449,7 +454,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 						$(this).prop("disabled", true);
 					}
 				}
@@ -498,7 +503,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -531,7 +536,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {
@@ -628,28 +633,31 @@
 							i < an.length;
 							i++) {
 								var oran=$("#qst-"+(i+1)).val();
-								if(rfchk($("#qst-"+(i+1)))) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white");
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
 								}
 								else {
-									$("#qst-"+(i+1)).val(an[i]);
+									$("#qst-"+(i+1)).val(oran);
 									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).closest(".sen").append("<br /><div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;
 								}
 							}
 							if (ri < (qst/2)) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
 								$(this).addClass("bg-danger text-white");
 							}
 							else if(ri==qst) {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("bg-primary text-white");
 							}
 							else {
-								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞추셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("bg-warning text-white");
 							}
 							$(this).prop("disabled", true);
@@ -672,6 +680,7 @@
 						var pann="#qst-"+pan[p];
 						$(pann).val(an[(pan[p]-1)]);
 						$(pann).prop("disabled", true);
+						$(pann).removeClass("rounded-0");
 						$(pann).addClass("bg-success text-white font-weight-bold");
 						$(pann).closest("tr").find(".tran").show();
 					}

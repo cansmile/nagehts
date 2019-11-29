@@ -213,7 +213,7 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -223,40 +223,39 @@
 	<script>
 		$("#chk").hide();
 		$(document).ready(function() {
-			ion.sound( {
-				sounds : [ {
-					name: "Cartoon_Boing",
-				}
-				],
-				path : "sounds/",
-				preload : true,
-				volume : 1.0,
-				multiplay : false
-			}
-			);
 			// 정답확인
 			$("#chk").on("click", function() {
-				var na="";
-				if($("#itms").find("button").length < 1) {
-					$(".tran").show();
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-					$(this).removeClass("btn-light");
-					$(this).addClass("btn-primary");
-					$(".btn-lg").text().appendTo($(this).closest("td"));
-					$(".btn-lg").remove();
-				}
-				else {
-					$("div.itm-lst").each(function(idx) {
-						if( !$(this).find("button").length) {
-							if(na !="") {
-								na +=", ";
-							}
-							na +=(idx+1);
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".so").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
+						}
+						else {
+							$(this).addClass("text-danger font-weight-bold");
+							$(this).find(".tran").show();
+
+						}
+						;
+					});
+
+					if($(".so").length==$(".text-success.font-weight-bold").length) {
+						ion.sound.play("dingdongdang");
+						$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+						$(this).addClass("bg-success font-weight-bold text-white");
 					}
-					);
-					alert("모든 문제를 풀어주세요!");
-					// alert(na+"번 문제를 풀어주세요!");
+					else {
+						ion.sound.play("Cartoon_Boing");
+						$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+						$(this).addClass("bg-orange font-weight-bold text-white");
+					}
+					;
 				}
 			}
 			);

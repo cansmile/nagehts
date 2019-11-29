@@ -5,11 +5,6 @@
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
-	<style>
-		td {
-			word-break: keep-all;
-		}
-	</style>
 	<section>
 		<div class="container">
 			<!-- 고르는 아이템들 -->
@@ -33,51 +28,51 @@
 							<tr>
 								<th scope="row" rowspan="12" class="text-center align-middle"><img src="./images/Reihe 3/Reihe-3-C1-1.png" style="max-width: 240px; height: auto;"></th>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
-								<td>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></td>
+								<td>Wer ist das?<span class="tran"><br><small>이 사람들은 누구니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
-								<td>Das ist meine Familie.<span class="tran"><br><small>제 가족이에요.</small></span></td>
+								<td>Das ist meine Familie.<span class="tran"><br><small>우리 가족이야.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="3" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ich komme aus einer Großfamilie.<span class="tran"><br><small>저는 대가족에 속해 있어요.</small></span></td>
+								<td>Ich komme aus einer Großfamilie.<span class="tran"><br><small>우리는 대가족이야.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ich habe einen Vater, eine Mutter und viele Geschwister.<span class="tran"><br><small>저는 아버지, 어머니 그리고 많은 형제자매가 있어요.</small></span></td>
+								<td>Ich habe einen Vater, eine Mutter und viele Geschwister.<span class="tran"><br><small>아버지, 어머니 그리고 많은 형제자매가 있어.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-primary">▶</button></td>
-								<td>Das ist schön! Wie viele Geschwister hast du?<span class="tran"><br><small>좋네요! 형제자매는 몇 명이나 있나요?</small></span></td>
+								<td>Das ist schön! Wie viele Geschwister hast du?<span class="tran"><br><small>좋겠다! 형제자매는 몇 명니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ich habe sechs Geschwister.<span class="tran"><br><small>저는 6명의 형제자매가 있어요.</small></span></td>
+								<td>Ich habe sechs Geschwister.<span class="tran"><br><small>6명의 형제자매가 있어.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="7" class="so btn btn-outline-danger">▶</button></td>
-								<td>Und wie viele Geschwister hast du?<span class="tran"><br><small>그러면 당신은 몇 명의 형제자매가 있나요? </small></span></td>
+								<td>Und wie viele Geschwister hast du?<span class="tran"><br><small>그러면 넌 형제자매가 몇명이야? </small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="8" class="so btn btn-outline-primary">▶</button></td>
-								<td>Ich habe eine Schwester und einen Bruder.<span class="tran"><br><small>저는 자매 하나와 형제 하나가 있어요.</small></span></td>
+								<td>Ich habe eine Schwester und einen Bruder.<span class="tran"><br><small>누나와 형이 있어.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="9" class="so btn btn-outline-primary">▶</button></td>
-								<td>Und wer ist das?<span class="tran"><br><small>그리고 이 사람은 누구인가요?</small></span></td>
+								<td>Und wer ist das?<span class="tran"><br><small>그럼 이 사람은 누구니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="10" class="so btn btn-outline-primary">▶</button></td>
-								<td>Kommt er aus Japan?<span class="tran"><br><small>일본 출신인가요?</small></span></td>
+								<td>Kommt er aus Japan?<span class="tran"><br><small>일본인이니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="11" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ah, das ist mein Schwager.<span class="tran"><br><small>아, 자형이에요.</small></span></td>
+								<td>Ah, das ist mein Schwager.<span class="tran"><br><small>아, 매형이에요.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="12" class="so btn btn-outline-danger">▶</button></td>
-								<td>Er kommt aus Korea.<span class="tran"><br><small>그는 한국출신이에요.</small></span></td>
+								<td>Er kommt aus Korea.<span class="tran"><br><small>그는 한국인이야.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -142,7 +137,7 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -258,7 +253,7 @@
 						ion.sound.play("Cartoon_Boing");
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 				}
 				$(this).removeClass("text-white text-weight-bold");
@@ -296,7 +291,7 @@
 					}
 				}
 				, {
-					name: "Bama_Country_Country",
+					name: "dingdongdang",
 						path: "sounds/"
 				}
 				, {
@@ -329,7 +324,7 @@
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {
-						ion.sound.play("Bama_Country_Country");
+						ion.sound.play("dingdongdang");
 					}
 					);
 					$(".x").on("click", function() {

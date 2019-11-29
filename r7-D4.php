@@ -95,7 +95,7 @@
 														▼ </h2>
 												</div>
 												&nbsp;deine Hausaufgaben machen.
-												<span class="tran"><br><small>미나, 너 숙제해야지.</small></span>
+												<span class="tran"><br><small>미나, 너 숙제 해야지.</small></span>
 											</div>
 										</div>
 									</td>
@@ -162,7 +162,7 @@
 														▼ </h2>
 												</div>
 												&nbsp;einkaufen.
-												<span class="tran"><br><small>오! 우리 장 봐야해.</small></span>
+												<span class="tran"><br><small>오! 우리 장 봐야 해.</small></span>
 											</div>
 										</div>
 									</td>
@@ -187,7 +187,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -208,7 +208,7 @@
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
 
-					$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 					$(this).removeClass("btn-light");
 					$(this).addClass("btn-primary");
 					$(".btn-lg").text().appendTo($(this).closest("td"));

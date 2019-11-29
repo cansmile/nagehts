@@ -33,7 +33,7 @@
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="19">der</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="20">Nacht</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="21">arbeiten
-					<span class="tran"><small>일해야만 한다</small></span>
+					<span class="tran"><small>일 해야만 한다</small></span>
 				</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="22">.</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="23">Das</button>
@@ -78,7 +78,7 @@
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="54">jeden</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="55">Tag</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="56">trainieren
-					<span class="tran"><small>훈련해야만 한다</small></span>
+					<span class="tran"><small>훈련 해야만 한다</small></span>
 				</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="57">.</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="58">Sie</button>
@@ -94,7 +94,7 @@
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="66">sie</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="67">nicht</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0" id="68">arbeiten gehen
-					<span class="tran"><small>일할 필요가 없다(nicht)</small></span>
+					<span class="tran"><small>일 할 필요가 없다(nicht)</small></span>
 				</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-outline-dark itm border-0" id="69">und</button>
 				<button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-outline-dark itm border-0 74" id="70">kann</button>
@@ -192,7 +192,7 @@
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C61">Oma</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C62">werden</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C63">.</span>
-						<span class="tran"><br>미나는 차라리 할머니가 되고자 합니다.<br></span>
+						<span class="tran"><br>미나는 이렇게 될 바에는 할머니가 되고자 합니다.<br></span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C64">Da</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C65">muss</span>
 						<span class="op-0 m-0 pt-1 mt-2 cbtn" style="font-size: 1.5em;" id="C66">sie</span>
@@ -257,7 +257,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
@@ -336,34 +336,64 @@
 
 			// 정답확인
 			$("#chk").on("click", function() {
-				var na = "";
-				if($(this).attr("id") == "chk") {
-					if($("#itms>button.ans0").length == $("#itms>button").length) {
-						$(this).attr("id","done");
+				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(this).attr("id", "done");
+					$(".itm").each(function() {
+						if($(this).parent().attr("id").length > 5) {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+						} else {
+							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+						}
 						$(".tran").show();
-						$(".ans0").hide();
+						if($(this).hasClass("ans"+ (a))) {
+							$(this).addClass("text-success font-weight-bold");
+						}
+						else {
+							$(this).addClass("text-warning font-weight-bold");
+							$(this).find(".tran").show();
 
-						$(this).html("<h4>모든 답을 다 맞추셨네요!</h4>");
-						$(this).removeClass("btn-light");
-						$(this).addClass("btn-primary");
-						$(".btn-lg").text().appendTo($(this).closest("td"));
-						$(".btn-lg").remove();
+						}
+						;
 
-
-					} else {
-						$("div.itm-lst").each(function(idx) {
-							if(!$(this).find("button").length) {
-								if(na != "") {
-									na += ", ";
+						if($(this).hasClass("text-warning")) {
+							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+							for(var i = 1; i <= $(".itm-lst").length; i++) {
+								if($(this).hasClass("ans"+i)) {
+									for(var c = 1; c <= $(".cbtn").length; c++) {
+										if($(this).hasClass(c)) {
+											var cc = c;
+										}
+									}
+									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold " + cc + "\" id=\"" + $(this).attr("id") + "\">" + $(this).html() + "</button>");
 								}
-								na += (idx+1);
 							}
-						});
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					}
+						};
 
+					}
+				);
+
+				ccl();
+				$("#lst-1>.undefined").each(function() {
+					if(!$(this).hasClass("text-warning")) {
+						$(this).remove();
+					}
 				}
+				)
+				;
+
+
+				if($(".itm").length==$(".itm.text-success").length) {
+					ion.sound.play("dingdongdang");
+					$(this).html("<h4>모든 답을 다 맞히셨네요!<br />혹시 독일사람인가요?</h4>");
+					$(this).addClass("bg-success font-weight-bold text-white");
+				}
+				else {
+					ion.sound.play("Cartoon_Boing");
+					$(this).html("<h4>"+ $(".text-success.font-weight-bold").length + "개의 답을 맞히셨네요!</h4>");
+					$(this).addClass("bg-orange font-weight-bold text-white");
+				}
+				;
+			}
 			});
 		$("#2").insertAfter("#lst-1>h2");
 		ccl();

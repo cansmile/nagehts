@@ -3,7 +3,7 @@
 <head>
 	<title>학생들이 어떻게 됐냐?</title>
 	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
 </head>

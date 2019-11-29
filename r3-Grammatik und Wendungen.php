@@ -32,7 +32,7 @@
 									</tr>
 									<tr>
 										<td><strong>Wie</strong> ist Ihre Telefonnummer?</td>
-										<td>Meine Telefonnummer ist 010-2777-3321</td>
+										<td>Meine Telefonnummer ist 010-2777-3321.</td>
 									</tr>
 									<tr>
 										<td><strong>Was</strong> sind Sie von Beruf?</td>
@@ -348,11 +348,11 @@
 								<tbody>
 									<tr>
 										<td width="50%">Was sind Sie von Beruf?</td>
-										<td>- Ich bin Student.</td>
+										<td>- Ich bin Kellnerin.</td>
 									</tr>
 									<tr>
 										<td>Was bist du von Beruf?</td>
-										<td>- Ich bin Kellnerin.</td>
+										<td>- Ich bin Student.</td>
 									</tr>
 									<tr>
 										<td>Was machen Sie?</td>
@@ -390,7 +390,7 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>

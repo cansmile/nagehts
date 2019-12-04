@@ -19,11 +19,11 @@
 								<tr>
 									<th scope="row">
 										<div class="ant" id="ant-1"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Wie</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control col-3 q" id="qst-1">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">Sie?</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Wie
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-1">
+												Sie?
+											</div></span>
 										<span class="tran"><small>당신의 이름은 무엇인가요?</small></span>
 
 									</th>
@@ -31,11 +31,11 @@
 								<tr>
 									<th scope="row">
 										<div class="ant" id="ant-2"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control col-3 q" id="qst-2">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad2"> Tim Schulz.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Ich 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-2">
+												 Tim Schulz.
+											</div></span>
 										<span class="tran"><small>저는 팀 슐츠에요.</small></span>
 
 									</th>
@@ -43,11 +43,11 @@
 								<tr>
 									<th scope="row">
 										<div class="ant" id="ant-3"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Und was </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control col-3 q" id="qst-3">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad3"> Sie beruflich?</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Und was 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-3">
+												 Sie beruflich?
+											</div></span>
 										<span class="tran"><small>그리고 당신은 무슨 일을 하나요?</small></span>
 
 									</th>
@@ -55,35 +55,35 @@
 								<tr>
 									<th scope="row">
 										<div class="ant" id="ant-4"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control col-3 q" id="qst-4">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad4"> Student und</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control col-3 q" id="qst-5">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad5"> Theologie.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Ich 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-4">
+												 Student und
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-5">
+												 Theologie.
+											</div></span>
 										<span class="tran"><small>저는 학생이고 신학을 공부해요</small></span>
 									</th>
 								</tr>
 								<tr>
 									<th scope="row">
 										<div class="ant" id="ant-6"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">Wie alt </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control col-3 q" id="qst-6">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad6">Sie?</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Wie alt 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-6">
+												Sie?
+											</div></span>
 										<span class="tran"><small>당신은 몇 살인가요?</small></span>
 									</th>
 								</tr>
 								<tr>
 									<th scope="row" colspan="2">
 										<div class="ant" id="ant-7"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad7">Ich </span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control col-3 q" id="qst-7">
-											<div class="input-group-append"><span class="input-group-text" id="qst-ad7">20 Jahre alt.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Ich 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-7">
+												20 Jahre alt.
+											</div></span>
 										<span class="tran"><small>저는 20살이에요.</small></span>
 									</th>
 								</tr>
@@ -116,7 +116,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["heißen","heiße","machen","bin","studiere","sind","bin"];
+			var an = ["heißen",["heiße","bin"],"machen","bin","studiere","sind","bin"];
 
 			$(document).ready(function() {
 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
@@ -157,129 +157,139 @@ function rfchk(th,io) {
 		
 	}
 }
-				$(".q").on("keyup", function () {
+			$(".q").on("keyup", function () {
+				$(this).removeClass("bg-danger");
+				$(this).removeClass("bg-success");
+				$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
+				$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
+				if(rfchk($(this))) {
+					$(this).addClass("text-white font-weight-bold");
+					$(this).addClass("bg-success");
+					$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+				}
+				else {
+					$(this).addClass("text-white font-weight-bold");
+					$(this).addClass("bg-danger");
+					$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+				}
+				if( !$(this).val()) {
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
-					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
-					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
+					$(this).removeClass("text-white font-weight-bold");
+				}
+				if($(this).val()) {
+					$("#ant-"+$(this).attr("id").substr(4)).show();
+					$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+				}
+				else {
+					$("#ant-"+$(this).attr("id").substr(4)).hide();
+				}
+			}
+			);
 
+			$(".q").on("focusin", function() {
+				$("#ant-"+$(this).attr("id").substr(4)).show();
+				if( !$("#ant-"+$(this).attr("id").substr(4)).text()) {
+					$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+				}
+				if($("#ant-"+$(this).attr("id").substr(4)).text()) {
 					if(rfchk($(this))) {
 						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-					} else {
+					}
+					else {
 						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
+				}
+			}
+			);
 
-					if(!$(this).val()) {
-						$(this).removeClass("bg-danger");
-						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white font-weight-bold");
+			$(".q").on("focusout", function() {
+				$("#ant-"+$(this).attr("id").substr(4)).hide();
+				if(rfchk($(this), true)) {
+					$(this).addClass("bg-success");
+					$(this).addClass("text-white");
+				}
+				else {
+					$(this).addClass("bg-danger");
+				}
+				if($(this).val()) {
+					if($(this).hasClass("bg-danger")) {
+						ion.sound.play("Cartoon_Boing");
 					}
-					
-					if($(this).val()) {
-						$("#ant-"+$(this).attr("id").substr(4)).show();
-						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-					} else {
-						$("#ant-"+$(this).attr("id").substr(4)).hide();
+					else if($(this).hasClass("bg-success")) {
+						ion.sound.play("dingdongdang");
+						$(this).prop("disabled", true);
 					}
-				})
-
-				$(".q").on("focusin", function() {
-					$("#ant-"+$(this).attr("id").substr(4)).show();
-					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
-						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-					}
-					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
-						if(rfchk($(this))) {
-							$(this).addClass("text-white font-weight-bold");
-							$(this).addClass("bg-success");
-							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-						} else {
-							$(this).addClass("text-white font-weight-bold");
-							$(this).addClass("bg-danger");
-							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
-						}
-					}
-				})
-
-				$(".q").on("focusout", function() {
-					$("#ant-"+$(this).attr("id").substr(4)).hide();
-
-					if(rfchk($(this),true)) {
-						$(this).addClass("bg-success");
-						$(this).addClass("text-white");
-					} else {
-						$(this).addClass("bg-danger");
-					}
-					if($(this).val()) {
-						if($(this).hasClass("bg-danger")) {
-							ion.sound.play("Cartoon_Boing");
-						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("dingdongdang");
-							$(this).prop("disabled",true);
-						}
-					}
-
-					$(this).removeClass("bg-danger");
-					if(!$(this).attr("disabled")) {
-						$(this).removeClass("text-white font-weight-bold");
-						$(this).removeClass("bg-success");
-					}
-				})
+				}
+				$(this).removeClass("bg-danger");
+				if( !$(this).attr("disabled")) {
+					$(this).removeClass("text-white font-weight-bold");
+					$(this).removeClass("bg-success");
+				}
+			}
+			);
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-inline-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 			});
 			
 		</script>

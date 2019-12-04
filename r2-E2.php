@@ -51,8 +51,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-0"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad0">z.B.: Namdeamun Tor</span></div>
-											<input type="text" value="Wo ist das Namdaemun Tor? Es ist in Seoul, Korea. Korea ist in Asien." aria-label="Antwort" aria-describedby="basic-addon1" class="form-control">
+											z.B.: Namdeamun Tor
+											<input type="text" value="Wo ist das Namdaemun Tor? Es ist in Seoul, Korea. Korea ist in Asien." aria-label="Antwort" aria-describedby="basic-addon1" class="form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;">
 										</div>
 										<span class="tran"><br><span class="ml-5 text-success">Wo ist das Namdaemun Tor? Es ist in Seoul, Korea. Korea ist in Asien.<br><small class="text-dark">남대문은 어디에 있나요? 그것은 한국, 서울에 있습니다. 한국은 아시아 대륙에 있습니다.</small></span></span>
 									</td>
@@ -61,8 +61,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-1"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">1: Brandenburger</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-1">
+											1: Brandenburger
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-1">
 										</div>
 									</td>
 								</tr>
@@ -70,8 +70,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-2"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">2: Kolosseum</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control q" id="qst-2">
+											2: Kolosseum
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-2">
 										</div>
 									</td>
 								</tr>
@@ -79,8 +79,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-3"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">3: Eiffelturm</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control q" id="qst-3">
+											3: Eiffelturm
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-3">
 										</div>
 									</td>
 								</tr>
@@ -88,8 +88,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">4: Panda</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q" id="qst-4">
+											4: Panda
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-4">
 										</div>
 									</td>
 								</tr>
@@ -97,8 +97,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-5"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">5: Pyramide</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control q" id="qst-5">
+											5: Pyramide
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-5">
 										</div>
 									</td>
 								</tr>
@@ -106,8 +106,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">6: Mt. Kilimanjaro</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control q" id="qst-6">
+											6: Mt. Kilimanjaro
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-6">
 										</div>
 									</td>
 								</tr>
@@ -115,8 +115,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">7: Känguru</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q" id="qst-7">
+											7: Känguru
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-7">
 										</div>
 									</td>
 								</tr>
@@ -124,8 +124,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-8"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">8: Freiheitssatatue</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q" id="qst-8">
+											8: Freiheitssatatue
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-8">
 										</div>
 									</td>
 								</tr>
@@ -133,8 +133,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant-" id="ant-9"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">9: Taco</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control q" id="qst-9">
+											9: Taco
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-9">
 										</div>
 									</td>
 								</tr>
@@ -300,58 +300,68 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
-						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
-						}
-					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(" ", "").toLowerCase();
-							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
-							var oran = $("#qst-"+(i+1)).val();
-							if(oan == nan) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"<smal</span><span class=\"text-dark\">l><br>"+ant[i]+"</small></span>");
-								}
-								ri++;
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span><span class=\"text-dark\"><small><br>"+ant[i]+"</small></span>");
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
 							}
 						}
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert(na+"번 문제를 풀어주세요!");
-					};
-				})
+							checkHeight();
+						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
+					})
 				$("#qst-1").val(an[0].substr(0,60));
 				$("#qst-2").val(an[1].substr(0,21));
 				ch();
 				$("input:first()").prop("disabled",true);
+				$("input:first()").addClass("bg-success font-weight-bold text-white");
 			});
 			
 		</script>

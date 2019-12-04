@@ -66,7 +66,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -75,13 +75,13 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>
+								<td id="b1">
 									<button type="button" id="10" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">Verkäufer <span class="tran"><small><br>&nbsp;(남)점원</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b2">
 									<button type="button" id="12" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">
@@ -93,7 +93,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b3">
 									<button type="button" id="14" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">
@@ -105,13 +105,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b4">
 									<button type="button" id="16" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">Architekt <span class="tran"><small><br>(남)건축가&nbsp;</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b5">
 									<button type="button" id="18" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">
@@ -123,13 +123,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b6">
 									<button type="button" id="20" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">Taxifahrer <span class="tran"><small><br>&nbsp;(남)택시기사</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b7">
 									<button type="button" id="22" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">
@@ -141,7 +141,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b8">
 									<button type="button" id="24" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">
@@ -153,7 +153,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b9">
 									<button type="button" id="26" class="so btn btn-outline-primary">▶</button>
 								</td>
 								<td class="text-primary">Ingenieur <span class="tran"><small><br>&nbsp;(남)기술자</small></span></td>
@@ -161,7 +161,7 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -170,7 +170,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>
+								<td id="b10">
 									<button type="button" id="11" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">
@@ -182,19 +182,19 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b11">
 									<button type="button" id="13" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">Kellnerin <span class="tran"><small><br>&nbsp;웨이트리스</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b12">
 									<button type="button" id="15" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">Lehrerin <span class="tran"><small><br>&nbsp;(여)선생님</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b13">
 									<button type="button" id="17" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">
@@ -206,13 +206,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b14">
 									<button type="button" id="19" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">Ärztin <span class="tran"><small><br>&nbsp;(여)의사</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b15">
 									<button type="button" id="21" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">
@@ -224,19 +224,19 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b16">
 									<button type="button" id="23" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">Friseurin <span class="tran"><small><br>&nbsp;(여)미용사</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b17">
 									<button type="button" id="25" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">Sekretärin <span class="tran"><small><br>&nbsp;(여)비서</small></span></td>
 							</tr>
 							<tr>
-								<td>
+								<td id="b18">
 									<button type="button" id="27" class="so btn btn-outline-danger">▶</button>
 								</td>
 								<td class="text-danger">
@@ -250,49 +250,49 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>
-								<th scope="col" class="text-primary"><img src="./images/sym_mann.png" alt="mann" style="max-height: 300px; width: auto;"> </th>
-								<th scope="col" class="text-danger"><img src="./images/sym_frau.png" alt="frau" style="max-height: 300px; width: auto;"> </th>
+								<th scope="col" class="text-primary"><img src="./images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" class="text-danger"><img src="./images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="align-middle text-primary">Kellner</td>
+								<td class="align-middle text-primary" id="t1">Kellner</td>
 								<td class="align-middle text-danger">Kellner<strong>in</strong></td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">Lehrer</td>
+								<td class="align-middle text-primary" id="t2">Lehrer</td>
 								<td class="align-middle text-danger">Lehrer<strong>in</strong></td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">Taxifahrer</td>
+								<td class="align-middle text-primary" id="t3">Taxifahrer</td>
 								<td class="align-middle text-danger">Taxifahrer<strong>in</strong></td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">Verkäufer</td>
+								<td class="align-middle text-primary" id="t4">Verkäufer</td>
 								<td class="align-middle text-danger">Verkäufer<strong>in</strong></td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">Arzt</td>
+								<td class="align-middle text-primary" id="t5">Arzt</td>
 								<td class="align-middle text-danger">Ärzt<strong>in</strong></td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">&nbsp;</td>
+								<td class="align-middle text-primary" id="t6">&nbsp;</td>
 								<td class="align-middle text-danger">&nbsp;</td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">Krankenpfleger</td>
+								<td class="align-middle text-primary" id="t7">Krankenpfleger</td>
 								<td class="align-middle text-danger">Krankenschwester</td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">Hausmann</td>
+								<td class="align-middle text-primary" id="t8">Hausmann</td>
 								<td class="align-middle text-danger">Hausfrau</td>
 							</tr>
 							<tr>
-								<td class="align-middle text-primary">Bankkaufmann</td>
+								<td class="align-middle text-primary" id="t9">Bankkaufmann</td>
 								<td class="align-middle text-danger">Bankkauffrau</td>
 							</tr>
 						</tbody>
@@ -327,6 +327,24 @@
 		$(".tran").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
+			function checkHeight() {
+				// 좌우 셀 높이 맞추어 주기
+				var tbn = 9; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
+				for(var i = 1; i <= tbn; i++) {
+					if( $("#b"+i).height() > $("#b"+(i+tbn)).height() ) {
+						$("#t"+(i+tbn)).height($("#b"+i).height());
+						$("#t"+(i)).height($("#b"+i).height());
+						$("#b"+(i+tbn)).height($("#b"+i).height());
+					} else if( ($("#b"+i).height() < $("#b"+(i+tbn)).height()) || ($("#b"+i).height() == $("#b"+(i+tbn)).height()) ) {
+						$("#t"+(i)).height($("#b"+(i+tbn)).height());
+						$("#t"+(i+tbn)).height($("#b"+(i+tbn)).height());
+						$("#b"+(i)).height($("#b"+(i+tbn)).height());
+					}
+				}
+			}
+
+			$(document).on("click", function() { checkHeight(); });
+
 			// 각 문장 재생 횟수 초기화
 			var hm=new Array(), sen=new Array();
 			for(i=0;
@@ -402,6 +420,7 @@
 							$("#"+hmn).closest("tr").find(".tran").show();
 						}
 					}
+					checkHeight();
 				}
 				, ready_callback: function () {
 					$(".o").on("click", function() {

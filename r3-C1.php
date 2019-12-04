@@ -44,7 +44,7 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-primary">▶</button></td>
-								<td>Das ist schön! Wie viele Geschwister hast du?<span class="tran"><br><small>좋겠다! 형제자매는 몇 명니?</small></span></td>
+								<td>Das ist schön! Wie viele Geschwister hast du?<span class="tran"><br><small>좋겠다! 형제자매는 몇 명이니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
@@ -60,15 +60,15 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="9" class="so btn btn-outline-primary">▶</button></td>
-								<td>Und wer ist das?<span class="tran"><br><small>그럼 이 사람은 누구니?</small></span></td>
+								<td>Und wer ist das?<span class="tran"><br><small>그럼 이 분은 누구시니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="10" class="so btn btn-outline-primary">▶</button></td>
-								<td>Kommt er aus Japan?<span class="tran"><br><small>일본인이니?</small></span></td>
+								<td>Kommt er aus Japan?<span class="tran"><br><small>일본인이시니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="11" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ah, das ist mein Schwager.<span class="tran"><br><small>아, 매형이에요.</small></span></td>
+								<td>Ah, das ist mein Schwager.<span class="tran"><br><small>아, 매형이세요.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="12" class="so btn btn-outline-danger">▶</button></td>

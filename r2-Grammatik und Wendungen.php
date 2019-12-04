@@ -185,8 +185,7 @@
 										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Sie kommt aus Korea.</td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">&nbsp;</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">&nbsp;</td>
+										<td colspan="2" class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
 										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Kommen Sie aus Japan?</td>
@@ -201,11 +200,14 @@
 										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Ja (Nein), sie kommt (nicht) aus Italien.</td>
 									</tr>
 									<tr>
+										<td colspan="2" class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
+									</tr>
+									<tr>
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wo wohnen Sie?</td>
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich wohne in Busan.</td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich wohne in Busan.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Wo wohnst du?</td>
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich wohne in Busan.</td>
 									</tr>
 									<tr>
@@ -213,8 +215,7 @@
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Er wohnt in Busan.</td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">&nbsp;</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">&nbsp;</td>
+										<td colspan="2" class="border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wohnen Sie in Guri?</td>
@@ -225,8 +226,11 @@
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ja (Nein), ich wohne (nicht) in Guri.</td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wohnt sie in Guri?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ja (Nein), sie wohnt (nicht) in Guri.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wohnt er in Guri?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ja (Nein), er wohnt (nicht) in Guri.</td>
+									</tr>
+									<tr>
+										<td colspan="2" class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
 										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Welche Sprachen sprechen Sie?</td>
@@ -239,6 +243,9 @@
 									<tr>
 										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Welche Sprachen spricht er?</td>
 										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Er spricht Japanisch.</td>
+									</tr>
+									<tr>
+										<td colspan="2" class="border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wo liegt Korea?</td>

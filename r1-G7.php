@@ -50,7 +50,7 @@
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option6" autocomplete="off">Sie
 										</div>
-									</div>?</span><span class="tran"><br><small>나는 이라고 해. <strong>너</strong>는?</small></span></td>
+									</div>?</span><span class="tran"><br><small>저는 이 라고 합니다. <strong>당신</strong>은요?</small></span></td>
 							<td>Park, Anna Park.<span class="tran"><br><small>박, 안나 박이야.</small></span></td>
 						</tr>
 						<tr>

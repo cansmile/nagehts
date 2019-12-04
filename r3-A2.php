@@ -31,11 +31,17 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th class="bg-light"><small>나의</small>mein</th>
+								<th class="bg-light"><div class="row">
+									<div class="col-6"><small>나의</small></div>
+									<div class="col-6 text-left">mein</div>
+								</div></th>
 								<td class="bg-light">Vater</td>
 							</tr>
 							<tr>
-								<th rowspan="2" class="align-middle bg-light">meine</th>
+								<th rowspan="2" class="align-middle bg-light"><div class="row">
+									<div class="col-6"></div>
+									<div class="col-6 text-left">meine</div>
+								</div></th>
 								<td class="bg-light">Mutter</td>
 							</tr>
 							<tr>
@@ -45,11 +51,17 @@
 								<th colspan="3" height="1" class="p-0 m-0 border-0">&nbsp;</th>
 							</tr>
 							<tr>
-								<th class="bg-light"><small>당신의</small>Ihr</th>
+								<th class="bg-light"><div class="row">
+									<div class="col-6"><small>당신의</small></div>
+									<div class="col-6 text-left">Ihr</div>
+								</div></th>
 								<td class="bg-light">Vater</td>
 							</tr>
 							<tr>
-								<th rowspan="2" class="align-middle bg-light">Ihre</th>
+								<th rowspan="2" class="align-middle bg-light"><div class="row">
+									<div class="col-6"></div>
+									<div class="col-6 text-left">Ihre</div>
+								</div></th>
 								<td class="bg-light">Mutter</td>
 							</tr>
 							<tr>
@@ -59,15 +71,24 @@
 								<th colspan="3" height="1" class="p-0 m-0 border-0">&nbsp;</th>
 							</tr>
 							<tr>
-								<th class="bg-light">ich</th>
+								<th class="bg-light"><div class="row">
+									<div class="col-6"></div>
+									<div class="col-6 text-left">ich</div>
+								</div></th>
 								<td class="bg-light">komme</td>
 							</tr>
 							<tr>
-								<th class="bg-light"><small>당신</small>Sie</th>
+								<th class="bg-light"><div class="row">
+									<div class="col-6"><small>당신</small></div>
+									<div class="col-6 text-left">Sie</div>
+								</div></th>
 								<td class="bg-light">komm<strong>en</strong></td>
 							</tr>
 							<tr>
-								<th class="bg-light"><small>그들</small>sie</th>
+								<th class="bg-light"><div class="row">
+									<div class="col-6"><small>그들</small></div>
+									<div class="col-6 text-left">sie</div>
+								</div></th>
 								<td class="bg-light">komm<strong>en</strong></td>
 							</tr>
 						</tbody>

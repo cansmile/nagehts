@@ -18,28 +18,28 @@
 							<table class="table">
 								<tbody>
 									<tr>
-										<td class="border-0 text-left">Jonas Meyer</td>
+										<td class="border-0 text-left">Sophie Bauer</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">&nbsp;&nbsp;Diplom Ingenieur Siemens</td>
+										<td class="border-0 text-left">&nbsp;&nbsp;Diplomkauffrau Volksbank</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">Nonnendammallee 72</td>
+										<td class="border-0 text-left">Alsterstraße 88</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">13628 Berlin Germany</td>
+										<td class="border-0 text-left">15334 Frankfurt Germany</td>
 									</tr>
 									<tr>
 										<td class="border-0 text-right">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">Tel.: (0941) 95 83 13</td>
+										<td class="border-0 text-right">Tel.: (0342) 23 43 99</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">Handy: (0176) 59 17 77</td>
+										<td class="border-0 text-right">Handy: (0170) 23 55 41</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">E-Mail: jonasmeyer@yahoo.de</td>
+										<td class="border-0 text-right">E-Mail: sophiebauer@gmail.com</td>
 									</tr>
 								</tbody>
 							</table>
@@ -50,17 +50,18 @@
 							<tbody>
 								<tr>
 									<th class="border-0" width="20">·</th>
-									<td class="border-0 align-middle" height="50">Herr Meyer, was sind Sie von Beruf?
+									<td class="border-0 align-middle" height="50">Frau Bauer, was sind Sie von Beruf?
 										<span class="tran">마이어씨, 당신은 무슨일을 하시나요?</span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-0" width="20">·</th>
 									<td class="border-0 align-middle" height="50">
-										<div id="ant-1"></div>
+										<div id="ant-1"></div><div id="ant-2"></div>
 										<span class="sen"><div class="input-group">
-												Ich bin 1.
-												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-1">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-1">
+												bin 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-2">
 												.
 											</div></span>
 										<span class="tran">저는 기술자에요.</span>
@@ -68,23 +69,37 @@
 								</tr>
 								<tr>
 									<th class="border-0" width="20">&nbsp;</th>
-									<td class="border-0 align-middle" height="50">Ich arbeite bei Siemens.
-										<span class="tran">지멘스에서 일해요.</span>
-									</td>
-								</tr>
-								<tr>
-									<th class="border-0" width="20">·</th>
-									<td class="border-0 align-middle" height="50">Wie ist Ihre Adresse?
-										<span class="tran">주소가 어떻게 되나요?</span>
+									<td class="border-0 align-middle" height="50">
+										<div id="ant-3"></div><div id="ant-4"></div>
+										<span class="sen"><div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-3">
+												arbeite bei
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-4">
+												.
+											</div></span>
+										<span class="tran">저는 기술자에요.</span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-0" width="20">·</th>
 									<td class="border-0 align-middle" height="50">
-										<div id="ant-2"></div>
+										<div id="ant-5"></div>
 										<span class="sen"><div class="input-group">
-												Meine Adresse ist 2.
-												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-2">
+												Wie ist
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-5">
+												Adresse?
+											</div></span>
+										<span class="tran">저는 기술자에요.</span>
+									</td>
+								</tr>
+								<tr>
+									<th class="border-0" width="20">·</th>
+									<td class="border-0 align-middle" height="50">
+										<div id="ant-6"></div><div id="ant-7"></div>
+										<span class="sen"><div class="input-group">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-6">
+												Adresse ist 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-6" style="position: relative; top: -6px;" id="qst-7">
 												.
 											</div></span>
 										<span class="tran">제 주소는 Nonnendammalle 72, 13628 Berlin에요.</span>
@@ -92,17 +107,24 @@
 								</tr>
 								<tr>
 									<th class="border-0" width="20">·</th>
-									<td class="border-0 align-middle" height="50">Wie ist Ihre Telefonnummer?
-										<span class="tran">전화번호는 어떻게 되나요?</span>
+									<td class="border-0 align-middle" height="50">
+										<div id="ant-8"></div>
+										<span class="sen"><div class="input-group">
+												Wie ist
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-8">
+												elefonnummer?
+											</div></span>
+										<span class="tran">저는 기술자에요.</span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-0" width="20">·</th>
 									<td class="border-0 align-middle" height="50">
-										<div id="ant-3"></div>
+										<div id="ant-9"></div><div id="ant-10"></div>
 										<span class="sen"><div class="input-group">
-												Meine Telefonnummer ist 3.
-												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-3">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-9">
+												Telefonnummer ist 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-10">
 												.
 											</div></span>
 										<span class="tran">제 전화번호는 958313에요.</span>
@@ -111,10 +133,10 @@
 								<tr>
 									<th class="border-0" width="20">&nbsp;</th>
 									<td class="border-0 align-middle" height="50">
-										<div id="ant-4"></div>
+										<div id="ant-11"></div>
 										<span class="sen"><div class="input-group">
-												Und die Vorwahl ist 4.
-												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-4">
+												Und die Vorwahl ist 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-11">
 												.
 											</div></span>
 										<span class="tran">그리고 지역번호는 0941이에요.</span>
@@ -122,17 +144,24 @@
 								</tr>
 								<tr>
 									<th class="border-0" width="20">·</th>
-									<td class="border-0 align-middle" height="50">Wie ist Ihre E-Mail-Adresse?
-										<span class="tran">이메일 주소는 어떻게 되나요?</span>
+									<td class="border-0 align-middle" height="50">
+										<div id="ant-12"></div>
+										<span class="sen"><div class="input-group">
+												Wie ist
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-12">
+												E-Mail-Address?
+											</div></span>
+										<span class="tran">저는 기술자에요.</span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-0" width="20">·</th>
 									<td class="border-0 align-middle" height="50">
-										<div id="ant-5"></div>
+										<div id="ant-13"></div><div id="ant-14"></div>
 										<span class="sen"><div class="input-group">
-												Meine E-Mail-Adresse ist 5.
-												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-5">
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-13">
+												E-Mail-Adresse ist 
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-14">
 												.
 											</div></span>
 										<span class="tran">제 이메일 주소는 jonasmeyer@yahoo.de에요.</span>
@@ -228,7 +257,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["Ingenieur",["Nonnendammallee 72, 13628 Berlin", "Nonnendammallee "],"958313","0941","jonasmeyer@yahoo.de"];
+			var an = ["Ich","Bankkauffrau","Ich","der Volksbank","Ihre","Meine","Alsterstraße 88, 15334 Frankfurt", "Ihre","Meine","234399","0342","Ihre","Meine","sophiebaner@gmail.com"];
 
 			$(document).ready(function() {
 				/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
@@ -377,7 +406,7 @@
 									$("#qst-"+(i+1)).attr("disabled", true);
 									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
 									$("#qst-"+(i+1)).removeClass("rounded-0");
-									$("#qst-"+(i+1)).closest(".sen").append("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+									$("#qst-"+(i+1)).after("<br /><div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;
@@ -405,9 +434,15 @@
 						}
 						;
 					})
-				$("#qst-1").val(an[0]);
-				$("#qst-1").addClass("bg-success text-white font-weight-bold");
-				$("input:first()").prop("disabled",true);
+				var pan = new Array();
+				pan = [2, 5];
+				for(var p = 0; p < pan.length; p++) {
+					var pann = "#qst-"+pan[p];
+					$(pann).val(an[(pan[p]-1)]);
+					$(pann).prop("disabled",true);
+					$(pann).addClass("bg-success text-white font-weight-bold");
+					$(pann).closest("tr").find(".tran").show();
+				}
 			});
 			
 		</script>

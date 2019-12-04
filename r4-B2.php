@@ -15,7 +15,7 @@
 					Tischlampe<span class="tran"><br><small>탁상등</small></span></button>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="3">
-					I-Pad<span class="tran"><br><small>패드</small></span></button>
+					I-Pad<span class="tran"><br><small>아이패드</small></span></button>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
 					Rucksack<span class="tran"><br><small>배낭</small></span></button>

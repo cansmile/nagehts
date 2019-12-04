@@ -35,7 +35,7 @@
 			<!-- 아이템들 시작 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h3>[ <small>단어를 그림과 짝지우세요. 다중 선택이 되지만 그림 하나에 한 단어만 배치됩니다.</small> ]</h3>
+					<h3>[ <small>단어를 그림과 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			

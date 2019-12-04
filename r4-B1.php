@@ -36,7 +36,7 @@
 					der Tisch<span class="tran"><br><small>책상</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="9">
-					die Kommode<span class="tran"><br><small>옷장</small></span>
+					die Kommode<span class="tran"><br><small>서랍장</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="10">
 					der Stuhl<span class="tran"><br><small>의자</small></span>

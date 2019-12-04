@@ -20,7 +20,7 @@
 					</button>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
-					<h3>[ <small>듣고 빈칸에 어울리는 단어로 채우세요. 단어를 그림에 맞게 짝지우세요.</small> ]</h3>
+					<h3>[ <small>듣고 빈칸에 어울리는 단어로 채우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -28,7 +28,8 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<th scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></th>
+								<th rowspan="3" class="align-top" style="font-size: 2em;">1</th>
+								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
 								<td>Claudia hat eine Schultasche, aber sie hat kein Lineal.<span class="tran"><br><small>Claudia는 책가방이 있지만 자는 없습니다. </small></span></td>
 							</tr>
@@ -57,7 +58,8 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<th scope="row" rowspan="7" class="text-center align-middle"><span class="display-1 font-weight-bold">2</span><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></th>
+								<th rowspan="4" class="align-top" style="font-size: 2em;">2</th>
+								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
 								<td>Michael hat ein Wörterbuch, aber er hat keine Büroklammern.<span class="tran"><br><small>Michael은 사전을 가지고 있지만 클립은 없습니다.</small></span></td>
 							</tr>

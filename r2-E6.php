@@ -19,8 +19,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-1"></div>
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-1">
-											<div class="input-group-append"><span class="input-group-text">(Sie)</span></div>
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+											(Sie)
 										</div>
 										<span class="tran"><small>당신의 이름은 뭔가요?</small></span>
 									</td>
@@ -33,8 +33,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-2"></div>
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-2">
-											<div class="input-group-append"><span class="input-group-text">(Sie)</span></div>
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+											(Sie)
 										</div>
 										<span class="tran"><small>당신은 어디에서 사나요?</small></span>
 									</td>
@@ -47,8 +47,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-3"></div>
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-3">
-											<div class="input-group-append"><span class="input-group-text">(Sie)</span></div>
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-3">
+											(Sie)
 										</div>
 										<span class="tran"><small>독일어를 말할 수 있나요?</small></span>
 									</td>
@@ -61,14 +61,14 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Und du,</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-4">
-											<div class="input-group-append"><span class="input-group-text">(du)</span></div>
+											Und du,
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-4">
+											(du)
 										</div>
 										<span class="tran"><small>그리고 넌, 네 이름은 뭐야?</small></span>
 									</td>
 									<td>
-										Ich bin Sabine.<span class="tran"><br><small>나는 사빈이야.</small></span>
+										Ich bin Sabine.<span class="tran"><br><small>나는 자비네야.</small></span>
 									</td>
 								</tr>
 								<tr>
@@ -76,8 +76,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-5"></div>
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-5">
-											<div class="input-group-append"><span class="input-group-text">(du)</span></div>
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-5">
+											(du)
 										</div>
 										<span class="tran"><small>너는? 너는 잘 지내?</small></span>
 									</td>
@@ -90,9 +90,9 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Und dir?</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-6">
-											<div class="input-group-append"><span class="input-group-text">(du)</span></div>
+											Und dir?
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-6">
+											(du)
 										</div>
 										<span class="tran"><small>너는 어때? 잘 지내니?</small></span>
 									</td>
@@ -105,8 +105,8 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-7">
-											<div class="input-group-append"><span class="input-group-text">(du)</span></div>
+											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-7">
+											(du)
 										</div>
 										<span class="tran"><small>너는 어디 살아?</small></span>
 									</td>
@@ -274,56 +274,63 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
+
+							checkHeight();
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-							if((i+1) == 4 && $("#qst-"+(i+1)).val() == "wer bist du?") {
-								$("#qst-"+(i+1)).closest("td").find(".tran").text("<small>그리고, 너는 누구니?</small>");
-							}
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 				$("#qst-1").val(an[0]);
 				$("#qst-1").addClass("bg-success text-white font-weight-bold");
 				$("#qst-1").prop("disabled",true);

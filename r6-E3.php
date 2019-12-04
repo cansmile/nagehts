@@ -244,16 +244,12 @@
 
 			function checkHeight() {
 				// 좌우 셀 높이 맞추어 주기
-				var tbn = 7; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
+				var tbn = 10; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
 				for(var i = 1; i <= tbn; i++) {
-					if( $("#b"+i).height() > $("#b"+(i+tbn)).height() ) {
-						$("#t"+(i+tbn)).height($("#b"+i).height());
-						$("#t"+(i)).height($("#b"+i).height());
-						$("#b"+(i+tbn)).height($("#b"+i).height());
-					} else if( ($("#b"+i).height() < $("#b"+(i+tbn)).height()) || ($("#b"+i).height() == $("#b"+(i+tbn)).height()) ) {
-						$("#t"+(i)).height($("#b"+(i+tbn)).height());
-						$("#t"+(i+tbn)).height($("#b"+(i+tbn)).height());
-						$("#b"+(i)).height($("#b"+(i+tbn)).height());
+					if( $("#th-"+i).height() > $("#th-"+(i+tbn)).height() ) {
+						$("#th-"+(i+tbn)).height($("#th-"+i).height());
+					} else {
+						$("#th"+(i)).height($("#th"+(i+tbn)).height());
 					}
 				}
 			}

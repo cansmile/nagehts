@@ -199,72 +199,55 @@
 
 
 			// 정답확인
-			$("#chk").on("click", function() {
-				if ($(".an").length < $(".q").length) {
-					var na = "";
-					$(".q").each(function() {
-						if (!$(this).find("div").hasClass("an")) {
-							if (na != "") {
-								na += ", ";
-							}
-							na += $(this).attr("id").substr(4);
-						};
-					});
-
-					alert("모든 문제를 풀어주세요.");
-					// alert(na + "번 문제를 풀어주세요.");
-				} else {
-					$(".tran").show();
-					$(".pop").each(function() {
-						$(this).removeClass("btn-info");
-
-						if ($(this).hasClass("o") && $(this).hasClass("an")) {
-							$(this).removeClass("btn-warning");
-							$(this).addClass("btn-success");
-						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-primary");
-						} else if ($(this).hasClass("an")) {
-							$(this).addClass("btn-warning");
-						} else {
-							$(this).addClass("btn-light");
-						};
-
-						
-					});
-
-					$("span").each(function () {
-						if($(this).text() == "①") {
-							var iq = $("#qst-1>div.o").find("label").text();
-						} else if($(this).text() == "②") {
-							var iq = $("#qst-2>div.o").find("label").text();
-						} else if($(this).text() == "③") {
-							var iq = $("#qst-3>div.o").find("label").text();
-						} else if($(this).text() == "④") {
-							var iq = $("#qst-4>div.o").find("label").text();
-						}
-
-						$(this).text(iq);
-						$(this).removeClass("btn btn-outline-dark btn-sm");
-						$(this).addClass("font-weight-bold");
-
-					});
-
-					$(this).removeClass("btn-light ");
-					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!</h4>");
-						$(this).addClass("btn-danger");
-
-					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-success");
-
-					} else {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("btn-warning");
-
-					};
+		$("#chk").on("click", function() {
+			if ($(".an").length < $(".q").length) {
+				var na = "";
+				$(".q").each(function() {
+				if (!$(this).find("div").hasClass("an")) {
+					if (na != "") {
+						na += ", ";
+					}
+					na += $(this).attr("id").substr(-1);
 				};
-			});
+				});
+
+				alert("모든 문제를 풀어주세요.");
+				// alert(na + "번 문제를 풀어주세요.");
+			} else {
+				$(".pop").each(function() {
+					$(this).removeClass("btn-info");
+
+					if ($(this).hasClass("o") && $(this).hasClass("an")) {
+						$(this).removeClass("btn-warning");
+						$(this).addClass("btn-success font-weight-bold");
+					} else if ($(this).hasClass("o")) {
+						$(this).addClass("btn-warning font-weight-bold text-dark");
+					} else if ($(this).hasClass("an")) {
+						$(this).addClass("btn-danger");
+					} else {
+						$(this).addClass("btn-light");
+					};
+				});
+
+				var txt = $(".q").length;
+				var ri = $(".btn-success").length;
+
+
+				if (ri < (txt/2)) {
+					$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
+					$(this).addClass("bg-danger text-white");
+				} else if(ri == txt) {
+					$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+					$(this).addClass("bg-primary text-white");
+				} else {
+					$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+					$(this).addClass("bg-warning text-white");
+				}
+
+				$(".tran").show();
+			};
+		});
+
 		$("#0").show();
 		$(".alert").hide();
 		$("#qst-1>div.o").addClass("an");

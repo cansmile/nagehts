@@ -69,15 +69,23 @@
 					</button>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
-					<h3>[ <small>듣고 빈 칸에 어울리는 단어로 채우세요. 단어를 그림에 맞게 짝지우세요.</small> ]</h3>
+					<h3>[ <small>단어를 그림에 맞게 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col text-center">
-					<span class="display-1 font-weight-bold">1</span>
-					<img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></div>
-			</div>
-			<div class="row">
+				<div closs="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td class="text-center align-middle" style="font-size: 2em;" rowspan="2">1</td>
+								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 180px; height: auto;"></td>
+							</tr>
+							<tr>
+								<td class="text-center"><span class="font-weight-bold" style="font-size: 2em;">Claudia</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 				<div closs="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
 					<table class="table">
 						<tbody>
@@ -211,13 +219,20 @@
 					</table>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col text-center">
-					<span class="display-1 font-weight-bold">2</span>
-					<img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;">
-				</div>
-	</div>
 	<div class="row">
+		<div closs="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+			<table class="table">
+				<tbody>
+					<tr>
+						<td class="text-center align-middle" style="font-size: 2em;" rowspan="2">2</td>
+						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 180px; height: auto;"></td>
+					</tr>
+					<tr>
+						<td class="text-center"><span class="font-weight-bold" style="font-size: 2em;">Michael</span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 		<div class="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
 			<table class="table">
 				<tbody>

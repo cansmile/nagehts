@@ -72,7 +72,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="4" class="so btn btn-primary">▶</button></th>
-								<td>Nein, aus <span class="btn btn-outline-dark btn-sm">①</span>. <span class="tran">&nbsp;<br><small>아니오, <strong>미국</strong> 출신이에요.</small></span></td>
+								<td>Nein, aus <span class="btn btn-outline-dark btn-sm nu">①</span>. <span class="tran">&nbsp;<br><small>아니오, <strong>미국</strong> 출신이에요.</small></span></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -82,7 +82,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="5" class="so btn btn-danger">▶</button></th>
-								<td>Und wohnen Sie hier in <span class="btn btn-outline-dark btn-sm">②</span>? <span class="tran">&nbsp;<br><small>그러면 당신은 <strong>베를린</strong>에서 사시나요?</small></span></td>
+								<td>Und wohnen Sie hier in <span class="btn btn-outline-dark btn-sm nu">②</span>? <span class="tran">&nbsp;<br><small>그러면 당신은 <strong>베를린</strong>에서 사시나요?</small></span></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -97,7 +97,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="7" class="so btn btn-primary">▶</button></th>
-								<td>Wohnen Sie auch in <span class="btn btn-outline-dark btn-sm">③</span>? <span class="tran">&nbsp;<br><small><strong>베를린</strong>에서 사시나요?</span></td>
+								<td>Wohnen Sie auch in <span class="btn btn-outline-dark btn-sm nu">③</span>? <span class="tran">&nbsp;<br><small><strong>베를린</strong>에서 사시나요?</span></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -107,7 +107,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="8" class="so btn btn-danger">▶</button></th>
-								<td>Nein, ich wohne in <span class="btn btn-outline-dark btn-sm">④</span>. <span class="tran">&nbsp;<br><small>아뇨, 저는 <strong>드레스덴</strong>에서 살아요.</small></span></td>
+								<td>Nein, ich wohne in <span class="btn btn-outline-dark btn-sm nu">④</span>. <span class="tran">&nbsp;<br><small>아뇨, 저는 <strong>드레스덴</strong>에서 살아요.</small></span></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -117,7 +117,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="9" class="so btn btn-danger">▶</button></th>
-								<td>Aber meine Mutter wohnt hier in <span class="btn btn-outline-dark btn-sm">⑤</span>. <span class="tran">&nbsp;<br><small>하지만, 제 어머님은 <strong>베를린</strong>에서 사세요.</small></span></td>
+								<td>Aber meine Mutter wohnt hier in <span class="btn btn-outline-dark btn-sm nu">⑤</span>. <span class="tran">&nbsp;<br><small>하지만, 제 어머님은 <strong>베를린</strong>에서 사세요.</small></span></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -342,25 +342,10 @@
 					$("#chk").on("click", function() {
 						var na="";
 						if($("#itms").find("button").length < 1) {
-							$("span").each(function () {
-								if($(this).text()=="①") {
-									var iq=$.trim($(this).closest("tr").find("button:last").text());
-								}
-								else if($(this).text()=="②") {
-									var iq=$.trim($(this).closest("tr").find("button:last").text());
-								}
-								else if($(this).text()=="③") {
-									var iq=$.trim($(this).closest("tr").find("button:last").text());
-								}
-								else if($(this).text()=="④") {
-									var iq=$.trim($(this).closest("tr").find("button:last").text());
-								}
-								else if($(this).text()=="⑤") {
-									var iq=$.trim($(this).closest("tr").find("button:last").text());
-								}
-								$(this).text(iq);
-								$(this).removeClass("btn btn-outline-dark btn-sm");
-								$(this).addClass("font-weight-bold");
+							$("span.nu").each(function () {
+								$(this).text($.trim($(this).closest("tr").find(".itm-lst").text()));
+								$(this).removeClass("btn btn-outline-dark btn-sm nu");
+								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
 							}
 							);
 							$(".tran").show();

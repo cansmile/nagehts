@@ -42,18 +42,18 @@
 							<tr>
 								<td><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
 								<td><div class="input-group">
-									<div class="input-group-prepend"><span class="input-group-text">Mein Bruder ist</span></div>
-									<input type="text" class="form-control q" aria-label="." id="qst-1">
-									<div class="input-group-append"><span class="input-group-text">Jahre alt </span></div>
+									Mein Bruder ist
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+									Jahre alt 
 									</div><span class="tran"><br><small>나의 형제는 24살이에요</small></span>
 								</td>
 							</tr>
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
 								<td><div class="input-group">
-									<div class="input-group-prepend"><span class="input-group-text">und meine Schwester ist</span></div>
-									<input type="text" class="form-control q" aria-label="." id="qst-2">
-									<div class="input-group-append"><span class="input-group-text"> Jahre alt.</span></div>
+									und meine Schwester ist
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+									 Jahre alt.
 									</div><span class="tran"><br><small>그리고 나의 자매는 22살이에요.</small></span>
 								</td>
 							</tr>
@@ -222,6 +222,7 @@
 				}
 			}
 			);
+
 			$(".q").on("focusin", function() {
 				$("#ant-"+$(this).attr("id").substr(4)).show();
 				if( !$("#ant-"+$(this).attr("id").substr(4)).text()) {
@@ -241,6 +242,7 @@
 				}
 			}
 			);
+
 			$(".q").on("focusout", function() {
 				$("#ant-"+$(this).attr("id").substr(4)).hide();
 				if(rfchk($(this), true)) {
@@ -265,7 +267,7 @@
 					$(this).removeClass("bg-success");
 				}
 			}
-			)
+			);
 			/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 			// 각 문장 재생 횟수 초기화
 			var hm=new Array(), sen=new Array();
@@ -416,23 +418,20 @@
 						);
 						if($(this).attr("id")=="done") {}
 						else if(na=="") {
-							var oran;
 							for(var i=0;
 							i < an.length;
 							i++) {
-								oran=$("#qst-"+(i+1)).val();
+								var oran=$("#qst-"+(i+1)).val();
 								if(rfchk($("#qst-"+(i+1)), true)) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white");
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
 								}
 								else {
-									if($.isArray(an[i])) {
-										$("#qst-"+(i+1)).val(an[i][0]);
-									}
-									else {
-										$("#qst-"+(i+1)).val(an[i]);
-									}
+									$("#qst-"+(i+1)).val(oran);
 									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;

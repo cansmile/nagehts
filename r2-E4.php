@@ -22,10 +22,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-1"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 1 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F1" id="txt-1">
-										</div>
+										<div class="ant" id="ant-1"></div><span class="sen"><div class="input-group">
+												[ 1 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F1" id="txt-1">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -59,10 +59,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-2"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 2 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F2" id="txt-2">
-										</div>
+										<div class="ant" id="ant-2"></div><span class="sen"><div class="input-group">
+												[ 2 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F2" id="txt-2">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -98,10 +98,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-3"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 3 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F3" id="txt-3">
-										</div>
+										<div class="ant" id="ant-3"></div><span class="sen"><div class="input-group">
+												[ 3 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F3" id="txt-3">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -135,10 +135,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-4"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 4 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F4" id="txt-4">
-										</div>
+										<div class="ant" id="ant-4"></div><span class="sen"><div class="input-group">
+												[ 4 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F4" id="txt-4">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -172,10 +172,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-5"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 5 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F5" id="txt-5">
-										</div>
+										<div class="ant" id="ant-5"></div><span class="sen"><div class="input-group">
+												[ 5 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F5" id="txt-5">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -214,10 +214,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-6"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 6 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F6" id="txt-6">
-										</div>
+										<div class="ant" id="ant-6"></div><span class="sen"><div class="input-group">
+												[ 6 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F6" id="txt-6">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -251,10 +251,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-7"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 7 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F7" id="txt-7">
-										</div>
+										<div class="ant" id="ant-7"></div><span class="sen"><div class="input-group">
+												[ 7 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F7" id="txt-7">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -290,10 +290,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-8"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 8 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F8" id="txt-8">
-										</div>
+										<div class="ant" id="ant-8"></div><span class="sen"><div class="input-group">
+												[ 8 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F8" id="txt-8">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -327,10 +327,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-9"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 9 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F9" id="txt-9">
-										</div>
+										<div class="ant" id="ant-9"></div><span class="sen"><div class="input-group">
+												[ 9 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F9" id="txt-9">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -369,10 +369,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-10"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 10 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F10" id="txt-10">
-										</div>
+										<div class="ant" id="ant-10"></div><span class="sen"><div class="input-group">
+												[ 10 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F10" id="txt-10">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -406,10 +406,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-11"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 11 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F11" id="txt-11">
-										</div>
+										<div class="ant" id="ant-11"></div><span class="sen"><div class="input-group">
+												[ 11 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F11" id="txt-11">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -445,10 +445,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-12"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 12 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F12" id="txt-12">
-										</div>
+										<div class="ant" id="ant-12"></div><span class="sen"><div class="input-group">
+												[ 12 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F12" id="txt-12">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -482,10 +482,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-13"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 13 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F13" id="txt-13">
-										</div>
+										<div class="ant" id="ant-13"></div><span class="sen"><div class="input-group">
+												[ 13 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F13" id="txt-13">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -527,10 +527,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-14"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 14 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F14" id="txt-14">
-										</div>
+										<div class="ant" id="ant-14"></div><span class="sen"><div class="input-group">
+												[ 14 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F14" id="txt-14">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -564,10 +564,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-15"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 15 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F15" id="txt-15">
-										</div>
+										<div class="ant" id="ant-15"></div><span class="sen"><div class="input-group">
+												[ 15 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F15" id="txt-15">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -606,10 +606,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-16"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 16 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F16" id="txt-16">
-										</div>
+										<div class="ant" id="ant-16"></div><span class="sen"><div class="input-group">
+												[ 16 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F16" id="txt-16">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -643,10 +643,10 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0" rowspan="2">&nbsp;</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-17"></div><div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">[ 17 ]</span></div>
-											<input type="text" class="form-control qt" aria-label="F17" id="txt-17">
-										</div>
+										<div class="ant" id="ant-17"></div><span class="sen"><div class="input-group">
+												[ 17 ]
+												<input type="text" class="form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="F17" id="txt-17">
+											</div></span>
 									</td>
 								</tr>
 								<tr>
@@ -877,32 +877,41 @@ function rfchk(th,io) {
 					})
 					
 					if(na == "" && da == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#txt-"+(i+1)).val();
-							if(rfchk($("#txt-"+(i+1)))) {
-								$("#txt-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#txt-"+(i+1)).val(an[i]);
-								$("#txt-"+(i+1)).attr("disabled",true);
-								$("#txt-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#txt-"+(i+1)).val();
+								if(rfchk($("#txt-"+(i+1)), true)) {
+									$("#txt-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#txt-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#txt-"+(i+1)).val(oran);
+									$("#txt-"+(i+1)).attr("disabled", true);
+									$("#txt-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#txt-"+(i+1)).removeClass("rounded-0");
+									$("#txt-"+(i+1)).closest(".sen").append("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#txt-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
 							}
+							
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					$(this).attr("id", "done");
 
-							if($("#txt-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
+						
 					$(".pop").each(function() {
 						$(this).removeClass("btn-info");
 
 						if ($(this).hasClass("o") && $(this).hasClass("an")) {
 							$(this).removeClass("btn-warning");
-							$(this).addClass("btn-success");
+							$(this).addClass("btn-success font-weight-bold");
 						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-primary");
+							$(this).addClass("btn-warning font-weight-bold text-dark");
 						} else if ($(this).hasClass("an")) {
-							$(this).addClass("btn-warning");
+							$(this).addClass("btn-danger");
 						} else {
 							$(this).addClass("btn-light");
 						};
@@ -912,19 +921,16 @@ function rfchk(th,io) {
 					ri += $(".btn-success").length;
 
 
-					if (ri < (txt/2)) {
-						$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == txt) {
-						$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
+						if (ri < (txt/2)) {
+							$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
+							$(this).addClass("bg-danger text-white");
+						} else if(ri == txt) {
+							$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+							$(this).addClass("bg-primary text-white");
+						} else {
+							$(this).html('<h4>' + txt + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+							$(this).addClass("bg-warning text-white");
+						}
 					} else if(na != "" && da == "") {
 						alert(na+"번 문제를 입력하세요!");
 					} else if(na == "" && da != "") {

@@ -21,33 +21,33 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0">1.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Frau Kim</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-1">
-											<div class="input-group-append"><span class="input-group-text">aus Korea.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Frau Kim
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+												aus Korea.
+											</div></span>
 										<span class="tran"><small>김 선생님은 한국 출신입니다.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">2.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Woher</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-2">
-											<div class="input-group-append"><span class="input-group-text">Sie?</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Woher
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+												Sie?
+											</div></span>
 										<span class="tran"><small>당신은 어디에서 왔나요?</small></span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">3.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Ich</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-3">
-											<div class="input-group-append"><span class="input-group-text">aus Japan.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Ich
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-3">
+												aus Japan.
+											</div></span>
 										<span class="tran"><small>저는 일본 출신입니다.</small></span>
 									</td>
 								</tr>
@@ -65,33 +65,33 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0">4.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Ich</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-4">
-											<div class="input-group-append"><span class="input-group-text">Chul.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Ich
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-4">
+												Chul.
+											</div></span>
 										<span class="tran"><small>저는 철이에요.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">5.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Wie</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-5">
-											<div class="input-group-append"><span class="input-group-text">du?</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Wie
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-5">
+												du?
+											</div></span>
 										<span class="tran"><small>네 이름은 뭐야?</small></span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">6.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Wie</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-6">
-											<div class="input-group-append"><span class="input-group-text">Sie?</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Wie
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-6">
+												Sie?
+											</div></span>
 										<span class="tran"><small>당신의 이름은 무엇인가요?</small></span>
 									</td>
 								</tr>
@@ -109,33 +109,33 @@
 								<tr>
 									<th class="border-top-0 border-bottom-0">7.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Wo</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-7">
-											<div class="input-group-append"><span class="input-group-text">du?</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Wo
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-7">
+												du?
+											</div></span>
 										<span class="tran"><small>너는 어디 살아?</small></span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">8.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Ich</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-8">
-											<div class="input-group-append"><span class="input-group-text">in Salzburg.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Ich
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-8">
+												in Salzburg.
+											</div></span>
 										<span class="tran"><small>나는 잘즈부르그에 살아.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">9.</th>
 									<td class="border-top-0 border-bottom-0">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Stefan</span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-9">
-											<div class="input-group-append"><span class="input-group-text">in Graz.</span></div>
-										</div>
+										<span class="sen"><div class="input-group">
+												Stefan
+												<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-9">
+												in Graz.
+											</div></span>
 										<span class="tran"><small>스테판은 그라즈에 살아.</small></span>
 									</td>
 								</tr>
@@ -282,54 +282,63 @@ function rfchk(th,io) {
 				})
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
-						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
-						}
-					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oan = an[i].replace(" ", "").toLowerCase();
-							var nan = $("#qst-"+(i+1)).val().replace(" ", "").toLowerCase();
-							var oran = $("#qst-"+(i+1)).val();
-							if(oan == nan) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-								if($("#qst-"+(i+1)).val() != an[i]) {
-									$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-								}
-								ri++;
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
 							}
 						}
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white d-inline-block rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0 d-block");
+									$("#qst-"+(i+1)).closest(".sen").append("<div class=\"d-inline-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert(na+"번 문제를 풀어주세요!");
-					};
-				})
+							checkHeight();
+						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
+					})
 
 				$("#qst-1").val(an[0]);
 				$("#qst-4").val(an[3]);

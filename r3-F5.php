@@ -44,72 +44,72 @@
 								<tr>
 									<td>
 										<div class="ant" id="ant-1"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Vivien</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-1">
-										</div>
+										<span class="sen"><div class="input-group">
+												Vivien
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-1">
+											</div></span>
 										<span class="tran"><small>비비안은 헝가리 출신이에요. 그녀는 간호사에요.</small></span>
 									</td>
 									<td>
 										<div class="ant" id="ant-5"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad5">Pierre</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-5">
-										</div>
+										<span class="sen"><div class="input-group">
+												Pierre
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-5">
+											</div></span>
 										<span class="tran"><small>피에르는 프랑스 출신이에요. 그는 교사에요.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td>
 										<div class="ant" id="ant-2"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Sumi</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-2">
-										</div>
+										<span class="sen"><div class="input-group">
+												Sumi
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-2">
+											</div></span>
 										<span class="tran"><small>수미는 한국 출신이에요. 그녀는 의사에요.</small></span>
 									</td>
 									<td>
 										<div class="ant" id="ant-6"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad6">Max</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-6">
-										</div>
+										<span class="sen"><div class="input-group">
+												Max
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-6">
+											</div></span>
 										<span class="tran"><small>막스는 독일 출신이고, 축구선수에요.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td>
 										<div class="ant" id="ant-3"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Julia</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-3">
-										</div>
+										<span class="sen"><div class="input-group">
+												Julia
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-3">
+											</div></span>
 										<span class="tran"><small>율리아는 폴란드인이고 은행원이에요.</small></span>
 									</td>
 									<td>
 										<div class="ant" id="ant-7"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad7">Carlos</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-7">
-										</div>
+										<span class="sen"><div class="input-group">
+												Carlos
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-7">
+											</div></span>
 										<span class="tran"><small>카를로스는 멕시코 출신이에요. 그는 종업원이에요.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td>
 										<div class="ant" id="ant-4"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Diana</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-4">
-										</div>
+										<span class="sen"><div class="input-group">
+												Diana
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-4">
+											</div></span>
 										<span class="tran"><small>다이아나는 그리스인이에요. 그녀는 학생이에요.</small></span>
 									</td>
 									<td>
 										<div class="ant" id="ant-8"></div>
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad8">Amit</span></div>
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q" id="qst-8">
-										</div>
+										<span class="sen"><div class="input-group">
+												Amit
+												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-8">
+											</div></span>
 										<span class="tran"><small>아밋은 인도사람이고 화학자에요.</small></span>
 									</td>
 								</tr>
@@ -184,129 +184,139 @@ function rfchk(th,io) {
 		
 	}
 }
-				$(".q").on("keyup", function () {
+			$(".q").on("keyup", function () {
+				$(this).removeClass("bg-danger");
+				$(this).removeClass("bg-success");
+				$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
+				$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
+				if(rfchk($(this))) {
+					$(this).addClass("text-white font-weight-bold");
+					$(this).addClass("bg-success");
+					$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
+				}
+				else {
+					$(this).addClass("text-white font-weight-bold");
+					$(this).addClass("bg-danger");
+					$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
+				}
+				if( !$(this).val()) {
 					$(this).removeClass("bg-danger");
 					$(this).removeClass("bg-success");
-					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
-					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
+					$(this).removeClass("text-white font-weight-bold");
+				}
+				if($(this).val()) {
+					$("#ant-"+$(this).attr("id").substr(4)).show();
+					$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+				}
+				else {
+					$("#ant-"+$(this).attr("id").substr(4)).hide();
+				}
+			}
+			);
 
+			$(".q").on("focusin", function() {
+				$("#ant-"+$(this).attr("id").substr(4)).show();
+				if( !$("#ant-"+$(this).attr("id").substr(4)).text()) {
+					$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
+				}
+				if($("#ant-"+$(this).attr("id").substr(4)).text()) {
 					if(rfchk($(this))) {
 						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-success");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-					} else {
+					}
+					else {
 						$(this).addClass("text-white font-weight-bold");
 						$(this).addClass("bg-danger");
 						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
 					}
+				}
+			}
+			);
 
-					if(!$(this).val()) {
-						$(this).removeClass("bg-danger");
-						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white font-weight-bold");
+			$(".q").on("focusout", function() {
+				$("#ant-"+$(this).attr("id").substr(4)).hide();
+				if(rfchk($(this), true)) {
+					$(this).addClass("bg-success");
+					$(this).addClass("text-white");
+				}
+				else {
+					$(this).addClass("bg-danger");
+				}
+				if($(this).val()) {
+					if($(this).hasClass("bg-danger")) {
+						ion.sound.play("Cartoon_Boing");
 					}
-					
-					if($(this).val()) {
-						$("#ant-"+$(this).attr("id").substr(4)).show();
-						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-					} else {
-						$("#ant-"+$(this).attr("id").substr(4)).hide();
+					else if($(this).hasClass("bg-success")) {
+						ion.sound.play("dingdongdang");
+						$(this).prop("disabled", true);
 					}
-				})
-
-				$(".q").on("focusin", function() {
-					$("#ant-"+$(this).attr("id").substr(4)).show();
-					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
-						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-					}
-					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
-						if(rfchk($(this))) {
-							$(this).addClass("text-white font-weight-bold");
-							$(this).addClass("bg-success");
-							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-						} else {
-							$(this).addClass("text-white font-weight-bold");
-							$(this).addClass("bg-danger");
-							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
-						}
-					}
-				})
-
-				$(".q").on("focusout", function() {
-					$("#ant-"+$(this).attr("id").substr(4)).hide();
-
-					if(rfchk($(this),true)) {
-						$(this).addClass("bg-success");
-						$(this).addClass("text-white");
-					} else {
-						$(this).addClass("bg-danger");
-					}
-					if($(this).val()) {
-						if($(this).hasClass("bg-danger")) {
-							ion.sound.play("Cartoon_Boing");
-						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("dingdongdang");
-							$(this).prop("disabled",true);
-						}
-					}
-
-					$(this).removeClass("bg-danger");
-					if(!$(this).attr("disabled")) {
-						$(this).removeClass("text-white font-weight-bold");
-						$(this).removeClass("bg-success");
-					}
-				})
+				}
+				$(this).removeClass("bg-danger");
+				if( !$(this).attr("disabled")) {
+					$(this).removeClass("text-white font-weight-bold");
+					$(this).removeClass("bg-success");
+				}
+			}
+			);
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).closest(".sen").append("<div class=\"d-inline-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
+							}
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
 					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
-							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
-							}
-
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
-
-						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-white");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
 
 				var pan = new Array();
 				pan = [1,5];

@@ -53,8 +53,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4">
-					<table class="table">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4 my-0">
+					<table class="table my-0">
 						<tbody>
 							<tr>
 								<th scope="row"><button type="button" id="11" class="so btn btn-outline-danger">▶</button></th>
@@ -114,8 +114,8 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4">
-					<table class="table">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4 my-0">
+					<table class="table my-0">
 						<tbody>
 							<tr>
 								<th scope="row"><button type="button" id="20" class="so btn btn-outline-danger">▶</button></th>
@@ -175,8 +175,8 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4">
-					<table class="table">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4 my-0">
+					<table class="table my-0">
 						<tbody>
 							<tr>
 								<th scope="row"><button type="button" id="60" class="so btn btn-outline-danger">▶</button></th>

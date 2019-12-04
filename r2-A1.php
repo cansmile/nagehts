@@ -130,80 +130,80 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-1">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-1">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-2">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-2">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-3">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-3">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-4">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-4">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-5">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-5">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-6">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-6">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-7">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-7">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-8">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-8">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-9">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-9">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-10">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-1">
+								<th scope="row" class="align-middle border-0" id="th-10">
+									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
@@ -221,80 +221,80 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-11">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-11">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-12">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-12">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-13">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-13">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-14">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-14">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-15">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-15">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-16">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-16">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-17">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-17">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-18">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-18">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-19">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-19">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0 py-0 my-0" id="th-20">
-									<div class="itm-lst 1itm align-middle py-0" style="min-height: 70px;" id="lst-2">
+								<th scope="row" class="align-middle border-0" id="th-20">
+									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
 									</div>
@@ -332,6 +332,21 @@
 		var cp=new Array();
 		var cp=[19, 16, 12, 13, 9, 11, 17, 18, 5, 20, 6, 3, 4, 15, 14, 2, 7, 8, 1, 10];
 		$(document).ready(function() {
+
+			function checkHeight() {
+				// 좌우 셀 높이 맞추어 주기
+				var tbn = 10; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
+				for(var i = 1; i <= tbn; i++) {
+					if( $("#th-"+i).height() > $("#th-"+(i+tbn)).height() ) {
+						$("#th-"+(i+tbn)).height($("#th-"+i).height());
+					} else {
+						$("#th-"+(i)).height($("#th-"+(i+tbn)).height());
+					}
+				}
+			}
+
+			$(document).on("click", function() { checkHeight(); });
+
 			ion.sound( {
 				sounds : [ {
 					name : "r2 A1",
@@ -447,6 +462,7 @@
 					$("#6").appendTo($("#th-11>div"));
 					$("#6").addClass("btn-block font-weight-bold");
 					$("#6").addClass("border-0");
+					checkHeight();
 				}
 			}
 			);

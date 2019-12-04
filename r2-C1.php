@@ -75,7 +75,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="11" class="so btn btn-danger">▶</button></th>
-							<td>Er kommt aus <span class="btn btn-outline-dark btn-sm">①</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국</strong>에서 왔어요.</small></span></td>
+							<td>Er kommt aus <span class="btn btn-outline-dark btn-sm nu">①</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국</strong>에서 왔어요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-1">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -85,7 +85,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="12" class="so btn btn-danger">▶</button></th>
-							<td>Er ist <span class="btn btn-outline-dark btn-sm">②</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국인</strong>이에요.</small></span></td>
+							<td>Er ist <span class="btn btn-outline-dark btn-sm nu">②</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국인</strong>이에요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-2">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -95,7 +95,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="13" class="so btn btn-danger">▶</button></th>
-							<td>Er spricht <span class="btn btn-outline-dark btn-sm">③</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국어</strong>를 말해요.</small></span></td>
+							<td>Er spricht <span class="btn btn-outline-dark btn-sm nu">③</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국어</strong>를 말해요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-3">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -120,7 +120,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="15" class="so btn btn-info">▶</button></th>
-							<td>Sie kommt aus <span class="btn btn-outline-dark btn-sm">④</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트</strong>에서 왔어요.</small></span></td>
+							<td>Sie kommt aus <span class="btn btn-outline-dark btn-sm nu">④</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트</strong>에서 왔어요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-4">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -130,7 +130,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-info">▶</button></th>
-							<td>Sie ist <span class="btn btn-outline-dark btn-sm">⑤</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트인</strong>이에요.</small></span></td>
+							<td>Sie ist <span class="btn btn-outline-dark btn-sm nu">⑤</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트인</strong>이에요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-5">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -140,7 +140,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="17" class="so btn btn-info">▶</button></th>
-							<td>Sie spricht <span class="btn btn-outline-dark btn-sm">⑥</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>아랍어</strong>를 말해요.</small></span></td>
+							<td>Sie spricht <span class="btn btn-outline-dark btn-sm nu">⑥</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>아랍어</strong>를 말해요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-6">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -165,7 +165,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="19" class="so btn btn-primary">▶</button></th>
-							<td>Er kommt aus <span class="btn btn-outline-dark btn-sm">⑦</span>. <br><span class="tran">&nbsp;<small>그는 <strong>미국</strong>에서 왔어요.</small></span></td>
+							<td>Er kommt aus <span class="btn btn-outline-dark btn-sm nu">⑦</span>. <br><span class="tran">&nbsp;<small>그는 <strong>미국</strong>에서 왔어요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-7">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -175,7 +175,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="20" class="so btn btn-primary">▶</button></th>
-							<td>Er ist <span class="btn btn-outline-dark btn-sm">⑧</span>. <br><span class="tran">&nbsp;<small>그는 <strong>미국인</strong>이에요.</small></span></td>
+							<td>Er ist <span class="btn btn-outline-dark btn-sm nu">⑧</span>. <br><span class="tran">&nbsp;<small>그는 <strong>미국인</strong>이에요.</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-8">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -185,7 +185,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="21" class="so btn btn-primary">▶</button></th>
-							<td>Er spricht <span class="btn btn-outline-dark btn-sm">⑨</span>. <br><span class="tran">&nbsp;<small>그는 <strong>영어</strong>를 말해요..</small></span></td>
+							<td>Er spricht <span class="btn btn-outline-dark btn-sm nu">⑨</span>. <br><span class="tran">&nbsp;<small>그는 <strong>영어</strong>를 말해요..</small></span></td>
 							<td>
 								<div class="itm-lst 1itm" id="lst-9">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -411,45 +411,18 @@
 					// 정답확인
 					$("#chk").on("click", function() {
 						var na="";
-						if($("#itms").find("button").length < 1) {
-							$("span").each(function () {
-								if($(this).text()=="①") {
-									var iq=$.trim($("#lst-1").find("button").text());
-								}
-								else if($(this).text()=="②") {
-									var iq=$.trim($("#lst-2").find("button").text());
-								}
-								else if($(this).text()=="③") {
-									var iq=$.trim($("#lst-3").find("button").text());
-								}
-								else if($(this).text()=="④") {
-									var iq=$.trim($("#lst-4").find("button").text());
-								}
-								else if($(this).text()=="⑤") {
-									var iq=$.trim($("#lst-5").find("button").text());
-								}
-								else if($(this).text()=="⑥") {
-									var iq=$.trim($("#lst-6").find("button").text());
-								}
-								else if($(this).text()=="⑦") {
-									var iq=$.trim($("#lst-7").find("button").text());
-								}
-								else if($(this).text()=="⑧") {
-									var iq=$.trim($("#lst-8").find("button").text());
-								}
-								else if($(this).text()=="⑨") {
-									var iq=$.trim($("#lst-9").find("button").text());
-								}
-								$(this).text(iq);
-								$(this).removeClass("btn btn-outline-dark btn-sm");
-								$(this).addClass("font-weight-bold");
+						if( !$("#itms").find("button").length) {
+							$("span.nu").each(function () {
+								$(this).text($.trim($(this).closest("tr").find(".itm-lst").text()));
+								$(this).removeClass("btn btn-outline-dark btn-sm nu");
+								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
 							}
 							);
-							$(".tran").show();
-							$(".itm-lst").hide();
 							$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
 							$(this).removeClass("btn-light");
 							$(this).addClass("btn-primary");
+							$(".tran").show();
+							$(".itm-lst").hide();
 						}
 						else {
 							$("div.itm-lst").each(function(idx) {
@@ -461,7 +434,8 @@
 								}
 							}
 							);
-							alert(na+"번 문제를 풀어주세요!");
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
 						}
 					}
 					);

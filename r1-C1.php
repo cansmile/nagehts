@@ -186,63 +186,33 @@
 
 			// 정답확인
 			$("#chk").on("click", function() {
-				if ($(".an").length < $(".q").length) {
-					var na = "";
-					$(".q").each(function() {
-						if (!$(this).find("div").hasClass("an")) {
-							if (na != "") {
-								na += ", ";
+						var na="";
+						if($("#itms").find("button").length < 1) {
+							$("span.nu").each(function () {
+								$(this).text($.trim($(this).closest("tr").find(".itm-lst").text()));
+								$(this).removeClass("btn btn-outline-dark btn-sm nu");
+								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
 							}
-							na += $(this).attr("id").substr(-1);
-						};
+							);
+							$(".tran").show();
+							$(".itm-lst").hide();
+							$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
+							$(this).removeClass("btn-light");
+							$(this).addClass("btn-primary");
+						}
+						else {
+							$("div.itm-lst").each(function(idx) {
+								if( !$(this).find("button").length) {
+									if(na !="") {
+										na +=", ";
+									}
+									na +=(idx+1);
+								}
+							}
+							);
+							alert(na+"번 문제를 풀어주세요!");
+						}
 					});
-
-					alert("모든 문제를 풀어주세요.");
-					// alert(na + "번 문제를 풀어주세요.");
-				} else {
-					$(".pop").each(function() {
-						$(this).removeClass("btn-info");
-
-						if ($(this).hasClass("o") && $(this).hasClass("an")) {
-							$(this).removeClass("btn-warning");
-							$(this).addClass("btn-success");
-							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
-							$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
-						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-<?php echo($color); ?>");
-							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
-							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
-							$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");
-						} else if ($(this).hasClass("an")) {
-							$(this).addClass("btn-warning");
-							$(this).closest("td").find(".nu").text($.trim($(this).text()));
-						} else {
-							$(this).addClass("btn-light");
-						};
-						$(this).remove();
-					});
-					$(".tran").show();
-					$(".nu").show();
-					$(".q").hide();
-					
-
-
-					$(this).removeClass("btn-light ");
-					if ($(".bg-success.font-weight-bold").length < Math.ceil($(".q").length/2)) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!</h4>");
-						$(this).addClass("btn-danger");
-
-					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-<?php echo($color); ?>");
-
-					} else {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".bg-success.font-weight-bold").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("btn-warning");
-
-					};
-				};
-			});
 
 			$(".so").on("click", function () {
 				if($(this).attr("id").substr(-2) == "_p") {

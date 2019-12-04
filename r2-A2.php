@@ -359,25 +359,7 @@
 						var na="";
 						if( !$("#itms").find("button").length) {
 							$("span.nu").each(function () {
-								if($(this).text()=="①") {
-									var iq=$.trim($("#lst-1").find("button").text());
-								}
-								else if($(this).text()=="②") {
-									var iq=$.trim($("#lst-2").find("button").text());
-								}
-								else if($(this).text()=="③") {
-									var iq=$.trim($("#lst-3").find("button").text());
-								}
-								else if($(this).text()=="④") {
-									var iq=$.trim($("#lst-4").find("button").text());
-								}
-								else if($(this).text()=="⑤") {
-									var iq=$.trim($("#lst-5").find("button").text());
-								}
-								else if($(this).text()=="⑥") {
-									var iq=$.trim($("#lst-6").find("button").text());
-								}
-								$(this).text(iq);
+								$(this).text($.trim($(this).closest("tr").find(".itm-lst").text()));
 								$(this).removeClass("btn btn-outline-dark btn-sm nu");
 								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
 							}

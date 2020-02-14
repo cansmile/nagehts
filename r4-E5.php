@@ -19,9 +19,9 @@
 									<td>
 										<div id="ant-1"></div>
 										<div class="input-group">
-											Monika Sager ist
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control border border-left-0 border-right-0 border-top-0 rounded-0 col-sm-4 col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1" id="qst-1" style="position: relative; top: -6px;">
-											ledig.
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad1">Monika Sager ist</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-1">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad1">ledig.</span></div>
 										</div>
 										<span class="tran">Monika Sager는 미혼이 아닙니다.</span>
 									</td>
@@ -31,9 +31,9 @@
 									<td>
 										<div id="ant-2"></div>
 										<div class="input-group">
-											Das ist
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control border border-left-0 border-right-0 border-top-0 rounded-0 col-sm-4 col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1" id="qst-2" style="position: relative; top: -6px;">
-											Wolf, sondern ein Hund.
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad2">Das ist</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-2">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad2">Wolf, sondern ein Hund.</span></div>
 										</div>
 										<span class="tran">이것은 늑대가 아니라, 강아지야.</span>
 									</td>
@@ -43,9 +43,9 @@
 									<td>
 										<div id="ant-3"></div>
 										<div class="input-group">
-											Der Test ist
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control border border-left-0 border-right-0 border-top-0 rounded-0 col-sm-4 col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1" id="qst-3" style="position: relative; top: -6px;">
-											heute, sondern erst morgen.
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad3">Der Test ist</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-3">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad3">heute, sondern erst morgen.</span></div>
 										</div>
 										<span class="tran">시험은 오늘이 아니라, 내일이래. </span>
 									</td>
@@ -55,9 +55,9 @@
 									<td>
 										<div id="ant-4"></div>
 										<div class="input-group">
-											Manfred studiert
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control border border-left-0 border-right-0 border-top-0 rounded-0 col-sm-4 col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1" id="qst-4" style="position: relative; top: -6px;">
-											in München.
+											<div class="input-group-prepend"><span class="input-group-text" id="qst-ad4">Manfred studiert</span></div>
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control col-sm-4 col-md-2 col-lg-2 col-xl-1 q" id="qst-4">
+											<div class="input-group-append"><span class="input-group-text" id="qst-ad4">in München.</span></div>
 										</div>
 										<span class="tran">Manfred는 뮌헨에서 대학에 다니지 않는다.</span>
 									</td>
@@ -208,78 +208,53 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-						var na="";
-						var ri=0;
-						var qst=$(".q").length;
-						$(".q").each(function () {
-							if(na !="") {
-								na +=", ";
-							}
-							if($(this).val()=="") {
-								na +=$(this).attr("id").substr(4, 1);
-							}
+					var na = "";
+					var ri = 0;
+					var qst = $(".q").length;
+					$(".q").each(function () {
+						if(na != "") {
+							na += ", ";
 						}
-						);
-						if($(this).attr("id")=="done") {}
-						else if(na=="") {
-							for(var i=0;
-							i < an.length;
-							i++) {
-								var oran=$("#qst-"+(i+1)).val();
-								if(rfchk($("#qst-"+(i+1)), true)) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
-									$("#qst-"+(i+1)).removeClass("rounded-0");
-								}
-								else {
-									$("#qst-"+(i+1)).val(oran);
-									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
-									$("#qst-"+(i+1)).removeClass("rounded-0");
-									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
-								}
-								if($("#qst-"+(i+1)).hasClass("bg-success")) {
-									ri++;
-								}
-							}
-
-
-							// 정답 확인 div 상자 배경색 속성 없애기
-							$(this).removeClass("btn-light ");
-
-							var qa = $(".q").length; // 전체 문항 수
-							var qr = $(".bg-success").length; // 맞춘 항목 수
-							var pe = (qr / qa) * 100; // 정답 비율
-							var tcl = "white"; // 기본 문자색
-
-							// 분류 기준은 100%, 80%, 60%, 40%
-							if(pe > 99) {
-								var st = "원어민이세요?";
-								var cl = "lime";
-								var tcl = "dark";
-							} else if(pe > 79) {
-								var st = "어! 좀 하시는데요~^^";
-								var cl = "success";
-							} else if(pe > 59) {
-								var st = "쓰읍~ 다시 해 보실까요";
-								var cl = "primary";
-							} else {
-								var st = "좀 더 분발해 주세요";
-								var cl = "danger";
-							}
-
-							$(this).addClass("btn-" + cl + " text-" + tcl);
-							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
-							$(this).prop("disabled", true);
-							$(".tran").show();
-							$(this).attr("id", "done");
+						if($(this).val() == "") {
+							na += $(this).attr("id").substr(4,1);
 						}
-						else {
-							alert("모든 문제를 풀어주세요!");
-							// alert(na+"번 문제를 풀어주세요!");
-						}
-						;
 					})
+					
+					if($(this).attr("id") == "done") {} else if(na == "") {
+						for(var i = 0; i < an.length; i++) {
+							var oran = $("#qst-"+(i+1)).val();
+							if(rfchk($("#qst-"+(i+1)))) {
+								$("#qst-"+(i+1)).addClass("bg-success text-white");
+							} else {
+								$("#qst-"+(i+1)).val(an[i]);
+								$("#qst-"+(i+1)).attr("disabled",true);
+								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							}
+
+							if($("#qst-"+(i+1)).hasClass("bg-success")) {
+								ri++;
+							}
+
+						}
+
+					if (ri < (qst/2)) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
+						$(this).addClass("bg-danger text-white");
+					} else if(ri == qst) {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+						$(this).addClass("bg-primary text-white");
+					} else {
+						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+						$(this).addClass("bg-warning text-dark");
+					}
+
+					$(this).prop("disabled", true);
+					$(".tran").show();
+					} else {
+						alert("모든 문제를 풀어주세요!");
+						// alert(na+"번 문제를 풀어주세요!");
+					};
+				})
 				// $("#qst-1").val(an[0]);
 				// $("#qst-8").val(an[7]);
 				ch();

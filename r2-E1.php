@@ -37,7 +37,7 @@
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">2.</th>
-									<td class="border-top-0 border-bottom-0">Lucia kommt<span class="tran"><br><small>루시아는 <strong>스페인에서</strong> 왔다.</small></span></td>
+									<td class="border-top-0 border-bottom-0">Lucia kommt<span class="tran"><br><small>루시아는 <strong>스패인에서</strong> 왔다.</small></span></td>
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-2"></div>
 										<div class="input-group">
@@ -59,7 +59,7 @@
 								</tr>
 								<tr>
 									<th class="border-top-0 border-bottom-0">4.</th>
-									<td class="border-top-0 border-bottom-0">Merve kommt<span class="tran"><br><small>메릐베는 <strong>터키에서</strong> 왔다.</small></span></td>
+									<td class="border-top-0 border-bottom-0">Marve kommt<span class="tran"><br><small>마브는 <strong>터키에서</strong> 왔다.</small></span></td>
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
@@ -141,50 +141,50 @@
 								<table class="table">
 									<tbody>
 										<tr>
-											<th class="border border-dark" width="90" rowspan="15">aus</th>
-											<td class="border border-dark">Korea</td>
+											<th rowspan="15">aus</th>
+											<td>Korea</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Deutschland</td>
+											<td>Deutschland</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">China</td>
+											<td>China</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Brasilien</td>
+											<td>Brasilien</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Spanien</td>
+											<td>Spanien</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">England</td>
+											<td>England</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Vietnam</td>
+											<td>Vietnam</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Ungarn</td>
+											<td>Ungarn</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Österreich</td>
+											<td>Österreich</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Griechenland</td>
+											<td>Griechenland</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Polen</td>
+											<td>Polen</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Japan</td>
+											<td>Japan</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Amerika</td>
+											<td>Amerika</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Russland</td>
+											<td>Russland</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">…</td>
+											<td>…</td>
 										</tr>
 									</tbody>
 								</table>
@@ -193,48 +193,48 @@
 								<table class="table">
 									<tbody>
 										<tr>
-											<th class="border border-dark" width="90" rowspan="5">aus der</th>
-											<td class="border border-dark">Schweiz</td>
+											<th rowspan="5">aus der</th>
+											<td>Schweiz</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Türkei</td>
+											<td>Türkei</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Ukraine</td>
+											<td>Ukraine</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">…</td>
-										</tr>
-									</tbody>
-								</table>
-								<table class="table">
-									<tbody>
-										<tr>
-											<th class="border border-dark" width="90" rowspan="4">aus dem</th>
-											<td class="border border-dark">Iran</td>
-										</tr>
-										<tr>
-											<td class="border border-dark">Irak</td>
-										</tr>
-										<tr>
-											<td class="border border-dark">Sudan</td>
-										</tr>
-										<tr>
-											<td class="border border-dark">…</td>
+											<td>…</td>
 										</tr>
 									</tbody>
 								</table>
 								<table class="table">
 									<tbody>
 										<tr>
-											<th class="border border-dark" width="90" rowspan="3">aus den</th>
-											<td class="border border-dark">U.S.A</td>
+											<th rowspan="3">aus dem</th>
+											<td>Iran</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Niederlanden</td>
+											<td>Irak</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">…</td>
+											<td>Sudan</td>
+										</tr>
+										<tr>
+											<td>…</td>
+										</tr>
+									</tbody>
+								</table>
+								<table class="table">
+									<tbody>
+										<tr>
+											<th rowspan="3">aus den</th>
+											<td>U.S.A</td>
+										</tr>
+										<tr>
+											<td>Niederlanden</td>
+										</tr>
+										<tr>
+											<td>…</td>
 										</tr>
 									</tbody>
 								</table>
@@ -414,34 +414,18 @@ function rfchk(th,io) {
 									ri++;
 								}
 							}
-
-							// 정답 확인 div 상자 배경색 속성 없애기
-							$(this).removeClass("btn-light ");
-
-							var qa = $(".q").length; // 전체 문항 수
-							var qr = $(".bg-success").length; // 맞춘 항목 수
-							var pe = (qr / qa) * 100; // 정답 비율
-							var tcl = "white"; // 기본 문자색
-
-							// 분류 기준은 100%, 80%, 60%, 40%
-							if(pe > 99) {
-								var st = "원어민이세요?";
-								var cl = "lime";
-								var tcl = "dark";
-							} else if(pe > 79) {
-								var st = "어! 좀 하시는데요~^^";
-								var cl = "success";
-							} else if(pe > 59) {
-								var st = "쓰읍~ 다시 해 보실까요";
-								var cl = "primary";
-							} else {
-								var st = "좀 더 분발해 주세요";
-								var cl = "danger";
+							if (ri < (qst/2)) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
+								$(this).addClass("bg-danger text-white");
 							}
-
-							$(this).addClass("btn-" + cl + " text-" + tcl);
-							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
+							else if(ri==qst) {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).addClass("bg-primary text-white");
+							}
+							else {
+								$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).addClass("bg-warning text-white");
+							}
 							$(this).prop("disabled", true);
 							$(".tran").show();
 							$(this).attr("id", "done");

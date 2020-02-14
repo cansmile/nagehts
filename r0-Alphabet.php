@@ -21,13 +21,7 @@
 			<div class="col-lg-12 mb-4 mt-2 text-center">
 				<h2>Hören Sie und sprechen Sie nach.
 				<br>
-				<small>듣고 따라해보세요.</small>
-				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="whole">
-					HV
-				</button>
-				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="whole_p">
-					❚❚
-				</button></h2>
+				<small>듣고 따라해보세요.</small></h2>
 			</div>
 		</div>
 		<div class="row">
@@ -135,33 +129,23 @@
 				<button type="button" class="btn btn-outline-primary my-2 btn-lg itm" id="Z">
 					<strong>Z</strong>et
 				</button>
-				-
-				<button type="button" class="btn btn-outline-primary my-2 btn-lg itm" id="Ä">
-					<strong>Ä</strong>
-				</button>
-				-
-				<button type="button" class="btn btn-outline-primary my-2 btn-lg itm" id="Ö">
-					<strong>Ö</strong>
-				</button>
-				-
-				<button type="button" class="btn btn-outline-primary my-2 btn-lg itm" id="Ü">
-					<strong>Ü</strong>
-				</button>
-				-
-				<button type="button" class="btn btn-outline-primary my-2 btn-lg itm" id="ß">
-					<strong>ß</strong>
-				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 mb-4 mt-2 text-center">
 				<h3>Telefon-Alphabet
 				<br>
-				<small>텔레폰알파벳</small></h3>
+				<small>텔레폰알파벳</small>
+				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="whole">
+					HV
+				</button>
+				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="whole_p">
+					❚❚
+				</button></h3>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="A wie Anton" style="width: 140px; height: 140px;" src="images/Reihe 0/A.png">
-				<button class="itm btn btn-outline-dark" id="a">▶</button>
+				<button class="itm btn btn-outline-dark" id="A_lg">▶</button>
 				<span><h4>[a]</h4>
 					<p>
 						wie <strong>A</strong>nton
@@ -171,7 +155,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Ä wie Ärger" style="width: 140px; height: 140px;" src="images/Reihe 0/Ae.png">
-				<button class="itm btn btn-outline-dark" id="ɛ">▶</button>
+				<button class="itm btn btn-outline-dark" id="Ä_lg">▶</button>
 				<span><h4>[ɛ]</h4>
 					<p>
 						wie <strong>Ä</strong>rger
@@ -181,7 +165,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="B wie Berta" style="width: 140px; height: 140px;" src="images/Reihe 0/B.png">
-				<button class="itm btn btn-outline-dark" id="be">▶</button>
+				<button class="itm btn btn-outline-dark" id="B_lg">▶</button>
 				<span><h4>[be]</h4>
 					<p>
 						wie <strong>B</strong>erta
@@ -191,7 +175,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="C wie Cäsar" style="width: 140px; height: 140px;" src="images/Reihe 0/C.png">
-				<button class="itm btn btn-outline-dark" id="tse">▶</button>
+				<button class="itm btn btn-outline-dark" id="C_lg">▶</button>
 				<span><h4>[tse]</h4>
 					<p>
 						wie <strong>C</strong>äsar
@@ -201,7 +185,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Ch wie Charlotte" style="width: 140px; height: 140px;" src="images/Reihe 0/Ch.png"true">
-				<button class="itm btn btn-outline-dark" id="ç">▶</button>
+				<button class="itm btn btn-outline-dark" id="Ch_lg">▶</button>
 				<span><h4>[ç] [x] [k] [ʃ] [tʃ]</h4>
 					<p>
 						wie <strong>Ch</strong>arlotte
@@ -211,7 +195,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="D wie Dora" style="width: 140px; height: 140px;" src="images/Reihe 0/D.png">
-				<button class="itm btn btn-outline-dark" id="de">▶</button>
+				<button class="itm btn btn-outline-dark" id="D_lg">▶</button>
 				<span><h4>[de]</h4>
 					<p>
 						wie <strong>D</strong>ora
@@ -221,7 +205,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="E wie Emil" style="width: 140px; height: 140px;" src="images/Reihe 0/E.png">
-				<button class="itm btn btn-outline-dark" id="e">▶</button>
+				<button class="itm btn btn-outline-dark" id="E_lg">▶</button>
 				<span><h4>[e]</h4>
 					<p>
 						wie <strong>E</strong>mil
@@ -231,7 +215,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="F wie Friedrich" style="width: 140px; height: 140px;" src="images/Reihe 0/F.png">
-				<button class="itm btn btn-outline-dark" id="εf">▶</button>
+				<button class="itm btn btn-outline-dark" id="F_lg">▶</button>
 				<span><h4>[εf]</h4>
 					<p>
 						wie <strong>F</strong>riedrich
@@ -241,7 +225,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="G wie Gustav" style="width: 140px; height: 140px;" src="images/Reihe 0/G.png">
-				<button class="itm btn btn-outline-dark" id="ge">▶</button>
+				<button class="itm btn btn-outline-dark" id="G_lg">▶</button>
 				<span><h4>[ge]</h4>
 					<p>
 						wie <strong>G</strong>ustav
@@ -251,7 +235,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="H wie Heinrich" style="width: 140px; height: 140px;" src="images/Reihe 0/H.png">
-				<button class="itm btn btn-outline-dark" id="ha">▶</button>
+				<button class="itm btn btn-outline-dark" id="H_lg">▶</button>
 				<span><h4>[ha]</h4>
 					<p>
 						wie <strong>H</strong>einrich
@@ -261,7 +245,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="I wie Ida" style="width: 140px; height: 140px;" src="images/Reihe 0/I.png">
-				<button class="itm btn btn-outline-dark" id="i">▶</button>
+				<button class="itm btn btn-outline-dark" id="I_lg">▶</button>
 				<span><h4>[i]</h4>
 					<p>
 						wie <strong>I</strong>da
@@ -271,7 +255,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="J wie Julius" style="width: 140px; height: 140px;" src="images/Reihe 0/J.png">
-				<button class="itm btn btn-outline-dark" id="jɔt">▶</button>
+				<button class="itm btn btn-outline-dark" id="J_lg">▶</button>
 				<span><h4>[jɔt]</h4>
 					<p>
 						wie <strong>J</strong>ulius
@@ -281,7 +265,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="K wie Kaufmann" style="width: 140px; height: 140px;" src="images/Reihe 0/K.png">
-				<button class="itm btn btn-outline-dark" id="ka">▶</button>
+				<button class="itm btn btn-outline-dark" id="K_lg">▶</button>
 				<span><h4>[ka]</h4>
 					<p>
 						wie <strong>K</strong>aufmann
@@ -291,7 +275,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="L wie Ludwig" style="width: 140px; height: 140px;" src="images/Reihe 0/L.png">
-				<button class="itm btn btn-outline-dark" id="εl">▶</button>
+				<button class="itm btn btn-outline-dark" id="L_lg">▶</button>
 				<span><h4>[εl]</h4>
 					<p>
 						wie <strong>L</strong>udwig
@@ -301,7 +285,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="M wie Martha" style="width: 140px; height: 140px;" src="images/Reihe 0/M.png">
-				<button class="itm btn btn-outline-dark" id="εm">▶</button>
+				<button class="itm btn btn-outline-dark" id="M_lg">▶</button>
 				<span><h4>[εm]</h4>
 					<p>
 						wie <strong>M</strong>artha
@@ -311,7 +295,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="N wie Nordpol" style="width: 140px; height: 140px;" src="images/Reihe 0/N.png">
-				<button class="itm btn btn-outline-dark" id="εn">▶</button>
+				<button class="itm btn btn-outline-dark" id="N_lg">▶</button>
 				<span><h4>[εn]</h4>
 					<p>
 						wie <strong>N</strong>ordpol
@@ -321,7 +305,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="O wie Otto" style="width: 140px; height: 140px;" src="images/Reihe 0/O.png">
-				<button class="itm btn btn-outline-dark" id="o:">▶</button>
+				<button class="itm btn btn-outline-dark" id="O_lg">▶</button>
 				<span><h4>[o:]</h4>
 					<p>
 						wie <strong>O</strong>tto
@@ -331,7 +315,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Ö wie Ökonom" style="width: 140px; height: 140px;" src="images/Reihe 0/Oe.png">
-				<button class="itm btn btn-outline-dark" id="ø">▶</button>
+				<button class="itm btn btn-outline-dark" id="Ö_lg">▶</button>
 				<span><h4>[ø]</h4>
 					<p>
 						wie <strong>Ö</strong>konom
@@ -341,7 +325,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="P wie Paula" style="width: 140px; height: 140px;" src="images/Reihe 0/P.png">
-				<button class="itm btn btn-outline-dark" id="pe">▶</button>
+				<button class="itm btn btn-outline-dark" id="P_lg">▶</button>
 				<span><h4>[pe]</h4>
 					<p>
 						wie <strong>P</strong>aula
@@ -351,7 +335,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Q wie Quelle" style="width: 140px; height: 140px;" src="images/Reihe 0/Q.png">
-				<button class="itm btn btn-outline-dark" id="ku">▶</button>
+				<button class="itm btn btn-outline-dark" id="Q_lg">▶</button>
 				<span><h4>[ku]</h4>
 					<p>
 						wie <strong>Q</strong>uelle
@@ -361,7 +345,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="R wie Richard" style="width: 140px; height: 140px;" src="images/Reihe 0/R.png">
-				<button class="itm btn btn-outline-dark" id="εr">▶</button>
+				<button class="itm btn btn-outline-dark" id="R_lg">▶</button>
 				<span><h4>[εr]</h4>
 					<p>
 						wie <strong>R</strong>ichard
@@ -371,7 +355,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="S wie Samuel" style="width: 140px; height: 140px;" src="images/Reihe 0/S.png">
-				<button class="itm btn btn-outline-dark" id="εs">▶</button>
+				<button class="itm btn btn-outline-dark" id="S_lg">▶</button>
 				<span><h4>[εs]</h4>
 					<p>
 						wie <strong>S</strong>amuel
@@ -381,7 +365,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Sch wie Schule" style="width: 140px; height: 140px;" src="images/Reihe 0/Sch.png">
-				<button class="itm btn btn-outline-dark" id="ʃ">▶</button>
+				<button class="itm btn btn-outline-dark" id="Sch_lg">▶</button>
 				<span><h4>[ʃ]</h4>
 					<p>
 						wie <strong>Sch</strong>ule
@@ -391,7 +375,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="β wie Eszett" style="width: 140px; height: 140px;" src="images/Reihe 0/ss.png">
-				<button class="itm btn btn-outline-dark" id="ɛstsɛt">▶</button>
+				<button class="itm btn btn-outline-dark" id="ss_lg">▶</button>
 				<span><h4>[ɛstsɛt]</h4>
 					<p>
 						wie Eszett
@@ -401,7 +385,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="T wie Theodor" style="width: 140px; height: 140px;" src="images/Reihe 0/T.png">
-				<button class="itm btn btn-outline-dark" id="te">▶</button>
+				<button class="itm btn btn-outline-dark" id="T_lg">▶</button>
 				<span><h4>[te]</h4>
 					<p>
 						wie <strong>T</strong>heodor
@@ -411,7 +395,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="U wie Ulrich" style="width: 140px; height: 140px;" src="images/Reihe 0/U.png">
-				<button class="itm btn btn-outline-dark" id="u">▶</button>
+				<button class="itm btn btn-outline-dark" id="U_lg">▶</button>
 				<span><h4>[u]</h4>
 					<p>
 						wie <strong>U</strong>lrich
@@ -421,7 +405,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Ü wie Übermut" style="width: 140px; height: 140px;" src="images/Reihe 0/Ue.png">
-				<button class="itm btn btn-outline-dark" id="y">▶</button>
+				<button class="itm btn btn-outline-dark" id="Ue_lg">▶</button>
 				<span><h4>[y]</h4>
 					<p>
 						wie <strong>Ü</strong>bermut
@@ -431,7 +415,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="V wie Viktor" style="width: 140px; height: 140px;" src="images/Reihe 0/V.png">
-				<button class="itm btn btn-outline-dark" id="fau">▶</button>
+				<button class="itm btn btn-outline-dark" id="V_lg">▶</button>
 				<span><h4>[fau̮]</h4>
 					<p>
 						wie <strong>V</strong>iktor
@@ -441,7 +425,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="W wie Wilhelm" style="width: 140px; height: 140px;" src="images/Reihe 0/W.png">
-				<button class="itm btn btn-outline-dark" id="ve">▶</button>
+				<button class="itm btn btn-outline-dark" id="W_lg">▶</button>
 				<span><h4>[ve]</h4>
 					<p>
 						wie <strong>W</strong>ilhelm
@@ -451,7 +435,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="X wie Xanthippe" style="width: 140px; height: 140px;" src="images/Reihe 0/X.png">
-				<button class="itm btn btn-outline-dark" id="iks">▶</button>
+				<button class="itm btn btn-outline-dark" id="X_lg">▶</button>
 				<span><h4>[iks]</h4>
 					<p>
 						wie <strong>X</strong>anthippe
@@ -461,7 +445,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Y wie Ypsilon" style="width: 140px; height: 140px;" src="images/Reihe 0/Y.png">
-				<button class="itm btn btn-outline-dark" id="ʏpsilɔn">▶</button>
+				<button class="itm btn btn-outline-dark" id="Y_lg">▶</button>
 				<span><h4>[ʏpsilɔn]</h4>
 					<p>
 						wie <strong>Y</strong>psilon
@@ -471,7 +455,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
 				<img class="rounded-circle" alt="Z wie Zeppelin" style="width: 140px; height: 140px;" src="images/Reihe 0/Z.png">
-				<button class="itm btn btn-outline-dark" id="tsεt">▶</button>
+				<button class="itm btn btn-outline-dark" id="Z_lg">▶</button>
 				<span><h4>[tsεt]</h4>
 					<p>
 						wie <strong>Z</strong>eppelin
@@ -524,103 +508,73 @@ function stopAll() {
 }
 
 var nagehts = new Howl({
-	src: ["./sounds/Reihe 0/r0 Alphabet.mp3"],
+	src: ["./sounds/Reihe 0/Buchstabe.mp3"],
 	sprite : {
-		"whole": [1490,257528],
-		"A": [11531, 1219],
-		"a": [113658, 679],
-		"wie_Anton": [114634, 1410],
-		"Ä": [98349, 1846],
-		"ɛ": [117667, 570],
-		"wie_Ärger": [118500, 1403],
-		"B": [14566, 1352],
-		"be": [121604, 700],
-		"wie_Berta": [122639, 1432],
-		"C": [17500, 1542],
-		"tse": [125693, 743],
-		"wie_Cäsar": [126820, 1380],
-		"ç": [129977, 613],
-		"wie_Charlotte": [130980, 1407],
-		"D": [21091, 1531],
-		"de": [134308, 754],
-		"wie_Dora": [135420, 1375],
-		"E": [24285, 1548],
-		"e": [138569, 876],
-		"wie_Emil": [139642, 1430],
-		"F": [28172, 1419],
-		"εf": [143433, 722],
-		"wie_Friedrich": [144520, 1446],
-		"G": [31118, 1395],
-		"ge": [147741, 850],
-		"wie_Gustav": [148712, 1443],
-		"H": [34514, 1262],
-		"ha": [151950, 1263],
-		"wie_Heinrich": [153095, 1591],
-		"I": [37705, 1457],
-		"i": [156304, 734],
-		"wie_Ida": [157339, 1225],
-		"J": [41126, 1696],
-		"jɔt": [160514, 716],
-		"wie_Julius": [161648, 1699],
-		"K": [44902, 1355],
-		"ka": [164852, 891],
-		"wie_Kaufmann": [166044, 1396],
-		"L": [48465, 1662],
-		"εl": [169679, 758],
-		"wie_Ludwig": [170797, 1317],
-		"M": [52056, 1469],
-		"εm": [174577, 564],
-		"wie_Martha": [175615, 1352],
-		"N": [56193, 1386],
-		"εn": [178995, 699],
-		"wie_Nordpol": [179917, 1468],
-		"O": [59244, 1448],
-		"o:": [183571, 654],
-		"wie_Otto": [184998, 1092],
-		"Ö": [101064, 1828],
-		"ø": [187734, 666],
-		"wie_Ökonom": [188806, 1341],
-		"P": [62728, 1296],
-		"pe": [192358, 805],
-		"wie_Paula": [193490, 1297],
-		"Q": [66127, 1388],
-		"ku": [197121, 655],
-		"wie_Quelle": [198154, 1288],
-		"R": [69486, 1381],
-		"εr": [201653, 671],
-		"wie_Richard": [202729, 1251],
-		"S": [72826, 1428],
-		"εs": [207139, 757],
-		"wie_Samuel": [208238, 1274],
-		"ʃ": [211058, 744],
-		"wie_Schule": [212144, 1362],
-		"ß": [106480, 1688],
-		"ɛstsɛt": [215901, 1063],
-		"wie_Eszett": [217263, 1379],
-		"T": [76150, 1498],
-		"te": [221423, 859],
-		"wie_Theodor": [222560, 1630],
-		"U": [79621, 1670],
-		"u": [225886, 744],
-		"wie_Ulrich": [227017, 1550],
-		"Ü": [103915, 1871],
-		"y": [230705, 726],
-		"wie_Uebermut": [231739, 1586],
-		"V": [83022, 1399],
-		"fau": [235257, 814],
-		"wie_Viktor": [236359, 1425],
-		"W": [87520, 1526],
-		"ve": [239876, 577],
-		"wie_Wilhelm": [240959, 1542],
-		"X": [90508, 1454],
-		"iks": [244646, 722],
-		"wie_Xanthippe": [245755, 1539],
-		"Y": [93334, 1354],
-		"ʏpsilɔn": [249555, 1138],
-		"wie_Ypsilon": [250961, 1821],
-		"Z": [95923, 998],
-		"tsεt": [254956, 994],
-		"wie_Zeppelin": [256186, 1697]
+		"whole": [446,158035],
+		"A": [4035,661],
+		"wie_Anton": [5293,1127],
+		"Ä": [8886,590],
+		"wie_Ärger": [10385,896],
+		"B": [13919,485],
+		"wie_Berta": [15141,858],
+		"C": [18602,696],
+		"wie_Cäsar": [19710,991],
+		"Ch": [23178,429],
+		"wie_Charlotte": [24652,1007],
+		"D": [28423,503],
+		"wie_Dora": [29785,933],
+		"E": [33098,570],
+		"wie_Emil": [34588,1191],
+		"F": [37874,594],
+		"wie_Friedrich": [39280,1030],
+		"G": [43524,690],
+		"wie_Gustav": [44863,1023],
+		"H": [48591,555],
+		"wie_Heinrich": [49737,1081],
+		"I": [53276,702],
+		"wie_Ida": [54599,1108],
+		"J": [58031,906],
+		"wie_Julius": [59684,1362],
+		"K": [62965,1346],
+		"wie_Kaufmann": [64775,1345],
+		"L": [68493,946],
+		"wie_Ludwig": [69787,1310],
+		"M": [72747,996],
+		"wie_Martha": [74633,1331],
+		"N": [77715,1012],
+		"wie_Nordpol": [79236,1381],
+		"O": [82619,995],
+		"wie_Otto": [84210,1342],
+		"Ö": [87056,967],
+		"wie_Ökonom": [88361,1445],
+		"P": [91584,804],
+		"wie_Paula": [93034,1190],
+		"Q": [96274,833],
+		"wie_Quelle": [97658,1076],
+		"R": [101335,940],
+		"wie_Richard": [102445,1298],
+		"S": [106590,956],
+		"wie_Samuel": [107768,1313],
+		"Sch": [110880,905],
+		"wie_Schule": [112146,1497],
+		"ss": [115005,1162],
+		"wie_Eszett": [116537,1790],
+		"T": [120399,815],
+		"wie_Theodor": [121304,1438],
+		"U": [124447,901],
+		"wie_Ulrich": [125883,1722],
+		"Ue": [128742,1569],
+		"wie_Uebermut": [130730,2092],
+		"V": [134582,882],
+		"wie_Viktor": [135995,1952],
+		"W": [139394,1756],
+		"wie_Wilhelm": [141279,2202],
+		"X": [144975,1418],
+		"wie_Xanthippe": [146524,1847],
+		"Y": [150000,1781],
+		"wie_Ypsilon": [151861,1698],
+		"Z": [155018,1220],
+		"wie_Zeppelin": [156548,1866]
 	},
 	html5: true,
 	volume: 1,
@@ -634,11 +588,14 @@ var nagehts = new Howl({
 		// 음성 준비되면 HV 버튼 나타내기 
 		$("#whole").show();
 		$("#alt").hide();
-		// $(".alert").hide();
+		$(".alert").hide();
 
 		$(".itm").on("click", function(idx) {
 				var t = $(this);
 				var ti = t.attr("id");
+				if(ti.substring(ti.length-2,ti.length) == "lg") {
+					ti = ti.substring(0, ti.length - 3);
+				}
 			if($("div#last").text() == "" || t.text() == "❚❚") {
 				$("#last").text(ti);
 				t.text("■");

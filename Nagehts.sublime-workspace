@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"1",
-				"1itm"
-			],
-			[
 				"wrap",
 				"word-wrap\tproperty"
 			],
@@ -276,43 +272,11 @@
 	"buffers":
 	[
 		{
-			"file": "r2-D3.php",
+			"contents": "\t",
 			"settings":
 			{
-				"buffer_size": 15771,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<?php include \"header.php\"; ?>\n\t<body>\n<?php include \"nav.php\"; ?>\n<?php if(ul()) { ?>\n\n<section>\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\">\n\t\t\t\t<div class=\"accordion\" id=\"accordionitms\">\n\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t<div class=\"card-header\" id=\"heading1\">\n\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-danger mt-1 mx-1 btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapse1\" area-expanded=\"false\" aria-controls=\"collapse1\" id=\"1\">\n\t\t\t\t\t\t\t\t\t<strong>F1. W-Fragen und Antworten</strong> <small>W-의문사와 대답</small>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"collapse\" id=\"collapse1\" aria-divledby=\"heading1\" data-parent=\"#accordionitms\">\n\t\t\t\t\t\t\t<table class=\"table text-center\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th scope=\"col\" width=\"50%\">묻기</th>\n\t\t\t\t\t\t\t\t\t\t<th class=\"bg-light\" scope=\"col\">반응</th>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th class=\"bg-light\" scope=\"row\"><strong>Woher</strong> kommen Sie?</th>\n\t\t\t\t\t\t\t\t\t\t<td>Ich komme <strong>aus</strong> Deutschland.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th scope=\"row\"><strong>Wo</strong> wohnen Sie?</th>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light\">Ich wohne <strong>in</strong> München.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th class=\"bg-light\" scope=\"row\">Wo <strong>liegt</strong> Ghana?</th>\n\t\t\t\t\t\t\t\t\t\t<td>Ghana liegt <strong>in</strong> Westafrika.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t<div class=\"card-header\" id=\"heading2\">\n\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-orange mt-1 mx-1 btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapse2\" area-expanded=\"false\" aria-controls=\"collapse2\" id=\"2\">\n\t\t\t\t\t\t\t\t\t<strong>F2. Ja / Nein - Fragen und Antworten</strong> <small>예/아니요-질문</small>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"collapse\" id=\"collapse2\" aria-divledby=\"heading2\" data-parent=\"#accordionitms\">\n\t\t\t\t\t\t\t<table class=\"table text-center\">\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th scope=\"col\" width=\"50%\">묻기</th>\n\t\t\t\t\t\t\t\t\t<th class=\"bg-light\" scope=\"col\">반응</th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td class=\"bg-light\" scope=\"row\"><strong>Kommen</strong> Sie aus Japan?</th>\n\t\t\t\t\t\t\t\t\t<td><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td scope=\"row\"><strong>Wohnen</strong> Sie in Seoul?</th>\n\t\t\t\t\t\t\t\t\t<td class=\"bg-light\"><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td class=\"bg-light\" scope=\"row\"><strong>Liegt</strong> Frankreich in Europa?</th>\n\t\t\t\t\t\t\t\t\t<td><strong>Ja</strong>, es liegt in Europa.</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th scope=\"row\" colspan=\"2\" class=\"text-right\">* nicht<small>는 부정어로서 영어의 </small>not<small>을 의미한다</small>.</th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t<div class=\"card-header\" id=\"heading3\">\n\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-warning mt-1 mx-1 btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapse3\" area-expanded=\"false\" aria-controls=\"collapse3\" id=\"3\">\n\t\t\t\t\t\t\t\t\t<strong>F3. Verbkonjugation</strong> <small>동사변화</small>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"collapse\" id=\"collapse3\" aria-divledby=\"heading3\" data-parent=\"#accordionitms\">\n\t\t\t\t\t\t\t<table class=\"table table-striped text-center\">\n\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" width=\"20%\" scope=\"col\">Personalpronomen</th>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" width=\"20%\" scope=\"col\">kommen</th>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" width=\"20%\" scope=\"col\">wohnen</th>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" width=\"20%\" scope=\"col\">sprechen</th>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" width=\"20%\" scope=\"col\">liegen</th>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" scope=\"row\">ich</th>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">komm<strong>e</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">wohn<strong>e</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">sprech<strong>e</td></strong>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">lieg<strong>e</td></strong>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" scope=\"row\">du</th>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">komm<strong>st</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">wohn<strong>st</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">sprich<strong>st</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">lieg<strong>st</strong></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" scope=\"row\">er/sie/es</th>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">komm<strong>t</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">wohn<strong>t</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">sprich<strong>t</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">sprich<strong>t</strong></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th class=\"text-center\" scope=\"row\">Sie</th>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">komm<strong>en</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">komm<strong>en</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">sprech<strong>en</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"text-center\">lieg<strong>en</strong></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t<div class=\"card-header\" id=\"heading4\">\n\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-primary mt-1 mx-1 btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapse4\" area-expanded=\"false\" aria-controls=\"collapse4\" id=\"4\">\n\t\t\t\t\t\t\t\t\t<strong>F4. Wortstellung</strong> <small>어순</small>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"collapse\" id=\"collapse4\" aria-divledby=\"heading4\" data-parent=\"#accordionitms\">\n\t\t\t\t\t\t\t<table class=\"table text-center\">\n\t\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th width=\"25%\" scope=\"col\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t\t<th width=\"25%\" scope=\"col\" width=\"33%\"><strong>Position 1</strong></th>\n\t\t\t\t\t\t\t\t\t\t<th width=\"25%\" class=\"bg-light\" width=\"33%\" scope=\"col\"><strong>Position 2</strong></th>\n\t\t\t\t\t\t\t\t\t\t<th width=\"25%\" scope=\"col\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th scope=\"row\">W-Frage<small><br>w-의문문</small></th>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light\" scope=\"row\"><strong>Woher<br>Wo<br>Welche</strong> Sprachen</td>\n\t\t\t\t\t\t\t\t\t\t<td><strong>kommen<br>wohnst<br>sprechen</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light\"><strong>Sie?<br>du?<br>Sie?</strong></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th scope=\"row\" class=\"bg-light\">Ja/Nein Frage<small><br>예/아니오-의문문</small></th>\n\t\t\t\t\t\t\t\t\t\t<td><strong>Kommt<br>Liegt</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light\"><strong>er<br>Amerika</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td><strong>aus Korea?<br>in Nordamerika?</strong></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<th scope=\"row\">Aussagesatz<small><br>평서문</small></th>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light\" scope=\"row\"><strong>Sie<br>Ich</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td><strong>kommt<br>wohne</strong></td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light\"><strong>aus Italien.<br>in Gwangnaru.</strong></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t<div class=\"card-header\" id=\"heading5\">\n\t\t\t\t\t\t\t<h5 class=\"mb-0\">\n\t\t\t\t\t\t\t\t<button class=\"btn btn-outline-purple mt-1 mx-1 btn-block\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapse5\" area-expanded=\"false\" aria-controls=\"collapse5\" id=\"5\">\n\t\t\t\t\t\t\t\t\t<strong>F5. Redewendungen</strong> <small>어휘와 숙어</small>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"collapse\" id=\"collapse5\" aria-divledby=\"heading5\" data-parent=\"#accordionitms\">\n\t\t\t\t\t\t\t<table class=\"table text-left\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">Woher kommen Sie?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">- Ich komme aus Korea.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">Woher kommst du?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">- Ich komme aus Korea.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">Woher kommt sie?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">- Sie kommt aus Korea.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td colspan=\"2\" class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0\" height=\"5\"></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">Kommen Sie aus Japan?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">- Ja (Nein), ich komme (nicht) aus Japan.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">Kommst du aus Deutschland?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">- Ja (Nein), ich komme (nicht) aus Deutschland.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">Kommt sie aus Italien?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0\">- Ja (Nein), sie kommt (nicht) aus Italien.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td colspan=\"2\" class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0\" height=\"5\"></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Wo wohnen Sie?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ich wohne in Busan.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Wo wohnst du?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ich wohne in Busan.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Wo wohnt er?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Er wohnt in Busan.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td colspan=\"2\" class=\"border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0\" height=\"5\"></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Wohnen Sie in Guri?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ja (Nein), ich wohne (nicht) in Guri.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Wohnst du in Guri ?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ja (Nein), ich wohne (nicht) in Guri.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Wohnt er in Guri?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ja (Nein), er wohnt (nicht) in Guri.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td colspan=\"2\" class=\"bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0\" height=\"5\"></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Welche Sprachen sprechen Sie?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ich spreche Koreanisch, Englisch und Deutsch.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Welche Sprachen sprichst du?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ich spreche Japanisch.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Welche Sprachen spricht er?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Er spricht Japanisch.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td colspan=\"2\" class=\"border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0\" height=\"5\"></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Wo liegt Korea?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Korea liegt in Asien.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">Liegt Deutschland in Europa?</td>\n\t\t\t\t\t\t\t\t\t\t<td class=\"border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0\">- Ja, es liegt in Europa.</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>\n\n\n<div id=\"last\" class=\"d-none\"></div>\n\n\t\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t\t<script src=\"./js/jquery-3.4.1.min.js\"></script>\n\t\t<!-- Include all compiled plugins (below), or include individual files as needed -->\n\t\t<script src=\"./js/popper.min.js\"></script>\n\t\t<script src=\"./js/bootstrap.js\"></script>\n\t\t<script src=\"./js/howler.core.js\"></script>\n\t\t<script>\n\t\t\t// 소리 출력 전역 변수와 함수\n\t\t\tvar sen = new Array(), pa = new Array(), he = new Array(), last;\n\t\t\t$(\".so\").each(function() {\n\t\t\t\tvar t = $(this);\n\t\t\t\tvar ti = t.attr(\"id\");\n\t\t\t\tsen[ti] = 0;\n\t\t\t\tpa[ti] = t.html();\n\t\t\t\the[ti] = t.height();\n\t\t\t});\n\n\t\t\tfunction stopAll() {\n\t\t\t\t$(\".so\").each(function() {\n\t\t\t\t\t$(this).html(pa[$(this).attr(\"id\")]);\n\t\t\t\t});\n\t\t\t}\n\n\t\t\tvar nagehts = new Howl({\n\t\t\t\tsrc: [\"./sounds/Reihe 2/r2 F.mp3\"],\n\t\t\t\tsprite : {\n\t\t\t\t\t\"1\": [0, 13655],\n\t\t\t\t\t\"2\": [4545, 2754],\n\t\t\t\t\t\"3\": [6614, 3208],\n\t\t\t\t\t\"4\": [9460, 4121],\n\t\t\t\t\t\"5\": [13192, 18439],\n\t\t\t\t\t\"6\": [18550, 3123],\n\t\t\t\t\t\"7\": [20767, 4306],\n\t\t\t\t\t\"8\": [24389, 3695],\n\t\t\t\t\t\"9\": [27789, 4323]\n\t\t\t\t},\n\t\t\t\thtml5: true,\n\t\t\t\tvolume: 1,\n\t\t\t\tformat: \"mp3\",\n\t\t\t\tpreload: true,\n\t\t\t\tonloaderror: function() {\n\t\t\t\t\t$(\".alert\").append(\"<br /><strong class=\\\"font-weight-bold text-dark display-4\\\">페이지를 다시 읽어주시기 바래요.</strong>\");\n\t\t\t\t\tconsole.log(\"다시 읽어주세요!\");\n\t\t\t\t},\n\t\t\t\tonload: function() {\n\t\t\t\t\t// 음성 준비되면 HV 버튼 나타내기 \n\t\t\t\t\t$(\"#whole\").show();\n\t\t\t\t\t$(\"#alt\").hide();\n\t\t\t\t\t// $(\".alert\").hide();\n\n\t\t\t\t\t$(\".so\").on(\"click\", function(idx) {\n\t\t\t\t\t\t\tvar t = $(this);\n\t\t\t\t\t\t\tvar ti = t.attr(\"id\");\n\n\t\t\t\t\t\tif($(\"div#last\").text() == \"\" || t.text() == \"❚❚\") {\n\t\t\t\t\t\t\t$(\"#last\").text(ti);\n\t\t\t\t\t\t\tt.text(\"■\");\n\t\t\t\t\t\t\tnagehts.seek();\n\t\t\t\t\t\t\tnagehts.play(ti);\n\t\t\t\t\t\t\tsen[ti]++;\n\t\t\t\t\n\t\t\t\t\t\t\tlast = ti;\n\t\t\t\t\n\t\t\t\t\t\t\t$(\"#cnt-\"+ti).text(sen[ti]);\n\t\t\t\t\t\t} else if(last == ti && nagehts.playing($(\"div#last\").text())) {\n\t\t\t\t\t\t\t$(\"#last\").text(\"\");\n\t\t\t\t\t\t\tt.html(pa[ti]);\n\t\t\t\t\t\t\tnagehts.pause();\n\t\t\t\t\t\t\tsen[ti]--;\n\t\t\t\t\t\t\t$(\"#cnt-\"+ti).text(sen[ti]);\n\t\t\t\t\t\t}\n\n\t\t\t\t\t});\n\t\t\t\t},\n\t\t\t\tonend: function() {\n\t\t\t\t\t$(\"div#last\").text(\"\");\n\t\t\t\t\tstopAll();\n\t\t\t\t\t$(\"#cnt-\"+last).text(sen[last]);\n\t\t\t\t\tif(sen[last] == 2) {\n\t\t\t\t\t\t$(\"#\"+last).find(\".tran\").show();\n\t\t\t\t\t}\n\t\t\t\t}\n\n\n\t\t\t});\n\n\n\t\n\t</script>\n\t<? } ?>\n<?php include \"footer.php\"; ?>\n\t</body>\n</html>",
-			"file": "r2-Grammatik und Wendungen.php",
-			"file_size": 14431,
-			"file_write_time": 132259801089991855,
-			"settings":
-			{
-				"buffer_size": 15948,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<?php include \"header.php\"; ?>\n\t<body>\n<?php include \"nav.php\"; ?>\n<?php if(ul()) { ?>\n<!-- 알림 시작 -->\n<?php require_once \"ready.php\"; ?>\n<!-- 알림 끝 -->\n\n\t\t<section>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-lg-12 mb-4 mt-2 text-center\">\n\t\t\t\t\t\t<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>\n\t\t\t\t\t\t<h3>[ <small>문장을 입력하여 정답인 경우 선택지가 나타납니다.</small> ]\n\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-<?php echo($color); ?> ml-2 btn-inline so\" id=\"0\">\n\t\t\t\t\t\tHV\n\t\t\t\t\t\t</button><button type=\"button\" class=\"btn btn-<?php echo($color); ?> ml-2 btn-inline so\" id=\"0_p\">\n\t\t\t\t\t\t❚❚\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3>[ <small><button type=\"button\" class=\"btn disabled btn-sm btn-<?php echo($color); ?>\">HV</button> 버튼 또는 <button type=\"button\" class=\"so btn btn-sm btn-outline-secondary disabled\">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">1.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">heißt</span>|<span class=\"py-2 px-2 d-inline-block wd\">er</span>|<span class=\"py-2 px-2 d-inline-block wd\">wie</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-1\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 1 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F1\" id=\"txt-1\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-1\">&lt; 1 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option1-1\" autocomplete=\"off\">Wie\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option1-2\" autocomplete=\"off\">heißt\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option1-3\" autocomplete=\"off\">er\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option1-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>그는 이름이 뭔가요?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">Tommy</span>|<span class=\"py-2 px-2 d-inline-block wd\">er</span>|<span class=\"py-2 px-2 d-inline-block wd\">heißt</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-2\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 2 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F2\" id=\"txt-2\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-2\">&lt; 2 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option2-1\" autocomplete=\"off\">Er\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option2-2\" autocomplete=\"off\">heißt\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option2-3\" autocomplete=\"off\">Tommy\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option2-4\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>그는 토미라고해요.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">2.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">wohnst</span>|<span class=\"py-2 px-2 d-inline-block wd\">du</span>|<span class=\"py-2 px-2 d-inline-block wd\">wo</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-3\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 3 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F3\" id=\"txt-3\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-3\">&lt; 3 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option3-1\" autocomplete=\"off\">Wo\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option3-2\" autocomplete=\"off\">wohnst\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option3-3\" autocomplete=\"off\">du\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option3-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>어디에서 사니?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">in Daegu</span>|<span class=\"py-2 px-2 d-inline-block wd\">du</span>|<span class=\"py-2 px-2 d-inline-block wd\">wohnst</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-4\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 4 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F4\" id=\"txt-4\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-4\">&lt; 4 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option4-1\" autocomplete=\"off\">Wohnst\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option4-2\" autocomplete=\"off\">du\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option4-3\" autocomplete=\"off\">in Daegu\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option4-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>대구에서 사니?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">Ja,</span>|<span class=\"py-2 px-2 d-inline-block wd\">in Daegu</span>|<span class=\"py-2 px-2 d-inline-block wd\">ich</span>|<span class=\"py-2 px-2 d-inline-block wd\">wohne</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-5\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 5 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F5\" id=\"txt-5\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-5\">&lt; 5 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option5-1\" autocomplete=\"off\">Ja,\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option5-2\" autocomplete=\"off\">ich\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option5-3\" autocomplete=\"off\">wohne\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option5-4\" autocomplete=\"off\">in Daegu\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option5-5\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>응, 난 대구에서 살아.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">3.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">kommt</span>|<span class=\"py-2 px-2 d-inline-block wd\">er</span>|<span class=\"py-2 px-2 d-inline-block wd\">woher</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-6\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 6 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F6\" id=\"txt-6\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-6\">&lt; 6 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option6-1\" autocomplete=\"off\">Woher\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option6-2\" autocomplete=\"off\">kommt\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option6-3\" autocomplete=\"off\">er\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option6-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>그는 어디에서 왔나요</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">aus Chile</span>|<span class=\"py-2 px-2 d-inline-block wd\">er</span>|<span class=\"py-2 px-2 d-inline-block wd\">kommt</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-7\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 7 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F7\" id=\"txt-7\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-7\">&lt; 7 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option7-1\" autocomplete=\"off\">Er\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option7-2\" autocomplete=\"off\">kommt\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option7-3\" autocomplete=\"off\">aus Chile\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option7-4\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right text-\" style=\"width: 100%;\"><br><small>그는 칠레 출신이에요.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">4.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">in Asien</span>|<span class=\"py-2 px-2 d-inline-block wd\">Vietnam</span>|<span class=\"py-2 px-2 d-inline-block wd\">liegt</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-8\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 8 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F8\" id=\"txt-8\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-8\">&lt; 8 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option8-1\" autocomplete=\"off\">Liegt\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option8-2\" autocomplete=\"off\">Vietnam\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option8-3\" autocomplete=\"off\">in Asien\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option8-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>베트남은 아시아 대륙에 있나요?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">ja,</span>|<span class=\"py-2 px-2 d-inline-block wd\">in Asien</span>|<span class=\"py-2 px-2 d-inline-block wd\">Vietnam</span>|<span class=\"py-2 px-2 d-inline-block wd\">liegt</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-9\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 9 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F9\" id=\"txt-9\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-9\">&lt; 9 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option9-1\" autocomplete=\"off\">Ja,\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option9-2\" autocomplete=\"off\">Vietnam\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option9-3\" autocomplete=\"off\">liegt\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option9-4\" autocomplete=\"off\">in Asien\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option9-5\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right text-\" style=\"width: 100%;\"><br><small>네, 베트남은 아시아 대륙에 있어요.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">5.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">sprechen</span>|<span class=\"py-2 px-2 d-inline-block wd\">Sie</span>|<span class=\"py-2 px-2 d-inline-block wd\">welche Sprachen</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-10\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 10 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F10\" id=\"txt-10\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-10\">&lt; 10 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option10-1\" autocomplete=\"off\">Welche Sprachen\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option10-2\" autocomplete=\"off\">sprechen\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option10-3\" autocomplete=\"off\">Sie\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option10-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>당신은 어떤 언어를 말하나요?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">Deutsch und Englisch</span>|<span class=\"py-2 px-2 d-inline-block wd\">ich</span>|<span class=\"py-2 px-2 d-inline-block wd\">spreche</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-11\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 11 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F11\" id=\"txt-11\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-11\">&lt; 11 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option11-1\" autocomplete=\"off\">Ich\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option11-2\" autocomplete=\"off\">speche\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option11-3\" autocomplete=\"off\">Deutsch und Englisch\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option11-4\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right text-\" style=\"width: 100%;\"><br><small>저는 독일어와 영어를 말해요.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">6.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">Koreanisch</span>|<span class=\"py-2 px-2 d-inline-block wd\">du</span>|<span class=\"py-2 px-2 d-inline-block wd\">sprichst</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-12\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 12 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F12\" id=\"txt-12\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-12\">&lt; 12 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option12-1\" autocomplete=\"off\">Sprichst\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option12-2\" autocomplete=\"off\">du\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option12-3\" autocomplete=\"off\">Koreanisch\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option12-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>너는 한국어 말할 수 있니?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">ja,</span>|<span class=\"py-2 px-2 d-inline-block wd\">Koreanisch</span>|<span class=\"py-2 px-2 d-inline-block wd\">ich</span>|<span class=\"py-2 px-2 d-inline-block wd\">spreche</span>|<span class=\"py-2 px-2 d-inline-block wd\">gut</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-13\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 13 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F13\" id=\"txt-13\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-13\">&lt; 13 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option13-1\" autocomplete=\"off\">Ja,\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option13-2\" autocomplete=\"off\">ich\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option13-3\" autocomplete=\"off\">spreche\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option13-4\" autocomplete=\"off\">gut\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option13-5\" autocomplete=\"off\">Koreanisch\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option13-6\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right text-\" style=\"width: 100%;\"><br><small>그럼, 나 한국어 잘해.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">7.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">du</span>|<span class=\"py-2 px-2 d-inline-block wd\">Chinesin</span>|<span class=\"py-2 px-2 d-inline-block wd\">bist</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-14\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 14 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F14\" id=\"txt-14\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-14\">&lt; 14 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option14-1\" autocomplete=\"off\">Bist\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option14-2\" autocomplete=\"off\">du\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option14-3\" autocomplete=\"off\">Chinesin\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option14-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>너는 중국인이니?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">nein,</span>|<span class=\"py-2 px-2 d-inline-block wd\">Koreanerin</span>|<span class=\"py-2 px-2 d-inline-block wd\">ich</span>|<span class=\"py-2 px-2 d-inline-block wd\">bin</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-15\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 15 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F15\" id=\"txt-15\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-15\">&lt; 15 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option15-1\" autocomplete=\"off\">Nein,\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option15-2\" autocomplete=\"off\">ich\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option15-3\" autocomplete=\"off\">bin\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option15-4\" autocomplete=\"off\">Koreanerin\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option15-5\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right text-\" style=\"width: 100%;\"><br><small>아니, 난 한국인이야.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6\">\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\">8.&nbsp;<span class=\"py-2 px-2 d-inline-block wd\">er</span>|<span class=\"py-2 px-2 d-inline-block wd\">Deutscher</span>|<span class=\"py-2 px-2 d-inline-block wd\">ist</span>|<span class=\"py-2 px-2 d-inline-block wd\">?</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-16\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 16 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F16\" id=\"txt-16\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-16\">&lt; 16 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option16-1\" autocomplete=\"off\">Ist\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option16-2\" autocomplete=\"off\">er\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option16-3\" autocomplete=\"off\">Deutscher\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option16-4\" autocomplete=\"off\">?\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right\" style=\"width: 100%;\"><br><small>그는 독일인인가요?</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"table\">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th colspan=\"2\" scope=\"col\"><div class=\"d-inline-block\"><span class=\"py-2 px-2 d-inline-block wd\">nein,</span>|<span class=\"py-2 px-2 d-inline-block wd\">Franzose</span>|<span class=\"py-2 px-2 d-inline-block wd\">er</span>|<span class=\"py-2 px-2 d-inline-block wd\">ist</span>|<span class=\"py-2 px-2 d-inline-block wd\">.</span></div></th>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<th class=\"border-top-0 border-bottom-0\" rowspan=\"2\">&nbsp;</th>\n\t\t\t\t\t\t\t\t\t<td class=\"border-top-0 border-bottom-0\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"ant\" id=\"ant-17\"></div><span class=\"sen\"><div class=\"input-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t[ 17 ]\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" class=\"form-control qt border-left-0 border-top-0 border-right-0 rounded-0 mx-1\" style=\"position: relative; top: -6px;\" aria-label=\"F17\" id=\"txt-17\">\n\t\t\t\t\t\t\t\t\t\t\t</div></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<div class=\"text-right btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-17\">&lt; 17 &gt;&nbsp;\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option17-1\" autocomplete=\"off\">Nein,\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option17-2\" autocomplete=\"off\">er\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답!\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option17-3\" autocomplete=\"off\">ist\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option17-4\" autocomplete=\"off\">Franzose\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\" data-placement=\"top\" data-content=\"정답이 아니에요.\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\" name=\"options\" id=\"option17-5\" autocomplete=\"off\">.\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<span class=\"tran text-right text-\" style=\"width: 100%;\"><br><small>아뇨, 그는 프랑스인이에요.</small></span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- 정답화인 버튼 시작 -->\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"btn my-3 btn-light col-sm-12 col-md-126col-lg-12\" id=\"chk\">\n\t\t\t\t\t\t정답확인\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- 정답확인 버튼 끝 -->\n\t\t</div>\n\t</section>\n\t\t\n\n\t\t\n\t\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t\t<script src=\"./js/jquery-3.4.1.min.js\"></script>\n\t\t<!-- Include all compiled plugins (below), or include individual files as needed -->\n\t\t<script src=\"./js/popper.min.js\"></script>\n\t\t<script src=\"./js/bootstrap.js\"></script>\n\t\t<script src=\"./js/taptogroup.js\"></script>\n\t\t<script src=\"./js/ion.sound.min.js\"></script>\n\t\t<script>\n\t\t\t$(\".tran\").hide();\n\t\t\t$(\".q\").hide();\n\t\t\t$(\".pop\").addClass(\"border border-dark border-top-0 border-left-0 border-right-0\");\n\t\t\tvar an = new Array();\n\t\t\tvar an = [\"Wie heißt er?\",\"Er heißt Tommy.\",\"Wo wohnst du?\",\"Wohnst du in Daegu?\",\"Ja, ich wohne in Daegu.\",\"Woher kommt er?\",\"Er kommt aus Chile.\",\"Liegt Vietnam in Asien?\",\"Ja, Vietnam liegt in Asien.\",\"Welche Sprachen sprechen Sie?\",\"Ich spreche Deutsch und Englisch.\",\"Sprichst du Koreanisch?\",\"Ja, ich spreche gut Koreanisch.\",\"Bist du Chinesin?\",\"Nein, ich bin Koreanerin.\",\"Ist er Deutscher?\",\"Nein, er ist Franzose.\"];\n\n\t\t\t$(document).ready(function() {\n\t\t\t// 각 문장 재생 횟수 초기화\n\t\t\tvar hm=new Array(), sen=new Array();\n\t\t\tfor(i=0;\n\t\t\ti < $(\".so\").length;\n\t\t\ti++) {\n\t\t\t\thm[i]=0;\n\t\t\t\tsen[i]=0;\n\t\t\t}\n\t\t\tion.sound( {\n\t\t\t\tsounds : [ {\n\t\t\t\t\tname : \"r2 E4\",\n\t\t\t\t\tsprite : {\n\t\t\t\t\t\t\"0\": [.3, 28.73],\n\t\t\t\t\t\t\"1\": [,],\n\t\t\t\t\t\t\"2\": [,],\n\t\t\t\t\t\t\"3\": [,],\n\t\t\t\t\t\t\"4\": [,],\n\t\t\t\t\t\t\"5\": [,],\n\t\t\t\t\t\t\"6\": [,],\n\t\t\t\t\t\t\"7\": [,],\n\t\t\t\t\t\t\"8\": [,],\n\t\t\t\t\t\t\"9\": [,],\n\t\t\t\t\t\t\"10\": [,],\n\t\t\t\t\t\t\"11\": [,],\n\t\t\t\t\t\t\"12\": [,],\n\t\t\t\t\t\t\"13\": [,],\n\t\t\t\t\t\t\"14\": [,],\n\t\t\t\t\t\t\"15\": [,],\n\t\t\t\t\t\t\"16\": [,],\n\t\t\t\t\t\t\"17\": [,],\n\t\t\t\t\t\t\"18\": [,]\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\t, {\n\t\t\t\t\tname: \"dingdongdang\",\n\t\t\t\t\t\tpath: \"sounds/\"\n\t\t\t\t}\n\t\t\t\t, {\n\t\t\t\t\tname: \"Cartoon_Boing\",\n\t\t\t\t\t\tpath: \"sounds/\"\n\t\t\t\t}\n\t\t\t\t],\n\t\t\t\tpath : \"sounds/Reihe 2/\",\n\t\t\t\tpreload : true,\n\t\t\t\tvolume : 1.0,\n\t\t\t\tmultiplay: false,\n\t\t\t\tended_callback: function(obj) {\n\t\t\t\t\t// 재생이 끝날 때 2번 이상이면 번역 보이기\n\t\t\t\t\thmn=obj.part;\n\t\t\t\t\thm[hmn]++;\n\t\t\t\t\t// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기\n\t\t\t\t\tif(obj.part==\"0\") {\n\t\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t\t$(\"#0_p\").hide();\n\t\t\t\t\t\tif(hm[hmn] > 1) {\n\t\t\t\t\t\t\t$(\".tran\").show();\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t\telse {\n\t\t\t\t\t\tif(obj.part > 0) {\n\t\t\t\t\t\t\t$(\"#\"+obj.part).html(\"▶\");\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif(hm[hmn] > 1) {\n\t\t\t\t\t\t\t$(\"#\"+hmn).closest(\"tr\").find(\".tran\").show();\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\t, ready_callback: function () {\n/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */\n// 값 확인해보자, io값이 참이면 전체 검사\nfunction rfchk(th,io) {\n\tvar q, qn, a, b, fl;\n\tq = th.val().length;\n\tqn = (th.attr(\"id\").substr(4))-1;\n\ta = th.val();\n\ta = a.replace(/ /gi, \"\");\n\tif(!$.isArray(an[qn])) {\n\t\t// 1 인 경우 \n\t\tif(io) {\n\t\t\tb = an[qn];\n\t\t} else {\n\t\t\tb = an[qn].substr(0,q);\n\t\t}\n\t\tb = b.replace(/ /gi, \"\");\n\n\t\tif(a == b) {\n\t\t\treturn true;\n\t\t}\n\n\t} else {\n\t\t// 2 이상인 경우\n\t\tfor(var fd = 0; fd < an[qn].length; fd++) {\n\t\t\tif(io) {\n\t\t\t\tb = an[qn][fd];\n\t\t\t} else {\n\t\t\t\tb = an[qn][fd].substr(0,q);\n\t\t\t}\n\t\t\tb = b.replace(/ /gi, \"\");\n\t\t\t\n\t\t\tif(a == b) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t}\n\t\t\n\t}\n}\n\n\n\t\t\t\t$(\".o\").on(\"click\", function() {\n\t\t\t\t\tion.sound.play(\"dingdongdang\");\n\t\t\t\t});\n\n\t\t\t\t$(\".x\").on(\"click\", function() {\n\t\t\t\t\tion.sound.play(\"Cartoon_Boing\");\n\t\t\t\t});\n\n\n\t\t\t\t$(\"[data-toggle='popover']\").popover({\n\t\t\t\t\tdelay : {\n\t\t\t\t\t\t'hide' : 1000\n\t\t\t\t\t},\n\t\t\t\t\tcontainer : \"body\"\n\t\t\t\t});\n\t\t\t\n\t\t\t\t$(\".pop\").click(function () {\n\t\t\t\t\t// 가장 먼저 지문에 'an' 넣기\n\t\t\t\t\tif (!$(this).siblings().hasClass(\"an\")) {\n\t\t\t\t\t\t$(this).addClass(\"an\");\n\t\t\t\t\t\t$(this).addClass(\"btn-warning\");\n\t\t\t\t\t\t$(this).parent().children().removeClass(\"btn-light\");\n\t\t\t\t\t};\n\n\t\t\t\t\t// 문제 풀이 정도 업데이트\n\t\t\t\t\tvar perc = Math.round(($(\".an\").length / $(\".q\").length) * 100);\n\t\t\t\t\t$(\".progress>.bar\").attr(\"width\", perc + \"%;\");\n\t\t\t\t\t\n\t\t\t\t});\n\t\t\t\t\t\n\t\t\t\t// 팝업 내용 사라지기\n\t\t\t\t$(\".pop\").popover().click(function() {\n\t\t\t\t\tsetTimeout(function() {\n\t\t\t\t\t\t$(\".pop\").popover('hide');\n\t\t\t\t\t}, 500);\n\t\t\t\t});\n\n\n\t\t\t\t$(\".qt\").on(\"keyup\", function () {\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-danger\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-success\");\n\n\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t}\n\n\t\t\t\t\tif(!$(this).val()) {\n\t\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".qt\").on(\"focusin\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\tif(!$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t}\n\t\t\t\t\tif($(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".qt\").on(\"focusout\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\n\t\t\t\t\tif(rfchk($(this),true)) {\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(this).addClass(\"text-white\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t}\n\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\tif($(this).hasClass(\"bg-danger\")) {\n\t\t\t\t\t\t\tion.sound.play(\"Cartoon_Boing\");\n\t\t\t\t\t\t} else if($(this).hasClass(\"bg-success\")){\n\t\t\t\t\t\t\tion.sound.play(\"dingdongdang\");\n\t\t\t\t\t\t\t$(this).prop(\"disabled\",true);\n\t\t\t\t\t\t\t$(this).closest(\"table\").find(\".q\").show();\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\n\t\t\t\t\tif(!$(this).attr(\"disabled\")) {\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t\t// $(this).closest(\"table\").find(\".tran\").each(function () {\n\t\t\t\t\t\t// \t$(this).show();\n\t\t\t\t\t\t// })\n\t\t\t\t\t}\n\t\t\t\t})\n\t\t\t\t\n\n\t\t\t\t\t/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */\n\t\t\t\t\t$(\".so\").on(\"click\", function () {\n\t\t\t\t\t\tif($(this).attr(\"id\").substr(-2)==\"_p\") {\n\t\t\t\t\t\t\t// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기\n\t\t\t\t\t\t\tion.sound.pause(\"r2 E4\", {\n\t\t\t\t\t\t\t\tpart: \"0\"\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t);\n\t\t\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t\t\t$(this).hide();\n\t\t\t\t\t\t}\n\t\t\t\t\t\telse if($(this).html()==\"▶\") {\n\t\t\t\t\t\t\t// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기\n\t\t\t\t\t\t\tion.sound.play(\"r2 E4\", {\n\t\t\t\t\t\t\t\tpart: $(this).attr(\"id\")\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t);\n\t\t\t\t\t\t\t$(this).html(\"❚❚\");\n\t\t\t\t\t\t}\n\t\t\t\t\t\telse if($(this).html()==\"❚❚\") {\n\t\t\t\t\t\t\t// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기\n\t\t\t\t\t\t\tion.sound.pause(\"r2 E4\", {\n\t\t\t\t\t\t\t\tpart: $(this).attr(\"id\")\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t);\n\t\t\t\t\t\t\t$(this).html(\"▶\");\n\t\t\t\t\t\t}\n\t\t\t\t\t\telse {\n\t\t\t\t\t\t\t// _p 붙어 있지 않으면 id 그대로 재생\n\t\t\t\t\t\t\tion.sound.play(\"r2 E4\", {\n\t\t\t\t\t\t\t\tpart: $(this).attr(\"id\")\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t);\n\t\t\t\t\t\t\t// 전체 듣기 재생일 때는 일시정지 버튼 보이기\n\t\t\t\t\t\t\tif($(this).attr(\"id\")==\"0\") {\n\t\t\t\t\t\t\t\t$(this).hide();\n\t\t\t\t\t\t\t\t$(\"#0_p\").show();\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t;\n\t\t\t\t\t\t}\n\t\t\t\t\t\t;\n\t\t\t\t\t}\n\t\t\t\t\t);\n\n\n/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */\n\t\t\t\t$(\"#chk\").on(\"click\", function() {\n\t\t\t\t\tvar na = \"\";\n\t\t\t\t\tvar da = \"\";\n\t\t\t\t\tvar ri = 0;\n\t\t\t\t\tvar txt = $(\".qt\").length;\n\t\t\t\t\t$(\".q\").each(function() {\n\t\t\t\t\t\tif (!$(this).find(\"div\").hasClass(\"an\")) {\n\t\t\t\t\t\t\tif($(this).css(\"display\") != \"none\") {\n\t\t\t\t\t\t\t\tda += \"< \"+$(this).attr(\"id\").substr(4)+\" >\";\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t};\n\t\t\t\t\t});\n\n\t\t\t\t\t$(\".qt\").each(function () {\n\t\t\t\t\t\tif($(this).val() == \"\") {\n\t\t\t\t\t\t\tna += \"[ \"+$(this).attr(\"id\").substr(4)+\" ]\";\n\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t\t\n\t\t\t\t\tif(na == \"\" && da == \"\") {\n\t\t\t\t\t\t\tfor(var i=0;\n\t\t\t\t\t\t\ti < an.length;\n\t\t\t\t\t\t\ti++) {\n\t\t\t\t\t\t\t\tvar oran=$(\"#txt-\"+(i+1)).val();\n\t\t\t\t\t\t\t\tif(rfchk($(\"#txt-\"+(i+1)), true)) {\n\t\t\t\t\t\t\t\t\t$(\"#txt-\"+(i+1)).addClass(\"bg-success text-white rounded font-weight-bold p-1 px-2 ml-1\");\n\t\t\t\t\t\t\t\t\t$(\"#txt-\"+(i+1)).removeClass(\"rounded-0\");\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\telse {\n\t\t\t\t\t\t\t\t\t$(\"#txt-\"+(i+1)).val(oran);\n\t\t\t\t\t\t\t\t\t$(\"#txt-\"+(i+1)).attr(\"disabled\", true);\n\t\t\t\t\t\t\t\t\t$(\"#txt-\"+(i+1)).addClass(\"bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1\");\n\t\t\t\t\t\t\t\t\t$(\"#txt-\"+(i+1)).removeClass(\"rounded-0\");\n\t\t\t\t\t\t\t\t\t$(\"#txt-\"+(i+1)).closest(\".sen\").append(\"<div class=\\\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\\\" style=\\\"position: relative; top: -6px;\\\">\"+an[i]+\"</div>\");\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tif($(\"#txt-\"+(i+1)).hasClass(\"bg-success\")) {\n\t\t\t\t\t\t\t\t\tri++;\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\n\t\t\t\t\t$(this).prop(\"disabled\", true);\n\t\t\t\t\t$(\".tran\").show();\n\t\t\t\t\t$(this).attr(\"id\", \"done\");\n\n\t\t\t\t\t\t\n\t\t\t\t\t$(\".pop\").each(function() {\n\t\t\t\t\t\t$(this).removeClass(\"btn-info\");\n\n\t\t\t\t\t\tif ($(this).hasClass(\"o\") && $(this).hasClass(\"an\")) {\n\t\t\t\t\t\t\t$(this).removeClass(\"btn-warning\");\n\t\t\t\t\t\t\t$(this).addClass(\"btn-success font-weight-bold\");\n\t\t\t\t\t\t} else if ($(this).hasClass(\"o\")) {\n\t\t\t\t\t\t\t$(this).addClass(\"btn-warning font-weight-bold text-dark\");\n\t\t\t\t\t\t} else if ($(this).hasClass(\"an\")) {\n\t\t\t\t\t\t\t$(this).addClass(\"btn-danger\");\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t$(this).addClass(\"btn-light\");\n\t\t\t\t\t\t};\n\t\t\t\t\t});\n\n\n\t\t\t\t\t\t// 정답 확인 div 상자 배경색 속성 없애기\n\t\t\t\t\t\t$(this).removeClass(\"btn-light \");\n\n\t\t\t\t\t\tvar qa = $(\".q\").length + $(\".qt\").length; // 전체 문항 수\n\t\t\t\t\t\tvar qr = $(\".bg-success\").length + $(\".btn-success\").length; // 맞춘 항목 수\n\t\t\t\t\t\tvar pe = (qr / qa) * 100; // 정답 비율\n\t\t\t\t\t\tvar tcl = \"white\"; // 기본 문자색\n\n\t\t\t\t\t\t// 분류 기준은 100%, 80%, 60%, 40%\n\t\t\t\t\t\tif(pe > 99) {\n\t\t\t\t\t\t\tvar st = \"원어민이세요?\";\n\t\t\t\t\t\t\tvar cl = \"lime\";\n\t\t\t\t\t\t\tvar tcl = \"dark\";\n\t\t\t\t\t\t} else if(pe > 79) {\n\t\t\t\t\t\t\tvar st = \"어! 좀 하시는데요~^^\";\n\t\t\t\t\t\t\tvar cl = \"success\";\n\t\t\t\t\t\t} else if(pe > 59) {\n\t\t\t\t\t\t\tvar st = \"쓰읍~ 다시 해 보실까요\";\n\t\t\t\t\t\t\tvar cl = \"primary\";\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\tvar st = \"좀 더 분발해 주세요\";\n\t\t\t\t\t\t\tvar cl = \"danger\";\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\t$(this).addClass(\"btn-\" + cl + \" text-\" + tcl);\n\t\t\t\t\t\t$(this).html(\"<h4>\" + qa + \"문제 중 \" + qr + \"개를 맞히셨네요!<br>\" + st + \"</h4>\");\n\n\t\t\t\t\t} else if(na != \"\" && da == \"\") {\n\t\t\t\t\t\talert(na+\"번 문제를 입력하세요!\");\n\t\t\t\t\t} else if(na == \"\" && da != \"\") {\n\t\t\t\t\t\talert(da+\"번 문제를 선택하세요!\");\n\t\t\t\t\t} else if(na != \"\" && da != \"\") {\n\t\t\t\t\t\talert(da+\"번 문제를 선택하세요!\\n\"+na+\"번 문제를 입력하세요!\");\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\"#txt-1\").val(an[0]);\n\t\t\t\t$(\"#option1-2\").parent().addClass(\"an\");\n\t\t\t\t$(\"#option1-2\").parent().addClass(\"btn-warning\");\n\t\t\t\t$(\"#option1-2\").parent().removeClass(\"btn-light\");\n\t\t\t\t$(\"#txt-1\").prop(\"disabled\",true);\n\t\t\t\t$(\"#txt-1\").addClass(\"bg-success text-white font-weight-bold\");\n\t\t\t\t$(\"#qst-1\").show();\n\t\t\t\t// $(\"#qst-1\").closest(\"table\").find(\".tran\").each(function () {\n\t\t\t\t// \t$(this).show();\n\t\t\t\t// })\n\t\t\t\t// $(\"#qst-1\").closest(\"table\").find(\".wd\").each(function () {\n\t\t\t\t// \t$(this).addClass(\"text-muted\")\n\t\t\t\t// })\n\n\t\t\t\n\t\t\t\t\t$(\"#0\").show();\n\t\t\t\t\t$(\".alert\").hide();\n\t\t\t\t}\n\t\t\t}\n\t\t\t);\n\t\t})\n\t\t\t\n\t\t</script>\n\t\t<!-- ion.sound finished -->\n<? } ?>\n<?php include \"footer.php\"; ?>\n\t</body>\n</html>",
-			"file": "r2-E4.php",
-			"file_size": 54392,
-			"file_write_time": 132260416226849317,
-			"settings":
-			{
-				"buffer_size": 51223,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "r0-Alphabet.php",
-			"settings":
-			{
-				"buffer_size": 23408,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 1,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -433,7 +397,7 @@
 		[
 			[
 				"decode",
-				"StringEncode: Base64 Decode"
+				"StringEncode: URL Decode"
 			],
 			[
 				"unico",
@@ -968,134 +932,134 @@
 	],
 	"file_history":
 	[
-		"/D/cansmile/csde/nagehts/r1-B5.php",
-		"/D/cansmile/cswd/txt/2020021100002 Scrivener 3.0 Beta 38 (Download Links & Change List).txt",
-		"/D/cansmile/csde/nagehts/r1-B4.php",
-		"/D/cansmile/csde/nagehts/r1-Grammatik und Wendungen.php",
-		"/D/cansmile/csde/nagehts/r8-D5.php",
-		"/D/cansmile/csde/nagehts/r0-Alphabet.php",
-		"/D/cansmile/csde/nagehts/r1-C2.php",
-		"/D/cansmile/csde/nagehts/r2-A2.php",
-		"/D/cansmile/csde/nagehts/r9-A1.php",
-		"/D/cansmile/csde/nagehts/r9-A2.php",
-		"/D/cansmile/csde/nagehts/r8-E6.php",
-		"/D/cansmile/csde/nagehts/r8-E5.php",
-		"/D/cansmile/csde/nagehts/r8-E2.php",
-		"/D/cansmile/csde/nagehts/r8-C5.php",
-		"/D/cansmile/csde/nagehts/r8-D6.php",
-		"/D/cansmile/csde/nagehts/r8-C2.php",
-		"/D/cansmile/csde/nagehts/r8-C1.php",
-		"/D/cansmile/csde/nagehts/r8-B5.php",
-		"/D/cansmile/csde/nagehts/r8-B4.php",
-		"/D/cansmile/csde/nagehts/r7-D8.php",
-		"/D/cansmile/csde/nagehts/r7-D7.php",
-		"/D/cansmile/csde/nagehts/r7-D6.php",
-		"/D/cansmile/csde/nagehts/r7-D5.php",
-		"/D/cansmile/csde/nagehts/r7-D3.php",
-		"/D/cansmile/csde/nagehts/r6-E6.php",
-		"/D/cansmile/csde/nagehts/r6-C2.php",
-		"/D/cansmile/csde/nagehts/r5-G16.php",
-		"/D/cansmile/csde/nagehts/r5-G14.php",
-		"/D/cansmile/csde/nagehts/r5-G13.php",
-		"/D/cansmile/csde/nagehts/r5-G12.php",
-		"/D/cansmile/csde/nagehts/r5-G11.php",
-		"/D/cansmile/csde/nagehts/r5-G4.php",
-		"/D/cansmile/csde/nagehts/r5-E2.php",
-		"/D/cansmile/csde/nagehts/r4-E3.php",
-		"/D/cansmile/csde/nagehts/r4-B5.php",
-		"/D/cansmile/csde/nagehts/r4-A2.php",
-		"/D/cansmile/csde/nagehts/r3-F5.php",
-		"/D/cansmile/csde/nagehts/r3-E2.php",
-		"/D/cansmile/csde/nagehts/r2-E4.php",
-		"/D/cansmile/csde/nagehts/r1-A3.php",
-		"/D/cansmile/csde/nagehts/r1-A2.php",
-		"/D/cansmile/csde/nagehts/r7-C2.php",
-		"/D/cansmile/csde/nagehts/r7-C1.php",
-		"/D/cansmile/csde/nagehts/r7-B4.php",
-		"/D/cansmile/csde/nagehts/r6-B0.php",
-		"/D/cansmile/csde/nagehts/r5-E3.php",
-		"/D/cansmile/csde/nagehts/sounds/Reihe 5/r5 C6.mp3",
-		"/D/cansmile/csde/nagehts/r5-C6.php",
-		"/D/cansmile/csde/nagehts/r4-E1.php",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00005 LiteratureandLatte/csfp19-00005 LiteratureandLatte.fpfx",
-		"/D/cansmile/cswd/txt/2020021100002 Scrivener 3.0 Beta 37 (Download Links & Change List) Added information.txt",
-		"/D/cansmile/csde/nagehts/r5-G1.php",
-		"/D/cansmile/csde/nagehts/r8-C7.php",
-		"/D/cansmile/csde/nagehts/r8-C3.php",
-		"/D/cansmile/csde/nagehts/r8-A1.php",
-		"/D/cansmile/cswd/txt/2020021100001 Scrivener 3.0 Beta 37 (Download Links & Change List).txt",
-		"/D/cansmile/csde/nagehts/r7-D1.php",
-		"/D/cansmile/csde/nagehts/r7-C3.php",
-		"/D/cansmile/csde/nagehts/r7-A2.php",
-		"/D/cansmile/csde/nagehts/r7-A0.php",
-		"/D/cansmile/csde/nagehts/r6-E5.php",
-		"/D/cansmile/csde/nagehts/r5-G5.php",
-		"/D/cansmile/csde/nagehts/r4-D2.php",
-		"/D/cansmile/csde/nagehts/r4-A3.php",
-		"/D/cansmile/csde/nagehts/r3-F1.php",
-		"/C/xampp/tomcat/conf/tomcat-users.xml",
-		"/C/xampp/tomcat/conf/server.xml",
-		"/C/xampp/tomcat/conf/context.xml",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/D/cansmile/Dropbox/Documents/Fluency/csfl19-00004 wp-bitly-ko_KR_engkor.ftfx",
-		"/D/cansmile/csde/nagehts/r9-AGR.php",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/C/xampp/phpMyAdmin/config.inc.php",
-		"/C/xampp/mysql/bin/my.ini",
-		"/D/cansmile/csde/nagehts/r9-A3.php",
-		"/C/xampp/tomcat/conf/web.xml",
-		"/C/xampp/mysql/data/mysql_error.log",
-		"/C/xampp/tomcat/logs/catalina.pid",
-		"/C/xampp/php/php.ini",
-		"/D/cansmile/csde/nagehts/r2-E2.php",
-		"/D/cansmile/csde/nagehts/r9-A0.php",
-		"/D/cansmile/csde/nagehts/r2-B1.php",
-		"/D/cansmile/csde/nagehts/r2-D2.php",
-		"/D/cansmile/csde/nagehts/r8-E4.php",
-		"/D/cansmile/csde/nagehts/r8-E3.php",
-		"/D/cansmile/csde/nagehts/r8-E1.php",
-		"/D/cansmile/csde/nagehts/r8-D4.php",
-		"/D/cansmile/csde/nagehts/r8-D3.php",
-		"/D/cansmile/csde/nagehts/r8-D2.php",
-		"/D/cansmile/csde/nagehts/r8-D1.php",
-		"/D/cansmile/csde/nagehts/r8-C4.php",
-		"/D/cansmile/csde/nagehts/r8-B3.php",
-		"/D/cansmile/csde/nagehts/r8-A2.php",
-		"/D/cansmile/csde/nagehts/r7-D4.php",
-		"/D/cansmile/csde/nagehts/r7-D2.php",
-		"/D/cansmile/csde/nagehts/r7-C7.php",
-		"/D/cansmile/csde/nagehts/r7-C6.php",
-		"/D/cansmile/csde/nagehts/r7-C4.php",
-		"/D/cansmile/csde/nagehts/r7-B6.php",
-		"/D/cansmile/csde/nagehts/r7-B5.php",
-		"/D/cansmile/csde/nagehts/r7-B3.php",
-		"/D/cansmile/csde/nagehts/r7-B2.php",
-		"/D/cansmile/csde/nagehts/r7-A3.php",
-		"/D/cansmile/csde/nagehts/r7-A1.php",
-		"/D/cansmile/csde/nagehts/r6-E7.php",
-		"/C/xampp/apps/wordpress/htdocs/wp-config.php",
-		"/D/cansmile/csde/nagehts/r6-E4.php",
-		"/D/cansmile/csde/nagehts/r6-E3.php",
-		"/D/cansmile/csde/nagehts/r6-E1.php",
-		"/D/cansmile/csde/nagehts/r6-E2.php",
-		"/D/cansmile/csde/nagehts/r6-D2.php",
-		"/D/cansmile/csde/nagehts/r6-D1.php",
-		"/D/cansmile/csde/nagehts/r6-B1.php",
-		"/D/cansmile/csde/nagehts/r6-A3.php",
-		"/D/cansmile/csde/nagehts/r6-A2.php",
-		"/D/cansmile/csde/nagehts/r6-A1.php",
-		"/D/cansmile/csde/nagehts/r5-G10.php",
-		"/D/cansmile/csde/nagehts/r5-G7.php",
-		"/D/cansmile/csde/nagehts/r5-G3.php",
+		"//192.168.219.200/common/SCAN/Untitled_20191226_073212.pdf",
+		"/D/cansmile/cswd/GhangRim/0 전체/2019 성탄 발표/한나회/한나회 - 20170226 기관별 찬양 율동대회 마리아여전도회.flac",
+		"/C/Users/Administrator/AppData/Local/Temp/Adobe/Acrobat/DC/JSEdit.js",
+		"/D/cansmile/cswd/txt/2019122100001 Scrivener 3.0 Beta 32 (Download Links & Change List).txt",
+		"/D/cansmile/csdn/usbdeview-2.80/readme.txt",
+		"/D/cansmile/csdn/mplug/install/안내장.txt",
+		"/D/cansmile/csdn/list.txt",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/모두의플러그_1.0.1.5/install/안내장.txt",
+		"/C/Program Files (x86)/BibleWorks 9/userdb/nkr.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1576679556/nagehts.json/var/www/html/nagehts.org/public_html/wp-content/plugins/simple-history/loggers/SimplePluginLogger.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1576635233/nagehts.json/var/www/html/nagehts.org/public_html/tpor/composer.json",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1576634241/nagehts.json/etc/php/7.1/apache2/php.ini",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1576603750/nagehts.json/var/www/html/nagehts.org/public_html/wp-content/plugins/simple-history/loggers/Plugin_BeaverBuilder.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/wp-content/plugins/simple-history/loggers/Plugin_ACF.php",
+		"/D/cansmile/Dropbox/Documents/Scrivener/Draft/2 Untitled Document [44].rtf",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00017 BibleShow 5.4/csfp19-00017 BibleShow 5.4.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00022 LuckyWP Table/csfp19-00022 LuckyWP Table.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/Terminology/2019121300003.txt",
+		"/C/Program Files (x86)/Western Standard/Fluency Now/DB/FluencyTM.db",
+		"/C/Program Files (x86)/Western Standard/Fluency Now/DB/FluencyTerm.db",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00022 LuckyWP Table/csfp19-00022 LuckyWP Tale.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/Terminology/2019121300002 modified from 2019121300001.tbx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00022 LuckyWP Table/wp-plugins-luckywp-table-of-contents-dev-ko.po",
+		"/D/cansmile/csdn/user.000001.xml",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00021 insert page/csfp19-00021 Insert Page.fpfx",
+		"/D/cansmile/csde/nagehts/r0-Zuordnung.php",
+		"/D/cansmile/csde/nagehts/r0-Quizzzz.php",
+		"/D/cansmile/csde/nagehts/r3-A1.php",
 		"/D/cansmile/csde/nagehts/r5-F1.php",
-		"/D/cansmile/csde/nagehts/r5-D1.php",
-		"/D/cansmile/csde/nagehts/r5-D5.php",
-		"/D/cansmile/csde/nagehts/r5-D3.php",
-		"/D/cansmile/csde/nagehts/r5-C5.php",
-		"/D/cansmile/csde/nagehts/r5-C4.php",
-		"/D/cansmile/csde/nagehts/r5-C2.php",
-		"/D/cansmile/csde/nagehts/r5-A3.php",
-		"/D/cansmile/csde/nagehts/r5-A2.php"
+		"/D/cansmile/csde/nagehts/r3-D1.php",
+		"/D/cansmile/csde/nagehts/r1-C2.php",
+		"/D/cansmile/cswd/txt/2019121200001 Scrivener 3.0 Beta 31 (Download Links & Change List).txt",
+		"/C/Program Files (x86)/Western Standard/Fluency Now/external/HtmlAgilityPack.xml",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/cansmile/csde/nagehts/r7-D1.php",
+		"/C/Users/Administrator/AppData/Local/Scrivener/Scrivener/TextPresets/TextPresets.bin",
+		"/C/Users/Administrator/AppData/Local/Scrivener/Scrivener/ProjectTemplates/Preaching.scrivtemplate",
+		"/D/cansmile/csdn/export_2.htm",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/tport/from-xpressengine1/type.document.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/tport/index.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/tport/from-xpressengine1/index.inc.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/tport/from-xpressengine1/type.user.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/tport/secure-key-eb268631-baae-4d08-934c-6ebc78c31c4a",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/var/www/html/nagehts.org/public_html/tpor/composer.phar",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575487537/nagehts.json/var/www/html/nagehts.org/public_html/tpor/.htaccess",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575481753/nagehts.json/var/www/html/nagehts.org/public_html/tport/.htaccess",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575481663/nagehts.json/etc/apache2/sites-available/default-ssl.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575481622/nagehts.json/etc/apache2/sites-available/nagehts.org.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575480935/nagehts.json/var/www/html/nagehts.org/public_html/tport/secure-key-eb268631-baae-4d08-934c-6ebc78c31c4a",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575477726/nagehts.json/var/www/html/nagehts.org/public_html/xpressengine-migration-master/secure-key-10f2dac3-991e-4171-afd1-1a09d92bb92d",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575480880/nagehts.json/var/www/html/nagehts.org/public_html/xpressengine-migration-master/index.php",
+		"/D/cansmile/csdn/document_638.074858.xml",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575477790/nagehts.json/var/www/html/nagehts.org/public_html/xpressengine-migration-master/index.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575477293/nagehts.json/var/www/html/nagehts.org/public_html/xpressengine-migration-master/secure-key-10f2dac3-991e-4171-afd1-1a09d92bb92d",
+		"/D/cansmile/csde/nagehts/r4-B4.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575477002/nagehts.json/var/www/html/nagehts.org/public_html/secure-key-10f2dac3-991e-4171-afd1-1a09d92bb92d",
+		"/D/cansmile/csde/nagehts/r6-E3.php",
+		"/D/cansmile/csde/nagehts/r2-A1.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/.github/PULL_REQUEST_TEMPLATE.md",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/.github/CONTRIBUTING.md",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/README-KR.md",
+		"/D/cansmile/csde/nagehts/r2-A5.php",
+		"/D/cansmile/csde/nagehts/r2-E6.php",
+		"/D/cansmile/csde/nagehts/r2-E4.php",
+		"/D/cansmile/csde/nagehts/r2-E3.php",
+		"/D/cansmile/csde/nagehts/r2-E2.php",
+		"/D/cansmile/csde/nagehts/r2-E1.php",
+		"/D/cansmile/csde/nagehts/r2-D3.php",
+		"/D/cansmile/csde/nagehts/r2-C1.php",
+		"/D/cansmile/csde/nagehts/r1-C1.php",
+		"/D/cansmile/csde/nagehts/r2-A6.php",
+		"/D/cansmile/csde/nagehts/r2-A2.php",
+		"/D/cansmile/csde/nagehts/r2-A4.php",
+		"/D/cansmile/csde/nagehts/r3-E2.php",
+		"/D/cansmile/csde/nagehts/nav.php",
+		"/D/cansmile/csde/nagehts/r1-G11.php",
+		"/D/cansmile/csde/nagehts/r3-E1.php",
+		"/D/cansmile/csde/nagehts/r3-F2.php",
+		"/D/cansmile/csde/nagehts/r3-B2.php",
+		"/D/cansmile/csde/nagehts/r3-F5.php",
+		"/D/cansmile/csde/nagehts/r3-F3.php",
+		"/D/cansmile/csde/nagehts/r3-F1.php",
+		"/D/cansmile/csde/nagehts/r3-D5.php",
+		"/D/cansmile/csde/nagehts/r6-B0.php",
+		"/D/cansmile/csde/nagehts/r2-Grammatik und Wendungen.php",
+		"/D/cansmile/csde/nagehts/r1-G7.php",
+		"/D/cansmile/csde/nagehts/r4-C2.php",
+		"/D/cansmile/csde/nagehts/r4-C2+.php",
+		"/D/cansmile/csde/nagehts/r4-B2.php",
+		"/D/cansmile/csde/nagehts/r4-B1.php",
+		"/C/Program Files (x86)/BibleWorks 9/userdb/nkr.sql",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575099208/nagehts.json/var/www/html/nagehts.org/public_html/.htaccess",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575099177/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575099052/nagehts.json/etc/apache2/sites-enabled/default-ssl.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575099026/nagehts.json/etc/apache2/sites-enabled/nagehts.org.conf",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1575098621/nagehts.json/var/www/html/nagehts.org/public_html/tport/modules/auto_login/composer.json",
+		"/D/cansmile/csde/nagehts/r3-C1.php",
+		"/D/cansmile/csde/nagehts/r3-B1.php",
+		"/D/cansmile/csde/nagehts/r3-A2.php",
+		"/D/cansmile/csde/nagehts/r1-A2.php",
+		"/D/cansmile/Dropbox/backup/Sublime Text Backups/2019-11-29/D/cansmile/csde/nagehts/r2-A2_145355.php",
+		"/D/cansmile/csde/nagehts/r6-B1.php",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00005 LiteratureandLatte/csfp19-00005 LiteratureandLatte.fpfx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00017 BibleShow 5.4/2019102600001 BibleShow 5.4 Language.apjx",
+		"/D/cansmile/Dropbox/Documents/Fluency/csfp19-00018 Orbitfox/csfp19-00018 Orbitfox.fpfx",
+		"/D/cansmile/cswd/txt/2019112900001 Scrivener 3.0 Beta 30 (Download Links & Change List).txt",
+		"/D/cansmile/Dropbox/Documents/Fluency/Fluency Now-9f3cd335bb6b.json",
+		"/D/cansmile/csde/nagehts/r6-E7.php",
+		"/D/cansmile/csde/nagehts/r4-A2.php",
+		"/D/cansmile/csde/nagehts/r4-A3.php",
+		"/D/cansmile/cswd/txt/2019112600001 Von guten Mächten.txt",
+		"/D/Videos/just Clips/Thumbs.db",
+		"/D/cansmile/csde/nagehts/r5-A1.php",
+		"/D/cansmile/csde/nagehts/r7-D7.php",
+		"/D/cansmile/csde/nagehts/r1-C3.php",
+		"/D/cansmile/csde/nagehts/r4-A1.php",
+		"/D/cansmile/Dropbox/backup/Sublime Text Backups/2019-11-25/D/cansmile/csde/nagehts/r4-A2_105927.php",
+		"/D/cansmile/csde/nagehts/r1-F2.php",
+		"/D/cansmile/csde/nagehts/r4-E3.php",
+		"/D/cansmile/csde/nagehts/r6-D2.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574662824/nagehts.json/var/www/html/nagehts.org/public_html/tport/addons/sejin7940_kakao_link/sejin7940_kakao_link.addon.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574661136/nagehts.json/var/www/html/nagehts.org/public_html/tport/addons/sejin7940_kakao_link/sejin7940_kakao_link.addon.php",
+		"/D/cansmile/csde/nagehts/r1-A3.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1574661588/nagehts.json/var/www/html/nagehts.org/public_html/tport/kakao.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/var/www/html/nagehts.org/public_html/tport/addons/sejin7940_kakao_link/sejin7940.txt",
+		"/D/cansmile/csdn/My First Project-9db56d80e908.json",
+		"/D/cansmile/csde/nagehts/r4-D1.php",
+		"/D/cansmile/csde/nagehts/js/taptocompare.js"
 	],
 	"find":
 	{
@@ -1131,134 +1095,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"r2 D3",
-			"r8 D5",
-			"<th class=\"border-top-0 border-bottom-0\">",
-			"so ",
-			"r1 B5",
-			"r8 D5",
-			"itm-lst",
-			"data-target=\"#collapse",
-			"#",
-			".itm",
-			"itm",
-			"so btn btn-outline-dark btn-sm mr-1",
-			" class=\"so btn btn-outline-dark btn-sm mr-1\">▶</button>",
-			"lass=\"so btn btn-outline-primary btn-sm mr-1\">▶</button>",
-			"button type=\"button\" id=\"1",
-			"r8 D5",
-			" itm\" id=",
-			"r8 D5",
-			"tm\" id=",
-			"3 itm\" id",
-			"r8 D5",
-			" itm\" id=\"",
-			"itm",
-			"r8 D5",
-			"lg btn-outline-dark itm",
-			"r8 D5",
-			"btn-lg btn-outline-dark itm",
-			"r8 D5",
-			" btn-lg btn-outline-dark itm\" ",
-			"r8 D5",
-			"lg btn-outline-dark itm py-0 my-0",
-			"r8 D5",
-			"btn-sm btn-outline-dark itm",
-			"r8 D5",
-			" btn-lg btn-outline-dark itm",
-			"$(\"#marg\").height($(\"#wahl\").innerHeight() * 2.5);",
-			"r8 D5",
-			".alert",
-			"37",
-			"7",
-			"iks",
-			"r5 G1",
-			" btn-lg btn-outline-dark itm px-2",
-			"r5 G1",
-			"btn-lg btn-outline-dark itm px-3",
-			"r5 G1",
-			"btn-outline-dark itm px-2",
-			"r5 G1",
-			"btn-outline-dark itm",
-			"r5 G1",
-			" btn-lg btn-outline-dark itm",
-			"r5 G1",
-			"btn-outline-dark itm",
-			"r5 G1",
-			" btn-lg btn-outline-dark itm px-2",
-			"r5 G1",
-			" btn-lg btn-outline-dark itm",
-			"btn-outline-dark itm px-2 so",
-			"outline-dark itm px-2 so\" id=\"",
-			"btn-md btn-outline-dark itm px-2",
-			"r5 G1",
-			"btn-lg btn-outline-dark itm",
-			"mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm",
-			"r5 G1",
-			"r4 D2",
-			"r4 A3",
-			"Schwiegermutter",
-			"mann",
-			"r3 D5",
-			"so btn btn-outline-primary btn-sm mr-1",
-			"Schwiegertochter",
-			"so btn btn-outline-primary btn-sm mr-1",
-			"so btn btn-outline-primar btn-sm mr-1y",
-			"<button type=\"button\" id=\"",
-			"my-1 text-center",
-			"r3 D5",
+			":",
+			"kr",
+			"ko_kr",
+			":",
+			".fas",
 			".ab-icon",
-			"naver.com",
-			"gmail.com",
-			" 선택",
-			"—알 수 없음",
-			"편집 | 삭제 | 보기 | Capabilities | Activate",
-			".po",
-			".pdf",
-			"></",
-			"\\",
-			"password",
-			"<button type=\"button\" id=\"",
-			"button type=\"button\" id=\"100\"",
-			"button type=\"button\" id=\"",
-			"<th scope=\"row\"><button type=\"button\" id=\"",
-			"align-center",
-			"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 my-0 mt-5",
-			"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-0 mt-5",
-			"(ein)hundert",
-			"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-0",
-			"col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4 my-0",
-			"btn-lg btn-outline-dark so itm\" id=\"",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm\" id=\"",
-			"col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4 my-0",
-			"<th scope=\"row\"><button type=\"button\" id=\"",
-			"8080",
-			"7070",
-			"8080",
-			"40M",
-			"form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center",
-			"col-6",
-			"text-lowercase",
-			"text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1",
-			"text-lowercase form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0",
-			"id=\"qst-",
-			"width=\"50\" class=\"border-0 align-middle\"",
-			"<th width=\"50\" class=\"border-0 align-middle\"",
-			"position: relative; top: -6px;",
-			"border border-dark border-left-0 border-top-0 border-right-0 rounded-0 px-",
-			"border border-dark border-left-0 border-top-0 border-right-0 rounded-0 px-2 py-1 mx-1",
-			"border-0 align-middle",
-			"col-6 p-2 border border-dark rounded text-center",
-			"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-			"border border-dark border-left-0 border-top-0 border-right-0 rounded-0 px-2 py-1 mx-1",
-			"=\"./images/Reihe 8/Reihe-8-",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3\" id=\"",
-			"<div class=\"itm-lst 1itm\" id=\"lst-",
-			"\",\"",
-			",",
-			"7/Reihe-7-A0",
-			"text-center form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-1"
+			", ",
+			"putenv",
+			"put",
+			":",
+			":\n  ",
+			":",
+			"csfp19-00022 ",
+			"$",
+			"Google Fonts Typography",
+			"description",
+			"Refers to colors used in the Customizer for the blog palette, e.g. “Accent Color One”; “Accent Color Two”",
+			"Options for getting access to the account if the password is forgotten. More info: http://en.support.wordpress.com/account-recovery/",
+			"Automated email sent when registering a new address with WordPress.com",
+			"Alternative naming option for No Ads. More info: http://en.support.wordpress.com/no-ads/",
+			"Feature to connect email hosted with another provider. More info: http://en.support.wordpress.com/domains/add-email/",
+			"The most powerful user role on a WordPress site. More info: http://en.support.wordpress.com/user-roles/",
+			"Language checker (software name). Normally do not translate. http://afterthedeadline.com/",
+			"A top-level menu item in WordPress dashboard. Includes Themes, Customizer, Widgets, Menus, Header, Background, etc.",
+			"No singular. Older (vs. Most recent) posts on a blog. Archives can be displayed by month, by category, by tag, etc.",
+			"Development term",
+			"Could refer to either pages or posts, depending on the theme.",
+			"No plural. Post format type, displays as a short status update. To see more examples of post formats: http://en.support.wordpress.com/themes/post-formats/",
+			"Audio files embedded on a blog. More info: http://en.support.wordpress.com/audio/",
+			"Author of contents such as posts and pages",
+			"Author of plugins and themes",
+			"An image or picture that represents a user.",
+			"Back image or color of a blog. More info: http://en.support.wordpress.com/themes/custom-backgrounds/",
+			"Pattern used for the blog theme background",
+			"Codes used for account recovery. More info: http://en.support.wordpress.com/security/two-step-authentication/#backup-codes",
+			"A term we came up with by combining Blog and Avatar. Your blog’s avatar, used as a favicon or in browser bookmarks. More info: http://support.wordpress.com/avatars/#what-is-a-blavatar",
+			"A type of website that is sometimes compared to online journaling. Blogs come in many varieties, but most incorporate an interactive element such as comments and are comprised of posts, rather than static pages.",
+			"URL where a blog can be found, e.g. Example.wordpress.com or example.com",
+			"See “post”. A longer way to refer to a blog's posts",
+			"A web browser is the software used to access the web. Common browsers include Google Chrome, Apple Safari, Mozilla Firefox, and Internet Explorer.",
+			"WordPress.org plugin - http://buddypress.org/",
+			"Legacy term for \"plan\". More info: http://store.wordpress.com/bundles/",
+			"Purchase of a premium plan (sometimes also called “bundle”), e.g. WordPress.com Premium or WordPress.com Business",
+			"Refers to button on the screen that the user is expected/directed to click",
+			"Used to group posts of similar content together to aid in the navigation of a site. More info: http://support.wordpress.com/posts/categories/",
+			"Type of a DNS record. More info: http://en.support.wordpress.com/domains/setting-custom-a-records/#adding-www-to-your-domain",
+			"A reply left by visitors to your site on a blog post or page. Comments are typically left in response to the blog owner’s post and generate discussion on the site. More info: http://support.wordpress.com/comments/",
+			"A form that allows others contact the site owner without knowing the email address. More info: http://en.support.wordpress.com/contact-form/",
+			"Where the main blog content is displayed. Context: “Content Area Background”",
+			"Browser cookie",
+			"Part of the Custom Design upgrade, allows users to customize the color palette of their sites. More info: http://en.support.wordpress.com/custom-design/custom-colors/",
+			"Part of the Custom Design upgrade, allows users to edit and add custom CSS on their site. More info: http://en.support.wordpress.com/custom-design/custom-css/",
+			"An address like example.com or example.ru, as opposed to example.wordpress.com. More info: http://store.wordpress.com/premium-upgrades/custom-domains/",
+			"Part of the Custom Design upgrade, allows users to add Typekit fonts to their site. More info: http://en.support.wordpress.com/custom-design/custom-fonts/",
+			"A feature that allows users to customize and preview any theme before activating the changes. More info: http://en.support.wordpress.com/customizer/",
+			"Your Dashboard is the administrative center for your blog. Via your Dashboard, you can create new posts, change your theme, or update your blog settings.",
+			"A full-screen editing mode, more info: http://en.support.wordpress.com/distraction-free-writing/",
+			"Settings that specify how a domain works. More info: http://en.support.wordpress.com/domains/custom-dns/",
+			"WordPress.com premium upgrade, allows user to change from e.g. yourgroovysite.wordpress.com to yourgroovydomain.com. More info:  http://en.support.wordpress.com/domains/",
+			"A domain name is a name used for identification purposes on the Internet. An example of a domain name is yoursite.com.",
+			"Editing tool (e.g. visual editor, theme editor, plugin editor).",
+			"User role group. More info: http://en.support.wordpress.com/user-roles/#editor",
+			"Describes the inbox that email messages are sent to. An example is myname@gmail.com.",
+			"A shortened description of your blog post. More info: http://support.wordpress.com/splitting-content/excerpts/",
+			"Upgrade that adds more storage space to the user's blog. More info: http://en.support.wordpress.com/space-upgrade/",
+			"Social media service - http://facebook.com/",
+			"The tiny image that usually shows up in the browser address bar when visiting a site. See also Blavatar",
+			"WordPress development term",
+			"Context: “Thanks for flying with WordPress!”, humorous reference to airlines",
+			"The process of subscribing to updates (in the Reader or via email) when a blog publishes new content. More info: http://en.support.wordpress.com/following/",
+			"A person who receives updates or notifications when a blog publishes new content. More info: http://en.support.wordpress.com/followers/",
+			"Status, as in \"you are already following this blog\". More info: http://en.support.wordpress.com/followers/",
+			"The area below the main post or page content which usually includes information such as copyright notices, the theme, and hosting information.",
+			"A time period when a normally paid upgrade can be used on a blog for free",
+			". Editorial picks from WordPress.com, updated daily: https://wordpress.com/fresh/",
+			"\n            <term>최근에 등록된 글</term>\n            <admin type=\"customerSubset\">. Editorial picks from WordPress.com, updated daily: https://wordpress.com/fresh/</admin>\n          ",
+			"A collection of images attached to a post. Also refers to the collection itself within the Media Library as well as the images as displayed within a post or page, typically as a series of thumbnails. More info: http://support.wordpress.com/images/gallery/",
+			"An image or picture that represents a user. More info: http://support.wordpress.com/avatars/#what-is-a-gravatar",
+			"Image and personal information a user chooses to associate and share. Example of a Gravatar profile: gravatar.com/matt",
+			"A paid service to have a WordPress.com blog manually transferred to another provider. More info: http://en.support.wordpress.com/guided-transfer/",
+			"Humorous term for \"not spam\". Suggest translating as \"not spam\" to avoid confusion.",
+			"The home for your self-hosted WordPress site. Also known as hosting provider.",
+			"See host",
+			"e.g. hover the mouse",
+			"e.g. link hover - additional changes to the original string might be needed.",
+			"Often used on WordPress.com instead of Hello.",
+			"An email notification that is sent as soon as a comment is posted on the blog being followed.",
+			"An email notification that is sent as soon as a post is posted on the blog being followed.",
+			"The organization that oversees all domain name registrations. More info: https://www.icann.org/",
+			"A unique numerical address (e.g., 12.34.56.789) assigned to a computer, website, or web server.",
+			"WordPress.org plugin - http://jetpack.me/",
+			"Plugin feature that alerts the owner about a site's downtime. More info: http://jetpack.me/support/monitor/",
+			"A word that describes the content of your website or blog.",
+			"In the context of liking a blog post",
+			"A way for people to show their appreciation for posts they come across on WordPress.com. It’s also a way for authors to show the world how popular their content has become.",
+			"Embedded online chat (way to provide customer support). More info: http://en.support.wordpress.com/live-chat/",
+			"Manage comments, for example approve or mark as spam. More info: http://en.support.wordpress.com/manage-comments/",
+			"Custom DNS records that guide where email is sent.",
+			"Refers to the dashboard menu item under Store. More info: http://en.support.wordpress.com/my-upgrades/",
+			"A remote computer that automatically takes your domain name and turns it into an internet address known as an IP address.",
+			"Upgrade that removes ads from the user's WordPress.com blog. More info: http://en.support.wordpress.com/no-ads/",
+			"광고 없음",
+			"As opposed to “search engines”, human visitors who access the blog given the link. Context is privacy settings: http://en.support.wordpress.com/settings/privacy-settings/",
+			"For sticky post status",
+			"Pop-up or email messages displaying latest events on the site. More info: More info: http://en.support.wordpress.com/followers/",
+			"Product name; blog search that searches across the blog's posts, pages, comments, and feedback. More info: http://en.support.wordpress.com/omnisearch/",
+			"Used to present static information about yourself or your site, and which may make up the content of your navigation menu. A good example of a Page is your “About me” page. Pages do not usually have dates or authors attached to them.",
+			"A unique URL, or site address, for a specific page or post on your site. For example, support.wordpress.com/lexicon",
+			"As in Basic/Premium/Business Plan, type of WordPress.com blog. More info: http://store.wordpress.com/bundles/",
+			"Online survey tool - https://polldaddy.com/",
+			"When referring to blog posts",
+			"In other contexts with a more generic meaning",
+			"A goal of certain number of posts in a time period",
+			"A service you can purchase from WordPress.com to get premium features. More info: http://en.support.wordpress.com/upgrades/",
+			"If you'd like to emphasize changes aren't being saved, you can use prévia",
+			"The main domain (site address) that visitors will see when visiting the site.",
+			" - Privacy Protection",
+			"Same as “Privacy Protection”",
+			"WordPress.com tool name",
+			"A person reading the blog.",
+			"The part of WordPress.com where the user reads updates from other blogs, specifically http://en.support.wordpress.com/reader/ (also available on mobile devices)",
+			"A way to share posts published by other WordPress.com users on your own blog. More info: http://en.support.wordpress.com/reblogs/",
+			"A post reblogged on another user's blog. More info: http://en.support.wordpress.com/reblogs/",
+			"Alternative naming option for Site Redirect. More info: http://en.support.wordpress.com/site-redirect/",
+			"A blog, web site, or a search engine linking to the user's blog. More info: http://en.support.wordpress.com/stats/#referrers",
+			"A policy specifying when a product can be canceled for a refund",
+			"An organization or commercial entity that manages the reservation of Internet domain names",
+			"Refers to responsive design, where sites have an optimal viewing experience - with easy reading and navigation with a minimum of resizing, panning, and scrolling - across a wide range of devices (from mobile phones to desktop computer monitors)."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1266,10 +1230,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"/",
-			"7070",
-			"\"\n\"",
-			"\n",
 			";",
 			"\n",
 			";",
@@ -1393,7 +1353,11 @@
 			"2b0052",
 			"221, 184, 255",
 			"e6ccff",
-			"450085"
+			"450085",
+			"6200bf",
+			"150, 38, 255",
+			"6900cc",
+			"7000d9"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1409,30 +1373,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "r2-D3.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15771,
+						"buffer_size": 1,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8311,
-								8311
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
+							"SL.13.region_keys":
 							[
 							],
-							"SL.20.region_keys":
-							[
-							],
-							"auto_complete": false,
+							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -1448,235 +1408,50 @@
 								},
 								"unmatched":
 								{
-									"1":
-									[
-										10235,
-										10236
-									]
 								}
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										10235,
-										10236
-									]
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"incomplete_sync": null,
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2687.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "r2-Grammatik und Wendungen.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15948,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14064,
-								14064
-							]
-						],
-						"settings":
-						{
-							"SL.15.region_keys":
-							[
-							],
-							"SL.66.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										13986,
-										13987
-									]
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1687,62 +1462,22 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_single_quote_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										14057,
-										14063
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										14022,
-										14028
-									]
 								},
 								"unmatched":
 								{
@@ -1750,488 +1485,68 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"incomplete_sync": null,
 							"is_init_dirty_state": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 833.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "r2-E4.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 51223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41515,
-								41515
-							]
-						],
-						"settings":
-						{
-							"SL.16.region_keys":
-							[
-							],
-							"SL.22.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										41689,
-										41690
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										41362,
-										41363
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										41689,
-										41690
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										41362,
-										41363
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"incomplete_sync": null,
-							"is_init_dirty_state": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 15407.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "r0-Alphabet.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23408,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20490,
-								20490
-							]
-						],
-						"settings":
-						{
-							"SL.19.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 19,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										20492,
-										20493
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/square_bracket.png",
-										"region.bluish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										20480,
-										20481
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 9248.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -2257,12 +1572,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -2273,7 +1582,6 @@
 		"rows":
 		[
 			0.0,
-			0.5,
 			1.0
 		]
 	},
@@ -2376,7 +1684,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

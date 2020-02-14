@@ -2,6 +2,9 @@
 	<body>
 <?php include "nav.php"; ?>
 <?php if(ul()) { ?>
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 
 <section>
 	<div class="container">
@@ -12,7 +15,7 @@
 						<div class="card-header" id="heading1">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
-									<strong>W-Fragen und Antworten</strong> <small>W-의문사와 대답</small>
+									<strong>F1. W-Fragen und Antworten</strong> <small>W-의문사와 대답</small>
 								</button>
 							</h5>
 						</div>
@@ -41,7 +44,7 @@
 						<div class="card-header" id="heading2">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
-									<strong>Ja / Nein Fragen und Antworten</strong> <small>“예”, “아니요”로 시작하는 의문문과 대답</small>
+									<strong>F2. Ja / Nein - Fragen und Antworten</strong> <small>예/아니요-질문</small>
 								</button>
 							</h5>
 						</div>
@@ -52,16 +55,16 @@
 									<th class="bg-light" scope="col">반응</th>
 								</tr>
 								<tr>
-									<th class="bg-light" scope="row"><strong>Kommen</strong> Sie aus Japan?</th>
-									<td>Ja(Nein), ich komme *(nicht) aus Japan.</td>
+									<td class="bg-light" scope="row"><strong>Kommen</strong> Sie aus Japan?</th>
+									<td><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</td>
 								</tr>
 								<tr>
-									<th scope="row"><strong>Wohnen</strong> Sie in Seoul?</th>
-									<td class="bg-light">Ja(Nein), ich wohne *(nicht) in Seoul.</td>
+									<td scope="row"><strong>Wohnen</strong> Sie in Seoul?</th>
+									<td class="bg-light"><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</td>
 								</tr>
 								<tr>
-									<th class="bg-light" scope="row"><strong>Liegt</strong> Frankreich in Europa?</th>
-									<td>Ja, es liegt in Europa.</td>
+									<td class="bg-light" scope="row"><strong>Liegt</strong> Frankreich in Europa?</th>
+									<td><strong>Ja</strong>, es liegt in Europa.</td>
 								</tr>
 								<tr>
 									<th scope="row" colspan="2" class="text-right">* nicht<small>는 부정어로서 영어의 </small>not<small>을 의미한다</small>.</th>
@@ -73,7 +76,7 @@
 						<div class="card-header" id="heading3">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
-									<strong>Verbkonjugation</strong> <small>동사변화</small>
+									<strong>F3. Verbkonjugation</strong> <small>동사변화</small>
 								</button>
 							</h5>
 						</div>
@@ -125,7 +128,7 @@
 						<div class="card-header" id="heading4">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
-									<strong>Wortstellung</strong> <small>어순</small>
+									<strong>F4. Wortstellung</strong> <small>어순</small>
 								</button>
 							</h5>
 						</div>
@@ -166,7 +169,7 @@
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-purple mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
-									<strong>Redewendungen</strong> <small>어휘와 숙어</small>
+									<strong>F5. Redewendungen</strong> <small>어휘와 숙어</small>
 								</button>
 							</h5>
 						</div>
@@ -207,7 +210,7 @@
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich wohne in Busan.</td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Wo wohnst du?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wo wohnst du?</td>
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich wohne in Busan.</td>
 									</tr>
 									<tr>
@@ -265,13 +268,100 @@
 	</div>
 </section>
 
-		
+
+<div id="last" class="d-none"></div>
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-<? } ?>
+		<script src="./js/howler.core.js"></script>
+		<script>
+			// 소리 출력 전역 변수와 함수
+			var sen = new Array(), pa = new Array(), he = new Array(), last;
+			$(".so").each(function() {
+				var t = $(this);
+				var ti = t.attr("id");
+				sen[ti] = 0;
+				pa[ti] = t.html();
+				he[ti] = t.height();
+			});
+
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				});
+			}
+
+			var nagehts = new Howl({
+				src: ["./sounds/Reihe 1/r1 H.mp3"],
+				// src: ["./sounds/Reihe 2/r2 F.mp3"],
+				sprite : {
+					"1": [0, 13655],
+					"2": [4545, 2754],
+					"3": [6614, 3208],
+					"4": [9460, 4121],
+					"5": [13192, 18439],
+					"6": [18550, 3123],
+					"7": [20767, 4306],
+					"8": [24389, 3695],
+					"9": [27789, 4323]
+				},
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				},
+				onload: function() {
+					// 음성 준비되면 HV 버튼 나타내기 
+					$("#whole").show();
+					$("#alt").hide();
+					// $(".alert").hide();
+
+					$(".so").on("click", function(idx) {
+							var t = $(this);
+							var ti = t.attr("id");
+
+						if($("div#last").text() == "" || t.text() == "❚❚") {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ti]++;
+				
+							last = ti;
+				
+							$("#cnt-"+ti).text(sen[ti]);
+						} else if(last == ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ti]);
+							nagehts.pause();
+							sen[ti]--;
+							$("#cnt-"+ti).text(sen[ti]);
+						}
+
+					});
+				},
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(sen[last] == 2) {
+						$("#"+last).find(".tran").show();
+					}
+				}
+
+
+			});
+
+
+	
+	</script>
+	<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

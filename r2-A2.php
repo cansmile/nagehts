@@ -162,23 +162,6 @@
 				</div>
 			</div>
 			<!-- 정답확인 버튼 끝 -->
-			<div class="row text-center">
-				<div class="col-12">
-					<table class="table text-center">
-						<thead>
-							<th scope="col">
-								<span class="p-1 px-2 m-1 bg-lime rounded font-weight-bold">TIPP</span>
-								Nach-(Familien)namen (Herr / Frau)
-							</th>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Müller Bauer Wecker Schneider Koch Schmidt Schumacher</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
 		</div>
 	</section>
 	
@@ -225,7 +208,7 @@
 							"12": [35.5, 1.5],
 							"13": [41.9, 3.2],
 							"14": [48, 2.3],
-							"15": [52.1, 1.5],
+							"15": [52.1, 1.6],
 							"16": [55.5, 2],
 							"17": [10.1, 12],
 							"18": [26.8, 10.8],
@@ -364,9 +347,36 @@
 								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
 							}
 							);
-							$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
-							$(this).removeClass("btn-light");
-							$(this).addClass("btn-primary");
+
+							// 정답 확인 div 상자 배경색 속성 없애기
+							$(this).removeClass("btn-light ");
+
+							var qa = $(".itm-lst").length; // 전체 문항 수
+							var qr = $(".bg-success").length; // 맞춘 항목 수
+							var pe = (qr / qa) * 100; // 정답 비율
+							var tcl = "white"; // 기본 문자색
+
+							// 분류 기준은 100%, 80%, 60%, 40%
+							if(pe > 99) {
+								var st = "원어민이세요?";
+								var cl = "lime";
+								var tcl = "dark";
+							} else if(pe > 79) {
+								var st = "어! 좀 하시는데요~^^";
+								var cl = "success";
+							} else if(pe > 59) {
+								var st = "쓰읍~ 다시 해 보실까요";
+								var cl = "primary";
+							} else {
+								var st = "좀 더 분발해 주세요";
+								var cl = "danger";
+							}
+
+							$(this).addClass("btn-" + cl + " text-" + tcl);
+							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
+							$(this).attr("id","done");
+
 							$(".tran").show();
 							$(".itm-lst").hide();
 						}

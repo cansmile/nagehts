@@ -11,7 +11,7 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Hören Sie und sprechen Sie Nach.<br>
-					<small>듣고 따라하세요.</small>
+					<small>듣고 알맞은 단어를 선택하세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
@@ -32,7 +32,17 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
-								<td>Das ist meine Familie.<span class="tran"><br><small>우리 가족이야.</small></span></td>
+								<td><span class="sen">Das ist<span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-1">
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+												<input type="radio" name="options" id="option3" autocomplete="off">mein
+											</div>
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답">
+												<input type="radio" name="options" id="option4" autocomplete="off">meine
+											</div>
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+												<input type="radio" name="options" id="option4" autocomplete="off">meinen
+											</div>
+										</div> Familie.<span class="ans"></span><span class="tran"><br><small>우리 가족이야.</small></span></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="3" class="so btn btn-outline-danger">▶</button></td>
@@ -40,7 +50,17 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ich habe einen Vater, eine Mutter und viele Geschwister.<span class="tran"><br><small>아버지, 어머니 그리고 많은 형제자매가 있어.</small></span></td>
+								<td><span class="sen">Ich habe einen Vater,<span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-2">
+												<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+													<input type="radio" name="options" id="option3" autocomplete="off">ein
+												</div>
+												<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답">
+													<input type="radio" name="options" id="option4" autocomplete="off">eine
+												</div>
+												<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+													<input type="radio" name="options" id="option4" autocomplete="off">einen
+												</div>
+											</div> Mutter und viele Geschwister.<span class="ans"></span><span class="tran"><br><small>아버지, 어머니 그리고 많은 형제자매가 있어.</small></span></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-primary">▶</button></td>
@@ -56,7 +76,17 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="8" class="so btn btn-outline-primary">▶</button></td>
-								<td>Ich habe eine Schwester und einen Bruder.<span class="tran"><br><small>누나와 형이 있어.</small></span></td>
+								<td><span class="sen">Ich habe eine<span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-3">
+													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option3" autocomplete="off">ein
+													</div>
+													<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답">
+														<input type="radio" name="options" id="option4" autocomplete="off">eine
+													</div>
+													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">einen
+													</div>
+												</div> und einen Bruder.<span class="ans"></span><span class="tran"><br><small>누나와 형이 있어.</small></span></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="9" class="so btn btn-outline-primary">▶</button></td>
@@ -68,7 +98,17 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="11" class="so btn btn-outline-danger">▶</button></td>
-								<td>Ah, das ist mein Schwager.<span class="tran"><br><small>아, 매형이세요.</small></span></td>
+								<td><span class="sen">Ah, das ist<span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-4">
+													<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option3" autocomplete="off">mein
+													</div>
+													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">meine
+													</div>
+													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">meinen
+													</div>
+												</div> Schwager.<span class="ans"></span>span class="tran"><br><small>아, 매형이세요.</small></span></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="12" class="so btn btn-outline-danger">▶</button></td>
@@ -78,6 +118,13 @@
 					</table>
 				</div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 					<table class="table">
@@ -152,118 +199,7 @@
 		var an=new Array();
 		var an=["24", "22"];
 		$(document).ready(function() {
-			$(".q").on("keyup", function () {
-				var q=$(this).val().length;
-				var qn=($(this).attr("id").substr(4))-1;
-				var a=$(this).val();
-				var b=an[qn].substr(0, q);
-				a=a.replace(/ /gi, "");
-				b=b.replace(/ /gi, "");
-				$(this).removeClass("bg-danger");
-				$(this).removeClass("bg-success");
-				if(a==b) {
-					$(this).addClass("text-white text-weight-bold");
-					$(this).addClass("bg-success");
-				}
-				else {
-					if((qn+1)==1) {
-						b="vierundzwanzig";
-						b=b.substr(0, q);
-						b=b.replace(/ /gi, "");
-						if(a==b) {
-							$(this).addClass("bg-success");
-							$(this).addClass("text-white text-weight-bold");
-						}
-						else {
-							$(this).addClass("text-white text-weight-bold");
-							$(this).addClass("bg-danger");
-						}
-					}
-					else if((qn+1)==2) {
-						b="zweiundzwanzig";
-						b=b.substr(0, q);
-						b=b.replace(/ /gi, "");
-						if(a==b) {
-							$(this).addClass("bg-success");
-							$(this).addClass("text-white text-weight-bold");
-						}
-						else {
-							$(this).addClass("text-white text-weight-bold");
-							$(this).addClass("bg-danger");
-						}
-					}
-					else {
-						$(this).addClass("text-white text-weight-bold");
-						$(this).addClass("bg-danger");
-					}
-				}
-				if( !$(this).val()) {
-					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
-					$(this).removeClass("text-white text-weight-bold");
-				}
-			}
-			);
-			$(".q").on("focusout", function() {
-				var qn=($(this).attr("id").substr(4))-1;
-				var a=an[qn];
-				var b=$(this).val();
-				if(a==b) {
-					$(this).addClass("bg-success");
-					$(this).prop("disabled", true);
-					$(this).addClass("text-weight-bold");
-					$(this).closest("tr").find(".tran").show();
-					$(this).closest("tr").find(".ant").show();
-				}
-				else {
-					if((qn+1)==1) {
-						a="vierundzwanzig";
-						if(a==b) {
-							$(this).addClass("bg-success");
-							$(this).prop("disabled", true);
-							$(this).addClass("text-weight-bold");
-							$(this).closest("tr").find(".tran").show();
-							$(this).closest("tr").find(".ant").show();
-							$(this).closest("tr").find(".ant").text("스물네");
-						}
-						else {
-							$(this).addClass("bg-danger");
-						}
-					}
-					else if((qn+1)==2) {
-						a="zweiundzwanzig";
-						if(a==b) {
-							$(this).addClass("bg-success");
-							$(this).prop("disabled", true);
-							$(this).addClass("text-weight-bold");
-							$(this).closest("tr").find(".tran").show();
-							$(this).closest("tr").find(".ant").show();
-							$(this).closest("tr").find(".ant").text("스물두");
-						}
-						else {
-							$(this).addClass("bg-danger");
-						}
-					}
-					else {
-						$(this).addClass("bg-danger");
-					}
-				}
-				if($(this).val()) {
-					if($(this).hasClass("bg-danger")) {
-						ion.sound.play("Cartoon_Boing");
-					}
-					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("dingdongdang");
-					}
-				}
-				$(this).removeClass("text-white text-weight-bold");
-				$(this).removeClass("bg-danger");
-				$(this).removeClass("bg-success");
-				if($("input:disabled").length==$(".q").length) {
-					$("input:disabled").addClass("bg-success text-white");
-				}
-			}
-			) // 각 문장 재생 횟수 초기화
+			// 각 문장 재생 횟수 초기화
 			var hm=new Array(), sen=new Array();
 			for(i=0;
 			i < $(".so").length;
@@ -402,6 +338,78 @@
 						;
 					}
 					);
+
+					// 정답확인
+					$("#chk").on("click", function() {
+						if ($(".an").length < $(".q").length) {
+							var na = "";
+							$(".q").each(function() {
+								if (!$(this).find("div").hasClass("an")) {
+									if (na != "") {
+										na += ", ";
+									}
+									na += $(this).attr("id").substr(-1);
+								};
+							});
+
+							alert("모든 문제를 풀어주세요.");
+							// alert(na + "번 문제를 풀어주세요.");
+						} else {
+							$(".pop").each(function() {
+								$(this).removeClass("btn-info");
+
+								if ($(this).hasClass("o") && $(this).hasClass("an")) {
+									$(this).removeClass("btn-warning");
+									$(this).addClass("btn-success");
+									$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
+									$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+								} else if ($(this).hasClass("o")) {
+									$(this).addClass("btn-<?php echo($color); ?>");
+									$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
+									$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
+									$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");
+								} else if ($(this).hasClass("an")) {
+									$(this).addClass("btn-warning");
+									$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+								} else {
+									$(this).addClass("btn-light");
+								};
+								$(this).remove();
+							});
+							$(".tran").show();
+							$(".nu").show();
+							$(".q").hide();
+
+							// 정답 확인 div 상자 배경색 속성 없애기
+							$(this).removeClass("btn-light ");
+
+							var qa = $(".q").length; // 전체 문항 수
+							var qr = $(".bg-success").length; // 맞춘 항목 수
+							var pe = (qr / qa) * 100; // 정답 비율
+							var tcl = "white"; // 기본 문자색
+
+							// 분류 기준은 100%, 80%, 60%, 40%
+							if(pe > 99) {
+								var st = "원어민이세요?";
+								var cl = "lime";
+								var tcl = "dark";
+							} else if(pe > 79) {
+								var st = "어! 좀 하시는데요~^^";
+								var cl = "success";
+							} else if(pe > 59) {
+								var st = "쓰읍~ 다시 해 보실까요";
+								var cl = "primary";
+							} else {
+								var st = "좀 더 분발해 주세요";
+								var cl = "danger";
+							}
+
+							$(this).addClass("btn-" + cl + " text-" + tcl);
+							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+							
+						};
+					});
+
 					$("#0").show();
 					$(".alert").hide();
 				}

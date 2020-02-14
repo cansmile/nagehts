@@ -43,9 +43,8 @@
 								<td>
 									<div class="ant" id="ant-1"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-1">
-										<div class="input-group-append"><span class="input-group-text"> Küche ist komplett.</span>
-									</div>
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-1" style="position: relative; top: -6px;">
+										Küche ist komplett.
 									</div><span class="tran"><br><small>이 부엌은 완비되어 있습니다.</small></span>
 								</td>
 							</tr>
@@ -54,9 +53,8 @@
 								<td>
 									<div class="ant" id="ant-2"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-2">
-										<div class="input-group-append"><span class="input-group-text"> kostet 999 Euro.</span>
-									</div>
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-2" style="position: relative; top: -6px;">
+										kostet 999 Euro.
 									</div><span class="tran"><br><small>가격은 999 유로입니다.</small></span>
 								</td>
 							</tr>
@@ -65,10 +63,9 @@
 								<td>
 									<div class="ant" id="ant-3"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text">Sie ist eine </span></div>
-										<input type="text" class="form-control q" aria-label="." id="qst-3">
-										<div class="input-group-append"><span class="input-group-text">Küche.</span>
-									</div>
+										Sie ist eine
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-3" style="position: relative; top: -6px;">
+										Küche.
 									</div><span class="tran"><br><small>이것은 완비된 부엌입니다.</small></span>
 								</td>
 							</tr>
@@ -86,9 +83,9 @@
 								<td>
 									<div class="ant" id="ant-4"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text">Das ist </span></div>
-										<input type="text" class="form-control q" aria-label="." id="qst-4">
-										<div class="input-group-append"><span class="input-group-text"> Wohnzimmer.</span></div>
+										Das ist
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-4" style="position: relative; top: -6px;">
+										Wohnzimmer.
 										</div><span class="tran"><br><small>이것은 거실입니다</small></span>
 									</td>
 								</tr>
@@ -97,10 +94,9 @@
 									<td>
 										<div class="ant" id="ant-5"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text">Das </span></div>
-											<input type="text" class="form-control q" aria-label="." id="qst-5">
-											<div class="input-group-append"><span class="input-group-text"> ist ein Designer-Tisch.</span>
-										</div>
+											Das
+											<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-5" style="position: relative; top: -6px;">
+											ist ein Designer-Tisch.
 										</div><span class="tran"><br><small>여기 이것은 디자이너 테이블입니다.</small></span>
 									</td>
 								</tr>
@@ -109,8 +105,8 @@
 									<td>
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-6">
-											<div class="input-group-append"><span class="input-group-text"> Designer-Tisch ist bildschön.</span></div>
+											<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-6" style="position: relative; top: -6px;">
+											Designer-Tisch ist bildschön.
 										</div>
 										<span class="tran"><br><small>이 디자이너 테이블은 아름답습니다.</small></span>
 									</td>
@@ -120,9 +116,8 @@
 									<td>
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
-											<input type="text" class="form-control q" aria-label="." id="qst-7">
-											<div class="input-group-append"><span class="input-group-text"> kostet 599 Euro.</span>
-										</div>
+											<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-7" style="position: relative; top: -6px;">
+											kostet 599 Euro.
 										</div><span class="tran"><br><small>가격은 599 유로입니다.</small></span>
 									</td>
 								</tr>
@@ -131,9 +126,9 @@
 									<td>
 										<div class="ant" id="ant-8"></div>
 										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text pr-0">Er ist ein bildschön</span></div>
-											<input type="text" class="form-control q pl-0" aria-label="." id="qst-8">
-											<div class="input-group-append"><span class="input-group-text"> Tisch.</span></div>
+											Er ist ein bildschön
+											<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1 pl-0" aria-label="." id="qst-8" style="position: relative; top: -6px;">
+											Tisch.
 										</div><span class="tran"><br><small>그것은 아름다운 테이블입니다.
 									</small></span>
 								</td>
@@ -152,10 +147,9 @@
 								<td>
 									<div class="ant" id="ant-9"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text">Das ist </span></div>
-										<input type="text" class="form-control q" aria-label="." id="qst-9">
-										<div class="input-group-append"><span class="input-group-text"> Schlafzimmer.</span>
-									</div>
+										Das ist
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-9" style="position: relative; top: -6px;">
+										Schlafzimmer.
 									</div><span class="tran"><br><small>이것은 침실입니다.</small></span>
 								</td>
 							</tr>
@@ -164,10 +158,9 @@
 								<td>
 									<div class="ant" id="ant-10"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text">Das da ist </span></div>
-										<input type="text" class="form-control q" aria-label="." id="qst-10">
-										<div class="input-group-append"><span class="input-group-text"> Bett.</span>
-									</div>
+										Das da ist
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-10" style="position: relative; top: -6px;">
+										Bett.
 									</div><span class="tran"><br><small>여기 이것은 침대입니다.</small></span>
 								</td>
 							</tr>
@@ -176,9 +169,8 @@
 								<td>
 									<div class="ant" id="ant-11"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-11">
-										<div class="input-group-append"><span class="input-group-text"> Bett ist originell.</span>
-									</div>
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-11" style="position: relative; top: -6px;">
+										Bett ist originell.
 									</div><span class="tran"><br><small>이 침대는 독창적입니다.</small></span>
 								</td>
 							</tr>
@@ -187,9 +179,8 @@
 								<td>
 									<div class="ant" id="ant-12"></div>
 									<div class="input-group">
-										<input type="text" class="form-control q" aria-label="." id="qst-12">
-										<div class="input-group-append"><span class="input-group-text"> ist 499 Euro.</span>
-									</div>
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1" aria-label="." id="qst-12" style="position: relative; top: -6px;">
+										ist 499 Euro.
 									</div><span class="tran"><br><small>가격은 499 유로입니다.</small></span>
 								</td>
 							</tr>
@@ -198,10 +189,9 @@
 								<td>
 									<div class="ant" id="ant-13"></div>
 									<div class="input-group">
-										<div class="input-group-prepend"><span class="input-group-text pr-0">Es ist ein originell</span></div>
-										<input type="text" class="form-control q pl-0" aria-label="." id="qst-13">
-										<div class="input-group-append"><span class="input-group-text"> Bett.</span>
-									</div>
+										Es ist ein originell
+										<input type="text" class="form-control q border border-left-0 border border-right-0 border-top-0 rounded-0 mx-1 pl-0" aria-label="." id="qst-13" style="position: relative; top: -6px;">
+										Bett.
 									</div><span class="tran"><br><small>그것은 독창적인 침대입니다.</small></span>
 								</td>
 							</tr>
@@ -348,58 +338,78 @@
 			)
 			/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 			$("#chk").on("click", function() {
-				var na="";
-				var ri=0;
-				var qst=$(".q").length;
-				$(".q").each(function () {
-					if(na !="") {
-						na +=", ";
-					}
-					if($(this).val()=="") {
-						na +=$(this).attr("id").substr(4, 1);
-					}
-				}
-				);
-				if($(this).attr("id")=="done") {}
-				else if(na=="") {
-					for(var i=0;
-					i < an.length;
-					i++) {
-						var oran=$("#qst-"+(i+1)).val();
-						if(rfchk($("#qst-"+(i+1)), true)) {
-							$("#qst-"+(i+1)).addClass("bg-success text-white");
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
+						}
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+
+
+								// 정답 확인 div 상자 배경색 속성 없애기
+								$(this).removeClass("btn-light ");
+
+							var qa = $(".q").length; // 전체 문항 수
+								var qr = $(".bg-success").length; // 맞춘 항목 수
+								var pe = (qr / qa) * 100; // 정답 비율
+								var tcl = "white"; // 기본 문자색
+
+								// 분류 기준은 100%, 80%, 60%, 40%
+								if(pe > 99) {
+									var st = "원어민이세요?";
+									var cl = "lime";
+									var tcl = "dark";
+								} else if(pe > 79) {
+									var st = "어! 좀 하시는데요~^^";
+									var cl = "success";
+								} else if(pe > 59) {
+									var st = "쓰읍~ 다시 해 보실까요";
+									var cl = "primary";
+								} else {
+									var st = "좀 더 분발해 주세요";
+									var cl = "danger";
+								}
+
+								$(this).addClass("btn-" + cl + " text-" + tcl);
+								$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
 						else {
-							$("#qst-"+(i+1)).val(an[i]);
-							$("#qst-"+(i+1)).attr("disabled", true);
-							$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
 						}
-						if($("#qst-"+(i+1)).hasClass("bg-success")) {
-							ri++;
-						}
+						;
 					}
-					if (ri < (qst/2)) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					}
-					else if(ri==qst) {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					}
-					else {
-						$(this).html('<h4>'+ qst + "문제 중 "+ ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
-					}
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id", "done");
-				}
-				else {
-					alert("모든 문제를 풀어주세요!");
-					// alert(na+"번 문제를 풀어주세요!");
-				}
-				;
-			}
 			) // 각 문장 재생 횟수 초기화
 			var hm=new Array(), sen=new Array();
 			for(i=0;

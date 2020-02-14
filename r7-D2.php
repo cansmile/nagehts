@@ -60,19 +60,19 @@
 									<td class="border-0">
 										<div id="ant-1"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q" id="qst-1">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-1">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-2"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q" id="qst-2">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-2">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-3"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q" id="qst-3">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-3">
 										</div>
 									</td>
 								</tr>
@@ -80,19 +80,19 @@
 									<td class="border-0">
 										<div id="ant-7"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q" id="qst-7">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-7">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-8"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q" id="qst-8">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-8">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-9"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control q" id="qst-9">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-9">
 										</div>
 									</td>
 								</tr>
@@ -100,19 +100,19 @@
 									<td class="border-0">
 										<div id="ant-13"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon13" class="text-center form-control q" id="qst-13">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon13" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-13">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-14"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon14" class="text-center form-control q" id="qst-14">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon14" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-14">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-15"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon15" class="text-center form-control q" id="qst-15">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon15" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-15">
 										</div>
 									</td>
 								</tr>
@@ -120,19 +120,19 @@
 									<td class="border-0">
 										<div id="ant-19"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="text-center form-control q" id="qst-19">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-19">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-20"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="text-center form-control q" id="qst-20">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-20">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-21"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon21" class="text-center form-control q" id="qst-21">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon21" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-21">
 										</div>
 									</td>
 								</tr>
@@ -140,19 +140,19 @@
 									<td class="border-0">
 										<div id="ant-25"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon25" class="text-center form-control q" id="qst-25">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon25" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-25">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-26"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon26" class="text-center form-control q" id="qst-26">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon26" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-26">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-27"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon27" class="text-center form-control q" id="qst-27">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon27" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-27">
 										</div>
 									</td>
 								</tr>
@@ -160,19 +160,19 @@
 									<td class="border-0">
 										<div id="ant-31"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon31" class="text-center form-control q" id="qst-31">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon31" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-31">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-32"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon32" class="text-center form-control q" id="qst-32">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon32" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-32">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-33"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon33" class="text-center form-control q" id="qst-33">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon33" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-33">
 										</div>
 									</td>
 								</tr>
@@ -223,19 +223,19 @@
 									<td class="border-0">
 										<div id="ant-4"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q" id="qst-4">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-4">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-5"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q" id="qst-5">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-5">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-6"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q" id="qst-6">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-6">
 										</div>
 									</td>
 								</tr>
@@ -243,19 +243,19 @@
 									<td class="border-0">
 										<div id="ant-10"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="text-center form-control q" id="qst-10">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-10">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-11"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="text-center form-control q" id="qst-11">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-11">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-12"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q" id="qst-12">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-12">
 										</div>
 									</td>
 								</tr>
@@ -263,19 +263,19 @@
 									<td class="border-0">
 										<div id="ant-16"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon16" class="text-center form-control q" id="qst-16">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon16" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-16">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-17"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon17" class="text-center form-control q" id="qst-17">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon17" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-17">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-18"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="text-center form-control q" id="qst-18">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-18">
 										</div>
 									</td>
 								</tr>
@@ -283,19 +283,19 @@
 									<td class="border-0">
 										<div id="ant-22"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon22" class="text-center form-control q" id="qst-22">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon22" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-22">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-23"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon23" class="text-center form-control q" id="qst-23">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon23" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-23">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-24"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon24" class="text-center form-control q" id="qst-24">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon24" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-24">
 										</div>
 									</td>
 								</tr>
@@ -303,19 +303,19 @@
 									<td class="border-0">
 										<div id="ant-28"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon28" class="text-center form-control q" id="qst-28">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon28" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-28">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-29"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon29" class="text-center form-control q" id="qst-29">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon29" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-29">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-30"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon30" class="text-center form-control q" id="qst-30">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon30" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-30">
 										</div>
 									</td>
 								</tr>
@@ -323,19 +323,19 @@
 									<td class="border-0">
 										<div id="ant-34"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon34" class="text-center form-control q" id="qst-34">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon34" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-34">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-35"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon35" class="text-center form-control q" id="qst-35">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon35" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-35">
 										</div>
 									</td>
 									<td class="border-0">
 										<div id="ant-36"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon36" class="text-center form-control q" id="qst-36">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon36" class="text-center form-control q border border-dark border-left-0 border-top-0 border-right-0 rounded-0 mx-2 px-2 py-1" id="qst-36">
 										</div>
 									</td>
 								</tr>
@@ -492,54 +492,77 @@ function rfchk(th,io) {
 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
 				$("#chk").on("click", function() {
-					var na = "";
-					var ri = 0;
-					var qst = $(".q").length;
-					$(".q").each(function () {
-						if(na != "") {
-							na += ", ";
+						var na="";
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
+							}
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
 						}
-						if($(this).val() == "") {
-							na += $(this).attr("id").substr(4,1);
-						}
-					})
-					
-					if($(this).attr("id") == "done") {} else if(na == "") {
-						for(var i = 0; i < an.length; i++) {
-							var oran = $("#qst-"+(i+1)).val();
-							if(rfchk($("#qst-"+(i+1)))) {
-								$("#qst-"+(i+1)).addClass("bg-success text-white");
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+									$("#qst-"+(i+1)).after("<br /><div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
+
+							// 정답 확인 div 상자 배경색 속성 없애기
+							$(this).removeClass("btn-light ");
+
+							var qa = $(".q").length; // 전체 문항 수
+							var qr = $(".bg-success").length; // 맞춘 항목 수
+							var pe = (qr / qa) * 100; // 정답 비율
+							var tcl = "white"; // 기본 문자색
+
+							// 분류 기준은 100%, 80%, 60%, 40%
+							if(pe > 99) {
+								var st = "원어민이세요?";
+								var cl = "lime";
+								var tcl = "dark";
+							} else if(pe > 79) {
+								var st = "어! 좀 하시는데요~^^";
+								var cl = "success";
+							} else if(pe > 59) {
+								var st = "쓰읍~ 다시 해 보실까요";
+								var cl = "primary";
 							} else {
-								$("#qst-"+(i+1)).val(an[i]);
-								$("#qst-"+(i+1)).attr("disabled",true);
-								$("#qst-"+(i+1)).parent().append("<span class=\"ml-5 text-danger\">"+oran+"</span>");
+								var st = "좀 더 분발해 주세요";
+								var cl = "danger";
 							}
 
-							if($("#qst-"+(i+1)).hasClass("bg-success")) {
-								ri++;
-							}
+							$(this).addClass("btn-" + cl + " text-" + tcl);
+							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
 
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
-
-					if (ri < (qst/2)) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!</h4>");
-						$(this).addClass("bg-danger text-white");
-					} else if(ri == qst) {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("bg-primary text-white");
-					} else {
-						$(this).html('<h4>' + qst + "문제 중 " + ri + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("bg-warning text-dark");
-					}
-
-					$(this).prop("disabled", true);
-					$(".tran").show();
-					$(this).attr("id","done");
-					} else {
-						alert("모든 문제를 풀어주세요!");
-						// alert(na+"번 문제를 풀어주세요!");
-					};
-				})
+						else {
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
+						;
+					})
 
 				var pan = new Array();
 				pan = [2,3,4,6,7,9,11,12,13,14,16,18,20,21,23,25,27,28,30,31,32,35,36];

@@ -9,7 +9,10 @@
 </head>
 <body>
 <?php require_once "ready.php"; ?>
+<div class="border border-danger p-1 px-2 m-1 rounded">이 페이지는 새로운 음성 지원이 잘 되는지 확인하는 페이지입니다. 0번은 전체 듣기, 그 이후의 번호는 개별 번호입니다.<br /><div class="ml-3">1. 2번 들으면 개별 번호에 대한 번역만 나옵니다.<br />2. 0번을 2번 들으면 전체 페이지에 번역이 나옵니다.<br />3. 재생은 하나씩만 됩니다.<br />4. 하나가 재생이 되고 있는 동안에 다른 버튼을 선택할 수 있지만, 재생은 하나만 됩니다.</div></div>
 <?php
+$hostname=$_SERVER["HTTP_HOST"]; //도메인명(호스트)명을 구합니다.
+echo($hostname);
 
 echo("<table class=\"table border-0\"><tr><th scope=\"row border-0 text-center\">재생</th>\n");
 for($i = 0; $i <= 13; $i++) {
@@ -109,7 +112,13 @@ var nagehts = new Howl({
 		stopAll();
 		$("#cnt-"+last).text(sen[last]);
 		if(sen[last] == 2) {
-			$("#"+last).after("<span class=\"border-0 p-1 px-2 rounded bg-warning text-dark font-weight-bold m-1\">번역</span>");
+			if(last == 0) {
+				$(".itm").each(function() {
+					$(this).after("<span class=\"border-0 p-1 px-2 rounded bg-warning text-dark font-weight-bold m-1\">번역</span>");
+				});
+			} else {
+				$("#"+last).after("<span class=\"border-0 p-1 px-2 rounded bg-warning text-dark font-weight-bold m-1\">번역</span>");
+			}
 		}
 	}
 

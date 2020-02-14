@@ -198,30 +198,56 @@
 	<?php include "wahl.php"; ?>
 	// 정답확인
 	$("#chk").on("click", function() {
-	var na="";
-	if($("#itms").find("button").length < 1) {
-	$(".tran").show();
-	$(".itm-lst").each(function() {
-	$(this).html($(this).find("button").html());
-	// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
-	}
-	);
-	$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
-	$(this).removeClass("btn-light");
-	$(this).addClass("btn-primary");
-	}
-	else {
-	$("div.itm-lst").each(function(idx) {
-	if( !$(this).find("button").length) {
-	if(na !="") {
-	na +=", ";
-	}
-	na +=(idx+1);
-	}
-	}
-	);
-	alert(na+"번 문제를 풀어주세요!");
-	}
+		var na="";
+		if($("#itms").find("button").length < 1) {
+			$(".tran").show();
+			$(".itm-lst").each(function() {
+			$(this).html($(this).find("button").html());
+				// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
+			}
+			);
+
+
+			// 정답 확인 div 상자 배경색 속성 없애기
+			$(this).removeClass("btn-light ");
+
+			var qa = $(".itm-lst").length; // 전체 문항 수
+			var qr = $(".itm-lst>.tran").length; // 맞춘 항목 수
+			var pe = (qr / qa) * 100; // 정답 비율
+			var tcl = "white"; // 기본 문자색
+
+			// 분류 기준은 100%, 80%, 60%, 40%
+			if(pe > 99) {
+				var st = "원어민이세요?";
+				var cl = "lime";
+				var tcl = "dark";
+			} else if(pe > 79) {
+				var st = "어! 좀 하시는데요~^^";
+				var cl = "success";
+			} else if(pe > 59) {
+				var st = "쓰읍~ 다시 해 보실까요";
+				var cl = "primary";
+			} else {
+				var st = "좀 더 분발해 주세요";
+				var cl = "danger";
+			}
+
+			$(this).addClass("btn-" + cl + " text-" + tcl);
+			$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
+		}
+		else {
+			$("div.itm-lst").each(function(idx) {
+				if( !$(this).find("button").length) {
+					if(na !="") {
+						na +=", ";
+					}
+				na +=(idx+1);
+			}
+			}
+			);
+			alert(na+"번 문제를 풀어주세요!");
+		}
 	}
 	);
 	var pan=new Array();
@@ -236,9 +262,9 @@
 	if($(this).hasClass("ans"+ pan[p])) {
 	$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
 	$("#"+ $(this).attr("id")).addClass("btn-block font-weight-bold text-left");
-	$("#"+ $(this).attr("id")).addClass("border-0");
+	// $("#"+ $(this).attr("id")).addClass("border-0");
 	$("#lst-"+ pan[p] + ">h2").remove();
-	$("#lst-"+ pan[p]).closest("tr").find(".tran").show();
+	// $("#lst-"+ pan[p]).closest("tr").find(".tran").show();
 	}
 	}
 	)

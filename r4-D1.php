@@ -256,9 +256,40 @@
 				var na="";
 				if($("#itms").find("button").length < 1) {
 					$(".tran").show();
-					$(this).html("<h4>모든 답을 다 맞히셨네요!</h4>");
-					$(this).removeClass("btn-light");
-					$(this).addClass("btn-primary");
+					
+					// 정답 확인 div 상자 배경색 속성 없애기
+					$(this).removeClass("btn-light ");
+
+					$(".itm-lst").each(function() {
+						if($(this).find(".so")) {
+							$(this).find(".so").addClass("text-success");
+						}
+					});
+
+					var qa = $(".so").length; // 전체 문항 수
+					var qr = $(".text-success").length; // 맞춘 항목 수
+					var pe = (qr / qa) * 100; // 정답 비율
+					var tcl = "white"; // 기본 문자색
+
+					// 분류 기준은 100%, 80%, 60%, 40%
+					if(pe > 99) {
+						var st = "원어민이세요?";
+						var cl = "lime";
+						var tcl = "dark";
+					} else if(pe > 79) {
+						var st = "어! 좀 하시는데요~^^";
+						var cl = "success";
+					} else if(pe > 59) {
+						var st = "쓰읍~ 다시 해 보실까요";
+						var cl = "primary";
+					} else {
+						var st = "좀 더 분발해 주세요";
+						var cl = "danger";
+					}
+
+					$(this).addClass("btn-" + cl + " text-" + tcl);
+					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
 					$(".btn-lg").text().appendTo($(this).closest("td"));
 					$(".btn-lg").remove();
 				}

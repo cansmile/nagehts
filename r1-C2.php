@@ -9,22 +9,22 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 itm" id="1">
-					schlecht<span class="tran"><br />잘 못지내요</span>
+					schlecht
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 itm" id="2">
-					gut<span class="tran"><br />잘 지내요</span>
+					gut
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 itm" id="3">
-					super<span class="tran"><br />아주 잘 지내요</span>
+					super
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 itm" id="4">
-					es geht<span class="tran"><br />그럭저럭 지내요</span>
+					es geht
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 itm" id="5">
-					sehr schlecht<span class="tran"><br />매우 안 좋아요</span>
+					sehr schlecht
 					</button>
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm" id="6">
-					sehr gut<span class="tran"><br />매우 잘 지내요</span>
+					sehr gut
 					</button>
 				</div>
 			</div>
@@ -79,7 +79,6 @@
 	<script src="./js/taptogroup.js"></script>
 	<script>
 		$("#chk").hide();
-		$(".tran").hide();
 		$(document).ready(function() {
 			// 정답확인
 			$("#chk").on("click", function() {
@@ -92,7 +91,7 @@
 							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
 						$(".tran").show();
-						if($(this).hasClass("ans"+ (a))) {
+if($(this).hasClass("ans"+ (a))) {
 							$(this).addClass("text-success font-weight-bold");
 						}
 						else {
@@ -146,7 +145,6 @@
 					$(this).addClass("bg-orange font-weight-bold text-white");
 				}
 				;
-
 			}
 			}
 			);

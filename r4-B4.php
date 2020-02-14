@@ -333,14 +333,14 @@
 			$("#chk").on("click", function() {
 				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
 					$(this).attr("id", "done");
-					$(".so").each(function() {
+					$(".itm").each(function() {
 						if($(this).parent().attr("id").length > 5) {
 							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
 						} else {
 							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
-
-						if($(this).hasClass("ans"+ (a))) {
+						$(".tran").show();
+if($(this).hasClass("ans"+ (a))) {
 							$(this).addClass("text-success font-weight-bold");
 						}
 						else {
@@ -362,7 +362,26 @@
 
 					}
 				);
-				$(".tran").show();
+
+
+				$(".pop").each(function() {
+					$(this).removeClass("btn-info");
+					if ($(this).hasClass("o") && $(this).hasClass("an")) {
+						$(this).removeClass("btn-warning");
+						$(this).addClass("text-success font-weight-bold");
+					}
+					else if ($(this).hasClass("o")) {
+						$(this).addClass("text-danger font-weight-bold");
+					}
+					else if ($(this).hasClass("an")) {
+						$(this).addClass("btn-warning");
+					}
+					else {
+						$(this).addClass("btn-light");
+					}
+					;
+				}
+				);
 
 				if($(".itm").length==$(".itm.text-success").length) {
 					ion.sound.play("dingdongdang");

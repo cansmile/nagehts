@@ -632,19 +632,17 @@
 							$(".pop").each(function() {
 								tt=$.trim($(this).text());
 								if ($(this).hasClass("o") && $(this).hasClass("an")) {
-									$(this).removeClass().addClass("text-white bg-success");
+									$(this).removeClass().addClass("font-weight-bold text-success");
 								}
 								else if ($(this).hasClass("o")) {
-									$(this).removeClass().addClass("text-dark bg-warning");
+									$(this).removeClass().addClass("font-weight-bold text-primary");
 								}
 								else if ($(this).hasClass("an")) {
-									$(this).removeClass().addClass("text-white bg-danger");
+									$(this).removeClass().addClass("font-weight-bold text-warning");
 								}
 								else {
 									$(this).removeClass();
 								}
-
-								$(this).addClass("font-weight-bold rounded p-1 pr-2");
 								if(tt.length > 1) {
 									$(this).html("&nbsp;"+tt);
 								}
@@ -658,16 +656,16 @@
 							$(".num").hide();
 							$(".btn-group").addClass("border-0");
 							$(this).removeClass("btn-light ");
-							if ($(".bg-success").length < Math.ceil(ql/2)) {
-								$(this).html('<h4>'+ $(".bg-success").length + "개를 맞히셨네요!</h4>");
+							if ($(".text-success").length < Math.ceil(ql/2)) {
+								$(this).html('<h4>'+ $(".text-success").length + "개를 맞히셨네요!</h4>");
 								$(this).addClass("btn-danger");
 							}
 							else if ($(".text-success").length==ql) {
-								$(this).html('<h4>'+ $(".bg-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
+								$(this).html('<h4>'+ $(".text-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
 								$(this).addClass("btn-primary");
 							}
 							else {
-								$(this).html('<h4>'+ $(".bg-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
+								$(this).html('<h4>'+ $(".text-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
 								$(this).addClass("btn-warning");
 							}
 							;

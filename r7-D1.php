@@ -430,7 +430,7 @@
 			$("#chk").hide();
 
 			var an = new Array(), antr = new Array();
-			var an = ["Ich gehe ins Kino. Da sehe ich einen Film.","Sie geht in die Bibliothek. Da liest sie Bücher.","Er geht in den Park. Da joggt er.","Er geht ins Konzert. Da hört er Musik.",["Sie geht zum Fußballplatz. Da spielt sie Fußball.", "Sie geht zum Fussballplatz. Da spielt sie Fussball."],"Ich gehe in die Disko. Da tanze ich."];
+			var an = ["Ich gehe ins Kino. Da sehe ich einen Film.","Sie geht in die Bibliothek. Da liest sie Bücher.","Er geht in den Park. Da joggt er.","Er geht ins Konzert. Da hört er Musik.",["Sie geht zum Fußballplatz. Da sie spielt Fußball.", "Sie geht zum Fussballplatz. Da sie spielt Fußball."],"Ich gehe in die Disko. Da tanze ich."];
 			var antr = ["Ich gehe ins Kino. Da sehe ich einen Film.","Sie geht in die Bibliothek. Da liest sie Bücher.","Er geht in den Park. Da joggt er.","Er geht ins Konzert. Da hört er Musik.",["Sie geht zum Fußballplatz. Da sie spielt Fußball.", "Sie geht zum Fussballplatz. Da sie spielt Fußball."],"Ich gehe in die Disko. Da tanze ich."];
 
 			$(document).ready(function() {

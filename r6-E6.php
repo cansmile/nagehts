@@ -314,10 +314,10 @@ function rfchk(th,io) {
 								var st = "원어민이세요?";
 								var cl = "lime";
 								var tcl = "dark";
-							} else if(pe > 79) {
+							} else if(pe > 74) {
 								var st = "어! 좀 하시는데요~^^";
 								var cl = "success";
-							} else if(pe > 59) {
+							} else if(pe > 49) {
 								var st = "쓰읍~ 다시 해 보실까요";
 								var cl = "primary";
 							} else {

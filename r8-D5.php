@@ -379,7 +379,6 @@
 					if($(this).hasClass("ans" + pan[p])) {
 						$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
 						$("#lst-" + pan[p] + ">.itm").addClass("btn-block font-weight-bold");
-						$("#lst-" + pan[p] + ">.itm").addClass("border-0");
 						$("#lst-" + pan[p] + ">h2").remove();
 						// $("#lst-" + pan[p]).closest("table").find(".tran").show();
 					}

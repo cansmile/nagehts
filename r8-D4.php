@@ -105,7 +105,7 @@
 								<tr>
 									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Ärztin:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
-										<div class="itm-lst 1itm col-4" id="lst-1">
+										<div class="itm-lst 1itm" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
@@ -114,7 +114,7 @@
 								<tr>
 									<th class="pb-0 pt-3 border-0 align-middle" scope="row" width="100">Peter:</th>
 									<td class="pb-0 pt-3 border-0 align-middle">
-										<div class="itm-lst 1itm col-5" id="lst-2">
+										<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>

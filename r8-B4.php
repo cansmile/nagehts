@@ -331,7 +331,7 @@
 
 					 // 미리 답 넣어놓기
 					var pan = new Array(), pann;
-					pan = [];
+					pan = [15,21];
 					for(var p = 0; p < pan.length; p++) {
 						pann = "#"+pan[p];
 						for(var i = 0; i < $(".itm-lst").length; i++) {

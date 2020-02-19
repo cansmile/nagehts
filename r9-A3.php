@@ -281,9 +281,8 @@
 				$(pann).val(an[(pan[p]-1)]);
 				$(pann).addClass("bg-success text-white font-weight-bold");
 				$(pann).prop("disabled", true);
-				$(pann).closest("tr").find(".tran").show();
+				// $(pann).closest("tr").find(".tran").show();
 			}
-
 		}
 		);
 

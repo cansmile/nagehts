@@ -6,7 +6,7 @@ $rm = 7; // 완성된 페이지만 메인에 노출
 $subttl = 21; // 모바일 레이아웃에서 잘리는 글자수
 
 // 색상
-$col = array("blue","brown","darkblue","darkgray","flame","gold","grape","gray","green","khaki","lightcyan","navy","orange","pink","primary","purple","red","redbeen","scarlet","skyblue","violet","warning","wine","yellow","yellowgreen");
+$col = array("blue","brown","darkblue","darkgray","flame","gold","grape","gray","green","khaki","lightcyan","navy","orange","pink","primary","purple","red","redbeen","scarlet","skyblue","violet","warning","wine","yellowgreen");
 // $col = array("blue","brown","danger","darkblue","darkgray","default","flame","gold","grape","gray","green","info","inverse","khaki","lightcyan","navy","orange","pink","primary","purple","red","redbeen","scarlet","skyblue","success","violet","warning","wine","yellow","yellowgreen");
 $color = $col[array_rand($col)];
 
@@ -153,9 +153,25 @@ $rtl = array(
 	array(
 		"A" => array("A0" => "Wie heißen die Feste in Deutschland?", "A1" => "Wie begrüßt man sich auf den Festen?", "A2" => "Wie heißen die Feste in Deutschland?", "A3" => "Temporale Angaben und Zahlen.", "AGR" => "Grundzahlen und Ordnungszahlen", "A4" => "Schreiben Sie die Tage.", "A5" => "Wann ist welcher Feiertag?", "A6" => "Neujahr in Korea. Frohes neues Jahr!"),
 		"B" => array("B1" => "Wer spricht mit wem?", "B2" => "Geburtstagsfeier in Deutschland und in Korea", "B3" => "Feste und Geschenkideen", "BGR" => "Personalpronomen und (un)bestimmter Artikel im Dativ und Akkusativ"),
-		"C" => array("C1" => "Was passt zusammen?", "C3" => "Geschenke", "C4" => "Was möchten Sie zum Geburtstag haben? Warum?"),
-		"D" => array("D1" => "Schreiben Sie eine Einladungskarte.", "D2" => "Ergänzen S D2 ie die Personalpronomen.", "D3" => "Schreiben Sie einen Einladungskarte zur Einweihungsfeier.", "D4" => "Meine 20. Geburtstagsfeier"),
-		"E" => array("E1" => "Feste und Jahreszeiten", "E2" => "Wie heißen die Feste?", "E3" => "Schreiben Sie die Tage.", "E4" => "Diese Personen haben Geburtstag. Was kann man ihnen schenken? Warum?", "E5" => "Mein schönstes Fest", "E6" => "Wann sagt man das?", "E7" => "Ergänzen Sie die Personalpronomen im Dativ und die Verben in der richtigen Form.", "E8" => "Ergänzen Sie die Personalpronomen im Nominativ, Akkusativ oder Dativ.", "E9" => "Präteritum", "E10" => "Das Perfekt mit „haben“ oder „sein“ ?", "E11" => "Perfekt", "E12" => "Wie war das Fest zu Neujahr, in Korea ,Seolnal‘?")
+		"C" => array("C1" => "Was passt zusammen?", "CGR" => "Personalpronomen und (un)bestimmter Artikel im Dativ und Akkusativ", "C4" => "Was möchten Sie zum Geburtstag haben? Warum?"),
+		"D" => array("D1" => "Schreiben Sie eine Einladungskarte.", "D2" => "Ergänzen Sie die Personalpronomen.", "D3" => "Schreiben Sie einen Einladungskarte zur Einweihungsfeier.", "D4a" => "Meine 20. Geburtstagsfeier", "D4b" => "Ergänzen Sie die passenden Partizip II- Formen.", "D4c" => "Meine 20. Geburtstagsfeier"),
+		"E" => array("E1" => "Feste und Jahreszeiten", "E2" => "Wie heißen die Feste?", "E3" => "Schreiben Sie die Tage.", "E4" => "Diese Personen haben Geburtstag. Was kann man ihnen schenken? Warum?", "E5" => "Mein schönstes Fest", "E6" => "Wann sagt man das?", "E7" => "Ergänzen Sie die Personalpronomen im Dativ und die Verben in der richtigen Form.", "E8" => "Ergänzen Sie die Personalpronomen im Nominativ, Akkusativ oder Dativ.", "E9a" => "Präteritum", "E9b" => "Präteritum von sein und haben.", "E10a" => "Das Perfekt mit „haben“ oder „sein“ ?", "E10b" => "TIPP", "E11" => "Perfekt", "E12" => "Wie war das Fest zu Neujahr, in Korea ,Seolnal‘?")
+	),
+	10 =>
+	array(
+		"A" => array("A1" => "Wo ist das?", "A2" => "Wo sind die Leute?", "A3" => "Entschuldigung, wo ist das Café Dornbusch?", "A4" => "Wohin gehen Sie, wenn Sie ...... ?"),
+		"B" => array("B1" => "Nach dem Weg fragen", "B2" => "Entschuldigung, wie komme ich ...?", "B3" => "Wie heißen die Fahrzeuge auf Deutsch?", "B4" => "Ergänzen Sie die passenden Präpositionen.", "BGR" => "Wechselpräpositionen"),
+		"C" => array("C1" => "Welche Fotos und Texte passen zusammen?", "C2" => "Wie heißen die Orte?", "C3" => "Suchen Sie die Orte auf dem Stadtplan von Dresden und ergänzen Sie die Nummern.", "C4" => "Die Leute sind auf dem Theaterplatz. Wohin und wie wollen sie fahren (gehen)?"),
+		"D" => array("D1" => "Perfekt: Perfekt- und Infinitivformen", "D2" => "Mein Urlaub in Dresden"),
+		"E" => array("E1a" => "Wo ist der Spatz?", "E1b" => "Wohin fliegt der Spatz?", "E2" => "Ergänzen Sie die Sätze.", "E3" => "Wo kann man in Gartenstadt was machen?", "E4" => "Ordnen Sie die Ausdrücke aus dem Kasten in die Tabelle ein.", "E5" => "Entschuldigung, wo ist ... ?", "E6" => "Wie komme ich zum/zur ...?", "E7a" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: Am Alexanderplatz", "E7b" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Frauenkirche", "E7c" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Bushaltestelle", "E8" => "Ordnen Sie die Verben je nach der Partizip –II Formen zu.", "E10" => "Ergänzen Sie die Perfekt-Formen.")
+	),
+	10 =>
+	array(
+		"A" => array("A1" => "어디인가요?", "A2" => "사람들이 어디에 있나요?", "A3" => "실례하지만 도른부쉬 카페가 어디있나요?", "A4" => "당신이 만약 ... 하고 싶다면 어디로 가나요?"),
+		"B" => array("B1" => "길 묻기", "B2" => "죄송하지만.. 어디로 .... ?", "B3" => "독일어로 교통기관들을 뭐라고 하나요?", "B4" => "알맞은 전치사를 집어넣으세요.", "BGR" => "3·4격 전치사"),
+		"C" => array("C1" => "어떤 사진이 어떤 텍스트와 어울릴까요?", "C2" => "명소의 이름은 무엇인가요?", "C3" => "드레스덴 시내 지도에서 장소를 찾아 번호를 집어넣으세요.", "C4" => "사람들이 테아터광장에 있습니다. 어디로 그리고 어떤 교통수단으로 가려고 합니다."),
+		"D" => array("D1" => "완료형: 완료형과 부정형", "D2" => "드레스덴에서의 휴가"),
+		"E" => array("E1a" => "어디에 참새가 있나요?", "E1b" => "어디로 참새가 날라가나요?", "E2" => "문장을 채우세요.", "E3" => "가르텐시의 어디서 무엇을 할 수 있나요?", "E4" => "상자안의 표현구들을 표안에 넣으세요.", "E5" => "실례하지만...", "E6" => "어떻게 ... 가야할까요?", "E7a" => "문장을 대화문을 듣고 빈칸을채우세요: 알렉산더 플라자", "E7b" => "문장을 대화문을 듣고 빈칸을채우세요: 프라우엔 교회", "E7c" => "문장을 대화문을 듣고 빈칸을채우세요: 버스 정류장", "E8" => "과거분사형태에 따라 구분해보세요.", "E10" => "완료형을 넣으세요.")
 	)
 );
 
@@ -233,9 +249,9 @@ $rtl_k = array(
 	array(
 		"A" => array("A0" => "독일의 축일을 뭐라고 하나요?", "A1" => "축제 때 어떻게 인사하나요?", "A2" => "독일의 축일을 뭐라고 하나요?", "A3" => "시간정보와 수", "AGR" => "기수 · 서수", "A4" => "날짜를 쓰세요.", "A5" => "언제 어떤 축제일인가요?", "A6" => "한국의 설날. 새해 복많이 받으세요!"),
 		"B" => array("B1" => "누가 누구랑 이야기하나요?", "B2" => "독일과 한국에서의 생일파티", "B3" => "축제와 선물아이템: 무엇인가요?", "BGR" => "3,4격 인칭대명사 및 정관사, 부정관사"),
-		"C" => array("C1" => "무엇이 무엇과 어울리나요?", "C3" => "선물", "C4" => "생일선물로 무엇을 가지고 싶나요? 왜요?"),
-		"D" => array("D1" => "초대장을 써보세요. 순서에 맞게 문장을 써보세요.", "D2" => "알맞은 인칭대명사를 쓰세요.", "D3" => "집들이 파티에 초장을 쓰세요.", "D4" => "나의 스무번째 생일"),
-		"E" => array("E1" => "축일과 계절", "E2" => "축일 이름은?", "E3" => "날짜를 쓰세요.", "E4" => "아래의 사람들이 생일을 맞이하였어요. 그들에게 무엇을 선물할까요? 왜요?", "E5" => "나의 가장 아름다운 축일", "E6" => "언제 이렇게 말하지요?", "E7" => "3격 인칭대명사와 동사를 올바르게 집어넣으세요.", "E8" => "1,3,4격 인칭대명사를 넣으세요.", "E9" => "과거형", "E10" => "완료형에서 조동사 haben 혹은 sein 중 어느 것이 맞나요?", "E11" => "완료형", "E12" => "한국의 설날은 어떻게 보내셨나요?")
+		"C" => array("C1" => "무엇이 무엇과 어울리나요?", "CGR" => "3,4격 인칭대명사 및 정관사, 부정관사", "C4" => "생일선물로 무엇을 가지고 싶나요? 왜요?"),
+		"D" => array("D1" => "초대장을 써보세요. 순서에 맞게 문장을 써보세요.", "D2" => "알맞은 인칭대명사를 쓰세요.", "D3" => "집들이 파티에 초장을 쓰세요.", "D4a" => "나의 스무번째 생일", "D4b" => "알맞은 과거분사형을 넣으세요.", "D4c" => "나의 스무번째 생일"),
+		"E" => array("E1" => "축일과 계절", "E2" => "축일 이름은?", "E3" => "날짜를 쓰세요.", "E4" => "아래의 사람들이 생일을 맞이하였어요. 그들에게 무엇을 선물할까요? 왜요?", "E5" => "나의 가장 아름다운 축일", "E6" => "언제 이렇게 말하지요?", "E7" => "3격 인칭대명사와 동사를 올바르게 집어넣으세요.", "E8" => "1,3,4격 인칭대명사를 넣으세요.", "E9a" => "과거형", "E9b" => "haben과 sein의 과거형", "E10a" => "완료형에서 조동사 haben 혹은 sein 중 어느 것이 맞나요?", "E10b" => "일상회화, 과거분사형, 과거, 지속, -ieren 동사, werden, 상태의 변화, bleiben", "E11" => "완료형", "E12" => "한국의 설날은 어떻게 보내셨나요?")
 	)
 
 
@@ -338,7 +354,14 @@ if(!$ds) {
           </li>
 <?php
 }
+// 드롭박스 이름표에 보이는 항목
 if(substr($da, 1, 2) == "GR") { $la = "GR"; } else if($da == "Uebungen") { $la = "Übungen"; } else { $la = $da; }
+for($c = 97; $c < 123; $c++) {
+	if(substr($la,-1) == chr($c)) {
+		$la = substr($la,0,(strlen($la) - 1))."<small>-".($c - 96)."</small>";
+	}
+}
+
 ?>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle<?php if($fn[0] == "r") { echo($a); } ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <?php if($ds) { if(strlen($da) > $lt) { echo($tl[$r][$fn]); } else { for($z = 0; $z < sizeof($rtl[$r][$da[0]]); $z++) { if(array_keys($rtl[$r][$da[0]])[$z] == $da) { echo($z + 1); }; }; echo(". <small><span class=\"font-weight-bold p-1 px-2 m-1 rounded bg-{$color}\">".$la."</span></small> ".$rtl[$r][$da[0]][$da]); } } else if($fn == "inthebeginning" || $fn == "Deutschland") { echo("학습하기"); } else { echo("Reihe ".$r); } ?> </a>
@@ -376,6 +399,12 @@ if($ds) {
 				}
 				$n = $i+1;
 				if(substr($mkey, 1, 2) == "GR") { $la = "GR"; } else if($da == "Uebungen") { $la = "Übungen"; } else { $la = $mkey; }
+				for($c = 97; $c < 123; $c++) {
+					if(substr($la,-1) == chr($c)) {
+						$la = substr($la,0,(strlen($la) - 1))."<small>-".($c - 96)."</small>";
+					}
+				}
+
 				echo("\" href=\"{$cn}.php\">{$n}. <small><span class=\"font-weight-bold p-1 px-2 m-1 rounded bg-{$color}\">".$la."</span></small> ".substr($kom[$mkey],0,$subttl)." </a> ");
 			}
 		}
@@ -455,6 +484,12 @@ if($fn != "inthebeginning") {
 <?php
 		if(strlen($da) < $lt) {
 			if(substr($da, 1, 2) == "GR") { $da = "GR"; }
+			for($c = 97; $c < 123; $c++) {
+				if(substr($da,-1) == chr($c)) {
+					$da = substr($da,0,(strlen($da) - 1))."<small>-".($c - 96)."</small>";
+				}
+			}
+
 ?>
 					<h2>(교재 <span class="bg-<?php echo($color); ?> p-1 px-2 m-1 rounded text-white"><strong><?php echo($da); ?></strong></span>)</h2>
 <?php

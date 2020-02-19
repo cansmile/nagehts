@@ -1,8 +1,11 @@
-.gitignre
+.gitignore
 .htaccess
 index.php
 license.txt
+Nagehts.sublime-project
+Nagehts.sublime-workspace
 readme.html
+sftp-config.json 
 wp-activate.php
 wp-admin/
 wp-blog-header.php

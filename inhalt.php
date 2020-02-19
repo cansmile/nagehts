@@ -49,7 +49,7 @@ if(ul()) {
 			if(file_exists($t1.".php")) {
 					echo("      <div class=\"{$col} text-center\">\n       <a href=\"{$t1}.php\" class=\"text-dark\">\n<img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3>{$t2}</h3>\n        <p>\n{$t3}<br></p>\n       </a>\n      </div>\n");
 			} else if(!file_exists($t1.".php")) {
-				echo("      <div class=\"{$col} text-center\">\n       <img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">{$t2}</h3>\n        <p class=\"text-secondary\">\n{$t3}</p>\n\n     </div>\n");
+				echo("      <div class=\"{$col} text-center\" style=\"opacity: .125;\">\n       <img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">{$t2}</h3>\n        <p class=\"text-secondary\">\n{$t3}</p>\n\n     </div>\n");
 			}
 		}
 
@@ -58,7 +58,7 @@ if(ul()) {
 			if(file_exists($t1.".php")) {
 					echo("      <div class=\"{$col} text-center\">\n       <a href=\"{$t1}.php\" class=\"text-dark\">\n<img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3>{$t2}</h3>\n        <p>\n{$t3}<br></p>\n       </a>\n      </div>\n");
 			} else if(!file_exists($t1.".php")) {
-				echo("      <div class=\"{$col} text-center\">\n       <img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">{$t2}</h3>\n        <p class=\"text-secondary\">\n{$t3}</p>\n\n     </div>\n");
+				echo("      <div class=\"{$col} text-center\" style=\"opacity: .125;\">\n       <img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">{$t2}</h3>\n        <p class=\"text-secondary\">\n{$t3}</p>\n\n     </div>\n");
 			}
 		}
 	}
@@ -80,12 +80,16 @@ if(ul()) {
 				$t5 = "GR";
 			} else {
 				$t5 = $t1;
+				for($c = 97; $c < 123; $c++) {
+					if(substr($t1,-1) == chr($c)) {
+						$t5 = substr($t1,0,(strlen($t1) - 1))."<small>-".($c - 96)."</small>";
+					}
+				}
 			}
-
 			if(file_exists("r".$r."-".$t1.".php")) {
 					echo("      <div class=\"{$col} text-center\">\n       <a href=\"r{$r}-{$t1}.php\" class=\"text-dark\">\n<img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3>{$t2}</h3>\n        <p>\n{$t3}<br><small>교재 <span class=\"bg-{$color} p-1 px-2 m-1 rounded text-white\"><strong>{$t5}</strong></span></small></p>\n       </a>\n      </div>\n");
 			} else if(!file_exists("r".$r."-".$t1.".php")) {
-				echo("      <div class=\"{$col} text-center\">\n       <img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">{$t2}</h3>\n        <p class=\"text-secondary\">\n{$t3}<br><small>교재 <span class=\"bg-{$color} p-1 px-2 m-1 rounded text-white\"><strong>{$t5}</strong></span></small></p>\n\n     </div>\n");
+				echo("      <div class=\"{$col} text-center\" style=\"opacity: .125;\">\n       <img class=\"rounded-circle\" alt=\"{$t2}\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">{$t2}</h3>\n        <p class=\"text-secondary\">\n{$t3}<br><small>교재 <span class=\"bg-{$color} p-1 px-2 m-1 rounded text-white\"><strong>{$t5}</strong></span></small></p>\n\n     </div>\n");
 			}
 		}
 	} else {
@@ -103,7 +107,7 @@ if(ul()) {
 			if(file_exists($t1.".php")) {
 					echo("      <div class=\"{$col} text-center\">\n       <a href=\"{$t1}.php\" class=\"text-dark\">\n<img class=\"rounded-circle\" alt=\"".substr($t2,2)."\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3>".substr($t2,2)."</h3>\n        <p>{$t3}</p>\n       </a>\n      </div>\n");
 			} else if(!file_exists($t1.".php")) {
-				echo("      <div class=\"{$col} text-center\">\n       <img class=\"rounded-circle\" alt=\"".substr($t2,2)."\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">".substr($t2,2)."</h3>\n        <p class=\"text-secondary\">\n{$t3}</p>\n\n     </div>\n");
+				echo("      <div class=\"{$col} text-center\" style=\"opacity: .125;\">\n       <img class=\"rounded-circle\" alt=\"".substr($t2,2)."\" style=\"width: 140px; height: 140px;\" src=\"images/{$t4}.png\" data-holder-rendered=\"true\">\n        <h3 class=\"text-secondary\">".substr($t2,2)."</h3>\n        <p class=\"text-secondary\">\n{$t3}</p>\n\n     </div>\n");
 			}
 		}
 		

@@ -8,25 +8,25 @@
 		<div class="row">
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm rounded-circle px-3" id="1">
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm rounded-circle px-3" id="1">
 					a
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3" id="2">
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm rounded-circle px-3" id="2">
 					b
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm rounded-circle px-3" id="3">
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3" id="3">
 					c
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
 					d
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm rounded-circle px-3" id="5">
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm rounded-circle px-3" id="5">
 					e
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm rounded-circle px-3" id="6">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm rounded-circle px-3" id="6">
 					f
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm rounded-circle px-3" id="7">
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm rounded-circle px-3" id="7">
 					g
 				</button>
 			</div>
@@ -39,19 +39,19 @@
 							<!-- 고르는 아이템들 -->
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
+						<h3>[ <small>알파벳을] 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 						<div class="row">
-							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>a</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-1.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>b</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-2.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>c</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-3.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>d</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-4.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>e</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-5.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>f</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-6.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>g</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-7.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>a</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-8.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>b</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-9.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>c</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-10.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>d</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-11.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>e</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-12.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>f</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-13.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-4 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>g</strong></span><br><img src="./images/Reihe 9/Reihe-9-A2-14.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">

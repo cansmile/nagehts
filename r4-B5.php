@@ -10,7 +10,7 @@
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2> Hören Sie und Ergänzen Sie.<br>
+					<h2> Hören Sie und ergänzen Sie.<br>
 					<small>듣고 채우세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV

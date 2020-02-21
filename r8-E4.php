@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="row border border-dark rounded p-1 py-2 font-weight-bold text-center">
-				<div class="col wd">mir</div> <div class="col wd">dir</div> <div class="col wd">uns</div> <div class="col wd">Ihnen</div> <div class="col wd">euch</div> <div class="col wd">ihr</div> <div class="col" wd>ihm</div> <div class="col wd">ihnen</div>
+				<div class="col wd">mir</div> <div class="col wd">dir</div> <div class="col wd">uns</div> <div class="col wd">Ihnen</div> <div class="col wd">euch</div> <div class="col wd">ihr</div> <div class="col wd">ihm</div> <div class="col wd">ihnen</div>
 			</div>
 			<div class="row">
 				<div class="col">

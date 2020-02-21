@@ -12,8 +12,8 @@
 					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col">mir</div> <div class="col">dir</div> <div class="col">uns</div> <div class="col">Ihnen</div> <div class="col">euch</div> <div class="col">ihr</div> <div class="col">ihm</div> <div class="col">ihnen</div>
+			<div class="row border border-dark rounded p-1 py-2 font-weight-bold text-center">
+				<div class="col wd">mir</div> <div class="col wd">dir</div> <div class="col wd">uns</div> <div class="col wd">Ihnen</div> <div class="col wd">euch</div> <div class="col wd">ihr</div> <div class="col" wd>ihm</div> <div class="col wd">ihnen</div>
 			</div>
 			<div class="row">
 				<div class="col">
@@ -26,7 +26,7 @@
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-1">
 										 .&nbsp;Ich habe keine Hand mehr frei.
 									</div>
-									<span class="tran"><small>미나야, 나를 도와주라. 너무 바빠.</small></span>
+									<span class="tran"><small>미나야, 나 좀 도와줘. 너무 바빠.</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -46,7 +46,7 @@
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-3">
 										 ? Marie sieht sehr blass aus.
 									</div>
-									<span class="tran"><small>그녀에게 무슨 일 있는거야? 마리가 매우 창백해 보인다.</small></span>
+									<span class="tran"><small>그녀가 어디 아픈거니? 마리가 매우 창백해 보여.</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -66,7 +66,7 @@
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-5">
 										 &nbsp;sehr.
 									</div>
-									<span class="tran"><small>팀이 내 숙제를 도와줍니다. 나는 그에게 매우 감사해요.
+									<span class="tran"><small>팀이 내 숙제를 도와주고 있어. 나는 그에게 매우 고마워하고 있어.
 </small></span>
 								</td>
 							</tr>
@@ -98,6 +98,21 @@
 		$(".ant").hide();
 		var an=new Array();
 		var an=["mir", "Ihnen", "ihr", "euch", "ihm"];
+
+		function ch() {
+			$(".wd").removeClass("bg-secondary");
+			$(".wd").each(function () {
+				var t = $(this);
+				var tt = t.text().trim();
+				$("input").each(function() {
+				if($(this).val().indexOf(tt) != -1) {
+					t.addClass("bg-secondary");
+				}
+			})
+
+			})
+		}
+
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사
@@ -165,6 +180,7 @@
 				else {
 					$("#ant-"+$(this).attr("id").substr(4)).hide();
 				}
+				ch();
 			}
 			);
 			$(".q").on("focusin", function() {
@@ -297,6 +313,7 @@
 				$(pann).prop("disabled", true);
 				$(pann).closest("tr").find(".tran").show();
 			}
+			ch();
 		}
 		);
 </script>

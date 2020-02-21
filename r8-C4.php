@@ -373,7 +373,7 @@
 								$(this).removeClass("btn-warning");
 								$(this).addClass("btn-success");
 							} else if ($(this).hasClass("o")) {
-								$(this).addClass("btn-primary");
+								$(this).addClass("btn-danger");
 							} else if ($(this).hasClass("an")) {
 								$(this).addClass("btn-warning");
 							} else {

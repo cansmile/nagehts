@@ -29,8 +29,8 @@
 										<td>Bleib im Bett! (du)</td>
 									</tr>
 									<tr>
-										<td>Du darfst nicht schwimmen gehen.</td>
-										<td>Geht nicht! (ihr)</td>
+										<td>Ihr dürft nicht schwimmen gehen.</td>
+										<td>Geht nicht schwimmen! (ihr)</td>
 									</tr>
 									<tr>
 										<td>Sie sollen(müssen) Nasentropfen nehmen.</td>
@@ -149,10 +149,10 @@
 										<th scope="row">Dat.</th>
 										<td>mir</td>
 										<td>dir</td>
-										<td>Sie</td>
-										<td>ihn</td>
-										<td>sie</td>
-										<td>es</td>
+										<td>Ihnen</td>
+										<td>ihm</td>
+										<td>ihr</td>
+										<td>ihm</td>
 										<td>uns</td>
 										<td>euch</td>
 										<td>ihnen/Ihnen</td>

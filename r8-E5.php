@@ -50,7 +50,7 @@
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-4" style="position: relative; top: -6px;">
-										&nbsp;nichschwimmen&nbsp;
+										&nbsp;nicht schwimmen&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-5" style="position: relative; top: -6px;">.
 									</div>
 									<span class="tran"><small>그녀는 수영하러 가면 안됩니다.</small></span>
@@ -90,7 +90,7 @@
 								<td class="border-0">
 									<div class="input-group">Sie&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-5" id="qst-9" style="position: relative; top: -6px;">
-										&nbsp;keinen Alkohol.&nbsp;
+										&nbsp;keinen Alkohol&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-4" id="qst-10" style="position: relative; top: -6px;">.
 									</div>
 									<span class="tran"><small>그녀는 술을 마시지 말아야합니다.</small></span>
@@ -164,9 +164,9 @@
 									<span class="tran"><br><small>아이스크림을 먹다</small></span>
 								</td>
 								<td class="border-0">
-									<div class="input-group">und&nbsp;
+									<div class="input-group">und kein Eis&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-3" id="qst-18" style="position: relative; top: -6px;">
-										&nbsp;Eis.
+										&nbsp;.
 									</div>
 									<span class="tran"><small>그리고 아이스크림을 먹어서는 안됩니다.</small></span>
 								</td>

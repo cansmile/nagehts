@@ -83,13 +83,13 @@
 							</tr>
 							<tr>
 								<th scope="row" class="border-0">6.</th>
-								<td class="border-0">nicht viel rauchen (du)
+								<td class="border-0">nicht so viel rauchen (du)
 									<span class="tran"><br><small>담배를 많이 피우지 않는다</small></span>
 								</td>
 								<td class="border-0">
 									<div class="input-group">
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-6" style="position: relative; top: -6px;">
-										&nbsp;nicht viel, bitte!
+										&nbsp;bitte nicht so viel!
 									</div>
 									<span class="tran"><small>(담배를) 많이 피우지 마십시오, 제발!</small></span>
 								</td>
@@ -102,7 +102,7 @@
 								<td class="border-0">
 									<div class="input-group">
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-7" style="position: relative; top: -6px;">
-										&nbsp;mehr Obst und Gemüse, bitte!
+										&nbsp;bitte mehr Obst und Gemüse!
 									</div>
 									<span class="tran"><small>과일과 채소를 더 많이 먹으렴!</small></span>
 								</td>
@@ -115,7 +115,7 @@
 								<td class="border-0">
 									<div class="input-group">
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0 col-6" id="qst-8" style="position: relative; top: -6px;">
-										&nbsp;regelmäßig Rad, bitte!
+										&nbsp;bitte regelmäßig Rad!
 									</div>
 									<span class="tran"><small>정기적으로 자전거를 타라, 제발!</small></span>
 								</td>
@@ -147,7 +147,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["Treibt","Sprechen Sie","Wasch","Esst","Erklären Sie","Rauche","Esst","Fahr"];
+		var an=["Treibt","Sprechen Sie","Wasch","Esst","Erklären Sie","Rauch","Esst","Fahr"];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사

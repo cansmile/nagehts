@@ -55,10 +55,10 @@
 									<td>a. Klara Sauer macht zweimal pro Woche Tae-Kwon-Do. Tae-Kwon-Do ist gut für den Körper und Geist. Der Sport macht sie gesund und fit. Konzentration ist dabei sehr wichtig. Jeder kann Tae-Kwon-Do lernen.<span class="tran"><small>클라라 자우어는 일주일에 두 번 태권도를 합니다. 태권도는 몸과 마음에 좋습니다. 이 스포츠는 건강과 체력 유지에 적합합니다. 태권도에서 집중은 매우 중요합니다. 누구나 태권도를 배울 수 있습니다.</small></span></td>
 								</tr>
 								<tr>
-									<td>b. Martin Sager ist Steilwandkletterer. Er trainiert alle zwei Tage nach der Arbeit im Sportzentrum und klettert Wände hoch. Dabei braucht er starke Finger und Arme. Im Urlaub fährt er gern in die Berge zum Klettern.<span class="tran"><small>마틴 자거는 암벽 등반가입니다. 그는 스포츠 센터에서 일한 후 이틀마다 훈련을하고 벽을 탑니다. 그것은 강한 손가락과 팔이 필요합니다. 휴가 중에 그는 등산하러 가는 것을 좋아합니다.</small></span></td>
+									<td>b. Martin Sager ist Steilwandkletterer. Er trainiert alle zwei Tage nach der Arbeit im Sportzentrum und klettert Wände hoch. Dabei braucht er starke Finger und Arme. Im Urlaub fährt er gern in die Berge zum Klettern.<span class="tran"><small>마틴 자거는 암벽 등반가입니다. 그는 스포츠 센터에서 일한 후 이틀에 한 번 훈련을하고 암벽을 탑니다. 암벽등반할 때는 강한 손가락과 팔이 필요합니다. 휴가 중에 그는 암벽등반하러 산에 가는 것을 좋아합니다.</small></span></td>
 								</tr>
 								<tr>
-									<td>c. In Europa fahren jedes Jahr viele Leute in den Skiurlaub in die Alpen. Viele Leute kommen aber nicht gesund nach Hause. Marie Klein hat sich zum Beispiel beim Skiurlaub das Bein gebrochen und hatte ein Gipsbein.<span class="tran"><small>유럽에서는 많은 사람들이 매년 알프스로 스키타러 갑니다. 어떤 사람들은 건강하게 집에 오지 못합니다. 예를 들어 마리 클라인은 스키를 타다가 다리가 부러져 깁스를 했습니다.</small></span></td>
+									<td>c. In Europa fahren jedes Jahr viele Leute in den Skiurlaub in die Alpen. Viele Leute kommen aber nicht gesund nach Hause. Marie Klein hat sich zum Beispiel beim Skiurlaub das Bein gebrochen und hatte ein Gipsbein.<span class="tran"><small>유럽에서는 많은 사람들이 매년 알프스로 스키타러 갑니다. 그러나 어떤 사람들이 건강한 상태로 집에 오지 못합니다. 예를 들어 마리 클라인은 스키를 타다가 다리가 부러져 깁스를 했습니다.</small></span></td>
 								</tr>
 							</tbody>
 						</table>

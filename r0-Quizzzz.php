@@ -398,7 +398,7 @@
 						$(this).removeClass("btn-info");
 						if ($(this).hasClass("o") && $(this).hasClass("an")) {
 							$(this).removeClass("btn-warning");
-							$(this).addClass("btn-lime text-dark");
+							$(this).addClass("btn-success text-white");
 						} else if ($(this).hasClass("o")) {
 							$(this).addClass("btn-warning font-weight-bold");
 						} else if ($(this).hasClass("an")) {
@@ -409,7 +409,38 @@
 						;
 					});
 
+					// 정답 확인 div 상자 배경색 속성 없애기
+					$(this).removeClass("btn-light ");
 
+					$(".itm-lst").each(function() {
+						if($(this).find(".btn")) {
+							$(this).find(".btn").addClass("font-weight-bold text-success");
+						}
+					});
+
+					var qa = $(".q").length; // 전체 문항 수
+					var qr = $(".btn-success").length; // 맞춘 항목 수
+					var pe = (qr / qa) * 100; // 정답 비율
+					var tcl = "white"; // 기본 문자색
+
+					// 분류 기준은 100%, 80%, 60%, 40%
+					if(pe > 99) {
+						var st = "원어민이세요?";
+						var cl = "lime";
+						var tcl = "dark";
+					} else if(pe > 74) {
+						var st = "어! 좀 하시는데요~^^";
+						var cl = "success";
+					} else if(pe > 49) {
+						var st = "쓰읍~ 다시 해 보실까요";
+						var cl = "primary";
+					} else {
+						var st = "좀 더 분발해 주세요";
+						var cl = "danger";
+					}
+
+					$(this).addClass("btn-" + cl + " text-" + tcl);
+					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
 
 				};
 			}

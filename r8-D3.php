@@ -18,8 +18,8 @@
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="1">
-					Guten Tag, Frau Lehmann? Was kann ich für Sie tun?
-					<span class="tran"><br><small>안녕하세요, 레만 부인? 제가 뭘 도와드릴까요?</small></span>
+					Guten Tag, Frau Lehmann. Was kann ich für Sie tun?
+					<span class="tran"><br><small>안녕하세요, 레만 부인. 제가 뭘 도와드릴까요?</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so text-left" id="2">
 					Ich komme gleich mit ihm!

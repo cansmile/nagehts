@@ -21,7 +21,7 @@
 					die Erkältung<span class="tran"><br><small>감기</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="4">
-					der Durchfall<span class="tran"><br><small>설사</small></span>
+					der Bauchschmerzen<span class="tran"><br><small>복통</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm so" id="5">
 					die Grippe<span class="tran"><br><small>독감</small></span>
@@ -345,7 +345,7 @@
 	$(".ant").hide();
 
 	var an = new Array();
-	var an = ["Ihr Kopf tut weh. Sie hat Kopfschmerzen.","Ihr Zahn tut weh. Sie hat Zahnschmerzen.","Ihr Bauch tut weh. Sie hat Bauchschmerzen.",["Sein Hals tut weh. Er hat Husten und Halsschmerzen.","Sein Hals tut weh. Er hat Husten/Halsschmerzen."],"Sie hat Fieber. Sie hat Grippe.",["Sein Bauch tut weh. Er hat Durchfall oder Verstopfung.","Sein Bauch tut weh. Er hat Durchfall/Verstopfung."]];
+	var an = ["Ihr Kopf tut weh. Sie hat Kopfschmerzen.","Ihr Zahn tut weh. Sie hat Zahnschmerzen.","Ihr Bauch tut weh. Sie hat Bauchschmerzen.",["Sein Hals tut weh. Er hat Husten und Halsschmerzen.","Sein Hals tut weh. Er hat Husten/Halsschmerzen.", "Sein Hals tut weh. Er hat Husten.", "Sein Hals tut weh. Er hat Halsschmerzen."],"Sie hat Fieber. Sie hat Grippe.",["Sein Bauch tut weh. Er hat Durchfall oder Verstopfung.","Sein Bauch tut weh. Er hat Durchfall/Verstopfung.", "Sein Bauch tut weh. Er hat Durchfall.", "Sein Bauch tut weh. Er hat Verstopfung."]];
 
 	$(document).ready(function() {
 			// 각 문장 재생 횟수 초기화
@@ -642,12 +642,12 @@
 
 				$(".itm-lst").each(function() {
 					if($(this).find("button.btn")) {
-						$(this).find("button.btn").addClass("text-success");
+						$(this).find("button.btn").addClass("okay text-success");
 					}
 				});
 
 				var qa = $(".itm-lst").length + $(".q").length; // 전체 문항 수
-				var qr = $(".text-success").length + $(".bg-success").length; // 맞춘 항목 수
+				var qr = $(".okay").length + $(".bg-success").length; // 맞춘 항목 수
 				var pe = (qr / qa) * 100; // 정답 비율
 				var tcl = "white"; // 기본 문자색
 

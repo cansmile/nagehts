@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"btn-o",
+				"btn-outline-dark"
+			],
+			[
 				"font-",
 				"font-weight-bold \tBootstrap 4 Class"
 			],
@@ -287,6 +291,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "r1-G2.php",
+			"settings":
+			{
+				"buffer_size": 12903,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
 	"build_system_choices":
@@ -404,6 +417,138 @@
 		"selected_items":
 		[
 			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git addc",
+				"Git: Add Current File"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"color:",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"autofile",
+				"AutoFileName: Quick Settings"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"gutter",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"babel",
+				"Babel Transform"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"git command",
+				"Git: Custom Command"
+			],
+			[
+				"color sublime",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"'",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"colorpicker",
+				"Color Picker"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"cq",
+				"ChangeQuotes"
+			],
+			[
+				"git show",
+				"Git: Show"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"gita dd c",
+				"Git: Add Current File"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"git c",
+				"Git: Amend Commit"
+			],
+			[
+				"disable pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git add c",
+				"Git: Add Current File"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
 				"log curr",
 				"Git: Log Current File"
 			],
@@ -414,14 +559,6 @@
 			[
 				"log all",
 				"Git: Log All"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"remove pa",
-				"Package Control: Remove Package"
 			],
 			[
 				"disabl",
@@ -464,10 +601,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"cs php",
 				"PHP CS Fixer: format this file"
 			],
@@ -484,20 +617,8 @@
 				"StringEncode: Base64 Decode"
 			],
 			[
-				"install pa",
-				"Package Control: Install Package"
-			],
-			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"remove pack",
-				"Package Control: Remove Package"
-			],
-			[
-				"install pack",
-				"Package Control: Install Package"
 			],
 			[
 				"remove packa",
@@ -522,10 +643,6 @@
 			[
 				"remove package",
 				"Package Control: Remove Package"
-			],
-			[
-				"disable",
-				"Package Control: Disable Package"
 			],
 			[
 				"64",
@@ -652,10 +769,6 @@
 				"Git: Add Current File"
 			],
 			[
-				"git commit",
-				"Git: Commit history"
-			],
-			[
 				"git gui",
 				"Git: Gui"
 			],
@@ -692,20 +805,12 @@
 				"Git: Delete Branch"
 			],
 			[
-				"git add",
-				"Git: Add All"
-			],
-			[
 				"commit",
 				"Sublimerge: Show Uncommited Changes..."
 			],
 			[
 				"git",
 				"GitHub: Edit (master)"
-			],
-			[
-				"enable",
-				"Package Control: Enable Package"
 			],
 			[
 				"enab",
@@ -822,98 +927,6 @@
 			[
 				"format",
 				"Format: Php"
-			],
-			[
-				"emmet",
-				"Set Syntax: Emmet"
-			],
-			[
-				"emm",
-				"Set Syntax: Emmet"
-			],
-			[
-				"INSTALL",
-				"Package Control: Install Package"
-			],
-			[
-				"sublimeserver",
-				"SublimeServer: Manage SublimeServer Settings"
-			],
-			[
-				"sublime",
-				"SublimeServer: Start SublimeServer"
-			],
-			[
-				"sublime server",
-				"SublimeZilla: Import FileZilla Server"
-			],
-			[
-				"disable pack",
-				"Package Control: Disable Package"
-			],
-			[
-				"hex vi",
-				"Hex Viewer: Find By Address"
-			],
-			[
-				"live",
-				"Set Syntax: LiveScript"
-			],
-			[
-				"enablep",
-				"Package Control: Enable Package"
-			],
-			[
-				"disable ",
-				"Package Control: Disable Package"
-			],
-			[
-				"encoder",
-				"StringEncode: Escape regex"
-			],
-			[
-				"de",
-				"StringEncode: Decimal to Hexadecimal"
-			],
-			[
-				"ascii",
-				"ASCII Decorator: Default Font"
-			],
-			[
-				"installp",
-				"Package Control: Install Package"
-			],
-			[
-				"decodie",
-				"Web encoder: Url encodeURI selection"
-			],
-			[
-				"reload",
-				"ConvertToUTF8: Reload with Encoding"
-			],
-			[
-				"decoding",
-				"ConvertToUTF8: Reload with Encoding"
-			],
-			[
-				"remove pac",
-				"Package Control: Remove Package"
-			],
-			[
-				"pack",
-				"Package Control: Remove Package"
-			],
-			[
-				"upgra",
-				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"highlight",
-				"Highlight Duplicates: Toggle highlighting"
-			],
-			[
-				"enabl",
-				"Package Control: Enable Package"
 			]
 		],
 		"width": 528.0
@@ -936,10 +949,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/apps/wordpress/htdocs"
+		"/C/xampp/apps/wordpress/htdocs",
+		"/C/xampp/apps/wordpress/htdocs/css"
 	],
 	"file_history":
 	[
+		"/C/xampp/apps/wordpress/htdocs/.gitignore",
+		"/C/xampp/apps/wordpress/htdocs/r8-C4.php",
+		"/C/xampp/apps/wordpress/htdocs/r1-A2.html",
+		"/C/xampp/apps/wordpress/htdocs/r0-Quizzzz.php",
+		"/C/xampp/apps/wordpress/htdocs/r9-E9a.php",
+		"/D/cansmile/팀 dropbox/Cha Cansmile B/Documents/Fluency/csfp20-00006 WP Lets Encrypt/csfp20-00006 WP Lets Encrypt.fpfx",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GhostText/GhostText.sublime-settings",
+		"/C/xampp/apps/wordpress/htdocs/r8-D5.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/xampp/apps/wordpress/htdocs/r8-D4.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GitOpenChangedFiles/Default (Windows).sublime-keymap",
+		"/C/xampp/apps/wordpress/htdocs/r8-B4.php",
 		"/C/xampp/apps/wordpress/htdocs/inhalt.php",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1582102961/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/nav.php",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1582102812/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/inhalt.php",
@@ -953,7 +979,6 @@
 		"/C/xampp/apps/wordpress/htdocs/r9-E10a.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E10.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E5.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E9a.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E8.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E6.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E4.php",
@@ -988,7 +1013,6 @@
 		"/C/xampp/apps/wordpress/htdocs/r1-B5.php",
 		"/C/Program Files/CPUID/CPU-Z/cpuz_readme.txt",
 		"/C/xampp/apps/wordpress/wp-config.php",
-		"/C/xampp/apps/wordpress/htdocs/.gitignore",
 		"/C/xampp/apps/wordpress/htdocs/wp-config.php",
 		"/C/xampp/apps/wordpress/htdocs/r7-C2.php",
 		"/c/xampp/apps/wordpress/htdocs/r7-C3.php",
@@ -1057,17 +1081,7 @@
 		"/c/xampp/apps/wordpress/htdocs/r2-B1.php",
 		"/c/xampp/apps/wordpress/htdocs/r2-C1.php",
 		"/c/xampp/apps/wordpress/htdocs/r2-C2.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-D1.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-D2.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-D3.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E1.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E3.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E4.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E5.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E6.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-A1.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-B1.php"
+		"/c/xampp/apps/wordpress/htdocs/r2-D1.php"
 	],
 	"find":
 	{
@@ -1104,6 +1118,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"csfp20-00006 WP Lets Encrypt",
+			"<div class=\"itm-lst 1itm col",
 			"!file",
 			"$ds",
 			"for($c = 97; $c < 123; $c++) {",
@@ -1229,9 +1245,7 @@
 			"col-12 my-2",
 			"aria-label=\".\" id=\"qst-",
 			"<input type=\"radio\" name=\"options\" id=\"option",
-			"<div class=\"btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-",
-			"col-sm-12 col-md-6 col-lg-6",
-			"border border-dark rounded p-1 px-2 d-block"
+			"<div class=\"btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1377,8 +1391,193 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "r1-G2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.42.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1430,6 +1629,14 @@
 		"height": 0.0
 	},
 	"output.git":
+	{
+		"height": 120.0
+	},
+	"output.git-commit":
+	{
+		"height": 120.0
+	},
+	"output.git-push":
 	{
 		"height": 120.0
 	},

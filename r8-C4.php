@@ -17,9 +17,7 @@
 						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>						
-						
 						</h2>
-						<h3>[ <small>문제를 모두 풀고 확인하세요.</small> ]</h3>
 					</div>
 				</div>
 				<div class="row">
@@ -48,6 +46,7 @@
 											<input type="radio" name="options" id="option3" autocomplete="off"><label for="option3">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>마틴피셔는 독감이다.</small></span>
 									</td>
 									<th width="50%" class="border-0 ailgn-middle" scope="row">hat Grippe.</th>
 								</tr>
@@ -64,6 +63,7 @@
 											<input type="radio" name="options" id="option6" autocomplete="off"><label for="option6">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>막스는 열이 있다.</small></span>
 									</td>
 									<th width="50%" class="border-0 ailgn-middle" scope="row">hat Fieber.</th>
 								</tr>
@@ -80,6 +80,7 @@
 											<input type="radio" name="options" id="option9" autocomplete="off"><label for="option9">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>마리 슈미트는 기침을 한다.</small></span>
 									</td>
 									<th width="50%" class="border-0 ailgn-middle" scope="row">hat Husten.</th>
 								</tr>
@@ -96,6 +97,7 @@
 											<input type="radio" name="options" id="option12" autocomplete="off"><label for="option12">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>마틴 피셔는 일하러 갈 수 없다.</small></span>
 									</td>
 									<th width="50%" class="border-0 ailgn-middle" scope="row">kann nicht arbeiten gehen.</th>
 								</tr>
@@ -112,6 +114,7 @@
 											<input type="radio" name="options" id="option15" autocomplete="off"><label for="option15">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>마리 슈미트는 쇼핑을 갈 수 없다.</small></span>
 									</td>
 									<th width="50%" class="border-0 ailgn-middle" scope="row">kann nicht einkaufen gehen.</th>
 								</tr>
@@ -128,11 +131,12 @@
 											<input type="radio" name="options" id="option18" autocomplete="off"><label for="option18">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>막스는 오늘 축구를 할 수 없다.</small></span>
 									</td>
 									<th class="border-0" scope="row">kann heute nicht Fußball spielen.</th>
 								</tr>
 								<tr>
-									<th width="50%" class="border-0 text-center" scope="row" colspan="2">Was sagt der Arzt?</th>
+									<th width="50%" class="border-0 text-center" scope="row" colspan="2">Was sagt der Arzt?<span class="tran"><br><small>의사는 무슨 말을 하나요?</small></span></th>
 								</tr>
 								<tr>
 									<td class="border-0 text-right py-0">
@@ -147,6 +151,7 @@
 											<input type="radio" name="options" id="option21" autocomplete="off"><label for="option21">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>“아스피린을 먹어야 해.”</small></span>
 									</td>
 									<th class="border-0" scope="row">„Du sollst Aspirin einnehmen“</th>
 								</tr>
@@ -163,6 +168,7 @@
 											<input type="radio" name="options" id="option24" autocomplete="off"><label for="option24">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>“기침약을 복용하세요.”</small></span>
 									</td>
 									<th width="50%" class="border-0 ailgn-middle" scope="row">„Nehmen Sie Hustensaft.”</th>
 								</tr>
@@ -179,6 +185,7 @@
 											<input type="radio" name="options" id="option27" autocomplete="off"><label for="option27">Max</label>
 											</div>
 										</div>
+										<span class="tran"><br><small>“누워있으셔야 해요.”</small></span>
 									</td>
 									<th width="50%" class="border-0 ailgn-middle" scope="row">„Sie sollen im Bett bleiben”.</th>
 								</tr>
@@ -369,13 +376,13 @@
 						$(".pop").each(function() {
 							$(this).removeClass("btn-info");
 
+							$(this).removeClass("btn-warning");
 							if ($(this).hasClass("o") && $(this).hasClass("an")) {
-								$(this).removeClass("btn-warning");
 								$(this).addClass("btn-success");
 							} else if ($(this).hasClass("o")) {
-								$(this).addClass("btn-danger");
-							} else if ($(this).hasClass("an")) {
 								$(this).addClass("btn-warning");
+							} else if ($(this).hasClass("an")) {
+								$(this).addClass("btn-danger");
 							} else {
 								$(this).addClass("btn-light");
 							};

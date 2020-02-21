@@ -8,26 +8,33 @@
 		<div class="row">
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm rounded-circle px-3" id="1">
-					a
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-3" id="1">
+					Nimm doch Hustensaft!
+					<span class="tran"><br><small>기침 시럽 복용!</small>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm rounded-circle px-3" id="2">
-					b
+				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm px-3" id="2">
+					Lernt nicht viel und geht spazieren!
+					<span class="tran"><br><small>(너희들) 많이 공부하지 말고 산책가거라!</small>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm rounded-circle px-3" id="3">
-					c
+				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm px-3" id="3">
+					Seien Sie bitte ruhig!
+					<span class="tran"><br><small>조용히 하세요!</small>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-					d
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-3" id="4">
+					Geh zum Arzt!
+					<span class="tran"><br><small>의사에게 가거라(너)!</small>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-					e
+				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm px-3" id="5">
+					Habt keine Angst!
+					<span class="tran"><br><small>두려워하지 말아라(너희들)!</small>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-					f
+				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-3" id="6">
+					Trinken Sie Kamillentee!
+					<span class="tran"><br><small>카모마일 차 마시지요!</small>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm rounded-circle px-3" id="4">
-					g
+				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-3" id="7">
+					Machen Sie Rückengymnastik!
+					<span class="tran"><br><small>허리 운동하세요!</small>
 				</button>
 			</div>
 		</div>
@@ -43,126 +50,85 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="my-2 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-						<table class="table">
-							<tbody>
-								<tr>
-									<th class="border-0 align-middle" scope="row">a</th>
-									<td class="border-0 align-middle">Nimm doch Hustensaft!
-										<span class="tran"><br><small>기침 시럽 복용!</small></td>
-								</tr>
-								<tr>
-									<th class="border-0 align-middle" scope="row">b</th>
-									<td class="border-0 align-middle">Lernt nicht viel und geht spazieren!
-									<span class="tran"><br><small>(너희들) 많이 공부하지 말고 산책가거라!</small></td>
-								</tr>
-								<tr>
-									<th class="border-0 align-middle" scope="row">c</th>
-									<td class="border-0 align-middle">Seien Sie bitte ruhig!
-									<span class="tran"><br><small>조용히 하세요!</small></td>
-								</tr>
-								<tr>
-									<th class="border-0 align-middle" scope="row">d</th>
-									<td class="border-0 align-middle">Geh zum Arzt!
-									<span class="tran"><br><small>의사에게 가거라(너)!</small></td>
-								</tr>
-								<tr>
-									<th class="border-0 align-middle" scope="row">e</th>
-									<td class="border-0 align-middle">Habt keine Angst!
-									<span class="tran"><br><small>두려워하지 말아라(너희들)!</small></td>
-								</tr>
-								<tr>
-									<th class="border-0 align-middle" scope="row">f</th>
-									<td class="border-0 align-middle">Trinken Sie Kamillentee!
-									<span class="tran"><br><small>카모마일 차 마시지요!</small></td>
-								</tr>
-								<tr>
-									<th class="border-0 align-middle" scope="row">g</th>
-									<td class="border-0 align-middle">Machen Sie Rückengymnastik!
-									<span class="tran"><br><small>허리 운동하세요!</small></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<div class="col-12">
 						<table class="table">
 							<tbody>
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">1.</th>
-									<td width="50" class="border-0 align-middle">
+									<td class="border-0 align-middle">Husten (Kind)
+									<span class="tran"><br><small>기침 (어린이)</small></span></td>
+									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-1">
-											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Husten (Kind)
-									<span class="tran"><br><small>기침 (어린이)</small></span></td>
 								</tr>
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">2.</th>
-									<td width="50" class="border-0 align-middle">
+									<td class="border-0 align-middle">Grippe (Mina)
+									<span class="tran"><br><small>독감 (미나)</small></span></td>
+									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-2">
-											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Grippe (Mina)
-									<span class="tran"><br><small>독감 (미나)</small></span></td>
 								</tr>
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">3.</th>
-									<td width="50" class="border-0 align-middle">
+									<td class="border-0 align-middle">Rückenschmerzen (Frau Park)
+									<span class="tran"><br><small>요통 (박 여사)</small></span></td>
+									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-3">
-											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Rückenschmerzen (Frau Park)
-									<span class="tran"><br><small>요통 (박 여사)</small></span></td>
 								</tr>
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">4.</th>
-									<td width="50" class="border-0 align-middle">
+									<td class="border-0 align-middle">Bauchschmerzen (Herr Kim)
+									<span class="tran"><br><small>독감 (김씨)</small></span></td>
+									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-4">
-											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Bauchschmerzen (Herr Kim)
-									<span class="tran"><br><small>독감 (김씨)</small></span></td>
 								</tr>
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">5.</th>
-									<td width="50" class="border-0 align-middle">
+									<td class="border-0 align-middle">nervös (wir)
+									<span class="tran"><br><small>긴장 (우리)</small></span></td>
+									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-5">
-											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">nervös (wir)
-									<span class="tran"><br><small>긴장 (우리)</small></span></td>
 								</tr>
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">6.</th>
-									<td width="50" class="border-0 align-middle">
+									<td class="border-0 align-middle">Prüfung (wir)
+									<span class="tran"><br><small>검사 (우리)</small></span></td>
+									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-6">
-											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Prüfung (wir)
-									<span class="tran"><br><small>검사 (우리)</small></span></td>
 								</tr>
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">7.</th>
-									<td width="50" class="border-0 align-middle">
+									<td class="border-0 align-middle">zu laut (Studenten)
+									<span class="tran"><br><small>큰 소리 (학생)</small></span></td>
+									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-7">
-											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+											<h2 class="btn btn-warning btn-xl ttl d-block">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">zu laut (Studenten)
-									<span class="tran"><br><small>큰 소리 (학생)</small></span></td>
 								</tr>
 							</tbody>
 						</table>

@@ -193,7 +193,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["Fieber", "Grippe", "Kopfschmerzen", "Kopf", "Halsschmerzen", "Mein Hals", "Zahnschmerzen.", "Zahn", "Bauch", "Bauchschmerzen"];
+		var an=["Fieber", "Grippe", "Kopfschmerzen", "Kopf", "Halsschmerzen", "Mein Hals", "Zahnschmerzen", "Zahn", "Bauch", "Bauchschmerzen"];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사

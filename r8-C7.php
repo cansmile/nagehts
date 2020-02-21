@@ -13,7 +13,7 @@
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn text-left ans1 btn-lg btn-outline-dark itm px-3" id="1">
 					Liebe Julia,
-					<span class="tran"><br><small>사랑하는 ○○○</small></span>
+					<span class="tran"><br><small>사랑하는 율리아</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn text-left ans10 btn-lg btn-outline-dark itm px-3 so" id="2">
 					Max

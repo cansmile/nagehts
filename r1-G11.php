@@ -398,19 +398,7 @@
 
 					$(this).removeClass("btn-light ");
 					$(".tran").show();
-					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!</h4>");
-						$(this).addClass("btn-danger");
-
-					} else if ($(".btn-success").length == $(".q").length) {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>혹시 독일인이세요?</h4>");
-						$(this).addClass("btn-primary");
-
-					} else {
-						$(this).html('<h4>' + $(".q").length + "문제 중 " + $(".btn-success").length + "개를 맞히셨네요!<br>훌륭합니다!</h4>");
-						$(this).addClass("btn-warning");
-
-					};
+					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {} else if ($(".btn-success").length == $(".q").length) {} else { };
 				};
 			});
 		$("#0").show();

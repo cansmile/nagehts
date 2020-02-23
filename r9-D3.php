@@ -70,11 +70,11 @@
 			</div>
 		</div>
 		<div class="row border border-dark p-2 rounded">
-			<div class="col-12" style="line-height: 250%;">Mina hat eine neue Wohnung.<span class="tran"><br><small>translate</small></span> Sie möchte Sie zur Einweihungsparty einladen.<span class="tran"><br><small>translate</small></span>
+			<div class="col-12" style="line-height: 250%;">Mina hat eine neue Wohnung.<span class="tran"><br><small>미나는 새로운 집을 구했다.</small><br></span> Sie möchte Sie zur Einweihungsparty einladen.<span class="tran"><br><small>그녀는 당신을 집들이 파티에 초대하고 싶다. </small><br></span>Die Party findet am Samstag, den 10. Dezember um 17 Uhr statt.<span class="tran"><br><small>파티는 12월 10일 토요일, 17시에 열린다.</small><br></span>
 <ul>
-	<li>Sie danken ihr zuerst für die Einladung.<span class="tran"><br><small>translate</small></span></li>
-	<li>Sagen Sie, Sie kommen.<span class="tran"><br><small>translate</small></span></li>
-	<li>Fragen Sie, wie die Anschrift ist, wie groß die Wohnung ist, wie hoch die Miete ist.<span class="tran"><br><small>translate</small></span></li>
+	<li>Sie danken ihr zuerst für die Einladung.<span class="tran"><br><small>당신은 우선 그녀에게 초대에 대한 감사를 전한다.</small><br></span></li>
+	<li>Sagen Sie, Sie kommen.<span class="tran"><br><small>당신은 참석하겠다고 말하라.</small><br></span></li>
+	<li>Fragen Sie, wie die Anschrift ist, wie groß die Wohnung ist, wie hoch die Miete ist.<span class="tran"><br><small>주소가 어떻게 되는지, 집은 얼마나 큰지, 월세는 어느 정도 되는지 물어보라.</small><br></span></li>
 </ul>
 
 </div>

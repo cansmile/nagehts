@@ -15,22 +15,22 @@
  			<div class="row py-2 border border-dark my-2 rounded bg-light" style="line-height: 300%;">
 				<div class="col-12">
 					Liebe Maria, lieber Tim,
-					<span class="tran"><br><small>translate</small></span><br>
+					<span class="tran"><br><small>마리아, 팀에게,</small></span><br>
 					ich habe meine Prüfung bestanden.
-					<span class="tran"><br><small>translate</small></span><br>
+					<span class="tran"><br><small>나 시험에 합격했어.</small></span><br>
 				</div>
 				<div class="col-12 my-2">
 					<div class="input-group">
 					Das möchte <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">gern mit<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2"> meinen anderen Freunden feiern.
-					<span class="tran"><br><small>translate</small></span> Die Party ist am Samstag, 4. 5., um 20.00 Uhr.
-					<span class="tran"><br><small>translate</small></span> <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">lade<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">herzlich ein.
-					<span class="tran"><br><small>translate</small></span> Habt<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5">da Zeit?
-					<span class="tran"><br><small>translate</small></span>Bitte antwortet<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">bis Donnerstag oder<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-7">ruft an.
-					<span class="tran"><br><small>translate</small></span><br>
+					<span class="tran"><br><small>너희와 다른 나의 친구들과 함께 파티를 하고 싶어.</small></span> Die Party ist am Samstag, 4. 5., um 20.00 Uhr.
+					<span class="tran"><br><small>파티는 5월 4일 토요일, 20시야.</small></span> <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">lade<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">herzlich ein.
+					<span class="tran"><br><small>너희를 초대할게.</small></span> Habt<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5">da Zeit?
+					<span class="tran"><br><small>너희는 그 때에 시간이 있니?</small></span>Bitte antwortet<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">bis Donnerstag oder<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-7">ruft an.
+					<span class="tran"><br><small>목요일까지 나에게 대답해주거나 전화해줘.</small></span><br>
 					</div>
 					<div class="col-12  text-right">Herzliche Grüße
-						<span class="tran"><br><small>translate</small></span><br>Eure Mina
-						<span class="tran"><br><small>translate</small></span></div>
+						<span class="tran"><br><small>인사를 전하며,</small></span><br>Eure Mina
+						<span class="tran"><br><small>너희의 미나.</small></span></div>
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->

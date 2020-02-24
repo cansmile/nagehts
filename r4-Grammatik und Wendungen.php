@@ -11,7 +11,7 @@
 						<div class="card-header" id="heading1">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
-									<strong>unbestimmter Artikel im Nominativ und Akkusativ</strong> <small>주격 및 목적격 부정관사</small>
+									<strong>F1. unbestimmter Artikel im Nominativ und Akkusativ</strong> <small>주격 및 목적격 부정관사</small>
 								</button>
 							</h5>
 						</div>
@@ -19,24 +19,30 @@
 							<table class="table text-justify align-middle border-0">
 								<tbody>
 									<tr>
-										<th scope="row" rowspan="3">Was <strong>ist</strong> das?</th>
-										<td>- Das ist <span class="bg-secondary text-white px-2"><strong>ein</strong></span> Computer.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>- Das ist <span class="bg-secondary text-white px-2"><strong>eine</strong></span> Uhr.</td>
+										<th scope="row" rowspan="3"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was <strong>ist</strong> das?</th>
+										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Das ist <span class="bg-secondary text-white px-2"><strong>ein</strong></span> Computer.</td>
 									</tr>
 									<tr>
-										<td>- Das ist <span class="bg-secondary text-white px-2"><strong>ein</strong></span> Smartphone.</td>
+										<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Das ist <span class="bg-secondary text-white px-2"><strong>eine</strong></span> Uhr.</td>
 									</tr>
 									<tr>
-										<th scope="row" rowspan="3">Was <strong>haben</strong> Sie?</th>
-										<td>- Ich habe <span class="bg-secondary text-white px-2"><strong>einen</strong></span> Computer.</td>
+										<td><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Das ist <span class="bg-secondary text-white px-2"><strong>ein</strong></span> Smartphone.</td>
 									</tr>
 									<tr>
-										<td>- Ich habe <span class="bg-secondary text-white px-2"><strong>eine</strong></span> Uhr.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>- Ich habe <span class="bg-secondary text-white px-2"><strong>ein</strong></span> Smartphone.</td>
+										<th scope="row" rowspan="3"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was <strong>haben</strong> Sie?</th>
+										<td><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich habe <span class="bg-secondary text-white px-2"><strong>einen</strong></span> Computer.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich habe <span class="bg-secondary text-white px-2"><strong>eine</strong></span> Uhr.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich habe <span class="bg-secondary text-white px-2"><strong>ein</strong></span> Smartphone.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -68,7 +74,7 @@
 						<div class="card-header" id="heading2">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
-									<strong>bestimmter Artikel im Nominativ und Akkusativ</strong> <small>주격 및 목적격 정관사</small>
+									<strong>F2. bestimmter Artikel im Nominativ und Akkusativ</strong> <small>주격 및 목적격 정관사</small>
 								</button>
 							</h5>
 						</div>
@@ -76,16 +82,19 @@
 							<table class="table text-center align-middle">
 								<tbody>
 									<tr>
-										<td>Hier ist der Computer.</td>
-										<td>Ich habe den Computer.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>Hier ist die Uhr.</td>
-										<td>Ich habe die Uhr.</td>
+										<td><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hier ist der Computer.</td>
+										<td><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich habe den Computer.</td>
 									</tr>
 									<tr>
-										<td>Hier ist das Smartphone.</td>
-										<td>Ich habe das Smartphone.</td>
+										<td><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hier ist die Uhr.</td>
+										<td><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich habe die Uhr.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hier ist das Smartphone.</td>
+										<td><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich habe das Smartphone.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -117,7 +126,7 @@
 						<div class="card-header" id="heading3">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
-									<strong>Verbkonjugation von haben und sein</strong> <small>haben과 sein의 동사변화</small>
+									<strong>F3. Verbkonjugation von haben und sein</strong> <small>haben과 sein의 동사변화</small>
 								</button>
 							</h5>
 						</div>
@@ -169,7 +178,7 @@
 						<div class="card-header" id="heading4">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
-									<strong>Negation: kein / keine / nicht</strong> <small>부정어: kein / keine / nicht</small>
+									<strong>F4. Negation: kein / keine / nicht</strong> <small>부정어: kein / keine / nicht</small>
 								</button>
 							</h5>
 						</div>
@@ -177,16 +186,19 @@
 							<table class="table">
 								<tbody>
 									<tr>
-										<td>Auf Ullungdo gibt es <strong>keine</strong> Universität.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>Karla ist <strong>keine</strong> Telefonistin, sondern Sekretärin.</td>
+										<td><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Auf Ullungdo gibt es <strong>keine</strong> Universität.</td>
 									</tr>
 									<tr>
-										<td>Er ist <strong>kein</strong> Engländer, sondern Amerikaner.</td>
+										<td><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Karla ist <strong>keine</strong> Telefonistin, sondern Sekretärin.</td>
 									</tr>
 									<tr>
-										<td>Sim Chung ist <strong>nicht</strong> alt.</td>
+										<td><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Er ist <strong>kein</strong> Engländer, sondern Amerikaner.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sim Chung ist <strong>nicht</strong> alt.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -196,7 +208,7 @@
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-purple mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
-									<strong>Personalpronomen im Nominativ</strong> <small>주격 인칭대명사</small>
+									<strong>F5. Personalpronomen im Nominativ</strong> <small>주격 인칭대명사</small>
 								</button>
 							</h5>
 						</div>
@@ -204,16 +216,19 @@
 							<table class="table">
 								<tbody>
 									<tr>
-										<td>Wie ist <u>der Schrank</u>?</td>
-										<td>- <strong>Er</strong> ist schön.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>Wie ist <u>die Uhr</u>?</td>
-										<td>- <strong>Sie</strong> ist altmodisch.</td>
+										<td><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist <u>der Schrank</u>?</td>
+										<td><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- <strong>Er</strong> ist schön.</td>
 									</tr>
 									<tr>
-										<td>Wie ist <u>das Regal</u>?</td>
-										<td>- <strong>Es</strong> ist klein.</td>
+										<td><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist <u>die Uhr</u>?</td>
+										<td><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- <strong>Sie</strong> ist altmodisch.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist <u>das Regal</u>?</td>
+										<td><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- <strong>Es</strong> ist klein.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -223,7 +238,7 @@
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-pink mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse6" area-expanded="false" aria-controls="collapse6" id="6">
-									<strong>Redewendungen</strong> <small>어휘와 숙어</small>
+									<strong>F6. Redewendungen</strong> <small>어휘와 숙어</small>
 								</button>
 							</h5>
 						</div>
@@ -329,12 +344,119 @@
 	</div>
 </section>
 
+<div id="last" class="d-none"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<script>
+			// 소리 출력 전역 변수와 함수
+			var sen = new Array(), pa = new Array(), he = new Array(), last;
+			$(".so").each(function() {
+				var t = $(this);
+				var ti = t.attr("id");
+				sen[ti] = 0;
+				pa[ti] = t.html();
+				he[ti] = t.height();
+			});
+
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				});
+			}
+
+			var nagehts = new Howl({
+				// src: ["./sounds/Reihe 1/r1 H.mp3"],
+				src: ["./sounds/Reihe 4/r4 F.mp3"],
+				sprite : {
+					"1": [8878, 12771],
+					"2": [8878, 2716],
+					"3": [11785, 2576],
+					"4": [14995, 2926],
+					"5": [18724, 2876],
+					"6": [22413, 12371],
+					"7": [22413, 2708],
+					"8": [25175, 3239],
+					"9": [28809, 2209],
+					"10": [32031, 2682],
+					"11": [43395, 20791],
+					"12": [43395, 3260],
+					"13": [47296, 2786],
+					"14": [51053, 2548],
+					"15": [54560, 2151],
+					"16": [58120, 2681],
+					"17": [61236, 2187],
+					"18": [73585, 20618],
+					"19": [73585, 4769],
+					"20": [78050, 5091],
+					"21": [85031, 5063],
+					"22": [90746, 3287],
+					"23": [100598, 18388],
+					"24": [100598, 3079],
+					"25": [103673, 2749],
+					"26": [107319, 2205],
+					"27": [109829, 2703],
+					"28": [113962, 2391],
+					"29": [116567, 2194]
+				},
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				},
+				onload: function() {
+					// 음성 준비되면 HV 버튼 나타내기 
+					$("#whole").show();
+					$("#alt").hide();
+					// $(".alert").hide();
+
+					$(".so").on("click", function(idx) {
+							var t = $(this);
+							var ti = t.attr("id");
+
+						if($("div#last").text() == "" || t.text() == "❚❚") {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ti]++;
+				
+							last = ti;
+				
+							$("#cnt-"+ti).text(sen[ti]);
+						} else if(last == ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ti]);
+							nagehts.pause();
+							sen[ti]--;
+							$("#cnt-"+ti).text(sen[ti]);
+						}
+
+					});
+				},
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(sen[last] == 2) {
+						$("#"+last).find(".tran").show();
+					}
+				}
+
+
+			});
+
+
+	
+	</script>
+
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

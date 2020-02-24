@@ -29,7 +29,7 @@
 					<div class="input-group">
 						Sie fahren nach Berlin. Man kann ihnen einen Reiseführer schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">.
 					</div>
-					<span class="tran"><br><small>translate</small></span>
+					<span class="tran"><br><small>그들이 베를린으로 가기 때문에, 그들에게 여행 안내서를 선물할 수 있다.</small></span>
 				</div>
 			</div>
 			<div class="row border border-dark p-2 my-2 rounded py-4">
@@ -39,7 +39,7 @@
 					<div class="input-group">
 						Er räumt gern auf. Man kann ihm einen Mülleimer schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">.
 					</div>
-					<span class="tran"><br><small>translate</small></span>
+					<span class="tran"><br><small>그가 청소를 좋아하기 때문에, 그에게 쓰레기통을 선물할 수 있다.</small></span>
 				</div>
 			</div>
 			<div class="row border border-dark p-2 my-2 rounded py-4">
@@ -49,7 +49,7 @@
 					<div class="input-group">
 						Er hat bald ein Vorstellungsgespräch. Mann kann ihm eine Krawatte schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">.
 					</div>
-					<span class="tran"><br><small>translate</small></span>
+					<span class="tran"><br><small>그가 면접을 앞두고 있기 때문에, 그에게 넥타이를 선물할 수 있다.</small></span>
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->

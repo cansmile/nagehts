@@ -34,7 +34,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="1" class="so btn btn-secondary">1</button></th>
-							<td>Wie ist ihr Name?<span class="tran"><br><small>당신의 이름은 무엇인가요?</small></span></td>
+							<td class="text-leftt">Wie ist ihr Name?<span class="tran"><br><small>당신의 이름은 무엇인가요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -48,7 +48,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="2" class="so btn btn-secondary">2</button></th>
-							<td>Ich heiße Maria Kim.<span class="tran"><br><small>저는 마리아 킴입니다.</small></span></td>
+							<td class="text-leftt">Ich heiße Maria Kim.<span class="tran"><br><small>저는 마리아 킴입니다.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -62,7 +62,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="3" class="so btn btn-secondary">3</button></th>
-							<td>Mina. Und du?<span class="tran"><br><small>미나야. 너는?</small></span></td>
+							<td class="text-leftt">Mina. Und du?<span class="tran"><br><small>미나야. 너는?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -76,7 +76,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="4" class="so btn btn-secondary">4</button></th>
-							<td>Ja, mein Name ist Kim.<span class="tran"><br><small>응, 나의 이름은 김이야.</small></span></td>
+							<td class="text-leftt">Ja, mein Name ist Kim.<span class="tran"><br><small>응, 나의 이름은 김이야.</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -90,7 +90,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="5" class="so btn btn-secondary">5</button></th>
-							<td>Wie geht es dir?<span class="tran"><br><small>어떻게 지내?</small></span></td>
+							<td class="text-leftt">Wie geht es dir?<span class="tran"><br><small>어떻게 지내?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -113,7 +113,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="6" class="so btn btn-secondary">6</button></th>
-							<td>Danke, gut. Und dir?<span class="tran"><br><small>고마워, 좋아. 너는?</small></span></td>
+							<td class="text-leftt">Danke, gut. Und dir?<span class="tran"><br><small>고마워, 좋아. 너는?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -127,7 +127,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="7" class="so btn btn-secondary">7</button></th>
-							<td>Was machen Sie ?<span class="tran"><br><small>당신은 무슨 일을 하시나요?</small></span></td>
+							<td class="text-leftt">Was machen Sie ?<span class="tran"><br><small>당신은 무슨 일을 하시나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -141,7 +141,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-secondary">8</button></th>
-							<td>Sind Sie Studentin?<span class="tran"><br><small>당신은 학생인가요?</small></span></td>
+							<td class="text-leftt">Sind Sie Studentin?<span class="tran"><br><small>당신은 학생인가요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -155,7 +155,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-secondary">9</button></th>
-							<td>Woher kommen Sie?<span class="tran"><br><small>어디에서 오셨나요?</small></span></td>
+							<td class="text-leftt">Woher kommen Sie?<span class="tran"><br><small>어디에서 오셨나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
 									<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -169,7 +169,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-secondary">10</button></th>
-							<td>Kommen Sie aus Korea?<span class="tran"><br><small>당신은 한국에서 오셨나요?</small></span></td>
+							<td class="text-leftt">Kommen Sie aus Korea?<span class="tran"><br><small>당신은 한국에서 오셨나요?</small></span></td>
 							<td>
 								<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
 									<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -371,7 +371,7 @@
 					$(this).removeClass("btn-light ");
 
 					var qa = $(".q").length; // 전체 문항 수
-					var qr = $(".bg-success").length; // 맞춘 항목 수
+					var qr = $(".btn-success").length; // 맞춘 항목 수
 					var pe = (qr / qa) * 100; // 정답 비율
 					var tcl = "white"; // 기본 문자색
 

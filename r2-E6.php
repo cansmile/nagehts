@@ -1,134 +1,153 @@
 <?php include "header.php"; ?>
-	<body>
-<?php include "nav.php"; ?>
-<?php if(ul()) { ?>
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col text-center">
-						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
-						<h3>[ <small>답안을 보고 알맞은 문제를 입력하세요.</small> ]</h3>
-					</div>
+<body>
+	<?php include "nav.php"; ?>
+	<?php if(ul()) { ?>
+	<!-- 보기시작 -->
+	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+		<div class="container">
+			<div class="row">
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col-12" id="itms">
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="1">
+					Und du, wer bist du?
+					<span class="tran"><br>&nbsp;<small>그리고 넌, 네 이름은 뭐야?</small></span>
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
+					Wo wohnen Sie?
+					<span class="tran"><br>&nbsp;<small>당신은 어디에서 사나요?</small></span>
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="3">
+					Und dir? Geht es dir gut?
+					<span class="tran"><br>&nbsp;<small>너는 어때? 잘 지내니?</small></span>
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
+					wie heißen Sie?
+					<span class="tran"><br>&nbsp;<small>당신의 이름은 뭔가요?</small></span>
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="5">
+					Wohnst du in Berlin?
+					<span class="tran"><br>&nbsp;<small>너는 어디 살아?</small></span>
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
+					Wie geht es dir?
+					<span class="tran"><br>&nbsp;<small>너는? 너는 잘 지내?</small></span>
+					</button>
+					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="7">
+					Sprechen Sie Deutsch?
+					<span class="tran"><br>&nbsp;<small>독일어를 말할 수 있나요?</small></span>
+					</button>
 				</div>
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-						<table class="table">
-							<tbody>
-								<tr>
-									<th width="50px" class="border-top-0 border-bottom-0">1.</th>
-									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-1"></div>
-										<div class="input-group">
-											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
-											(Sie)
-										</div>
-										<span class="tran"><small>당신의 이름은 뭔가요?</small></span>
-									</td>
-									<td width="50%">
-										Mein Name ist Mina Kim.<span class="tran"><br><small>저의 이름은 미나 김이에요.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<th class="border-top-0 border-bottom-0">2.</th>
-									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-2"></div>
-										<div class="input-group">
-											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-2">
-											(Sie)
-										</div>
-										<span class="tran"><small>당신은 어디에서 사나요?</small></span>
-									</td>
-									<td>
-										Ich wohne in Seoul.<span class="tran"><br><small>저는 서울에서 살아요.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<th class="border-top-0 border-bottom-0">3.</th>
-									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-3"></div>
-										<div class="input-group">
-											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-3">
-											(Sie)
-										</div>
-										<span class="tran"><small>독일어를 말할 수 있나요?</small></span>
-									</td>
-									<td>
-										Ja, ich spreche etwas Deutsch.<span class="tran"><br><small>네, 저는 독일어를 조금 해요.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<th class="border-top-0 border-bottom-0">4.</th>
-									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-4"></div>
-										<div class="input-group">
-											Und du,
-											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-4">
-											(du)
-										</div>
-										<span class="tran"><small>그리고 넌, 네 이름은 뭐야?</small></span>
-									</td>
-									<td>
-										Ich bin Sabine.<span class="tran"><br><small>나는 자비네야.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<th class="border-top-0 border-bottom-0">5.</th>
-									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-5"></div>
-										<div class="input-group">
-											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-5">
-											(du)
-										</div>
-										<span class="tran"><small>너는? 너는 잘 지내?</small></span>
-									</td>
-									<td>
-										Gut, danke!<span class="tran"><br><small>잘지내, 고마워!</small></span>
-									</td>
-								</tr>
-								<tr>
-									<th class="border-top-0 border-bottom-0">6.</th>
-									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-6"></div>
-										<div class="input-group">
-											Und dir?
-											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-6">
-											(du)
-										</div>
-										<span class="tran"><small>너는 어때? 잘 지내니?</small></span>
-									</td>
-									<td>
-										Ja, Danke.<span class="tran"><br><small>응, 고마워.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<th class="border-top-0 border-bottom-0">7.</th>
-									<td class="border-top-0 border-bottom-0">
-										<div class="ant" id="ant-7"></div>
-										<div class="input-group">
-											<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-7">
-											(du)
-										</div>
-										<span class="tran"><small>너는 어디 살아?</small></span>
-									</td>
-									<td>
-										Ja, ich wohne in Berlin.<span class="tran"><br><small>응, 난 베를린에 살아.</small></span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h3>[ <small>문제에 맞는 답안을 알맞게 짝지우세요.</small> ]</h3>
 				</div>
-				<!-- 정답화인 버튼 시작 -->
-				<div class="row">
-					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-						정답확인
-					</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<table class="table table-light text-center">
+						<tbody>
+							<tr>
+								<th class="bg-light" scope="row" width="10%">1</th>
+								<td width="40%">
+									<div class="itm-lst 1itm" id="lst-1">
+										<h2 class="btn btn-warning btn-xl ttl d-block">
+										▼ </h2>
+									</div>
+								</td>
+								<td>
+									Mein Name ist Mina Kim.
+									<span class="tran"><br>&nbsp;<small>저의 이름은 미나 김이에요.</small></span></td>
+							</tr>
+							<tr>
+								<th class="bg-light" scope="row">2</th>
+								<td>
+									<div class="itm-lst 1itm" id="lst-2">
+										<h2 class="btn btn-warning btn-xl ttl d-block">
+										▼ </h2>
+									</div>
+								</td>
+								<td>
+									Ich wohne in Seoul.
+									<span class="tran"><br>&nbsp;<small>저는 서울에서 살아요.</small></span></td>
+							</tr>
+							<tr>
+								<th class="bg-light" scope="row">3</th>
+								<td>
+									<div class="itm-lst 1itm" id="lst-3">
+										<h2 class="btn btn-warning btn-xl ttl d-block">
+										▼ </h2>
+									</div>
+								</td>
+								<td>
+									Ja, ich spreche etwas Deutsch.
+									<span class="tran"><br>&nbsp;<small>네, 저는 독일어를 조금 해요.</small></span></td>
+							</tr>
+							<tr>
+								<th class="bg-light" scope="row">4</th>
+								<td>
+									<div class="itm-lst 1itm" id="lst-4">
+										<h2 class="btn btn-warning btn-xl ttl d-block">
+										▼ </h2>
+									</div>
+								</td>
+								<td>
+									 Ich bin sabine.
+									<span class="tran"><br>&nbsp;<small>나는 자비네야.</small></span></td>
+							</tr>
+							<tr>
+								<th class="bg-light" scope="row">5</th>
+								<td>
+									<div class="itm-lst 1itm" id="lst-5">
+										<h2 class="btn btn-warning btn-xl ttl d-block">
+										▼ </h2>
+									</div>
+								</td>
+								<td>
+									Gut, danke!
+									<span class="tran"><br>&nbsp;<small>잘지내, 고마워!</small></span></td>
+							</tr>
+							<tr>
+								<th class="bg-light" scope="row">6</th>
+								<td>
+									<div class="itm-lst 1itm" id="lst-6">
+										<h2 class="btn btn-warning btn-xl ttl d-block">
+										▼ </h2>
+									</div>
+								</td>
+								<td>
+									Ja, Danke.
+									<span class="tran"><br>&nbsp;<small>응, 고마워.</small></span></td>
+							</tr>
+							<tr>
+								<th class="bg-light" scope="row">7</th>
+								<td>
+									<div class="itm-lst 1itm" id="lst-7">
+										<h2 class="btn btn-warning btn-xl ttl d-block">
+										▼ </h2>
+									</div>
+								</td>
+								<td>
+									Ja, ich wohne in Berlin.
+									<span class="tran"><br>&nbsp;<small>응, 난 베를린에 살아.</small></span></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-				<!-- 정답확인 버튼 끝 -->
-
-				<div class="row text-center">
-				<div class="col"></div>
-				<div class="col-sm-9 col-md-8 col-lg-7 col-xl-10">
+			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
+			<div class="row">
+				<div class="col">
 					<table class="table text-center">
 						<thead>
 							<th scope="col">
@@ -142,222 +161,140 @@
 						</tbody>
 					</table>
 				</div>
-				<div clasas="col"></div>				
 			</div>
 		</div>
 	</section>
-		
+	<div id="marg"></div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/taptogroup.js"></script>
+	<!-- interact.min.js -->
+	<script src="./js/ion.sound.min.js"></script>
+	<script>
+		$("#0").hide();
+		$("#0_p").hide();
+		$(".tran").hide();
+		$("#chk").hide();
+		$(document).ready(function() {
+			$(".o").on("click", function() {
+				ion.sound.play("dingdongdang");
+			}
+			);
+			$(".x").on("click", function() {
+				ion.sound.play("Cartoon_Boing");
+			}
+			);
+			$("[data-toggle='popover']").popover( {
+				delay : {
+					'hide': 1000
+				}
+				,
+				container : "body"
+			}
+			);
+			$(".pop").click(function () {
+				// 가장 먼저 지문에 'an' 넣기
+				if ( !$(this).siblings().hasClass("an")) {
+					$(this).addClass("an");
+					$(this).addClass("btn-warning");
+					$(this).parent().children().removeClass("btn-light");
+				}
+				;
+				// 문제 풀이 정도 업데이트
+				var perc=Math.round(($(".an").length / $(".q").length) * 100);
+				$(".progress>.bar").attr("width", perc + "%;");
+			}
+			);
+			// 팝업 내용 사라지기
+			$(".pop").popover().click(function() {
+				setTimeout(function() {
+					$(".pop").popover('hide');
+				}
+				, 500);
+			}
+			);
+	<?php include "wahl.php"; ?>
+	// 정답확인
+	$("#chk").on("click", function() {
+		var na="";
+		if($("#itms").find("button").length < 1) {
+			$(".tran").show();
+			$(".itm-lst").each(function() {
+			$(this).html($(this).find("button").html());
+				// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
+			}
+			);
 
-		
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
-		<script>
-			$(".tran").hide();
-			var an = new Array();
-			var an = ["Wie heißen Sie?","Wo wohnen Sie?","Sprechen Sie Deutsch?",["wie heißt du?", "wie ist dein Name?", "wer bist du?"],"Wie geht es dir?","Geht es dir gut?","Wohnst du in Berlin?"];
-			$(document).ready(function() {
-/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
-// 값 확인해보자, io값이 참이면 전체 검사
-function rfchk(th,io) {
-	var q, qn, a, b, fl;
-	q = th.val().length;
-	qn = (th.attr("id").substr(4))-1;
-	a = th.val();
-	a = a.replace(/ /gi, "");
-	if(!$.isArray(an[qn])) {
-		// 1 인 경우 
-		if(io) {
-			b = an[qn];
-		} else {
-			b = an[qn].substr(0,q);
-		}
-		b = b.replace(/ /gi, "");
 
-		if(a == b) {
-			return true;
-		}
+			// 정답 확인 div 상자 배경색 속성 없애기
+			$(this).removeClass("btn-light ");
 
-	} else {
-		// 2 이상인 경우
-		for(var fd = 0; fd < an[qn].length; fd++) {
-			if(io) {
-				b = an[qn][fd];
+			var qa = $(".itm-lst").length; // 전체 문항 수
+			var qr = $(".itm-lst>.tran").length; // 맞춘 항목 수
+			var pe = (qr / qa) * 100; // 정답 비율
+			var tcl = "white"; // 기본 문자색
+
+			// 분류 기준은 100%, 80%, 60%, 40%
+			if(pe > 99) {
+				var st = "원어민이세요?";
+				var cl = "lime";
+				var tcl = "dark";
+			} else if(pe > 74) {
+				var st = "어! 좀 하시는데요~^^";
+				var cl = "success";
+			} else if(pe > 49) {
+				var st = "쓰읍~ 다시 해 보실까요";
+				var cl = "primary";
 			} else {
-				b = an[qn][fd].substr(0,q);
+				var st = "좀 더 분발해 주세요";
+				var cl = "danger";
 			}
-			b = b.replace(/ /gi, "");
-			
-			if(a == b) {
-				return true;
-			}
+
+			$(this).addClass("btn-" + cl + " text-" + tcl);
+			$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
 		}
-		
+		else {
+			$("div.itm-lst").each(function(idx) {
+				if( !$(this).find("button").length) {
+					if(na !="") {
+						na +=", ";
+					}
+				na +=(idx+1);
+			}
+			}
+			);
+			alert(na+"번 문제를 풀어주세요!");
+		}
 	}
-}
-				$(".q").on("keyup", function () {
-					$(this).removeClass("bg-danger");
-					$(this).removeClass("bg-success");
-					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-danger");
-					$("#ant-"+$(this).attr("id").substr(4)).removeClass("text-success");
-
-					if(rfchk($(this))) {
-						$(this).addClass("text-white font-weight-bold");
-						$(this).addClass("bg-success");
-						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-					} else {
-						$(this).addClass("text-white font-weight-bold");
-						$(this).addClass("bg-danger");
-						$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
-					}
-
-					if(!$(this).val()) {
-						$(this).removeClass("bg-danger");
-						$(this).removeClass("bg-success");
-						$(this).removeClass("text-white font-weight-bold");
-					}
-					
-					if($(this).val()) {
-						$("#ant-"+$(this).attr("id").substr(4)).show();
-						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-					} else {
-						$("#ant-"+$(this).attr("id").substr(4)).hide();
-					}
-				})
-
-				$(".q").on("focusin", function() {
-					$("#ant-"+$(this).attr("id").substr(4)).show();
-					if(!$("#ant-"+$(this).attr("id").substr(4)).text()) {
-						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
-					}
-					if($("#ant-"+$(this).attr("id").substr(4)).text()) {
-						if(rfchk($(this))) {
-							$(this).addClass("text-white font-weight-bold");
-							$(this).addClass("bg-success");
-							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-success");
-						} else {
-							$(this).addClass("text-white font-weight-bold");
-							$(this).addClass("bg-danger");
-							$("#ant-"+$(this).attr("id").substr(4)).addClass("text-danger");
-						}
-					}
-				})
-
-				$(".q").on("focusout", function() {
-					$("#ant-"+$(this).attr("id").substr(4)).hide();
-
-					if(rfchk($(this),true)) {
-						$(this).addClass("bg-success");
-						$(this).addClass("text-white");
-					} else {
-						$(this).addClass("bg-danger");
-					}
-					if($(this).val()) {
-						if($(this).hasClass("bg-danger")) {
-							ion.sound.play("Cartoon_Boing");
-						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("dingdongdang");
-							$(this).prop("disabled",true);
-						}
-					}
-
-					$(this).removeClass("bg-danger");
-					if(!$(this).attr("disabled")) {
-						$(this).removeClass("text-white font-weight-bold");
-						$(this).removeClass("bg-success");
-					}
-				})
-/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
-
-				$("#chk").on("click", function() {
-						var na="";
-						var ri=0;
-						var qst=$(".q").length;
-						$(".q").each(function () {
-							if(na !="") {
-								na +=", ";
-							}
-							if($(this).val()=="") {
-								na +=$(this).attr("id").substr(4, 1);
-							}
-						}
-						);
-						if($(this).attr("id")=="done") {}
-						else if(na=="") {
-							for(var i=0;
-							i < an.length;
-							i++) {
-								var oran=$("#qst-"+(i+1)).val();
-								if(rfchk($("#qst-"+(i+1)), true)) {
-									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
-									$("#qst-"+(i+1)).removeClass("rounded-0");
-								}
-								else {
-									$("#qst-"+(i+1)).val(oran);
-									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
-									$("#qst-"+(i+1)).removeClass("rounded-0");
-									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
-								}
-								if($("#qst-"+(i+1)).hasClass("bg-success")) {
-									ri++;
-								}
-							}
-
-							// 정답 확인 div 상자 배경색 속성 없애기
-							$(this).removeClass("btn-light ");
-
-							var qa = $(".q").length; // 전체 문항 수
-							var qr = $(".bg-success").length; // 맞춘 항목 수
-							var pe = (qr / qa) * 100; // 정답 비율
-							var tcl = "white"; // 기본 문자색
-
-							// 분류 기준은 100%, 80%, 60%, 40%
-							if(pe > 99) {
-								var st = "원어민이세요?";
-								var cl = "lime";
-								var tcl = "dark";
-							} else if(pe > 74) {
-								var st = "어! 좀 하시는데요~^^";
-								var cl = "success";
-							} else if(pe > 49) {
-								var st = "쓰읍~ 다시 해 보실까요";
-								var cl = "primary";
-							} else {
-								var st = "좀 더 분발해 주세요";
-								var cl = "danger";
-							}
-
-							$(this).addClass("btn-" + cl + " text-" + tcl);
-							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-							
-							$(this).prop("disabled", true);
-							$(".tran").show();
-							$(this).attr("id", "done");
-
-							checkHeight();
-						}
-						else {
-							alert("모든 문제를 풀어주세요!");
-							// alert(na+"번 문제를 풀어주세요!");
-						}
-						;
-					})
-				$("#qst-1").val(an[0]);
-				$("#qst-1").addClass("bg-success text-white font-weight-bold");
-				$("#qst-1").prop("disabled",true);
-
-				// $("#qst-1").closest("tr").find(".tran").show();
-
-			});
-			
-		</script>
-		<!-- ion.sound finished -->
-<? } ?>
-<?php include "footer.php"; ?>
-	</body>
+	);
+	var pan=new Array();
+	// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
+	pan=[1];
+	var il=$("#itms>.itm").length;
+	for(var p=0;
+	p < pan.length;
+	p++) {
+	var pani="#lst-"+ pan[p];
+	$(".itm").each(function() {
+	if($(this).hasClass("ans"+ pan[p])) {
+	$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
+	$("#"+ $(this).attr("id")).addClass("btn-block font-weight-bold text-left");
+	// $("#"+ $(this).attr("id")).addClass("border-0");
+	$("#lst-"+ pan[p] + ">h2").remove();
+	// $("#lst-"+ pan[p]).closest("tr").find(".tran").show();
+	}
+	}
+	)
+	}
+	}
+	)
+	</script>
+	<!-- ion.sound finished -->
+	<? } ?>
+	<?php include "footer.php"; ?>
+</body>
 </html>

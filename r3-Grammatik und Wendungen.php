@@ -409,6 +409,7 @@
 	</div>
 </section>
 
+<div id="last" class="d-none"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>

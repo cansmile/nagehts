@@ -11,7 +11,7 @@
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
-						<h3>[ <small>문장을 입력하여 정답인 경우 선택지가 나타납니다.</small> ]
+						<h3>[ <small>입력한 문장이 정답인 경우 나타나는 선택지에서 동사를 고르세요.</small> ]
 						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 						HV
 						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
@@ -708,6 +708,8 @@
 		<script>
 			$(".tran").hide();
 			$(".q").hide();
+			$("#0").hide();
+			$("#0_p").hide();
 			$(".pop").addClass("border border-dark border-top-0 border-left-0 border-right-0");
 			var an = new Array();
 			var an = ["Wie heißt er?","Er heißt Tommy.","Wo wohnst du?","Wohnst du in Daegu?","Ja, ich wohne in Daegu.","Woher kommt er?","Er kommt aus Chile.","Liegt Vietnam in Asien?","Ja, Vietnam liegt in Asien.","Welche Sprachen sprechen Sie?","Ich spreche Deutsch und Englisch.","Sprichst du Koreanisch?","Ja, ich spreche gut Koreanisch.","Bist du Chinesin?","Nein, ich bin Koreanerin.","Ist er Deutscher?","Nein, er ist Franzose."];
@@ -725,25 +727,7 @@
 				sounds : [ {
 					name : "r2 E4",
 					sprite : {
-						"0": [.3, 28.73],
-						"1": [,],
-						"2": [,],
-						"3": [,],
-						"4": [,],
-						"5": [,],
-						"6": [,],
-						"7": [,],
-						"8": [,],
-						"9": [,],
-						"10": [,],
-						"11": [,],
-						"12": [,],
-						"13": [,],
-						"14": [,],
-						"15": [,],
-						"16": [,],
-						"17": [,],
-						"18": [,]
+						"0": [.3, 28.73]
 					}
 				}
 				, {
@@ -1082,20 +1066,24 @@ function rfchk(th,io) {
 					}
 				})
 
-				$("#txt-1").val(an[0]);
+				var pan=new Array();
+				// pan=[1,2,3,4,5,6,7,8,9,10];
+				pan = [1,2,5,9,11,13,15,17];
+				for(var p=0;
+				p < pan.length;
+				p++) {
+				var pann1="#txt-"+pan[p];
+				var pann2="#qst-"+pan[p];
+					$(pann1).val(an[(pan[p]-1)]);
+					$(pann1).addClass("bg-success text-white font-weight-bold");
+					$(pann1).prop("disabled", true);
+					$(pann2).show();
+				// $(pann).closest("tr").find(".tran").show();
+				}
+
 				$("#option1-2").parent().addClass("an");
 				$("#option1-2").parent().addClass("btn-warning");
 				$("#option1-2").parent().removeClass("btn-light");
-				$("#txt-1").prop("disabled",true);
-				$("#txt-1").addClass("bg-success text-white font-weight-bold");
-				$("#qst-1").show();
-				// $("#qst-1").closest("table").find(".tran").each(function () {
-				// 	$(this).show();
-				// })
-				// $("#qst-1").closest("table").find(".wd").each(function () {
-				// 	$(this).addClass("text-muted")
-				// })
-
 			
 					$("#0").show();
 					$(".alert").hide();

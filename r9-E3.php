@@ -21,37 +21,37 @@
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">ist ein Freitag.
-						<span class="tran"><br><small>translate</small></span>
+						<span class="tran"><small>3월 23일은 금요일이다.</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">ist ein Freitag.
-						<span class="tran"><br><small>translate</small></span>
+						<span class="tran"><small>4월 6일은 금요일이다.</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">ist ein Donnerstag.
-						<span class="tran"><br><small>translate</small></span>
+						<span class="tran"><small>5월 17일은 목요일이다.</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">ist ein Freitag.
-						<span class="tran"><br><small>translate</small></span>
+						<span class="tran"><small>8월 17일은 금요일이다.</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5">ist ein Freitag.
-						<span class="tran"><br><small>translate</small></span>
+						<span class="tran"><small>10월 26일은 금요일이다.</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">ist ein Dienstag.
-						<span class="tran"><br><small>translate</small></span>
+						<span class="tran"><small>12월 25일은 화요일이다.</small></span>
 					</div>
 				</div>
 			</div>

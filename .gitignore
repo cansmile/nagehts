@@ -4,7 +4,6 @@ index.php
 license.txt
 Nagehts.sublime-project
 Nagehts.sublime-workspace
-readme.html
 sftp-config.json 
 wp-activate.php
 wp-admin/
@@ -22,14 +21,4 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
-Nagehts.sublime-workspace
-r0-Alphabet.html
-r0-Quiz.html
-r0-Zuordnung.html
-r0.html
-r1-A2.html
-r1-A3.html
-r1-B1.html
-r1-B3.html
-r1.html
-Nagehts.sublime-workspace
+*.html

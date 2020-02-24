@@ -408,8 +408,80 @@
 		"selected_items":
 		[
 			[
+				"gitcommit",
+				"Git: Commit"
+			],
+			[
+				"gitaddc",
+				"Git: Add Current File"
+			],
+			[
+				"timmer",
+				"Trimmer: Trim leading AND trailing whitespace."
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add Current File"
+			],
+			[
+				"gitamend",
+				"Git: Amend Commit"
+			],
+			[
+				"gitdiffcu",
+				"Git: Diff Current File"
+			],
+			[
+				"gitamen",
+				"Git: Amend Commit"
+			],
+			[
+				"gitcommit am",
+				"Git: Amend Commit"
+			],
+			[
+				"git add",
+				"Git: Add Tag"
+			],
+			[
 				"git push",
 				"Git: Push"
+			],
+			[
+				"git add c",
+				"Git: Add Current File"
+			],
+			[
+				"git commin",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"git command",
+				"Git: Custom Command"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"command",
+				"Git: Custom Command"
 			],
 			[
 				"commit am",
@@ -424,24 +496,8 @@
 				"Git: Add Current File"
 			],
 			[
-				"git command",
-				"Git: Custom Command"
-			],
-			[
-				"git commit",
-				"Git: Commit"
-			],
-			[
-				"git add",
-				"Git: Add Current File"
-			],
-			[
 				"git diff",
 				"Git: Diff"
-			],
-			[
-				"git status",
-				"Git: Status"
 			],
 			[
 				"git stash",
@@ -464,20 +520,12 @@
 				"Git: Commit"
 			],
 			[
-				"git add c",
-				"Git: Add Current File"
-			],
-			[
 				"git addc",
 				"Git: Add Current File"
 			],
 			[
 				"color:",
 				"Colorsublime: Install Theme"
-			],
-			[
-				"install pack",
-				"Package Control: Install Package"
 			],
 			[
 				"autofile",
@@ -514,10 +562,6 @@
 			[
 				"'",
 				"Package Control: Install Package"
-			],
-			[
-				"disable",
-				"Package Control: Disable Package"
 			],
 			[
 				"colorpicker",
@@ -808,10 +852,6 @@
 				"Git: Change Branch"
 			],
 			[
-				"gitadd",
-				"Git: Add All"
-			],
-			[
 				"change bran",
 				"Git: Change Branch"
 			],
@@ -878,46 +918,6 @@
 			[
 				"ena",
 				"Package Control: Enable Package"
-			],
-			[
-				"miniy",
-				"Formatter: Minify With JSONMin"
-			],
-			[
-				"json",
-				"Set Syntax: JSON"
-			],
-			[
-				"html syn",
-				"Set Syntax: HTML"
-			],
-			[
-				"bracketfind",
-				"BracketHighlighter: Find Matching Offscreen Bracket"
-			],
-			[
-				"syn html",
-				"Set Syntax: HTML"
-			],
-			[
-				"sy html",
-				"BracketHighlighter: Toggle High Visibility Mode"
-			],
-			[
-				"formatter",
-				"Formatter: Beautify With Prettier"
-			],
-			[
-				"html tidy",
-				"Formatter: Beautify With HTML Tidy"
-			],
-			[
-				"form html",
-				"Formatter: Beautify With HTML Tidy"
-			],
-			[
-				"fromm html",
-				"Formatter: Beautify With HTML Tidy"
 			]
 		],
 		"width": 528.0
@@ -944,13 +944,38 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Administrator/Documents/showtran.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/D/cansmile/csdn/viewtopic.html",
+		"/C/xampp/apps/wordpress/htdocs/r9-E9b.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Trimmer/Default (Windows).sublime-keymap",
+		"/C/xampp/apps/wordpress/htdocs/r9-E8.php",
+		"/C/xampp/apps/wordpress/htdocs/r9-E7.php",
+		"/C/xampp/apps/wordpress/htdocs/r9-E6.php",
+		"/C/xampp/apps/wordpress/htdocs/r9-E5.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GitOpenChangedFiles/Default (Windows).sublime-keymap",
+		"/C/xampp/apps/wordpress/htdocs/r9-E4.php",
+		"/C/xampp/apps/wordpress/htdocs/r9-E3.php",
+		"/C/xampp/apps/wordpress/htdocs/r9-D2.php",
+		"/C/xampp/apps/wordpress/htdocs/r1-G11.php",
+		"/C/xampp/apps/wordpress/htdocs/r9-D3.php",
+		"/C/xampp/apps/wordpress/htdocs/r8-B2.php",
+		"/C/xampp/apps/wordpress/htdocs/.gitignore",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1582349507/nagehts.json/var/www/html/nagehts.org/public_html/tpor/phpinfo.php",
+		"/C/xampp/apps/wordpress/htdocs/r8-Grammatik und Wendungen.php",
+		"/C/xampp/htdocs/nagehts.dump",
+		"/C/xampp/apps/wordpress/htdocs/r8-E6.php",
+		"/C/xampp/apps/wordpress/htdocs/r8-E5.php",
+		"/C/xampp/apps/wordpress/htdocs/r8-D6.php",
+		"/C/xampp/apps/wordpress/htdocs/r8-E4.php",
+		"/C/xampp/apps/wordpress/htdocs/r8-E2.php",
+		"/C/xampp/apps/wordpress/htdocs/r8-D3.php",
 		"/C/xampp/apps/wordpress/htdocs/r8-C7.php",
 		"/C/xampp/apps/wordpress/htdocs/r8-C4.php",
 		"/C/xampp/apps/wordpress/htdocs/r8-C2.php",
 		"/C/xampp/apps/wordpress/htdocs/r8-B4.php",
 		"/C/xampp/apps/wordpress/htdocs/r8-A2.php",
 		"/C/xampp/apps/wordpress/htdocs/r1-G2.php",
-		"/C/xampp/apps/wordpress/htdocs/.gitignore",
 		"/C/xampp/apps/wordpress/htdocs/r1-A2.html",
 		"/C/xampp/apps/wordpress/htdocs/r0-Quizzzz.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E9a.php",
@@ -959,7 +984,6 @@
 		"/C/xampp/apps/wordpress/htdocs/r8-D5.php",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
 		"/C/xampp/apps/wordpress/htdocs/r8-D4.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GitOpenChangedFiles/Default (Windows).sublime-keymap",
 		"/C/xampp/apps/wordpress/htdocs/inhalt.php",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1582102961/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/nav.php",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1582102812/nagehts.json/var/www/html/nagehts.org/public_html/schnupperseite/inhalt.php",
@@ -968,15 +992,9 @@
 		"/C/xampp/apps/wordpress/htdocs/r9-Grammatik und Wendungen.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E12.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E11.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E9b.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E10b.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E10a.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E10.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E5.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E8.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E6.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E4.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E3.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-E1.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-D4a.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-D4b.php",
@@ -991,8 +1009,6 @@
 		"/D/cansmile/csde/nagehts/r4-B5-190717.php",
 		"/D/cansmile/csde/nagehts/r4-B5-190708.php",
 		"/D/cansmile/csde/nagehts/r4-B5-190419.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-D3.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-D2.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-D1.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-C4.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-C1.php",
@@ -1055,23 +1071,7 @@
 		"/c/xampp/apps/wordpress/htdocs/r1-B1.php",
 		"/c/xampp/apps/wordpress/htdocs/r1-B3.php",
 		"/c/xampp/apps/wordpress/htdocs/r1-B4.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-B5.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-C1.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-C2.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-C3.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-D1.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-F2.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-G1.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-G11.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-G2.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-G3.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-G7.php",
-		"/c/xampp/apps/wordpress/htdocs/r1-G8.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-A1.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-A2.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-A4.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-A5.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-A6.php"
+		"/c/xampp/apps/wordpress/htdocs/r1-B5.php"
 	],
 	"find":
 	{
@@ -1108,6 +1108,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"번역",
+			"nbsp;<small>",
+			"translate",
+			"nksp",
+			"class=\"tran\"><small>",
+			"translate",
+			"<span class=\"tran\"><br><small>",
+			"translate",
+			"translate 1",
+			"<div class=\"btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q\" data-toggle=\"buttons\" id=\"qst-",
+			"<span class=\"tran\"><br><small>translate 1</small><br></span>",
+			"translate 1",
+			"btn btn-light pop ",
+			"btn btn-light pop x px-1 text-left",
+			"Pizza.",
+			"translate",
+			"<span class=\"tran\"><br><small>translate</small></span>",
+			"translate",
+			"<span class=\"tran\"><br><small>",
+			"translate",
+			"$(this).removeClass(\"btn-light \");",
+			"</small></span>",
+			".</",
+			"translate",
+			"ihm",
+			"// 정답 확인 div 상자 배경색 속성 없애기",
+			"if($(\"#itms\").find(\"button\").length < 1) {",
+			"Eis essen",
+			"css(\"text-",
+			"css(\"text-decoration: none;\")",
+			"style",
+			"line-through",
+			"rounded-circle ",
+			"btn btn-warning btn-xl ttl d-block rounded-circle",
+			"<span class=\"tran\"><br><small>",
+			"border-0 align-middle\">",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
+			"<span class=\"tran\"><br><small",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
+			"<span class=\"tran\"><br><small>",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
+			"itm rounded-circle px-3\" id=\"",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
 			"translate",
 			"<div class=\"btn-group btn-group-toggle q\" data-toggle=\"buttons\" id=\"qst-",
 			"\"",
@@ -1192,55 +1235,12 @@
 			"col-sm-12 col-md-6 col-lg-6",
 			"min-width: 150px;\" aria-label=\".\" id=\"qst-",
 			"col-sm-12 col-md-6 col-lg-6",
-			"min-width: 150px;\" aria-label=\".\" id=\"qst-",
-			" ■ ",
-			"position: relative; top: -6px; min-width: 150px;\" aria-label=\".\" id=\"qst-",
-			"col-sm-12 col-md-6 col-lg-6",
-			"hatten",
-			"hattest",
-			"waren",
-			";\" id=\"lst-",
-			"border-0 text-center bg-white",
-			"<th ",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"<h2 class=\"btn btn-warning btn-xl ttl d-block\"> fahren </h2>",
-			"border-0",
-			"<div class=\"itm-lst 1itm d-inline-block px-0 m-0\" style=\"min-width: 100px;\" id=\"lst-",
-			"tran d-block",
-			"<span class=\"tran\">",
-			"</span><br>",
-			"<br><small>",
-			"position: relative; top: -6px; ",
-			"aria-label=\".\" id=\"qst-",
-			"col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 p",
-			",",
-			"aria-label=\".\" id=\"qst-",
-			"col-sm-12 col-md-12 col-lg-6",
-			"min-width: 150px;\" aria-label=\".\" id=\"qst-",
-			"<input type=\"text\" class=\"form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1\" style=\"position: relative; top: -6px; min-width: 150px;\" aria-label=\".\" id=\"qst-",
-			"◆",
-			"<input type=\"radio\" name=\"options\" id=\"option",
-			"<div class=\"btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q\" data-toggle=\"buttons\" id=\"qst-",
-			"translate",
-			"col-sm-12 col-md-6 col-lg-6",
-			"col-sm-12 col-md-6 col-lg-3",
-			"<span class=\"tran\"><br",
-			"<span class=\"tran\"><br><small>",
-			"저는 피자를 계산하겠습니다.",
-			"<div class=\"btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q\" data-toggle=\"buttons\" id=\"qst-1",
-			"row border border-dark p-2 my-2 rounded",
-			"form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1",
-			"top: -6px; min-width: 150px;\" aria-label=\".\" id=\"qst-",
-			"row border border-dark p-2",
-			"aria-label=\".\" id=\"qst-",
-			"min-width: 150px;\" aria-label=\".\" id=\"qst-",
-			"style=\"position: relative; top: -6px; min-width: 150px;\" aria-label=\".\" id=\"qst-",
 			"min-width: 150px;\" aria-label=\".\" id=\"qst-"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": true,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"",
@@ -1388,7 +1388,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 211.0
 	},
 	"input":
 	{
@@ -1439,11 +1439,11 @@
 	},
 	"output.git-commit":
 	{
-		"height": 120.0
+		"height": 215.0
 	},
 	"output.git-push":
 	{
-		"height": 120.0
+		"height": 215.0
 	},
 	"output.hex_viewer_inspector":
 	{
@@ -1465,7 +1465,7 @@
 	"project": "Nagehts.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 434.0
 	},
 	"save_all_on_build": false,
 	"select_file":

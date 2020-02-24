@@ -13,6 +13,7 @@
 				</div>
 			</div>
 			<div class="row">
+				
 				<div class="col my-2 py-2">
 					<span class="border border-dark p-1 px-2 rounded">uns</span>
 					<span class="border border-dark p-1 px-2 rounded">wir</span>

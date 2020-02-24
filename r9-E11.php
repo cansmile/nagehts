@@ -20,7 +20,7 @@
 						<div class="col-10">
 							<div class="input-group">
 							Wie <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">du nach Seoul gekommen?
-							<span class="tran">&nbsp;<small>translate</small></span>
+							<span class="tran">&nbsp;<small>너는 서울에 어떻게 왔니?</small></span>
 							</div>
 						</div>
 						<div class="col-1 text-center"></div>
@@ -28,7 +28,7 @@
 						<div class="col-10">
 							<div class="input-group">
 								Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">die U-Bahn genommen.
-								<span class="tran">&nbsp;<small>translate</small></span>
+								<span class="tran">&nbsp;<small>나는 지하철을 탔어.</small></span>
 							</div>
 						</div>
 					</div>
@@ -40,7 +40,7 @@
 						<div class="col-10">
 							<div class="input-group">
 							Was <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">du im Urlaub gemacht?
-							<span class="tran">&nbsp;<small>translate</small></span>
+							<span class="tran">&nbsp;<small>휴가 때 너는 뭐 했어?</small></span>
 							</div>
 						</div>
 						<div class="col-1 text-center"></div>
@@ -48,7 +48,7 @@
 						<div class="col-10">
 							<div class="input-group">
 								Ich<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4"> ans Meer gefahren.
-								<span class="tran">&nbsp;<small>translate</small></span>
+								<span class="tran">&nbsp;<small>나는 휴가 때 바닷가에 갔어.</small></span>
 							</div>
 						</div>
 					</div>
@@ -59,20 +59,20 @@
 						<div class="col-1 text-center">*</div>
 						<div class="col-10">
 							Du siehst sehr erschöpft aus. Was ist denn los?
-							<span class="tran">&nbsp;<small>translate</small></span>
+							<span class="tran">&nbsp;<small>너 매우 지쳐 보인다. 무슨 일이니?</small></span>
 						</div>
 						<div class="col-1 text-center"></div>
 						<div class="col-1 text-center">‧</div>
 						<div class="col-10">
 								Gestern hat mich Mina besucht.
-								<span class="tran">&nbsp;<small>translate</small></span>
+								<span class="tran">&nbsp;<small>어제 미나가 나를 방문했어.</small></span>
 						</div>
 						<div class="col-1 text-center"></div>
 						<div class="col-1 text-center"></div>
 						<div class="col-10">
 							<div class="input-group">
 								Wir <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5">zusammen auf eine Party gegangen und da <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">wir getanzt und Musik gehört.
-								<span class="tran">&nbsp;<small>translate</small></span>
+								<span class="tran">&nbsp;<small>우리는 함께 파티에 가서 춤을 추고 음악을 들었어.</small></span>
 							</div>
 						</div>
 						<div class="col-1 text-center"></div>
@@ -80,21 +80,21 @@
 						<div class="col-10">
 							<div class="input-group">
 								Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-7">spät nach Hause gekommen.
-								<span class="tran">&nbsp;<small>translate</small></span>
+								<span class="tran">&nbsp;<small>나는 집에 늦게 왔어.</small></span>
 							</div>
 						</div>
 						<div class="col-1 text-center"></div>
 						<div class="col-1 text-center"></div>
 						<div class="col-10">
 								Mir ist eingefallen, dass ich morgen eine Deutscharbeit habe.
-								<span class="tran">&nbsp;<small>translate</small></span>
+								<span class="tran">&nbsp;<small>갑자기 내일 독일어 과제가 있는 게 생각이 났어.</small></span>
 						</div>
 						<div class="col-1 text-center"></div>
 						<div class="col-1 text-center"></div>
 						<div class="col-10">
 							<div class="input-group">
 								Da <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-8">ich für die Deutschprüfunggelernt.
-								<span class="tran">&nbsp;<small>translate</small></span>
+								<span class="tran">&nbsp;<small>그래서 독일어 시험을 위해 공부했어.</small></span>
 							</div>
 						</div>
 					</div>

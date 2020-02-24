@@ -27,19 +27,19 @@
 					<div class="input-group">
 						Julia ist dieses Wochenende auf der Dienstreise in München. Martin ist ein bisschen traurig: Julia <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1"> Martin. Sie denkt den ganzen Tag an <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">.
 					</div>
-					<span class="tran"><br><small>translate</small></span>
+					<span class="tran"><small>율리아는 이번 주말에 출장으로 뮌헨에 있다. 마틴은 조금 슬프다: 율리아는 마틴이 그립다. 그녀는 하루 종일 그를 생각한다.</small><br></span>
 				</div>
 				<div class="col-12">
 					<div class="input-group">
 						Ich bade mein Baby. Mein Mann steht neben mir und <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3"><input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">.
 					</div>
-					<span class="tran"><br><small>translate</small></span>
+					<span class="tran"><small>나는 나의 아기를 목욕시킨다. 나의 남편은 나의 곁에서 나를 도와준다.</small><br></span>
 				</div>
 				<div class="col-12">
 					<div class="input-group">
 						Marias Mutter hat Geburtstag. Maria ruft sie an und <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5"><input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">. Ihre Mutter <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-7"><input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-8">: „Ach, Maria, das ist aber nett, dass du an meinen Geburtstag denkst!“
 					</div>
-					<span class="tran"><br><small>translate</small></span>
+					<span class="tran"><small>마리아의 어머니는 생신이다. 마리아는 그녀에게 전화해서 축하한다. 그녀의 어머니는 그녀에게 감사 인사를 한다: “아, 마리아, 네가 나의 생일을 기억해주니 기분이 좋구나!”</small><br></span>
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->

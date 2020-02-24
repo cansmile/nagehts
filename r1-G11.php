@@ -398,7 +398,6 @@
 
 					$(this).removeClass("btn-light ");
 					$(".tran").show();
-					if ($(".btn-success").length < Math.ceil($(".q").length/2)) {} else if ($(".btn-success").length == $(".q").length) {} else { };
 				};
 			});
 		$("#0").show();

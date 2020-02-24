@@ -22,9 +22,9 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-lg-6" style="line-height: 250%;"><span class="border border-dark rounded p-1 px-2 m-1 font-weight-bold bg-dark text-white">Eva Fischer.</span>
-			<span class="tran"><br><small>translate</small><br></span>
+			<span class="tran"><br><small>에바 피셔</small><br></span>
 			Es ist für mich das schönste Fest, weil endlich der Frühling kommt. 
-			<span class="tran"><br><small>translate</small><br></span>
+			<span class="tran"><br><small>그것은 나에게 가장 아름다운 축제다, 왜냐하면 마침내 봄이 오기 때문이다.</small><br></span>
 			<span class="sen">Meine <span class="nu"></span>
 				<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
 					<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -37,7 +37,7 @@
 						<input type="radio" name="options" id="option3" autocomplete="off">Bruder
 					</div>
 				</div> besucht uns mit ihren Kindern.<span class="ans"></span></span>
-			<span class="tran"><br><small>translate</small><br></span>
+			<span class="tran"><br><small>나의 딸은 그들의 자녀들과 함께 나를 방문한다.</small><br></span>
 			<span class="sen">Ich und mein Mann verstecken die  <span class="nu"></span>
 				<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
 					<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -50,10 +50,13 @@
 						<input type="radio" name="options" id="option3" autocomplete="off">Schokolade
 					</div>
 				</div> im Garten.<span class="ans"></span></span>
-			<span class="tran"><br><small>translate</small><br></span>
+			<span class="tran"><br><small>나와 나의 남편은 부활절 계란을 정원에 숨겨둔다.</small><br></span>
 			Unsere Enkelkinder finden sie.
-			<span class="tran"><br><small>translate</small><br></span>
-			Das macht uns allen Spaß. Wie heißt das Fest ?
+			<span class="tran"><br><small>우리의 손자, 손녀들은 그것들을 찾는다.</small><br></span>
+			Das macht uns allen Spaß.
+			<span class="tran"><br><small>이것은 우리에게 아주 즐겁다.</small><br></span>
+			Wie heißt das Fest ?
+			<span class="tran"><br><small>이 축제를 뭐라고 하는가?</small><br></span>
 			<span class="sen"><span class="nu"></span>
 				<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
 					<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -66,9 +69,11 @@
 						<input type="radio" name="options" id="option3" autocomplete="off">Geburtstag
 					</div>
 				</div><span class="ans"></span></span>
-			<span class="tran"><br><small>translate</small><br></span>
+			<span class="tran"><br><small>부활절</small><br></span>
 			</div>
-			<div class="col-sm-12 col-md-6 col-lg-6" style="line-height: 250%;"><span class="border border-dark rounded p-1 px-2 m-1 font-weight-bold bg-dark text-white">Tim Klein. </span>Ich liebe 
+			<div class="col-sm-12 col-md-6 col-lg-6" style="line-height: 250%;"><span class="border border-dark rounded p-1 px-2 m-1 font-weight-bold bg-dark text-white">Tim Klein. </span>
+			<span class="tran"><br><small>팀 클라인</small><br></span>
+				Ich liebe 
 			<span class="sen">Ich bezahle <span class="nu"></span>
 				<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
 					<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -80,10 +85,9 @@
 					<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 						<input type="radio" name="options" id="option3" autocomplete="off">Geburtstag
 					</div>
-				</div> Pizza.<span class="ans"></span></span>
-			<span class="tran"><br><small>translate</small><br></span>
-
-			 . Die Leute kaufen 
+				</div>.<span class="ans"></span></span>
+			<span class="tran"><br><small>나는 성탄절을 좋아한다.</small><br></span>
+			 Die Leute kaufen 
 			<span class="sen">Ich bezahle <span class="nu"></span>
 				<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-5">
 					<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -95,10 +99,12 @@
 					<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 						<input type="radio" name="options" id="option3" autocomplete="off">Geld
 					</div>
-				</div> Pizza.<span class="ans"></span></span>
-			<span class="tran"><br><small>translate</small><br></span>
-
-			 ein. Ich freue mich sehr auf die Geschenke. Und 
+				</div><span class="ans"></span></span>
+			 ein.
+			<span class="tran"><br><small>사람들은 선물을 산다.</small><br></span>
+			 Ich freue mich sehr auf die Geschenke.
+			<span class="tran"><br><small>나는 선물이 매우 기쁘다.</small><br></span>
+			 Und 
 			<span class="sen">Ich bezahle <span class="nu"></span>
 				<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-6">
 					<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -110,10 +116,10 @@
 					<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 						<input type="radio" name="options" id="option3" autocomplete="off">Tannenbaum
 					</div>
-				</div> Pizza.<span class="ans"></span></span>
-			<span class="tran"><br><small>translate</small><br></span>
-
-			 der ist doch vor allem für das Fest.</div>
+				</div><span class="ans"></span></span>
+			 der ist doch vor allem für das Fest.
+			<span class="tran"><br><small>그리고 크리스마스 트리야말로 이 축제의 꽃이다.</small><br></span>
+			</div>
 	</div>
 		<!-- 정답화인 버튼 시작 -->
 		<div class="row">

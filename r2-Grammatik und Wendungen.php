@@ -22,6 +22,9 @@
 						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
 							<table class="table text-center">
 									<tr>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									</tr>
+									<tr>
 										<th scope="col" width="50%">묻기</th>
 										<th class="bg-light" scope="col">반응</th>
 									</tr>
@@ -32,6 +35,10 @@
 									<tr>
 										<th scope="row"><strong>Wo</strong> wohnen Sie?</th>
 										<td class="bg-light">Ich wohne <strong>in</strong> München.</td>
+									</tr>
+									<tr>
+										<th scope="row"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Welche</strong> Sprachen sprechen Sie?</th>
+										<td class="bg-light"><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich spreche Detusch und Englisch.</td>
 									</tr>
 									<tr>
 										<th class="bg-light" scope="row">Wo <strong>liegt</strong> Ghana?</th>
@@ -51,20 +58,23 @@
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
 							<table class="table text-center">
 								<tr>
+									<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								</tr>
+								<tr>
 									<th scope="col" width="50%">묻기</th>
 									<th class="bg-light" scope="col">반응</th>
 								</tr>
 								<tr>
-									<td class="bg-light" scope="row"><strong>Kommen</strong> Sie aus Japan?</th>
-									<td><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</td>
+									<td class="bg-light" scope="row"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Kommen</strong> Sie aus Japan?</th>
+									<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</td>
 								</tr>
 								<tr>
-									<td scope="row"><strong>Wohnen</strong> Sie in Seoul?</th>
-									<td class="bg-light"><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</td>
+									<td scope="row"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Wohnen</strong> Sie in Seoul?</th>
+									<td class="bg-light"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</td>
 								</tr>
 								<tr>
-									<td class="bg-light" scope="row"><strong>Liegt</strong> Frankreich in Europa?</th>
-									<td><strong>Ja</strong>, es liegt in Europa.</td>
+									<td class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Liegt</strong> Frankreich in Europa?</th>
+									<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja</strong>, es liegt in Europa.</td>
 								</tr>
 								<tr>
 									<th scope="row" colspan="2" class="text-right">* nicht<small>는 부정어로서 영어의 </small>not<small>을 의미한다</small>.</th>
@@ -298,15 +308,16 @@
 				// src: ["./sounds/Reihe 1/r1 H.mp3"],
 				src: ["./sounds/Reihe 2/r2 F.mp3"],
 				sprite : {
-					"1": [0, 13655],
-					"2": [4545, 2754],
-					"3": [6614, 3208],
-					"4": [9460, 4121],
-					"5": [13192, 18439],
-					"6": [18550, 3123],
-					"7": [20767, 4306],
-					"8": [24389, 3695],
-					"9": [27789, 4323]
+					"1": [0, 11867],
+					"2": [5194, 2544],
+					"3": [8500, 3130],
+					"4": [11947, 43240],
+					"5": [18869, 2531],
+					"6": [22235, 8247],
+					"7": [32587, 2729],
+					"8": [36334, 8665],
+					"9": [46813, 3267],
+					"10": [51386, 3614]
 				},
 				html5: true,
 				volume: 1,

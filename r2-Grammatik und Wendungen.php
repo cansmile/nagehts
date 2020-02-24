@@ -186,87 +186,105 @@
 						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
 							<table class="table text-left">
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Woher kommen Sie?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Ich komme aus Korea.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Woher kommst du?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Ich komme aus Korea.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Woher kommen Sie?</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich komme aus Korea.</td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Woher kommt sie?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Sie kommt aus Korea.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Woher kommst du?</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich komme aus Korea.</td>
 									</tr>
 									<tr>
-										<td colspan="2" class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
-									</tr>
-									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Kommen Sie aus Japan?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Ja (Nein), ich komme (nicht) aus Japan.</td>
-									</tr>
-									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Kommst du aus Deutschland?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Ja (Nein), ich komme (nicht) aus Deutschland.</td>
-									</tr>
-									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Kommt sie aus Italien?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">- Ja (Nein), sie kommt (nicht) aus Italien.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Woher kommt sie?</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Sie kommt aus Korea.</td>
 									</tr>
 									<tr>
 										<td colspan="2" class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wo wohnen Sie?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich wohne in Busan.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wo wohnst du?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich wohne in Busan.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Kommen Sie aus Japan?</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja (Nein), ich komme (nicht) aus Japan.</td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wo wohnt er?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Er wohnt in Busan.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Kommst du aus Deutschland?</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja (Nein), ich komme (nicht) aus Deutschland.</td>
+									</tr>
+									<tr>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Kommt sie aus Italien?</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja (Nein), sie kommt (nicht) aus Italien.</td>
+									</tr>
+									<tr>
+										<td colspan="2" class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
+									</tr>
+									<tr>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									</tr>
+									<tr>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wo wohnen Sie?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich wohne in Busan.</td>
+									</tr>
+									<tr>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wo wohnst du?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich wohne in Busan.</td>
+									</tr>
+									<tr>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wo wohnt er?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Er wohnt in Busan.</td>
 									</tr>
 									<tr>
 										<td colspan="2" class="border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wohnen Sie in Guri?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ja (Nein), ich wohne (nicht) in Guri.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wohnst du in Guri ?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ja (Nein), ich wohne (nicht) in Guri.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wohnen Sie in Guri?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja (Nein), ich wohne (nicht) in Guri.</td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wohnt er in Guri?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ja (Nein), er wohnt (nicht) in Guri.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wohnst du in Guri ?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja (Nein), ich wohne (nicht) in Guri.</td>
+									</tr>
+									<tr>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wohnt er in Guri?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja (Nein), er wohnt (nicht) in Guri.</td>
 									</tr>
 									<tr>
 										<td colspan="2" class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Welche Sprachen sprechen Sie?</td>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich spreche Koreanisch, Englisch und Deutsch.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Welche Sprachen sprichst du?</td>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ich spreche Japanisch.</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Welche Sprachen sprechen Sie?</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich spreche Koreanisch, Englisch und Deutsch.</td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Welche Sprachen spricht er?</td>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Er spricht Japanisch.</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="42" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Welche Sprachen sprichst du?</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="43" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich spreche Japanisch.</td>
+									</tr>
+									<tr>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="44" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Welche Sprachen spricht er?</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="45" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Er spricht Japanisch.</td>
 									</tr>
 									<tr>
 										<td colspan="2" class="border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0 p-0" height="5"></td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Wo liegt Korea?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Korea liegt in Asien.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">Liegt Deutschland in Europa?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0">- Ja, es liegt in Europa.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="47" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wo liegt Korea?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="48" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Korea liegt in Asien.</td>
+									</tr>
+									<tr>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="49" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Liegt Deutschland in Europa?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="50" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja, es liegt in Europa.</td>
 									</tr>
 
 								</table>
@@ -317,7 +335,47 @@
 					"7": [32587, 2729],
 					"8": [36334, 8665],
 					"9": [46813, 3267],
-					"10": [51386, 3614]
+					"10": [51386, 3614],
+					"11": [58789, 16087],
+					"12": [58789, 2326],
+					"13": [61216, 2646],
+					"14": [64500, 2539],
+					"15": [67097, 2774],
+					"16": [70101, 2431],
+					"17": [72590, 2225],
+					"18": [75981, 33903],
+					"19": [75981, 2479],
+					"20": [78644, 8168],
+					"21": [87500, 2500],
+					"22": [90274, 7712],
+					"23": [99500, 2527],
+					"24": [102318, 7681],
+					"25": [109974, 17380],
+					"26": [110816, 2267],
+					"27": [113827, 2301],
+					"28": [107265, 2115],
+					"29": [119624, 2427],
+					"30": [123366, 1848],
+					"31": [125475, 2423],
+					"32": [129241, 35028],
+					"33": [129241, 2516],
+					"34": [132459, 7538],
+					"35": [141622, 2246],
+					"36": [144283, 7038],
+					"37": [152108, 2341],
+					"38": [155560, 8016],
+					"39": [165183, 25808],
+					"40": [165183, 3068],
+					"41": [169007, 5469],
+					"42": [176403, 2552],
+					"43": [180170, 2521],
+					"44": [184476, 2706],
+					"45": [188432, 2664],
+					"46": [192915, 12842],
+					"47": [192915, 2084],
+					"48": [195706, 2557],
+					"49": [199023, 2900],
+					"50": [202839, 2799]
 				},
 				html5: true,
 				volume: 1,

@@ -18,13 +18,13 @@
 						<div class="col-1 text-center">1.</div>
 						<div class="col-11">
 							<div class="input-group">
-							Du <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1"> gestern deine Geburtstagsfeier. <span class="tran">&nbsp;<small>translate</small></span> Wie <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2"> sie? <span class="tran">&nbsp;<small>translate</small></span>
+							Du <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1"> gestern deine Geburtstagsfeier. <span class="tran">&nbsp;<small>너 어제 생일파티를 했구나.</small>&nbsp;</span> Wie <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2"> sie? <span class="tran">&nbsp;<small>어땠어?</small>&nbsp;</span>
 							</div>
 						</div>
 						<div class="col-1 text-center"></div>
 						<div class="col-11">
 							<div class="input-group">
-								Sie <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3"> super! <span class="tran">&nbsp;<small>translate</small></span> Wir <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4"> viel Spaß. <span class="tran">&nbsp;<small>translate</small></span>
+								Sie <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3"> super! <span class="tran">&nbsp;<small>대단했어.</small>&nbsp;</span> Wir <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4"> viel Spaß. <span class="tran">&nbsp;<small>우리는 엄청 재미있었어.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>
@@ -34,7 +34,7 @@
 						<div class="col-1 text-center">2.</div>
 						<div class="col-11">
 							<div class="input-group">
-								Meine Eltern <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5"> vor 20 Jahren glücklich. <span class="tran">&nbsp;<small>translate</small></span> Sie sind heute immer noch glücklich. <span class="tran">&nbsp;<small>translate</small></span>
+								Meine Eltern <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5"> vor 20 Jahren glücklich. <span class="tran">&nbsp;<small>나의 부모님은 결혼한 지 20년이 되었다.</small>&nbsp;</span> Sie sind heute immer noch glücklich. <span class="tran">&nbsp;<small>그들은 여전히 행복하다.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 						<div class="col-1 text-center">3.</div>
 						<div class="col-11">
 							<div class="input-group">
-								Sabine <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">schon als Kind sehr sportlich. <span class="tran">&nbsp;<small>translate</small></span>
+								Sabine <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">schon als Kind sehr sportlich. <span class="tran">&nbsp;<small>사비네는 어렸을 때부터 운동에 소질이 있었다.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>
@@ -54,13 +54,13 @@
 						<div class="col-1 text-center">4.</div>
 						<div class="col-11">
 							<div class="input-group">
-								Wo <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-7">ihr zu Weihnachten? <span class="tran">&nbsp;<small>translate</small></span>
+								Wo <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-7">ihr zu Weihnachten? <span class="tran">&nbsp;<small>크리스마스에 너희는 어디에 있었니?</small>&nbsp;</span>
 							</div>
 						</div>
 						<div class="col-1 text-center"></div>
 						<div class="col-11">
 							<div class="input-group">
-								Wir <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-8">bei unseren Eltern. <span class="tran">&nbsp;<small>translate</small></span>
+								Wir <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-8">bei unseren Eltern. <span class="tran">&nbsp;<small>우리는 우리 부모님과 함께 있었어.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>
@@ -70,7 +70,7 @@
 						<div class="col-1 text-center">5.</div>
 						<div class="col-11">
 							<div class="input-group">
-								Als Kind<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-9"> ich ein eigenes Handy. <span class="tran">&nbsp;<small>translate</small></span>
+								Als Kind<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-9"> ich ein eigenes Handy. <span class="tran">&nbsp;<small>어렸을 때 나는 나의 핸드폰을 가지고 있었다.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>
@@ -80,13 +80,13 @@
 						<div class="col-1 text-center">6.</div>
 						<div class="col-11">
 							<div class="input-group">
-								Wo <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-10">du denn? <span class="tran">&nbsp;<small>translate</small></span>
+								Wo <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-10">du denn? <span class="tran">&nbsp;<small>너 어디에 있었니?</small>&nbsp;</span>
 							</div>
 						</div>
 						<div class="col-1 text-center"></div>
 						<div class="col-11">
 							<div class="input-group">
-								Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-11"> mit Tim im Konzert. <span class="tran">&nbsp;<small>translate</small></span> Das<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-12">sehr schön. <span class="tran">&nbsp;<small>translate</small></span>
+								Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-11"> mit Tim im Konzert. <span class="tran">&nbsp;<small>나는 톰과 함께 콘서트에 있었어.</small>&nbsp;</span> Das<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-12">sehr schön. <span class="tran">&nbsp;<small>콘서트는 정말 좋았어.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>
@@ -101,8 +101,8 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
-	
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->

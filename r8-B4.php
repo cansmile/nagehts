@@ -35,25 +35,25 @@
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="8">
 					gehen<span class="tran"><br><small>걷다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="9">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="9">
 					geben<span class="tran"><br><small>주다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="10">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="10">
 					tragen<span class="tran"><br><small>들다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="11">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="11">
 					schneiden<span class="tran"><br><small>자르다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="12">
 					lesen<span class="tran"><br><small>읽다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="13">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="13">
 					schreiben<span class="tran"><br><small>쓰다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="14">
 					rauchen<span class="tran"><br><small>담배피우다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="15">
+				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="15">
 					aufmachen<span class="tran"><br><small>열다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="16">
@@ -71,7 +71,7 @@
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="20">
 					tanzen<span class="tran"><br><small>춤추다</small></span>
 				</button>
-				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="21">
+				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="21">
 					husten<span class="tran"><br><small>기침하다</small></span>
 				</button>
 			</div>
@@ -155,21 +155,28 @@
 				sounds : [ {
 					name : "r8 B4",
 					sprite : {
-						"0": [.5, 49.36],
-						"2": [11.28, 1],
-						"3": [13.97, 1.22],
-						"4": [16.93, 1.06],
-						"5": [19.65, 1.25],
-						"6": [22.54, 1.18],
-						"7": [25.34, 1.69],
-						"8": [28.43, 1.1],
-						"12": [31.28, 1.25],
-						"14": [34.23, 1],
-						"16": [37.24, 1],
-						"17": [40.2, 1.16],
-						"18": [43.07, 1.06],
-						"19": [45.98, 1],
-						"20": [49.12, 1.1]
+						"0": [.848, 71.392],
+						"1": [8.138, 1.591],
+						"2": [11.886, .907],
+						"3": [14.879, 1.265],
+						"4": [18.446, .804],
+						"5": [21.097, 1.363],
+						"6": [24.291, 1.106],
+						"7": [27.328, 1.410],
+						"8": [30.491, 1.378],
+						"9": [33.552, 1.423],
+						"10": [36.790, 1.244],
+						"11": [39.781, 1.516],
+						"12": [43.342, 1.144],
+						"13": [46.405, 1.301],
+						"14": [49.195, 1.774],
+						"15": [52.663, 1.069],
+						"16": [55.380, .796],
+						"17": [58.595, 1.209],
+						"18": [61.802, 1.128],
+						"19": [64.897, 1.222],
+						"20": [68.066, 1.025],
+						"21": [70.748, 1.004]
 					}
 				}
 				, {

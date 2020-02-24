@@ -11,7 +11,7 @@
 						<div class="card-header" id="heading1">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
-									<strong>Demonstrativpronomen</strong> <small>지시대명사</small>
+									<strong>H1. Demonstrativpronomen</strong> <small>지시대명사</small>
 								</button>
 							</h5>
 						</div>
@@ -66,7 +66,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 						<div class="card-header" id="heading2">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse2" area-expanded="false" aria-controls="collapse2" id="2">
-									<strong>bestimmter Artikel</strong> <small>정관사</small>
+									<strong>H2. bestimmter Artikel</strong> <small>정관사</small>
 								</button>
 							</h5>
 						</div>
@@ -107,7 +107,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 						<div class="card-header" id="heading3">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse3" area-expanded="false" aria-controls="collapse3" id="3">
-									<strong>unbestimmter Artikel</strong> <small>부정(不定)관사</small>
+									<strong>H3. unbestimmter Artikel</strong> <small>부정(不定)관사</small>
 								</button>
 							</h5>
 						</div>
@@ -145,7 +145,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 						<div class="card-header" id="heading4">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse4" area-expanded="false" aria-controls="collapse4" id="4">
-									<strong>negativer Artikel</strong> <small>부정(否定)관사</small>
+									<strong>H4. negativer Artikel</strong> <small>부정(否定)관사</small>
 								</button>
 							</h5>
 						</div>
@@ -186,7 +186,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-purple mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse5" area-expanded="false" aria-controls="collapse5" id="5">
-									<strong>Verbkonjugation: essen, trinken, nehmen, bekommen, möchten</strong> <small>동사의 변화</small>
+									<strong>H5. Verbkonjugation: essen, trinken, nehmen, bekommen, möchten</strong> <small>동사의 변화</small>
 								</button>
 							</h5>
 						</div>
@@ -259,7 +259,7 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 						<div class="card-header" id="heading5">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-pink mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse6" area-expanded="false" aria-controls="collapse6" id="6">
-									<strong>Redewendungen</strong> <small>어휘와 숙어</small>
+									<strong>H6. Redewendungen</strong> <small>어휘와 숙어</small>
 								</button>
 							</h5>
 						</div>
@@ -267,43 +267,52 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 							<table class="table text-left bg-light">
 								<tbody>
 									<tr>
-										<td width="50%">Was isst/ trinkst du gern?</td>
-										<td>- Ich esse / trinke gern ...</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>Was ist dein Lieblingsessen/ Lieblingsgetränk?</td>
-										<td>- Mein Lieblingsessen/ Lieblingsgetränk ist ...</td>
+										<td width="50%"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was isst/ trinkst du gern?</td>
+										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich esse / trinke gern ...</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was ist dein Lieblingsessen/ Lieblingsgetränk?</td>
+										<td><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Mein Lieblingsessen/ Lieblingsgetränk ist ...</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<tbody>
 									<tr>
-										<td width="50%">Isst/ Trinkst du gern ... ?</td>
-										<td>- Ja, ich esse/ trinke gern ...</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									</tr>
+									<tr>
+										<td width="50%"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Isst/ Trinkst du gern ... ?</td>
+										<td><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja, ich esse/ trinke gern ...</td>
 									</tr>
 									<tr>
 										<td>&nbsp;</td>
-										<td><span class="text-white">- </span>Nein, ich esse/ trinke nicht so gern ...</td>
+										<td><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><span class="text-white">- </span>Nein, ich esse/ trinke nicht so gern ...</td>
 									</tr>
 									<tr>
 										<td>&nbsp;</td>
-										<td><span class="text-white">- </span>Nein, ich mag keinen, keine, kein, keine ....</td>
+										<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button><span class="text-white">- </span>Nein, ich mag keinen, keine, kein, keine ....</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left bg-light">
 								<tbody>
 									<tr>
-										<td width="50%">Was möchtest du?</td>
-										<td>- Ich möchte/ nehme/ esse/ trinke</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>Was nimmst du?</td>
-										<td><span class="text-light">- </span>Einen/ Eine / Ein ...</td>
+										<td width="50%"><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was möchtest du?</td>
+										<td><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich möchte/ nehme/ esse/ trinke</td>
 									</tr>
 									<tr>
-										<td>Was darf es sein?</td>
+										<td><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was nimmst du?</td>
+										<td><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button><span class="text-light">- </span>Einen/ Eine / Ein ...</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was darf es sein?</td>
 										<td>&nbsp;</td>
 									</tr>
 								</tbody>
@@ -311,31 +320,40 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 							<table class="table text-left">
 								<tbody>
 									<tr>
-										<td width="50%">Was isst du gern?</td>
-										<td>- Ich esse gern ...</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>Was trinkst du gern?</td>
-										<td>- Ich trinke gern ...</td>
+										<td width="50%"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was isst du gern?</td>
+										<td><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich esse gern ...</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was trinkst du gern?</td>
+										<td><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich trinke gern ...</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left bg-light">
 								<tbody>
 									<tr>
-										<td width="50%">Was bezahlen Sie?</td>
-										<td>- Ich bezahle den/ die/ das ...</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									</tr>
+									<tr>
+										<td width="50%"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was bezahlen Sie?</td>
+										<td><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bezahle den/ die/ das ...</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<tbody>
 									<tr>
-										<td width="50%">Zusammen oder getrennt?</td>
-										<td>- Zusammen / Getrennt, bitte.</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td>Stimmt so.</td>
+										<td width="50%"><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Zusammen oder getrennt?</td>
+										<td><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Zusammen / Getrennt, bitte.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Stimmt so.</td>
 										<td>- Vielen Dank.</td>
 									</tr>
 								</tbody>
@@ -348,12 +366,117 @@ Mein Lieblingsessen ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.</t
 	</div>
 </section>
 
+<div id="last" class="d-none"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<script>
+			// 소리 출력 전역 변수와 함수
+			var sen = new Array(), pa = new Array(), he = new Array(), last;
+			$(".so").each(function() {
+				var t = $(this);
+				var ti = t.attr("id");
+				sen[ti] = 0;
+				pa[ti] = t.html();
+				he[ti] = t.height();
+			});
+
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				});
+			}
+
+			var nagehts = new Howl({
+				// src: ["./sounds/Reihe 1/r1 H.mp3"],
+				src: ["./sounds/Reihe 5/r5 H.mp3"],
+				sprite : {
+					"1": [4875, 15966],
+					"2": [4875, 3120],
+					"3": [8332, 2514],
+					"4": [12209, 4155],
+					"5": [16929, 3871],
+					"6": [21871, 19101],
+					"7": [21871, 2635],
+					"8": [25032, 3496],
+					"9": [29228, 4448],
+					"10": [34752, 6182],
+					"11": [42208, 19449],
+					"12": [42208, 2027],
+					"13": [44673, 6580],
+					"14": [56831, 2001],
+					"15": [51279, 4438],
+					"16": [59607, 2086],
+					"17": [63000, 11224],
+					"18": [63000, 1923],
+					"19": [65636, 2195],
+					"20": [68662, 2190],
+					"21": [71804, 2067],
+					"22": [75141, 8353],
+					"23": [75141, 2123],
+					"24": [78238, 5101],
+					"25": [84437, 11008],
+					"26": [84437, 2342],
+					"27": [87621, 5410],
+					"28": [93548, 1795]
+				},
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				},
+				onload: function() {
+					// 음성 준비되면 HV 버튼 나타내기 
+					$("#whole").show();
+					$("#alt").hide();
+					// $(".alert").hide();
+
+					$(".so").on("click", function(idx) {
+							var t = $(this);
+							var ti = t.attr("id");
+
+						if($("div#last").text() == "" || t.text() == "❚❚") {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ti]++;
+				
+							last = ti;
+				
+							$("#cnt-"+ti).text(sen[ti]);
+						} else if(last == ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ti]);
+							nagehts.pause();
+							sen[ti]--;
+							$("#cnt-"+ti).text(sen[ti]);
+						}
+
+					});
+				},
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(sen[last] == 2) {
+						$("#"+last).find(".tran").show();
+					}
+				}
+
+
+			});
+
+
+	
+	</script>
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

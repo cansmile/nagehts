@@ -538,19 +538,62 @@ function rfchk(th,io) {
 					// 정답확인
 					$("#chk").on("click", function() {
 						var na="";
-						if($("#itms").find("button").length < 1) {
-							$(".tran").show();
-							$(".itm-lst").each(function() {
-								$(this).html($(this).find("button").html());
-								$(this).addClass("font-weight-bold text-success");
+						var ri=0;
+						var qst=$(".q").length;
+						$(".q").each(function () {
+							if(na !="") {
+								na +=", ";
 							}
-							);
+							if($(this).val()=="") {
+								na +=$(this).attr("id").substr(4, 1);
+							}
+						}
+						);
+						if($(this).attr("id")=="done") {}
+						else if(na=="") {
+							for(var i=0;
+							i < an.length;
+							i++) {
+								var oran=$("#qst-"+(i+1)).val();
+								if(rfchk($("#qst-"+(i+1)), true)) {
+									$("#qst-"+(i+1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+								}
+								else {
+									$("#qst-"+(i+1)).val(oran);
+									$("#qst-"+(i+1)).attr("disabled", true);
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+
+									if( !$.isArray(an[i])) {
+										$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+									}
+									else {
+										// 2 이상인 경우
+										var r = "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">";
+										for(var fd = (an[i].length-1);
+										fd >= 0;
+										fd--) {
+											if(fd < (an[i].length-1)) {
+												r = r + " / ";
+											}
+											r = r + an[i][fd];
+										}
+										r = r +"</div>";
+										$("#qst-"+(i+1)).closest("span.sen").after(r);
+									}
+
+								}
+								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+									ri++;
+								}
+							}
 
 							// 정답 확인 div 상자 배경색 속성 없애기
 							$(this).removeClass("btn-light ");
 
-							var qa = $(".itm-lst").length; // 전체 문항 수
-							var qr = $(".text-success").length; // 맞춘 항목 수
+							var qa = $(".q").length; // 전체 문항 수
+							var qr = $(".bg-success").length; // 맞춘 항목 수
 							var pe = (qr / qa) * 100; // 정답 비율
 							var tcl = "white"; // 기본 문자색
 
@@ -573,25 +616,16 @@ function rfchk(th,io) {
 							$(this).addClass("btn-" + cl + " text-" + tcl);
 							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
 
-							$(".btn-lg").text().appendTo($(this).closest("td"));
-							$(".btn-lg").remove();
-							$(".btn-lg").text().appendTo($(this).closest("td"));
-							$(".btn-lg").remove();
+							$(this).prop("disabled", true);
+							$(".tran").show();
+							$(this).attr("id", "done");
 						}
 						else {
-							$("div.itm-lst").each(function(idx) {
-								if( !$(this).find("button").length) {
-									if(na !="") { 
-										na +=", ";
-									na +=(idx+1);
-									}
-								}
-								// alert(na+"번 문제를 풀어주세요!");
-								alert("빈 칸을 모두 채워주세요.");
-							}
-							);
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
 						}
-				}
+						;
+					}
 				);
 				$("#0").show();
 				$(".alert").hide();

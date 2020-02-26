@@ -29,15 +29,15 @@
 							<tr>
 								<th scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 3/Reihe-3-B2-1.png" style="max-width: 240px; height: auto;"></th>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
-								<td>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></td>
+								<td>Wer ist das?<span class="tran"><br><small>이 사람은 누구니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
-								<td>Das sind meine Geschwister, mein Bruder und meine Schwester.<span class="tran"><br><small>제 형제자매에요, 나의 형제와 나의 자매에요.</small></span></td>
+								<td>Das sind meine Geschwister, mein Bruder und meine Schwester.<span class="tran"><br><small>내 형제자매야, 나의 형과 누나야.</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="3" class="so btn btn-outline-primary">▶</button></td>
-								<td>Wie alt sind sie?<span class="tran"><br><small>몇 살인가요?</small></span></td>
+								<td>Wie alt sind sie?<span class="tran"><br><small>몇 살이니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
@@ -45,7 +45,7 @@
 									Mein Bruder ist
 									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
 									Jahre alt 
-									</div><span class="tran"><br><small>나의 형제는 24살이에요</small></span>
+									</div><span class="tran"><br><small>나의 형은 24살이야</small></span>
 								</td>
 							</tr>
 							<tr>
@@ -54,16 +54,16 @@
 									und meine Schwester ist
 									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-2">
 									 Jahre alt.
-									</div><span class="tran"><br><small>그리고 나의 자매는 22살이에요.</small></span>
+									</div><span class="tran"><br><small>그리고 나의 누나는 22살이야.</small></span>
 								</td>
 							</tr>
 							<tr>
 								<td><button type="button" id="6" class="so btn btn-outline-primary">▶</button></td>
-								<td>Ach so, arbeiten sie?<span class="tran"><br><small>아 그래요, 그들은 일하나요?</small></span></td>
+								<td>Ach so, arbeiten sie?<span class="tran"><br><small>아 그래, 그들은 일하니?</small></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="7" class="so btn btn-outline-danger">▶</button></td>
-								<td>Nein, sie studieren in Seoul.<span class="tran"><br><small>아뇨, 그들은 서울에서 공부해요.</small></span></td>
+								<td>Nein, sie studieren in Seoul.<span class="tran"><br><small>아니, 그들은 서울에서 대학에 다녀.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -431,7 +431,25 @@
 									$("#qst-"+(i+1)).attr("disabled", true);
 									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
 									$("#qst-"+(i+1)).removeClass("rounded-0");
-									$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+
+									if( !$.isArray(an[i])) {
+										$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+									}
+									else {
+										// 2 이상인 경우
+										var r = "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">";
+										for(var fd = (an[i].length-1);
+										fd >= 0;
+										fd--) {
+											if(fd < (an[i].length-1)) {
+												r = r + " / ";
+											}
+											r = r + an[i][fd];
+										}
+										r = r +"</div>";
+										$("#qst-"+(i+1)).after(r);
+									}
+
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;

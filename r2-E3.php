@@ -307,9 +307,27 @@ function rfchk(th,io) {
 								else {
 									$("#qst-"+(i+1)).val(oran);
 									$("#qst-"+(i+1)).attr("disabled", true);
-									$("#qst-"+(i+1)).addClass("bg-danger text-white d-inline-block rounded font-weight-bold p-1 px-2 ml-1");
-									$("#qst-"+(i+1)).removeClass("rounded-0 d-block");
-									$("#qst-"+(i+1)).closest(".sen").append("<div class=\"d-inline-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).removeClass("rounded-0");
+
+									if( !$.isArray(an[i])) {
+										$("#qst-"+(i+1)).after("<div class=\"d-inline-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+									}
+									else {
+										// 2 이상인 경우
+										var r = "<div class=\"d-inline-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">";
+										for(var fd = (an[i].length-1);
+										fd >= 0;
+										fd--) {
+											if(fd < (an[i].length-1)) {
+												r = r + " / ";
+											}
+											r = r + an[i][fd];
+										}
+										r = r +"</div>";
+										$("#qst-"+(i+1)).after(r);
+									}
+
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;

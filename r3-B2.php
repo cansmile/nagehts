@@ -447,7 +447,11 @@
 											r = r + an[i][fd];
 										}
 										r = r +"</div>";
-										$("#qst-"+(i+1)).after(r);
+										if($("span.sen").length > 0) {
+											$("#qst-"+(i+1)).closest("span.sen").after(r);
+										} else {
+											$("#qst-"+(i+1)).after(r);
+										}
 									}
 
 								}

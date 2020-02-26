@@ -2,6 +2,9 @@
 	<body>
 <?php include "nav.php"; ?>
 <?php if(ul()) { ?>
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 <section>
 	<div class="container">
 		<div class="row">
@@ -224,7 +227,8 @@
 									</tr>
 									<tr>
 										<td><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist <u>die Uhr</u>?</td>
-										<td><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- <strong>Sie</strong> ist altmodisch.</td>
+										<td><button type="bu
+											tton" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- <strong>Sie</strong> ist altmodisch.</td>
 									</tr>
 									<tr>
 										<td><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist <u>das Regal</u>?</td>

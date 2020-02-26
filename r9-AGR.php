@@ -11,22 +11,22 @@
 			<div class="row">
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="1">
+					<button type="button" id="1" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm">
 					der se<strong>ch</strong>zehnte
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="2">
+					<button type="button" id="2" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm">
 					der zwölfte
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="3">
+					<button type="button" id="3" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm">
 					der zweiundzwanzigste
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
+					<button type="button" id="4" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm">
 					der fünfte
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="5">
+					<button type="button" id="5" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm">
 					der achtundzwanzigste
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
+					<button type="button" id="6" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm">
 					der neunte
 					</button>
 				</div>
@@ -46,7 +46,7 @@
 					❚❚
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 각 항목에 맞는 단어를 짝지우세요.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 각 항목에 맞는 단어를 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -63,33 +63,38 @@
 					<table class="table my-0">
 						<tbody>
 							<tr>
-								<th scope="row" width="50"><button type="button" id="erste" class="so btn btn-outline-danger">▶</button></th>
-								<td width="50">1</td>
+								<th scope="row" width="50">1</td>
+								<td width="50"><button type="button" id="7" class="so btn btn-outline-danger">▶</button></td>
 								<td>eins</td>
+								<td width="50"><button type="button" id="8" class="so btn btn-outline-danger">▶</button></td>
 								<td>der erste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="zweite" class="so btn btn-outline-danger">▶</button></th>
-								<td>2</td>
+								<th scope="row">2</td>
+								<td><button type="button" id="9" class="so btn btn-outline-danger">▶</button></td>
 								<td>zwei</td>
+								<td><button type="button" id="10" class="so btn btn-outline-danger">▶</button></td>
 								<td>der zweite</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="dreite" class="so btn btn-outline-danger">▶</button></th>
-								<td>3</td>
+								<th scope="row">3</td>
+								<td><button type="button" id="11" class="so btn btn-outline-danger">▶</button></td>
 								<td>drei</td>
+								<td><button type="button" id="12" class="so btn btn-outline-danger">▶</button></td>
 								<td>der dritte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="vierte" class="so btn btn-outline-danger">▶</button></th>
-								<td>4</td>
+								<th scope="row">4</td>
+								<td><button type="button" id="13" class="so btn btn-outline-danger">▶</button></td>
 								<td>vier</td>
+								<td><button type="button" id="14" class="so btn btn-outline-danger">▶</button></td>
 								<td>der vierte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="fünfte" class="so btn btn-outline-danger">▶</button></th>
-								<td>5</td>
+								<th scope="row">5</td>
+								<td><button type="button" id="15" class="so btn btn-outline-danger">▶</button></td>
 								<td>fünf</td>
+								<td><button type="button" id="16" class="so btn btn-outline-danger">▶</button></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -98,27 +103,31 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="sechte" class="so btn btn-outline-danger">▶</button></th>
-								<td>6</td>
+								<th scope="row">6</td>
+								<td><button type="button" id="17" class="so btn btn-outline-danger">▶</button></td>
 								<td>sechs</td>
+								<td><button type="button" id="18" class="so btn btn-outline-danger">▶</button></td>
 								<td>der sechs<strong>te</strong></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="siebte" class="so btn btn-outline-danger">▶</button></th>
-								<td>7</td>
+								<th scope="row">7</td>
+								<td><button type="button" id="19" class="so btn btn-outline-danger">▶</button></td>
 								<td>sieben</td>
+								<td><button type="button" id="20" class="so btn btn-outline-danger">▶</button></td>
 								<td>der sieb<strong>te</strong></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="achte" class="so btn btn-outline-danger">▶</button></th>
-								<td>8</td>
+								<th scope="row">8</td>
+								<td><button type="button" id="21" class="so btn btn-outline-danger">▶</button></td>
 								<td>acht</td>
+								<td><button type="button" id="22" class="so btn btn-outline-danger">▶</button></td>
 								<td>der achte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="neunte" class="so btn btn-outline-danger">▶</button></th>
-								<td>9</td>
+								<th scope="row">9</td>
+								<td><button type="button" id="23" class="so btn btn-outline-danger">▶</button></td>
 								<td>neun</td>
+								<td><button type="button" id="24" class="so btn btn-outline-danger">▶</button></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -127,9 +136,10 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="zehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>10</td>
+								<th scope="row">10</td>
+								<td><button type="button" id="25" class="so btn btn-outline-danger">▶</button></td>
 								<td>zehn</td>
+								<td><button type="button" id="26" class="so btn btn-outline-danger">▶</button></td>
 								<td>der zehnte</td>
 							</tr>
 						</tbody>
@@ -139,15 +149,17 @@
 					<table class="table my-0">
 						<tbody>
 							<tr>
-								<th scope="row" width="50"><button type="button" id="elf" class="so btn btn-outline-danger">▶</button></th>
-								<td width="50">11</td>
+								<th scope="row" width="50">11</td>
+								<td width="50"><button type="button" id="27" class="so btn btn-outline-danger">▶</button></td>
 								<td>elf</td>
+								<td width="50"><button type="button" id="28" class="so btn btn-outline-danger">▶</button></td>
 								<td>der elfte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="zwölfte" class="so btn btn-outline-danger">▶</button></th>
-								<td>12</td>
+								<th scope="row">12</td>
+								<td><button type="button" id="29" class="so btn btn-outline-danger">▶</button></td>
 								<td>zwölf</td>
+								<td><button type="button" id="30" class="so btn btn-outline-danger">▶</button></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -156,27 +168,31 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="dreizehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>13</td>
+								<th scope="row">13</td>
+								<td><button type="button" id="31" class="so btn btn-outline-danger">▶</button></td>
 								<td>dreizehn</td>
+								<td><button type="button" id="32" class="so btn btn-outline-danger">▶</button></td>
 								<td>der dreizehnte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="vierzehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>14</td>
+								<th scope="row">14</td>
+								<td><button type="button" id="33" class="so btn btn-outline-danger">▶</button></td>
 								<td>vierzehn</td>
+								<td><button type="button" id="34" class="so btn btn-outline-danger">▶</button></td>
 								<td>der vierzehnte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="fünfzehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>15</td>
+								<th scope="row">15</td>
+								<td><button type="button" id="35" class="so btn btn-outline-danger">▶</button></td>
 								<td>fünfzehn</td>
+								<td><button type="button" id="36" class="so btn btn-outline-danger">▶</button></td>
 								<td>der fünfzehnte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="sechzehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>16</td>
+								<th scope="row">16</td>
+								<td><button type="button" id="37" class="so btn btn-outline-danger">▶</button></td>
 								<td>se<strong>ch</strong>zehn</td>
+								<td><button type="button" id="38" class="so btn btn-outline-danger">▶</button></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-4">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -185,26 +201,30 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="siebzehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>17</td>
+								<th scope="row">17</td>
+								<td><button type="button" id="39" class="so btn btn-outline-danger">▶</button></td>
 								<td>sie<strong>b</strong>zehn</td>
+								<td><button type="button" id="40" class="so btn btn-outline-danger">▶</button></td>
 								<td>der sie<strong>b</strong>zehnte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="achtzehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>18</td>
+								<th scope="row">18</td>
+								<td><button type="button" id="41" class="so btn btn-outline-danger">▶</button></td>
 								<td>achtzehn</td>
+								<td><button type="button" id="42" class="so btn btn-outline-danger">▶</button></td>
 								<td>der achtzehnte</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="neunzehn" class="so btn btn-outline-danger">▶</button></th>
-								<td>19</td>
+								<th scope="row">19</td>
+								<td><button type="button" id="43" class="so btn btn-outline-danger">▶</button></td>
 								<td>neunzehn</td>
+								<td><button type="button" id="44" class="so btn btn-outline-danger">▶</button></td>
 								<td>der neunzehnte</td>
 							</tr>
-								<th scope="row"><button type="button" id="zwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>20</td>
+								<th scope="row">20</td>
+								<td><button type="button" id="45" class="so btn btn-outline-danger">▶</button></td>
 								<td>zwanzig</td>
+								<td><button type="button" id="46" class="so btn btn-outline-danger">▶</button></td>
 								<td>der zwanzig<strong>ste</strong></td>
 							</tr>
 						</tbody>
@@ -214,15 +234,17 @@
 					<table class="table my-0">
 						<tbody>
 							<tr>
-								<th scope="row" width="50"><button type="button" id="einundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td width="50">21</td>
+								<th scope="row" width="50">21</td>
+								<td width="50"><button type="button" id="47" class="so btn btn-outline-danger">▶</button></td>
 								<td>einundzwanzig</td>
+								<td width="50"><button type="button" id="48" class="so btn btn-outline-danger">▶</button></td>
 								<td>der einundzwanzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="zweiundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>22</td>
+								<th scope="row">22</td>
+								<td><button type="button" id="49" class="so btn btn-outline-danger">▶</button></td>
 								<td>zweiundzwanzig</td>
+								<td><button type="button" id="50" class="so btn btn-outline-danger">▶</button></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -231,39 +253,45 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="dreiundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>23</td>
+								<th scope="row">23</td>
+								<td><button type="button" id="51" class="so btn btn-outline-danger">▶</button></td>
 								<td>dreiundzwanzig</td>
+								<td><button type="button" id="52" class="so btn btn-outline-danger">▶</button></td>
 								<td>der dreiundzwanzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="vierundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>24</td>
+								<th scope="row">24</td>
+								<td><button type="button" id="53" class="so btn btn-outline-danger">▶</button></td>
 								<td>vierundzwanzig</td>
+								<td><button type="button" id="54" class="so btn btn-outline-danger">▶</button></td>
 								<td>der vierundzwanzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="fümfundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>25</td>
+								<th scope="row">25</td>
+								<td><button type="button" id="55" class="so btn btn-outline-danger">▶</button></td>
 								<td>fümfundzwanzig</td>
+								<td><button type="button" id="56" class="so btn btn-outline-danger">▶</button></td>
 								<td>der fümfundzwanzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="sechsundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>26</td>
+								<th scope="row">26</td>
+								<td><button type="button" id="57" class="so btn btn-outline-danger">▶</button></td>
 								<td>sechsundzwanzig</td>
+								<td><button type="button" id="58" class="so btn btn-outline-danger">▶</button></td>
 								<td>der sechsundzwanzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="siebenundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>27</td>
+								<th scope="row">27</td>
+								<td><button type="button" id="59" class="so btn btn-outline-danger">▶</button></td>
 								<td>siebenundzwanzig</td>
+								<td><button type="button" id="60" class="so btn btn-outline-danger">▶</button></td>
 								<td>der siebenundzwanzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="achtundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>28</td>
+								<th scope="row">28</td>
+								<td><button type="button" id="61" class="so btn btn-outline-danger">▶</button></td>
 								<td>achtundzwanzig</td>
+								<td><button type="button" id="62" class="so btn btn-outline-danger">▶</button></td>
 								<td>
 									<div class="itm-lst 1itm" id="lst-6">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -272,15 +300,17 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="neunundzwanzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>29</td>
+								<th scope="row">29</td>
+								<td><button type="button" id="63" class="so btn btn-outline-danger">▶</button></td>
 								<td>neunundzwanzig</td>
+								<td><button type="button" id="64" class="so btn btn-outline-danger">▶</button></td>
 								<td>der neunundzwanzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="dreißig" class="so btn btn-outline-danger">▶</button></th>
-								<td>30</td>
+								<th scope="row">30</td>
+								<td><button type="button" id="65" class="so btn btn-outline-danger">▶</button></td>
 								<td>dreißig</td>
+								<td><button type="button" id="66" class="so btn btn-outline-danger">▶</button></td>
 								<td>der dreißigte</td>
 							</tr>
 						</tbody>
@@ -290,61 +320,69 @@
 					<table class="table my-0">
 						<tbody>
 							<tr>
-								<th scope="row" width="50"><button type="button" id="vierzig" class="so btn btn-outline-danger">▶</button></th>
-								<td width="50">40</td>
+								<th scope="row" width="50">40</td>
+								<td width="50"><button type="button" id="67" class="so btn btn-outline-danger">▶</button></td>
 								<td>vierzig</td>
+								<td width="50"><button type="button" id="68" class="so btn btn-outline-danger">▶</button></td>
 								<td>der vierzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="fünfzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>50</td>
+								<th scope="row">50</td>
+								<td><button type="button" id="69" class="so btn btn-outline-danger">▶</button></td>
 								<td>fünfzig</td>
+								<td><button type="button" id="70" class="so btn btn-outline-danger">▶</button></td>
 								<td>der fünfzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="sechzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>60</td>
+								<th scope="row">60</td>
+								<td><button type="button" id="71" class="so btn btn-outline-danger">▶</button></td>
 								<td>sechzig</td>
+								<td><button type="button" id="72" class="so btn btn-outline-danger">▶</button></td>
 								<td>der sechzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="siebzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>70</td>
+								<th scope="row">70</td>
+								<td><button type="button" id="73" class="so btn btn-outline-danger">▶</button></td>
 								<td>siebzig</td>
+								<td><button type="button" id="74" class="so btn btn-outline-danger">▶</button></td>
 								<td>der siebzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="achtzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>80</td>
+								<th scope="row">80</td>
+								<td><button type="button" id="75" class="so btn btn-outline-danger">▶</button></td>
 								<td>achtzig</td>
+								<td><button type="button" id="76" class="so btn btn-outline-danger">▶</button></td>
 								<td>der achtzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="neunzig" class="so btn btn-outline-danger">▶</button></th>
-								<td>90</td>
+								<th scope="row">90</td>
+								<td><button type="button" id="77" class="so btn btn-outline-danger">▶</button></td>
 								<td>neunzig</td>
+								<td><button type="button" id="78" class="so btn btn-outline-danger">▶</button></td>
 								<td>der neunzigste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="hundert" class="so btn btn-outline-danger">▶</button></th>
-								<td>100</td>
+								<th scope="row">100</td>
+								<td><button type="button" id="79" class="so btn btn-outline-danger">▶</button></td>
 								<td>hundert</td>
+								<td><button type="button" id="80" class="so btn btn-outline-danger">▶</button></td>
 								<td>(ein)hundertste</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="hunderteins" class="so btn btn-outline-danger">▶</button></th>
-								<td>101</td>
+								<th scope="row">101</td>
+								<td><button type="button" id="81" class="so btn btn-outline-danger">▶</button></td>
 								<td>hunderteins</td>
+								<td><button type="button" id="82" class="so btn btn-outline-danger">▶</button></td>
 								<td>(ein)hunderteinste</td>
 							</tr>
 							<tr>
-								<th scope="row">&nbsp;</th>
+								<th scope="row">&nbsp;</td>
 								<td>&nbsp;</td>
 								<td>&nbsp;</td>
 								<td>&nbsp;</td>
 							</tr>
 							<tr>
-								<th scope="row">&nbsp;</th>
+								<th scope="row">&nbsp;</td>
 								<td>&nbsp;</td>
 								<td>&nbsp;</td>
 								<td>&nbsp;</td>
@@ -365,31 +403,31 @@
 					<table class="table my-0">
 						<tbody>
 							<tr>
-								<th class="align-middle" scope="row" rowspan="3" width="50"><button type="button" id="Frühling" class="so btn btn-outline-danger">▶</button></th>
+								<th class="align-middle" scope="row" rowspan="3" width="50"><button type="button" id="83" class="so btn btn-outline-danger">▶</button></th>
 								<td rowspan="3" class="align-middle text-center">der Frühling</td>
-								<th scope="row" width="50"><button type="button" id="Januar" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row" width="50"><button type="button" id="84" class="so btn btn-outline-danger">▶</button></th>
 								<td>der März</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="Februar" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="85" class="so btn btn-outline-danger">▶</button></th>
 								<td>der April</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="März" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="86" class="so btn btn-outline-danger">▶</button></th>
 								<td>der Mai</td>
 							</tr>
 							<tr>
-								<th class="align-middle" scope="row" rowspan="3"><button type="button" id="Sommer" class="so btn btn-outline-danger">▶</button></th>
+								<th class="align-middle" scope="row" rowspan="3"><button type="button" id="87" class="so btn btn-outline-danger">▶</button></th>
 								<td rowspan="3" class="align-middle text-center">der Sommer</td>
-								<th scope="row"><button type="button" id="April" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="88" class="so btn btn-outline-danger">▶</button></th>
 								<td>der Juni</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="Mai" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="89" class="so btn btn-outline-danger">▶</button></th>
 								<td>der Juli</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="Juni" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="90" class="so btn btn-outline-danger">▶</button></th>
 								<td>der August</td>
 							</tr>
 						</tbody>
@@ -399,31 +437,31 @@
 					<table class="table my-0">
 						<tbody>
 							<tr>
-								<th class="align-middle" scope="row" rowspan="3" width="50"><button type="button" id="Herbst" class="so btn btn-outline-danger">▶</button></th>
+								<th class="align-middle" scope="row" rowspan="3" width="50"><button type="button" id="91" class="so btn btn-outline-danger">▶</button></th>
 								<td rowspan="3" class="align-middle text-center">der Herbst</td>
-								<th scope="row" width="50"><button type="button" id="Juli" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row" width="50"><button type="button" id="92" class="so btn btn-outline-danger">▶</button></th>
 								<td>der September</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="August" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="93" class="so btn btn-outline-danger">▶</button></th>
 								<td>der Oktober</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="September" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="94" class="so btn btn-outline-danger">▶</button></th>
 								<td>der November</td>
 							</tr>
 							<tr>
-								<th class="align-middle" scope="row" rowspan="3"><button type="button" id="Winter" class="so btn btn-outline-danger">▶</button></th>
+								<th class="align-middle" scope="row" rowspan="3"><button type="button" id="95" class="so btn btn-outline-danger">▶</button></th>
 								<td rowspan="3" class="align-middle text-center">der Winter</td>
-								<th scope="row"><button type="button" id="Oktober" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="96" class="so btn btn-outline-danger">▶</button></th>
 								<td>der Dezember</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="November" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="97" class="so btn btn-outline-danger">▶</button></th>
 								<td>der Januar</td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="Dezember" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="row"><button type="button" id="98" class="so btn btn-outline-danger">▶</button></th>
 								<td>der Februar</td>
 							</tr>
 						</tbody>
@@ -466,70 +504,107 @@
 			}
 			ion.sound( {
 				sounds : [ {
-					name : "r3 B1",
+					name : "r9 AGR",
 					sprite : {
-						"0": [7, 78],
-						"1": [70.5, 2.2],
-						"2": [50, 1.9],
-						"3": [80, 1.5],
-						"4": [56.2, 1.8],
-						"5": [37.3, 1.6],
-						"6": [25.8, 1.5],
-						"7": [76.8, 1.6],
-						"erste": [1,2],
-						"zweite": [1,2],
-						"dreite": [1,2],
-						"vierte": [1,2],
-						"fünfte": [1,2],
-						"sechte": [1,2],
-						"siebte": [1,2],
-						"achte": [1,2],
-						"neunte": [1,2],
-						"zehn": [1,2],
-						"elf": [1,2],
-						"zwölfte": [1,2],
-						"dreizehn": [1,2],
-						"vierzehn": [1,2],
-						"fünfzehn": [1,2],
-						"sechzehn": [1,2],
-						"siebzehn": [1,2],
-						"achtzehn": [1,2],
-						"neunzehn": [1,2],
-						"zwanzig": [1,2],
-						"einundzwanzig": [1,2],
-						"zweiundzwanzig": [1,2],
-						"dreiundzwanzig": [1,2],
-						"vierundzwanzig": [1,2],
-						"fümfundzwanzig": [1,2],
-						"sechsundzwanzig": [1,2],
-						"siebenundzwanzig": [1,2],
-						"achtundzwanzig": [1,2],
-						"neunundzwanzig": [1,2],
-						"dreißig": [1,2],
-						"vierzig": [1,2],
-						"fünfzig": [1,2],
-						"sechzig": [1,2],
-						"siebzig": [1,2],
-						"achtzig": [1,2],
-						"neunzig": [1,2],
-						"hundert": [1,2],
-						"hunderteins": [1,2],
-						"Frühling": [1,2],
-						"Januar": [1,2],
-						"Februar": [1,2],
-						"März": [1,2],
-						"Sommer": [1,2],
-						"April": [1,2],
-						"Mai": [1,2],
-						"Juni": [1,2],
-						"Herbst": [1,2],
-						"Juli": [1,2],
-						"August": [1,2],
-						"September": [1,2],
-						"Winter": [1,2],
-						"Oktober": [1,2],
-						"November": [1,2],
-						"Dezember": [1,2]
+						"0": [.869, 260.247],
+						"1": [,],
+						"2": [,],
+						"3": [,],
+						"4": [,],
+						"5": [,],
+						"6": [,],
+						"7": [8.544, 1.026],
+						"8": [122.260, 1.194],
+						"9": [10.552, 1.180],
+						"10": [125.369, 1.489],
+						"11": [13.177, .942],
+						"12": [128.771, 1.365],
+						"13": [15.593, .834],
+						"14": [132.148, 1.329],
+						"15": [17.931, .918],
+						"16": [136.188, 1.338],
+						"17": [20.121, 1.037],
+						"18": [139.843, 1.296],
+						"19": [22.483, 1.152],
+						"20": [143.348, 1.213],
+						"21": [25.115, .810],
+						"22": [146.840, 1.395],
+						"23": [27.591, 1.012],
+						"24": [150.535, 1.277],
+						"25": [30.115, .974],
+						"26": [153.784, 13.386],
+						"27": [32.699, .664],
+						"28": [157.544, 1.283],
+						"29": [35.006, 1.224],
+						"30": [160.954, 1.458],
+						"31": [38.454, 1.135],
+						"32": [164.254, 1.816],
+						"33": [41.294, 1.068],
+						"34": [167.685, 1.820],
+						"35": [44.098, 1.322],
+						"36": [171.080, 2.154],
+						"37": [46.916, 1.169],
+						"38": [174.891, 1.789],
+						"39": [49.692, 1.444],
+						"40": [178.340, 1.886],
+						"41": [52.611, 1.443],
+						"42": [182.406, 1.801],
+						"43": [55.330, 1.324],
+						"44": [186.567, 1.780],
+						"45": [58.095, 1.073],
+						"46": [190.349, 2.010],
+						"47": [61.127, 1.555],
+						"48": [195.073, 2.223],
+						"49": [64.304, 1.664],
+						"50": [199.026, 2.371],
+						"51": [67.484, 1.589],
+						"52": [203.552, 2.490],
+						"53": [70.778, 1.473],
+						"54": [207.966, 2.153],
+						"55": [74.133, 1.663],
+						"56": [212.255, 2.222],
+						"57": [77.462, 1.565],
+						"58": [216.548, 2.121],
+						"59": [80.722, 1.567],
+						"60": [220.089, 2.365],
+						"61": [83.805, 1.495],
+						"62": [224.436, 2.389],
+						"63": [87.290, 1.617],
+						"64": [228.758, 2.333],
+						"65": [90.362, 1.217],
+						"66": [232.820, 1.621],
+						"67": [93.197, 1.207],
+						"68": [235.869, 1.756],
+						"69": [96.559, .971],
+						"70": [239.739, 1.653],
+						"71": [99.545, 1.349],
+						"72": [243.094, 1.625],
+						"73": [102.626, 1.295],
+						"74": [246.527, 1.513],
+						"75": [106.033, 1.174],
+						"76": [249.642, 1.683],
+						"77": [109.008, 1.425],
+						"78": [253.094, 1.613],
+						"79": [112.043, 1.292],
+						"80": [256.239, 1.607],
+						"81": [115.288, 1.571],
+						"82": [259.320, 1.784],
+						"83": [305.560, 1.315],
+						"84": [270.640,1.344],
+						"85": [273.095, 1.391],
+						"86": [275.568, 1.270],
+						"87": [308.460, 1.138],
+						"88": [278.018, 1.279],
+						"89": [280.692, .951],
+						"90": [283.147, 1.330],
+						"91": [311.435, 1.295],
+						"92": [285.998, 1.282],
+						"93": [288.782, 1.234],
+						"94": [291.561, 1.405],
+						"95": [314.203, 1.089],
+						"96": [294.390, 1.401],
+						"97": [297.103, 1.285],
+						"98": [299.738, 1.271]
 					}
 				}
 				, {
@@ -541,7 +616,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 3/",
+				path : "sounds/Reihe 9/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,
@@ -558,34 +633,11 @@
 						}
 					}
 					else {
-						if(obj.part > 10) {
+						if(obj.part > 6) {
 							$("#"+obj.part).html("▶");
 						}
 						if(hm[hmn] > 1) {
-							if(hmn==17) {
-								for(j=7;
-								j <=9;
-								j++) {
-									$("#"+j).closest("tr").find(".tran").show();
-								}
-							}
-							else if(hmn==18) {
-								for(j=10;
-								j <=12;
-								j++) {
-									$("#"+j).closest("tr").find(".tran").show();
-								}
-							}
-							else if(hmn==19) {
-								for(j=13;
-								j <=16;
-								j++) {
-									$("#"+j).closest("tr").find(".tran").show();
-								}
-							}
-							else {
-								$("#"+hmn).closest("tr").find(".tran").show();
-							}
+							$("#"+hmn).closest(".table").find(".tran").show();
 						}
 					}
 				}
@@ -630,7 +682,7 @@
 					$(".so").on("click", function () {
 						if($(this).attr("id").substr(-2)=="_p") {
 							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r3 B1", {
+							ion.sound.pause("r9 AGR", {
 								part: "0"
 							}
 							);
@@ -639,7 +691,7 @@
 						}
 						else if($(this).html()=="▶") {
 							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.play("r3 B1", {
+							ion.sound.play("r9 AGR", {
 								part: $(this).attr("id")
 							}
 							);
@@ -647,7 +699,7 @@
 						}
 						else if($(this).html()=="❚❚") {
 							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r3 B1", {
+							ion.sound.pause("r9 AGR", {
 								part: $(this).attr("id")
 							}
 							);
@@ -655,7 +707,7 @@
 						}
 						else {
 							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r3 B1", {
+							ion.sound.play("r9 AGR", {
 								part: $(this).attr("id")
 							}
 							);

@@ -106,7 +106,7 @@ $rtl = array(
 		"C" => array("C1" => "Wie viele Geschwister hast du?", "C2" => "Familienstand"),
 		"D" => array("D1" => "Lesen Sie die Texte.", "D2" => "Ergänzen Sie die Tabelle.", "D4" => "Was sind die Leute von Beruf?", "D5" => "Was sind Sie von Beruf?"),
 		"E" => array("E1" => "Visitenkarten", "E2" => "Visitenkarten"),
-		"F" => array("F1" => "Wer ist das?", "F2" => "Ergänzen Sie.", "F3" => "Ergänzen Sie die passende Form.", "F5" => "Schreiben Sie über die Leute.")
+		"F" => array("F1" => "Wer ist das?", "F2" => "Ergänzen Sie.", "F3" => "Ergänzen Sie die passende Form.", "F5" => "Ergänzen Sie")
 	),
 	4 =>
 	array(
@@ -202,7 +202,7 @@ $rtl_k = array(
 		"C" => array("C1" => "형제자매가 몇 명이니?", "C2" => "가족상황"),
 		"D" => array("D1" => "듣고 텍스트를 읽으세요.", "D2" => "다음 표를 작성하세요.", "D4" => "이 사람들은 어떤 직업을 가지고 있나요?", "D5" => "직업이 어떻게 돠나요?"),
 		"E" => array("E1" => "명함", "E2" => "명함"),
-		"F" => array("F1" => "이 사람은 누구인가요?", "F2" => "빈칸을 채우세요.", "F3" => "빈칸에 동사를 알맞은 형태로 채우세요.", "F5" => "아래의 정보를 가지고 글을 써보세요.")
+		"F" => array("F1" => "이 사람은 누구인가요?", "F2" => "빈칸을 채우세요.", "F3" => "빈칸에 동사를 알맞은 형태로 채우세요.", "F5" => "아래의 정보를 가지고 빈 칸을 채우세요.")
 	),
 	4 =>
 	array(

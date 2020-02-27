@@ -2,6 +2,9 @@
 	<body>
 <?php include "nav.php"; ?>
 <?php if(ul()) { ?>
+<!-- 알림 시작 -->
+<?php require_once "ready.php"; ?>
+<!-- 알림 끝 -->
 <section>
 	<div class="container">
 		<div class="row">
@@ -289,23 +292,26 @@
 							<table class="table text-left bg-light">
 								<tbody>
 									<tr>
-										<td width="50%">Frohe Weihnachten!</td>
-										<td>Gesegnete Weihnachten!</td>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									</tr>
+									<tr>
+										<td width="50%"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Frohe Weihnachten!</td>
+										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Gesegnete Weihnachten!</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<tbody>
 									<tr>
-										<td width="50%">Prosit Neujahr!</td>
-										<td>Guten Rutsch ins Neujahr!</td>
+										<td width="50%"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Prosit Neujahr!</td>
+										<td><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Guten Rutsch ins Neujahr!</td>
 									</tr>
 									<tr>
-										<td>Frohes neues Jahr!</td>
-										<td>Gesegnetes neues Jahr!</td>
+										<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Frohes neues Jahr!</td>
+										<td><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Gesegnetes neues Jahr!</td>
 									</tr>
 									<tr>
-										<td>Frohe Ostern!</td>
+										<td><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Frohe Ostern!</td>
 										<td>&nbsp;</td>
 									</tr>
 								</tbody>
@@ -313,110 +319,100 @@
 							<table class="table text-left bg-light">
 								<tbody>
 									<tr>
-										<td>Alles Gute zum Geburtstag!</td>
+										<td><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Alles Gute zum Geburtstag!</td>
 									</tr>
 									<tr>
-										<td>Alles Liebe zum Geburtstag!</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="table text-left">
-								<tbody>
-									<tr>
-										<td>Welches Datum haben wir heute?</td>
-									</tr>
-									<tr>
-										<td>- Heute ist der fünfzehnte August.</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="table text-left bg-light">
-								<tbody>
-									<tr>
-										<td>Wann hast du Geburtstag?</td>
-									</tr>
-									<tr>
-										<td>- Ich habe im Juli/ im Sommer / am 30. Juli Geburtstag.</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="table text-left bg-light">
-								<tbody>
-									<tr>
-										<td>Welches Datum haben wir heute?</td>
-									</tr>
-									<tr>
-										<td>- Heute ist der fünfzehnte August.</td>
+										<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Alles Liebe zum Geburtstag!</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<tbody>
 									<tr>
-										<td>Wann bist du geboren?</td>
+										<td><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Welches Datum haben wir heute?</td>
 									</tr>
 									<tr>
-										<td>- Ich bin am 30. Juli 2000 geboren.</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="table text-left bg-light">
-								<tbody>
-									<tr>
-										<td>Am fünfzehnten August ist unabhängiger Tag.</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="table text-left">
-								<tbody>
-									<tr>
-										<td>Welche Feiertage und Feste gibt es in Korea?</td>
-									</tr>
-									<tr>
-										<td>- Wir haben Neujahr, Kindertag, unabhängigen Tag, Chusuk etc.</td>
+										<td><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Heute ist der fünfzehnte August.</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left bg-light">
 								<tbody>
 									<tr>
-										<td>Wie feiert man in Korea?</td>
+										<td><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wann hast du Geburtstag?</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich habe im Juli/ im Sommer / am 30. Juli Geburtstag.</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<tbody>
 									<tr>
-										<td>Mit wem feiern Sie?</td>
+										<td><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wann bist du geboren?</td>
 									</tr>
 									<tr>
-										<td>- Wir feiern mit Familie. / mit Verwandten. / mit Nachbarn. / mit Freunden.</td>
+										<td><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin am 30. Juli 2000 geboren.</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left bg-light">
 								<tbody>
 									<tr>
-										<td>Wo feiern Sie?</td>
-									</tr>
-									<tr>
-										<td>- Wir feiern zu Hause. / im Restaurant oder in der Kneipe. / draußen.</td>
-									</tr>
-									<tr>
-										<td>- Wir mieten einen Raum.</td>
+										<td><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Am fünfzehnten August ist unabhängiger Tag.</td>
 									</tr>
 								</tbody>
 							</table>
 							<table class="table text-left">
 								<tbody>
 									<tr>
-										<td>Was möchten Sie zum Geburtstag bekommen?</td>
+										<td><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Welche Feiertage und Feste gibt es in Korea?</td>
 									</tr>
 									<tr>
-										<td>- Ich freue mich [nicht] über das Geschenk.</td>
+										<td><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Wir haben Neujahr, Kindertag, unabhängigen Tag, Chusuk etc.</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="table text-left bg-light">
+								<tbody>
+									<tr>
+										<td><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie feiert man in Korea?</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="table text-left">
+								<tbody>
+									<tr>
+										<td><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Mit wem feiern Sie?</td>
 									</tr>
 									<tr>
-										<td>- Ich möchte zum Geburtstag (nicht) gern ein iPad haben.</td>
+										<td><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Wir feiern mit Familie. / mit Verwandten. / mit Nachbarn. / mit Freunden.</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="table text-left bg-light">
+								<tbody>
+									<tr>
+										<td><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wo feiern Sie?</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Wir feiern zu Hause. / im Restaurant oder in der Kneipe. / draußen.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Wir mieten einen Raum.</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="table text-left">
+								<tbody>
+									<tr>
+										<td><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was möchten Sie zum Geburtstag bekommen?</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich freue mich [nicht] über das Geschenk.</td>
+									</tr>
+									<tr>
+										<td><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich möchte zum Geburtstag (nicht) gern ein iPad haben.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -428,12 +424,117 @@
 	</div>
 </section>
 
+<div id="last" class="d-none"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<script>
+			// 소리 출력 전역 변수와 함수
+			var sen = new Array(), pa = new Array(), he = new Array(), last;
+			$(".so").each(function() {
+				var t = $(this);
+				var ti = t.attr("id");
+				sen[ti] = 0;
+				pa[ti] = t.html();
+				he[ti] = t.height();
+			});
+
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				});
+			}
+
+			var nagehts = new Howl({
+				// src: ["./sounds/Reihe 1/r1 H.mp3"],
+				src: ["./sounds/Reihe 9/r9 F.mp3"],
+				sprite : {
+					"1": [559, 154072],
+					"2": [4800, 2061],
+					"3": [8030, 2386],
+					"4": [11459, 2147],
+					"5": [10541, 2250],
+					"6": [18645, 2211],
+					"7": [22116, 2527],
+					"8": [25874, 2185],
+					"9": [29515, 2797],
+					"10": [33828, 2473],
+					"11": [38147, 2752],
+					"12": [42133, 3006],
+					"13": [46342, 2725],
+					"14": [49916, 6976],
+					"15": [58044, 2552],
+					"16": [61773, 4363],
+					"17": [67790, 4226],
+					"18": [73489, 3909],
+					"19": [78384, 9133],
+					"20": [88975, 2593],
+					"21": [92699, 2672],
+					"22": [96634, 12488],
+					"23": [110809, 2119],
+					"24": [114061, 10788],
+					"25": [125998, 2637],
+					"26": [130205, 3399],
+					"27": [134522, 8481],
+					"28": [144321, 10352]
+				},
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				},
+				onload: function() {
+					// 음성 준비되면 HV 버튼 나타내기 
+					$("#whole").show();
+					$("#alt").hide();
+					// $(".alert").hide();
+
+					$(".so").on("click", function(idx) {
+							var t = $(this);
+							var ti = t.attr("id");
+
+						if($("div#last").text() == "" || t.text() == "❚❚") {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ti]++;
+				
+							last = ti;
+				
+							$("#cnt-"+ti).text(sen[ti]);
+						} else if(last == ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ti]);
+							nagehts.pause();
+							sen[ti]--;
+							$("#cnt-"+ti).text(sen[ti]);
+						}
+
+					});
+				},
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(sen[last] == 2) {
+						$("#"+last).find(".tran").show();
+					}
+				}
+
+
+			});
+
+
+	
+	</script>
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

@@ -427,6 +427,19 @@ function rfchk(th,io) {
 						}
 						;
 					})
+
+					var pan=new Array();
+					// pan=[1,2,3,4,5,6,7,8,9,10];
+					pan = [1,5,9];
+					for(var p=0;
+					p < pan.length;
+					p++) {
+						var pann="#qst-"+pan[p];
+						$(pann).val(an[(pan[p]-1)]);
+						$(pann).addClass("bg-success text-white font-weight-bold");
+						$(pann).prop("disabled", true);
+						// $(pann).closest("tr").find(".tran").show();
+					}
 			});
 			
 		</script>

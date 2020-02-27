@@ -11,8 +11,15 @@
 					</div>
 					</div>
 				</div>
+				<div class="row border border-dark rounded text-center font-weight-bold p-1 px-2">
+					<div class="col">heiße</div>
+					<div class="col">heißen</div>
+					<div class="col">machen</div>
+					<div class="col">studiere</div>
+					<div class="col">bin</div>
+					<div class="col">sind</div>
+				</div>
 				<div class="row">
-					<div class="col-12 text-center font-weight-bold"><span class="wd">heißen</span><span class="wd">machen</span><span class="wd">studieren</span><span class="wd">arbeiten</span><span class="wd">sein</span></div>
 					<div class="col-12 mb-4 mt-2 text-center">
 						<table class="table">
 							<tbody>
@@ -83,7 +90,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control col-3 q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-7">
 												20 Jahre alt.
 											</div></span>
-										<span class="tran"><small>저는 20살이에요.</small></span>
+										<span class="tran"><small>저는 스무살이에요.</small></span>
 									</th>
 								</tr>
 							</tbody>

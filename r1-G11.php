@@ -384,7 +384,7 @@
 						var st = "어! 좀 하시는데요~^^";
 						var cl = "success";
 					} else if(pe > 49) {
-						var st = "쓰읍~ 다시 해 보실까요";
+						var st = "쓰읍~ 다시 해 보실까요!";
 						var cl = "primary";
 					} else {
 						var st = "좀 더 분발해 주세요";
@@ -395,6 +395,7 @@
 					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
 
 					$(this).attr("id","done");
+					
 
 					$(this).removeClass("btn-light ");
 					$(".tran").show();

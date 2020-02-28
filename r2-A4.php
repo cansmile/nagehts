@@ -58,72 +58,63 @@
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="1" class="so btn btn-danger">▶</button></th>
 								<td>Hallo, ich bin Anna Müller. <span class="tran">&nbsp;<br><small>안녕하세요, 저는 안나 뮐러에요.</small></span></td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="2" class="so btn btn-primary">▶</button></th>
 								<td>Hallo, ich heiße Max Fernández. <span class="tran">&nbsp;<br><small>안녕하세요, 저는 막스 페르난데즈에요.</small></span></td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="3" class="so btn btn-danger">▶</button></th>
 								<td>Ah, kommen Sie aus Mexiko? <span class="tran">&nbsp;<br><small>아, 멕시코 출신이신가요?</small></span></td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="4" class="so btn btn-primary">▶</button></th>
-								<td>Nein, aus <span class="btn btn-outline-dark btn-sm nu">①</span>. <span class="tran">&nbsp;<br><small>아니오, <strong>미국</strong> 출신이에요.</small></span></td>
-								<td>
-									<div class="itm-lst 1itm" id="lst-1">
+								<td>Nein, aus 
+									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-								</td>
+									. <span class="tran">&nbsp;<br><small>아니오, <strong>미국</strong> 출신이에요.</small></span></td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="5" class="so btn btn-danger">▶</button></th>
-								<td>Und wohnen Sie hier in <span class="btn btn-outline-dark btn-sm nu">②</span>? <span class="tran">&nbsp;<br><small>그러면 당신은 <strong>베를린</strong>에서 사시나요?</small></span></td>
-								<td>
-									<div class="itm-lst 1itm" id="lst-2">
+								<td>Und wohnen Sie hier in 
+									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-								</td>
+									? <span class="tran">&nbsp;<br><small>그러면 당신은 <strong>베를린</strong>에서 사시나요?</small></span></td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="6" class="so btn btn-primary">▶</button></th>
 								<td>Ja. Und Sie? <span class="tran">&nbsp;<br><small>네, 당신은요?</span></td></small>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="7" class="so btn btn-primary">▶</button></th>
-								<td>Wohnen Sie auch in <span class="btn btn-outline-dark btn-sm nu">③</span>? <span class="tran">&nbsp;<br><small><strong>베를린</strong>에서 사시나요?</span></td>
-								<td>
-									<div class="itm-lst 1itm" id="lst-2">
+								<td>Wohnen Sie auch in 
+									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-								</td>
+									? <span class="tran">&nbsp;<br><small><strong>베를린</strong>에서 사시나요?</span></td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="8" class="so btn btn-danger">▶</button></th>
-								<td>Nein, ich wohne in <span class="btn btn-outline-dark btn-sm nu">④</span>. <span class="tran">&nbsp;<br><small>아뇨, 저는 <strong>드레스덴</strong>에서 살아요.</small></span></td>
-								<td>
-									<div class="itm-lst 1itm" id="lst-3">
+								<td>Nein, ich wohne in 
+									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-								</td>
+									. <span class="tran">&nbsp;<br><small>아뇨, 저는 <strong>드레스덴</strong>에서 살아요.</small></span></td>
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="9" class="so btn btn-danger">▶</button></th>
-								<td>Aber meine Mutter wohnt hier in <span class="btn btn-outline-dark btn-sm nu">⑤</span>. <span class="tran">&nbsp;<br><small>하지만, 제 어머님은 <strong>베를린</strong>에서 사세요.</small></span></td>
-								<td>
-									<div class="itm-lst 1itm" id="lst-2">
+								<td>Aber meine Mutter wohnt hier in 
+									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-								</td>
+									. <span class="tran">&nbsp;<br><small>하지만, 제 어머님은 <strong>베를린</strong>에서 사세요.</small></span></td>
 							</tr>
 						</tbody>
 					</table>

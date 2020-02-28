@@ -300,9 +300,7 @@
 					</div>
 					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 						<div class="row">
-							<div class="bg-light py-1 col-4">Ja</div>
-							<div class="py-1 col-4">/</div>
-							<div class="bg-light py-1 col-4">Nein</div>
+							<div class="bg-light py-1 col-4">Ja, / Nein</div>
 						</div>
 					</div>
 				</div>

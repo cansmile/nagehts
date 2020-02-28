@@ -505,12 +505,11 @@
 	$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
 				var hm=new Array(), sen=new Array();
-				for(i=0;
-				i < $(".so").length;
-				i++) {
-					hm[i]=0;
-					sen[i]=0;
-				}
+				$(".so").each(function() {
+					hm[$(this).attr("id")]=0;
+					sen[$(this).attr("id")]=$("#"+$(this).attr("id")).text();
+				});
+
 				ion.sound( {
 					sounds : [ {
 						name : "r10 A2-0 Bsp.Dialog 1",
@@ -550,11 +549,9 @@
 							}
 						}
 						else {
-							if(obj.part > 9) {
-								$("#"+obj.part).html("▶");
-							}
+							$("#"+obj.part).text(sen[obj.part]);
 							if(hm[hmn] > 1) {
-								$("#"+hmn).closest("ul").find("span.tran").show();
+								$("#"+hmn).closest("ul").find(".tran").show();
 							}
 						}
 					}
@@ -606,7 +603,7 @@
 								$("#0").show();
 								$(this).hide();
 							}
-							else if($(this).html()=="▶") {
+							else if($(this).text()==sen[$(this).attr("id")]) {
 								// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
 								ion.sound.play("r10 A2-0 Bsp.Dialog 1", {
 									part: $(this).attr("id")

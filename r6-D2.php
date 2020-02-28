@@ -178,7 +178,7 @@
 	$(".tran").hide();
 	$(".ant").hide();
 	var an=new Array();
-	var an=[["liest er die Zeitung", "liest er die Zeitung."], ["bestellt er das Mittagessen", "bestellt er das Mittagessen."], ["macht er Fotos", "macht er Fotos."], ["isst er zu Abend", "isst er zu Abend."], ["sieht er fern", "sieht er fern."]];
+	var an=["liest er die Zeitung.", "bestellt er das Mittagessen.", "macht er Fotos.", "isst er zu Abend.", "sieht er fern."];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사

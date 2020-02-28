@@ -101,11 +101,11 @@
 								<td class="border-0"><span class="tran"><small>셔요.</small><br></span>sauer.</td>
 							</tr>
 							<tr>
-								<td class="border-0"><span class="tran"><small>너무 달아요.</small><br></span>süß.</td>
+								<td class="border-0"><span class="tran"><small>달아요.</small><br></span>süß.</td>
 							</tr>
 							<tr>
 								<td class="border-0">
-									<span class="tran"><small>따뜻해요.</small></span>
+									<span class="tran"><small>미지근해요.</small></span>
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -179,7 +179,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0"><span class="tran"><small>따뜻해요.</small><br></span>warm.</td>
+								<td class="border-0"><span class="tran"><small>미지근해요.</small><br></span>warm.</td>
 							</tr>
 						</tbody>
 					</table>
@@ -284,6 +284,7 @@
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
+		$("button.so>.tran").hide();
 		$(".itm-lst").each(function() {
 			$(this).closest("td").find(".tran").show();
 		});
@@ -445,7 +446,7 @@
 							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
 						$(".tran").show();
-if($(this).hasClass("ans"+ (a))) {
+						if($(this).hasClass("ans"+ (a))) {
 							$(this).addClass("text-success font-weight-bold");
 						}
 						else {

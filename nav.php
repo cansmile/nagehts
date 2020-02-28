@@ -164,14 +164,6 @@ $rtl = array(
 		"C" => array("C1" => "Welche Fotos und Texte passen zusammen?", "C2" => "Wie heißen die Orte?", "C3" => "Suchen Sie die Orte auf dem Stadtplan von Dresden und ergänzen Sie die Nummern.", "C4" => "Die Leute sind auf dem Theaterplatz. Wohin und wie wollen sie fahren (gehen)?"),
 		"D" => array("D1" => "Perfekt: Perfekt- und Infinitivformen", "D2" => "Mein Urlaub in Dresden"),
 		"E" => array("E1a" => "Wo ist der Spatz?", "E1b" => "Wohin fliegt der Spatz?", "E2" => "Ergänzen Sie die Sätze.", "E3" => "Wo kann man in Gartenstadt was machen?", "E4" => "Ordnen Sie die Ausdrücke aus dem Kasten in die Tabelle ein.", "E5" => "Entschuldigung, wo ist ... ?", "E6" => "Wie komme ich zum/zur ...?", "E7a" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: Am Alexanderplatz", "E7b" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Frauenkirche", "E7c" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Bushaltestelle", "E8" => "Ordnen Sie die Verben je nach der Partizip –II Formen zu.", "E10" => "Ergänzen Sie die Perfekt-Formen.")
-	),
-	10 =>
-	array(
-		"A" => array("A1" => "어디인가요?", "A2" => "사람들이 어디에 있나요?", "A3" => "실례하지만 도른부쉬 카페가 어디있나요?", "A4" => "당신이 만약 ... 하고 싶다면 어디로 가나요?"),
-		"B" => array("B1" => "길 묻기", "B2" => "죄송하지만.. 어디로 .... ?", "B3" => "독일어로 교통기관들을 뭐라고 하나요?", "B4" => "알맞은 전치사를 집어넣으세요.", "BGR" => "3·4격 전치사"),
-		"C" => array("C1" => "어떤 사진이 어떤 텍스트와 어울릴까요?", "C2" => "명소의 이름은 무엇인가요?", "C3" => "드레스덴 시내 지도에서 장소를 찾아 번호를 집어넣으세요.", "C4" => "사람들이 테아터광장에 있습니다. 어디로 그리고 어떤 교통수단으로 가려고 합니다."),
-		"D" => array("D1" => "완료형: 완료형과 부정형", "D2" => "드레스덴에서의 휴가"),
-		"E" => array("E1a" => "어디에 참새가 있나요?", "E1b" => "어디로 참새가 날라가나요?", "E2" => "문장을 채우세요.", "E3" => "가르텐시의 어디서 무엇을 할 수 있나요?", "E4" => "상자안의 표현구들을 표안에 넣으세요.", "E5" => "실례하지만...", "E6" => "어떻게 ... 가야할까요?", "E7a" => "문장을 대화문을 듣고 빈칸을채우세요: 알렉산더 플라자", "E7b" => "문장을 대화문을 듣고 빈칸을채우세요: 프라우엔 교회", "E7c" => "문장을 대화문을 듣고 빈칸을채우세요: 버스 정류장", "E8" => "과거분사형태에 따라 구분해보세요.", "E10" => "완료형을 넣으세요.")
 	)
 );
 
@@ -253,6 +245,14 @@ $rtl_k = array(
 		"C" => array("C1" => "무엇이 무엇과 어울리나요?", "CGR" => "3,4격 인칭대명사 및 정관사, 부정관사", "C4" => "생일선물로 무엇을 가지고 싶나요? 왜요?"),
 		"D" => array("D1" => "초대장을 써보세요. 순서에 맞게 문장을 써보세요.", "D2" => "알맞은 인칭대명사를 쓰세요.", "D3" => "집들이 파티에 초장을 쓰세요.", "D4a" => "나의 스무번째 생일", "D4b" => "알맞은 과거분사형을 넣으세요.", "D4c" => "나의 스무번째 생일"),
 		"E" => array("E1" => "축일과 계절", "E2" => "축일 이름은?", "E3" => "날짜를 쓰세요.", "E4" => "아래의 사람들이 생일을 맞이하였어요. 그들에게 무엇을 선물할까요? 왜요?", "E5" => "나의 가장 아름다운 축일", "E6" => "언제 이렇게 말하지요?", "E7" => "3격 인칭대명사와 동사를 올바르게 집어넣으세요.", "E8" => "1,3,4격 인칭대명사를 넣으세요.", "E9a" => "과거형", "E9b" => "haben과 sein의 과거형", "E10a" => "완료형에서 조동사 haben 혹은 sein 중 어느 것이 맞나요?", "E10b" => "일상회화, 과거분사형, 과거, 지속, -ieren 동사, werden, 상태의 변화, bleiben", "E11" => "완료형", "E12" => "한국의 설날은 어떻게 보내셨나요?")
+	),
+	10 =>
+	array(
+		"A" => array("A1" => "어디인가요?", "A2" => "사람들이 어디에 있나요?", "A3" => "실례하지만 도른부쉬 카페가 어디있나요?", "A4" => "당신이 만약 ... 하고 싶다면 어디로 가나요?"),
+		"B" => array("B1" => "길 묻기", "B2" => "죄송하지만.. 어디로 .... ?", "B3" => "독일어로 교통기관들을 뭐라고 하나요?", "B4" => "알맞은 전치사를 집어넣으세요.", "BGR" => "3·4격 전치사"),
+		"C" => array("C1" => "어떤 사진이 어떤 텍스트와 어울릴까요?", "C2" => "명소의 이름은 무엇인가요?", "C3" => "드레스덴 시내 지도에서 장소를 찾아 번호를 집어넣으세요.", "C4" => "사람들이 테아터광장에 있습니다. 어디로 그리고 어떤 교통수단으로 가려고 합니다."),
+		"D" => array("D1" => "완료형: 완료형과 부정형", "D2" => "드레스덴에서의 휴가"),
+		"E" => array("E1a" => "어디에 참새가 있나요?", "E1b" => "어디로 참새가 날라가나요?", "E2" => "문장을 채우세요.", "E3" => "가르텐시의 어디서 무엇을 할 수 있나요?", "E4" => "상자안의 표현구들을 표안에 넣으세요.", "E5" => "실례하지만...", "E6" => "어떻게 ... 가야할까요?", "E7a" => "문장을 대화문을 듣고 빈칸을채우세요: 알렉산더 플라자", "E7b" => "문장을 대화문을 듣고 빈칸을채우세요: 프라우엔 교회", "E7c" => "문장을 대화문을 듣고 빈칸을채우세요: 버스 정류장", "E8" => "과거분사형태에 따라 구분해보세요.", "E10" => "완료형을 넣으세요.")
 	)
 
 

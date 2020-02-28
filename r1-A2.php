@@ -466,10 +466,10 @@
 					$(this).removeClass("btn-info");
 					if ($(this).hasClass("o") && $(this).hasClass("an")) {
 						$(this).removeClass("btn-warning");
-						$(this).addClass("text-success font-weight-bold");
+						$(this).addClass("text-white btn-success font-weight-bold");
 					}
 					else if ($(this).hasClass("o")) {
-						$(this).addClass("text-danger font-weight-bold");
+						$(this).addClass("text-white btn-danger font-weight-bold");
 					}
 					else if ($(this).hasClass("an")) {
 						$(this).addClass("btn-warning");
@@ -485,7 +485,7 @@
 					$(this).removeClass("btn-light ");
 
 					var qa = $(".q").length + $(".itm").length; // 전체 문항 수
-					var qr = $(".text-success").length; // 맞춘 항목 수
+					var qr = $(".text-success").length + $(".btn-success").length; // 맞춘 항목 수
 					var pe = (qr / qa) * 100; // 정답 비율
 					var tcl = "white"; // 기본 문자색
 

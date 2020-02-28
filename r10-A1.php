@@ -11,36 +11,47 @@
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="1">
 					das Schwimmbad
+					<span class="tran"><br><small>수영장</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm" id="2">
-					das Kino
+					das Kino (Megabox)
+					<span class="tran"><br><small>영화관 (메가박스)</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="3">
-					der Blumenladen
+					der Blumenladen (Schön)
+					<span class="tran"><br><small>꽃집 (쉔)</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="4">
-					die Bank
+					die Bank (Sparkasse)
+					<span class="tran"><br><small>은행 (슈파카세)</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark itm" id="5">
-					die Kirche
+					die Kirche (Frauenkirche)
+					<span class="tran"><br><small>교회 (프라우엔교회)</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="6">
-					die Bäckerei
+					die Bäckerei (Achso)
+					<span class="tran"><br><small>빵집 (악소)</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark itm" id="7">
-					die Apotheke
+					die Apotheke (Löwe)
+					<span class="tran"><br><small>약국 (뢰베)</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm" id="8">
-					der Supermarkt
+					der Supermarkt (Kaiser)
+					<span class="tran"><br><small><슈퍼마켓 (카이저)/small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="9">
 					die Post
+					<span class="tran"><br><small>우체국</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm" id="10">
-					die Sprachschule
+					die Sprachschule (Translingua)
+					<span class="tran"><br><small>어학원 (트란스링구아)</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="11">
 					der Park
+					<span class="tran"><br><small>공원</small></span>
 					</button>
 				</div>
 			</div>

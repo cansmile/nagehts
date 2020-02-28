@@ -67,41 +67,38 @@
 					<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="22" class="so btn btn-danger btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center bg-danger text-white" height="25px"><h3>Dooly</h3></td>
+							<td class="so text-center bg-danger text-white" height="25px"><h3>Dooly</h3></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-danger">▶</button></th>
-							<td colspan="2">Das ist Dooly. <br><span class="tran">&nbsp;<small>이 아이는 둘리에요.</small></span></td>
+							<td>Das ist Dooly. <br><span class="tran">&nbsp;<small>이 아이는 둘리에요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="11" class="so btn btn-danger">▶</button></th>
-							<td>Er kommt aus <span class="btn btn-outline-dark btn-sm nu">①</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국</strong>에서 왔어요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-1">
+							<td class="text-left">Er kommt aus 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-1">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그는 <strong>한국</strong>에서 왔어요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="12" class="so btn btn-danger">▶</button></th>
-							<td>Er ist <span class="btn btn-outline-dark btn-sm nu">②</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국인</strong>이에요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-2">
+							<td class="text-left">Er ist 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-2">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그는 <strong>한국인</strong>이에요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="13" class="so btn btn-danger">▶</button></th>
-							<td>Er spricht <span class="btn btn-outline-dark btn-sm nu">③</span>. <br><span class="tran">&nbsp;<small>그는 <strong>한국어</strong>를 말해요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-3">
+							<td class="text-left">Er spricht 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-3">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그는 <strong>한국어</strong>를 말해요.</small></span></td>
 						</tr>
 					</table>
 				</div>
@@ -112,41 +109,38 @@
 					<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="23" class="so btn btn-info btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center bg-info text-white" height="25px"><h3>Kleopatra</h3></td>
+							<td class="so text-center bg-info text-white" height="25px"><h3>Kleopatra</h3></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="14" class="so btn btn-info">▶</button></th>
-							<td colspan="2">Das ist Kleopatra. <br><span class="tran">&nbsp;<small>이 사람은 클레오파트라에요.</small></span></td>
+							<td>Das ist Kleopatra. <br><span class="tran">&nbsp;<small>이 사람은 클레오파트라에요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="15" class="so btn btn-info">▶</button></th>
-							<td>Sie kommt aus <span class="btn btn-outline-dark btn-sm nu">④</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트</strong>에서 왔어요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-4">
+							<td class="text-left">Sie kommt aus 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-4">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트</strong>에서 왔어요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-info">▶</button></th>
-							<td>Sie ist <span class="btn btn-outline-dark btn-sm nu">⑤</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트인</strong>이에요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-5">
+							<td class="text-left">Sie ist 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-5">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그녀는 <strong>이집트인</strong>이에요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="17" class="so btn btn-info">▶</button></th>
-							<td>Sie spricht <span class="btn btn-outline-dark btn-sm nu">⑥</span>. <br><span class="tran">&nbsp;<small>그녀는 <strong>아랍어</strong>를 말해요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-6">
+							<td class="text-left">Sie spricht 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-6">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그녀는 <strong>아랍어</strong>를 말해요.</small></span></td>
 						</tr>
 					</table>
 				</div>
@@ -157,41 +151,38 @@
 					<table class="table table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="24" class="so btn btn-primary btn-lg">▶</button></th>
-							<td colspan="2" class="so text-center bg-primary text-white" height="25px"><h3>Mickey Mouse</h3></td>
+							<td class="so text-center bg-primary text-white" height="25px"><h3>Mickey Mouse</h3></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="18" class="so btn btn-primary">▶</button></th>
-							<td colspan="2">Das ist Mickey Mouse. <br><span class="tran">&nbsp;<small>이 아이는 미키 마우스에요.</small></span></td>
+							<td>Das ist Mickey Mouse. <br><span class="tran">&nbsp;<small>이 아이는 미키 마우스에요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="19" class="so btn btn-primary">▶</button></th>
-							<td>Er kommt aus <span class="btn btn-outline-dark btn-sm nu">⑦</span>. <br><span class="tran">&nbsp;<small>그는 <strong>미국</strong>에서 왔어요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-7">
+							<td class="text-left">Er kommt aus 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-7">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그는 <strong>미국</strong>에서 왔어요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="20" class="so btn btn-primary">▶</button></th>
-							<td>Er ist <span class="btn btn-outline-dark btn-sm nu">⑧</span>. <br><span class="tran">&nbsp;<small>그는 <strong>미국인</strong>이에요.</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-8">
+							<td class="text-left">Er ist 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-8">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그는 <strong>미국인</strong>이에요.</small></span></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="21" class="so btn btn-primary">▶</button></th>
-							<td>Er spricht <span class="btn btn-outline-dark btn-sm nu">⑨</span>. <br><span class="tran">&nbsp;<small>그는 <strong>영어</strong>를 말해요..</small></span></td>
-							<td>
-								<div class="itm-lst 1itm" id="lst-9">
+							<td class="text-left">Er spricht 
+								<div class="itm-lst 1itm d-inline-block" style="min-width: 30%;" id="lst-9">
 									<h2 class="btn btn-warning btn-xl ttl d-block">
 									▼ </h2>
 								</div>
-							</td>
+								. <br><span class="tran">&nbsp;<small>그는 <strong>영어</strong>를 말해요..</small></span></td>
 						</tr>
 					</table>
 				</div>
@@ -208,7 +199,7 @@
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>
-								<th class="border-0 text-left" scope="col" colspan="2"><span class="bg-lime font-weight-bold p-1 px-2 m-1 rounded">TIPP</span></th>
+								<th class="border-0 text-left" scope="col"><span class="bg-lime font-weight-bold p-1 px-2 m-1 rounded">TIPP</span></th>
 							</tr>
 						</thead>
 						<tbody>

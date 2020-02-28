@@ -291,15 +291,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "r9-Grammatik und Wendungen.php",
-			"settings":
-			{
-				"buffer_size": 21976,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
 	"build_system_choices":
@@ -425,6 +416,14 @@
 				"Git: Add Current File"
 			],
 			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
 				"gitstatus",
 				"Git: Status"
 			],
@@ -453,16 +452,8 @@
 				"Trimmer: Trim leading AND trailing whitespace."
 			],
 			[
-				"install pack",
-				"Package Control: Install Package"
-			],
-			[
 				"disable",
 				"Package Control: Disable Package"
-			],
-			[
-				"git commit",
-				"Git: Commit"
 			],
 			[
 				"gitadd",
@@ -953,138 +944,138 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/apps/wordpress/htdocs/nav.php",
-		"/C/xampp/apps/wordpress/htdocs/inhalt.php",
-		"/C/xampp/apps/wordpress/htdocs/inthebeginning.php",
-		"/C/xampp/apps/wordpress/htdocs/AV.lnk",
-		"/C/xampp/apps/wordpress/htdocs/r8-Grammatik und Wendungen.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-Grammatik und Wendungen.php",
-		"/C/xampp/apps/wordpress/htdocs/r6-Grammatik und Wendungen.php",
-		"/C/xampp/apps/wordpress/htdocs/r5-Grammatik und Wendungen.php",
-		"/C/xampp/apps/wordpress/htdocs/r4-Grammatik und Wendungen.php",
-		"/C/xampp/apps/wordpress/htdocs/r3-Grammatik und Wendungen.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-D6.php",
-		"/C/xampp/apps/wordpress/htdocs/r2-B2.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-AGR.php",
-		"/C/xampp/apps/wordpress/htdocs/AV.scr",
-		"/c/xampp/apps/wordpress/htdocs/r9-E9b.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-E8.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-E7.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-E4.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-E3.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-E11.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-E10b.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-D2.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-CGR.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-C4.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-A5.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-A3.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-E6.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-E5.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-E4.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-C2.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-C1.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D7.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D6.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D3.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D2.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-B5.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-B3.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-E6.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-E3.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-D2.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-D1.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-B1.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-A2.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G4.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G3.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G16.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G14.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G13.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G12.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G11.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G10.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-D1.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-C5.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-C4.php",
-		"/c/xampp/apps/wordpress/htdocs/r4-E6.php",
-		"/c/xampp/apps/wordpress/htdocs/r4-E5.php",
-		"/c/xampp/apps/wordpress/htdocs/r4-E4.php",
-		"/c/xampp/apps/wordpress/htdocs/r4-E3.php",
-		"/c/xampp/apps/wordpress/htdocs/r4-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r4-D3.php",
-		"/c/xampp/apps/wordpress/htdocs/r4-C2+.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-F5.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-F3.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-F2.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-F1.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-E1.php",
-		"/c/xampp/apps/wordpress/htdocs/r3-B2.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E4.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E3.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-E1.php",
-		"/c/xampp/apps/wordpress/htdocs/r2-D3.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-C1.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E11.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-E6.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-E5.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-E4.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-E2.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-C2.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-D7.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-D6.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-D3.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-D2.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-B5.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-B3.php",
-		"/C/xampp/apps/wordpress/htdocs/r6-E6.php",
-		"/C/xampp/apps/wordpress/htdocs/r5-G16.php",
-		"/C/xampp/apps/wordpress/htdocs/r3-F5.php",
-		"/C/xampp/apps/wordpress/htdocs/r3-F3.php",
-		"/C/xampp/apps/wordpress/htdocs/r3-F1.php",
-		"/C/xampp/apps/wordpress/htdocs/r3-E2.php",
-		"/C/xampp/apps/wordpress/htdocs/r2-E3.php",
-		"/C/xampp/apps/wordpress/htdocs/r3-B2.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-C3.php",
-		"/D/cansmile/cswd/txt/2020022600001 Scrivener 3.0 Beta 39 (Download Links & Change List).txt",
-		"/C/xampp/apps/wordpress/htdocs/r2-Grammatik und Wendungen.php",
-		"/C/xampp/apps/wordpress/htdocs/r7-D1.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-B4.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-D4.php",
-		"/C/xampp/apps/wordpress/htdocs/r1-G8.php",
-		"/C/xampp/apps/wordpress/htdocs/r1-G11.php",
-		"/C/xampp/apps/wordpress/htdocs/r2-E6.php",
-		"/C/xampp/apps/wordpress/htdocs/r2-E4.php",
-		"/C/xampp/apps/wordpress/htdocs/r2-E5.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E12.php",
-		"/C/Users/Administrator/Documents/showtran.html",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
-		"/D/cansmile/csdn/viewtopic.html",
-		"/C/xampp/apps/wordpress/htdocs/r9-E9b.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Trimmer/Default (Windows).sublime-keymap",
-		"/C/xampp/apps/wordpress/htdocs/r9-E8.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E7.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E6.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E5.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/GitOpenChangedFiles/Default (Windows).sublime-keymap",
-		"/C/xampp/apps/wordpress/htdocs/r9-E4.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-E3.php",
+		"/C/xampp/apps/wordpress/htdocs/r10-Grammatik und Wendungen.php",
 		"/C/xampp/apps/wordpress/htdocs/r9-D2.php",
-		"/C/xampp/apps/wordpress/htdocs/r9-D3.php",
-		"/C/xampp/apps/wordpress/htdocs/r8-B2.php",
-		"/C/xampp/apps/wordpress/htdocs/.gitignore",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1582349507/nagehts.json/var/www/html/nagehts.org/public_html/tpor/phpinfo.php",
-		"/C/xampp/htdocs/nagehts.dump",
-		"/C/xampp/apps/wordpress/htdocs/r8-D3.php"
+		"/C/xampp/apps/wordpress/htdocs/nav.php",
+		"/C/xampp/apps/wordpress/htdocs/r3-F3.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-F5.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-A1.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-A2.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-A3.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-B1.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-B2.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-B4.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-B5-200218.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-B5.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-C1.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-C2+.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-C2.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-D1.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-D2.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-D3.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-E1.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-E2.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-E3.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-E4.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-E5.php",
+		"/c/xampp/apps/wordpress/htdocs/r4-E6.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-A1.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-A2.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-A3.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-C2.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-C4.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-C5.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-C6.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-D1.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-D3.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-D5.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-E2.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-E3.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-F1.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G1.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G10.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G11.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G12.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G13.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G14.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G16.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G3.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G4.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G5.php",
+		"/c/xampp/apps/wordpress/htdocs/r5-G7.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-A1.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-A2.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-A3.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-B0.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-B1.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-C2.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-D1.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-D2.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-E1.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-E2.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-E3.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-E4.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-E5.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-E6.php",
+		"/c/xampp/apps/wordpress/htdocs/r6-E7.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-A0.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-A1.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-A2.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-A3.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-B2.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-B3.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-B4.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-B5.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-B6.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-C1.php",
+		"/c/xampp/apps/wordpress/htdocs/r0-Quizzzz.php",
+		"/c/xampp/apps/wordpress/htdocs/r0-Zuordnung.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-A2.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-A3.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-B1.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-B3.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-B4.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-B5.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-C1.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-C2.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-C3.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-D1.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-F2.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-G1.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-G11.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-G2.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-G3.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-G7.php",
+		"/c/xampp/apps/wordpress/htdocs/r1-G8.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-A1.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-A2.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-A4.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-A5.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-A6.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-B1.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-C1.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-C2.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-D1.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-D2.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-D3.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-E1.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-E2.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-E3.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-E4.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-E5.php",
+		"/c/xampp/apps/wordpress/htdocs/r2-E6.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-A1.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-B1.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-B2.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-C1.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-D1.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-D2.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-D4.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-D5.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-E1.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-E2.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-F1.php",
+		"/c/xampp/apps/wordpress/htdocs/r3-F2.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-C2.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-C3.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-C4.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-C6.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-C7.php",
+		"/c/xampp/apps/wordpress/htdocs/r7-D1.php"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -1117,6 +1108,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"button type=\"button\" id=\"",
+			"var st = \"쓰읍~ 다시 해 보실까요\";",
+			"wd",
+			"border-0 display-4 py-0",
+			"border-0 display-4",
+			"so btn btn-outline-primary btn-sm mr-1",
+			"outline-dark so itm",
+			"mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm",
+			"00px;\" id=\"lst-",
+			"samll",
+			"border-0 text-left",
+			"<th width=\"50\"",
+			"scops=\"row\"",
+			"mt-1 mx-1 btn ans btn-lg btn-outline-dark so itm\" id=",
+			"r3 D1",
+			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
+			" id=\"",
 			"<button type=\"button\" id=\"",
 			"wir heute",
 			"<button type=\"button\" id=\"",
@@ -1227,24 +1235,7 @@
 			"</small></span>",
 			".</",
 			"translate",
-			"ihm",
-			"// 정답 확인 div 상자 배경색 속성 없애기",
-			"if($(\"#itms\").find(\"button\").length < 1) {",
-			"Eis essen",
-			"css(\"text-",
-			"css(\"text-decoration: none;\")",
-			"style",
-			"line-through",
-			"rounded-circle ",
-			"btn btn-warning btn-xl ttl d-block rounded-circle",
-			"<span class=\"tran\"><br><small>",
-			"border-0 align-middle\">",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"<span class=\"tran\"><br><small",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"<span class=\"tran\"><br><small>",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"itm rounded-circle px-3\" id=\""
+			"ihm"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1252,6 +1243,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"var st = \"쓰읍~ 다시 해 보실까요!\";",
 			"907",
 			"",
 			".\n",
@@ -1378,8 +1370,7 @@
 			"cc6900",
 			"d97000",
 			"ff8300",
-			"ffd19f",
-			"ffbf7a"
+			"ffd19f"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1392,215 +1383,6 @@
 		{
 			"sheets":
 			[
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "r9-Grammatik und Wendungen.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21976,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"SL.515.region_keys":
-							[
-							],
-							"SL.559.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										20161,
-										20162
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/square_bracket.png",
-										"region.bluish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										20143,
-										20144
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"git_gutter_is_enabled": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1621,18 +1403,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":

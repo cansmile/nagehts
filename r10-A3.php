@@ -576,7 +576,7 @@
 
 					var pan=new Array();
 					// pan=[1,2,3,4,5,6,7,8,9,10];
-					pan = [1];
+					pan = [];
 					for(var p=0;
 					p < pan.length;
 					p++) {

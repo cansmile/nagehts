@@ -74,6 +74,31 @@
 					</div>
 				</div>
 				<!-- 정답확인 버튼 끝 -->
+				<div class="row">
+					<div class="col-12"><span class="border border-success bg-lime text-black p-1 px-2 m-1 rounded font-weight-bold">TIPP</span><strong>Präpositionen im Dativ</strong><small> 3격 지배전치사</small></div>
+					<div class="col-12">
+						<div class="p-1 px-2 my-2">
+							<small>3격 지배 전치사 mit은 aus, bei, nach, seit, von, zu, gegenüber와 더불어 3격 지배전치사에 속하며 아래와 같은 의미로 사용된다:</small>
+						</div>
+						<table class="table">
+							<tbody>
+								<tr>
+									<th rowspan="3" class="border-0">z.B.:</th>
+									<td class="border-0">Ich gehe <strong>mit meiner Schwester</strong>.<small><br>나는 내 여동생과 함께 간다.</small></td>
+								</tr>
+								<tr>
+									<td class="border-0">Er schreibt <strong>mit dem Kuli auf</strong>.<small><br>그는 볼펜으로 메모한다.</small></td>
+								</tr>
+								<tr>
+									<td class="border-0">Sie fährt <strong>mit dem</strong> Bus zur Uni.<small><br>그녀는 버스를 타고 학교에 간다.</small></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="p-1 px-2 my-2 bg-light border border-secondary rounded">
+							<small>독일어의 정(부정)관사류 및 인칭대명사의 격변화는 8과와 9과를 참고하기 바란다.</small>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

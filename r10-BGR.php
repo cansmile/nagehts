@@ -38,7 +38,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-2.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~위로, 위에</small><br>Die Mutter setzt das Kind auf den Stuhl.</td>
+								<td class="border-0"><small>(공간) ~위로, 위에</small><br>Die Mutter setzt das Kind auf den Stuhl.
+								<span class="tran"><small><br>어머니는 아이를 의자에 앉힌다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -48,7 +49,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-3.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~안으로, 안에</small><br>Ich stecke den Schlüssel ins Schloß.</td>
+								<td class="border-0"><small>(공간) ~안으로, 안에</small><br>Ich stecke den Schlüssel ins Schloß.
+								<span class="tran"><small><br>나는 이번 휴가에 바다에 간다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -58,7 +60,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-4.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~가로, 가에, ~측면에</small><br>Ich fahre in diesem Urlaub ans Meer.</td>
+								<td class="border-0"><small>(공간) ~가로, 가에, ~측면에</small><br>Ich fahre in diesem Urlaub ans Meer.
+								<span class="tran"><small><br>나는 나무 앞에 탁자를 놓는다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -68,7 +71,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-5.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~뒤로, 뒤에</small><br>Ich lege die Kamera hinter den Baum.</td>
+								<td class="border-0"><small>(공간) ~뒤로, 뒤에</small><br>Ich lege die Kamera hinter den Baum.
+								<span class="tran"><small><br>나는 집 옆으로 차를 몰고 간다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -78,7 +82,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-6.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~앞으로, 앞에</small><br>Ich stelle den Tisch vor den Baum.</td>
+								<td class="border-0"><small>(공간) ~앞으로, 앞에</small><br>Ich stelle den Tisch vor den Baum.
+								<span class="tran"><small><br>나는 탁자 밑에 책을 놓는다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -88,7 +93,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-7.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~위로, 위에</small><br>Ich wohne über ihm.</td>
+								<td class="border-0"><small>(공간) ~위로, 위에</small><br>Ich wohne über ihm.
+								<span class="tran"><small><br>나는 열쇠를 자물쇠에 꽂는다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -98,7 +104,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-8.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~옆으로, 옆에</small><br>lch fahre das Auto neben das Haus.</td>
+								<td class="border-0"><small>(공간) ~옆으로, 옆에</small><br>lch fahre das Auto neben das Haus.
+								<span class="tran"><small><br>나는 카메라를 나무 뒤에 놓는다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -108,7 +115,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-9.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~사이로, 사이에</small><br>Ich lege den Hut zwischen den Tisch und den Baum.</td>
+								<td class="border-0"><small>(공간) ~사이로, 사이에</small><br>Ich lege den Hut zwischen den Tisch und den Baum.
+								<span class="tran"><small><br>나는 그 남자 위에 살고 있다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -118,7 +126,8 @@
 						<tbody>
 							<tr>
 								<td class="border-0 text-center" width="120"><img src="./images/Reihe 10/Reihe-10-BGR-10.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
-								<td class="border-0"><small>(공간) ~아래로, 아래에</small><br>Ich lege das Buch unter den Tisch.</td>
+								<td class="border-0"><small>(공간) ~아래로, 아래에</small><br>Ich lege das Buch unter den Tisch.
+									<span class="tran"><small><br>나는 탁자와 나무 사이에 모자를 놓는다.</small></span></td>
 							</tr>
 						</tbody>
 					</table>

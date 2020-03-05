@@ -3,6 +3,10 @@
 <?php include "nav.php"; ?>
 	<?php if(ul()) { ?>
 		<?php require_once "ready.php"; ?>
+<style>
+	.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;} 
+	.video-container iframe,.video-container object,.video-container embed {position:absolute; top:0; left:0; width:100%; height:100%;} 
+</style>
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
 	이 페이지의 알파벳이나 발음기호를 <strong>누르면 누른 위치에 해당하는 발음이 들립니다!</strong>
 	<br>
@@ -490,6 +494,7 @@
 				<div id="show" class="border border-danger p-1 px-2 m-1 display-4"></div>
 			</div>
 		</div>
+		<div class="row"><div class="col-12"><div class="video-container rounded"><object width="320" height="240"><param name="movie" value="https://www.youtube.com/v/N8JP3aSDqWY?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/N8JP3aSDqWY?version=3" type="application/x-shockwave-flash" width="320" height="240" allowscriptaccess="always" allowfullscreen="true"></embed></object></div></div></div>
 	</div>
 </section>
 <div id="last" class="d-none"></div>

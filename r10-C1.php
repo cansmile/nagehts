@@ -114,7 +114,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 10/Reihe-10-C1-5.png" alt="Welche Fotos und Texte passen zusammen?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 10/Reihe-10-C1-5-1.png" alt="Welche Fotos und Texte passen zusammen?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">

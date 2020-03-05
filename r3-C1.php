@@ -10,8 +10,8 @@
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2> Hören Sie und sprechen Sie Nach.<br>
-					<small>듣고 알맞은 단어를 선택하세요.</small>
+					<h2> Hören Sie und sprechen Sie nach.<br>
+					<small>듣고 따라하세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
@@ -76,7 +76,7 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="8" class="so btn btn-outline-primary">▶</button></td>
-								<td><span class="sen">Ich habe eine<span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-3">
+								<td><span class="sen">Ich habe <span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-3">
 													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 														<input type="radio" name="options" id="option3" autocomplete="off">ein
 													</div>
@@ -86,7 +86,7 @@
 													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 														<input type="radio" name="options" id="option4" autocomplete="off">einen
 													</div>
-												</div> und einen Bruder.<span class="ans"></span><span class="tran"><br><small>누나와 형이 있어.</small></span></span></td>
+												</div>Schwester und einen Bruder.<span class="ans"></span><span class="tran"><br><small>누나와 형이 있어.</small></span></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="9" class="so btn btn-outline-primary">▶</button></td>
@@ -108,7 +108,7 @@
 													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 														<input type="radio" name="options" id="option4" autocomplete="off">meinen
 													</div>
-												</div> Schwager.<span class="ans"></span>span class="tran"><br><small>아, 매형이세요.</small></span></span></td>
+												</div> Schwager.<span class="ans"></span><span class="tran"><br><small>아, 매형이야  .</small></span></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="12" class="so btn btn-outline-danger">▶</button></td>

@@ -152,7 +152,7 @@ $rtl = array(
 	9 =>
 	array(
 		"A" => array("A0" => "Wie heißen die Feste in Deutschland?", "A1" => "Wie begrüßt man sich auf den Festen?", "A2" => "Wie heißen die Feste in Deutschland?", "A3" => "Temporale Angaben und Zahlen.", "AGR" => "Grundzahlen und Ordnungszahlen", "A4" => "Schreiben Sie die Tage.", "A5" => "Wann ist welcher Feiertag?", "A6" => "Neujahr in Korea. Frohes neues Jahr!"),
-		"B" => array("B1" => "Wer spricht mit wem?", "B2" => "Geburtstagsfeier in Deutschland und in Korea", "B3" => "Feste und Geschenkideen", "BGR" => "Personalpronomen und (un)bestimmter Artikel im Dativ und Akkusativ"),
+		"B" => array("B1" => "Wer spricht mit wem?", "B2" => "Geburtstagsfeier in Deutschland und in Korea", "B3" => "Feste und Geschenkideen"),
 		"C" => array("C1" => "Was passt zusammen?", "CGR" => "Personalpronomen und (un)bestimmter Artikel im Dativ und Akkusativ", "C4" => "Was möchten Sie zum Geburtstag haben? Warum?"),
 		"D" => array("D1" => "Schreiben Sie eine Einladungskarte.", "D2" => "Ergänzen Sie die Personalpronomen.", "D3" => "Schreiben Sie einen Einladungskarte zur Einweihungsfeier.", "D4a" => "Meine 20. Geburtstagsfeier", "D4b" => "Ergänzen Sie die passenden Partizip II- Formen.", "D4c" => "Meine 20. Geburtstagsfeier"),
 		"E" => array("E1" => "Feste und Jahreszeiten", "E2" => "Wie heißen die Feste?", "E3" => "Schreiben Sie die Tage.", "E4" => "Diese Personen haben Geburtstag. Was kann man ihnen schenken? Warum?", "E5" => "Mein schönstes Fest", "E6" => "Wann sagt man das?", "E7" => "Ergänzen Sie die Personalpronomen im Dativ und die Verben in der richtigen Form.", "E8" => "Ergänzen Sie die Personalpronomen im Nominativ, Akkusativ oder Dativ.", "E9a" => "Präteritum", "E9b" => "Präteritum von sein und haben.", "E10a" => "Das Perfekt mit „haben“ oder „sein“ ?", "E10b" => "TIPP", "E11" => "Perfekt", "E12" => "Wie war das Fest zu Neujahr, in Korea ,Seolnal‘?")
@@ -241,7 +241,7 @@ $rtl_k = array(
 	9 =>
 	array(
 		"A" => array("A0" => "독일의 축일을 뭐라고 하나요?", "A1" => "축제 때 어떻게 인사하나요?", "A2" => "독일의 축일을 뭐라고 하나요?", "A3" => "시간정보와 수", "AGR" => "기수 · 서수", "A4" => "날짜를 쓰세요.", "A5" => "언제 어떤 축제일인가요?", "A6" => "한국의 설날. 새해 복많이 받으세요!"),
-		"B" => array("B1" => "누가 누구랑 이야기하나요?", "B2" => "독일과 한국에서의 생일파티", "B3" => "축제와 선물아이템: 무엇인가요?", "BGR" => "3,4격 인칭대명사 및 정관사, 부정관사"),
+		"B" => array("B1" => "누가 누구랑 이야기하나요?", "B2" => "독일과 한국에서의 생일파티", "B3" => "축제와 선물아이템: 무엇인가요?"),
 		"C" => array("C1" => "무엇이 무엇과 어울리나요?", "CGR" => "3,4격 인칭대명사 및 정관사, 부정관사", "C4" => "생일선물로 무엇을 가지고 싶나요? 왜요?"),
 		"D" => array("D1" => "초대장을 써보세요. 순서에 맞게 문장을 써보세요.", "D2" => "알맞은 인칭대명사를 쓰세요.", "D3" => "집들이 파티에 초장을 쓰세요.", "D4a" => "나의 스무번째 생일", "D4b" => "알맞은 과거분사형을 넣으세요.", "D4c" => "나의 스무번째 생일"),
 		"E" => array("E1" => "축일과 계절", "E2" => "축일 이름은?", "E3" => "날짜를 쓰세요.", "E4" => "아래의 사람들이 생일을 맞이하였어요. 그들에게 무엇을 선물할까요? 왜요?", "E5" => "나의 가장 아름다운 축일", "E6" => "언제 이렇게 말하지요?", "E7" => "3격 인칭대명사와 동사를 올바르게 집어넣으세요.", "E8" => "1,3,4격 인칭대명사를 넣으세요.", "E9a" => "과거형", "E9b" => "haben과 sein의 과거형", "E10a" => "완료형에서 조동사 haben 혹은 sein 중 어느 것이 맞나요?", "E10b" => "일상회화, 과거분사형, 과거, 지속, -ieren 동사, werden, 상태의 변화, bleiben", "E11" => "완료형", "E12" => "한국의 설날은 어떻게 보내셨나요?")

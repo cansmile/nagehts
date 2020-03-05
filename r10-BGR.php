@@ -44,7 +44,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Die Mutter setzt das Kind <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-1">den Stuhl.
+										Die Mutter setzt das Kind <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-1">den Stuhl.
 									</div>
 									<span class="tran"><small><br>어머니는 아이를 의자에 앉힌다.</small></span>
 							</tr>
@@ -62,7 +62,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Ich stecke den Schlüssel <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-2">Schloß.
+										Ich stecke den Schlüssel <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-2">Schloß.
 									</div>
 									<span class="tran"><small><br>나는 이번 휴가에 바다에 간다.</small></span>
 							</tr>
@@ -80,7 +80,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Ich fahre in diesem Urlaub <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-3">Meer.
+										Ich fahre in diesem Urlaub <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-3">Meer.
 									</div>
 									<span class="tran"><small><br>나는 나무 앞에 탁자를 놓는다.</small></span>
 							</tr>
@@ -98,7 +98,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Ich lege die Kamera <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-4">den Baum.
+										Ich lege die Kamera <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-4">den Baum.
 									</div>
 									<span class="tran"><small><br>나는 집 옆으로 차를 몰고 간다.</small></span>
 							</tr>
@@ -116,7 +116,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Ich stelle den Tisch <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-5">den Baum.
+										Ich stelle den Tisch <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-5">den Baum.
 									</div>
 									<span class="tran"><small><br>나는 탁자 밑에 책을 놓는다.</small></span>
 							</tr>
@@ -134,7 +134,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Ich wohne <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-6">ihm.
+										Ich wohne <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-6">ihm.
 									</div>
 									<span class="tran"><small><br>나는 열쇠를 자물쇠에 꽂는다.</small></span>
 							</tr>
@@ -152,7 +152,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										lch fahre das Auto <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-7">das Haus.
+										lch fahre das Auto <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-7">das Haus.
 									</div>
 									<span class="tran"><small><br>나는 카메라를 나무 뒤에 놓는다.</small></span>
 							</tr>
@@ -170,7 +170,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Ich lege den Hut <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-8">den Tisch und den Baum.
+										Ich lege den Hut <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-8">den Tisch und den Baum.
 									</div>
 									<span class="tran"><small><br>나는 그 남자 위에 살고 있다.</small></span>
 							</tr>
@@ -188,7 +188,7 @@
 							<tr>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Ich lege das Buch <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-9">den Tisch.
+										Ich lege das Buch <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-9">den Tisch.
 									</div>
 									<span class="tran"><small><br>나는 탁자와 나무 사이에 모자를 놓는다.</small></span>
 							</tr>
@@ -196,13 +196,6 @@
 					</table>
 				</div>
 			</div>
-			<!-- 정답화인 버튼 시작 -->
-			<div class="row">
-				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-					정답확인
-				</div>
-			</div>
-			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Abkürzungen <br>
@@ -211,7 +204,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<table class="table table-striped text-center">
+					<table class="table table-striped text-center" style="line-height: 250%;">
 						<tbody>
 							<tr>
 								<td class="border-0 align-middle">m / n + Dativ</td>
@@ -219,7 +212,22 @@
 								<td class="border-0 align-middle">+</td>
 								<td class="border-0 align-middle">dem</td>
 								<td class="border-0 align-middle">=</td>
-								<td class="border-0 align-middle">im<br>am<br>vom<br>beim<br>zum</td>
+								<td class="border-0 align-middle">
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-10">
+									</div>
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-11">
+									</div>
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-12">
+									</div>
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-13">
+									</div>
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-14">
+									</div>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle">f +  Dativ</td>
@@ -227,7 +235,11 @@
 								<td class="border-0 align-middle">+</td>
 								<td class="border-0 align-middle">der</td>
 								<td class="border-0 align-middle">=</td>
-								<td class="border-0 align-middle">zur</td>
+								<td class="border-0 align-middle">
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-15">
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td class="border-0 align-middle">n + Akkusativ</td>
@@ -235,7 +247,14 @@
 								<td class="border-0 align-middle">+</td>
 								<td class="border-0 align-middle">das</td>
 								<td class="border-0 align-middle">=</td>
-								<td class="border-0 align-middle">ins<br>ans</td>
+								<td class="border-0 align-middle">
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-16">
+									</div>
+									<div class="input-group">
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2" style="position: relative; top: -6px; max-width: 100px; min-width: 100px;" aria-label="." id="qst-17">
+									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -244,10 +263,18 @@
 			<div class="row">
 				<div class="col-12 border border-dark p-5 rounded text-center">그러나 문장에서 강조의 의미로 사용될 때는 축약형이 사용되지 않는다.<br><br>Ich gehe jetzt in das Kino, das du mir empfohlen hast.<br><small>나는 네가 나에게 추천했던 그 영화관으로 지금 간다.</small></div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
+
 		</div>
 	</section>
-	
-	
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -261,7 +288,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["auf","ins","ans","hinter","vor","über","neben","zwischen","unter"];
+		var an=["auf","ins","ans","hinter","vor","über","neben","zwischen","unter","im","am","vom","beim","zum","zur","ins","ans"];
 		$(document).ready(function() {
 			// 값 확인해보자, io값이 참이면 전체 검사
 			function rfchk(th, io) {
@@ -472,7 +499,7 @@
 
 			var pan=new Array();
 			// pan=[1,2,3,4,5,6,7,8,9,10];
-			pan = [];
+			pan = [10, 15, 17];
 			for(var p=0;
 			p < pan.length;
 			p++) {
@@ -481,7 +508,7 @@
 				$(pann).addClass("bg-success text-white font-weight-bold");
 				$(pann).prop("disabled", true);
 				// $(pann).closest("tr").find(".tran").show();
-			}			
+			}
 
 		}
 		);

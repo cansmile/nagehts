@@ -295,14 +295,103 @@
 					</table>
 				</div>
 			</div>
-				<!-- 정답화인 버튼 시작 -->
-				<div class="row">
-					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-						정답확인
-					</div>
+			<div class="row">
+				<div class="col-12">
+					<span class="border border-success bg-lime text-black text-center p-1 px-2 font-weight-bold rounded mr-2">&nbsp;TIPP</span>Partizip II-Formen <small>과거분사형</small>
 				</div>
-				<!-- 정답확인 버튼 끝 -->
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<table class="table table-striped text-center">
+						<thead>
+							<tr>
+								<th scope="row" class="border-0">&nbsp;</th>
+								<th scope="row" class="border-0"><small class="font-weight-bold">약변화(규칙)</small></th>
+								<th scope="row" class="border-0"><small class="font-weight-bold">강변화(불규칙)</small></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" class="border-0"><small class="font-weight-bold">기본형(일반적인 형태)</small></th>
+								<td class="border-0">ge--t</td>
+								<td class="border-0">ge--en</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0"><small class="font-weight-bold">분리전철</small></th>
+								<td class="border-0"><span class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--t</td>
+								<td class="border-0"><span class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--en</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0"><small class="font-weight-bold">비분리전철 & -ieren</small></th>
+								<td class="border-0">--t</td>
+								<td class="border-0">--en</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0 text-right" colspan="3">※ □는 분리전철</th>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col" colspan="2" class="border-0">분리 전철, –en, 비분리전철 (2x), –t, ø ge</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" class="border-0">1.</th>
+								<td class="border-0" style="line-height: 250%;">
+									<div class="input-group">
+										독일어의 과거분사형은 약변화동사와 강변화 동사이냐에 따라 과거분사형의 어미가 <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-19">로 변화한다
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0">&nbsp;</th>
+								<td class="border-0" style="line-height: 250%;">
+									<div class="input-group">
+										규칙변화동사들은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-20">로 그리고 불규칙 변화 동사들은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-21">로 변화한다.
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0">2.</th>
+								<td class="border-0" style="line-height: 250%;">
+									<div class="input-group">
+										전철과 함께 오는 (불)규칙동사들은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-22">+ ge + 어간 (+/-모음교체) + en, -t 형태로 변화한다.
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0">3.</th>
+								<td class="border-0" style="line-height: 250%;">
+									<div class="input-group">
+										비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-23">+ ø ge + 어간 + t 의 형태이고 비분리 전철과 함께 오는 불규칙변화 동사들의 과거분사형은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-24">+ ø ge +어간(+/-모음교체) + en 의 형태이며 어간은 모음교체현상이 일어날 수 있다.
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0">4.</th>
+								<td class="border-0" style="line-height: 250%;">
+									<div class="input-group">
+										-ieren 동사들의 과거분사형은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-25">+ 어간 + t의 형태이다.
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row" class="border-0 text-right" colspan="2">※ ø은 없다는 표시</th>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
 	
@@ -322,7 +411,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["ankommen","auspacken","besichtigen","kennen lernen","fahren","kaufen","machen","trinken","telefornieren","verpassen","studieren","spielen","fernsehen","treffen","bekommen","aufstehen","tanzen","hören"];
+		var an=["ankommen","auspacken","besichtigen","kennen lernen","fahren","kaufen","machen","trinken","telefornieren","verpassen","studieren","spielen","fernsehen","treffen","bekommen","aufstehen","tanzen","hören","–t, -en",["-t", "t"], ["-en", "en"], "분리 전철", "비 분리 전철", "비 분리 전철", "ø ge"];
 		$(document).ready(function() {
 			// 값 확인해보자, io값이 참이면 전체 검사
 			function rfchk(th, io) {
@@ -534,7 +623,7 @@
 
 			var pan=new Array();
 			// pan=[1,2,3,4,5,6,7,8,9,10];
-			pan = [2,5,6,7,9,10,12,14,17,18];
+			pan = [2,5,6,7,9,10,12,14,17,18,19];
 			for(var p=0;
 			p < pan.length;
 			p++) {

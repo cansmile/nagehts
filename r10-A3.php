@@ -142,7 +142,7 @@
 								<th width="20" class="text-center border-0"><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
-										Der ist<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-8">der Berliner Straße links.<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-9">der Ecke ist er.
+										Der ist<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-8">der Berlin Straße links.<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-9">der Ecke ist er.
 									</div>
 									<span class="tran"><br><small>베를리너슈트라세 왼쪽에 있습니다. 그 꽃집은 모퉁이에 있습니다.</small></span>
 								</td>

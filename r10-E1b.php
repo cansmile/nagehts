@@ -70,7 +70,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-1">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;unter Stuhl.<span class="tran"><br><small>참새가 의자 아래 있다,</small></span>
+											▼ </h2>&nbsp;unter Stuhl.<span class="tran"><br><small>참새가 의자 아래로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -88,7 +88,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-1">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;in Kasten<span class="tran"><br><small>참새가 상자 안에 있다.</small></span>
+											▼ </h2>&nbsp;in Kasten<span class="tran"><br><small>참새가 상자 안으로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -106,7 +106,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-1">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;über Tisch.<span class="tran"><br><small>참새가 바나나 위에 있다.</small></span>
+											▼ </h2>&nbsp;über Tisch.<span class="tran"><br><small>참새가 책상 위로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -124,7 +124,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-2">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;hinter Milch.<span class="tran"><br><small>참새가 우유 뒤에 있다.</small></span>
+											▼ </h2>&nbsp;hinter Milch.<span class="tran"><br><small>참새가 우유 뒤로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -142,7 +142,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-1">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;vor Spiegel.<span class="tran"><br><small>참새가 거울 앞에 있다.</small></span>
+											▼ </h2>&nbsp;vor Spiegel.<span class="tran"><br><small>참새가 거울 앞으로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -160,7 +160,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-2">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;neben Vase.<span class="tran"><br><small>참새가 꽃병 옆에 있다.</small></span>
+											▼ </h2>&nbsp;neben Vase.<span class="tran"><br><small>참새가 꽃병 옆으로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -178,7 +178,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-2">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;zwischen Bücher.<span class="tran"><br><small>참새가 책 사이에 있다.</small></span>
+											▼ </h2>&nbsp;zwischen Bücher.<span class="tran"><br><small>참새가 책 사이로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -196,7 +196,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-3">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;an Fenster.<span class="tran"><br><small>참새가 창가에 있다.</small></span>
+											▼ </h2>&nbsp;an Fenster.<span class="tran"><br><small>참새가 창가로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -214,7 +214,7 @@
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm" id="lst-1">
 											Der Spatz fliegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;auf Apfel.<span class="tran"><br><small>참새가 사과 위에 있다.</small></span>
+											▼ </h2>&nbsp;auf Apfel.<span class="tran"><br><small>참새가 사과 위로 날아간다.</small></span>
 										</div>
 									</td>
 								</tr>

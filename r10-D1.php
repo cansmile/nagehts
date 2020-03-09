@@ -297,9 +297,9 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<span class="border border-success bg-lime text-black text-center p-1 px-2 font-weight-bold rounded mr-2">&nbsp;TIPP</span>Partizip II-Formen <small>과거분사형</small>
+					<span class="border border-success bg-lime text-black text-center p-1 px-2 font-weight-bold rounded mr-2">TIPP</span><strong>Partizip II-Formen</strong> <small>과거분사형</small>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6">
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>
@@ -330,51 +330,51 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6">
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" colspan="2" class="border-0">분리 전철, –en, 비분리전철 (2x), –t, ø ge</th>
+								<th scope="col" colspan="2" class="border-0"><small>분리 전철</small>, –en, <small>비분리전철</small> (2x), –t, ø ge</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row" class="border-0">1.</th>
 								<td class="border-0" style="line-height: 250%;">
-									<div class="input-group">
-										독일어의 과거분사형은 약변화동사와 강변화 동사이냐에 따라 과거분사형의 어미가 <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-19">로 변화한다
+									<div class="input-group d-inline">
+										독일어의 과거분사형은 약변화동사와 강변화 동사이냐에 따라 과거분사형의 어미가 <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-19">로 변화한다
 									</div>
 								</td>
 							</tr>
 							<tr>
 								<th scope="row" class="border-0">&nbsp;</th>
 								<td class="border-0" style="line-height: 250%;">
-									<div class="input-group">
-										규칙변화동사들은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-20">로 그리고 불규칙 변화 동사들은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-21">로 변화한다.
+									<div class="input-group d-inline">
+										규칙변화동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-20">로 그리고 불규칙 변화 동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-21">로 변화한다.
 									</div>
 								</td>
 							</tr>
 							<tr>
 								<th scope="row" class="border-0">2.</th>
 								<td class="border-0" style="line-height: 250%;">
-									<div class="input-group">
-										전철과 함께 오는 (불)규칙동사들은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-22">+ ge + 어간 (+/-모음교체) + en, -t 형태로 변화한다.
+									<div class="input-group d-inline">
+										전철과 함께 오는 (불)규칙동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-22">+ ge + 어간 (+/-모음교체) + en, -t 형태로 변화한다.
 									</div>
 								</td>
 							</tr>
 							<tr>
 								<th scope="row" class="border-0">3.</th>
 								<td class="border-0" style="line-height: 250%;">
-									<div class="input-group">
-										비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-23">+ ø ge + 어간 + t 의 형태이고 비분리 전철과 함께 오는 불규칙변화 동사들의 과거분사형은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-24">+ ø ge +어간(+/-모음교체) + en 의 형태이며 어간은 모음교체현상이 일어날 수 있다.
+									<div class="input-group d-inline">
+										비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-23">+ ø ge + 어간 + t 의 형태이고 비분리 전철과 함께 오는 불규칙변화 동사들의 과거분사형은<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-24">+ ø ge +어간(+/-모음교체) + en 의 형태이며 어간은 모음교체현상이 일어날 수 있다.
 									</div>
 								</td>
 							</tr>
 							<tr>
 								<th scope="row" class="border-0">4.</th>
 								<td class="border-0" style="line-height: 250%;">
-									<div class="input-group">
-										-ieren 동사들의 과거분사형은<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px;" aria-label="." id="qst-25">+ 어간 + t의 형태이다.
+									<div class="input-group d-inline">
+										-ieren 동사들의 과거분사형은<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-25">+ 어간 + t의 형태이다.
 									</div>
 								</td>
 							</tr>

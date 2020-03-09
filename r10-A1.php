@@ -129,7 +129,7 @@
 							<tr>
 								<td class="border-0 text-center">⑧</td>
 								<td class="border-0">
-									<div class="itm-lst 1itm" id="lst-9">
+									<div class="itm-lst 1itm" id="lst-8">
 										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>

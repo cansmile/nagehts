@@ -163,7 +163,7 @@ $rtl = array(
 		"B" => array("B1" => "Nach dem Weg fragen", "B2" => "Entschuldigung, wie komme ich ...?", "B3a" => "Wie heißen die Fahrzeuge auf Deutsch?", "B3b" => "Wie heißen die Fahrzeuge auf Deutsch?", "B4" => "Ergänzen Sie die passenden Präpositionen.", "BGR" => "Wechselpräpositionen"),
 		"C" => array("C1" => "Welche Fotos und Texte passen zusammen?", "C2" => "Wie heißen die Orte?", "C3" => "Suchen Sie die Orte auf dem Stadtplan von Dresden und ergänzen Sie die Nummern.", "C4" => "Die Leute sind auf dem Theaterplatz. Wohin und wie wollen sie fahren (gehen)?"),
 		"D" => array("D1" => "Perfekt: Perfekt- und Infinitivformen", "D2" => "Mein Urlaub in Dresden"),
-		"E" => array("E1a" => "Wo ist der Spatz?", "E1b" => "Wohin fliegt der Spatz?", "E2" => "Ergänzen Sie die Sätze.", "E3" => "Wo kann man in Gartenstadt was machen?", "E4" => "Ordnen Sie die Ausdrücke aus dem Kasten in die Tabelle ein.", "E5" => "Entschuldigung, wo ist ... ?", "E6" => "Wie komme ich zum/zur ...?", "E7a" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: Am Alexanderplatz", "E7b" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Frauenkirche", "E7c" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Bushaltestelle", "E8" => "Ordnen Sie die Verben je nach der Partizip –II Formen zu.", "E10" => "Ergänzen Sie die Perfekt-Formen.")
+		"E" => array("E1a" => "Wo ist der Spatz?", "E1b" => "Wohin fliegt der Spatz?", "E2a" => "Wo sind die Gegenstände im Zimmer?", "E2b" => "Wohin bringt sie die Gegenstände? Mina", "E3" => "Wo kann man in Gartenstadt was machen?", "E4" => "Ordnen Sie die Ausdrücke aus dem Kasten in die Tabelle ein.", "E5" => "Entschuldigung, wo ist ... ?", "E6" => "Wie komme ich zum/zur ...?", "E7a" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: Am Alexanderplatz", "E7b" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Frauenkirche", "E7c" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Bushaltestelle", "E8" => "Ordnen Sie die Verben je nach der Partizip –II Formen zu.", "E10" => "Ergänzen Sie die Perfekt-Formen.")
 	)
 );
 
@@ -252,7 +252,7 @@ $rtl_k = array(
 		"B" => array("B1" => "길 묻기", "B2" => "죄송하지만.. 어디로 .... ?", "B3a" => "독일어로 교통기관들을 뭐라고 하나요?", "B3b" => "독일어로 교통기관들을 뭐라고 하나요?", "B4" => "알맞은 전치사를 집어넣으세요.", "BGR" => "3·4격 전치사"),
 		"C" => array("C1" => "어떤 사진이 어떤 텍스트와 어울릴까요?", "C2" => "명소의 이름은 무엇인가요?", "C3" => "드레스덴 시내 지도에서 장소를 찾아 번호를 집어넣으세요.", "C4" => "사람들이 테아터광장에 있습니다. 어디로 그리고 어떤 교통수단으로 가려고 합니다."),
 		"D" => array("D1" => "완료형: 완료형과 부정형", "D2" => "드레스덴에서의 휴가"),
-		"E" => array("E1a" => "어디에 참새가 있나요?", "E1b" => "어디로 참새가 날라가나요?", "E2" => "문장을 채우세요.", "E3" => "가르텐시의 어디서 무엇을 할 수 있나요?", "E4" => "상자안의 표현구들을 표안에 넣으세요.", "E5" => "실례하지만...", "E6" => "어떻게 ... 가야할까요?", "E7a" => "문장을 대화문을 듣고 빈칸을채우세요: 알렉산더 플라자", "E7b" => "문장을 대화문을 듣고 빈칸을채우세요: 프라우엔 교회", "E7c" => "문장을 대화문을 듣고 빈칸을채우세요: 버스 정류장", "E8" => "과거분사형태에 따라 구분해보세요.", "E10" => "완료형을 넣으세요.")
+		"E" => array("E1a" => "어디에 참새가 있나요?", "E1b" => "어디로 참새가 날라가나요?", "E2a" => "문장을 채우세요.", "E2b" => "문장을 채우세요.", "E3" => "가르텐시의 어디서 무엇을 할 수 있나요?", "E4" => "상자안의 표현구들을 표안에 넣으세요.", "E5" => "실례하지만...", "E6" => "어떻게 ... 가야할까요?", "E7a" => "문장을 대화문을 듣고 빈칸을채우세요: 알렉산더 플라자", "E7b" => "문장을 대화문을 듣고 빈칸을채우세요: 프라우엔 교회", "E7c" => "문장을 대화문을 듣고 빈칸을채우세요: 버스 정류장", "E8" => "과거분사형태에 따라 구분해보세요.", "E10" => "완료형을 넣으세요.")
 	)
 
 

@@ -55,7 +55,6 @@
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h2>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러도 번역은 나오지 않습니다. 정답확인하면 문장의 번역이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 				<div class="row mt-2">

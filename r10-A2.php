@@ -68,7 +68,7 @@
 							<tr>
 								<td class="border-0">
 									<ul type="circle">
-										<li><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Entschuldigung, wo kann man in Gartenstadt übernachten? Gibt es in der Nähe ein Hotel?
+										<li><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Entschuldigung, wo kann man hier übernachten? Gibt es in der Nähe ein Hotel?
 											<span class="tran"><br><small>실례합니다. 가르텐슈타트에서는 어디서 머물 수 있습니까? 근처에 호텔이 있습니까?</small></span></li>
 									</ul>
 									<ul type="square">
@@ -82,14 +82,6 @@
 									<ul type="square">
 										<li><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Das ist in der Mannesstraße.
 											<span class="tran"><br><small>만네스슈트라세에 있습니다.</small></span></li>
-									</ul>
-									<ul type="circle">
-										<li><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Vielen Dank.
-											<span class="tran"><br><small>대단히 감사합니다.</small></span></li>
-									</ul>
-									<ul type="square">
-										<li><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Bitte sehr.
-											<span class="tran"><br><small>천만에요.</small></span></li>
 									</ul>
 								</td>
 							</tr>
@@ -512,15 +504,13 @@
 
 				ion.sound( {
 					sounds : [ {
-						name : "r10 A2-0 Bsp.Dialog 1",
+						name : "r10 A2-1 Wo sind die Leute",
 						sprite : {
-							"0": [1.914, 17.304],
-							"10": [6.376, 5.368],
-							"11": [12.258, 1.518],
-							"12": [13.840, 1.283],
-							"13": [15.387, 1.919],
-							"14": [17.376, .834],
-							"15": [18.353, .933]
+							"0": [15.490, 10.534],
+							"10": [15.490, 4.719],
+							"11": [20.626, 1.559],
+							"12": [22.359, 1.516],
+							"13": [23.907, 2.064]
 						}
 					}
 					, {
@@ -596,7 +586,7 @@
 						$(".so").on("click", function () {
 							if($(this).attr("id").substr(-2)=="_p") {
 								// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-								ion.sound.pause("r10 A2-0 Bsp.Dialog 1", {
+								ion.sound.pause("r10 A2-1 Wo sind die Leute", {
 									part: "0"
 								}
 								);
@@ -605,7 +595,7 @@
 							}
 							else if($(this).text()==sen[$(this).attr("id")]) {
 								// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-								ion.sound.play("r10 A2-0 Bsp.Dialog 1", {
+								ion.sound.play("r10 A2-1 Wo sind die Leute", {
 									part: $(this).attr("id")
 								}
 								);
@@ -613,7 +603,7 @@
 							}
 							else if($(this).html()=="❚❚") {
 								// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-								ion.sound.pause("r10 A2-0 Bsp.Dialog 1", {
+								ion.sound.pause("r10 A2-1 Wo sind die Leute", {
 									part: $(this).attr("id")
 								}
 								);
@@ -621,7 +611,7 @@
 							}
 							else {
 								// _p 붙어 있지 않으면 id 그대로 재생
-								ion.sound.play("r10 A2-0 Bsp.Dialog 1", {
+								ion.sound.play("r10 A2-1 Wo sind die Leute", {
 									part: $(this).attr("id")
 								}
 								);

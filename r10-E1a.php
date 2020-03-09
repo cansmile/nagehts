@@ -2,9 +2,6 @@
 	<body>
 <?php include "nav.php"; ?>
 <?php if(ul()) { ?>
-<!-- 알림 시작 -->
-<?php require_once "ready.php"; ?>
-<!-- 알림 끝 -->
 <!-- 보기시작 -->
 <section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">

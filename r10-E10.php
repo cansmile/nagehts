@@ -12,21 +12,21 @@
 				</div>
 			</div>
 			<div class="row border border-dark rounded">
-				<span class="col-3 text-center my-1">angekommen</span>
-				<span class="col-3 text-center my-1">angerufen</span>
-				<span class="col-3 text-center my-1">angezogen</span>
-				<span class="col-3 text-center my-1">anrufen</span>
-				<span class="col-3 text-center my-1">bin</span>
-				<span class="col-3 text-center my-1">bist</span>
-				<span class="col-3 text-center my-1">funktioniert</span>
-				<span class="col-3 text-center my-1">geblieben</span>
-				<span class="col-3 text-center my-1">gefunden</span>
-				<span class="col-3 text-center my-1">gegangen</span>
-				<span class="col-3 text-center my-1">gegessen</span>
-				<span class="col-3 text-center my-1">gesprochen</span>
-				<span class="col-3 text-center my-1">getrunken</span>
-				<span class="col-3 text-center my-1">habe</span>
-				<span class="col-3 text-center my-1">hat</span>
+				<div class="col-3 text-center my-1">angekommen</div>
+				<div class="col-3 text-center my-1">angerufen</div>
+				<div class="col-3 text-center my-1">angezogen</div>
+				<div class="col-3 text-center my-1">anrufen</div>
+				<div class="col-3 text-center my-1">bin</div>
+				<div class="col-3 text-center my-1">bist</div>
+				<div class="col-3 text-center my-1">funktioniert</div>
+				<div class="col-3 text-center my-1">geblieben</div>
+				<div class="col-3 text-center my-1">gefunden</div>
+				<div class="col-3 text-center my-1">gegangen</div>
+				<div class="col-3 text-center my-1">gegessen</div>
+				<div class="col-3 text-center my-1">gesprochen</div>
+				<div class="col-3 text-center my-1">getrunken</div>
+				<div class="col-3 text-center my-1">habe</div>
+				<div class="col-3 text-center my-1">hat</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">

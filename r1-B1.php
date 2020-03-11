@@ -329,7 +329,10 @@ var nagehts = new Howl({
 				});
 			}
 		} else if(sen[last] == 2) {
-			$("#"+last).find(".tran").show();
+			if($(this).hasClass(".itm")) {
+				$("#"+last).find(".tran").show();
+			}
+			$("#"+last).closest("tr").find(".tran").show();
 			pa[last] = $("#"+last).html();
 		}
 	}

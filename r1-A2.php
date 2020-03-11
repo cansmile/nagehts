@@ -254,6 +254,8 @@
 			</div>
 		</div>
 	</section>
+
+	<div id="last" class="d-none"></div>
 	<div id="marg"></div>
 	<!-- 정답확인 버튼 끝 -->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -272,71 +274,71 @@
 		$(".tran").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm=new Array(), sen=new Array();
-			for(i=0;
-			i < $(".so").length;
-			i++) {
-				hm[i]=0;
-				sen[i]=0;
+// 소리 출력 전역 변수와 함수
+var sen = new Array(), pa = new Array(), he = new Array(), last;
+$(".so").each(function() {
+	var t = $(this);
+	var ti = t.attr("id");
+	sen[ti] = 0;
+	pa[ti] = t.html();
+});
+
+function stopAll() {
+	$(".so").each(function() {
+		$(this).html(pa[$(this).attr("id")]);
+	});
+}
+
+// 문제 재생
+var nagehts = new Howl({
+	src: ["./sounds/Reihe 1/r1 A2.mp3"],
+	sprite : {
+		"0": [345, 22869],
+		"1": [6171, 1949],
+		"2": [8712, 1922],
+		"3": [11601, 1826],
+		"4": [14372, 1314],
+		"5": [16553, 1624],
+		"6": [18651, 1922],
+		"7": [20683, 2275]
+	},
+	html5: true,
+	volume: 1,
+	format: "mp3",
+	preload: true,
+	onloaderror: function() {
+		$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+		console.log("다시 읽어주세요!");
+	},
+	onload: function() {
+		// 음성 준비되면 HV 버튼 나타내기 
+		$("#0").show();
+		$(".alert").hide();
+
+		$(".so").on("click", function() {
+				var t = $(this);
+				var ti = t.attr("id");
+
+			if(($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
+				$("#last").text(ti);
+				t.text("■");
+				nagehts.seek();
+				nagehts.play(ti);
+				sen[ti]++;
+	
+				last = ti;
+	
+				$("#cnt-"+ti).text(sen[ti]);
+			} else if(last == ti && nagehts.playing($("div#last").text())) {
+				$("#last").text("");
+				t.html(pa[ti]);
+				nagehts.pause();
+				sen[ti]--;
+				$("#cnt-"+ti).text(sen[ti]);
 			}
-			ion.sound( {
-				sounds : [ {
-					name : "r1 A2",
-					sprite : {
-						"0": [.5, 23.59],
-						"1": [6.93, 1],
-						"2": [9.43, 1.2],
-						"3": [12.15, 1.2],
-						"4": [14.91, 1],
-						"5": [17.13, 1],
-						"6": [19.36, 1.1],
-						"7": [21.35, 1.53]
-					}
-				}
-				, {
-					name: "dingdongdang",
-						path: "sounds/"
-				}
-				, {
-					name: "Cartoon_Boing",
-						path: "sounds/"
-				}
-				],
-				path : "sounds/Reihe 1/",
-				preload : true,
-				volume : 1.0,
-				multiplay: false,
-				ended_callback: function(obj) {
-					// 재생이 끝날 때 2번 이상이면 번역 보이기
-					hmn=obj.part;
-					hm[hmn]++;
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-						if(hm[hmn] > 1) {
-							$(".tran").show();
-						}
-					}
-					else {
-						if(obj.part < 0) {
-							$("#"+obj.part).html("▶");
-						}
-						if(hm[hmn] > 1) {
-							$("#"+hmn).closest(".btn").find(".tran").show();
-						}
-					}
-				}
-				, ready_callback: function () {
-					$(".o").on("click", function() {
-						ion.sound.play("dingdongdang");
-					}
-					);
-					$(".x").on("click", function() {
-						ion.sound.play("Cartoon_Boing");
-					}
-					);
+
+		});
+
 					$("[data-toggle='popover']").popover( {
 						delay : {
 							'hide': 1000
@@ -366,51 +368,6 @@
 						, 500);
 					}
 					);
-					$(".so").on("click", function () {
-						if($(this).attr("id").substr(-2)=="_p") {
-							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r1 A2", {
-								part: "0"
-							}
-							);
-							$("#0").show();
-							$(this).hide();
-						}
-						else if($(this).html()=="▶") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.play("r1 A2", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("❚❚");
-						}
-						else if($(this).html()=="❚❚") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r1 A2", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("▶");
-						}
-						else {
-							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r1 A2", {
-								part: $(this).attr("id")
-							}
-							);
-							// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-							if($(this).attr("id")=="0") {
-								$(this).hide();
-								$("#0_p").show();
-							}
-							;
-						}
-						;
-					}
-					);
-
-
-
 
 <?php include "wahl.php"; ?>
 
@@ -517,13 +474,32 @@
 		);
 
 
-					$("#0").show();
-					$(".alert").hide();
+		$("#0").show();
+		$(".alert").hide();
+
+	},
+	onend: function() {
+		$("div#last").text("");
+		stopAll();
+		$("#cnt-"+last).text(sen[last]);
+		if(last == 0) {
+			if(sen[last] == 2) {
+				$(".tran").show();
+				$(".so").each(function() {
+					pa[last] = $("#"+last).html();
+				});
+			}
+		} else if(sen[last] == 2) {
+			$("#"+last).find(".tran").show();
+			pa[last] = $("#"+last).html();
 		}
 	}
-	);
-}
-);
+
+
+});
+
+		}
+		);
 
 	
 	</script>

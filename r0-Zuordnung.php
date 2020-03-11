@@ -94,8 +94,6 @@
 						독일어에 대해 얼마나 아나요? 다음 단어들을 주제에 따라 나누세요.
 						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 						HV
-						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-						❚❚
 						</button>
 					</p>
 				</div>

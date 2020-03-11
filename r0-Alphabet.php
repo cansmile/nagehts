@@ -28,9 +28,6 @@
 				<small>듣고 따라해보세요.</small>
 				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="whole">
 					HV
-				</button>
-				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="whole_p">
-					❚❚
 				</button></h2>
 			</div>
 		</div>

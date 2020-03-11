@@ -13,7 +13,7 @@ $double_cell_height = $a_cell_height * 2;
 <section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 1; width: 100%;">
 	<div class="container">
 		<div class="row">
-			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl<small>선택지</small></div>
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm py-0 my-0 so" id="1">
 					zwei Uhr fünfundfünfzig.

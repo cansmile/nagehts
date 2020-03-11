@@ -9,7 +9,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl<small>선택지</small></div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" id="1" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm">
 					der se<strong>ch</strong>zehnte

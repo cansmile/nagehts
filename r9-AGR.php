@@ -366,14 +366,14 @@
 								<td><button type="button" id="hundert" class="so btn btn-outline-danger">▶</button></td>
 								<td>hundert</td>
 								<td><button type="button" id="hundertste" class="so btn btn-outline-danger">▶</button></td>
-								<td>(ein)hundertste</td>
+								<td>der (ein)hundertste</td>
 							</tr>
 							<tr>
 								<th scope="row">101</td>
 								<td><button type="button" id="hunderteins" class="so btn btn-outline-danger">▶</button></td>
 								<td>hunderteins</td>
 								<td><button type="button" id="hunderteinste" class="so btn btn-outline-danger">▶</button></td>
-								<td>(ein)hunderteinste</td>
+								<td>der (ein)hunderteinste</td>
 							</tr>
 							<tr>
 								<th scope="row">&nbsp;</td>
@@ -505,6 +505,12 @@
 					name : "r9 AGR",
 					sprite : {
 						"0": [.869, 260.247],
+						"1": [174.891, 1.789],
+						"2": [160.954, 1.458],
+						"3": [199.026, 2.371],
+						"4": [136.188, 1.338],
+						"5": [224.436, 2.389],
+						"6": [150.535, 1.277],
 						"acht": [25.115, .810],
 						"achte": [146.840, 1.395],
 						"achtundzwanzig": [83.805, 1.495],

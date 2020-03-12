@@ -56,29 +56,31 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
-							<table class="table text-center">
-								<tr>
-									<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-								</tr>
-								<tr>
-									<th scope="col" width="50%">질문</th>
-									<th class="bg-light" scope="col">대답</th>
-								</tr>
-								<tr>
-									<td class="bg-light" scope="row"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Kommen</strong> Sie aus Japan?</th>
-									<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</td>
-								</tr>
-								<tr>
-									<td scope="row"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Wohnen</strong> Sie in Seoul?</th>
-									<td class="bg-light"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</td>
-								</tr>
-								<tr>
-									<td class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Liegt</strong> Frankreich in Europa?</th>
-									<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja</strong>, es liegt in Europa.</td>
-								</tr>
-								<tr>
-									<th scope="row" colspan="2" class="text-right">* nicht<small>는 부정어로서 영어의 </small>not<small>을 의미한다</small>.</th>
-								</tr>
+							<table class="table">
+								<tbody>
+									<tr>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									</tr>
+									<tr>
+										<th class="text-center" scope="col" width="50%">질문</th>
+										<th class="text-center bg-light" scope="col">대답</th>
+									</tr>
+									<tr>
+										<td class="bg-light" scope="row"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Kommen</strong> Sie aus Japan?</td>
+										<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</td>
+									</tr>
+									<tr>
+										<td scope="row"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Wohnen</strong> Sie in Seoul?</td>
+										<td class="bg-light"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</td>
+									</tr>
+									<tr>
+										<td class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Liegt</strong> Frankreich in Europa?</td>
+										<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ja</strong>, es liegt in Europa.</td>
+									</tr>
+									<tr>
+										<th scope="row" colspan="2" class="text-right">* nicht<small>는 부정어로서 영어의 </small>not<small>을 의미한다</small>.</th>
+									</tr>
+								</tbody>
 							</table>
 						</div>
 					</div>
@@ -160,7 +162,7 @@
 										<td class="bg-light"><strong>Sie?<br>du?<br>Sie?</strong></td>
 									</tr>
 									<tr>
-										<th scope="row" class="bg-light">Ja/Nein Frage<small><br>예/아니오-의문문</small></th>
+										<th scope="row" class="bg-light">Ja/Nein - Frage<small><br>예/아니오-의문문</small></th>
 										<td><strong>Kommt<br>Liegt</strong></td>
 										<td class="bg-light"><strong>er<br>Amerika</strong></td>
 										<td><strong>aus Korea?<br>in Nordamerika?</strong></td>

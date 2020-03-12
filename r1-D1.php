@@ -262,7 +262,7 @@
 					</div>
 					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 						<div class="row">
-							<div class="py-1 col-4 border-right border-dark">Das</div>
+							<div class="py-1 col-4 border-right border-dark text-left pl-5">Das</div>
 							<div class="bg-light py-1 col-4 border-dark"><i>bin ich.</i></div>
 							<div class="py-1 col-4">&nbsp;</div>
 						</div>
@@ -300,7 +300,7 @@
 					</div>
 					<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
 						<div class="row">
-							<div class="bg-light py-1 col-4">Ja, / Nein</div>
+							<div class="bg-light py-1 col-4 text-left pl-5">Ja. / Nein.</div>
 						</div>
 					</div>
 				</div>

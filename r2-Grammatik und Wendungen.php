@@ -61,8 +61,8 @@
 									<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								</tr>
 								<tr>
-									<th scope="col" width="50%">묻기</th>
-									<th class="bg-light" scope="col">반응</th>
+									<th scope="col" width="50%">질문</th>
+									<th class="bg-light" scope="col">대답</th>
 								</tr>
 								<tr>
 									<td class="bg-light" scope="row"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Kommen</strong> Sie aus Japan?</th>

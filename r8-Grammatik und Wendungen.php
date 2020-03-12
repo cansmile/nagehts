@@ -31,7 +31,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Er soll(muss) im Bett bleiben.</td>
+										<td><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Du sollst(musst) im Bett bleiben.</td>
 										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Bleib im Bett! (du)</td>
 									</tr>
 									<tr>

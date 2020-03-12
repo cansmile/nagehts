@@ -8,7 +8,6 @@
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>Ergänzen Sie. <small>빈칸을 채우세요.</small></h2>
 						<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
 					</div>
 					</div>
 				</div>
@@ -51,7 +50,7 @@
 								<tr>
 									<th class="border-0" width="20">·</th>
 									<td class="border-0 align-middle" height="50">Frau Bauer, was sind Sie von Beruf?
-										<span class="tran">마이어씨, 당신은 무슨일을 하시나요?</span>
+										<span class="tran">바우어씨, 당신은 무슨일을 하시나요?</span>
 									</td>
 								</tr>
 								<tr>
@@ -64,7 +63,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-2">
 												.
 											</div></span>
-										<span class="tran">저는 기술자에요.</span>
+										<span class="tran">저는 은행원입니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -77,7 +76,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-4">
 												.
 											</div></span>
-										<span class="tran">저는 기술자에요.</span>
+										<span class="tran">폴크스방크에서 일합니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -89,7 +88,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-5">
 												Adresse?
 											</div></span>
-										<span class="tran">저는 기술자에요.</span>
+										<span class="tran">당신의 주소는 어떻게 됩니까?</span>
 									</td>
 								</tr>
 								<tr>
@@ -102,7 +101,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-6" style="position: relative; top: -6px;" id="qst-7">
 												.
 											</div></span>
-										<span class="tran">제 주소는 Nonnendammalle 72, 13628 Berlin에요.</span>
+										<span class="tran">저의 주소는 알스터슈트라세 88, 15334 프랑크푸르트입니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -114,7 +113,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-8">
 												elefonnummer?
 											</div></span>
-										<span class="tran">저는 기술자에요.</span>
+										<span class="tran">당신의 전화번호는 어떻게 됩니까?</span>
 									</td>
 								</tr>
 								<tr>
@@ -127,7 +126,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-10">
 												.
 											</div></span>
-										<span class="tran">제 전화번호는 958313에요.</span>
+										<span class="tran">저의 전화번호는 234399입니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -139,7 +138,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-11">
 												.
 											</div></span>
-										<span class="tran">그리고 지역번호는 0941이에요.</span>
+										<span class="tran">그리고 지역번호는 0342입니다.</span>
 									</td>
 								</tr>
 								<tr>
@@ -151,7 +150,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-12">
 												E-Mail-Address?
 											</div></span>
-										<span class="tran">저는 기술자에요.</span>
+										<span class="tran">당신의 이메일 주소는 어떻게 됩니까?</span>
 									</td>
 								</tr>
 								<tr>
@@ -164,7 +163,7 @@
 												<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" id="qst-14">
 												.
 											</div></span>
-										<span class="tran">제 이메일 주소는 jonasmeyer@yahoo.de에요.</span>
+										<span class="tran">저의 이메일 주소는 sophiebauer@gmail.com입니다.</span>
 									</td>
 								</tr>
 							</tbody>

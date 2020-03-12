@@ -49,7 +49,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table table-light text-center">
+					<table class="table table-light">
 						<tbody>
 							<tr>
 								<th class="bg-light" scope="row" width="10%">1</th>
@@ -146,22 +146,6 @@
 				</div>
 			</div>
 			<!-- 정답확인 버튼 끝 -->
-			<div class="row">
-				<div class="col">
-					<table class="table text-center">
-						<thead>
-							<th scope="col">
-								<span class="bg-lime font-weight-bold rounded p-1 px-2 m-1 text-left">TIPP</span>※ 참고
-							</th>
-						</thead>
-						<tbody>
-							<tr>
-								<td><a href="./r2-Grammatik und Wendungen.php">Grammatik und Wendungen</a></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
 		</div>
 	</section>
 	<div id="marg"></div>
@@ -282,7 +266,7 @@
 	$(".itm").each(function() {
 	if($(this).hasClass("ans"+ pan[p])) {
 	$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
-	$("#"+ $(this).attr("id")).addClass("btn-block font-weight-bold text-left");
+	$("#"+ $(this).attr("id")).addClass("btn-block text-left");
 	// $("#"+ $(this).attr("id")).addClass("border-0");
 	$("#lst-"+ pan[p] + ">h2").remove();
 	// $("#lst-"+ pan[p]).closest("tr").find(".tran").show();

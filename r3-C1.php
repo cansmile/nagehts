@@ -19,6 +19,7 @@
 					</button>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small>듣고 알맞은 단어를 선택하세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -86,7 +87,17 @@
 													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 														<input type="radio" name="options" id="option4" autocomplete="off">einen
 													</div>
-												</div>Schwester und einen Bruder.<span class="ans"></span><span class="tran"><br><small>누나와 형이 있어.</small></span></span></td>
+												</div>Schwester und <div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-4">
+													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option3" autocomplete="off">ein
+													</div>
+													<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+														<input type="radio" name="options" id="option4" autocomplete="off">eine
+													</div>
+													<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+														<input type="radio" name="options" id="option4" autocomplete="off">einen
+													</div>
+												</div> Bruder.<span class="ans"></span><span class="tran"><br><small>누나와 형이 있어.</small></span></span></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="9" class="so btn btn-outline-primary">▶</button></td>
@@ -98,7 +109,7 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="11" class="so btn btn-outline-danger">▶</button></td>
-								<td><span class="sen">Ah, das ist<span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-4">
+								<td><span class="sen">Ah, das ist<span class="nu"></span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-5">
 													<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 														<input type="radio" name="options" id="option3" autocomplete="off">mein
 													</div>

@@ -656,10 +656,10 @@
 								var st = "어! 좀 하시는데요~^^";
 								var cl = "success";
 							} else if(pe > 49) {
-								var st = "쓰읍~ 다시 해 보실까요!";
+								var st = "쓰읍~ 다시 해 보실까요?";
 								var cl = "primary";
 							} else {
-								var st = "좀 더 분발해 주세요";
+								var st = "좀 더 분발해 주세요~";
 								var cl = "danger";
 							}
 

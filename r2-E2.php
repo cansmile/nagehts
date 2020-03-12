@@ -28,12 +28,12 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="my-1 text-center" id="city"><span class="wd">Berlin</span><span class="wd">New York</span><span class="wd">Giza</span><span class="wd">Paris</span><span class="wd">Seoul</span><span class="wd">Mexiko City</span><span class="wd">Moshi</span><span class="wd">Peking</span><span class="wd">Rom</span><span class="wd">Sydney</span></div>
+										<div class="my-1 text-center" id="city"><span class="wd">Berlin</span><span class="wd">New York</span><span class="wd">Giza</span><span class="wd">Paris</span><span class="wd">Seoul</span><span class="wd">Mexico City</span><span class="wd">Moshi</span><span class="wd">Peking</span><span class="wd">Rom</span><span class="wd">Sydney</span></div>
 									</td>
 								</tr>
 								<tr>
 									<td>
-										<div class="my-1 text-center" id="coun"><span class="wd">Korea</span><span class="wd">Australien</span><span class="wd">Tanzania</span><span class="wd">Frankreich</span><span class="wd">Ägypten</span><span class="wd">Amerika</span><span class="wd">Deutschland</span><span class="wd">Italien</span><span class="wd">China</span><span class="wd">Mexiko</span></div>
+										<div class="my-1 text-center" id="coun"><span class="wd">Korea</span><span class="wd">Australien</span><span class="wd">Tanzania</span><span class="wd">Frankreich</span><span class="wd">Ägypten</span><span class="wd">Amerika</span><span class="wd">Deutschland</span><span class="wd">Italien</span><span class="wd">China</span><span class="wd">Mexico</span></div>
 									</td>
 								</tr>
 								<tr>
@@ -51,7 +51,7 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-0"></div>
 										<div class="input-group">
-											<strong>z.B.: Namdeamun Tor</strong>&nbsp;
+											<strong>z.B. Namdeamun Tor:</strong>&nbsp;
 											Wo ist <input type="text" value="das" aria-label="Antwort" aria-describedby="basic-addon1" class="q form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;"> Namdaemun Tor?
 											<input type="text" value="Es" aria-label="Antwort" aria-describedby="basic-addon2" class="q form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">ist in Seoul
 											<input type="text" value="Korea" aria-label="Antwort" aria-describedby="basic-addon3" class="q form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">.
@@ -65,10 +65,10 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-1"></div><div class="ant" id="ant-2"></div><div class="ant" id="ant-3"></div><div class="ant" id="ant-4"></div>
 										<div class="input-group">
-											<strong>1: Brandenburger</strong>&nbsp;
+											<strong>1. Brandenburger:</strong>&nbsp;
 											Wo ist<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-1">Brandenburger Tor?
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-2">ist in Berlin, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-3">. Deutschland liegt in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-4">.											
-											<span class="tran"><br><small>브란덴부르그는 어디에 있나요? 그것은 독일, 베를린에 있습니다. 독일은 유럽 대륙에 위치합니다.</small></span>
+											<span class="tran"><br><small>브란덴부르크는 어디에 있나요? 그것은 독일, 베를린에 있습니다. 독일은 유럽 대륙에 위치합니다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -76,10 +76,10 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-5"></div><div class="ant" id="ant-6"></div><div class="ant" id="ant-7"></div><div class="ant" id="ant-8"></div>
 										<div class="input-group">
-											<strong>2: Kolosseum</strong>&nbsp;
+											<strong>2. Kolosseum:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-5"> Kolosseum?
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-6"> ist in Rom, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon11" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-7">. Italien liegt in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon12" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-8">.
-											<span class="tran"><br><small>콜로세움은 어디에 있나요? 그것은 이탈리아 로마에 있습니다. 이탈리아는 유럽 대륙에 위치합니다.</small></span>
+											<span class="tran"><br><small>콜로세움은 어디에 있나요? 그것은 이탈리아, 로마에 있습니다. 이탈리아는 유럽 대륙에 위치합니다.</small></span>
 											
 										</div>
 									</td>
@@ -88,7 +88,7 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-9"></div><div class="ant" id="ant-10"></div><div class="ant" id="ant-11"></div><div class="ant" id="ant-12"></div>
 										<div class="input-group">
-											<strong>3: Eiffelturm</strong>&nbsp;
+											<strong>3. Eiffelturm:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon13" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-9">Eiffelturm?
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon14" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-10"> ist in Paris, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon15" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-11">. Frankreich ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon16" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-12">.
 											<span class="tran"><br><small>에펠탑은 어디에 있나요? 그것은 프랑스, 파리에 있습니다. 프랑스는 유럽 대륙에 위치합니다.</small></span>
@@ -100,9 +100,9 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-13"></div><div class="ant" id="ant-14"></div><div class="ant" id="ant-15"></div><div class="ant" id="ant-16"></div>
 										<div class="input-group">
-											<strong>4: Panda</strong>&nbsp;
+											<strong>4. Panda:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon17" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-13"> Panda?
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-14"> ist in Peking, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-15">. ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-16">.
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon18" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-14"> ist in Peking, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon19" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-15">. China ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon20" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-16">.
 											<span class="tran"><br><small>판다는 어디에 있나요? 그것은 중국, 북경에 있습니다. 중국은 아시아 대륙에 위치합니다.</small></span>
 											
 										</div>
@@ -112,10 +112,10 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-17"></div><div class="ant" id="ant-18"></div><div class="ant" id="ant-19"></div><div class="ant" id="ant-20"></div>
 										<div class="input-group">
-											<strong>5: Pyramide</strong>&nbsp;
+											<strong>5. Pyramide:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon21" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-17"> Pyramide?
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon22" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-18"> ist in Giza, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon23" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-19">. Ägypten ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon24" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-20">.
-											<span class="tran"><br><small>피라미드는 어디에 있나요? 그것은 이집트, 자이라에 있습니다. 이집트는 아프리카 대륙에 있습니다.</small></span>
+											<span class="tran"><br><small>피라미드는 어디에 있나요? 그것은 이집트, 기자에 있습니다. 이집트는 아프리카 대륙에 있습니다.</small></span>
 											
 										</div>
 									</td>
@@ -124,7 +124,7 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-21"></div><div class="ant" id="ant-22"></div><div class="ant" id="ant-23"></div><div class="ant" id="ant-24"></div>
 										<div class="input-group">
-											<strong>6: Mt. Kilimanjaro</strong>&nbsp;
+											<strong>6. Mt. Kilimanjaro:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon25" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-21"> Mt. Kilimanjaro?
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon26" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-22"> ist in Moshi, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon27" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-23">. Tanzania ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon28" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-24">.
 											<span class="tran"><br><small>킬리만자로 산은 어디에 있나요? 그것은 탄자니아 모시에 있습니다. 탄자니아는 아프리카 대륙에 있습니다.</small></span>
@@ -136,9 +136,9 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-25"></div><div class="ant" id="ant-26"></div><div class="ant" id="ant-27"></div><div class="ant" id="ant-28"></div>
 										<div class="input-group">
-											<strong>7: Känguru</strong>&nbsp;
+											<strong>7. Känguru:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon29" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-25"> Känguru?
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon30" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-26"> ist in Sydney, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon31" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-27">. Amerika ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon32" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-28">.
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon30" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-26"> ist in Sydney, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon31" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-27">. Australien ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon32" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-28">.
 											<span class="tran"><br><small>캥거루는 어디에 있나요? 그것은 호주, 시드니에 있습니다. 호주는 오스트레일리아 대륙에 위치합니다.</small></span>
 											
 										</div>
@@ -148,7 +148,7 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-29"></div><div class="ant" id="ant-30"></div><div class="ant" id="ant-31"></div><div class="ant" id="ant-32"></div>
 										<div class="input-group">
-											<strong>8: Freiheitssatatue</strong>&nbsp;
+											<strong>8. Freiheitssatatue:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon33" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-29"> Freiheitssatatue?
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon34" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-30"> ist in New York, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon35" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-31">. Amerika ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon36" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-32">.
 											<span class="tran"><br><small>자유의 여신상은 어디에 있나요? 그것은 미국, 뉴욕에 있습니다. 미국은 북미 대륙에 있습니다.</small></span>
@@ -160,9 +160,9 @@
 									<td class="border-top-0 border-bottom-0">
 										<div class="ant" id="ant-33"></div><div class="ant" id="ant-34"></div><div class="ant" id="ant-35"></div><div class="ant" id="ant-36"></div>
 										<div class="input-group">
-											9: Taco&nbsp;
+											<strong>9. Taco:</strong>&nbsp;
 											Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon37" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-33"> Taco?
-											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon38" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-34"> ist in Mexiko City, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon39" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-35">. Mexiko ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon40" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-36">.
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon38" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-34"> ist in Mexico City, <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon39" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-35">. Mexico ist in <input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon40" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1 border-dark" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;" id="qst-36">.
 											<span class="tran"><br><small>타코는 어디에 있나요? 그것은 멕시코, 멕시코시에 있습니다. 멕시코는 북미 대륙에 있습니다.</small></span>
 											
 										</div>
@@ -197,7 +197,7 @@
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
 			$("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
 			var an = new Array();
-			var an = ["das","Es","Deutschland","Europe","das","Es","Italien","Europe","der","Er","Frankreich","Europe","der","Er","China","Asien","die","Sie","Ägypten","Afrika","der","Er","Tanzania","Afrika","das","Es","Australien","Australien","die","Sie","Amerika","Nordamerika","der","Er","Mexiko","Nordamerika"];
+			var an = ["das","Es","Deutschland","Europa","das","Es","Italien","Europa","der","Er","Frankreich","Europa","der","Er","China","Asien","die","Sie","Ägypten","Afrika","der","Er","Tanzania","Afrika","das","Es","Australien","Australien","die","Sie","Amerika","Nordamerika","der","Er","Mexico","Nordamerika"];
 			var ant = new Array();
 
 			function ch() {
@@ -423,6 +423,20 @@ function rfchk(th,io) {
 						}
 						;
 					})
+
+					var pan=new Array();
+					// pan=[1,2,3,4,5,6,7,8,9,10];
+					pan = [13,14,15,16,25,26,27,28,29,30,31,32];
+					for(var p=0;
+					p < pan.length;
+					p++) {
+						var pann="#qst-"+pan[p];
+						$(pann).val(an[(pan[p]-1)]);
+						$(pann).addClass("bg-success text-white font-weight-bold");
+						$(pann).prop("disabled", true);
+						// $(pann).closest("tr").find(".tran").show();
+					}			
+
 				ch();
 			});
 			

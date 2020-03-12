@@ -6,7 +6,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="1">
 					a. In Daejeon.<span class="tran"><br>&nbsp;<small>대전에서.</small></span>
@@ -42,7 +42,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table table-light text-center">
+					<table class="table table-light">
 						<tbody>
 							<tr>
 								<th class="bg-light" scope="row" width="10%">1</th>

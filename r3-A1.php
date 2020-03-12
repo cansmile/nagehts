@@ -1,9 +1,9 @@
-<?php include "header.php"; ?>
+<?php include"header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php include"nav.php"; ?>
 	<?php if(ul()) { ?>
 	<!-- 알림 시작 -->
-	<?php require_once "ready.php"; ?>
+	<?php require_once"ready.php"; ?>
 	<!-- 알림 끝 -->
 	<section>
 		<div class="container">
@@ -28,13 +28,13 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
-								<th scope="col" colspan="2" class="text-center text-white bg-danger"><h4>Das ist meine Familie.<span class="tran"><br><small>나의 가족입니다.</small></span></h4></th>
+								<th scope="col" class="border-0" width="100"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
+								<th scope="col" colspan="2" class=" text-white bg-danger"><h4>Das ist meine Familie.<span class="tran"><br><small>나의 가족입니다.</small></span></h4></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td colspan="3" class="text-center"><img src="./images/Reihe 3/Reihe3-A-A1-1.png" alt="Das ist meine Familie." usemap="#image-map1">
+								<td colspan="3" class="border-0"><img src="./images/Reihe 3/Reihe3-A-A1-1.png" alt="Das ist meine Familie." usemap="#image-map1">
 								</td>
 							</tr>
 						</tbody>
@@ -44,19 +44,19 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center" width="100"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></th>
-								<th scope="col" colspan="2" class="text-center text-white bg-primary"><h4>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></h4></th>
+								<th scope="col" class="border-0" width="100"><button type="button" id="2" class="so btn btn-outline-primary">▶</button></th>
+								<th scope="col" colspan="2" class=" text-white bg-primary"><h4>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></h4></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row"><button type="button" id="3" class="so btn btn-outline-primary text-center">▶</button></th>
-								<td class="text-center">Das bin ich.<span class="tran"><br><small>저에요.</small></span></td>
-								<td rowspan="3" class="text-center" width="240"><img src="./images/Reihe 3/Reihe3-A-A1-2.png" id="21" class="so" style="width: auto; max-height: 140px;" alt="Das ist meine Familie."></td>
+								<th class="border-0" scope="row"><button type="button" id="3" class="so btn btn-outline-primary">▶</button></th>
+								<td class="border-0">Das bin ich.<span class="tran"><br><small>저에요.</small></span></td>
+								<td rowspan="3" class="border-0" width="240"><img src="./images/Reihe 3/Reihe3-A-A1-2.png" id="21" class="so" style="width: auto; max-height: 140px;" alt="Das ist meine Familie."></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="4" class="so btn btn-outline-primary text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Das ist <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="4" class="so btn btn-outline-primary">▶</button></th>
+								<td class="border-0"><span class="sen">Das ist <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-1">
 										<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option1" autocomplete="off">mein
@@ -67,8 +67,8 @@
 									</div>Frau.<span class="ans"></span></span><span class="tran"><br><small>제 아내에요.</small></span></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="5" class="so btn btn-outline-primary text-center">▶</button></th>
-								<td class="text-center">Wir sind verheiratet.<span class="tran"><br><small>우리는 결혼했어요.</small></span></td>
+								<th class="border-0" scope="row"><button type="button" id="5" class="so btn btn-outline-primary">▶</button></th>
+								<td class="border-0">Wir sind verheiratet.<span class="tran"><br><small>우리는 결혼했어요.</small></span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -77,14 +77,14 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center" width="100"><button type="button" id="6" class="so btn btn-outline-success">▶</button></th>
-								<th scope="col" colspan="2" class="text-center text-white bg-success"><h4>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></h4></th>
+								<th scope="col" class="border-0" width="100"><button type="button" id="6" class="so btn btn-outline-purple">▶</button></th>
+								<th scope="col" colspan="2" class=" text-white bg-purple"><h4>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></h4></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row"><button type="button" id="7" class="so btn btn-outline-success text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Das ist <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="7" class="so btn btn-outline-purple">▶</button></th>
+								<td class="border-0"><span class="sen">Das ist <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-2">
 										<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option3" autocomplete="off">mein
@@ -93,11 +93,11 @@
 											<input type="radio" name="options" id="option4" autocomplete="off">meine
 										</div>
 									</div>Sohn.<span class="ans"></span></span><span class="tran"><br><small>제 아들이에요.</small></span></td>
-								<td rowspan="4" class="text-center" width="240"><img src="./images/Reihe 3/Reihe3-A-A1-3.png" style="width: auto; max-height: 140px;" id="22" class="so" alt="Das ist meine Familie."></td>
+								<td rowspan="4" class="border-0" width="240"><img src="./images/Reihe 3/Reihe3-A-A1-3.png" style="width: auto; max-height: 140px;" id="22" class="so" alt="Das ist meine Familie."></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="8" class="so btn btn-outline-success text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Das ist <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="8" class="so btn btn-outline-purple">▶</button></th>
+								<td class="border-0"><span class="sen">Das ist <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-3">
 										<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option5" autocomplete="off">mein
@@ -108,8 +108,8 @@
 									</div>Tochter.<span class="ans"></span></span><span class="tran"><br><small>제 딸이에요.</small></span></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="9" class="so btn btn-outline-success text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Das sind <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="9" class="so btn btn-outline-purple">▶</button></th>
+								<td class="border-0"><span class="sen">Das sind <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-4">
 										<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option7" autocomplete="off">mein
@@ -120,8 +120,8 @@
 									</div>Kinder.<span class="ans"></span></span><span class="tran"><br><small>제 아이들이에요.</small></span></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="10" class="so btn btn-outline-success text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Mein Sohn ist 6 und <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="10" class="so btn btn-outline-purple">▶</button></th>
+								<td class="border-0"><span class="sen">Mein Sohn ist 6 und <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-5">
 										<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option9" autocomplete="off">mein
@@ -138,14 +138,14 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center" width="100"><button type="button" id="11" class="so btn btn-outline-info">▶</button></th>
-								<th scope="col" colspan="2" class="text-center text-white bg-info"><h4>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></h4></th>
+								<th scope="col" class="border-0" width="100"><button type="button" id="11" class="so btn btn-outline-info">▶</button></th>
+								<th scope="col" colspan="2" class=" text-white bg-info"><h4>Wer ist das?<span class="tran"><br><small>이 사람은 누구인가요?</small></span></h4></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row"><button type="button" id="12" class="so btn btn-outline-info text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Das ist <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="12" class="so btn btn-outline-info">▶</button></th>
+								<td class="border-0"><span class="sen">Das ist <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-6">
 										<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option11" autocomplete="off">mein
@@ -154,11 +154,11 @@
 											<input type="radio" name="options" id="option12" autocomplete="off">meine
 										</div>
 									</div>Vater.<span class="ans"></span></span><span class="tran"><br><small>제 아버지에요.</small></span></td>
-								<td rowspan="3" class="text-center" width="240"><img src="./images/Reihe 3/Reihe3-A-A1-4.png" style="width: auto; max-height: 140px;" id="23" class="so" alt="Das ist meine Familie."></td>
+								<td rowspan="3" class="border-0" width="240"><img src="./images/Reihe 3/Reihe3-A-A1-4.png" style="width: auto; max-height: 140px;" id="23" class="so" alt="Das ist meine Familie."></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="13" class="so btn btn-outline-info text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Das ist <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="13" class="so btn btn-outline-info">▶</button></th>
+								<td class="border-0"><span class="sen">Das ist <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-7">
 										<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option13" autocomplete="off">mein
@@ -169,8 +169,8 @@
 									</div>Mutter.<span class="ans"></span></span><span class="tran"><br><small>제 어머니에요.</small></span></td>
 							</tr>
 							<tr>
-								<th scope="row"><button type="button" id="14" class="so btn btn-outline-info text-center">▶</button></th>
-								<td class="text-center"><span class="sen">Das sind <span class="nu"></span>
+								<th class="border-0" scope="row"><button type="button" id="14" class="so btn btn-outline-info">▶</button></th>
+								<td class="border-0"><span class="sen">Das sind <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-8">
 										<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option15" autocomplete="off">mein
@@ -224,7 +224,7 @@
 			}
 			ion.sound( {
 				sounds : [ {
-					name : "r3 A1",
+					name :"r3 A1",
 					sprite : {
 						"0": [6, 61.8],
 							"1": [13.2, 2.6],
@@ -253,15 +253,15 @@
 					}
 				}
 				, {
-					name: "dingdongdang",
-						path: "sounds/"
+					name:"dingdongdang",
+						path:"sounds/"
 				}
 				, {
-					name: "Cartoon_Boing",
-						path: "sounds/"
+					name:"Cartoon_Boing",
+						path:"sounds/"
 				}
 				],
-				path : "sounds/Reihe 3/",
+				path :"sounds/Reihe 3/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,
@@ -298,7 +298,7 @@
 							'hide': 1000
 						}
 						,
-						container : "body"
+						container :"body"
 					}
 					);
 					$(".pop").click(function () {
@@ -311,7 +311,7 @@
 						;
 						// 문제 풀이 정도 업데이트
 						var perc=Math.round(($(".an").length / $(".q").length) * 100);
-						$(".progress>.bar").attr("width", perc + "%;");
+						$(".progress>.bar").attr("width", perc +"%;");
 					}
 					);
 					// 팝업 내용 사라지기
@@ -326,7 +326,7 @@
 						if($(this).attr("id").substr(-2)=="_p") {
 							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
 							ion.sound.pause("r3 A1", {
-								part: "0"
+								part:"0"
 							}
 							);
 							$("#0").show();
@@ -368,18 +368,18 @@
 			// 정답확인
 			$("#chk").on("click", function() {
 				if ($(".an").length < $(".q").length) {
-					var na = "";
+					var na ="";
 					$(".q").each(function() {
 						if (!$(this).find("div").hasClass("an")) {
-							if (na != "") {
-								na += ", ";
+							if (na !="") {
+								na +=",";
 							}
 							na += $(this).attr("id").substr(-1);
 						};
 					});
 
 					alert("모든 문제를 풀어주세요.");
-					// alert(na + "번 문제를 풀어주세요.");
+					// alert(na +"번 문제를 풀어주세요.");
 				} else {
 					$(".pop").each(function() {
 						$(this).removeClass("btn-info");
@@ -408,31 +408,31 @@
 					
 
 					// 정답 확인 div 상자 배경색 속성 없애기
-					$(this).removeClass("btn-light ");
+					$(this).removeClass("btn-light");
 
 					var qa = $(".q").length; // 전체 문항 수
 					var qr = $(".bg-success").length; // 맞춘 항목 수
 					var pe = (qr / qa) * 100; // 정답 비율
-					var tcl = "white"; // 기본 문자색
+					var tcl ="white"; // 기본 문자색
 
 					// 분류 기준은 100%, 80%, 60%, 40%
 					if(pe > 99) {
-						var st = "원어민이세요?";
-						var cl = "lime";
-						var tcl = "dark";
+						var st ="원어민이세요?";
+						var cl ="lime";
+						var tcl ="dark";
 					} else if(pe > 74) {
-						var st = "어! 좀 하시는데요~^^";
-						var cl = "success";
+						var st ="어! 좀 하시는데요~^^";
+						var cl ="success";
 					} else if(pe > 49) {
-						var st = "쓰읍~ 다시 해 보실까요!";
-						var cl = "primary";
+						var st ="쓰읍~ 다시 해 보실까요!";
+						var cl ="primary";
 					} else {
-						var st = "좀 더 분발해 주세요";
-						var cl = "danger";
+						var st ="좀 더 분발해 주세요";
+						var cl ="danger";
 					}
 
-					$(this).addClass("btn-" + cl + " text-" + tcl);
-					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+					$(this).addClass("btn-" + cl +" text-" + tcl);
+					$(this).html("<h4>" + qa +"문제 중" + qr +"개를 맞히셨네요!<br>" + st +"</h4>");
 				};
 			});
 
@@ -447,6 +447,6 @@
 	</script>
 	<!-- ion.sound finished -->
 	<? } ?>
-	<?php include "footer.php"; ?>
+	<?php include"footer.php"; ?>
 </body>
 </html>

@@ -10,7 +10,7 @@
 						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h2>
 					</div>
 					</div>
-				</div>				
+				</div>
 				<div class="row">
 					<div class="col-12">
 						<table class="table" style="height: 100%;">
@@ -231,14 +231,14 @@
 											<td class="border border-dark">U.S.A</td>
 										</tr>
 										<tr>
-											<td class="border border-dark">Niederlanden</td>
+											<td class="border border-dark">Niederlande<strong>n</strong></td>
 										</tr>
 										<tr>
 											<td class="border border-dark">…</td>
 										</tr>
 									</tbody>
 								</table>
-							
+
 					</div>
 
 				</div>
@@ -251,9 +251,9 @@
 				<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-		
 
-		
+
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -278,7 +278,7 @@ function rfchk(th,io) {
 	a = th.val();
 	a = a.replace(/ /gi, "");
 	if(!$.isArray(an[qn])) {
-		// 1 인 경우 
+		// 1 인 경우
 		if(io) {
 			b = an[qn];
 		} else {
@@ -299,12 +299,12 @@ function rfchk(th,io) {
 				b = an[qn][fd].substr(0,q);
 			}
 			b = b.replace(/ /gi, "");
-			
+
 			if(a == b) {
 				return true;
 			}
 		}
-		
+
 	}
 }
 				$(".q").on("keyup", function () {
@@ -328,7 +328,7 @@ function rfchk(th,io) {
 						$(this).removeClass("bg-success");
 						$(this).removeClass("text-white font-weight-bold");
 					}
-					
+
 					if($(this).val()) {
 						$("#ant-"+$(this).attr("id").substr(4)).show();
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -476,15 +476,25 @@ function rfchk(th,io) {
 						}
 						;
 					})
-				$("#qst-1").val(an[0]);
-				$("#qst-1").addClass("bg-success text-white font-weight-bold");
-				$("#qst-1").prop("disabled",true);
+
+				var pan=new Array();
+				// pan=[1,2,3,4,5,6,7,8,9,10];
+				pan = [5,9,10];
+				for(var p=0;
+				p < pan.length;
+				p++) {
+					var pann="#qst-"+pan[p];
+					$(pann).val(an[(pan[p]-1)]);
+					$(pann).addClass("bg-success text-white font-weight-bold");
+					$(pann).prop("disabled", true);
+					// $(pann).closest("tr").find(".tran").show();
+				}
 
 			});
-			
+
 		</script>
 		<!-- ion.sound finished -->
 <? } ?>
 <?php include "footer.php"; ?>
-	</body> 
+	</body>
 </html>

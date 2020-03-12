@@ -71,58 +71,58 @@
 							<tbody>
 								<tr>
 									<td colspan="2" class="border-0">
-										<div class="itm-lst 1itm d-block" id="lst-1">Herr Meyer, 
-											<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px; min-width: 50px; max-width: 150px;"> ▼ </h2>
+										Herr Meyer, <div class="itm-lst 1itm d-inline-block" id="lst-1">
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 50px;"> ▼ </h2>
 										</div>
-										<span class="tran"><br><small>마이어씨, 당신은 무슨일을 하시나요?</small></span>
+										<span class="tran"><br><small>마이어씨, 당신의 직업은 무엇입니까?</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
 										Ich bin Ingenieur. Ich arbeite bei Siemens.
-										<span class="tran"><br><small>저는 기술자에요. 지멘스에서 일해요.</small></span>
+										<span class="tran"><br><small>저는 기술자입니다. 지멘스에서 일하고 있습니다.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
-										<div class="itm-lst 1itm" style="min-width: 50px; max-width: 150px;" id="lst-2">
+										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-2">
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;"> ▼ </h2>
 										</div>
-										<span class="tran"><br><small>주소가 어떻게 되나요?</small></span>
+										<span class="tran"><br><small>당신의 주소는 어떻게 됩니까?</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
 										Meine Adresse ist Nonnendammallee 72, 13628 Berlin.
-										<span class="tran"><br><small>제 주소는 Nonnendammalle 72, 13628 Berlin에요.</small></span>
+										<span class="tran"><br><small>저의 주소는 논넨담말레 72, 13628 베를린입니다.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
-										<div class="itm-lst 1itm" style="min-width: 50px; max-width: 150px;" id="lst-3">
+										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-3">
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;"> ▼ </h2>
 										</div>
-										<span class="tran"><br><small>전화번호는 어떻게 되나요?</small></span>
+										<span class="tran"><br><small>당신의 전화번호는 어떻게 됩니까?</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
 										Meine Telefonnummer ist 958313. Und die Vorwahl ist 0941.
-										<span class="tran"><br><small>제 전화번호는 958313에요. 그리고 지역번호는 0941이에요.</small></span>
+										<span class="tran"><br><small>제 전화번호는 958313입니다. 그리고 지역번호는 0941입니다.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
-										<div class="itm-lst 1itm" style="min-width: 50px; max-width: 150px;" id="lst-4">
+										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-4">
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;"> ▼ </h2>
 										</div>
-										<span class="tran"><br><small>이메일 주소는 어떻게 되나요?</small></span>
+										<span class="tran"><br><small>당신의 이메일주소는 어떻게 됩니까?</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
 										Meine E-Mail-Adresse ist jonasmeyer@yahoo.de.
-										<span class="tran"><br><small>제 이메일 주소는 jonasmeyer@yahoo.de에요.</small></span>
+										<span class="tran"><br><small>저의 이메일 주소는 jonasmeyer@yahoo.de입니다.</small></span>
 									</td>
 								</tr>
 							</tbody>

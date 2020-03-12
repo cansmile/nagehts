@@ -41,7 +41,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">&lt; 1 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option1-1" autocomplete="off">Wie
 											</div>
@@ -78,7 +78,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">&lt; 2 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option2-1" autocomplete="off">Er
 											</div>
@@ -117,7 +117,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">&lt; 3 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option3-1" autocomplete="off">Wo
 											</div>
@@ -154,7 +154,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">&lt; 4 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option4-1" autocomplete="off">Wohnst
 											</div>
@@ -191,7 +191,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">&lt; 5 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option5-1" autocomplete="off">Ja,
 											</div>
@@ -233,7 +233,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">&lt; 6 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option6-1" autocomplete="off">Woher
 											</div>
@@ -270,7 +270,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">&lt; 7 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option7-1" autocomplete="off">Er
 											</div>
@@ -309,7 +309,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">&lt; 8 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option8-1" autocomplete="off">Liegt
 											</div>
@@ -346,7 +346,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">&lt; 9 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option9-1" autocomplete="off">Ja,
 											</div>
@@ -388,7 +388,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">&lt; 10 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option10-1" autocomplete="off">Welche Sprachen
 											</div>
@@ -425,7 +425,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-11">&lt; 11 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-11">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option11-1" autocomplete="off">Ich
 											</div>
@@ -464,7 +464,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-12">&lt; 12 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-12">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option12-1" autocomplete="off">Sprichst
 											</div>
@@ -501,7 +501,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-13">&lt; 13 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-13">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option13-1" autocomplete="off">Ja,
 											</div>
@@ -546,7 +546,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-14">&lt; 14 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-14">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option14-1" autocomplete="off">Bist
 											</div>
@@ -583,7 +583,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-15">&lt; 15 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-15">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option15-1" autocomplete="off">Nein,
 											</div>
@@ -625,7 +625,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-16">&lt; 16 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-16">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option16-1" autocomplete="off">Ist
 											</div>
@@ -662,7 +662,7 @@
 								</tr>
 								<tr>
 									<td>
-										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-17">&lt; 17 &gt;&nbsp;
+										<div class="text-right btn-group btn-group-toggle q" data-toggle="buttons" id="qst-17">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option17-1" autocomplete="off">Nein,
 											</div>
@@ -1056,7 +1056,7 @@ function rfchk(th,io) {
 						$(this).removeClass("btn-light ");
 
 						var qa = $(".q").length + $(".qt").length; // 전체 문항 수
-						var qr = $(".bg-success").length + $(".btn-success").length; // 맞춘 항목 수
+						var qr = $(".bg-success").length + $(".btn-success").length-pan.length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색
 
@@ -1077,7 +1077,7 @@ function rfchk(th,io) {
 						}
 
 						$(this).addClass("btn-" + cl + " text-" + tcl);
-						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "<br><small>(미리 채워진 문항은 문제와 정답 갯수에 포함되지 않습니다)</small></h4>");
 
 					} else if(na != "" && da == "") {
 						alert(na+"번 문제를 입력하세요!");
@@ -1090,7 +1090,7 @@ function rfchk(th,io) {
 
 				var pan=new Array();
 				// pan=[1,2,3,4,5,6,7,8,9,10];
-				pan = [1,2,5,9,11,13,15,17];
+				pan = [1,2,5,7,9,11,13,15,17];
 				for(var p=0;
 				p < pan.length;
 				p++) {
@@ -1098,6 +1098,7 @@ function rfchk(th,io) {
 				var pann2="#qst-"+pan[p];
 					$(pann1).val(an[(pan[p]-1)]);
 					$(pann1).addClass("bg-success text-white font-weight-bold");
+					$(pann1).removeClass("qt");
 					$(pann1).prop("disabled", true);
 					$(pann2).show();
 				// $(pann).closest("tr").find(".tran").show();

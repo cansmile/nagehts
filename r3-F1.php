@@ -187,7 +187,7 @@
 									</div>
 									.	
 										<span class="tran"><br>
-											<small>제 아이들은 한스,게오르그와 자비네이에요.</small>
+											<small>제 아이들은 한스,게오르크와 자비네이에요.</small>
 										</span>
 								</td>
 								</tr>
@@ -231,7 +231,7 @@
 									</div>
 									.	
 										<span class="tran"><br>
-											<small>그는 프란쯔 숄이에요.</small>
+											<small>그는 프란츠 숄이에요.</small>
 										</span>
 								</td>
 								</tr>
@@ -244,8 +244,7 @@
 										▼ </h2>
 									</div>
 									.	
-										<span class="tran">저의 며느리는 질비아 마크에요.<br>
-											<small></small>
+										<span class="tran"><br><small>저의 며느리는 질비아 마크에요.</small>
 										</span>
 								</td>
 								</tr>

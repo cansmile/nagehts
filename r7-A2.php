@@ -12,28 +12,28 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="1">
-					<small>Tanzkurs<span class="tran"><br>댄스수업<br>(So. 18 Uhr)</span></small>
+					<small>Tanzkurs<span class="tran"><br>댄스강좌<br>(So. 18 Uhr)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="2">
-					<small>Führung in der Gemäldegalerie<span class="tran"><br>미술관 안내<br>(Fr. 11 Uhr)</span></small>
+					<small>Führung in der Gemäldegalerie<span class="tran"><br>미술관 안내 관람<br>(Fr. 11 Uhr)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="3">
-					<small>Galakonzerte<span class="tran"><br>축제음악회<br>(Sa. 22 Uhr)</span></small>
+					<small>Galakonzerte<span class="tran"><br>갈라콘서트<br>(Sa. 22 Uhr)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="4">
 					<small>Kino<span class="tran"><br>영화관<br>(Fr. bis Sa. 15.30)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="5">
-					<small>Stadtführung Glanzlichter Dresdens<span class="tran"><br><br>(Mo, Mi, Fr., Sa. 18.30)</</span>
+					<small>Stadtführung Glanzlichter Dresdens<span class="tran"><br>드레스덴 하이라이트 시티투어<br>(Mo, Mi, Fr., Sa. 18.30)</</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="6">
 					<small>Circus Krone<span class="tran"><br>크로네 서커스<br>(So. 15.30)</span></small>
 					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="7">
-					<small>Kino<span class="tran"영화관<br>(Fr. bis Sa. 17.45, 20.00)</span></small>
+					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="7">
+					<small>Kino<span class="tran"><br>영화관<br>(Fr. bis Sa. 17.45, 20.00)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="8">
-					<small>Staatsoperette<span class="tran"><br>국립 소오페라단<br>(Sa. 14.30)</span></small>
+					<small>Staatsoperette<span class="tran"><br>국립 오페라극장<br>(Sa. 14.30)</span></small>
 					</button>
 				</div>
 			</div>

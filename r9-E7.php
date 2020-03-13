@@ -74,7 +74,6 @@
  						</tbody>
  					</table>
  				</div>
-				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->
 			<div class="row">

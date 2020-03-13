@@ -63,7 +63,7 @@
 					im Reisebüro
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="19">
-					im Rottannenweg,
+					im Rottannenweg
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="20">
 					im Schwimmbad
@@ -93,7 +93,7 @@
 					in der Frauenkirche
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="29">
-					in der Haupstraße,
+					in der Haupstraße
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="30">
 					in die Apotheke
@@ -194,12 +194,12 @@
 						$(this).removeClass("btn-light ");
 
 						$(".itm-lst").each(function() {
-							if($(this).find(".btn")) {
-								$(this).find(".btn").addClass("text-success");
+							if($(this).find(".itm")) {
+								$(this).find(".itm").addClass("text-success");
 							}
 						});
 
-						var qa = $(".itm-lst").length; // 전체 문항 수
+						var qa = $(".itm").length; // 전체 문항 수
 						var qr = $(".text-success").length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색

@@ -5,131 +5,190 @@
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
-	<style>
-		td,th,table {
-			border-width: 0;
-			border-style: hidden;
-		}
-	</style>
-	<!-- 보기시작 -->
-	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
-		<div class="container">
-			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
-				<div class="col-12" id="itms">
-					<button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so" id="1">
-					gefahren
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so" id="2">
-					geredet
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so" id="3">
-					gelacht
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so" id="4">
-					gemacht
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so" id="5">
-					geblieben
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so" id="6">
-					angerufen
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so" id="7">
-					gegrillt
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so" id="8">
-					gegangen
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so" id="9">
-					gebacken
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so" id="10">
-					getanzt
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so" id="11">
-					gekommen
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so" id="12">
-					gratuliert
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so" id="13">
-					gehört
-					</button>
-				</div>
-			</div>
-		</div>
-	</section>
 	<section>
 		<div class="container">
-			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h2>Sprechen Sie in der Klasse. <small>수업시간에 이야기해보세요.</small>
+					<h2>[ <small>문장을 듣고 맞는지 틀리는지 선택하세요..</small> ]
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
 					</h2>
-					<h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12" style="line-height: 250%;">
-					Ich heiße Silvia.  <span class="tran"><br><small>나는 실비아라고 해.</small><br></span>Gestern hatte ich meinen 20. Geburtstag.  <span class="tran"><br><small>나는 어제 20살 생일을 맞이했어.</small><br></span>Es war einfach ein wunderschönes Erlebnis.  <span class="tran"><br><small>파티는 진짜 너무 멋진 경험이었어.</small><br></span>Gleich am Morgen hat meine Freundin mich 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-1">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> kommen </h2>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>a)</strong> Das Geburtstagskind heisst Julia.
+							<span class="tran"><br><small>translate</small></span>
 						</div>
-					 und mir zum Geburtstag 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-2">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> kommen </h2>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-1">
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1">Richtig</label>
+								</div>
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option2" autocomplete="off"><label for="option2">Falsch</label>
+								</div>
+							</div>
 						</div>
-					.  <span class="tran"><br><small>아침이 되자마자 내 친구가 나에게 전화하여 나에게 생일 축하를 해주었어.</small><br></span>Zum Frühstück hat meine Mutter mir ein leckeres Frühstück mit gekochtem Ei, und Speck und Toast 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-3">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> machen </h2>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>b)</strong> Sie feiert ihren 21. Geburtstag.
+							<span class="tran"><br><small>translate</small></span>
 						</div>
-					.  <span class="tran"><br><small>아침식사에 엄마가 나에게 삶은 계란, 베이컨, 토스트 빵으로 맛난 아침식사를 해주었어.</small><br></span>Sie hat sogar einen selbstgemachten Kuchen 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-4">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> backen </h2>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-2">
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option3" autocomplete="off"><label for="option3">Richtig</label>
+								</div>
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4">Falsch</label>
+								</div>
+							</div>
 						</div>
-					-  <span class="tran"><br><small>더욱이 엄마가 손수 케익을 만들어 주셨어.</small><br></span>Erdbeerkuchen mit Sahne, einfach köstlich!  <span class="tran"><br><small>생크림 딸기 케익, 진짜 맛있었어.</small><br></span>Am Nachmittag haben mich meine Freunde abgeholt und für mich eine Überraschungsparty bei Alex organisiert.  <span class="tran"><br><small>오후에는 친구들이 나를 데리려 왔고 알렛스 집에서 나를 위한 깜짝 파티를 준비했어.</small><br></span>Es waren alle da.  <span class="tran"><br><small>친구들이 모두 다 왔어.</small><br></span>Selbst Carlos, unser Austausstudent aus Spanien, war auch mit dabei. <span class="tran"><br><small>스페인에서 온 교환학생인 카를로스도 왔어.</small><br></span> Und meine alte Schulfreundin Julia ist aus Frankfurt 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-5">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> kommen </h2>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>c)</strong> Ihre Mutter hat einen selbstgemachten Kuchen gemacht.
+							<span class="tran"><br><small>translate</small></span>
 						</div>
-					.  <span class="tran"><br><small>나의 오랜 학교친구인 율리아도 프랑크프르트에서 왔어.</small><br></span>Sie ist mit der Bahn zu mir 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-6">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> fahren </h2>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-3">
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option5" autocomplete="off"><label for="option5">Richtig</label>
+								</div>
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option6" autocomplete="off"><label for="option6">Falsch</label>
+								</div>
+							</div>
 						</div>
-					, um mir zum Geburtstag zu gratulieren.  <span class="tran"><br><small>율리아는 나에게 생일축하인사를 하려고 기차를 타고 왔어.</small><br></span>Wir haben 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-7">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> grillen </h2>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>d)</strong> Ihre Freundin hat sie angerufen und ihr am Mittag gratuliert.
+							<span class="tran"><br><small>translate</small></span>
 						</div>
-					und dabei Musik 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-8">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> hören </h2>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-4">
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option7" autocomplete="off"><label for="option7">Richtig</label>
+								</div>
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option8" autocomplete="off"><label for="option8">Falsch</label>
+								</div>
+							</div>
 						</div>
-					.  <span class="tran"><br><small>리는 그릴도 하고 음악도 들었어.</small><br></span>Bis zum Abend hin haben wir 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-9">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> reden </h2>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>e)</strong> Es gab eine Party bei Alex.
+							<span class="tran"><br><small>translate</small></span>
 						</div>
-					, 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-10">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> tanzen </h2>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-5">
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option9" autocomplete="off"><label for="option9">Richtig</label>
+								</div>
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option10" autocomplete="off"><label for="option10">Falsch</label>
+								</div>
+							</div>
 						</div>
-					 und viel 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-11">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> lachen </h2>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>f)</strong> Carlos kommt aus Frankfurt.
+							<span class="tran"><br><small>translate</small></span>
 						</div>
-					.  <span class="tran"><br><small>저녁까지 이야기도 나누었고, 춤도 추고 많이 웃었어.</small><br></span>Als Geburtstagsgeschenk habe ich von allen Konzertkarten für das nächste Xavier Naidoo Konzert für die erste Reihe bekommen. <span class="tran"><br><small>모든 친구들에게서 첫 번째 줄에서 관람할 수 있는  자비어 나이두 콘서트 표를 생일선물로 받았어.</small><br></span> Einfach genial!  <span class="tran"><br><small>진짜 기발한 선물이었어.</small><br></span>Sie sind spät gegen 11Uhr nach Hause 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-12">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> gehen </h2>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-6">
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option11" autocomplete="off"><label for="option11">Richtig</label>
+								</div>
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option12" autocomplete="off"><label for="option12">Falsch</label>
+								</div>
+							</div>
 						</div>
-					, nur Leoni ist bei mir 
-						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 100px;" id="lst-13">
-							<h2 class="btn btn-warning btn-xl ttl d-block"> bleiben </h2>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>g)</strong> Auf der Party wurde gegrillt und Musik gehört.
+							<span class="tran"><br><small>translate</small></span>
 						</div>
-					 und hat übernachtet.  <span class="tran"><br><small>친구들은 (저녁) 11시경에 집으로 돌아갔고 레오니만 우리집에 머물면서 잠을 잤어.</small><br></span>Diesen Tag vergesse ich ganz bestimmt nicht so schnell.  <span class="tran"><br><small>나는 이날을 그렇게 빨리 잊지 않을 것 같아.</small><br></span>Wie war denn dein letzter Geburtstag? <span class="tran"><br><small>너의 최근 생일파티는 어땠어?</small><br></span> Erzähl doch mal!<span class="tran"><br><small>이야기 좀 해주렴!</small><br></span>				</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-7">
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option13" autocomplete="off"><label for="option13">Richtig</label>
+								</div>
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option14" autocomplete="off"><label for="option14">Falsch</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>h)</strong> Silvia hat als Geburtstagsgeschenk Konzertkarten bekommen.
+							<span class="tran"><br><small>translate</small></span>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-8">
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option15" autocomplete="off"><label for="option15">Richtig</label>
+								</div>
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option16" autocomplete="off"><label for="option16">Falsch</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>i)</strong> Leonie hat bei Silvia übernachtet.
+							<span class="tran"><br><small>translate</small></span>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-9">
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option17" autocomplete="off"><label for="option17">Richtig</label>
+								</div>
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option18" autocomplete="off"><label for="option18">Falsch</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
+					<div class="row">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle"><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>j)</strong> Der Geburtstag war eine Katastrophe.
+							<span class="tran"><br><small>translate</small></span>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+							<div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" id="qst-10">
+								<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+								<input type="radio" name="options" id="option19" autocomplete="off"><label for="option19">Richtig</label>
+								</div>
+								<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+								<input type="radio" name="options" id="option20" autocomplete="off"><label for="option20">Falsch</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->
 			<div class="row">
@@ -169,20 +228,17 @@
 				sounds : [ {
 					name : "r9 D4",
 					sprite : {
-						"0": [1.9, 109.27],
-						"1": [68.83, .592],
-						"2": [77.685, .648],
-						"3": [79.728, .629],
-						"4": [33.025, .558],
-						"5": [99.729, .705],
-						"6": [21.94, .95],
-						"7": [72.706, .691],
-						"8": [97.322, .605],
-						"9": [36.463, .59],
-						"10": [78.536, .666],
-						"11": [66.225, .561],
-						"12": [24.037, .801],
-						"13": [74.466, .482]
+						"0": [,],
+						"1": [,],
+						"2": [,],
+						"3": [,],
+						"4": [,],
+						"5": [,],
+						"6": [,],
+						"7": [,],
+						"8": [,],
+						"9": [,],
+						"10": [,]
 					}
 				}
 				, {
@@ -263,23 +319,90 @@
 						;
 					}
 					);
-					// 정답확인
-					$("#chk").on("click", function() {
+
+				$(".o").on("click", function() {
+					ion.sound.play("dingdongdang");
+				}
+				);
+				$(".x").on("click", function() {
+					ion.sound.play("Cartoon_Boing");
+				}
+				);
+
+				$("[data-toggle='popover']").popover( {
+					delay : {
+						'hide': 1000
+					}
+					,
+					container : "body"
+				}
+				);
+				$(".pop").click(function () {
+					// 가장 먼저 지문에 'an' 넣기
+					if ( !$(this).siblings().hasClass("an")) {
+						$(this).addClass("an");
+						$(this).addClass("btn-warning");
+						$(this).parent().children().removeClass("btn-light");
+					}
+					;
+					// 문제 풀이 정도 업데이트
+					var perc=Math.round(($(".an").length / $(".q").length) * 100);
+					$(".progress>.bar").attr("width", perc + "%;");
+				}
+				);
+				// 팝업 내용 사라지기
+				$(".pop").popover().click(function() {
+					setTimeout(function() {
+						$(".pop").popover('hide');
+					}
+					, 500);
+				}
+				);
+
+				// 정답확인
+				$("#chk").on("click", function() {
+					if ($(".an").length < $(".q").length) {
 						var na="";
-						if($("#itms").find("button").length < 1) {
-							$(".tran").show();
+						$(".q").each(function() {
+							if ( !$(this).find("div").hasClass("an")) {
+								if (na !="") {
+									na +=", ";
+								}
+								na +=$(this).attr("id").substr(4);
+							}
+							;
+						}
+						);
+						alert("모든 문제를 풀어주세요.");
+						// alert(na + "번 문제를 풀어주세요.");
+					}
+					else {
+						$(".tran").show();
+						$(".pop").each(function() {
+							$(this).removeClass("btn-info");
+							if ($(this).hasClass("o") && $(this).hasClass("an")) {
+								$(this).removeClass("btn-warning");
+								$(this).addClass("btn-success");
+							}
+							else if ($(this).hasClass("o")) {
+								$(this).addClass("btn-warning font-weight-bold");
+							}
+							else if ($(this).hasClass("an")) {
+								$(this).addClass("btn-danger");
+							}
+							else {
+								$(this).addClass("btn-light");
+							}
+							;
+						}
+						);
+						$(this).removeClass("btn-light ");
 
 						// 정답 확인 div 상자 배경색 속성 없애기
 						$(this).removeClass("btn-light ");
 
-						$(".itm-lst").each(function() {
-							if($(this).find(".btn")) {
-								$(this).find(".btn").addClass("font-weight-bold text-success");
-							}
-						});
-
-						var qa = $(".itm-lst").length; // 전체 문항 수
-						var qr = $(".text-success").length; // 맞춘 항목 수
+						var qa = $(".q").length; // 전체 문항 수
+						var qr = $(".btn-success").length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색
 
@@ -301,25 +424,11 @@
 
 						$(this).addClass("btn-" + cl + " text-" + tcl);
 						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
-							$(".btn-lg").text().appendTo($(this).closest("td"));
-							$(".btn-lg").remove();
-						}
-						else {
-							$("div.itm-lst").each(function(idx) {
-								if( !$(this).find("button").length) {
-									if(na !="") {
-										na +=", ";
-									}
-									na +=(idx+1);
-								}
-							}
-							);
-							alert("모든 문제를 풀어주세요!");
-							// alert(na+"번 문제를 풀어주세요!");
-						}
 					}
-					);
+					;
+				}
+				);
+
 					$("#0").show();
 					$(".alert").hide();
 

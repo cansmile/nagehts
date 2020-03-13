@@ -151,7 +151,7 @@
 							$("#"+obj.part).html("▶");
 						}
 						if(hm[hmn] > 1) {
-							$("#"+hmn).closest("table").find(".tran").show();
+							$("#"+hmn).closest("tr").find(".tran").show();
 						}
 					}
 				}

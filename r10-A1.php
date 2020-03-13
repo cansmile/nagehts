@@ -66,7 +66,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-9 text-center"><img src="./images/Reihe 10/Reihe-10-A1-1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-9 text-center"><img src="./images/Reihe 10/Reihe-10-A1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
 					<table class="table border-0">
 						<tbody>

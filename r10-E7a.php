@@ -81,7 +81,7 @@
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
 											▼ </h2>
 										</div>
-										die Bushaltestelle.
+										Seite die Bushaltestelle.
 										<span class="tran"><br><small>그리고 나면 바로 왼쪽에 버스정류장이 보일거야.</small><br></span></td>
 								</tr>
 								<tr>

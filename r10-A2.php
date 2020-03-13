@@ -56,7 +56,7 @@
 					</div>
 				</div>
 				<div class="row">
-				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-9 text-center"><img src="./images/Reihe 10/Reihe-10-A1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-9 text-center"><img src="./images/Reihe 10/Reihe-10-A3-1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></div>
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
 					<table class="table">
 						<thead>
@@ -159,7 +159,7 @@
 					<div class="col-sm-6 col-md-4 col-lg-3 my-2">
 						<div class="itm-lst 1itm" id="lst-12">
 							<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-							▼ </h2>&nbsp;in der der Diskothek<span class="tran"><br><small>디스코텍에</small></span>
+							▼ </h2>&nbsp;in der Diskothek<span class="tran"><br><small>디스코텍에</small></span>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-3 my-2">
@@ -506,7 +506,7 @@
 					sounds : [ {
 						name : "r10 A2-1 Wo sind die Leute",
 						sprite : {
-							"0": [15.490, 10.534],
+							"0": [1.019, 157.705],
 							"10": [15.490, 4.719],
 							"11": [20.626, 1.559],
 							"12": [22.359, 1.516],

@@ -49,7 +49,7 @@
 								<td class="border-0" style="line-height: 250%;">
 
 									<div class="input-group">
-										Mein Vater Hans Holm ist Pfarrer von Beruf. Er fährt <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-3"> dem fahrrad 
+										Mein Vater Hans Holm ist Pfarrer von Beruf. Er fährt <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-3"> dem Fahrrad 
 									<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-4">
 										Pfarramt.
 									</div>

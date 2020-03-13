@@ -310,13 +310,21 @@ if(!$ds) {
 						echo(" - ".substr($da, 0, $subttl)."······\n");
 					} else {
 						if(substr($da, 1, 2) == "GR") {
-							echo(" - ".substr($da, 1, 2)."\n");
+							$la = substr($da, 1, 2);
 						} else if($da == "Uebungen") {
-							echo(" - Übungen\n");
+							$la = "Übungen";
 						} else {
-							echo(" - ".$da."\n");
+							$la = $da;
 						}
 					}
+
+					for($c = 97; $c < 123; $c++) {
+						if(substr($la,-1) == chr($c)) {
+							$la = substr($la,0,(strlen($la) - 1))."<small class=\"p-0 m-0\">-".($c - 96)."</small>";
+						}
+					}
+
+					echo(" - ".$la."\n");
 				}
 			}
 			echo("</div>\n");

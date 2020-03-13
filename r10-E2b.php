@@ -81,7 +81,7 @@
 									<td class="border-0">
 										<div class="itm-lst 1itm" id="lst-2">
 											legt den Teddybär&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;Bett.Bett.<span class="tran"><br><small>테디베어를 침대에 놓습니다.</small></span>
+											▼ </h2>&nbsp;Bett.<span class="tran"><br><small>테디베어를 침대에 놓습니다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -156,7 +156,7 @@
 									<td class="border-0">
 										<div class="itm-lst 1itm" id="lst-7">
 											bringt den Spatz&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;den Käfig.<span class="tran"><br><small>참새를 새장에 다시 넣습니다.</small></span>
+											▼ </h2>&nbsp;Käfig.<span class="tran"><br><small>참새를 새장에 다시 넣습니다.</small></span>
 										</div>
 									</td>
 								</tr>

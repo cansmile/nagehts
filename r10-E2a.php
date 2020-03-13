@@ -81,7 +81,7 @@
 									<td class="border-0">
 										<div class="itm-lst 1itm" id="lst-2">
 											Der Teddybär sitzt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;dem Bett.<span class="tran"><br><small>테디베어는 침대 위에 있습니다.</small></span>
+											▼ </h2>&nbsp;Bett.<span class="tran"><br><small>테디베어는 침대 위에 있습니다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -96,7 +96,7 @@
 									<td class="border-0">
 										<div class="itm-lst 1itm" id="lst-3">
 											Die Kaffeetasse ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;dem Computer.<span class="tran"><br><small>커피잔은 컴퓨터 옆에 있습니다.</small></span>
+											▼ </h2>&nbsp;Computer.<span class="tran"><br><small>커피잔은 컴퓨터 옆에 있습니다.</small></span>
 										</div>
 									</td>
 								</tr>
@@ -216,7 +216,7 @@
 									<td class="border-0">
 										<div class="itm-lst 1itm" id="lst-10">
 											Das Schmierpapier liegt&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
-											▼ </h2>&nbsp;dem Teppich.<span class="tran"><br><small>이면지는 카페트 위에 있습니다.</small></span>
+											▼ </h2>&nbsp;Teppich.<span class="tran"><br><small>이면지는 카페트 위에 있습니다.</small></span>
 										</div>
 									</td>
 								</tr>

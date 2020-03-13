@@ -33,7 +33,7 @@
 			</div>
  			<div class="row">
 				<div class="col-1 text-center align-middle">
-					<button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+					<button type="button" id="1" class="so btn btn-outline-dark btn-sm m-1">▶</button>
 					<span class="border border-dark bg-secondary text-white rounded p-1 px-2 m-1">1</span>
 				</div>
 				<div class="col-11" style="line-height: 250%;">
@@ -43,7 +43,7 @@
 					<span class="tran"><small>율리아는 이번 주말에 출장으로 뮌헨에 있다. 마틴은 조금 슬프다: 율리아는 마틴이 그립다. 그녀는 하루 종일 그를 생각한다.</small><br></span>
 				</div>
 				<div class="col-1 text-center align-middle">
-					<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+					<button type="button" id="2" class="so btn btn-outline-dark btn-sm m-1">▶</button>
 					<span class="border border-dark bg-secondary text-white rounded p-1 px-2 m-1">2</span>
 				</div>
 				<div class="col-11" style="line-height: 250%;">
@@ -53,7 +53,7 @@
 					<span class="tran"><small>나는 나의 아기를 목욕시킨다. 나의 남편은 나의 곁에서 나를 도와준다.</small><br></span>
 				</div>
 				<div class="col-1 text-center align-middle">
-					<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+					<button type="button" id="3" class="so btn btn-outline-dark btn-sm m-1">▶</button>
 					<span class="border border-dark bg-secondary text-white rounded p-1 px-2 m-1">3</span>
 				</div>
 				<div class="col-11" style="line-height: 250%;">

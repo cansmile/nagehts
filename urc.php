@@ -43,7 +43,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 			// print_r("<br>".$r."<br>");
 			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
 				echo("맞다");
-				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;} ' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `wp_usermeta`.`meta_key` = '".$hdr."_capabilities';";
+				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
 				echo("<br>".$q."<br>");
 			} else {

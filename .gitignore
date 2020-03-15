@@ -24,3 +24,6 @@ xmlrpc.php
 *.html
 *.xmp
 *.sublime-workspace
+/sftp-config.json
+/.gitignore
+/sftp-config.json

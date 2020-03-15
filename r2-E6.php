@@ -206,18 +206,13 @@
 		var na="";
 		if($("#itms").find("button").length < 1) {
 			$(".tran").show();
-			$(".itm-lst").each(function() {
-			$(this).html($(this).find("button").html());
-				// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
-			}
-			);
-
 
 			// 정답 확인 div 상자 배경색 속성 없애기
 			$(this).removeClass("btn-light ");
+			$(".itm-lst>button").addClass("text-success font-weight-bold");
 
 			var qa = $(".itm-lst").length; // 전체 문항 수
-			var qr = $(".itm-lst>.tran").length; // 맞춘 항목 수
+			var qr = $(".text-success").length; // 맞춘 항목 수
 			var pe = (qr / qa) * 100; // 정답 비율
 			var tcl = "white"; // 기본 문자색
 

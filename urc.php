@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="kr">
 <head>
 	<title>학생들이 어떻게 됐냐?</title>
@@ -9,7 +9,7 @@
 </head>
 <body>
 <section>
-	<div class="container">
+	<div class="container"> -->
 <?php 
 if($_SERVER["HTTP_HOST"] == "127.0.0.1") {
 	$hdr = "wp";
@@ -22,7 +22,7 @@ if($_SERVER["HTTP_HOST"] == "127.0.0.1") {
 }
 $link = mysqli_connect('localhost', 'root', 'qudwnWkd321!@#');
 if (!$link) { die('연결에 실패했습니다: ' . mysqli_error());}
-echo 'MySQL 서버에 정상적으로 연결되었습니다.';
+// echo 'MySQL 서버에 정상적으로 연결되었습니다.';
 
 
 
@@ -32,7 +32,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 	$qr = mysqli_query($link, $q);
 	if($qr!=false) {
 		$r = mysqli_fetch_array($qr);
-		print_r("<br>".$em[$i]." = ".$r[0]);
+		// print_r("<br>".$em[$i]." = ".$r[0]);
 		$uid = $r[0];
 		$q = "SELECT `meta_value` FROM `".$hdr."_usermeta` WHERE `user_id` = ".$uid." AND `meta_key` = '".$hdr."_capabilities'";
 		// echo($q."<br>");
@@ -42,7 +42,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 			// echo("<br>역할: ".$r[0]."<br>");
 			// print_r("<br>".$r."<br>");
 			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
-				echo("맞다");
+				// echo("맞다");
 				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
 				// echo("<br>".$q."<br>");

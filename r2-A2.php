@@ -329,18 +329,13 @@
 					$("#chk").on("click", function() {
 						var na="";
 						if( !$("#itms").find("button").length) {
-							$("span.nu").each(function () {
-								$(this).text($.trim($(this).closest("tr").find(".itm-lst").text()));
-								$(this).removeClass("btn btn-outline-dark btn-sm nu");
-								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
-							}
-							);
 
 							// 정답 확인 div 상자 배경색 속성 없애기
 							$(this).removeClass("btn-light ");
+							$(".itm-lst>button").addClass("text-success font-weight-bold");
 
 							var qa = $(".itm-lst").length; // 전체 문항 수
-							var qr = $(".bg-success").length; // 맞춘 항목 수
+							var qr = $(".text-success").length; // 맞춘 항목 수
 							var pe = (qr / qa) * 100; // 정답 비율
 							var tcl = "white"; // 기본 문자색
 

@@ -14,7 +14,7 @@
 if($_SERVER["HTTP_HOST"] == "127.0.0.1") {
 	$hdr = "wp";
 	$dbn = "bitnami_wordpress";
-	$em = array("cansmile@gmail.com");
+	$em = array("cansmile@gmail.com","Saundra.Glover@kocurek.silkwomenshirts.com");
 } else {
 	$hdr = "nagehts";
 	$dbn = "wordpress";
@@ -30,21 +30,27 @@ mysqli_select_db($link, $dbn);
 for($i = 0; $i < sizeof($em); $i++) {
 	$q = "SELECT * FROM `".$hdr."_users` WHERE `user_email` LIKE '".$em[$i]."' ORDER BY `ID` ASC";
 	$qr = mysqli_query($link, $q);
-	$r = mysqli_fetch_array($qr);
-	print_r($em[$i]." = ".$r[0]."<br>");
-	$uid = $r[0];
-	$q = "SELECT `meta_value` FROM `".$hdr."_usermeta` WHERE `user_id` = ".$uid." AND `meta_key` = '".$hdr."_capabilities'";
-	echo($q."<br>");
-	$qr = mysqli_query($link, $q);
-	$r = mysqli_fetch_array($qr); 
-	print_r($r);
-	if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
-		echo("맞다");
-	} else {
-		echo("아냐");		
+	if($qr!=false) {
+		$r = mysqli_fetch_array($qr);
+		print_r("<br>".$em[$i]." = ".$r[0]."<br>");
+		$uid = $r[0];
+		$q = "SELECT `meta_value` FROM `".$hdr."_usermeta` WHERE `user_id` = ".$uid." AND `meta_key` = '".$hdr."_capabilities'";
+		echo($q."<br>");
+		$qr = mysqli_query($link, $q);
+		if($qr!=false) {
+			$r = mysqli_fetch_array($qr); 
+			echo("<br>역할: ".$r[0]."<br>");
+			// print_r("<br>".$r."<br>");
+			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
+				echo("맞다");
+				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;} ' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `wp_usermeta`.`meta_key` = '".$hdr."_capabilities';";
+				$qr = mysqli_query($link, $q);
+				echo("<br>".$q."<br>");
+			} else {
+				echo("아냐");		
+			}
+		}
+		echo("<br>");
 	}
-	echo("<br>");
-		$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;} ' WHERE `".$hdr."_usermeta`.`umeta_id` = ".$uid.";";
-		echo($q);
 }
  ?>

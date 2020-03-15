@@ -6,7 +6,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="1">
 					a. In Daejeon.<span class="tran"><br>&nbsp;<small>대전에서.</small></span>
@@ -185,18 +185,13 @@
 		var na="";
 		if($("#itms").find("button").length < 1) {
 			$(".tran").show();
-			$(".itm-lst").each(function() {
-			$(this).html($(this).find("button").html());
-				// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
-			}
-			);
-
 
 			// 정답 확인 div 상자 배경색 속성 없애기
 			$(this).removeClass("btn-light ");
+			$(".itm-lst>button").addClass("text-success font-weight-bold");
 
 			var qa = $(".itm-lst").length; // 전체 문항 수
-			var qr = $(".itm-lst>.tran").length; // 맞춘 항목 수
+			var qr = $(".text-success").length; // 맞춘 항목 수
 			var pe = (qr / qa) * 100; // 정답 비율
 			var tcl = "white"; // 기본 문자색
 

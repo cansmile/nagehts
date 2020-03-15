@@ -22,8 +22,8 @@ if($_SERVER["HTTP_HOST"] == "127.0.0.1") {
 }
 $link = mysqli_connect('localhost', 'root', 'qudwnWkd321!@#');
 if (!$link) { die('연결에 실패했습니다: ' . mysqli_error());}
+echo(date("Y-m-d H:i:s", time())."\n");
 // echo 'MySQL 서버에 정상적으로 연결되었습니다.';
-
 
 
 mysqli_select_db($link, $dbn);
@@ -42,7 +42,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 			// echo("<br>역할: ".$r[0]."<br>");
 			// print_r("<br>".$r."<br>");
 			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
-				// echo("맞다");
+				echo("맞다(".$em[i].")");
 				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
 				// echo("<br>".$q."<br>");

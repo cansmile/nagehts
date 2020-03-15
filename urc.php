@@ -32,25 +32,25 @@ for($i = 0; $i < sizeof($em); $i++) {
 	$qr = mysqli_query($link, $q);
 	if($qr!=false) {
 		$r = mysqli_fetch_array($qr);
-		print_r("<br>".$em[$i]." = ".$r[0]."<br>");
+		print_r("<br>".$em[$i]." = ".$r[0]);
 		$uid = $r[0];
 		$q = "SELECT `meta_value` FROM `".$hdr."_usermeta` WHERE `user_id` = ".$uid." AND `meta_key` = '".$hdr."_capabilities'";
-		echo($q."<br>");
+		// echo($q."<br>");
 		$qr = mysqli_query($link, $q);
 		if($qr!=false) {
 			$r = mysqli_fetch_array($qr); 
-			echo("<br>역할: ".$r[0]."<br>");
+			// echo("<br>역할: ".$r[0]."<br>");
 			// print_r("<br>".$r."<br>");
 			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
 				echo("맞다");
 				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
-				echo("<br>".$q."<br>");
+				// echo("<br>".$q."<br>");
 			} else {
-				echo("아냐");		
+				// echo("아냐");		
 			}
 		}
-		echo("<br>");
+		// echo("<br>");
 	}
 }
  ?>

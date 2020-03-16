@@ -71,26 +71,26 @@
 								<tr>
 								<td class="border-0"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button></td>
 									<td class="border-0" style="line-height: 250%;">
-										Die Frauenkirche?<span class="tran"><br><small>프라우엔교회요?</small><br></span> Die ist in der Luther Straße.<span class="tran"><br><small>루터슈트라세에 있어요.</small><br></span> Sie gehen hier die <div class="itm-lst 1itm d-inline-block" id="lst-1">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										Die Frauenkirche?<span class="tran"><br><small>프라우엔교회요?</small><br></span> Die ist in der Luther Straße.<span class="tran"><br><small>루터슈트라세에 있어요.</small><br></span> Sie gehen hier die <div class="itm-lst 1itm d-inline-block mx-1" id="lst-1">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px;">
 										▼ </h2>
-										</div> geradeaus entlang und biegen leicht nach <div class="itm-lst 1itm d-inline-block" id="lst-2">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div> geradeaus entlang und biegen leicht nach <div class="itm-lst 1itm d-inline-block mx-1" id="lst-2">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px;">
 										▼ </h2>
-										</div>.<span class="tran"><br><small>여기서 하우프트슈트라세를 따라 곧장 가다가 왼쪽으로 조금만 가세요.</small><br></span> Die erste Straße biegen Sie sofort nach <div class="itm-lst 1itm d-inline-block" id="lst-3">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div>.<span class="tran"><br><small>여기서 하우프트슈트라세를 따라 곧장 가다가 왼쪽으로 조금만 가세요.</small><br></span> Die erste Straße biegen Sie sofort nach <div class="itm-lst 1itm d-inline-block mx-1" id="lst-3">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px;">
 										▼ </h2>
-										</div> in den <div class="itm-lst 1itm d-inline-block" id="lst-4">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div> in den <div class="itm-lst 1itm d-inline-block mx-1" id="lst-4">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px;">
 										▼ </h2>
-										</div>.<span class="tran"><br><small>첫번째 길에서 바로 오른쪽 키르헨슈트라세로 가세요.</small><br></span> Am Ende des Weges biegen Sie nach <div class="itm-lst 1itm d-inline-block" id="lst-2">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div>.<span class="tran"><br><small>첫번째 길에서 바로 오른쪽 키르헨슈트라세로 가세요.</small><br></span> Am Ende des Weges biegen Sie nach <div class="itm-lst 1itm d-inline-block mx-1" id="lst-2">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px;">
 										▼ </h2>
-										</div> in die <div class="itm-lst 1itm d-inline-block" id="lst-5">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div> in die <div class="itm-lst 1itm d-inline-block mx-1" id="lst-5">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px;">
 										▼ </h2>
-										</div>.<span class="tran"><br><small>그 길 끝에서 왼쪽 라이프치거슈트라세로 가세요.</small><br></span> Auf der <div class="itm-lst 1itm d-inline-block" id="lst-6">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div>.<span class="tran"><br><small>그 길 끝에서 왼쪽 라이프치거슈트라세로 가세요.</small><br></span> Auf der <div class="itm-lst 1itm d-inline-block mx-1" id="lst-6">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px;">
 										▼ </h2>
 										</div> Seite sehen Sie dann schon die Frauenkirche.<span class="tran"><br><small>그러면 오른편에 바로 프라우엔교회가 보일 거예요.</small><br></span>
 									</td>

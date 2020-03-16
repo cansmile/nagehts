@@ -1056,7 +1056,7 @@ function rfchk(th,io) {
 						$(this).removeClass("btn-light ");
 
 						var qa = $(".q").length + $(".qt").length; // 전체 문항 수
-						var qr = $(".bg-success").length + $(".btn-success").length-pan.length; // 맞춘 항목 수
+						var qr = $(".bg-success").length + $(".btn-success").length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색
 
@@ -1077,7 +1077,7 @@ function rfchk(th,io) {
 						}
 
 						$(this).addClass("btn-" + cl + " text-" + tcl);
-						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "<br><small>(미리 채워진 문항은 문제와 정답 갯수에 포함되지 않습니다)</small></h4>");
+						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st);
 
 					} else if(na != "" && da == "") {
 						alert(na+"번 문제를 입력하세요!");
@@ -1098,7 +1098,6 @@ function rfchk(th,io) {
 				var pann2="#qst-"+pan[p];
 					$(pann1).val(an[(pan[p]-1)]);
 					$(pann1).addClass("bg-success text-white font-weight-bold");
-					$(pann1).removeClass("qt");
 					$(pann1).prop("disabled", true);
 					$(pann2).show();
 				// $(pann).closest("tr").find(".tran").show();

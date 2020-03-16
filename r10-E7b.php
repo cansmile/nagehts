@@ -92,23 +92,23 @@
 								<tr>
 								<td class="border-0"><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button></td>
 									<td class="border-0" style="line-height: 250%;">
-										Nein. Gehen Sie hier den <div class="itm-lst 1itm d-inline-block" id="lst-1">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										Nein. Gehen Sie hier den <div class="itm-lst 1itm d-inline-block mx-1" id="lst-1">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px">
 										▼ </h2>
-										</div> geradeaus.<span class="tran"><br><small>아니요, 여기서 키르헨벡을 따라 똑바로 가세요.</small><br></span> Am Ende des Weges biegen Sie nach <div class="itm-lst 1itm d-inline-block" id="lst-2">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div> geradeaus.<span class="tran"><br><small>아니요, 여기서 키르헨벡을 따라 똑바로 가세요.</small><br></span> Am Ende des Weges biegen Sie nach <div class="itm-lst 1itm d-inline-block mx-1" id="lst-2">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px">
 										▼ </h2>
-										</div> in die <div class="itm-lst 1itm d-inline-block" id="lst-3">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div> in die <div class="itm-lst 1itm d-inline-block mx-1" id="lst-3">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px">
 										▼ </h2>
-										</div>.<span class="tran"><br><small>그길 끝에서 왼쪽으로 꺽어져 프라거슈트라세로 가세요.</small><br></span> Die zweite Straße gehen Sie nach <div class="itm-lst 1itm d-inline-block" id="lst-4">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div>.<span class="tran"><br><small>그길 끝에서 왼쪽으로 꺽어져 프라거슈트라세로 가세요.</small><br></span> Die zweite Straße gehen Sie nach <div class="itm-lst 1itm d-inline-block mx-1" id="lst-4">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px">
 										▼ </h2>
-										</div> in die<div class="itm-lst 1itm d-inline-block" id="lst-5">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div> in die<div class="itm-lst 1itm d-inline-block mx-1" id="lst-5">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px">
 										▼ </h2>
-										</div>.<span class="tran"><br><small>두번째 길에서 오른쪽 베를리너슈트라세로 가세요.</small><br></span> Dann sehen Sie schon auf der rechten Seite das Theater, neben dem <div class="itm-lst 1itm d-inline-block" id="lst-6">
-										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+										</div>.<span class="tran"><br><small>두번째 길에서 오른쪽 베를리너슈트라세로 가세요.</small><br></span> Dann sehen Sie schon auf der rechten Seite das Theater, neben dem <div class="itm-lst 1itm d-inline-block mx-1" id="lst-6">
+										<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 90px; max-width: 190px">
 										▼ </h2>
 										</div>.<span class="tran"><br><small>그러면 바로 오른 편에 극장이 보일 거예요. 시립박물관 옆에요.</small><br></span>
 									</td>

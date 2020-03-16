@@ -285,7 +285,7 @@ function rfchk(th,io) {
 									}
 
 								}
-								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+								if($("#qst-"+(i+1)).hasClass("bg-success font-weight-bold")) {
 									ri++;
 								}
 							}

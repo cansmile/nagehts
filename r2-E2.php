@@ -52,10 +52,10 @@
 										<div class="ant" id="ant-0"></div>
 										<div class="input-group">
 											<strong>z.B. Namdeamun Tor:</strong>&nbsp;
-											Wo ist <input type="text" value="das" aria-label="Antwort" aria-describedby="basic-addon1" class="q form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;"> Namdaemun Tor?
-											<input type="text" value="Es" aria-label="Antwort" aria-describedby="basic-addon2" class="q form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">ist in Seoul
-											<input type="text" value="Korea" aria-label="Antwort" aria-describedby="basic-addon3" class="q form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">.
-											Korea ist in <input type="text" value="Asien" aria-label="Antwort" aria-describedby="basic-addon4" class="q form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">.
+											Wo ist <input type="text" value="das" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;"> Namdaemun Tor?
+											<input type="text" value="Es" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">ist in Seoul
+											<input type="text" value="Korea" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">.
+											Korea ist in <input type="text" value="Asien" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control border-left-0 border-top-0 border-right-0 rounded-0 mx-1 bg-success text-white font-weight-bold text-center" disabled="true" style="position: relative; top: -6px; min-width: 50px; max-width: 80px;">.
 											
 										</div>
 										<span class="tran"><br> <small class="text-dark">남대문은 어디에 있나요? 그것은 한국, 서울에 있습니다. 한국은 아시아 대륙에 있습니다.</small></span></span>
@@ -389,7 +389,7 @@ function rfchk(th,io) {
 							$(this).removeClass("btn-light ");
 
 							var qa = $(".q").length; // 전체 문항 수
-							var qr = $(".bg-success").length; // 맞춘 항목 수
+							var qr = $(".q.bg-success").length; // 맞춘 항목 수
 							var pe = (qr / qa) * 100; // 정답 비율
 							var tcl = "white"; // 기본 문자색
 

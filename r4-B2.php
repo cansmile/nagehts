@@ -116,7 +116,7 @@
 							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
 						$(".tran").show();
-if($(this).hasClass("ans"+ (a))) {
+						if($(this).hasClass("ans"+ (a))) {
 							$(this).addClass("text-success font-weight-bold");
 						}
 						else {

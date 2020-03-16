@@ -58,21 +58,21 @@
 						<tbody>
 							<tr>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>팀은<br></small></span><span class="sen">Tim bestellt</span></h2>
 									</div>
 									<div id="ans-1"></div>
 									<div id="tra-1"></div>
 								</td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>프레디는<br></small></span><span class="sen">Fredi bestellt</span></h2>
 									</div>
 									<div id="ans-2"></div>
 									<div id="tra-2"></div>
 								</td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block"><span class="tran"><small>안나는<br></small></span><span class="sen">Anna bestellt</span></h2>
 									</div>
 									<div id="ans-3"></div>

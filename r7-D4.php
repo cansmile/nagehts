@@ -213,7 +213,7 @@
 
 				$(".itm-lst").each(function() {
 					if($(this).find(".btn")) {
-						$(this).find(".btn").addClass("text-success");
+						$(this).find(".btn").addClass("text-success font-weight-bold");
 					}
 				});
 
@@ -269,7 +269,7 @@
 						$("#" + $(this).attr("id")).addClass("btn-block");
 						$("#" + $(this).attr("id")).addClass("btn-light");
 						$("#lst-" + pan[p] + ">h2").remove();
-						$("#lst-" + pan[p]).parent().find(".tran").show();
+						// $("#lst-" + pan[p]).parent().find(".tran").show();
 					}
 				})
 			}

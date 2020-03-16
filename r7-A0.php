@@ -427,7 +427,7 @@
 						$(this).removeClass("btn-light ");
 
 						$(".itm-lst").each(function() {
-							$(this).find(".so").addClass("okay");
+							$(this).find(".so").addClass("okay text-success font-weight-bold");
 						});
 
 						var qa = $(".itm-lst>.so").length; // 전체 문항 수

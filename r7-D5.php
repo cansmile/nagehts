@@ -313,7 +313,7 @@
 						$("#lst-1").removeClass("itm-lst");	// bsp 제외
 						$(".itm-lst").each(function() {
 							if($(this).find(".btn")) {
-								$(this).find(".btn").addClass("text-success");
+								$(this).find(".btn").addClass("text-success font-weight-bold");
 							}
 						});
 
@@ -360,7 +360,6 @@
 					var pan = new Array();
 					// pan = ["1","2","3","4","5","6","7","8","9","10"];
 					pan = [1,2];
-					// pan = [1,2];
 					var il = $("#itms>.itm").length;
 					for(var p = 0; p < pan.length; p++) {
 					var pani = "#lst-" + pan[p];
@@ -368,7 +367,6 @@
 							if($(this).hasClass("ans" + pan[p])) {
 								$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
 								$("#" + $(this).attr("id")).addClass("btn-block font-weight-bold");
-								$("#" + $(this).attr("id")).addClass("border-0");
 								$("#lst-" + pan[p] + ">h2").remove();
 								// $("#lst-" + pan[p]).parent().find(".tran").show();
 							}

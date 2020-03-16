@@ -307,7 +307,7 @@ function rfchk(th,io) {
 									}
 
 								}
-								if($("#qst-"+(i+1)).hasClass("bg-success")) {
+								if($("#qst-"+(i+1)).hasClass("bg-success font-weight-bold")) {
 									ri++;
 								}
 							}
@@ -316,7 +316,7 @@ function rfchk(th,io) {
 								// 정답 확인 div 상자 배경색 속성 없애기
 								$(this).removeClass("btn-light ");
 
-							var qa = $(".q").length; // 전체 문항 수
+								var qa = $(".q").length; // 전체 문항 수
 								var qr = $(".bg-success").length; // 맞춘 항목 수
 								var pe = (qr / qa) * 100; // 정답 비율
 								var tcl = "white"; // 기본 문자색

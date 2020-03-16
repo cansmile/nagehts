@@ -248,12 +248,12 @@
 						$(this).removeClass("btn-light ");
 
 						$(".itm-lst").each(function() {
-							if($(this).find(".btn")) {
-								$(this).find(".btn").addClass("text-success");
+							if($(this).find(".itm")) {
+								$(this).find(".itm").addClass("text-success font-weight-bold");
 							}
 						});
 
-						var qa = $(".itm-lst").length; // 전체 문항 수
+						var qa = $(".itm").length; // 전체 문항 수
 						var qr = $(".text-success").length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색
@@ -302,7 +302,7 @@
 
 					var pan = new Array(), pann;
 					// pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
-					pan = [1,2,4,5,7,8,9,10,13,14,15,18,19,20,22,23,27,28,30,31,33,34,35,37,38,39,42,45,48,50,51,53,54,];
+					pan = [1,2,4,5,7,8,9,10,13,14,15,18,19,20,22,23,27,28,30,31,33,34,35,37,38,39,42,45,48,50,51,53,54];
 					for(var p = 0; p < pan.length; p++) {
 						pann = "#"+pan[p];
 						for(var i = 0; i < $(".itm-lst").length; i++) {

@@ -5,37 +5,6 @@
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
-	<!-- 보기시작 -->
-	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
-		<div class="container">
-			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
-				<div class="col-12" id="itms">
-					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="1">
-					das Apartment (das Hochhaus)<span class="tran"><br><small>아파트</small></span>
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="2">
-					das Einfamilienhaus<span class="tran"><br><small>단독주택</small></span>
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="3">
-					das Reihenhaus<span class="tran"><br><small>연립주택</small></span>
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="4">
-					der Bauernhof<span class="tran"><br><small>전원주택</small></span>
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="5">
-					das Studentenwohnheim<span class="tran"><br><small>기숙사</small></span>
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
-					das Ökohaus<span class="tran"><br><small>에코하우스</small></span>
-					</button>
-					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
-					das Schloss<span class="tran"><br><small>성</small></span>
-					</button>
-				</div>
-			</div>
-		</div>
-	</section>
 <!-- 왼쪽 열과 오른쪽 열을 배열에 넣고 한 부분이라도 정답으로 인정되면 나머지 항목에 자동으로 정답을 입력할 수 있도록 변경 -->
 		<section>
 			<div class="container">
@@ -71,10 +40,7 @@
 										</tr>
 										<tr>
 											<td class="border-0 align-middle">
-												<div class="itm-lst 1itm" id="lst-1">
-													<h2 class="btn btn-warning btn-xl ttl d-block">
-													▼ </h2>
-												</div>
+												<div class="border border-dark rounded p-2 font-weight-bold">das Schloss<span class="tran"><br><small>성</small></span></div>
 											</td>
 										</tr>
 									</tbody>
@@ -91,10 +57,7 @@
 										</tr>
 										<tr>
 											<td class="border-0 align-middle">
-												<div class="itm-lst 1itm" id="lst-2">
-													<h2 class="btn btn-warning btn-xl ttl d-block">
-													▼ </h2>
-												</div>
+												<div class="border border-dark rounded p-2 font-weight-bold">das Ökohaus<span class="tran"><br><small>에코하우스</small></span></div>
 											</td>
 										</tr>
 									</tbody>
@@ -111,10 +74,7 @@
 										</tr>
 										<tr>
 											<td class="border-0 align-middle">
-												<div class="itm-lst 1itm" id="lst-3">
-													<h2 class="btn btn-warning btn-xl ttl d-block">
-													▼ </h2>
-												</div>
+												<div class="border border-dark rounded p-2 font-weight-bold">das Apartment (das Hochhaus)<span class="tran"><br><small>아파트</small></span></div>
 											</td>
 										</tr>
 									</tbody>
@@ -131,10 +91,7 @@
 										</tr>
 										<tr>
 											<td class="border-0 align-middle">
-												<div class="itm-lst 1itm" id="lst-4">
-													<h2 class="btn btn-warning btn-xl ttl d-block">
-													▼ </h2>
-												</div>
+												<div class="border border-dark rounded p-2 font-weight-bold">das Einfamilienhaus<span class="tran"><br><small>단독주택</small></span></div>
 											</td>
 										</tr>
 									</tbody>
@@ -151,10 +108,7 @@
 										</tr>
 										<tr>
 											<td class="border-0 align-middle">
-												<div class="itm-lst 1itm" id="lst-5">
-													<h2 class="btn btn-warning btn-xl ttl d-block">
-													▼ </h2>
-												</div>
+												<div class="border border-dark rounded p-2 font-weight-bold">das Studentenwohnheim<span class="tran"><br><small>기숙사</small></span></div>
 											</td>
 										</tr>
 									</tbody>
@@ -171,10 +125,7 @@
 										</tr>
 										<tr>
 											<td class="border-0 align-middle">
-												<div class="itm-lst 1itm" id="lst-6">
-													<h2 class="btn btn-warning btn-xl ttl d-block">
-													▼ </h2>
-												</div>
+												<div class="border border-dark rounded p-2 font-weight-bold">das Reihenhaus<span class="tran"><br><small>연립주택</small></span></div>
 											</td>
 										</tr>
 									</tbody>
@@ -191,10 +142,7 @@
 										</tr>
 										<tr>
 											<td class="border-0 align-middle">
-												<div class="itm-lst 1itm" id="lst-7">
-													<h2 class="btn btn-warning btn-xl ttl d-block">
-													▼ </h2>
-												</div>
+												<div class="border border-dark rounded p-2 font-weight-bold">der Bauernhof<span class="tran"><br><small>전원주택</small></span></div>
 											</td>
 										</tr>
 									</tbody>
@@ -463,7 +411,6 @@
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
-			$("#chk").hide();
 			$(".tran").hide();
 			$(".ant").hide();
 			$("span.wd").closest("td").addClass("mx-0 my-0 py-0 px-0");
@@ -685,8 +632,6 @@
 						}
 					})
 
-					<?php include "wahl.php"; ?>
-
 					$("#chk").on("click", function() {
 						var na="";
 						var ri=0;
@@ -762,7 +707,6 @@
 
 					$("#0").show();
 					$(".alert").hide();
-					donewahl();
 				}
 			});
 				var pan = new Array();
@@ -776,24 +720,6 @@
 					// $(pann).closest("tr").find(".tran").show();
 				}				
 
-			// 보기 미리 답 넣어놓기
-			var pan=new Array();
-			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
-			pan=[1,2,3,4,5,6,7,8];
-			var il=$("#itms>.itm").length;
-			for(var p=0;
-			p < pan.length;
-			p++) {
-				var pani="#lst-"+ pan[p];
-				$(".itm").each(function() {
-					if($(this).hasClass("ans"+ pan[p])) {
-						$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
-						$("#"+ $(this).attr("id")).addClass("btn-block btn-light");
-						$("#lst-"+ pan[p] + ">h2").remove();
-					}
-				}
-				)
-			}
 
 			});
 

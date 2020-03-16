@@ -10,7 +10,7 @@ $double_cell_height = $a_cell_height * 2;
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
 <!-- 선택지 고정 -->
-<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 1; width: 100%;">
+<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 1; width: 100%;" id="wahl">
 	<div class="container">
 		<div class="row">
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
@@ -660,43 +660,6 @@ $double_cell_height = $a_cell_height * 2;
 					}
 				}
 				, ready_callback: function () {
-					$(".o").on("click", function() {
-						ion.sound.play("dingdongdang");
-					}
-					);
-					$(".x").on("click", function() {
-						ion.sound.play("Cartoon_Boing");
-					}
-					);
-					$("[data-toggle='popover']").popover( {
-						delay : {
-							'hide': 1000
-						}
-						,
-						container : "body"
-					}
-					);
-					$(".pop").click(function () {
-						// 가장 먼저 지문에 'an' 넣기
-						if ( !$(this).siblings().hasClass("an")) {
-							$(this).addClass("an");
-							$(this).addClass("btn-warning");
-							$(this).parent().children().removeClass("btn-light");
-						}
-						;
-						// 문제 풀이 정도 업데이트
-						var perc=Math.round(($(".an").length / $(".q").length) * 100);
-						$(".progress>.bar").attr("width", perc + "%;");
-					}
-					);
-					// 팝업 내용 사라지기
-					$(".pop").popover().click(function() {
-						setTimeout(function() {
-							$(".pop").popover('hide');
-						}
-						, 500);
-					}
-					);
 					$(".so").on("click", function () {
 						if($(this).attr("id").substr(-2)=="_p") {
 							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
@@ -758,8 +721,10 @@ $double_cell_height = $a_cell_height * 2;
 
 	$(document).on("click", function() { checkHeight(); });
 
-	// 정답확인
-	$("#chk").on("click", function() {
+		<?php include "wahl.php"; ?>
+
+		// 정답확인
+		$("#chk").on("click", function() {
 			if ($(".an").length < $(".q").length) {
 				var na="";
 				$(".q").each(function() {
@@ -810,7 +775,7 @@ $double_cell_height = $a_cell_height * 2;
 
 				$(".itm-lst").each(function() {
 					if($(this).find(".btn")) {
-						$(this).find(".btn").addClass("text-success");
+						$(this).find(".btn").addClass("text-success font-weight-bold");
 					}
 				});
 

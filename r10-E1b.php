@@ -250,7 +250,7 @@
 		// 정답확인
 		$("#chk").on("click", function() {
 			var na = "";
-			if($("#itms").find("button").length < 1) {
+			if(($("#itms").find("button").length-$(".ans0").length) < 1) {
 				$(".tran").show();
 
 				// 정답 확인 div 상자 배경색 속성 없애10
@@ -258,7 +258,7 @@
 
 				$(".itm-lst").each(function() {
 					if($(this).find("button.btn")) {
-						$(this).find("button.btn").addClass("text-success");
+						$(this).find("button.btn").addClass("text-success font-weight-bold");
 					}
 				});
 

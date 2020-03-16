@@ -493,7 +493,7 @@
 
 				$(".itm-lst").each(function() {
 					if($(this).find(".btn")) {
-						$(this).find(".btn").addClass("text-success");
+						$(this).find(".btn").addClass("text-success font-weight-bold");
 					}
 				});
 

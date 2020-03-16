@@ -283,7 +283,7 @@
 
 							$(".itm-lst").each(function() {
 								if($(this).find("button.btn")) {
-									$(this).find("button.btn").addClass("text-success");
+									$(this).find("button.btn").addClass("text-success font-weight-bold");
 								}
 							});
 
@@ -331,7 +331,7 @@
 
 					var pan = new Array();
 					// pan = ["1","2","3","4","5","6","7","8","9","10"];
-					pan = [19,31];
+					pan = [];
 					var il = $("#itms>.itm").length;
 					for(var p = 0; p < pan.length; p++) {
 					var pani = "#lst-" + pan[p];

@@ -716,7 +716,7 @@ function rfchk(th,io) {
 
 						$(".itm-lst").each(function() {
 							if($(this).find(".itm")) {
-								$(this).find(".itm").addClass("text-success");
+								$(this).find(".itm").addClass("text-success font-weight-bold");
 							}
 						});
 
@@ -756,16 +756,6 @@ function rfchk(th,io) {
 					})
 
 				var pan = new Array();
-				pan = [1];
-				// pan = ["1","2","4","6","8"];
-				for(var p = 0; p < pan.length; p++) {
-					var pann = "#qst-"+pan[p];
-					$(pann).val(an[(pan[p]-1)]);
-					$(pann).addClass("bg-success text-white font-weight-bold");
-					$(pann).prop("disabled",true);
-					// $(pann).closest("tr").find(".tran").show();
-				}
-
 				pan = [];
 				// pan = [1,6,8,10,12,13,17,22,23];
 				for(var p = 0; p < pan.length; p++) {
@@ -777,7 +767,17 @@ function rfchk(th,io) {
 							$(pann).find(".tran").show();
 						}
 					}
-				}				
+				}		
+
+				pan = [1];
+				// pan = ["1","2","4","6","8"];
+				for(var p = 0; p < pan.length; p++) {
+					var pann = "#qst-"+pan[p];
+					$(pann).val(an[(pan[p]-1)]);
+					$(pann).addClass("bg-success text-white font-weight-bold");
+					$(pann).prop("disabled",true);
+					// $(pann).closest("tr").find(".tran").show();
+				}		
 
 
 

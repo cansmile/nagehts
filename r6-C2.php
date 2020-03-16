@@ -320,10 +320,10 @@
 						$(this).removeClass("btn-light ");
 
 						$(".itm-lst").each(function() {
-							$(this).find(".so").addClass("okay");
+							$(this).find("button").addClass("okay text-success font-weight-bold");
 						});
 
-						var qa = $(".itm-lst>.so").length; // 전체 문항 수
+						var qa = $(".itm-lst").length; // 전체 문항 수
 						var qr = $(".okay").length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색
@@ -363,8 +363,8 @@
 						$(".itm").each(function() {
 							if($(this).hasClass("ans"+ pan[p])) {
 								$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
-								$("#"+ $(this).attr("id")).addClass("btn-block font-weight-bold text-left pl-0");
-								$("#"+ $(this).attr("id")).addClass("border-0");
+								$("#"+ $(this).attr("id")).addClass("btn-block font-weight-bold");
+								// $("#"+ $(this).attr("id")).addClass("border-0");
 								$("#lst-"+ pan[p] + ">h2").remove();
 								// $("#lst-"+ pan[p]).closest("table").find(".tran").show();
 							}

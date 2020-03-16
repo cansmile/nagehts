@@ -418,6 +418,8 @@
 			}
 			});
 		$("#2").insertAfter("#lst-1>h2");
+		var pan = new Array();
+		pan=[$(".itm-lst").find(".itm").length];
 		ccl();
 	});
 				

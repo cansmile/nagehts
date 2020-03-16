@@ -12,28 +12,28 @@
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="1">
-					<small>Tanzkurs<span class="tran"><br>댄스강좌<br>(So. 18 Uhr)</span></small>
+					Tanzkurs<small><span class="tran"><br>댄스강좌<br>(So. 18 Uhr)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="2">
-					<small>Führung in der Gemäldegalerie<span class="tran"><br>미술관 안내 관람<br>(Fr. 11 Uhr)</span></small>
+					Führung in der Gemäldegalerie<small><span class="tran"><br>미술관 안내 관람<br>(Fr. 11 Uhr)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="3">
-					<small>Galakonzerte<span class="tran"><br>갈라콘서트<br>(Sa. 22 Uhr)</span></small>
+					Galakonzerte<small><span class="tran"><br>갈라콘서트<br>(Sa. 22 Uhr)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="4">
-					<small>Kino<span class="tran"><br>영화관<br>(Fr. bis Sa. 15.30)</span></small>
+					Kino<small><span class="tran"><br>영화관<br>(Fr. bis Sa. 15.30)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="5">
-					<small>Stadtführung Glanzlichter Dresdens<span class="tran"><br>드레스덴 하이라이트 시티투어<br>(Mo, Mi, Fr., Sa. 18.30)</</span>
+					Stadtführung Glanzlichter Dresdens<small><span class="tran"><br>드레스덴 하이라이트 시티투어<br>(Mo, Mi, Fr., Sa. 18.30)</</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="6">
-					<small>Circus Krone<span class="tran"><br>크로네 서커스<br>(So. 15.30)</span></small>
+					Circus Krone<small><span class="tran"><br>크로네 서커스<br>(So. 15.30)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="7">
-					<small>Kino<span class="tran"><br>영화관<br>(Fr. bis Sa. 17.45, 20.00)</span></small>
+					Kino<small><span class="tran"><br>영화관<br>(Fr. bis Sa. 17.45, 20.00)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="8">
-					<small>Staatsoperette<span class="tran"><br>국립 오페라극장<br>(Sa. 14.30)</span></small>
+					Staatsoperette<small><span class="tran"><br>국립 오페라극장<br>(Sa. 14.30)</span></small>
 					</button>
 				</div>
 			</div>
@@ -254,11 +254,11 @@
 						$(this).removeClass("btn-light ");
 
 						$(".itm-lst").each(function() {
-							$(this).find(".so").addClass("okay");
+							$(this).find("button").addClass("text-success font-weight-bold");
 						});
 
-						var qa = $(".itm-lst>.so").length; // 전체 문항 수
-						var qr = $(".okay").length; // 맞춘 항목 수
+						var qa = $(".itm-lst>button").length; // 전체 문항 수
+						var qr = $(".text-success").length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색
 

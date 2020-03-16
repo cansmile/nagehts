@@ -86,12 +86,12 @@
 							<tr>
 								<th scope="row" class="text-center align-middle">kalt</th>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
@@ -99,12 +99,12 @@
 							<tr>
 								<th scope="row" class="text-center align-middle">warm</th>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-4">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-4">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
@@ -294,7 +294,7 @@
 						$(this).removeClass("btn-light ");
 
 						$(".itm-lst").each(function() {
-							$(this).find(".so").addClass("okay");
+							$(this).find(".so").addClass("okay font-weight-bold");
 						});
 
 						var qa = $(".itm-lst>.so").length; // 전체 문항 수

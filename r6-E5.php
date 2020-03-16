@@ -87,15 +87,15 @@
 			</div>
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
-				<div style="min-height: 240px;" class="rounded-top bg-danger so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
+				<div style="min-height: 240px;" class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 					<h2 class="btn btn-light btn-xl ttl d-block">
 					<strong>einfache Verben</strong><br><small>단순동사</small></h2>&nbsp;
 				</div>
-				<div style="min-height: 240px;" class="rounded-top bg-success so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
+				<div style="min-height: 240px;" class="rounded-top bg-success itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 					<h2 class="btn btn-light btn-xl ttl d-block">
 					<strong>trennbare Verben</strong><br><small>분리동사</small></h2>&nbsp;
 				</div>
-				<div style="min-height: 240px;" class="rounded-top bg-info so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
+				<div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
 					<h2 class="btn btn-light btn-xl ttl d-block">
 					<strong>untrennbare Verben</strong><br><small>비분리동사</small></h2>&nbsp;
 				</div>

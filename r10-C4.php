@@ -447,7 +447,7 @@
 							$(this).removeClass("btn-light ");
 
 							var qa = $(".q").length; // 전체 문항 수
-							var qr = $(".bg-success").length; // 맞춘 항목 수
+							var qr = $("input.bg-success").length; // 맞춘 항목 수
 							var pe = (qr / qa) * 100; // 정답 비율
 							var tcl = "white"; // 기본 문자색
 

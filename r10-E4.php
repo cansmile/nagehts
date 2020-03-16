@@ -195,7 +195,7 @@
 
 						$(".itm-lst").each(function() {
 							if($(this).find(".itm")) {
-								$(this).find(".itm").addClass("text-success");
+								$(this).find(".itm").addClass("text-success font-weight-bold");
 							}
 						});
 

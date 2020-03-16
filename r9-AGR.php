@@ -310,8 +310,8 @@
 								<th scope="row">30</td>
 								<td><button type="button" id="dreißig" class="so btn btn-outline-danger">▶</button></td>
 								<td>dreißig</td>
-								<td><button type="button" id="dreißigte" class="so btn btn-outline-danger">▶</button></td>
-								<td>der dreißigte</td>
+								<td><button type="button" id="dreißigste" class="so btn btn-outline-danger">▶</button></td>
+								<td>der dreißigste</td>
 							</tr>
 						</tbody>
 					</table>
@@ -528,7 +528,7 @@
 						"dreiundzwanzigste": [203.552, 2.490],
 						"dreizehnte": [164.254, 1.816],
 						"dreißig": [90.362, 1.217],
-						"dreißigte": [232.820, 1.621],
+						"dreißigste": [232.820, 1.621],
 						"dritte": [128.771, 1.365],
 						"eins": [8.544, 1.026],
 						"einundzwanzig": [61.127, 1.555],

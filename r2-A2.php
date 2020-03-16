@@ -52,7 +52,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table table-light text-center">
+					<table class="table table-light">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="17" class="so btn btn-danger btn-lg">▶</button></th>
 							<td width="70%" class="so text-center bg-danger text-white align-middle" height="20px"><h3>Sandmännchen</h1></td>
@@ -81,7 +81,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table table-light text-center">
+					<table class="table table-light">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="18" class="so btn btn-warning btn-lg">▶</button></th>
 							<td width="70%" class="so text-center bg-warning align-middle" height="20px"><h3>Pororo</h1></td>
@@ -110,7 +110,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table table-light text-center">
+					<table class="table table-light">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-primary btn-lg">▶</button></th>
 							<td width="70%" class="so text-center bg-primary text-white align-middle" height="20px"><h3>Minnie Mouse</h1></td>

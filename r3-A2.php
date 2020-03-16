@@ -19,6 +19,7 @@
 					</button>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small>듣고 알맞은 단어를 선택하세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -103,7 +104,28 @@
 							</tr>
 							<tr>
 								<th class="border-0" scope="row"><button type="button" id="2" class="so btn btn-outline-danger text-center">▶</button></th>
-								<td class="border-0">Das sind meine Großeltern, mein Opa und meine Oma.<span class="tran"><br><small>이 분들은 저의 조부모님들, 저의 할아버지와 저의 할머니세요. </small></span></td>
+								<td class="border-0">Das sind <span class="sen"><span class="nu"> </span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-1">
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+												<input type="radio" name="options" id="option1" autocomplete="off">mein
+											</div>
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+												<input type="radio" name="options" id="option2" autocomplete="off">meine
+											</div>
+										</div><span class="ans"> </span></span> Großeltern, <span class="sen"><span class="nu"> </span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-2">
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+												<input type="radio" name="options" id="option1" autocomplete="off">mein
+											</div>
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+												<input type="radio" name="options" id="option2" autocomplete="off">meine
+											</div>
+										</div><span class="ans"> </span></span> Opa und <span class="sen"><span class="nu"> </span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-3">
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+												<input type="radio" name="options" id="option1" autocomplete="off">mein
+											</div>
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+												<input type="radio" name="options" id="option2" autocomplete="off">meine
+											</div>
+										</div><span class="ans"> </span></span> Oma.<span class="tran"><br><small>이 분들은 저의 조부모님들, 저의 할아버지와 저의 할머니세요. </small></span></td>
 							</tr>
 							<tr>
 								<th class="border-0" scope="row"><button type="button" id="3" class="so btn btn-outline-primary text-center">▶</button></th>
@@ -111,7 +133,14 @@
 							</tr>
 							<tr>
 								<th class="border-0" scope="row"><button type="button" id="4" class="so btn btn-outline-danger text-center">▶</button></th>
-								<td class="border-0">Mein Opa ist Pfarrer und meine Oma ist Lehrerin.<span class="tran"><br><small>저의 할아버지께서는 목사님이시고 저의 할머니는 선생님이세요.</small></span></td>
+								<td class="border-0">Mein Opa ist Pfarrer und <span class="sen"><span class="nu"> </span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-4">
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+												<input type="radio" name="options" id="option1" autocomplete="off">mein
+											</div>
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+												<input type="radio" name="options" id="option2" autocomplete="off">meine
+											</div>
+										</div><span class="ans"> </span></span> Oma ist Lehrerin.<span class="tran"><br><small>저의 할아버지께서는 목사님이시고 저의 할머니는 선생님이세요.</small></span></td>
 							</tr>
 							<tr>
 								<th class="border-0" scope="row"><button type="button" id="5" class="so btn btn-outline-primary text-center">▶</button></th>
@@ -156,6 +185,13 @@
 					</table>
 				</div>
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -304,6 +340,78 @@
 						;
 					}
 					);
+
+					// 정답확인
+					$("#chk").on("click", function() {
+						if ($(".an").length < $(".q").length) {
+							var na ="";
+							$(".q").each(function() {
+								if (!$(this).find("div").hasClass("an")) {
+									if (na !="") {
+										na +=",";
+									}
+									na += $(this).attr("id").substr(-1);
+								};
+							});
+
+							alert("모든 문제를 풀어주세요.");
+							// alert(na +"번 문제를 풀어주세요.");
+						} else {
+							$(".pop").each(function() {
+								$(this).removeClass("btn-info");
+
+								if ($(this).hasClass("o") && $(this).hasClass("an")) {
+									$(this).removeClass("btn-warning");
+									$(this).addClass("btn-success");
+									$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
+									$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+								} else if ($(this).hasClass("o")) {
+									$(this).addClass("btn-<?php echo($color); ?>");
+									$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
+									$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
+									$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");
+								} else if ($(this).hasClass("an")) {
+									$(this).addClass("btn-warning");
+									$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+								} else {
+									$(this).addClass("btn-light");
+								};
+								$(this).remove();
+							});
+							$(".tran").show();
+							$(".nu").show();
+							$(".q").hide();
+							
+
+							// 정답 확인 div 상자 배경색 속성 없애기
+							$(this).removeClass("btn-light");
+
+							var qa = $(".q").length; // 전체 문항 수
+							var qr = $(".bg-success").length; // 맞춘 항목 수
+							var pe = (qr / qa) * 100; // 정답 비율
+							var tcl ="white"; // 기본 문자색
+
+							// 분류 기준은 100%, 80%, 60%, 40%
+							if(pe > 99) {
+								var st ="원어민이세요?";
+								var cl ="lime";
+								var tcl ="dark";
+							} else if(pe > 74) {
+								var st ="어! 좀 하시는데요~^^";
+								var cl ="success";
+							} else if(pe > 49) {
+								var st ="쓰읍~ 다시 해 보실까요!";
+								var cl ="primary";
+							} else {
+								var st ="좀 더 분발해 주세요";
+								var cl ="danger";
+							}
+
+							$(this).addClass("btn-" + cl +" text-" + tcl);
+							$(this).html("<h4>" + qa +"문제 중" + qr +"개를 맞히셨네요!<br>" + st +"</h4>");
+						};
+					});
+
 					$("#0").show();
 					$(".alert").hide();
 				}

@@ -25,7 +25,7 @@
 					der Radiergummi<span class="tran"><br><small>지우개</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="12">
-					die Buntstifte<span class="tran"><br><small>크레용</small></span>
+					die Buntstifte<span class="tran"><br><small>색연필</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="13">
 					das Geld<span class="tran"><br><small>돈</small></span>

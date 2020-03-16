@@ -320,7 +320,7 @@ if(!$ds) {
 
 					for($c = 97; $c < 105; $c++) { // i까지만 변환
 						if(substr($la,-1) == chr($c)) {
-							$la = substr($la,0,(strlen($la) - 1))."<small class=\"p-0 m-0\">-".($c - 96)."</small>";
+							$la = substr($la,0,(strlen($la) - 1))."<small class=\"p-0 m-0\" style=\"position: relative; top: 6px;\">-".($c - 96)."</small>";
 						}
 					}
 

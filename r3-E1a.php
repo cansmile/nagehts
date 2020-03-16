@@ -15,7 +15,7 @@
 				Wie ist Ihre E-Mail-Adresse?
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-3" id="3">
-				was sind Sie von Beruf?
+				Was sind Sie von Beruf?
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-3" id="4">
 				Wie ist Ihre Telefonnummer?

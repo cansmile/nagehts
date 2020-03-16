@@ -77,11 +77,11 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="text-center align-middle" style="font-size: 2em;" rowspan="2">1</td>
+								<td class="text-center align-top font-weight-bold border-0" style="font-size: 2em;" rowspan="2">1</td>
 								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
-								<td class="text-center"><span class="font-weight-bold" style="font-size: 2em;">Claudia</span></td>
+								<td class="text-center border-0"><span class="font-weight-bold" style="font-size: 2em;">Claudia</span></td>
 							</tr>
 						</tbody>
 					</table>
@@ -90,7 +90,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td>
+								<td class="border-0">
 									
 								</td>
 							</tr>
@@ -98,7 +98,7 @@
 								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
-								<td>
+								<td class="border-0">
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -112,7 +112,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td>
+								<td class="border-0">
 									
 								</td>
 							</tr>
@@ -120,7 +120,7 @@
 								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-3.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
-								<td>
+								<td class="border-0">
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -134,7 +134,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td>
+								<td class="border-0">
 									
 								</td>
 							</tr>
@@ -142,7 +142,7 @@
 								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-4.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
-								<td>
+								<td class="border-0">
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -156,7 +156,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td>
+								<td class="border-0">
 									
 								</td>
 							</tr>
@@ -164,7 +164,7 @@
 								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
-								<td>
+								<td class="border-0">
 									<div class="itm-lst 1itm" id="lst-4">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -178,7 +178,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td>
+								<td class="border-0">
 									
 								</td>
 							</tr>
@@ -186,7 +186,7 @@
 								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
-								<td>
+								<td class="border-0">
 									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -200,7 +200,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td>
+								<td class="border-0">
 									
 								</td>
 							</tr>
@@ -208,7 +208,7 @@
 								<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-1-7.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
-								<td>
+								<td class="border-0">
 									<div class="itm-lst 1itm" id="lst-6">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -224,11 +224,11 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<td class="text-center align-middle" style="font-size: 2em;" rowspan="2">2</td>
+						<td class="text-center align-top font-weight-bold border-0" style="font-size: 2em;" rowspan="2">2</td>
 						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 180px; height: auto;"></td>
 					</tr>
 					<tr>
-						<td class="text-center"><span class="font-weight-bold" style="font-size: 2em;">Michael</span></td>
+						<td class="text-center border-0"><span class="font-weight-bold" style="font-size: 2em;">Michael</span></td>
 					</tr>
 				</tbody>
 			</table>
@@ -237,7 +237,7 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<td>
+						<td class="border-0">
 							
 						</td>
 					</tr>
@@ -246,7 +246,7 @@
 							<img src="./images/Reihe 4/Reihe-4-C2-2-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 					</tr>
 					<tr>
-						<td>
+						<td class="border-0">
 							<div class="itm-lst 1itm" id="lst-7">
 								<h2 class="btn btn-warning btn-xl ttl d-block">
 								▼ </h2>
@@ -260,7 +260,7 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<td>
+						<td class="border-0">
 							
 						</td>
 					</tr>
@@ -268,7 +268,7 @@
 						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-3.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 					</tr>
 					<tr>
-						<td>
+						<td class="border-0">
 							<div class="itm-lst 1itm" id="lst-8">
 								<h2 class="btn btn-warning btn-xl ttl d-block">
 								▼ </h2>
@@ -282,7 +282,7 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<td>
+						<td class="border-0">
 							
 						</td>
 					</tr>
@@ -290,7 +290,7 @@
 						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-4.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 					</tr>
 					<tr>
-						<td>
+						<td class="border-0">
 							<div class="itm-lst 1itm" id="lst-9">
 								<h2 class="btn btn-warning btn-xl ttl d-block">
 								▼ </h2>
@@ -304,7 +304,7 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<td>
+						<td class="border-0">
 							
 						</td>
 					</tr>
@@ -312,7 +312,7 @@
 						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 					</tr>
 					<tr>
-						<td>
+						<td class="border-0">
 							<div class="itm-lst 1itm" id="lst-10">
 								<h2 class="btn btn-warning btn-xl ttl d-block">
 								▼ </h2>
@@ -326,7 +326,7 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<td>
+						<td class="border-0">
 							
 						</td>
 					</tr>
@@ -334,7 +334,7 @@
 						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 					</tr>
 					<tr>
-						<td>
+						<td class="border-0">
 							<div class="itm-lst 1itm" id="lst-11">
 								<h2 class="btn btn-warning btn-xl ttl d-block">
 								▼ </h2>
@@ -348,7 +348,7 @@
 			<table class="table">
 				<tbody>
 					<tr>
-						<td>
+						<td class="border-0">
 							
 						</td>
 					</tr>
@@ -356,7 +356,7 @@
 						<td height="250" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-C2-2-7.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 					</tr>
 					<tr>
-						<td>
+						<td class="border-0">
 							<div class="itm-lst 1itm" id="lst-12">
 								<h2 class="btn btn-warning btn-xl ttl d-block">
 								▼ </h2>
@@ -382,25 +382,25 @@
 						<td colspan="4" class="text-left">haben 동사는 4격 목적어를 취하며, 명사를 부정할 때는 kein이라는 부정관사를 사용한다.<br>이 때 kein은 부정관사류(ein, nein)와 같이 동일하게 관사어미변화한다. (keinen, keine, kein)</td>
 					</tr>
 					<tr>
-						<td>&nbsp;</td>
+						<td class="border-0">&nbsp;</td>
 						<td class="text-primary"><strong>m</strong></td>
 						<td class="text-danger"><strong>f</strong></td>
 						<td class="text-purple"><strong>n</strong></td>
 					</tr>
 					<tr>
-						<td>&nbsp;</td>
+						<td class="border-0">&nbsp;</td>
 						<td class="text-primary"><strong>부정관사</strong></td>
 						<td class="text-danger"><strong>부정관사</strong></td>
 						<td class="text-purple"><strong>부정관사</strong></td>
 					</tr>
 					<tr>
-						<td><strong>Nominativ<small>&nbsp;주격</small></strong></td>
+						<td class="border-0"><strong>Nominativ<small>&nbsp;주격</small></strong></td>
 						<td class="text-primary">kein Kuli</td>
 						<td class="text-danger">keine Schultasche</td>
 						<td class="text-purple">kein Geld</td>
 					</tr>
 					<tr>
-						<td><strong>Akkusativ<small>&nbsp;목적격</small></strong></td>
+						<td class="border-0"><strong>Akkusativ<small>&nbsp;목적격</small></strong></td>
 						<td class="text-primary">keinen Kuli</td>
 						<td class="text-danger">keine Schultasche</td>
 						<td class="text-purple">kein Geld</td>
@@ -415,13 +415,13 @@
 						<td colspan="7" class="text-left"><strong>(un)bestimmte Artikel</strong></td>
 					</tr>
 					<tr>
-						<td>&nbsp;</td>
+						<td class="border-0">&nbsp;</td>
 						<td class="text-primary" colspan="2"><strong>m</strong></td>
 						<td class="text-danger" colspan="2"><strong>f</strong></td>
 						<td class="text-purple" colspan="2"><strong>n</strong></td>
 					</tr>
 					<tr>
-						<td>&nbsp;</td>
+						<td class="border-0">&nbsp;</td>
 						<td class="text-primary"><strong>부정관사</strong></td>
 						<td class="text-primary"><strong>정관사</strong></td>
 						<td class="text-danger"><strong>부정관사</strong></td>
@@ -430,7 +430,7 @@
 						<td class="text-purple"><strong>정관사</strong></td>
 					</tr>
 					<tr>
-						<td><strong>Nominativ<small>&nbsp;주격</small></strong></td>
+						<td class="border-0"><strong>Nominativ<small>&nbsp;주격</small></strong></td>
 						<td class="text-primary">ein Tisch</td>
 						<td class="text-primary">der Tisch</td>
 						<td class="text-danger">eine Uhr</td>
@@ -439,7 +439,7 @@
 						<td class="text-purple">das Auto</td>
 					</tr>
 					<tr>
-						<td><strong>Akkusativ<small>&nbsp;목적격</small></strong></td>
+						<td class="border-0"><strong>Akkusativ<small>&nbsp;목적격</small></strong></td>
 						<td class="text-primary">einen Tisch</td>
 						<td class="text-primary">den Tisch</td>
 						<td class="text-danger">eine Uhr</td>
@@ -629,43 +629,15 @@
 				// 정답확인
 				$("#chk").on("click", function() {
 				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+					$(".tran").show();
 					$(this).attr("id", "done");
-					$(".itm").each(function() {
-						if($(this).parent().attr("id").length > 5) {
-							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
-						} else {
-							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
-						}
-						$(".tran").show();
-						if($(this).hasClass("ans"+ (a))) {
-							$(this).addClass("text-success font-weight-bold");
-						}
-						else {
-							$(this).addClass("text-warning font-weight-bold");
-							$(this).find(".tran").show();
-
-						}
-						;
-
-						if($(this).hasClass("text-warning")) {
-							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
-							for(var i = 1; i <= $(".itm-lst").length; i++) {
-								if($(this).hasClass("ans"+i)) {
-									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
-									// $(lstn).append(i);
-								}
-							}
-						};
-
-					}
-				);
 
 				// 정답 확인 div 상자 배경색 속성 없애기
 				$(this).removeClass("btn-light ");
 
 				$(".itm-lst").each(function() {
 					if($(this).find(".btn")) {
-						$(this).find(".btn").addClass("text-success");
+						$(this).find(".btn").addClass("text-success font-weight-bold");
 					}
 				});
 

@@ -21,7 +21,7 @@
 					<span class="tran"><br>&nbsp;<small>너는 어때? 잘 지내니?</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="4">
-					wie heißen Sie?
+					Wie heißen Sie?
 					<span class="tran"><br>&nbsp;<small>당신의 이름은 뭔가요?</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="5">
@@ -96,7 +96,7 @@
 									</div>
 								</td>
 								<td>
-									 Ich bin sabine.
+									 Ich bin Sabine.
 									<span class="tran"><br>&nbsp;<small>나는 자비네야.</small></span></td>
 							</tr>
 							<tr>

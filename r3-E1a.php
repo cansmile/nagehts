@@ -72,7 +72,7 @@
 								<tr>
 									<td colspan="2" class="border-0">
 										Herr Meyer, <div class="itm-lst 1itm d-inline-block" id="lst-1">
-											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 50px;"> ▼ </h2>
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
 										<span class="tran"><br><small>마이어씨, 당신의 직업은 무엇입니까?</small></span>
 									</td>
@@ -80,13 +80,13 @@
 								<tr>
 									<td colspan="2" class="border-0">
 										Ich bin Ingenieur. Ich arbeite bei Siemens.
-										<span class="tran"><br><small>저는 기술자입니다. 지멘스에서 일하고 있습니다.</small></span>
+										<span class="tran"><br><small>저는 엔지니어입니다. 지멘스에서 일하고 있습니다.</small></span>
 									</td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-2">
-											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;"> ▼ </h2>
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
 										<span class="tran"><br><small>당신의 주소는 어떻게 됩니까?</small></span>
 									</td>
@@ -100,7 +100,7 @@
 								<tr>
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-3">
-											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;"> ▼ </h2>
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
 										<span class="tran"><br><small>당신의 전화번호는 어떻게 됩니까?</small></span>
 									</td>
@@ -114,7 +114,7 @@
 								<tr>
 									<td colspan="2" class="border-0">
 										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-4">
-											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;"> ▼ </h2>
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
 										<span class="tran"><br><small>당신의 이메일주소는 어떻게 됩니까?</small></span>
 									</td>

@@ -339,43 +339,20 @@
 					<?php include "wahl.php"; ?>
 					// 정답확인
 					$("#chk").on("click", function() {
-						if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
-							$(this).attr("id", "done");
-							$(".so").each(function() {
-								if($(this).parent().attr("id").length > 5) {
-									var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
-								} else {
-									var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
-								}
-
-								if($(this).hasClass("ans"+ (a))) {
-									$(this).addClass("text-success font-weight-bold");
-								}
-								else {
-									$(this).addClass("text-warning font-weight-bold");
-									$(this).find(".tran").show();
-
-								}
-								;
-
-								if($(this).hasClass("text-warning")) {
-									// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
-									for(var i = 1; i <= $(".itm-lst").length; i++) {
-										if($(this).hasClass("ans"+i)) {
-											$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
-											// $(lstn).append(i);
-										}
-									}
-								};
-
-							}
-						);
-						$(".tran").show();
+						var na="";
+						if($("#itms").find("button").length < 1) {
+							$(".tran").show();
 
 						// 정답 확인 div 상자 배경색 속성 없애기
 						$(this).removeClass("btn-light ");
 
-						var qa = $(".1itm").length; // 전체 문항 수
+						$(".itm-lst").each(function() {
+							if($(this).find(".btn")) {
+								$(this).find(".btn").addClass("text-success font-weight-bold");
+							}
+						});
+
+						var qa = $(".itm-lst").length; // 전체 문항 수
 						var qr = $(".text-success").length; // 맞춘 항목 수
 						var pe = (qr / qa) * 100; // 정답 비율
 						var tcl = "white"; // 기본 문자색
@@ -399,7 +376,22 @@
 						$(this).addClass("btn-" + cl + " text-" + tcl);
 						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
 
-					}
+							$(".btn-lg").text().appendTo($(this).closest("td"));
+							$(".btn-lg").remove();
+						}
+						else {
+							$("div.itm-lst").each(function(idx) {
+								if( !$(this).find("button").length) {
+									if(na !="") {
+										na +=", ";
+									}
+									na +=(idx+1);
+								}
+							}
+							);
+							alert("모든 문제를 풀어주세요!");
+							// alert(na+"번 문제를 풀어주세요!");
+						}
 					}
 					);
 					$("#0").show();

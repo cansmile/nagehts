@@ -91,7 +91,7 @@
 					<h2>Wie viel wissen Sie über die deutsche Sprache?<br>
 					Sortieren Sie die Wörter nach den Themen.</h2>
 					<p>
-						독일어에 대해 얼마나 아나요? 다음 단어들을 주제에 따라 나누세요.
+						독일어에 대해 얼마나 아시나요? 다음 단어들을 주제에 따라 나누세요.
 						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 						HV
 						</button>
@@ -260,7 +260,7 @@ var nagehts = new Howl({
 					$(pann).insertAfter("#lst-"+ (i+1) + ">h2");
 				}
 			}
-			$(pann).find(".tran").show();
+			// $(pann).find(".tran").show();
 		}
 		$(".itm-lst>button").addClass("btn-block btn-light");
 

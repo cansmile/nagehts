@@ -63,7 +63,7 @@
 									<td class="border-0" style="line-height: 250%;">
 										Die Bushaltestelle ist vor der
 										<div class="itm-lst 1itm d-inline-block" id="lst-1">
-											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 85px; max-width: 100px;">
 											▼ </h2>
 										</div>
 										.
@@ -71,14 +71,14 @@
 										Du gehst hier die Berliner Straße geradeaus entlang.<span class="tran"><br><small>여기서 베를리너슈트라세를 따라 똑바로 가.</small><br></span>
 										Dann gehst du nach
 										<div class="itm-lst 1itm d-inline-block" id="lst-2">
-											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 85px; max-width: 100px;">
 											▼ </h2>
 										</div>
 										in die Brechtstraße.
 										<span class="tran"><br><small>그런 다음 오른쪽 브레히트슈트라세로 가.</small><br></span>
 										Und dann siehst du schon auf der
 										<div class="itm-lst 1itm d-inline-block" id="lst-3">
-											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px;">
+											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 85px; max-width: 100px;">
 											▼ </h2>
 										</div>
 										Seite die Bushaltestelle.

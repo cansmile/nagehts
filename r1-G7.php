@@ -12,7 +12,7 @@
 		<!-- 정답화인 버튼 시작 -->
 		<div class="row">
 			<div class="my-3 col-sm-12 col-md-12 col-lg-12" id="qst">
-				<table class="table table-light text-center">
+				<table class="table table-light">
 					<tbody>
 						<tr>
 							<th scope="row">1</th>

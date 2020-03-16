@@ -31,7 +31,7 @@
 								<th rowspan="3" class="align-top" style="font-size: 2em;">1</th>
 								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
-								<td>Claudia hat eine Schultasche, aber sie hat kein Lineal.<span class="tran"><br><small>Claudia는 책가방이 있지만 자는 없습니다. </small></span></td>
+								<td>Claudia hat eine Schultasche, aber sie hat kein Lineal.<span class="tran"><br><small>클라우디아는 책가방이 있지만 자는 없습니다. </small></span></td>
 							</tr>
 							<tr>
 								<td class="border-0"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
@@ -61,7 +61,7 @@
 								<th rowspan="4" class="align-top" style="font-size: 2em;">2</th>
 								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
-								<td>Michael hat ein Wörterbuch, aber er hat keine Büroklammern.<span class="tran"><br><small>Michael은 사전을 가지고 있지만 클립은 없습니다.</small></span></td>
+								<td>Michael hat ein Wörterbuch, aber er hat keine Büroklammern.<span class="tran"><br><small>미하엘은 사전을 가지고 있지만 클립은 없습니다.</small></span></td>
 							</tr>
 							<tr>
 								<td class="border-0"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>

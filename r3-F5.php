@@ -319,7 +319,7 @@
 						else {
 							$("#"+obj.part).html(sen[obj.part]);
 							if(hm[hmn] > 1) {
-								$("#"+hmn).closest(".btn").find(".tran").show();
+								$("#"+hmn).closest("td").find(".tran").show();
 							}
 						}
 					}

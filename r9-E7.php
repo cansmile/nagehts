@@ -29,6 +29,7 @@
 					<span class="border border-dark p-1 px-2 rounded">helfen</span>
 					<span class="border border-dark p-1 px-2 rounded">ihr</span>
 					<span class="border border-dark p-1 px-2 rounded">mir</span>
+					<span class="border border-dark p-1 px-2 rounded">sie</span>
 				</div>
 			</div>
  			<div class="row">
@@ -43,7 +44,7 @@
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
 										Julia ist dieses Wochenende auf der Dienstreise in München. Martin ist ein bisschen traurig: Julia <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1"> Martin. Er denkt den ganzen Tag an <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">.
-										<span class="tran"><small>율리아는 이번 주말에 출장으로 뮌헨에 있다. 마틴은 조금 슬프다: 율리아는 마틴이 그립다. 그녀는 하루 종일 그를 생각한다.</small><br></span>
+										<span class="tran"><small>율리아는 이번 주말에 출장으로 뮌헨에 있다. 마틴은 조금 슬프다: 마틴은 율리아가 그립다. 그는 하루 종일 그를 생각한다.</small><br></span>
 									</div>
 								</td>
 							</tr>
@@ -100,7 +101,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["fehlt","ihn","hilft","mir","gratuliert","ihr","dankt","ihr"];
+		var an=["fehlt","sie","hilft","mir","gratuliert","ihr","dankt","ihr"];
 		$(document).ready(function() {
 			// 각 문장 재생 횟수 초기화
 			var hm=new Array(), sen=new Array();

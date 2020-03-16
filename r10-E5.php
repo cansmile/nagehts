@@ -34,17 +34,17 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 col-md-12 col-lg-6"><img src="./images/Reihe 10/Reihe-10-E5-1 (2).png" alt="Entschuldigung, wo ist ... ?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-5">
+					<div class="col-sm-12 col-md-12 col-lg-12"><img src="./images/Reihe 10/Reihe-10-E5-1 (2).png" alt="Entschuldigung, wo ist ... ?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-12 col-md-12 col-lg-12 border border-dark rounded p-5">
 						<strong>z.b.:</strong><br>
 						<ul type="square">
 							<li>Entschuldigung, wo ist das Hotel?<span class="tran"><br><small>실례지만, 호텔이 어디 있나요?</small><br></span></li>
 						</ul>
 						<ul type="circle">
 							<li>
-								<div class="itm-lst 1itm" id="lst-1">
+								<div class="itm-lst 1itm d-inline-block" id="lst-1">
 									Das ist
-									<h2 class="btn btn-warning btn-lg ttl mx-1" style="min-width: 150px; max-width: 100%;">
+									<h2 class="btn btn-warning btn-lg ttl mx-1 d-block" style="min-width: 450px; max-width: 600px;">
 									▼ </h2>
 									.
 								</div>
@@ -54,36 +54,39 @@
 					</div>
 				</div>
 				<div class="row mt-2">
-					<div class="col-sm-12 col-md-12 col-lg-6 my-2 font-weight-bold">
+					<div class="col-sm-12 col-md-12 col-lg-4 my-2 font-weight-bold">
 						1. Entschuldigen Sie, wo ist die Kirche?<span class="tran"><br><small>실례지만, 교회가 어디 있나요?</small><br></span>
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-6 my-2">
-						<div class="itm-lst 1itm" id="lst-2">
+					<div class="col-sm-12 col-md-12 col-lg-8 my-2">
 						Sie ist
-							<h2 class="btn btn-warning btn-lg ttl mx-1" style="min-width: 150px; max-width: 100%;">
-							▼ </h2>.
-						</div><span class="tran"><br><small>대학교 옆에 또는 자동차정비소 뒤에 있습니다.</small><br></span>
+						<div class="itm-lst 1itm d-inline-block" id="lst-2">
+							<h2 class="btn btn-warning btn-lg ttl mx-1 d-block" style="min-width: 450px; max-width: 600px;">
+							▼ </h2>
+						</div>
+							.
+						<span class="tran"><br><small>대학교 옆에 또는 자동차정비소 뒤에 있습니다.</small><br></span>
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-6 my-2 font-weight-bold">
+					<div class="col-sm-12 col-md-12 col-lg-4 my-2 font-weight-bold">
 						2. Entschuldigen Sie, wo ist die Universität?<span class="tran"><br><small>실례지만, 대학교가 어디 있나요?</small><br></span>
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-6 my-2">
-						<div class="itm-lst 1itm" id="lst-3">
+					<div class="col-sm-12 col-md-12 col-lg-8 my-2">
 						Sie ist
-							<h2 class="btn btn-warning btn-lg ttl mx-1" style="min-width: 150px; max-width: 100%;">
-							▼ </h2>.
-						</div>
+						<div class="itm-lst 1itm d-inline-block" id="lst-3">
+							<h2 class="btn btn-warning btn-lg ttl mx-1 d-block" style="min-width: 450px; max-width: 600px;">
+							▼ </h2>
+						</div>.
 						 <span class="tran"><br><small>교회와 박물관 사이에 또는 박물관 옆에 있습니다</small><br></span>
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-6 my-2 font-weight-bold">
+					<div class="col-sm-12 col-md-12 col-lg-4 my-2 font-weight-bold">
 						3. Entschuldigen Sie, wo ist der Supermarkt?<span class="tran"><br><small>실례지만, 슈퍼마켓이 어디 있나요?</small><br></span>
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-6 my-2">
-						<div class="itm-lst 1itm" id="lst-4">
+					<div class="col-sm-12 col-md-12 col-lg-8 my-2">
 						Er ist
-							<h2 class="btn btn-warning btn-lg ttl mx-1" style="min-width: 150px; max-width: 100%;">
-							▼ </h2>.
-						</div><span class="tran"><br><small>호텔 옆에 또는 교회 뒤에 있습니다</small><br></span>
+						<div class="itm-lst 1itm d-inline-block" id="lst-4">
+							<h2 class="btn btn-warning btn-lg ttl mx-1 d-block" style="min-width: 450px; max-width: 600px;">
+							▼ </h2>
+						</div>.
+						<span class="tran"><br><small>호텔 옆에 또는 교회 뒤에 있습니다</small><br></span>
 					</div>
 				</div>
 				<!-- 정답화인 버튼 시작 -->

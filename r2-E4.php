@@ -999,8 +999,8 @@ function rfchk(th,io) {
 								}
 								else {
 									$("#qst-"+(i+1)).val(oran);
-									$("#qst-"+(i+1)).attr("disabled", true);
 									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
+									$("#qst-"+(i+1)).attr("disabled", true); 
 									$("#qst-"+(i+1)).removeClass("rounded-0");
 
 									if( !$.isArray(an[i])) {
@@ -1024,7 +1024,13 @@ function rfchk(th,io) {
 											$("#qst-"+(i+1)).after(r);
 										}
 									}
+									$(".qt").each(function() {
+										if(!$(this).hasClass("bg-success")) {
+											$(this).addClass("bg-danger text-white font-weight-bold rounded");
+											$(this).attr("disabled", true); 
 
+										}
+									})
 								}
 								if($("#txt-"+(i+1)).hasClass("bg-success")) {
 									ri++;

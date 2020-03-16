@@ -51,7 +51,7 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Wie heißen die Orte? Was macht man da?<br>
-					<small> 방 이름이 무엇일까요? 거기서 무엇을 하나요? </small>
+					<small> 장소 이름이 무엇인가요? 거기서 무엇을 하나요? </small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
@@ -59,7 +59,7 @@
 					</button>
 					</h2>
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small>단어를 항목에 맞게 짝지우세요.</small> ]</h3>
+						<h3>[ <small>단어를 알맞게 짝지우세요.</small> ]</h3>
 						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
@@ -70,8 +70,8 @@
 						<thead>
 							<tr>
 								<th scope="col" width="40%" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
-								<th scope="col" width="30%" class="align-middle border-0">Wo?<span class="tran"><br><small>어디?</small></span></th>
-								<th scope="col" width="30%" class="align-middle border-0">Was tut man?<span class="tran"><br><small>사람이 무엇을 하나요?</small></span></th>
+								<th scope="col" width="30%" class="align-middle border-0">Wo?<span class="tran"><br><small>어디인가요?</small></span></th>
+								<th scope="col" width="30%" class="align-middle border-0">Was tut man?<span class="tran"><br><small>무엇을 하나요?</small></span></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -128,8 +128,8 @@
 						<thead>
 							<tr>
 								<th scope="col" width="40%" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
-								<th scope="col" width="30%" class="align-middle border-0">Wo?<span class="tran"><br><small>어디?</small></span></th>
-								<th scope="col" width="30%" class="align-middle border-0">Was tut man?<span class="tran"><br><small>사람이 무엇하나?</small></span></th>
+								<th scope="col" width="30%" class="align-middle border-0">Wo?<span class="tran"><br><small>어디인가요?</small></span></th>
+								<th scope="col" width="30%" class="align-middle border-0">Was tut man?<span class="tran"><br><small>무엇을 하나요?</small></span></th>
 							</tr>
 						</thead>
 					</table>

@@ -466,7 +466,7 @@ function stopAll() {
 var nagehts = new Howl({
 	src: ["./sounds/Reihe 1/r1 B4.mp3"],
 	sprite : {
-		"0": [0, 107297],
+		"0": [0, 86740],
 		"1": [22435, 1792],
 		"2": [43808, 1671],
 		"3": [79517, 1562],

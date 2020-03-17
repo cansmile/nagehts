@@ -5,7 +5,6 @@ $em = array("0228khw@naver.com","1121totoro@daum.net","127lhm@daum.net","1l2j3h4
 
 $link = mysqli_connect('localhost', 'root', 'qudwnWkd321!@#');
 if (!$link) { die('연결에 실패했습니다: ' . mysqli_error());}
-echo("\n".date("Y-m-d H:i:s", time())."\n");
 // echo 'MySQL 서버에 정상적으로 연결되었습니다.';
 
 
@@ -25,7 +24,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 			// echo("<br>역할: ".$r[0]."<br>");
 			// print_r("<br>".$r."<br>");
 			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
-				echo("[ ".$em[$i]." ] 처리됨\n");
+				echo("[ ".$em[$i]." ] 처리됨\n".date("Y-m-d H:i:s", time())."\n");
 				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
 				// echo("<br>".$q."<br>");

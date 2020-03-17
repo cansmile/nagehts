@@ -318,7 +318,7 @@ if(!$ds) {
 						}
 					}
 
-					for($c = 97; $c < 105; $c++) { // i까지만 변환
+					for($c = 97; $c < 101; $c++) { // i까지만 변환
 						if(substr($la,-1) == chr($c)) {
 							$la = substr($la,0,(strlen($la) - 1))."<small class=\"p-0 m-0\" style=\"position: relative; top: 6px;\">-".($c - 96)."</small>";
 						}
@@ -365,7 +365,7 @@ if(!$ds) {
 }
 // 드롭박스 이름표에 보이는 항목
 if(substr($da, 1, 2) == "GR") { $la = "GR"; } else if($da == "Uebungen") { $la = "Übungen"; } else { $la = $da; }
-for($c = 97; $c < 123; $c++) {
+for($c = 97; $c < 121; $c++) {
 	if(substr($la,-1) == chr($c)) {
 		$la = substr($la,0,(strlen($la) - 1))."<small>-".($c - 96)."</small>";
 	}
@@ -408,7 +408,7 @@ if($ds) {
 				}
 				$n = $i+1;
 				if(substr($mkey, 1, 2) == "GR") { $la = "GR"; } else if($da == "Uebungen") { $la = "Übungen"; } else { $la = $mkey; }
-				for($c = 97; $c < 123; $c++) {
+				for($c = 97; $c < 121; $c++) {
 					if(substr($la,-1) == chr($c)) {
 						$la = substr($la,0,(strlen($la) - 1))."<small>-".($c - 96)."</small>";
 					}
@@ -493,7 +493,7 @@ if($fn != "inthebeginning") {
 <?php
 		if(strlen($da) < $lt) {
 			if(substr($da, 1, 2) == "GR") { $da = "GR"; }
-			for($c = 97; $c < 123; $c++) {
+			for($c = 97; $c < 121; $c++) {
 				if(substr($da,-1) == chr($c)) {
 					$da = substr($da,0,(strlen($da) - 1))."<small>-".($c - 96)."</small>";
 				}

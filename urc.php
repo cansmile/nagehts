@@ -37,5 +37,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 		}
 	}
 }
-echo($group."\n".$t."명 중 ".$done."명 처리됨".date("Y-m-d H:i:s", time())."\n");
+if($group != "") {
+	echo($group."\n".$t."명 중 ".$done."명 처리됨(".(round(($done/$t)*100,0))."%) - [".date("Y-m-d H:i:s", time())."]\n");
+}
 ?>

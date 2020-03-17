@@ -43,11 +43,7 @@ var tm = 0;
 		// 답안 번호랑 맞는 것만 넣기
 		if(a != tn) {
 				// 틀리면 띠용
-					if(typeof x === 'undefined') {
-						ion.sound.play("Cartoon_Boing");
-					} else {
-						x.play();
-					}
+					ion.sound.play("Cartoon_Boing");
 
 
 				if($(this).parent().hasClass("itm-lst")) {
@@ -58,11 +54,7 @@ var tm = 0;
 		} else {
 				// 맞으면 넣기
 				if(tm == 0) {
-					if(typeof o === 'undefined') {
-						ion.sound.play("dingdongdang");
-					} else {
-						o.play();
-					}
+					ion.sound.play("dingdongdang");
 
 					$(this).addClass("btn-block btn-light");
 					$(this).insertAfter(t);

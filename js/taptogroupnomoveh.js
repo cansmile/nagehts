@@ -43,7 +43,7 @@ var tm = 0;
 		// 답안 번호랑 맞는 것만 넣기
 		if(a != tn) {
 				// 틀리면 띠용
-				ion.sound.play("Cartoon_Boing");
+					x.play();
 
 
 				if($(this).parent().hasClass("itm-lst")) {
@@ -54,7 +54,7 @@ var tm = 0;
 		} else {
 				// 맞으면 넣기
 				if(tm == 0) {
-					ion.sound.play("dingdongdang");
+					o.play();
 
 					$(this).addClass("btn-block btn-light");
 					$(this).insertAfter(t);
@@ -82,20 +82,7 @@ var tm = 0;
 
 // 로딩되면 단어 여백 초기화
 $(document).ready(function() {
-	$(".itm").appendTo("#itms");
-
-	// 오답 일 때 띠용~
-	ion.sound({
-		sounds : [{
-			name : "dingdongdang"
-		}, {
-			name : "Cartoon_Boing"
-		}],
-		path : "sounds/",
-		preload : true,
-		volume : 1.0,
-		multiplay : true
-	});
+	// $(".itm").appendTo("#itms");
 
 	$("[data-toggle='popover']").popover({container : "body"});
 });

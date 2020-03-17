@@ -80,7 +80,6 @@
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/taptogroup.js"></script>
-	<script src="./js/ion.sound.min.js"></script>
 	<script src="./js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once("./oxsound.php"); ?>

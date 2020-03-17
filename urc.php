@@ -24,7 +24,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 			// echo("<br>역할: ".$r[0]."<br>");
 			// print_r("<br>".$r."<br>");
 			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
-				echo("[ ".$em[$i]." ] 처리됨\n".date("Y-m-d H:i:s", time())."\n");
+				echo(date("Y-m-d H:i:s", time())."[ ".$em[$i]." ] 처리됨 "."\n");
 				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
 				// echo("<br>".$q."<br>");

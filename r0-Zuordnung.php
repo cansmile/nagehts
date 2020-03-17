@@ -156,9 +156,7 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<!-- ion.sound -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/taptogrouph.js"></script>
 	<script src="./js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once("./oxsound.php"); ?>

@@ -200,7 +200,7 @@
 								<div class="input-group">
 									<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 align-middle border border-dark rounded-0" aria-label="." id="qst-4">
 								</div>
-								<span class="tran"><small>그의 목이 아프다. 그는 기침을 하고 인후통이 있다.</small></span>
+								<span class="tran"><small>그의 목이 아프다. 그는 기침을 하거나 인후통이 있다.</small></span>
 							</td>
 						</tr>
 						<tr>
@@ -211,7 +211,7 @@
 								<div class="input-group">
 									<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 align-middle border border-dark rounded-0" aria-label="." id="qst-5">
 								</div>
-								<span class="tran"><small>그녀는 열을 가지고 있다. 그녀는 독감이다.</small></span>
+								<span class="tran"><small>그녀는 열이 있다. 그녀는 독감이다.</small></span>
 							</td>
 						</tr>
 						<tr>
@@ -222,7 +222,7 @@
 								<div class="input-group">
 									<input type="text" class="form-control q border-top-0 border-right-0 border-left-0 align-middle border border-dark rounded-0" aria-label="." id="qst-6">
 								</div>
-								<span class="tran"><small>그의 배가 아프다. 그는 변비 중이거나 설사 중이다.</small></span>
+								<span class="tran"><small>그의 배가 아프다. 그는 변비이거나 설사 중이다.</small></span>
 							</td>
 						</tr>
 					</tbody>
@@ -364,7 +364,7 @@
 						"1": [13.06, 1.57],
 						"2": [17.07, 1.28],
 						"3": [20.54, 1.58],
-						"4": [24.47, 1.33],
+						"4": [24.47, 1.53],
 						"5": [28.07, 1.23],
 						"6": [31.61, 1.6]
 					}				

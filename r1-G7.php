@@ -84,39 +84,14 @@
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
 		<!-- interact.min.js -->
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<!-- 맞고 틀리는지 소리 -->
+		<?php require_once("./oxsound.php"); ?>
 		<script>
 			$(".tran").hide();
 			$(".nu").hide();
 			
 			$(document).ready(function() {
-
-				ion.sound({
-					sounds : [{
-						name : "r1 U3"
-
-					},{
-						path : "sounds/",
-						name : "dingdongdang"
-					}, {
-						path : "sounds/",
-						name : "Cartoon_Boing"
-					}],
-					path : "sounds/Reihe 1/",
-					preload : true,
-					volume : 1.0,
-					multiplay : true,
-					ready_callback: function() {
-
-				$(".o").on("click", function() {
-					ion.sound.play("dingdongdang");
-				});
-
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
-
 				$("[data-toggle='popover']").popover({
 					delay : {
 						'hide' : 1000
@@ -133,96 +108,95 @@
 					};
 				})
 				
-			// 팝업 내용 사라지기
-			$(".pop").popover().click(function() {
-				setTimeout(function() {
-					$(".pop").popover('hide');
-				}, 500);
-			});
+				// 팝업 내용 사라지기
+				$(".pop").popover().click(function() {
+					setTimeout(function() {
+						$(".pop").popover('hide');
+					}, 500);
+				});
 
-			// 정답확인
-			$("#chk").on("click", function() {
-				if ($(".an").length < $(".q").length) {
-					var na = "";
-					$(".q").each(function() {
-						if (!$(this).find("div").hasClass("an")) {
-							if (na != "") {
-								na += ", ";
-							}
-							na += $(this).attr("id").substr(4);
-						};
-					});
+				// 정답확인
+				$("#chk").on("click", function() {
+					if ($(".an").length < $(".q").length) {
+						var na = "";
+						$(".q").each(function() {
+							if (!$(this).find("div").hasClass("an")) {
+								if (na != "") {
+									na += ", ";
+								}
+								na += $(this).attr("id").substr(4);
+							};
+						});
 
-					alert(na + "번 문제를 풀어주세요.");
-				} else {
-					$(".pop").each(function() {
-						$(this).removeClass("btn-info");
-						if ($(this).hasClass("o") && $(this).hasClass("an")) {
-							$(this).removeClass("btn-warning");
-							$(this).addClass("btn-success");
-							$(this).parent().find(".nu").addClass("bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0");
-							$(this).closest("td").find(".nu").addClass("bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0");
-							$(this).closest("td").find(".nu").text($.trim($(this).text()));
-						}
-						else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-primary");
-							$(this).closest("td").find(".sen").append("<button class=\"btn btn-warning text-dark rounded font-weight-bold p-1 px-2 m-1\">" + $(this).closest("td").find(".o").text() + "</button>");
-							$(this).closest("td").find(".nu").addClass("btn p-1 px-2 m-1 btn-danger text-white font-weight-bold");
-						}
-						else if ($(this).hasClass("an")) {
-							$(this).addClass("btn-warning");
-							$(this).closest("td").find(".nu").text($.trim($(this).text()));
-						}
-						else {
-							$(this).addClass("btn-light");
-						}
-						;
-					});
-
-					$(".tran").show();
-					$(".nu").show();
-					$(".q").hide();
-
-					// 정답 확인 div 상자 배경색 속성 없애기
-					$(this).removeClass("btn-light ");
-
-					var qa = $(".q").length; // 전체 문항 수
-					var qr = $(".bg-success").length; // 맞춘 항목 수
-					var pe = (qr / qa) * 100; // 정답 비율
-					var tcl = "white"; // 기본 문자색
-
-					// 분류 기준은 100%, 80%, 60%, 40%
-					if(pe > 99) {
-						var st = "원어민이세요?";
-						var cl = "lime";
-						var tcl = "dark";
-					} else if(pe > 74) {
-						var st = "어! 좀 하시는데요~^^";
-						var cl = "success";
-					} else if(pe > 49) {
-						var st = "쓰읍~ 다시 해 보실까요?";
-						var cl = "primary";
+						alert(na + "번 문제를 풀어주세요.");
 					} else {
-						var st = "좀 더 분발해 주세요~";
-						var cl = "danger";
-					}
+						$(".pop").each(function() {
+							$(this).removeClass("btn-info");
+							if ($(this).hasClass("o") && $(this).hasClass("an")) {
+								$(this).removeClass("btn-warning");
+								$(this).addClass("btn-success");
+								$(this).parent().find(".nu").addClass("bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0");
+								$(this).closest("td").find(".nu").addClass("bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0");
+								$(this).closest("td").find(".nu").text($.trim($(this).text()));
+							}
+							else if ($(this).hasClass("o")) {
+								$(this).addClass("btn-primary");
+								$(this).closest("td").find(".sen").append("<button class=\"btn btn-warning text-dark rounded font-weight-bold p-1 px-2 m-1\">" + $(this).closest("td").find(".o").text() + "</button>");
+								$(this).closest("td").find(".nu").addClass("btn p-1 px-2 m-1 btn-danger text-white font-weight-bold");
+							}
+							else if ($(this).hasClass("an")) {
+								$(this).addClass("btn-warning");
+								$(this).closest("td").find(".nu").text($.trim($(this).text()));
+							}
+							else {
+								$(this).addClass("btn-light");
+							}
+							;
+						});
 
-					$(this).addClass("btn-" + cl + " text-" + tcl);
-					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+						$(".tran").show();
+						$(".nu").show();
+						$(".q").hide();
 
-					$(this).attr("id","done");
+						// 정답 확인 div 상자 배경색 속성 없애기
+						$(this).removeClass("btn-light ");
 
-				};
+						var qa = $(".q").length; // 전체 문항 수
+						var qr = $(".bg-success").length; // 맞춘 항목 수
+						var pe = (qr / qa) * 100; // 정답 비율
+						var tcl = "white"; // 기본 문자색
+
+						// 분류 기준은 100%, 80%, 60%, 40%
+						if(pe > 99) {
+							var st = "원어민이세요?";
+							var cl = "lime";
+							var tcl = "dark";
+						} else if(pe > 74) {
+							var st = "어! 좀 하시는데요~^^";
+							var cl = "success";
+						} else if(pe > 49) {
+							var st = "쓰읍~ 다시 해 보실까요?";
+							var cl = "primary";
+						} else {
+							var st = "좀 더 분발해 주세요~";
+							var cl = "danger";
+						}
+
+						$(this).addClass("btn-" + cl + " text-" + tcl);
+						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
+						$(this).attr("id","done");
+
+					};
+				});
+
+				$(".alert").hide();
+			
+
 			});
-
-			$(".alert").hide();
-		}
-	});
-});
 	
 			
 		</script>
-		<!-- ion.sound finished -->
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

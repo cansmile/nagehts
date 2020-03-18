@@ -105,9 +105,7 @@
 					<h2>Bitte ordnen Sie zu.
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-					❚❚
-					</button>
+					</button><br>
 					<small> 알맞은 도시와 국가를 써보세요. </small>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼을 눌러 듣고 알맞은 위치에 국가와 수도를 짝지우세요.</small> ]</h3>
@@ -315,189 +313,218 @@
 	</section>
 	
 	<div id="marg"></div>
+	<div id="last" class="d-none"></div>
+
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptocompare.js"></script>
+	<script src="./js/taptocompareh.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$("#0").hide();
-		$("#0_p").hide();
 		$(".tran").hide();
 		$("#chk").hide();
 		var cp=new Array();
 		var cp=[19, 16, 12, 13, 9, 11, 17, 18, 5, 20, 6, 3, 4, 15, 14, 2, 7, 8, 1, 10];
 		$(document).ready(function() {
 
-			function checkHeight() {
-				// 좌우 셀 높이 맞추어 주기
-				var tbn = 10; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
-				for(var i = 1; i <= tbn; i++) {
-					if( $("#th-"+i).height() > $("#th-"+(i+tbn)).height() ) {
-						$("#th-"+(i+tbn)).height($("#th-"+i).height());
+function checkHeight() {
+	// 좌우 셀 높이 맞추어 주기
+	var tbn = 10; // 전체 셀의 반 값; 좌측과 우측이 같은 경우
+	for(var i = 1; i <= tbn; i++) {
+		if( $("#th-"+i).height() > $("#th-"+(i+tbn)).height() ) {
+			$("#th-"+(i+tbn)).height($("#th-"+i).height());
+		} else {
+			$("#th-"+(i)).height($("#th-"+(i+tbn)).height());
+		}
+	}
+}
+
+$(document).on("click", function() { checkHeight(); });
+
+// 소리 출력 전역 변수와 함수
+var sen = new Array(), pa = new Array(), he = new Array(), last;
+$(".so").each(function() {
+	var t = $(this);
+	var ti = t.attr("id");
+	sen[ti] = 0;
+	pa[ti] = t.html();
+});
+
+function stopAll() {
+	$(".so").each(function() {
+		$(this).html(pa[$(this).attr("id")]);
+	});
+}
+
+// 문제 재생
+var nagehts = new Howl({
+	src: ["./sounds/Reihe 2/r2 A1.mp3"],
+	sprite : {
+		"0": [2378, 57789],
+		"1": [23474, 1277],
+		"2": [28129, 1240],
+		"3": [30463, 1466],
+		"4": [37155, 1305],
+		"5": [39384, 1258],
+		"6": [18545, 1088],
+		"7": [43709, 1357],
+		"8": [56924, 1284],
+		"9": [41317, 1245],
+		"10": [48010, 1562],
+		"11": [16547, 1309],
+		"12": [32689, 1067],
+		"13": [35021, 1447],
+		"14": [54462, 1245],
+		"15": [52310, 1467],
+		"16": [25869, 1435],
+		"17": [50219, 1197],
+		"18": [58875, 1421],
+		"19": [21467, 1336],
+		"20": [45906, 1203]
+	},
+	html5: true,
+	volume: 1,
+	format: "mp3",
+	preload: true,
+	onloaderror: function() {
+		$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+		console.log("다시 읽어주세요!");
+},
+	onload: function() {
+		// 음성 준비되면 HV 버튼 나타내기 
+		$("#0").show();
+		$(".alert").hide();
+
+		$(".so").on("click", function() {
+				var t = $(this);
+				var ti = t.attr("id");
+
+			if(($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
+				$("#last").text(ti);
+				t.text("■");
+				nagehts.seek();
+				nagehts.play(ti);
+				sen[ti]++;
+	
+				last = ti;
+	
+				$("#cnt-"+ti).text(sen[ti]);
+			} else if(last == ti && nagehts.playing($("div#last").text())) {
+				$("#last").text("");
+				t.html(pa[ti]);
+				nagehts.pause();
+				sen[ti]--;
+				$("#cnt-"+ti).text(sen[ti]);
+			}
+
+		});
+
+		<?php include "wahl.php"; ?>
+
+		// 정답확인
+		$("#chk").on("click", function() {
+			if($(this).attr("id")=="chk") {
+				var na="";
+				if($("#itms").find("button").length < 1) {
+					$(".tran").show();
+
+					// 정답 확인 div 상자 배경색 속성 없애기
+					$(this).removeClass("btn-light ");
+					$(".itm-lst>button").addClass("text-success font-weight-bold");
+
+					var qa = $(".itm-lst").length; // 전체 문항 수
+					var qr = $(".text-success").length; // 맞춘 항목 수
+					var pe = (qr / qa) * 100; // 정답 비율
+					var tcl = "white"; // 기본 문자색
+
+					// 분류 기준은 100%, 80%, 60%, 40%
+					if(pe > 99) {
+						var st = "원어민이세요?";
+						var cl = "lime";
+						var tcl = "dark";
+					} else if(pe > 74) {
+						var st = "어! 좀 하시는데요~^^";
+						var cl = "success";
+					} else if(pe > 49) {
+						var st = "쓰읍~ 다시 해 보실까요?";
+						var cl = "primary";
 					} else {
-						$("#th-"+(i)).height($("#th-"+(i+tbn)).height());
+						var st = "좀 더 분발해 주세요~";
+						var cl = "danger";
 					}
+
+					$(this).addClass("btn-" + cl + " text-" + tcl);
+					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
+					$(this).attr("id","done");
+
+					$(".btn-lg").text().appendTo($(this).closest("td"));
+					$(".btn-lg").remove();
 				}
-			}
-
-			$(document).on("click", function() { checkHeight(); });
-
-			ion.sound( {
-				sounds : [ {
-					name : "r2 A1",
-					sprite: {
-						"0": [10.9, 49.8],
-							"1": [23.7, 1.2],
-							"2": [28.3, 1],
-							"3": [30.8, 1.2],
-							"4": [37.6, .8],
-							"5": [39.6, 1.3],
-							"6": [18.9, .8],
-							"7": [44, 1.2],
-							"8": [57.2, .9],
-							"9": [41.7, .8],
-							"10": [48.6, .7],
-							"11": [16.9, .8],
-							"12": [33, .7],
-							"13": [35.2, 1.3],
-							"14": [54.5, 1.3],
-							"15": [52.6, 1.2],
-							"16": [26.1, 1.2],
-							"17": [46.3, 1],
-							"18": [59, 1.5],
-							"19": [21.7, 1.1],
-							"20": [50.6, .7]
-					}
-				}
-				, {
-					name: "Cartoon_Boing",
-						path: "sounds/"
-				}
-				],
-				path : "sounds/Reihe 2/",
-				preload : true,
-				volume : 1.0,
-				multiplay : false,
-				ended_callback: function (obj) {
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-					}
-					;
-				}
-				,
-				ready_callback: function () {
-					$(".so").on("click", function () {
-						if($(this).attr("id").substr(-2)=="_p") {
-							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r2 A1", {
-								part: "0"
+				else {
+					$("div.itm-lst").each(function(idx) {
+						if( !$(this).find("button").length) {
+							if(na !="") {
+								na +=", ";
 							}
-							);
-							$("#0").show();
-							$(this).hide();
-						}
-						else {
-							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r2 A1", {
-								part: $(this).attr("id")
-							}
-							);
-							// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-							if($(this).attr("id")=="0") {
-								$(this).hide();
-								$("#0_p").show();
-							}
-							;
-						}
-						;
-					}
-					);
-
-					<?php include "wahl.php"; ?>
-
-					// 정답확인
-					$("#chk").on("click", function() {
-						if($(this).attr("id")=="chk") {
-							var na="";
-							if($("#itms").find("button").length < 1) {
-								$(".tran").show();
-
-								// 정답 확인 div 상자 배경색 속성 없애기
-								$(this).removeClass("btn-light ");
-								$(".itm-lst>button").addClass("text-success font-weight-bold");
-
-								var qa = $(".itm-lst").length; // 전체 문항 수
-								var qr = $(".text-success").length; // 맞춘 항목 수
-								var pe = (qr / qa) * 100; // 정답 비율
-								var tcl = "white"; // 기본 문자색
-
-								// 분류 기준은 100%, 80%, 60%, 40%
-								if(pe > 99) {
-									var st = "원어민이세요?";
-									var cl = "lime";
-									var tcl = "dark";
-								} else if(pe > 74) {
-									var st = "어! 좀 하시는데요~^^";
-									var cl = "success";
-								} else if(pe > 49) {
-									var st = "쓰읍~ 다시 해 보실까요?";
-									var cl = "primary";
-								} else {
-									var st = "좀 더 분발해 주세요~";
-									var cl = "danger";
-								}
-
-								$(this).addClass("btn-" + cl + " text-" + tcl);
-								$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
-								$(this).attr("id","done");
-
-								$(".btn-lg").text().appendTo($(this).closest("td"));
-								$(".btn-lg").remove();
-							}
-							else {
-								$("div.itm-lst").each(function(idx) {
-									if( !$(this).find("button").length) {
-										if(na !="") {
-											na +=", ";
-										}
-										na +=(idx+1);
-									}
-								}
-								);
-								alert("모든 문제를 풀어주세요!");
-								// alert(na+"번 문제를 풀어주세요!");
-							}
+							na +=(idx+1);
 						}
 					}
 					);
-					// 준비되면 HV 보이기
-					$("#0").show();
-					$(".alert").hide();
-					$("#th-1").find("h1").remove();
-					$("#11").appendTo($("#th-1>div"));
-					$("#11").addClass("btn-block btn-outline-dark font-weight-bold");
-					$("#11").addClass("border-0");
-					$("#th-11").find("h1").remove();
-					$("#6").appendTo($("#th-11>div"));
-					$("#6").addClass("btn-block btn-outline-dark font-weight-bold");
-					$("#6").addClass("border-0");
-					checkHeight();
+					alert("모든 문제를 풀어주세요!");
+					// alert(na+"번 문제를 풀어주세요!");
 				}
 			}
-			);
+		}
+		);
+		// 준비되면 HV 보이기
+		$("#0").show();
+		$(".alert").hide();
+		$("#th-1").find("h1").remove();
+		$("#11").appendTo($("#th-1>div"));
+		$("#11").addClass("btn-block btn-outline-dark font-weight-bold");
+		$("#11").addClass("border-0");
+		$("#th-11").find("h1").remove();
+		$("#6").appendTo($("#th-11>div"));
+		$("#6").addClass("btn-block btn-outline-dark font-weight-bold");
+		$("#6").addClass("border-0");
+		checkHeight();
+
+	},
+	onend: function() {
+		$("div#last").text("");
+		stopAll();
+		$("#cnt-"+last).text(sen[last]);
+		if(last == 0) {
+			if(sen[last] == 2) {
+				$(".tran").show();
+				$(".so").each(function() {
+					pa[last] = $("#"+last).html();
+				});
+			}
+		} else if(sen[last] == 2) {
+			if($(this).hasClass(".itm")) {
+				$("#"+last).find(".tran").show();
+			}
+			$("#"+last).closest("tr").find(".tran").show();
+			pa[last] = $("#"+last).html();
+		}
+	}
+
+
+});
 		}
 		);
 
+	
 	</script>
-	<!-- ion.sound finished -->
 	<? } ?>
 	<?php include "footer.php"; ?>
 </body>

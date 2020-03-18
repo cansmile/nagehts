@@ -120,7 +120,7 @@
 											<input type="radio" name="options" id="option18" autocomplete="off"><label for="option18">ist</label>
 										</div>
 									</div>
-								Herr Kim Chul?</span><span class="tran"><br><small>누가 김 철 선생님이신가요?</small></span></div></td>
+								Herr Kim Chul?</div></span><span class="tran"><br><small>누가 김 철 선생님이신가요?</small></span></td>
 							<td><span class="sen"><div>Das <span class="nu"></span> 
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-10">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
@@ -223,37 +223,15 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-		<!-- interact.min.js -->
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<!-- 맞고 틀리는지 소리 -->
+		<?php require_once("./oxsound.php"); ?>
 		<script>
 			$(".tran").hide();
 			$(".nu").hide();
 
 
 			$(document).ready(function() {
-
-				ion.sound({
-					sounds : [{
-						name : "dingdongdang"
-					}, {
-						name : "Cartoon_Boing"
-					}],
-					path : "sounds/",
-					preload : true,
-					volume : 1.0,
-					multiplay : true,
-	});
-
-
-				$(".o").on("click", function() {
-					ion.sound.play("dingdongdang");
-				});
-
-				$(".x").on("click", function() {
-					ion.sound.play("Cartoon_Boing");
-				});
-
 				$("[data-toggle='popover']").popover({
 					delay : {
 						'hide' : 1000
@@ -268,7 +246,7 @@
 						$(this).addClass("btn-warning");
 						$(this).parent().children().removeClass("btn-light");
 					};
-	
+
 					
 				});
 				
@@ -356,10 +334,9 @@
 			});
 		$(".alert").hide();
 			
-});
+		});
 			
 		</script>
-		<!-- ion.sound finished -->
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

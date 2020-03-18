@@ -38,8 +38,6 @@
 					<h2>전체듣기
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-					❚❚
 					</button>
 					<br>
 					<small>2번 들으면 번역이 나옵니다.</small>
@@ -54,7 +52,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="prev">
 					<table class="table table-light">
-						<tbody>
+						<tbody>	
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="1" class="so btn btn-danger">▶</button></th>
 								<td>Hallo, ich bin Anna Müller. <span class="tran">&nbsp;<br><small>안녕하세요, 저는 안나 뮐러에요.</small></span></td>
@@ -168,164 +166,91 @@
 	</section>
 	
 	<div id="marg"></div>
-	
+	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$("#0").hide();
-		$("#0_p").hide();
 		$("#chk").hide();
 		$(".tran").hide();
-		$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm=new Array(), sen=new Array();
-			for(i=0;
-			i < $(".so").length;
-			i++) {
-				hm[i]=0;
-				sen[i]=0;
+		$(document).ready(function() {// 소리 출력 전역 변수와 함수
+			var sen = new Array(), pa = new Array(), he = new Array(), last;
+			$(".so").each(function() {
+				var t = $(this);
+				var ti = t.attr("id");
+				sen[ti] = 0;
+				pa[ti] = t.html();
+			});
+
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				});
 			}
-			ion.sound( {
-				sounds : [ {
-					name : "r2 A4 A5",
-					sprite : {
-						"0": [8.4, 24.2],
-							"1": [8.6, 2.5],
-							"2": [11.8, 2.3],
-							"3": [14.8, 2.2],
-							"4": [17.7, 1.8],
-							"5": [20.4, 1.8],
-							"6": [22.9, 1.6],
-							"7": [25.3, 1.7],
-							"8": [27.7, 2.5],
-							"9": [30.4, 2],
-							"10": [21.6, .6],
-							"11": [18.7, .8],
-							"12": [26.3, .6],
-							"13": [29.3, .8],
-							"14": [31.9, .6]
-					}
-				}
-				, {
-					name: "dingdongdang",
-						path: "sounds/"
-				}
-				, {
-					name: "Cartoon_Boing",
-						path: "sounds/"
-				}
-				],
-				path : "sounds/Reihe 2/",
-				preload : true,
-				volume : 1.0,
-				multiplay: false,
-				ended_callback: function(obj) {
-					// 재생이 끝날 때 2번 이상이면 번역 보이기
-					hmn=obj.part;
-					hm[hmn]++;
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-						if(hm[hmn] > 1) {
-							$(".tran").show();
+
+			// 문제 재생
+			var nagehts = new Howl({
+				src: ["./sounds/Reihe 2/r2 A4 A5.mp3"],
+				sprite : {
+					"0": [1397, 31190],
+					"1": [8316, 2645],
+					"2": [11433, 2784],
+					"3": [14366, 2750],
+					"4": [17303, 2264],
+					"5": [20025, 2236],
+					"6": [22468, 2048],
+					"7": [24826,  2065],
+					"8": [27393, 2773],
+					"9": [29969, 2579],
+					"10": [36141, 1135],
+					"11": [34180, 1415],
+					"12": [37797, 1149],
+					"13": [39499, 1337],
+					"14": [41409, 1058]
+				},
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				},
+				onload: function() {
+					// 음성 준비되면 HV 버튼 나타내기 
+					$("#0").show();
+					$(".alert").hide();
+
+					$(".so").on("click", function() {
+							var t = $(this);
+							var ti = t.attr("id");
+
+						if(($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ti]++;
+				
+							last = ti;
+				
+							$("#cnt-"+ti).text(sen[ti]);
+						} else if(last == ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ti]);
+							nagehts.pause();
+							sen[ti]--;
+							$("#cnt-"+ti).text(sen[ti]);
 						}
-					}
-					else {
-						if(obj.part < 10) {
-							$("#"+obj.part).html("▶");
-						}
-						if(hm[hmn] > 1) {
-							$("#"+hmn).closest("tr").find(".tran").show();
-						}
-					}
-				}
-				, ready_callback: function () {
-					$(".o").on("click", function() {
-						ion.sound.play("dingdongdang");
-					}
-					);
-					$(".x").on("click", function() {
-						ion.sound.play("Cartoon_Boing");
-					}
-					);
-					$("[data-toggle='popover']").popover( {
-						delay : {
-							'hide': 1000
-						}
-						,
-						container : "body"
-					}
-					);
-					$(".pop").click(function () {
-						// 가장 먼저 지문에 'an' 넣기
-						if ( !$(this).siblings().hasClass("an")) {
-							$(this).addClass("an");
-							$(this).addClass("btn-warning");
-							$(this).parent().children().removeClass("btn-light");
-						}
-						;
-						// 문제 풀이 정도 업데이트
-						var perc=Math.round(($(".an").length / $(".q").length) * 100);
-						$(".progress>.bar").attr("width", perc + "%;");
-					}
-					);
-					// 팝업 내용 사라지기
-					$(".pop").popover().click(function() {
-						setTimeout(function() {
-							$(".pop").popover('hide');
-						}
-						, 500);
-					}
-					);
-					$(".so").on("click", function () {
-						if($(this).attr("id").substr(-2)=="_p") {
-							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r2 A4 A5", {
-								part: "0"
-							}
-							);
-							$("#0").show();
-							$(this).hide();
-						}
-						else if($(this).html()=="▶") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.play("r2 A4 A5", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("❚❚");
-						}
-						else if($(this).html()=="❚❚") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r2 A4 A5", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("▶");
-						}
-						else {
-							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r2 A4 A5", {
-								part: $(this).attr("id")
-							}
-							);
-							// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-							if($(this).attr("id")=="0") {
-								$(this).hide();
-								$("#0_p").show();
-							}
-							;
-						}
-						;
-					}
-					);
+
+					});
+
 
 					<?php include "wahl.php"; ?>
 
@@ -386,11 +311,30 @@
 						}
 					}
 					);
-					$("#0").show();
-					$(".alert").hide();
+
+				},
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(last == 0) {
+						if(sen[last] == 2) {
+							$(".tran").show();
+							$(".so").each(function() {
+								pa[last] = $("#"+last).html();
+							});
+						}
+					} else if(sen[last] == 2) {
+						if($(this).hasClass(".itm")) {
+							$("#"+last).find(".tran").show();
+						}
+						$("#"+last).closest("tr").find(".tran").show();
+						pa[last] = $("#"+last).html();
+					}
 				}
-			}
-			);
+
+
+			});
 		}
 		);
 

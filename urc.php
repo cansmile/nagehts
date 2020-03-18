@@ -30,6 +30,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
 				// echo("<br>".$q."<br>");
+				$done++;
 			}
 			if($r[0] == "a:1:{s:7:\"student\";b:1;}") {
 				$done++;

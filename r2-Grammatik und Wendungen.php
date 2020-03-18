@@ -29,19 +29,19 @@
 										<th class="text-center bg-light" scope="col">대답</th>
 									</tr>
 									<tr>
-										<th class="bg-light" scope="row"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Woher</strong> kommen Sie?</th>
+										<td class="bg-light"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Woher</strong> kommen Sie?</td>
 										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>Ich komme <strong>aus</strong> Deutschland.</td>
 									</tr>
 									<tr>
-										<th scope="row"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Wo</strong> wohnen Sie?</th>
-										<td class="bg-light"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>Ich wohne <strong>in</strong> München.</td>
+										<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Wo</strong> wohnen Sie?</th>
+										<td class="bg-light"><button type="button" id="5" class="so btd btn-outline-dark btn-sm mr-2 my-auto">▶</button>Ich wohne <strong>in</strong> München.</td>
 									</tr>
 									<tr>
-										<th scope="row"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Welche</strong> Sprachen sprechen Sie?</th>
+										<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Welche</strong> Sprachen sprechen Sie?</td>
 										<td class="bg-light"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>Ich spreche Detusch und Englisch.</td>
 									</tr>
 									<tr>
-										<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>Wo <strong>liegt</strong> Ghana?</th>
+										<td class="bg-light"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Wo</strong> liegt Ghana?</td>
 										<td><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>Ghana liegt <strong>in</strong> Westafrika.</td>
 									</tr>
 								</table>
@@ -66,16 +66,36 @@
 										<th class="text-center bg-light" scope="col">대답</th>
 									</tr>
 									<tr>
-										<td class="bg-light" scope="row"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Kommen</strong> Sie aus Japan?</td>
-										<td><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</td>
+										<td class="bg-light" scope="row"><div class="row">
+											<div class="col-2">
+												<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+											</div><div class="col-10"><strong>Kommen</strong> Sie aus Japan?</div>
+										</div></td>
+										<td><div class="row"><div class="col-2">
+												<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+											</div><div class="col-10"><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</div></div></td>
 									</tr>
 									<tr>
-										<td scope="row"><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Wohnen</strong> Sie in Seoul?</td>
-										<td class="bg-light"><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</td>
+										<td scope="row"><div class="row">
+											<div class="col-2">
+												<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+											</div><div class="col-10"><strong>Wohnen</strong> Sie in Seoul?</div>
+										</div></td>
+										<td class="bg-light"><div class="row"><div class="col-2">
+												<button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+											</div><div class="col-10"><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light" scope="row"><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Liegt</strong> Frankreich in Europa?</td>
-										<td><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button><strong>Ja</strong>, es liegt in Europa.</td>
+										<td class="bg-light" scope="row"><div class="row">
+											<div class="col-2">
+												<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+											</div><div class="col-10"><strong>Liegt</strong> Frankreich in Europa?</div>
+										</div></td>
+										<td><div class="row">
+											<div class="col-2">
+												<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+											</div><div class="col-10"><strong>Ja</strong>, es liegt in Europa.</div>
+										</div></td>
 									</tr>
 									<tr>
 										<th scope="row" colspan="2" class="text-right">* nicht<small>는 부정어로서 영어의 </small>not<small>을 의미한다</small>.</th>

@@ -73,24 +73,14 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/taptogrouph.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$(".tran").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
-			ion.sound( {
-				sounds : [ {
-					name: "Cartoon_Boing",
-				}
-				],
-				path : "sounds/",
-				preload : true,
-				volume : 1.0,
-				multiplay : false
-			}
-			);
 			// 정답확인
 			$("#chk").on("click", function() {
 				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
@@ -102,7 +92,7 @@
 							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
 						}
 						$(".tran").show();
-if($(this).hasClass("ans"+ (a))) {
+							if($(this).hasClass("ans"+ (a))) {
 							$(this).addClass("text-success font-weight-bold");
 						}
 						else {
@@ -183,7 +173,6 @@ if($(this).hasClass("ans"+ (a))) {
 		);
 
 	</script>
-	<!-- ion.sound finished -->
 	<?php include "footer.php"; ?>
 	<? } ?>
 </body>

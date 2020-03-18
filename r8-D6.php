@@ -13,11 +13,11 @@
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm px-3" id="1">
 					Nimm doch Hustensaft!
-					<span class="tran"><br><small>기침 시럽 복용!</small>
+					<span class="tran"><br><small>기침약 먹어라!</small>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm px-3" id="2">
 					Lernt nicht viel und geht spazieren!
-					<span class="tran"><br><small>(너희들) 많이 공부하지 말고 산책가거라!</small>
+					<span class="tran"><br><small>(너희들) 공부 많이하지 말고 산책하러가!</small>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm px-3" id="3">
 					Seien Sie bitte ruhig!
@@ -25,11 +25,11 @@
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm px-3" id="4">
 					Geh zum Arzt!
-					<span class="tran"><br><small>의사에게 가거라(너)!</small>
+					<span class="tran"><br><small>의사에게 가봐라(너)!</small>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm px-3" id="5">
 					Habt keine Angst!
-					<span class="tran"><br><small>두려워하지 말아라(너희들)!</small>
+					<span class="tran"><br><small>걱정하지 마(너희들)!</small>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm px-3" id="6">
 					Trinken Sie Kamillentee!
@@ -37,7 +37,7 @@
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm px-3" id="7">
 					Machen Sie Rückengymnastik!
-					<span class="tran"><br><small>허리 운동하세요!</small>
+					<span class="tran"><br><small>허리운동 하세요!</small>
 				</button>
 			</div>
 		</div>
@@ -110,7 +110,7 @@
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">5.</th>
 									<td class="border-0 align-middle">nervös (wir)
-									<span class="tran"><br><small>긴장 (우리)</small></span></td>
+									<span class="tran"><br><small>긴장한 (우리)</small></span></td>
 									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-5">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -121,7 +121,7 @@
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">6.</th>
 									<td class="border-0 align-middle">Prüfung (wir)
-									<span class="tran"><br><small>검사 (우리)</small></span></td>
+									<span class="tran"><br><small>시험 (우리)</small></span></td>
 									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-6">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -132,7 +132,7 @@
 								<tr>
 									<th width="50" class="border-0 align-middle" scope="col">7.</th>
 									<td class="border-0 align-middle">zu laut (Studenten)
-									<span class="tran"><br><small>큰 소리 (학생)</small></span></td>
+									<span class="tran"><br><small>너무 시끄러운 (학생)</small></span></td>
 									<td class="border-0 align-middle">
 										<div class="itm-lst 1itm" id="lst-7">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -321,7 +321,7 @@
 
 				$(".itm-lst").each(function() {
 					if($(this).find("button.btn")) {
-						$(this).find("button.btn").addClass("text-success");
+						$(this).find("button.btn").addClass("text-success font-weight-bold");
 					}
 				});
 
@@ -377,7 +377,7 @@
 				$(".itm").each(function() {
 					if($(this).hasClass("ans" + pan[p])) {
 						$("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-						$("#lst-" + pan[p] + ">.itm").addClass("btn-block font-weight-bold");
+						$("#lst-" + pan[p] + ">.itm").addClass("btn-block");
 						$("#lst-" + pan[p] + ">h2").remove();
 						// $("#lst-" + pan[p]).closest("table").find(".tran").show();
 					}

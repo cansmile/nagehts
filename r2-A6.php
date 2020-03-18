@@ -14,8 +14,6 @@
 					<small>어느 것이 옳은지 체크해보세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-					❚❚
 					</button>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
@@ -26,14 +24,14 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center align-middle"><button type="button" id="18" class="so btn btn-danger btn-lg">▶</button></th>
+								<th scope="col" class="text-center align-middle"><button type="button" id="18" class="btn btn-danger btn-lg">▶</button></th>
 								<td colspan="2" class="so text-center text-white bg-danger align-middle" height="20px"><h3>Dialog 1</h3></td>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></th>
-								<td><span class="sen">Ich heiß<span class="nu">①</span>
+								<th scope="row"><button type="button" id="1" class="btn btn-outline-danger">▶</button></th>
+								<td><span class="sen">Ich heiß<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-1">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1">e</label>
@@ -50,7 +48,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></th>
-								<td><span class="sen">Ich komm<span class="nu">②</span>
+								<td><span class="sen">Ich komm<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-2">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4">e</label>
@@ -66,7 +64,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="3" class="so btn btn-outline-danger">▶</button></th>
-								<td><span class="sen">Ich wohn<span class="nu">③</span>
+								<td><span class="sen">Ich wohn<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-3">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option7" autocomplete="off"><label for="option7">e</label>
@@ -86,7 +84,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="5" class="so btn btn-outline-danger">▶</button></th>
-								<td><span class="sen">Er wohn<span class="nu">④</span>
+								<td><span class="sen">Er wohn<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-4">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option10" autocomplete="off"><label for="option10">e</label>
@@ -114,7 +112,7 @@
 						<tbody>
 							<tr>
 								<td><button type="button" id="6" class="so btn btn-outline-warning">▶</button></td>
-								<td><span class="sen">Ich heiß<span class="nu">⑤</span>
+								<td><span class="sen">Ich heiß<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-5">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option13" autocomplete="off"><label for="option13">e</label>
@@ -135,7 +133,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="8" class="so btn btn-outline-warning">▶</button></th>
-								<td><span class="sen">Ich wohn<span class="nu">⑥</span>
+								<td><span class="sen">Ich wohn<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-6">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option16" autocomplete="off"><label for="option16">e</label>
@@ -151,7 +149,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="9" class="so btn btn-outline-warning">▶</button></th>
-								<td><span class="sen">Aber ich komm<span class="nu">⑦</span>
+								<td><span class="sen">Aber ich komm<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-7">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option19" autocomplete="off"><label for="option19">e</label>
@@ -171,7 +169,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="11" class="so btn btn-outline-warning">▶</button></th>
-								<td><span class="sen">Sie heiß<span class="nu">⑧</span>
+								<td><span class="sen">Sie heiß<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-8">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option22" autocomplete="off"><label for="option22">e</label>
@@ -187,7 +185,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="12" class="so btn btn-outline-warning">▶</button></th>
-								<td><span class="sen">und wohn<span class="nu">⑨</span>
+								<td><span class="sen">und wohn<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-9">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option25" autocomplete="off"><label for="option25">e</label>
@@ -215,7 +213,7 @@
 						<tbody>
 							<tr>
 								<th scope="row"><button type="button" id="13" class="so btn btn-outline-primary">▶</button></th>
-								<td><span class="sen">Ich komm<span class="nu">⑩</span>
+								<td><span class="sen">Ich komm<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-10">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option28" autocomplete="off"><label for="option28">e</label>
@@ -232,7 +230,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="14" class="so btn btn-outline-primary">▶</button></th>
-								<td><span class="sen">Ich wohn<span class="nu">⑪</span>
+								<td><span class="sen">Ich wohn<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-11">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option31" autocomplete="off"><label for="option31">e</label>
@@ -252,7 +250,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="16" class="so btn btn-outline-primary">▶</button></th>
-								<td><span class="sen">Er komm<span class="nu">⑫</span>
+								<td><span class="sen">Er komm<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-12">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option34" autocomplete="off"><label for="option34">e</label>
@@ -268,7 +266,7 @@
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="17" class="so btn btn-outline-primary">▶</button></th>
-								<td><span class="sen">aber wohn<span class="nu">⑬</span>
+								<td><span class="sen">aber wohn<span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-left-0 border-top-0 border-right-0 q" data-toggle="buttons" id="qst-13">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option37" autocomplete="off"><label for="option37">e</label>
@@ -295,176 +293,97 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
+	
+		<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$("#0").hide();
-		$("#0_p").hide();
 		$(".tran").hide();
-		$(".nu").hide();
-		$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm=new Array(), sen=new Array();
-			for(i=0;
-			i < $(".so").length;
-			i++) {
-				hm[i]=0;
-				sen[i]=0;
+		$(document).ready(function() {// 소리 출력 전역 변수와 함수
+			var sen = new Array(), pa = new Array(), he = new Array(), last;
+			$(".so").each(function() {
+				var t = $(this);
+				var ti = t.attr("id");
+				sen[ti] = 0;
+				pa[ti] = t.html();
+			});
+
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				});
 			}
-			ion.sound( {
-				sounds : [ {
-					name : "r2 A6",
-					sprite : {
-						"0": [7.8, 69],
-							"1": [7.7, 1.6],
-							"2": [12.1, 2.7],
-							"3": [17.1, 2.4],
-							"4": [21.9, 2.2],
-							"5": [26.2, 2],
-							"6": [31.8, 1.7],
-							"7": [35.3, 3],
-							"8": [40.3, 1.5],
-							"9": [42, 1.9],
-							"10": [48.3, 1.7],
-							"11": [52.4, 1.4],
-							"12": [53.9, 1.2],
-							"13": [59.2, 2.2],
-							"14": [63.9, 2.3],
-							"15": [68.5, 2],
-							"16": [72.8, 1.5],
-							"17": [74.6, 1.8],
-							"18": [7.8, 21],
-							"19": [31.5, 24],
-							"20": [59.3, 17.3]
-					}
-				}
-				, {
-					name: "dingdongdang",
-						volume: 0.25,
-						path: "sounds/"
-				}
-				, {
-					name: "Cartoon_Boing",
-						volume: 0.25,
-						path: "sounds/"
-				}
-				],
-				path : "sounds/Reihe 2/",
-				preload : true,
-				multiplay: false,
-				ended_callback: function(obj) {
-					// 재상이 끝날 때 2번 이상이면 번역 보이기
-					hmn=obj.part;
-					hm[hmn]++;
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-						if(hm[hmn] > 1) {
-							$(".tran").show();
-						}
-					}
-					else {
-						$("#"+obj.part).html("▶");
-						if(hm[hmn] > 1) {
-							if(hmn==18 || hmn==19 || hmn==20) {
-								$("#"+hmn).closest("table").find(".tran").show();
-							}
-							else {
-								$("#"+hmn).closest("tr").find(".tran").show();
-							}
-						}
-					}
-				}
-				, ready_callback: function () {
-					$(".o").on("click", function() {
-						ion.sound.play("dingdongdang");
-					}
-					);
-					$(".x").on("click", function() {
-						ion.sound.play("Cartoon_Boing");
-					}
-					);
-					$("[data-toggle='popover']").popover( {
+
+			// 문제 재생
+			var nagehts = new Howl({
+				src: ["./sounds/Reihe 2/r2 A6.mp3"],
+				sprite : {
+					"0": [1166, 75214],
+					"1": [7482, 1779],
+					"2": [12024, 2227],
+					"3": [16926, 2252],
+					"4": [21968, 1800],
+					"5": [26000, 1899],
+					"6": [31557, 1889],
+					"7": [35254, 2634],
+					"8": [39800, 1970],
+					"9": [41885, 2189],
+					"10": [47976, 1702],
+					"11": [52014, 1700],
+					"12": [54132, 1738],
+					"13": [59010, 2128],
+					"14": [63783, 2102],
+					"15": [78487, 1858],
+					"16": [72335, 1870],
+					"17": [74257, 2125],
+					"18": [7554, 20590],
+					"19": [31348, 23923],
+					"20": [58938, 17350]
+				},
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				},
+				onload: function() {
+					$("[data-toggle='popover']").popover({
 						delay : {
-							'hide': 1000
-						}
-						,
+							'hide' : 1000
+						},
 						container : "body"
-					}
-					);
+					});
+				
 					$(".pop").click(function () {
 						// 가장 먼저 지문에 'an' 넣기
-						if ( !$(this).siblings().hasClass("an")) {
+						if (!$(this).siblings().hasClass("an")) {
 							$(this).addClass("an");
 							$(this).addClass("btn-warning");
 							$(this).parent().children().removeClass("btn-light");
-						}
-						;
+						};
+		
 						// 문제 풀이 정도 업데이트
-						var perc=Math.round(($(".an").length / $(".q").length) * 100);
+						var perc = Math.round(($(".an").length / $(".q").length) * 100);
 						$(".progress>.bar").attr("width", perc + "%;");
-					}
-					);
+						
+					});
+					
 					// 팝업 내용 사라지기
 					$(".pop").popover().click(function() {
 						setTimeout(function() {
 							$(".pop").popover('hide');
-						}
-						, 500);
-					}
-					);
-					$(".so").on("click", function () {
-						if($(this).attr("id").substr(-2)=="_p") {
-							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r2 A6", {
-								part: "0"
-							}
-							);
-							$("#0").show();
-							$(this).hide();
-						}
-						else if($(this).html()=="▶") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.play("r2 A6", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("❚❚");
-						}
-						else if($(this).html()=="❚❚") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r2 A6", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("▶");
-						}
-						else {
-							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r2 A6", {
-								part: $(this).attr("id")
-							}
-							);
-							// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-							if($(this).attr("id")=="0") {
-								$(this).hide();
-								if(hm==0) {
-									$(this).closest("div").find("p").hide();
-								}
-								$("#0_p").show();
-							}
-							;
-						}
-						;
-					}
-					);
+						}, 500);
+					});
+
 					// 정답확인
 					$("#chk").on("click", function() {
 							if ($(".an").length < $(".q").length) {
@@ -552,14 +471,46 @@
 						$(pani).addClass("btn-warning");
 						$(pani).removeClass("btn-light");
 					}
+
+				$(".so").on("click", function() {
+						var t = $(this);
+						var ti = t.attr("id");
+
+					if(($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
+						$("#last").text(ti);
+						t.text("■");
+						nagehts.seek();
+						nagehts.play(ti);
+						sen[ti]++;
+			
+						last = ti;
+			
+						$("#cnt-"+ti).text(sen[ti]);
+					} else if(last == ti && nagehts.playing($("div#last").text())) {
+						$("#last").text("");
+						t.html(pa[ti]);
+						nagehts.pause();
+						sen[ti]--;
+						$("#cnt-"+ti).text(sen[ti]);
+					}
+
+				});
+
+
+				},
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
 				}
-			}
-			);
+
+
+			});
 		}
 		);
 
+		
 	</script>
-	<!-- ion.sound finished -->
 	<? } ?>
 	<?php include "footer.php"; ?>
 </body>

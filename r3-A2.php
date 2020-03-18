@@ -112,17 +112,17 @@
 												<input type="radio" name="options" id="option2" autocomplete="off">meine
 											</div>
 										</div><span class="ans"> </span></span> Großeltern, <span class="sen"><span class="nu"> </span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-2">
-											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option1" autocomplete="off">mein
 											</div>
-											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option2" autocomplete="off">meine
 											</div>
 										</div><span class="ans"> </span></span> Opa und <span class="sen"><span class="nu"> </span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-3">
-											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option1" autocomplete="off">mein
 											</div>
-											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option2" autocomplete="off">meine
 											</div>
 										</div><span class="ans"> </span></span> Oma.<span class="tran"><br><small>이 분들은 저의 조부모님들, 저의 할아버지와 저의 할머니세요. </small></span></td>
@@ -134,10 +134,10 @@
 							<tr>
 								<th class="border-0" scope="row"><button type="button" id="4" class="so btn btn-outline-danger text-center">▶</button></th>
 								<td class="border-0">Mein Opa ist Pfarrer und <span class="sen"><span class="nu"> </span><div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-inline-flex" data-toggle="buttons" id="qst-4">
-											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
+											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 												<input type="radio" name="options" id="option1" autocomplete="off">mein
 											</div>
-											<div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
+											<div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 												<input type="radio" name="options" id="option2" autocomplete="off">meine
 											</div>
 										</div><span class="ans"> </span></span> Oma ist Lehrerin.<span class="tran"><br><small>저의 할아버지께서는 목사님이시고 저의 할머니는 선생님이세요.</small></span></td>

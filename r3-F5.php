@@ -237,9 +237,8 @@
 		</div>
 	</section>
 
-<!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
-<!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
-
+	<div id="marg"></div>
+	
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -53,19 +53,19 @@
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					<h3>[ <small>듣고 알맞은 위치에 단어를 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table" style="min-height: 100%;"><tr><td class="align-middle border-0"><img src="./images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 100%; height: auto;" alt="Dooly"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 100%; height: auto;" alt="Dooly"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
-					<table class="table table-light text-center">
+					<table class="table table-borderless table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="22" class="so btn btn-danger btn-lg">▶</button></th>
-							<td class="so text-center bg-danger text-white" height="25px"><h3>Dooly</h3></td>
+							<td class="text-center bg-danger text-white" height="25px"><h3>Dooly</h3></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-danger">▶</button></th>
@@ -101,13 +101,13 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table" style="min-height: 100%;"><tr><td class="align-middle border-0"><img src="./images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 100%; height: auto;" alt="Kleopatra"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 100%; height: auto;" alt="Kleopatra"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
-					<table class="table table-light text-center">
+					<table class="table table-borderless table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="23" class="so btn btn-info btn-lg">▶</button></th>
-							<td class="so text-center bg-info text-white" height="25px"><h3>Kleopatra</h3></td>
+							<td class="text-center bg-info text-white" height="25px"><h3>Kleopatra</h3></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="14" class="so btn btn-info">▶</button></th>
@@ -143,13 +143,13 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table" style="min-height: 100%;"><tr><td class="align-middle border-0"><img src="./images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 100%; height: auto;" alt="Mickey Mouse"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 100%; height: auto;" alt="Mickey Mouse"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
-					<table class="table table-light text-center">
+					<table class="table table-borderless table-light text-center">
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="24" class="so btn btn-primary btn-lg">▶</button></th>
-							<td class="so text-center bg-primary text-white" height="25px"><h3>Mickey Mouse</h3></td>
+							<td class="text-center bg-primary text-white" height="25px"><h3>Mickey Mouse</h3></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="18" class="so btn btn-primary">▶</button></th>
@@ -194,24 +194,24 @@
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col-12">
-					<table class="table table-striped text-center">
+					<table class="table table-borderless table-sm table-striped text-center">
 						<thead>
 							<tr>
-								<th class="border-0 text-left" scope="col"><span class="bg-lime font-weight-bold p-1 px-2 m-1 rounded">TIPP</span></th>
+								<th class="text-left" scope="col"><span class="bg-lime font-weight-bold p-1 px-2 m-1 rounded">TIPP</span></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th class="border-0" scope="row">ich</th>
-								<td class="border-0">spreche</td>
+								<th scope="row">ich</th>
+								<td>spreche</td>
 							</tr>
 							<tr>
-								<th class="border-0" scope="row">er/sie</th>
-								<td class="border-0">spricht</td>
+								<th scope="row">er/sie</th>
+								<td>spricht</td>
 							</tr>
 							<tr>
-								<th class="border-0" scope="row">Sie</th>
-								<td class="border-0">sprechen</td>
+								<th scope="row">Sie</th>
+								<td>sprechen</td>
 							</tr>
 						</tbody>
 					</table>

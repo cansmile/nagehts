@@ -27,7 +27,7 @@
 
 				<div class="row">
 					<div class="col-12">
-						<table class="table">
+						<table class="table table-borderless">
 							<thead>
 								<tr>
 									<th colspan="2" class="text-center" height="100px"><img src="./images/Reihe 1/Reihe-1-D1-1.png" alt="Deutschunterricht" style="max-width: 100%; height: auto;"></th>
@@ -233,7 +233,7 @@
 
 
 		<div class="row">
-			<table class="table border-0">
+			<table class="table table-borderless table-sm">
 				<tbody>
 					<tr>
 						<th scope="row" class="border-top-0">

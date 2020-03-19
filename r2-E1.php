@@ -22,23 +22,23 @@
 						</table>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-						<table class="table table-responsive">
+						<table class="table table-borderless table-responsive">
 							<tbody>
 								<tr>
-									<th class="border-top-0 border-bottom-0">1.</th>
-									<td class="border-top-0 border-bottom-0">Peter kommt<span class="tran"><br><small>피터는 <strong>독일에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>1.</th>
+									<td>Peter kommt<span class="tran"><br><small>피터는 <strong>독일에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-1"></div>
 										<div class="input-group">
-											<input type="text" placeholder="Antw ort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-1">
+											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-1">
 											.
 										</div>
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">2.</th>
-									<td class="border-top-0 border-bottom-0">Lucia kommt<span class="tran"><br><small>루시아는 <strong>스페인에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>2.</th>
+									<td>Lucia kommt<span class="tran"><br><small>루시아는 <strong>스페인에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-2"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-2">
@@ -47,9 +47,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">3.</th>
-									<td class="border-top-0 border-bottom-0">Ivan kommt<span class="tran"><br><small>이반은 <strong>러시아에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>3.</th>
+									<td>Ivan kommt<span class="tran"><br><small>이반은 <strong>러시아에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-3"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-3">
@@ -58,9 +58,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">4.</th>
-									<td class="border-top-0 border-bottom-0">Merve kommt<span class="tran"><br><small>메릐베는 <strong>터키에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>4.</th>
+									<td>Merve kommt<span class="tran"><br><small>메릐베는 <strong>터키에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-4"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-4">
@@ -69,9 +69,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">5.</th>
-									<td class="border-top-0 border-bottom-0">Arthur kommt<span class="tran"><br><small>아서는 <strong>브라질에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>5.</th>
+									<td>Arthur kommt<span class="tran"><br><small>아서는 <strong>브라질에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-5"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-5">
@@ -80,9 +80,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">6.</th>
-									<td class="border-top-0 border-bottom-0">Diana kommt<span class="tran"><br><small>다이아나는 <strong>그리스에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>6.</th>
+									<td>Diana kommt<span class="tran"><br><small>다이아나는 <strong>그리스에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-6"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-6">
@@ -91,9 +91,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">7.</th>
-									<td class="border-top-0 border-bottom-0">Arti kommt<span class="tran"><br><small>아르티는 <strong>수단에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>7.</th>
+									<td>Arti kommt<span class="tran"><br><small>아르티는 <strong>수단에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-7"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-7">
@@ -102,9 +102,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">8.</th>
-									<td class="border-top-0 border-bottom-0">Linh kommt<span class="tran"><br><small>린은 <strong>베트남에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>8.</th>
+									<td>Linh kommt<span class="tran"><br><small>린은 <strong>베트남에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-8"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-8">
@@ -113,9 +113,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">9.</th>
-									<td class="border-top-0 border-bottom-0">Xiao kommt<span class="tran"><br><small>샤오는 <strong>중국에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>9.</th>
+									<td>Xiao kommt<span class="tran"><br><small>샤오는 <strong>중국에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-9"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon9" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-9">
@@ -124,9 +124,9 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">10.</th>
-									<td class="border-top-0 border-bottom-0">Vanessa kommt<span class="tran"><br><small>바네사는 <strong>우크라이나에서</strong> 왔다.</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th>10.</th>
+									<td>Vanessa kommt<span class="tran"><br><small>바네사는 <strong>우크라이나에서</strong> 왔다.</small></span></td>
+									<td>
 										<div class="ant" id="ant-10"></div>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon10" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 px-1" style="position: relative; top: -6px;" id="qst-10">
@@ -259,8 +259,10 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<!-- 맞고 틀리는지 소리 -->
+		<?php require_once("./oxsound.php"); ?>
+
 		<script>
 			$("td").addClass("py-2 align-middle");
 			$("th").addClass("align-middle");
@@ -366,9 +368,9 @@ function rfchk(th,io) {
 					}
 					if($(this).val()) {
 						if($(this).hasClass("bg-danger")) {
-							ion.sound.play("Cartoon_Boing");
+							x.play();
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("dingdongdang");
+							o.play();
 							$(this).prop("disabled",true);
 						}
 					}
@@ -493,7 +495,6 @@ function rfchk(th,io) {
 			});
 
 		</script>
-		<!-- ion.sound finished -->
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

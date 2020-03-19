@@ -120,7 +120,7 @@
 			</div>
 			<div class="row" id="lsts">
 				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 mt-1">
-					<table class="table text-center">
+					<table class="table table-borderless text-center">
 						<thead>
 							<tr>
 								<th class="text-center bg-info"> Länder 국가</th>
@@ -128,7 +128,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-1">
+								<th scope="row" class="align-middle" id="th-1">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -136,7 +136,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-2">
+								<th scope="row" class="align-middle" id="th-2">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -144,7 +144,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-3">
+								<th scope="row" class="align-middle" id="th-3">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -152,7 +152,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-4">
+								<th scope="row" class="align-middle" id="th-4">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -160,7 +160,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-5">
+								<th scope="row" class="align-middle" id="th-5">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -168,7 +168,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-6">
+								<th scope="row" class="align-middle" id="th-6">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -176,7 +176,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-7">
+								<th scope="row" class="align-middle" id="th-7">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -184,7 +184,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-8">
+								<th scope="row" class="align-middle" id="th-8">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -192,7 +192,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-9">
+								<th scope="row" class="align-middle" id="th-9">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -200,7 +200,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-10">
+								<th scope="row" class="align-middle" id="th-10">
 									<div class="itm-lst 1itm align-middle" id="lst-1">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -211,7 +211,7 @@
 					</table>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 mt-1">
-					<table class="table text-center">
+					<table class="table table-borderless text-center">
 						<thead>
 							<tr>
 								<th class="text-center bg-info"> Hauptstädte 수도 </th>
@@ -219,7 +219,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-11">
+								<th scope="row" class="align-middle" id="th-11">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -227,7 +227,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-12">
+								<th scope="row" class="align-middle" id="th-12">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -235,7 +235,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-13">
+								<th scope="row" class="align-middle" id="th-13">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -243,7 +243,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-14">
+								<th scope="row" class="align-middle" id="th-14">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -251,7 +251,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-15">
+								<th scope="row" class="align-middle" id="th-15">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -259,7 +259,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-16">
+								<th scope="row" class="align-middle" id="th-16">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -267,7 +267,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-17">
+								<th scope="row" class="align-middle" id="th-17">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -275,7 +275,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-18">
+								<th scope="row" class="align-middle" id="th-18">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -283,7 +283,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-19">
+								<th scope="row" class="align-middle" id="th-19">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>
@@ -291,7 +291,7 @@
 								</th>
 							</tr>
 							<tr>
-								<th scope="row" class="align-middle border-0" id="th-20">
+								<th scope="row" class="align-middle" id="th-20">
 									<div class="itm-lst 1itm align-middle" id="lst-2">
 										<h1 class="btn btn-warning cmp btn-xl ttl d-block">
 										▼ </h1>

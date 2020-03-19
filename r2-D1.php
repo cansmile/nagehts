@@ -49,58 +49,58 @@
 			<div class="row text-center">
 				<div class="col"></div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-					<table class="table" style="background-size: 100% 100%; background-repeat: no-repeat; background-image: url('./images/Reihe 2/Reihe-2-D1-0.png')" width="100%">
+					<table class="table table-borderless" style="background-size: 100% 100%; background-repeat: no-repeat; background-image: url('./images/Reihe 2/Reihe-2-D1-0.png')" width="100%">
 						<tbody>
 							<tr>
-								<td class="border-top-0 border-bottom-0" width="10%" colspan="10">&nbsp;</td>
+								<td width="10%" colspan="10">&nbsp;</td>
 							</tr>
 							<tr>
-								<td class="border-top-0 border-bottom-0" colspan="3">
+								<td colspan="3">
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
 									</div>
 								</td>
-								<td class="border-top-0 border-bottom-0">&nbsp;</td>
-								<td class="border-top-0 border-bottom-0" colspan="2">
+								<td>&nbsp;</td>
+								<td colspan="2">
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
 									</div>
 								</td>
-								<td class="border-top-0 border-bottom-0" colspan="3">
+								<td colspan="3">
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
 									</div>
 								</td>
-								<td class="border-top-0 border-bottom-0">&nbsp;</td>
+								<td>&nbsp;</td>
 							</tr>
 							<tr>
-								<td class="border-top-0 border-bottom-0" colspan="10">&nbsp;</td>
+								<td colspan="10">&nbsp;</td>
 							</tr>
 							<tr>
-								<td class="border-top-0 border-bottom-0" colspan="4">&nbsp;</td>
-								<td class="border-top-0 border-bottom-0" colspan="3">
+								<td colspan="4">&nbsp;</td>
+								<td colspan="3">
 									<div class="itm-lst 1itm" id="lst-4">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
 									</div>
 								</td>
-								<td class="border-top-0 border-bottom-0" colspan="3">&nbsp;</td>
+								<td colspan="3">&nbsp;</td>
 							</tr>
 							<tr>
-								<td class="border-top-0 border-bottom-0">&nbsp;</td>
-								<td class="border-top-0 border-bottom-0" colspan="3">
+								<td>&nbsp;</td>
+								<td colspan="3">
 									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
 									</div>
 								</td>
-								<td class="border-top-0 border-bottom-0" colspan="4">&nbsp;</td>
-								<td class="border-top-0 border-bottom-0" colspan="2">
+								<td colspan="4">&nbsp;</td>
+								<td colspan="2">
 									<div class="itm-lst 1itm" id="lst-6">
 										<h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
 									</div>
 								</td>
 							</tr>
 							<tr>
-								<td class="border-top-0 border-bottom-0" colspan="10">&nbsp;</td>
+								<td colspan="10">&nbsp;</td>
 							</tr>
 						</tbody>
 					</table>
@@ -124,8 +124,10 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/taptogrouph.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$(".tran").hide();
 		$("#chk").hide();
@@ -189,7 +191,6 @@
 		}
 		);
 	</script>
-	<!-- ion.sound finished -->
 	<? } ?>
 	<?php include "footer.php"; ?>
 </body>

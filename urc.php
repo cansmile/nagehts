@@ -5,6 +5,7 @@ $fn = "2020_2020_register.txt";
 if(file_exist($fn)) {
 	$h = fopen("./".$fn, "r");
 	$hh = fgets($h);
+	$em = explode(",", $hh);
 
 $t = sizeof($em); // 전체 학생
 $done = 0; // 완료된 학생
@@ -47,6 +48,5 @@ if($group != "") {
 }
 } else {
 	echo("파일이 없는데?");
-}
 } // 파일 존재 if문
 ?>

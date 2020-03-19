@@ -21,11 +21,11 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th scope="col" class="text-center align-middle"><button type="button" id="18" class="btn btn-danger btn-lg">▶</button></th>
-								<td colspan="2" class="so text-center text-white bg-danger align-middle" height="20px"><h3>Dialog 1</h3></td>
+								<td colspan="2" class="so text-center text-white bg-danger align-middle h3" height="20px">Dialog 1</td>
 							</tr>
 						</thead>
 						<tbody>
@@ -102,11 +102,11 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-warning btn-lg">▶</button></th>
-								<td colspan="2" class="so text-center bg-warning align-middle" height="20px"><h3>Dialog 2</h3></td>
+								<td colspan="2" class="so text-center bg-warning align-middle h3" height="20px">Dialog 2</td>
 							</tr>
 						</thead>
 						<tbody>
@@ -203,11 +203,11 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th scope="col" class="text-center align-middle"><button type="button" id="20" class="so btn btn-primary btn-lg">▶</button></th>
-								<td colspan="2" class="so text-center text-white bg-primary align-middle" height="20px"><h3>Dialog 3</h3></td>
+								<td colspan="2" class="so text-center text-white bg-primary align-middle h3" height="20px">Dialog 3</td>
 							</tr>
 						</thead>
 						<tbody>

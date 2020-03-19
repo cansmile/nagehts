@@ -137,7 +137,7 @@
 			</div>
 			<div class="row" id="lsts">
 				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12 mt-1">
-					<table class="table text-center">
+					<table class="table table-borderless text-center">
 						<thead>
 							<tr>
 								<th colspan="4" class="text-center bg-info"> 남자 Vornamen </th>
@@ -290,7 +290,7 @@
 					</table>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12 mt-1 1itm" id="lst-2">
-					<table class="table text-center">
+					<table class="table table-borderless text-center">
 						<thead>
 							<tr>
 								<th colspan="4" class="text-center bg-danger"> 여자 Vornamen </th>
@@ -410,8 +410,8 @@
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col-12">
-					<table class="table text-center">
-						<thead>
+					<table class="table table-borderless text-center">
+						<thead class="thead-dark">
 							<th scope="col">
 								Nach-(Familien)namen (Herr / Frau)
 							</th>

@@ -350,9 +350,8 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<!-- ion.sound -->
 	<script src="./js/howler.core.js"></script>
-<!-- 맞고 틀리는지 소리 -->
+	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 
 	<script>

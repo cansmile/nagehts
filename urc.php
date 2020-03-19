@@ -4,7 +4,7 @@ $dbn = "wordpress";
 $fn = "2020_2020_register.txt";
 if(file_exist($fn)) {
 	$h = fopen("./".$fn, "r");
-	$em = explode(",",$h);
+	$hh = fgets($h);
 
 $t = sizeof($em); // 전체 학생
 $done = 0; // 완료된 학생

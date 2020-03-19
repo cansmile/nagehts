@@ -27,7 +27,7 @@
 					der Volksbank
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="6">
-					sophiebauner@gmail.com
+					sophiebauer@gmail.com
 					</button>
 				</div>
 			</div>
@@ -44,47 +44,47 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 						<div class="row"><div class="col bg-gray-light">
-							<table class="table">
+							<table class="table table-borderless table-sm">
 								<tbody>
 									<tr>
-										<td class="border-0 text-left">Sophie Bauer</td>
+										<td class="text-left">Sophie Bauer</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">&nbsp;&nbsp;Diplomkauffrau Volksbank</td>
+										<td class="text-left">&nbsp;&nbsp;Diplomkauffrau Volksbank</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">Alsterstraße 88</td>
+										<td class="text-left">Alsterstraße 88</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">15334 Frankfurt Germany</td>
+										<td class="text-left">15334 Frankfurt Germany</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">&nbsp;</td>
+										<td class="text-right">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">Tel.: (0342) 23 43 99</td>
+										<td class="text-right">Tel.: (0342) 23 43 99</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">Handy: (0170) 23 55 41</td>
+										<td class="text-right">Handy: (0170) 23 55 41</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">E-Mail: sophiebauer@gmail.com</td>
+										<td class="text-right">E-Mail: sophiebauer@gmail.com</td>
 									</tr>
 								</tbody>
 							</table>
 						</div></div>
 					</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table table-light text-left">
+					<table class="table table-borderless table-light text-left">
 						<tbody>
 							<tr>
-								<td class="border-0">
+								<td>
 								Frau Bauer, was sind Sie von Beruf?
 								<span class="tran"><br><small>바우어씨, 당신은 무슨일을 하시나요?</small></span>
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Ich bin
 								<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-1">
 								<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
@@ -94,7 +94,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Ich arbeite bei
 								<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
 								<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
@@ -104,13 +104,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Wie ist Ihre Adresse?
 								<span class="tran"><br><small>당신의 주소는 어떻게 됩니까?</small></span>
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Meine Adresse ist
 								<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-3">
 								<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
@@ -120,13 +120,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
-								Wie ist Ihre elefonnummer?
+								<td>
+								Wie ist Ihre Telefonnummer?
 								<span class="tran"><br><small>당신의 전화번호는 어떻게 됩니까?</small></span>
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Meine Telefonnummer ist
 								<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-4">
 								<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
@@ -136,7 +136,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Und die Vorwahl ist
 								<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-5">
 								<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
@@ -146,13 +146,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Wie ist Ihre E-Mail-Address?
 								<span class="tran"><br><small>당신의 이메일 주소는 어떻게 됩니까?</small></span>
 								</td>
 							</tr>
 							<tr>
-								<td class="border-0">
+								<td>
 								Meine E-Mail-Adresse ist
 								<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-6">
 								<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
@@ -176,7 +176,7 @@
 					<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
 						<div class="row">
 							<div class="col">
-								<table class="table table-striped">
+								<table class="table table-borderless table-striped">
 									<tbody>
 										<tr>
 											<td class="text-center border-0">Wie ist</td>
@@ -206,7 +206,7 @@
 					<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
 						<div class="row">
 							<div class="col">
-								<table class="table table-striped">
+								<table class="table table-borderless table-striped">
 									<tbody>
 										<tr>
 											<td class="text-center border-0">Meine</td>

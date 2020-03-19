@@ -27,122 +27,122 @@
 
 				<div class="accordion row" id="accordionitms">
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingOne">
+						<div class="card-header border-0 bg-white" id="headingOne">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseOne" area-expanded="false" aria-controls="collapseOne" id="1">
 									eins
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-1.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingTwo">
+						<div class="card-header border-0 bg-white" id="headingTwo">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseTwo" area-expanded="false" aria-controls="collapseTwo" id="2">
 									zwei
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-2.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingThree">
+						<div class="card-header border-0 bg-white" id="headingThree">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseThree" area-expanded="false" aria-controls="collapseThree" id="3">
 									drei
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-3.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingFour">
+						<div class="card-header border-0 bg-white" id="headingFour">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseFour" area-expanded="false" aria-controls="collapseFour" id="4">
 									vier
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-4.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingFive">
+						<div class="card-header border-0 bg-white" id="headingFive">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseFive" area-expanded="false" aria-controls="collapseFive" id="5">
 									fünf
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-5.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingSix">
+						<div class="card-header border-0 bg-white" id="headingSix">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseSix" area-expanded="false" aria-controls="collapseSix" id="6">
 									sechs
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-6.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingSeven">
+						<div class="card-header border-0 bg-white" id="headingSeven">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseSeven" area-expanded="false" aria-controls="collapseSeven" id="7">
 									sieben
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-7.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingEight">
+						<div class="card-header border-0 bg-white" id="headingEight">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseEight" area-expanded="false" aria-controls="collapseEight" id="8">
 									acht
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-8.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingNine">
+						<div class="card-header border-0 bg-white" id="headingNine">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseNine" area-expanded="false" aria-controls="collapseNine" id="9">
 									neun
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-9.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
-						<div class="card-header bg-white" id="headingTen">
+						<div class="card-header border-0 bg-white" id="headingTen">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-dark btn-block btn-md mt-1 so" type="button" data-toggle="collapse" data-target="#collapseTen" area-expanded="false" aria-controls="collapseTen" id="10">
 									zehn
 								</button>
 							</h5>
 						</div>
-						<div class="collapse" id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionitms">
+						<div class="collapse border-0" id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionitms">
 							<img src=".\images\Reihe 1\Reihe-1-F1-10.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>

@@ -16,7 +16,7 @@
 		<!-- 정답화인 버튼 시작 -->
 		<div class="row">
 			<div class="my-3 col-sm-12 col-md-12 col-lg-12" id="qst">
-				<table class="table table-light text-left">
+				<table class="table table-light table-borderless">
 						<tr>
 							<th class="bg-light" scope="row">1</th>
 							<td><span class="sen">Wie <span class="nu"></span> 

@@ -26,7 +26,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-						<table class="table table-light text-center">
+						<table class="table table-borderless table-light text-center">
 						<tr>
 							<td>Anna Müller wohnt in Berlin.<span class="tran">&nbsp;<br><small>안나 뮐러는 베를린에 산다.</small></span></td>
 							<td>

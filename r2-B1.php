@@ -21,10 +21,10 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-10 col-xl-10">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
-								<th colspan="2" class="text-center display-4 text-white bg-success" height="100px">Dialog</th>
+								<th colspan="2" class="text-center h4 text-white bg-success" height="50px">Dialog</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -78,10 +78,10 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-1 col-xl-1">
-					<table class="table text-danger">
+					<table class="table text-danger table-borderless">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center"><img src="./images/sym_frau.png" alt="Frau" style="max-height: 70px; width: auto;"></th>
+								<th scope="col" class="text-center"><img src="./images/sym_frau.png" alt="Frau" style="max-height: 40px; width: auto;"></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -101,10 +101,10 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-2 col-lg-1 col-xl-1">
-					<table class="table text-primary">
+					<table class="table text-primary table-borderless">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center"><img src="./images/sym_mann.png" alt="Mann" style="max-height: 70px; width: auto;"></th>
+								<th scope="col" class="text-center"><img src="./images/sym_mann.png" alt="Mann" style="max-height: 40px; width: auto;"></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -180,7 +180,7 @@
 				format: "mp3",
 				preload: true,
 				onloaderror: function() {
-					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>");
 					console.log("다시 읽어주세요!");
 				},
 				onload: function() {

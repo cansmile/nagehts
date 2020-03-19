@@ -51,7 +51,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="prev">
-					<table class="table table-light">
+					<table class="table table-borderless table-light">
 						<tbody>	
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="1" class="so btn btn-danger">▶</button></th>

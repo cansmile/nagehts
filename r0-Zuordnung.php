@@ -53,7 +53,7 @@
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="11">
 					Basketball
-					<span class="tran"><small>야구</small></span>
+					<span class="tran"><small>농구</small></span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="12">
 					K-Popmusik

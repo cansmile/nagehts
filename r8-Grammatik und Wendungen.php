@@ -14,12 +14,12 @@
 						<div class="card-header" id="heading1">
 							<h5 class="mb-0">
 								<button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button" data-toggle="collapse" data-target="#collapse1" area-expanded="false" aria-controls="collapse1" id="1">
-									<strong>F1. Aufforderung: Modalverben oder Imperativ</strong> <small>충고: 화법조동사 혹은 명령형</small>
+									<strong>F1. Aufforderung: Modalverben oder Imperativ</strong> <small>요청: 화법조동사 혹은 명령형</small>
 								</button>
 							</h5>
 						</div>
 						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
-							<table class="table table-striped text-center">
+							<table class="table table-borderless table-striped">
 								<thead>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -50,7 +50,7 @@
 							</table>
 							<div class="row">
 								<div class="col-6">
-									<table class="table table-striped text-center">
+									<table class="table table-borderless table-striped text-center">
 										<tbody>
 											<tr>
 												<th scpoe="row">sollen</th>
@@ -64,7 +64,7 @@
 									</table>
 								</div>
 								<div class="col-6">
-									<table class="table table-striped">
+									<table class="table table-borderless table-striped">
 										<thead>
 											<tr>
 												<th scope="col" colspan="2">Imperativ</th>
@@ -98,22 +98,22 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
-							<table class="table table-striped">
+							<table class="table table-borderless table-striped">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
 										<th class="align-middle" scope="row">Verben im Nominativ</th>
-										<td><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>sein, gehen, kommen, arbeiten, schlafen, fahren, …<br>• <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Er ist mein Lehrer. • <button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wir wollen nach Deutschland fahren. • <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie kommt nicht.</td>
+										<td><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>sein, gehen, kommen, arbeiten, schlafen, fahren, …<br><br><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Er ist mein Lehrer. <br><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wir wollen nach Deutschland fahren. <br><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie kommt nicht.</td>
 									</tr>
 									<tr>
 										<th class="align-middle" scope="row">Verben im Akkusativ</th>
-										<td><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>haben, brauchen, sehen, kaufen, wissen, bekommen, heiraten, besuchen, lieben, essen, kochen, …<br>• <button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wir haben keine Zeit zu verlieren. • <button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich brauche deine Hilfe.</td>
+										<td><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>haben, brauchen, sehen, kaufen, wissen, bekommen, heiraten, besuchen, lieben, essen, kochen, …<br><br><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wir haben keine Zeit zu verlieren. <br><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich brauche deine Hilfe.</td>
 									</tr>
 									<tr>
 										<th class="align-middle" scope="row">Verben im Dativ</th>
-										<td><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>telegrafieren, gratulieren, gefallen, fehlen, es geht, antworten, schmecken, …<br>• <button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was fehlt dir? • <button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie fehlt mir.<br>• <button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich gratuliere dir zu deinem Geburtstag. • <button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie gefällt es dir hier? - <button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Es gefällt mir gut.</td>
+										<td><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>telegrafieren, gratulieren, gefallen, fehlen, es geht, antworten, schmecken, …<br><br><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was fehlt dir? <br><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie fehlt mir.<br><br><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich gratuliere dir zu deinem Geburtstag. <br><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie gefällt es dir hier?<br><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Es gefällt mir gut.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -128,7 +128,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms">
-							<table class="table table-striped text-center">
+							<table class="table table-borderless table-striped text-center">
 								<tbody>
 									<tr>
 										<th scope="row">Nom.</th>
@@ -179,7 +179,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms">
-							<table class="table text-left bg-light">
+							<table class="table table-borderless bg-light">
 								<thead>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -200,7 +200,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless">
 								<thead>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -239,7 +239,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left bg-light">
+							<table class="table table-borderless bg-light">
 								<thead>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>

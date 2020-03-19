@@ -2,7 +2,6 @@
 $hdr = "nagehts";
 $dbn = "wordpress";
 $fn = "2020_2020_register.txt";
-if(file_exist($fn)) {
 	$h = fopen("./".$fn, "r");
 	$hh = fgets($h);
 	$em = explode(",", $hh);
@@ -46,7 +45,4 @@ for($i = 0; $i < sizeof($em); $i++) {
 if($group != "") {
 	echo($group."\n".$t."명 중 ".$done."명 처리됨(".(round(($done/$t)*100,0))."%) - [".date("Y-m-d H:i:s", time())."]\n");
 }
-} else {
-	echo("파일이 없는데?");
-} // 파일 존재 if문
 ?>

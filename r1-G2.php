@@ -43,25 +43,25 @@
 			</div>
 			<!-- 리스트  시작 -->
 			<div class="row mt-2" id="lsts">
-				<div class="rounded-top border border-outline-dark itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-1">
+				<div class="rounded-top border-0 itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-1">
 					<img src=".\images\Reihe 1\Reihe-1-G2-1.png" style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
 				</div>
-				<div class="rounded-top border border-outline-dark itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-2">
+				<div class="rounded-top border-0 itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-2">
 					<img src=".\images\Reihe 1\Reihe-1-G2-2.png" style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
 				</div>
-				<div class="rounded-top border border-outline-dark itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-3">
+				<div class="rounded-top border-0 itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-3">
 					<img src=".\images\Reihe 1\Reihe-1-G2-3.png" style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
 				</div>
-				<div class="rounded-top border border-outline-dark itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-4">
+				<div class="rounded-top border-0 itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-4">
 					<img src=".\images\Reihe 1\Reihe-1-G2-4.png" style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
 				</div>
-				<div class="rounded-top border border-outline-dark itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-5">
+				<div class="rounded-top border-0 itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-5">
 					<img src=".\images\Reihe 1\Reihe-1-G2-5.png" style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-auto">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="18">Dialog 1</p></th>
@@ -86,7 +86,7 @@
 					</table>
 				</div>
 				<div class="col-auto">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="19">Dialog 2</p></th>
@@ -111,7 +111,7 @@
 					</table>
 				</div>
 				<div class="col-auto">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="20">Dialog 3</p></th>
@@ -150,7 +150,7 @@
 					</table>
 				</div>
 				<div class="col-auto">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="21">Dialog 4</p></th>
@@ -175,7 +175,7 @@
 					</table>
 				</div>
 				<div class="col-auto">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
 								<th colspan="2" scope="col" class="text-center"><p class="display-4 so" id="22">Dialog 5</p></th>

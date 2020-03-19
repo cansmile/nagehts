@@ -1,7 +1,7 @@
 <?php
 $hdr = "nagehts";
 $dbn = "wordpress";
-$fn = "2020_2020_register.txt";
+$fn = "2020_register.txt";
 	$h = fopen("./".$fn, "r");
 	$hh = fgets($h);
 	$em = explode(",", $hh);

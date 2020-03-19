@@ -69,10 +69,10 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
-					<table class="table table-striped m-0 text-center">
-						<thead>
+					<table class="table table-borderless table-striped m-0 text-center">
+						<thead class="thead-dark">
 							<tr>
-								<th class="align-middle py-0" scope="col" colspan="2">Land<small>나라</small></th>
+								<th class="align-middle py-0" scope="col" colspan="2">Land&nbsp;<small>나라</small></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -124,10 +124,10 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
-					<table class="table table-striped m-0 text-center">
-						<thead>
+					<table class="table table-borderless table-striped m-0 text-center">
+						<thead class="thead-dark">
 							<tr>
-								<th class="align-middle py-0" scope="col" colspan="2">Mann<small>남</small></th>
+								<th class="align-middle py-0" scope="col" colspan="2">Mann&nbsp;<small>남</small></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -194,10 +194,10 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 d-sm-block d-md-none d-lg-none d-xl-none p-0 mt-sm-5">
-					<table class="table table-striped m-0 text-center">
-						<thead>
+					<table class="table table-borderless table-striped m-0 text-center">
+						<thead class="thead-dark">
 							<tr>
-								<th class="align-middle py-0" scope="col">Land<small>나라</small></th>
+								<th class="align-middle py-0" scope="col">Land&nbsp;<small>나라</small></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -238,10 +238,10 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
-					<table class="table table-striped m-0 text-center">
-						<thead>
+					<table class="table table-borderless table-striped m-0 text-center">
+						<thead class="thead-dark">
 							<tr>
-								<th class="align-middle py-0" scope="col" colspan="2">Frau<small>여</small></th>
+								<th class="align-middle py-0" scope="col" colspan="2">Frau&nbsp;<small>여</small></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -308,10 +308,10 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-4 d-sm-block d-md-block d-lg-none d-xl-none p-0 mt-sm-5">
-					<table class="table table-striped m-0 text-center">
-						<thead>
+					<table class="table table-borderless table-striped m-0 text-center">
+						<thead class="thead-dark">
 							<tr>
-								<th class="align-middle py-0" scope="col">Land<small>나라</small></th>
+								<th class="align-middle py-0" scope="col">Land&nbsp;<small>나라</small></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -352,10 +352,10 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
-					<table class="table table-striped m-0 text-center">
-						<thead>
+					<table class="table table-borderless table-striped m-0 text-center">
+						<thead class="thead-dark">
 							<tr>
-								<th class="align-middle py-0" scope="col" colspan="2">Sprache<small>언어</small></th>
+								<th class="align-middle py-0" scope="col" colspan="2">Sprache&nbsp;<small>언어</small></th>
 							</tr>
 						</thead>
 						<tbody>

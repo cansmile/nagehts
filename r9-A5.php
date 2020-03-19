@@ -63,7 +63,7 @@
 								<td width="50" class="text-right">1.1</td>
 								<td>
 									<div class="input-group">
-										Am ersten Januar / <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-1">ist Neujahr.
+										Am ersten <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-1">ist Neujahr.
 									</div>
 									<span class="tran"><br><small>1월 1일은 새해입니다.</small></span>
 								</td>
@@ -79,7 +79,7 @@
 								<td width="50" class="text-right">14.2</td>
 								<td>
 									<div class="input-group">
-										Am vierzehnten Februar / <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-2">ist Valentinstag.
+										Am vierzehnten <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-2">ist Valentinstag.
 									</div>
 									<span class="tran"><br><small>2월 14일은 발렌타인데이입니다.</small></span>
 								</td>
@@ -95,7 +95,7 @@
 								<td width="50" class="text-right">1.5.</td>
 								<td>
 									<div class="input-group">
-									Am ersten Mai / <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mr-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-3">ist Tag der Arbeit.
+									Am ersten <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mr-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-3">ist Tag der Arbeit.
 									</div>
 									<span class="tran"><br><small>5월 1일은 노동자의 날입니다.</small></span>
 								</td>
@@ -111,7 +111,7 @@
 								<td width="50" class="text-right">3.10.</td>
 								<td>
 									<div class="input-group">
-									Am dritten Oktober / <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mr-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-4">ist Tag der deutschen Einheit.
+									Am dritten <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mr-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-4">ist Tag der deutschen Einheit.
 									</div>
 									<span class="tran"><br><small>10월 3일은 독일 통일의 날입니다.</small></span>
 								</td>
@@ -127,7 +127,7 @@
 								<td width="50" class="text-right">6.12.</td>
 								<td>
 									<div class="input-group">
-									Am sechsten Dezember / <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mr-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-5">ist Nikolaustag.
+									Am sechsten <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mr-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px;" aria-label="." id="qst-5">ist Nikolaustag.
 									</div>
 									<span class="tran"><br><small>12월 6일은 성 니콜라우스 축일입니다.</small></span>
 								</td>
@@ -163,7 +163,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["Erste","Zweite","Fünfte","Zehnte","Zwölfte"];
+		var an=[["Erste","Januar"],["Zweite","Februar"],["Fünfte","Mai"],["Zehnte","Oktober"],["Zwölfte","Dezember"]];
 		$(document).ready(function() {
 				/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 				// 값 확인해보자, io값이 참이면 전체 검사
@@ -517,7 +517,11 @@
 					p < pan.length;
 					p++) {
 						var pann="#qst-"+pan[p];
-						$(pann).val(an[(pan[p]-1)]);
+						if($.isArray(an[pan[p]-1])) {
+							$(pann).val(an[(pan[p]-1)][0]);
+						} else {
+							$(pann).val(an[(pan[p]-1)]);
+						}
 						$(pann).addClass("bg-success text-white font-weight-bold");
 						$(pann).prop("disabled", true);
 						// $(pann).closest("tr").find(".tran").show();

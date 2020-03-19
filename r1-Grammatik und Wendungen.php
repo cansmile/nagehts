@@ -19,13 +19,13 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
-							<table class="table text-center">
+							<table class="table table-borderless">
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<th scope="col" width="50%">묻기</th>
-										<th class="bg-light" scope="col">반응</th>
+										<th class="text-center" scope="col" width="50%">묻기</th>
+										<th class="text-center bg-light" scope="col">반응</th>
 									</tr>
 									<tr>
 										<th class="bg-light" scope="row"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>heißen</strong> Sie?</th>
@@ -51,13 +51,13 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
-							<table class="table text-center">
+							<table class="table table-borderless">
 								<tr>
 									<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								</tr>
 								<tr>
-									<th scope="col" width="50%">묻기</th>
-									<th class="bg-light" scope="col">반응</th>
+									<th class="text-center" scope="col" width="50%">질문</th>
+									<th class="text-center bg-light" scope="col">대답</th>
 								</tr>
 								<tr>
 									<th class="bg-light" scope="row"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Sind</strong> Sie Herr Kim?</th>
@@ -144,7 +144,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms">
-							<table class="table text-center">
+							<table class="table table-borderless text-center">
 									<tr>
 										<th scope="col" width="33%"><strong>Position 1</strong></th>
 										<th class="bg-light" width="33%" scope="col"><strong>Position 2</strong></th>
@@ -187,7 +187,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
-							<table class="table text-left">
+							<table class="table table-borderless">
 									<tr>
 										<td class="border-bottom-0 border-dark border" width="50%">Hallo!</td>
 										<td class="bg-light border border-dark border-bottom-0">Tschüs!</td>

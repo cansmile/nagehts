@@ -12,6 +12,17 @@
  					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
+			<div class="row border border-dark rounded p-2 my-2">
+				<div class="col-3 border border-white bg-light text-center">eine Kaffeemaschine</div>
+				<div class="col-3 border border-white bg-light text-center">Musik CDs</div>
+				<div class="col-3 border border-white bg-light text-center">eine Kamera</div>
+				<div class="col-3 border border-white bg-light text-center">Bücher</div>
+				<div class="col-3 border border-white bg-light text-center">einen Reiseführer</div>
+				<div class="col-3 border border-white bg-light text-center">eine Kosmetik</div>
+				<div class="col-3 border border-white bg-light text-center">einen Hund</div>
+				<div class="col-3 border border-white bg-light text-center">ein Kochbuch</div>
+				<div class="col-3 border border-white bg-light text-center">ein Wörterbuch</div>
+			</div>
  			<div class="row py-2 border border-dark my-2 rounded">
  				<div class="col-12"><span class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">Bsp.</span></div>
 				<div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">viel Kaffee trinken</div>
@@ -19,7 +30,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich 
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-1">
 					haben.
 					</div>
 				</div>
@@ -31,7 +42,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-2">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-2">
 					haben.
 					</div>
 				</div>
@@ -43,7 +54,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-3">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-3">
 					haben.
 					</div>
 				</div>
@@ -55,7 +66,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-4">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-4">
 					haben.
 					</div>
 				</div>
@@ -67,7 +78,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich 
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-5">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-5">
 					haben.
 					</div>
 				</div>
@@ -79,7 +90,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-6">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-6">
 					haben.
 					</div>
 				</div>
@@ -91,7 +102,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-7">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-7">
 					haben.
 					</div>
 				</div>
@@ -103,7 +114,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-8">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-8">
 					haben.
 					</div>
 				</div>
@@ -115,7 +126,7 @@
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
 					Deshalb möchte ich
-					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-9">
+					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-9">
 					haben.
 					</div>
 				</div>
@@ -129,7 +140,7 @@
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col">
-					<table class="table table-striped">
+					<table class="table table-striped table-borderless">
 						<thead>
 							<tr>
 								<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>Deshalb 어순</th>
@@ -137,13 +148,13 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row"><small>Deshalb(<u>부사: 그래서, 그 때문에</u>) + 동사 + 주어</small></th>
+								<th scope="row"><small>Deshalb(부사: 그래서, 그 때문에) + 동사 + 주어</small></th>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class="col">
-					<table class="table table-striped">
+					<table class="table table-striped table-borderless">
 						<thead>
 							<tr>
 								<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>강조* + 동사 + 주어</th>
@@ -157,7 +168,7 @@
 					</table>
 				</div>
 				<div class="col">
-					<table class="table table-striped">
+					<table class="table table-striped table-borderless">
 						<thead>
 							<tr>
 								<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>möchten 어순</th>
@@ -188,7 +199,7 @@
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["eine Kaffeemaschine","Musik CDs","eine Kamera","Bücher","einen Reiseführer","eine Komsetik","einen Hund","ein Kochbuch","ein Wörterbuch"];
+		var an=["eine Kaffeemaschine","Musik CDs","eine Kamera","Bücher","einen Reiseführer","eine Kosmetik","einen Hund","ein Kochbuch","ein Wörterbuch"];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사
@@ -334,11 +345,11 @@
 							$("#qst-"+(i+1)).removeClass("rounded-0");
 
 							if( !$.isArray(an[i])) {
-								$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								$("#qst-"+(i+1)).after("<div class=\"d-blockark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px; min-width: 100px; max-width: 200px;\">"+an[i]+"</div>");
 							}
 							else {
 								// 2 이상인 경우
-								var r = "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">";
+								var r = "<div class=\"d-block text-dark bgounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px; min-width: 100px; max-width: 200px;\">";
 								for(var fd = (an[i].length-1);
 								fd >= 0;
 								fd--) {

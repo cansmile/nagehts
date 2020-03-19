@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table table-borderless">
 					<thead>
 						<tr>
 							<th colspan="2" scope="col" class="text-center"><p class="display-4">Dialog 1</p></th>
@@ -72,7 +72,7 @@
 						</tr>
 					</tbody>
 				</table></div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table table-borderless">
 					<thead>
 						<tr>
 							<th colspan="2" scope="col" class="text-center"><p class="display-4">Dialog 2</p></th>
@@ -111,7 +111,7 @@
 						</tr>
 					</tbody>
 				</table></div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"><table class="table table-borderless">
 					<thead>
 						<tr>
 							<th colspan="2" scope="col" class="text-center"><p class="display-4">Dialog 3</p></th>

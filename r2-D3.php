@@ -12,8 +12,6 @@
 						<h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]
 						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 						HV
-						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-						❚❚
 						</button>
 						</h2>
 						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
@@ -21,13 +19,13 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<table class="table">
+						<table class="table table-borderless">
 							<tbody>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">1.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt Korea?<span class="tran"><br><small>한국은 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">1.</td>
+									<td>Wo liegt Korea?<span class="tran"><br><small>한국은 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-1">
 											.
@@ -35,10 +33,10 @@
 									</td>
 								</tr>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">2.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt Australien?<span class="tran"><br><small>호주는 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">2.</td>
+									<td>Wo liegt Australien?<span class="tran"><br><small>호주는 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-2">
 											.
@@ -46,10 +44,10 @@
 									</td>
 								</tr>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">3.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt Amerika?<span class="tran"><br><small>미국은 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">3.</td>
+									<td>Wo liegt Amerika?<span class="tran"><br><small>미국은 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-3">
 											.
@@ -57,10 +55,10 @@
 									</td>
 								</tr>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">4.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt Österreich?<span class="tran"><br><small>오스트리아는 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">4.</td>
+									<td>Wo liegt Österreich?<span class="tran"><br><small>오스트리아는 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-4">
 											.
@@ -68,10 +66,10 @@
 									</td>
 								</tr>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">5.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt der Irak?<span class="tran"><br><small>이라크는 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">5.</td>
+									<td>Wo liegt der Irak?<span class="tran"><br><small>이라크는 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-5">
 											.
@@ -79,10 +77,10 @@
 									</td>
 								</tr>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">6.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt Indien?<span class="tran"><br><small>인도는 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">6.</td>
+									<td>Wo liegt Indien?<span class="tran"><br><small>인도는 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon6" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-6">
 											.
@@ -90,10 +88,10 @@
 									</td>
 								</tr>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">7.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt Kenia?<span class="tran"><br><small>케냐는 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">7.</td>
+									<td>Wo liegt Kenia?<span class="tran"><br><small>케냐는 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon7" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-7">
 											.
@@ -101,10 +99,10 @@
 									</td>
 								</tr>
 								<tr>
-									<th width="50" class="border-top-0 border-bottom-0"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
-									<td width="50" class="border-top-0 border-bottom-0">8.</td>
-									<td class="border-top-0 border-bottom-0">Wo liegt Deutschland?<span class="tran"><br><small>독일은 어디에 있나요?</small></span></td>
-									<td class="border-top-0 border-bottom-0">
+									<th width="50"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									<td width="50">8.</td>
+									<td>Wo liegt Deutschland?<span class="tran"><br><small>독일은 어디에 있나요?</small></span></td>
+									<td>
 										<div class="input-group">
 											<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon8" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" id="qst-8">
 											.
@@ -126,80 +124,85 @@
 	</section>
 		
 
-		
+		<div id="last" class="d-none"></div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<!-- 맞고 틀리는지 소리 -->
+		<?php require_once("./oxsound.php"); ?>
 		<script>
 			$("#0").hide();
-			$("#0_p").hide();
+			$(".tran").hide();
 			$(".tran").hide();
 			var an = new Array();
 			var an = ["In Asien","In Australien","In Nordamerika","In Europa","In Asien","In Asien","In Afrika","In Europa"];
 
 			$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm=new Array(), sen=new Array();
-			for(i=0;
-			i < $(".so").length;
-			i++) {
-				hm[i]=0;
-				sen[i]=0;
+		// 소리 출력 전역 변수와 함수
+			var sen = new Array(), pa = new Array(), he = new Array(), last;
+			$(".so").each(function() {
+				var t = $(this);
+				var ti = t.attr("id");
+				sen[ti] = 0;
+				pa[ti] = t.html();
+			});
+
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				});
 			}
-			ion.sound( {
-				sounds : [ {
-					name : "r2 D3",
-					sprite : {
-						"0": [.5, 62.73],
-						"1": [4.43, 6.48],
-						"2": [11.86, 7.44],
-						"3": [20.48, 6.16],
-						"4": [28.28, 6.47],
-						"5": [36.07, 5.41],
-						"6": [42.85, 6.81],
-						"7": [50.26, 5.52],
-						"8": [56.84, 5.72]
-					}
-				}
-				, {
-					name: "dingdongdang",
-						path: "sounds/"
-				}
-				, {
-					name: "Cartoon_Boing",
-						path: "sounds/"
-				}
-				],
-				path : "sounds/Reihe 2/",
-				preload : true,
-				volume : 1.0,
-				multiplay: false,
-				ended_callback: function(obj) {
-					// 재생이 끝날 때 2번 이상이면 번역 보이기
-					hmn=obj.part;
-					hm[hmn]++;
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-						if(hm[hmn] > 1) {
-							$(".tran").show();
+
+			// 문제 재생
+			var nagehts = new Howl({
+				src: ["./sounds/Reihe 2/r2 D3.mp3"],
+				sprite : {
+					"0": [0, 62342],
+					"1": [4140, 6722],
+					"2": [11746, 7057],
+					"3": [20264, 6258],
+					"4": [27948, 6650],
+					"5": [35626, 5668],
+					"6": [42618, 6609],
+					"7": [50042, 5359],
+					"8": [56675, 5724]
+				},
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				},
+				onload: function() {
+					$(".so").on("click", function() {
+							var t = $(this);
+							var ti = t.attr("id");
+
+						if(($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ti]++;
+				
+							last = ti;
+				
+							$("#cnt-"+ti).text(sen[ti]);
+						} else if(last == ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ti]);
+							nagehts.pause();
+							sen[ti]--;
+							$("#cnt-"+ti).text(sen[ti]);
 						}
-					}
-					else {
-						if(obj.part > 0) {
-							$("#"+obj.part).html("▶");
-						}
-						if(hm[hmn] > 1) {
-							$("#"+hmn).closest("tr").find(".tran").show();
-						}
-					}
-				}
-				, ready_callback: function () {
+
+					});
+
 					/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 					// 값 확인해보자, io값이 참이면 전체 검사
 					function rfchk(th,io) {
@@ -298,9 +301,9 @@
 						}
 						if($(this).val()) {
 							if($(this).hasClass("bg-danger")) {
-								ion.sound.play("Cartoon_Boing");
+								x.play();
 							} else if($(this).hasClass("bg-success")){
-								ion.sound.play("dingdongdang");
+								o.play();
 								$(this).prop("disabled",true);
 							}
 						}
@@ -313,50 +316,6 @@
 					})
 
 					/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
-					$(".so").on("click", function () {
-						if($(this).attr("id").substr(-2)=="_p") {
-							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r2 D3", {
-								part: "0"
-							}
-							);
-							$("#0").show();
-							$(this).hide();
-						}
-						else if($(this).html()=="▶") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.play("r2 D3", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("❚❚");
-						}
-						else if($(this).html()=="❚❚") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r2 D3", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("▶");
-						}
-						else {
-							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r2 D3", {
-								part: $(this).attr("id")
-							}
-							);
-							// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-							if($(this).attr("id")=="0") {
-								$(this).hide();
-								$("#0_p").show();
-							}
-							;
-						}
-						;
-					}
-					);
-
-
 
 				$("#chk").on("click", function() {
 						var na="";
@@ -461,13 +420,32 @@
 
 					$("#0").show();
 					$(".alert").hide();
+				},
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(last == 0) {
+						if(sen[last] == 2) {
+							$(".tran").show();
+							$(".so").each(function() {
+								pa[last] = $("#"+last).html();
+							});
+						}
+					} else if(sen[last] == 2) {
+						if($(this).hasClass(".itm")) {
+							$("#"+last).find(".tran").show();
+						}
+						$("#"+last).closest("tr").find(".tran").show();
+						pa[last] = $("#"+last).html();
+					}
 				}
-			}
-			);
+
+
+			});
 		});
 			
 		</script>
-		<!-- ion.sound finished -->
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

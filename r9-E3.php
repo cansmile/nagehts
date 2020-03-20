@@ -9,7 +9,7 @@
 					<h2> Ergänzen Sie die Lücken. <br>
 					<small> 빈칸을 채우세요. </small>
 					</h2>
- 					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
+					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -17,40 +17,40 @@
 					<img src="./images/Reihe 9/Reihe-9-E3.png" alt="Schreiben Sie die Tage." style="max-width: 100%; height: auto;">
 				</div>
 			</div>
- 			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-6">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2">
 					<div class="input-group">
-						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">ist ein Freitag.
+						<strong>23.03 = </strong>Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">ist ein Freitag.
 						<span class="tran"><small>3월 23일은 금요일이다.</small></span>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2">
 					<div class="input-group">
-						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">ist ein Freitag.
+						<strong>06.04 =</strong>Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">ist ein Freitag.
 						<span class="tran"><small>4월 6일은 금요일이다.</small></span>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2">
 					<div class="input-group">
-						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">ist ein Donnerstag.
+						<strong>17.05. = </strong>Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">ist ein Donnerstag.
 						<span class="tran"><small>5월 17일은 목요일이다.</small></span>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2">
 					<div class="input-group">
-						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">ist ein Freitag.
+						<strong>17.08. = </strong>Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">ist ein Freitag.
 						<span class="tran"><small>8월 17일은 금요일이다.</small></span>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2">
 					<div class="input-group">
-						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5">ist ein Freitag.
+						<strong>26.10. = </strong>Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5">ist ein Freitag.
 						<span class="tran"><small>10월 26일은 금요일이다.</small></span>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="col-sm-12 col-md-12 col-lg-6 my-2">
 					<div class="input-group">
-						Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">ist ein Dienstag.
+						<strong>25.12. = </strong>Der<input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">ist ein Dienstag.
 						<span class="tran"><small>12월 25일은 화요일이다.</small></span>
 					</div>
 				</div>
@@ -71,14 +71,14 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroupnomove.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=[["dreiundzwanzigste März","dreiundzwanzigste Dritte"],["sechste April","sechste Vierte"],["siebzehnte Mai","siebzehnte Fünfte"],["siebzehnte August","siebzehnte Achte"],["sechsundzwanzigste Oktober","sechsundzwanzigste Zehnte"],["fünfundzwanzigste Dezember","fünfundzwanzigste Zwölfte"]];
+		var an=[["dreiundzwanzigste März", "dreiundzwanzigste Dritte"], ["sechste April", "sechste Vierte"], ["siebzehnte Mai", "siebzehnte Fünfte"], ["siebzehnte August", "siebzehnte Achte"], ["sechsundzwanzigste Oktober", "sechsundzwanzigste Zehnte"], ["fünfundzwanzigste Dezember", "fünfundzwanzigste Zwölfte"]];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사
@@ -178,10 +178,10 @@
 				}
 				if($(this).val()) {
 					if($(this).hasClass("bg-danger")) {
-						ion.sound.play("Cartoon_Boing");
+						x.play();
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("dingdongdang");
+						o.play();
 						$(this).prop("disabled", true);
 					}
 				}
@@ -193,7 +193,6 @@
 			}
 			)
 			/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
-
 			$("#chk").on("click", function() {
 				var na="";
 				var ri=0;
@@ -222,29 +221,26 @@
 							$("#qst-"+(i+1)).attr("disabled", true);
 							$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
 							$("#qst-"+(i+1)).removeClass("rounded-0");
-
 							if( !$.isArray(an[i])) {
 								$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
 							}
 							else {
 								// 2 이상인 경우
-								var r = "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">";
-								for(var fd = (an[i].length-1);
-								fd >= 0;
-								fd--) {
+								var r="<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">";
+								for(var fd=(an[i].length-1); fd >= 0; fd--) {
 									if(fd < (an[i].length-1)) {
-										r = r + " / ";
+										r=r + " / ";
 									}
-									r = r + an[i][fd];
+									r=r + an[i][fd];
 								}
-								r = r +"</div>";
+								r=r +"</div>";
 								if($("span.sen").length > 0) {
 									$("#qst-"+(i+1)).closest("span.sen").after(r);
-								} else {
+								}
+								else {
 									$("#qst-"+(i+1)).after(r);
 								}
 							}
-
 						}
 						if($("#qst-"+(i+1)).hasClass("bg-success")) {
 							ri++;
@@ -252,30 +248,30 @@
 					}
 					// 정답 확인 div 상자 배경색 속성 없애기
 					$(this).removeClass("btn-light ");
-
-					var qa = $(".q").length; // 전체 문항 수
-					var qr = $(".bg-success").length; // 맞춘 항목 수
-					var pe = (qr / qa) * 100; // 정답 비율
-					var tcl = "white"; // 기본 문자색
-
+					var qa=$(".q").length; // 전체 문항 수
+					var qr=$(".bg-success").length; // 맞춘 항목 수
+					var pe=(qr / qa) * 100; // 정답 비율
+					var tcl="white"; // 기본 문자색
 					// 분류 기준은 100%, 80%, 60%, 40%
 					if(pe > 99) {
-						var st = "원어민이세요?";
-						var cl = "lime";
-						var tcl = "dark";
-					} else if(pe > 74) {
-						var st = "어! 좀 하시는데요~^^";
-						var cl = "success";
-					} else if(pe > 49) {
-						var st = "쓰읍~ 다시 해 보실까요?";
-						var cl = "primary";
-					} else {
-						var st = "좀 더 분발해 주세요~";
-						var cl = "danger";
+						var st="원어민이세요?";
+						var cl="lime";
+						var tcl="dark";
 					}
-
-					$(this).addClass("btn-" + cl + " text-" + tcl);
-					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+					else if(pe > 74) {
+						var st="어! 좀 하시는데요~^^";
+						var cl="success";
+					}
+					else if(pe > 49) {
+						var st="쓰읍~ 다시 해 보실까요?";
+						var cl="primary";
+					}
+					else {
+						var st="좀 더 분발해 주세요~";
+						var cl="danger";
+					}
+					$(this).addClass("btn-"+ cl + " text-"+ tcl);
+					$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
 					$(this).prop("disabled", true);
 					$(".tran").show();
 					$(this).attr("id", "done");
@@ -287,13 +283,10 @@
 				;
 			}
 			);
-
 			var pan=new Array();
 			// pan=[1,2,3,4,5,6,7,8,9,10];
-			pan = [1,3,5];
-			for(var p=0;
-			p < pan.length;
-			p++) {
+			pan=[1, 3, 5];
+			for(var p=0; p < pan.length; p++) {
 				var pann="#qst-"+pan[p];
 				$(pann).val(an[(pan[p]-1)][0]);
 				$(pann).addClass("bg-success text-white font-weight-bold");
@@ -302,10 +295,8 @@
 			}
 		}
 		);
-
-	</script>
-	<!-- ion.sound finished -->
-	<? } ?>
+		</script>
+<? } ?>
 	<?php include "footer.php"; ?>
 </body>
 </html>

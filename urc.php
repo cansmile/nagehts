@@ -45,7 +45,6 @@ for($i = 0; $i < sizeof($em); $i++) {
 				$group .= date("Y-m-d H:i:s", time())."[ ".$em[$i]." ] 처리됨 "."\n";
 				$q = "UPDATE `".$hdr."_usermeta` SET `meta_value` = 'a:1:{s:7:\"student\";b:1;}' WHERE `".$hdr."_usermeta`.`user_id` = ".$uid." and `".$hdr."_usermeta`.`meta_key` = '".$hdr."_capabilities';";
 				$qr = mysqli_query($link, $q);
-				// echo("<br>".$q."<br>");
 				$done++;
 			} else if($r[0] == "a:1:{s:7:\"student\";b:1;}") {
 				fwrite($p,"<div class=\"col-4 text-center text-white bg-success p-2\"><span class=\"border border-dark rounded bg-white text-dark\">".$i."</span>&nbsp;".$em[$i]." = 학생 </div>");
@@ -74,4 +73,3 @@ fwrite($p, "
 ");
 fclose($p);
 ?>
-r

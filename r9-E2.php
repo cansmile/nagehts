@@ -14,39 +14,44 @@
 			</div>
 			<div class="row">
 				<div class="col my-2 py-2">
-					<span class="border border-dark p-1 px-2 rounded">Weihnachten</span>
-					<span class="border border-dark p-1 px-2 rounded">Ostern</span>
-					<span class="border border-dark p-1 px-2 rounded">Silvester</span>
-					<span class="border border-dark p-1 px-2 rounded">Karneval</span>
-					<span class="border border-dark p-1 px-2 rounded">Oktoberfest</span>
-					<span class="border border-dark p-1 px-2 rounded">Valentinstag</span>
-					<span class="border border-dark p-1 px-2 rounded">Geburtstag</span>
+					<span class="border border-dark p-1 px-2 rounded">Weihnachten<span class="tran">&nbsp;<small>크리스마스</small></span></span>
+					<span class="border border-dark p-1 px-2 rounded">Ostern<span class="tran">&nbsp;<small>부활절</small></span></span>
+					<span class="border border-dark p-1 px-2 rounded">Silvester<span class="tran">&nbsp;<small>12월 31일</small></span></span>
+					<span class="border border-dark p-1 px-2 rounded">Karneval<span class="tran">&nbsp;<small>카니발</small></span></span>
+					<span class="border border-dark p-1 px-2 rounded">Oktoberfest<span class="tran">&nbsp;<small>옥토버페스트</small></span></span>
+					<span class="border border-dark p-1 px-2 rounded">Valentinstag<span class="tran">&nbsp;<small>발렌타인데이</small></span></span>
+					<span class="border border-dark p-1 px-2 rounded">Geburtstag<span class="tran">&nbsp;<small>생일</small></span></span>
 				</div>
 			</div>
  			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">Frühling – Hase – Eier – Schokolade
+						<span class="tran"><strong>부활절</strong>&nbsp;<small>봄 -토끼 -달걀 - 초콜릿</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">Maske – Kostüm – Karnerval – Rosenmontag
+						<span class="tran"><strong>카니발</strong>&nbsp;<small>가면 - 의상 - 카니발 - 장미의 월요일</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">Bier – Musik – Brezel - München
+						<span class="tran"><strong>옥토버페스트</strong>&nbsp;<small>맥주 - 음악 - 브레첼 - 뮌헨</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">Kranz –Weihnachtsbaum– Geschenke – Familie
+						<span class="tran"><strong>크리스마스</strong>&nbsp;<small>화관 - 크리스마스트리 - 선물 -</small></span>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6">
 					<div class="input-group">
 						<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5">Alter – Geburtstagstorte – Kerze – Party – Geschenke
+						<span class="tran"><strong>생일</strong>&nbsp;<small>나이 - 생일케이크 - 초- 파티 - 선물</small></span>
 					</div>
 				</div>
 			</div>
@@ -66,7 +71,6 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroupnomove.js"></script>
 	<!-- interact.min.js -->
 	<script src="./js/ion.sound.min.js"></script>
 	<script>

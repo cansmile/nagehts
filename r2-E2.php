@@ -14,7 +14,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-						<table class="table">
+						<table class="table table-borderless">
 							<thead>
 								<tr>
 									<th colspan="2" scope="col"><img src="./images/Reihe 2/Reihe-2-E-2.png" alt="Herkunft" style="max-width: 100%; height: auto;"></th>
@@ -45,10 +45,10 @@
 						</table>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-						<table class="table">
+						<table class="table table-borderless">
 							<tbody>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-0"></div>
 										<div class="input-group">
 											<strong>z.B. Namdeamun Tor:</strong>&nbsp;
@@ -62,7 +62,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-1"></div><div class="ant" id="ant-2"></div><div class="ant" id="ant-3"></div><div class="ant" id="ant-4"></div>
 										<div class="input-group">
 											<strong>1. Brandenburger:</strong>&nbsp;
@@ -73,7 +73,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-5"></div><div class="ant" id="ant-6"></div><div class="ant" id="ant-7"></div><div class="ant" id="ant-8"></div>
 										<div class="input-group">
 											<strong>2. Kolosseum:</strong>&nbsp;
@@ -85,7 +85,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-9"></div><div class="ant" id="ant-10"></div><div class="ant" id="ant-11"></div><div class="ant" id="ant-12"></div>
 										<div class="input-group">
 											<strong>3. Eiffelturm:</strong>&nbsp;
@@ -97,7 +97,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-13"></div><div class="ant" id="ant-14"></div><div class="ant" id="ant-15"></div><div class="ant" id="ant-16"></div>
 										<div class="input-group">
 											<strong>4. Panda:</strong>&nbsp;
@@ -109,7 +109,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-17"></div><div class="ant" id="ant-18"></div><div class="ant" id="ant-19"></div><div class="ant" id="ant-20"></div>
 										<div class="input-group">
 											<strong>5. Pyramide:</strong>&nbsp;
@@ -121,7 +121,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-21"></div><div class="ant" id="ant-22"></div><div class="ant" id="ant-23"></div><div class="ant" id="ant-24"></div>
 										<div class="input-group">
 											<strong>6. Mt. Kilimanjaro:</strong>&nbsp;
@@ -133,7 +133,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-25"></div><div class="ant" id="ant-26"></div><div class="ant" id="ant-27"></div><div class="ant" id="ant-28"></div>
 										<div class="input-group">
 											<strong>7. Känguru:</strong>&nbsp;
@@ -145,7 +145,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-29"></div><div class="ant" id="ant-30"></div><div class="ant" id="ant-31"></div><div class="ant" id="ant-32"></div>
 										<div class="input-group">
 											<strong>8. Freiheitssatatue:</strong>&nbsp;
@@ -157,7 +157,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="border-top-0 border-bottom-0">
+									<td>
 										<div class="ant" id="ant-33"></div><div class="ant" id="ant-34"></div><div class="ant" id="ant-35"></div><div class="ant" id="ant-36"></div>
 										<div class="input-group">
 											<strong>9. Taco:</strong>&nbsp;
@@ -189,8 +189,10 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<!-- 맞고 틀리는지 소리 -->
+		<?php require_once("./oxsound.php"); ?>
+
 		<script>
 			$(".tran").hide();
 			$(".ant").hide();
@@ -313,9 +315,9 @@ function rfchk(th,io) {
 					}
 					if($(this).val()) {
 						if($(this).hasClass("bg-danger")) {
-							ion.sound.play("Cartoon_Boing");
+							x.play();
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("dingdongdang");
+							o.play();
 							$(this).prop("disabled",true);
 						}
 					}
@@ -441,7 +443,7 @@ function rfchk(th,io) {
 			});
 			
 		</script>
-		<!-- ion.sound finished -->
+		<!--  finished -->
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

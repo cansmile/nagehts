@@ -9,47 +9,47 @@
 					<h2> Ergänzen Sie die Lücken. <br>
 					<small> 빈칸을 채우세요. </small>
 					</h2>
- 					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
+					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row border border-dark p-2 my-2 rounded py-4">
 				<div class="font-weight-bold col-sm-12 col-md-2 col-lg-2"><span class="border border-dark bg-dark text-white p-1 px-2 rounded mr-1">Bsp.</span>Julia</div>
 				<div class="col-sm-12 col-md-2 col-lg-3">eine Halskette schenken<br>Sie trägt gern Schmuck.</div>
-				<div class="col-sm-12 col-md-8 col-lg-7">
+				<div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
 					<div class="input-group">
-						Man kann ihr eine Halskette schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">.
+						Man kann ihr eine Halskette schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1 mt-2" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-1">.
 					</div>
-					<span class="tran"><br><small>translate</small></span>
+					<span class="tran"><small>그녀가 액세서리를 좋아하기 때문에 그녀에게 목걸이를 선물할 수 있다.</small></span>
 				</div>
 			</div>
 			<div class="row border border-dark p-2 my-2 rounded py-4">
 				<div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Mina und Sujin</div>
-				<div class="col-sm-12 col-md-2 col-lg-3">einen Reiseführer schenken<br>Sie mag Blumen.</div>
-				<div class="col-sm-12 col-md-8 col-lg-7">
+				<div class="col-sm-12 col-md-2 col-lg-3">einen Reiseführer schenken<br>Sie fahren nach Berlin..</div>
+				<div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
 					<div class="input-group">
-						Sie fahren nach Berlin. Man kann ihnen einen Reiseführer schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">.
+						Sie fahren nach Berlin. Man kann ihnen einen Reiseführer schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1 mt-2" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-2">.
 					</div>
-					<span class="tran"><br><small>그들이 베를린으로 가기 때문에, 그들에게 여행 안내서를 선물할 수 있다.</small></span>
+					<span class="tran"><small>그들이 베를린으로 가기 때문에, 그들에게 여행 안내서를 선물할 수 있다.</small></span>
 				</div>
 			</div>
 			<div class="row border border-dark p-2 my-2 rounded py-4">
 				<div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Jochen</div>
-				<div class="col-sm-12 col-md-2 col-lg-3">einen Mülleimer schenke<br>Er raumt gern auf.</div>
-				<div class="col-sm-12 col-md-8 col-lg-7">
+				<div class="col-sm-12 col-md-2 col-lg-3">einen Mülleimer schenken<br>Er raumt gern auf.</div>
+				<div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
 					<div class="input-group">
-						Er räumt gern auf. Man kann ihm einen Mülleimer schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">.
+						Er räumt gern auf. Man kann ihm einen Mülleimer schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1 mt-2" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-3">.
 					</div>
-					<span class="tran"><br><small>그가 청소를 좋아하기 때문에, 그에게 쓰레기통을 선물할 수 있다.</small></span>
+					<span class="tran"><small>그가 청소를 좋아하기 때문에, 그에게 휴지통을 선물할 수 있다.</small></span>
 				</div>
 			</div>
 			<div class="row border border-dark p-2 my-2 rounded py-4">
 				<div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Bernd</div>
 				<div class="col-sm-12 col-md-2 col-lg-3">eine Krawatte schenken<br>Er hat bald ein Vorstellungsgesprach.</div>
-				<div class="col-sm-12 col-md-8 col-lg-7">
+				<div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
 					<div class="input-group">
-						Er hat bald ein Vorstellungsgespräch. Mann kann ihm eine Krawatte schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">.
+						Er hat bald ein Vorstellungsgespräch. Mann kann ihm eine Krawatte schenken, weil <input type="text" class="form-control q pl-0 col-6 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 border-dark mx-1 mt-2" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4">.
 					</div>
-					<span class="tran"><br><small>그가 면접을 앞두고 있기 때문에, 그에게 넥타이를 선물할 수 있다.</small></span>
+					<span class="tran"><small>그가 면접을 앞두고 있기 때문에, 그에게 넥타이를 선물할 수 있다.</small></span>
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->
@@ -60,7 +60,7 @@
 			</div>
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
-				<table class="table">
+				<table class="table table-borderless">
 					<thead>
 						<tr>
 							<th scope="col"><span class="p-1 m-1 px-2 bg-lime rounded">TIPP</span>weil</th>
@@ -68,7 +68,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="text-center" style="line-height: 250%;">weil은 <strong>종속접속사</strong>로 <span class="border border-dark rounded p-1 px-2 font-weight-bold"><small>주어(S) + ··· + 동사(V)</small></span> 종속문에는 분리 동사가 분리되지 않는다.<br><strong>Bsp.</strong> aufraumen --> aufräumt</td>
+							<td class="text-center" style="line-height: 250%;">weil은 <strong>종속접속사</strong>로 <span class="border border-dark rounded p-1 px-2 font-weight-bold"><small>주어(S) + ··· + 동사(V)</small></span> 종속문에서는 분리 동사가 분리되지 않는다.<br><strong>Bsp.</strong> aufraumen --> aufräumt</td>
 						</tr>
 					</tbody>
 				</table>
@@ -82,14 +82,14 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroupnomove.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["sie gern Schmuck trägt","sie nach Berlin fahren","er gern aufräumt","er bald ein Vorstellungsgespräch hat"];
+		var an=["sie gern Schmuck trägt", "sie nach Berlin fahren", "er gern aufräumt", "er bald ein Vorstellungsgespräch hat"];
 		$(document).ready(function() {
 			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 			// 값 확인해보자, io값이 참이면 전체 검사
@@ -189,10 +189,10 @@
 				}
 				if($(this).val()) {
 					if($(this).hasClass("bg-danger")) {
-						ion.sound.play("Cartoon_Boing");
+						x.play();
 					}
 					else if($(this).hasClass("bg-success")) {
-						ion.sound.play("dingdongdang");
+						o.play();
 						$(this).prop("disabled", true);
 					}
 				}
@@ -204,7 +204,6 @@
 			}
 			)
 			/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
-
 			$("#chk").on("click", function() {
 				var na="";
 				var ri=0;
@@ -233,29 +232,28 @@
 							$("#qst-"+(i+1)).attr("disabled", true);
 							$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
 							$("#qst-"+(i+1)).removeClass("rounded-0");
-
 							if( !$.isArray(an[i])) {
-								$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">"+an[i]+"</div>");
+								$("#qst-"+(i+1)).after("<div class=\"text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold mt-2\" style=\"position: relative; top: -6px; vertical-align: text-bottom;\">"+an[i]+"</div>");
 							}
 							else {
 								// 2 이상인 경우
-								var r = "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px;\">";
-								for(var fd = (an[i].length-1);
-								fd >= 0;
+								var r="<div class=\"text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold mt-2\" style=\"position: relative; top: -6px; vertical-align: text-bottom;\">";
+								for(var fd=(an[i].length-1);
+								fd >=0;
 								fd--) {
 									if(fd < (an[i].length-1)) {
-										r = r + " / ";
+										r=r + " / ";
 									}
-									r = r + an[i][fd];
+									r=r + an[i][fd];
 								}
-								r = r +"</div>";
+								r=r +"</div>";
 								if($("span.sen").length > 0) {
 									$("#qst-"+(i+1)).closest("span.sen").after(r);
-								} else {
+								}
+								else {
 									$("#qst-"+(i+1)).after(r);
 								}
 							}
-
 						}
 						if($("#qst-"+(i+1)).hasClass("bg-success")) {
 							ri++;
@@ -263,30 +261,30 @@
 					}
 					// 정답 확인 div 상자 배경색 속성 없애기
 					$(this).removeClass("btn-light ");
-
-					var qa = $(".q").length; // 전체 문항 수
-					var qr = $(".bg-success").length; // 맞춘 항목 수
-					var pe = (qr / qa) * 100; // 정답 비율
-					var tcl = "white"; // 기본 문자색
-
+					var qa=$(".q").length; // 전체 문항 수
+					var qr=$(".bg-success").length; // 맞춘 항목 수
+					var pe=(qr / qa) * 100; // 정답 비율
+					var tcl="white"; // 기본 문자색
 					// 분류 기준은 100%, 80%, 60%, 40%
 					if(pe > 99) {
-						var st = "원어민이세요?";
-						var cl = "lime";
-						var tcl = "dark";
-					} else if(pe > 74) {
-						var st = "어! 좀 하시는데요~^^";
-						var cl = "success";
-					} else if(pe > 49) {
-						var st = "쓰읍~ 다시 해 보실까요?";
-						var cl = "primary";
-					} else {
-						var st = "좀 더 분발해 주세요~";
-						var cl = "danger";
+						var st="원어민이세요?";
+						var cl="lime";
+						var tcl="dark";
 					}
-
-					$(this).addClass("btn-" + cl + " text-" + tcl);
-					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+					else if(pe > 74) {
+						var st="어! 좀 하시는데요~^^";
+						var cl="success";
+					}
+					else if(pe > 49) {
+						var st="쓰읍~ 다시 해 보실까요?";
+						var cl="primary";
+					}
+					else {
+						var st="좀 더 분발해 주세요~";
+						var cl="danger";
+					}
+					$(this).addClass("btn-"+ cl + " text-"+ tcl);
+					$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
 					$(this).prop("disabled", true);
 					$(".tran").show();
 					$(this).attr("id", "done");
@@ -298,10 +296,9 @@
 				;
 			}
 			);
-
 			var pan=new Array();
 			// pan=[1,2,3,4,5,6,7,8,9,10];
-			pan = [1];
+			pan=[1];
 			for(var p=0;
 			p < pan.length;
 			p++) {
@@ -313,9 +310,7 @@
 			}
 		}
 		);
-
 	</script>
-	<!-- ion.sound finished -->
 	<? } ?>
 	<?php include "footer.php"; ?>
 </body>

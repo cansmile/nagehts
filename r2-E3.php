@@ -17,11 +17,11 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-						<table class="table m-0">
+						<table class="table table-borderless m-0">
 							<tbody>
 								<tr>
-									<th class="border-top-0 border-bottom-0">1.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>1.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Frau Kim
 												komm<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-1">
@@ -31,8 +31,8 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">2.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>2.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Woher
 												komm<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-2">
@@ -42,8 +42,8 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">3.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>3.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Ich
 												komm<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-3">
@@ -56,11 +56,11 @@
 						</table>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-						<table class="table m-0">
+						<table class="table table-borderless m-0">
 							<tbody>
 								<tr>
-									<th class="border-top-0 border-bottom-0">4.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>4.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Ich
 												heiß<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-4">
@@ -70,8 +70,8 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">5.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>5.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Wie
 												heiß<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-5">
@@ -81,8 +81,8 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">6.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>6.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Wie
 												heiß<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-6">
@@ -95,11 +95,11 @@
 						</table>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-						<table class="table m-0">
+						<table class="table table-borderless m-0">
 							<tbody>
 								<tr>
-									<th class="border-top-0 border-bottom-0">7.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>7.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Wo
 												wohn<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-7">
@@ -109,8 +109,8 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">8.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>8.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Ich
 												wohn<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-8">
@@ -120,8 +120,8 @@
 									</td>
 								</tr>
 								<tr>
-									<th class="border-top-0 border-bottom-0">9.</th>
-									<td class="border-top-0 border-bottom-0">
+									<th>9.</th>
+									<td>
 										<span class="sen"><div class="input-group">
 												Stefan
 												wohn<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 ml-0 mr-1 col-2 pl-0" style="position: relative; top: -6px;" aria-label="." id="qst-9">
@@ -152,8 +152,10 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/popper.min.js"></script>
 		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./js/howler.core.js"></script>
+		<!-- 맞고 틀리는지 소리 -->
+		<?php require_once("./oxsound.php"); ?>
+
 		<script>
 			$(".tran").hide();
 
@@ -258,9 +260,9 @@ function rfchk(th,io) {
 					}
 					if($(this).val()) {
 						if($(this).hasClass("bg-danger")) {
-							ion.sound.play("Cartoon_Boing");
+							x.play();
 						} else if($(this).hasClass("bg-success")){
-							ion.sound.play("dingdongdang");
+							o.play();
 							$(this).prop("disabled",true);
 						}
 					}
@@ -383,7 +385,6 @@ function rfchk(th,io) {
 			});
 
 		</script>
-		<!-- ion.sound finished -->
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

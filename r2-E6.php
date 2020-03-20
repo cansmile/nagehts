@@ -49,91 +49,91 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table table-light">
+					<table class="table table-borderless table-light">
 						<tbody>
 							<tr>
 								<th class="bg-light" scope="row" width="10%">1</th>
 								<td width="40%">
 									<div class="itm-lst 1itm" id="lst-1">
-										<h2 class="btn btn-warning btn-xl ttl d-block">
-										▼ </h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>
 								<td>
 									Mein Name ist Mina Kim.
-									<span class="tran"><br>&nbsp;<small>저의 이름은 미나 김이에요.</small></span></td>
+									<span class="tran"><br>&nbsp;<small>저의 이름은 미나 김이에요.</small></span>
+								</td>
 							</tr>
 							<tr>
 								<th class="bg-light" scope="row">2</th>
 								<td>
 									<div class="itm-lst 1itm" id="lst-2">
-										<h2 class="btn btn-warning btn-xl ttl d-block">
-										▼ </h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>
 								<td>
 									Ich wohne in Seoul.
-									<span class="tran"><br>&nbsp;<small>저는 서울에서 살아요.</small></span></td>
+									<span class="tran"><br>&nbsp;<small>저는 서울에서 살아요.</small></span>
+								</td>
 							</tr>
 							<tr>
 								<th class="bg-light" scope="row">3</th>
 								<td>
 									<div class="itm-lst 1itm" id="lst-3">
-										<h2 class="btn btn-warning btn-xl ttl d-block">
-										▼ </h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>
 								<td>
 									Ja, ich spreche etwas Deutsch.
-									<span class="tran"><br>&nbsp;<small>네, 저는 독일어를 조금 해요.</small></span></td>
+									<span class="tran"><br>&nbsp;<small>네, 저는 독일어를 조금 해요.</small></span>
+								</td>
 							</tr>
 							<tr>
 								<th class="bg-light" scope="row">4</th>
 								<td>
 									<div class="itm-lst 1itm" id="lst-4">
-										<h2 class="btn btn-warning btn-xl ttl d-block">
-										▼ </h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>
 								<td>
-									 Ich bin Sabine.
-									<span class="tran"><br>&nbsp;<small>나는 자비네야.</small></span></td>
+									Ich bin Sabine.
+									<span class="tran"><br>&nbsp;<small>나는 자비네야.</small></span>
+								</td>
 							</tr>
 							<tr>
 								<th class="bg-light" scope="row">5</th>
 								<td>
 									<div class="itm-lst 1itm" id="lst-5">
-										<h2 class="btn btn-warning btn-xl ttl d-block">
-										▼ </h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>
 								<td>
 									Gut, danke!
-									<span class="tran"><br>&nbsp;<small>잘지내, 고마워!</small></span></td>
+									<span class="tran"><br>&nbsp;<small>잘지내, 고마워!</small></span>
+								</td>
 							</tr>
 							<tr>
 								<th class="bg-light" scope="row">6</th>
 								<td>
 									<div class="itm-lst 1itm" id="lst-6">
-										<h2 class="btn btn-warning btn-xl ttl d-block">
-										▼ </h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>
 								<td>
 									Ja, Danke.
-									<span class="tran"><br>&nbsp;<small>응, 고마워.</small></span></td>
+									<span class="tran"><br>&nbsp;<small>응, 고마워.</small></span>
+								</td>
 							</tr>
 							<tr>
 								<th class="bg-light" scope="row">7</th>
 								<td>
 									<div class="itm-lst 1itm" id="lst-7">
-										<h2 class="btn btn-warning btn-xl ttl d-block">
-										▼ </h2>
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
 									</div>
 								</td>
 								<td>
 									Ja, ich wohne in Berlin.
-									<span class="tran"><br>&nbsp;<small>응, 난 베를린에 살아.</small></span></td>
+									<span class="tran"><br>&nbsp;<small>응, 난 베를린에 살아.</small></span>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -154,123 +154,82 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
 		$(".tran").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
-			$(".o").on("click", function() {
-				ion.sound.play("dingdongdang");
-			}
-			);
-			$(".x").on("click", function() {
-				ion.sound.play("Cartoon_Boing");
-			}
-			);
-			$("[data-toggle='popover']").popover( {
-				delay : {
-					'hide': 1000
-				}
-				,
-				container : "body"
-			}
-			);
-			$(".pop").click(function () {
-				// 가장 먼저 지문에 'an' 넣기
-				if ( !$(this).siblings().hasClass("an")) {
-					$(this).addClass("an");
-					$(this).addClass("btn-warning");
-					$(this).parent().children().removeClass("btn-light");
-				}
-				;
-				// 문제 풀이 정도 업데이트
-				var perc=Math.round(($(".an").length / $(".q").length) * 100);
-				$(".progress>.bar").attr("width", perc + "%;");
-			}
-			);
-			// 팝업 내용 사라지기
-			$(".pop").popover().click(function() {
-				setTimeout(function() {
-					$(".pop").popover('hide');
-				}
-				, 500);
-			}
-			);
-	<?php include "wahl.php"; ?>
-	// 정답확인
-	$("#chk").on("click", function() {
-		var na="";
-		if($("#itms").find("button").length < 1) {
-			$(".tran").show();
-
-			// 정답 확인 div 상자 배경색 속성 없애기
-			$(this).removeClass("btn-light ");
-			$(".itm-lst>button").addClass("text-success font-weight-bold");
-
-			var qa = $(".itm-lst").length; // 전체 문항 수
-			var qr = $(".text-success").length; // 맞춘 항목 수
-			var pe = (qr / qa) * 100; // 정답 비율
-			var tcl = "white"; // 기본 문자색
-
-			// 분류 기준은 100%, 80%, 60%, 40%
-			if(pe > 99) {
-				var st = "원어민이세요?";
-				var cl = "lime";
-				var tcl = "dark";
-			} else if(pe > 74) {
-				var st = "어! 좀 하시는데요~^^";
-				var cl = "success";
-			} else if(pe > 49) {
-				var st = "쓰읍~ 다시 해 보실까요?";
-				var cl = "primary";
-			} else {
-				var st = "좀 더 분발해 주세요~";
-				var cl = "danger";
-			}
-
-			$(this).addClass("btn-" + cl + " text-" + tcl);
-			$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
-		}
-		else {
-			$("div.itm-lst").each(function(idx) {
-				if( !$(this).find("button").length) {
-					if(na !="") {
-						na +=", ";
+			<?php include "wahl.php"; ?>
+			// 정답확인
+			$("#chk").on("click", function() {
+				var na="";
+				if($("#itms").find("button").length < 1) {
+					$(".tran").show();
+					// 정답 확인 div 상자 배경색 속성 없애기
+					$(this).removeClass("btn-light ");
+					$(".itm-lst>button").addClass("text-success font-weight-bold");
+					var qa=$(".itm-lst").length; // 전체 문항 수
+					var qr=$(".text-success").length; // 맞춘 항목 수
+					var pe=(qr / qa) * 100; // 정답 비율
+					var tcl="white"; // 기본 문자색
+					// 분류 기준은 100%, 80%, 60%, 40%
+					if(pe > 99) {
+						var st="원어민이세요?";
+						var cl="lime";
+						var tcl="dark";
 					}
-				na +=(idx+1);
-			}
+					else if(pe > 74) {
+						var st="어! 좀 하시는데요~^^";
+						var cl="success";
+					}
+					else if(pe > 49) {
+						var st="쓰읍~ 다시 해 보실까요?";
+						var cl="primary";
+					}
+					else {
+						var st="좀 더 분발해 주세요~";
+						var cl="danger";
+					}
+					$(this).addClass("btn-"+ cl + " text-"+ tcl);
+					$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
+				}
+				else {
+					$("div.itm-lst").each(function(idx) {
+						if( !$(this).find("button").length) {
+							if(na !="") {
+								na +=", ";
+							}
+							na +=(idx+1);
+						}
+					}
+					);
+					alert(na+"번 문제를 풀어주세요!");
+				}
 			}
 			);
-			alert(na+"번 문제를 풀어주세요!");
+			var pan=new Array();
+			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
+			pan=[1];
+			var il=$("#itms>.itm").length;
+			for(var p=0; p < pan.length; p++) {
+				var pani="#lst-"+ pan[p];
+				$(".itm").each(function() {
+					if($(this).hasClass("ans"+ pan[p])) {
+						$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
+						$("#"+ $(this).attr("id")).addClass("btn-block text-left");
+						// $("#"+ $(this).attr("id")).addClass("border-0");
+						$("#lst-"+ pan[p] + ">h2").remove();
+						// $("#lst-"+ pan[p]).closest("tr").find(".tran").show();
+					}
+				}
+				)
+			}
 		}
-	}
-	);
-	var pan=new Array();
-	// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
-	pan=[1];
-	var il=$("#itms>.itm").length;
-	for(var p=0;
-	p < pan.length;
-	p++) {
-	var pani="#lst-"+ pan[p];
-	$(".itm").each(function() {
-	if($(this).hasClass("ans"+ pan[p])) {
-	$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
-	$("#"+ $(this).attr("id")).addClass("btn-block text-left");
-	// $("#"+ $(this).attr("id")).addClass("border-0");
-	$("#lst-"+ pan[p] + ">h2").remove();
-	// $("#lst-"+ pan[p]).closest("tr").find(".tran").show();
-	}
-	}
-	)
-	}
-	}
-	)
+		)
 	</script>
 	<!-- ion.sound finished -->
 	<? } ?>

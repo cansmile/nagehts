@@ -48,7 +48,7 @@
 						<div class="col-10">
 							<div class="input-group">
 								Ich<input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-4"> ans Meer gefahren.
-								<span class="tran">&nbsp;<small>나는 휴가 때 바닷가에 갔어.</small></span>
+								<span class="tran">&nbsp;<small>나는 바닷가에 갔어.</small></span>
 							</div>
 						</div>
 					</div>
@@ -93,8 +93,8 @@
 						<div class="col-1 text-center"></div>
 						<div class="col-10">
 							<div class="input-group">
-								Da <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-8">ich für die Deutschprüfunggelernt.
-								<span class="tran">&nbsp;<small>그래서 독일어 시험을 위해 공부했어.</small></span>
+								Da <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-8">ich für die Deutschprüfung gelernt.
+								<span class="tran">&nbsp;<small>그래서 독일어 시험공부를 했어.</small></span>
 							</div>
 						</div>
 					</div>

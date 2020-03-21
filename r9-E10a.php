@@ -9,58 +9,58 @@
 			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
-					arbeiten
+					arbeiten<span class="tran"><br><small>일하다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="2">
-					aufstehen
+					aufstehen<span class="tran"><br><small>(아침에) 일어나다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="3">
-					bleiben
+					bleiben<span class="tran"><br><small>머물다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="4">
-					einschlafen
+					einschlafen<span class="tran"><br><small>잠들다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="5">
-					fahren
+					fahren<span class="tran"><br><small>타고가다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="6">
-					fliegen
+					fliegen<span class="tran"><br><small>날아가다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
-					gefallen
+					gefallen<span class="tran"><br><small>마음에 들다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="8">
-					haben
+					haben<span class="tran"><br><small>가지다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="9">
-					kommen
+					kommen<span class="tran"><br><small>오다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="10">
-					lesen
+					lesen<span class="tran"><br><small>읽다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="11">
-					passieren
+					passieren<span class="tran"><br><small>통과하다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="12">
-					rennen
+					rennen<span class="tran"><br><small>달리다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="13">
-					schlafen
+					schlafen<span class="tran"><br><small>잠자다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="14">
-					sehen
+					sehen<span class="tran"><br><small>보다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="15">
-					sein
+					sein<span class="tran"><br><small>~이다, ~있다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="16">
-					studieren
+					studieren<span class="tran"><br><small>공부하다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="17">
-					umsteigen
+					umsteigen<span class="tran"><br><small>이사하다</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="18">
-					werden
+					werden<span class="tran"><br><small>~가 되다</small></span>
 				</button>
 			</div>
 		</div>
@@ -79,16 +79,16 @@
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top border bg-danger border-white so itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2" id="lst-1">
-					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">habenverben <span class="tran"><br><small>haben동사</small></span></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">haben + Partzip <span class="tran"><br><small>haben + 과거분사</small></span></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-success border-white so itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2" id="lst-2">
-					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">Bewegungsverben <span class="tran"><br><small>동작동사</small></span></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">Sein + Partzip: Bewegungsverben <span class="tran"><br><small>Sein + 과거분사: 장소이동</small></span></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-primary border-white so itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2" id="lst-3">
-					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">Veränderungsverben <span class="tran"><br><small>상태동사</small></span></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">Sein + Partzip: Veränderungsverben <span class="tran"><br><small>Sein + 과거분사: 상태변화</small></span></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-orange border-white so itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2" id="lst-4">
-					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">Sonderverben <span class="tran"><br><small>예외동사</small></span></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">Sein + Partzip: Sonderverben <span class="tran"><br><small>Sein + 과거분사: 예외동사</small></span></h2>&nbsp;
 				</div>
 			</div>
 				<!-- 정답화인 버튼 시작 -->
@@ -98,50 +98,6 @@
 					</div>
 				</div>
 				<!-- 정답확인 버튼 끝 -->
-				<div class="row">
-					<div class="col-sm-12 col-md-6 col-lg-4">
-						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col"><span class="p-1 m-1 px-2 bg-lime text-dark">TIPP</span><small><strong>&nbsp;일상회화, 과거분사형, 과거</strong></small></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th scope="row">da</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-sm-12 col-md-6 col-lg-4">
-						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col"><span class="p-1 m-1 px-2 bg-lime text-dark">TIPP</span><small><strong>&nbsp;지속, -ieren 동사</strong></small></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th scope="row">da</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-sm-12 col-md-6 col-lg-4">
-						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col"><span class="p-1 m-1 px-2 bg-lime text-dark">TIPP</span><small><strong>&nbsp;werden, 상태의 변화, bleiben</strong></small></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th scope="row">da</th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
 			</div>
 		</div>
 		<!-- 리스트 끝 -->

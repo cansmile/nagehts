@@ -7,72 +7,68 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 mb-4 mt-2 text-center">
-					<h3>[ <small>알맞은 단어를 선택하세요.</small> ]</h3>
+					<h3>[ <small>알맞은 문장을 선택하세요.</small> ]</h3>
 
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-lg-6 mb-5" style="line-height: 250%;">
-			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold">Herzlichen Glückwunsch!</span>
-				<span class="tran"><br><small>생일 축하합니다!</small><br></span>
+			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold d-block">Herzlichen Glückwunsch!<span class="tran">&nbsp;<small>생일 축하합니다!</small><br></span></span>
 			<span class="sen"><span class="nu"></span>
-					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
+					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-block" data-toggle="buttons" id="qst-1">
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option1" autocomplete="off">Wenn man sich aufgeregt hat.<span class="tran"><br><small>화가 났을 때</small><br></span>
+							<input type="radio" name="options" id="option1" autocomplete="off">Wenn man sich aufgeregt hat.<span class="tran">&nbsp;<small>화가 났을 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-							<input type="radio" name="options" id="option2" autocomplete="off">Wenn man jemandem gratuliert.<span class="tran"><br><small>누군가에게 축하할 때</small><br></span>
+							<input type="radio" name="options" id="option2" autocomplete="off">Wenn man jemandem gratuliert.<span class="tran">&nbsp;<small>누군가에게 축하할 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option3" autocomplete="off">Wenn jemand traurig ist.<span class="tran"><br><small>누군가 슬플 때</small><br></span>
+							<input type="radio" name="options" id="option3" autocomplete="off">Wenn jemand traurig ist.<span class="tran">&nbsp;<small>누군가 슬플 때.</small><br></span>
 						</div>
 					</div><span class="ans"></span></span>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 mb-5" style="line-height: 250%;">
-			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold">Viel Glück!</span>
-				<span class="tran"><br><small>행운을 빌어요!</small><br></span>
+			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold d-block">Viel Glück!<span class="tran">&nbsp;<small>행운을 빌어요!</small><br></span></span>
 			<span class="sen"><span class="nu"></span>
-					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
+					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-block" data-toggle="buttons" id="qst-2">
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option4" autocomplete="off">Wenn man traurig ist.<span class="tran"><br><small>슬플 때</small><br></span>
+							<input type="radio" name="options" id="option4" autocomplete="off">Wenn man traurig ist.<span class="tran">&nbsp;<small>슬플 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option5" autocomplete="off">Wenn man sich entschuldigen möchte.<span class="tran"><br><small>양해를 구할 때</small><br></span>
+							<input type="radio" name="options" id="option5" autocomplete="off">Wenn man sich entschuldigen möchte.<span class="tran">&nbsp;<small>양해를 구할 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-							<input type="radio" name="options" id="option6" autocomplete="off">Wenn jemand ein Examen macht.<span class="tran"><br><small>누군가 시험을 볼 때</small><br></span>
+							<input type="radio" name="options" id="option6" autocomplete="off">Wenn jemand ein Examen macht.<span class="tran">&nbsp;<small>누군가 시험을 볼 때.</small><br></span>
 						</div>
 					</div><span class="ans"></span></span>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 mb-5" style="line-height: 250%;">
-			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold">Gute Besserung!</span>
-				<span class="tran"><br><small>얼른 낫길 바래요!</small><br></span>
+			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold d-block">Gute Besserung!<span class="tran">&nbsp;<small>얼른 낫길 바래요!</small><br></span></span>
 			<span class="sen"><span class="nu"></span>
-					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
+					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-block" data-toggle="buttons" id="qst-3">
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option7" autocomplete="off">Wenn man sich verabschiedet.<span class="tran"><br><small>작별을 고할 때</small><br></span>
+							<input type="radio" name="options" id="option7" autocomplete="off">Wenn man sich verabschiedet.<span class="tran">&nbsp;<small>작별을 고할 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option8" autocomplete="off">Wenn jemand wütend ist.<span class="tran"><br><small>누군가 화가 났을 때</small><br></span>
+							<input type="radio" name="options" id="option8" autocomplete="off">Wenn jemand wütend ist.<span class="tran">&nbsp;<small>누군가 화가 났을 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-							<input type="radio" name="options" id="option9" autocomplete="off">Wenn jemand krank ist.<span class="tran"><br><small>누군가 아플 때</small><br></span>
+							<input type="radio" name="options" id="option9" autocomplete="off">Wenn jemand krank ist.<span class="tran">&nbsp;<small>누군가 아플 때.</small><br></span>
 						</div>
 					</div><span class="ans"></span></span>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6 mb-5" style="line-height: 250%;">
-			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold">Gute Reise!</span>
-				<span class="tran"><br><small>즐거운 여행이 되길!</small><br></span>
+			<span class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold d-block">Gute Reise!<span class="tran">&nbsp;<small>즐거운 여행이 되길!</small><br></span></span>
 			<span class="sen"><span class="nu"></span>
-					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
+					<div class="btn-group-vertical btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q d-block" data-toggle="buttons" id="qst-4">
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option10" autocomplete="off">Wenn man ein Examen hat.<span class="tran"><br><small>누군가 시험을 볼 때</small><br></span>
+							<input type="radio" name="options" id="option10" autocomplete="off">Wenn man ein Examen hat.<span class="tran">&nbsp;<small>누군가 시험을 볼 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-							<input type="radio" name="options" id="option11" autocomplete="off">Wenn jemand verreist.<span class="tran"><br><small>누군가 여행을 떠날 때</small><br></span>
+							<input type="radio" name="options" id="option11" autocomplete="off">Wenn jemand verreist.<span class="tran">&nbsp;<small>누군가 여행을 떠날 때.</small><br></span>
 						</div>
 						<div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-							<input type="radio" name="options" id="option12" autocomplete="off">Wenn jemand krank ist.<span class="tran"><br><small>누군가 아플 때</small><br></span>
+							<input type="radio" name="options" id="option12" autocomplete="off">Wenn jemand krank ist.<span class="tran">&nbsp;<small>누군가 아플 때.</small><br></span>
 						</div>
 					</div><span class="ans"></span></span>
 			</div>
@@ -174,16 +170,20 @@ $("[data-toggle='popover']").popover({
 							$(this).removeClass("btn-warning");
 							$(this).addClass("btn-success");
 							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
-							$(this).closest(".sen").find(".nu").html( $.trim( $(this).text() ) );
-							$(this).find(".tran").insertAfter($(this).closest(".sen").find(".nu"));
+							$(this).closest(".sen").find(".nu").html( $.trim( $(this).html() ) );
+							$(this).closest(".sen").find(".nu>input").remove();
+							$(this).closest(".sen").find(".tran").show();
 						} else if ($(this).hasClass("o")) {
 							$(this).addClass("btn-<?php echo($color); ?>");
-							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
+							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").html()));
+							$(this).closest(".sen").find(".ans>input").remove();
 							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
 							$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");
 						} else if ($(this).hasClass("an")) {
 							$(this).addClass("btn-warning");
-							$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+							$(this).closest(".sen").find(".nu").html($.trim($(this).html()));
+							$(this).closest(".sen").find(".nu>input").remove();
+							$(this).closest(".sen").find(".tran").show();
 						} else {
 							$(this).addClass("btn-light");
 						};

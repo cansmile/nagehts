@@ -34,7 +34,7 @@
 						<div class="col-1 text-center">2.</div>
 						<div class="col-11">
 							<div class="input-group">
-								Meine Eltern <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5"> vor 20 Jahren glücklich. <span class="tran">&nbsp;<small>나의 부모님은 결혼한 지 20년이 되었다.</small>&nbsp;</span> Sie sind heute immer noch glücklich. <span class="tran">&nbsp;<small>그들은 여전히 행복하다.</small>&nbsp;</span>
+								Meine Eltern <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-5"> vor 20 Jahren glücklich. <span class="tran">&nbsp;<small>나의 부모님은 20년 전에 행복하셨다.</small>&nbsp;</span> Sie sind heute immer noch glücklich. <span class="tran">&nbsp;<small>그들은 여전히 행복하다.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 						<div class="col-1 text-center">3.</div>
 						<div class="col-11">
 							<div class="input-group">
-								Sabine <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">schon als Kind sehr sportlich. <span class="tran">&nbsp;<small>사비네는 어렸을 때부터 운동에 소질이 있었다.</small>&nbsp;</span>
+								Sabine <input type="text" class="form-control q pl-0 col-2 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 150px;" aria-label="." id="qst-6">schon als Kind sehr sportlich. <span class="tran">&nbsp;<small>자비네는 어렸을 때부터 운동에 소질이 있었다.</small>&nbsp;</span>
 							</div>
 						</div>
 					</div>

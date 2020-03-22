@@ -60,7 +60,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 if($group != "") {
 	echo($group."\n".$t."명 중 ".$done."명 처리됨(".(round(($done/$t)*100,0))."%) - [".date("Y-m-d H:i:s", time())."]\n");
 } else {
-	echo("변화가 없습니다.\n");
+	echo("변화가 없습니다.[".date("Y-m-d H:i:s", time())."]\n");
 }
 fclose($h);
 // php로 출력

@@ -23,17 +23,19 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Brille</div>
-				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Handschule</div>
-				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Vase</div>
-				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">der Tisch</div>
-				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">die Zahnpasta</div>
-				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">der Spitzer</div>
-				<div class="col text-center p-1 px-2 m-1 border border-dark rounded">der Vorhang</div>
+				<div class="col my-2 py-2">
+					<span class="p-1 px-2 m-1 border border-dark rounded">die Brille</span>
+					<span class="p-1 px-2 m-1 border border-dark rounded">die Handschule</span>
+					<span class="p-1 px-2 m-1 border border-dark rounded">die Vase</span>
+					<span class="p-1 px-2 m-1 border border-dark rounded">der Tisch</span>
+					<span class="p-1 px-2 m-1 border border-dark rounded">die Zahnpasta</span>
+					<span class="p-1 px-2 m-1 border border-dark rounded">der Spitzer</span>
+					<span class="p-1 px-2 m-1 border border-dark rounded">der Vorhang</span>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<td><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
@@ -71,7 +73,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-bordeless">
 						<tbody>
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
@@ -110,7 +112,7 @@
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col">
-					<table class="table table-striped text-center">
+					<table class="table table-borderless table-sm table-striped text-center">
 						<thead>
 							<tr>
 								<th scope="col">Singular</th>

@@ -12,16 +12,18 @@
 					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
-			<div class="row border border-dark rounded p-1 py-2 font-weight-bold text-center">
-				<div class="col wd">mir</div> <div class="col wd">dir</div> <div class="col wd">uns</div> <div class="col wd">Ihnen</div> <div class="col wd">euch</div> <div class="col wd">ihr</div> <div class="col wd">ihm</div> <div class="col wd">ihnen</div>
+			<div class="row my-2 py-2">
+				<div class="col">
+					<span class="border border-dark rounded p-2">mir</span> <span class="border border-dark rounded p-2">dir</span> <span class="border border-dark rounded p-2">uns</span> <span class="border border-dark rounded p-2">Ihnen</span> <span class="border border-dark rounded p-2">euch</span> <span class="border border-dark rounded p-2">ihr</span> <span class="border border-dark rounded p-2">ihm</span> <span class="border border-dark rounded p-2">ihnen</span>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<th scope="row" class="border-0">1.</th>
-								<td class="border-0">
+								<th scope="row">1.</th>
+								<td>
 									<div class="input-group d-inline-flex align-items-baseline">Mina, bitte hilf&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon1" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-1">
 										 .&nbsp;Ich habe keine Hand mehr frei.
@@ -30,8 +32,8 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row" class="border-0">2.</th>
-								<td class="border-0">
+								<th scope="row">2.</th>
+								<td>
 									<div class="input-group d-inline-flex align-items-baseline">Herr Kim, ich gratuliere&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon2" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-2">
 										 &nbsp;zum Geburtstag.
@@ -40,8 +42,8 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row" class="border-0">3.</th>
-								<td class="border-0">
+								<th scope="row">3.</th>
+								<td>
 									<div class="input-group d-inline-flex align-items-baseline">Was fehlt&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon3" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-3">
 										 ? Marie sieht sehr blass aus.
@@ -50,8 +52,8 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row" class="border-0">4.</th>
-								<td class="border-0">
+								<th scope="row">4.</th>
+								<td>
 									<div class="input-group d-inline-flex align-items-baseline">Hallo Kinder, wie geht es&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon4" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-4">
 										 ?
@@ -60,14 +62,14 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row" class="border-0">5.</th>
-								<td class="border-0">
+								<th scope="row">5.</th>
+								<td>
 									<div class="input-group d-inline-flex align-items-baseline">Tim hilft mir bei den Hausaufgaben. Ich danke&nbsp;
 										<input type="text" placeholder="Antwort" aria-label="Antwort" aria-describedby="basic-addon5" class="text-center form-control q border-top-0 border-right-0 border-left-0 border-dark rounded-0" style="max-width: 100px;" id="qst-5">
 										 &nbsp;sehr.
 									</div>
 									<span class="tran"><small>팀이 내 숙제를 도와주고 있어. 나는 그에게 매우 고마워하고 있어.
-</small></span>
+									</small></span>
 								</td>
 							</tr>
 						</tbody>

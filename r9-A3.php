@@ -12,15 +12,17 @@
  					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
-			<div class="row border border-dark rounded m-2">
-				<div class="col-3 px-2 py-1 text-center my-2">das Jahr, <strong>–e</strong></div>
-				<div class="col-3 px-2 py-1 text-center my-2">der Monat, <strong>–e</strong></div>
-				<div class="col-3 px-2 py-1 text-center my-2">die Woche, <strong>–n</strong></div>
-				<div class="col-3 px-2 py-1 text-center my-2">der Tag, <strong>–e</strong></div>
-				<div class="col-3 px-2 py-1 text-center my-2">die Stunde, <strong>–n</strong></div>
-				<div class="col-3 px-2 py-1 text-center my-2">die Minute, <strong>–n</strong></div>
-				<div class="col-3 px-2 py-1 text-center my-2">die Sekunde, <strong>–n</strong></div>
-				<div class="col-3 px-2 py-1 text-center my-2">die Jahreszeit, –<strong>en</strong></div>
+			<div class="row my-2 py-2">
+				<div class="col">
+					<span class="border border-dark rounded p-2">das Jahr, <strong>–e</strong></span>
+					<span class="border border-dark rounded p-2">der Monat, <strong>–e</strong></span>
+					<span class="border border-dark rounded p-2">die Woche, <strong>–n</strong></span>
+					<span class="border border-dark rounded p-2">der Tag, <strong>–e</strong></span>
+					<span class="border border-dark rounded p-2">die Stunde, <strong>–n</strong></span>
+					<span class="border border-dark rounded p-2">die Minute, <strong>–n</strong></span>
+					<span class="border border-dark rounded p-2">die Sekunde, <strong>–n</strong></span>
+					<span class="border border-dark rounded p-2">die Jahreszeit, –<strong>en</strong></span>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-6 my-2">

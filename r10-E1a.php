@@ -50,14 +50,14 @@
 				</div>
 				<div class="row mt-2">
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">1.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-1.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">1.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-1.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-1">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;dem Stuhl.<span class="tran"><br><small>참새가 의자 아래 있다,</small></span>
@@ -68,14 +68,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">2.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-2.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">2.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-2.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-2">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;dem Kasten.<span class="tran"><br><small>참새가 상자 안에 있다.</small></span>
@@ -86,14 +86,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">3.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-3.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">3.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-3.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-3">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;der Banane.<span class="tran"><br><small>참새가 바나나 위에 있다.</small></span>
@@ -104,14 +104,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">4.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-4.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">4.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-4.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-4">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;der Milch.<span class="tran"><br><small>참새가 우유 뒤에 있다.</small></span>
@@ -122,14 +122,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">5.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-5.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">5.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-5.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-5">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;dem Spiegel.<span class="tran"><br><small>참새가 거울 앞에 있다.</small></span>
@@ -140,14 +140,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">6.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-6.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">6.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-6.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-6">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;der Vase.<span class="tran"><br><small>참새가 꽃병 옆에 있다.</small></span>
@@ -158,14 +158,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">7.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-7.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">7.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-7.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-7">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;den Büchern.<span class="tran"><br><small>참새가 책 사이에 있다.</small></span>
@@ -176,14 +176,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">8.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-8.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">8.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-8.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-8">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;dem Fenster.<span class="tran"><br><small>참새가 창가에 있다.</small></span>
@@ -194,14 +194,14 @@
 						</table>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table text-center">
+						<table class="table table-borderless text-center">
 							<tbody>
 								<tr>
-									<td width="20" class="border-0 align-top">9.</td>
-									<td class="border-0"><img src="./images/Reihe 10/Reihe-10-E1-9.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td width="20" class="align-top">9.</td>
+									<td><img src="./images/Reihe 10/Reihe-10-E1-9.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm" id="lst-9">
 											Der Spatz ist&nbsp;<h2 class="btn btn-warning btn-lg ttl d-inline-block" style="position: relative; top: 6px;">
 											▼ </h2>&nbsp;dem Apfel.<span class="tran"><br><small>참새가 사과 위에 있다.</small></span>

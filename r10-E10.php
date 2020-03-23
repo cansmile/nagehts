@@ -7,27 +7,27 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Ergänzen Sie die Lücken. <br>
-					<small> 빈칸을 채우세요. </small>
+					<small> 빈칸을 채우세요. </small><br>
 					[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h2>
 				</div>
 			</div>
-			<div class="row border border-dark rounded">
-				<div class="col-3 text-center my-1">angekommen</div>
-				<div class="col-3 text-center my-1">angerufen</div>
-				<div class="col-3 text-center my-1">angezogen</div>
-				<div class="col-3 text-center my-1">anrufen</div>
-				<div class="col-3 text-center my-1">bin</div>
-				<div class="col-3 text-center my-1">bist</div>
-				<div class="col-3 text-center my-1">funktioniert</div>
-				<div class="col-3 text-center my-1">geblieben</div>
-				<div class="col-3 text-center my-1">gefunden</div>
-				<div class="col-3 text-center my-1">gegangen</div>
-				<div class="col-3 text-center my-1">gegessen</div>
-				<div class="col-3 text-center my-1">gesprochen</div>
-				<div class="col-3 text-center my-1">getrunken</div>
-				<div class="col-3 text-center my-1">habe</div>
-				<div class="col-3 text-center my-1">hat</div>
-			</div>
+			<div class="row my-2 py-2"><div class="col" style="line-height: 250%;">
+					<span class="border border-dark rounded p-2">angekommen</span>
+					<span class="border border-dark rounded p-2">angerufen</span>
+					<span class="border border-dark rounded p-2">angezogen</span>
+					<span class="border border-dark rounded p-2">anrufen</span>
+					<span class="border border-dark rounded p-2">bin</span>
+					<span class="border border-dark rounded p-2">bist</span>
+					<span class="border border-dark rounded p-2">funktioniert</span>
+					<span class="border border-dark rounded p-2">geblieben</span>
+					<span class="border border-dark rounded p-2">gefunden</span>
+					<span class="border border-dark rounded p-2">gegangen</span>
+					<span class="border border-dark rounded p-2">gegessen</span>
+					<span class="border border-dark rounded p-2">gesprochen</span>
+					<span class="border border-dark rounded p-2">getrunken</span>
+					<span class="border border-dark rounded p-2">habe</span>
+					<span class="border border-dark rounded p-2">hat</span>
+				</div></div>
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
 					<div class="input-group">

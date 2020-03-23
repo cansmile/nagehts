@@ -23,7 +23,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<table class="table text-center">
+					<table class="table table-borderless text-center">
 						<thead>
 							<th scope="col">&nbsp;</th>
 							<th scope="col">morgens</th>
@@ -41,20 +41,16 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="table text-center">
-						<tbody>
-							<tr>
-								<td width="20%">Eis</td>
-								<td width="20%">Pizza</td>
-								<td width="20%">Flasche Milch</td>
-								<td width="20%">Hamburger</td>
-								<td width="20%">Dose Cola</td>
-							</tr>
-						</tbody>
-					</table>
+				</div>
+				<div class="col-12 py-2 my-2">
+					<span class="border border-dark rounded p-1 px-2">Eis</span>
+					<span class="border border-dark rounded p-1 px-2">Pizza</span>
+					<span class="border border-dark rounded p-1 px-2">Flasche Milch</span>
+					<span class="border border-dark rounded p-1 px-2">Hamburger</span>
+					<span class="border border-dark rounded p-1 px-2">Dose Cola</span>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<td><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
@@ -82,7 +78,7 @@
 					</table>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<td><button type="button" id="4" class="so btn btn-outline-info">▶</button></td>

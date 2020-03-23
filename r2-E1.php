@@ -13,7 +13,7 @@
 				</div>
 				<div class="row">
 					<div class="col-12">
-						<table class="table" style="height: 100%;">
+						<table class="table table-borderless" style="height: 100%;">
 							<tbody>
 								<tr>
 									<td class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-E-1.png" alt="Herkunft" style="max-width: 100%;  height: auto;"></td>

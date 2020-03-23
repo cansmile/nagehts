@@ -23,7 +23,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<table class="table text-center">
+					<table class="table table-borderless text-center">
 						<thead>
 							<tr>
 								<th scope="col">&nbsp;</th>
@@ -43,21 +43,17 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="table text-center">
-						<tbody>
-							<tr>
-								<td>Salat</td>
-								<td>Kaffee</td>
-								<td>nichts</td>
-								<td>Wasser</td>
-								<td>Suppe</td>
-								<td>Kuchen</td>
-							</tr>
-						</tbody>
-					</table>
+				</div>
+				<div class="col-12 py-2 my-2">
+					<span class="border border-dark rounded p-1 px-2">Salat</span>
+					<span class="border border-dark rounded p-1 px-2">Kaffee</span>
+					<span class="border border-dark rounded p-1 px-2">nichts</span>
+					<span class="border border-dark rounded p-1 px-2">Wasser</span>
+					<span class="border border-dark rounded p-1 px-2">Suppe</span>
+					<span class="border border-dark rounded p-1 px-2">Kuchen</span>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<td><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
@@ -94,7 +90,7 @@
 					</table>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							
 							<tr>
@@ -136,7 +132,7 @@
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col">
-					<table class="table table-striped">
+					<table class="table table-borderless table-striped">
 						<thead>
 							<tr>
 								<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>문장 내 어순</th>

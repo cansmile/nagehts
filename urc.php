@@ -4,7 +4,8 @@ $dbn = "wordpress";
 $fn = "2020_register.txt";
 $h = fopen("/var/www/html/nagehts.org/public_html/".$fn, "rb") or die("이상해요");
 $em = explode(",",fgets($h));
-
+$puts = 0;
+$sswu = 0;
 $p = fopen("/var/www/html/nagehts.org/public_html/st.php", "w+") or die("이상해요");
 fwrite($p,"
 <!DOCTYPE html>
@@ -54,11 +55,20 @@ for($i = 0; $i < sizeof($em); $i++) {
 				fwrite($p,"<div class=\"col-4 text-center text-danger p-2\"><span class=\"border border-dark rounded bg-white text-dark\">".$i."</span>&nbsp;".$em[$i]." = 미등록 </div>");
 			}
 
+			if($r[0] == "a:2:{s:7:\"student\";b:1;s:4:\"puts\";b:1;}") {
+				$done++;
+				$puts++;
+			}
+
+			if($r[0] == "a:2:{s:7:\"student\";b:1;s:4:\"sswu\";b:1;}") {
+				$done++;
+				$sswu++;
+			}
 		}
 	}
 }
 if($group != "") {
-	echo($group."\n".$t."명 중 ".$done."명 처리됨(".(round(($done/$t)*100,0))."%) - [".date("Y-m-d H:i:s", time())."]\n");
+	echo($group."\n".$t."명 중 ".$done."명(장신: ".$puts."명, 성신: ".$sswu."명) 처리됨(".(round(($done/$t)*100,0))."%) - [".date("Y-m-d H:i:s", time())."]\n");
 } else {
 	echo("변화가 없습니다.[".date("Y-m-d H:i:s", time())."]\n");
 }

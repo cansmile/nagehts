@@ -55,11 +55,13 @@ for($i = 0; $i < sizeof($em); $i++) {
 				fwrite($p,"<div class=\"col-4 text-center text-danger p-2\"><span class=\"border border-dark rounded bg-white text-dark\">".$i."</span>&nbsp;".$em[$i]." = 미등록 </div>");
 			}
 
+			//  학생, 장신 역할 함께 있는 이용자
 			if($r[0] == "a:2:{s:7:\"student\";b:1;s:4:\"puts\";b:1;}") {
 				$done++;
 				$puts++;
 			}
 
+			// 학생, 성신 역할 함께 있는 이용
 			if($r[0] == "a:2:{s:7:\"student\";b:1;s:4:\"sswu\";b:1;}") {
 				$done++;
 				$sswu++;
@@ -70,7 +72,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 if($group != "") {
 	echo($group."\n".$t."명 중 ".$done."명(장신: ".$puts."명, 성신: ".$sswu."명) 처리됨(".(round(($done/$t)*100,0))."%) - [".date("Y-m-d H:i:s", time())."]\n");
 } else {
-	echo("변화가 없습니다.[".date("Y-m-d H:i:s", time())."]\n");
+	echo("변화가 없습니다(장신: ".$puts."명, 성신: ".$sswu."명).[".date("Y-m-d H:i:s", time())."]\n");
 }
 fclose($h);
 // php로 출력

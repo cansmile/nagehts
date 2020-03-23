@@ -11,17 +11,19 @@
 					</div>
 					</div>
 				</div>
-				<div class="row border border-dark rounded text-center font-weight-bold p-1 px-2">
-					<div class="col">heiße</div>
-					<div class="col">heißen</div>
-					<div class="col">machen</div>
-					<div class="col">studiere</div>
-					<div class="col">bin</div>
-					<div class="col">sind</div>
+				<div class="row">
+					<div class="col py-2 my-2">
+						<span class="px-2 border border-dark rounded">heiße</span>
+						<span class="px-2 border border-dark rounded">heißen</span>
+						<span class="px-2 border border-dark rounded">machen</span>
+						<span class="px-2 border border-dark rounded">studiere</span>
+						<span class="px-2 border border-dark rounded">bin</span>
+						<span class="px-2 border border-dark rounded">sind</span>
+					</div>
 				</div>
 				<div class="row">
 					<div class="col-12 mb-4 mt-2 text-center">
-						<table class="table">
+						<table class="table table-borderless">
 							<tbody>
 								<tr>
 									<th scope="row">

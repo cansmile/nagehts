@@ -21,24 +21,26 @@
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
-			<div class="row border border-dark p-1 rounded my-2">
-				<div class="p-1 px-2 col-sm-4 col-md-4 col-lg text-center">bis zum</div>
-				<div class="p-1 px-2 col-sm-4 col-md-4 col-lg text-center">bis zur</div>
-				<div class="p-1 px-2 col-sm-4 col-md-4 col-lg text-center">in die</div>
-				<div class="p-1 px-2 col-sm-4 col-md-4 col-lg text-center">neben dem</div>
-				<div class="p-1 px-2 col-sm-4 col-md-4 col-lg text-center">zur</div>
+			<div class="row my-2 py-2">
+				<div class="col">
+					<span class="border border-dark rounded p-2">bis zum</span>
+					<span class="border border-dark rounded p-2">bis zur</span>
+					<span class="border border-dark rounded p-2">in die</span>
+					<span class="border border-dark rounded p-2">neben dem</span>
+					<span class="border border-dark rounded p-2">zur</span>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
-								<th colspan="2" scope="col" class="border-0 display-4 bg-light text-center"><small>z.B.</small></th>
+								<th colspan="2" scope="col" class="display-4 bg-light text-center"><small>z.B.</small></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="border-0" style="line-height: 250%;">
+								<td style="line-height: 250%;">
 									<div class="input-group d-inline">
 										<strong>Entschuldigung, wie komme ich zur Hanabank?</strong><span class="tran"><br><small><strong>실례합니다, 하나은행으로 어떻게 가나요?</strong></small><br></span> Gehen Sie immer geradeaus <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-1"> Friedenplatz.<span class="tran"><br><small>프리덴광장까지 계속 직진하세요.</small><br></span> Dann links <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-2"> Maxstraße.<span class="tran"><br><small>그런 다음 왼쪽 막스슈트라세로 가세요.</small><br></span> Gehen Sie geradeaus <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-3"> Post.<span class="tran"><br><small>우체국까지 똑바로 가세요.</small><br></span> Die Hanabank ist neben der Post.<span class="tran"><br><small>하나은행은 우체국 옆에 있어요.</small><br></span>
 									</div>									
@@ -48,15 +50,15 @@
 					</table>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
-								<th colspan="2" scope="col" class="border-0 display-4 bg-light text-center"><small>1.</small></th>
+								<th colspan="2" scope="col" class="display-4 bg-light text-center"><small>1.</small></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="border-0" style="line-height: 250%;">
+								<td style="line-height: 250%;">
 									<div class="input-group d-inline">
 										<strong>Entschuldigung, wie komme ich <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-4"> Peterskirche?</strong><span class="tran"><br><small><strong>실례합니다, 페터스교회로 어떻게 가나요?</strong></small><br></span> Gehen Sie immer geradeaus <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-5"> Olympicpark.<span class="tran"><br><small>올림픽공원까지 계속 직진하세요.</small><br></span> Dann links <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-6"> Olympicstraße.<span class="tran"><br><small>그런 다음 왼쪽 올림픽슈트라세로 가세요.</small><br></span> Gehen Sie geradeaus bis zum Rathaus.<span class="tran"><br><small>시청까지 똑바로 가세요.</small><br></span> Die Perterskirche ist neben dem Rathaus.<span class="tran"><br><small>페터스교회는 시청 옆에 있어요.</small><br></span>
 									</div>									
@@ -66,15 +68,15 @@
 					</table>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
-								<th colspan="2" scope="col" class="border-0 display-4 bg-light text-center"><small>2.</small></th>
+								<th colspan="2" scope="col" class="display-4 bg-light text-center"><small>2.</small></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="border-0" style="line-height: 250%;">
+								<td style="line-height: 250%;">
 									<div class="input-group d-inline">
 										<strong>Entschuldigung, wie komme ich zum Schwimmbad?</strong><span class="tran"><br><small><strong>실례합니다, 수영장으로 어떻게 가나요?</strong></small><br></span> Gehen Sie immer geradeaus <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-7"> Kreuzung.<span class="tran"><br><small>교차로까지 계속 직진하세요.</small><br></span> Dann rechts in die Mariagasse.<span class="tran"><br><small>그런 다음 왼쪽 마리아가세로 가세요.</small><br></span> Gehen Sie geradeaus <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-8"> Sportplatz.<span class="tran"><br><small>운동장까지 똑바로 가세요.</small><br></span> Das Schwimmbad ist <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-9"> Sportplatz.<span class="tran"><br><small>수영장은 운동장 옆에 있어요.</small><br></span>
 									</div>									
@@ -84,15 +86,15 @@
 					</table>
 				</div>
 				<div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2">
-					<table class="table">
+					<table class="table table-borderless">
 						<thead>
 							<tr>
-								<th colspan="2" scope="col" class="border-0 display-4 bg-light text-center"><small>3.</small></th>
+								<th colspan="2" scope="col" class="display-4 bg-light text-center"><small>3.</small></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="border-0" style="line-height: 250%;">
+								<td style="line-height: 250%;">
 									<div class="input-group d-inline">
 										<strong>Entschuldigung, wie komme ich <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-10"> Post?</strong><span class="tran"><br><small><strong>실례합니다, 우체국으로 어떻게 가나요?</strong></small><br></span> Gehen Sie immer geradeaus <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-11"> Familie-Apartment.<span class="tran"><br><small>파밀리에-아파트까지 계속 직진하세요.</small><br></span> Dann links in die Sammalgasse.<span class="tran"><br><small>그런 다음 왼쪽 자말가세로 가세요.</small><br></span> Gehen Sie geradeaus bis zum Südtor.<span class="tran"><br><small>남문까지 똑바로 가세요.</small><br></span> Die Post ist <input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark d-inline-block" style="position: relative; top: -6px; max-width: 150px; min-width: 100px;" aria-label="." id="qst-12"> Südtor.<span class="tran"><br><small>우체국은 남문 옆에 있어요.</small><br></span>
 									</div>									

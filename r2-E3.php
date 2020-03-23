@@ -9,11 +9,13 @@
 						<h2>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h2>
 					</div>
 				</div>
-				<div class="row border border-dark rounded py-2">
-					<div class="col text-center">e</div>
-					<div class="col text-center">en</div>
-					<div class="col text-center">st</div>
-					<div class="col text-center">t</div>
+				<div class="row">
+					<div class="col po-2 my-2">
+						<span class="border border-dark p-1 px-2 rounded text-center">e</span>
+						<span class="border border-dark p-1 px-2 rounded text-center">en</span>
+						<span class="border border-dark p-1 px-2 rounded text-center">st</span>
+						<span class="border border-dark p-1 px-2 rounded text-center">t</span>
+					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">

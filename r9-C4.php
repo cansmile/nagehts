@@ -12,16 +12,18 @@
  					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
-			<div class="row border border-dark rounded p-2 my-2">
-				<div class="col-3 border border-white bg-light text-center">eine Kaffeemaschine</div>
-				<div class="col-3 border border-white bg-light text-center">Musik CDs</div>
-				<div class="col-3 border border-white bg-light text-center">eine Kamera</div>
-				<div class="col-3 border border-white bg-light text-center">Bücher</div>
-				<div class="col-3 border border-white bg-light text-center">einen Reiseführer</div>
-				<div class="col-3 border border-white bg-light text-center">eine Kosmetik</div>
-				<div class="col-3 border border-white bg-light text-center">einen Hund</div>
-				<div class="col-3 border border-white bg-light text-center">ein Kochbuch</div>
-				<div class="col-3 border border-white bg-light text-center">ein Wörterbuch</div>
+			<div class="row py-2 my-2">
+				<div class="col">
+					<span class="border border-dark rounded p-2">eine Kaffeemaschine</span>
+					<span class="border border-dark rounded p-2">Musik CDs</span>
+					<span class="border border-dark rounded p-2">eine Kamera</span>
+					<span class="border border-dark rounded p-2">Bücher</span>
+					<span class="border border-dark rounded p-2">einen Reiseführer</span>
+					<span class="border border-dark rounded p-2">eine Kosmetik</span>
+					<span class="border border-dark rounded p-2">einen Hund</span>
+					<span class="border border-dark rounded p-2">ein Kochbuch</span>
+					<span class="border border-dark rounded p-2">ein Wörterbuch</span>
+				</div>
 			</div>
  			<div class="row py-2 border border-dark my-2 rounded">
  				<div class="col-12"><span class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">Bsp.</span></div>
@@ -140,7 +142,7 @@
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
 				<div class="col">
-					<table class="table table-striped table-borderless">
+					<table class="table table-borderless table-sm table-striped">
 						<thead>
 							<tr>
 								<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>Deshalb 어순</th>
@@ -154,7 +156,7 @@
 					</table>
 				</div>
 				<div class="col">
-					<table class="table table-striped table-borderless">
+					<table class="table table-striped table-sm table-borderless">
 						<thead>
 							<tr>
 								<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>강조* + 동사 + 주어</th>
@@ -168,7 +170,7 @@
 					</table>
 				</div>
 				<div class="col">
-					<table class="table table-striped table-borderless">
+					<table class="table table-striped table-sm table-borderless">
 						<thead>
 							<tr>
 								<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>möchten 어순</th>

@@ -12,7 +12,21 @@
 								<td class="border-0">독일어에서 3, 4격 지배 전치사는 장소의 의미로 사용될 때, 정지 상태를 나타낼 때는 3격을 취하고, 장소의 이동이나 운동의 방향을 나타낼 때는 4격을 지배한다.</td>
 							</tr>
 							<tr>
-								<td class="border-0 text-center"><strong>an, auf, hinter, in, neben, unter, vor, über, zwischen</strong></td>
+								<td class="border-0 text-center">
+								<div class="row">
+									<div class="col">
+										<span class="border border-dark rounded p-2">an</span>
+										<span class="border border-dark rounded p-2">auf</span>
+										<span class="border border-dark rounded p-2">hinter</span>
+										<span class="border border-dark rounded p-2">in</span>
+										<span class="border border-dark rounded p-2">neben</span>
+										<span class="border border-dark rounded p-2">unter</span>
+										<span class="border border-dark rounded p-2">vor</span>
+										<span class="border border-dark rounded p-2">über</span>
+										<span class="border border-dark rounded p-2">zwischen</span>
+									</div>
+								</div>
+								</td>
 							</tr>
 							<tr>
 								<td class="border-0 text-center">

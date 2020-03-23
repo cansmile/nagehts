@@ -20,11 +20,13 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row border border-dark rounded my-2">
-				<div class="col-3 my-2 text-center">besichtigt</div>
-				<div class="col-3 my-2 text-center">gab</div>
-				<div class="col-3 my-2 text-center">gemacht</div>
-				<div class="col-3 my-2 text-center">war</div>
+			<div class="row py-2 my-2">
+				<div class="col">
+					<span class="border border-dark rounded p-2">besichtigt</span>
+					<span class="border border-dark rounded p-2">gab</span>
+					<span class="border border-dark rounded p-2">gemacht</span>
+					<span class="border border-dark rounded p-2">war</span>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-12 border border-dark rounded m-4 p-3" style="line-height: 250%;">

@@ -12,66 +12,58 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 p-1 align-middle">
-						<table class="table text-center">
-							<tbody>
-								<tr>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w1">Gesicht<span class="tran"><br><small>얼굴</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w2">Auge<span class="tran"><br><small>눈</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w3">Nase<span class="tran"><br><small>코</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w4">Ohren<span class="tran"><br><small>귀</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w5">Mund<span class="tran"><br><small>입</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w6">Arm<span class="tran"><br><small>팔</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w7">Hand<span class="tran"><br><small>손</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w8">Bauch<span class="tran"><br><small>배</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w9">Bein<span class="tran"><br><small>다리</small></span></div>
-									</td>
-								</tr>
-								<tr>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w10">Fuß(Fuss)<span class="tran"><br><small>발</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w11">Zahn<span class="tran"><br><small>이</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w12">Hals<span class="tran"><br><small>목</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w13">Rücken<span class="tran"><br><small>등</small></span></divn>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w14">Brust<span class="tran"><br><small>가슴</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w15">Knie<span class="tran"><br><small>무릎</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w16">Haare<span class="tran"><br><small>머리카락</small></span></div>
-									</td>
-									<td class="border-0 p-1 m-1">
-										<div class="border border-light p-1" id="w17">Kopf<span class="tran"><br><small>머리</small></span></div>
-									</td>
-								</tr>
-							</tbody>
-						</table>
+					<div class="col-12 py-2 my-2" style="line-height: 250%;">
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Gesicht<span class="tran">&nbsp;<small>얼굴</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Auge<span class="tran">&nbsp;<small>눈</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Nase<span class="tran">&nbsp;<small>코</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Ohren<span class="tran">&nbsp;<small>귀</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Mund<span class="tran">&nbsp;<small>입</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Arm<span class="tran">&nbsp;<small>팔</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Hand<span class="tran">&nbsp;<small>손</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Bauch<span class="tran">&nbsp;<small>배</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Bein<span class="tran">&nbsp;<small>다리</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Fuß(Fuss)<span class="tran">&nbsp;<small>발</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Zahn<span class="tran">&nbsp;<small>이</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Hals<span class="tran">&nbsp;<small>목</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Rücken<span class="tran">&nbsp;<small>등</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Brust<span class="tran">&nbsp;<small>가슴</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Knie<span class="tran">&nbsp;<small>무릎</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Haare<span class="tran">&nbsp;<small>머리카락</small></span>
+						</span>
+						<span class="border border-dark rounded p-1 px-2 m-1">
+							Kopf<span class="tran">&nbsp;<small>머리</small></span>
+						</span>
 					</div>
 
 					<div class="col-12">

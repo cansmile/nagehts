@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+`<?php include "header.php"; ?>
 <body>
 	<?php include "nav.php"; ?>
 	<?php if(ul()) { ?>
@@ -45,8 +45,6 @@
 					<small>어떤 집 형태인가요?</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-					❚❚
 					</button>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.<br />그림을 눌러도 들을 수 있습니다.</small> ]</h3>
@@ -55,13 +53,13 @@
 			
 			<div class="row">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-					<table class="table text-center">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A1-1.png" style="max-width:240px; height: auto;" class="so" id="8"></td>
+								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-1.png" style="max-width:240px; height: auto;" class="so" id="8"></td>
 							</tr>
 							<tr>
-								<td class="border-0 align-middle">
+								<td class="align-middle">
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -72,13 +70,13 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-					<table class="table text-center">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A1-2.png" style="max-width:240px; height: auto;" class="so" id="9"></td>
+								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-2.png" style="max-width:240px; height: auto;" class="so" id="9"></td>
 							</tr>
 							<tr>
-								<td class="border-0 align-middle">
+								<td class="align-middle">
 									<div class="itm-lst 1itm" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -89,13 +87,13 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-					<table class="table text-center">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A1-3.png" style="max-width:240px; height: auto;" class="so" id="10"></td>
+								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-3.png" style="max-width:240px; height: auto;" class="so" id="10"></td>
 							</tr>
 							<tr>
-								<td class="border-0 align-middle">
+								<td class="align-middle">
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -106,13 +104,13 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-					<table class="table text-center">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A1-4.png" style="max-width:240px; height: auto;" class="so" id="11"></td>
+								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-4.png" style="max-width:240px; height: auto;" class="so" id="11"></td>
 							</tr>
 							<tr>
-								<td class="border-0 align-middle">
+								<td class="align-middle">
 									<div class="itm-lst 1itm" id="lst-4">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -123,13 +121,13 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 aling-bottom">
-					<table class="table text-center">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A1-5.png" style="max-height:240px; max-width: 99%;" class="so" id="12"></td>
+								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-5.png" style="max-height:240px; max-width: 99%;" class="so" id="12"></td>
 							</tr>
 							<tr>
-								<td class="border-0 align-middle">
+								<td class="align-middle">
 									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -140,13 +138,13 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-					<table class="table text-center">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A1-6.png" style="max-width:240px; height: auto;" class="so" id="13"></td>
+								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-6.png" style="max-width:240px; height: auto;" class="so" id="13"></td>
 							</tr>
 							<tr>
-								<td class="border-0 align-middle">
+								<td class="align-middle">
 									<div class="itm-lst 1itm" id="lst-6">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -157,13 +155,13 @@
 					</table>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-					<table class="table text-center">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle border-0"><img src="./images/Reihe 4/Reihe-4-A1-7.png" style="max-width:240px; height: auto;" class="so" id="14"></td>
+								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-7.png" style="max-width:240px; height: auto;" class="so" id="14"></td>
 							</tr>
 							<tr>
-								<td class="border-0 align-middle">
+								<td class="align-middle">
 									<div class="itm-lst 1itm" id="lst-7">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -185,195 +183,176 @@
 	</section>
 	
 	<div id="marg"></div>
-	
+	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./js/taptogrouph.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
 	<script>
-		$("#0").hide();
-		$("#0_p").hide();
-		$("#chk").hide();
-		$(".tran").hide();
-		$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm = new Array(), sen = new Array();
+	$("#0").hide();
+	$(".tran").hide();
+	$(document).ready(function() {
+		// 소리 출력 전역 변수와 함수
+		var sen=new Array(),
+		pa=new Array(),
+		he=new Array(),
+		last;
+		$(".so").each(function() {
+			var t=$(this);
+			var ti=t.attr("id");
+			sen[ ti]=0;
+			pa[ ti]=t.html();
+		}
+		);
+		function stopAll() {
 			$(".so").each(function() {
-				hm[$(this).attr("id")] = 0;
-				sen[$(this).attr("id")] = 0;
-			});
-			ion.sound({
-				sounds : [{
-					name : "r4 A1",
-					sprite : {
-						"0": [6,37.3],
-						"1": [12.2,2.7],
-						"2": [18.3,2.8],
-						"3": [23.7,2.1],
-						"4": [28.2,1.8],
-						"5": [32.6,2.4],
-						"6": [36.7,2.6],
-						"7": [40.9,2.3],
-						"8": [40.9,2.3],
-						"9": [36.7,2.6],
-						"10": [12.2,2.7],
-						"11": [18.3,2.8],
-						"12": [32.6,2.4],
-						"13": [23.7,2.1],
-						"14": [28.2,1.8]
-					}
-				},{
-					name : "dingdongdang",
-					path : "sounds/"
-				}, {
-					name : "Cartoon_Boing",
-					path : "sounds/"
-				}],
-				path : "sounds/Reihe 4/",
-				preload : true,
-				volume : 1.0,
-				multiplay: false,
-				
-				ended_callback: function(obj) {
-					// 재생이 끝날 때 2번 이상이면 번역 보이기
-					hmn = obj.part;
-					hm[hmn]++;
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-						if(hm[hmn] > 1) {
-							$(".tran").show();
-						}
-					} else {
-						if(obj.part > 11) {
-							$("#"+obj.part).html("▶");
-						}
-						if(hm[hmn] > 1) {
-							$("#"+hmn).closest("button").find(".tran").show();
-						}
-					}
-				}, ready_callback: function () {
-					
-			$(".o").on("click", function() {
-				ion.sound.play("dingdongdang");
-			});
-			$(".x").on("click", function() {
-				ion.sound.play("Cartoon_Boing");
-			});
-
-		$(".so").on("click", function () {
-			if($(this).attr("id").substr(-2) == "_p") {
-				// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-				ion.sound.pause("r4 A1", {
-					part: "0"
-				});
-				$("#0").show();
-				$(this).hide();
-			} else if($(this).html() == "▶") {
-				// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-				ion.sound.play("r4 A1", {
-					part: $(this).attr("id")
-				});
-				$(this).html("❚❚");
-			} else if($(this).html() == "❚❚") {
-				// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-				ion.sound.pause("r4 A1", {
-					part: $(this).attr("id")
-				});
-				$(this).html("▶");
-			} else {
-				// _p 붙어 있지 않으면 id 그대로 재생
-				ion.sound.play("r4 A1", {
-					part: $(this).attr("id")
-				});
-				// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-				if($(this).attr("id") == "0") {
-					$(this).hide();
-					$("#0_p").show();
-				};
-			};
-		});
-
-		<?php include "wahl.php"; ?>
-
-		// 정답확인
-		$("#chk").on("click", function() {
-				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
-					$(this).attr("id", "done");
-					$(".itm").each(function() {
-						if($(this).parent().attr("id").length > 5) {
-							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
-						} else {
-							var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
-						}
+				$(this).html(pa[ $(this).attr("id")]);
+			}
+			);
+		}
+		// 문제 재생
+		var nagehts=new Howl( {
+			src: [ "./sounds/Reihe 4/r4 A1.mp3"],
+			sprite: {
+				"0": [1295, 41370],
+					"1": [11970, 2700],
+					"2": [18235, 2230],
+					"3": [23963, 1763],
+					"4": [28295, 1613],
+					"5": [32346, 2071],
+					"6": [36862, 1996],
+					"7": [41131, 1487],
+					"8": [41131, 1487],
+					"9": [36862, 1996],
+					"10": [11970, 2700],
+					"11": [18235, 2230],
+					"12": [32346, 2071],
+					"13": [23963, 1763],
+					"14": [28295, 1613]
+			}
+			,
+			html5: true,
+			volume: 1,
+			format: "mp3",
+			preload: true,
+			onloaderror: function() {
+				$(".alert").append("<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>");
+				console.log("다시 읽어주세요!");
+			}
+			,
+			onload: function() {
+				<?php include "wahl.php";
+				?> // 정답확인
+				$("#chk").on("click", function() {
+					var na="";
+					if($("#itms").find("button").length < 1) {
 						$(".tran").show();
-						if($(this).hasClass("ans"+ (a))) {
+						$(".itm-lst").each(function() {
+							$(this).html($(this).find("button").html());
 							$(this).addClass("text-success font-weight-bold");
+							// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
+						}
+						);
+						// 정답 확인 div 상자 배경색 속성 없애기
+						$(this).removeClass("btn-light ");
+						var qa=$(".itm-lst").length; // 전체 문항 수
+						var qr=$(".text-success").length; // 맞춘 항목 수
+						var pe=(qr / qa) * 100; // 정답 비율
+						var tcl="white"; // 기본 문자색
+						// 분류 기준은 100%, 80%, 60%, 40%
+						if(pe > 99) {
+							var st="원어민이세요?";
+							var cl="lime";
+							var tcl="dark";
+						}
+						else if(pe > 74) {
+							var st="어! 좀 하시는데요~^^";
+							var cl="success";
+						}
+						else if(pe > 49) {
+							var st="쓰읍~ 다시 해 보실까요?";
+							var cl="primary";
 						}
 						else {
-							$(this).addClass("text-warning font-weight-bold");
-							$(this).find(".tran").show();
-
+							var st="좀 더 분발해 주세요~";
+							var cl="danger";
 						}
-						;
-
-						if($(this).hasClass("text-warning")) {
-							// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
-							for(var i = 1; i <= $(".itm-lst").length; i++) {
-								if($(this).hasClass("ans"+i)) {
-									$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
-									// $(lstn).append(i);
-								}
-							}
-						};
-
+						$(this).addClass("btn-"+ cl + " text-"+ tcl);
+						$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
 					}
-				);
-					
-				// 정답 확인 div 상자 배경색 속성 없애기
-				$(this).removeClass("btn-light ");
-
-				var qa = $(".itm-lst").length; // 전체 문항 수
-				var qr = $(".1itm>.btn-outline-dark").length; // 맞춘 항목 수
-				var pe = (qr / qa) * 100; // 정답 비율
-				var tcl = "white"; // 기본 문자색
-
-				// 분류 기준은 100%, 80%, 60%, 40%
-				if(pe > 99) {
-					var st = "원어민이세요?";
-					var cl = "lime";
-					var tcl = "dark";
-				} else if(pe > 74) {
-					var st = "어! 좀 하시는데요~^^";
-					var cl = "success";
-				} else if(pe > 49) {
-					var st = "쓰읍~ 다시 해 보실까요?";
-					var cl = "primary";
-				} else {
-					var st = "좀 더 분발해 주세요~";
-					var cl = "danger";
+					else {
+						$("div.itm-lst").each(function(idx) {
+							if( !$(this).find("button").length) {
+								if(na !="") {
+									na +=", ";
+								}
+								na +=(idx+1);
+							}
+						}
+						);
+						alert(na+"번 문제를 풀어주세요!");
+					}
 				}
-
-				$(this).addClass("btn-" + cl + " text-" + tcl);
-				$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
+				);
+				$("#0").show();
+				$(".alert").hide();
+				$(".so").on("click", function() {
+					var t=$(this);
+					var ti=t.attr("id");
+					if (($("div#last").text()==""|| t.text()=="❚❚") && !t.hasClass(".itm-lst")) {
+						$("#last").text(ti);
+						t.text("■");
+						nagehts.seek();
+						nagehts.play(ti);
+						sen[ ti]++;
+						last=ti;
+						$("#cnt-"+ ti).text(sen[ ti]);
+					}
+					else if (last==ti && nagehts.playing($("div#last").text())) {
+						$("#last").text("");
+						t.html(pa[ ti]);
+						nagehts.pause();
+						sen[ ti]--;
+						$("#cnt-"+ ti).text(sen[ ti]);
+					}
+				}
+				);
+				$("#0").show();
 			}
-			});
-	$("#0").show();
-	$(".alert").hide();
+			,
+			onend: function() {
+				$("div#last").text("");
+				stopAll();
+				$("#cnt-"+last).text(sen[last]);
+				if(last==0) {
+					if(sen[last]==2) {
+						$(".tran").show();
+						$(".so").each(function() {
+							pa[last]=$("#"+last).html();
+						}
+						);
+					}
+				}
+				else if(sen[last]==2) {
+					if($(this).hasClass(".itm")) {
+						$("#"+last).find(".tran").show();
+					}
+					$("#"+last).closest("tr").find(".tran").show();
+					pa[last]=$("#"+last).html();
+				}
+			}
+		}
+		);
 	}
-	});
-	
-	});
-		
+	);
+
 	</script>
-	<!-- ion.sound finished -->
 	<? } ?>
-	<?php include "footer.php"; ?>
+	<?php include"footer.php"; ?>
 </body>
 </html>

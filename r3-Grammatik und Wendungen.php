@@ -19,7 +19,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
-							<table class="table text-center align-middle">
+							<table class="table table-borderless align-middle">
 								<tbody>
 									<tr>
 										<td><strong>Wer</strong> ist das?</td>
@@ -58,7 +58,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
-							<table class="table text-center align-middle">
+							<table class="table table-borderless align-middle">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -88,7 +88,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms">
-							<table class="table text-center align-middle">
+							<table class="table table-borderless text-center align-middle">
 								<thead>
 									<tr>
 										<th scope="col">Singular</th>
@@ -125,7 +125,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms">
-							<table class="table text-center align-middle">
+							<table class="table table-borderless text-center align-middle">
 								<thead>
 									<tr>
 										<th scope="col" colspan="4">Singular</th>
@@ -152,7 +152,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-center align-middle">
+							<table class="table table-borderless text-center align-middle">
 								<thead>
 									<tr>
 										<th scope="col" colspan="2">Plural</th>
@@ -165,7 +165,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table table-striped text-center align-middle">
+							<table class="table table-borderless table-striped text-center align-middle">
 								<thead>
 									<tr>
 										<th scope="col" colspan="3" class="text-center align-middle">Sg.</th>
@@ -221,7 +221,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
-							<table class="table text-center align-middle table-striped">
+							<table class="table table-borderless text-center align-middle table-striped">
 								<thead>
 									<tr>
 										<th scope="col">&nbsp;</th>
@@ -294,7 +294,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse6" aria-divledby="heading6" data-parent="#accordionitms">
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -309,7 +309,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -332,7 +332,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -351,7 +351,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -362,7 +362,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -385,7 +385,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>

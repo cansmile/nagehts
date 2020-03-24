@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
-	<body>
-<?php include "nav.php"; ?>
-<?php if(ul()) { ?>
+<body>
+	<?php include "nav.php"; ?>
+	<?php if(ul()) { ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -63,352 +63,315 @@
 			</div>
 		</div>
 	</section>
-		<section>
-			<div class="container">
+	<section>
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Hören Sie und sprechen Sie nach.<br>
 					<small>듣고 따라하세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-					❚❚
 					</button>
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					<h3>[ <small>듣고 알맞은 단어를 선택하세요.</small> ]</h3>
 				</div>
 			</div>
-				<div class="row">
-					<div class="col-12 mb-4 mt-2 border border-dark rounded p-2">
-						<table class="table border-0 text-center">
-							<tbody>
-								<tr>
-									<td class="border-0">Vivien(Ungarn)</td>
-									<td class="border-0">Sumi (Korea)</td>
-								</tr>
-								<tr>
-									<td class="border-0">Pierre (Frankreich)</td>
-									<td class="border-0">Diana (Griechenland)</td>
-								</tr>
-								<tr>
-									<td class="border-0">Max (Deutschland)</td>
-									<td class="border-0">Carlos (Mexiko)</td>
-								</tr>
-								<tr>
-									<td class="border-0">Julia (Polen)</td>
-									<td class="border-0">Amit (Indien)</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-12 mb-4 mt-2">
-						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col" class="text-center" width="50%"><img src="./images/sym_frau.png" alt="Frau" style="max-height: 140px; width: auto;"></th>
-									<th scope="col" class="text-center" width="50%"><img src="./images/sym_mann.png" alt="Mann" style="max-height: 140px; width: auto;"></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td style="line-height: 350%;"><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Vivien kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-1">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Sie ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-2">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>비비안은 헝가리 출신이에요. 그녀는 헝가리인이에요.</small></span>
-									</td>
-									<td style="line-height: 350%;"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Pierre kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-3">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Er ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-4">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>피에르는 프랑스 출신이에요. 그는 프랑스인이에요.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<td style="line-height: 350%;"><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Sumi kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-5">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Sie ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-6">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>수미는 한국 출신이에요. 그녀는 한국인이에요.</small></span>
-									</td>
-									<td style="line-height: 350%;"><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Max kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-7">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Er ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-8">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>막스는 독일 출신이고, 독일인이에요.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<td style="line-height: 350%;"><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Julia kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-9">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Sie ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-10">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>율리아는 폴란드 출신이고 폴란드인이에요.</small></span>
-									</td>
-									<td style="line-height: 350%;"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Carlos kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-11">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Er ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-12">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>카를로스는 멕시코 출신이에요. 그는 멕시코인이에요.</small></span>
-									</td>
-								</tr>
-								<tr>
-									<td style="line-height: 350%;"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Diana kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-13">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Sie ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-14">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>다이아나는 그리스 출신이에요. 그녀는 그리스인이에요.</small></span>
-									</td>
-									<td style="line-height: 350%;"><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										Amit kommt aus
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-15">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.<br>
-										Er ist
-										<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-16">
-											<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
-										</div>
-										.
-										<span class="tran"><br><small>아밋은 인도 출신이에요. 그는 인도인이에요.</small></span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+			<div class="row">
+				<div class="col-12 mb-4 mt-2 border border-dark rounded p-2">
+					<table class="table table-borderless text-center">
+						<tbody>
+							<tr>
+								<td>Vivien(Ungarn)</td>
+								<td>Sumi (Korea)</td>
+							</tr>
+							<tr>
+								<td>Pierre (Frankreich)</td>
+								<td>Diana (Griechenland)</td>
+							</tr>
+							<tr>
+								<td>Max (Deutschland)</td>
+								<td>Carlos (Mexiko)</td>
+							</tr>
+							<tr>
+								<td>Julia (Polen)</td>
+								<td>Amit (Indien)</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-				<!-- 정답화인 버튼 시작 -->
-				<div class="row">
-					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-						정답확인
-					</div>
+				<div class="col-12 mb-4 mt-2">
+					<table class="table table-borderless">
+						<thead>
+							<tr>
+								<th scope="col" class="text-center" width="50%"><img src="./images/sym_frau.png" alt="Frau" style="max-height: 140px; width: auto;"></th>
+								<th scope="col" class="text-center" width="50%"><img src="./images/sym_mann.png" alt="Mann" style="max-height: 140px; width: auto;"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td style="line-height: 350%;"><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Vivien kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-1">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Sie ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-2">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>비비안은 헝가리 출신이에요. 그녀는 헝가리인이에요.</small></span>
+								</td>
+								<td style="line-height: 350%;"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Pierre kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-3">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Er ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-4">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>피에르는 프랑스 출신이에요. 그는 프랑스인이에요.</small></span>
+								</td>
+							</tr>
+							<tr>
+								<td style="line-height: 350%;"><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Sumi kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-5">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Sie ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-6">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>수미는 한국 출신이에요. 그녀는 한국인이에요.</small></span>
+								</td>
+								<td style="line-height: 350%;"><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Max kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-7">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Er ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-8">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>막스는 독일 출신이고, 독일인이에요.</small></span>
+								</td>
+							</tr>
+							<tr>
+								<td style="line-height: 350%;"><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Julia kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-9">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Sie ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-10">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>율리아는 폴란드 출신이고 폴란드인이에요.</small></span>
+								</td>
+								<td style="line-height: 350%;"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Carlos kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-11">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Er ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-12">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>카를로스는 멕시코 출신이에요. 그는 멕시코인이에요.</small></span>
+								</td>
+							</tr>
+							<tr>
+								<td style="line-height: 350%;"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Diana kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-13">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Sie ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-14">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>다이아나는 그리스 출신이에요. 그녀는 그리스인이에요.</small></span>
+								</td>
+								<td style="line-height: 350%;"><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									Amit kommt aus
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-15">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.<br>
+									Er ist
+									<div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-16">
+										<h2 class="btn btn-warning btn-xl ttl d-block"> ▼ </h2>
+									</div>
+									.
+									<span class="tran"><br><small>아밋은 인도 출신이에요. 그는 인도인이에요.</small></span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-				<!-- 정답확인 버튼 끝 -->
+			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-
 	<div id="marg"></div>
-	
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
-		<script>
+	<div id="last" class="d-none"></div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/taptogrouph.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
+	<script>
 		$("#0").hide();
 		$("#0_p").hide();
 		$(".tran").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm=new Array(), sen=new Array();
+			// 소리 출력 전역 변수와 함수
+			var sen=new Array(), pa=new Array(), he=new Array(), last;
 			$(".so").each(function() {
-				hm[$(this).attr("id")]=0;
-				sen[$(this).attr("id")]=$("#"+$(this).attr("id")).html();
-			});
-
-			ion.sound( {
-				sounds : [ {
-					name : "r3 F5",
-					sprite : {
-						"0": [.297, 50.285],
-						"1": [8.994, .726],
-						"2": [40.955, .769],
-						"3": [22.201, .895],
-						"4": [31.350, .877],
-						"5": [4.333, .794],
-						"6": [47.757, .741],
-						"7": [15.692, .672],
-						"8": [2.002, .751],
-						"9": [35.161, .818],
-						"10": [43.505, 1.134],
-						"11": [17.941, .699],
-						"12": [24.561, .750],
-						"13": [29.064, .798],
-						"14": [37.351, .646],
-						"15": [49.710, .494],
-						"16": [11.327, 1.001],
-						"17": [.534, 4.874],
-						"18": [27.580, 4.700],
-						"19": [7.728, 4.737],
-						"20": [33.946, 4.200],
-						"21": [14.381, 4.368],
-						"22": [39.586, 5.111],
-						"23": [21.091, 4.197],
-						"24": [46.184, 4.010]
+				var t=$(this);
+				var ti=t.attr("id");
+				sen[ti]=0;
+				pa[ti]=t.html();
+			}
+			);
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[$(this).attr("id")]);
+				}
+				);
+			}
+			// 문제 재생
+			var nagehts=new Howl( {
+				src: ["./sounds/Reihe 3/r3 F5.mp3"],
+				sprite : {
+					"0": [86, 50198],
+					"1": [55962, 1288],
+					"2": [73239, 1256],
+					"3": [62628, 1430],
+					"4": [67923, 1515],
+					"5": [54036, 1360],
+					"6": [76868, 1335],
+					"7": [59615, 1207],
+					"8": [52520, 1267],
+					"9": [69865, 1353],
+					"10": [74824, 1668],
+					"11": [61266, 1126],
+					"12": [64531, 1255],
+					"13": [66213, 1411],
+					"14": [71491, 1207],
+					"15": [78442, 1219],
+					"16": [57692, 1616],
+					"17": [34, 5374],
+					"18": [27080, 5200],
+					"19": [7228, 5237],
+					"20": [33446, 3700],
+					"21": [13881, 4868],
+					"22": [39086, 5611],
+					"23": [20591, 4697],
+					"24": [45684, 4510]
+				}
+				,
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
+				}
+				,
+				onload: function() {
+					// 음성 준비되면 HV 버튼 나타내기
+					$("#0").show();
+					$(".alert").hide();
+					$(".so").on("click", function() {
+						var t=$(this);
+						var ti=t.attr("id");
+						if(($("div#last").text()==""|| t.text()=="❚❚") && !t.hasClass(".itm-lst")) {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ti]++;
+							last=ti;
+							$("#cnt-"+ti).text(sen[ti]);
+						}
+						else if(last==ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ti]);
+							nagehts.pause();
+							sen[ti]--;
+							$("#cnt-"+ti).text(sen[ti]);
+						}
 					}
-				}
-				, {
-					name: "dingdongdang",
-						path: "sounds/"
-				}
-				, {
-					name: "Cartoon_Boing",
-						path: "sounds/"
-				}
-				],
-				path : "sounds/Reihe 3/",
-				preload : true,
-				volume : 1.0,
-				multiplay: false,
-				ended_callback: function(obj) {
-						// 재생이 끝날 때 2번 이상이면 번역 보이기
-						hmn=obj.part;
-						hm[hmn]++;
-						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-						if(obj.part=="0") {
-							$("#0").show();
-							$("#0_p").hide();
-							if(hm[hmn] > 1) {
-								$(".tran").show();
-							}
-						}
-						else {
-							$("#"+obj.part).html(sen[obj.part]);
-							if(hm[hmn] > 1) {
-								$("#"+hmn).closest("td").find(".tran").show();
-							}
-						}
-					}
-				, ready_callback: function () {
-
-					$(".so").on("click", function () {
-							if($(this).attr("id").substr(-2)=="_p") {
-								// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-								ion.sound.pause("r3 F5", {
-									part: "0"
-								}
-								);
-								$("#0").show();
-								$(this).hide();
-							}
-							else if($(this).text()==sen[$(this).attr("id")]) {
-								// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-								ion.sound.play("r3 F5", {
-									part: $(this).attr("id")
-								}
-								);
-								$(this).html("❚❚");
-							}
-							else if($(this).html()=="❚❚") {
-								// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-								ion.sound.pause("r3 F5", {
-									part: $(this).attr("id")
-								}
-								);
-								$(this).html("▶");
-							}
-							else {
-								// _p 붙어 있지 않으면 id 그대로 재생
-								ion.sound.play("r3 F5", {
-									part: $(this).attr("id")
-								}
-								);
-								// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-								if($(this).attr("id")=="0") {
-									$(this).hide();
-									$("#0_p").show();
-								}
-								;
-							}
-							;
-						}
 					);
-
-
-					// 정답확인
+					<?php include "wahl.php";
+					?> // 정답확인
 					$("#chk").on("click", function() {
 						var na="";
-						if($("#itms").find("button").length < 1) {
-							$(".tran").show();
-
-						// 정답 확인 div 상자 배경색 속성 없애기
-						$(this).removeClass("btn-light ");
-
-						$(".itm-lst").each(function() {
-							if($(this).find(".btn")) {
-								$(this).find(".btn").addClass("text-success font-weight-bold");
+						if( !$("#itms").find("button").length) {
+							$("span.nu").each(function () {
+								$(this).text($.trim($(this).closest("tr").find(".itm-lst").text()));
+								$(this).removeClass("btn btn-outline-dark btn-sm nu");
+								$(this).addClass("font-weight-bold rounded bg-success text-white p-1 px-2 m-1");
 							}
-						});
-
-						var qa = $(".itm-lst").length; // 전체 문항 수
-						var qr = $(".text-success").length; // 맞춘 항목 수
-						var pe = (qr / qa) * 100; // 정답 비율
-						var tcl = "white"; // 기본 문자색
-
-						// 분류 기준은 100%, 80%, 60%, 40%
-						if(pe > 99) {
-							var st = "원어민이세요?";
-							var cl = "lime";
-							var tcl = "dark";
-						} else if(pe > 74) {
-							var st = "어! 좀 하시는데요~^^";
-							var cl = "success";
-						} else if(pe > 49) {
-							var st = "쓰읍~ 다시 해 보실까요?";
-							var cl = "primary";
-						} else {
-							var st = "좀 더 분발해 주세요~";
-							var cl = "danger";
-						}
-
-						$(this).addClass("btn-" + cl + " text-" + tcl);
-						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
-							$(".btn-lg").text().appendTo($(this).closest("td"));
-							$(".btn-lg").remove();
+							);
+							// 정답 확인 div 상자 배경색 속성 없애기
+							$(this).removeClass("btn-light ");
+							$(".itm-lst>button").addClass("text-success font-weight-bold");
+							var qa=$(".itm-lst").length; // 전체 문항 수
+							var qr=$(".text-success").length; // 맞춘 항목 수
+							var pe=(qr / qa) * 100; // 정답 비율
+							var tcl="white"; // 기본 문자색
+							// 분류 기준은 100%, 80%, 60%, 40%
+							if(pe > 99) {
+								var st="원어민이세요?";
+								var cl="lime";
+								var tcl="dark";
+							}
+							else if(pe > 74) {
+								var st="어! 좀 하시는데요~^^";
+								var cl="success";
+							}
+							else if(pe > 49) {
+								var st="쓰읍~ 다시 해 보실까요?";
+								var cl="primary";
+							}
+							else {
+								var st="좀 더 분발해 주세요~";
+								var cl="danger";
+							}
+							$(this).addClass("btn-"+ cl + " text-"+ tcl);
+							$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
+							$(this).attr("id", "done");
+							$(".tran").show();
+							$(".itm-lst").hide();
 						}
 						else {
 							$("div.itm-lst").each(function(idx) {
@@ -425,38 +388,37 @@
 						}
 					}
 					);
-					$("#0").show();
-					$(".alert").hide();
-
-					<?php include "wahl.php"; ?>
-
-					var pan=new Array();
-					// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14",15,16];
-					pan=[1];
-					var il=$("#itms>.itm").length;
-					for(var p=0;
-					p < pan.length;
-					p++) {
-						var pani="#lst-"+ pan[p];
-						$(".itm").each(function() {
-							if($(this).hasClass("ans"+ pan[p])) {
-								$("#"+ $(this).attr("id")).appendTo($("#lst-"+ pan[p]));
-								$("#"+ $(this).attr("id")).addClass("btn-block font-weight-bold text-center pl-0");
-								$("#lst-"+ pan[p] + ">h2").remove();
-								// $("#lst-"+ pan[p]).parent().find(".tran").show();
+				}
+				,
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(last==0) {
+						if(sen[last]==2) {
+							$(".tran").show();
+							$(".so").each(function() {
+								pa[last]=$("#"+last).html();
 							}
+							);
 						}
-						)
 					}
-		
+					else if(sen[last]==2) {
+						if($(this).hasClass(".itm")) {
+							$("#"+last).find(".tran").show();
+						}
+						$("#"+last).closest("tr").find(".tran").show();
+						pa[last]=$("#"+last).html();
+					}
 				}
 			}
 			);
 		}
 		);
-</script>
-		<!-- ion.sound finished -->
-<? } ?>
-<?php include "footer.php"; ?>
-	</body>
+
+	
+	</script>
+	<? } ?>
+	<?php include "footer.php"; ?>
+</body>
 </html>

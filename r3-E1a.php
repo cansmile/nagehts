@@ -36,41 +36,41 @@
 				<div class="row mt-2">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 						<div class="row"><div class="col bg-gray-light">
-							<table class="table">
+							<table class="table table-borderless table-sm">
 								<tbody>
 									<tr>
-										<td class="border-0 text-left">Jonas Meyer</td>
+										<td class="text-left">Jonas Meyer</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">&nbsp;&nbsp;Diplom Ingenieur Siemens</td>
+										<td class="text-left">&nbsp;&nbsp;Diplom Ingenieur Siemens</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">Nonnendammallee 72</td>
+										<td class="text-left">Nonnendammallee 72</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-left">13628 Berlin Germany</td>
+										<td class="text-left">13628 Berlin Germany</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">&nbsp;</td>
+										<td class="text-right">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">Tel.: (0941) 95 83 13</td>
+										<td class="text-right">Tel.: (0941) 95 83 13</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">Handy: (0176) 59 17 77</td>
+										<td class="text-right">Handy: (0176) 59 17 77</td>
 									</tr>
 									<tr>
-										<td class="border-0 text-right">E-Mail: jonasmeyer@yahoo.de</td>
+										<td class="text-right">E-Mail: jonasmeyer@yahoo.de</td>
 									</tr>
 								</tbody>
 							</table>
 						</div></div>
 					</div>
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
-						<table class="table">
+						<table class="table table-borderless">
 							<tbody>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										Herr Meyer, <div class="itm-lst 1itm d-inline-block" id="lst-1">
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
@@ -78,13 +78,13 @@
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										Ich bin Ingenieur. Ich arbeite bei Siemens.
 										<span class="tran"><br><small>저는 엔지니어입니다. 지멘스에서 일하고 있습니다.</small></span>
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-2">
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
@@ -92,13 +92,13 @@
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										Meine Adresse ist Nonnendammallee 72, 13628 Berlin.
 										<span class="tran"><br><small>저의 주소는 논넨담말레 72, 13628 베를린입니다.</small></span>
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-3">
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
@@ -106,13 +106,13 @@
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										Meine Telefonnummer ist 958313. Und die Vorwahl ist 0941.
 										<span class="tran"><br><small>제 전화번호는 958313입니다. 그리고 지역번호는 0941입니다.</small></span>
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										<div class="itm-lst 1itm d-inline-block" style="min-width: 50px;" id="lst-4">
 											<h2 class="btn btn-warning btn-lg ttl d-block" style="position: relative; top: 6px; min-width: 210px;"> ▼ </h2>
 										</div>
@@ -120,7 +120,7 @@
 									</td>
 								</tr>
 								<tr>
-									<td colspan="2" class="border-0">
+									<td colspan="2">
 										Meine E-Mail-Adresse ist jonasmeyer@yahoo.de.
 										<span class="tran"><br><small>저의 이메일 주소는 jonasmeyer@yahoo.de입니다.</small></span>
 									</td>
@@ -146,9 +146,10 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.js"></script>
-<script src="./js/taptogroup.js"></script>
-<!-- interact.min.js -->
-<script src="./js/ion.sound.min.js"></script>
+<script src="./js/taptogrouph.js"></script>
+<script src="./js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+<?php require_once("./oxsound.php"); ?>
 <script>
 	$(".tran").hide();
 	$("#chk").hide();
@@ -231,7 +232,6 @@
 	});
 
 		</script>
-		<!-- ion.sound finished -->
 <? } ?>
 <?php include "footer.php"; ?>
 	</body>

@@ -176,27 +176,27 @@
 					<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
 						<div class="row">
 							<div class="col">
-								<table class="table table-borderless table-striped">
+								<table class="table table-borderless table-striped text-center table-sm">
 									<tbody>
 										<tr>
-											<td class="text-center border-0">Wie ist</td>
-											<td class="text-center border-0">Ihre</td>
-											<td class="text-center border-0">Adresse?</td>
+											<td>Wie ist</td>
+											<td>Ihre</td>
+											<td>Adresse?</td>
 										</tr>
 										<tr>
-											<td class="text-center">&nbsp;</td>
-											<td class="text-center border-0">deine</td>
-											<td class="text-center border-0">E-Mail-Adresse?</td>
+											<td>&nbsp;</td>
+											<td>deine</td>
+											<td>E-Mail-Adresse?</td>
 										</tr>
 										<tr>
-											<td class="text-center">&nbsp;</td>
-											<td class="text-center border-0">ihre</td>
-											<td class="text-center border-0">Telefonnummer?</td>
+											<td>&nbsp;</td>
+											<td>ihre</td>
+											<td>Telefonnummer?</td>
 										</tr>
 										<tr>
-											<td class="text-center">&nbsp;</td>
-											<td class="text-center border-0">seine</td>
-											<td class="text-center border-0">Handynummer?</td>
+											<td>&nbsp;</td>
+											<td>seine</td>
+											<td>Handynummer?</td>
 										</tr>
 									</tbody>
 								</table>
@@ -206,27 +206,27 @@
 					<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
 						<div class="row">
 							<div class="col">
-								<table class="table table-borderless table-striped">
+								<table class="table table-borderless table-striped text-center table-sm">
 									<tbody>
 										<tr>
-											<td class="text-center border-0">Meine</td>
-											<td class="text-center border-0">Adresse</td>
-											<td class="text-center border-0">ist ...</td>
+											<td>Meine</td>
+											<td>Adresse</td>
+											<td>ist ...</td>
 										</tr>
 										<tr>
-											<td class="text-center">Meine</td>
-											<td class="text-center border-0">E-Mail-Adresse</td>
-											<td class="text-center border-0">&nbsp;</td>
+											<td>Meine</td>
+											<td>E-Mail-Adresse</td>
+											<td>&nbsp;</td>
 										</tr>
 										<tr>
-											<td class="text-center">Ihre</td>
-											<td class="text-center border-0">Telefonnummer</td>
-											<td class="text-center border-0">&nbsp;</td>
+											<td>Ihre</td>
+											<td>Telefonnummer</td>
+											<td>&nbsp;</td>
 										</tr>
 										<tr>
-											<td class="text-center">Seine</td>
-											<td class="text-center border-0">Handynummer</td>
-											<td class="text-center border-0">&nbsp;</td>
+											<td>Seine</td>
+											<td>Handynummer</td>
+											<td>&nbsp;</td>
 										</tr>
 									</tbody>
 								</table>
@@ -243,10 +243,11 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
-	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
-	<script>
+	<script src="./js/taptogrouph.js"></script>
+	<script src="./js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./oxsound.php"); ?>
+<script>
 		$("#chk").hide();
 		$(".tran").hide();
 		$(document).ready(function() {
@@ -333,7 +334,6 @@
 
 		
 	</script>
-	<!-- ion.sound finished -->
 	<? } ?>
 	<?php include "footer.php"; ?>
 </body>

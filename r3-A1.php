@@ -425,11 +425,10 @@ $(document).ready(function() {
 				}
 			}
 			else if(sen[last]==2) {
-				var tbl=new Array();
-				tbl=[2, 6, 11];
-				if($(this).hasClass(".itm")) {
-					$("#"+last).find(".tran").show();
+				if($("#"+last).hasClass("itm")) {
+					$("#"+last+">.tran").show();
 				}
+				
 				if(last==2 || last==6 || last==11) {
 					$("#"+last).closest("table").find(".tran").show();
 				}

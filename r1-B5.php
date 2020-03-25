@@ -277,8 +277,8 @@ var nagehts = new Howl({
 				});
 			}
 		} else if(sen[last] == 2) {
-			if($(this).hasClass(".itm")) {
-				$("#"+last).find(".tran").show();
+			if($("#"+last).hasClass("itm")) {
+				$("#"+last+">.tran").show();
 			}
 			$("#"+last).closest("tr").find(".tran").show();
 			pa[last] = $("#"+last).html();

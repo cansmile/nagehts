@@ -19,7 +19,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
-							<table class="table text-justify align-middle border-0">
+							<table class="table table-borderless text-justify align-middle">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -49,7 +49,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table table-striped text-center">
+							<table class="table table-borderless table-striped text-center table-sm">
 								<tbody>
 									<tr>
 										<th scope="col">&nbsp;</th>
@@ -82,7 +82,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
-							<table class="table text-center align-middle">
+							<table class="table table-borderless text-center align-middle">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -101,7 +101,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table table-striped text-center">
+							<table class="table table-borderless table-striped text-center table-sm">
 								<tbody>
 									<tr>
 										<th scope="col">&nbsp;</th>
@@ -134,7 +134,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms">
-							<table class="table text-center table-striped align-middle">
+							<table class="table table-borderless text-center table-striped align-middle">
 								<thead>
 									<tr>
 										<th scope="col">&nbsp;</th>
@@ -186,7 +186,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms">
-							<table class="table">
+							<table class="table table-borderless">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -216,7 +216,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
-							<table class="table">
+							<table class="table table-borderless">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -247,7 +247,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse6" aria-divledby="heading6" data-parent="#accordionitms">
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<tbody>
 									<tr>
 										<td width="50%">Wie wohnen Sie?</td>
@@ -275,7 +275,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<tbody>
 									<tr>
 										<td width="50%">Was hast du in deiner Schultasche?</td>
@@ -299,7 +299,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<tbody>
 									<tr>
 										<td>Ich habe einen Computer, eine Uhr und ein Regal.</td>
@@ -309,7 +309,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<tbody>
 									<tr>
 										<td width="50%">Wie ist das Wohnzimmer?</td>
@@ -317,14 +317,14 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<tbody>
 									<tr>
 										<td>Das ist ein Stuhl. Er kostet 77 Euro.</td>
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<tbody>
 									<tr>
 										<td width="50%">Wie ist Ihre Adresse?</td>

@@ -14,8 +14,6 @@
 						<h3>[ <small>입력한 문장이 정답인 경우 나타나는 선택지에서 동사를 고르세요.</small> ]
 						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 						HV
-						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-						❚❚
 						</button>
 						</h2>
 						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
@@ -711,7 +709,6 @@
 			$(".tran").hide();
 			$(".q").hide();
 			$("#0").hide();
-			$("#0_p").hide();
 			$(".pop").addClass("border border-dark border-top-0 border-left-0 border-right-0");
 			var an = new Array();
 			var an = ["Wie heißt er?","Er heißt Tommy.","Wo wohnst du?","Wohnst du in Daegu?","Ja, ich wohne in Daegu.","Woher kommt er?","Er kommt aus Chile.","Liegt Vietnam in Asien?","Ja, Vietnam liegt in Asien.","Welche Sprachen sprechen Sie?","Ich spreche Deutsch und Englisch.","Sprichst du Koreanisch?","Ja, ich spreche gut Koreanisch.","Bist du Chinesin?","Nein, ich bin Koreanerin.","Ist er Deutscher?","Nein, er ist Franzose."];

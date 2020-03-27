@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
-<?php if(ul()) { ?>
+<?php include "back.php"; ?>
 <?php
 $a_cell_height = 60;
 $double_cell_height = $a_cell_height * 2;
@@ -838,7 +837,6 @@ $double_cell_height = $a_cell_height * 2;
 	
 	</script>
 		<!-- ion.sound finished -->
-<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

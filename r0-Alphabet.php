@@ -1,5 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
+		<?php include "back.php"; ?>
 		<?php require_once "ready.php"; ?>
 <style>
 	.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;} 

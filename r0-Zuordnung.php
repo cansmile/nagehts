@@ -1,6 +1,7 @@
 <?php include "header.php"; ?>
 
 <body>
+	<?php include "back.php"; ?>
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
 	<!-- 보기시작 -->

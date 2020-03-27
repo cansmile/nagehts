@@ -1,5 +1,6 @@
 <?php include "header.php"; ?>
 <body>
+	<?php include "back.php"; ?>
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 시작 -->
 	<div class="alert alert-warning alert-dismissible fade show" role="alert">

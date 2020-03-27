@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
-<?php if(ul()) { ?>
+<?php include "back.php"; ?>
 <!-- 보기시작 -->
 <section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
@@ -315,7 +314,6 @@
 
 		</script>
 		<!-- ion.sound finished -->
-<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

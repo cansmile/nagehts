@@ -14,27 +14,28 @@ $color = $col[array_rand($col)];
 $a = " active";
 $sr = " <span class=\"sr-only\">(current)<\/span><\/a>";
 
-
+e
 // 로그인 확인
-include 'wp-load.php';
+// include 'wp-load.php';
 
-$cookie_name = 'wordpress_logged_in_'.md5(get_site_option('siteurl'));
-$cookie = $_COOKIE&#91;$cookie_name&#93;;
+// $cookie_name = 'wordpress_logged_in_'.md5(get_site_option('siteurl'));
+// $cookie = $_COOKIE&#91;$cookie_name&#93;;
 
-wp_set_current_user(wp_validate_auth_cookie($cookie, 'logged_in'));
+// wp_set_current_user(wp_validate_auth_cookie($cookie, 'logged_in'));
 
 // 로그인 했니 안 했니? boolen
 function ul() {
-	$user = wp_get_current_user();
-// 학생만 보게 할 때는 tablepress_add_tables을 할 수 있는지 여부에 따라 반환값 설정 
-	if(substr($_SERVER["HTTP_HOST"], 0, 14) == 'schnupperseite') {
-		return true;
-	} else if(current_user_can("tablepress_add_tables")) {
-		return true;
-	} else {
-		return false;
-	}
-	// return $user->exists(); 가입한 이용자는 다 볼 수 있게 하여라!
+	return true;
+// 	$user = wp_get_current_user();
+// // 학생만 보게 할 때는 tablepress_add_tables을 할 수 있는지 여부에 따라 반환값 설정 
+// 	if(substr($_SERVER["HTTP_HOST"], 0, 14) == 'schnupperseite') {
+// 		return true;
+// 	} else if(current_user_can("tablepress_add_tables")) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// 	// return $user->exists(); 가입한 이용자는 다 볼 수 있게 하여라!
 }
 
 

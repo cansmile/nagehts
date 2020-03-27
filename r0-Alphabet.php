@@ -1,7 +1,5 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
-	<?php if(ul()) { ?>
 		<?php require_once "ready.php"; ?>
 <style>
 	.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;} 
@@ -675,8 +673,6 @@ var nagehts = new Howl({
 
 
 </script>
-<!-- ion.sound finished -->
-	<? } ?>
 <?php include "footer.php"; ?>
 
 	</body>

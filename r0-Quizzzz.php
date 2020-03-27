@@ -1,8 +1,7 @@
 <?php include "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
 	<?php require_once "ready.php"; ?>
-	<?php if(ul()) { ?>
+	<!-- 알림 시작 -->
 	<div class="alert alert-warning alert-dismissible fade show" role="alert">
 		문제를 모두 풀어야
 		<button class="badge badge-light" disabled>
@@ -446,8 +445,6 @@
 		});
 	});
 	</script>
-	<!-- 알림 시작 -->
-	<? } ?>
 	<?php include "footer.php"; ?>
 </body>
 </html>

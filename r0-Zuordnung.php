@@ -1,8 +1,6 @@
 <?php include "header.php"; ?>
 
 <body>
-	<?php include "nav.php"; ?>
-	<?php if(ul()) { ?>
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
 	<!-- 보기시작 -->
@@ -357,7 +355,6 @@ var nagehts = new Howl({
 });
 
 	</script>
-	<? } ?>
 	<?php include "footer.php"; ?>
 </body>
 </html>

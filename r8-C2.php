@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
-<?php if(ul()) { ?>
+<?php include "back.php"; ?>
 <!-- 보기시작 -->
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
@@ -742,7 +741,6 @@
 
 </script>
 <!-- ion.sound finished -->
-<? } ?>
 <?php include "footer.php"; ?>
 </body>
 </html>

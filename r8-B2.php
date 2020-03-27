@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
-<?php if(ul()) { ?>
+<?php include "back.php"; ?>
 <style>
 	.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;} 
 	.video-container iframe,.video-container object,.video-container embed {position:absolute; top:0; left:0; width:100%; height:100%;} 
@@ -149,7 +148,6 @@
 			
 		</script>
 		<!-- ion.sound finished -->
-<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
-	<?php if(ul()) { ?>
+<?php include "back.php"; ?>
 	<section>
 		<div class="container">
 			<!-- 고르는 아이템들 -->
@@ -382,7 +381,6 @@
 		
 	</script>
 	<!-- ion.sound finished -->
-	<? } ?>
 	<?php include "footer.php"; ?>
 </body>
 </html>

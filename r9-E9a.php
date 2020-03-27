@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
-	<?php if(ul()) { ?>
+<?php include "back.php"; ?>
 <style type="text/css">
 td,th {
 	height: 80px;
@@ -339,7 +338,6 @@ td,th {
 		);
 </script>
 <!-- ion.sound finished -->
-<? } ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
-	<?php if(ul()) { ?>
+<?php include "back.php"; ?>
 	<style>
 		td {
 			height: 20%;
@@ -191,7 +190,6 @@
 		}
 		);
 	</script>
-	<? } ?>
 	<?php include "footer.php"; ?>
 </body>
 </html>

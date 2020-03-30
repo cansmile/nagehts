@@ -240,7 +240,7 @@
 								<div class="col-3"><span class="p-1 m-1 px-2 bg-lime">TIPP</span></div>
 								<div class="col-3">da <small>여기, 거기(있는, 출석한)</small></div>
 								<div class="col-3">nicht da<small>(없는, 결석한)</small></div>
-								<div class="col-3">Entschldigung <small>실례합니다</small></div>
+								<div class="col-3">Entschuldigung <small>실례합니다</small></div>
 							</div></th>
 					</tr>
 				</tbody>

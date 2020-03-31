@@ -50,7 +50,7 @@
 					kaufe ich gute gebrauchte Sachen ein
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm" id="12">
-					gehe ich essen
+					esse ich zu Mittag
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm" id="13">
 					in die Kirche

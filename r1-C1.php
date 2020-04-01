@@ -290,7 +290,7 @@ var nagehts = new Howl({
 		});
 			
 		</script>
-<?php include "back.php"; ?>
+<?php include "nav.php"; ?>
 <?php include "footer.php"; ?>
 	</body>
 </html>

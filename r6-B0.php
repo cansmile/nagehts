@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "back.php"; ?>
+<?php include "nav.php"; ?>
 <?php
 $a_cell_height = 60;
 $double_cell_height = $a_cell_height * 2;

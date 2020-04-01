@@ -14,37 +14,6 @@ $color = $col[array_rand($col)];
 $a = " active";
 $sr = " <span class=\"sr-only\">(current)<\/span><\/a>";
 
-e
-// 로그인 확인
-// include 'wp-load.php';
-
-// $cookie_name = 'wordpress_logged_in_'.md5(get_site_option('siteurl'));
-// $cookie = $_COOKIE&#91;$cookie_name&#93;;
-
-// wp_set_current_user(wp_validate_auth_cookie($cookie, 'logged_in'));
-
-// 로그인 했니 안 했니? boolen
-function ul() {
-	return true;
-// 	$user = wp_get_current_user();
-// // 학생만 보게 할 때는 tablepress_add_tables을 할 수 있는지 여부에 따라 반환값 설정 
-// 	if(substr($_SERVER["HTTP_HOST"], 0, 14) == 'schnupperseite') {
-// 		return true;
-// 	} else if(current_user_can("tablepress_add_tables")) {
-// 		return true;
-// 	} else {
-// 		return false;
-// 	}
-// 	// return $user->exists(); 가입한 이용자는 다 볼 수 있게 하여라!
-}
-
-
-if(current_user_can("edit_posts")) {
-	$edt = true;
-}
-
-$returnPath = get_settings('siteurl') . '/wp-login.php?redirect_to=' . urlencode($_SERVER['REQUEST_URI']);
-
 
 // 각 과별 대단원 파일명과 제목
 $itl = array("D" => "Deutschland", 0 => "Deutschland und die deutsche Spache", 1 => "Wie heißen Sie?", 2 => "Woher kommen Sie?", 3 => "Wer ist das?", 4 => "In meiner Wohnung", 5 => "Essen und Trinken", 6 => "Was machst du heute?", 7 => "Was hast du am Wochenende vor?", 8 => "Was fehlt Ihnen?", 9 => "Feste! Feste!", 10 => "Wie komme ich zur Bank?");
@@ -334,7 +303,6 @@ if(!$ds) {
 	
       </button>
 <?php if($fn != "inthebeginning") {
-	if(ul()) {
 ?>
 	<a href="<?php echo($rl.".php"); ?>">
 		<button type="button" class="btn pt-0 mt-0 mr-2 btn-<?php echo($color); ?>">
@@ -342,13 +310,11 @@ if(!$ds) {
 		</button>
 	</a>
 <?php
-	}
 } ?>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	
         <ul class="navbar-nav mr-2">
-<?php if(ul()) { ?>
 			<li class="nav-item">
 			  <a class="nav-link <?php if($fn == "inthebeginning") { echo("active bg-<?php echo($color); ?>"); } ?>" href="http://www.nagehts.org">Na, geht's?</a>
 			</li>
@@ -460,11 +426,6 @@ if($ds) {
 ?>
             </div>
           </li>
-<?php } else { ?>
-          <li class="nav-item rounded border border-white">
-            <a class="nav-link active bg-<?php echo($color); ?>" href="<?php echo($returnPath); ?>">이용하시려면 로그인</a>
-          </li>
-<?php } ?>
         </ul>
       </div>
     </nav>
@@ -480,9 +441,6 @@ if($fn != "inthebeginning") {
 	<div class="jumbotron">
 		<div class="container">
 			<div class="row">
-<?php
-		if(ul()) {
-?>
 				<div class="text-center col-12">
 <?php
 	if($ds) {
@@ -514,11 +472,6 @@ if($fn != "inthebeginning") {
 ?>
 
 				</div>
-<?php
-		} else {
-			echo("      <div class=\"col text-center\">\n       <p class=\"text-center display-4\"><a href=\"{$returnPath}\">로그인</a>이 필요합니다.<br>계정이 없으시면 학교 학사정보(통합정보)시스템에 등록된 이메일로 등록하세요.<br>이메일(<a href=\"mailto:cansmile@gmail.com\">cansmile@gmail.com</a>)을 주시면 빠르게 ‘학생’으로 등급이 조정됩니다.</p>\n\n     </div>\n");
-		}
-?>
 			</div>
 		</div>
 	</div>

@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 	<body>
-<?php include "back.php"; ?>
+<?php include "nav.php"; ?>
 
 <section>
 	<div class="container">

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Entschu",
+				"Entschuldigung\tabc"
+			],
+			[
 				"d-inline",
 				"d-inline-block \tBootstrap 4 Class"
 			],
@@ -296,21 +300,34 @@
 	"buffers":
 	[
 		{
-			"file": "r10-E7c.php",
+			"contents": "<?php \n\n ?>",
+			"file": "/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585588868/nagehts.json/home/nagehts/public_html/test/test.php",
+			"file_size": 398,
+			"file_write_time": 132300624734799106,
 			"settings":
 			{
-				"buffer_size": 12005,
+				"buffer_size": 11,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "r1-B4.php",
+			"settings":
+			{
+				"buffer_size": 18778,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "버스정류장에서\n실례합니다만, 프라우엔교회가 어딘가요?\n프라우엔교회요? 루터슈트라세에 있어요.\n여기서 하우프트슈트라세를 따라 곧장 가다가 왼쪽으로 조금만 가세요.\n첫번째 길에서 바로 오른쪽 키르헨슈트라세로 가세요.\n그 길 끝에서 왼쪽 라이프치거슈트라세로 가세요.\n그러면 오른편에 바로 프라우엔교회가 보일 거예요.\n네, 대단히 감사해요!\n천만에요. 안녕히 가세요.",
+			"contents": "\n  BRANCH:  On branch `master` tracking `origin/master`.\n  ROOT:    D:\\cansmile\\Dropbox\\csde\\nagehts\n  HEAD:    880f16cf R1 B4 수정 반영\n\n  UNSTAGED:\n    Nagehts.sublime-workspace\n\n  ###################                   ###############\n  ## SELECTED FILE ##                   ## ALL FILES ##\n  ###################                   ###############\n\n  [o] open file                         [a] stage all unstaged files\n  [s] stage file                        [A] stage all unstaged and untracked files\n  [u] unstage file                      [U] unstage all staged files\n  [d] discard changes to file           [D] discard all unstaged changes\n  [h] open file on remote\n  [M] launch external merge tool\n\n  [l] diff file inline                  [f] diff all files\n  [e] diff file                         [F] diff all cached files\n\n  #############                         #############\n  ## ACTIONS ##                         ## STASHES ##\n  #############                         #############\n\n  [c] commit                            [t][a] apply stash\n  [C] commit, including unstaged        [t][p] pop stash\n  [m] amend previous commit             [t][s] show stash\n  [p] push current branch               [t][c] create stash\n                                        [t][u] create stash including untracked files\n  [i] ignore file                       [t][g] create stash of staged changes only\n  [I] ignore pattern                    [t][d] drop stash\n\n  [B] abort merge\n\n  ###########\n  ## OTHER ##\n  ###########\n\n  [r]         refresh status\n  [?]         toggle this help menu\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [.]         move cursor to next file\n  [,]         move cursor to previous file\n\n-\n\n",
 			"settings":
 			{
-				"buffer_size": 201,
+				"buffer_size": 1754,
 				"line_ending": "Unix",
-				"name": "버스정류장에서"
+				"name": "STATUS: nagehts",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -429,6 +446,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"glcf",
+				"git: log current file"
+			],
 			[
 				"gitstatus",
 				"Git: Status"
@@ -936,10 +957,6 @@
 			[
 				"git delete br",
 				"Git: Delete Branch"
-			],
-			[
-				"commit",
-				"Sublimerge: Show Uncommited Changes..."
 			]
 		],
 		"width": 528.0
@@ -962,11 +979,66 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/apps/wordpress/htdocs",
-		"/C/xampp/apps/wordpress/htdocs/js"
+		"/D/cansmile/csde/nagehts"
 	],
 	"file_history":
 	[
+		"/D/cansmile/csde/nagehts/back.php",
+		"/D/cansmile/csde/nagehts/r1-B4.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/nagehts.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/cmder.sublime-settings",
+		"/D/cansmile/csde/nagehts/r1-D1.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tc/_F7=new connection.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585565488/nagehts.json/home/nagehts/public_html/.htaccess",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Cmder/config/cmder.sublime-settings",
+		"/D/cansmile/csde/nagehts/r1-F2.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/var/www/html/wp-config.php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/1/0/var/www/html/phpMyAdmin/url.php",
+		"/D/cansmile/csde/nagehts/nav.php",
+		"/C/Users/Administrator/AppData/Local/Temp/scp53519/home/nagehts/public_html/in.php",
+		"/F/Data/Develepment/cannys/2020032800008-canny_wp@aws.sql",
+		"/D/cansmile/csde/Putty/x64/Na_geht_s-190228.ppk",
+		"/C/Users/Administrator/AppData/Local/Microsoft/Windows/INetCache/IE/TLBT4DLD/export[1].php",
+		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/0/public_html/mig/list.txt",
+		"/D/cansmile/cswd/txt/2020032800001 Scrivener 3.0 Beta 44 (Download Links & Change List).txt",
+		"/D/cansmile/csdn/user_148.000001.xml",
+		"/D/cansmile/csdn/document_142.000001.xml",
+		"/D/cansmile/csdn/list (1).txt",
+		"/D/cansmile/csdn/list (2).txt",
+		"/D/cansmile/csdn/list.txt",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585374200/nagehts.json/home/nagehts/public_html/tport/files/config/lang_selected.info",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585374165/nagehts.json/home/nagehts/public_html/tport/files/config/ftp.config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585374098/nagehts.json/home/nagehts/public_html/tport/files/config/db.config.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585374078/nagehts.json/home/nagehts/public_html/tport/config/config.inc.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585372475/nagehts.json/home/nagehts/public_html/.htaccess",
+		"/D/cansmile/csdn/nagehts-2020032800002 tport for xe.sql",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585372950/nagehts.json/home/nagehts/public_html/tport/index.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585373031/nagehts.json/home/nagehts/public_html/.htaccess",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585370390/nagehts.json/home/nagehts/public_html/config/production/mail.php",
+		"/C/xe3/public/.htaccess",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585368311/nagehts.json/home/nagehts/public_html/config/production/mail.php",
+		"/C/xe3/public/index.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585368092/nagehts.json/home/nagehts/public_html/config/production/mail.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585367963/nagehts.json/home/nagehts/public_html/config/production/mail.php",
+		"/C/Users/Administrator/.config/valet/Log/nginxservice.wrapper.log",
+		"/C/Users/Administrator/.config/valet/Log/nginx-error.log",
+		"/C/Users/Administrator/.config/valet/AcrylicHosts.txt",
+		"/C/Users/Administrator/.config/valet/Services/nginxservice.xml",
+		"/C/Windows/System32/drivers/etc/services",
+		"/C/Windows/System32/drivers/etc/protocol",
+		"/C/Windows/System32/drivers/etc/networks",
+		"/C/Windows/System32/drivers/etc/lmhosts.sam",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Administrator/.config/valet/config.json",
+		"/C/xe3/xe3/index.php",
+		"/C/xe3/xe3/public/.htaccess",
+		"/C/xe3/xe3/public/index.php",
+		"/C/Users/Administrator/.config/valet/Sites/xe3/phpinfo.php",
+		"/C/xe3/xe3/.editorconfig",
+		"/C/php/php.ini",
+		"/D/cansmile/csde/nagehts/Nagehts.sublime-project",
+		"/D/cansmile/csde/nagehts/sftp-config.json",
+		"/D/cansmile/csde/nagehts/r10-E7c.php",
 		"/C/xampp/apps/wordpress/htdocs/r10-E7a.php",
 		"/C/xampp/apps/wordpress/htdocs/js/taptogroup.js",
 		"/C/xampp/apps/wordpress/htdocs/r10-E7.php",
@@ -1038,63 +1110,7 @@
 		"/c/xampp/apps/wordpress/htdocs/r4-D2.php",
 		"/c/xampp/apps/wordpress/htdocs/r4-E1.php",
 		"/c/xampp/apps/wordpress/htdocs/r5-A1.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-A2.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-A3.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-C2.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-D5.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-E2.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-E3.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G1.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G5.php",
-		"/c/xampp/apps/wordpress/htdocs/r5-G7.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-A3.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-B0.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-C2.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-E1.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-E5.php",
-		"/c/xampp/apps/wordpress/htdocs/r6-E7.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-A0.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-A1.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-A2.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-B2.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-B4.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-B6.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-C1.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-C2.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-C3.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-C4.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-C6.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-C7.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D1.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D4.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D5.php",
-		"/c/xampp/apps/wordpress/htdocs/r7-D8.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-A1.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-A2.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-B4.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-B5.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-C2.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-C3.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-C5.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-C7.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-D1.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-D2.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-D3.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-D4.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-D5.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-D6.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-DGR.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-E1.php",
-		"/c/xampp/apps/wordpress/htdocs/r8-E3.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-A0.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-A1.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-A2.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-A4.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-A6.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-AGR.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-B1.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-B3.php",
-		"/c/xampp/apps/wordpress/htdocs/r9-C1.php"
+		"/c/xampp/apps/wordpress/htdocs/r5-A2.php"
 	],
 	"find":
 	{
@@ -1131,6 +1147,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$fn",
+			"$ds",
+			"\"28\"",
+			"사랑은",
+			"나의‧사랑은",
+			"문학과",
+			"20200322",
+			"tport.nagehts.org",
+			"아이디",
+			"work",
+			"  ",
+			"create table `",
+			"insert into `",
+			"create table ",
+			"nagehts_",
+			"nagehts/",
+			"/nagehts.org/",
+			"www.nagehts.org",
+			"http://www.nagehts.org",
+			"www.nagehts.org",
+			"tport.nagehts.org",
+			"http://tport.nagehts.org",
+			"tport.nagehts.org",
+			"/var/www/html/nagehts.org/public_html/",
+			"Options +FollowSymLinks",
+			"/",
+			"extension_dir",
+			"\\\"",
+			"\\\\\\\\",
+			"\\\\",
+			"\\",
 			"translate",
 			"<td class=\"border-0\"><button type=\"button\" id=\"",
 			"<td class=\"border-0\"",
@@ -1227,45 +1274,25 @@
 			". ",
 			"<div class=\"itm-lst 1itm\" id=\"lst-",
 			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"<div class=\"itm-lst 1itm\" id=\"lst-",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"<span class=\"tran\"><br><small>",
-			"             ",
-			".             ",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			"die",
-			"den",
-			"\t\t\t\tden",
-			"den",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			". ",
-			"Der Spatz ist&nbsp;",
-			"<td class=\"border-0\"><img src=\"./images/Reihe 10/Reihe-10-E1-",
-			"^[0-9].",
-			"^[1-3]?.",
-			"^[0-9]?.",
-			"position: relative; top: 6px;",
-			"col-sm-6 col-md-4 col-lg-3 my-2",
-			"mt-1 mx-1 btn ans btn-lg btn-outline-dark itm px-3",
-			"<button type=\"button\" class=\"mt-1 mx-1 btn ans",
-			". ",
-			"            ",
-			"^[0-9]?.",
-			"^[0-9]?.$",
-			".",
-			"<td width=\"20\" class=\"border-0 align-top\">1.</td>",
-			"^[0-9]?.$",
-			"^?.$",
-			",",
-			"\"",
-			". "
+			"<div class=\"itm-lst 1itm\" id=\"lst-"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": true,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			" ",
+			"tport_",
+			"https://www.nagehts.org",
+			"nagehts.org/tport",
+			"https://tport.nagehts.org",
+			"/home/nagehts/public_html/",
+			"\\\\\\\\",
+			"\\\\",
+			"\"",
+			"\\\\",
+			"\\\\\\\\",
 			".",
 			"",
 			" rounded text-center text-white font-weight-bold col-12\">Wahl<small>선택지</small></div>",
@@ -1382,18 +1409,7 @@
 			"a0a0a0",
 			"200, 200, 200",
 			"b2b2b2",
-			"b5b5b5",
-			"bfbfbf",
-			"e7e7e7",
-			"dddddd",
-			"ededed",
-			"522b00",
-			"255, 221, 184",
-			"ffe6cc",
-			"854500",
-			"bf6200",
-			"255, 150, 38",
-			"cc6900"
+			"b5b5b5"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1409,63 +1425,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "r10-E7c.php",
+					"file": "/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1585588868/nagehts.json/home/nagehts/public_html/test/test.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12005,
+						"buffer_size": 11,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2594,
-								2603
-							],
-							[
-								2926,
-								2935
-							],
-							[
-								3227,
-								3236
-							],
-							[
-								3311,
-								3320
-							],
-							[
-								3794,
-								3803
-							],
-							[
-								4264,
-								4273
-							],
-							[
-								4728,
-								4737
-							],
-							[
-								5019,
-								5028
-							],
-							[
-								5293,
-								5302
-							],
-							[
-								5581,
-								5590
+								11,
+								11
 							]
 						],
 						"settings":
 						{
-							"SL.16.region_keys":
-							[
-							],
-							"SL.35.region_keys":
+							"SL.71.region_keys":
 							[
 							],
 							"auto_complete": false,
@@ -1474,162 +1451,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										2605,
-										2610
-									],
-									"10":
-									[
-										5592,
-										5597
-									],
-									"2":
-									[
-										2937,
-										2942
-									],
-									"3":
-									[
-										3238,
-										3243
-									],
-									"4":
-									[
-										3322,
-										3327
-									],
-									"5":
-									[
-										3805,
-										3810
-									],
-									"6":
-									[
-										4275,
-										4280
-									],
-									"7":
-									[
-										4739,
-										4744
-									],
-									"8":
-									[
-										5030,
-										5035
-									],
-									"9":
-									[
-										5304,
-										5309
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"10":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"2":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"3":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"4":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"5":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"6":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"7":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"8":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									],
-									"9":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										2588,
-										2593
-									],
-									"10":
-									[
-										5575,
-										5580
-									],
-									"2":
-									[
-										2920,
-										2925
-									],
-									"3":
-									[
-										3221,
-										3226
-									],
-									"4":
-									[
-										3305,
-										3310
-									],
-									"5":
-									[
-										3788,
-										3793
-									],
-									"6":
-									[
-										4258,
-										4263
-									],
-									"7":
-									[
-										4722,
-										4727
-									],
-									"8":
-									[
-										5013,
-										5018
-									],
-									"9":
-									[
-										5287,
-										5292
-									]
 								},
 								"unmatched":
 								{
@@ -1637,90 +1464,85 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
-							"git_gutter_is_enabled": true,
+							"git_gutter_is_enabled": false,
 							"incomplete_sync": null,
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
+							"is_init_dirty_state": true,
+							"is_remote": true,
 							"remote_loading": false,
-							"synced": false,
+							"synced": true,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tmp_dir": "c:\\users\\admini~1\\appdata\\local\\temp\\sublime-sftp-browse-1585588868\\nagehts.json\\"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1870.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
+					"file": "r1-B4.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 201,
+						"buffer_size": 18778,
 						"regions":
 						{
 						},
@@ -1728,23 +1550,212 @@
 						[
 							[
 								0,
-								201
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "버스정류장에서",
+							"SL.30.region_keys":
+							[
+							],
 							"bracket_highlighter.busy": false,
-							"default_dir": "C:\\xampp\\apps\\wordpress\\htdocs",
-							"git_gutter_is_enabled": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
 							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"default_dir": "D:\\cansmile\\csde\\nagehts",
+							"git_gutter_is_enabled": false,
+							"git_savvy.help_hidden": false,
+							"git_savvy.interface": "status",
+							"git_savvy.repo_path": "D:\\cansmile\\Dropbox\\csde\\nagehts",
+							"git_savvy.status_view": true,
+							"git_savvy.tabbable": true,
+							"incomplete_sync": null,
+							"result_base_dir": "D:\\cansmile\\Dropbox\\csde\\nagehts",
+							"result_file_regex": "^(?:    .+ -> |  [ -] (?!\\(\\d+\\) ))(?!Your working directory is clean\\.)(\\S.*)$",
+							"syntax": "Packages/GitSavvy/syntax/status.sublime-syntax",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1767,18 +1778,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1788,6 +1792,14 @@
 		]
 	},
 	"menu_visible": true,
+	"output.Cmder-2":
+	{
+		"height": 120.0
+	},
+	"output.GitSavvy":
+	{
+		"height": 120.0
+	},
 	"output.SublimeLinter":
 	{
 		"height": 0.0
@@ -1831,6 +1843,10 @@
 	"output.sftp":
 	{
 		"height": 329.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 476.0
 	},
 	"pinned_build_system": "Packages/TypeScript/TypeScript.sublime-build",
 	"project": "Nagehts.sublime-project",

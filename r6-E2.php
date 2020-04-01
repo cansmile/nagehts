@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 <body>
-<?php include "back.php"; ?>
+<?php include "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<?php $single_line_height = 50; ?>

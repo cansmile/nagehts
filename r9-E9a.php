@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 <body>
-<?php include "back.php"; ?>
+<?php include "nav.php"; ?>
 <style type="text/css">
 td,th {
 	height: 80px;

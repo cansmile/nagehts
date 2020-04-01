@@ -24,7 +24,6 @@ if($mc < 3) {
 } else {
 	$col = "col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3";
 }
-if(ul()) {
 	if($fn == "inthebeginning" || $fn == "") {
 		// 메인 페이지
 		for($i = 0; $i < $mc; $i++) {
@@ -112,7 +111,4 @@ if(ul()) {
 		}
 		
 	}
-} else {
-	echo("      <div class=\"col text-center\">\n       <p class=\"text-center display-4\"><a href=\"{$returnPath}\">로그인</a>이 필요합니다.<br>계정이 없으시면 학교 학사정보(통합정보)시스템에 등록된 이메일로 등록하세요.<br>이메일(<a href=\"mailto:cansmile@gmail.com\">cansmile@gmail.com</a>)을 주시면 빠르게 ‘학생’으로 등급이 조정됩니다.</p>\n\n     </div>\n");
-}
 ?>

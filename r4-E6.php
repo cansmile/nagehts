@@ -85,7 +85,7 @@
 	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
 	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
-	<?php require_once("./oxsound.php"); ?>
+	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
 		$(".tran").hide();
 		$(".ant").hide();

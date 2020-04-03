@@ -1,7 +1,7 @@
 <script>
 	// 맞을 때 소리
 	var o = new Howl({
-		src: ["./sounds/dingdongdang.mp3"],
+		src: ["./<?php echo($root); ?>sounds/dingdongdang.mp3"],
 		html5: true,
 		format: "mp3",
 		preload: true,
@@ -18,7 +18,7 @@
 
 	// 틀릴 때 소리
 	var x = new Howl({
-		src: ["./sounds/Cartoon_Boing.mp3"],
+		src: ["./<?php echo($root); ?>sounds/Cartoon_Boing.mp3"],
 		html5: true,
 		format: "mp3",
 		preload: true,

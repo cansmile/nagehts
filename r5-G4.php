@@ -23,7 +23,7 @@ d<?php include "header.php"; ?>
 							</thead>
 							<tbody>
 								<tr>
-									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-1.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Käsebrötchen</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-1.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Käsebrötchen</td>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-1"></div>
 										<div class="input-group">
@@ -32,7 +32,7 @@ d<?php include "header.php"; ?>
 										</div>
 										<span class="tran"><small>저는 치즈빵을 주문하지 않았어요.</small></span>
 									</td>
-									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-2.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bratwurstbrötchen</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-2.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bratwurstbrötchen</td>
 								</tr>
 								<tr>
 									<td class="border-0 text-left align-middle">
@@ -45,7 +45,7 @@ d<?php include "header.php"; ?>
 									</td>
 								</tr>
 								<tr>
-									<td rowspan="2" class="border-0 text-center align-middle text-danger font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-3.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Cola</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-danger font-weight-bold"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-3.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Cola</td>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-3"></div>
 										<div class="input-group">
@@ -54,7 +54,7 @@ d<?php include "header.php"; ?>
 										</div>
 										<span class="tran"><small>저는 콜라를 주문하지 않있어요.	</small></span>
 									</td>
-									<td rowspan="2" class="border-0 text-center align-middle text-primary font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-4.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Orangensaft</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-primary font-weight-bold"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-4.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Orangensaft</td>
 								</tr>
 								<tr>
 									<td class="border-0 text-left align-middle">
@@ -67,7 +67,7 @@ d<?php include "header.php"; ?>
 									</td>
 								</tr>
 								<tr>
-									<td rowspan="2" class="border-0 text-center align-middle text-primary font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-5.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Wein</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-primary font-weight-bold"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-5.png" style="max-height: 120px; width: auto;" alt="das Falsche"><br>Wein</td>
 									<td class="border-0 text-left align-middle">
 										<div id="ant-5"></div>
 										<div class="input-group">
@@ -76,7 +76,7 @@ d<?php include "header.php"; ?>
 										</div>
 										<span class="tran"><small>저는 와인 한 잔을 주문하지 않았어요.</small></span>
 									</td>
-									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./images/Reihe 5/Reihe-5-G4-6.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bier</td>
+									<td rowspan="2" class="border-0 text-center align-middle text-purple font-weight-bold"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-6.png" style="max-height: 120px; width: auto;" alt="das Richtige"><br>Bier</td>
 								</tr>
 								<tr>
 									<td class="border-0 text-left align-middle">
@@ -106,12 +106,12 @@ d<?php include "header.php"; ?>
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
 			$(".ant").hide();

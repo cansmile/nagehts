@@ -55,7 +55,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-1.png" style="max-width:240px; height: auto;" class="so" id="8"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-1.png" style="max-width:240px; height: auto;" class="so" id="8"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -72,7 +72,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-2.png" style="max-width:240px; height: auto;" class="so" id="9"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-2.png" style="max-width:240px; height: auto;" class="so" id="9"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -89,7 +89,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-3.png" style="max-width:240px; height: auto;" class="so" id="10"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-3.png" style="max-width:240px; height: auto;" class="so" id="10"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -106,7 +106,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-4.png" style="max-width:240px; height: auto;" class="so" id="11"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-4.png" style="max-width:240px; height: auto;" class="so" id="11"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -123,7 +123,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-5.png" style="max-height:240px; max-width: 99%;" class="so" id="12"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-5.png" style="max-height:240px; max-width: 99%;" class="so" id="12"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -140,7 +140,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-6.png" style="max-width:240px; height: auto;" class="so" id="13"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-6.png" style="max-width:240px; height: auto;" class="so" id="13"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -157,7 +157,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A1-7.png" style="max-width:240px; height: auto;" class="so" id="14"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-7.png" style="max-width:240px; height: auto;" class="so" id="14"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -184,12 +184,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -216,7 +216,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./sounds/Reihe 4/r4 A1.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 A1.mp3"],
 			sprite: {
 				"0": [1295, 41370],
 					"1": [11970, 2700],

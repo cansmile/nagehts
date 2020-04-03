@@ -86,7 +86,7 @@ $double_cell_height = $a_cell_height * 2;
 			</div>
 		</div>
 		<div class="row">
-			<dov class="col"><img src="./images/Reihe 6/Reihe-6-B0.png" alt="Wie spät ist es?" style="max-width: 100%; height: auto;"></dov>
+			<dov class="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-B0.png" alt="Wie spät ist es?" style="max-width: 100%; height: auto;"></dov>
 		</div>
 		<div class="row">
 			<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0">
@@ -530,7 +530,7 @@ $double_cell_height = $a_cell_height * 2;
 					</thead>
 					<tbody>
 						<tr>
-							<td><img src="./images/Reihe 6/Reihe-6-GR.png" alt="GR" style="max-width: 100%; height: auto;"></td>
+							<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-GR.png" alt="GR" style="max-width: 100%; height: auto;"></td>
 						</tr>
 						<tr>
 							<td class="bg-light border-0"><span class="bg-lime font-weight-bold p-1 px-2 m-1 rounded">TIPP</span><strong>Wochentage</strong><br><div class="pl-2 ml-5"><small>요일, 공휴일 등의 시간적 의미를 나타낼 때에는 전치사 an이 함께 쓰인다.</small></div></td>
@@ -579,13 +579,13 @@ $double_cell_height = $a_cell_height * 2;
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/taptogroup.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 <!-- interact.min.js -->
-<script src="./js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -633,7 +633,7 @@ $double_cell_height = $a_cell_height * 2;
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 6/",
+				path : "<?php echo($root); ?>sounds/Reihe 6/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

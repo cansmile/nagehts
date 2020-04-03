@@ -25,12 +25,12 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td rowspan="2" class="align-middle"><img src="./images/Reihe 6/Reihe-6-D1-0.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./images/Reihe 6/Reihe-6-D1-5.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./images/Reihe 6/Reihe-6-D1-4.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./images/Reihe 6/Reihe-6-D1-3.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./images/Reihe 6/Reihe-6-D1-1.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./images/Reihe 6/Reihe-6-D1-2.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td rowspan="2" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-0.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-5.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-4.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-3.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-1.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-2.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0 text-center">6.00 Uhr</td>
@@ -131,13 +131,13 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/taptogroupnomove.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
 <!-- interact.min.js -->
-<script src="./js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 	$("#0").hide();
 $("#0_p").hide();
@@ -310,7 +310,7 @@ $(document).ready(function() {
 				path: "sounds/"
 		}
 		],
-		path : "sounds/Reihe 6/",
+		path : "<?php echo($root); ?>sounds/Reihe 6/",
 		preload : true,
 		volume : 1.0,
 		multiplay: false,

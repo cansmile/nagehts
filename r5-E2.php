@@ -55,7 +55,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-1.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+								<td style="height: 300px;" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-1.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -75,7 +75,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-2.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+								<td style="height: 300px;" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-2.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -95,7 +95,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-3.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+								<td style="height: 300px;" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-3.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -115,7 +115,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-4.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+								<td style="height: 300px;" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-4.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -135,7 +135,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-5.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+								<td style="height: 300px;" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-5.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -155,7 +155,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td style="height: 300px;" class="align-middle text-center"><img src="./images/Reihe 5/Reihe-5-E2-6.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
+								<td style="height: 300px;" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-6.png" alt="Geschmack" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -182,13 +182,13 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -225,7 +225,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 5/",
+				path : "<?php echo($root); ?>sounds/Reihe 5/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

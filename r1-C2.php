@@ -79,12 +79,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -109,7 +109,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./sounds/Reihe 1/r1 C2.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 1/r1 C2.mp3"],
 	sprite : {
 		"0": [289, 20259],
 		"1": [16683, 1281],

@@ -67,7 +67,7 @@
 					<table class="table table-borderless table-striped">
 						<thead>
 							<tr>
-								<th scope="col" colspan="2" class="text-center"><img src="./images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" colspan="2" class="text-center"><img src="./<?php echo($root); ?>images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
 							</tr>
 						</thead>
 						<tbody>
@@ -162,7 +162,7 @@
 					<table class="table table-borderless table-striped">
 						<thead>
 							<tr>
-								<th scope="col" colspan="2" class="text-center"><img src="./images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" colspan="2" class="text-center"><img src="./<?php echo($root); ?>images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
 							</tr>
 						</thead>
 						<tbody>
@@ -251,8 +251,8 @@
 					<table class="table table-borderless table-striped text-center">
 						<thead>
 							<tr>
-								<th scope="col" class="text-primary"><img src="./images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
-								<th scope="col" class="text-danger"><img src="./images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" class="text-primary"><img src="./<?php echo($root); ?>images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" class="text-danger"><img src="./<?php echo($root); ?>images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
 							</tr>
 						</thead>
 						<tbody>
@@ -311,12 +311,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -343,7 +343,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./sounds/Reihe 3/r3 D5.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 3/r3 D5.mp3"],
 			sprite: {
 				"0": [1713, 49867],
 				"1": [27745, 1234],

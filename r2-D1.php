@@ -48,7 +48,7 @@
 			<div class="row text-center">
 				<div class="col"></div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-					<table class="table table-borderless" style="background-size: 100% 100%; background-repeat: no-repeat; background-image: url('./images/Reihe 2/Reihe-2-D1-0.png')" width="100%">
+					<table class="table table-borderless" style="background-size: 100% 100%; background-repeat: no-repeat; background-image: url('./<?php echo($root); ?>images/Reihe 2/Reihe-2-D1-0.png')" width="100%">
 						<tbody>
 							<tr>
 								<td width="10%" colspan="10">&nbsp;</td>
@@ -119,12 +119,12 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>

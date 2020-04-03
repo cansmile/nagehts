@@ -61,7 +61,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<th scope="row" rowspan="4" class="border-0" class="align-middle text-center border-0" width="20%"><img src="./images/Reihe 5/Reihe-5-E3-1.png" alt="Face" style="max-width: 120px; height: auto;"></th>
+								<th scope="row" rowspan="4" class="border-0" class="align-middle text-center border-0" width="20%"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E3-1.png" alt="Face" style="max-width: 120px; height: auto;"></th>
 								<td colspan="4" class="border-0">Schmeckt der Wein?</td>
 							</tr>
 							<tr>
@@ -81,7 +81,7 @@
 								<td class="border border-secondary border-right-0 border-top-0 border-bottom-0">gut.</td>
 							</tr>
 							<tr>
-								<th scope="row" rowspan="2" class="border-0" class="align-middle text-center border-0" width="20%"><img src="./images/Reihe 5/Reihe-5-E3-2.png" alt="Face" style="max-width: 120px; height: auto;"></th>
+								<th scope="row" rowspan="2" class="border-0" class="align-middle text-center border-0" width="20%"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E3-2.png" alt="Face" style="max-width: 120px; height: auto;"></th>
 								<td colspan="4" class="border-0">Schmeckt der Wein?</td>
 							</tr>
 							<tr>
@@ -273,13 +273,13 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -322,7 +322,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 5/",
+				path : "<?php echo($root); ?>sounds/Reihe 5/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

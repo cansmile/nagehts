@@ -48,7 +48,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 9/Reihe-9-A0-1.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-1.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">
@@ -64,7 +64,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 9/Reihe-9-A0-2.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-2.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">
@@ -80,7 +80,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 9/Reihe-9-A0-3.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-3.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">
@@ -96,7 +96,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 9/Reihe-9-A0-4.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-4.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">
@@ -112,7 +112,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 9/Reihe-9-A0-5.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-5.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">
@@ -128,7 +128,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 9/Reihe-9-A0-6.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-6.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">
@@ -144,7 +144,7 @@
 					<table class="table border-0">
 						<tbody>
 							<tr>
-								<td height="250" class="border-0 align-middle"><img src="./images/Reihe 9/Reihe-9-A0-7.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
+								<td height="250" class="border-0 align-middle"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-7.png" alt="Wann ist das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0">
@@ -169,13 +169,13 @@
 
 		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -213,7 +213,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 9/",
+				path : "<?php echo($root); ?>sounds/Reihe 9/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

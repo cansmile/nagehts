@@ -53,7 +53,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">1.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-1.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-1.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -71,7 +71,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">2.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-2.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-2.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -89,7 +89,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">3.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-3.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-3.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -107,7 +107,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">4.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-4.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-4.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -125,7 +125,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">5.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-5.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-5.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -143,7 +143,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">6.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-6.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-6.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -161,7 +161,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">7.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-7.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-7.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -179,7 +179,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">8.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-8.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-8.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -197,7 +197,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="align-top">9.</td>
-									<td><img src="./images/Reihe 10/Reihe-10-E1-9.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-9.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2">
@@ -224,13 +224,13 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/taptogroup.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 <!-- interact.min.js -->
-<script src="./js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 	$(".tran").hide();
 	$("#chk").hide();

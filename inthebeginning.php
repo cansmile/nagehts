@@ -6,7 +6,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center">
-							<img src="./<?php echo($root); ?>images/Na geht's title.png" width="50%" class="mx-auto" alt=""/>
+							<img src="./<?php echo($root); ?><?php echo($root); ?>images/Na geht's title.png" width="50%" class="mx-auto" alt=""/>
 							<p>
 								&nbsp;
 							</p>

@@ -26,7 +26,7 @@
 						<tbody>
 							<tr>
 								<th rowspan="3" class="align-top" style="font-size: 2em;">1</th>
-								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></td>
+								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
 								<td>Claudia hat eine Schultasche, aber sie hat kein Lineal.<span class="tran"><br><small>클라우디아는 책가방이 있지만 자는 없습니다. </small></span></td>
 							</tr>
@@ -56,7 +56,7 @@
 						<tbody>
 							<tr>
 								<th rowspan="4" class="align-top" style="font-size: 2em;">2</th>
-								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></td>
+								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
 								<td>Michael hat ein Wörterbuch, aber er hat keine Büroklammern.<span class="tran"><br><small>미하엘은 사전을 가지고 있지만 클립은 없습니다.</small></span></td>
 							</tr>
@@ -179,11 +179,11 @@
 <div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -213,7 +213,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./sounds/Reihe 4/r4 C2b.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 C2b.mp3"],
 			sprite: {
 				"0": [1346, 52855],
 				"1": [15932,4406],

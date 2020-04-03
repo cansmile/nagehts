@@ -100,7 +100,7 @@
 											▼ </h2>
 										</div>
 									</td>
-									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1">
@@ -173,7 +173,7 @@
 						<table class="table">
 							<tbody>
 								<tr>
-									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
 									<td width="50%" class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-10">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -263,13 +263,13 @@
 		<div id="marg"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -316,7 +316,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "sounds/Reihe 8/",
+					path : "<?php echo($root); ?>sounds/Reihe 8/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

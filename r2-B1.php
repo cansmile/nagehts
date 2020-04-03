@@ -80,7 +80,7 @@
 					<table class="table text-danger table-borderless">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center"><img src="./images/sym_frau.png" alt="Frau" style="max-height: 40px; width: auto;"></th>
+								<th scope="col" class="text-center"><img src="./<?php echo($root); ?>images/sym_frau.png" alt="Frau" style="max-height: 40px; width: auto;"></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -103,7 +103,7 @@
 					<table class="table text-primary table-borderless">
 						<thead>
 							<tr>
-								<th scope="col" class="text-center"><img src="./images/sym_mann.png" alt="Mann" style="max-height: 40px; width: auto;"></th>
+								<th scope="col" class="text-center"><img src="./<?php echo($root); ?>images/sym_mann.png" alt="Mann" style="max-height: 40px; width: auto;"></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -135,11 +135,11 @@
 	
 <div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -162,7 +162,7 @@
 
 			// 문제 재생
 			var nagehts = new Howl({
-				src: ["./sounds/Reihe 2/r2 B1.mp3"],
+				src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 B1.mp3"],
 				sprite : {
 					"0": [1226, 54162],
 					"1": [13965, 1804],

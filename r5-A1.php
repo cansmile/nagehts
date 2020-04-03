@@ -44,7 +44,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./images/Reihe 5/Reihe-5-A1-1.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-1.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -61,7 +61,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./images/Reihe 5/Reihe-5-A1-2.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-2.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -78,7 +78,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./images/Reihe 5/Reihe-5-A1-3.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-3.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -95,7 +95,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./images/Reihe 5/Reihe-5-A1-4.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-4.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -112,7 +112,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./images/Reihe 5/Reihe-5-A1-5.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-5.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -139,12 +139,12 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>

@@ -32,11 +32,11 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th class="align-middle" scope="row"><img src="./images/Reihe 5/Reihe-5-C4-1.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 120px; height: auto;"><br><strong>Tim Sager</strong><br>Er trinkt/isst ...</th>
-								<td class="align-middle"><img src="./images/Reihe 5/Reihe-5-C4-2.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
-								<td class="align-middle"><img src="./images/Reihe 5/Reihe-5-C4-3.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
-								<td class="align-middle"><img src="./images/Reihe 5/Reihe-5-C4-4.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
-								<td class="align-middle"><img src="./images/Reihe 5/Reihe-5-C4-5.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
+								<th class="align-middle" scope="row"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-1.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 120px; height: auto;"><br><strong>Tim Sager</strong><br>Er trinkt/isst ...</th>
+								<td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-2.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
+								<td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-3.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
+								<td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-4.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
+								<td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-5.png" alt="Was isst und trinkt Tim Sager?" style="max-width: 180px; height: auto;"></td>
 							</tr>
 						</tbody>
 					</table>
@@ -122,13 +122,13 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -280,7 +280,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 5/",
+				path : "<?php echo($root); ?>sounds/Reihe 5/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

@@ -58,7 +58,7 @@
 						<table class="table table-borderless">
 							<thead>
 								<tr>
-									<th colspan="2" scope="col"><img src="./images/Reihe 3/Reihe-3-F1.png" alt="Stammbaum" style="max-width: 100%; height: auto;"></th>
+									<th colspan="2" scope="col"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-F1.png" alt="Stammbaum" style="max-width: 100%; height: auto;"></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -342,12 +342,12 @@
 		<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -373,7 +373,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./sounds/Reihe 3/r3 F1.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 3/r3 F1.mp3"],
 	sprite : {
 		"0": [1842, 130574],
 		"10": [10137, 5435],

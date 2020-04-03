@@ -45,16 +45,16 @@
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top border bg-danger border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-1">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-1.png" alt="Hand" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-1.png" alt="Hand" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-success border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-2">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-2.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-2.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-primary border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-3">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-3.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-3.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-4">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./images/Reihe 8/Reihe-8-B5-4.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-4.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->
@@ -72,13 +72,13 @@
 <div id="marg"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
 			$("#chk").hide();

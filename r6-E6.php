@@ -12,7 +12,7 @@
 					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<tr>
-								<td class="text-center border-0"><img src="./images/Reihe 6/Reihe-6-E6-3.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
+								<td class="text-center border-0"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-3.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="text-center border-0">schlafen</td>
@@ -36,7 +36,7 @@
 					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<tr>
-								<td class="text-center border-0"><img src="./images/Reihe 6/Reihe-6-E6-5.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
+								<td class="text-center border-0"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-5.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="text-center border-0">fernsehen</td>
@@ -60,7 +60,7 @@
 					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<tr>
-								<td class="text-center border-0"><img src="./images/Reihe 6/Reihe-6-E6-4.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
+								<td class="text-center border-0"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-4.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="text-center border-0">ins Kino gehen</td>
@@ -84,7 +84,7 @@
 					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<tr>
-								<td class="text-center border-0"><img src="./images/Reihe 6/Reihe-6-E6-6.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
+								<td class="text-center border-0"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-6.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="text-center border-0">Musik hören</td>
@@ -106,7 +106,7 @@
 					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
 						<table class="table">
 							<tr>
-								<td class="text-center border-0"><img src="./images/Reihe 6/Reihe-6-E6-7.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
+								<td class="text-center border-0"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-7.png" alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="text-center border-0">ein Steak essen</td>
@@ -140,12 +140,12 @@
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
 			$(".ant").hide();

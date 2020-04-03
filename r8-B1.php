@@ -36,7 +36,7 @@
 										<span class="tran"><small>머리</small>
 									</td>
 									<td width="10%" class="border-0 align-middle p-0 m-1"><button type="button" id="1" class="so btn btn-<?php echo($color); ?>">▶</button></td>
-									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">das Auge
@@ -93,7 +93,7 @@
 						<table class="table text-center">
 							<tbody>
 								<tr>
-									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
 									<td width="10%" class="border-0 align-middle p-0 m-1"><button type="button" id="10" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td width="40%" class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">das Ohr
 										<span class="tran"><small>귀</small>
@@ -156,13 +156,13 @@
 		</section>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -208,7 +208,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "sounds/Reihe 8/",
+					path : "<?php echo($root); ?>sounds/Reihe 8/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

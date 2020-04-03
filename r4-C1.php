@@ -27,10 +27,10 @@
 								<td>
 									<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1"><img src="./images/Reihe 4/Reihe-4-C1-2.png" alt="Auto" style="max-width: 240px; height: auto;"></label>
+											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C1-2.png" alt="Auto" style="max-width: 240px; height: auto;"></label>
 										</div>
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option2" autocomplete="off"><label for="option2"><img src="./images/Reihe 4/Reihe-4-C1-1.png" alt="Fahrrad" style="max-width: 240px; height: auto;"></label>
+											<input type="radio" name="options" id="option2" autocomplete="off"><label for="option2"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C1-1.png" alt="Fahrrad" style="max-width: 240px; height: auto;"></label>
 										</div>
 									</div>
 									<span class="tran"><br>Was ist das? Ist das ein Fahrrad?&nbsp;Nein, das ist kein Fahrrad. Das ist ein Auto.&nbsp;<small><br>이것은 무엇인가요? 이것은 자전거인가요? 아니오, 이것은 자전거가 아니에요. 이것은 자동차에요.</small></span>
@@ -41,10 +41,10 @@
 								<td>
 									<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option3" autocomplete="off"><label for="option3"><img src="./images/Reihe 4/Reihe-4-C1-3.png" alt="Katze" style="max-width: 240px; height: auto;"></label>
+											<input type="radio" name="options" id="option3" autocomplete="off"><label for="option3"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C1-3.png" alt="Katze" style="max-width: 240px; height: auto;"></label>
 										</div>
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4"><img src="./images/Reihe 4/Reihe-4-C1-4.png" alt="Hund" style="max-width: 240px; height: auto;"></label>
+											<input type="radio" name="options" id="option4" autocomplete="off"><label for="option4"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C1-4.png" alt="Hund" style="max-width: 240px; height: auto;"></label>
 										</div>
 									</div>
 									<span class="tran"><br>Was ist das? Ist das eine Katze?&nbsp;Nein, das ist keine Katze. Das ist ein Hund.<small><br>이것은 무엇인가요? 이것은 고양이인가요? 아니오, 이것은 고양이가 아니에요. 이것은 개에요.</small></span>
@@ -55,10 +55,10 @@
 								<td>
 									<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
-											<input type="radio" name="options" id="option5" autocomplete="off"><label for="option5"><img src="./images/Reihe 4/Reihe-4-C1-6.png" alt="Frau" style="max-width: 240px; height: auto;"></label>
+											<input type="radio" name="options" id="option5" autocomplete="off"><label for="option5"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C1-6.png" alt="Frau" style="max-width: 240px; height: auto;"></label>
 										</div>
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
-											<input type="radio" name="options" id="option6" autocomplete="off"><label for="option6"><img src="./images/Reihe 4/Reihe-4-C1-5.png" alt="Mann" style="max-width: 240px; height: auto;"></label>
+											<input type="radio" name="options" id="option6" autocomplete="off"><label for="option6"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C1-5.png" alt="Mann" style="max-width: 240px; height: auto;"></label>
 										</div>
 									</div>
 									<span class="tran"><br>Wer ist das? Ist das ein Mann? Nein, das ist kein Mann. Das ist eine Frau.<span class="tran">&nbsp;<small><br>이 사람은 누구인가요? 이 사람은 남자인가요? 아니오, 이 사람은 남자가 아니에요. 이 사람은 여자에요.</small></span>
@@ -115,11 +115,11 @@
 	
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -143,7 +143,7 @@
 			}
 			// 문제 재생
 			var nagehts=new Howl( {
-				src: ["./sounds/Reihe 4/r4 C1.mp3"],
+				src: ["./<?php echo($root); ?>sounds/Reihe 4/r4 C1.mp3"],
 				sprite : {
 					"0": [3314, 46832],
 					"1": [16497, 10565],

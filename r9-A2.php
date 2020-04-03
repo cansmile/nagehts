@@ -34,13 +34,13 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./images/Reihe 9/Reihe-9-A2-8.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./images/Reihe 9/Reihe-9-A2-9.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./images/Reihe 9/Reihe-9-A2-10.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./images/Reihe 9/Reihe-9-A2-11.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./images/Reihe 9/Reihe-9-A2-12.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./images/Reihe 9/Reihe-9-A2-13.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./images/Reihe 9/Reihe-9-A2-14.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A2-8.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A2-9.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A2-10.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A2-11.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A2-12.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A2-13.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-sm-6 col-md-3 col-lg p-2 border border-dark rounded text-center" style="line-height: 5em;"><img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A2-14.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
 				</div>
 				<div class="row">
 					<div class="col-12">
@@ -129,12 +129,12 @@
 
 		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>

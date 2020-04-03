@@ -78,7 +78,7 @@
 								<tbody>
 									<tr>
 										<td class="text-center align-middle border-0" height="150">
-											<img src="./images/Reihe 9/Reihe-9-B1-1.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
+											<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-B1-1.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
 										</td>
 									</tr>
 									<tr>
@@ -111,7 +111,7 @@
 								<tbody>
 									<tr>
 										<td class="text-center align-middle border-0" height="150">
-											<img src="./images/Reihe 9/Reihe-9-B1-2.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
+											<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-B1-2.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
 										</td>
 									</tr>
 									<tr>
@@ -144,7 +144,7 @@
 								<tbody>
 									<tr>
 										<td class="text-center align-middle border-0" height="150">
-											<img src="./images/Reihe 9/Reihe-9-B1-3.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
+											<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-B1-3.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
 										</td>
 									</tr>
 									<tr>
@@ -177,7 +177,7 @@
 								<tbody>
 									<tr>
 										<td class="text-center align-middle border-0" height="150">
-											<img src="./images/Reihe 9/Reihe-9-B1-4.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
+											<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-B1-4.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
 										</td>
 									</tr>
 									<tr>
@@ -210,7 +210,7 @@
 								<tbody>
 									<tr>
 										<td class="text-center align-middle border-0" height="150">
-											<img src="./images/Reihe 9/Reihe-9-B1-5.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
+											<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-B1-5.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
 										</td>
 									</tr>
 									<tr>
@@ -243,7 +243,7 @@
 								<tbody>
 									<tr>
 										<td class="text-center align-middle border-0" height="150">
-											<img src="./images/Reihe 9/Reihe-9-B1-6.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
+											<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-B1-6.png" alt="Wer spricht mit wem?" style="max-width: 100%; height: auto;">
 										</td>
 									</tr>
 									<tr>
@@ -317,13 +317,13 @@
 <div id="marg"></div>
 		
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/taptogroup.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 <!-- interact.min.js -->
-<script src="./js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 	$("#0").hide();
 	$("#0_p").hide();
@@ -361,7 +361,7 @@
 							path: "sounds/"
 					}
 					],
-					path : "sounds/Reihe 9/",
+					path : "<?php echo($root); ?>sounds/Reihe 9/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

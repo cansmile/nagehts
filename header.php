@@ -15,6 +15,6 @@ $root = "nagehts/";
 		<link href="./<?php echo($root); ?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link href="./<?php echo($root); ?>css/bootstrap-custom.css" rel="stylesheet" type="text/css">
 		<link href="./<?php echo($root); ?>css/global.css" rel="stylesheet" type="text/css">
-		<!-- <link href="./images/favicon.ico" rel="shortcut icon"> -->
+		<!-- <link href="./<?php echo($root); ?>images/favicon.ico" rel="shortcut icon"> -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" importance="high">
 	</head>

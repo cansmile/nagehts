@@ -66,14 +66,14 @@
 					<table class="table table-borderless text-center">
 						<thead>
 							<tr>
-								<th scope="col" width="40%" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
+								<th scope="col" width="40%" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
 								<th scope="col" width="30%" class="align-middle">Wo?<span class="tran"><br><small>어디인가요?</small></span></th>
 								<th scope="col" width="30%" class="align-middle">Was tut man?<span class="tran"><br><small>무엇을 하나요?</small></span></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th heigh="150" scope="row"><img src="./images/Reihe 4/Reihe-4-A3-2.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-2.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -88,7 +88,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th heigh="150" scope="row"><img src="./images/Reihe 4/Reihe-4-A3-4.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-4.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -103,7 +103,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th heigh="150" scope="row"><img src="./images/Reihe 4/Reihe-4-A3-5.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-5.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -124,7 +124,7 @@
 					<table class="table table-borderless text-center d-sm-none d-md-none d-lg-block d-xl-block mb-0">
 						<thead>
 							<tr>
-								<th scope="col" width="40%" class="align-middle"><img src="./images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
+								<th scope="col" width="40%" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
 								<th scope="col" width="30%" class="align-middle">Wo?<span class="tran"><br><small>어디인가요?</small></span></th>
 								<th scope="col" width="30%" class="align-middle">Was tut man?<span class="tran"><br><small>무엇을 하나요?</small></span></th>
 							</tr>
@@ -133,7 +133,7 @@
 					<table class="table table-borderless text-center mt-0 ">
 						<tbody>
 							<tr>
-								<th width="40%" heigh="150" scope="row"><img src="./images/Reihe 4/Reihe-4-A3-6.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th width="40%" heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-6.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td width="30%" class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-7">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -148,7 +148,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th heigh="150" scope="row"><img src="./images/Reihe 4/Reihe-4-A3-7.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-7.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-9">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -179,12 +179,12 @@
 	<div id="marg"></div>
 <div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -211,7 +211,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./sounds/Reihe 4/r4 A3.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 A3.mp3"],
 			sprite: {
 				"0": [961, 44465],
 				"1": [6303, 2893],

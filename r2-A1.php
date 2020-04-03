@@ -111,11 +111,11 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col"><img src="./images/Reihe 2/Reihe-2-A1-1.png" style="max-width: 100%; height: auto;" alt="Eiffelturm"></div>
-				<div class="col"><img src="./images/Reihe 2/Reihe-2-A1-2.png" style="max-width: 100%; height: auto;" alt="Freiheitsstatue"></div>
-				<div class="col"><img src="./images/Reihe 2/Reihe-2-A1-3.png" style="max-width: 100%; height: auto;" alt="Griechischer Tempel"></div>
-				<div class="col"><img src="./images/Reihe 2/Reihe-2-A1-4.png" style="max-width: 100%; height: auto;" alt="Amphitheater"></div>
-				<div class="col"><img src="./images/Reihe 2/Reihe-2-A1-5.png" style="max-width: 100%; height: auto;" alt="Pyramide"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-1.png" style="max-width: 100%; height: auto;" alt="Eiffelturm"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-2.png" style="max-width: 100%; height: auto;" alt="Freiheitsstatue"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-3.png" style="max-width: 100%; height: auto;" alt="Griechischer Tempel"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-4.png" style="max-width: 100%; height: auto;" alt="Amphitheater"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-5.png" style="max-width: 100%; height: auto;" alt="Pyramide"></div>
 			</div>
 			<div class="row" id="lsts">
 				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 mt-1">
@@ -316,13 +316,13 @@
 
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptocompareh.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptocompareh.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -364,7 +364,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./sounds/Reihe 2/r2 A1.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 A1.mp3"],
 	sprite : {
 		"0": [2378, 57789],
 		"1": [23474, 1277],

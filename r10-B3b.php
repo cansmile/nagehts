@@ -112,13 +112,13 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroupnomove.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -162,7 +162,7 @@
 							path: "sounds/"
 					}
 					],
-					path : "sounds/Reihe 10/",
+					path : "<?php echo($root); ?>sounds/Reihe 10/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

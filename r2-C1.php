@@ -58,7 +58,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 100%; height: auto;" alt="Dooly"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 100%; height: auto;" alt="Dooly"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
 					<table class="table table-borderless table-light text-center">
@@ -100,7 +100,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 100%; height: auto;" alt="Kleopatra"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 100%; height: auto;" alt="Kleopatra"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
 					<table class="table table-borderless table-light text-center">
@@ -142,7 +142,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 100%; height: auto;" alt="Mickey Mouse"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 100%; height: auto;" alt="Mickey Mouse"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
 					<table class="table table-borderless table-light text-center">
@@ -222,12 +222,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -253,7 +253,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./sounds/Reihe 2/r2 C1.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 C1.mp3"],
 	sprite : {
 		"0": [1370, 55027],
 		"1": [59017, 1264],

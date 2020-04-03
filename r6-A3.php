@@ -59,7 +59,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-2.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-2.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -76,7 +76,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-3.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-3.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -93,7 +93,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-4.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-4.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -110,7 +110,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-5.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-5.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -127,7 +127,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-6.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-6.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -144,7 +144,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-7.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-7.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -161,7 +161,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-8.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-8.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -178,7 +178,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-9.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-9.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -195,7 +195,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
 					<table class="table">
 						<thead>
-							<th class="text-center border-0" scope="col"><img src="./images/Reihe 6/Reihe-6-A3-10.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
+							<th class="text-center border-0" scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-10.png" alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -241,13 +241,13 @@
 <div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroup.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -287,7 +287,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 6/",
+				path : "<?php echo($root); ?>sounds/Reihe 6/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

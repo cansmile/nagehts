@@ -56,7 +56,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="250" class="border-0 align-middle text-center"><img src="./images/Reihe 7/Reihe-7-C1-1.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
+							<td height="250" class="border-0 align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-C1-1.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0">
@@ -73,7 +73,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="250" class="border-0 align-middle text-center"><img src="./images/Reihe 7/Reihe-7-C1-2.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
+							<td height="250" class="border-0 align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-C1-2.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0">
@@ -90,7 +90,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="250" class="border-0 align-middle text-center"><img src="./images/Reihe 7/Reihe-7-C1-3.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
+							<td height="250" class="border-0 align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-C1-3.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0">
@@ -107,7 +107,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="250" class="border-0 align-middle text-center"><img src="./images/Reihe 7/Reihe-7-C1-4.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
+							<td height="250" class="border-0 align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-C1-4.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0">
@@ -124,7 +124,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="250" class="border-0 align-middle text-center"><img src="./images/Reihe 7/Reihe-7-C1-5.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
+							<td height="250" class="border-0 align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-C1-5.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0">
@@ -141,7 +141,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="250" class="border-0 align-middle text-center"><img src="./images/Reihe 7/Reihe-7-C1-6.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
+							<td height="250" class="border-0 align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-C1-6.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0">
@@ -158,7 +158,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="250" class="border-0 align-middle text-center"><img src="./images/Reihe 7/Reihe-7-C1-7.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
+							<td height="250" class="border-0 align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-C1-7.png" alt="Was kann / muss / darf man (nicht)?" style="max-height: 240px; max-width: 100%; width: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0">
@@ -186,13 +186,13 @@
 <div id="marg"></div>
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -230,7 +230,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 7/",
+				path : "<?php echo($root); ?>sounds/Reihe 7/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

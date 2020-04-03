@@ -55,7 +55,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="300" class="border-0 align-middle align-middle"><img src="./images/Reihe 8/Reihe-8-C2-1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+							<td height="300" class="border-0 align-middle align-middle"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-C2-1.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0 align-middle">
@@ -72,7 +72,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="300" class="border-0 align-middle align-middle"><img src="./images/Reihe 8/Reihe-8-C2-2.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+							<td height="300" class="border-0 align-middle align-middle"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-C2-2.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0 align-middle">
@@ -89,7 +89,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="300" class="border-0 align-middle align-middle"><img src="./images/Reihe 8/Reihe-8-C2-3.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+							<td height="300" class="border-0 align-middle align-middle"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-C2-3.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0 align-middle">
@@ -106,7 +106,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="300" class="border-0 align-middle align-middle"><img src="./images/Reihe 8/Reihe-8-C2-4.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+							<td height="300" class="border-0 align-middle align-middle"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-C2-4.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0 align-middle">
@@ -123,7 +123,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="300" class="border-0 align-middle align-middle"><img src="./images/Reihe 8/Reihe-8-C2-5.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+							<td height="300" class="border-0 align-middle align-middle"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-C2-5.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0 align-middle">
@@ -140,7 +140,7 @@
 				<table class="table border-0">
 					<tbody>
 						<tr>
-							<td height="300" class="border-0 align-middle align-middle"><img src="./images/Reihe 8/Reihe-8-C2-6.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
+							<td height="300" class="border-0 align-middle align-middle"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-C2-6.png" alt="Wo ist das?" style="max-width: 100%; height: auto;"></td>
 						</tr>
 						<tr>
 							<td class="border-0 align-middle">
@@ -329,13 +329,13 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/taptogroupnomove.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
 <!-- interact.min.js -->
-<script src="./js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 	$("#0").hide();
 	$("#0_p").hide();
@@ -377,7 +377,7 @@
 						path: "sounds/"
 				}
 				],
-				path : "sounds/Reihe 8/",
+				path : "<?php echo($root); ?>sounds/Reihe 8/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

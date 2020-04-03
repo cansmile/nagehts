@@ -26,7 +26,7 @@
 						In Deutschland feiert man normalerweise Geburtstage mit Freunden und Familie.<span class="tran"><br><small>독일에서는 일반적으로 생일날에 친구들과 가족들과 파티를 한다.<br></small></span> Meistens feiert man zu Hause mit Kuchen und leckerem Essen.<span class="tran"><br><small>대부분 집에서 케익과 맛있는 음식을 먹으면서 파티를 한다.<br></small></span> Die Mutter kocht das Lieblingsgericht des Geburtstagskindes und backt auch eine Geburtstagstorte.<span class="tran"><br><small>엄마는 생일을 맞은 사람이 좋아하는 음식을 하고 생일 케익을 굽는다.<br></small></span> Man dekoriert den Ort, wo gefeiert wird, feierlich, z.B mit Luftballons.<span class="tran"><br><small>파티할 장소를  축제장같이 예를 들어 풍선을 가지고 꾸민다.<br></small></span> Freunde werden dazu eingeladen.<span class="tran"><br><small>친구들이 파티에 초대된다.<br></small></span> Sie schenken dem Geburtstagskind Bücher, CDs oder Ähnliches.<span class="tran"><br><small>친구들은 생일 맞은 사람에게 책이나, CD 등등을 선물한다.<br></small></span> Geburtstage feiern in Korea ist im Gegensatz zu Deutschland ein wenig anders.<span class="tran"><br><small>한국에서의 생일파티는 독일과 반대로 약간 다르다.<br></small></span> In Korea ist es Tradition, dass das Geburtagskind am Geburtstagsmorgen Reis mit Seetangsuppe bekommt.<span class="tran"><br><small>한국에서는 생일을 맞이한 사람이 생일날 아침에 밥과 미역국을 먹는 것이 전통이다.<br></small></span> Natürlich bekommt es auch Geschenke.<span class="tran"><br><small>물론 생일선물도 받는다.<br></small></span> Da man sich bei der Auswahl jedoch nicht sicher ist, schenkt man ihm meistens Geld.<span class="tran"><br><small>생일선물 고르는 것이 확실치 않아서 대부분 돈으로 선물한다.<br></small></span> Wenn das Geburtstagskind keine weiteren Pläne hat, geht die Familie mit ihm lecker essen.<span class="tran"><br><small>생일맞이한 사람이 별 계획이 없으면 가족들과 맛있는 음식을 먹으러 나간다.<br></small></span><br>
 					</div>
 					<div class="col-12 text-center">
-						<img src="./images/Reihe 9/Reihe-9-B2-1.png" alt="Geburtstagsfeier in Deutschland und in Korea" style="max-width: 240px; height: auto;">
+						<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-B2-1.png" alt="Geburtstagsfeier in Deutschland und in Korea" style="max-width: 240px; height: auto;">
 					</div>
 					<div class="col-12">
 						<table class="table">
@@ -140,13 +140,13 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./js/popper.min.js"></script>
-		<script src="./js/bootstrap.js"></script>
-		<script src="./js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -173,7 +173,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "sounds/Reihe 9/",
+					path : "<?php echo($root); ?>sounds/Reihe 9/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

@@ -75,7 +75,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center align-top font-weight-bold" style="font-size: 2em;" rowspan="2">1</td>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 180px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="text-center"><span class="font-weight-bold" style="font-size: 2em;">Claudia</span></td>
@@ -92,7 +92,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -114,7 +114,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-3.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-3.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -136,7 +136,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-4.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-4.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -158,7 +158,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -180,7 +180,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -202,7 +202,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-1-7.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-7.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -222,7 +222,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center align-top font-weight-bold" style="font-size: 2em;" rowspan="2">2</td>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 180px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 180px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="text-center"><span class="font-weight-bold" style="font-size: 2em;">Michael</span></td>
@@ -240,7 +240,7 @@
 							</tr>
 							<tr>
 								<td height="250" class="align-middle">
-								<img src="./images/Reihe 4/Reihe-4-C2-2-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-2.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -262,7 +262,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-3.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-3.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -284,7 +284,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-4.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-4.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -306,7 +306,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -328,7 +328,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -350,7 +350,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td height="250" class="align-middle"><img src="./images/Reihe 4/Reihe-4-C2-2-7.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
+								<td height="250" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-7.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -453,12 +453,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogroupnomoveh.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroupnomoveh.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -485,7 +485,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./sounds/Reihe 4/r4 C2a.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 C2a.mp3"],
 			sprite: {
 				"0": [1455, 61038],
 				"8": [15937, 1703],

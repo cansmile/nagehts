@@ -24,7 +24,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<th scope="row" rowspan="12" class="text-center align-middle"><img src="./images/Reihe 3/Reihe-3-C1-1.png" style="max-width: 240px; height: auto;"></th>
+								<th scope="row" rowspan="12" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-C1-1.png" style="max-width: 240px; height: auto;"></th>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
 								<td>Wer ist das?<span class="tran"><br><small>이 사람들은 누구니?</small></span></td>
 							</tr>
@@ -192,11 +192,11 @@
 	
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -223,7 +223,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./sounds/Reihe 3/r3 C1.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 3/r3 C1.mp3"],
 			sprite: {
 				"0": [812, 57094],
 				"1": [13178, 1747],

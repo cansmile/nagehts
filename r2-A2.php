@@ -53,7 +53,7 @@
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="17" class="so btn btn-danger btn-lg">▶</button></th>
 							<td width="70%" class="text-center bg-danger text-white align-middle" height="20px"><h3>Sandmännchen</h1></td>
-							<td rowspan="4" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-1.png" style="max-width: 240px; height: auto;" alt="Sandmännchen"></td>
+							<td rowspan="4" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A2-1.png" style="max-width: 240px; height: auto;" alt="Sandmännchen"></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="7" class="so btn btn-outline-primary">▶</button></th>
@@ -82,7 +82,7 @@
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="18" class="so btn btn-warning btn-lg">▶</button></th>
 							<td width="70%" class="so text-center bg-warning align-middle" height="20px"><h3>Pororo</h1></td>
-							<td rowspan="4" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-2.png" style="max-width: 240px; height: auto;" alt="Pororo"></td>
+							<td rowspan="4" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A2-2.png" style="max-width: 240px; height: auto;" alt="Pororo"></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="10" class="so btn btn-outline-primary">▶</button></th>
@@ -111,7 +111,7 @@
 						<tr>
 							<th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-primary btn-lg">▶</button></th>
 							<td width="70%" class="so text-center bg-primary text-white align-middle" height="20px"><h3>Minnie Mouse</h1></td>
-							<td rowspan="5" class="text-center align-middle"><img src="./images/Reihe 2/Reihe-2-A2-3.png" style="max-width: 150px; height: auto;" alt="Minnie Mouse"></td>
+							<td rowspan="5" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A2-3.png" style="max-width: 150px; height: auto;" alt="Minnie Mouse"></td>
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="13" class="so btn btn-outline-primary">▶</button></th>
@@ -153,12 +153,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/taptogrouph.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -184,7 +184,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./sounds/Reihe 2/r2 A2.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 A2.mp3"],
 	sprite : {
 		"0": [941, 56382],
 		"1": [59835, 1353],

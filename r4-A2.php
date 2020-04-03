@@ -33,7 +33,7 @@
 										<td>1</td>
 									</tr>
 									<tr>
-										<td><img src="./images/Reihe 4/Reihe-4-A1-1.png" style="max-width:100%;height:auto;" class="so" id="7"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-1.png" style="max-width:100%;height:auto;" class="so" id="7"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -50,7 +50,7 @@
 										<td>2</td>
 									</tr>
 									<tr>
-										<td><img src="./images/Reihe 4/Reihe-4-A1-2.png" style="max-width:100%;height:auto;" class="so" id="6"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-2.png" style="max-width:100%;height:auto;" class="so" id="6"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -67,7 +67,7 @@
 										<td>3</td>
 									</tr>
 									<tr>
-										<td><img src="./images/Reihe 4/Reihe-4-A1-3.png" style="max-width:100%;height:auto;" class="so" id="1"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-3.png" style="max-width:100%;height:auto;" class="so" id="1"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -84,7 +84,7 @@
 										<td>4</td>
 									</tr>
 									<tr>
-										<td><img src="./images/Reihe 4/Reihe-4-A1-4.png" style="max-width:100%;height:auto;" class="so" id="2"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-4.png" style="max-width:100%;height:auto;" class="so" id="2"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -101,7 +101,7 @@
 										<td>5</td>
 									</tr>
 									<tr>
-										<td><img src="./images/Reihe 4/Reihe-4-A1-5.png" style="max-width:100%;height:auto;" class="so" id="5"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-5.png" style="max-width:100%;height:auto;" class="so" id="5"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -118,7 +118,7 @@
 										<td>6</td>
 									</tr>
 									<tr>
-										<td><img src="./images/Reihe 4/Reihe-4-A1-6.png" style="max-width:100%;height:auto;" class="so" id="3"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-6.png" style="max-width:100%;height:auto;" class="so" id="3"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -135,7 +135,7 @@
 										<td>7</td>
 									</tr>
 									<tr>
-										<td><img src="./images/Reihe 4/Reihe-4-A1-7.png" style="max-width:100%;height:auto;" class="so" id="4"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-7.png" style="max-width:100%;height:auto;" class="so" id="4"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -396,11 +396,11 @@ border-
 	</section>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./js/popper.min.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./oxsound.php"); ?>
 	<script>
@@ -430,7 +430,7 @@ border-
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./sounds/Reihe 4/r4 A1.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 A1.mp3"],
 			sprite: {
 				"0": [1295, 41265],
 				"1": [11970, 2700],

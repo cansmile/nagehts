@@ -265,6 +265,74 @@ $ds = isset($dash);
 if(!$ds) {
 	$r = (int)substr($fn,1);
 }
+
+if($ds) {
+	if(strlen($da) > $lt) {
+		$kom = $tl[$r];
+		// 중단원 메뉴
+		for($i = 0; $i < sizeof($kom); $i++) {
+			$cn = array_keys($kom)[$i];
+			if(file_exists($cn.".php")) {
+				if($fn == $cn) {
+					$jt1 = $tl[$r][$cn];
+					$jt2 = $tl_k[$r][$cn];
+				}
+			}
+		}
+	} else {
+		$kom = $rtl[$r][$fn[($dash+1)]];
+		// 소단원 메뉴; 빼기 이후의 글자수가 4글자 미만
+		for($i = 0; $i < sizeof($kom); $i++) {
+			// 메뉴의 키 정보
+			$mkey = array_keys($kom)[$i];
+			$cn = "r".$r."-".$mkey;
+			if(file_exists(($cn).".php")) {
+				if($da == $mkey ) {
+					$jt1 = ($i+1).". ".$rtl[$r][$mkey[0]][$mkey];
+					$jt2 = $rtl_k[$r][$mkey[0]][$mkey];
+				}
+				$n = $i+1;
+				if(substr($mkey, 1, 2) == "GR") { $la = "GR"; } else if($da == "Uebungen") { $la = "Übungen"; } else { $la = $mkey; }
+				for($c = 97; $c < 121; $c++) {
+					if(substr($la,-1) == chr($c)) {
+						$la = substr($la,0,(strlen($la) - 1))."<small>-".($c - 96)."</small>";
+					}
+				}
+			}
+		}
+	}
+} else {
+	$kom = $tl;
+	// 대단원 메뉴
+	for($i = 0; $i < sizeof($kom); $i++) {
+
+		if($i == 0) {
+			$jt0 = $itl["D"];
+			$jt1 = $itl_k["D"];
+			$jt2 = "";
+
+		}
+		// 작업 완료($rm) 단원
+		if(($i-1) < $rm) {
+			if($fn == "r".($i)) {
+
+				$jt0 = "Reihe ".$r;
+				$jt1 = $itl[$r];
+				$jt2 = $itl_k[$r];
+			}
+		}
+
+		// 작업 완료($rm) 단원 이상인데, 편집지
+		if(($i-1) >= $rm && $edt) {
+			if($fn == "r".($i)) {
+
+				$jt0 = "Reihe ".$r;
+				$jt1 = $itl[$r];
+				$jt2 = $itl_k[$r];
+			}
+		}
+	}
+}
 ?>
 
 <!-- 상단 큰 제목 -->

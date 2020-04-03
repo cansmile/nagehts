@@ -79,7 +79,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<th class="p-1 m-0 border-0 align-middle" style="line-height: 250%;" width="20" scope="row" rowspan="4">1.</th>
@@ -116,7 +116,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<th class="p-1 m-0 border-0 align-middle" style="line-height: 250%;" width="20" scope="row" rowspan="4">2.</th>
@@ -153,7 +153,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<th class="p-1 m-0 border-0 align-middle" style="line-height: 250%;" width="20" scope="row" rowspan="4">3.</th>
@@ -190,7 +190,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<th class="p-1 m-0 border-0 align-middle" style="line-height: 250%;" width="20" scope="row" rowspan="4">4.</th>
@@ -227,7 +227,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<th class="p-1 m-0 border-0 align-middle" style="line-height: 250%;" width="20" scope="row" rowspan="4">5.</th>
@@ -264,7 +264,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<th class="p-1 m-0 border-0 align-middle" style="line-height: 250%;" width="20" scope="row" rowspan="4">6.</th>
@@ -301,7 +301,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<table class="table">
+					<table class="table table-borderless">
 						<tbody>
 							<tr>
 								<th class="p-1 m-0 border-0 align-middle" style="line-height: 250%;" width="20" scope="row" rowspan="4">7.</th>
@@ -346,21 +346,20 @@
 			</div>
 			<!-- 정답확인 버튼 끝 -->
 			<div class="row">
-				<table class="table">
+				<table class="table table-borderless">
 					<thead>
 						<tr>
-							<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span></th>
+							<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span>&nbsp;<strong>Wohin gehen?</strong></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td width="50%">
-								<strong>Wohin gehen?</strong><br>
 								<span class="ml-3">• in den (m), die (f), ins (n) + Haus und Gebäude, Ort</span><br>
 								<span class="ml-3">• zum (m,n) zur (f) + Aktivitäten, Person</span><br>
 							</td>
 							<td class="align-middle text-center">
-								<table class="table">
+								<table class="table table-borderless">
 									<tbody>
 										<tr>
 											<td><span class="bg-light border border-dark rounded m-0 p-2 px-3">&nbsp;</span><span class="m-0" style="position: relative; left: -8px; font-size: 2em;">←</span><span class="bg-light border border-dark rounded m-0 p-2 px-3" style="position: relative; left: -12px;"><strong>in</strong></span></td>
@@ -372,7 +371,7 @@
 								</table>
 							</td>
 							<td>
-								<table class="table text-center">
+								<table class="table table-borderless text-center">
 									<thead>
 										<tr>
 											<th class="border-white border" scope="col">&nbsp;</th>
@@ -401,6 +400,23 @@
 										</tr>
 									</tbody>
 								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="row">
+				<table class="table table-borderless">
+					<thead>
+						<tr>
+							<th scope="col"><span class="bg-lime font-weight-bold rounded p-1 px-2 m-1">TIPP</span><strong>da</strong></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<span class="ml-3">• <small>공간적 의미: 저기, 거기, 여기</small></span><br>
+								<span class="ml-3">• <small>시간적 의미: 그때, 그 당시</small></span><br>
 							</td>
 						</tr>
 					</tbody>

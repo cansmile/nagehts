@@ -272,7 +272,7 @@ if($ds) {
 		// 중단원 메뉴
 		for($i = 0; $i < sizeof($kom); $i++) {
 			$cn = array_keys($kom)[$i];
-			if(file_exists($cn.".php")) {
+			if(file_exists($root.$cn.".php")) {
 				if($fn == $cn) {
 					$jt1 = $tl[$r][$cn];
 					$jt2 = $tl_k[$r][$cn];
@@ -286,7 +286,7 @@ if($ds) {
 			// 메뉴의 키 정보
 			$mkey = array_keys($kom)[$i];
 			$cn = "r".$r."-".$mkey;
-			if(file_exists(($cn).".php")) {
+			if(file_exists($root.($cn).".php")) {
 				if($da == $mkey ) {
 					$jt1 = ($i+1).". ".$rtl[$r][$mkey[0]][$mkey];
 					$jt2 = $rtl_k[$r][$mkey[0]][$mkey];

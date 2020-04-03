@@ -5,7 +5,7 @@
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
 	<!-- 보기시작 -->
-	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+			<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
@@ -112,27 +112,27 @@
 			<div class="row mt-3" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top bg-primary itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-1">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					<img src=".\images\Reihe 0\Reihe-0-1.png" style="max-width: 100%; height: auto;" class="d-block">
+					<img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-1.png" style="max-width: 100%; height: auto;" class="d-block">
 					<strong>Begrüßung</strong> 인사 </h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-2">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					<img src=".\images\Reihe 0\Reihe-0-2.png" style="max-width: 100%; height: auto;" class="d-block">
+					<img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-2.png" style="max-width: 100%; height: auto;" class="d-block">
 					<strong>Sport</strong> 스포츠 </h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-success itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-3">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					<img src=".\images\Reihe 0\Reihe-0-3.png" style="max-width: 100%; height: auto;" class="d-block">
+					<img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-3.png" style="max-width: 100%; height: auto;" class="d-block">
 					<strong>Musik</strong> 음악 </h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-danger itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-4">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					<img src=".\images\Reihe 0\Reihe-0-4.png" style="max-width: 100%; height: auto;" class="d-block">
+					<img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-4.png" style="max-width: 100%; height: auto;" class="d-block">
 					<strong>Getränke</strong> 음료 </h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top bg-warning itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-5">
 					<h2 class="btn btn-light btn-xl ttl d-block">
-					<img src=".\images\Reihe 0\Reihe-0-5.png" style="max-width: 100%; height: auto;" class="d-block">
+					<img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-5.png" style="max-width: 100%; height: auto;" class="d-block">
 					<strong>Familie</strong> 가족 </h2>&nbsp;
 				</div>
 			</div>

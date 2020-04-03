@@ -2,7 +2,7 @@
 <body>
 <?php include "nav.php"; ?>
 	<!-- 보기시작 -->
-	<section class="bg-white rounded p-2" style="position: fixed; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
 				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>

@@ -1,7 +1,7 @@
 <?php
 // 반복 횟수; 중단원, 소단원, 대단원 모두 $kom에 입력됨
 if($ds) {
-	if(strlen($da) < $lm) {
+	if(strlen($da) < $lt) {
 		// 중단원 메뉴
 		$kom = $rtl[$r][$fn[($dash+1)]];
 	} else {

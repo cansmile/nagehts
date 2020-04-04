@@ -45,19 +45,19 @@
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
 				<div style="min-height: 320px;" class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl" id="lst-1">
-					<img style="width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-A3-1.png" class="ttl">
+					<img style="width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-1.png" class="ttl">
 				</div>
 				<div style="min-height: 320px;" class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl" id="lst-2">
-					<img style="width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-A3-2.png" class="ttl">
+					<img style="width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-2.png" class="ttl">
 				</div>
 				<div style="min-height: 320px;" class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl" id="lst-3">
-					<img style="width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-A3-3.png" class="ttl">
+					<img style="width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-3.png" class="ttl">
 				</div>
 				<div style="min-height: 320px;" class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl" id="lst-4">
-					<img style="width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-A3-4.png" class="ttl">
+					<img style="width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-4.png" class="ttl">
 				</div>
 				<div style="min-height: 320px;" class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl" id="lst-5">
-					<img style="width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-A3-5.png" class="ttl">
+					<img style="width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-5.png" class="ttl">
 				</div>
 			</div>
 			<!-- 리스트 끝 -->

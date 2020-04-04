@@ -49,22 +49,22 @@
 			<!-- 리스트 시작 -->
 			<div class="row mt-3" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top border-0 itm-lst text-center text-dark col-4 col-xl" id="lst-1">
-					<img style="max-width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-C2-1.png" class="ttl">
+					<img style="max-width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-1.png" class="ttl">
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border-0 itm-lst text-center text-dark col-4 col-xl" id="lst-2">
-					<img style="max-width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-C2-2.png" class="ttl">
+					<img style="max-width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-2.png" class="ttl">
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border-0 itm-lst text-center text-dark col-4 col-xl" id="lst-3">
-					<img style="max-width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-C2-3.png" class="ttl">
+					<img style="max-width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-3.png" class="ttl">
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border-0 itm-lst text-center text-dark col-4 col-xl" id="lst-4">
-					<img style="max-width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-C2-4.png" class="ttl">
+					<img style="max-width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-4.png" class="ttl">
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border-0 itm-lst text-center text-dark col-4 col-xl" id="lst-5">
-					<img style="max-width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-C2-5.png" class="ttl">
+					<img style="max-width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-5.png" class="ttl">
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border-0 itm-lst text-center text-dark col-4 col-xl" id="lst-6">
-					<img style="max-width: 100%; height: auto;" src=".\images\Reihe 1\Reihe-1-C2-6.png" class="ttl">
+					<img style="max-width: 100%; height: auto;" src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-6.png" class="ttl">
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->

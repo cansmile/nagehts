@@ -40,7 +40,7 @@
 								<td><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
 								<td><div class="input-group">
 									Mein Bruder ist
-									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px;" aria-label="." id="qst-1">
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px; min-width: 50px; max-width: 150px;" aria-label="." id="qst-1">
 									Jahre alt
 									</div><span class="tran"><br><small>나의 형은 24살이야</small></span>
 								</td>
@@ -49,7 +49,7 @@
 								<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
 								<td><div class="input-group">
 									und meine Schwester ist
-									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px; width: 80px;" aria-label="." id="qst-2">
+									<input type="text" class="form-control q border-left-0 border-top-0 border-right-0 rounded-0 mx-1" style="position: relative; top: -6px; min-width: 50px; max-width: 150px;" aria-label="." id="qst-2">
 									Jahre alt.
 									</div><span class="tran"><br><small>그리고 나의 누나는 22살이야.</small></span>
 								</td>

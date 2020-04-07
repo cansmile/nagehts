@@ -1,9 +1,9 @@
 <?php include "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
-<!-- 알림 시작 -->
-<?php require_once "ready.php"; ?>
-<!-- 알림 끝 -->
+	<?php include "nav.php"; ?>
+	<!-- 알림 시작 -->
+	<?php require_once "ready.php"; ?>
+	<!-- 알림 끝 -->
 	<section>
 		<div class="container">
 			<div class="row">
@@ -28,13 +28,13 @@
 					<table class="table">
 						<tbody>
 							<tr>
-							<th scope="row" class="border-0 text-center"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								<th scope="row" class="border-0 text-center"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
 										Ich heiße Nora und bin 9 Jahre alt. Ich gehe <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-1">Fuß<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-2">die Schule.
 									</div>
 									<span class="tran"><br><small>내 이름은 노라이고 9살이다. 나는 걸어서 학교에 간다.</small></span>
-								
+									
 								</td>
 							</tr>
 						</tbody>
@@ -44,12 +44,11 @@
 					<table class="table">
 						<tbody>
 							<tr>
-							<th scope="row" class="border-0 text-center"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								<th scope="row" class="border-0 text-center"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
-
 									<div class="input-group">
-										Mein Vater Hans Holm ist Pfarrer von Beruf. Er fährt <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-3"> dem Fahrrad 
-									<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-4">
+										Mein Vater Hans Holm ist Pfarrer von Beruf. Er fährt <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-3"> dem Fahrrad
+										<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-4">
 										Pfarramt.
 									</div>
 									<span class="tran"><br><small>나의 아버지 한스 홀름은 직업이 목사님이다. 그는 자전거를 타고 목사관으로 간다.</small></span>
@@ -62,7 +61,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-							<th scope="row" class="border-0 text-center"><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								<th scope="row" class="border-0 text-center"><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
 										Meine Mutter Silvia Holm will zuerst meinen Bruder Alex <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-5"> Fuß
@@ -80,9 +79,8 @@
 					<table class="table">
 						<tbody>
 							<tr>
-							<th scope="row" class="border-0 text-center"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								<th scope="row" class="border-0 text-center"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
-
 									<div class="input-group">
 										Mein Onkel Georg ist Bankangestellter und arbeitet bei der Bank. Er fährt <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-9"> dem Motorrad <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-10">Bank.
 									</div>
@@ -96,9 +94,8 @@
 					<table class="table">
 						<tbody>
 							<tr>
-							<th scope="row" class="border-0 text-center"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								<th scope="row" class="border-0 text-center"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
-
 									<div class="input-group">
 										Meine Tante Sabine ist Lehrerin. Sie fährt <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-11"> der U-Bahn <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-12">Schule.
 									</div>
@@ -112,7 +109,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-							<th scope="row" class="border-0 text-center"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								<th scope="row" class="border-0 text-center"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
 										Mein Onkel Franz Scholl ist Beamter. Er fliegt oft wegen der Dienstreise <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-13"> dem Flugzeug.
@@ -127,7 +124,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-							<th scope="row" class="border-0 text-center"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+								<th scope="row" class="border-0 text-center"><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								<td class="border-0" style="line-height: 250%;">
 									<div class="input-group">
 										Meine Großeltern Robert und Maria Holm wollen <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-14"> Spanien in den Urlaub gehen. Sie wollen da eine Kreuzfahrt machen und fahren deshalb<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-15"> dem Schiff.
@@ -138,15 +135,14 @@
 						</tbody>
 					</table>
 				</div>
-				</div>
-				<!-- 정답화인 버튼 시작 -->
-				<div class="row">
-					<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-						정답확인
-					</div>
-				</div>
-				<!-- 정답확인 버튼 끝 -->
 			</div>
+			<!-- 정답화인 버튼 시작 -->
+			<div class="row">
+				<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
+					정답확인
+				</div>
+			</div>
+			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
 	
@@ -162,52 +158,50 @@
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
-
 		$(".tran").hide();
 		$(".ant").hide();
 		var an=new Array();
-		var an=["zu", "in", "mit","zum","zu","in","mit","zum","mit","zur","mit","zur","mit","nach","mit"];
+		var an=["zu", "in", "mit", "zum", "zu", "in", "mit", "zum", "mit", "zur", "mit", "zur", "mit", "nach", "mit"];
 		$(document).ready(function() {
-				/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
-				// 값 확인해보자, io값이 참이면 전체 검사
-				function rfchk(th, io) {
-					var q, qn, a, b, fl;
-					q=th.val().length;
-					qn=(th.attr("id").substr(4))-1;
-					a=th.val();
-					a=a.replace(/ /gi, "");
-					if( !$.isArray(an[qn])) {
-						// 1 인 경우
+			/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+			// 값 확인해보자, io값이 참이면 전체 검사
+			function rfchk(th, io) {
+				var q, qn, a, b, fl;
+				q=th.val().length;
+				qn=(th.attr("id").substr(4))-1;
+				a=th.val();
+				a=a.replace(/ /gi, "");
+				if( !$.isArray(an[qn])) {
+					// 1 인 경우
+					if(io) {
+						b=an[qn];
+					}
+					else {
+						b=an[qn].substr(0, q);
+					}
+					b=b.replace(/ /gi, "");
+					if(a==b) {
+						return true;
+					}
+				}
+				else {
+					// 2 이상인 경우
+					for(var fd=0;
+					fd < an[qn].length;
+					fd++) {
 						if(io) {
-							b=an[qn];
+							b=an[qn][fd];
 						}
 						else {
-							b=an[qn].substr(0, q);
+							b=an[qn][fd].substr(0, q);
 						}
 						b=b.replace(/ /gi, "");
 						if(a==b) {
 							return true;
 						}
 					}
-					else {
-						// 2 이상인 경우
-						for(var fd=0;
-						fd < an[qn].length;
-						fd++) {
-							if(io) {
-								b=an[qn][fd];
-							}
-							else {
-								b=an[qn][fd].substr(0, q);
-							}
-							b=b.replace(/ /gi, "");
-							if(a==b) {
-								return true;
-							}
-						}
-					}
 				}
-
+			}
 			// 각 문장 재생 횟수 초기화
 			var hm=new Array(), sen=new Array();
 			for(i=0;
@@ -221,13 +215,13 @@
 					name : "r10 B4",
 					sprite : {
 						"0": [.570, 110.024],
-						"1": [15.095, 9.092],
-						"2": [26.748, 10.490],
-						"3": [39.384, 15.402],
-						"4": [56.926, 12.188],
-						"5": [70.932, 9.068],
-						"6": [82.295, 10.045],
-						"7": [94.733, 15.824]
+							"1": [15.095, 9.092],
+							"2": [26.748, 10.490],
+							"3": [39.384, 15.402],
+							"4": [56.926, 12.188],
+							"5": [70.932, 9.068],
+							"6": [82.295, 10.045],
+							"7": [94.733, 15.824]
 					}
 				}
 				, {
@@ -344,8 +338,6 @@
 						;
 					}
 					);
-
-
 					$(".q").on("keyup", function () {
 						$(this).removeClass("bg-danger");
 						$(this).removeClass("bg-success");
@@ -420,7 +412,6 @@
 					}
 					)
 					/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
-
 					$("#chk").on("click", function() {
 						var na="";
 						var ri=0;
@@ -449,29 +440,28 @@
 									$("#qst-"+(i+1)).attr("disabled", true);
 									$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
 									$("#qst-"+(i+1)).removeClass("rounded-0");
-
 									if( !$.isArray(an[i])) {
 										$("#qst-"+(i+1)).after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px; min-width: 150px;\">"+an[i]+"</div>");
 									}
 									else {
 										// 2 이상인 경우
-										var r = "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px; min-width: 150px;\">";
-										for(var fd = (an[i].length-1);
-										fd >= 0;
+										var r="<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"position: relative; top: -6px; min-width: 150px;\">";
+										for(var fd=(an[i].length-1);
+										fd >=0;
 										fd--) {
 											if(fd < (an[i].length-1)) {
-												r = r + " / ";
+												r=r + " / ";
 											}
-											r = r + an[i][fd];
+											r=r + an[i][fd];
 										}
-										r = r +"</div>";
+										r=r +"</div>";
 										if($("span.sen").length > 0) {
 											$("#qst-"+(i+1)).closest("span.sen").after(r);
-										} else {
+										}
+										else {
 											$("#qst-"+(i+1)).after(r);
 										}
 									}
-
 								}
 								if($("#qst-"+(i+1)).hasClass("bg-success")) {
 									ri++;
@@ -479,30 +469,30 @@
 							}
 							// 정답 확인 div 상자 배경색 속성 없애기
 							$(this).removeClass("btn-light ");
-
-							var qa = $(".q").length; // 전체 문항 수
-							var qr = $(".bg-success").length; // 맞춘 항목 수
-							var pe = (qr / qa) * 100; // 정답 비율
-							var tcl = "white"; // 기본 문자색
-
+							var qa=$(".q").length; // 전체 문항 수
+							var qr=$(".bg-success").length; // 맞춘 항목 수
+							var pe=(qr / qa) * 100; // 정답 비율
+							var tcl="white"; // 기본 문자색
 							// 분류 기준은 100%, 80%, 60%, 40%
 							if(pe > 99) {
-								var st = "원어민이세요?";
-								var cl = "lime";
-								var tcl = "dark";
-							} else if(pe > 74) {
-								var st = "어! 좀 하시는데요~^^";
-								var cl = "success";
-							} else if(pe > 49) {
-								var st = "쓰읍~ 다시 해 보실까요?";
-								var cl = "primary";
-							} else {
-								var st = "좀 더 분발해 주세요~";
-								var cl = "danger";
+								var st="원어민이세요?";
+								var cl="lime";
+								var tcl="dark";
 							}
-
-							$(this).addClass("btn-" + cl + " text-" + tcl);
-							$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+							else if(pe > 74) {
+								var st="어! 좀 하시는데요~^^";
+								var cl="success";
+							}
+							else if(pe > 49) {
+								var st="쓰읍~ 다시 해 보실까요?";
+								var cl="primary";
+							}
+							else {
+								var st="좀 더 분발해 주세요~";
+								var cl="danger";
+							}
+							$(this).addClass("btn-"+ cl + " text-"+ tcl);
+							$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
 							$(this).prop("disabled", true);
 							$(".tran").show();
 							$(this).attr("id", "done");
@@ -514,10 +504,9 @@
 						;
 					}
 					);
-
 					var pan=new Array();
 					// pan=[1,2,3,4,5,6,7,8,9,10];
-					pan = [1,2];
+					pan=[1, 2];
 					for(var p=0;
 					p < pan.length;
 					p++) {
@@ -526,9 +515,7 @@
 						$(pann).addClass("bg-success text-white font-weight-bold");
 						$(pann).prop("disabled", true);
 						// $(pann).closest("tr").find(".tran").show();
-					}			
-	
-
+					}
 
 					$("#0").show();
 					$(".alert").hide();

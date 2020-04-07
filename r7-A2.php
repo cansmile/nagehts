@@ -23,7 +23,7 @@
 					Kino<small><span class="tran"><br>영화관<br>(Fr. bis Sa. 15.30)</span></small>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="5">
-					Stadtführung Glanzlichter Dresdens<small><span class="tran"><br>드레스덴 하이라이트 시티투어<br>(Mo, Mi, Fr., Sa. 18.30)</</span>
+					Stadtführung Glanzlichter Dresdens<small><span class="tran"><br>드레스덴 하이라이트 시티투어<br>(Mo, Mi, Fr., Sa. 18.30)</small></</span>
 					</button>
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="6">
 					Circus Krone<small><span class="tran"><br>크로네 서커스<br>(So. 15.30)</span></small>

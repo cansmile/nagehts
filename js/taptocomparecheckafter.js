@@ -186,7 +186,7 @@ $(document).ready(function() {
 		}, {
 			name : "Cartoon_Boing"
 		}],
-		path : "sounds/",
+		path : "dev/sounds/",
 		preload : true,
 		volume : 1.0,
 		multiplay : true

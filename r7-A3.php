@@ -127,7 +127,7 @@
 					}, {
 						name : "Cartoon_Boing",
 					}],
-					path : "sounds/",
+					path : "<?php echo($root); ?>sounds/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+	<?php include "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -86,233 +86,226 @@
 			</div>
 			<!-- 정답확인 버튼 끝 -->
 		</div>
-	</div>
-</section>
-
-<div id="marg"></div>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-<!-- interact.min.js -->
-<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
-<script>
-		$("#0").hide();
-		$("#0_p").hide();
-		$(".tran").hide();
-		$("#chk").hide();
-		$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm=new Array(), sen=new Array();
-			for(i=0;
-			i < $(".so").length;
-			i++) {
-				hm[i]=0;
-				sen[i]=0;
-			}
-			ion.sound( {
-				sounds : [ {
-					name : "r7 A2",
-					sprite : {
-						"0": [1.28, 40.4],
-						"1": [12.26, 1.34],
-						"3": [18.64, 2.18],
-						"4": [23.09, 1.04],
-						"5": [26.55, 2.92],
-						"6": [32.34, 1.44],
-						"7": [36.29, 1],
-						"8": [40, 1.89]
-					}
+	</section>
+	<div id="marg"></div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
+	<!-- interact.min.js -->
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+	<script>
+			$("#0").hide();
+			$("#0_p").hide();
+			$(".tran").hide();
+			$("#chk").hide();
+			$(document).ready(function() {
+				// 각 문장 재생 횟수 초기화
+				var hm=new Array(), sen=new Array();
+				for(i=0;
+				i < $(".so").length;
+				i++) {
+					hm[i]=0;
+					sen[i]=0;
 				}
-				, {
-					name: "dingdongdang",
-						path: "<?php echo($root); ?>sounds/",
-				}
-				, {
-					name: "Cartoon_Boing",
-						path: "<?php echo($root); ?>sounds/",
-				}
-				],
-				path : "<?php echo($root); ?>sounds/Reihe 7/",
-				preload : true,
-				volume : 1.0,
-				multiplay: false,
-				ended_callback: function(obj) {
-					// 재생이 끝날 때 2번 이상이면 번역 보이기
-					hmn=obj.part;
-					hm[hmn]++;
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-						if(hm[hmn] > 1) {
-							$(".tran").show();
+				ion.sound( {
+					sounds : [ {
+						name : "r7 A2",
+						sprite : {
+							"0": [1.28, 40.4],
+								"1": [12.26, 1.34],
+								"3": [18.64, 2.18],
+								"4": [23.09, 1.04],
+								"5": [26.55, 2.92],
+								"6": [32.34, 1.44],
+								"7": [36.29, 1],
+								"8": [40, 1.89]
 						}
 					}
-					else {
-						if(obj.part < 0) {
-							$("#"+obj.part).html("▶");
-						}
-						if(hm[hmn] > 1) {
-							$("#"+hmn).closest(".btn").find(".tran").show();
-						}
+					, {
+						name: "dingdongdang",
+							path: "<?php echo($root); ?>sounds/",
 					}
-				}
-				, ready_callback: function () {
-					$(".o").on("click", function() {
-						ion.sound.play("dingdongdang");
+					, {
+						name: "Cartoon_Boing",
+							path: "<?php echo($root); ?>sounds/",
 					}
-					);
-					$(".x").on("click", function() {
-						ion.sound.play("Cartoon_Boing");
-					}
-					);
-					$("[data-toggle='popover']").popover( {
-						delay : {
-							'hide': 1000
-						}
-						,
-						container : "body"
-					}
-					);
-					$(".pop").click(function () {
-						// 가장 먼저 지문에 'an' 넣기
-						if ( !$(this).siblings().hasClass("an")) {
-							$(this).addClass("an");
-							$(this).addClass("btn-warning");
-							$(this).parent().children().removeClass("btn-light");
-						}
-						;
-						// 문제 풀이 정도 업데이트
-						var perc=Math.round(($(".an").length / $(".q").length) * 100);
-						$(".progress>.bar").attr("width", perc + "%;");
-					}
-					);
-					// 팝업 내용 사라지기
-					$(".pop").popover().click(function() {
-						setTimeout(function() {
-							$(".pop").popover('hide');
-						}
-						, 500);
-					}
-					);
-					$(".so").on("click", function () {
-						if($(this).attr("id").substr(-2)=="_p") {
-							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r7 A2", {
-								part: "0"
-							}
-							);
+					],
+					path : "<?php echo($root); ?>sounds/Reihe 7/",
+					preload : true,
+					volume : 1.0,
+					multiplay: false,
+					ended_callback: function(obj) {
+						// 재생이 끝날 때 2번 이상이면 번역 보이기
+						hmn=obj.part;
+						hm[hmn]++;
+						// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
+						if(obj.part=="0") {
 							$("#0").show();
-							$(this).hide();
-						}
-						else if($(this).html()=="▶") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.play("r7 A2", {
-								part: $(this).attr("id")
+							$("#0_p").hide();
+							if(hm[hmn] > 1) {
+								$(".tran").show();
 							}
-							);
-							$(this).html("❚❚");
-						}
-						else if($(this).html()=="❚❚") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r7 A2", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("▶");
 						}
 						else {
-							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r7 A2", {
-								part: $(this).attr("id")
+							if(obj.part < 0) {
+								$("#"+obj.part).html("▶");
 							}
-							);
-							// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-							if($(this).attr("id")=="0") {
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest(".btn").find(".tran").show();
+							}
+						}
+					}
+					, ready_callback: function () {
+						$(".o").on("click", function() {
+							ion.sound.play("dingdongdang");
+						}
+						);
+						$(".x").on("click", function() {
+							ion.sound.play("Cartoon_Boing");
+						}
+						);
+						$("[data-toggle='popover']").popover( {
+							delay : {
+								'hide': 1000
+							}
+							,
+							container : "body"
+						}
+						);
+						$(".pop").click(function () {
+							// 가장 먼저 지문에 'an' 넣기
+							if ( !$(this).siblings().hasClass("an")) {
+								$(this).addClass("an");
+								$(this).addClass("btn-warning");
+								$(this).parent().children().removeClass("btn-light");
+							}
+							;
+							// 문제 풀이 정도 업데이트
+							var perc=Math.round(($(".an").length / $(".q").length) * 100);
+							$(".progress>.bar").attr("width", perc + "%;");
+						}
+						);
+						// 팝업 내용 사라지기
+						$(".pop").popover().click(function() {
+							setTimeout(function() {
+								$(".pop").popover('hide');
+							}
+							, 500);
+						}
+						);
+						$(".so").on("click", function () {
+							if($(this).attr("id").substr(-2)=="_p") {
+								// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+								ion.sound.pause("r7 A2", {
+									part: "0"
+								}
+								);
+								$("#0").show();
 								$(this).hide();
-								$("#0_p").show();
+							}
+							else if($(this).html()=="▶") {
+								// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+								ion.sound.play("r7 A2", {
+									part: $(this).attr("id")
+								}
+								);
+								$(this).html("❚❚");
+							}
+							else if($(this).html()=="❚❚") {
+								// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
+								ion.sound.pause("r7 A2", {
+									part: $(this).attr("id")
+								}
+								);
+								$(this).html("▶");
+							}
+							else {
+								// _p 붙어 있지 않으면 id 그대로 재생
+								ion.sound.play("r7 A2", {
+									part: $(this).attr("id")
+								}
+								);
+								// 전체 듣기 재생일 때는 일시정지 버튼 보이기
+								if($(this).attr("id")=="0") {
+									$(this).hide();
+									$("#0_p").show();
+								}
+								;
 							}
 							;
 						}
-						;
-					}
-					);
-
-					<?php include "wahl.php"; ?>
-					// 정답확인
-					$("#chk").on("click", function() {
-						if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
-							$(this).attr("id", "done");
-						$(".tran").show();
-
-						// 정답 확인 div 상자 배경색 속성 없애기
-						$(this).removeClass("btn-light ");
-
-						$(".itm-lst").each(function() {
-							$(this).find("button").addClass("text-success font-weight-bold");
-						});
-
-						var qa = $(".itm-lst>button").length; // 전체 문항 수
-						var qr = $(".text-success").length; // 맞춘 항목 수
-						var pe = (qr / qa) * 100; // 정답 비율
-						var tcl = "white"; // 기본 문자색
-
-						// 분류 기준은 100%, 80%, 60%, 40%
-						if(pe > 99) {
-							var st = "원어민이세요?";
-							var cl = "lime";
-							var tcl = "dark";
-						} else if(pe > 74) {
-							var st = "어! 좀 하시는데요~^^";
-							var cl = "success";
-						} else if(pe > 49) {
-							var st = "쓰읍~ 다시 해 보실까요?";
-							var cl = "primary";
-						} else {
-							var st = "좀 더 분발해 주세요~";
-							var cl = "danger";
-						}
-
-						$(this).addClass("btn-" + cl + " text-" + tcl);
-						$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-
-					}
-					}
-					);
-
-					 // 미리 답 넣어놓기
-					var pan=new Array();
-					pan=[2];
-					for(var p=0;
-					p < pan.length;
-					p++) {
-						for(var i = 1; i <= $(".itm-lst").length; i++) {
-							if($("#"+pan[p]).hasClass("ans"+i)) {
-								$("#"+pan[p]).insertAfter("#lst-"+i+ ">h2");
-								$("#"+pan[p]).addClass("btn-block");
-								$("#"+pan[p]).addClass("btn-light");
-								// $("#"+pan[p]).find(".tran").show();
+						);
+						<?php include "wahl.php";
+						?> // 정답확인
+						$("#chk").on("click", function() {
+							if($("#wahl").visibility !="visible"&& $(this).attr("id")=="chk") {
+								$(this).attr("id", "done");
+								$(".tran").show();
+								// 정답 확인 div 상자 배경색 속성 없애기
+								$(this).removeClass("btn-light ");
+								$(".itm-lst").each(function() {
+									$(this).find("button").addClass("text-success font-weight-bold");
+								}
+								);
+								var qa=$(".itm-lst>button").length; // 전체 문항 수
+								var qr=$(".text-success").length; // 맞춘 항목 수
+								var pe=(qr / qa) * 100; // 정답 비율
+								var tcl="white"; // 기본 문자색
+								// 분류 기준은 100%, 80%, 60%, 40%
+								if(pe > 99) {
+									var st="원어민이세요?";
+									var cl="lime";
+									var tcl="dark";
+								}
+								else if(pe > 74) {
+									var st="어! 좀 하시는데요~^^";
+									var cl="success";
+								}
+								else if(pe > 49) {
+									var st="쓰읍~ 다시 해 보실까요?";
+									var cl="primary";
+								}
+								else {
+									var st="좀 더 분발해 주세요~";
+									var cl="danger";
+								}
+								$(this).addClass("btn-"+ cl + " text-"+ tcl);
+								$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
 							}
 						}
-					$(".itm-lst>button").addClass("btn-block btn-light");
+						);
+						// 미리 답 넣어놓기
+						var pan=new Array();
+						pan=[2];
+						for(var p=0;
+						p < pan.length;
+						p++) {
+							for(var i=1;
+							i <=$(".itm-lst").length;
+							i++) {
+								if($("#"+pan[p]).hasClass("ans"+i)) {
+									$("#"+pan[p]).insertAfter("#lst-"+i+ ">h2");
+									$("#"+pan[p]).addClass("btn-block");
+									$("#"+pan[p]).addClass("btn-light");
+									// $("#"+pan[p]).find(".tran").show();
+								}
+							}
+							$(".itm-lst>button").addClass("btn-block btn-light");
+						}
+						$("#0").show();
+						$(".alert").hide();
+					}
 				}
-
-
-					$("#0").show();
-					$(".alert").hide();
-				}
+				);
 			}
 			);
-		}
-		);
 
 	
 	</script>
-		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
-	</body>
+	<!-- ion.sound finished -->
+	<?php include "footer.php"; ?>
+</body>
 </html>

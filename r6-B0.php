@@ -626,11 +626,11 @@ $double_cell_height = $a_cell_height * 2;
 				}
 				, {
 					name: "dingdongdang",
-						path: "sounds/"
+						path: "<?php echo($root); ?>sounds/",
 				}
 				, {
 					name: "Cartoon_Boing",
-						path: "sounds/"
+						path: "<?php echo($root); ?>sounds/",
 				}
 				],
 				path : "<?php echo($root); ?>sounds/Reihe 6/",

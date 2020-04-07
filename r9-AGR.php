@@ -606,11 +606,11 @@
 				}
 				, {
 					name: "dingdongdang",
-						path: "sounds/"
+						path: "<?php echo($root); ?>sounds/",
 				}
 				, {
 					name: "Cartoon_Boing",
-						path: "sounds/"
+						path: "<?php echo($root); ?>sounds/",
 				}
 				],
 				path : "<?php echo($root); ?>sounds/Reihe 9/",

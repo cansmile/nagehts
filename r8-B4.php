@@ -122,7 +122,6 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 		<!-- 리스트 끝 -->
-	</div>
 </section>
 <div id="marg" class="border-danger"></div>
 

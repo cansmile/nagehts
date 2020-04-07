@@ -258,8 +258,8 @@
 						// 정답 확인 div 상자 배경색 속성 없애기
 						$(this).removeClass("btn-light ");
 						$(".itm-lst").each(function() {
-							if($(this).find(".btn")) {
-								$(this).find(".btn").addClass("text-success");
+							if($(this).find(".itm")) {
+								$(this).find(".itm").addClass("text-success");
 							}
 						}
 						);

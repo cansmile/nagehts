@@ -146,10 +146,10 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<table class="text-center table table-borderless table-striped">
+					<table class="text-center table table-borderless table-sm table-striped">
 						<tbody>
 							<tr>
-								<td colspan="4"><strong>Mengenangaben</strong>&nbsp;<small>단위명사</small></td>
+								<td colspan="4"><span class="border border-success rounded bg-lime p-1 px-2 mr-1 font-weight-bold text-center text-dark">TIPP</span><strong>Mengenangaben</strong>&nbsp;<small>단위명사</small></td>
 							</tr>
 							<tr>
 								<td>eine Flasche</td>

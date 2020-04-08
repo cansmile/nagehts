@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+	<?php include "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -80,21 +80,19 @@
 					<small>다음 표를 채우세요.</small>
 					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
-					❚❚
 					</button>
 					</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<table class="table table-striped text-center">
+					<table class="table table-borderless table-striped text-center">
 						<thead>
 							<tr>
-								<th class="border-0" scope="col" colspan="2">&nbsp;</th>
-								<th class="border-0 text-primary" scope="col">m</th>
-								<th class="border-0 text-danger" scope="col">f</th>
-								<th class="border-0 text-purple" scope="col">n</th>
+								<th scope="col" colspan="2">&nbsp;</th>
+								<th class="text-primary" scope="col">m</th>
+								<th class="text-danger" scope="col">f</th>
+								<th class="text-purple" scope="col">n</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -148,7 +146,7 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<table class="text-center table table-striped">
+					<table class="text-center table table-borderless table-striped">
 						<tbody>
 							<tr>
 								<td colspan="4"><strong>Mengenangaben</strong>&nbsp;<small>단위명사</small></td>
@@ -206,243 +204,190 @@
 	</section>
 	
 	<div id="marg"></div>
+	<div id="last" class="d-none"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
 	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-	<!-- interact.min.js -->
-	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+	<!-- 맞고 틀리는지 소리 -->
+	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
 		$("#0").hide();
-		$("#0_p").hide();
 		$(".tran").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
-			// 각 문장 재생 횟수 초기화
-			var hm=new Array(), sen=new Array();
-			for(i=0;
-			i < $(".so").length;
-			i++) {
-				hm[i]=0;
-				sen[i]=0;
+			// 소리 출력 전역 변수와 함수
+			var sen=new Array(), pa=new Array(), he=new Array(), last;
+			$(".so").each(function() {
+				var t=$(this);
+				var ti=t.attr("id");
+				sen[ ti]=0;
+				pa[ ti]=t.html();
 			}
-			ion.sound( {
-				sounds : [ {
-					name : "r5 C2 Tabelle",
-					sprite : {
-						"0": [13.4, 131.9],
-							"1": [25.37, 1.46],
-							"2": [66.1, 1.2],
-							"3": [143.85, .75],
-							"4": [73.8, .9],
-							"5": [98.8, 1],
-							"6": [130.02, 1],
-							"7": [58.05, 1],
-							"8": [32.52, 1.16],
-							"9": [137.15, 1.3],
-							"10": [85.25, 1.01],
-							"11": [38.63, 1.36],
-							"12": [123.1, 1.23],
-							"13": [80.05, .6],
-							"14": [46.04, .86],
-							"15": [111.54, .98],
-							"16": [51.9, 1],
-							"17": [93.05, .60],
-							"18": [117.21, .87],
-							"19": [104.07, 1.2]
-					}
+			);
+			function stopAll() {
+				$(".so").each(function() {
+					$(this).html(pa[ $(this).attr("id")]);
 				}
-				, {
-					name: "dingdongdang",
-						path: "<?php echo($root); ?>sounds/",
+				);
+			}
+			// 문제 재생
+			var nagehts=new Howl( {
+				src: [ "./<?php echo($root); ?>sounds/Reihe 5/r5 C2.mp3"],
+					sprite: {
+					"0": [13427, 131520],
+					"1": [23990, 3015],
+					"2": [64889, 2599],
+					"3": [142491, 2410],
+					"4": [72407, 2411],
+					"5": [97420, 2417],
+					"6": [128678, 2696],
+					"7": [56741, 2495],
+					"8": [31188, 2587],
+					"9": [135997, 2628],
+					"10": [84025, 2332],
+					"11": [37301, 2754],
+					"12": [121780, 2782],
+					"13": [78819, 1898],
+					"14": [44894, 2239],
+					"15": [110337, 2312],
+					"16": [50531, 2565],
+					"17": [91210, 2592],
+					"18": [115852, 2389],
+					"19": [102750, 2785]
 				}
-				, {
-					name: "Cartoon_Boing",
-						path: "<?php echo($root); ?>sounds/",
+				,
+				html5: true,
+				volume: 1,
+				format: "mp3",
+				preload: true,
+				onloaderror: function() {
+					$(".alert").append("<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>");
+					console.log("다시 읽어주세요!");
 				}
-				],
-				path : "<?php echo($root); ?>sounds/Reihe 5/",
-				preload : true,
-				volume : 1.0,
-				multiplay: false,
-				ended_callback: function(obj) {
-					// 재생이 끝날 때 2번 이상이면 번역 보이기
-					hmn=obj.part;
-					hm[hmn]++;
-					// 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기
-					if(obj.part=="0") {
-						$("#0").show();
-						$("#0_p").hide();
-						if(hm[hmn] > 1) {
-							$(".tran").show();
-						}
-					}
-					else {
-						// if(obj.part > 20) {
-						// 	$("#"+obj.part).html("▶");
-						// }
-						$("#"+hmn).closest("th").find(".tran").show();
-					}
-				}
-				, ready_callback: function () {
-					$(".o").on("click", function() {
-						ion.sound.play("dingdongdang");
-					}
-					);
-					$(".x").on("click", function() {
-						ion.sound.play("Cartoon_Boing");
-					}
-					);
-					$("[data-toggle='popover']").popover( {
-						delay : {
-							'hide': 1000
-						}
-						,
-						container : "body"
-					}
-					);
-					$(".pop").click(function () {
-						// 가장 먼저 지문에 'an' 넣기
-						if ( !$(this).siblings().hasClass("an")) {
-							$(this).addClass("an");
-							$(this).addClass("btn-warning");
-							$(this).parent().children().removeClass("btn-light");
-						}
-						;
-						// 문제 풀이 정도 업데이트
-						var perc=Math.round(($(".an").length / $(".q").length) * 100);
-						$(".progress>.bar").attr("width", perc + "%;");
-					}
-					);
-					// 팝업 내용 사라지기
-					$(".pop").popover().click(function() {
-						setTimeout(function() {
-							$(".pop").popover('hide');
-						}
-						, 500);
-					}
-					);
-					$(".so").on("click", function () {
-						if($(this).attr("id").substr(-2)=="_p") {
-							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r5 C2 Tabelle", {
-								part: "0"
-							}
-							);
-							$("#0").show();
-							$(this).hide();
-						}
-						else if($(this).html()=="▶") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.play("r5 C2 Tabelle", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("❚❚");
-						}
-						else if($(this).html()=="❚❚") {
-							// 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
-							ion.sound.pause("r5 C2 Tabelle", {
-								part: $(this).attr("id")
-							}
-							);
-							$(this).html("▶");
-						}
-						else {
-							// _p 붙어 있지 않으면 id 그대로 재생
-							ion.sound.play("r5 C2 Tabelle", {
-								part: $(this).attr("id")
-							}
-							);
-							// 전체 듣기 재생일 때는 일시정지 버튼 보이기
-							if($(this).attr("id")=="0") {
-								$(this).hide();
-								$("#0_p").show();
-							}
-							;
-						}
-						;
-					}
-					);
-
-					<?php include "wahl.php"; ?>
-
+				,
+				onload: function() {
 					// 정답확인
+					<?php include "wahl.php";
+					?> // 정답확인
 					$("#chk").on("click", function() {
-					if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
-						$(this).attr("id", "done");
-						$(".tran").show();
-						$(".itm").each(function() {
-							if($(this).parent().attr("id").length > 5) {
-								var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
-							} else {
-								var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
-							}
+						if($("#wahl").visibility !="visible"&& $(this).attr("id")=="chk") {
+							$(this).attr("id", "done");
 							$(".tran").show();
-							if($(this).hasClass("ans"+ (a))) {
-								$(this).addClass("text-success font-weight-bold");
-							}
-							else {
-								$(this).addClass("text-warning font-weight-bold");
-								$(this).find(".tran").show();
-
-							}
-							;
-
-							if($(this).hasClass("text-warning")) {
-								// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
-								for(var i = 1; i <= $(".itm-lst").length; i++) {
-									if($(this).hasClass("ans"+i)) {
-										$(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");
-										// $(lstn).append(i);
+							$(".itm").each(function() {
+								if($(this).parent().attr("id").length > 5) {
+									var a=$(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
+								}
+								else {
+									var a=$(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
+								}
+								$(".tran").show();
+								if($(this).hasClass("ans"+ (a))) {
+									$(this).addClass("text-success font-weight-bold");
+								}
+								else {
+									$(this).addClass("text-warning font-weight-bold");
+									$(this).find(".tran").show();
+								}
+								;
+								if($(this).hasClass("text-warning")) {
+									// $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,))))
+									for(var i=1;
+									i <=$(".itm-lst").length;
+									i++) {
+										if($(this).hasClass("ans"+i)) {
+											$(eval('"#lst-'+ i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">"+ $(this).html() + "</button>");
+											// $(lstn).append(i);
+										}
 									}
 								}
-							};
-
+								;
+							}
+							);
+							// 정답 확인 div 상자 배경색 속성 없애기
+							$(this).removeClass("btn-light ");
+							$(".itm-lst").each(function() {
+								if($(this).find(".itm")) {
+									$(this).find(".itm").addClass("text-success");
+								}
+							}
+							);
+							var qa=$(".itm").length; // 전체 문항 수
+							var qr=$(".text-success").length; // 맞춘 항목 수
+							var pe=(qr / qa) * 100; // 정답 비율
+							var tcl="white"; // 기본 문자색
+							// 분류 기준은 100%, 80%, 60%, 40%
+							if(pe > 99) {
+								var st="원어민이세요?";
+								var cl="lime";
+								var tcl="dark";
+							}
+							else if(pe > 74) {
+								var st="어! 좀 하시는데요~^^";
+								var cl="success";
+							}
+							else if(pe > 49) {
+								var st="쓰읍~ 다시 해 보실까요?";
+								var cl="primary";
+							}
+							else {
+								var st="좀 더 분발해 주세요~";
+								var cl="danger";
+							}
+							$(this).addClass("btn-"+ cl + " text-"+ tcl);
+							$(this).html("<h4>"+ qa + "문제 중 "+ qr + "개를 맞히셨네요!<br>"+ st + "</h4>");
 						}
-					);
-
-
-				// 정답 확인 div 상자 배경색 속성 없애기
-				$(this).removeClass("btn-light ");
-
-				$(".itm-lst").each(function() {
-					if($(this).find(".itm")) {
-						$(this).find(".itm").addClass("text-success");
 					}
-				});
-
-				var qa = $(".itm").length; // 전체 문항 수
-				var qr = $(".text-success").length; // 맞춘 항목 수
-				var pe = (qr / qa) * 100; // 정답 비율
-				var tcl = "white"; // 기본 문자색
-
-				// 분류 기준은 100%, 80%, 60%, 40%
-				if(pe > 99) {
-					var st = "원어민이세요?";
-					var cl = "lime";
-					var tcl = "dark";
-				} else if(pe > 74) {
-					var st = "어! 좀 하시는데요~^^";
-					var cl = "success";
-				} else if(pe > 49) {
-					var st = "쓰읍~ 다시 해 보실까요?";
-					var cl = "primary";
-				} else {
-					var st = "좀 더 분발해 주세요~";
-					var cl = "danger";
-				}
-
-				$(this).addClass("btn-" + cl + " text-" + tcl);
-				$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-				}
-			}
 					);
 					$("#0").show();
 					$(".alert").hide();
+					$(".so").on("click", function() {
+						var t=$(this);
+						var ti=t.attr("id");
+						if (($("div#last").text()==""|| t.text()=="❚❚") && !t.hasClass(".itm-lst")) {
+							$("#last").text(ti);
+							t.text("■");
+							nagehts.seek();
+							nagehts.play(ti);
+							sen[ ti]++;
+							last=ti;
+							$("#cnt-"+ ti).text(sen[ ti]);
+						}
+						else if (last==ti && nagehts.playing($("div#last").text())) {
+							$("#last").text("");
+							t.html(pa[ ti]);
+							nagehts.pause();
+							sen[ ti]--;
+							$("#cnt-"+ ti).text(sen[ ti]);
+						}
+					}
+					);
+				}
+				,
+				onend: function() {
+					$("div#last").text("");
+					stopAll();
+					$("#cnt-"+last).text(sen[last]);
+					if(last==0) {
+						if(sen[last]==2) {
+							$(".tran").show();
+							$(".so").each(function() {
+								pa[last]=$("#"+last).html();
+							}
+							);
+						}
+					}
+					else if(sen[last]==2) {
+						if($("#"+last).hasClass("itm")) {
+							$("#"+last+">.tran").show();
+						}
+						$("#"+last).closest("tr").find(".tran").show();
+						pa[last]=$("#"+last).html();
+					}
 				}
 			}
 			);
@@ -450,7 +395,6 @@
 		);
 
 	</script>
-	<!-- ion.sound finished -->
 	<?php include "footer.php"; ?>
 </body>
 </html>

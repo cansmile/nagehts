@@ -108,7 +108,7 @@
 							</tr>
 							<tr>
 								<td class="p-1 m-0 border-0 align-middle" style="line-height: 250%;">
-									<span class="p-2 my-2 bg-success text-white rounded">거기서 나는 식사를 한다.</span><br>
+									<span class="p-2 my-2 bg-success text-white rounded">거기서 나는 점심식사를 한다.</span><br>
 								</td>
 							</tr>
 						</tbody>
@@ -656,7 +656,6 @@
 							$(this).parent().css("min-width",($(this).length+1)*8+"px");
 							$(this).addClass("text-center");
 							$(this).closest(".itm-lst").addClass("mx-0 px-0");
-							$(this).addClass("mx-0 px-0");
 						}
 					});
 				}

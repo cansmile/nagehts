@@ -18,7 +18,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
-							<table class="table">
+							<table class="table table-borderless">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="4"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -66,7 +66,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
-							<table class="table table-striped text-center border-0">
+							<table class="table table-borderless table-striped">
 								<thead>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="4"><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
@@ -128,7 +128,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms">
-							<table class="table table-striped text-center border-0">
+							<table class="table table-borderless table-striped">
 								<tr>
 									<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 								</tr>
@@ -160,70 +160,70 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms">
-							<table class="table table-striped align-middle text-center">
+							<table class="table table-borderless table-striped align-middle text-center">
 								<thead>
 									<tr>
-										<th class="border border-0" scope="col">&nbsp;</th>
-										<th class="border border-0" scope="col" colspan="2">fernsehen</th>
+										<th scope="col">&nbsp;</th>
+										<th scope="col" colspan="2">fernsehen</th>
 										<th class="border border-top-0 border-dark border-bottom-0 border-right-0" scope="col">treffen</th>
 										<th class="border border-top-0 border-dark border-bottom-0" scope="col">fahren</th>
-										<th class="border border-0" scope="col" colspan="2">anfangen</th>
+										<th scope="col" colspan="2">anfangen</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<th class="border border-0" scope="row">ich</th>
-										<td class="border border-0">sehe</td>
-										<td class="border border-0">fern</td>
+										<th scope="row">ich</th>
+										<td>sehe</td>
+										<td>fern</td>
 										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">treffe</td>
 										<td class="border border-top-0 border-dark border-bottom-0">fahre</td>
-										<td class="border border-0">fange</td>
-										<td class="border border-0">an</td>
+										<td>fange</td>
+										<td>an</td>
 									</tr>
 									<tr>
-										<th class="border border-0" scope="row">du</th>
-										<td class="border border-0">siehst</td>
-										<td class="border border-0">fern</td>
+										<th scope="row">du</th>
+										<td>siehst</td>
+										<td>fern</td>
 										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">triffst</td>
 										<td class="border border-top-0 border-dark border-bottom-0">fährst</td>
-										<td class="border border-0">fängst</td>
-										<td class="border border-0">an</td>
+										<td>fängst</td>
+										<td>an</td>
 									</tr>
 									<tr>
-										<th class="border border-0" scope="row">er/sie/es</th>
-										<td class="border border-0">sieht</td>
-										<td class="border border-0">fern</td>
+										<th scope="row">er/sie/es</th>
+										<td>sieht</td>
+										<td>fern</td>
 										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">trifft</td>
 										<td class="border border-top-0 border-dark border-bottom-0">fährt</td>
-										<td class="border border-0">fängt</td>
-										<td class="border border-0">an</td>
+										<td>fängt</td>
+										<td>an</td>
 									</tr>
 									<tr>
-										<th class="border border-0" scope="row">wir</th>
-										<td class="border border-0">sehen</td>
-										<td class="border border-0">fern</td>
+										<th scope="row">wir</th>
+										<td>sehen</td>
+										<td>fern</td>
 										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">treffen</td>
 										<td class="border border-top-0 border-dark border-bottom-0">fahren</td>
-										<td class="border border-0">fangen</td>
-										<td class="border border-0">an</td>
+										<td>fangen</td>
+										<td>an</td>
 									</tr>
 									<tr>
-										<th class="border border-0" scope="row">ihr</th>
-										<td class="border border-0">seht</td>
-										<td class="border border-0">fern</td>
+										<th scope="row">ihr</th>
+										<td>seht</td>
+										<td>fern</td>
 										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">trefft</td>
 										<td class="border border-top-0 border-dark border-bottom-0">fahrt</td>
-										<td class="border border-0">fangt</td>
-										<td class="border border-0">an</td>
+										<td>fangt</td>
+										<td>an</td>
 									</tr>
 									<tr>
-										<th class="border border-0" scope="row">sie/Sie</th>
-										<td class="border border-0">sehen</td>
-										<td class="border border-0">fern</td>
+										<th scope="row">sie/Sie</th>
+										<td>sehen</td>
+										<td>fern</td>
 										<td class="border border-top-0 border-dark border-bottom-0 border-right-0">treffen</td>
 										<td class="border border-top-0 border-dark border-bottom-0">fahren</td>
-										<td class="border border-0">fangen</td>
-										<td class="border border-0">an</td>
+										<td>fangen</td>
+										<td>an</td>
 									</tr>
 								</tbody>
 							</table>
@@ -238,7 +238,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<thead>
 									<tr>
 										<th scope="col" colspan="2">gern/nicht gern</th>
@@ -281,7 +281,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<thead>
 									<tr>
 										<th scope="col" colspan="2">Haushalt</th>
@@ -309,7 +309,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left bg-light">
+							<table class="table table-borderless text-left bg-light">
 								<thead>
 									<tr>
 										<th scope="col" colspan="2">Tagesablauf</th>
@@ -360,7 +360,7 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table text-left">
+							<table class="table table-borderless text-left">
 								<thead>
 									<tr>
 										<th scope="col" colspan="2">Uhrzeit/Tageszeiten</th>

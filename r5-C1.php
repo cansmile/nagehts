@@ -5,7 +5,7 @@
 	<div class="container">	
 		<div class="row">
 			<div class="col">
-				<table class="table">
+				<table class="table table-borderless">
 					<tbody>
 						<tr>
 							<th class="text-center align-middle" scope="col" colspan="2"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C1-1.png" alt="Was isst er/sie?" style="max-width: 240px; height: auto;"></th>
@@ -19,7 +19,7 @@
 						</tr>
 						<tr>
 							<td colspan="3">
-								<table class="table-striped table text-center">
+								<table class="table table-borderless table-sm table-striped table text-center">
 									<tbody>
 										<tr>
 											<th scope="row">ich</th>
@@ -45,7 +45,7 @@
 								</table>
 							</td>
 							<td colspan="3">
-								<table class="table-striped table text-center">
+								<table class="table table-borderless table-sm table-striped table text-center">
 									<tbody>
 										<tr>
 											<th scope="row">ich</th>
@@ -77,7 +77,7 @@
 		</div>
 		<div class="row">
 			<div class="col">
-				<table class="table table-striped text-center">
+				<table class="table table-borderless table-sm table-striped text-center">
 					<thead>
 						<tr>
 							<th scope="col" colspan="5">unbestimmter Artikel</th>

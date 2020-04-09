@@ -282,8 +282,12 @@
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="45" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button></th>
 									</tr>
 									<tr>
-										<td class="bg-light"><button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>Welche Sprachen sprechen Sie?</td>
-										<td class="bg-light"><button type="button" id="47" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>- Ich spreche Koreanisch, Englisch und Deutsch.</td>
+										<td class="bg-light"><div class="row"><div class="col-1">
+											<button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+										</div><div class="col-10">Welche Sprachen sprechen Sie?</div></div></td>
+										<td class="bg-light"><div class="row"><div class="col-1">
+											<button type="button" id="47" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>
+										</div><div class="col-10">- Ich spreche Koreanisch, Englisch und Deutsch.</div></div></td>
 									</tr>
 									<tr>
 										<td class="bg-light"><button type="button" id="48" class="so btn btn-outline-dark btn-sm mr-2 my-auto">▶</button>Welche Sprachen sprichst du?</td>
@@ -368,7 +372,7 @@
 					"19": [87543, 2256],
 					"20": [91099, 1896],
 					"21": [93543, 2141],
-					"22": [86533, 2002],
+					"22": [96533, 2002],
 					"23": [98850, 1777],
 					"24": [102270, 33861],
 					"25": [102770, 2234],

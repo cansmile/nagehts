@@ -100,17 +100,17 @@
 								<td width="5%" class="align-middle">Ich<span class="tran"><br><small>나는</small></span></td>
 								<td width="5%" class="align-middle">esse<span class="tran"><br><small>먹는다</small></span></td>
 								<td width="30%">
-									<div style="min-height: 240px;" class="rounded-top border border-primary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
+									<div style="min-height: 240px;" class="rounded-top border border-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 										<h2 class="btn btn-primary btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
 								<td width="30%">
-									<div style="min-height: 240px;" class="rounded-top border border-danger so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
+									<div style="min-height: 240px;" class="rounded-top border border-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 										<h2 class="btn btn-danger btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
 								<td width="30%">
-									<div style="min-height: 240px;" class="rounded-top border border-purple so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
+									<div style="min-height: 240px;" class="rounded-top border border-purple itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
 										<h2 class="btn btn-purple btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
@@ -119,17 +119,17 @@
 								<td class="align-middle">Ich<span class="tran"><br><small>나는</small></span></td>
 								<td class="align-middle">trinke<span class="tran"><br><small>마신다</small></span></td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-primary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-4">
+									<div style="min-height: 240px;" class="rounded-top border border-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-4">
 										<h2 class="btn btn-primary btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-danger so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-5">
+									<div style="min-height: 240px;" class="rounded-top border border-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-5">
 										<h2 class="btn btn-danger btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-purple so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-6">
+									<div style="min-height: 240px;" class="rounded-top border border-purple itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-6">
 										<h2 class="btn btn-purple btn-xl ttl d-block">▼</h2>&nbsp;
 									</div>
 								</td>

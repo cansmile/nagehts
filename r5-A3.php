@@ -97,7 +97,6 @@
 			</div>
 			<!-- 정답확인 버튼 끝 -->
 		</div>
-	</div>
 </section>
 <div id="marg"></div>
 <div id="last" class="d-none"></div>

@@ -81,7 +81,7 @@
 							</h5>
 						</div>
 						<div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
-							<table class="table table-borderless text-center align-middle">
+							<table class="table table-borderless align-middle">
 								<tbody>
 									<tr>
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>

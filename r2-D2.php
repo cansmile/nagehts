@@ -11,11 +11,11 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>Hören Sie und sprechen Sie nach.<br>
 					<small>듣고 따라 하세요.</small>
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -203,7 +203,7 @@
 								<td style="height: 65px;">die Mitte<br><small>중앙</small></td>
 							</tr>
 							<tr>
-								<td style="height: 65px;"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-D2-1.png" alt="Map" style="max-width: 100%; height: auto;"></td>
+								<td style="height: 65px;"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-D2-1.png" alt="Map" style="max-width: 100%; height: auto;"></td>
 							</tr>
 						</tbody>
 					</table>
@@ -227,7 +227,7 @@
 							</tr>
 							<tr>
 								<td class="align-middle text-right display-4">Westen</td>
-								<td class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-D2-2.png" alt="Himmelsrichtungen" style="max-height: 320px; width: auto"></td>
+								<td class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-D2-2.png" alt="Himmelsrichtungen" style="max-height: 320px; width: auto"></td>
 								<td class="align-middle text-left display-4">Osten</td>
 							</tr>
 							<tr>
@@ -244,11 +244,11 @@
 	
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -271,7 +271,7 @@
 
 			// 문제 재생
 			var nagehts = new Howl({
-				src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 D2.mp3"],
+				src: ["./<?=$root ?>sounds/Reihe 2/r2 D2.mp3"],
 				sprite : {
 					"0": [1138, 50607],
 					"1": [8245, 2950],
@@ -348,7 +348,7 @@
 									$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
 									$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
 								} else if ($(this).hasClass("o")) {
-									$(this).addClass("btn-<?php echo($color); ?>");
+									$(this).addClass("btn-<?=$color ?>");
 									$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
 									$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
 									$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");

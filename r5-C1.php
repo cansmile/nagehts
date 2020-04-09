@@ -8,9 +8,9 @@
 				<table class="table table-borderless">
 					<tbody>
 						<tr>
-							<th class="text-center align-middle" scope="col" colspan="2"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C1-1.png" alt="Was isst er/sie?" style="max-width: 240px; height: auto;"></th>
-							<th class="text-center align-middle" scope="col" colspan="2"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C1-2.png" alt="Was isst er/sie?" style="max-width: 240px; height: auto;"></th>
-							<th class="text-center align-middle" scope="col" colspan="2"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C1-3.png" alt="Was isst er/sie?" style="max-width: 240px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" colspan="2"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-C1-1.png" alt="Was isst er/sie?" style="max-width: 240px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" colspan="2"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-C1-2.png" alt="Was isst er/sie?" style="max-width: 240px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" colspan="2"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-C1-3.png" alt="Was isst er/sie?" style="max-width: 240px; height: auto;"></th>
 						</tr>
 						<tr>
 							<td colspan="2" class="text-center">Sie isst (einen) Salat.</td>
@@ -111,8 +111,8 @@
 		</div>
 	</div>
 </section>
-<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?=$root ?>js/bootstrap.js"></script>
 <?php include "footer.php"; ?>
 
 	</body>

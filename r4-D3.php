@@ -10,11 +10,11 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Hören Sie und ergänzen Sie die Lücken. <br>
 					<small> 듣고 빈칸을 채우세요. </small>
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다. 음성을 듣고 정답을 입력하세요.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다. 음성을 듣고 정답을 입력하세요.</small> ]</h3>
 					<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
 				</div>
 			</div>
@@ -23,7 +23,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td rowspan="5" class="align-middle" width="240"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-D3-1.png" alt="Küche" style="max-width: 240px; height: auto;"></td>
+								<td rowspan="5" class="align-middle" width="240"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-D3-1.png" alt="Küche" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
 								<td>Das ist eine Küche.
 									<span class="tran"><br><small>이것은 부엌입니다.</small></span>
@@ -78,7 +78,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td rowspan="5" class="align-middle" width="240"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-D3-2.png" alt="Wohnzimmer" style="max-width: 240px; height: auto;"></td>
+								<td rowspan="5" class="align-middle" width="240"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-D3-2.png" alt="Wohnzimmer" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="6" class="so btn btn-outline-success">▶</button></td>
 								<td>
 									<div class="ant" id="ant-4"></div>
@@ -146,7 +146,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td rowspan="5" class="align-middle" width="240"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-D3-3.png" alt="Schlafzimmer" style="max-width: 240px; height: auto;"></td>
+								<td rowspan="5" class="align-middle" width="240"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-D3-3.png" alt="Schlafzimmer" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="11" class="so btn btn-outline-info">▶</button></td>
 								<td>
 									<div class="ant" id="ant-9"></div>
@@ -219,11 +219,11 @@
 	</section>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -253,7 +253,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 D3.mp3"],
+			src: [ "./<?=$root ?>sounds/Reihe 4/r4 D3.mp3"],
 			sprite: {
 				"0": [2209, 86566],
 				"1": [14250, 1822],

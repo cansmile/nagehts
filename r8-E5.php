@@ -17,7 +17,7 @@
 						<tbody>
 							<tr>
 								<th scope="row" class="border-0" rowspan="4" width="5%">1.
-								<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-1.png" alt="erkältet" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
+								<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E5-1.png" alt="erkältet" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
 								<td class="border-0"><strong>erkältet:</strong>
 									<span class="tran"><br><small>감기</small></span>
 								</td>
@@ -70,7 +70,7 @@
 							</tr>
 							<tr>
 								<th scope="row" class="border-0" rowspan="4">2.
-								<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-2.png" alt="nervös" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
+								<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E5-2.png" alt="nervös" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
 								<td class="border-0"><strong>nervös:</strong>
 									<span class="tran"><br><small>신경질 적인 :</small></span>
 								</td>
@@ -121,7 +121,7 @@
 							</tr>
 							<tr>
 								<th scope="row" class="border-0" rowspan="4">3.
-								<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-3.png" alt="Durchfall" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
+								<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E5-3.png" alt="Durchfall" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
 								<td class="border-0"><strong>Durchfall:</strong>
 									<span class="tran"><br><small>설사 :</small></span>
 								</td>
@@ -172,7 +172,7 @@
 							</tr>
 							<tr>
 								<th scope="row" class="border-0" rowspan="4">4.
-									<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-4.png" alt="Rückenschmerzen" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
+									<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E5-4.png" alt="Rückenschmerzen" class="rounded d-sm-none d-md-block d-lg-block d-xl-block " style="max-width: 180px; height: auto;"></th>
 								<td class="border-0"><strong>Rückenschmerzen:</strong>
 									<span class="tran"><br><small>허리 통증 :</small></span>
 								</td>
@@ -234,13 +234,13 @@
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/taptogroupnomove.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 	<script>
 		$(".tran").hide();
 		$(".ant").hide();

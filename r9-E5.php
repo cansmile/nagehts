@@ -9,9 +9,9 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h3>[ <small>알맞은 단어를 선택하세요.</small> ]
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
+					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
 					</h3>
@@ -119,12 +119,12 @@
 		</div>
 	</section>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -147,14 +147,14 @@
 				}
 				, {
 					name: "dingdongdang",
-						path: "<?php echo($root); ?>sounds/",
+						path: "<?=$root ?>sounds/",
 				}
 				, {
 					name: "Cartoon_Boing",
-						path: "<?php echo($root); ?>sounds/",
+						path: "<?=$root ?>sounds/",
 				}
 				],
-				path : "<?php echo($root); ?>sounds/Reihe 9/",
+				path : "<?=$root ?>sounds/Reihe 9/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,
@@ -290,7 +290,7 @@
 							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
 							$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
 						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-<?php echo($color); ?>");
+							$(this).addClass("btn-<?=$color ?>");
 							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
 							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
 							$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");

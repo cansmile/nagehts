@@ -128,11 +128,11 @@
 	</section>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 	<script>
 		$(".tran").hide();
 		$(".nu").hide();
@@ -145,7 +145,7 @@
 					name: "Cartoon_Boing",
 				}
 				],
-				path : "<?php echo($root); ?>sounds/",
+				path : "<?=$root ?>sounds/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,
@@ -220,7 +220,7 @@
 							$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
 						}
 						else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-<?php echo($color); ?>");
+							$(this).addClass("btn-<?=$color ?>");
 							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
 							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
 							$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");

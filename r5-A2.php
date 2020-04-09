@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn text-danger ans5 btn-lg btn-outline-dark so itm" id="1">
 					die Wurst<span class="tran"><br><small>소시지</small></span>
@@ -71,7 +71,7 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>[ <small>그림에 맞는 단어를 그림 아래에 노란 단추를 눌러 넣세요.</small> ]
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
@@ -81,7 +81,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-1.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-1.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -98,7 +98,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-2.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-2.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -115,7 +115,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-3.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-3.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -132,7 +132,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-4.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-4.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -149,7 +149,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-11.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-11.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -166,7 +166,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-10.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-10.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -183,7 +183,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-9.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-9.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -200,7 +200,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-8.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-8.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -217,7 +217,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-7.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-7.png" alt="Was ist das?" style="max-width: 212px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -234,7 +234,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-6.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -251,7 +251,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-13.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-13.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -268,7 +268,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-5.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -285,7 +285,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-12.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-12.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -302,7 +302,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-14.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-14.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -319,7 +319,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-15.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-15.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -336,7 +336,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-16.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-16.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -353,7 +353,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
 					<table class="table table-borderless">
 						<thead>
-							<th class="text-center align-middle" scope="col" height="250"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A2-17.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
+							<th class="text-center align-middle" scope="col" height="250"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A2-17.png" alt="Was ist das?" style="max-width: 120px; height: auto;"></th>
 						</thead>
 						<tbody>
 							<tr>
@@ -381,12 +381,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/taptogrouph.js"></script>
+	<script src="./<?=$root ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -410,7 +410,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?php echo($root); ?>sounds/Reihe 5/r5 A2.mp3"],
+			src: [ "./<?=$root ?>sounds/Reihe 5/r5 A2.mp3"],
 			sprite: {
 				"0": [908, 96164],
 				"1": [30601, 1768],

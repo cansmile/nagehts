@@ -16,9 +16,9 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>[ <small>보기를 어울리는 위치에 알맞은 형태로 입력하세요.</small> ]
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
+					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
 					</h2>
@@ -39,7 +39,7 @@
 								<td class="text-center align-middle"><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
 							</tr>
 							<tr>
-								<td height="200" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D2-0.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
+								<td height="200" class="align-middle text-center"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D2-0.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td height="100" class="align-middle">Martin Klein ist Bankkaufmann.<span class="tran"><small><br>마틴 클라인은 은행원입니다.</small></span></td>
@@ -54,7 +54,7 @@
 								<td class="text-center align-middle"><button type="button" id="7" class="so btn btn-outline-danger">▶</button></td>
 							</tr>
 							<tr>
-								<td height="200" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D2-1.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
+								<td height="200" class="align-middle text-center"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D2-1.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -75,7 +75,7 @@
 								<td class="text-center align-middle"><button type="button" id="8" class="so btn btn-outline-danger">▶</button></td>
 							</tr>
 							<tr>
-								<td height="200" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D2-2.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
+								<td height="200" class="align-middle text-center"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D2-2.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -96,7 +96,7 @@
 								<td class="text-center align-middle"><button type="button" id="9" class="so btn btn-outline-danger">▶</button></td>
 							</tr>
 							<tr>
-								<td height="200" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D2-4.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
+								<td height="200" class="align-middle text-center"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D2-4.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -117,7 +117,7 @@
 								<td class="text-center align-middle"><button type="button" id="10" class="so btn btn-outline-danger">▶</button></td>
 							</tr>
 							<tr>
-								<td height="200" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D2-5.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
+								<td height="200" class="align-middle text-center"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D2-5.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -138,7 +138,7 @@
 								<td class="text-center align-middle"><button type="button" id="11" class="so btn btn-outline-danger">▶</button></td>
 							</tr>
 							<tr>
-								<td height="200" class="align-middle text-center"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D2-3.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
+								<td height="200" class="align-middle text-center"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D2-3.png" alt="Wohin passt das?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -164,13 +164,13 @@
 	</section>
 		
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 	<script>
 	$("#0").hide();
 	$("#0_p").hide();
@@ -315,14 +315,14 @@
 				}
 				, {
 					name: "dingdongdang",
-						path: "<?php echo($root); ?>sounds/",
+						path: "<?=$root ?>sounds/",
 				}
 				, {
 					name: "Cartoon_Boing",
-						path: "<?php echo($root); ?>sounds/",
+						path: "<?=$root ?>sounds/",
 				}
 				],
-				path : "<?php echo($root); ?>sounds/Reihe 6/",
+				path : "<?=$root ?>sounds/Reihe 6/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

@@ -363,7 +363,7 @@ if($fn != "inthebeginning") {
 			}
 
 ?>
-					<h2>(교재 <span class="bg-<?php echo($color); ?> p-1 px-2 m-1 rounded text-white"><strong><?php echo($da); ?></strong></span>)</h2>
+					<h2>(교재 <span class="bg-<?=$color ?> p-1 px-2 m-1 rounded text-white"><strong><?php echo($da); ?></strong></span>)</h2>
 <?php
 		}
 	} else {

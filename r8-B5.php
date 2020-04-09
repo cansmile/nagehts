@@ -5,7 +5,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
 					das Auge<span class="tran"><br><small>눈</small></span>
@@ -44,16 +44,16 @@
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top border bg-danger border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-1">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-1.png" alt="Hand" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-B5-1.png" alt="Hand" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-success border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-2">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-2.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-B5-2.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-primary border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-3">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-3.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-B5-3.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 				<div style="min-height: 240px;" class="rounded-top border bg-lime border-white so itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2" id="lst-4">
-					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B5-4.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
+					<h2 class="btn btn-xl bg-white ttl d-block"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-B5-4.png" alt="Was passt?" style="max-height: 120px; width: auto;"></h2>&nbsp;
 				</div>
 			</div>
 			<!-- 정답화인 버튼 시작 -->
@@ -70,13 +70,13 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
+<script src="./<?=$root ?>js/popper.min.js"></script>
+<script src="./<?=$root ?>js/bootstrap.js"></script>
+<script src="./<?=$root ?>js/taptogroup.js"></script>
 <!-- interact.min.js -->
-<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 <script>
 	$(".tran").hide();
 	$("#chk").hide();

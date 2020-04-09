@@ -10,11 +10,11 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>Markieren Sie Namen, Länder, Alter und Berufe.<br>
 					<small>이름과 국가와 나이 그리고 직업에 표시하세요.</small>
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -22,7 +22,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<th scope="row" rowspan="3" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D1-1.png" style="width: auto; max-height: 140px;"></th>
+								<th scope="row" rowspan="3" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 3/Reihe-3-D1-1.png" style="width: auto; max-height: 140px;"></th>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-primary">▶</button></td>
 								<td><span class="num">[1]</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
@@ -125,7 +125,7 @@
 								<span class="tran"><br><small>그는 제빵사이고 빵집에서 일해요.</small></span></td>
 							</tr>
 							<tr>
-								<th scope="row" rowspan="4" class="text-center align-middle border border-dark border-left-0 border-right-0 border-bottom-0"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D1-2.png" style="width: auto; max-height: 140px;"></th>
+								<th scope="row" rowspan="4" class="text-center align-middle border border-dark border-left-0 border-right-0 border-bottom-0"><img src="./<?=$root ?>images/Reihe 3/Reihe-3-D1-2.png" style="width: auto; max-height: 140px;"></th>
 								<td width="25" class="border border-dark border-left-0 border-right-0 border-bottom-0"><button type="button" id="4" class="so btn btn-outline-primary">▶</button></td>
 								<td class="border border-dark border-left-0 border-right-0 border-bottom-0"><span class="num">[5]</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-5">
@@ -225,7 +225,7 @@
 								<span class="tran"><br><small>그녀는 의사이고 병원에서 일해요.</small></span></td>
 							</tr>
 							<tr>
-								<th scope="row" rowspan="3" class="text-center align-middle border border-dark border-left-0 border-right-0 border-bottom-0"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D1-3.png" style="width: auto; max-height: 140px;"></th>
+								<th scope="row" rowspan="3" class="text-center align-middle border border-dark border-left-0 border-right-0 border-bottom-0"><img src="./<?=$root ?>images/Reihe 3/Reihe-3-D1-3.png" style="width: auto; max-height: 140px;"></th>
 								<td width="25" class="border border-dark border-left-0 border-right-0 border-bottom-0"><button type="button" id="8" class="so btn btn-outline-primary">▶</button></td>
 								<td class="border border-dark border-left-0 border-right-0 border-bottom-0"><span class="num">[9]</span>
 								<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-9">
@@ -296,7 +296,7 @@
 								<span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">Er</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">ist</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">der</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">Beste</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">in</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">seinem</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">Team</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">,</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">FC</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">Barcelona</span><span class="border border-dark border-left-0 border-right-0 border-top-0 bg-light mx-0 p-2">.</span><span class="tran"><br><small>그는 그의 팀, FC 바로셀로나에서 최고에요.</small></td>
 							</tr>
 							<tr>
-								<th scope="row" rowspan="5" class="text-center align-middle border border-dark border-left-0 border-right-0 border-bottom-0"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D1-4.png" style="width: auto; max-height: 140px;"></th>
+								<th scope="row" rowspan="5" class="text-center align-middle border border-dark border-left-0 border-right-0 border-bottom-0"><img src="./<?=$root ?>images/Reihe 3/Reihe-3-D1-4.png" style="width: auto; max-height: 140px;"></th>
 								<td width="25" class="border border-dark border-left-0 border-right-0 border-bottom-0"><button type="button" id="11" class="so btn btn-outline-primary">▶</button></td>
 								<td class="border border-dark border-left-0 border-right-0 border-bottom-0">
 									<span class="num">[13]</span>
@@ -413,11 +413,11 @@
 	</section>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -444,7 +444,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?php echo($root); ?>sounds/Reihe 3/r3 D1.mp3"],
+			src: [ "./<?=$root ?>sounds/Reihe 3/r3 D1.mp3"],
 			sprite: {
 				"0": [779, 82211],
 				"1": [18760, 3945],

@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark so itm" id="1">
 					essen, kochen<span class="tran"><br><small>식사, 요리하다</small></span>
@@ -51,13 +51,13 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Wie heißen die Orte? Was macht man da?<br>
 					<small> 장소 이름이 무엇인가요? 거기서 무엇을 하나요? </small>
-					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h3>[ <small>단어를 알맞게 짝지우세요.</small> ]</h3>
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 			</div>
@@ -66,14 +66,14 @@
 					<table class="table table-borderless text-center">
 						<thead>
 							<tr>
-								<th scope="col" width="40%" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
+								<th scope="col" width="40%" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
 								<th scope="col" width="30%" class="align-middle">Wo?<span class="tran"><br><small>어디인가요?</small></span></th>
 								<th scope="col" width="30%" class="align-middle">Was tut man?<span class="tran"><br><small>무엇을 하나요?</small></span></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-2.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A3-2.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -88,7 +88,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-4.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A3-4.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -103,7 +103,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-5.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A3-5.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-5">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -124,7 +124,7 @@
 					<table class="table table-borderless text-center d-sm-none d-md-none d-lg-block d-xl-block mb-0">
 						<thead>
 							<tr>
-								<th scope="col" width="40%" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
+								<th scope="col" width="40%" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A3.png" alt="Haus" style="width: 100%; height: auto;"></th>
 								<th scope="col" width="30%" class="align-middle">Wo?<span class="tran"><br><small>어디인가요?</small></span></th>
 								<th scope="col" width="30%" class="align-middle">Was tut man?<span class="tran"><br><small>무엇을 하나요?</small></span></th>
 							</tr>
@@ -133,7 +133,7 @@
 					<table class="table table-borderless text-center mt-0 ">
 						<tbody>
 							<tr>
-								<th width="40%" heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-6.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th width="40%" heigh="150" scope="row"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A3-6.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td width="30%" class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-7">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -148,7 +148,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th heigh="150" scope="row"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-7.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
+								<th heigh="150" scope="row"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A3-7.png" alt="Wo und Was tut man?" style="max-width: 100%; height: auto;"></th>
 								<td class="align-middle text-center">
 									<div class="itm-lst 1itm" id="lst-9">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -179,12 +179,12 @@
 	<div id="marg"></div>
 <div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/taptogrouph.js"></script>
+	<script src="./<?=$root ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -211,7 +211,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 A3.mp3"],
+			src: [ "./<?=$root ?>sounds/Reihe 4/r4 A3.mp3"],
 			sprite: {
 				"0": [961, 44465],
 				"1": [6303, 2893],

@@ -5,7 +5,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="1">
 					im Biergarten
@@ -44,7 +44,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-1.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A1-1.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -61,7 +61,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-2.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A1-2.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -78,7 +78,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-3.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A1-3.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -95,7 +95,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-4.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A1-4.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -112,7 +112,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td class="align-middle text-center" height="300"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-A1-5.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
+								<td class="align-middle text-center" height="300"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-A1-5.png" alt="Wo sind die Leute und was machen sie?" style="max-width: 240px; height: auto;"></td>
 							</tr>
 							<tr>
 								<td>
@@ -139,12 +139,12 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/taptogrouph.js"></script>
+	<script src="./<?=$root ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>

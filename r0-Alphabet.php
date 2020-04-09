@@ -9,7 +9,7 @@
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
 	이 페이지의 알파벳이나 발음기호를 <strong>누르면 누른 위치에 해당하는 발음이 들립니다!</strong>
 	<br>
-	<button type="button" class="btn btn-<?php echo($color); ?> btn-sm d-inline" disabled>
+	<button type="button" class="btn btn-<?=$color ?> btn-sm d-inline" disabled>
 		HV
 	</button>
 	를 누르면 전체 알파벳 발음과 예제 단어의 발음을 들으실 수 있어요.
@@ -25,7 +25,7 @@
 				<h2>Hören Sie und sprechen Sie nach.
 				<br>
 				<small>듣고 따라해보세요.</small>
-				<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm" id="whole">
+				<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline itm" id="whole">
 					HV
 				</button></h2>
 			</div>
@@ -160,7 +160,7 @@
 				<small>텔레폰알파벳</small></h3>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="A wie Anton" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/A.png">
+				<img class="rounded-circle" alt="A wie Anton" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/A.png">
 				<button class="itm btn btn-outline-dark" id="a">▶</button>
 				<span><h4>[a]</h4>
 					<p>
@@ -170,7 +170,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Ä wie Ärger" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Ae.png">
+				<img class="rounded-circle" alt="Ä wie Ärger" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Ae.png">
 				<button class="itm btn btn-outline-dark" id="ɛ">▶</button>
 				<span><h4>[ɛ]</h4>
 					<p>
@@ -180,7 +180,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="B wie Berta" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/B.png">
+				<img class="rounded-circle" alt="B wie Berta" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/B.png">
 				<button class="itm btn btn-outline-dark" id="be">▶</button>
 				<span><h4>[be]</h4>
 					<p>
@@ -190,7 +190,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="C wie Cäsar" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/C.png">
+				<img class="rounded-circle" alt="C wie Cäsar" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/C.png">
 				<button class="itm btn btn-outline-dark" id="tse">▶</button>
 				<span><h4>[tse]</h4>
 					<p>
@@ -200,7 +200,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Ch wie Charlotte" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Ch.png"true">
+				<img class="rounded-circle" alt="Ch wie Charlotte" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Ch.png"true">
 				<button class="itm btn btn-outline-dark" id="ç">▶</button>
 				<span><h4>[ç] [x] [k] [ʃ] [tʃ]</h4>
 					<p>
@@ -210,7 +210,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="D wie Dora" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/D.png">
+				<img class="rounded-circle" alt="D wie Dora" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/D.png">
 				<button class="itm btn btn-outline-dark" id="de">▶</button>
 				<span><h4>[de]</h4>
 					<p>
@@ -220,7 +220,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="E wie Emil" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/E.png">
+				<img class="rounded-circle" alt="E wie Emil" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/E.png">
 				<button class="itm btn btn-outline-dark" id="e">▶</button>
 				<span><h4>[e]</h4>
 					<p>
@@ -230,7 +230,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="F wie Friedrich" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/F.png">
+				<img class="rounded-circle" alt="F wie Friedrich" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/F.png">
 				<button class="itm btn btn-outline-dark" id="εf">▶</button>
 				<span><h4>[εf]</h4>
 					<p>
@@ -240,7 +240,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="G wie Gustav" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/G.png">
+				<img class="rounded-circle" alt="G wie Gustav" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/G.png">
 				<button class="itm btn btn-outline-dark" id="ge">▶</button>
 				<span><h4>[ge]</h4>
 					<p>
@@ -250,7 +250,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="H wie Heinrich" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/H.png">
+				<img class="rounded-circle" alt="H wie Heinrich" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/H.png">
 				<button class="itm btn btn-outline-dark" id="ha">▶</button>
 				<span><h4>[ha]</h4>
 					<p>
@@ -260,7 +260,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="I wie Ida" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/I.png">
+				<img class="rounded-circle" alt="I wie Ida" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/I.png">
 				<button class="itm btn btn-outline-dark" id="i">▶</button>
 				<span><h4>[i]</h4>
 					<p>
@@ -270,7 +270,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="J wie Julius" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/J.png">
+				<img class="rounded-circle" alt="J wie Julius" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/J.png">
 				<button class="itm btn btn-outline-dark" id="jɔt">▶</button>
 				<span><h4>[jɔt]</h4>
 					<p>
@@ -280,7 +280,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="K wie Kaufmann" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/K.png">
+				<img class="rounded-circle" alt="K wie Kaufmann" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/K.png">
 				<button class="itm btn btn-outline-dark" id="ka">▶</button>
 				<span><h4>[ka]</h4>
 					<p>
@@ -290,7 +290,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="L wie Ludwig" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/L.png">
+				<img class="rounded-circle" alt="L wie Ludwig" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/L.png">
 				<button class="itm btn btn-outline-dark" id="εl">▶</button>
 				<span><h4>[εl]</h4>
 					<p>
@@ -300,7 +300,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="M wie Martha" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/M.png">
+				<img class="rounded-circle" alt="M wie Martha" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/M.png">
 				<button class="itm btn btn-outline-dark" id="εm">▶</button>
 				<span><h4>[εm]</h4>
 					<p>
@@ -310,7 +310,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="N wie Nordpol" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/N.png">
+				<img class="rounded-circle" alt="N wie Nordpol" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/N.png">
 				<button class="itm btn btn-outline-dark" id="εn">▶</button>
 				<span><h4>[εn]</h4>
 					<p>
@@ -320,7 +320,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="O wie Otto" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/O.png">
+				<img class="rounded-circle" alt="O wie Otto" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/O.png">
 				<button class="itm btn btn-outline-dark" id="o:">▶</button>
 				<span><h4>[o:]</h4>
 					<p>
@@ -330,7 +330,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Ö wie Ökonom" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Oe.png">
+				<img class="rounded-circle" alt="Ö wie Ökonom" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Oe.png">
 				<button class="itm btn btn-outline-dark" id="ø">▶</button>
 				<span><h4>[ø]</h4>
 					<p>
@@ -340,7 +340,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="P wie Paula" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/P.png">
+				<img class="rounded-circle" alt="P wie Paula" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/P.png">
 				<button class="itm btn btn-outline-dark" id="pe">▶</button>
 				<span><h4>[pe]</h4>
 					<p>
@@ -350,7 +350,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Q wie Quelle" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Q.png">
+				<img class="rounded-circle" alt="Q wie Quelle" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Q.png">
 				<button class="itm btn btn-outline-dark" id="ku">▶</button>
 				<span><h4>[ku]</h4>
 					<p>
@@ -360,7 +360,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="R wie Richard" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/R.png">
+				<img class="rounded-circle" alt="R wie Richard" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/R.png">
 				<button class="itm btn btn-outline-dark" id="εr">▶</button>
 				<span><h4>[εr]</h4>
 					<p>
@@ -370,7 +370,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="S wie Samuel" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/S.png">
+				<img class="rounded-circle" alt="S wie Samuel" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/S.png">
 				<button class="itm btn btn-outline-dark" id="εs">▶</button>
 				<span><h4>[εs]</h4>
 					<p>
@@ -380,7 +380,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Sch wie Schule" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Sch.png">
+				<img class="rounded-circle" alt="Sch wie Schule" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Sch.png">
 				<button class="itm btn btn-outline-dark" id="ʃ">▶</button>
 				<span><h4>[ʃ]</h4>
 					<p>
@@ -390,7 +390,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="β wie Eszett" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/ss.png">
+				<img class="rounded-circle" alt="β wie Eszett" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/ss.png">
 				<button class="itm btn btn-outline-dark" id="ɛstsɛt">▶</button>
 				<span><h4>[ɛstsɛt]</h4>
 					<p>
@@ -400,7 +400,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="T wie Theodor" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/T.png">
+				<img class="rounded-circle" alt="T wie Theodor" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/T.png">
 				<button class="itm btn btn-outline-dark" id="te">▶</button>
 				<span><h4>[te]</h4>
 					<p>
@@ -410,7 +410,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="U wie Ulrich" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/U.png">
+				<img class="rounded-circle" alt="U wie Ulrich" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/U.png">
 				<button class="itm btn btn-outline-dark" id="u">▶</button>
 				<span><h4>[u]</h4>
 					<p>
@@ -420,7 +420,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Ü wie Übermut" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Ue.png">
+				<img class="rounded-circle" alt="Ü wie Übermut" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Ue.png">
 				<button class="itm btn btn-outline-dark" id="y">▶</button>
 				<span><h4>[y]</h4>
 					<p>
@@ -430,7 +430,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="V wie Viktor" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/V.png">
+				<img class="rounded-circle" alt="V wie Viktor" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/V.png">
 				<button class="itm btn btn-outline-dark" id="fau">▶</button>
 				<span><h4>[fau̮]</h4>
 					<p>
@@ -440,7 +440,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="W wie Wilhelm" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/W.png">
+				<img class="rounded-circle" alt="W wie Wilhelm" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/W.png">
 				<button class="itm btn btn-outline-dark" id="ve">▶</button>
 				<span><h4>[ve]</h4>
 					<p>
@@ -450,7 +450,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="X wie Xanthippe" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/X.png">
+				<img class="rounded-circle" alt="X wie Xanthippe" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/X.png">
 				<button class="itm btn btn-outline-dark" id="iks">▶</button>
 				<span><h4>[iks]</h4>
 					<p>
@@ -460,7 +460,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Y wie Ypsilon" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Y.png">
+				<img class="rounded-circle" alt="Y wie Ypsilon" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Y.png">
 				<button class="itm btn btn-outline-dark" id="ʏpsilɔn">▶</button>
 				<span><h4>[ʏpsilɔn]</h4>
 					<p>
@@ -470,7 +470,7 @@
 				</span>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center">
-				<img class="rounded-circle" alt="Z wie Zeppelin" style="width: 140px; height: 140px;" src="<?php echo($root); ?>images/Reihe 0/Z.png">
+				<img class="rounded-circle" alt="Z wie Zeppelin" style="width: 140px; height: 140px;" src="<?=$root ?>images/Reihe 0/Z.png">
 				<button class="itm btn btn-outline-dark" id="tsεt">▶</button>
 				<span><h4>[tsεt]</h4>
 					<p>
@@ -495,12 +495,12 @@
 </section>
 <div id="last" class="d-none"></div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?=$root ?>js/popper.min.js"></script>
+<script src="./<?=$root ?>js/bootstrap.js"></script>
 <!-- ion.sound -->
-<script src="./<?php echo($root); ?>js/howler.core.js"></script>
+<script src="./<?=$root ?>js/howler.core.js"></script>
 <script>
 	// 일단 HV 버튼과 일시정지 버튼 숨기기
 	$("#whole").hide();
@@ -525,7 +525,7 @@ function stopAll() {
 }
 
 var nagehts = new Howl({
-	src: ["./<?php echo($root); ?>sounds/Reihe 0/r0 Alphabet.mp3"],
+	src: ["./<?=$root ?>sounds/Reihe 0/r0 Alphabet.mp3"],
 	sprite : {
 		"whole": [1490,257528],
 		"A": [11531, 1219],

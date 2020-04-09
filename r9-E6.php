@@ -85,12 +85,12 @@
 
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?=$root ?>js/popper.min.js"></script>
+		<script src="./<?=$root ?>js/bootstrap.js"></script>
 		<!-- interact.min.js -->
-		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+		<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -104,7 +104,7 @@
 					}, {
 						name : "Cartoon_Boing",
 					}],
-					path : "<?php echo($root); ?>sounds/",
+					path : "<?=$root ?>sounds/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,
@@ -173,7 +173,7 @@ $("[data-toggle='popover']").popover({
 							$(this).closest(".sen").find(".nu>input").remove();
 							$(this).closest(".sen").find(".tran").show();
 						} else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-<?php echo($color); ?>");
+							$(this).addClass("btn-<?=$color ?>");
 							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").html()));
 							$(this).closest(".sen").find(".ans>input").remove();
 							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");

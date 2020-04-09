@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm py-0 my-0 so" id="1">
 					Wann sind die Sprechzeiten von Dr. Fiedler am Mittwoch?<span class="tran"><small><br>피들러 선생님의 수요일 진료시간은 몇 시인가요?</small></span>
@@ -40,8 +40,8 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td scope="col" width="60%"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-C2-1.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
-								<td scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-C2-3.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
+								<td scope="col" width="60%"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-C2-1.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
+								<td scope="col"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-C2-3.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 						</tbody>
 					</table>
@@ -50,8 +50,8 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td scope="col" width="60%"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-C2-2.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
-								<td scope="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-C2-4.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
+								<td scope="col" width="60%"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-C2-2.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
+								<td scope="col"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-C2-4.png" alt="Wie sind die Fragen?" style="max-width: 100%; height: auto;"></td>
 							</tr>
 						</tbody>
 					</table>
@@ -144,13 +144,13 @@
 	<div id="marg"></div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
+	<script src="./<?=$root ?>js/popper.min.js"></script>
+	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?=$root ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 	<script>
 		$(".tran").hide();
 		$("#chk").hide();
@@ -195,14 +195,14 @@
 				}
 				, {
 					name: "dingdongdang",
-						path: "<?php echo($root); ?>sounds/",
+						path: "<?=$root ?>sounds/",
 				}
 				, {
 					name: "Cartoon_Boing",
-						path: "<?php echo($root); ?>sounds/",
+						path: "<?=$root ?>sounds/",
 				}
 				],
-				path : "<?php echo($root); ?>sounds/Reihe 6/",
+				path : "<?=$root ?>sounds/Reihe 6/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

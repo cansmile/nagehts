@@ -15,8 +15,8 @@
 								<td rowspan="3" class="border-0">&nbsp;</td>
 								<td class="text-right border border-secondary border-left-0 border-top-0 border-bottom-0">isst</td>
 								<td class="border-0">gern</td>
-								<td rowspan="3" class="text-center align-middle border border-secondary border-left-0 border-top-0 border-bottom-0"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G3-1.png" alt="Face" style="max-width: 120px; height: auto;"></td>
-								<td rowspan="3" class="text-center align-middle border-0"><img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G3-2.png" alt="Face" style="max-width: 120px; height: auto;"></td>
+								<td rowspan="3" class="text-center align-middle border border-secondary border-left-0 border-top-0 border-bottom-0"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-G3-1.png" alt="Face" style="max-width: 120px; height: auto;"></td>
+								<td rowspan="3" class="text-center align-middle border-0"><img src="./<?=$root ?>images/Reihe 5/Reihe-5-G3-2.png" alt="Face" style="max-width: 120px; height: auto;"></td>
 								<td class="border border-secondary border-top-0 border-bottom-0 border-left-0 text-right">mag</td>
 								<td class="border-0">keinen</td>
 							</tr>
@@ -140,12 +140,12 @@
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
-		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+		<script src="./<?=$root ?>js/popper.min.js"></script>
+		<script src="./<?=$root ?>js/bootstrap.js"></script>
+		<script src="./<?=$root ?>js/taptogroup.js"></script>
+		<script src="./<?=$root ?>js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
 			$(".ant").hide();

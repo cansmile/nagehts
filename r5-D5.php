@@ -94,24 +94,24 @@
 							</tr>
 							<tr>
 								<td width="30%">
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
 										<h2 class="btn btn-primary btn-xl ttl d-block">die Mutter</h2>&nbsp;
 									</div>
 								</td>
 								<td width="30%">
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
 										<h2 class="btn btn-success btn-xl ttl d-block">Mann</h2>&nbsp;
 									</div>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
 										<h2 class="btn btn-primary btn-xl ttl d-block">das Kind</h2>&nbsp;
 									</div>
 								</td>
 								<td>
-									<div style="min-height: 240px;" class="rounded-top border border-secondary so itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-4">
+									<div style="min-height: 240px;" class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-4">
 										<h2 class="btn btn-success btn-xl ttl d-block">die Frau</h2>&nbsp;
 									</div>
 								</td>

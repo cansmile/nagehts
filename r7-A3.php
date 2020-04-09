@@ -28,7 +28,7 @@
 								<tr>
 									<th scope="row" width="50">1.</th>
 									<td><strong>Wollen</strong> wir am Samstagnachmittag in die Staatsoperette <strong>gehen</strong>?
-									<span class="tran"><br><small>우리 토요일 오후에 국립 오페라단에 갈래?</small></span></td>
+									<span class="tran"><br><small>우리 토요일 오후에 국립 오페레타극장단에 갈래?</small></span></td>
 									<td>
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
 											<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
@@ -43,7 +43,7 @@
 								<tr>
 									<th scope="row" width="50">2.</th>
 									<td><strong>Wollen</strong> wir am Sonntagabend in den Zirkus <strong>gehen</strong>?
-									<span class="tran"><br><small>우리 일요일 저녁에 경기장에 갈래?</small></span></td>
+									<span class="tran"><br><small>우리 일요일 저녁에 서커스 보러 갈래?</small></span></td>
 									<td>
 										<div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
 											<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">

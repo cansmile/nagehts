@@ -149,7 +149,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="table table-borderless text-center table-striped">
+					<table class="table table-borderless table-sm text-center table-striped">
 						<thead>
 							<tr>
 								<th class="text-primary" scope="col">maskulin(m)</th>

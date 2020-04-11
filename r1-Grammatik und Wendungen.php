@@ -27,15 +27,15 @@
 										<th class="text-center bg-light" scope="col">반응</th>
 									</tr>
 									<tr>
-									<th class="bg-light" scope="row"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>heißen</strong> Sie?</th>
-									<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich <strong>heiße</strong> David Kim.</td>
+									<td class="bg-light"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>heißen</strong> Sie?</td>
+									<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich heiße David Kim.</td>
 									</tr>
 									<tr>
-									<th scope="row"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>ist</strong> Ihr Name?</th>
-									<td class="bg-light"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Mein Name <strong>ist</strong> Michael Brunner.</td>
+									<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>ist</strong> Ihr Name?</td>
+									<td class="bg-light"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Mein Name ist Michael Brunner.</td>
 									</tr>
 									<tr>
-									<th class="bg-light" scope="row"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>geht</strong> es Ihnen?</th>
+									<td class="bg-light"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>geht</strong> es Ihnen?</td>
 									<td><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Danke, gut. Und Ihnen?</td>
 									</tr>
 								</table>
@@ -59,15 +59,15 @@
 									<th class="text-center bg-light" scope="col">대답</th>
 								</tr>
 								<tr>
-								<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Sind</strong> Sie Herr Kim?</th>
+								<th class="bg-light"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Sind</strong> Sie Herr Kim?</th>
 								<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ja, das bin ich.</td>
 								</tr>
 								<tr>
-								<th scope="row"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Bist</strong> du So-Mang?</th>
+								<th><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Bist</strong> du So-Mang?</th>
 								<td class="bg-light"><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Nein, ich bin Un-Hae.</td>
 								</tr>
 								<tr>
-								<th class="bg-light" scope="row"><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ist</strong> Frau Kwan da?</th>
+								<th class="bg-light"><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ist</strong> Frau Kwan da?</th>
 								<td><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Nein, Frau Kwan ist nicht da.</td>
 								</tr>
 							</table>

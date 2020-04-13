@@ -7,8 +7,24 @@ h1,h2,h3,h4,h5,h6,.itm,.so {
     word-wrap: normal;
 }
 
+/* 줄 간격 250% */
 .lh250 {
   line-height: 250%;
+}
+
+/* 첫 줄 -1.5em */
+.ti-15 {
+  text-indent: -1.5em;
+}
+
+/* 첫 줄 -1em */
+.ti-1 {
+  text-indent: -1em;
+}
+
+/* 첫 줄 -2em */
+.ti-2 {
+  text-indent: -2em;
 }
 
 /* gray */

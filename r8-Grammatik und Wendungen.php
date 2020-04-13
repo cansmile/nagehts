@@ -30,20 +30,36 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Du sollst(musst) im Bett bleiben.</td>
-										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Bleib im Bett! (du)</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Du sollst(musst) im Bett bleiben.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Bleib im Bett! (du)</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ihr dürft nicht schwimmen gehen.</td>
-										<td><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Geht nicht schwimmen! (ihr)</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ihr dürft nicht schwimmen gehen.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Geht nicht schwimmen! (ihr)</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie sollen(müssen) Nasentropfen nehmen.</td>
-										<td><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Nehmen Sie Nasentropfen! (Sie)</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Sie sollen(müssen) Nasentropfen nehmen.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Nehmen Sie Nasentropfen! (Sie)</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Du sollst ruhig sein.</td>
-										<td><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sei ruhig! (du)</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Du sollst ruhig sein.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Sei ruhig! (du)</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -85,7 +101,7 @@
 										</tbody>
 									</table>
 										</div>
-							</div>							
+							</div>
 						</div>
 					</div>
 					<div class="card">
@@ -103,16 +119,122 @@
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<th class="align-middle" scope="row">Verben im Nominativ</th>
-										<td><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>sein, gehen, kommen, arbeiten, schlafen, fahren, …<br><br><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Er ist mein Lehrer. <br><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wir wollen nach Deutschland fahren. <br><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie kommt nicht.</td>
+										<th class="align-middle text-center" scope="row">Verben im Nominativ</th>
+										<td>
+											<table class="table table-borderless">
+											<tbody>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">sein, gehen, kommen, arbeiten, schlafen, fahren, …</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Er ist mein Lehrer.</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Wir wollen nach Deutschland fahren.</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Sie kommt nicht.</div></div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
 									</tr>
 									<tr>
-										<th class="align-middle" scope="row">Verben im Akkusativ</th>
-										<td><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>haben, brauchen, sehen, kaufen, wissen, bekommen, heiraten, besuchen, lieben, essen, kochen, …<br><br><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wir haben keine Zeit zu verlieren. <br><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich brauche deine Hilfe.</td>
+										<th class="align-middle text-center" scope="row">Verben im Akkusativ</th>
+										<td>
+											<table class="table table-borderless">
+											<tbody>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">haben, brauchen, sehen, kaufen, wissen, bekommen, heiraten, besuchen, lieben, essen, kochen, …</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Wir haben keine Zeit zu verlieren.</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Ich brauche deine Hilfe.</div></div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
 									</tr>
 									<tr>
-										<th class="align-middle" scope="row">Verben im Dativ</th>
-										<td><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>telegrafieren, gratulieren, gefallen, fehlen, es geht, antworten, schmecken, …<br><br><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was fehlt dir? <br><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie fehlt mir.<br><br><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich gratuliere dir zu deinem Geburtstag. <br><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie gefällt es dir hier?<br><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Es gefällt mir gut.</td>
+										<th class="align-middle text-center" scope="row">Verben im Dativ</th>
+										<td>
+											<table class="table table-borderless">
+											<tbody>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">telegrafieren, gratulieren, gefallen, fehlen, es geht, antworten, schmecken, …</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Was fehlt dir?</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Sie fehlt mir.</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Ich gratuliere dir zu deinem Geburtstag.</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Wie gefällt es dir hier?</div></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="row"><div class="mx-1 px-1">
+															<button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+														</div><div class="col-9 mx-1 px-1">Es gefällt mir gut.</div></div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
 									</tr>
 								</tbody>
 							</table>
@@ -189,13 +311,19 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="pl-5"><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Man kann mit den Händen schreiben.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Man kann mit den Händen schreiben.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Man kann mit dem Mund essen.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Man kann mit dem Mund essen.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Man kann mit den Beinen gehen.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Man kann mit den Beinen gehen.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -210,31 +338,47 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="pl-5"><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Meine Nase tut mir weh.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Meine Nase tut mir weh.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sein Zahn tut ihm weh.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Sein Zahn tut ihm weh.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ihr Magen tut ihr weh.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ihr Magen tut ihr weh.</div></div></td>
 									</tr>
 									<tr>
 										<td style="max-height: 10px; font-size: 1pt;" class="p-0 m-0">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Er hat Zahnschmerzen.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Er hat Zahnschmerzen.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie hat Ohrenschmerzen.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Sie hat Ohrenschmerzen.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Er hat Fieber.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Er hat Fieber.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie hat eine Erkältung.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Sie hat eine Erkältung.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Herr Kim hat Fieber und Halsschmerzen.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Herr Kim hat Fieber und Halsschmerzen.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -249,16 +393,24 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="pl-5"><button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was fehlt Ihnen?</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Was fehlt Ihnen?</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich verschreibe Ihnen ein Rezept.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ich verschreibe Ihnen ein Rezept.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich schreibe Sie für eine Woche krank.</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ich schreibe Sie für eine Woche krank.</div></div></td>
 									</tr>
 									<tr>
-										<td class="pl-5"><button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Gute Besserung!</td>
+										<td class="pl-5"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Gute Besserung!</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -271,7 +423,7 @@
 </section>
 
 <div id="last" class="d-none"></div>
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -350,7 +502,7 @@
 					console.log("다시 읽어주세요!");
 				},
 				onload: function() {
-					// 음성 준비되면 HV 버튼 나타내기 
+					// 음성 준비되면 HV 버튼 나타내기
 					$("#whole").show();
 					$("#alt").hide();
 					// $(".alert").hide();
@@ -365,9 +517,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -392,7 +544,7 @@
 			});
 
 
-	
+
 	</script>
 <?php include "footer.php"; ?>
 	</body>

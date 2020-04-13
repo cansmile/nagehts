@@ -21,58 +21,58 @@
 						<div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
 							<table class="table table-borderless">
 									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
 										<th class="text-center" scope="col" width="50%">질문</th>
 										<th class="text-center bg-light" scope="col">대답</th>
 									</tr>
 									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="2" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Woher</strong> kommen Sie?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Woher</strong> kommen Sie?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="3" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Ich komme <strong>aus</strong> Deutschland.</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Ich komme <strong>aus</strong> Deutschland.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="4" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Wo</strong> wohnen Sie?</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Wo</strong> wohnen Sie?</div>
 										</div></th>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
 												<button type="button" id="5" class="so btd btn-outline-dark btn-sm mr-2 my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Ich wohne <strong>in</strong> München.</div>
+											</div><div class="col-9 mx-1 px-1">Ich wohne <strong>in</strong> München.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="6" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Welche</strong> Sprachen sprechen Sie?</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Welche</strong> Sprachen sprechen Sie?</div>
 										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="7" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Ich spreche Detusch und Englisch.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Ich spreche Detusch und Englisch.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="8" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Wo</strong> liegt Ghana?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Wo</strong> liegt Ghana?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="9" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Ghana liegt <strong>in</strong> Westafrika.</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Ghana liegt <strong>in</strong> Westafrika.</div>
 										</div></td>
 									</tr>
 								</table>
@@ -90,46 +90,46 @@
 							<table class="table table-borderless">
 								<tbody>
 									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="10" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
 										<th class="text-center" scope="col" width="50%">질문</th>
 										<th class="text-center bg-light" scope="col">대답</th>
 									</tr>
 									<tr>
-										<td class="bg-light" scope="row"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="11" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Kommen</strong> Sie aus Japan?</div>
+										<td class="bg-light" scope="row"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Kommen</strong> Sie aus Japan?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="12" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</div>
-										</div></td>
-									</tr>
-									<tr>
-										<td scope="row"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="13" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Wohnen</strong> Sie in Seoul?</div>
-										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="14" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Ja(Nein)</strong>, ich komme *<strong>(nicht)</strong> aus Japan.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td class="bg-light" scope="row"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="15" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Liegt</strong> Frankreich in Europa?</div>
+										<td scope="row"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Wohnen</strong> Sie in Seoul?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="16" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2"><strong>Ja</strong>, es liegt in Europa.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Ja(Nein)</strong>, ich wohne *<strong>(nicht)</strong> in Seoul.</div>
+										</div></td>
+									</tr>
+									<tr>
+										<td class="bg-light" scope="row"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Liegt</strong> Frankreich in Europa?</div>
+										</div></td>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1"><strong>Ja</strong>, es liegt in Europa.</div>
 										</div></td>
 									</tr>
 									<tr>
@@ -243,240 +243,240 @@
 						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
 							<table class="table table-borderless">
 									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="17" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="18" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Woher kommen Sie?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Woher kommen Sie?</div>
 										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="19" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ich komme aus Korea.</div>
-										</div></td>
-									</tr>
-									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="20" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Woher kommst du?</div>
-										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="21" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ich komme aus Korea.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ich komme aus Korea.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="22" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Woher kommt sie?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Woher kommst du?</div>
 										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="23" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Sie kommt aus Korea.</div>
-										</div></td>
-									</tr>
-									<tr>
-										<td colspan="2" class="bg-light p-0" height="5"></td>
-									</tr>
-									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="24" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
-									</tr>
-									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="25" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Kommen Sie aus Japan?</div>
-										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="26" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ja (Nein), ich komme (nicht) aus Japan.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ich komme aus Korea.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="27" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Kommst du aus Deutschland?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Woher kommt sie?</div>
 										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="28" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ja (Nein), ich komme (nicht) aus Deutschland.</div>
-										</div></td>
-									</tr>
-									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="29" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Kommt sie aus Italien?</div>
-										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="30" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ja (Nein), sie kommt (nicht) aus Italien.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Sie kommt aus Korea.</div>
 										</div></td>
 									</tr>
 									<tr>
 										<td colspan="2" class="bg-light p-0" height="5"></td>
 									</tr>
 									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="31" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="32" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Wo wohnen Sie?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Kommen Sie aus Japan?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="33" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ich wohne in Busan.</div>
-										</div></td>
-									</tr>
-									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="34" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Wo wohnst du?</div>
-										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="35" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ich wohne in Busan.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ja (Nein), ich komme (nicht) aus Japan.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="36" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Wo wohnt er?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Kommst du aus Deutschland?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="37" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Er wohnt in Busan.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ja (Nein), ich komme (nicht) aus Deutschland.</div>
+										</div></td>
+									</tr>
+									<tr>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Kommt sie aus Italien?</div>
+										</div></td>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ja (Nein), sie kommt (nicht) aus Italien.</div>
+										</div></td>
+									</tr>
+									<tr>
+										<td colspan="2" class="bg-light p-0" height="5"></td>
+									</tr>
+									<tr>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
+									</tr>
+									<tr>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Wo wohnen Sie?</div>
+										</div></td>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ich wohne in Busan.</div>
+										</div></td>
+									</tr>
+									<tr>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Wo wohnst du?</div>
+										</div></td>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ich wohne in Busan.</div>
+										</div></td>
+									</tr>
+									<tr>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Wo wohnt er?</div>
+										</div></td>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Er wohnt in Busan.</div>
 										</div></td>
 									</tr>
 									<tr>
 										<td colspan="2" class="p-0" height="5"></td>
 									</tr>
 									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="38" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="39" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Wohnen Sie in Guri?</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Wohnen Sie in Guri?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="40" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ja (Nein), ich wohne (nicht) in Guri.</div>
-										</div></td>
-									</tr>
-									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="41" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Wohnst du in Guri ?</div>
-										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="42" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ja (Nein), ich wohne (nicht) in Guri.</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ja (Nein), ich wohne (nicht) in Guri.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="43" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Wohnt er in Guri?</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Wohnst du in Guri ?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="44" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ja (Nein), er wohnt (nicht) in Guri.</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="42" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ja (Nein), ich wohne (nicht) in Guri.</div>
+										</div></td>
+									</tr>
+									<tr>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="43" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Wohnt er in Guri?</div>
+										</div></td>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="44" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ja (Nein), er wohnt (nicht) in Guri.</div>
 										</div></td>
 									</tr>
 									<tr>
 										<td colspan="2" class="bg-light p-0" height="5"></td>
 									</tr>
 									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="45" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="45" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="46" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Welche Sprachen sprechen Sie?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Welche Sprachen sprechen Sie?</div>
 										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="47" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ich spreche Koreanisch, Englisch und Deutsch.</div>
-										</div></td>
-									</tr>
-									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="48" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Welche Sprachen sprichst du?</div>
-										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="49" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ich spreche Japanisch.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="47" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ich spreche Koreanisch, Englisch und Deutsch.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="50" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Welche Sprachen spricht er?</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="48" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-10 mx-2 px20200413 101020-2">Welche Sprachen sprichst du?</div>
 										</div></td>
-										<td class="bg-light"><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="51" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Er spricht Japanisch.</div>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="49" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ich spreche Japanisch.</div>
+										</div></td>
+									</tr>
+									<tr>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="50" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Welche Sprachen spricht er?</div>
+										</div></td>
+										<td class="bg-light"><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="51" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Er spricht Japanisch.</div>
 										</div></td>
 									</tr>
 									<tr>
 										<td colspan="2" class="p-0" height="5"></td>
 									</tr>
 									<tr>
-										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="52" class="so btn btn-outline-dark btn-sm my-auto">▶</button></th>
+										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="52" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="53" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Wo liegt Korea?</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="53" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Wo liegt Korea?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="54" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Korea liegt in Asien.</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="54" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Korea liegt in Asien.</div>
 										</div></td>
 									</tr>
 									<tr>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="55" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">Liegt Deutschland in Europa?</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="55" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">Liegt Deutschland in Europa?</div>
 										</div></td>
-										<td><div class="row p-0">
-											<div class="col-1 mx-2 px-2">
-												<button type="button" id="56" class="so btn btn-outline-dark btn-sm my-auto">▶</button>
-											</div><div class="col-10 col-xs-8 col-sm-7 col-md-8 mx-2 px-2">- Ja, es liegt in Europa.</div>
+										<td><div class="row">
+											<div class="mx-1 px-1">
+												<button type="button" id="56" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+											</div><div class="col-9 mx-1 px-1">- Ja, es liegt in Europa.</div>
 										</div></td>
 									</tr>
 
@@ -585,7 +585,7 @@
 					console.log("다시 읽어주세요!");
 				},
 				onload: function() {
-					// 음성 준비되면 HV 버튼 나타내기 
+					// 음성 준비되면 HV 버튼 나타내기
 					$("#whole").show();
 					$("#alt").hide();
 					// $(".alert").hide();
@@ -600,9 +600,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -627,7 +627,7 @@
 			});
 
 
-	
+
 	</script>
 <?php include "footer.php"; ?>
 	</body>

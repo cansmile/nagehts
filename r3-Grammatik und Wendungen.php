@@ -24,28 +24,52 @@
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Wer</strong> ist das?</td>
-										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Das ist mein Vater.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Wer</strong> ist das?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Das ist mein Vater.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Wie</strong> alt sind Sie?</td>
-										<td><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich bin 43 Jahre alt.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Wie</strong> alt sind Sie?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ich bin 43 Jahre alt.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Wie</strong> viele Geschwister hast du?</td>
-										<td><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich habe 3 Geschwister.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Wie</strong> viele Geschwister hast du?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ich habe 3 Geschwister.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Wie</strong> ist Ihre Telefonnummer?</td>
-										<td><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Meine Telefonnummer ist 010-2777-3321.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Wie</strong> ist Ihre Telefonnummer?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Meine Telefonnummer ist 010-2777-3321.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Was</strong> sind Sie von Beruf?</td>
-										<td><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich bin Taxifahrer.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Was</strong> sind Sie von Beruf?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ich bin Taxifahrer.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Was</strong> macht sie?</td>
-										<td><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie ist Studentin.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Was</strong> macht sie?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Sie ist Studentin.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -66,16 +90,28 @@
 										<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 									</tr>
 									<tr>
-										<td><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ist</strong> das deine Mutter?</td>
-										<td><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ja./ Nein, das ist meine Tante.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Ist</strong> das deine Mutter?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ja./ Nein, das ist meine Tante.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Haben</strong> Sie Kinder?</td>
-										<td><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ja./ Nein, ich habe keine Kinder.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Haben</strong> Sie Kinder?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ja./ Nein, ich habe keine Kinder.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Sind</strong> Sie Lehrerin?</td>
-										<td><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ja./ Nein, ich bin Ärztin.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1"><strong>Sind</strong> Sie Lehrerin?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ja./ Nein, ich bin Ärztin.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -303,11 +339,17 @@
 									</tr>
 									<tr>
 										<td width="50%"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wer ist das?</td>
-										<td><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Das ist meine Mutter.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Das ist meine Mutter.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ist das dein Vater?</td>
-										<td><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja. / Nein, das ist mein Onkel.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Ist das dein Vater?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ja. / Nein, das ist mein Onkel.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -318,19 +360,33 @@
 									</tr>
 									<tr>
 										<td width="50%"><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie alt sind Sie?</td>
-										<td><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin 35 Jahre alt.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich bin 35 Jahre alt.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie alt bist du?</td>
-										<td><button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin 19 Jahre alt.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Wie alt bist du?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich bin 19 Jahre alt.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie alt ist er?</td>
-										<td><button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Er ist 20 Jahre alt.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Wie alt ist er?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Er ist 20 Jahre alt.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie alt ist sie?</td>
-										<td><button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Sie ist 22 Jahre alt.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Wie alt ist sie?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Sie ist 22 Jahre alt.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -341,15 +397,25 @@
 									</tr>
 									<tr>
 										<td width="50%"><button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie viele Geschwister haben Sie?</td>
-										<td><button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich habe einen Bruder.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich habe einen Bruder.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie viele Kinder hast du?</td>
-										<td><button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich habe keine Kinder.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Wie viele Kinder hast du?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich habe keine Kinder.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Haben Sie Kinder?</td>
-										<td><button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja. / Nein, ich habe keine Kinder.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Haben Sie Kinder?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ja. / Nein, ich habe keine Kinder.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -360,7 +426,9 @@
 									</tr>
 									<tr>
 										<td width="50%"><button type="button" id="43" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was ist Ihr Familienstand?</td>
-										<td><button type="button" id="44" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin ledig. / verheiratet. / geschieden. / verwitwet.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="44" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich bin ledig. / verheiratet. / geschieden. / verwitwet.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -371,19 +439,33 @@
 									</tr>
 									<tr>
 										<td width="50%"><button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was sind Sie von Beruf?</td>
-										<td><button type="button" id="47" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin Kellnerin.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="47" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich bin Kellnerin.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="48" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was bist du von Beruf?</td>
-										<td><button type="button" id="49" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin Student.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="48" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Was bist du von Beruf?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="49" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich bin Student.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="50" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was machen Sie?</td>
-										<td><button type="button" id="51" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin Lehrerin.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="50" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Was machen Sie?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="51" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich bin Lehrerin.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="52" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Was machst du?</td>
-										<td><button type="button" id="53" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin Fußballspieler.</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="52" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Was machst du?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="53" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ich bin Fußballspieler.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -394,15 +476,25 @@
 									</tr>
 									<tr>
 										<td width="50%"><button type="button" id="55" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist Ihre Adresse?</td>
-										<td><button type="button" id="56" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Meine Adresse ist ...</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="56" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Meine Adresse ist ...</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="57" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist deine Telefonnummer?</td>
-										<td><button type="button" id="58" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Meine Telefonnummer ist ...</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="57" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Wie ist deine Telefonnummer?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="58" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Meine Telefonnummer ist ...</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="59" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist ihre Handynummer?</td>
-										<td><button type="button" id="60" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ihre Handynummer ist ...</td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="59" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Wie ist ihre Handynummer?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="60" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">- Ihre Handynummer ist ...</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -415,7 +507,7 @@
 </section>
 
 <div id="last" class="d-none"></div>
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -513,7 +605,7 @@
 					console.log("다시 읽어주세요!");
 				},
 				onload: function() {
-					// 음성 준비되면 HV 버튼 나타내기 
+					// 음성 준비되면 HV 버튼 나타내기
 					$("#whole").show();
 					$("#alt").hide();
 					// $(".alert").hide();
@@ -528,9 +620,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -555,7 +647,7 @@
 			});
 
 
-	
+
 	</script>
 <?php include "footer.php"; ?>
 	</body>

@@ -86,7 +86,7 @@
 												<div class="col-4 text-left"><span class="px-2 p-1 m-1 bg-secondary text-white">Leider</span></div>
 												<div class="col-4 text-center">habe</div>
 												<div class="col-4 text-right"><span class="px-2 p-1 m-1 bg-secondary text-white">ich</span></div>
-											</div>											
+											</div>
 										</td>
 										<td class="border-0">keine Zeit.</td>
 									</tr>
@@ -94,7 +94,7 @@
 										<td class="border-0" width="60%">
 											<div class="row">
 												<div class="col text-center"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-GR-cross.png" alt="cross" style="max-width: 100%; height: auto;"></div>
-											</div>											
+											</div>
 										</td>
 										<td class="border-0"></td>
 									</tr>
@@ -104,7 +104,7 @@
 												<div class="col-4 text-left"><span class="px-2 p-1 m-1 bg-secondary text-white">Ich</span></div>
 												<div class="col-4 text-center">habe</div>
 												<div class="col-4 text-right"><span class="px-2 p-1 m-1 bg-secondary text-white">leider</span></div>
-											</div>											
+											</div>
 										</td>
 										<td class="border-0">keine Zeit.</td>
 									</tr>
@@ -222,20 +222,20 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hast du heute Abend / am ...... Zeit?</td>
-										<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja, klar.</td>
+										<td width="50%"><div class="row"><div class="mx-1 px-1"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Hast du heute Abend / am ...... Zeit?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Ja, klar.</div></div></td>
 									</tr>
 									<tr>
 										<td>(Heute, morgen Abend / früh / Nachmittag)</td>
-										<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Das weiß ich noch nicht.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Das weiß ich noch nicht.</div></div></td>
 									</tr>
 									<tr>
 										<td>&nbsp;</td>
-										<td><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Vielleicht</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Vielleicht</div></div></td>
 									</tr>
 									<tr>
 										<td>&nbsp;</td>
-										<td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Heute Abend / Am ..... habe ich leider keine Zeit.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Heute Abend / Am ..... habe ich leider keine Zeit.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -250,16 +250,16 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Gehen wir ins Kino / ..... ?</td>
-										<td><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Gute Idee! / Okay!</td>
+										<td width="50%"><div class="row"><div class="mx-1 px-1"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Gehen wir ins Kino / ..... ?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Gute Idee! / Okay!</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wollen wir heute Abend in den / in die / ins ..... gehen?</td>
-										<td><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Nein, leider nicht. Ich habe keine Zeit.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Wollen wir heute Abend in den / in die / ins ..... gehen?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Nein, leider nicht. Ich habe keine Zeit.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hast du Lust auf Kino?</td>
-										<td><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja, gut!</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Hast du Lust auf Kino?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Ja, gut!</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -274,33 +274,33 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%"><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Das ist verboten.</td>
+										<td width="50%"><div class="row"><div class="mx-1 px-1"><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Das ist verboten.</div></div></td>
 										<td>&nbsp;</td>
 									</tr>
 									<tr>
-										<td><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hier dürfen Sie nicht rauchen.</td>
-										<td><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Warum nicht?</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Hier dürfen Sie nicht rauchen.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Warum nicht?</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Das ist verboten.</td>
-										<td><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Na, gut. Dann höre ich auf.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Das ist verboten.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Na, gut. Dann höre ich auf.</div></div></td>
 									</tr>
 									<tr>
-										<td colspan="2"><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hier kann man Bücher lesen.</td>
+										<td colspan="2"><div class="row"><div class="mx-1 px-1"><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Hier kann man Bücher lesen.</div></div></td>
 									</tr>
 									<tr>
-										<td colspan="2"><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hier muss man leise sprechen.</td>
+										<td colspan="2"><div class="row"><div class="mx-1 px-1"><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Hier muss man leise sprechen.</div></div></td>
 									</tr>
 									<tr>
-										<td colspan="2"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hier darf man nicht rauchen.</td>
+										<td colspan="2"><div class="row"><div class="mx-1 px-1"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Hier darf man nicht rauchen.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich möchte tanzen.</td>
-										<td><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Dann solltest du in die Disko gehen.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Ich möchte tanzen.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Dann solltest du in die Disko gehen.</div></div></td>
 									</tr>
 									<tr>
-										<td><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sie möchte einen Film sehen.</td>
-										<td><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Dann sollte sie ins Kino gehen.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Sie möchte einen Film sehen.</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Dann sollte sie ins Kino gehen.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -315,13 +315,13 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td colspan="2"><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich kann leider nicht.</td>
+										<td colspan="2"><div class="row"><div class="mx-1 px-1"><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Ich kann leider nicht.</div></div></td>
 									</tr>
 									<tr>
-										<td colspan="2"><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Das geht leider nicht.</td>
+										<td colspan="2"><div class="row"><div class="mx-1 px-1"><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Das geht leider nicht.</div></div></td>
 									</tr>
 									<tr>
-										<td colspan="2"><button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Das passt leider nicht.</td>
+										<td colspan="2"><div class="row"><div class="mx-1 px-1"><button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Das passt leider nicht.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -336,16 +336,16 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%"><button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wann / Um wie viel Uhr?</td>
-										<td><button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Am Dienstag / Abend / Mittwochabend /.....</td>
+										<td width="50%"><div class="row"><div class="mx-1 px-1"><button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Wann / Um wie viel Uhr?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Am Dienstag / Abend / Mittwochabend /.....</div></div></td>
 									</tr>
 									<tr>
 										<td>&nbsp;</td>
-										<td><button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Um ..... Uhr.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Um ..... Uhr.</div></div></td>
 									</tr>
 									<tr>
 										<td>&nbsp;</td>
-										<td><button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Um drei / halb vier.</td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Um drei / halb vier.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -360,8 +360,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td width="50%"><button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie spät ist es? / Wie viel Uhr ist es?</td>
-										<td><button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Es ist Viertel vor drei / halb sechs.</td>
+										<td width="50%"><div class="row"><div class="mx-1 px-1"><button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">Wie spät ist es? / Wie viel Uhr ist es?</div></div></td>
+										<td><div class="row"><div class="mx-1 px-1"><button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button></div><div class="col-9 mx-1 px-1">- Es ist Viertel vor drei / halb sechs.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -450,7 +450,7 @@
 					console.log("다시 읽어주세요!");
 				},
 				onload: function() {
-					// 음성 준비되면 HV 버튼 나타내기 
+					// 음성 준비되면 HV 버튼 나타내기
 					$("#whole").show();
 					$("#alt").hide();
 					// $(".alert").hide();
@@ -465,9 +465,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -492,7 +492,7 @@
 			});
 
 
-	
+
 	</script>
 <?php include "footer.php"; ?>
 	</body>

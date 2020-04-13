@@ -27,16 +27,28 @@
 										<th class="text-center bg-light" scope="col">반응</th>
 									</tr>
 									<tr>
-									<td class="bg-light"><button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>heißen</strong> Sie?</td>
-									<td><button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ich heiße David Kim.</td>
+									<td class="bg-light"><div class="row"><div class="mx-1 px-1">
+										<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									</div><div class="col-10 mx-1 px-1">Wie <strong>heißen</strong> Sie?</div></div></td>
+									<td><div class="row"><div class="mx-1 px-1">
+										<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									</div><div class="col-10 mx-1 px-1">Ich heiße David Kim.</div></div></td>
 									</tr>
 									<tr>
-									<td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>ist</strong> Ihr Name?</td>
-									<td class="bg-light"><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Mein Name ist Michael Brunner.</td>
+									<td><div class="row"><div class="mx-1 px-1">
+										<button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									</div><div class="col-10 mx-1 px-1">Wie <strong>ist</strong> Ihr Name?</div></div></td>
+									<td class="bg-light"><div class="row"><div class="mx-1 px-1">
+										<button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									</div><div class="col-10 mx-1 px-1">Mein Name ist Michael Brunner.</div></div></td>
 									</tr>
 									<tr>
-									<td class="bg-light"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie <strong>geht</strong> es Ihnen?</td>
-									<td><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Danke, gut. Und Ihnen?</td>
+									<td class="bg-light"><div class="row"><div class="mx-1 px-1">
+										<button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									</div><div class="col-10 mx-1 px-1">Wie <strong>geht</strong> es Ihnen?</div></div></td>
+									<td><div class="row"><div class="mx-1 px-1">
+										<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+									</div><div class="col-10 mx-1 px-1">Danke, gut. Und Ihnen?</div></div></td>
 									</tr>
 								</table>
 						</div>
@@ -59,16 +71,28 @@
 									<th class="text-center bg-light" scope="col">대답</th>
 								</tr>
 								<tr>
-								<th class="bg-light"><button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Sind</strong> Sie Herr Kim?</th>
-								<td><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ja, das bin ich.</td>
+									<th class="bg-light"><div class="row"><div class="mx-1 px-1">
+									<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+								</div><div class="col-10 mx-1 px-1"><strong>Sind</strong> Sie Herr Kim?</div></div></th>
+								<td><div class="row"><div class="mx-1 px-1">
+									<button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+								</div><div class="col-10 mx-1 px-1">Ja, das bin ich.</div></div></td>
 								</tr>
 								<tr>
-								<th><button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Bist</strong> du So-Mang?</th>
-								<td class="bg-light"><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Nein, ich bin Un-Hae.</td>
+								<th><div class="row"><div class="mx-1 px-1">
+									<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+								</div><div class="col-10 mx-1 px-1"><strong>Bist</strong> du So-Mang?</div></div></th>
+								<td class="bg-light"><div class="row"><div class="mx-1 px-1">
+									<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+								</div><div class="col-10 mx-1 px-1">Nein, ich bin Un-Hae.</div></div></td>
 								</tr>
 								<tr>
-								<th class="bg-light"><button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button><strong>Ist</strong> Frau Kwan da?</th>
-								<td><button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Nein, Frau Kwan ist nicht da.</td>
+								<th class="bg-light"><div class="row"><div class="mx-1 px-1">
+									<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+								</div><div class="col-10 mx-1 px-1"><strong>Ist</strong> Frau Kwan da?</div></div></th>
+								<td><div class="row"><div class="mx-1 px-1">
+									<button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+								</div><div class="col-10 mx-1 px-1">Nein, Frau Kwan ist nicht da.</div></div></td>
 								</tr>
 							</table>
 						</div>
@@ -188,80 +212,136 @@
 						<div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
 							<table class="table table-borderless">
 									<tr>
-										<td class="border-bottom-0 border-dark border" width="50%"><button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Hallo!</td>
-										<td class="bg-light border border-dark border-bottom-0"><button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Tschüs!</td>
+										<td class="border-bottom-0 border-dark border" width="50%"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Hallo!</div></div></td>
+										<td class="bg-light border border-dark border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Tschüs!</div></div></td>
 									</tr>
 									<tr>
-										<td class="border-top-0 border-bottom-0 border-dark border"><button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Guten Morgen!</td>
-										<td class="bg-light border border-dark border-top-0"><button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Auf Wiedersehen!</td>
+										<td class="border-top-0 border-bottom-0 border-dark border"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Guten Morgen!</div></div></td>
+										<td class="bg-light border border-dark border-top-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Auf Wiedersehen!</div></div></td>
 									</tr>
 									<tr>
-										<td class="border-top-0 border-bottom-0 border-dark border"><button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Guten Tag!</td>
-										<td class="border border-dark border-bottom-0"><button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Entschuldigung.</td>
+										<td class="border-top-0 border-bottom-0 border-dark border"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Guten Tag!</div></div></td>
+										<td class="border border-dark border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Entschuldigung.</div></div></td>
 									</tr>
 									<tr>
-										<td class="border-top-0 border-bottom-0 border-dark border"><button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Guten Abend!</td>
+										<td class="border-top-0 border-bottom-0 border-dark border"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Guten Abend!</div></div></td>
 										<td class="border border-dark border-top-0 border-bottom-0">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="border-top-0 border-dark border"><button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Gute Nacht!</td>
+										<td class="border-top-0 border-dark border"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Gute Nacht!</div></div></td>
 										<td class="border border-dark border-top-0">&nbsp;</td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie heißen Sie?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich heiße Sandra Bauer.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wie heißen Sie?</div></div></td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Ich heiße Sandra Bauer.</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie heißt du?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich heiße Sandra.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wie heißt du?</div></div></td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Ich heiße Sandra.</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist Ihr Name?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Mein Name ist Arum Park.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wie ist Ihr Name?</div></div></td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Mein Name ist Arum Park.</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie ist dein Name?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Mein Name ist Arum.</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wie ist dein Name?</div></div></td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Mein Name ist Arum.</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wie geht es Ihnen? / Wie geht es dir?</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Danke, es geht mir super. / sehr gut. / gut. /</td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wie geht es Ihnen? / Wie geht es dir?</div></div></td>
+										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Danke, es geht mir super. / sehr gut. / gut. / nicht so gut. / schlecht. / es geht. / so la la. / Und Ihnen? / Und dir?</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">&nbsp;</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">nicht so gut. / schlecht. / es geht. / so la la.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wer sind Sie?</div></div></td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Ich bin Yuna Kim.</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">&nbsp;</td>
-										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0">Und Ihnen? / Und dir?</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wer bist du?</div></div></td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Ich bin Yuna.</div></div></td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wer sind Sie?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin Yuna Kim.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wer ist Herr Bauer?</div></div></td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Das bin ich.</div></div></td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wer bist du?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ich bin Yuna.</td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Wer ist Somang Kim?</div></div></td>
+										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Das bin ich.</div></div></td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wer ist Herr Bauer?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Das bin ich.</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Sind Sie Frau Lee?</div></div></td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="42" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Ja, das bin ich. / Nein, ich bin Frau Park.</div></div></td>
 									</tr>
 									<tr>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wer ist Somang Kim?</td>
-										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="40" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Das bin ich.</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="43" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Bist du Sung Hwa?</div></div></td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="44" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Ja, das bin ich. / Nein, ich bin Chung Man.</div></div></td>
 									</tr>
 									<tr>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Sind Sie Frau Lee?</td>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="42" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja, das bin ich. / Nein, ich bin Frau Park.</td>
-									</tr>
-									<tr>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="43" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Bist du Sung Hwa?</td>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="44" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja, das bin ich. / Nein, ich bin Chung Man.</td>
-									</tr>
-									<tr>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="45" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Ist Herr Jang da?</td>
-										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-1">▶</button>- Ja, Herr Jang ist da. / Nein, Herr Jang ist nicht da.</td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="45" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">Ist Herr Jang da?</div></div></td>
+										<td class="bg-light border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-10 mx-1 px-1">- Ja, Herr Jang ist da. / Nein, Herr Jang ist nicht da.</div></div></td>
 									</tra>
 								</table>
 						</div>
@@ -356,7 +436,7 @@
 					console.log("다시 읽어주세요!");
 				},
 				onload: function() {
-					// 음성 준비되면 HV 버튼 나타내기 
+					// 음성 준비되면 HV 버튼 나타내기
 					$("#whole").show();
 					$("#alt").hide();
 					// $(".alert").hide();
@@ -371,9 +451,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -398,7 +478,7 @@
 			});
 
 
-	
+
 	</script>
 <?php include "footer.php"; ?>
 	</body>

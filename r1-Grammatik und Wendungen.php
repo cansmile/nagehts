@@ -285,7 +285,7 @@
 										</div><div class="col-10 mx-1 px-1 lh250">Wie geht es Ihnen? / Wie geht es dir?</div></div></td>
 										<td class="bg-light border border-dark border-top-0 border-bottom-0 border-left-0 border-right-0"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-10 mx-1 px-1 lh250" style="text-indent: -1.5em;">- Danke, es geht mir super. / sehr gut. / gut. / nicht so gut. / schlecht. / es geht. / so la la. / Und Ihnen? / Und dir?</div></div></td>
+										</div><div class="col-10 mx-1 px-1 lh250">- Danke, es geht mir super. / sehr gut. / gut. / nicht so gut. / schlecht. / es geht. / so la la. / Und Ihnen? / Und dir?</div></div></td>
 									</tr>
 									<tr>
 										<td class="border border-dark border-left-0 border-top-0 border-right-0 border-bottom-0"><div class="row"><div class="mx-1 px-1">

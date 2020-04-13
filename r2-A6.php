@@ -24,7 +24,7 @@
                         <thead>
                             <tr>
                                 <th scope="col" class="text-center align-middle"><button type="button" id="18" class="btn btn-danger btn-lg so">▶</button></th>
-                                <td colspan="2" class="so text-center text-white bg-danger align-middle h3" height="20px">Dialog 1</td>
+                                <td colspan="2" class="text-center text-white bg-danger align-middle h3" height="20px">Dialog 1</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -105,7 +105,7 @@
                         <thead>
                             <tr>
                                 <th scope="col" class="text-center align-middle"><button type="button" id="19" class="so btn btn-warning btn-lg">▶</button></th>
-                                <td colspan="2" class="so text-center bg-warning align-middle h3" height="20px">Dialog 2</td>
+                                <td colspan="2" class="text-center bg-warning align-middle h3" height="20px">Dialog 2</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -206,7 +206,7 @@
                         <thead>
                             <tr>
                                 <th scope="col" class="text-center align-middle"><button type="button" id="20" class="so btn btn-primary btn-lg">▶</button></th>
-                                <td colspan="2" class="so text-center text-white bg-primary align-middle h3" height="20px">Dialog 3</td>
+                                <td colspan="2" class="text-center text-white bg-primary align-middle h3" height="20px">Dialog 3</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -324,7 +324,7 @@
             var nagehts = new Howl({
                 src: ["./<?=$root ?>sounds/Reihe 2/r2 A6.mp3"],
                 sprite : {
-                    "0": [1166, 75214],
+                    "0": [978, 76196],
                     "1": [7482, 1779],
                     "2": [12024, 2227],
                     "3": [16926, 2252],

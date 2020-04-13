@@ -274,18 +274,18 @@
 										<tr>
 											<td width="50%"><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Was isst/ trinkst du gern?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Was isst/ trinkst du gern?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Ich esse / trinke gern ...</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Ich esse / trinke gern ...</div></div></td>
 										</tr>
 										<tr>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Was ist dein Lieblingsessen/ Lieblingsgetränk?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Was ist dein Lieblingsessen/ Lieblingsgetränk?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Mein Lieblingsessen/ Lieblingsgetränk ist ...</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Mein Lieblingsessen/ Lieblingsgetränk ist ...</div></div></td>
 										</tr>
 									</tbody>
 								</table>
@@ -297,22 +297,22 @@
 										<tr>
 											<td width="50%"><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Isst/ Trinkst du gern ... ?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Isst/ Trinkst du gern ... ?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Ja, ich esse/ trinke gern ...</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Ja, ich esse/ trinke gern ...</div></div></td>
 										</tr>
 										<tr>
 											<td>&nbsp;</td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1"><span class="text-white">- </span>Nein, ich esse/ trinke nicht so gern ...</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250"><span class="text-white">- </span>Nein, ich esse/ trinke nicht so gern ...</div></div></td>
 										</tr>
 										<tr>
 											<td>&nbsp;</td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1"><span class="text-white">- </span>Nein, ich mag keinen, keine, kein, keine ....</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250"><span class="text-white">- </span>Nein, ich mag keinen, keine, kein, keine ....</div></div></td>
 										</tr>
 									</tbody>
 								</table>
@@ -324,23 +324,23 @@
 										<tr>
 											<td width="50%"><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Was möchtest du?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Was möchtest du?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Ich möchte/ nehme/ esse/ trinke</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Ich möchte/ nehme/ esse/ trinke</div></div></td>
 										</tr>
 										<tr>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Was nimmst du?</div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Was nimmst du?</div></td>
 												<td><div class="row"><div class="</div>mx-1 px-1">
 												<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1"><span class="text-light">- </span>Einen/ Eine / Ein ...</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250"><span class="text-light">- </span>Einen/ Eine / Ein ...</div></div></td>
 										</tr>
 										<tr>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">
+											</div><div class="col-9 mx-1 px-1 lh250">
 												Was darf es sein?</div></td>
 												<td>
 											</div>&nbsp;</td>
@@ -355,18 +355,18 @@
 										<tr>
 											<td width="50%"><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Was isst du gern?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Was isst du gern?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Ich esse gern ...</div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Ich esse gern ...</div></td>
 																</div>						</tr>
 										<tr>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Was trinkst du gern?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Was trinkst du gern?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Ich trinke gern ...</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Ich trinke gern ...</div></div></td>
 										</tr>
 									</tbody>
 								</table>
@@ -378,10 +378,10 @@
 										<tr>
 											<td width="50%"><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Was bezahlen Sie?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Was bezahlen Sie?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Ich bezahle den/ die/ das ...</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Ich bezahle den/ die/ das ...</div></div></td>
 										</tr>
 									</tbody>
 								</table>
@@ -393,15 +393,15 @@
 										<tr>
 											<td width="50%"><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Zusammen oder getrennt?</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Zusammen oder getrennt?</div></div></td>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">- Zusammen / Getrennt, bitte.</div></div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">- Zusammen / Getrennt, bitte.</div></div></td>
 										</tr>
 										<tr>
 											<td><div class="row"><div class="mx-1 px-1">
 												<button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-											</div><div class="col-9 mx-1 px-1">Stimmt so.</div></td>
+											</div><div class="col-9 mx-1 px-1 lh250">Stimmt so.</div></td>
 												<td>- Vielen</div> Dank.</td>
 										</tr>
 									</tbody>

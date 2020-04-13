@@ -74,14 +74,14 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table table-borderless table-striped text-center">
+							<table class="table table-borderless table-striped table-sm text-center">
 								<thead>
 									<tr>
-										<th scope="col">&nbsp;</th>
-										<th scope="col" class="text-primary">m</th>
-										<th scope="col" class="text-danger">f</th>
-										<th scope="col" class="text-purple">n</th>
-										<th scope="col" class="text-khaki">Pl</th>
+										<th scope="col" width="20%">&nbsp;</th>
+										<th scope="col" width="20%" class="text-primary">m</th>
+										<th scope="col" width="20%" class="text-danger">f</th>
+										<th scope="col" width="20%" class="text-purple">n</th>
+										<th scope="col" width="20%" class="text-khaki">Pl</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -108,14 +108,14 @@
 									</tr>
 								</tbody>
 							</table>
-							<table class="table table-borderless table-striped text-center">
+							<table class="table table-borderless table-striped table-sm text-center">
 								<thead>
 									<tr>
-										<th scope="col">&nbsp;</th>
-										<th scope="col" class="text-primary">m</th>
-										<th scope="col" class="text-danger">f</th>
-										<th scope="col" class="text-purple">n</th>
-										<th scope="col" class="text-khaki">Pl</th>
+										<th scope="col" width="20%">&nbsp;</th>
+										<th scope="col" width="20%" class="text-primary">m</th>
+										<th scope="col" width="20%" class="text-danger">f</th>
+										<th scope="col" width="20%" class="text-purple">n</th>
+										<th scope="col" width="20%" class="text-khaki">Pl</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -296,10 +296,10 @@
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Frohe Weihnachten!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Frohe Weihnachten!</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Gesegnete Weihnachten!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Gesegnete Weihnachten!</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -308,23 +308,23 @@
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Prosit Neujahr!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Prosit Neujahr!</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Guten Rutsch ins Neujahr!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Guten Rutsch ins Neujahr!</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Frohes neues Jahr!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Frohes neues Jahr!</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Gesegnetes neues Jahr!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Gesegnetes neues Jahr!</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Frohe Ostern!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Frohe Ostern!</div></div></td>
 										<td>&nbsp;</td>
 									</tr>
 								</tbody>
@@ -334,12 +334,12 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Alles Gute zum Geburtstag!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Alles Gute zum Geburtstag!</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Alles Liebe zum Geburtstag!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Alles Liebe zum Geburtstag!</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -348,12 +348,12 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Welches Datum haben wir heute?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Welches Datum haben wir heute?</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Heute ist der fünfzehnte August.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Heute ist der fünfzehnte August.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -362,12 +362,12 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wann hast du Geburtstag?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wann hast du Geburtstag?</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich habe im Juli/ im Sommer / am 30. Juli Geburtstag.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich habe im Juli/ im Sommer / am 30. Juli Geburtstag.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -376,12 +376,12 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wann bist du geboren?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wann bist du geboren?</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich bin am 30. Juli 2000 geboren.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich bin am 30. Juli 2000 geboren.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -390,7 +390,7 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Am fünfzehnten August ist unabhängiger Tag.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Am fünfzehnten August ist unabhängiger Tag.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -399,12 +399,12 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Welche Feiertage und Feste gibt es in Korea?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Welche Feiertage und Feste gibt es in Korea?</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Wir haben Neujahr, Kindertag, unabhängigen Tag, Chusuk etc.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Wir haben Neujahr, Kindertag, unabhängigen Tag, Chusuk etc.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -413,7 +413,7 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wie feiert man in Korea?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wie feiert man in Korea?</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -422,12 +422,12 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Mit wem feiern Sie?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Mit wem feiern Sie?</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Wir feiern mit Familie. / mit Verwandten. / mit Nachbarn. / mit Freunden.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Wir feiern mit Familie. / mit Verwandten. / mit Nachbarn. / mit Freunden.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -436,17 +436,17 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wo feiern Sie?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wo feiern Sie?</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Wir feiern zu Hause. / im Restaurant oder in der Kneipe. / draußen.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Wir feiern zu Hause. / im Restaurant oder in der Kneipe. / draußen.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Wir mieten einen Raum.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Wir mieten einen Raum.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -455,17 +455,17 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Was möchten Sie zum Geburtstag bekommen?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Was möchten Sie zum Geburtstag bekommen?</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich freue mich [nicht] über das Geschenk.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich freue mich [nicht] über das Geschenk.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich möchte zum Geburtstag (nicht) gern ein iPad haben.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich möchte zum Geburtstag (nicht) gern ein iPad haben.</div></div></td>
 									</tr>
 								</tbody>
 							</table>

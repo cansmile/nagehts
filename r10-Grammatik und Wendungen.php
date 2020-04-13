@@ -176,42 +176,42 @@
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Entschuldigung, wo kann man in Gartenstadt übernachten? Gibt es in der Nähe ein Hotel?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Entschuldigung, wo kann man in Gartenstadt übernachten? Gibt es in der Nähe ein Hotel?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Im Hotel Augustin.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Im Hotel Augustin.</div></div></td>
 									</tr>
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wo ist das, bitte?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wo ist das, bitte?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Das ist in der Mannesstraße.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Das ist in der Mannesstraße.</div></div></td>
 									</tr>
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Vielen Dank!</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Vielen Dank!</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Bitte sehr.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Bitte sehr.</div></div></td>
 									</tr>
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Entschuldigung, wo ist das Café Dornbusch, bitte?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Entschuldigung, wo ist das Café Dornbusch, bitte?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Zwischen dem Kino Megabox und dem Restaurant Maredo.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Zwischen dem Kino Megabox und dem Restaurant Maredo.</div></div></td>
 									</tr>
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Entschuldigung, wie komme ich denn zum Blumenladen Schön?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Entschuldigung, wie komme ich denn zum Blumenladen Schön?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Der ist in der Berlinstraße links. An der Ecke ist er.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Der ist in der Berlinstraße links. An der Ecke ist er.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -220,7 +220,7 @@
 									<tr>
 										<th class="text-left align-middle m-2 p-2" colspan="3"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">so kann man fragen</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">so kann man fragen</div></div></th>
 									</tr>
 									<tr>
 										<td width="30%" rowspan="3" class="align-middle">Entschuldigung,</td>
@@ -242,12 +242,12 @@
 									<tr>
 										<th class="text-left align-middle m-2 p-2" colspan="3"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">so kann man antworten</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">so kann man antworten</div></div></th>
 									</tr>
 									<tr>
 										<td rowspan="2" class="align-middle"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1 ">▶</button>
-										</div><div class="col-6 mx-1 px-1">Zuerst</div></div></td>
+										</div><div class="col-6 mx-1 px-1 lh250">Zuerst</div></div></td>
 										<td rowspan="2" class="align-middle">gehen Sie hier</td>
 										<td>rechts / links; bis zur Kreuzung / zur Ampel</td>
 									</tr>
@@ -257,7 +257,7 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-6 mx-1 px-1">Dann</div></div></td>
+										</div><div class="col-6 mx-1 px-1 lh250">Dann</div></div></td>
 										<td colspan="2">die erste / zweite / ... Straße links. / rechts.</td>
 									</tr>
 									<tr>

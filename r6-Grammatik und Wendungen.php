@@ -28,42 +28,42 @@
 										<td width="10%" class="text-center">→</td>
 										<td width="45%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Maria steht auf.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Maria steht auf.</div></div></td>
 									</tr>
 									<tr>
 										<td width="45%" class="text-center"><div class="row"><div class="col"><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>&nbsp;</div><div class="col-2 text-right pr-0">auf</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">räumen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Maria räumt auf.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Maria räumt auf.</div></div></td>
 									</tr>
 									<tr>
 										<td width="45%" class="text-center"><div class="row"><div class="col"><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>&nbsp;</div><div class="col-2 text-right pr-0">aus</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">leeren</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Maria leert den Mülleimer aus.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Maria leert den Mülleimer aus.</div></div></td>
 									</tr>
 									<tr>
 										<td width="45%" class="text-center"><div class="row"><div class="col"><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>&nbsp;</div><div class="col-2 text-right pr-0">ab</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">waschen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Maria wäscht ab.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Maria wäscht ab.</div></div></td>
 									</tr>
 									<tr>
 										<td width="45%" class="text-center"><div class="row"><div class="col"><button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>&nbsp;</div><div class="col-2 text-right pr-0">ein</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0">kaufen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Sie kauft ein.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Sie kauft ein.</div></div></td>
 									</tr>
 									<tr>
 										<td width="45%" class="text-center"><div class="row"><div class="col"><button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>&nbsp;</div><div class="col-2 text-right pr-0">fern</div><div class="col-1 text-center">|</div><div class="col-4 text-left pl-0"> sehen</div></div></td>
 										<td width="10%" class="text-center">→</td>
 										<td width="45%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Sie sieht fern.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Sie sieht fern.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -94,7 +94,7 @@
 									<tr>
 										<th scope="row"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Tom</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">Tom</div></div></th>
 										<td>steht</td>
 										<td>um 7 Uhr</td>
 										<td>auf.</td>
@@ -102,7 +102,7 @@
 									<tr>
 										<th scope="row"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Du</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">Du</div></div></th>
 										<td>räumst</td>
 										<td>das Zimmer</td>
 										<td>auf.</td>
@@ -110,7 +110,7 @@
 									<tr>
 										<th scope="row"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Maria</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">Maria</div></div></th>
 										<td>ruft</td>
 										<td>seine Freundin</td>
 										<td>an.</td>
@@ -118,7 +118,7 @@
 									<tr>
 										<th scope="row"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wir</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">Wir</div></div></th>
 										<td>gehen</td>
 										<td>heute Abend</td>
 										<td>aus.</td>
@@ -126,7 +126,7 @@
 									<tr>
 										<th scope="row"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Ich</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">Ich</div></div></th>
 										<td>kaufe</td>
 										<td>im Supermarkt</td>
 										<td>ein.</td>
@@ -134,7 +134,7 @@
 									<tr>
 										<th scope="row"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Ihr</div></div></th>
+										</div><div class="col-9 mx-1 px-1 lh250">Ihr</div></div></th>
 										<td>seht</td>
 										<td>abends</td>
 										<td>fern.</td>
@@ -159,28 +159,28 @@
 								<tr>
 									<td><div class="row"><div class="mx-1 px-1">
 										<button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-									</div><div class="col-9 mx-1 px-1">Wann gehen Sie zur Uni?</div></div></td>
+									</div><div class="col-9 mx-1 px-1 lh250">Wann gehen Sie zur Uni?</div></div></td>
 									<td><div class="row"><div class="mx-1 px-1">
 										<button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-									</div><div class="col-9 mx-1 px-1">Um 4 Uhr.</div></div></td>
+									</div><div class="col-9 mx-1 px-1 lh250">Um 4 Uhr.</div></div></td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
 									<td><div class="row"><div class="mx-1 px-1">
 										<button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-									</div><div class="col-9 mx-1 px-1">Am Morgen.</div></div></td>
+									</div><div class="col-9 mx-1 px-1 lh250">Am Morgen.</div></div></td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
 									<td><div class="row"><div class="mx-1 px-1">
 										<button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-									</div><div class="col-9 mx-1 px-1">Am Freitag.</div></div></td>
+									</div><div class="col-9 mx-1 px-1 lh250">Am Freitag.</div></div></td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
 									<td><div class="row"><div class="mx-1 px-1">
 										<button type="button" id="26" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-									</div><div class="col-9 mx-1 px-1">Von Montag bis Donnerstag.</div></div></td>
+									</div><div class="col-9 mx-1 px-1 lh250">Von Montag bis Donnerstag.</div></div></td>
 								</tr>
 							</table>
 						</div>
@@ -285,34 +285,34 @@
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Was machen Sie gern?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Was machen Sie gern?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="29" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich spiele gern am Computer.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich spiele gern am Computer.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="30" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Was machst du gern?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Was machst du gern?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich schlafe gern.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich schlafe gern.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="32" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Was machen Sie nicht gern?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Was machen Sie nicht gern?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="33" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich arbeite nicht gern.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich arbeite nicht gern.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="34" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Was machst du nicht gern?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Was machst du nicht gern?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="35" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Ich sehe nicht gern fern.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Ich sehe nicht gern fern.</div></div></td>
 									</tr>
 									<tr>
 										<td style="max-height: 10px; font-size: 1pt;" class="p-0 m-0" colspan="2">&nbsp;</td>
@@ -320,22 +320,22 @@
 									<tr>
 										<td colspan="2"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Deutsch lernen macht mir Spaß.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Deutsch lernen macht mir Spaß.</div></div></td>
 									</tr>
 									<tr>
 										<td colspan="2"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Musik hören macht mir Spaß.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Musik hören macht mir Spaß.</div></div></td>
 									</tr>
 									<tr>
 										<td colspan="2"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Kochen finde ich langweilig.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Kochen finde ich langweilig.</div></div></td>
 									</tr>
 									<tr>
 										<td colspan="2"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="39" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Einkaufen finde ich langweilig.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Einkaufen finde ich langweilig.</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -352,34 +352,34 @@
 									<tr>
 										<td width="50%"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="41" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Frühstück machen</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Frühstück machen</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="42" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">das Geschirr abwaschen und abtrocknen</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">das Geschirr abwaschen und abtrocknen</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="43" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">aufräumen</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">aufräumen</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="44" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Staub saugen</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Staub saugen</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="45" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">einkaufen</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">einkaufen</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="46" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">kochen</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">kochen</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="47" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">die Wäsche aufhängen</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">die Wäsche aufhängen</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="48" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">den Mülleimer ausleeren</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">den Mülleimer ausleeren</div></div></td>
 									</tr>
 								</tbody>
 							</table>
@@ -396,50 +396,52 @@
 									<tr>
 										<td colspan="2"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="50" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Mina steht um 7 Uhr auf.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Mina steht um 7 Uhr auf.</div></div></td>
 									</tr>
 									<tr>
 										<td colspan="2"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="51" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Um 9 Uhr morgens fährt sie zur Uni.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Um 9 Uhr morgens fährt sie zur Uni.</div></div></td>
 									</tr>
 									<tr>
 										<td colspan="2"><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="52" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Um 6 Uhr abends kommt sie wieder nach Hause.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Um 6 Uhr abends kommt sie wieder nach Hause.</div></div></td>
 									</tr>
 									<tr>
 										<td style="max-height: 10px; font-size: 1pt;" class="p-0 m-0" colspan="2">&nbsp;</td>
 									</tr>
 									<tr>
-										<td width="50%"><button type="button" id="53" class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wann gehst du zur Uni?</td>
+										<td width="50%"><div class="row"><div class="mx-1 px-1">
+											<button type="button" id="53" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+										</div><div class="col-9 mx-1 px-1">Wann gehst du zur Uni?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="54" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Am Morgen gehe ich zur Uni.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Am Morgen gehe ich zur Uni.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="55" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wann hast du Deutschunterricht?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wann hast du Deutschunterricht?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="56" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Um 9 Uhr habe ich Deutschunterricht.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Um 9 Uhr habe ich Deutschunterricht.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="57" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wann hast du Vorlesungen?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wann hast du Vorlesungen?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="58" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Von 9 bis 16 Uhr habe ich Vorlesungen.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Von 9 bis 16 Uhr habe ich Vorlesungen.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="59" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Wann fängt das Seminar an?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Wann fängt das Seminar an?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="60" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Um halb neun beginnt es.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Um halb neun beginnt es.</div></div></td>
 									</tr>
 									<tr>
 										<td style="max-height: 10px; font-size: 1pt;" class="p-0 m-0" colspan="2">&nbsp;</td>
@@ -447,18 +449,18 @@
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="61" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Um wie viel Uhr kommst du nach Hause?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Um wie viel Uhr kommst du nach Hause?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="62" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Um fünf Uhr komme ich nach Hause.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Um fünf Uhr komme ich nach Hause.</div></div></td>
 									</tr>
 									<tr>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="63" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">Von wann bis wann schläfst du?</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">Von wann bis wann schläfst du?</div></div></td>
 										<td><div class="row"><div class="mx-1 px-1">
 											<button type="button" id="64" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
-										</div><div class="col-9 mx-1 px-1">- Von 11 Uhr bis 6 Uhr schlafe ich.</div></div></td>
+										</div><div class="col-9 mx-1 px-1 lh250">- Von 11 Uhr bis 6 Uhr schlafe ich.</div></div></td>
 									</tr>
 								</tbody>
 							</table>

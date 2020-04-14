@@ -15,7 +15,7 @@
                     HV
                     </button>
                     </h2>
-                    <h3>[ <small>음성을 듣고 내용과 일치하는 문장을 선택하세요.<br><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장과 번역이 나옵니다.</small> ]</h3>
+                    <h3>[ <small>음성을 듣고 내용과 일치하는 문장을 선택하세요.<br><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장과 번역이 나옵니다.</small> ]</h3>
                 </div>
             </div>
             <div class="row">
@@ -300,8 +300,8 @@
             <!-- 정답확인 버튼 끝 -->
         </div>
     </section>
-    
-    
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

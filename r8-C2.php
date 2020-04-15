@@ -20,7 +20,7 @@
 					die Erkältung<span class="tran"><br><small>감기</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="4">
-					der Bauchschmerzen<span class="tran"><br><small>복통</small></span>
+					die Bauchschmerzen<span class="tran"><br><small>복통</small></span>
 				</button>
 				<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm so" id="5">
 					die Grippe<span class="tran"><br><small>독감</small></span>
@@ -363,10 +363,10 @@
 						"1": [13.06, 1.57],
 						"2": [17.07, 1.28],
 						"3": [20.54, 1.58],
-						"4": [24.47, 1.53],
+						"4": [24.47, 1.235],
 						"5": [28.07, 1.23],
 						"6": [31.61, 1.6]
-					}				
+					}
 				}
 				, {
 					name: "dingdongdang",
@@ -413,7 +413,7 @@
 						a = th.val();
 						a = a.replace(/ /gi, "");
 						if(!$.isArray(an[qn])) {
-							// 1 인 경우 
+							// 1 인 경우
 							if(io) {
 								b = an[qn];
 							} else {
@@ -434,12 +434,12 @@
 									b = an[qn][fd].substr(0,q);
 								}
 								b = b.replace(/ /gi, "");
-								
+
 								if(a == b) {
 									return true;
 								}
 							}
-							
+
 						}
 					}
 
@@ -464,7 +464,7 @@
 							$(this).removeClass("bg-success");
 							$(this).removeClass("text-white font-weight-bold");
 						}
-						
+
 						if($(this).val()) {
 							$("#ant-"+$(this).attr("id").substr(4)).show();
 							$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());

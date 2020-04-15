@@ -646,6 +646,7 @@
               "lmtime": 0,
               "modified": false
             },
+            ".vscode": {},
             "r10-E7c.php": {
               "type": "-",
               "size": 13448,

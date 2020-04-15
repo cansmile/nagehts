@@ -1,9 +1,14 @@
 <?php require "header.php"; ?>
 
+<<<<<<< HEAD
 <body>
   <?php require "nav.php"; ?>
   <!-- 알림 시작 -->
   <?php require_once "ready.php"; ?>
+=======
+<body> <?php require "nav.php"; ?>
+  <!-- 알림 시작 --> <?php require_once "ready.php"; ?>
+>>>>>>> c241c00c61dd04a4a3fec8f7d85d94fa08cfbf79
   <!-- 알림 끝 -->
   <section>
     <div class="container">

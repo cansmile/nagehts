@@ -32,7 +32,7 @@
 									<tbody>
 										<tr>
 											<td>
-												<<div class="row">
+												<div class="row">
 													<div class="mx-1 px-1">
 														<button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
 													</div>

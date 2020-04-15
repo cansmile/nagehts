@@ -11,11 +11,11 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>Richtig oder falsch? Markieren Sie.<br>
                     <small>어느 것이 옳은지 체크해보세요.</small>
-                    <button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                     HV
                     </button>
                     </h2>
-                    <h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+                    <h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
                 </div>
             </div>
             <div class="row">
@@ -43,7 +43,7 @@
                                         </div>
                                     </div>
                                     Tim.<span class="ans"></span><span class="tran"><br><small>나는 팀이라고 해.</small></span></span></td>
-                                <td rowspan="5" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A6-1.png" alt="Tim" style="max-width: 320px; height: auto;"></td>
+                                <td rowspan="5" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A6-1.png" alt="Tim" style="max-width: 320px; height: auto;"></td>
                             </tr>
                             <tr>
                                 <th scope="row"><button type="button" id="2" class="so btn btn-outline-danger">▶</button></th>
@@ -124,7 +124,7 @@
                                         </div>
                                     </div>
                                     Susi.<span class="ans"></span><span class="tran"><br><small>나는 수시야.</small></span></span></td>
-                                <th scope="row" rowspan="7" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A6-2.png" alt="Susi" style="max-width: 320px; height: auto;"></th>
+                                <th scope="row" rowspan="7" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A6-2.png" alt="Susi" style="max-width: 320px; height: auto;"></th>
                             </tr>
                             <tr>
                                 <th scope="row"><button type="button" id="7" class="so btn btn-outline-warning">▶</button></th>
@@ -225,7 +225,7 @@
                                         </div>
                                     </div>
                                     aus der Türkei.<span class="ans"></span><span class="tran"><br><small>나는 터키출신이야.</small></span></span></td>
-                                <td rowspan="5" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A6-3.png" alt="Wie" style="max-width: 320px; height: auto;"></td>
+                                <td rowspan="5" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A6-3.png" alt="Wie" style="max-width: 320px; height: auto;"></td>
                             </tr>
                             <tr>
                                 <th scope="row"><button type="button" id="14" class="so btn btn-outline-primary">▶</button></th>
@@ -295,11 +295,11 @@
 
         <div id="last" class="d-none"></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?=$root ?>js/popper.min.js"></script>
-    <script src="./<?=$root ?>js/bootstrap.js"></script>
-    <script src="./<?=$root ?>js/howler.core.js"></script>
+    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
+    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./{$root}oxsound.php"); ?>
     <script>
@@ -322,7 +322,7 @@
 
             // 문제 재생
             var nagehts = new Howl({
-                src: ["./<?=$root ?>sounds/Reihe 2/r2 A6.mp3"],
+                src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 A6.mp3"],
                 sprite : {
                     "0": [978, 76196],
                     "1": [7482, 1779],
@@ -408,7 +408,7 @@
                                         $(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success font-weight-bold");
                                         $(this).closest(".sen").find(".nu").text($.trim($(this).text()));
                                     } else if ($(this).hasClass("o")) {
-                                        $(this).addClass("btn-<?=$color ?>");
+                                        $(this).addClass("btn-<?php echo($color); ?>");
                                         $(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
                                         $(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
                                         $(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");

@@ -18,10 +18,10 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-1.png" alt="Was macht er gern?" style="max-width: 240px; max-height: 120px;"></td>
-                                <td class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-2.png" alt="Was macht er gern?" style="max-width: 240px; max-height: 120px;"></td>
-                                <td class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-4.png" alt="Was macht er gern?" style="max-width: 120px; max-height: 120px;"></td>
-                                <td class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-3.png" alt="Was macht er gern?" style="max-width: 120px; max-height: 120px;"></td>
+                                <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-1.png" alt="Was macht er gern?" style="max-width: 240px; max-height: 120px;"></td>
+                                <td class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-2.png" alt="Was macht er gern?" style="max-width: 240px; max-height: 120px;"></td>
+                                <td class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-4.png" alt="Was macht er gern?" style="max-width: 120px; max-height: 120px;"></td>
+                                <td class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-3.png" alt="Was macht er gern?" style="max-width: 120px; max-height: 120px;"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -77,10 +77,10 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-5.png" alt="Was macht er nicht gern?" style="max-width: 240px; max-height: 120px;"></td>
-                                <td class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-6.png" alt="Was macht er nicht gern?" style="max-width: 240px; max-height: 120px;"></td>
-                                <td class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-7.png" alt="Was macht er nicht gern?" style="max-width: 120px; max-height: 120px;"></td>
-                                <td class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A2-8.png" alt="Was macht er nicht gern?" style="max-width: 120px; max-height: 120px;"></td>
+                                <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-5.png" alt="Was macht er nicht gern?" style="max-width: 240px; max-height: 120px;"></td>
+                                <td class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-6.png" alt="Was macht er nicht gern?" style="max-width: 240px; max-height: 120px;"></td>
+                                <td class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-7.png" alt="Was macht er nicht gern?" style="max-width: 120px; max-height: 120px;"></td>
+                                <td class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A2-8.png" alt="Was macht er nicht gern?" style="max-width: 120px; max-height: 120px;"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -167,12 +167,12 @@
             <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
             <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+            <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="./<?=$root ?>js/popper.min.js"></script>
-            <script src="./<?=$root ?>js/bootstrap.js"></script>
-            <script src="./<?=$root ?>js/taptogrouph.js"></script>
-            <script src="./<?=$root ?>js/howler.core.js"></script>
+            <script src="./<?php echo($root); ?>js/popper.min.js"></script>
+            <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+            <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+            <script src="./<?php echo($root); ?>js/howler.core.js"></script>
             <!-- 맞고 틀리는지 소리 -->
             <?php require_once("./{$root}oxsound.php"); ?>
             <script>

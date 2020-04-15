@@ -16,7 +16,7 @@
 <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
 		<div class="row">
-			<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark so itm" id="1">
 					Ach so! Dann höre ich auf.<span class="tran">&nbsp;<small>아 그래요! 그럼 그만할게요.</small></span>
@@ -48,9 +48,9 @@
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>순서에 맞게 노란 단추를 눌러 넣세요.</small> ]
-						<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
+						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
 						</h2>
@@ -142,13 +142,13 @@
 
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?=$root ?>js/popper.min.js"></script>
-		<script src="./<?=$root ?>js/bootstrap.js"></script>
-		<script src="./<?=$root ?>js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -183,7 +183,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "<?=$root ?>sounds/Reihe 7/",
+					path : "<?php echo($root); ?>sounds/Reihe 7/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

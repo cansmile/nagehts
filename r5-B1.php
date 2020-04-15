@@ -11,11 +11,11 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>Hören Sie und sprechen Sie nach.<br>
 					<small>듣고 따라 하세요.</small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -84,11 +84,11 @@
 	<div id="last" class="d-none"></div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<script>
 		$(".tran").hide();
 		// 소리 출력 전역 변수와 함수
@@ -108,8 +108,8 @@
 			);
 		}
 		var nagehts=new Howl( {
-			// src: ["./<?=$root ?>sounds/Reihe 1/r1 H.mp3"],
-			src: ["./<?=$root ?>sounds/Reihe 5/r5 B1.mp3"],
+			// src: ["./<?php echo($root); ?>sounds/Reihe 1/r1 H.mp3"],
+			src: ["./<?php echo($root); ?>sounds/Reihe 5/r5 B1.mp3"],
 			sprite : {
 				"0": [2696, 51238],
 					"1": [17616, 2326],

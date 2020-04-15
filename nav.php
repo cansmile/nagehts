@@ -1,4 +1,4 @@
-<!-- 넵바 시작 -->	  
+<!-- 넵바 시작 -->
 <?php
 // 당분간 필요한 변수
 $lt = 4; // 제목 데쉬 이후의 글자 수 제한
@@ -157,7 +157,7 @@ $rtl_k = array(
 		"B" => array("B1" => "저는 한국(여)인입니다."),
 		"C" => array("C1" => "빈칸을 채우세요.", "C2" => "빈칸을 채우세요."),
 		"D" => array("D1" => "빈칸에 알맞은 대륙 이름을 넣어보세요.", "D2" => "듣고 따라 하세요.", "D3" => "질문에 대답하세요."),
-		"E" => array("E1" => "출생지", "E2" => "맞춰보세요! 이것은 어디에 있나요?", "E3" => "빈칸을 채우세요.", "E4" => "문장을 만들고 동사에 표시하세요.", "E5" => "맞는 답끼리 연결하세요.", "E6" => "질문을 
+		"E" => array("E1" => "출생지", "E2" => "맞춰보세요! 이것은 어디에 있나요?", "E3" => "빈칸을 채우세요.", "E4" => "문장을 만들고 동사에 표시하세요.", "E5" => "맞는 답끼리 연결하세요.", "E6" => "질문을
 			채우세요.")
 	),
 	3 =>
@@ -363,12 +363,12 @@ if($fn != "inthebeginning") {
 			}
 
 ?>
-					<h2>(교재 <span class="bg-<?=$color ?> p-1 px-2 m-1 rounded text-white"><strong><?php echo($da); ?></strong></span>)</h2>
+					<h2>(교재 <span class="bg-<?php echo($color); ?> p-1 px-2 m-1 rounded text-white"><strong><?php echo($da); ?></strong></span>)</h2>
 <?php
 		}
 	} else {
 // 이건 확실하게 대단원
-?>	
+?>
 					<h1 class="display-4"><?php echo($jt0); ?></h1>
 					<h2><?php echo($jt1); ?><br><small><?php echo($jt2); ?></small></h2>
 <?php

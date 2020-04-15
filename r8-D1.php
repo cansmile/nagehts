@@ -5,7 +5,7 @@
 <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
 		<div class="row">
-			<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3" id="1">
 					a
@@ -35,10 +35,10 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 						<div class="row">
-							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>a</strong></span><br><img src="./<?=$root ?>images/Reihe 8/Reihe-8-D1-1.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>b</strong></span><br><img src="./<?=$root ?>images/Reihe 8/Reihe-8-D1-3.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>c</strong></span><br><img src="./<?=$root ?>images/Reihe 8/Reihe-8-D1-2.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
-							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>d</strong></span><br><img src="./<?=$root ?>images/Reihe 8/Reihe-8-D1-4.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>a</strong></span><br><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-D1-1.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>b</strong></span><br><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-D1-3.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>c</strong></span><br><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-D1-2.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
+							<div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;"><span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>d</strong></span><br><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-D1-4.png" alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -106,13 +106,13 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?=$root ?>js/popper.min.js"></script>
-<script src="./<?=$root ?>js/bootstrap.js"></script>
-<script src="./<?=$root ?>js/taptogroup.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 <!-- interact.min.js -->
-<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 $(".tran").hide();
 $("#chk").hide();

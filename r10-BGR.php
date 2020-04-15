@@ -30,7 +30,7 @@
 							<tr>
 								<td class="border-0 text-center">
 									<div class="border border-dark rounded p-2 mx-auto">
-										<img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-1.png" alt="Wechselpräpositionen" style="max-width: 100%; height: auto;"><br>
+										<img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-1.png" alt="Wechselpräpositionen" style="max-width: 100%; height: auto;"><br>
 										Der Hund geht zur Katze. Er sitzt neben ihr.<br><small>그 강아지가 고양이에게 간다. 강아지는 고양이 곁에 앉아 있다.</small>
 									</div>
 								</td>
@@ -50,7 +50,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-2.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-2.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~위로, 위에</small>
 								</td>
 							</tr>
@@ -68,7 +68,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-3.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-3.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~안으로, 안에</small>
 								</td>
 							</tr>
@@ -86,7 +86,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-4.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-4.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~가로, 가에, ~측면에</small>
 								</td>
 							</tr>
@@ -104,7 +104,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-5.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-5.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~뒤로, 뒤에</small>
 								</td>
 							</tr>
@@ -122,7 +122,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-6.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-6.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~앞으로, 앞에</small>
 								</td>
 							</tr>
@@ -140,7 +140,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-7.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-7.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~위로, 위에</small>
 								</td>
 							</tr>
@@ -158,7 +158,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-8.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-8.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~옆으로, 옆에</small>
 								</td>
 							</tr>
@@ -176,7 +176,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-9.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-9.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~사이로, 사이에</small>
 								</td>
 							</tr>
@@ -194,7 +194,7 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-BGR-10.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
+								<td class="border-0 text-center" width="120" rowspan="2"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-10.png" alt="Präpositionmen des Ortes" style="max-width: 100%; height: auto;"></td>
 								<td class="border-0"><small>(공간) ~아래로, 아래에</small>
 								</td>
 							</tr>
@@ -289,11 +289,11 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();

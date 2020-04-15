@@ -57,7 +57,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
 						<div class="row">
-							<div class="col text-center align-middle"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-C1.png" alt="schmerzen" style="max-width: 240px; height: auto;"></div>
+							<div class="col text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-C1.png" alt="schmerzen" style="max-width: 240px; height: auto;"></div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -136,13 +136,13 @@
 
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?=$root ?>js/popper.min.js"></script>
-		<script src="./<?=$root ?>js/bootstrap.js"></script>
-		<script src="./<?=$root ?>js/taptogroupnomove.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
 		<!-- interact.min.js -->
-		<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
 			$(".ant").hide();

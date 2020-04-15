@@ -11,7 +11,7 @@
 						<h2>Hören Sie und sprechen Sie nach.<br>
 							<p>
 								듣고 따라하세요
-							<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+							<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
 						</button>
 						</p>
@@ -20,7 +20,7 @@
 
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 들으면 해당 음성이 재생됩니다. 단어를 누르면 그림이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 들으면 해당 음성이 재생됩니다. 단어를 누르면 그림이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 
@@ -34,7 +34,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-1.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-1.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -46,7 +46,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-2.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-2.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -58,7 +58,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-3.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-3.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -70,7 +70,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-4.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-4.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -82,7 +82,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-5.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-5.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -94,7 +94,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-6.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-6.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -106,7 +106,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-7.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-7.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -118,7 +118,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-8.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-8.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -130,7 +130,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-9.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-9.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 					<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0 border-0">
@@ -142,7 +142,7 @@
 							</h5>
 						</div>
 						<div class="collapse border-0" id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionitms">
-							<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-F1-10.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
+							<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-10.png" style="max-width: 100%; height: auto;" class="d-block mx-auto">
 						</div>
 					</div>
 				</div>
@@ -152,11 +152,11 @@
 <div id="last" class="d-none"></div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?=$root ?>js/popper.min.js"></script>
-		<script src="./<?=$root ?>js/bootstrap.js"></script>
-		<script src="./<?=$root ?>js/howler.core.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once("./{$root}oxsound.php"); ?>
 		<script>
@@ -182,7 +182,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./<?=$root ?>sounds/Reihe 1/r1 F1.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 1/r1 F1.mp3"],
 	sprite : {
 		"0": [242, 34112],
 		"1": [11116, 1428],

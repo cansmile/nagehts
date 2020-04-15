@@ -10,14 +10,14 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>Ergänzen Sie.
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
 					<small>빈칸을 채우세요.</small></h2>
 
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.<br />그림을 눌러도 들을 수 있습니다.</small> ]</h3>
+						<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.<br />그림을 눌러도 들을 수 있습니다.</small> ]</h3>
 						<h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인 문장이 붉게 변합니다.</small> ]</h3>
 						<h3>[ <small>같은 줄에 있는 답안에 정답을 입력하면 다른 답안은 자동으로 채워집니다.</small> ]</h3>
 					</div>
@@ -33,7 +33,7 @@
 										<td>1</td>
 									</tr>
 									<tr>
-										<td><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-1.png" style="max-width:100%;height:auto;" class="so" id="7"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-1.png" style="max-width:100%;height:auto;" class="so" id="7"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -50,7 +50,7 @@
 										<td>2</td>
 									</tr>
 									<tr>
-										<td><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-2.png" style="max-width:100%;height:auto;" class="so" id="6"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-2.png" style="max-width:100%;height:auto;" class="so" id="6"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -67,7 +67,7 @@
 										<td>3</td>
 									</tr>
 									<tr>
-										<td><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-3.png" style="max-width:100%;height:auto;" class="so" id="1"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-3.png" style="max-width:100%;height:auto;" class="so" id="1"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -84,7 +84,7 @@
 										<td>4</td>
 									</tr>
 									<tr>
-										<td><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-4.png" style="max-width:100%;height:auto;" class="so" id="2"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-4.png" style="max-width:100%;height:auto;" class="so" id="2"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -101,7 +101,7 @@
 										<td>5</td>
 									</tr>
 									<tr>
-										<td><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-5.png" style="max-width:100%;height:auto;" class="so" id="5"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-5.png" style="max-width:100%;height:auto;" class="so" id="5"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -118,7 +118,7 @@
 										<td>6</td>
 									</tr>
 									<tr>
-										<td><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-6.png" style="max-width:100%;height:auto;" class="so" id="3"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-6.png" style="max-width:100%;height:auto;" class="so" id="3"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -135,7 +135,7 @@
 										<td>7</td>
 									</tr>
 									<tr>
-										<td><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-7.png" style="max-width:100%;height:auto;" class="so" id="4"></td>
+										<td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-7.png" style="max-width:100%;height:auto;" class="so" id="4"></td>
 									</tr>
 									<tr>
 										<td class="align-middle">
@@ -396,11 +396,11 @@ border-
 	</section>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -430,7 +430,7 @@ border-
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?=$root ?>sounds/Reihe 4/r4 A1.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 A1.mp3"],
 			sprite: {
 				"0": [1295, 41265],
 				"1": [11970, 2700],

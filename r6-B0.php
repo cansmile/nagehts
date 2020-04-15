@@ -12,7 +12,7 @@
     <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 1; width: 100%;" id="wahl">
         <div class="container">
             <div class="row">
-                <div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+                <div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
                 <div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm py-0 my-0 so" id="1">
                     zwei Uhr fünfundfünfzig.
@@ -75,15 +75,15 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                    <button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                     HV
                     </button>
                     </h2>
-                    <h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료해도 문장의 번역이 나오지 않습니다.</small> ]</h3>
+                    <h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료해도 문장의 번역이 나오지 않습니다.</small> ]</h3>
                 </div>
             </div>
             <div class="row">
-                <dov class="col"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-B0.png" alt="Wie spät ist es?" style="max-width: 100%; height: auto;"></dov>
+                <dov class="col"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-B0.png" alt="Wie spät ist es?" style="max-width: 100%; height: auto;"></dov>
             </div>
             <div class="row">
                 <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0">
@@ -533,7 +533,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-GR.png" alt="GR" style="max-width: 100%; height: auto;"></td>
+                                <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-GR.png" alt="GR" style="max-width: 100%; height: auto;"></td>
                             </tr>
                             <tr>
                                 <td class="bg-light">
@@ -594,12 +594,12 @@
 <div id="marg"></div>
 <div id="last" class="d-none"></div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?=$root ?>js/popper.min.js"></script>
-<script src="./<?=$root ?>js/bootstrap.js"></script>
-<script src="./<?=$root ?>js/taptogrouph.js"></script>
-<script src="./<?=$root ?>js/howler.core.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once("./{$root}oxsound.php"); ?>
 <script>

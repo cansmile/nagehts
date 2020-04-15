@@ -14,7 +14,7 @@
 <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
 		<div class="row">
-			<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
 					das Auge, -n<span class="tran">&nbsp;<small>눈</small></span>
@@ -81,9 +81,9 @@
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>단어를 누르면 소리가 납니다.</small> ]
-						<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+						<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
+						</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
 						</h2>
@@ -100,7 +100,7 @@
 											▼ </h2>
 										</div>
 									</td>
-									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1">
@@ -173,7 +173,7 @@
 						<table class="table">
 							<tbody>
 								<tr>
-									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
 									<td width="50%" class="border-0 align-middle p-0 m-1">
 										<div class="itm-lst 1itm" id="lst-10">
 											<h2 class="btn btn-warning btn-xl ttl d-block">
@@ -263,13 +263,13 @@
 		<div id="marg"></div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?=$root ?>js/popper.min.js"></script>
-		<script src="./<?=$root ?>js/bootstrap.js"></script>
-		<script src="./<?=$root ?>js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -316,7 +316,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "<?=$root ?>sounds/Reihe 8/",
+					path : "<?php echo($root); ?>sounds/Reihe 8/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

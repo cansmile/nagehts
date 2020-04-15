@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" id="1" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm">
 					der se<strong>ch</strong>zehnte
@@ -39,13 +39,13 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Sie und ergänzen Sie.<br>
 					<small>듣고 채우세요.</small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
+					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 각 항목에 맞는 단어를 짝지우세요.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 각 항목에 맞는 단어를 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -480,13 +480,13 @@
 	<div id="marg"></div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogroup.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -606,14 +606,14 @@
 				}
 				, {
 					name: "dingdongdang",
-						path: "<?=$root ?>sounds/",
+						path: "<?php echo($root); ?>sounds/",
 				}
 				, {
 					name: "Cartoon_Boing",
-						path: "<?=$root ?>sounds/",
+						path: "<?php echo($root); ?>sounds/",
 				}
 				],
-				path : "<?=$root ?>sounds/Reihe 9/",
+				path : "<?php echo($root); ?>sounds/Reihe 9/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

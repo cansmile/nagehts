@@ -1,5 +1,3 @@
-/p.cmd
+*.cmd
 /Nagehts.sublime-project
-/pp.cmd
-/r.cmd
-/d.cmd
+.vscode/ftp-kr.diff*

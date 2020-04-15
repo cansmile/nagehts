@@ -11,10 +11,10 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>Hören Sie und sprechen Sie nach.<br>
 					<small>듣고 따라 하세요.</small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					<h3>[ <small>그림을 누르면 그림에 대한 음성이 재생됩니다.</small> ]</h3>
 					<h3>[ <small>듣고 알맞은 단어를 선택하세요.</small> ]</h3>
 					</h2>
@@ -31,7 +31,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td colspan="3"><img src="./<?=$root ?>images/Reihe 3/Reihe3-A-A1-1.png" alt="Das ist meine Familie." usemap="#image-map1">
+								<td colspan="3"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-1.png" alt="Das ist meine Familie." usemap="#image-map1">
 								</td>
 							</tr>
 						</tbody>
@@ -49,7 +49,7 @@
 							<tr>
 								<th scope="row"><button type="button" id="3" class="so btn btn-outline-primary">▶</button></th>
 								<td>Das bin ich.<span class="tran"><br><small>저에요.</small></span></td>
-								<td rowspan="3" width="240"><img src="./<?=$root ?>images/Reihe 3/Reihe3-A-A1-2.png" id="21" class="so" style="width: auto; max-height: 140px;" alt="Das ist meine Familie."></td>
+								<td rowspan="3" width="240"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-2.png" id="21" class="so" style="width: auto; max-height: 140px;" alt="Das ist meine Familie."></td>
 							</tr>
 							<tr>
 								<th scope="row"><button type="button" id="4" class="so btn btn-outline-primary">▶</button></th>
@@ -92,7 +92,7 @@
 									</div>
 									</div>Sohn.<span class="ans"></span></span><span class="tran"><br><small>제 아들이에요.</small></span>
 								</td>
-								<td rowspan="4" width="240"><img src="./<?=$root ?>images/Reihe 3/Reihe3-A-A1-3.png" style="width: auto; max-height: 140px;" id="22" class="so" alt="Das ist meine Familie.">
+								<td rowspan="4" width="240"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-3.png" style="width: auto; max-height: 140px;" id="22" class="so" alt="Das ist meine Familie.">
 								</td>
 							</tr>
 							<tr>
@@ -159,7 +159,7 @@
 								</div>
 								</div>Vater.<span class="ans"></span></span><span class="tran"><br><small>제 아버지에요.</small></span>
 							</td>
-							<td rowspan="3" width="240"><img src="./<?=$root ?>images/Reihe 3/Reihe3-A-A1-4.png" style="width: auto; max-height: 140px;" id="23" class="so" alt="Das ist meine Familie."></td>
+							<td rowspan="3" width="240"><img src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-4.png" style="width: auto; max-height: 140px;" id="23" class="so" alt="Das ist meine Familie."></td>
 						</tr>
 						<tr>
 							<th scope="row"><button type="button" id="13" class="so btn btn-outline-info">▶</button></th>
@@ -210,11 +210,11 @@
 <area id="20" class="so" alt="ich" title="ich" coords="350,62,346,54,366,36,393,36,402,40,402,28,417,46,424,36,424,52,434,58,432,82,437,87,436,101,426,107,429,117,426,112,424,128,413,144,402,149,406,160,432,172,451,188,462,218,464,254,440,253,352,250,346,223,327,212,331,186,344,182,346,191,357,177,357,166,385,161,380,149,366,144,357,134,347,112,339,101,347,87" shape="poly">
 </map>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?=$root ?>js/popper.min.js"></script>
-<script src="./<?=$root ?>js/bootstrap.js"></script>
-<script src="./<?=$root ?>js/howler.core.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once("./{$root}oxsound.php"); ?>
 <script>
@@ -241,7 +241,7 @@ $(document).ready(function() {
 	}
 	// 문제 재생
 	var nagehts=new Howl( {
-		src: [ "./<?=$root ?>sounds/Reihe 3/r3 A1.mp3"],
+		src: [ "./<?php echo($root); ?>sounds/Reihe 3/r3 A1.mp3"],
 		sprite: {
 			"0": [699, 66081],
 				"1": [13071, 2420],
@@ -335,7 +335,7 @@ $(document).ready(function() {
 							$(this).closest(".sen").find(".nu").text($.trim($(this).text()));
 						}
 						else if ($(this).hasClass("o")) {
-							$(this).addClass("btn-<?=$color ?>");
+							$(this).addClass("btn-<?php echo($color); ?>");
 							$(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
 							$(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger font-weight-bold");
 							$(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2");

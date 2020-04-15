@@ -15,7 +15,7 @@
 							HV
 						</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
 							❚❚
-						</button>						
+						</button>
 						</h2>
 					</div>
 				</div>
@@ -202,9 +202,9 @@
 
 		</div>
 	</section>
-		
 
-		
+
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -230,7 +230,7 @@
 						name : "r8 C4",
 
 						sprite : {
-							"0": [2.9,68.22],
+							"0": [2.469, 68.337],
 							"1": [8.97,19.86],
 							"2": [31.82,22.85],
 							"3": [57.09,14.29]
@@ -246,7 +246,7 @@
 					preload : true,
 					volume : 1.0,
 					multiplay: false,
-					
+
 					ended_callback: function(obj) {
 						// 재생이 끝날 때 2번 이상이면 번역 보이기
 						hmn = obj.part;
@@ -266,15 +266,15 @@
 								$("#"+obj.part).html("▶");
 							}
 
-							if(hm[hmn] > 1) {								
-								$("#"+hmn).closest("tr").find(".tran").show();		
+							if(hm[hmn] > 1) {
+								$("#"+hmn).closest("tr").find(".tran").show();
 							}
 
 
 						}
 
 					}, ready_callback: function () {
-						
+
 				$(".o").on("click", function() {
 					ion.sound.play("dingdongdang");
 				});
@@ -289,7 +289,7 @@
 					},
 					container : "body"
 				});
-			
+
 				$(".pop").click(function () {
 					// 가장 먼저 지문에 'an' 넣기
 					if (!$(this).siblings().hasClass("an")) {
@@ -297,13 +297,13 @@
 						$(this).addClass("btn-warning");
 						$(this).parent().children().removeClass("btn-light");
 					};
-	
+
 					// 문제 풀이 정도 업데이트
 					var perc = Math.round(($(".an").length / $(".q").length) * 100);
 					$(".progress>.bar").attr("width", perc + "%;");
-					
+
 				});
-				
+
 			// 팝업 내용 사라지기
 			$(".pop").popover().click(function() {
 				setTimeout(function() {
@@ -386,7 +386,7 @@
 								$(this).addClass("btn-light");
 							};
 
-							
+
 						});
 
 
@@ -433,7 +433,7 @@
 			}
 
 });
-			
+
 		</script>
 		<!-- ion.sound finished -->
 <?php include "footer.php"; ?>

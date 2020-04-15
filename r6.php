@@ -28,9 +28,9 @@
 
 <?php require "footer.php"; ?>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?=$root ?>js/popper.min.js"></script>
-    <script src="./<?=$root ?>js/bootstrap.js"></script>
+    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
+    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
   </body>
 </html>

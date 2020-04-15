@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="1">
 					Arzt
@@ -55,11 +55,11 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Ergänzen Sie. <br>
 					<small>알맞은 직업을 채우세요.</small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -67,7 +67,7 @@
 					<table class="table table-borderless table-striped">
 						<thead>
 							<tr>
-								<th scope="col" colspan="2" class="text-center"><img src="./<?=$root ?>images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" colspan="2" class="text-center"><img src="./<?php echo($root); ?>images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
 							</tr>
 						</thead>
 						<tbody>
@@ -162,7 +162,7 @@
 					<table class="table table-borderless table-striped">
 						<thead>
 							<tr>
-								<th scope="col" colspan="2" class="text-center"><img src="./<?=$root ?>images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" colspan="2" class="text-center"><img src="./<?php echo($root); ?>images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
 							</tr>
 						</thead>
 						<tbody>
@@ -251,8 +251,8 @@
 					<table class="table table-borderless table-striped text-center">
 						<thead>
 							<tr>
-								<th scope="col" class="text-primary"><img src="./<?=$root ?>images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
-								<th scope="col" class="text-danger"><img src="./<?=$root ?>images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" class="text-primary"><img src="./<?php echo($root); ?>images/sym_mann.png" alt="mann" style="max-height: 140px; width: auto;"> </th>
+								<th scope="col" class="text-danger"><img src="./<?php echo($root); ?>images/sym_frau.png" alt="frau" style="max-height: 140px; width: auto;"> </th>
 							</tr>
 						</thead>
 						<tbody>
@@ -311,12 +311,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogrouph.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -343,7 +343,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?=$root ?>sounds/Reihe 3/r3 D5.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 3/r3 D5.mp3"],
 			sprite: {
 				"0": [1713, 49867],
 				"1": [27745, 1234],

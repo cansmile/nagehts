@@ -11,11 +11,11 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Hören Sie und wählen Sie aus.
                     <small><br> 듣고 선택하세요.</small>
-                    <button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                     HV
                     </button>
                     </h2>
-                    <h3>[ <small>음성을 듣고 내용과 일치하는 문장을 선택하세요.<br><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장과 번역이 나옵니다.</small> ]</h3>
+                    <h3>[ <small>음성을 듣고 내용과 일치하는 문장을 선택하세요.<br><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 <br>문장과 번역이 나옵니다.</small> ]</h3>
                 </div>
             </div>
             <div class="row">
@@ -23,7 +23,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-1.png" alt="a. Ich fahre gern Rad." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-1.png" alt="a. Ich fahre gern Rad." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -45,7 +45,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-2.png" alt="b. Ich lese gern Bücher." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-2.png" alt="b. Ich lese gern Bücher." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -67,7 +67,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-3.png" alt="c. Ich spiele gern Fußball." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-3.png" alt="c. Ich spiele gern Fußball." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -89,7 +89,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-4.png" alt="d. Ich fahre gern Auto." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-4.png" alt="d. Ich fahre gern Auto." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -114,7 +114,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-5.png" alt="a. Ich schlafe gern." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-5.png" alt="a. Ich schlafe gern." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -136,7 +136,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-6.png" alt="b. Ich esse gern." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-6.png" alt="b. Ich esse gern." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -158,7 +158,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-7.png" alt="c. Ich gehe gern einkaufen." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-7.png" alt="c. Ich gehe gern einkaufen." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -180,7 +180,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-8.png" alt="d. Ich arbeite gern." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-8.png" alt="d. Ich arbeite gern." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -205,7 +205,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-9.png" alt="a. Ich koche gern." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-9.png" alt="a. Ich koche gern." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -227,7 +227,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-10.png" alt="b. Ich treffe gern Freunde." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-10.png" alt="b. Ich treffe gern Freunde." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -249,7 +249,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-11.png" alt="c. Ich schwimme gern." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-11.png" alt="c. Ich schwimme gern." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -271,7 +271,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tr>
-                            <td height="300" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-A1-12.png" alt="d. Ich putze gern." style="max-height: 240px; max-width: 240px;"></td>
+                            <td height="300" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-12.png" alt="d. Ich putze gern." style="max-height: 240px; max-width: 240px;"></td>
                         </tr>
                         <tr>
                             <td class="text-center align-middle">
@@ -303,11 +303,11 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?=$root ?>js/popper.min.js"></script>
-    <script src="./<?=$root ?>js/bootstrap.js"></script>
-    <script src="./<?=$root ?>js/howler.core.js"></script>
+    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
+    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./{$root}oxsound.php"); ?>
     <script>

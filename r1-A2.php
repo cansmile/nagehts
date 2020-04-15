@@ -45,7 +45,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div id="itms">
 					<button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 so itm" id="1">
 					Guten Morgen!<span class="tran"><br><small>아침인사</small></span>
@@ -80,36 +80,36 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>단어를 넣을 때는 그림을 누르세요.</h2>
 					<h3>[ <small>단어를 알맞은 그림에 짝지우세요. 다중 선택이 되지만 그림 하나에 단어 하나만 배치됩니다.</small> ]
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
 			<!-- 아이템들 끝 -->
 			<!-- 리스트 시작 -->
 			<div class="row" id="lsts">
 				<div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3" id="lst-1">
-					<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-A2-1.png" style="width: 100%; height: auto;" class="my-4 ttl">
+					<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-1.png" style="width: 100%; height: auto;" class="my-4 ttl">
 				</div>
 				<div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3" id="lst-2">
-					<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-A2-2.png" style="width: 100%; height: auto;" class="my-4 ttl">
+					<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-2.png" style="width: 100%; height: auto;" class="my-4 ttl">
 				</div>
 				<div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3" id="lst-3">
-					<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-A2-3.png" style="width: 100%; height: auto;" class="my-4 ttl">
+					<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-3.png" style="width: 100%; height: auto;" class="my-4 ttl">
 				</div>
 				<div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3" id="lst-4">
-					<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-A2-4.png" style="width: 100%; height: auto;" class="my-4 ttl">
+					<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-4.png" style="width: 100%; height: auto;" class="my-4 ttl">
 				</div>
 				<div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3" id="lst-5">
-					<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-A2-5.png" style="width: 100%; height: auto;" class="my-4 ttl">
+					<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-5.png" style="width: 100%; height: auto;" class="my-4 ttl">
 				</div>
 				<div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3" id="lst-6">
-					<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-A2-6.png" style="width: 100%; height: auto;" class="my-4 ttl">
+					<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-6.png" style="width: 100%; height: auto;" class="my-4 ttl">
 				</div>
 				<div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3" id="lst-7">
-					<img src=".\<?=$root ?>images\Reihe 1\Reihe-1-A2-7.png" style="width: 100%; height: auto;" class="my-4 ttl">
+					<img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-7.png" style="width: 100%; height: auto;" class="my-4 ttl">
 				</div>
 			</div>
 			<!-- 리스트 끝 -->
@@ -256,12 +256,12 @@
 	<div id="marg"></div>
 	<!-- 정답확인 버튼 끝 -->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogrouph.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -287,7 +287,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./<?=$root ?>sounds/Reihe 1/r1 A2.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 1/r1 A2.mp3"],
 	sprite : {
 		"0": [345, 22869],
 		"1": [6171, 1949],

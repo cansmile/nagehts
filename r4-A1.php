@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="1">
 					das Apartment (das Hochhaus)<span class="tran"><br><small>아파트</small></span>
@@ -42,11 +42,11 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Welche Wohnform ist das? <br>
 					<small>어떤 집 형태인가요?</small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.<br />그림을 눌러도 들을 수 있습니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.<br />그림을 눌러도 들을 수 있습니다.</small> ]</h3>
 				</div>
 			</div>
 
@@ -55,7 +55,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-1.png" style="max-width:240px; height: auto;" class="so" id="8"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-1.png" style="max-width:240px; height: auto;" class="so" id="8"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -72,7 +72,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-2.png" style="max-width:240px; height: auto;" class="so" id="9"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-2.png" style="max-width:240px; height: auto;" class="so" id="9"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -89,7 +89,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-3.png" style="max-width:240px; height: auto;" class="so" id="10"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-3.png" style="max-width:240px; height: auto;" class="so" id="10"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -106,7 +106,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-4.png" style="max-width:240px; height: auto;" class="so" id="11"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-4.png" style="max-width:240px; height: auto;" class="so" id="11"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -123,7 +123,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-5.png" style="max-height:240px; max-width: 99%;" class="so" id="12"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-5.png" style="max-height:240px; max-width: 99%;" class="so" id="12"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -140,7 +140,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-6.png" style="max-width:240px; height: auto;" class="so" id="13"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-6.png" style="max-width:240px; height: auto;" class="so" id="13"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -157,7 +157,7 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td height="350" class="align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-A1-7.png" style="max-width:240px; height: auto;" class="so" id="14"></td>
+								<td height="350" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-7.png" style="max-width:240px; height: auto;" class="so" id="14"></td>
 							</tr>
 							<tr>
 								<td class="align-middle">
@@ -184,12 +184,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogrouph.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -216,7 +216,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?=$root ?>sounds/Reihe 4/r4 A1.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 A1.mp3"],
 			sprite: {
 				"0": [1295, 41370],
 					"1": [11970, 2700],

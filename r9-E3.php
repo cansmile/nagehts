@@ -13,7 +13,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12 my-2 py-2">
-					<img src="./<?=$root ?>images/Reihe 9/Reihe-9-E3.png" alt="Schreiben Sie die Tage." style="max-width: 100%; height: auto;">
+					<img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-E3.png" alt="Schreiben Sie die Tage." style="max-width: 100%; height: auto;">
 				</div>
 			</div>
 			<div class="row">
@@ -66,11 +66,11 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>

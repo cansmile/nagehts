@@ -12,11 +12,11 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Hören Sie und ergänzen Sie mit „ein/-e/-en“ oder „kein/-e/-en“.<br>
 					<small>듣고 “ein/-e/-en” 또는 “kein/-e/-en“을 채우세요.</small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					<h3>[ <small>듣고 빈칸에 어울리는 단어로 채우세요.</small> ]</h3>
 				</div>
 			</div>
@@ -26,7 +26,7 @@
 						<tbody>
 							<tr>
 								<th rowspan="3" class="align-top" style="font-size: 2em;">1</th>
-								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></td>
+								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-1-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="1" class="so btn btn-outline-danger">▶</button></td>
 								<td>Claudia hat eine Schultasche, aber sie hat kein Lineal.<span class="tran"><br><small>클라우디아는 책가방이 있지만 자는 없습니다. </small></span></td>
 							</tr>
@@ -56,7 +56,7 @@
 						<tbody>
 							<tr>
 								<th rowspan="4" class="align-top" style="font-size: 2em;">2</th>
-								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./<?=$root ?>images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></td>
+								<td scope="row" rowspan="7" class="text-center align-middle"><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-C2-2-1.png" style="max-width: 240px; height: auto;"></td>
 								<td width="25"><button type="button" id="4" class="so btn btn-outline-danger">▶</button></td>
 								<td>Michael hat ein Wörterbuch, aber er hat keine Büroklammern.<span class="tran"><br><small>미하엘은 사전을 가지고 있지만 클립은 없습니다.</small></span></td>
 							</tr>
@@ -179,11 +179,11 @@
 <div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -213,7 +213,7 @@
 		}
 		// 문제 재생
 		var nagehts=new Howl( {
-			src: [ "./<?=$root ?>sounds/Reihe 4/r4 C2b.mp3"],
+			src: [ "./<?php echo($root); ?>sounds/Reihe 4/r4 C2b.mp3"],
 			sprite: {
 				"0": [1346, 52855],
 				"1": [15932,4406],

@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
 					einen Schweinebraten.<span class="tran">&nbsp;<br /><small>돼지 불고기.</small></span>
@@ -78,7 +78,7 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Ergänzen Sie die Tabelle.<br>
 					<small>다음 표를 채우세요.</small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
@@ -155,10 +155,10 @@
 								<td>eine Flasche</td>
 								<td>Mineralwasser</td>
 								<td rowspan="4" class="bg-white align-middle text-center">
-									<img src="./<?=$root ?>images/Reihe 5/Reihe-5-C2-1.png" alt="" style="max-height: 120px; width: auto;"><br><small>die Flasche</small>
+									<img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-1.png" alt="" style="max-height: 120px; width: auto;"><br><small>die Flasche</small>
 								</td>
 								<td rowspan="4" class="bg-white align-middle text-center">
-									<img src="./<?=$root ?>images/Reihe 5/Reihe-5-C2-2.png" alt="" style="max-height: 120px; width: auto;"><br><small>das Glas</small>
+									<img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-2.png" alt="" style="max-height: 120px; width: auto;"><br><small>das Glas</small>
 								</td>
 							</tr>
 							<tr>
@@ -177,10 +177,10 @@
 								<td>eine Dose</td>
 								<td>Cola</td>
 								<td rowspan="4" class="bg-white align-middle text-center">
-									<img src="./<?=$root ?>images/Reihe 5/Reihe-5-C2-3.png" alt="" style="max-height: 120px; width: auto;"><br><small>die Dose</small>
+									<img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-3.png" alt="" style="max-height: 120px; width: auto;"><br><small>die Dose</small>
 								</td>
 								<td rowspan="4" class="bg-white align-middle text-center">
-									<img src="./<?=$root ?>images/Reihe 5/Reihe-5-C2-4.png" alt="" style="max-height: 120px; width: auto;"><br><small>die Tasse</small>
+									<img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-4.png" alt="" style="max-height: 120px; width: auto;"><br><small>die Tasse</small>
 								</td>
 							</tr>
 							<tr>
@@ -207,12 +207,12 @@
 	<div id="last" class="d-none"></div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogrouph.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -237,7 +237,7 @@
 			}
 			// 문제 재생
 			var nagehts=new Howl( {
-				src: [ "./<?=$root ?>sounds/Reihe 5/r5 C2.mp3"],
+				src: [ "./<?php echo($root); ?>sounds/Reihe 5/r5 C2.mp3"],
 					sprite: {
 					"0": [13427, 131520],
 					"1": [23990, 3015],

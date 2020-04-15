@@ -19,7 +19,7 @@
 							<tr>
 								<th rowspan="2" scope="row" width="30" class="align-middle border-0">1</th>
 								<td rowspan="2" width="100" class="border-0 align-middle">
-									<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E2-1.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
+									<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-1.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">Was fehlt Ihnen denn?
 									<span class="tran"><small>어디가 아픈가요?</small></span><br>
@@ -34,7 +34,7 @@
 							<tr>
 								<th rowspan="2" scope="row" width="30" class="align-middle border-0">2</th>
 								<td rowspan="2" width="100" class="border-0 align-middle">
-									<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E2-2.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
+									<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-2.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
 									<div class="ant text-capitalize" id="ant-1"></div>
@@ -62,7 +62,7 @@
 							<tr>
 								<th rowspan="2" scope="row" width="30" class="align-middle border-0">3</th>
 								<td rowspan="2" width="100" class="border-0 align-middle">
-									<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E2-3.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
+									<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-3.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
 									<div class="ant text-capitalize" id="ant-3"></div>
@@ -90,7 +90,7 @@
 							<tr>
 								<th rowspan="2" scope="row" width="30" class="align-middle border-0">4</th>
 								<td rowspan="2" width="100" class="border-0 align-middle">
-									<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E2-4.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
+									<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-4.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
 									<div class="ant text-capitalize" id="ant-5"></div>
@@ -118,7 +118,7 @@
 							<tr>
 								<th rowspan="2" scope="row" width="30" class="align-middle border-0">5</th>
 								<td rowspan="2" width="100" class="border-0 align-middle">
-									<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E2-5.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
+									<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-5.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
 									<div class="ant text-capitalize" id="ant-7"></div>
@@ -146,7 +146,7 @@
 							<tr>
 								<th rowspan="2" scope="row" width="30" class="align-middle border-0">6</th>
 								<td rowspan="2" width="100" class="border-0 align-middle">
-									<img src="./<?=$root ?>images/Reihe 8/Reihe-8-E2-6.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
+									<img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-6.png" alt="Was fehlt Ihnen?" style="max-height: 240px; width: auto;">
 								</td>
 								<td class="border-0 align-middle">
 									<div class="ant text-capitalize" id="ant-9"></div>
@@ -181,13 +181,13 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogroupnomove.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$(".tran").hide();
 		$(".ant").hide();

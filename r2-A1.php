@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
 						<button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="1">
@@ -102,20 +102,20 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>Bitte ordnen Sie zu.
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button><br>
 					<small> 알맞은 도시와 국가를 써보세요. </small>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼을 눌러 듣고 알맞은 위치에 국가와 수도를 짝지우세요.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼을 눌러 듣고 알맞은 위치에 국가와 수도를 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A1-1.png" style="max-width: 100%; height: auto;" alt="Eiffelturm"></div>
-				<div class="col"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A1-2.png" style="max-width: 100%; height: auto;" alt="Freiheitsstatue"></div>
-				<div class="col"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A1-3.png" style="max-width: 100%; height: auto;" alt="Griechischer Tempel"></div>
-				<div class="col"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A1-4.png" style="max-width: 100%; height: auto;" alt="Amphitheater"></div>
-				<div class="col"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-A1-5.png" style="max-width: 100%; height: auto;" alt="Pyramide"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-1.png" style="max-width: 100%; height: auto;" alt="Eiffelturm"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-2.png" style="max-width: 100%; height: auto;" alt="Freiheitsstatue"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-3.png" style="max-width: 100%; height: auto;" alt="Griechischer Tempel"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-4.png" style="max-width: 100%; height: auto;" alt="Amphitheater"></div>
+				<div class="col"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A1-5.png" style="max-width: 100%; height: auto;" alt="Pyramide"></div>
 			</div>
 			<div class="row" id="lsts">
 				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 mt-1">
@@ -315,13 +315,13 @@
 	<div id="last" class="d-none"></div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptocompareh.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptocompareh.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 	<!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -366,7 +366,7 @@
 			}
 			// 문제 재생
 			var nagehts=new Howl( {
-				src: ["./<?=$root ?>sounds/Reihe 2/r2 A1.mp3"],
+				src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 A1.mp3"],
 					sprite : {
 					"0": [2378, 57789],
 						"1": [23474, 1277],

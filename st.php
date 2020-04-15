@@ -3,9 +3,9 @@
 <head>
 	<title>학생들이 어떻게 됐냐?</title>
 	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
 </head>
 <body>
 <section>

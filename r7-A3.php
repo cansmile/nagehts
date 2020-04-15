@@ -13,13 +13,13 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-1.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-2.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-3.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-4.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-5.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-6.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-7.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-1.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-2.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-3.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-4.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-5.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-6.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-7.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -109,13 +109,13 @@
 
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?=$root ?>js/popper.min.js"></script>
-		<script src="./<?=$root ?>js/bootstrap.js"></script>
-		<script src="./<?=$root ?>js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$(".tran").hide();
 
@@ -127,7 +127,7 @@
 					}, {
 						name : "Cartoon_Boing",
 					}],
-					path : "<?=$root ?>sounds/",
+					path : "<?php echo($root); ?>sounds/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

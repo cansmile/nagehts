@@ -5,7 +5,7 @@
 <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
 		<div class="row">
-			<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-3" id="1">
 				den
@@ -62,7 +62,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">1.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-10.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-10.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -80,7 +80,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">2.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-11.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-11.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -98,7 +98,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">3.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-12.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-12.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -116,7 +116,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">4.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-13.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-13.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -134,7 +134,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">5.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-14.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-14.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -152,7 +152,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">6.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-15.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-15.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -170,7 +170,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">7.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-16.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-16.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -188,7 +188,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">8.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-17.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-17.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -206,7 +206,7 @@
 							<tbody>
 								<tr>
 									<td width="20" class="border-0 align-top">9.</td>
-									<td class="border-0"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E1-18.png" alt="" style="max-width: 100%; height: auto;"></td>
+									<td class="border-0"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-18.png" alt="" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td colspan="2" class="border-0">
@@ -233,13 +233,13 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?=$root ?>js/popper.min.js"></script>
-<script src="./<?=$root ?>js/bootstrap.js"></script>
-<script src="./<?=$root ?>js/taptogroup.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 <!-- interact.min.js -->
-<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 	$(".tran").hide();
 	$("#chk").hide();

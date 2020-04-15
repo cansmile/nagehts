@@ -11,17 +11,17 @@
 					<h2> Ergänzen Sie die Lücken. <br>
 					<small> 빈칸을 채우세요. </small>
 					[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
+					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-8"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-A3-1.png" alt="Entschuldigung, wo ist das Café Dornbusch?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-8"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-A3-1.png" alt="Entschuldigung, wo ist das Café Dornbusch?" style="max-width: 100%; height: auto;"></div>
 				<div class="col-4">
 					<table class="table">
 						<thead>
@@ -31,7 +31,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td class="border-0" style="line-height: 250%;">neben+ (dem, der) ...<br>vor + (dem, der) ...<br>zwischen + (dem, der) ...<br>hinter : (dem, der)<br>an der Ecke ...<br>in der ... Straße / Gasse<br>in dem ... Weg<br>links / rechts<img src="./<?=$root ?>images/Reihe 10/Reihe-10-F.png" alt="TIPP" style="max-width: 100%; height: auto;"><strong>Wechselpräpositionen</strong></td>
+								<td class="border-0" style="line-height: 250%;">neben+ (dem, der) ...<br>vor + (dem, der) ...<br>zwischen + (dem, der) ...<br>hinter : (dem, der)<br>an der Ecke ...<br>in der ... Straße / Gasse<br>in dem ... Weg<br>links / rechts<img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-F.png" alt="TIPP" style="max-width: 100%; height: auto;"><strong>Wechselpräpositionen</strong></td>
 							</tr>
 						</tbody>
 					</table>
@@ -203,13 +203,13 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogroupnomove.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 		$("#0").hide();
 		$("#0_p").hide();
@@ -290,14 +290,14 @@
 				}
 				, {
 					name: "dingdongdang",
-						path: "<?=$root ?>sounds/",
+						path: "<?php echo($root); ?>sounds/",
 				}
 				, {
 					name: "Cartoon_Boing",
-						path: "<?=$root ?>sounds/",
+						path: "<?php echo($root); ?>sounds/",
 				}
 				],
-				path : "<?=$root ?>sounds/Reihe 10/",
+				path : "<?php echo($root); ?>sounds/Reihe 10/",
 				preload : true,
 				volume : 1.0,
 				multiplay: false,

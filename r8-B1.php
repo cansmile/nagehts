@@ -18,13 +18,13 @@
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
 						<h2>[ <small>단어를 누르면 소리가 납니다.</small> ]
-						<button type="button" class="btn disabled btn-<?=$color ?> ml-2 btn-inline so" id="0">
+						<button type="button" class="btn disabled btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 							HV
-						</button><button type="button" class="btn disabled btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
+						</button><button type="button" class="btn disabled btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 							❚❚
 						</button>
 						</h2>
-						<h3>[ <small><button class="btn btn-sm d-inline btn-<?=$color ?>">HV</button> 버튼 또는 <button class="btn btn-sm d-inline btn-<?=$color ?>">▶</button> 버튼을 눌러 2번 들으시면 번역이 나옵니다.</small> ]</h3>
+						<h3>[ <small><button class="btn btn-sm d-inline btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button class="btn btn-sm d-inline btn-<?php echo($color); ?>">▶</button> 버튼을 눌러 2번 들으시면 번역이 나옵니다.</small> ]</h3>
 					</div>
 				</div>
 				<div class="row">
@@ -35,56 +35,56 @@
 									<td width="40%" class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">der Kopf
 										<span class="tran"><small>머리</small>
 									</td>
-									<td width="10%" class="border-0 align-middle p-0 m-1"><button type="button" id="1" class="so btn btn-<?=$color ?>">▶</button></td>
-									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
+									<td width="10%" class="border-0 align-middle p-0 m-1"><button type="button" id="1" class="so btn btn-<?php echo($color); ?>">▶</button></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-2 pl-2"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-1.png" alt="Eva" style="max-width: 100%; height: auto;"></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">das Auge
 										<span class="tran"><small>눈</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="2" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="2" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">die Nase
 										<span class="tran"><small>코</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="3" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="3" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">der Mund
 										<span class="tran"><small>입</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="4" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="4" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">der Arm
 										<span class="tran"><small>팔</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="5" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="5" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">die Hand
 										<span class="tran"><small>손</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="6" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="6" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">der Bauch
 										<span class="tran"><small>배</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="7" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="7" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">das Bein
 										<span class="tran"><small>다리</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="8" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="8" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 								<tr>
 									<td class="border-0 align-middle p-0 m-1 text-right font-weight-bold px-2" style="font-size: 1.5em;">der Fuß
 										<span class="tran"><small>발</small>
 									</td>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="9" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="9" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 								</tr>
 							</tbody>
 						</table>
@@ -93,56 +93,56 @@
 						<table class="table text-center">
 							<tbody>
 								<tr>
-									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./<?=$root ?>images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
-									<td width="10%" class="border-0 align-middle p-0 m-1"><button type="button" id="10" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td rowspan="9" class="border-0 align-middle p-0 m-1 text-center"><img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E1-2.png" alt="Adam" style="max-width: 100%; height: auto;"></td>
+									<td width="10%" class="border-0 align-middle p-0 m-1"><button type="button" id="10" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td width="40%" class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">das Ohr
 										<span class="tran"><small>귀</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="11" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="11" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">das Gesicht
 										<span class="tran"><small>얼굴</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="12" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="12" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">die Zähne
 										<span class="tran"><small>이</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="13" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="13" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">der Hals
 										<span class="tran"><small>목</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="14" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="14" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">der Rücken
 										<span class="tran"><small>등</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="15" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="15" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">der Finger
 										<span class="tran"><small>손가락</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="16" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="16" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">die Brust
 										<span class="tran"><small>가슴</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="17" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="17" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">das Knie
 										<span class="tran"><small>무릎</small>
 									</td>
 								</tr>
 								<tr>
-									<td class="border-0 align-middle p-0 m-1"><button type="button" id="18" class="so btn btn-<?=$color ?>">▶</button></td>
+									<td class="border-0 align-middle p-0 m-1"><button type="button" id="18" class="so btn btn-<?php echo($color); ?>">▶</button></td>
 									<td class="border-0 align-middle p-0 m-1 text-justify font-weight-bold px-2" style="font-size: 1.5em;">der Zeh
 										<span class="tran"><small>발가락</small>
 									</td>
@@ -156,13 +156,13 @@
 		</section>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+		<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="./<?=$root ?>js/popper.min.js"></script>
-		<script src="./<?=$root ?>js/bootstrap.js"></script>
-		<script src="./<?=$root ?>js/taptogroup.js"></script>
+		<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+		<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+		<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 		<!-- interact.min.js -->
-		<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+		<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 		<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -208,7 +208,7 @@
 						name : "Cartoon_Boing",
 						path : "sounds/"
 					}],
-					path : "<?=$root ?>sounds/Reihe 8/",
+					path : "<?php echo($root); ?>sounds/Reihe 8/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

@@ -5,7 +5,7 @@
 <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
 		<div class="row">
-			<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-3" id="1">
 				an der
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12"><img src="./<?=$root ?>images/Reihe 10/Reihe-10-E-2-1.png" alt="Wo sind die Gegenstände im Zimmer?" style="max-width: 100%; height: auto;"></div>
+					<div class="col-12"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E-2-1.png" alt="Wo sind die Gegenstände im Zimmer?" style="max-width: 100%; height: auto;"></div>
 				</div>
 				<div class="row mt-2">
 					<div class="col-sm-6 col-md-6 col-lg-4 my-2">
@@ -236,13 +236,13 @@
 <div id="marg"></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?=$root ?>js/popper.min.js"></script>
-<script src="./<?=$root ?>js/bootstrap.js"></script>
-<script src="./<?=$root ?>js/taptogroup.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 <!-- interact.min.js -->
-<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 	$(".tran").hide();
 	$("#chk").hide();

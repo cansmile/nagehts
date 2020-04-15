@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="1">
 					Korea
@@ -48,17 +48,17 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Hören Sie und ergänzen Sie.<br>
 					<small> 듣고 알맞은 국가와 도시를 넣으세요. </small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 					<h3>[ <small>듣고 알맞은 위치에 단어를 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 100%; height: auto;" alt="Dooly"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-C1-1.png" style="max-width: 100%; height: auto;" alt="Dooly"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
 					<table class="table table-borderless table-light text-center">
@@ -100,7 +100,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 100%; height: auto;" alt="Kleopatra"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-C1-2.png" style="max-width: 100%; height: auto;" alt="Kleopatra"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
 					<table class="table table-borderless table-light text-center">
@@ -142,7 +142,7 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 text-center">
-					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?=$root ?>images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 100%; height: auto;" alt="Mickey Mouse"></td></tr></table>
+					<table class="table table-borderless" style="min-height: 100%;"><tr><td class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-C1-3.png" style="max-width: 100%; height: auto;" alt="Mickey Mouse"></td></tr></table>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
 					<table class="table table-borderless table-light text-center">
@@ -222,12 +222,12 @@
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogrouph.js"></script>
-	<script src="./<?=$root ?>js/howler.core.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+	<script src="./<?php echo($root); ?>js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 	<?php require_once("./{$root}oxsound.php"); ?>
 	<script>
@@ -253,7 +253,7 @@ function stopAll() {
 
 // 문제 재생
 var nagehts = new Howl({
-	src: ["./<?=$root ?>sounds/Reihe 2/r2 C1.mp3"],
+	src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 C1.mp3"],
 	sprite : {
 		"0": [1370, 55027],
 		"1": [59017, 1264],

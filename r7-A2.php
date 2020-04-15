@@ -8,7 +8,7 @@
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?=$color ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="1">
 					Tanzkurs<small><span class="tran"><br>댄스강좌<br>(So. 18 Uhr)</span></small>
@@ -44,23 +44,23 @@
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2>[ <small>단어를 알맞은 칸<small>(Am Vormittag, Am Mittag, Am Nachmittag, Am Abend)</small>에 넣으세요.</small> ]
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
+					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-1.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-2.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-3.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-4.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-5.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-6.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?=$root ?>images/Reihe 7/Reihe-7-A2-7.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-1.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-2.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-3.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-4.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-5.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-6.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-7.png" alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
 			</div>
 			<!-- 리스트  시작 -->
 			<div class="row" id="lsts">
@@ -89,13 +89,13 @@
 	</section>
 	<div id="marg"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+	<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./<?=$root ?>js/popper.min.js"></script>
-	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<script src="./<?=$root ?>js/taptogroup.js"></script>
+	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+	<script src="./<?php echo($root); ?>js/taptogroup.js"></script>
 	<!-- interact.min.js -->
-	<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+	<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 	<script>
 			$("#0").hide();
 			$("#0_p").hide();
@@ -126,14 +126,14 @@
 					}
 					, {
 						name: "dingdongdang",
-							path: "<?=$root ?>sounds/",
+							path: "<?php echo($root); ?>sounds/",
 					}
 					, {
 						name: "Cartoon_Boing",
-							path: "<?=$root ?>sounds/",
+							path: "<?php echo($root); ?>sounds/",
 					}
 					],
-					path : "<?=$root ?>sounds/Reihe 7/",
+					path : "<?php echo($root); ?>sounds/Reihe 7/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,

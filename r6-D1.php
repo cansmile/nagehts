@@ -10,13 +10,13 @@
 				<div class="col-lg-12 mb-4 mt-2 text-center">
 					<h2> Hören Sie und ergänzen Sie die Lücken. <br>
 					<small> 듣고 빈칸을 채우세요. </small>
-					<button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0">
+					<button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
 					HV
-					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
+					</button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다. 음성을 듣고 정답을 입력하세요.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다. 음성을 듣고 정답을 입력하세요.</small> ]</h3>
 					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
 			</div>
@@ -25,12 +25,12 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td rowspan="2" class="align-middle"><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D1-0.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D1-5.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D1-4.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D1-3.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D1-1.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
-								<td><img src="./<?=$root ?>images/Reihe 6/Reihe-6-D1-2.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td rowspan="2" class="align-middle"><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-0.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-5.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-4.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-3.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-1.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
+								<td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-D1-2.png" alt="Tagesablauf" style="max-width: 100%; height: auto;"></td>
 							</tr>
 							<tr>
 								<td class="border-0 text-center">6.00 Uhr</td>
@@ -131,13 +131,13 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
+<script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./<?=$root ?>js/popper.min.js"></script>
-<script src="./<?=$root ?>js/bootstrap.js"></script>
-<script src="./<?=$root ?>js/taptogroupnomove.js"></script>
+<script src="./<?php echo($root); ?>js/popper.min.js"></script>
+<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
+<script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
 <!-- interact.min.js -->
-<script src="./<?=$root ?>js/ion.sound.min.js"></script>
+<script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
 <script>
 	$("#0").hide();
 $("#0_p").hide();
@@ -303,14 +303,14 @@ $(document).ready(function() {
 		}
 		, {
 			name: "dingdongdang",
-				path: "<?=$root ?>sounds/",
+				path: "<?php echo($root); ?>sounds/",
 		}
 		, {
 			name: "Cartoon_Boing",
-				path: "<?=$root ?>sounds/",
+				path: "<?php echo($root); ?>sounds/",
 		}
 		],
-		path : "<?=$root ?>sounds/Reihe 6/",
+		path : "<?php echo($root); ?>sounds/Reihe 6/",
 		preload : true,
 		volume : 1.0,
 		multiplay: false,

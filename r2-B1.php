@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -132,7 +132,7 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
+
 <div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
@@ -189,7 +189,7 @@
 						},
 						container : "body"
 					});
-				
+
 					$(".pop").click(function () {
 						// 가장 먼저 지문에 'an' 넣기
 						if (!$(this).siblings().hasClass("an")) {
@@ -197,13 +197,13 @@
 							$(this).addClass("btn-warning");
 							$(this).parent().children().removeClass("btn-light");
 						};
-		
+
 						// 문제 풀이 정도 업데이트
 						var perc = Math.round(($(".an").length / $(".q").length) * 100);
 						$(".progress>.bar").attr("width", perc + "%;");
-						
+
 					});
-					
+
 					// 팝업 내용 사라지기
 					$(".pop").popover().click(function() {
 						setTimeout(function() {
@@ -251,7 +251,7 @@
 					$(".tran").show();
 					$(".nu").show();
 					$(".q").hide();
-					
+
 
 					// 정답 확인 div 상자 배경색 속성 없애기
 					$(this).removeClass("btn-light ");
@@ -293,9 +293,9 @@
 						nagehts.seek();
 						nagehts.play(ti);
 						sen[ti]++;
-			
+
 						last = ti;
-			
+
 						$("#cnt-"+ti).text(sen[ti]);
 					} else if(last == ti && nagehts.playing($("div#last").text())) {
 						$("#last").text("");
@@ -320,8 +320,8 @@
 		}
 		);
 
-		
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

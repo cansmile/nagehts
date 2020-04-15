@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -305,7 +305,7 @@
 					$(".tran").show();
 					$(".nu").show();
 					$(".q").hide();
-					
+
 
 					// 정답 확인 div 상자 배경색 속성 없애기
 					$(this).removeClass("btn-light");
@@ -341,6 +341,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

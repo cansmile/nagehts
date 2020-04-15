@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -193,7 +193,7 @@
 		</div>
 	</section>
 	<div id="last" class="d-none"></div>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -404,6 +404,6 @@
 		);
 
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

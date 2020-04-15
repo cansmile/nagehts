@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<section>
 		<div class="container">
 			<div class="row">
@@ -31,7 +31,7 @@
 				<div class="col-12 border border-dark rounded m-4 p-3" style="line-height: 250%;">
 					<div class="input-group">
 						Sonntag 16 Juli, Am Sonntag, den 16. Juli habe ich einen Stadtrundgang <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-1">.<span class="tran">&nbsp;<small>7월 16일 일요일에 시내구경을 했다.</small>&nbsp;</span> Ich habe die Semperoper und dann den Zwinger <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-2">.<span class="tran">&nbsp;<small>잼퍼오퍼와 츠빙어를 관람하였다.</small>&nbsp;</span> Am Nachmittag habe ich einen Ausflug in die Sächsische Schweiz <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-3">.<span class="tran">&nbsp;<small>오후에는 작센의 스위스로 소풍을 갔다.</small>&nbsp;</span> Dort <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-4"> es ein schönes Panorama.<span class="tran">&nbsp;<small>그곳은 경치가 아름다웠다.</small>&nbsp;</span> Am Abend <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; max-width: 100px; min-width: 50px;" aria-label="." id="qst-5"> ich auf dem Orgelkonzert in der Frauenkirche.<span class="tran">&nbsp;<small>저녁엔 프라우엔교회에서 열린 오르간콘서트에 참석했다…</small>&nbsp;</span>
-						
+
 					</div>
 				</div>
 			</div>
@@ -281,6 +281,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

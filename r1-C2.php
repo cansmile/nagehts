@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -45,7 +45,7 @@
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">단어</button> 버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
 				</div>
 			</div>
-			
+
 			<!-- 리스트 시작 -->
 			<div class="row mt-3" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top border-0 itm-lst text-center text-dark col-4 col-xl" id="lst-1">
@@ -128,7 +128,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#0").show();
 		$(".alert").hide();
 
@@ -142,9 +142,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -223,7 +223,7 @@ var nagehts = new Howl({
 		}
 		}
 		);
-		<?php include "wahl.php"; ?>
+		<?php require "wahl.php"; ?>
 
 		// 미리 답 넣어놓기
 		var pan=new Array();
@@ -273,8 +273,8 @@ var nagehts = new Howl({
 		}
 		);
 
-	
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

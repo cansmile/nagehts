@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -234,9 +234,9 @@
 					</div>
 				</div>		</div>
 	</section>
-	
+
 	<div id="marg"></div>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -250,7 +250,7 @@
 		$("#chk").hide();
 		$(".tran").hide();
 		$(document).ready(function() {
-			<?php include "wahl.php"; ?>
+			<?php require "wahl.php"; ?>
 
 			// 정답확인
 			$("#chk").on("click", function() {
@@ -264,7 +264,7 @@
 					);
 					$(".tran").show();
 					$(".itm-lst").hide();
-					
+
 					// 정답 확인 div 상자 배경색 속성 없애기
 					$(this).removeClass("btn-light ");
 					$(".itm-lst>button").addClass("text-success font-weight-bold");
@@ -331,8 +331,8 @@
 		}
 		);
 
-		
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

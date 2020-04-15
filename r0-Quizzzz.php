@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 시작 -->
 	<div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -363,7 +363,7 @@
 				},
 				container : "body"
 			});
-		
+
 			$(".pop").click(function () {
 				// 가장 먼저 지문에 'an' 넣기
 				if (!$(this).siblings().hasClass("an")) {
@@ -446,6 +446,6 @@
 		});
 	});
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

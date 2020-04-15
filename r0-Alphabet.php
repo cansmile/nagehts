@@ -1,10 +1,10 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-		<?php include "nav.php"; ?>
+		<?php require "nav.php"; ?>
 		<?php require_once "ready.php"; ?>
 <style>
-	.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;} 
-	.video-container iframe,.video-container object,.video-container embed {position:absolute; top:0; left:0; width:100%; height:100%;} 
+	.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;}
+	.video-container iframe,.video-container object,.video-container embed {position:absolute; top:0; left:0; width:100%; height:100%;}
 </style>
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
 	이 페이지의 알파벳이나 발음기호를 <strong>누르면 누른 위치에 해당하는 발음이 들립니다!</strong>
@@ -632,7 +632,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#whole").show();
 		$("#alt").hide();
 		// $(".alert").hide();
@@ -646,9 +646,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -674,7 +674,7 @@ var nagehts = new Howl({
 
 
 </script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 
 	</body>
 </html>

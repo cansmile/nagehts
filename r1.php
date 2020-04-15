@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>	  
+<?php require "nav.php"; ?>
 		<!--이정표 시작-->
 		<section>
 			<div class="container">
@@ -13,7 +13,7 @@
 			<div class="container">
 				<div class="row">
 <?php
-include "inhalt.php";
+require "inhalt.php";
 ?>
 				</div>
 			</div>
@@ -29,7 +29,7 @@ include "inhalt.php";
 		</section>
 		<!--이정표 끝-->
 
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->

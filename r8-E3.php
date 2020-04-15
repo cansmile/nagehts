@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -195,7 +195,7 @@
 			preload : true,
 			volume : 1.0,
 			multiplay: false,
-			
+
 			ended_callback: function(obj) {
 				// 재생이 끝날 때 2번 이상이면 번역 보이기
 				hmn = obj.part;
@@ -218,7 +218,7 @@
 					}
 				}
 			}, ready_callback: function () {
-				
+
 		$(".o").on("click", function() {
 			ion.sound.play("dingdongdang");
 		});
@@ -231,7 +231,7 @@
 			},
 			container : "body"
 		});
-	
+
 		$(".pop").click(function () {
 			// 가장 먼저 지문에 'an' 넣기
 			if (!$(this).siblings().hasClass("an")) {
@@ -243,9 +243,9 @@
 			// 문제 풀이 정도 업데이트
 			var perc = Math.round(($(".an").length / $(".q").length) * 100);
 			$(".progress>.bar").attr("width", perc + "%;");
-			
+
 		});
-		
+
 	// 팝업 내용 사라지기
 	$(".pop").popover().click(function() {
 		setTimeout(function() {
@@ -340,7 +340,7 @@
 	});
 	$("#0").show();
 	$(".alert").hide();
-<?php include "wahl.php"; ?>
+<?php require "wahl.php"; ?>
 // 자동 답 채우기
 var pan = new Array();
 // pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
@@ -365,6 +365,6 @@ $("#lst-" + pan[p] + ">h2").remove();
 
 </script>
 <!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 </body>
 </html>

@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-    <?php include "nav.php"; ?>
+    <?php require "nav.php"; ?>
     <?php
     $a_cell_height = 60;
     $double_cell_height = $a_cell_height * 2;
@@ -664,7 +664,7 @@ $(document).ready(function() {
         }
 
         , onload: function() {
-            <?php include "wahl.php";
+            <?php require "wahl.php";
             ?> // 정답확인
 
             $("#chk").on("click", function() {
@@ -860,6 +860,6 @@ $(document).ready(function() {
 );
 
 </script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 </body>
 </html>

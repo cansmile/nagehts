@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -18,7 +18,7 @@
 				<table class="table table-light table-borderless">
 						<tr>
 							<th class="bg-light" scope="row">1</th>
-							<td><span class="sen">Wie <span class="nu"></span> 
+							<td><span class="sen">Wie <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-1">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option1" autocomplete="off"><label for="option1">heißt</label>
@@ -28,7 +28,7 @@
 										</div>
 									</div>
 								Ihr Name?</span><span class="tran"><br><small>당신의 이름은 무엇인가요?</small></span></td>
-							<td><span class="sen">Mein Name <span class="nu"></span> 
+							<td><span class="sen">Mein Name <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-2">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option3" autocomplete="off"><label for="option3">heißt</label>
@@ -41,7 +41,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row">2</th>
-							<td><span class="sen">Wie <span class="nu"></span> 
+							<td><span class="sen">Wie <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-3">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option5" autocomplete="off"><label for="option5">heißt</label>
@@ -51,7 +51,7 @@
 										</div>
 									</div>
 								du?</span><span class="tran"><br><small>네 이름은 무엇이니?</small></span></td>
-							<td><span class="sen">Ich <span class="nu"></span> 
+							<td><span class="sen">Ich <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-4">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option7" autocomplete="off"><label for="option7">heiße</label>
@@ -64,7 +64,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row">3</th>
-							<td><span class="sen">Wie <span class="nu"></span> 
+							<td><span class="sen">Wie <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-5">
 										<div class="btn btn-light pop o" data-toggle="popover" data-container="body" data-placement="top" data-content="정답!">
 											<input type="radio" name="options" id="option9" autocomplete="off"><label for="option9">heißen</label>
@@ -74,7 +74,7 @@
 										</div>
 									</div>
 								Sie?</span><span class="tran"><br><small>당신의 이름은 무엇인가요?</small></span></td>
-							<td><span class="sen">Mein Name <span class="nu"></span> 
+							<td><span class="sen">Mein Name <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-6">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option11" autocomplete="off"><label for="option11">heißt</label>
@@ -87,7 +87,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row">4</th>
-							<td><span class="sen">Wer <span class="nu"></span> 
+							<td><span class="sen">Wer <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-7">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option13" autocomplete="off"><label for="option13">heißt</label>
@@ -97,7 +97,7 @@
 										</div>
 									</div>
 								du?</span><span class="tran"><br><small>너는 누구니?</small></span></td>
-							<td><span class="sen">Ich <span class="nu"></span> 
+							<td><span class="sen">Ich <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-8">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option15" autocomplete="off"><label for="option15">heißt</label>
@@ -110,7 +110,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row">5</th>
-							<td><span class="sen"><div>Wer <span class="nu"></span> 
+							<td><span class="sen"><div>Wer <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-9">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option17" autocomplete="off"><label for="option17">heißt</label>
@@ -120,7 +120,7 @@
 										</div>
 									</div>
 								Herr Kim Chul?</div></span><span class="tran"><br><small>누가 김 철 선생님이신가요?</small></span></td>
-							<td><span class="sen"><div>Das <span class="nu"></span> 
+							<td><span class="sen"><div>Das <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-10">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option19" autocomplete="off"><label for="option19">heiße</label>
@@ -133,7 +133,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row">6</th>
-							<td><div><span class="sen"><span class="nu"></span> 
+							<td><div><span class="sen"><span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-11">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option21" autocomplete="off"><label for="option21">Heißen</label>
@@ -143,7 +143,7 @@
 										</div>
 									</div>
 								Sie Frau Lee?</span><span class="tran"><br><small>이 여사님이라고 부를까요?</small></span></div></td>
-							<td><div><span class="sen">Ja, das <span class="nu"></span> 
+							<td><div><span class="sen">Ja, das <span class="nu"></span>
 									<div class="btn-group btn-group-toggle border border-dark border-top-0 border-left-0 border-right-0 q" data-toggle="buttons" id="qst-12">
 										<div class="btn btn-light pop x" data-toggle="popover" data-container="body" data-placement="top" data-content="정답이 아니에요.">
 											<input type="radio" name="options" id="option23" autocomplete="off"><label for="option23">heiße</label>
@@ -216,7 +216,7 @@
 	</div>
 </section>
 
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -237,7 +237,7 @@
 					},
 					container : "body"
 				});
-			
+
 				$(".pop").click(function () {
 					// 가장 먼저 지문에 'an' 넣기
 					if (!$(this).siblings().hasClass("an")) {
@@ -246,9 +246,9 @@
 						$(this).parent().children().removeClass("btn-light");
 					};
 
-					
+
 				});
-				
+
 			// 팝업 내용 사라지기
 			$(".pop").popover().click(function() {
 				setTimeout(function() {
@@ -332,10 +332,10 @@
 				};
 			});
 		$(".alert").hide();
-			
+
 		});
-			
+
 		</script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

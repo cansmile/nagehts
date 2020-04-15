@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -133,8 +133,8 @@
 			</div>
 		</div>
 	</section>
-	
-	
+
+
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
@@ -411,9 +411,9 @@
 						nagehts.seek();
 						nagehts.play(ti);
 						sen[ti]++;
-			
+
 						last = ti;
-			
+
 						$("#cnt-"+ti).text(sen[ti]);
 					} else if(last == ti && nagehts.playing($("div#last").text())) {
 						$("#last").text("");

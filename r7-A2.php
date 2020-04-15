@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -238,7 +238,7 @@
 							;
 						}
 						);
-						<?php include "wahl.php";
+						<?php require "wahl.php";
 						?> // 정답확인
 						$("#chk").on("click", function() {
 							if($("#wahl").visibility !="visible"&& $(this).attr("id")=="chk") {
@@ -303,9 +303,9 @@
 			}
 			);
 
-	
+
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

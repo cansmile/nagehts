@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 		<section>
 			<div class="container">
 				<div class="row">
@@ -32,17 +32,17 @@
 									<td class="border-0 align-middle">1.</td>
 									<td class="border-0 align-middle">
 										<div class="ant" id="ant-1"></div>
-										<div class="input-group">										
+										<div class="input-group">
 											<input type="text" class="form-control q border border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1 border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-1">
 											Maria,
 										</div>
 										<div class="ant" id="ant-2"></div>
-										<div class="input-group">										
+										<div class="input-group">
 											gehen wir heute
 											<input type="text" class="form-control q border border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1 border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-2">
 											zum Eisessen?
 										</div>
-										<div class="input-group">										
+										<div class="input-group">
 											Tim
 										</div>
 										<span class="tran"><small>사랑하는 마리아, 우리 오늘 점심에 아이스크림 먹으러 갈래?<br>팀</small>
@@ -71,17 +71,17 @@
 									<td class="border-0 align-middle">2.</td>
 									<td class="border-0 align-middle">
 										<div class="ant" id="ant-3"></div>
-										<div class="input-group">										
+										<div class="input-group">
 											<input type="text" class="form-control q border border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1 border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-3">
 											Tim,
 										</div>
 										<div class="ant" id="ant-4"></div>
-										<div class="input-group">										
+										<div class="input-group">
 											ich habe
 											<input type="text" class="form-control q border border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1 border-dark" style="position: relative; top: -6px;" aria-label="." id="qst-4">
 											.
 										</div>
-										<div class="input-group">										
+										<div class="input-group">
 											Liebe Grüße Maria
 										</div>
 										<span class="tran"><small>안녕 팀, 나 시간 돼.<br>마리아가</small>
@@ -101,9 +101,9 @@
 				<!-- 정답확인 버튼 끝 -->
 			</div>
 		</section>
-		
 
-		
+
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -129,7 +129,7 @@ function rfchk(th,io) {
 	a = th.val();
 	a = a.replace(/ /gi, "");
 	if(!$.isArray(an[qn])) {
-		// 1 인 경우 
+		// 1 인 경우
 		if(io) {
 			b = an[qn];
 		} else {
@@ -150,12 +150,12 @@ function rfchk(th,io) {
 				b = an[qn][fd].substr(0,q);
 			}
 			b = b.replace(/ /gi, "");
-			
+
 			if(a == b) {
 				return true;
 			}
 		}
-		
+
 	}
 }
 				$(".q").on("keyup", function () {
@@ -179,7 +179,7 @@ function rfchk(th,io) {
 						$(this).removeClass("bg-success");
 						$(this).removeClass("text-white font-weight-bold");
 					}
-					
+
 					if($(this).val()) {
 						$("#ant-"+$(this).attr("id").substr(4)).show();
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -336,12 +336,12 @@ function rfchk(th,io) {
 					$(pann).prop("disabled",true);
 					$(pann).addClass("bg-success text-white font-weight-bold");
 					// $(pann).closest("tr").find(".tran").show();
-				}				
+				}
 
 });
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

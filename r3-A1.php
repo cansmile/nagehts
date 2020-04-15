@@ -1,6 +1,6 @@
 <?php include"header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once"ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -427,7 +427,7 @@ $(document).ready(function() {
 				if($("#"+last).hasClass("itm")) {
 					$("#"+last+">.tran").show();
 				}
-				
+
 				if(last==2 || last==6 || last==11) {
 					$("#"+last).closest("table").find(".tran").show();
 				}

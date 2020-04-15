@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -105,9 +105,9 @@
 
 		</div>
 	</section>
-		
 
-		
+
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -133,7 +133,7 @@
 					multiplay: false,
 	});
 
-						
+
 				$(".o").on("click", function() {
 					ion.sound.play("dingdongdang");
 				});
@@ -148,7 +148,7 @@
 					},
 					container : "body"
 				});
-			
+
 				$(".pop").click(function () {
 					// 가장 먼저 지문에 'an' 넣기
 					if (!$(this).siblings().hasClass("an")) {
@@ -156,13 +156,13 @@
 						$(this).addClass("btn-warning");
 						$(this).parent().children().removeClass("btn-light");
 					};
-	
+
 					// 문제 풀이 정도 업데이트
 					var perc = Math.round(($(".an").length / $(".q").length) * 100);
 					$(".progress>.bar").attr("width", perc + "%;");
-					
+
 				});
-				
+
 			// 팝업 내용 사라지기
 			$(".pop").popover().click(function() {
 				setTimeout(function() {
@@ -203,7 +203,7 @@
 								$(this).addClass("btn-light");
 							};
 
-							
+
 						});
 
 						$(this).removeClass("btn-light ");
@@ -243,11 +243,11 @@
 		$("#qst-1>div.o").addClass("an");
 		$("#qst-1>div.o").addClass("btn-warning");
 		$("#qst-1>div.o").removeClass("btn-light");
-		
+
 });
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

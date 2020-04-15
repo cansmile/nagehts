@@ -1,6 +1,6 @@
-`<?php include "header.php"; ?>
+`<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -49,7 +49,7 @@
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼 또는 <button type="button" class="btn disabled btn-sm btn-outline-dark">단어</button> 버튼을 눌러 2번 들으면, 번역이 나옵니다.<br>들으면서 단어를 그림과 연결하세요.<br />그림을 눌러도 들을 수 있습니다.</small> ]</h3>
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
 					<table class="table table-borderless">
@@ -180,7 +180,7 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -245,7 +245,7 @@
 			}
 			,
 			onload: function() {
-				<?php include "wahl.php";
+				<?php require "wahl.php";
 				?> // 정답확인
 				$("#chk").on("click", function() {
 					var na="";

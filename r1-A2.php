@@ -1,10 +1,10 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
-	
+
 	<!-- 알림 시작 -->
 	<div class="alert alert-warning alert-dismissible fade show" role="alert">
 		문제를 모두 풀어야
@@ -74,7 +74,7 @@
 	</section>
 	<section>
 		<div class="container">
-			
+
 			<!-- 아이템들 시작 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
@@ -307,7 +307,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#0").show();
 		$(".alert").hide();
 
@@ -321,9 +321,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -365,7 +365,7 @@ var nagehts = new Howl({
 					}
 					);
 
-<?php include "wahl.php"; ?>
+<?php require "wahl.php"; ?>
 
 		// 정답확인
 		$("#chk").on("click", function() {
@@ -497,8 +497,8 @@ var nagehts = new Howl({
 		}
 		);
 
-	
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<section>
 		<div class="container">
 			<div class="row">
@@ -190,8 +190,8 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
-	
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -425,10 +425,10 @@
 			// $("#qst-8").prop("disabled",true);
 		}
 		);
-		
 
-		
+
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

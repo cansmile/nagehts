@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 		<section>
 			<div class="container">
 							<!-- 고르는 아이템들 -->
@@ -1499,7 +1499,7 @@
 			</div>
 		</section>
 
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -1560,7 +1560,7 @@ function btchk(th) {
 		// 		$(".btn-lg").text().appendTo($(this).closest("td"));
 		// 		$(".btn-lg").remove();
 		// 		$(".ans1").removeClass("itm");
-				
+
 		// 	} else {
 		// 		alert("모든 문제를 풀어주세요!");
 		// 	}
@@ -1639,11 +1639,11 @@ function btchk(th) {
 	$(".ans1").each(function() {
 		// $(this).html("<small><strong>" + $(this).text() + "</strong><small><strong class=\"text-primary\" style=\"font-size: .5em;\">" + $(this).attr("id") + "</strong></small></small>");
 	})
-	
+
 });
-				
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

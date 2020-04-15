@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->	<section>
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			<div class="row">
-				
+
 				<div class="col my-2 py-2">
 					<span class="border border-dark p-1 px-2 rounded">uns</span>
 					<span class="border border-dark p-1 px-2 rounded">wir</span>
@@ -38,7 +38,7 @@
 					<div class="input-group">
 						<input type="text" class="form-control q pl-0 col-1 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-1"> sind 20 Jahre verheiratet.<span class="tran">&nbsp;<small>저희가 결혼한 지 20주년이 되었습니다.</small>&nbsp;</span> Das möchten <input type="text" class="form-control q pl-0 col-1 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-2">gern mit <input type="text" class="form-control q pl-0 col-1 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1 text-capitalize" style="min-width: 150px;" aria-label="." id="qst-3">und Ihrer Frau und unseren anderen Bekannten und Freunden feiern.<span class="tran">&nbsp;<small>저희는 당신과 당신의 아내, 우리의 다른 지인들과 친구들과 함께 축하 파티를 하고자 합니다.</small>&nbsp;</span> Die Feier ist am Montag, 16. 6., um 19.00 Uhr.<span class="tran">&nbsp;<small>파티는 6월 16일 월요일, 19시입니다.</small>&nbsp;</span> Haben<input type="text" class="form-control q pl-0 col-1 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1 text-capitalize" style="min-width: 150px;" aria-label="." id="qst-4"> da Zeit?<span class="tran">&nbsp;<small>시간이 괜찮으신가요?</small>&nbsp;</span> Bitte antworten Sie <input type="text" class="form-control q pl-0 col-1 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-5">bis Mittwoch oder rufen Sie <input type="text" class="form-control q pl-0 col-1 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-6">an.<span class="tran">&nbsp;<small>저희에게 수요일까지 답신을 주시거나 전화해주세요.</small>&nbsp;</span>
 					</div>
-					
+
 				<div class="col-12  text-right">Mit freundlichen Grüßen<span class="tran">&nbsp;<small>마음을 담아,</small>&nbsp;</span><br>
 						Ihre Christa und Wolfgang Haister
 						<span class="tran">&nbsp;<small>당신의 크리스타와 볼프강 하이스터</small>&nbsp;</span></div>
@@ -53,8 +53,8 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
-	
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -343,7 +343,7 @@
 						$(pann).prop("disabled", true);
 						// $(pann).closest("tr").find(".tran").show();
 					}
-								
+
 					$(".so").on("click", function () {
 						if($(this).attr("id").substr(-2)=="_p") {
 							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
@@ -393,12 +393,12 @@
 				}
 			}
 			);
-		
+
 		}
 		);
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -34,7 +34,7 @@
 										Ich heiße Nora und bin 9 Jahre alt. Ich gehe <input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-1">Fuß<input type="text" class="form-control q rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg" style="position: relative; top: -6px; min-width: 150px; max-width: 200px;" aria-label="." id="qst-2">die Schule.
 									</div>
 									<span class="tran"><br><small>내 이름은 노라이고 9살이다. 나는 걸어서 학교에 간다.</small></span>
-									
+
 								</td>
 							</tr>
 						</tbody>
@@ -145,8 +145,8 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
-	
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -527,6 +527,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

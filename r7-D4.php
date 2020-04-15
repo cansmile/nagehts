@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 보기시작 -->
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
@@ -180,11 +180,11 @@
 
 			</div>
 		</section>
-		
+
 	<div id="marg"></div>
 
 
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -199,7 +199,7 @@
 
 			$(document).ready(function() {
 
-<?php include "wahl.php"; ?>
+<?php require "wahl.php"; ?>
 
 			// 정답확인
 			$("#chk").on("click", function() {
@@ -272,11 +272,11 @@
 					}
 				})
 			}
-	
+
 });
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

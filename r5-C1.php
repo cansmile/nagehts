@@ -1,8 +1,8 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <section>
-	<div class="container">	
+	<div class="container">
 		<div class="row">
 			<div class="col">
 				<table class="table table-borderless">
@@ -113,7 +113,7 @@
 </section>
 <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 <script src="./<?=$root ?>js/bootstrap.js"></script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 
 	</body>
 </html>

@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -54,32 +54,32 @@
 			</div>
 			<div class="row">
 				<div class="col-12" style="line-height: 250%;">
-					Bei uns in Korea feiert man nicht nur am 1.1 
+					Bei uns in Korea feiert man nicht nur am 1.1
 						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-1">
 							<h2 class="btn btn-warning btn-xl ttl d-block">
 							▼ </h2>
 						</div>
-					, sondern auch 
+					, sondern auch
 						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-2">
 							<h2 class="btn btn-warning btn-xl ttl d-block">
 							▼ </h2>
 						</div>
-					 nach dem Mondkalender Neujahr.<span class="tran"><br><small>우리나라 한국에서는 새해를 양력 1월 1일뿐만 아니라 음력 1월1일도 보낸다.</small></span> Dies ist meistens um Januar oder Anfang Februar herum.<span class="tran"><br><small>음력으로 새해는 대부분 1월경이나 2월 초 즈음이다.</small></span> Es ist eines der größten Feste in Korea.<span class="tran"><br><small>새해는 한국의 커다란 명절중 하나이다.</small></span> Da feiert man mit Familie und Verwandten 
+					 nach dem Mondkalender Neujahr.<span class="tran"><br><small>우리나라 한국에서는 새해를 양력 1월 1일뿐만 아니라 음력 1월1일도 보낸다.</small></span> Dies ist meistens um Januar oder Anfang Februar herum.<span class="tran"><br><small>음력으로 새해는 대부분 1월경이나 2월 초 즈음이다.</small></span> Es ist eines der größten Feste in Korea.<span class="tran"><br><small>새해는 한국의 커다란 명절중 하나이다.</small></span> Da feiert man mit Familie und Verwandten
 						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-3">
 							<h2 class="btn btn-warning btn-xl ttl d-block">
 							▼ </h2>
 						</div>
-					.<span class="tran"><br><small>그때 집에서 가족과 친적들과 함께 명절을 지낸다.</small></span> Man spielt 
+					.<span class="tran"><br><small>그때 집에서 가족과 친적들과 함께 명절을 지낸다.</small></span> Man spielt
 						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-4">
 							<h2 class="btn btn-warning btn-xl ttl d-block">
 							▼ </h2>
 						</div>
-					, wie zum Beispiel ‚Yutnoli‘ und verbeugt sich 
+					, wie zum Beispiel ‚Yutnoli‘ und verbeugt sich
 						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-5">
 							<h2 class="btn btn-warning btn-xl ttl d-block">
 							▼ </h2>
 						</div>
-					 und Älteren.<span class="tran"><br><small>새해에는 한국 전통놀이들, 예를 들어 윳놀이를 하고 부모님과 친척어른들에게 새배를 드린다.</small></span> Dabei wünscht man ihnen ein frohes neues Jahr.<span class="tran"><br><small>이때 어른들은 복된 새해를 축원한다 (덕담을 한다).</small></span> Als traditionelles Gericht zum Neujahr gibt es 
+					 und Älteren.<span class="tran"><br><small>새해에는 한국 전통놀이들, 예를 들어 윳놀이를 하고 부모님과 친척어른들에게 새배를 드린다.</small></span> Dabei wünscht man ihnen ein frohes neues Jahr.<span class="tran"><br><small>이때 어른들은 복된 새해를 축원한다 (덕담을 한다).</small></span> Als traditionelles Gericht zum Neujahr gibt es
 						<div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-6">
 							<h2 class="btn btn-warning btn-xl ttl d-block">
 							▼ </h2>
@@ -96,9 +96,9 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -308,7 +308,7 @@
 					$("#0").show();
 					$(".alert").hide();
 
-					<?php include "wahl.php"; ?>
+					<?php require "wahl.php"; ?>
 
 					var pan=new Array();
 					// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
@@ -336,6 +336,6 @@
 		);
 </script>
 <!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

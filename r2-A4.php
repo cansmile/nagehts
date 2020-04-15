@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -51,7 +51,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="prev">
 					<table class="table table-borderless table-light">
-						<tbody>	
+						<tbody>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="1" class="so btn btn-danger">▶</button></th>
 								<td>Hallo, ich bin Anna Müller. <span class="tran">&nbsp;<br><small>안녕하세요, 저는 안나 뮐러에요.</small></span></td>
@@ -66,7 +66,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="4" class="so btn btn-primary">▶</button></th>
-								<td>Nein, aus 
+								<td>Nein, aus
 									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-1">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -75,7 +75,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="5" class="so btn btn-danger">▶</button></th>
-								<td>Und wohnen Sie hier in 
+								<td>Und wohnen Sie hier in
 									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -88,7 +88,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="7" class="so btn btn-primary">▶</button></th>
-								<td>Wohnen Sie auch in 
+								<td>Wohnen Sie auch in
 									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -97,7 +97,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="8" class="so btn btn-danger">▶</button></th>
-								<td>Nein, ich wohne in 
+								<td>Nein, ich wohne in
 									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-3">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -106,7 +106,7 @@
 							</tr>
 							<tr>
 								<th class="text-right" scope="row"><button type="button" id="9" class="so btn btn-danger">▶</button></th>
-								<td>Aber meine Mutter wohnt hier in 
+								<td>Aber meine Mutter wohnt hier in
 									<div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
@@ -163,7 +163,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -223,7 +223,7 @@
 					console.log("다시 읽어주세요!");
 				},
 				onload: function() {
-					// 음성 준비되면 HV 버튼 나타내기 
+					// 음성 준비되면 HV 버튼 나타내기
 					$("#0").show();
 					$(".alert").hide();
 
@@ -237,9 +237,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -252,7 +252,7 @@
 					});
 
 
-					<?php include "wahl.php"; ?>
+					<?php require "wahl.php"; ?>
 
 					// 정답확인
 					$("#chk").on("click", function() {
@@ -266,7 +266,7 @@
 							);
 							$(".tran").show();
 							$(".itm-lst").hide();
-							
+
 							// 정답 확인 div 상자 배경색 속성 없애기
 							$(this).removeClass("btn-light ");
 							$(".itm-lst>button").addClass("text-success font-weight-bold");
@@ -338,8 +338,8 @@
 		}
 		);
 
-		
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

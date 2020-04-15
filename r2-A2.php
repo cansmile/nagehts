@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -61,7 +61,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="8" class="so btn btn-outline-danger">▶</button></th>
-							<td>Ich komme aus 
+							<td>Ich komme aus
 								<div class="itm-lst 1itm d-inline-block mr-2" id="lst-1">
 									<h2 class="btn btn-warning btn-xl ttl d-block" style="min-width: 150px;">
 									▼ </h2>
@@ -69,7 +69,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="9" class="so btn btn-outline-danger">▶</button></th>
-							<td>und ich wohne in 
+							<td>und ich wohne in
 								<div class="itm-lst 1itm d-inline-block mr-2" id="lst-2">
 									<h2 class="btn btn-warning btn-xl ttl d-block" style="min-width: 150px;">
 									▼ </h2>
@@ -90,7 +90,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="11" class="so btn btn-outline-danger">▶</button></th>
-							<td>Ich komme aus 
+							<td>Ich komme aus
 								<div class="itm-lst 1itm d-inline-block mr-2" id="lst-3">
 									<h2 class="btn btn-warning btn-xl ttl d-block" style="min-width: 150px;">
 									▼ </h2>
@@ -98,7 +98,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="12" class="so btn btn-outline-danger">▶</button></th>
-							<td>Ich wohne in 
+							<td>Ich wohne in
 								<div class="itm-lst 1itm d-inline-block mr-2" id="lst-4">
 									<h2 class="btn btn-warning btn-xl ttl d-block" style="min-width: 150px;">
 									▼ </h2>
@@ -119,7 +119,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="14" class="so btn btn-outline-danger">▶</button></th>
-							<td>Ich komme aus 
+							<td>Ich komme aus
 								<div class="itm-lst 1itm d-inline-block mr-2" id="lst-5">
 									<h2 class="btn btn-warning btn-xl ttl d-block" style="min-width: 150px;">
 									▼ </h2>
@@ -131,7 +131,7 @@
 						</tr>
 						<tr>
 							<th class="bg-light" scope="row"><button type="button" id="16" class="so btn btn-outline-danger">▶</button></th>
-							<td>Ich wohne in 
+							<td>Ich wohne in
 								<div class="itm-lst 1itm d-inline-block mr-2" id="lst-6">
 									<h2 class="btn btn-warning btn-xl ttl d-block" style="min-width: 150px;">
 									▼ </h2>
@@ -149,7 +149,7 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -216,7 +216,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#0").show();
 		$(".alert").hide();
 
@@ -230,9 +230,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -245,7 +245,7 @@ var nagehts = new Howl({
 		});
 
 
-		<?php include "wahl.php"; ?>
+		<?php require "wahl.php"; ?>
 
 		// 정답확인
 		$("#chk").on("click", function() {
@@ -327,8 +327,8 @@ var nagehts = new Howl({
 		}
 		);
 
-	
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

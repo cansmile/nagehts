@@ -1,7 +1,7 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -25,7 +25,7 @@
 											<th class="text-center align-middle m-2 p-2" colspan="2"><button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
 										</tr>
 										<tr>
-											<th scope="col">Modalverben</th>
+											<th scope="col">Modalverbenfs</th>
 											<th scope="col">Imperative (du, ihr, Sie)</th>
 										</tr>
 									</thead>
@@ -702,7 +702,7 @@
 
 		});
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 
 </html>

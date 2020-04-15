@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -52,7 +52,7 @@
 	</section>
 	<section>
 		<div class="container">
-			
+
 			<!-- 고르는 아이템들 -->
 			<div class="row">
 				<div class="col-lg-12 mb-4 mt-2 text-center">
@@ -146,7 +146,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#0").show();
 		$(".alert").hide();
 
@@ -160,9 +160,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -242,7 +242,7 @@ var nagehts = new Howl({
 		}
 		}
 		);
-		<?php include "wahl.php"; ?>
+		<?php require "wahl.php"; ?>
 		// 미리 답 넣어놓기
 		var pan=new Array();
 		// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
@@ -289,8 +289,8 @@ var nagehts = new Howl({
 		}
 		);
 
-	
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

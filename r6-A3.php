@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-    <?php include "nav.php"; ?>
+    <?php require "nav.php"; ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -302,7 +302,7 @@
                 }
 
                 , onload: function() {
-                    <?php include "wahl.php";
+                    <?php require "wahl.php";
                     ?> // 정답확인
 
                     $("#chk").on("click", function() {
@@ -517,6 +517,6 @@
         );
 
     </script>
-    <?php include "footer.php"; ?>
+    <?php require "footer.php"; ?>
 </body>
 </html>

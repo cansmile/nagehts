@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -89,7 +89,7 @@
 				<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
 					<table class="table table-borderless">
 						<tbody>
-							
+
 							<tr>
 								<td><button type="button" id="5" class="so btn btn-outline-danger">▶</button></td>
 								<td><div class="input-group">
@@ -147,7 +147,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<div id="last" class="d-none"></div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -463,6 +463,6 @@
 		);
 
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

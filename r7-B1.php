@@ -1,7 +1,7 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -283,13 +283,13 @@
 					}, {
 						name : "Cartoon_Boing",
 						path : "sounds/"
-						
+
 					}],
 					path : "<?=$root ?>sounds/Reihe 7/",
 					preload : true,
 					volume : 1.0,
 					multiplay: false,
-					
+
 					ended_callback: function(obj) {
 						// 재상이 끝날 때 2번 이상이면 번역 보이기
 						hmn = obj.part;
@@ -313,7 +313,7 @@
 						}
 
 					}, ready_callback: function () {
-						
+
 				$(".o").on("click", function() {
 					ion.sound.play("dingdongdang");
 				});
@@ -328,7 +328,7 @@
 					},
 					container : "body"
 				});
-			
+
 				$(".pop").click(function () {
 					// 가장 먼저 지문에 'an' 넣기
 					if (!$(this).siblings().hasClass("an")) {
@@ -336,13 +336,13 @@
 						$(this).addClass("btn-warning");
 						$(this).parent().children().removeClass("btn-light");
 					};
-	
+
 					// 문제 풀이 정도 업데이트
 					var perc = Math.round(($(".an").length / $(".q").length) * 100);
 					$(".progress>.bar").attr("width", perc + "%;");
-					
+
 				});
-				
+
 			// 팝업 내용 사라지기
 			$(".pop").popover().click(function() {
 				setTimeout(function() {
@@ -388,11 +388,11 @@
 		$(".alert").hide();
 		}
 	});
-	
+
 });
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

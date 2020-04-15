@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<section>
 		<div class="container">
 			<div class="row">
@@ -30,7 +30,7 @@
 				<div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich trinke viel Kaffee.</div>
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
-					Deshalb möchte ich 
+					Deshalb möchte ich
 					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-1">
 					haben.
 					</div>
@@ -78,7 +78,7 @@
 				<div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich reise gern.</div>
 				<div class="col-sm-6 col-md-12 col-lg-12 my-2">
 					<div class="input-group">
-					Deshalb möchte ich 
+					Deshalb möchte ich
 					<input type="text" class="form-control q pl-0 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark" style="position: relative; top: -6px; min-width: 100px; max-width: 200px;" aria-label="." id="qst-5">
 					haben.
 					</div>
@@ -186,8 +186,8 @@
 
 		</div>
 	</section>
-	
-	
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -427,6 +427,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

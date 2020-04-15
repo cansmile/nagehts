@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<header>
 		<div class="jumbotron">
 			<div class="container">
@@ -17,16 +17,16 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<?php include "inhalt.php"; ?>
+				<?php require "inhalt.php"; ?>
 			</div>
 		</div>
 	</section>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="./<?=$root ?>js/popper.min.js"></script>
 	<script src="./<?=$root ?>js/bootstrap.js"></script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

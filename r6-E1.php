@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -144,9 +144,9 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -400,7 +400,7 @@
 					);
 					$("#0").show();
 					$(".alert").hide();
-					<?php include "wahl.php"; ?>
+					<?php require "wahl.php"; ?>
 					var pan=new Array();
 					// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
 					pan=[1];
@@ -427,6 +427,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

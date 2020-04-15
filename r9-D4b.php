@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<section>
 		<div class="container">
 			<!-- 고르는 아이템들 -->
@@ -43,7 +43,7 @@
 					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 100px; max-width: 150px;" aria-label="." placeholder="gehen" id="qst-12">
 					, nur Leoni ist bei mir
 					<input type="text" class="form-control q pl-0 col-4 rounded-0 border-left-0 border-right-0 border-top-0 mx-1 px-2 py-1 text-center border-dark mx-1" style="position: relative; top: -6px; min-width: 100px; max-width: 150px;" aria-label="." placeholder="bleiben" id="qst-13">
-					und hat übernachtet.  <span class="tran">&nbsp;<small>친구들은 (저녁) 11시경에 집으로 돌아갔고 레오니만 우리집에 머물면서 잠을 잤어.</small>&nbsp;</span>Diesen Tag vergesse ich ganz bestimmt nicht so schnell.  <span class="tran">&nbsp;<small>나는 이날을 그렇게 빨리 잊지 않을 것 같아.</small>&nbsp;</span>Wie war denn dein letzter Geburtstag? <span class="tran">&nbsp;<small>너의 최근 생일파티는 어땠어?</small>&nbsp;</span> Erzähl doch mal!<span class="tran">&nbsp;<small>이야기 좀 해주렴!</small>&nbsp;</span>				
+					und hat übernachtet.  <span class="tran">&nbsp;<small>친구들은 (저녁) 11시경에 집으로 돌아갔고 레오니만 우리집에 머물면서 잠을 잤어.</small>&nbsp;</span>Diesen Tag vergesse ich ganz bestimmt nicht so schnell.  <span class="tran">&nbsp;<small>나는 이날을 그렇게 빨리 잊지 않을 것 같아.</small>&nbsp;</span>Wie war denn dein letzter Geburtstag? <span class="tran">&nbsp;<small>너의 최근 생일파티는 어땠어?</small>&nbsp;</span> Erzähl doch mal!<span class="tran">&nbsp;<small>이야기 좀 해주렴!</small>&nbsp;</span>
 					</div>
 				</div>
 				</div>
@@ -55,9 +55,9 @@
 				</div>
 				<!-- 정답확인 버튼 끝 -->
 			</section>
-			
+
 			<div id="last" class="d-none"></div>
-			
+
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 			<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 			<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -331,7 +331,7 @@
 								$(pann).prop("disabled", true);
 								// $(pann).closest("tr").find(".tran").show();
 							}
-						
+
 						$("#0").show();
 						$(".alert").hide();
 						},
@@ -358,6 +358,6 @@
 			}
 			);
 			</script>
-			<?php include "footer.php"; ?>
+			<?php require "footer.php"; ?>
 		</body>
 	</html>

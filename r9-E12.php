@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 보기시작 -->
 <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
@@ -198,7 +198,7 @@
 		$(".tran").hide();
 		$("#chk").hide();
 		$(document).ready(function() {
-<?php include "wahl.php"; ?>
+<?php require "wahl.php"; ?>
 
 	// 정답확인
 	$("#chk").on("click", function() {
@@ -252,7 +252,7 @@
 			});
 			alert("모든 문제를 풀어주세요!");
 			// alert(na+"번 문제를 풀어주세요!");
-			
+
 		}
 	});
 
@@ -275,9 +275,9 @@
 		}
 		);
 
-	
+
 	</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

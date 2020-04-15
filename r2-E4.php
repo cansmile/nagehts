@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -692,9 +692,9 @@
 				<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-		
+
 	<div id="last" class="d-none"></div>
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -752,7 +752,7 @@
 						a = th.val();
 						a = a.replace(/ /gi, "");
 						if(!$.isArray(an[qn])) {
-							// 1 인 경우 
+							// 1 인 경우
 							if(io) {
 								b = an[qn];
 							} else {
@@ -773,12 +773,12 @@
 									b = an[qn][fd].substr(0,q);
 								}
 								b = b.replace(/ /gi, "");
-								
+
 								if(a == b) {
 									return true;
 								}
 							}
-							
+
 						}
 					}
 
@@ -788,7 +788,7 @@
 						},
 						container : "body"
 					});
-				
+
 					$(".pop").click(function () {
 						// 가장 먼저 지문에 'an' 넣기
 						if (!$(this).siblings().hasClass("an")) {
@@ -800,9 +800,9 @@
 						// 문제 풀이 정도 업데이트
 						var perc = Math.round(($(".an").length / $(".q").length) * 100);
 						$(".progress>.bar").attr("width", perc + "%;");
-						
+
 					});
-						
+
 					// 팝업 내용 사라지기
 					$(".pop").popover().click(function() {
 						setTimeout(function() {
@@ -832,7 +832,7 @@
 							$(this).removeClass("bg-success");
 							$(this).removeClass("text-white font-weight-bold");
 						}
-						
+
 						if($(this).val()) {
 							$("#ant-"+$(this).attr("id").substr(4)).show();
 							$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -889,7 +889,7 @@
 							// })
 						}
 					})
-					
+
 	/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 					$("#chk").on("click", function() {
 						var na = "";
@@ -909,7 +909,7 @@
 								na += "[ "+$(this).attr("id").substr(4)+" ]";
 							}
 						})
-						
+
 						if(na == "" && da == "") {
 								for(var i=0;
 								i < an.length;
@@ -922,7 +922,7 @@
 									else {
 										$("#qst-"+(i+1)).val(oran);
 										$("#qst-"+(i+1)).addClass("bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1");
-										$("#qst-"+(i+1)).attr("disabled", true); 
+										$("#qst-"+(i+1)).attr("disabled", true);
 										$("#qst-"+(i+1)).removeClass("rounded-0");
 
 										if( !$.isArray(an[i])) {
@@ -949,7 +949,7 @@
 										$(".qt").each(function() {
 											if(!$(this).hasClass("bg-success")) {
 												$(this).addClass("bg-danger text-white font-weight-bold rounded");
-												$(this).attr("disabled", true); 
+												$(this).attr("disabled", true);
 
 											}
 										})
@@ -958,12 +958,12 @@
 										ri++;
 									}
 								}
-								
+
 						$(this).prop("disabled", true);
 						$(".tran").show();
 						$(this).attr("id", "done");
 
-							
+
 						$(".pop").each(function() {
 							$(this).removeClass("btn-info");
 
@@ -1034,7 +1034,7 @@
 					$("#option1-2").parent().addClass("an");
 					$("#option1-2").parent().addClass("btn-warning");
 					$("#option1-2").parent().removeClass("btn-light");
-				
+
 						$("#0").show();
 						$(".alert").hide();
 
@@ -1048,9 +1048,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -1072,10 +1072,10 @@
 
 
 				});
-			
+
 			})
-			
+
 		</script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

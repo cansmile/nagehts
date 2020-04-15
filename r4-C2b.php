@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -33,7 +33,7 @@
 							<tr>
 								<td><button type="button" id="2" class="so btn btn-outline-danger">▶</button></td>
 								<td><div class="ant" id="ant-1"></div><div class="input-group">
-								Sie hat einen Kleber, aber 
+								Sie hat einen Kleber, aber
 								<input type="text" class="form-control q border-left-0 border-right-0 border-top-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" aria-label="." id="qst-1">
 								Radiergummi.
 								</div><span class="tran"><br><small>그녀는 풀이 있지만 지우개가 없습니다.</small></span></td>
@@ -41,7 +41,7 @@
 							<tr>
 								<td><button type="button" id="3" class="so btn btn-outline-danger">▶</button></td>
 								<td><div class="ant" id="ant-2"></div><div class="input-group">
-								Sie hat Buntstifte, aber 
+								Sie hat Buntstifte, aber
 								<input type="text" class="form-control q border-left-0 border-right-0 border-top-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" aria-label="." id="qst-2">
 								 Geld.
 								</div><span class="tran"><br><small>그녀는 색연필이 있지만 돈은 없습니다.</small></span></td>
@@ -72,7 +72,7 @@
 					<tr>
 						<td><button type="button" id="6" class="so btn btn-outline-danger">▶</button></td>
 						<td><div class="ant" id="ant-4"></div><div class="input-group">
-						Er hat 
+						Er hat
 						<input type="text" class="form-control q border-left-0 border-right-0 border-top-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" aria-label="." id="qst-4">
 						 Kuli,
 						</div><span class="tran"><br><small>그는 펜이 있지만</small></span></td>
@@ -80,7 +80,7 @@
 					<tr>
 						<td><button type="button" id="7" class="so btn btn-outline-danger">▶</button></td>
 						<td><div class="ant" id="ant-5"></div><div class="input-group">
-						aber 
+						aber
 						<input type="text" class="form-control q border-left-0 border-right-0 border-top-0 rounded-0 mx-1 col-3" style="position: relative; top: -6px;" aria-label="." id="qst-5">
 						 Schultasche.
 						</div><span class="tran"><br><small>책가방은 가지고 있지 않습니다.</small></span></td>

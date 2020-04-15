@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<section>
 		<div class="container">
 			<div class="row">
@@ -529,6 +529,6 @@
 	</script>
 	<!-- ion.sound finished -->
 
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

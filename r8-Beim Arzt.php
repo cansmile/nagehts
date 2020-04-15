@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 		<!--이정표 시작-->
 		<section>
 			<div class="container">
@@ -10,7 +10,7 @@
 					</div>
 				</div>
 				<div class="row">
-<?php  include "inhalt.php"; ?>
+<?php  require "inhalt.php"; ?>
 				</div>
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
@@ -28,6 +28,6 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./<?=$root ?>js/popper.min.js"></script>
 		<script src="./<?=$root ?>js/bootstrap.js"></script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 보기시작 -->
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
@@ -107,7 +107,7 @@
 										Man feiert häufig <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;" id="lst-7">
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
-										</div>									 
+										</div>
 									<span class="tran"><small>독일에서 크리스마스는 이렇게 지낸다: 아침에는 온 가족이 크리스마스나무를 장식한다. 커피와 슈톨렌 (크리스마스에 먹는 빵)을 먹고 마신 후에 17시에 교회로 간다. 교회에서 집으로 다시오면 가족들은 함께 크리스마스 노래를 부르고 크리스마스선물을 푼다. 크리스마스 음식, 예를 들어 성탄절거위요리는 12월 25일에 먹는다.</small></span></td>
 								</tr>
 							</tbody>
@@ -124,10 +124,10 @@
 
 			</div>
 		</section>
-		
+
 	<div id="marg"></div>
 
-		
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -246,7 +246,7 @@
 			$("#0").show();
 			$(".alert").hide();
 
-			<?php include "wahl.php"; ?>
+			<?php require "wahl.php"; ?>
 
 			var pan=new Array();
 			// pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
@@ -270,6 +270,6 @@
 		);
 </script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 	</body>
 </html>

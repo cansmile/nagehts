@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 보기시작 -->
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
@@ -148,7 +148,7 @@
 			}
 			);
 
-			<?php include "wahl.php"; ?>
+			<?php require "wahl.php"; ?>
 
 			// 미리 답 넣어놓기
 			var pan=new Array();
@@ -172,6 +172,6 @@
 		);
 
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

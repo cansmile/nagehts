@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 보기시작 -->
 	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 		<div class="container">
@@ -168,7 +168,7 @@ $(document).ready(function() {
 	);
 	$("#0").show();
 	$(".alert").hide();
-	<?php include "wahl.php";
+	<?php require "wahl.php";
 	?> var pan=new Array(), pann;
 	// pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
 	pan=[];
@@ -191,6 +191,6 @@ $(document).ready(function() {
 
 </script>
 <!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 </body>
 </html>

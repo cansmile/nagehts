@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -121,7 +121,7 @@
 				<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-		
+
 
 		<div id="last" class="d-none"></div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -188,9 +188,9 @@
 							nagehts.seek();
 							nagehts.play(ti);
 							sen[ti]++;
-				
+
 							last = ti;
-				
+
 							$("#cnt-"+ti).text(sen[ti]);
 						} else if(last == ti && nagehts.playing($("div#last").text())) {
 							$("#last").text("");
@@ -211,7 +211,7 @@
 						a = th.val();
 						a = a.replace(/ /gi, "");
 						if(!$.isArray(an[qn])) {
-							// 1 인 경우 
+							// 1 인 경우
 							if(io) {
 								b = an[qn];
 							} else {
@@ -232,12 +232,12 @@
 									b = an[qn][fd].substr(0,q);
 								}
 								b = b.replace(/ /gi, "");
-								
+
 								if(a == b) {
 									return true;
 								}
 							}
-							
+
 						}
 					}
 
@@ -262,7 +262,7 @@
 							$(this).removeClass("bg-success");
 							$(this).removeClass("text-white font-weight-bold");
 						}
-						
+
 						if($(this).val()) {
 							$("#ant-"+$(this).attr("id").substr(4)).show();
 							$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -443,8 +443,8 @@
 
 			});
 		});
-			
+
 		</script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

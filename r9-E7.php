@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -15,7 +15,7 @@
 					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
 					❚❚
 					</button>
-					
+
 					</h2>
  					<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>
 				</div>
@@ -84,8 +84,8 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
-	
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -376,7 +376,7 @@
 						$(pann).prop("disabled", true);
 						// $(pann).closest("tr").find(".tran").show();
 					}
-				
+
 					$(".so").on("click", function () {
 						if($(this).attr("id").substr(-2)=="_p") {
 							// _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기
@@ -431,6 +431,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

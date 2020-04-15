@@ -1,6 +1,6 @@
-	<?php include "header.php"; ?>
+	<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 		<section>
 			<div class="container">
 				<div class="row">
@@ -91,10 +91,10 @@
 				<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-		
+
 <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -120,7 +120,7 @@ function rfchk(th,io) {
 	a = th.val();
 	a = a.replace(/ /gi, "");
 	if(!$.isArray(an[qn])) {
-		// 1 인 경우 
+		// 1 인 경우
 		if(io) {
 			b = an[qn];
 		} else {
@@ -141,12 +141,12 @@ function rfchk(th,io) {
 				b = an[qn][fd].substr(0,q);
 			}
 			b = b.replace(/ /gi, "");
-			
+
 			if(a == b) {
 				return true;
 			}
 		}
-		
+
 	}
 }
 				$(".q").on("keyup", function () {
@@ -170,7 +170,7 @@ function rfchk(th,io) {
 						$(this).removeClass("bg-success");
 						$(this).removeClass("text-white font-weight-bold");
 					}
-					
+
 					if($(this).val()) {
 						$("#ant-"+$(this).attr("id").substr(4)).show();
 						$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -329,9 +329,9 @@ function rfchk(th,io) {
 				}
 
 			});
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

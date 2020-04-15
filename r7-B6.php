@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -80,7 +80,7 @@
 						HV
 					</button><button type="button" class="btn btn-<?=$color ?> ml-2 btn-inline so" id="0_p">
 						❚❚
-					</button>						
+					</button>
 					</h2>
 					<h3>[ <small>음성을 듣고 내용과 일치하는 문장을 선택하세요.</small> ]</h3>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼을 눌러 듣기를 2번 완료하면 문장과 번역이 나옵니다.</small> ]</h3>
@@ -141,9 +141,9 @@
 			<!-- 정답확인 버튼 끝 -->
 	</div>
 </section>
-		
+
 <div id="marg"></div>
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -191,7 +191,7 @@
 					preload : true,
 					volume : 1.0,
 					multiplay: false,
-					
+
 					ended_callback: function(obj) {
 						// 재생이 끝날 때 2번 이상이면 번역 보이기
 						hmn = obj.part;
@@ -216,7 +216,7 @@
 						}
 
 					}, ready_callback: function () {
-						
+
 				$(".o").on("click", function() {
 					ion.sound.play("dingdongdang");
 				});
@@ -231,7 +231,7 @@
 					},
 					container : "body"
 				});
-			
+
 				$(".pop").click(function () {
 					// 가장 먼저 지문에 'an' 넣기
 					if (!$(this).siblings().hasClass("an")) {
@@ -239,13 +239,13 @@
 						$(this).addClass("btn-warning");
 						$(this).parent().children().removeClass("btn-light");
 					};
-	
+
 					// 문제 풀이 정도 업데이트
 					var perc = Math.round(($(".an").length / $(".q").length) * 100);
 					$(".progress>.bar").attr("width", perc + "%;");
-					
+
 				});
-				
+
 			// 팝업 내용 사라지기
 			$(".pop").popover().click(function() {
 				setTimeout(function() {
@@ -287,7 +287,7 @@
 				};
 			});
 
-<?php include "wahl.php"; ?>
+<?php require "wahl.php"; ?>
 
 			// 정답확인
 			$("#chk").on("click", function() {
@@ -322,7 +322,7 @@
 								$(this).addClass("btn-light");
 							};
 
-							
+
 						});
 
 						$(this).removeClass("btn-light ");
@@ -385,11 +385,11 @@
 			}
 		}
 	});
-	
+
 });
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

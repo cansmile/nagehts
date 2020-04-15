@@ -1,6 +1,6 @@
-	<?php include "header.php"; ?>
+	<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -289,7 +289,7 @@
 				$("#qst-1>div.o").addClass("an");
 				$("#qst-1>div.o").addClass("btn-warning");
 				$("#qst-1>div.o").removeClass("btn-light");
-			
+
 
 					$(".so").on("click", function() {
 						var t=$(this);
@@ -341,6 +341,6 @@
 	);
 
 </script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 </body>
 </html>

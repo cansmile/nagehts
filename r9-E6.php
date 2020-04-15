@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 
 <section>
 	<div class="container">
@@ -73,7 +73,7 @@
 			</div>
 	</div>
 		<!-- 정답화인 버튼 시작 -->
-		
+
 		<div class="row">
 			<div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
 				정답확인
@@ -83,7 +83,7 @@
 	</div>
 </section>
 
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -110,7 +110,7 @@
 					multiplay: false,
 	});
 
-						
+
 				$(".o").on("click", function() {
 					ion.sound.play("dingdongdang");
 				});
@@ -124,7 +124,7 @@ $("[data-toggle='popover']").popover({
 					},
 					container : "body"
 				});
-			
+
 				$(".pop").click(function () {
 					// 가장 먼저 지문에 'an' 넣기
 					if (!$(this).siblings().hasClass("an")) {
@@ -132,13 +132,13 @@ $("[data-toggle='popover']").popover({
 						$(this).addClass("btn-warning");
 						$(this).parent().children().removeClass("btn-light");
 					};
-	
+
 					// 문제 풀이 정도 업데이트
 					var perc = Math.round(($(".an").length / $(".q").length) * 100);
 					$(".progress>.bar").attr("width", perc + "%;");
-					
+
 				});
-				
+
 			// 팝업 내용 사라지기
 			$(".pop").popover().click(function() {
 				setTimeout(function() {
@@ -192,7 +192,7 @@ $("[data-toggle='popover']").popover({
 					$(".q").find(".tran").hide();
 					$(".nu").show();
 					// $(".q").hide();
-					
+
 
 
 					$(this).removeClass("btn-light ");
@@ -224,11 +224,11 @@ $("[data-toggle='popover']").popover({
 					$(this).addClass("btn-" + cl + " text-" + tcl);
 					$(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
 				};
-			});				
 			});
-			
+			});
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

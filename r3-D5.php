@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -307,7 +307,7 @@
 			<!-- 정답확인 버튼 끝 -->
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -385,7 +385,7 @@
 			}
 			,
 			onload: function() {
-				<?php include "wahl.php";
+				<?php require "wahl.php";
 				?> // 정답확인
 				$("#chk").on("click", function() {
 					var na="";

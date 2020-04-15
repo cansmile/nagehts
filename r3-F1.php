@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -98,7 +98,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-									.	
+									.
 									<span class="tran"><br>
 										&nbsp;<small>저의 부모님은 질비아 마크와 한스 홀름이에요.</small>
 									</span>
@@ -112,7 +112,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-									.	
+									.
 									<span class="tran"><br>
 										&nbsp;<small>저의 조부모님은 마리아 홀름과 로버트 홀름이에요.</small>
 									</span>
@@ -145,7 +145,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-									.	
+									.
 										<span class="tran"><br>
 											&nbsp;<small>그녀는 자비네 홀름이에요.</small>
 										</span>
@@ -186,7 +186,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-									.	
+									.
 										<span class="tran"><br>
 											&nbsp;<small>제 아이들은 한스,게오르크와 자비네이에요.</small>
 										</span>
@@ -208,7 +208,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-									.	
+									.
 										<span class="tran"><br>
 											&nbsp;<small>그녀는 노라에요.</small>
 										</span>
@@ -230,7 +230,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-									.	
+									.
 										<span class="tran"><br>
 											&nbsp;<small>그는 프란츠 숄이에요.</small>
 										</span>
@@ -244,7 +244,7 @@
 										<h2 class="btn btn-warning btn-xl ttl d-block">
 										▼ </h2>
 									</div>
-									.	
+									.
 										<span class="tran"><br>&nbsp;<small>저의 며느리는 질비아 마크에요.</small>
 										</span>
 								</td>
@@ -338,7 +338,7 @@
 				</div>
 		</div>
 	</section>
-		
+
 		<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -416,7 +416,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#0").show();
 		$(".alert").hide();
 
@@ -430,9 +430,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -445,8 +445,8 @@ var nagehts = new Howl({
 		});
 
 
-		<?php include "wahl.php"; ?>
-		
+		<?php require "wahl.php"; ?>
+
 		// 정답확인
 		$("#chk").on("click", function() {
 			var na="";
@@ -534,8 +534,8 @@ var nagehts = new Howl({
 		}
 		);
 
-	
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

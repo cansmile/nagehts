@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-    <?php include "nav.php"; ?>
+    <?php require "nav.php"; ?>
     <!-- 보기시작 -->
     <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
         <div class="container">
@@ -161,7 +161,7 @@
             <!-- 정답확인 버튼 끝 -->
         </div>
     </section>
-    
+
     <div id="marg"></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
@@ -262,7 +262,7 @@
             }
 
             );
-            <?php include "wahl.php";
+            <?php require "wahl.php";
             ?> var pan=new Array(), il;
             // pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
             pan=[7];
@@ -287,6 +287,6 @@
 
         );
     </script>
-    <?php include "footer.php"; ?>
+    <?php require "footer.php"; ?>
 </body>
 </html>

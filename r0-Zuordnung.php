@@ -1,7 +1,7 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
 	<!-- 보기시작 -->
@@ -106,8 +106,8 @@
 					</div>
 				</div>
 			</div>
-			
-			
+
+
 			<!-- 리스트  시작 -->
 			<div class="row mt-3" id="lsts">
 				<div style="min-height: 240px;" class="rounded-top bg-primary itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-1">
@@ -213,7 +213,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#0").show();
 		$(".alert").hide();
 
@@ -227,9 +227,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -241,7 +241,7 @@ var nagehts = new Howl({
 
 		});
 
-		<?php include "wahl.php"; ?>
+		<?php require "wahl.php"; ?>
 
 		var pan=new Array(), pann;
 		// pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
@@ -356,6 +356,6 @@ var nagehts = new Howl({
 });
 
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-    <?php include "nav.php"; ?>
+    <?php require "nav.php"; ?>
     <section>
         <div class="container">
             <div class="row">
@@ -128,10 +128,10 @@
             <!-- 정답확인 버튼 끝 -->
         </div>
     </section>
-    
+
     <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
     <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
-    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -429,6 +429,6 @@
         );
 
     </script>
-    <?php include "footer.php"; ?>
+    <?php require "footer.php"; ?>
 </body>
 </html>

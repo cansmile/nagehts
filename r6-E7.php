@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -293,9 +293,9 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -309,7 +309,7 @@
 			$("#0_p").hide();
 			$(".tran").hide();
 			$("#chk").hide();
-			
+
 			$(document).ready(function() {
 				// 각 문장 재생 횟수 초기화
 				var hm=new Array(), sen=new Array();
@@ -492,7 +492,7 @@
 								$(".ans0").hide();
 							}
 						}
-						<?php include "wahl.php";
+						<?php require "wahl.php";
 						?> // 정답확인
 						$("#chk").on("click", function() {
 				if($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
@@ -589,6 +589,6 @@
 
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 보기시작 -->
 <section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
 	<div class="container">
@@ -266,7 +266,7 @@
 										<tr>
 											<td class="border-0">
 												<div class="ant" id="ant-1"></div>
-												<div class="input-group">										
+												<div class="input-group">
 													<input type="text" class="form-control q border border-dark border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-1">
 												</div><span class="tran"><small><br>저는 영화관에 갑니다. 거기서 영화를 봅니다.</small></span>
 											</td>
@@ -274,7 +274,7 @@
 									</tbody>
 								</table>
 							</div>
-						</div>	
+						</div>
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 								<table class="table">
@@ -292,7 +292,7 @@
 										<tr>
 											<td class="border-0">
 												<div class="ant" id="ant-2"></div>
-												<div class="input-group">										
+												<div class="input-group">
 													<input type="text" class="form-control q border border-dark border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-2">
 												</div><span class="tran"><small><br>그녀는 도서관에 갑니다. 거기서 책을 읽습니다.</small></span>
 											</td>
@@ -318,7 +318,7 @@
 										<tr>
 											<td class="border-0">
 												<div class="ant" id="ant-3"></div>
-												<div class="input-group">										
+												<div class="input-group">
 													<input type="text" class="form-control q border border-dark border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-3">
 												</div><span class="tran"><small><br>그는 공원에 갑니다. 거기서 조깅을 합니다.</small></span>
 											</td>
@@ -344,7 +344,7 @@
 										<tr>
 											<td class="border-0">
 												<div class="ant" id="ant-4"></div>
-												<div class="input-group">										
+												<div class="input-group">
 													<input type="text" class="form-control q border border-dark border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-4">
 												</div><span class="tran"><small><br>그는 음악회에 갑니다. 거기서 음악을 듣습니다.</small></span>
 											</td>
@@ -370,7 +370,7 @@
 										<tr>
 											<td class="border-0">
 												<div class="ant" id="ant-5"></div>
-												<div class="input-group">										
+												<div class="input-group">
 													<input type="text" class="form-control q border border-dark border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-5">
 												</div><span class="tran"><small><br>그녀는 축구장에 갑니다. 거기서 축구를 합니다.</small></span>
 											</td>
@@ -396,7 +396,7 @@
 										<tr>
 											<td class="border-0">
 												<div class="ant" id="ant-6"></div>
-												<div class="input-group">										
+												<div class="input-group">
 													<input type="text" class="form-control q border border-dark border-left-0 border-right-0 border-top-0 rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-6">
 												</div><span class="tran"><small><br>나는 클럽에 갑니다. 거기서 춤을 춥니다.</small></span>
 											</td>
@@ -418,10 +418,10 @@
 
 			</div>
 		</section>
-		
+
 	<div id="marg"></div>
 
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -453,7 +453,7 @@ function rfchk(th,io) {
 	a = th.val();
 	a = a.replace(/ /gi, "");
 	if(!$.isArray(an[qn])) {
-		// 1 인 경우 
+		// 1 인 경우
 		if(io) {
 			b = an[qn];
 		} else {
@@ -474,12 +474,12 @@ function rfchk(th,io) {
 				b = an[qn][fd].substr(0,q);
 			}
 			b = b.replace(/ /gi, "");
-			
+
 			if(a == b) {
 				return true;
 			}
 		}
-		
+
 	}
 }
 
@@ -577,7 +577,7 @@ function rfchk(th,io) {
 							$(this).removeClass("bg-success");
 							$(this).removeClass("text-white font-weight-bold");
 						}
-						
+
 						if($(this).val()) {
 							$("#ant-"+$(this).attr("id").substr(4)).show();
 							$("#ant-"+$(this).attr("id").substr(4)).text($(this).val());
@@ -673,7 +673,7 @@ function rfchk(th,io) {
 					}
 					);
 
-<?php include "wahl.php"; ?>
+<?php require "wahl.php"; ?>
 
 				$("#chk").on("click", function() {
 						var na="";
@@ -766,7 +766,7 @@ function rfchk(th,io) {
 							$(pann).find(".tran").show();
 						}
 					}
-				}		
+				}
 
 				pan = [1];
 				// pan = ["1","2","4","6","8"];
@@ -776,7 +776,7 @@ function rfchk(th,io) {
 					$(pann).addClass("bg-success text-white font-weight-bold");
 					$(pann).prop("disabled",true);
 					// $(pann).closest("tr").find(".tran").show();
-				}		
+				}
 
 
 
@@ -787,9 +787,9 @@ function rfchk(th,io) {
 			}
 			);
 		});
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

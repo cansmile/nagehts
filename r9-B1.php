@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -266,7 +266,7 @@
 										</td>
 									</tr>
 								</tbody>
-							</table></div>							
+							</table></div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -282,7 +282,7 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light"><span class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>5</strong></span><br>Wer mag noch Kekse?<br><span class="tran"><br><small>누가 또 과자를 좋아하니?</small></span>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light"><span class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>6</strong></span><br>Trinkst du auch Kaffee?<br><span class="tran"><br><small>너도 커피마시니?</small></span>
-							</div>							
+							</div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -298,7 +298,7 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light"><span class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>e</strong></span><br>Nein danke, meine Zähne!<span class="tran"><br><small>괜찮아 (안먹을께), 내 이가!</small></span>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light"><span class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>f</strong></span><br>Nein, ich darf nicht. Ich kann dann nicht schlafen.<span class="tran"><br><small>아 나. 마시면 안되. 그럼 잠을 못자서.</small></span>
-							</div>							
+							</div>
 						</div>
 					</div>
 
@@ -313,9 +313,9 @@
 
 			</div>
 		</section>
-		
+
 <div id="marg"></div>
-		
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -522,7 +522,7 @@
 						}
 					});
 
-				<?php include "wahl.php"; ?>
+				<?php require "wahl.php"; ?>
 
 					var pan = new Array();
 					// pan = ["1","2","3","4","5","6","7","8","9","10"];
@@ -549,9 +549,9 @@
 				}
 				);
 			});
-			
+
 		</script>
 		<!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

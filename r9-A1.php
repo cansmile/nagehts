@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-	<?php include "nav.php"; ?>
+	<?php require "nav.php"; ?>
 	<style>
 		.video-container {position:relative; padding-bottom:56.25%; height:0; overflow:hidden;}
 		.video-container iframe,.video-container object,.video-container embed {position:absolute; top:0; left:0; width:100%; height:100%;}
@@ -307,7 +307,7 @@
 				);
 				$("#0").show();
 				$(".alert").hide();
-				<?php include "wahl.php";
+				<?php require "wahl.php";
 				?> var pan=new Array(), pann;
 				// pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
 				pan=[1, 9, 10, 11, 13, 15, 21];
@@ -333,6 +333,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

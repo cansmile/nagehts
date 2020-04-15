@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <!-- 보기시작 -->
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
@@ -702,7 +702,7 @@
 			;
 })
 
-<?php include "wahl.php"; ?>
+<?php require "wahl.php"; ?>
 
 
 		// 쓰기 채우기
@@ -741,6 +741,6 @@
 
 </script>
 <!-- ion.sound finished -->
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 </body>
 </html>

@@ -1,13 +1,13 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 	<body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 <section>
 	<div class="container">
 		<div class="row">
 					<div class="col text-center">
 						<h3>[ <small>문제를 모두 풀어야 번역이 나옵니다.</small> ]</h3>
 					</div>
-				</div>		
+				</div>
 		<!-- 정답화인 버튼 시작 -->
 		<div class="row">
 			<div class="my-3 col-sm-12 col-md-12 col-lg-12" id="qst">
@@ -76,7 +76,7 @@
 	</div>
 </section>
 
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -89,7 +89,7 @@
 		<script>
 			$(".tran").hide();
 			$(".nu").hide();
-			
+
 			$(document).ready(function() {
 				$("[data-toggle='popover']").popover({
 					delay : {
@@ -97,7 +97,7 @@
 					},
 					container : "body"
 				});
-			
+
 				$(".pop").click(function () {
 					// 가장 먼저 지문에 'an' 넣기
 					if (!$(this).siblings().hasClass("an")) {
@@ -106,7 +106,7 @@
 						$(this).parent().children().removeClass("btn-light");
 					};
 				})
-				
+
 				// 팝업 내용 사라지기
 				$(".pop").popover().click(function() {
 					setTimeout(function() {
@@ -190,12 +190,12 @@
 				});
 
 				$(".alert").hide();
-			
+
 
 			});
-	
-			
+
+
 		</script>
-<?php include "footer.php"; ?>
+<?php require "footer.php"; ?>
 	</body>
 </html>

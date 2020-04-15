@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<!-- 알림 시작 -->
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
@@ -132,7 +132,7 @@
 					</h2>
 					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?=$color ?>">HV</button> 버튼은 정답 확인을 한 뒤에 나타납니다.</small> ]</h3>
 				</div>
-				
+
 			</div>
 			<div class="row" id="lsts">
 				<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12 mt-1">
@@ -425,11 +425,11 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<div id="marg"></div>
 	<div id="last" class="d-none"></div>
 
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -510,7 +510,7 @@ var nagehts = new Howl({
 		console.log("다시 읽어주세요!");
 	},
 	onload: function() {
-		// 음성 준비되면 HV 버튼 나타내기 
+		// 음성 준비되면 HV 버튼 나타내기
 		$("#0").show();
 		$(".alert").hide();
 
@@ -524,9 +524,9 @@ var nagehts = new Howl({
 				nagehts.seek();
 				nagehts.play(ti);
 				sen[ti]++;
-	
+
 				last = ti;
-	
+
 				$("#cnt-"+ti).text(sen[ti]);
 			} else if(last == ti && nagehts.playing($("div#last").text())) {
 				$("#last").text("");
@@ -579,7 +579,7 @@ var nagehts = new Howl({
 		}
 	}
 	);
-	<?php include "wahl.php"; ?>
+	<?php require "wahl.php"; ?>
 
 		var pan = new Array();
 		// pan = ["1","2","3","4","5","6","7","8","9","10"];
@@ -627,8 +627,8 @@ var nagehts = new Howl({
 		}
 		);
 
-	
+
 	</script>
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

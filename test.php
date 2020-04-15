@@ -24,10 +24,10 @@ echo($_SERVER["SCRIPT_FILENAME"]."<br>");
 echo($_SERVER["PHP_SELF"]."<br>");
 print_r($_SERVER);
 // echo(getPathname());
-include "header.php";
-echo(substr($_SERVER['REDIRECT_URL'],1));  
-// include "nav.php";
-// include "/home/nagehts/public_html/core/src/Xpressengine/User/UserHandler.php";
+require "header.php";
+echo(substr($_SERVER['REDIRECT_URL'],1));
+// require "nav.php";
+// require "/home/nagehts/public_html/core/src/Xpressengine/User/UserHandler.php";
 // echo($users);
 ?>
 </body>

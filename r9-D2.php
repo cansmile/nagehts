@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php require "header.php"; ?>
 <body>
-<?php include "nav.php"; ?>
+<?php require "nav.php"; ?>
 	<section>
 		<div class="container">
 			<div class="row">
@@ -92,9 +92,9 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<div id="last" class="d-none"></div>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="./<?=$root ?>js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -384,7 +384,7 @@
 						$(pann).prop("disabled", true);
 						// $(pann).closest("tr").find(".tran").show();
 					}
-				
+
 
 				$("#0").show();
 				$(".alert").hide();
@@ -418,6 +418,6 @@
 
 	</script>
 	<!-- ion.sound finished -->
-	<?php include "footer.php"; ?>
+	<?php require "footer.php"; ?>
 </body>
 </html>

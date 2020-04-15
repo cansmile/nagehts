@@ -1,7 +1,9 @@
 <?php require "header.php"; ?>
+
 <body>
   <?php require "nav.php"; ?>
-  <!-- 알림 시작 --> <?php require_once "ready.php"; ?>
+  <!-- 알림 시작 -->
+  <?php require_once "ready.php"; ?>
   <!-- 알림 끝 -->
   <section>
     <div class="container">
@@ -616,7 +618,8 @@
       format: "mp3",
       preload: true,
       onloaderror: function () {
-        $(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+        $(".alert").append(
+          "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
         console.log("다시 읽어주세요!");
       },
       onload: function () {
@@ -652,7 +655,8 @@
         }
       }
     });
-  </script> <?php require "footer.php"; ?>
+  </script>
+  <?php require "footer.php"; ?>
 </body>
 
 </html>

@@ -27,6 +27,32 @@ h1,h2,h3,h4,h5,h6,.itm,.so {
   text-indent: -2em;
 }
 
+/* 한 쪽만 살리기 */
+.border-top-only {
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+}
+
+.border-right-only {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+}
+
+.border-bottom-only {
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+}
+
+.border-left-only {
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+}
+
+
 /* gray */
 .table-gray,
 .table-gray > th,

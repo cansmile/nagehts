@@ -15,83 +15,52 @@
 
     </style>
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2" id="wahl">
         <div class="container">
             <div class="row">
-                <div
-                    class="bg-<?php echo($color); ?> wahl_title col-12">
+                <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm"
-                        id="1">
+                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so" id="1">
                         zum Deutschkurs
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm"
-                        id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so" id="2">
                         in die Oper
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm"
-                        id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so" id="3">
                         in den Park
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm"
-                        id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so" id="4">
                         zum Fußball
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm"
-                        id="5">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so" id="5">
                         ins Restaurant
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm"
-                        id="6">
+                    <button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so" id="6">
                         nehme ich am Gottesdienst teil
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm"
-                        id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so" id="7">
                         zum Flohmarkt
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm"
-                        id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so" id="8">
                         spiele ich Fußball
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm"
-                        id="9">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so" id="9">
                         sehe ich mir eine Oper an
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm"
-                        id="10">
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so" id="10">
                         lerne ich Deutsch
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm"
-                        id="11">
+                    <button type="button" class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so" id="11">
                         kaufe ich gute gebrauchte Sachen ein
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm"
-                        id="12">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so" id="12">
                         esse ich zu Mittag
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm"
-                        id="13">
+                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so" id="13">
                         in die Kirche
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm"
-                        id="14">
+                    <button type="button" class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so" id="14">
                         gehe ich spazieren
                     </button>
                 </div>
@@ -104,12 +73,9 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
                             id="0_p">
                             ❚❚
                         </button>
@@ -121,47 +87,38 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;" width="20"
-                                    scope="row" rowspan="4">1.</th>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <th class="p-1 m-0 align-middle" style="line-height: 250%;" width="20" scope="row"
+                                    rowspan="4">1.</th>
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Am Samstag gehe ich
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-1">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-1">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">토요일에
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">토요일에
                                         나는 식당에 간다.</span><br>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Da
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-2">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-2">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">거기서
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">거기서
                                         나는 점심식사를 한다.</span><br>
                                 </td>
                             </tr>
@@ -172,47 +129,38 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;" width="20"
-                                    scope="row" rowspan="4">2.</th>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <th class="p-1 m-0 align-middle" style="line-height: 250%;" width="20" scope="row"
+                                    rowspan="4">2.</th>
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Am Samstagabend gehe ich
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-3">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-3">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">토요일
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">토요일
                                         저녁에 나는 오페라 공연장에 간다.</span><br>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Da
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-4">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-4">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">거기서
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">거기서
                                         나는 오페라를 본다.</span><br>
                                 </td>
                             </tr>
@@ -223,47 +171,38 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;" width="20"
-                                    scope="row" rowspan="4">3.</th>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <th class="p-1 m-0 align-middle" style="line-height: 250%;" width="20" scope="row"
+                                    rowspan="4">3.</th>
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Am Samstagvormittag gehe ich
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-5">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-5">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">토요일
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">토요일
                                         오전에 나는 독일어 수업에 간다.</span><br>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Da
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-6">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-6">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">거기서
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">거기서
                                         나는 독일어를 배운다.</span><br>
                                 </td>
                             </tr>
@@ -274,47 +213,38 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;" width="20"
-                                    scope="row" rowspan="4">4.</th>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <th class="p-1 m-0 align-middle" style="line-height: 250%;" width="20" scope="row"
+                                    rowspan="4">4.</th>
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Am Freitagnachmittag gehe ich
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-7">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-7">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">금요일
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">금요일
                                         오후에 나는 축구하러 간다.</span><br>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Da
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-8">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-8">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">거기서
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">거기서
                                         나는 축구를 한다.</span><br>
                                 </td>
                             </tr>
@@ -325,47 +255,38 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;" width="20"
-                                    scope="row" rowspan="4">5.</th>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <th class="p-1 m-0 align-middle" style="line-height: 250%;" width="20" scope="row"
+                                    rowspan="4">5.</th>
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Am Sonntagvormittag gehe ich
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-9">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-9">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">일요일
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">일요일
                                         오전에 나는 교회에 간다.</span><br>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Da
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-10">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-10">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">거기서
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">거기서
                                         나는 예배를 드린다.</span><br>
                                 </td>
                             </tr>
@@ -376,47 +297,38 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;" width="20"
-                                    scope="row" rowspan="4">6.</th>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <th class="p-1 m-0 align-middle" style="line-height: 250%;" width="20" scope="row"
+                                    rowspan="4">6.</th>
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Am Sonntagnachmittag gehe ich
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-11">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-11">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">일요일
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">일요일
                                         오후에 나는 공원에 간다.</span><br>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Da
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-12">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-12">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">거기서
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">거기서
                                         나는 산책한다.</span><br>
                                 </td>
                             </tr>
@@ -427,47 +339,38 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;" width="20"
-                                    scope="row" rowspan="4">7.</th>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <th class="p-1 m-0 align-middle" style="line-height: 250%;" width="20" scope="row"
+                                    rowspan="4">7.</th>
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Am Samstagnachmittag gehe ich
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-13">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-13">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">토요일
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">토요일
                                         오후에 나는 벼룩시장에 간다.</span><br>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
                                     Da
-                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0"
-                                        style="min-width: 200px;" id="lst-14">
-                                        <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                    <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
+                                        id="lst-14">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-1 m-0 align-middle"
-                                    style="line-height: 250%;">
-                                    <span
-                                        class="p-2 my-2 bg-success text-white rounded">거기서
+                                <td class="p-1 m-0 align-middle" style="line-height: 250%;">
+                                    <span class="p-2 my-2 bg-success text-white rounded">거기서
                                         나는 중고 물건을 산다.</span><br>
                                 </td>
                             </tr>
@@ -477,8 +380,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -487,8 +389,7 @@
                 <table class="table table-borderless">
                     <thead>
                         <tr>
-                            <th scope="col"><span
-                                    class="tipp">TIPP</span>&nbsp;<strong>Wohin
+                            <th scope="col"><span class="tipp">TIPP</span>&nbsp;<strong>Wohin
                                     gehen?</strong></th>
                         </tr>
                     </thead>
@@ -515,8 +416,7 @@
                                         <tr>
                                             <td><span
                                                     class="bg-light border border-dark rounded m-0 p-2 px-3">&nbsp;</span><span
-                                                    class="m-0"
-                                                    style="font-size: 2em;">←</span><span
+                                                    class="m-0" style="font-size: 2em;">←</span><span
                                                     class="bg-light border border-dark rounded m-0 p-2 px-3"
                                                     style="position: relative; left: -12px;"><strong>zu</strong></span>
                                             </td>
@@ -525,21 +425,17 @@
                                 </table>
                             </td>
                             <td>
-                                <table
-                                    class="table table-borderless text-center">
+                                <table class="table table-borderless text-center">
                                     <thead>
                                         <tr>
-                                            <th class="border-white border"
-                                                scope="col">&nbsp;</th>
-                                            <th class="border-white border bg-light"
-                                                scope="col" colspan="3">best.
+                                            <th class="border-white border" scope="col">&nbsp;</th>
+                                            <th class="border-white border bg-light" scope="col" colspan="3">best.
                                                 Artikel</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th class="border-white border bg-light"
-                                                scope="row">1격</th>
+                                            <th class="border-white border bg-light" scope="row">1격</th>
                                             <td class="border-white border">der
                                             </td>
                                             <td class="border-white border">die
@@ -548,8 +444,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th class="border-white border bg-light"
-                                                scope="row">4격</th>
+                                            <th class="border-white border bg-light" scope="row">4격</th>
                                             <td class="border-white border">den
                                             </td>
                                             <td class="border-white border">die
@@ -558,8 +453,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th class="border-white border bg-light"
-                                                scope="row">3격</th>
+                                            <th class="border-white border bg-light" scope="row">3격</th>
                                             <td class="border-white border">dem
                                             </td>
                                             <td class="border-white border">der
@@ -578,8 +472,7 @@
                 <table class="table table-borderless">
                     <thead>
                         <tr>
-                            <th scope="col"><span
-                                    class="tipp">TIPP</span><strong>da</strong>
+                            <th scope="col"><span class="tipp">TIPP</span><strong>da</strong>
                             </th>
                         </tr>
                     </thead>
@@ -624,7 +517,21 @@
                 sounds: [{
                     name: "r7 A1",
                     sprite: {
-                        "0": [1.942, 104.703]
+                        "0": [1.942, 104.703],
+                        "1": [107.900, 1.022],
+                        "2": [110.000, 1.037],
+                        "3": [93.706, 1.223],
+                        "4": [78.568, 1.023],
+                        "5": [112.336, 1.107],
+                        "6": [89.525, 1.950],
+                        "7": [100.912, 1.534],
+                        "8": [85.752, 1.502],
+                        "9": [114.644, 1.673],
+                        "10": [117.785, 1.073],
+                        "11": [104.340, 2.212],
+                        "12": [14.089, 1.294],
+                        "13": [81.990, 1.158],
+                        "14": [97.307, 1.609]
                     }
                 }, {
                     name: "dingdongdang",
@@ -649,7 +556,7 @@
                             $(".tran").show();
                         }
                     } else {
-                        if (obj.part > 5) {
+                        if (obj.part > 14) {
                             $("#" + obj.part).html("▶");
                         }
                         if (hm[hmn] > 1) {
@@ -690,10 +597,10 @@
                                 ".an")
                             .length / $(
                                 ".q").length
-                            ) * 100);
+                        ) * 100);
                         $(".progress>.bar").attr(
                             "width", perc + "%;"
-                            );
+                        );
                     });
                     /* 팝업 내용 사라지기 */
                     $(".pop").popover().click(function () {
@@ -708,48 +615,48 @@
                             .substr(-2) == "_p") {
                             /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
                             ion.sound.pause(
-                            "r7 A1", {
-                                part: "0"
-                            });
+                                "r7 A1", {
+                                    part: "0"
+                                });
                             $("#0").show();
                             $(this).hide();
                         } else if ($(this).html() ==
                             "▶") {
                             /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
                             ion.sound.play(
-                            "r7 A1", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
+                                "r7 A1", {
+                                    part: $(
+                                            this)
+                                        .attr(
+                                            "id"
                                         )
-                            });
+                                });
                             $(this).html("❚❚");
                         } else if ($(this).html() ==
                             "❚❚") {
                             /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
                             ion.sound.pause(
-                            "r7 A1", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
+                                "r7 A1", {
+                                    part: $(
+                                            this)
+                                        .attr(
+                                            "id"
                                         )
-                            });
+                                });
                             $(this).html("▶");
                         } else {
                             /* _p 붙어 있지 않으면 id 그대로 재생 */
                             ion.sound.play(
-                            "r7 A1", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
+                                "r7 A1", {
+                                    part: $(
+                                            this)
+                                        .attr(
+                                            "id"
                                         )
-                            });
+                                });
                             /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
                             if ($(this).attr(
-                                "id") == "0") {
+                                    "id") == "0") {
                                 $(this).hide();
                                 $("#0_p").show();
                             };
@@ -772,14 +679,14 @@
                                     if ($(this)
                                         .find(
                                             ".btn"
-                                            )) {
+                                        )) {
                                         $(this)
                                             .find(
                                                 ".btn"
-                                                )
+                                            )
                                             .addClass(
                                                 "text-success font-weight-bold"
-                                                );
+                                            );
                                     }
                                 });
 
@@ -789,9 +696,9 @@
                                     ".text-success")
                                 .length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) *
-                            100; /* 정답 비율 */
+                                100; /* 정답 비율 */
                             var tcl =
-                            "white"; /* 기본 문자색 */
+                                "white"; /* 기본 문자색 */
 
                             /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
@@ -831,18 +738,18 @@
                                     if (!$(this)
                                         .find(
                                             "button"
-                                            )
+                                        )
                                         .length
-                                        ) {
+                                    ) {
                                         if (na !=
                                             ""
-                                            ) {
+                                        ) {
                                             na +=
                                                 ", ";
                                         }
                                         na += (idx +
                                             1
-                                            );
+                                        );
                                     }
                                 }
                             );
@@ -864,7 +771,7 @@
                         $(".itm").each(function () {
                             if ($(this).hasClass(
                                     "ans" + pan[p]
-                                    )) {
+                                )) {
                                 $("#" + $(this)
                                         .attr("id"))
                                     .appendTo($(
@@ -874,7 +781,7 @@
                                         .attr("id"))
                                     .addClass(
                                         "btn-block font-weight-bold text-left pl-0"
-                                        );
+                                    );
                                 $("#" + $(this)
                                         .attr("id"))
                                     .addClass(
@@ -894,13 +801,13 @@
                     $(".itm").each(function () {
                         if ($(this).text() != "▼" &&
                             $(this).closest("table")
-                            ) {
+                        ) {
                             $(this).parent().css(
                                 "min-width", ($(
                                         this)
                                     .length + 1
-                                    ) * 8 + "px"
-                                );
+                                ) * 8 + "px"
+                            );
                             $(this).addClass(
                                 "text-center");
                             $(this).closest(

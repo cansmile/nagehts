@@ -181,7 +181,7 @@
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="83">und</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-light itm"
-                        id="84">unterhalten sich<span class="tran">&nbsp;<small>말하다</small></span></button>
+                        id="84">unterhalten sich<span class="tran">&nbsp;<small>담소하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
                         id="85">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
@@ -637,7 +637,7 @@
                                 if ($(this).attr(
                                         "id") == 84) {
                                     $(this).html(
-                                        "sich unterhalten<span class=\"tran\">&nbsp;<small>말하다</small></span></button>"
+                                        "sich unterhalten<span class=\"tran\">&nbsp;<small>담소하다</small></span></button>"
                                     );
                                     $(this).find(
                                             ".tran")

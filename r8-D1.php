@@ -2,10 +2,10 @@
 	<body>
 <?php require "nav.php"; ?>
 <!-- 보기시작 -->
-<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+<section class="bg-white rounded p-2" id="wahl">
 	<div class="container">
 		<div class="row">
-			<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+			<div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
 			<div class="col-12" id="itms">
 				<button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm rounded-circle px-3" id="1">
 					a
@@ -42,50 +42,50 @@
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-						<table class="table">
+						<table class="table table-borderless">
 							<tbody>
 								<tr>
-									<th width="50" class="border-0 align-middle" scope="col">1.</th>
-									<td width="50" class="border-0 align-middle">
+									<th width="50" class="align-middle" scope="col">1.</th>
+									<td width="50" class="align-middle">
 										<div class="itm-lst 1itm" id="lst-1">
 											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Mein Kind hat eine Erkältung.
+									<td class="align-middle">Mein Kind hat eine Erkältung.
 									<span class="tran"><small>우리 아이는 감기에 걸렸어요.</small></span></td>
 								</tr>
 								<tr>
-									<th width="50" class="border-0 align-middle" scope="col">2.</th>
-									<td width="50" class="border-0 align-middle">
+									<th width="50" class="align-middle" scope="col">2.</th>
+									<td width="50" class="align-middle">
 										<div class="itm-lst 1itm" id="lst-2">
 											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Ich habe Zahnschmerzen.
+									<td class="align-middle">Ich habe Zahnschmerzen.
 									<span class="tran"><small>저는 치통이 있어요.</small></span></td>
 								</tr>
 								<tr>
-									<th width="50" class="border-0 align-middle" scope="col">3.</th>
-									<td width="50" class="border-0 align-middle">
+									<th width="50" class="align-middle" scope="col">3.</th>
+									<td width="50" class="align-middle">
 										<div class="itm-lst 1itm" id="lst-3">
 											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Ich habe Magenschmerzen.
+									<td class="align-middle">Ich habe Magenschmerzen.
 									<span class="tran"><small>저는 복통이 있어요.</small></span></td>
 								</tr>
 								<tr>
-									<th width="50" class="border-0 align-middle" scope="col">4.</th>
-									<td width="50" class="border-0 align-middle">
+									<th width="50" class="align-middle" scope="col">4.</th>
+									<td width="50" class="align-middle">
 										<div class="itm-lst 1itm" id="lst-4">
 											<h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
 											▼ </h2>
 										</div>
 									</td>
-									<td class="border-0 align-middle">Mein Ohr tut weh.
+									<td class="align-middle">Mein Ohr tut weh.
 									<span class="tran"><small>저는 귀가 아파요.</small></span></td>
 								</tr>
 							</tbody>
@@ -119,13 +119,13 @@ $("#chk").hide();
 
 $(document).ready(function() {
 
-	// 정답확인
+	/* 정답확인 */
 	$("#chk").on("click", function() {
 		var na = "";
 		if($("#itms").find("button").length < 1) {
 			$(".tran").show();
 
-			// 정답 확인 div 상자 배경색 속성 없애기
+			/* 정답 확인 div 상자 배경색 속성 없애기 */
 			$(this).removeClass("btn-light ");
 
 			$(".itm-lst").each(function() {
@@ -134,12 +134,12 @@ $(document).ready(function() {
 				}
 			});
 
-			var qa = $(".itm-lst").length; // 전체 문항 수
-			var qr = $(".text-success").length; // 맞춘 항목 수
-			var pe = (qr / qa) * 100; // 정답 비율
-			var tcl = "white"; // 기본 문자색
+			var qa = $(".itm-lst").length; /* 전체 문항 수 */
+			var qr = $(".text-success").length; /* 맞춘 항목 수 */
+			var pe = (qr / qa) * 100; /* 정답 비율 */
+			var tcl = "white"; /* 기본 문자색 */
 
-			// 분류 기준은 100%, 80%, 60%, 40%
+			/* 분류 기준은 100%, 80%, 60%, 40% */
 			if(pe > 99) {
 				var st = "원어민이세요?";
 				var cl = "lime";
@@ -170,14 +170,14 @@ $(document).ready(function() {
 				}
 			});
 			alert("모든 문제를 풀어주세요!");
-			// alert(na+"번 문제를 풀어주세요!");
+			/* alert(na+"번 문제를 풀어주세요!"); */
 		}
 	});
 
 <?php require "wahl.php"; ?>
 
 	var pan = new Array();
-	// pan = ["1","2","3","4","5","6","7","8","9","10"];
+	/* pan = ["1","2","3","4","5","6","7","8","9","10"]; */
 	pan = [];
 	var il = $("#itms>.itm").length;
 	for(var p = 0; p < pan.length; p++) {

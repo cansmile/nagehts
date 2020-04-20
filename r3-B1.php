@@ -5,10 +5,10 @@
 	<?php require_once "ready.php"; ?>
 	<!-- 알림 끝 -->
 	<!-- 보기시작 -->
-	<section class="bg-white rounded p-2" style="position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100%;" id="wahl">
+	<section class="bg-white rounded p-2" id="wahl">
 		<div class="container">
 			<div class="row">
-				<div class="col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12">Wahl</div>
+				<div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
 				<div class="col-12" id="itms">
 					<button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="1">
 					siebenundsechzig
@@ -46,7 +46,7 @@
 					HV
 					</button>
 					</h2>
-					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 각 항목에 맞는 단어를 짝지우세요.</small> ]</h3>
+					<h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button> 버튼을 눌러 듣고 각 항목에 맞는 단어를 짝지우세요.</small> ]</h3>
 				</div>
 			</div>
 			<div class="row">
@@ -252,7 +252,7 @@
 	$("#0").hide();
 	$(".tran").hide();
 	$(document).ready(function() {
-		// 소리 출력 전역 변수와 함수
+		/* 소리 출력 전역 변수와 함수 */
 		var sen=new Array(),
 		pa=new Array(),
 		he=new Array(),
@@ -270,7 +270,7 @@
 			}
 			);
 		}
-		// 문제 재생
+		/* 문제 재생 */
 		var nagehts=new Howl( {
 			src: [ "./<?php echo($root); ?>sounds/Reihe 3/r3 B1.mp3"],
 			sprite: {
@@ -319,7 +319,7 @@
 			,
 			onload: function() {
 				<?php require "wahl.php";
-				?> // 정답확인
+				?> /* 정답확인 */
 				$("#chk").on("click", function() {
 					var na="";
 					if($("#itms").find("button").length < 1) {
@@ -327,16 +327,16 @@
 						$(".itm-lst").each(function() {
 							$(this).html($(this).find("button").html());
 							$(this).addClass("text-success font-weight-bold");
-							// $(this).addClass("font-weight-bold bg-white border rounded border-dark");
+							/* $(this).addClass("font-weight-bold bg-white border rounded border-dark"); */
 						}
 						);
-						// 정답 확인 div 상자 배경색 속성 없애기
+						/* 정답 확인 div 상자 배경색 속성 없애기 */
 						$(this).removeClass("btn-light ");
-						var qa=$(".itm-lst").length; // 전체 문항 수
-						var qr=$(".text-success").length; // 맞춘 항목 수
-						var pe=(qr / qa) * 100; // 정답 비율
-						var tcl="white"; // 기본 문자색
-						// 분류 기준은 100%, 80%, 60%, 40%
+						var qa=$(".itm-lst").length; /* 전체 문항 수 */
+						var qr=$(".text-success").length; /* 맞춘 항목 수 */
+						var pe=(qr / qa) * 100; /* 정답 비율 */
+						var tcl="white"; /* 기본 문자색 */
+						/* 분류 기준은 100%, 80%, 60%, 40% */
 						if(pe > 99) {
 							var st="원어민이세요?";
 							var cl="lime";

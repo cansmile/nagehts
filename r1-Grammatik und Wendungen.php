@@ -118,7 +118,7 @@
                                         <th class="text-center bg-light" scope="col">대답</th>
                                     </tr>
                                     <tr>
-                                        <th class="bg-light">
+                                        <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="9"
@@ -127,19 +127,19 @@
                                                 <div class="col-10 mx-1 px-1 lh250"><strong>Sind</strong> Sie Herr Kim?
                                                 </div>
                                             </div>
-                                        </th>
+                                        </td>
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="10"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Ja, das bin ich.</div>
+                                                <div class="col-10 mx-1 px-1 lh250"><strong>Ja</strong>, das bin ich.</div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>
+                                        <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="11"
@@ -155,12 +155,12 @@
                                                     <button type="button" id="12"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Nein, ich bin Un-Hae.</div>
+                                                <div class="col-10 mx-1 px-1 lh250"><strong>Nein</strong>, ich bin Un-Hae.</div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th class="bg-light">
+                                        <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="13"
@@ -169,14 +169,14 @@
                                                 <div class="col-10 mx-1 px-1 lh250"><strong>Ist</strong> Frau Kwan da?
                                                 </div>
                                             </div>
-                                        </th>
+                                        </td>
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="14"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Nein, Frau Kwan ist nicht da.</div>
+                                                <div class="col-10 mx-1 px-1 lh250"><strong>Nein</strong>, Frau Kwan ist nicht da.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -734,7 +734,7 @@
             onloaderror: function () {
                 $(".alert").append(
                     "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
-                    );
+                );
                 console.log("다시 읽어주세요!");
             },
             onload: function () {
@@ -778,6 +778,7 @@
 
 
         });
+
     </script>
     <?php require "footer.php"; ?>
 </body>

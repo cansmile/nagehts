@@ -580,7 +580,7 @@
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
                                                         <button type="bu
-													tton" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                    tton" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">

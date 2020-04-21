@@ -1720,7 +1720,7 @@
                             $(this).removeClass(
                                 "bg-success");
                             /* $(this).closest("table").find(".tran").each(function () { */
-                            /* 	$(this).show(); */
+                            /*     $(this).show(); */
                             /* }) */
                         }
                     })

@@ -405,18 +405,25 @@
                                 <table class="table table-borderless">
                                     <tbody>
                                         <tr>
-                                            <td><span
-                                                    class="bg-light border border-dark rounded m-0 p-2 px-3">&nbsp;</span><span
-                                                    class="m-0"
-                                                    style="position: relative; left: -8px; font-size: 2em;">←</span><span
+                                            <td>
+                                                <span class="bg-light border border-dark rounded m-0 p-2 px-3">
+                                                &nbsp;</span>
+                                                <span
+                                                    class="m-0" style="position: relative; left: -8px; font-size: 2em;">
+                                                    ←</span>
+                                                <span
                                                     class="bg-light border border-dark rounded m-0 p-2 px-3"
                                                     style="position: relative; left: -12px;"><strong>in</strong></span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><span
-                                                    class="bg-light border border-dark rounded m-0 p-2 px-3">&nbsp;</span><span
-                                                    class="m-0" style="font-size: 2em;">←</span><span
+                                            <td>
+                                                <span class="bg-light border border-dark rounded m-0 p-2 px-3">
+                                                &nbsp;</span>
+                                                <span
+                                                    class="m-0" style="font-size: 2em;">
+                                                    ←</span>
+                                                <span
                                                     class="bg-light border border-dark rounded m-0 p-2 px-3"
                                                     style="position: relative; left: -12px;"><strong>zu</strong></span>
                                             </td>

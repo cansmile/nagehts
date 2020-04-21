@@ -1,3 +1,4 @@
 *.cmd
 /Nagehts.sublime-project
 .vscode/ftp-kr.diff*
+Nagehts.sublime-workspace

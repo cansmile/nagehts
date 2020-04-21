@@ -1038,7 +1038,7 @@
                                     $("#qst-" + (i +
                                             1))
                                         .addClass(
-                                            "bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                            "wa"
                                             );
                                     $("#qst-" + (i +
                                             1))
@@ -1048,7 +1048,7 @@
                                     $("#qst-" + (i +
                                             1))
                                         .after(
-                                            "<br /><div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold t-6\">" +
+                                            "<br /><div class=\"d-block ra t-6\">" +
                                             an[i] +
                                             "</div>"
                                             );

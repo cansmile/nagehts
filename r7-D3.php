@@ -383,19 +383,19 @@
                             $("#qst-" + (i + 1)).attr(
                                 "disabled", true);
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                "wa"
                                 );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");
 
                             if (!$.isArray(an[i])) {
                                 $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold t-6\">" +
+                                    "<div class=\"d-block ra t-6\">" +
                                     an[i] + "</div>");
                             } else {
                                 /* 2 이상인 경우 */
                                 var r =
-                                    "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold t-6\">";
+                                    "<div class=\"d-block ra t-6\">";
                                 for (var fd = (an[i].length -
                                     1); fd >= 0; fd--) {
                                     if (fd < (an[i].length -

@@ -440,7 +440,7 @@
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2"
+                                "cr"
                                 );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");
@@ -449,7 +449,7 @@
                             $("#qst-" + (i + 1)).attr(
                                 "disabled", true);
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                "wa"
                                 );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");

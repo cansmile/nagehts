@@ -79,7 +79,8 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-1">dem Kino
                                         Megabox und dem Restaurant Maredo.
@@ -104,10 +105,12 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-2">dem
-                                        Tennisplatz im Park. Das ist <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        Tennisplatz im Park. Das ist <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-3">der
                                         Brechtstraße.
@@ -146,7 +149,8 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-4">Hotel
                                         Augustin.
@@ -170,10 +174,12 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        Das ist<input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        Das ist<input type="text" class="form-control q rounded-0 border-bottom-only
+                                        mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-5">der
-                                        Mannesstraße,<input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        Mannesstraße,<input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-6">der
                                         Buchhandlung.
@@ -200,7 +206,8 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        Entschuldigung, wie komme ich denn<input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        Entschuldigung, wie komme ich denn<input type="text" class="form-control q
+                                        rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-7">Blumenladen Schön?
                                     </div>
@@ -214,10 +221,12 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        Der ist<input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        Der ist<input type="text" class="form-control q rounded-0 border-bottom-only
+                                        mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-8">der Berlin
-                                        Straße links.<input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                        Straße links.<input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-9">der Ecke
                                         ist er.
@@ -269,7 +278,8 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Ja, gehen Sie hier die Haupstraße immer
-                                        geradeaus, dann links,<input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        geradeaus, dann links,<input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-10">dem
                                         Reisebüro.
@@ -519,152 +529,76 @@
 
 
                     $(".q").on("keyup", function () {
-                        $(this).removeClass(
-                            "bg-danger");
-                        $(this).removeClass(
-                            "bg-success");
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .removeClass(
-                                "text-danger");
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .removeClass(
-                                "text-success");
+                        $(this).removeClass("bg-danger");
+                        $(this).removeClass("bg-success");
+                        $("#ant-" + $(this).attr("id").substr(4)).removeClass(
+                        "text-danger");
+                        $("#ant-" + $(this).attr("id").substr(4)).removeClass(
+                            "text-success");
                         if (rfchk($(this))) {
-                            $(this).addClass(
-                                "text-white font-weight-bold"
-                            );
-                            $(this).addClass(
-                                "bg-success");
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .addClass(
-                                    "text-success");
+                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("bg-success");
+                            $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                "text-success");
                         } else {
-                            $(this).addClass(
-                                "text-white font-weight-bold"
-                            );
-                            $(this).addClass(
-                                "bg-danger");
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .addClass(
-                                    "text-danger");
+                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("bg-danger");
+                            $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                "text-danger");
                         }
                         if (!$(this).val()) {
-                            $(this).removeClass(
-                                "bg-danger");
-                            $(this).removeClass(
-                                "bg-success");
-                            $(this).removeClass(
-                                "text-white font-weight-bold"
-                            );
+                            $(this).removeClass("bg-danger");
+                            $(this).removeClass("bg-success");
+                            $(this).removeClass("text-white font-weight-bold");
                         }
                         if ($(this).val()) {
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .show();
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .text($(this)
-                                    .val());
+                            $("#ant-" + $(this).attr("id").substr(4)).show();
+                            $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                         } else {
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .hide();
+                            $("#ant-" + $(this).attr("id").substr(4)).hide();
                         }
                     });
                     $(".q").on("focusin", function () {
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .show();
-                        if (!$("#ant-" + $(this)
-                                .attr("id").substr(
-                                    4)).text()) {
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .text($(this)
-                                    .val());
+                        $("#ant-" + $(this).attr("id").substr(4)).show();
+                        if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
+                            $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                         }
-                        if ($("#ant-" + $(this)
-                                .attr("id").substr(
-                                    4)).text()) {
+                        if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                             if (rfchk($(this))) {
-                                $(this).addClass(
-                                    "text-white font-weight-bold"
-                                );
-                                $(this).addClass(
-                                    "bg-success"
-                                );
-                                $("#ant-" + $(this)
-                                        .attr("id")
-                                        .substr(4))
-                                    .addClass(
-                                        "text-success"
-                                    );
+                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("bg-success");
+                                $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                    "text-success");
                             } else {
-                                $(this).addClass(
-                                    "text-white font-weight-bold"
-                                );
-                                $(this).addClass(
-                                    "bg-danger");
-                                $("#ant-" + $(this)
-                                        .attr("id")
-                                        .substr(4))
-                                    .addClass(
-                                        "text-danger"
-                                    );
+                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("bg-danger");
+                                $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                    "text-danger");
                             }
                         }
                     });
                     $(".q").on("focusout", function () {
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .hide();
+                        $("#ant-" + $(this).attr("id").substr(4)).hide();
                         if (rfchk($(this), true)) {
-                            $(this).addClass(
-                                "bg-success");
-                            $(this).addClass(
-                                "text-white");
+                            $(this).addClass("bg-success");
+                            $(this).addClass("text-white");
                         } else {
-                            $(this).addClass(
-                                "bg-danger");
+                            $(this).addClass("bg-danger");
                         }
                         if ($(this).val()) {
-                            if ($(this).hasClass(
-                                    "bg-danger")) {
-                                ion.sound.play(
-                                    "Cartoon_Boing"
-                                );
-                            } else if ($(this)
-                                .hasClass(
-                                    "bg-success")) {
-                                ion.sound.play(
-                                    "dingdongdang"
-                                );
-                                $(this).prop(
-                                    "disabled",
-                                    true);
+                            if ($(this).hasClass("bg-danger")) {
+                                ion.sound.play("Cartoon_Boing");
+                            } else if ($(this).hasClass("bg-success")) {
+                                ion.sound.play("dingdongdang");
+                                $(this).prop("disabled", true);
                             }
                         }
-                        $(this).removeClass(
-                            "bg-danger");
-                        if (!$(this).attr(
-                                "disabled")) {
-                            $(this).removeClass(
-                                "text-white font-weight-bold"
-                            );
-                            $(this).removeClass(
-                                "bg-success");
+                        $(this).removeClass("bg-danger");
+                        if (!$(this).attr("disabled")) {
+                            $(this).removeClass("text-white font-weight-bold");
+                            $(this).removeClass("bg-success");
                         }
-                    })
+                    });
                     /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
                     $("#chk").on("click", function () {
@@ -675,186 +609,79 @@
                             if (na != "") {
                                 na += ", ";
                             }
-                            if ($(this)
-                                .val() ==
-                                "") {
-                                na += $(
-                                        this)
-                                    .attr(
-                                        "id"
-                                    )
-                                    .substr(
-                                        4, 1
-                                    );
+                            if ($(this).val() == "") {
+                                na += $(this).attr("id").substr(4, 1);
                             }
                         });
-                        if ($(this).attr("id") ==
-                            "done") {} else if (
-                            na == "") {
-                            for (var i = 0; i < an
-                                .length; i++) {
-                                var oran = $(
-                                        "#qst-" + (
-                                            i + 1))
-                                    .val();
-                                if (rfchk($("#qst-" +
-                                        (i + 1)
-                                    ), true)) {
-                                    $("#qst-" + (i +
-                                            1))
-                                        .addClass(
-                                            "bg-success text-white rounded font-weight-bold p-1 px-2"
+                        if ($(this).attr("id") == "done") {} else if (na == "") {
+                            for (var i = 0; i < an.length; i++) {
+                                var oran = $("#qst-" + (i + 1)).val();
+                                if (rfchk($("#qst-" + (i + 1)), true)) {
+                                    $("#qst-" + (i + 1)).addClass(
+                                        "cr"
                                         );
-                                    $("#qst-" + (i +
-                                            1))
-                                        .removeClass(
-                                            "rounded-0"
-                                        );
+                                    $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
-                                    $("#qst-" + (i +
-                                        1)).val(
-                                        oran);
-                                    $("#qst-" + (i +
-                                            1))
-                                        .attr(
-                                            "disabled",
-                                            true);
-                                    $("#qst-" + (i +
-                                            1))
-                                        .addClass(
-                                            "bg-danger text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                    $("#qst-" + (i + 1)).val(oran);
+                                    $("#qst-" + (i + 1)).attr("disabled", true);
+                                    $("#qst-" + (i + 1)).addClass(
+                                        "wa"
                                         );
-                                    $("#qst-" + (i +
-                                            1))
-                                        .removeClass(
-                                            "rounded-0"
-                                        );
-
-                                    if (!$.isArray(
-                                            an[i]
-                                        )) {
-                                        $("#qst-" +
-                                                (i +
-                                                    1)
-                                            )
-                                            .after(
-                                                "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold t-6\" style=\"max-width: 100px;\">" +
-                                                an[
-                                                    i] +
-                                                "</div>"
-                                            );
+                                    $("#qst-" + (i + 1)).removeClass("rounded-0");
+                                    if (!$.isArray(an[i])) {
+                                        $("#qst-" + (i + 1)).after(
+                                            "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                            an[i] + "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
-                                            "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold t-6\" style=\"max-width: 100px;\">";
-                                        for (var fd =
-                                                (an[i]
-                                                    .length -
-                                                    1
-                                                ); fd >=
-                                            0; fd--
-                                        ) {
-                                            if (fd <
-                                                (an[i]
-                                                    .length -
-                                                    1
-                                                )
-                                            ) {
-                                                r = r +
-                                                    " / ";
+                                            "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                        for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                            if (fd < (an[i].length - 1)) {
+                                                r = r + " / ";
                                             }
-                                            r = r +
-                                                an[
-                                                    i]
-                                                [
-                                                    fd
-                                                ];
+                                            r = r + an[i][fd];
                                         }
-                                        r = r +
-                                            "</div>";
-                                        if ($(
-                                                "span.sen")
-                                            .length >
-                                            0) {
-                                            $("#qst-" +
-                                                    (i +
-                                                        1)
-                                                )
-                                                .closest(
-                                                    "span.sen"
-                                                )
-                                                .after(
-                                                    r
-                                                );
+                                        r = r + "</div>";
+                                        if ($("span.sen").length > 0) {
+                                            $("#qst-" + (i + 1)).closest("span.sen").after(
+                                                r);
                                         } else {
-                                            $("#qst-" +
-                                                    (i +
-                                                        1)
-                                                )
-                                                .after(
-                                                    r
-                                                );
+                                            $("#qst-" + (i + 1)).after(r);
                                         }
                                     }
-
                                 }
-                                if ($("#qst-" + (i +
-                                        1))
-                                    .hasClass(
-                                        "bg-success"
-                                    )) {
+                                if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                                     ri++;
                                 }
-                            }
-                            /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            var qa = $(".q")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".bg-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                                100; /* 정답 비율 */
-                            var tcl =
-                                "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            } /* 정답 확인 div 상자 배경색 속성 없애기 */
+                            $(this).removeClass("btn-light ");
+                            var qa = $(".q").length; /* 전체 문항 수 */
+                            var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-                            $(this).prop("disabled",
-                                true);
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
+                            $(this).prop("disabled", true);
                             $(".tran").show();
-                            $(this).attr("id",
-                                "done");
+                            $(this).attr("id", "done");
                         } else {
-                            alert("모든 문제를 풀어주세요!");
-                            /* alert(na+"번 문제를 풀어주세요!"); */
+                            alert("모든 문제를 풀어주세요!"); /* alert(na+"번 문제를 풀어주세요!"); */
                         };
                     });
 

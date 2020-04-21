@@ -34,8 +34,10 @@
                                         <tr>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1"> <button type="button" id="2"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                    <div class="mx-1 px-1">
+                                                        <button type="button" id="2"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                        </button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">Du sollst(musst) im Bett
                                                         bleiben.</div>
@@ -44,8 +46,10 @@
                             </td>
                             <td>
                                 <div class="row">
-                                    <div class="mx-1 px-1"> <button type="button" id="3"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶</button> </div>
+                                    <div class="mx-1 px-1">
+                                        <button type="button" id="3"
+                                            class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    </div>
                                     <div class="col-9 mx-1 px-1 lh250">Bleib im Bett! (du)</div>
                                 </div>
                             </td>
@@ -53,15 +57,19 @@
                             <tr>
                                 <td>
                                     <div class="row">
-                                        <div class="mx-1 px-1"> <button type="button" id="4"
-                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button> </div>
+                                        <div class="mx-1 px-1">
+                                            <button type="button" id="4"
+                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        </div>
                                         <div class="col-9 mx-1 px-1 lh250">Ihr dürft nicht schwimmen gehen.</div>
                                     </div>
                                 </td>
                                 <td>
                                     <div class="row">
-                                        <div class="mx-1 px-1"> <button type="button" id="5"
-                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button> </div>
+                                        <div class="mx-1 px-1">
+                                            <button type="button" id="5"
+                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        </div>
                                         <div class="col-9 mx-1 px-1 lh250">Geht nicht schwimmen! (ihr)</div>
                                     </div>
                                 </td>
@@ -69,16 +77,20 @@
                             <tr>
                                 <td>
                                     <div class="row">
-                                        <div class="mx-1 px-1"> <button type="button" id="6"
-                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button> </div>
+                                        <div class="mx-1 px-1">
+                                            <button type="button" id="6"
+                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        </div>
                                         <div class="col-9 mx-1 px-1 lh250">Sie sollen(müssen) Nasentropfen nehmen.
                                         </div>
                                     </div>
                                 </td>
                                 <td>
                                     <div class="row">
-                                        <div class="mx-1 px-1"> <button type="button" id="7"
-                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button> </div>
+                                        <div class="mx-1 px-1">
+                                            <button type="button" id="7"
+                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        </div>
                                         <div class="col-9 mx-1 px-1 lh250">Nehmen Sie Nasentropfen! (Sie)</div>
                                     </div>
                                 </td>
@@ -86,15 +98,19 @@
                             <tr>
                                 <td>
                                     <div class="row">
-                                        <div class="mx-1 px-1"> <button type="button" id="8"
-                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button> </div>
+                                        <div class="mx-1 px-1">
+                                            <button type="button" id="8"
+                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        </div>
                                         <div class="col-9 mx-1 px-1 lh250">Du sollst ruhig sein.</div>
                                     </div>
                                 </td>
                                 <td>
                                     <div class="row">
-                                        <div class="mx-1 px-1"> <button type="button" id="9"
-                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button> </div>
+                                        <div class="mx-1 px-1">
+                                            <button type="button" id="9"
+                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        </div>
                                         <div class="col-9 mx-1 px-1 lh250">Sei ruhig! (du)</div>
                                     </div>
                                 </td>
@@ -164,8 +180,11 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="11"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+
+                                                                    <button type="button" id="11"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">sein, gehen,
                                                                     kommen, arbeiten, schlafen, fahren, …
@@ -176,8 +195,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="12"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="12"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Er ist mein
                                                                     Lehrer.</div>
@@ -187,8 +208,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="13"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="13"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Wir wollen nach
                                                                     Deutschland fahren.</div>
@@ -198,8 +221,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="14"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="14"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Sie kommt nicht.
                                                                 </div>
@@ -218,8 +243,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="15"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="15"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">haben, brauchen,
                                                                     sehen, kaufen, wissen, bekommen,
@@ -231,8 +258,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="16"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="16"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Wir haben keine
                                                                     Zeit zu verlieren.</div>
@@ -242,8 +271,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="17"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="17"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Ich brauche deine
                                                                     Hilfe.</div>
@@ -262,8 +293,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="18"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="18"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">telegrafieren,
                                                                     gratulieren, gefallen, fehlen, es
@@ -274,8 +307,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="19"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="19"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Was fehlt dir?
                                                                 </div>
@@ -285,8 +320,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="20"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="20"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Sie fehlt mir.
                                                                 </div>
@@ -296,8 +333,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="21"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="21"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Ich gratuliere
                                                                     dir zu deinem Geburtstag.</div>
@@ -307,8 +346,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="22"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="22"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Wie gefällt es
                                                                     dir hier?</div>
@@ -318,8 +359,10 @@
                                                     <tr>
                                                         <td>
                                                             <div class="row">
-                                                                <div class="mx-1 px-1"> <button type="button" id="23"
-                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                                <div class="mx-1 px-1">
+                                                                    <button type="button" id="23"
+                                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                                    </button>
                                                                 </div>
                                                                 <div class="col-9 mx-1 px-1 lh250">Es gefällt mir
                                                                     gut.</div>
@@ -408,8 +451,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="25"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="25"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Man kann mit den Händen
                                                     schreiben.</div>
@@ -419,8 +464,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="26"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="26"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Man kann mit dem Mund essen.
                                                 </div>
@@ -430,8 +477,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="27"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="27"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Man kann mit den Beinen gehen.
                                                 </div>
@@ -454,8 +503,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="29"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="29"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Meine Nase tut mir weh.</div>
                                             </div>
@@ -464,8 +515,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="30"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="30"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Sein Zahn tut ihm weh.</div>
                                             </div>
@@ -474,8 +527,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="31"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="31"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ihr Magen tut ihr weh.</div>
                                             </div>
@@ -487,8 +542,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="32"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="32"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Er hat Zahnschmerzen.</div>
                                             </div>
@@ -497,8 +554,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="33"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="33"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Sie hat Ohrenschmerzen.</div>
                                             </div>
@@ -507,8 +566,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="34"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="34"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Er hat Fieber.</div>
                                             </div>
@@ -517,8 +578,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="35"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="35"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Sie hat eine Erkältung.</div>
                                             </div>
@@ -527,8 +590,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="36"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="36"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Herr Kim hat Fieber und
                                                     Halsschmerzen.</div>
@@ -551,8 +616,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="38"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="38"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Was fehlt Ihnen?</div>
                                             </div>
@@ -561,8 +628,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="39"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="39"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich verschreibe Ihnen ein Rezept.
                                                 </div>
@@ -572,8 +641,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="40"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="40"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich schreibe Sie für eine Woche
                                                     krank.</div>
@@ -583,8 +654,10 @@
                                     <tr>
                                         <td class="pl-5">
                                             <div class="row">
-                                                <div class="mx-1 px-1"> <button type="button" id="41"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="41"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Gute Besserung!</div>
                                             </div>
@@ -628,10 +701,10 @@
             src: ["./<?php echo($root); ?>sounds/Reihe 8/r8 F.mp3"],
             sprite: {
                 "1": [7314, 24008],
-                "2": [7441, 3202],
+                "2": [7708, 3000],
                 "3": [10364, 2090],
-                "4": [13513, 2470],
-                "5": [16306, 2108],
+                "4": [13642, 1965],
+                "5": [16551, 1452],
                 "6": [19789, 3.583],
                 "7": [23367, 2283],
                 "8": [26839, 2396],

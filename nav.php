@@ -150,7 +150,7 @@ $tl = array(
     array(
         "r5-Essen und Trinken"=>"A. Essen und Trinken",
         "r5-Was isst du gern und was trinkst du gern"=>"B. Was isst du gern und was trinkst du gern?",
-        "r5-Was isst und trinkt er, sie"=>"C. Was isst und trinkt er/sie?",
+        "r5-Was isst und trinkt er,sie"=>"C. Was isst und trinkt er/sie?",
         "r5-Im Restaurant. Was bekommen Sie"=>"D. Im Restaurant. Was bekommen Sie?",
         "r5-Waehrend des Essens"=>"E. Während des Essens",
         "r5-Was bezahlen Sie"=>"F. Was bezahlen Sie?",
@@ -242,7 +242,7 @@ $tl_k = array(
     array(
         "r5-Essen und Trinken"=>"먹고 마시기",
         "r5-Was isst du gern und was trinkst du gern"=>"무엇을 즐겨 먹고 마셔?",
-        "r5-Was isst und trinkt er, sie"=>"그(녀)는 무엇을 먹고 마시나요?",
+        "r5-Was isst und trinkt er,sie"=>"그(녀)는 무엇을 먹고 마시나요?",
         "r5-Im Restaurant. Was bekommen Sie"=>"레스토랑에서.<br>무엇을 주문하시겠어요?",
         "r5-Waehrend des Essens"=>"식사 중에",
         "r5-Was bezahlen Sie"=>"무엇을 지불하시겠어요?",
@@ -1153,7 +1153,7 @@ if ($ds) {
                     <h1 class="display-4"><?php echo($jt1); ?><br>
                         <small><?php echo($jt2); ?></small></h1>
 
-                    <?php
+                        <?php
                         if (strlen($da) < $lt) {
                             if (substr($da, 1, 2) == "GR") {
                                 $da = "GR";
@@ -1168,7 +1168,7 @@ if ($ds) {
                     <h2>(교재 <span class="bg-<?php echo($color); ?> p-1 px-2 m-1 rounded text-white">
                             <strong><?php echo($da); ?></strong></span>)
                     </h2>
-                    <?php
+                            <?php
                         }
                     } else {
 /* 이건 확실하게 대단원 */
@@ -1176,7 +1176,7 @@ if ($ds) {
                     <h1 class="display-4"><?php echo($jt0); ?></h1>
                     <h2><?php echo($jt1); ?><br><small><?php echo($jt2); ?></small>
                     </h2>
-                    <?php
+                        <?php
                     }
                     ?>
 
@@ -1185,6 +1185,6 @@ if ($ds) {
         </div>
     </div>
 </header>
-<?php
+        <?php
     }
     ?>

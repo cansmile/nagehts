@@ -87,7 +87,8 @@
                             </tr>
                             <tr>
                                 <th class="bg-light" scope="row">4</th>
-                                <td class="text-left">Ich wohne in Seoul, und du?<span class="tran"><br>&nbsp;<small>나는 서울에 살아,
+                                <td class="text-left">Ich wohne in Seoul, und du?
+                                <span class="tran"><br>&nbsp;<small>나는 서울에 살아,
                                             너는?</small></span></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
@@ -120,7 +121,8 @@
                             </tr>
                             <tr>
                                 <th class="bg-light" scope="row">7</th>
-                                <td class="text-left">Wohnst du in Gwangjin-Gu?<span class="tran"><br>&nbsp;<small>너는 광진구에
+                                <td class="text-left">Wohnst du in Gwangjin-Gu?
+                                <span class="tran"><br>&nbsp;<small>너는 광진구에
                                             살아?</small></span></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-7">
@@ -161,39 +163,9 @@
 
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        if ($("#wahl").visibility !=
-                            "visible" && $(this)
-                            .attr("id") == "chk") {
-                            $(this).attr("id",
-                                "done");
-                            $(".itm").each(function () {
-                                if ($(this).parent().attr("id").length > 5) {
-                                    var a = $(this).parent().attr("id").substr($(this).parent().attr(
-                                        "id").length - 2, 2);
-                                } else {
-                                    var a = $(this).parent().attr("id").substr($(this).parent().attr(
-                                        "id").length - 1, 1);
-                                }
-                                $(".tran").show();
-                                if ($(this).hasClass("ans" + (a))) {
-                                    $(this).addClass("text-success font-weight-bold");
-                                } else {
-                                    $(this).addClass("text-warning font-weight-bold");
-                                    $(this).find(".tran").show();
-                                };
-                                if ($(this).hasClass("text-warning")) {
-                                    /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                                    for (var i = 1; i <= $(".itm-lst").length; i++) {
-                                        if ($(this).hasClass("ans" + i)) {
-                                            $(eval('"#lst-' + i + '"')).append(
-                                                "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger font-weight-bold\">" +
-                                                $(this).html() + "</button>"); /* $(lstn).append(i); */
-                                        }
-                                    }
-                                };
-                            });
-
-                            $(".itm-lst").each(function() {
+                        if ($("#wahl").visibility != "visible" && $(this) .attr("id") == "chk") {
+                            $(this).attr("id", "done");
+                            $(".itm-lst").each(function () {
                                 $(this).find("button").addClass("text-success font-weight-bold");
                             });
 

@@ -6,43 +6,28 @@
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2" id="wahl">
         <div class="container">
             <div class="row">
-                <div
-                    class="bg-<?php echo($color); ?> wahl_title col-12">
+                <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 itm so"
-                        id="1">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 itm so" id="1">
                         schlecht<span class="tran"><br />잘 못지내요</span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 itm so"
-                        id="2">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 itm so" id="2">
                         gut<span class="tran"><br />잘 지내요</span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 itm so"
-                        id="3">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 itm so" id="3">
                         super<span class="tran"><br />아주 잘 지내요</span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 itm so"
-                        id="4">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 itm so" id="4">
                         es geht<span class="tran"><br />그럭저럭 지내요</span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 itm so"
-                        id="5">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 itm so" id="5">
                         sehr schlecht<span class="tran"><br />매우 안 좋아요</span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm so"
-                        id="6">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 itm so" id="6">
                         sehr gut<span class="tran"><br />매우 잘 지내요</span>
                     </button>
                 </div>
@@ -55,69 +40,53 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 그림과 짝지우세요.</small> ]
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
-                            버튼 또는 <button type="button"
-                                class="btn btn-sm btn-outline-secondary disabled">단어</button>
+                            버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">단어</button>
                             버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
                 </div>
             </div>
 
             <!-- 리스트 시작 -->
             <div class="row mt-3" id="lsts">
-                <div style="min-height: 240px;"
-                    class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
                     id="lst-1">
                     <img style="max-width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-1.png"
-                        class="ttl">
+                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-1.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
                     id="lst-2">
                     <img style="max-width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-2.png"
-                        class="ttl">
+                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-2.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
                     id="lst-3">
                     <img style="max-width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-3.png"
-                        class="ttl">
+                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-3.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
                     id="lst-4">
                     <img style="max-width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-4.png"
-                        class="ttl">
+                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-4.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
                     id="lst-5">
                     <img style="max-width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-5.png"
-                        class="ttl">
+                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-5.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
                     id="lst-6">
                     <img style="max-width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-6.png"
-                        class="ttl">
+                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-C2-6.png" class="ttl">
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -161,7 +130,8 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 1/r1 C2.mp3"],
+                    "./<?php echo($root); ?>sounds/Reihe 1/r1 C2.mp3"
+                ],
                 sprite: {
                     "0": [289, 20259],
                     "1": [16683, 1281],
@@ -178,7 +148,7 @@
                 onloaderror: function () {
                     $(".alert").append(
                         "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
-                        );
+                    );
                     console.log("다시 읽어주세요!");
                 },
                 onload: function () {
@@ -220,190 +190,53 @@
 
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        if ($("#wahl").visibility !=
-                            "visible" && $(this)
-                            .attr("id") == "chk") {
-                            $(this).attr("id",
-                                "done");
-                            $(".itm").each(
-                                function () {
-                                    if ($(this)
-                                        .parent()
-                                        .attr(
-                                            "id"
-                                            )
-                                        .length >
-                                        5) {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                2,
-                                                2
-                                                );
-                                    } else {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                1,
-                                                1
-                                                );
-                                    }
-                                    $(".tran")
-                                        .show();
-                                    if ($(this)
-                                        .hasClass(
-                                            "ans" +
-                                            (a))
-                                        ) {
-                                        $(this)
-                                            .addClass(
-                                                "text-success font-weight-bold"
-                                                );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "text-warning font-weight-bold"
-                                                );
-                                        $(this)
-                                            .find(
-                                                ".tran"
-                                                )
-                                            .show();
-
-                                    };
-
-                                    if ($(this)
-                                        .hasClass(
-                                            "text-warning"
-                                            )) {
-                                        /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                                        for (var i =
-                                                1; i <=
-                                            $(
-                                                ".itm-lst")
-                                            .length; i++
-                                            ) {
-                                            if ($(
-                                                    this)
-                                                .hasClass(
-                                                    "ans" +
-                                                    i
-                                                    )
-                                                ) {
-                                                $(eval('"#lst-' +
-                                                        i +
-                                                        '"'
-                                                        ))
-                                                    .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger font-weight-bold\">" +
-                                                        $(
-                                                            this)
-                                                        .html() +
-                                                        "</button>"
-                                                        );
-                                                /* $(lstn).append(i); */
-                                            }
-                                        }
-                                    };
-
-                                }
-                            );
-
+                        if ($("#wahl").visibility != "visible" && $(this).attr("id") ==
+                            "chk") {
+                            $(this).attr("id", "done");
+                            $(".itm-lst").each(function () {
+                                $(this).find(".itm").addClass("text-success font-weight-bold");
+                            });
 
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            var qa = $(".itm")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".text-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                            100; /* 정답 비율 */
-                            var tcl =
-                            "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            $(this).removeClass("btn-light ");
+                            var qa = $(".itm").length; /* 전체 문항 수 */
+                            var qr = $(".text-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-
-                            $(this).attr("id",
-                                "done");
-
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
+                            $(this).attr("id", "done");
                         }
                     });
                     <?php require "wahl.php"; ?>
-
                     /* 미리 답 넣어놓기 */
-                    var pan = new Array();
-                    /* pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"]; */
+                    var pan =
+                new Array(); /* pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"]; */
                     pan = [3, 4, 5];
                     for (var p = 0; p < pan.length; p++) {
                         var pani = "#" + pan[p];
-                        for (var i = 0; i < $(".itm-lst")
-                            .length; i++) {
-                            if ($(pani).hasClass("ans" + (
-                                    i + 1))) {
-                                $(pani).insertAfter($(
-                                        "#lst-" + (i +
-                                            1) + ">img"
-                                        ));
-                                $(pani).addClass(
-                                    "btn-block btn-light"
-                                    );
+                        for (var i = 0; i < $(".itm-lst").length; i++) {
+                            if ($(pani).hasClass("ans" + (i + 1))) {
+                                $(pani).insertAfter($("#lst-" + (i + 1) + ">img"));
+                                $(pani).addClass("btn-block btn-light");
                             }
                         }
                     }
-
                     $("#0").show();
                     $(".alert").hide();
 
@@ -416,21 +249,17 @@
                         if (sen[last] == 2) {
                             $(".tran").show();
                             $(".so").each(function () {
-                                pa[last] = $("#" +
-                                    last).html();
+                                pa[last] = $("#" + last).html();
                             });
                         }
                     } else if (sen[last] == 2) {
                         if ($("#" + last).hasClass("itm")) {
                             $("#" + last + ">.tran").show();
                         }
-                        $("#" + last).closest("tr").find(
-                            ".tran").show();
+                        $("#" + last).closest("tr").find(".tran").show();
                         pa[last] = $("#" + last).html();
                     }
                 }
-
-
             });
 
         });

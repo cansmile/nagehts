@@ -8,89 +8,43 @@
 
     <!-- 알림 시작 -->
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        문제를 모두 풀어야
-        <button class="badge badge-light" disabled>
-            정답확인
-        </button>
-        이 됩니다.
-        <br />
-        <p class="mt-4">
-            각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만
-            <button class="badge badge-light" disabled>
-                정답확인
-            </button>
-            에 이용됩니다.
-        </p>
-        <button class="badge badge-light">
-            정답확인
-        </button>
-        을 누르면 지문의 배경색이
-        <button class="badge badge-warning" disabled>
-            선택한 지문
-        </button>
-        ,
-        <button class="badge badge-success" disabled>
-            선택한 지문이 정답인 경우
-        </button>
-        ,
-        <button class="badge badge-primary" disabled>
-            정답
-        </button>
-        으로 변합니다.
-        <button type="button" class="close" data-dismiss="alert"
-            aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+        문제를 모두 풀어야 <button class="badge badge-light" disabled> 정답확인 </button> 이 됩니다. <br />
+        <p class="mt-4"> 각 문제마다 <strong style="color: red;">처음 선택한 항목</strong>만 <button class="badge badge-light"
+                disabled> 정답확인 </button> 에 이용됩니다. </p> <button class="badge badge-light"> 정답확인 </button> 을 누르면 지문의 배경색이
+        <button class="badge badge-warning" disabled> 선택한 지문 </button> , <button class="badge badge-success" disabled>
+            선택한 지문이 정답인 경우 </button> , <button class="badge badge-primary" disabled> 정답 </button> 으로 변합니다. <button
+            type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span>
         </button>
     </div>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2" id="wahl">
         <div class="container">
             <div class="row">
-                <div
-                    class="bg-<?php echo($color); ?> wahl_title col-12">
+                <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div id="itms">
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 so itm"
-                        id="1">
-                        Guten Morgen!<span
-                            class="tran"><br><small>아침인사</small></span>
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 so itm" id="1">
+                        Guten Morgen!<span class="tran"><br><small>아침인사</small></span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 so itm"
-                        id="2">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 so itm" id="2">
                         Guten Tag!<span class="tran"><br><small>낮
                                 인사</small></span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 so itm"
-                        id="3">
-                        Guten Abend!<span
-                            class="tran"><br><small>저녁인사</small></span>
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 so itm" id="3">
+                        Guten Abend!<span class="tran"><br><small>저녁인사</small></span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 so itm"
-                        id="4">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 so itm" id="4">
                         Hallo!<span class="tran"><br><small>일반인사</small></span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 so itm"
-                        id="5">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 so itm" id="5">
                         Tschüs!<span class="tran"><br><small>헤어질 때
                                 인사</small></span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 so itm"
-                        id="6">
-                        Gute Nacht!<span
-                            class="tran"><br><small>밤인사</small></span>
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 so itm" id="6">
+                        Gute Nacht!<span class="tran"><br><small>밤인사</small></span>
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 so itm"
-                        id="7">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 so itm" id="7">
                         Auf Wiedersehen!<span class="tran"><br><small>헤어질 때
                                 인사</small></span>
                     </button>
@@ -107,9 +61,7 @@
                     <h2>단어를 넣을 때는 그림을 누르세요.</h2>
                     <h3>[ <small>단어를 알맞은 그림에 짝지우세요. 다중 선택이 되지만 그림 하나에 단어 하나만
                             배치됩니다.</small> ]
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
                         </button>
                         </h2>
@@ -123,47 +75,40 @@
             <!-- 아이템들 끝 -->
             <!-- 리스트 시작 -->
             <div class="row" id="lsts">
-                <div style="min-height: 240px;"
-                    class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
-                    id="lst-1">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-1.png"
-                        style="width: 100%; height: auto;" class="my-4 ttl">
+                <div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3
+                    col-xl-3" id="lst-1">
+                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-1.png" style="width: 100%; height: auto;"
+                        class="my-4 ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
-                    id="lst-2">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-2.png"
-                        style="width: 100%; height: auto;" class="my-4 ttl">
+                <div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3
+                    col-xl-3" id="lst-2">
+                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-2.png" style="width: 100%; height: auto;"
+                        class="my-4 ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
-                    id="lst-3">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-3.png"
-                        style="width: 100%; height: auto;" class="my-4 ttl">
+                <div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3
+                    col-xl-3" id="lst-3">
+                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-3.png" style="width: 100%; height: auto;"
+                        class="my-4 ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
-                    id="lst-4">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-4.png"
-                        style="width: 100%; height: auto;" class="my-4 ttl">
+                <div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3
+                    col-xl-3" id="lst-4">
+                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-4.png" style="width: 100%; height: auto;"
+                        class="my-4 ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
-                    id="lst-5">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-5.png"
-                        style="width: 100%; height: auto;" class="my-4 ttl">
+                <div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3
+                    col-xl-3" id="lst-5">
+                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-5.png" style="width: 100%; height: auto;"
+                        class="my-4 ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
-                    id="lst-6">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-6.png"
-                        style="width: 100%; height: auto;" class="my-4 ttl">
+                <div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3
+                    col-xl-3" id="lst-6">
+                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-6.png" style="width: 100%; height: auto;"
+                        class="my-4 ttl">
                 </div>
-                <div style="min-height: 240px;"
-                    class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
-                    id="lst-7">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-7.png"
-                        style="width: 100%; height: auto;" class="my-4 ttl">
+                <div style="min-height: 240px;" class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3
+                    col-xl-3" id="lst-7">
+                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A2-7.png" style="width: 100%; height: auto;"
+                        class="my-4 ttl">
                 </div>
             </div>
             <!-- 리스트 끝 -->
@@ -171,196 +116,161 @@
                 <!--문제 시작-->
                 <div class="col-lg-3 col-md-6 col-sm-12 q" id="1">
                     <h3 class="mt-3">일반인사</h3>
-                    <div class="btn btn-info pop btn-xl btn-block o"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block o" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답!">
                         a. Hallo!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         b. Guten Tag!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         c. Guten Morgen!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         d. Guten Abend!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         e. Gute Nacht!
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 q" id="2">
                     <h3 class="mt-3">아침인사</h3>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         a. Guten Tag!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         b. Hallo!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         c. Guten Abend!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         d. Gute Nacht!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block o"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block o" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답!">
                         e. Guten Morgen!
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 q" id="3">
                     <h3 class="mt-3">낮 인사</h3>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         a. Hallo!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block o"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block o" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답!">
                         b. Guten Tag!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         c. Guten Morgen!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         d. Guten Abend!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         e. Gute Nacht!
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 q" id="4">
                     <h3 class="mt-3">저녁인사</h3>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         a. Hallo!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         b. Guten Tag!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         c. Guten Morgen!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block o"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block o" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답!">
                         d. Guten Abend!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         e. Gute Nacht!
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 q" id="5">
                     <h3 class="mt-3">밤인사</h3>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         a. Hallo!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         b. Guten Tag!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block o"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block o" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답!">
                         c. Gute Nacht!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         d. Guten Morgen!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         e. Guten Abend!
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 q" id="6">
                     <h3 class="mt-3">헤어질 때 인사</h3>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         a. Gute Nacht!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block o"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block o" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답!">
                         b. Tschüs!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         c. Hallo!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         d. Guten Tag!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         e . Guten Abend!
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 q" id="7">
                     <h3 class="mt-3">헤어질 때 인사</h3>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         a. Hallo!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         b. Guten Morgen!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         c. Gute Nacht!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block o"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block o" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답!">
                         d. Auf Wiedersehen!
                     </div>
-                    <div class="btn btn-info pop btn-xl btn-block x"
-                        data-toggle="popover" data-container="body"
+                    <div class="btn btn-info pop btn-xl btn-block x" data-toggle="popover" data-container="body"
                         data-placement="top" data-content="정답이 아니에요.">
                         e. Guten Abend!
                     </div>
@@ -369,8 +279,7 @@
             <!--문제 끝-->
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -415,7 +324,8 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 1/r1 A2.mp3"],
+                    "./<?php echo($root); ?>sounds/Reihe 1/r1 A2.mp3"
+                ],
                 sprite: {
                     "0": [345, 22869],
                     "1": [6171, 1949],
@@ -433,7 +343,7 @@
                 onloaderror: function () {
                     $(".alert").append(
                         "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
-                        );
+                    );
                     console.log("다시 읽어주세요!");
                 },
                 onload: function () {
@@ -496,10 +406,10 @@
                                 ".an")
                             .length / $(
                                 ".q").length
-                            ) * 100);
+                        ) * 100);
                         $(".progress>.bar").attr(
                             "width", perc + "%;"
-                            );
+                        );
                     });
                     /* 팝업 내용 사라지기 */
                     $(".pop").popover().click(function () {
@@ -510,247 +420,46 @@
                         }, 500);
                     });
 
-                    <?php require "wahl.php"; ?>
+                    <
+                    ?
+                    php require "wahl.php"; ? >
 
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        if ($(".an").length < $(
-                                ".q").length) {
-                            var na = "";
-                            $(".q").each(
-                        function () {
-                                if (!$(this)
-                                    .find(
-                                        "div"
-                                        )
-                                    .hasClass(
-                                        "an"
-                                        )) {
-                                    if (na !=
-                                        ""
-                                        ) {
-                                        na +=
-                                            ", ";
-                                    }
-                                    na += $(
-                                            this)
-                                        .find(
-                                            "h3"
-                                            )
-                                        .text();
-                                };
+                        if ($("#wahl").visibility != "visible" && $(this).attr("id") ==
+                            "chk") {
+                            $(this).attr("id", "done");
+
+                            $(".itm-lst").each(function () {
+                                $(this).find("button").addClass(
+                                    "text-success font-weight-bold");
                             });
-                            alert(na +
-                                " 문제를 풀어주세요.");
-                        } else {
-                            $(".itm").each(
-                                function () {
-                                    if ($(this)
-                                        .parent()
-                                        .attr(
-                                            "id"
-                                            )
-                                        .length >
-                                        5) {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                2,
-                                                2
-                                                );
-                                    } else {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                1,
-                                                1
-                                                );
-                                    }
-                                    $(".tran")
-                                        .show();
-                                    if ($(this)
-                                        .hasClass(
-                                            "ans" +
-                                            (a))
-                                        ) {
-                                        $(this)
-                                            .addClass(
-                                                "text-success font-weight-bold"
-                                                );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "text-warning font-weight-bold"
-                                                );
-                                        $(this)
-                                            .find(
-                                                ".tran"
-                                                )
-                                            .show();
-
-                                    };
-
-                                    if ($(this)
-                                        .hasClass(
-                                            "text-warning"
-                                            )) {
-                                        /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                                        for (var i =
-                                                1; i <=
-                                            $(
-                                                ".itm-lst")
-                                            .length; i++
-                                            ) {
-                                            if ($(
-                                                    this)
-                                                .hasClass(
-                                                    "ans" +
-                                                    i
-                                                    )
-                                                ) {
-                                                $(eval('"#lst-' +
-                                                        i +
-                                                        '"'
-                                                        ))
-                                                    .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger font-weight-bold\">" +
-                                                        $(
-                                                            this)
-                                                        .html() +
-                                                        "</button>"
-                                                        );
-                                                /* $(lstn).append(i); */
-                                            }
-                                        }
-                                    };
-
-                                }
-                            );
-
-
-                            $(".pop").each(
-                                function () {
-                                    $(this)
-                                        .removeClass(
-                                            "btn-info"
-                                            );
-                                    if ($(this)
-                                        .hasClass(
-                                            "o"
-                                            ) &&
-                                        $(this)
-                                        .hasClass(
-                                            "an"
-                                            )) {
-                                        $(this)
-                                            .removeClass(
-                                                "btn-warning"
-                                                );
-                                        $(this)
-                                            .addClass(
-                                                "text-white btn-success font-weight-bold"
-                                                );
-                                    } else if (
-                                        $(this)
-                                        .hasClass(
-                                            "o")
-                                        ) {
-                                        $(this)
-                                            .addClass(
-                                                "text-white btn-danger font-weight-bold"
-                                                );
-                                    } else if (
-                                        $(this)
-                                        .hasClass(
-                                            "an"
-                                            )) {
-                                        $(this)
-                                            .addClass(
-                                                "btn-warning"
-                                                );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "btn-light"
-                                                );
-                                    };
-                                }
-                            );
 
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            var qa = $(".q")
-                                .length + $(".itm")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".text-success")
-                                .length + $(
-                                    ".btn-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                            100; /* 정답 비율 */
-                            var tcl =
-                            "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            $(this).removeClass("btn-light ");
+                            var qa = $(".itm-lst").length; /* 전체 문항 수 */
+                            var qr = $(".text-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-
-                            $(this).attr("id",
-                                "done");
-
-
-                        };
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
+                            $(this).attr("id", "done");
+                        }
                     });
 
 

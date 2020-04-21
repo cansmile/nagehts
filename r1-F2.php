@@ -3,63 +3,40 @@
 <body>
     <?php require "nav.php"; ?>
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2" id="wahl">
         <div class="container">
             <div class="row">
-                <div
-                    class="bg-<?php echo($color); ?> wahl_title col-12">
+                <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 so itm"
-                        id="1">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans1 so itm" id="1">
                         1
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 so itm"
-                        id="2">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans2 so itm" id="2">
                         2
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 so itm"
-                        id="3">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans3 so itm" id="3">
                         3
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 so itm"
-                        id="4">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans6 so itm" id="4">
                         4
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 so itm"
-                        id="5">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans7 so itm" id="5">
                         5
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 so itm"
-                        id="6">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans4 so itm" id="6">
                         6
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans8 so itm"
-                        id="7">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans8 so itm" id="7">
                         7
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 so itm"
-                        id="8">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans5 so itm" id="8">
                         8
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans9 so itm"
-                        id="9">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans9 so itm" id="9">
                         9
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn btn-lg btn-outline-dark ans10 so itm"
-                        id="10">
+                    <button type="button" class="mt-1 mx-1 btn btn-lg btn-outline-dark ans10 so itm" id="10">
                         10
                     </button>
                 </div>
@@ -79,70 +56,50 @@
             <!-- 리스트 시작 -->
             <div class="row text-center" id="lsts">
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-1">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="eins">eins</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-1">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="eins">eins</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-2">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="zwei">zwei</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-2">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="zwei">zwei</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-3">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="drei">drei</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-3">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="drei">drei</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-4">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="sechs">sechs</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-4">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="sechs">sechs</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-5">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="acht">acht</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-5">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="acht">acht</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-6">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="vier">vier</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-6">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="vier">vier</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-7">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="fünf">fünf</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-7">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="fünf">fünf</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-8">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="sieben">sieben</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-8">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="sieben">sieben</strong>
+                    </h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-9">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="neun">neun</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-9">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="neun">neun</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4"
-                    id="lst-10">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong
-                            class="so" id="zehn">zehn</strong></h2>
+                    class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-10">
+                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="zehn">zehn</strong></h2>
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -186,7 +143,8 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 1/r1 F1.mp3"],
+                    "./<?php echo($root); ?>sounds/Reihe 1/r1 F1.mp3"
+                ],
                 sprite: {
                     "0": [242, 34112],
                     "1": [11116, 1428],
@@ -217,7 +175,7 @@
                 onloaderror: function () {
                     $(".alert").append(
                         "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
-                        );
+                    );
                     console.log("다시 읽어주세요!");
                 },
                 onload: function () {
@@ -259,165 +217,36 @@
 
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        if ($("#wahl").visibility !=
-                            "visible" && $(this)
-                            .attr("id") == "chk") {
-                            $(this).attr("id",
-                                "done");
-                            $(".itm").each(
-                                function () {
-                                    if ($(this)
-                                        .parent()
-                                        .attr(
-                                            "id"
-                                            )
-                                        .length >
-                                        5) {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                2,
-                                                2
-                                                );
-                                    } else {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                1,
-                                                1
-                                                );
-                                    }
-                                    $(".tran")
-                                        .show();
-                                    if ($(this)
-                                        .hasClass(
-                                            "ans" +
-                                            (a))
-                                        ) {
-                                        $(this)
-                                            .addClass(
-                                                "text-success font-weight-bold"
-                                                );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "text-warning font-weight-bold"
-                                                );
-                                        $(this)
-                                            .find(
-                                                ".tran"
-                                                )
-                                            .show();
+                        if ($("#wahl").visibility != "visible" && $(this) .attr("id") == "chk") {
+                            $(this).attr("id", "done");
 
-                                    };
-
-                                    if ($(this)
-                                        .hasClass(
-                                            "text-warning"
-                                            )) {
-                                        /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                                        for (var i =
-                                                1; i <=
-                                            $(
-                                                ".itm-lst")
-                                            .length; i++
-                                            ) {
-                                            if ($(
-                                                    this)
-                                                .hasClass(
-                                                    "ans" +
-                                                    i
-                                                    )
-                                                ) {
-                                                $(eval('"#lst-' +
-                                                        i +
-                                                        '"'
-                                                        ))
-                                                    .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger font-weight-bold\">" +
-                                                        $(
-                                                            this)
-                                                        .html() +
-                                                        "</button>"
-                                                        );
-                                                /* $(lstn).append(i); */
-                                            }
-                                        }
-                                    };
-
-                                }
-                            );
-
+                            $(".itm-lst").each(function() {
+                                $(this).find("button").addClass("text-success font-weight-bold");
+                            });
 
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            var qa = $(".itm")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".text-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                            100; /* 정답 비율 */
-                            var tcl =
-                            "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            $(this).removeClass("btn-light ");
+                            var qa = $(".itm-lst").length; /* 전체 문항 수 */
+                            var qr = $(".text-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-
-                            $(this).attr("id",
-                                "done");
-
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                            $(this).attr("id", "done");
                         }
                     });
                     <?php require "wahl.php"; ?>
@@ -437,7 +266,7 @@
                                         1) + ">h2"));
                                 $(pani).addClass(
                                     "btn-block btn-light"
-                                    );
+                                );
                             }
                         }
                     }

@@ -13,82 +13,60 @@
                         <div class="card">
                             <div class="card-header" id="heading1">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-danger mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse1"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse1" area-expanded="false"
                                         aria-controls="collapse1" id="1">
                                         <strong>E1. Präpositionen</strong>
                                         <small>전치사</small>
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse1"
-                                aria-divledby="heading1"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless text-center table-striped">
+                            <div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
+                                <table class="table table-borderless text-center table-striped">
                                     <thead>
                                         <tr>
-                                            <th class="border border-dark m-1 p-1 py-2"
-                                                scope="col" colspan="4">Wohin ▷
-                                                <small>어디로 <span
-                                                        class="bg-secondary px-2 p-1 m-1 text-white">장소
+                                            <th class="border border-dark m-1 p-1 py-2" scope="col" colspan="4">Wohin ▷
+                                                <small>어디로 <span class="bg-secondary px-2 p-1 m-1 text-white">장소
                                                         전치사</span></small></th>
                                         </tr>
                                         <tr>
-                                            <th class="align-middle text-center"
-                                                scope="col">&nbsp;</th>
-                                            <th class="align-middle text-center text-primary"
-                                                scope="col">m</th>
-                                            <th class="align-middle text-center text-danger"
-                                                scope="col">f</th>
-                                            <th class="align-middle text-center text-purple"
-                                                scope="col">n</th>
+                                            <th class="align-middle text-center" scope="col">&nbsp;</th>
+                                            <th class="align-middle text-center text-primary" scope="col">m</th>
+                                            <th class="align-middle text-center text-danger" scope="col">f</th>
+                                            <th class="align-middle text-center text-purple" scope="col">n</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th class="align-middle text-center"
-                                                scope="row">in (+Akkusativ)</th>
-                                            <td
-                                                class="align-middle text-center text-primary">
+                                            <th class="align-middle text-center" scope="row">in (+Akkusativ)</th>
+                                            <td class="align-middle text-center text-primary">
                                                 in den Supermarkt</td>
-                                            <td
-                                                class="align-middle text-center text-danger">
+                                            <td class="align-middle text-center text-danger">
                                                 in die Disko</td>
-                                            <td
-                                                class="align-middle text-center text-purple">
+                                            <td class="align-middle text-center text-purple">
                                                 in das/ ins Kino</td>
                                         </tr>
                                         <tr>
-                                            <th class="align-middle text-center"
-                                                scope="row">zu (+Dativ)</th>
-                                            <td
-                                                class="align-middle text-center text-primary">
+                                            <th class="align-middle text-center" scope="row">zu (+Dativ)</th>
+                                            <td class="align-middle text-center text-primary">
                                                 zu dem<br> ▼<br> zum Flohmarkt
                                             </td>
-                                            <td
-                                                class="align-middle text-center text-danger">
+                                            <td class="align-middle text-center text-danger">
                                                 zu der<br> ▼<br> zur Musikmesse
                                             </td>
-                                            <td
-                                                class="align-middle text-center text-purple">
+                                            <td class="align-middle text-center text-purple">
                                                 zu dem<br> ▼<br> zum
                                                 Fußballspiel</td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <table
-                                    class="table table-borderless table-striped">
+                                <table class="table table-borderless table-striped">
                                     <thead>
                                         <tr>
-                                            <th class="border border-dark text-center m-1 p-1 py-2"
-                                                scope="col" colspan="2">
+                                            <th class="border border-dark text-center m-1 p-1 py-2" scope="col"
+                                                colspan="2">
                                                 Temporale Präpositionen
-                                                <small>am, um<span
-                                                        class="bg-secondary px-2 p-1 m-1 text-white">시간
+                                                <small>am, um<span class="bg-secondary px-2 p-1 m-1 text-white">시간
                                                         전치사 am,
                                                         um</span></small></th>
                                         </tr>
@@ -113,43 +91,32 @@
                         <div class="card">
                             <div class="card-header" id="heading2">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-orange mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse2"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse2" area-expanded="false"
                                         aria-controls="collapse2" id="2">
                                         <strong>E2. Adverb im Satz</strong>
                                         <small>문장에서의 부사</small>
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse2"
-                                aria-divledby="heading2"
-                                data-parent="#accordionitms">
+                            <div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
                                 <table class="table table-borderless">
                                     <thead>
                                         <tr>
-                                            <th class="text-center" scope="col"
-                                                colspan="2">Position2(Verb)</th>
+                                            <th class="text-center" scope="col" colspan="2">Position2(Verb)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td width="60%">
                                                 <div class="row">
-                                                    <div
-                                                        class="col-4 text-left">
-                                                        <span
-                                                            class="px-2 p-1 m-1 bg-secondary text-white">Leider</span>
+                                                    <div class="col-4 text-left">
+                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">Leider</span>
                                                     </div>
-                                                    <div
-                                                        class="col-4 text-center">
+                                                    <div class="col-4 text-center">
                                                         habe</div>
-                                                    <div
-                                                        class="col-4 text-right">
-                                                        <span
-                                                            class="px-2 p-1 m-1 bg-secondary text-white">ich</span>
+                                                    <div class="col-4 text-right">
+                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">ich</span>
                                                     </div>
                                                 </div>
                                             </td>
@@ -158,11 +125,10 @@
                                         <tr>
                                             <td width="60%">
                                                 <div class="row">
-                                                    <div
-                                                        class="col text-center">
-                                                        <img src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-GR-cross.png"
-                                                            alt="cross"
-                                                            style="max-width: 100%; height: auto;">
+                                                    <div class="col text-center">
+                                                        <img
+                                                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-GR-cross.png"
+                                                            alt="cross" style="max-width: 100%; height: auto;">
                                                     </div>
                                                 </div>
                                             </td>
@@ -171,18 +137,13 @@
                                         <tr>
                                             <td width="60%">
                                                 <div class="row">
-                                                    <div
-                                                        class="col-4 text-left">
-                                                        <span
-                                                            class="px-2 p-1 m-1 bg-secondary text-white">Ich</span>
+                                                    <div class="col-4 text-left">
+                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">Ich</span>
                                                     </div>
-                                                    <div
-                                                        class="col-4 text-center">
+                                                    <div class="col-4 text-center">
                                                         habe</div>
-                                                    <div
-                                                        class="col-4 text-right">
-                                                        <span
-                                                            class="px-2 p-1 m-1 bg-secondary text-white">leider</span>
+                                                    <div class="col-4 text-right">
+                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">leider</span>
                                                     </div>
                                                 </div>
                                             </td>
@@ -195,11 +156,8 @@
                         <div class="card">
                             <div class="card-header" id="heading3">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-warning mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse3"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse3" area-expanded="false"
                                         aria-controls="collapse3" id="3">
                                         <strong>E3. Modalverben</strong>
                                         <small>화법조동사<br>화자의 주관적인 생각을 화법조동사를 사용하여
@@ -207,11 +165,8 @@
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse3"
-                                aria-divledby="heading3"
-                                data-parent="#accordionitms">
-                                <div
-                                    class="row p-1 m-2 border border-dark rounded">
+                            <div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms">
+                                <div class="row p-1 m-2 border border-dark rounded">
                                     <div class="py-2 col-4">neutral</div>
                                     <div class="py-2 col-8">Tim
                                         <strong>spielt</strong> jeden Samstag
@@ -234,8 +189,7 @@
                                         <strong><u>arbeiten</u></strong>. (Ich
                                         arbeite nicht gern.)</div>
                                 </div>
-                                <table
-                                    class="table table-borderless text-center table-striped">
+                                <table class="table table-borderless text-center table-striped">
                                     <thead>
                                         <tr>
                                             <th scope="col">&nbsp;</th>
@@ -309,26 +263,19 @@
                         <div class="card">
                             <div class="card-header" id="heading4">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-primary mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse4"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse4" area-expanded="false"
                                         aria-controls="collapse6" id="4">
                                         <strong>E4. Redewendungen</strong>
                                         <small>어휘와 숙어</small>
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse4"
-                                aria-divledby="heading4"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless text-left bg-light">
+                            <div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms">
+                                <table class="table table-borderless text-left bg-light">
                                     <thead>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="1"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -343,12 +290,10 @@
                                             <td rowspan="4" width="50%">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="2"
+                                                        <button type="button" id="2"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Hast du heute Abend / am
                                                         ...... Zeit?<br>(Heute,
                                                         morgen Abend / früh /
@@ -358,12 +303,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="3"
+                                                        <button type="button" id="3"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Ja, klar.</div>
                                                 </div>
                                             </td>
@@ -372,12 +315,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="4"
+                                                        <button type="button" id="4"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Das weiß ich noch
                                                         nicht.</div>
                                                 </div>
@@ -387,12 +328,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="5"
+                                                        <button type="button" id="5"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Vielleicht</div>
                                                 </div>
                                             </td>
@@ -401,12 +340,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="6"
+                                                        <button type="button" id="6"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Heute Abend / Am .....
                                                         habe ich leider keine
                                                         Zeit.</div>
@@ -418,8 +355,7 @@
                                 <table class="table table-borderless text-left">
                                     <thead>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="7"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -435,12 +371,10 @@
                                             <td width="50%">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="8"
+                                                        <button type="button" id="8"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Gehen wir ins Kino /
                                                         ..... ?</div>
                                                 </div>
@@ -448,12 +382,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="9"
+                                                        <button type="button" id="9"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Gute Idee! / Okay!
                                                     </div>
                                                 </div>
@@ -463,12 +395,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="10"
+                                                        <button type="button" id="10"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Wollen wir heute Abend
                                                         in den / in die / ins
                                                         ..... gehen?</div>
@@ -477,12 +407,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="11"
+                                                        <button type="button" id="11"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Nein, leider nicht.
                                                         Ich habe keine Zeit.
                                                     </div>
@@ -493,12 +421,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="12"
+                                                        <button type="button" id="12"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Hast du Lust auf Kino?
                                                     </div>
                                                 </div>
@@ -506,24 +432,20 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="13"
+                                                        <button type="button" id="13"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Ja, gut!</div>
                                                 </div>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <table
-                                    class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-left bg-light">
                                     <thead>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="14"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -538,12 +460,10 @@
                                             <td width="50%">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="15"
+                                                        <button type="button" id="15"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Das ist verboten.</div>
                                                 </div>
                                             </td>
@@ -553,12 +473,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="16"
+                                                        <button type="button" id="16"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Hier dürfen Sie nicht
                                                         rauchen.</div>
                                                 </div>
@@ -566,12 +484,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="17"
+                                                        <button type="button" id="17"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Warum nicht?</div>
                                                 </div>
                                             </td>
@@ -580,24 +496,20 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="18"
+                                                        <button type="button" id="18"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Das ist verboten.</div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="19"
+                                                        <button type="button" id="19"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Na, gut. Dann höre ich
                                                         auf.</div>
                                                 </div>
@@ -607,12 +519,10 @@
                                             <td colspan="2">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="20"
+                                                        <button type="button" id="20"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Hier kann man Bücher
                                                         lesen.</div>
                                                 </div>
@@ -622,12 +532,10 @@
                                             <td colspan="2">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="21"
+                                                        <button type="button" id="21"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Hier muss man leise
                                                         sprechen.</div>
                                                 </div>
@@ -637,12 +545,10 @@
                                             <td colspan="2">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="22"
+                                                        <button type="button" id="22"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Hier darf man nicht
                                                         rauchen.</div>
                                                 </div>
@@ -652,24 +558,20 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="23"
+                                                        <button type="button" id="23"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Ich möchte tanzen.</div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="24"
+                                                        <button type="button" id="24"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Dann solltest du in die
                                                         Disko gehen.</div>
                                                 </div>
@@ -679,12 +581,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="25"
+                                                        <button type="button" id="25"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Sie möchte einen Film
                                                         sehen.</div>
                                                 </div>
@@ -692,12 +592,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="26"
+                                                        <button type="button" id="26"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Dann sollte sie ins Kino
                                                         gehen.</div>
                                                 </div>
@@ -708,8 +606,7 @@
                                 <table class="table table-borderless text-left">
                                     <thead>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="27"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -724,12 +621,10 @@
                                             <td colspan="2">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="28"
+                                                        <button type="button" id="28"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Ich kann leider nicht.
                                                     </div>
                                                 </div>
@@ -739,12 +634,10 @@
                                             <td colspan="2">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="29"
+                                                        <button type="button" id="29"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Das geht leider nicht.
                                                     </div>
                                                 </div>
@@ -754,12 +647,10 @@
                                             <td colspan="2">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="30"
+                                                        <button type="button" id="30"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Das passt leider nicht.
                                                     </div>
                                                 </div>
@@ -767,12 +658,10 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <table
-                                    class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-left bg-light">
                                     <thead>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="31"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -787,12 +676,10 @@
                                             <td width="50%">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="32"
+                                                        <button type="button" id="32"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Wann / Um wie viel Uhr?
                                                     </div>
                                                 </div>
@@ -800,12 +687,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="33"
+                                                        <button type="button" id="33"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Am Dienstag / Abend /
                                                         Mittwochabend /.....
                                                     </div>
@@ -817,12 +702,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="34"
+                                                        <button type="button" id="34"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Um ..... Uhr.</div>
                                                 </div>
                                             </td>
@@ -832,12 +715,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="35"
+                                                        <button type="button" id="35"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Um drei / halb vier.
                                                     </div>
                                                 </div>
@@ -848,8 +729,7 @@
                                 <table class="table table-borderless text-left">
                                     <thead>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="36"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -864,12 +744,10 @@
                                             <td width="50%">
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="37"
+                                                        <button type="button" id="37"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         Wie spät ist es? / Wie
                                                         viel Uhr ist es?</div>
                                                 </div>
@@ -877,12 +755,10 @@
                                             <td>
                                                 <div class="row">
                                                     <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="38"
+                                                        <button type="button" id="38"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250">
                                                         - Es ist Viertel vor
                                                         drei / halb sechs.</div>
                                                 </div>

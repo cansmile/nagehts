@@ -53,7 +53,7 @@
                                     Samstagnachmittag in die Staatsoperette
                                     <strong>gehen</strong>?
                                     <span class="tran"><br><small>우리 토요일 오후에 국립
-                                            오페레타극장단에 갈래?</small></span></td>
+                                            오페레타극장에 갈래?</small></span></td>
                                 <td>
                                     <div class="btn-group btn-group-toggle q"
                                         data-toggle="buttons" id="qst-1">

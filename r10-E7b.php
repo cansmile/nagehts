@@ -156,7 +156,7 @@
                                     Nein. Gehen Sie hier den <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-1">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px">
                                             ▼ </h2>
                                     </div> geradeaus.<span
@@ -165,13 +165,13 @@
                                     Ende des Weges biegen Sie nach <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-2">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px">
                                             ▼ </h2>
                                     </div> in die <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-3">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px">
                                             ▼ </h2>
                                     </div>.<span class="tran"><br><small>그길 끝에서
@@ -180,13 +180,13 @@
                                     Straße gehen Sie nach <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-4">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px">
                                             ▼ </h2>
                                     </div> in die<div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-5">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px">
                                             ▼ </h2>
                                     </div>.<span class="tran"><br><small>두번째 길에서
@@ -196,7 +196,7 @@
                                     neben dem <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-6">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px">
                                             ▼ </h2>
                                     </div>.<span class="tran"><br><small>그러면 바로

@@ -96,7 +96,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Das Bild hängt&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Wand.<span
                                             class="tran"><br><small>그림은 벽에 걸려
                                                 있습니다.</small></span>
@@ -115,7 +115,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         Der Teddybär sitzt&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bett.<span
                                             class="tran"><br><small>테디베어는 침대 위에
                                                 있습니다.</small></span>
@@ -134,7 +134,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
                                         Die Kaffeetasse ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Computer.<span
                                             class="tran"><br><small>커피잔은 컴퓨터 옆에
                                                 있습니다.</small></span>
@@ -153,7 +153,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
                                         Der Kaktus steht&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Stuhl.<span
                                             class="tran"><br><small>선인장은 의자 뒤에
                                                 있습니다.</small></span>
@@ -172,7 +172,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
                                         Der Computer ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Büchern und der
                                         Kaffeetasse.<span
                                             class="tran"><br><small>컴퓨터는 책과 커피잔
@@ -192,7 +192,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-6">
                                         Die Blumen sind&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Mülleimer.<span
                                             class="tran"><br><small>꽃은 휴지통 안에
                                                 있습니다.</small></span>
@@ -211,7 +211,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         Der Spatz sitzt&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Stuhl.<span
                                             class="tran"><br><small>참새는 의자 위에
                                                 있습니다.</small></span>
@@ -230,7 +230,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-9">
                                         Das Geld liegt&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Stuhl.<span
                                             class="tran"><br><small>돈은 의자 아래
                                                 있습니다.</small></span>
@@ -249,7 +249,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-8">
                                         Die Lampe hängt&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bett.<span
                                             class="tran"><br><small>전등은 침대 위에
                                                 있습니다.</small></span>
@@ -268,7 +268,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-7">
                                         Das Handy liegt&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bett.<span
                                             class="tran"><br><small>휴대폰은 침대 아래
                                                 있습니다.</small></span>
@@ -287,7 +287,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-10">
                                         Das Schmierpapier liegt&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Teppich.<span
                                             class="tran"><br><small>이면지는 카페트 위에
                                                 있습니다.</small></span>

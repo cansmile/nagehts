@@ -102,7 +102,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Der Spatz fliegt unter&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Stuhl.<span
                                             class="tran"><br><small>참새가 의자 아래로
                                                 날아간다.</small></span>
@@ -128,7 +128,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Der Spatz fliegt in&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Kasten<span
                                             class="tran"><br><small>참새가 상자 안으로
                                                 날아간다.</small></span>
@@ -154,7 +154,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Der Spatz fliegt über&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Tisch.<span
                                             class="tran"><br><small>참새가 책상 위로
                                                 날아간다.</small></span>
@@ -180,7 +180,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         Der Spatz fliegt hinter&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Milch.<span
                                             class="tran"><br><small>참새가 우유 뒤로
                                                 날아간다.</small></span>
@@ -206,7 +206,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Der Spatz fliegt vor&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Spiegel.<span
                                             class="tran"><br><small>참새가 거울 앞으로
                                                 날아간다.</small></span>
@@ -232,7 +232,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         Der Spatz fliegt neben&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Vase.<span
                                             class="tran"><br><small>참새가 꽃병 옆으로
                                                 날아간다.</small></span>
@@ -258,7 +258,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         Der Spatz fliegt zwischen&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bücher.<span
                                             class="tran"><br><small>참새가 책 사이로
                                                 날아간다.</small></span>
@@ -284,7 +284,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-3">
                                         Der Spatz fliegt an&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Fenster.<span
                                             class="tran"><br><small>참새가 창가로
                                                 날아간다.</small></span>
@@ -310,7 +310,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Der Spatz fliegt auf&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Apfel.<span
                                             class="tran"><br><small>참새가 사과 위로
                                                 날아간다.</small></span>

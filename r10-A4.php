@@ -115,7 +115,7 @@
             <div class="row mt-2">
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-1">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich den Bluemenladen.<span
                             class="tran"><br><small>꽃을 사고 싶으면, 꽃집에
@@ -124,7 +124,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-2">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich ins Hotel Augustin.<span
                             class="tran"><br><small>숙박하고 싶으면, 아우구스틴 호텔로
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-3">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich in die Frauenkirche.<span
                             class="tran"><br><small>기도하고 싶으면, 프라우엔 교회로
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-4">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich ins Restaurant.<span
                             class="tran"><br><small>먹고 싶으면, 마레도 레스토랑으로
@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-5">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich auf die Bank Sparkasse.<span
                             class="tran"><br><small>현금을 인출하고 싶으면, 슈파카세 은행으로
@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-6">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich ins Reisebüro Welt.<span
                             class="tran"><br><small>스페인 여행을 예약하고 싶으면, 벨트 여행사로
@@ -169,7 +169,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-7">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich ins Café Dornbusch.<span
                             class="tran"><br><small>커피를 마시고 케이크를 먹고 싶으면, 도른부슈
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-8">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich in den Supermarkt
                         Kaiser.<span class="tran"><br><small>고기와 치즈를 사고 싶으면, 카이저
@@ -187,7 +187,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-9">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich in den Park.<span
                             class="tran"><br><small>산책하러 가고 싶으면, 공원으로
@@ -196,7 +196,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-10">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich ins Schwimmbad.<span
                             class="tran"><br><small>수영하고 싶으면, 수영장으로
@@ -205,7 +205,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-11">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich ins Kino.<span
                             class="tran"><br><small>영화를 보고 싶으면, 영화관으로
@@ -214,7 +214,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-12">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich in die Bäckerei Achso.<span
                             class="tran"><br><small>빵을 사고 싶으면, 악소 빵집으로
@@ -223,7 +223,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-13">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich auf den Hauptbahnhof.<span
                             class="tran"><br><small>기차표를 구입하고 싶으면, 중앙역으로
@@ -232,7 +232,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-14">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich auf den Markt.<span
                             class="tran"><br><small>신선한 야채와 과일을 사고 싶으면, 시장으로
@@ -241,7 +241,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-15">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich in die Apotheke.<span
                             class="tran"><br><small>아스피린을 사고 싶으면, 약국에
@@ -250,7 +250,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-16">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich ins Stadtmuseum.<span
                             class="tran"><br><small>중세시대의 그럼을 구경하고 싶으면, 시립박물관으로
@@ -259,7 +259,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 my-4">
                     <div class="itm-lst 1itm" id="lst-17">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6"
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6"
                             style="max-width: 150px; min-width: 150px;">
                             ▼ </h2>,&nbsp;gehe ich auf die Post.<span
                             class="tran"><br><small>소포를 보내고 싶으면, 우체국으로

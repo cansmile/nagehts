@@ -85,7 +85,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;dem Stuhl.<span
                                             class="tran"><br><small>참새가 의자 아래
                                                 있다,</small></span>
@@ -109,7 +109,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;dem Kasten.<span
                                             class="tran"><br><small>참새가 상자 안에
                                                 있다.</small></span>
@@ -133,7 +133,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-3">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;der Banane.<span
                                             class="tran"><br><small>참새가 바나나 위에
                                                 있다.</small></span>
@@ -157,7 +157,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-4">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;der Milch.<span
                                             class="tran"><br><small>참새가 우유 뒤에
                                                 있다.</small></span>
@@ -181,7 +181,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-5">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;dem Spiegel.<span
                                             class="tran"><br><small>참새가 거울 앞에
                                                 있다.</small></span>
@@ -205,7 +205,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-6">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;der Vase.<span
                                             class="tran"><br><small>참새가 꽃병 옆에
                                                 있다.</small></span>
@@ -229,7 +229,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-7">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;den Büchern.<span
                                             class="tran"><br><small>참새가 책 사이에
                                                 있다.</small></span>
@@ -253,7 +253,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-8">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;dem Fenster.<span
                                             class="tran"><br><small>참새가 창가에
                                                 있다.</small></span>
@@ -277,7 +277,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm" id="lst-9">
                                         Der Spatz ist&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;dem Apfel.<span
                                             class="tran"><br><small>참새가 사과 위에
                                                 있다.</small></span>

@@ -94,7 +94,7 @@
                                     Herr Meyer, <div
                                         class="itm-lst 1itm d-inline-block"
                                         id="lst-1">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 210px;">
                                             ▼ </h2>
                                     </div>
@@ -113,7 +113,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 50px;" id="lst-2">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 210px;">
                                             ▼ </h2>
                                     </div>
@@ -133,7 +133,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 50px;" id="lst-3">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 210px;">
                                             ▼ </h2>
                                     </div>
@@ -154,7 +154,7 @@
                                 <td colspan="2">
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 50px;" id="lst-4">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 210px;">
                                             ▼ </h2>
                                     </div>

@@ -80,7 +80,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-1">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Blumen kaufen.<span
                                             class="tran"><br><small>꽃가게에서는 꽃을 살
                                                 수 있다.</small></span>
@@ -99,7 +99,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;beten und auch am
                                         Gottesdienst teilnehmen.<span
                                             class="tran"><br><small>교회에서는 기도할 수
@@ -119,7 +119,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Geld wechseln.<span
                                             class="tran"><br><small>은행에서는 환전할 수
                                                 있다.</small></span>
@@ -138,7 +138,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Dornbusch Kaffee
                                         trinken und Kuchen essen.<span
                                             class="tran"><br><small>도른부쉬 카페에서는
@@ -159,7 +159,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;einen Stadtplan
                                         holen.<span
                                             class="tran"><br><small>관광안내소에서는
@@ -179,7 +179,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-6">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;eine Reise buchen.<span
                                             class="tran"><br><small>여행사에서는 여행을
                                                 예약할 수 있다.</small></span>
@@ -198,7 +198,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-7">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;einen Film sehen.<span
                                             class="tran"><br><small>영화관에서는 영화를 볼
                                                 수 있다.</small></span>
@@ -217,7 +217,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-8">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Aspirin holen.<span
                                             class="tran"><br><small>약국에서는 아스피린을
                                                 살 수 있다.</small></span>
@@ -236,7 +236,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-9">
                                         Man kann &nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;übernachten.<span
                                             class="tran"><br><small>호텔에서는 하룻 밤
                                                 묵을 수 있다.</small></span>

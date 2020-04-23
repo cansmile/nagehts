@@ -123,14 +123,14 @@
                                     hier die <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-1">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px;">
                                             ▼ </h2>
                                     </div> geradeaus entlang und biegen leicht
                                     nach <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-2">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px;">
                                             ▼ </h2>
                                     </div>.<span class="tran"><br><small>여기서
@@ -139,13 +139,13 @@
                                     Straße biegen Sie sofort nach <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-3">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px;">
                                             ▼ </h2>
                                     </div> in den <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-4">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px;">
                                             ▼ </h2>
                                     </div>.<span class="tran"><br><small>첫번째 길에서
@@ -154,13 +154,13 @@
                                     Weges biegen Sie nach <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-2">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px;">
                                             ▼ </h2>
                                     </div> in die <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-5">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px;">
                                             ▼ </h2>
                                     </div>.<span class="tran"><br><small>그 길 끝에서
@@ -168,7 +168,7 @@
                                             가세요.</small><br></span> Auf der <div
                                         class="itm-lst 1itm d-inline-block mx-1"
                                         id="lst-6">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 90px; max-width: 190px;">
                                             ▼ </h2>
                                     </div> Seite sehen Sie dann schon die

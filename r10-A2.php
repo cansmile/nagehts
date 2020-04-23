@@ -143,238 +143,238 @@
             <div class="row mt-2">
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-1">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Blumenladen<span
                             class="tran"><br><small>꽃집에서</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-2">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Park<span
                             class="tran"><br><small>공원에서</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-3">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Getränkemarkt<span
                             class="tran"><br><small>음료마켓에서</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-4">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Supermarkt<span
                             class="tran"><br><small>슈퍼마켓에서</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-5">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Parkhaus<span
                             class="tran"><br><small>주차장에서</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-6">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Zoo<span
                             class="tran"><br><small>동물원에서</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-7">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;am Marktplatz<span
                             class="tran"><br><small>시장에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-8">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;am Hauptbahnhof<span
                             class="tran"><br><small>중앙역에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-9">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;auf dem Tennisplatz<span
                             class="tran"><br><small>테니스장에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-10">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Buchhandlung<span
                             class="tran"><br><small>서점에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-11">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Bäckerei<span
                             class="tran"><br><small>빵집에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-12">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Diskothek<span
                             class="tran"><br><small>디스코텍에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-13">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Frauenkirche<span
                             class="tran"><br><small>프라우엔교회에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-14">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Sprachschule<span
                             class="tran"><br><small>어학원에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-15">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Praxis<span
                             class="tran"><br><small>병원에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-16">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Stadtbibliothek<span
                             class="tran"><br><small>시립도서관에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-17">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Telefonzelle<span
                             class="tran"><br><small>공중 전화 박스에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-18">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Touristeninformation<span
                             class="tran"><br><small>관광안내센터에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-19">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;auf der Bank (Sparkasse)<span
                             class="tran"><br><small>은행(슈파카세)</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-20">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Apotheke<span
                             class="tran"><br><small>약국에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-21">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;in der Videothek<span
                             class="tran"><br><small>비디오테이프 대여점에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-22">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Theater<span
                             class="tran"><br><small>극장에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-23">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Kaufhaus<span
                             class="tran"><br><small>백화점에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-24">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Fotostudio<span
                             class="tran"><br><small>사진관에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-25">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Schwimmbad<span
                             class="tran"><br><small>수영장에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-26">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Stadtmuseum<span
                             class="tran"><br><small>시립박물관에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-27">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Kino<span
                             class="tran"><br><small>영화관에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-28">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Café<span
                             class="tran"><br><small>카페에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-29">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Reisebüro<span
                             class="tran"><br><small>여행사에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-30">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Restaurant<span
                             class="tran"><br><small>식당에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-31">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Hotel<span
                             class="tran"><br><small>호텔에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-32">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;am Rathaus<span
                             class="tran"><br><small>시청에</small></span></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-33">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Restaurant<span
                             class="tran"><br><small>식당에</small></span>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="itm-lst 1itm" id="lst-34">
-                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                        <h2 class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                             ▼ </h2>&nbsp;im Stadtmuseum<span
                             class="tran"><br><small>시립박물관에</small></span>
                     </div>
@@ -465,7 +465,7 @@
                                     <td height="100" class="align-middle"><span
                                             class="border border-dark bg-orange rounded rounded-circle p-1 px-3"
                                             style="position: relative; top: -14px;"></span><br><span
-                                            class="border border-dark bg-primary rounded p-3 px-4 t+6"></span>
+                                            class="border border-dark bg-primary rounded p-3 px-4 t_add_6"></span>
                                     </td>
                                 </tr>
                             </tbody>

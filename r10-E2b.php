@@ -97,7 +97,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-1">
                                         hängt das Bild&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bett.<span
                                             class="tran"><br><small>그림을 침대 뒤에
                                                 놓습니다.</small></span>
@@ -116,7 +116,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         legt den Teddybär&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bett.<span
                                             class="tran"><br><small>테디베어를 침대에
                                                 놓습니다.</small></span>
@@ -135,7 +135,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
                                         stellt die Kaffeetasse&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bücher und den
                                         Computer.<span
                                             class="tran"><br><small>커피잔을 책과 컴퓨터
@@ -155,7 +155,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
                                         stellt den Kaktus&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Fenster.<span
                                             class="tran"><br><small>선인장을 창가에
                                                 놓습니다.</small></span>
@@ -174,7 +174,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
                                         stellt den Stuhl&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Tisch.<span
                                             class="tran"><br><small>의자를 책상 옆에
                                                 놓습니다.</small></span>
@@ -193,7 +193,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-6">
                                         stellt die Blumen&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Vase auf den
                                         Tisch.<span class="tran"><br><small>꽃을
                                                 꽃병에 꽂아 책상 위에
@@ -213,7 +213,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-7">
                                         bringt den Spatz&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Käfig.<span
                                             class="tran"><br><small>참새를 새장에 다시
                                                 넣습니다.</small></span>
@@ -232,7 +232,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-8">
                                         legt das Geld&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Portemonnaie.<span
                                             class="tran"><br><small>돈을 지갑 안에
                                                 넣습니다.</small></span>
@@ -251,7 +251,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-9">
                                         stellt den Mülleimer&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Tisch.<span
                                             class="tran"><br><small>휴지통을 책상 옆에
                                                 놓습니다.</small></span>
@@ -270,7 +270,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-10">
                                         legt das Handy&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Bücher.<span
                                             class="tran"><br><small>휴대폰을 책 앞에
                                                 놓습니다.</small></span>
@@ -290,7 +290,7 @@
                                     <div class="itm-lst 1itm" id="lst-11">
                                         wirft das Schmierpapier und die
                                         Bananenschale&nbsp;<h2
-                                            class="btn btn-warning btn-lg ttl d-inline-block t+6">
+                                            class="btn btn-warning btn-lg ttl d-inline-block t_add_6">
                                             ▼ </h2>&nbsp;Mülleimer.<span
                                             class="tran"><br><small>이면지와 바나나 껍질을
                                                 휴지통 안에 던져 넣습니다.</small></span>

@@ -107,7 +107,7 @@
                                     Die Bushaltestelle ist vor der
                                     <div class="itm-lst 1itm d-inline-block"
                                         id="lst-1">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 85px; max-width: 100px;">
                                             ▼ </h2>
                                     </div>
@@ -121,7 +121,7 @@
                                     Dann gehst du nach
                                     <div class="itm-lst 1itm d-inline-block"
                                         id="lst-2">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 85px; max-width: 100px;">
                                             ▼ </h2>
                                     </div>
@@ -131,7 +131,7 @@
                                     Und dann siehst du schon auf der
                                     <div class="itm-lst 1itm d-inline-block"
                                         id="lst-3">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t+6"
+                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
                                             style="min-width: 85px; max-width: 100px;">
                                             ▼ </h2>
                                     </div>

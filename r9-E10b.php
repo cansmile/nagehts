@@ -24,15 +24,15 @@
                                             class="tipp">TIPP</span><small
                                             class="font-weight-bold"><input
                                                 type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="." id="qst-1"><input
                                                 type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="." id="qst-2"><input
                                                 type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="."
                                                 id="qst-3"></small>
@@ -76,11 +76,11 @@
                                             class="tipp">TIPP</span><small
                                             class="font-weight-bold"><input
                                                 type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="." id="qst-7"><input
                                                 type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="."
                                                 id="qst-8"></small>
@@ -119,15 +119,15 @@
                                             class="tipp">TIPP</span><small
                                             class="font-weight-bold"><input
                                                 type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="."
                                                 id="qst-11"><input type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="."
                                                 id="qst-12"><input type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t+3"
+                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
                                                 style="min-width: 150px;"
                                                 aria-label="."
                                                 id="qst-13"></small>

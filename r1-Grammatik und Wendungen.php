@@ -410,7 +410,7 @@
                                                     <button type="button" id="24"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Ich heiße Sandra Bauer.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich heiße Sandra Bauer.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -430,7 +430,7 @@
                                                     <button type="button" id="26"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Ich heiße Sandra.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich heiße Sandra.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -450,7 +450,7 @@
                                                     <button type="button" id="28"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Mein Name ist Arum Park.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Mein Name ist Arum Park.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -470,7 +470,7 @@
                                                     <button type="button" id="30"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Mein Name ist Arum.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Mein Name ist Arum.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -491,7 +491,7 @@
                                                     <button type="button" id="32"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Danke, es geht mir super. / sehr
+                                                <div class="col-10 mx-1 px-1 lh250">Danke, es geht mir super. / sehr
                                                     gut. / gut. / nicht so gut. / schlecht. / es geht. / so la la. / Und
                                                     Ihnen? / Und dir?</div>
                                             </div>
@@ -513,7 +513,7 @@
                                                     <button type="button" id="34"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Ich bin Yuna Kim.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich bin Yuna Kim.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -533,7 +533,7 @@
                                                     <button type="button" id="36"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Ich bin Yuna.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich bin Yuna.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -553,7 +553,7 @@
                                                     <button type="button" id="38"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Das bin ich.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das bin ich.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -573,7 +573,7 @@
                                                     <button type="button" id="40"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Das bin ich.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das bin ich.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -593,7 +593,7 @@
                                                     <button type="button" id="42"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Ja, das bin ich. / Nein, ich bin
+                                                <div class="col-10 mx-1 px-1 lh250">Ja, das bin ich. / Nein, ich bin
                                                     Frau Park.</div>
                                             </div>
                                         </td>
@@ -614,7 +614,7 @@
                                                     <button type="button" id="44"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Ja, das bin ich. / Nein, ich bin
+                                                <div class="col-10 mx-1 px-1 lh250">Ja, das bin ich. / Nein, ich bin
                                                     Chung Man.</div>
                                             </div>
                                         </td>
@@ -635,8 +635,8 @@
                                                     <button type="button" id="46"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">- Ja, Herr Jang ist da. / Nein, Herr
-                                                    Jang ist nicht da.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ja, Herr Jang ist da. / Nein, Herr
+                                                    Jang ist nicht da.</div></div>
                                             </div>
                                         </td>
                                         </tra>

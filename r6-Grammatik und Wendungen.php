@@ -423,7 +423,7 @@
                                             <th scope="col">&nbsp;</th>
                                             <th scope="col" colspan="2">
                                                 fernsehen</th>
-                                            <th class="border border-dark border-bottom-only" scope="col">treffen</th>
+                                            <th class="border border-dark border-left-only" scope="col">treffen</th>
                                             <th class="border border-top-0 border-dark border-bottom-0" scope="col">
                                                 fahren</th>
                                             <th scope="col" colspan="2">anfangen
@@ -435,7 +435,7 @@
                                             <th scope="row">ich</th>
                                             <td>sehe</td>
                                             <td>fern</td>
-                                            <td class="border border-dark border-bottom-only">
+                                            <td class="border border-dark border-left-only">
                                                 treffe</td>
                                             <td class="border border-top-0 border-dark border-bottom-0">
                                                 fahre</td>
@@ -446,7 +446,7 @@
                                             <th scope="row">du</th>
                                             <td>siehst</td>
                                             <td>fern</td>
-                                            <td class="border border-dark border-bottom-only">
+                                            <td class="border border-dark border-left-only">
                                                 triffst</td>
                                             <td class="border border-top-0 border-dark border-bottom-0">
                                                 fährst</td>
@@ -457,7 +457,7 @@
                                             <th scope="row">er/sie/es</th>
                                             <td>sieht</td>
                                             <td>fern</td>
-                                            <td class="border border-dark border-bottom-only">
+                                            <td class="border border-dark border-left-only">
                                                 trifft</td>
                                             <td class="border border-top-0 border-dark border-bottom-0">
                                                 fährt</td>
@@ -468,7 +468,7 @@
                                             <th scope="row">wir</th>
                                             <td>sehen</td>
                                             <td>fern</td>
-                                            <td class="border border-dark border-bottom-only">
+                                            <td class="border border-dark border-left-only">
                                                 treffen</td>
                                             <td class="border border-top-0 border-dark border-bottom-0">
                                                 fahren</td>
@@ -479,7 +479,7 @@
                                             <th scope="row">ihr</th>
                                             <td>seht</td>
                                             <td>fern</td>
-                                            <td class="border border-dark border-bottom-only">
+                                            <td class="border border-dark border-left-only">
                                                 trefft</td>
                                             <td class="border border-top-0 border-dark border-bottom-0">
                                                 fahrt</td>
@@ -490,7 +490,7 @@
                                             <th scope="row">sie/Sie</th>
                                             <td>sehen</td>
                                             <td>fern</td>
-                                            <td class="border border-dark border-bottom-only">
+                                            <td class="border border-dark border-left-only">
                                                 treffen</td>
                                             <td class="border border-top-0 border-dark border-bottom-0">
                                                 fahren</td>
@@ -516,7 +516,7 @@
                                 <table class="table table-borderless text-left bg-light">
                                     <thead>
                                         <tr>
-                                            <th scope="col" colspan="2">
+                                            <th scope="col" colspan="2" class="h4">
                                                 gern/nicht gern</th>
                                         </tr>
                                     </thead>
@@ -546,7 +546,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Ich spiele gern am
+                                                        Ich spiele gern am
                                                         Computer.</div>
                                                 </div>
                                             </td>
@@ -570,7 +570,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Ich schlafe gern.
+                                                        Ich schlafe gern.
                                                     </div>
                                                 </div>
                                             </td>
@@ -594,7 +594,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Ich arbeite nicht
+                                                        Ich arbeite nicht
                                                         gern.</div>
                                                 </div>
                                             </td>
@@ -618,7 +618,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Ich sehe nicht gern
+                                                        Ich sehe nicht gern
                                                         fern.</div>
                                                 </div>
                                             </td>
@@ -684,7 +684,7 @@
                                 <table class="table table-borderless text-left">
                                     <thead>
                                         <tr>
-                                            <th scope="col" colspan="2">Haushalt
+                                            <th scope="col" colspan="2" class="h4">Haushalt
                                             </th>
                                         </tr>
                                     </thead>
@@ -791,7 +791,7 @@
                                 <table class="table table-borderless text-left bg-light">
                                     <thead>
                                         <tr>
-                                            <th scope="col" colspan="2">
+                                            <th scope="col" colspan="2" class="h4">
                                                 Tagesablauf</th>
                                         </tr>
                                     </thead>
@@ -865,7 +865,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Am Morgen gehe ich zur
+                                                        Am Morgen gehe ich zur
                                                         Uni.</div>
                                                 </div>
                                             </td>
@@ -889,7 +889,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Um 9 Uhr habe ich
+                                                        Um 9 Uhr habe ich
                                                         Deutschunterricht.</div>
                                                 </div>
                                             </td>
@@ -913,7 +913,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Von 9 bis 16 Uhr habe
+                                                        Von 9 bis 16 Uhr habe
                                                         ich Vorlesungen.</div>
                                                 </div>
                                             </td>
@@ -937,7 +937,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Um halb neun beginnt
+                                                        Um halb neun beginnt
                                                         es.</div>
                                                 </div>
                                             </td>
@@ -965,7 +965,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Um fünf Uhr komme ich
+                                                        Um fünf Uhr komme ich
                                                         nach Hause.</div>
                                                 </div>
                                             </td>
@@ -989,7 +989,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Von 11 Uhr bis 6 Uhr
+                                                        Von 11 Uhr bis 6 Uhr
                                                         schlafe ich.</div>
                                                 </div>
                                             </td>
@@ -999,7 +999,7 @@
                                 <table class="table table-borderless text-left">
                                     <thead>
                                         <tr>
-                                            <th scope="col" colspan="2">
+                                            <th scope="col" colspan="2" class="h4">
                                                 Uhrzeit/Tageszeiten</th>
                                         </tr>
                                     </thead>

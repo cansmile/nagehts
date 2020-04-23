@@ -13,11 +13,8 @@
                         <div class="card">
                             <div class="card-header" id="heading1">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-danger mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse1"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-danger mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse1" area-expanded="false"
                                         aria-controls="collapse1" id="1">
                                         <strong>H1.
                                             Demonstrativpronomen</strong>
@@ -25,29 +22,21 @@
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse1"
-                                aria-divledby="heading1"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless table-striped text-center align-middle">
+                            <div class="collapse" id="collapse1" aria-divledby="heading1" data-parent="#accordionitms">
+                                <table class="table table-borderless table-striped text-center align-middle">
                                     <thead>
                                         <tr>
                                             <th scope="col" width="20%">&nbsp;
                                             </th>
-                                            <th scope="col" width="20%"
-                                                class="text-primary">m</th>
-                                            <th scope="col" width="20%"
-                                                class="text-danger">f</th>
-                                            <th scope="col" width="20%"
-                                                class="text-purple">n</th>
-                                            <th scope="col" width="20%"
-                                                class="text-khaki">Pl.</th>
+                                            <th scope="col" width="20%" class="text-primary">m</th>
+                                            <th scope="col" width="20%" class="text-danger">f</th>
+                                            <th scope="col" width="20%" class="text-purple">n</th>
+                                            <th scope="col" width="20%" class="text-khaki">Pl.</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">Nominativ<span
-                                                    class="tran"><small>&nbsp;주격</small></span>
+                                            <th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span>
                                             </th>
                                             <td class="text-primary">der</td>
                                             <td class="text-danger">die</td>
@@ -55,8 +44,7 @@
                                             <td class="text-khaki">die</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Akkusativ<span
-                                                    class="tran"><small>&nbsp;목적격</small></span>
+                                            <th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span>
                                             </th>
                                             <td class="text-primary">den</td>
                                             <td class="text-danger">die</td>
@@ -65,13 +53,10 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <table
-                                    class="table table-borderless table-striped"
-                                    width="80%">
+                                <table class="table table-borderless table-striped" width="80%">
                                     <thead>
                                         <tr>
-                                            <th scope="col"><span
-                                                    class="tipp">TIPP</span>
+                                            <th scope="col"><span class="tipp">TIPP</span>
                                             </th>
                                         </tr>
                                     </thead>
@@ -101,40 +86,29 @@
                         <div class="card">
                             <div class="card-header" id="heading2">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-orange mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse2"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-orange mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse2" area-expanded="false"
                                         aria-controls="collapse2" id="2">
                                         <strong>H2. bestimmter Artikel</strong>
                                         <small>정관사</small>
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse2"
-                                aria-divledby="heading2"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless text-center align-middle">
+                            <div class="collapse" id="collapse2" aria-divledby="heading2" data-parent="#accordionitms">
+                                <table class="table table-borderless text-center align-middle">
                                     <thead>
                                         <tr>
                                             <th scope="col" width="20%">&nbsp;
                                             </th>
-                                            <th class="text-primary" scope="col"
-                                                width="20%">m</th>
-                                            <th class="text-danger" scope="col"
-                                                width="20%">f</th>
-                                            <th class="text-purple" scope="col"
-                                                width="20%">n</th>
-                                            <th class="text-khaki" scope="col"
-                                                width="20%">Pl.</th>
+                                            <th class="text-primary" scope="col" width="20%">m</th>
+                                            <th class="text-danger" scope="col" width="20%">f</th>
+                                            <th class="text-purple" scope="col" width="20%">n</th>
+                                            <th class="text-khaki" scope="col" width="20%">Pl.</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">Nominativ<span
-                                                    class="tran"><small>&nbsp;주격</small></span>
+                                            <th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span>
                                             </th>
                                             <td class="text-primary">der Salat
                                             </td>
@@ -146,8 +120,7 @@
                                                 Spaghettis</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Akkusativ<span
-                                                    class="tran"><small>&nbsp;목적격</small></span>
+                                            <th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span>
                                             </th>
                                             <td class="text-primary">den Salat
                                             </td>
@@ -169,11 +142,8 @@
                         <div class="card">
                             <div class="card-header" id="heading3">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-warning mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse3"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-warning mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse3" area-expanded="false"
                                         aria-controls="collapse3" id="3">
                                         <strong>H3. unbestimmter
                                             Artikel</strong>
@@ -181,27 +151,20 @@
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse3"
-                                aria-divledby="heading3"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless text-center align-middle">
+                            <div class="collapse" id="collapse3" aria-divledby="heading3" data-parent="#accordionitms">
+                                <table class="table table-borderless text-center align-middle">
                                     <thead>
                                         <tr>
                                             <th scope="col" width="25%">&nbsp;
                                             </th>
-                                            <th class="text-primary" scope="col"
-                                                width="25%">m</th>
-                                            <th class="text-danger" scope="col"
-                                                width="25%">f</th>
-                                            <th class="text-purple" scope="col"
-                                                width="25%">n</th>
+                                            <th class="text-primary" scope="col" width="25%">m</th>
+                                            <th class="text-danger" scope="col" width="25%">f</th>
+                                            <th class="text-purple" scope="col" width="25%">n</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">Nominativ<span
-                                                    class="tran"><small>&nbsp;주격</small></span>
+                                            <th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span>
                                             </th>
                                             <td class="text-primary">ein Salat
                                             </td>
@@ -211,8 +174,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Akkusativ<span
-                                                    class="tran"><small>&nbsp;목적격</small></span>
+                                            <th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span>
                                             </th>
                                             <td class="text-primary">
                                                 <strong>einen</strong> Salat
@@ -233,40 +195,29 @@
                         <div class="card">
                             <div class="card-header" id="heading4">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-primary mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse4"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-primary mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse4" area-expanded="false"
                                         aria-controls="collapse4" id="4">
                                         <strong>H4. negativer Artikel</strong>
                                         <small>부정(否定)관사</small>
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse4"
-                                aria-divledby="heading4"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless text-center align-middle">
+                            <div class="collapse" id="collapse4" aria-divledby="heading4" data-parent="#accordionitms">
+                                <table class="table table-borderless text-center align-middle">
                                     <thead>
                                         <tr>
                                             <th scope="col" width="20%">&nbsp;
                                             </th>
-                                            <th class="text-primary" scope="col"
-                                                width="20%">m</th>
-                                            <th class="text-danger" scope="col"
-                                                width="20%">f</th>
-                                            <th class="text-purple" scope="col"
-                                                width="20%">n</th>
-                                            <th class="text-khaki" scope="col"
-                                                width="20%">Pl.</th>
+                                            <th class="text-primary" scope="col" width="20%">m</th>
+                                            <th class="text-danger" scope="col" width="20%">f</th>
+                                            <th class="text-purple" scope="col" width="20%">n</th>
+                                            <th class="text-khaki" scope="col" width="20%">Pl.</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">Nominativ<span
-                                                    class="tran"><small>&nbsp;주격</small></span>
+                                            <th scope="row">Nominativ<span class="tran"><small>&nbsp;주격</small></span>
                                             </th>
                                             <td class="text-primary">kein Salat
                                             </td>
@@ -278,8 +229,7 @@
                                                 Spaghettis</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">Akkusativ<span
-                                                    class="tran"><small>&nbsp;목적격</small></span>
+                                            <th scope="row">Akkusativ<span class="tran"><small>&nbsp;목적격</small></span>
                                             </th>
                                             <td class="text-primary">keinen
                                                 Salat</td>
@@ -302,11 +252,8 @@
                         <div class="card">
                             <div class="card-header" id="heading5">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-purple mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse5"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-purple mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse5" area-expanded="false"
                                         aria-controls="collapse5" id="5">
                                         <strong>H5. Verbkonjugation: essen,
                                             trinken, nehmen, bekommen,
@@ -315,11 +262,8 @@
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse5"
-                                aria-divledby="heading5"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless text-center table-striped">
+                            <div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
+                                <table class="table table-borderless text-center table-striped">
                                     <thead>
                                         <tr>
                                             <th scope="col">&nbsp;</th>
@@ -388,26 +332,19 @@
                         <div class="card">
                             <div class="card-header" id="heading5">
                                 <h5 class="mb-0">
-                                    <button
-                                        class="btn btn-outline-pink mt-1 mx-1 btn-block"
-                                        type="button" data-toggle="collapse"
-                                        data-target="#collapse6"
-                                        area-expanded="false"
+                                    <button class="btn btn-outline-pink mt-1 mx-1 btn-block" type="button"
+                                        data-toggle="collapse" data-target="#collapse6" area-expanded="false"
                                         aria-controls="collapse6" id="6">
                                         <strong>H6. Redewendungen</strong>
                                         <small>어휘와 숙어</small>
                                     </button>
                                 </h5>
                             </div>
-                            <div class="collapse" id="collapse6"
-                                aria-divledby="heading6"
-                                data-parent="#accordionitms">
-                                <table
-                                    class="table table-borderless text-left bg-light">
+                            <div class="collapse" id="collapse6" aria-divledby="heading6" data-parent="#accordionitms">
+                                <table class="table table-borderless text-left bg-light">
                                     <tbody>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="1"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -415,27 +352,23 @@
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="2"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="2"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
                                                         Was isst/ trinkst du
                                                         gern?</div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="3"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="3"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
-                                                        - Ich esse / trinke gern
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                        Ich esse / trinke gern
                                                         ...</div>
                                                 </div>
                                             </td>
@@ -443,13 +376,11 @@
                                         <tr>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="4"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="4"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
                                                         Was ist dein
                                                         Lieblingsessen/
                                                         Lieblingsgetränk?</div>
@@ -457,14 +388,12 @@
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="5"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="5"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
-                                                        - Mein Lieblingsessen/
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                        Mein Lieblingsessen/
                                                         Lieblingsgetränk ist ...
                                                     </div>
                                                 </div>
@@ -475,8 +404,7 @@
                                 <table class="table table-borderless text-left">
                                     <tbody>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="6"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -484,27 +412,23 @@
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="7"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="7"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
                                                         Isst/ Trinkst du gern
                                                         ... ?</div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="8"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="8"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
-                                                        - Ja, ich esse/ trinke
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                        Ja, ich esse/ trinke
                                                         gern ...</div>
                                                 </div>
                                             </td>
@@ -513,15 +437,12 @@
                                             <td>&nbsp;</td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="9"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="9"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
-                                                        <span
-                                                            class="text-white">-
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                        <span class="text-white">
                                                         </span>Nein, ich esse/
                                                         trinke nicht so gern ...
                                                     </div>
@@ -532,15 +453,12 @@
                                             <td>&nbsp;</td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="10"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="10"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
-                                                        <span
-                                                            class="text-white">-
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                        <span class="text-white">
                                                         </span>Nein, ich mag
                                                         keinen, keine, kein,
                                                         keine ....</div>
@@ -549,12 +467,10 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <table
-                                    class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-left bg-light">
                                     <tbody>
                                         <tr>
-                                            <th class="text-center align-middle m-2 p-2"
-                                                colspan="2"><button
+                                            <th class="text-center align-middle m-2 p-2" colspan="2"><button
                                                     type="button" id="11"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </th>
@@ -562,26 +478,22 @@
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="12"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="12"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
                                                         Was möchtest du?</div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="13"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="13"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
-                                                        - Ich möchte/ nehme/
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                        Ich möchte/ nehme/
                                                         esse/ trinke</div>
                                                 </div>
                                             </td>
@@ -589,27 +501,21 @@
                                         <tr>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="14"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="14"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
                                                         Was nimmst du?</div>
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div
-                                                        class="</div>mx-1 px-1">
-                                                        <button type="button"
-                                                            id="15"
+                                                    <div class="</div>mx-1 px-1">
+                                                        <button type="button" id="15"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
-                                                        <span
-                                                            class="text-light">-
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                        <span class="text-light">
                                                         </span>Einen/ Eine / Ein
                                                         ...</div>
                                                 </div>
@@ -618,13 +524,11 @@
                                         <tr>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
-                                                        <button type="button"
-                                                            id="16"
+                                                    <div class="col-1 mx-1 px-1">
+                                                        <button type="button" id="16"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 my-auto lh250">
                                                         Was darf es sein?</div>
                                             </td>
                                             <td>
@@ -635,90 +539,81 @@
                             <table class="table table-borderless text-left">
                                 <tbody>
                                     <tr>
-                                        <th class="text-center align-middle m-2 p-2"
-                                            colspan="2"><button type="button"
-                                                id="17"
-                                                class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        <th class="text-center align-middle m-2 p-2" colspan="2"><button type="button"
+                                                id="17" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                         </th>
                                     </tr>
                                     <tr>
                                         <td width="50%">
                                             <div class="row">
-                                                <div class="mx-1 px-1">
-                                                    <button type="button"
-                                                        id="18"
+                                                <div class="col-1 mx-1 px-1">
+                                                    <button type="button" id="18"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div
-                                                    class="col-9 mx-1 px-1 lh250">
+                                                <div class="col-9 mx-1 px-1 my-auto lh250">
                                                     Was isst du gern?</div>
                                             </div>
                                         </td>
                                         <td>
                                             <div class="row">
-                                                <div class="mx-1 px-1">
-                                                    <button type="button"
-                                                        id="19"
+                                                <div class="col-1 mx-1 px-1">
+                                                    <button type="button" id="19"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div
-                                                    class="col-9 mx-1 px-1 lh250">
-                                                    - Ich esse gern ...</div>
+                                                <div class="col-9 mx-1 px-1 my-auto lh250">
+                                                    Ich esse gern ...</div>
                                         </td>
                         </div>
                         </tr>
                         <tr>
                             <td>
                                 <div class="row">
-                                    <div class="mx-1 px-1">
+                                    <div class="col-1 mx-1 px-1">
                                         <button type="button" id="20"
                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                     </div>
-                                    <div class="col-9 mx-1 px-1 lh250">Was
+                                    <div class="col-9 mx-1 px-1 my-auto lh250">Was
                                         trinkst du gern?</div>
                                 </div>
                             </td>
                             <td>
                                 <div class="row">
-                                    <div class="mx-1 px-1">
+                                    <div class="col-1 mx-1 px-1">
                                         <button type="button" id="21"
                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                     </div>
-                                    <div class="col-9 mx-1 px-1 lh250">- Ich
+                                    <div class="col-9 mx-1 px-1 my-auto lh250"> Ich
                                         trinke gern ...</div>
                                 </div>
                             </td>
                         </tr>
                         </tbody>
                         </table>
-                        <table
-                            class="table table-borderless text-left bg-light">
+                        <table class="table table-borderless text-left bg-light">
                             <tbody>
                                 <tr>
-                                    <th class="text-center align-middle m-2 p-2"
-                                        colspan="2"><button type="button"
-                                            id="22"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <th class="text-center align-middle m-2 p-2" colspan="2"><button type="button"
+                                            id="22" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                     </th>
                                 </tr>
                                 <tr>
                                     <td width="50%">
                                         <div class="row">
-                                            <div class="mx-1 px-1">
+                                            <div class="col-1 mx-1 px-1">
                                                 <button type="button" id="23"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </div>
-                                            <div class="col-9 mx-1 px-1 lh250">
+                                            <div class="col-9 mx-1 px-1 my-auto lh250">
                                                 Was bezahlen Sie?</div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="row">
-                                            <div class="mx-1 px-1">
+                                            <div class="col-1 mx-1 px-1">
                                                 <button type="button" id="24"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </div>
-                                            <div class="col-9 mx-1 px-1 lh250">-
+                                            <div class="col-9 mx-1 px-1 my-auto lh250">
                                                 Ich bezahle den/ die/ das ...
                                             </div>
                                         </div>
@@ -729,30 +624,28 @@
                         <table class="table table-borderless text-left">
                             <tbody>
                                 <tr>
-                                    <th class="text-center align-middle m-2 p-2"
-                                        colspan="2"><button type="button"
-                                            id="25"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <th class="text-center align-middle m-2 p-2" colspan="2"><button type="button"
+                                            id="25" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                     </th>
                                 </tr>
                                 <tr>
                                     <td width="50%">
                                         <div class="row">
-                                            <div class="mx-1 px-1">
+                                            <div class="col-1 mx-1 px-1">
                                                 <button type="button" id="26"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </div>
-                                            <div class="col-9 mx-1 px-1 lh250">
+                                            <div class="col-9 mx-1 px-1 my-auto lh250">
                                                 Zusammen oder getrennt?</div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="row">
-                                            <div class="mx-1 px-1">
+                                            <div class="col-1 mx-1 px-1">
                                                 <button type="button" id="27"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </div>
-                                            <div class="col-9 mx-1 px-1 lh250">-
+                                            <div class="col-9 mx-1 px-1 my-auto lh250">
                                                 Zusammen / Getrennt, bitte.
                                             </div>
                                         </div>
@@ -761,23 +654,26 @@
                                 <tr>
                                     <td>
                                         <div class="row">
-                                            <div class="mx-1 px-1">
+                                            <div class="col-1 mx-1 px-1">
                                                 <button type="button" id="28"
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                             </div>
-                                            <div class="col-9 mx-1 px-1 lh250">
+                                            <div class="col-9 mx-1 px-1 my-auto lh250">
                                                 Stimmt so.</div>
+                                        </div>
                                     </td>
-                                    <td>- Vielen
-                    </div> Dank.</td>
-                    </tr>
-                    </tbody>
-                    </table>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-1 mx-1 px-1">&nbsp;</div>
+                                            <div class="col-9 mx-1 px-1 my-auto">Vielen Dank.</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
         </div>
     </section>
     <div id="last" class="d-none"></div>
@@ -855,7 +751,7 @@
                 onloaderror: function () {
                         $(".alert").append(
                             "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
-                            );
+                        );
                         console.log("다시 읽어주세요!");
                     }
 

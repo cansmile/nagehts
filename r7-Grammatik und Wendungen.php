@@ -26,7 +26,7 @@
                                     <thead>
                                         <tr>
                                             <th class="border border-dark m-1 p-1 py-2" scope="col" colspan="4">Wohin ▷
-                                                <small>어디로 <span class="bg-secondary px-2 p-1 m-1 text-white">장소
+                                                <small>어디로 <span class="wd_inline_inverted">장소
                                                         전치사</span></small></th>
                                         </tr>
                                         <tr>
@@ -66,7 +66,7 @@
                                             <th class="border border-dark text-center m-1 p-1 py-2" scope="col"
                                                 colspan="2">
                                                 Temporale Präpositionen
-                                                <small>am, um<span class="bg-secondary px-2 p-1 m-1 text-white">시간
+                                                <small>am, um<span class="wd_inline_inverted">시간
                                                         전치사 am,
                                                         um</span></small></th>
                                         </tr>
@@ -103,7 +103,7 @@
                                 <table class="table table-borderless">
                                     <thead>
                                         <tr>
-                                            <th class="text-center" scope="col" colspan="2">Position2(Verb)</th>
+                                            <th class="text-center h4" scope="col" colspan="2">Position2(Verb)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -111,12 +111,12 @@
                                             <td width="60%">
                                                 <div class="row">
                                                     <div class="col-4 text-left">
-                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">Leider</span>
+                                                        <span class="wd_inline_inverted">Leider</span>
                                                     </div>
                                                     <div class="col-4 text-center">
                                                         habe</div>
                                                     <div class="col-4 text-right">
-                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">ich</span>
+                                                        <span class="wd_inline_inverted">ich</span>
                                                     </div>
                                                 </div>
                                             </td>
@@ -138,12 +138,12 @@
                                             <td width="60%">
                                                 <div class="row">
                                                     <div class="col-4 text-left">
-                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">Ich</span>
+                                                        <span class="wd_inline_inverted">Ich</span>
                                                     </div>
                                                     <div class="col-4 text-center">
                                                         habe</div>
                                                     <div class="col-4 text-right">
-                                                        <span class="px-2 p-1 m-1 bg-secondary text-white">leider</span>
+                                                        <span class="wd_inline_inverted">leider</span>
                                                     </div>
                                                 </div>
                                             </td>
@@ -281,7 +281,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" colspan="2">sich
+                                            <th scope="col" colspan="2" class="h4">sich
                                                 verabreden</th>
                                         </tr>
                                     </thead>
@@ -307,7 +307,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Ja, klar.</div>
+                                                       Ja, klar.</div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -319,7 +319,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Das weiß ich noch
+                                                       Das weiß ich noch
                                                         nicht.</div>
                                                 </div>
                                             </td>
@@ -332,7 +332,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Vielleicht</div>
+                                                       Vielleicht</div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -344,7 +344,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Heute Abend / Am .....
+                                                       Heute Abend / Am .....
                                                         habe ich leider keine
                                                         Zeit.</div>
                                                 </div>
@@ -361,7 +361,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" colspan="2">Einen
+                                            <th scope="col" colspan="2" class="h4">Einen
                                                 Vorschlag machen und darauf
                                                 reagieren</th>
                                         </tr>
@@ -386,7 +386,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Gute Idee! / Okay!
+                                                       Gute Idee! / Okay!
                                                     </div>
                                                 </div>
                                             </td>
@@ -411,7 +411,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Nein, leider nicht.
+                                                       Nein, leider nicht.
                                                         Ich habe keine Zeit.
                                                     </div>
                                                 </div>
@@ -436,7 +436,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Ja, gut!</div>
+                                                       Ja, gut!</div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -451,7 +451,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" colspan="2">
+                                            <th scope="col" colspan="2" class="h4">
                                                 Anweisungen</th>
                                         </tr>
                                     </thead>
@@ -488,7 +488,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Warum nicht?</div>
+                                                       Warum nicht?</div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -510,7 +510,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Na, gut. Dann höre ich
+                                                       Na, gut. Dann höre ich
                                                         auf.</div>
                                                 </div>
                                             </td>
@@ -612,7 +612,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" colspan="2">
+                                            <th scope="col" colspan="2" class="h4">
                                                 Verabredung absagen</th>
                                         </tr>
                                     </thead>
@@ -667,7 +667,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" colspan="2">Einen
+                                            <th scope="col" colspan="2" class="h4">Einen
                                                 Zeitpunkt angeben</th>
                                         </tr>
                                     </thead>
@@ -691,7 +691,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Am Dienstag / Abend /
+                                                       Am Dienstag / Abend /
                                                         Mittwochabend /.....
                                                     </div>
                                                 </div>
@@ -706,7 +706,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Um ..... Uhr.</div>
+                                                       Um ..... Uhr.</div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -719,7 +719,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Um drei / halb vier.
+                                                       Um drei / halb vier.
                                                     </div>
                                                 </div>
                                             </td>
@@ -735,7 +735,7 @@
                                             </th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" colspan="2">Uhrzeit
+                                            <th scope="col" colspan="2" class="h4">Uhrzeit
                                             </th>
                                         </tr>
                                     </thead>
@@ -759,7 +759,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div class="col-9 mx-1 px-1 lh250">
-                                                        - Es ist Viertel vor
+                                                       Es ist Viertel vor
                                                         drei / halb sechs.</div>
                                                 </div>
                                             </td>

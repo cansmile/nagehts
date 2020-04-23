@@ -349,8 +349,8 @@
                                     class="table table-borderless text-center align-middle">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Singular</th>
-                                            <th scope="col">Plural</th>
+                                            <th scope="col" class="h4">Singular</th>
+                                            <th scope="col" class="h4">Plural</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -396,7 +396,7 @@
                                     class="table table-borderless text-center align-middle">
                                     <thead>
                                         <tr>
-                                            <th scope="col" colspan="4">Singular
+                                            <th scope="col" colspan="4" class="h4">Singular
                                             </th>
                                         </tr>
                                     </thead>
@@ -425,7 +425,7 @@
                                     class="table table-borderless text-center align-middle">
                                     <thead>
                                         <tr>
-                                            <th scope="col" colspan="2">Plural
+                                            <th scope="col" colspan="2" class="h4">Plural
                                             </th>
                                         </tr>
                                     </thead>
@@ -625,7 +625,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Das ist meine Mutter.
+                                                        Das ist meine Mutter.
                                                     </div>
                                                 </div>
                                             </td>
@@ -653,7 +653,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ja. / Nein, das ist
+                                                        Ja. / Nein, das ist
                                                         mein Onkel.</div>
                                                 </div>
                                             </td>
@@ -691,7 +691,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin 35 Jahre alt.
+                                                        Ich bin 35 Jahre alt.
                                                     </div>
                                                 </div>
                                             </td>
@@ -718,7 +718,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin 19 Jahre alt.
+                                                        Ich bin 19 Jahre alt.
                                                     </div>
                                                 </div>
                                             </td>
@@ -745,7 +745,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Er ist 20 Jahre alt.
+                                                        Er ist 20 Jahre alt.
                                                     </div>
                                                 </div>
                                             </td>
@@ -772,7 +772,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Sie ist 22 Jahre alt.
+                                                        Sie ist 22 Jahre alt.
                                                     </div>
                                                 </div>
                                             </td>
@@ -812,7 +812,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich habe einen Bruder.
+                                                        Ich habe einen Bruder.
                                                     </div>
                                                 </div>
                                             </td>
@@ -840,7 +840,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich habe keine Kinder.
+                                                        Ich habe keine Kinder.
                                                     </div>
                                                 </div>
                                             </td>
@@ -867,7 +867,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ja. / Nein, ich habe
+                                                        Ja. / Nein, ich habe
                                                         keine Kinder.</div>
                                                 </div>
                                             </td>
@@ -906,7 +906,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin ledig. /
+                                                        Ich bin ledig. /
                                                         verheiratet. /
                                                         geschieden. / verwitwet.
                                                     </div>
@@ -948,7 +948,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin Kellnerin.
+                                                        Ich bin Kellnerin.
                                                     </div>
                                                 </div>
                                             </td>
@@ -976,7 +976,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin Student.</div>
+                                                        Ich bin Student.</div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -1002,7 +1002,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin Lehrerin.
+                                                        Ich bin Lehrerin.
                                                     </div>
                                                 </div>
                                             </td>
@@ -1029,7 +1029,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin
+                                                        Ich bin
                                                         Fußballspieler.</div>
                                                 </div>
                                             </td>
@@ -1068,7 +1068,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Meine Adresse ist ...
+                                                        Meine Adresse ist ...
                                                     </div>
                                                 </div>
                                             </td>
@@ -1096,7 +1096,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Meine Telefonnummer
+                                                        Meine Telefonnummer
                                                         ist ...</div>
                                                 </div>
                                             </td>
@@ -1124,7 +1124,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ihre Handynummer ist
+                                                        Ihre Handynummer ist
                                                         ...</div>
                                                 </div>
                                             </td>

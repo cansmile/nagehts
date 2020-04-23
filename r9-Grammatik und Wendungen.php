@@ -210,11 +210,11 @@
                                             <td class="text-left">sein</td>
                                             <td></td>
                                             <td class="text-right">ge-<span
-                                                    class="p-1 border border-secondary rounded m-1 px-3 bg-light">
+                                                    class="wd_inline">
                                                 </span>-t<br>(schwache V)</td>
                                             <td></td>
                                             <td class="text-left">ge-<span
-                                                    class="p-1 border border-secondary rounded m-1 px-3 bg-light">
+                                                    class="wd_inline">
                                                 </span>-en<br>(starke V)</td>
                                         </tr>
                                     </tbody>
@@ -226,9 +226,9 @@
                                         <tr>
                                             <th colspan="2" class="text-center">
                                                 Hilfsverben: Wann <span
-                                                    class="p-1 px-2 bg-light font-weight-bold border border-dark rounded">haben</span>
+                                                    class="wd_inline">haben</span>
                                                 und wann <span
-                                                    class="p-1 px-2 bg-light font-weight-bold border border-dark rounded">sein</span>?
+                                                    class="wd_inline">sein</span>?
                                                 <small>조동사: haben과 sein</small>
                                             </th>
                                         </tr>
@@ -253,40 +253,40 @@
                                         </tr>
                                         <tr>
                                             <td>Ich <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">habe</span>
+                                                    class="wd_inline">habe</span>
                                                 das Buch <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">gelesen</span>.
+                                                    class="wd_inline">gelesen</span>.
                                             </td>
                                             <td>Ich <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">bin</span>
+                                                    class="wd_inline">bin</span>
                                                 nach Seoul <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">gefahren</span>.<br>(<span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">+Bewegung</span>:
+                                                    class="wd_inline">gefahren</span>.<br>(<span
+                                                    class="wd_inline">+Bewegung</span>:
                                                 gehen, fliegen, laufen)</td>
                                         </tr>
                                         <tr>
                                             <td>Er <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">hat</span>
+                                                    class="wd_inline">hat</span>
                                                 lange <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">gelebt</span>.<br>(schlafen,
+                                                    class="wd_inline">gelebt</span>.<br>(schlafen,
                                                 wohnen, blühen...)</td>
                                             <td>Das Baby <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">ist</span>
+                                                    class="wd_inline">ist</span>
                                                 <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">eingeschlafen</span>.<br>(<span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">+Veränderung</span>:
+                                                    class="wd_inline">eingeschlafen</span>.<br>(<span
+                                                    class="wd_inline">+Veränderung</span>:
                                                 einschlafen, fallen...)</td>
                                         </tr>
                                         <tr>
                                             <td>Er <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">hat</span>
+                                                    class="wd_inline">hat</span>
                                                 schon <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">studiert</span>.<br>(telefonieren,
+                                                    class="wd_inline">studiert</span>.<br>(telefonieren,
                                                 kontrollieren...)</td>
                                             <td>Ich <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">bin</span>
+                                                    class="wd_inline">bin</span>
                                                 hier <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded font-weight-bold">geblieben</span>.
+                                                    class="wd_inline">geblieben</span>.
                                             </td>
                                         </tr>
                                     </tbody>
@@ -373,16 +373,16 @@
                                         <tr>
                                             <td>Ich trinke gern Kaffee.
                                                 <strong>Deshalb</strong> <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded"><strong>möchte</strong></span>
+                                                    class="wd_inline"><strong>möchte</strong></span>
                                                 ich eine Kaffeemaschine <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded"><strong>haben</strong></span>.
+                                                    class="wd_inline"><strong>haben</strong></span>.
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Man kann Julia eine Halskette
                                                 schenken, weil sie gern Schmuck
                                                 <span
-                                                    class="bg-light border border-secondary p-1 px-2 m-1 rounded"><strong>trägt</strong></span>.
+                                                    class="wd_inline"><strong>trägt</strong></span>.
                                             </td>
                                         </tr>
                                     </tbody>
@@ -580,7 +580,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Heute ist der
+                                                        Heute ist der
                                                         fünfzehnte August.</div>
                                                 </div>
                                             </td>
@@ -615,7 +615,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich habe im Juli/ im
+                                                        Ich habe im Juli/ im
                                                         Sommer / am 30. Juli
                                                         Geburtstag.</div>
                                                 </div>
@@ -650,7 +650,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich bin am 30. Juli
+                                                        Ich bin am 30. Juli
                                                         2000 geboren.</div>
                                                 </div>
                                             </td>
@@ -706,7 +706,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Wir haben Neujahr,
+                                                        Wir haben Neujahr,
                                                         Kindertag, unabhängigen
                                                         Tag, Chusuk etc.</div>
                                                 </div>
@@ -761,7 +761,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Wir feiern mit
+                                                        Wir feiern mit
                                                         Familie. / mit
                                                         Verwandten. / mit
                                                         Nachbarn. / mit
@@ -798,7 +798,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Wir feiern zu Hause. /
+                                                        Wir feiern zu Hause. /
                                                         im Restaurant oder in
                                                         der Kneipe. / draußen.
                                                     </div>
@@ -815,7 +815,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Wir mieten einen Raum.
+                                                        Wir mieten einen Raum.
                                                     </div>
                                                 </div>
                                             </td>
@@ -850,7 +850,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich freue mich [nicht]
+                                                        Ich freue mich [nicht]
                                                         über das Geschenk.</div>
                                                 </div>
                                             </td>
@@ -865,7 +865,7 @@
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Ich möchte zum
+                                                        Ich möchte zum
                                                         Geburtstag (nicht) gern
                                                         ein iPad haben.</div>
                                                 </div>

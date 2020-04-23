@@ -1,5 +1,5 @@
 * {
-  font-face: Roboto !important;
+  font-family: Roboto !important;
   word-break: keep-all !important;
 }
 
@@ -112,6 +112,32 @@ h6,
   background-color: #dc3545 !important;
 }
 
+/* 문장 속 단어 강조 */
+.wd_inline {
+  border: 1px solid #dee2e6 !important;
+  border-color: #6c757d !important;
+  border-radius: 0.25rem !important;
+  background-color: #f8f9fa !important;
+  padding: 0.25rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  font-weight: bold !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.0625) !important;
+}
+
+.wd_inline_inverted {
+  color: white !important;
+  border: 1px solid #dee2e6 !important;
+  border-color: black !important;
+  background-color: #6c757d !important;
+  margin: 0.25rem !important;
+  padding: 0.25rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  font-weight: bold !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.0625) !important;
+}
+
 /* 줄 간격 250% */
 .lh250 {
   line-height: 250%;
@@ -143,7 +169,7 @@ h6,
   top: -6px;
 }
 
-.t+6 {
+.t_add_6 {
   position: relative !important;
   top: 6px !important;
 }
@@ -153,7 +179,7 @@ h6,
   top: -35px;
 }
 
-.t+3 {
+.t_add_3 {
   position: relative !important;
   top: 3px !important;
 }

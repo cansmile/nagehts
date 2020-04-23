@@ -162,7 +162,7 @@
                                         data-target="#collapse2"
                                         area-expanded="false"
                                         aria-controls="collapse2" id="2">
-                                        <strong>F2. Ja / Nein - Fragen und
+                                        <strong>F2. Ja / Nein Fragen und
                                             Antworten</strong>
                                         <small>예/아니요-질문</small>
                                     </button>
@@ -496,7 +496,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ich komme aus Korea.</div>
+                                                    Ich komme aus Korea.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -522,7 +522,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ich komme aus Korea.</div>
+                                                    Ich komme aus Korea.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -548,7 +548,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Sie kommt aus Korea.</div>
+                                                    Sie kommt aus Korea.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -585,7 +585,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ja (Nein), ich komme
+                                                    Ja (Nein), ich komme
                                                     (nicht) aus Japan.</div>
                                             </div>
                                         </td>
@@ -613,7 +613,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ja (Nein), ich komme
+                                                    Ja (Nein), ich komme
                                                     (nicht) aus Deutschland.
                                                 </div>
                                             </div>
@@ -641,7 +641,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ja (Nein), sie kommt
+                                                    Ja (Nein), sie kommt
                                                     (nicht) aus Italien.</div>
                                             </div>
                                         </td>
@@ -679,7 +679,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ich wohne in Busan.</div>
+                                                    Ich wohne in Busan.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -705,7 +705,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ich wohne in Busan.</div>
+                                                    Ich wohne in Busan.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -731,7 +731,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Er wohnt in Busan.</div>
+                                                    Er wohnt in Busan.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -768,7 +768,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ja (Nein), ich wohne
+                                                    Ja (Nein), ich wohne
                                                     (nicht) in Guri.</div>
                                             </div>
                                         </td>
@@ -795,7 +795,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ja (Nein), ich wohne
+                                                    Ja (Nein), ich wohne
                                                     (nicht) in Guri.</div>
                                             </div>
                                         </td>
@@ -822,7 +822,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ja (Nein), er wohnt
+                                                    Ja (Nein), er wohnt
                                                     (nicht) in Guri.</div>
                                             </div>
                                         </td>
@@ -860,7 +860,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ich spreche Koreanisch,
+                                                    Ich spreche Koreanisch,
                                                     Englisch und Deutsch.</div>
                                             </div>
                                         </td>
@@ -888,7 +888,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ich spreche Japanisch.
+                                                    Ich spreche Japanisch.
                                                 </div>
                                             </div>
                                         </td>
@@ -916,7 +916,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Er spricht Japanisch.
+                                                    Er spricht Japanisch.
                                                 </div>
                                             </div>
                                         </td>
@@ -954,7 +954,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Korea liegt in Asien.
+                                                    Korea liegt in Asien.
                                                 </div>
                                             </div>
                                         </td>
@@ -982,7 +982,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    - Ja, es liegt in Europa.
+                                                    Ja, es liegt in Europa.
                                                 </div>
                                             </div>
                                         </td>

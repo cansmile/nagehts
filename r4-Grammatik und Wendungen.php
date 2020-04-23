@@ -61,8 +61,8 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Das ist <span
-                                                            class="bg-secondary text-white px-2"><strong>ein</strong></span>
+                                                        Das ist <span
+                                                            class="wd_inline_inverted"><strong>ein</strong></span>
                                                         Computer.</div>
                                                 </div>
                                             </td>
@@ -77,8 +77,8 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Das ist <span
-                                                            class="bg-secondary text-white px-2"><strong>eine</strong></span>
+                                                        Das ist <span
+                                                            class="wd_inline_inverted"><strong>eine</strong></span>
                                                         Uhr.</div>
                                                 </div>
                                             </td>
@@ -93,8 +93,8 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Das ist <span
-                                                            class="bg-secondary text-white px-2"><strong>ein</strong></span>
+                                                        Das ist <span
+                                                            class="wd_inline_inverted"><strong>ein</strong></span>
                                                         Smartphone.</div>
                                                 </div>
                                             </td>
@@ -130,8 +130,8 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Ich habe <span
-                                                            class="bg-secondary text-white px-2"><strong>einen</strong></span>
+                                                        Ich habe <span
+                                                            class="wd_inline_inverted"><strong>einen</strong></span>
                                                         Computer.</div>
                                                 </div>
                                             </td>
@@ -146,8 +146,8 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Ich habe <span
-                                                            class="bg-secondary text-white px-2"><strong>eine</strong></span>
+                                                        Ich habe <span
+                                                            class="wd_inline_inverted"><strong>eine</strong></span>
                                                         Uhr.</div>
                                                 </div>
                                             </td>
@@ -162,8 +162,8 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Ich habe <span
-                                                            class="bg-secondary text-white px-2"><strong>ein</strong></span>
+                                                        Ich habe <span
+                                                            class="wd_inline_inverted"><strong>ein</strong></span>
                                                         Smartphone.</div>
                                                 </div>
                                             </td>
@@ -557,7 +557,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - <strong>Er</strong>
+                                                        <strong>Er</strong>
                                                         ist schön.</div>
                                                 </div>
                                             </td>
@@ -584,7 +584,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - <strong>Sie</strong>
+                                                        <strong>Sie</strong>
                                                         ist altmodisch.</div>
                                                 </div>
                                             </td>
@@ -612,7 +612,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - <strong>Es</strong>
+                                                        <strong>Es</strong>
                                                         ist klein.</div>
                                                 </div>
                                             </td>
@@ -663,7 +663,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Ich wohne in einem
+                                                        Ich wohne in einem
                                                         Apartment.</div>
                                                 </div>
                                             </td>
@@ -691,7 +691,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Das ist ein
+                                                        Das ist ein
                                                         Wohnzimmer.</div>
                                                 </div>
                                             </td>
@@ -718,7 +718,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Das ist ein
+                                                        Das ist ein
                                                         Kugelschreiber.</div>
                                                 </div>
                                             </td>
@@ -746,7 +746,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Das ist ein Foto.
+                                                        Das ist ein Foto.
                                                     </div>
                                                 </div>
                                             </td>
@@ -762,7 +762,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Das ist eine Kamera.
+                                                        Das ist eine Kamera.
                                                     </div>
                                                 </div>
                                             </td>
@@ -790,7 +790,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Sie hat 3 Zimmer, ein
+                                                        Sie hat 3 Zimmer, ein
                                                         Wohnzimmer, ein
                                                         Schlafzimmer und ein
                                                         Kinderzimmer.</div>
@@ -824,7 +824,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Ich habe einen
+                                                        Ich habe einen
                                                         Kugelschreiber, ein Buch
                                                         und Büroklammern.</div>
                                                 </div>
@@ -853,7 +853,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Nein, das ist kein
+                                                        Nein, das ist kein
                                                         Schrank.</div>
                                                 </div>
                                             </td>
@@ -895,7 +895,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Nein, das ist keine
+                                                        Nein, das ist keine
                                                         Vase. Das ist ein Glas.
                                                     </div>
                                                 </div>
@@ -924,7 +924,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Nein, die Vase/sie ist
+                                                        Nein, die Vase/sie ist
                                                         nicht klein.</div>
                                                 </div>
                                             </td>
@@ -994,7 +994,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Es ist
+                                                        Es ist
                                                         dunkel/hell/schön/modisch/altmodisch...
                                                     </div>
                                                 </div>
@@ -1047,7 +1047,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Meine Adresse ist ...
+                                                        Meine Adresse ist ...
                                                     </div>
                                                 </div>
                                             </td>
@@ -1075,7 +1075,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Meine Telefonnummer
+                                                        Meine Telefonnummer
                                                         ist ...</div>
                                                 </div>
                                             </td>
@@ -1103,7 +1103,7 @@
                                                     </div>
                                                     <div
                                                         class="col-10 mx-1 px-1 lh250">
-                                                        - Ihre Handynummer ist
+                                                        Ihre Handynummer ist
                                                         ...</div>
                                                 </div>
                                             </td>

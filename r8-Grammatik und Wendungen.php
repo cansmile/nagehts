@@ -26,8 +26,8 @@
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
                                         </tr>
                                         <tr>
-                                            <th scope="col">Modalverbenfs</th>
-                                            <th scope="col">Imperative (du, ihr, Sie)</th>
+                                            <th scope="col" class="h4">Modalverbenfs</th>
+                                            <th scope="col" class="h4">Imperative (du, ihr, Sie)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -136,7 +136,7 @@
                                     <table class="table table-borderless table-striped">
                                         <thead>
                                             <tr>
-                                                <th scope="col" colspan="2">Imperativ</th>
+                                                <th scope="col" colspan="2" class="h4">Imperativ</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -173,7 +173,7 @@
                                                 id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
                                     </tr>
                                     <tr>
-                                        <th class="align-middle text-center" scope="row">Verben im Nominativ</th>
+                                        <th class="align-middle text-center h4" scope="row">Verben im Nominativ</th>
                                         <td>
                                             <table class="table table-borderless">
                                                 <tbody>
@@ -236,7 +236,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th class="align-middle text-center" scope="row">Verben im Akkusativ</th>
+                                        <th class="align-middle text-center h4" scope="row">Verben im Akkusativ</th>
                                         <td>
                                             <table class="table table-borderless">
                                                 <tbody>
@@ -286,7 +286,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th class="align-middle text-center" scope="row">Verben im Dativ</th>
+                                        <th class="align-middle text-center h4" scope="row">Verben im Dativ</th>
                                         <td>
                                             <table class="table table-borderless">
                                                 <tbody>
@@ -444,7 +444,7 @@
                                                 id="24" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
                                     </tr>
                                     <tr>
-                                        <th scope="col">Körperteile und Tätigkeiten</th>
+                                        <th scope="col" class="h4">Körperteile und Tätigkeiten</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -496,7 +496,7 @@
                                                 id="28" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
                                     </tr>
                                     <tr>
-                                        <th scope="col">Krankheiten und Beschwerden</th>
+                                        <th scope="col" class="h4">Krankheiten und Beschwerden</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -609,7 +609,7 @@
                                                 id="37" class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
                                     </tr>
                                     <tr>
-                                        <th scope="col">Redewendungen</th>
+                                        <th scope="col" class="h4">Redewendungen</th>
                                     </tr>
                                 </thead>
                                 <tbody>

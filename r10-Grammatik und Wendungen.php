@@ -188,15 +188,15 @@
                                             </td>
                                             <td width="15%" class="text-center">
                                                 ge-<span
-                                                    class="border border-secondary bg-light p-1 px-3 rounded">&nbsp;</span>-t/-en
+                                                    class="wd_inline">&nbsp;</span>-t/-en
                                             </td>
                                             <td width="15%" class="text-center">
                                                 ge-<span
-                                                    class="border border-secondary bg-light p-1 px-3 rounded">&nbsp;</span>-t/-en
+                                                    class="wd_inline">&nbsp;</span>-t/-en
                                             </td>
                                             <td width="15%" class="text-center">
                                                 <span
-                                                    class="border border-secondary bg-light p-1 px-3 rounded">&nbsp;</span>-t/-en
+                                                    class="wd_inline">&nbsp;</span>-t/-en
                                             </td>
                                         </tr>
                                         <tr>
@@ -228,9 +228,9 @@
                                                 <ul>
                                                     <li>Ich gehe in den
                                                         Blumenladen Schön, <span
-                                                            class="border border-secondary bg-light rounded p-1 px-2 font-weight-bold">wenn</span>
+                                                            class="wd_inline">wenn</span>
                                                         ich Blumen kaufen <span
-                                                            class="border border-secondary bg-light rounded p-1 px-2 font-weight-bold">will</span>.
+                                                            class="wd_inline">will</span>.
                                                     </li>
                                                     <li>Wenn ich beten will,
                                                         gehe ich in die
@@ -272,7 +272,7 @@
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="2"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
@@ -288,14 +288,14 @@
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="3"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Im Hotel Augustin.
+                                                        Im Hotel Augustin.
                                                     </div>
                                                 </div>
                                             </td>
@@ -303,7 +303,7 @@
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="4"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
@@ -315,14 +315,14 @@
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="5"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Das ist in der
+                                                        Das ist in der
                                                         Mannesstraße.</div>
                                                 </div>
                                             </td>
@@ -330,7 +330,7 @@
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="6"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
@@ -342,21 +342,21 @@
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="7"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Bitte sehr.</div>
+                                                        Bitte sehr.</div>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="8"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
@@ -370,14 +370,14 @@
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="9"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Zwischen dem Kino
+                                                        Zwischen dem Kino
                                                         Megabox und dem
                                                         Restaurant Maredo.</div>
                                                 </div>
@@ -386,7 +386,7 @@
                                         <tr>
                                             <td width="50%">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="10"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
@@ -400,14 +400,14 @@
                                             </td>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1">
                                                         <button type="button"
                                                             id="11"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
                                                         class="col-9 mx-1 px-1 lh250">
-                                                        - Der ist in der
+                                                        Der ist in der
                                                         Berlinstraße links. An
                                                         der Ecke ist er.</div>
                                                 </div>
@@ -418,22 +418,23 @@
                                 <table class="table table-borderless text-left">
                                     <tbody>
                                         <tr>
-                                            <th class="text-left align-middle m-2 p-2"
-                                                colspan="3">
+                                            <th class="align-middle m-2 p-2"
+                                                colspan="2">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1 ml-2">
                                                         <button type="button"
                                                             id="12"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
-                                                    <div class="col-9 mx-1 px-1 lh250">
+                                                    <div class="col-9 mx-1 px-1 lh250 h4">
                                                         so kann man fragen</div>
                                                 </div>
                                             </th>
+                                            <th>&nbsp;</th>
                                         </tr>
                                         <tr>
                                             <td width="30%" rowspan="3"
-                                                class="align-middle">
+                                                class=" text-center align-middle">
                                                 Entschuldigung,</td>
                                             <td>wir suchen</td>
                                             <td>einen Flohmarkt / ein Café /
@@ -455,25 +456,26 @@
                                     <tbody>
                                         <tr>
                                             <th class="text-left align-middle m-2 p-2"
-                                                colspan="3">
+                                                colspan="2">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-1 mx-1 px-1 ml-2">
                                                         <button type="button"
                                                             id="13"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-9 mx-1 px-1 lh250">
+                                                        class="col-9 mx-1 px-1 lh250 h4">
                                                         so kann man antworten
                                                     </div>
                                                 </div>
                                             </th>
+                                            <th>&nbsp;</th>
                                         </tr>
                                         <tr>
                                             <td rowspan="2"
                                                 class="align-middle">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-3 mx-1 px-1">
                                                         <button type="button"
                                                             id="14"
                                                             class="so btn btn-outline-dark btn-sm mr-1 ">▶</button>
@@ -497,7 +499,7 @@
                                         <tr>
                                             <td>
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-3 mx-1 px-1">
                                                         <button type="button"
                                                             id="15"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
@@ -513,13 +515,13 @@
                                         <tr>
                                             <td rowspan="3">
                                                 <div class="row">
-                                                    <div class="mx-1 px-1">
+                                                    <div class="col-3 mx-1 px-1">
                                                         <button type="button"
                                                             id="16"
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-69 mx-1 px-1">
+                                                        class="col-6 mx-1 px-1">
                                                         Danach</div>
                                                 </div>
                                             </td>

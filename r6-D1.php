@@ -301,67 +301,58 @@
                             $(".q").on("keyup", function () {
                                 $(this).removeClass("bg-danger");
                                 $(this).removeClass("bg-success");
-                                $("#ant-" + $(this).attr("id").substr(4))
-                                    .removeClass("text-danger");
+                                $("#ant-" +
+                                    $(this).attr("id").substr(4)).removeClass("text-danger");
                                 $("#ant-" + $(this).attr("id").substr(4))
                                     .removeClass("text-success");
                                 if (rfchk($(this))) {
-                                    $(this).addClass(
-                                        "text-white font-weight-bold");
+                                    $(this).addClass("text-white font-weight-bold");
                                     $(this).addClass("bg-success");
-                                    $("#ant-" + $(this).attr("id").substr(4))
-                                        .addClass("text-success");
+                                    $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                        "text-success");
                                 } else {
-                                    $(this).addClass(
-                                        "text-white font-weight-bold");
+                                    $(this).addClass("text-white font-weight-bold");
                                     $(this).addClass("bg-danger");
-                                    $("#ant-" + $(this).attr("id").substr(4))
-                                        .addClass("text-danger");
+                                    $("#ant-" +
+                                        $(this).attr("id").substr(4)).addClass("text-danger");
                                 }
                                 if (!$(this).val()) {
                                     $(this).removeClass("bg-danger");
                                     $(this).removeClass("bg-success");
-                                    $(this).removeClass(
-                                        "text-white font-weight-bold");
+                                    $(this).removeClass("text-white font-weight-bold");
                                 }
                                 if ($(this).val()) {
-                                    $("#ant-" + $(this).attr("id").substr(4))
-                                        .show();
-                                    $("#ant-" + $(this).attr("id").substr(4))
-                                        .text($(this).val());
+                                    $("#ant-" +
+                                        $(this).attr("id").substr(4)).show();
+                                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                                 } else {
-                                    $("#ant-" + $(this).attr("id").substr(4))
-                                        .hide();
+                                    $("#ant-" + $(this).attr("id").substr(4)).hide();
                                 }
                             });
                             $(".q").on("focusin", function () {
-                                $("#ant-" + $(this).attr("id").substr(4))
-                                    .show();
-                                if (!$("#ant-" + $(this).attr("id").substr(4))
-                                    .text()) {
-                                    $("#ant-" + $(this).attr("id").substr(4))
-                                        .text($(this).val());
+                                $("#ant-" + $(this).attr("id").substr(4)).show();
+                                if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
+                                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                                 }
-                                if ($("#ant-" + $(this).attr("id").substr(4))
-                                    .text()) {
+                                if ($("#ant-" +
+                                        $(this).attr("id").substr(4)).text()) {
                                     if (rfchk($(this))) {
-                                        $(this).addClass(
-                                            "text-white font-weight-bold");
+                                        $(this).addClass("text-white font-weight-bold");
                                         $(this).addClass("bg-success");
-                                        $("#ant-" + $(this).attr("id").substr(
-                                            4)).addClass("text-success");
+                                        $("#ant-" +
+                                            $(this).attr("id").substr(4)).addClass(
+                                            "text-success");
                                     } else {
-                                        $(this).addClass(
-                                            "text-white font-weight-bold");
+                                        $(this).addClass("text-white font-weight-bold");
                                         $(this).addClass("bg-danger");
-                                        $("#ant-" + $(this).attr("id").substr(
-                                            4)).addClass("text-danger");
+                                        $("#ant-" +
+                                            $(this).attr("id").substr(4)).addClass(
+                                            "text-danger");
                                     }
                                 }
                             });
                             $(".q").on("focusout", function () {
-                                $("#ant-" + $(this).attr("id").substr(4))
-                                    .hide();
+                                $("#ant-" + $(this).attr("id").substr(4)).hide();
                                 if (rfchk($(this), true)) {
                                     $(this).addClass("bg-success");
                                     $(this).addClass("text-white");
@@ -378,21 +369,22 @@
                                 }
                                 $(this).removeClass("bg-danger");
                                 if (!$(this).attr("disabled")) {
-                                    $(this).removeClass(
-                                        "text-white font-weight-bold");
+                                    $(this).removeClass("text-white font-weight-bold");
                                     $(this).removeClass("bg-success");
                                 }
                             });
                             $("#chk").on("click", function () {
                                 var na = "";
                                 var ri = 0;
-                                var qst = $(".q").length;
+                                var
+                                    qst = $(".q").length;
                                 $(".q").each(function () {
                                     if (na != "") {
                                         na += ", ";
                                     }
                                     if ($(this).val() == "") {
-                                        na += $(this).attr("id").substr(4, 1);
+                                        na
+                                            += $(this).attr("id").substr(4, 1);
                                     }
                                 });
                                 if ($(this).attr("id") == "done") {} else if (na == "") {
@@ -401,7 +393,7 @@
                                         if (rfchk($("#qst-" + (i + 1)), true)) {
                                             $("#qst-" + (i + 1)).addClass(
                                                 "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
-                                            );
+                                                );
                                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                                         } else {
                                             $("#qst-" + (i + 1)).val(oran);
@@ -410,7 +402,7 @@
                                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                                             if (!$.isArray(an[i])) {
                                                 $("#qst-" + (i + 1)).after(
-                                                    "<div class=\"d-block ra t-6\">" + an[i] +
+                                                    "<div class=\"d-block ra t - 6\">" + an[i] +
                                                     "</div>");
                                             } else {
                                                 /* 2 이상인 경우 */
@@ -433,7 +425,9 @@
                                         if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                                             ri++;
                                         }
-                                    } /* 정답 확인 div 상자 배경색 속성 없애기 */
+                                    }
+
+                                    /* 정답 확인 div 상자 배경색 속성 없애기 */
                                     $(this).removeClass("btn-light ");
                                     var qa = $(".q").length; /* 전체 문항 수 */
                                     var qr = $(".bg-success").length; /* 맞춘 항목 수 */
@@ -482,13 +476,13 @@
                                 } else {
                                     var mp = 8;
                                 }
-
                                 if (l < 5) {
                                     l = 5;
                                 }
                                 if (l < 7) {
                                     le = l * 2.2;
-                                } else if (l >= 20) {
+                                } else
+                                if (l >= 20) {
                                     le = l * 1.45;
                                 } else if (l >= 5) {
                                     le = l * 1.55;

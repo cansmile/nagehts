@@ -543,7 +543,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-10 mx-1 px-1 lh250">
+                                                        class="col-9 mx-1 px-1 lh250">
                                                         Wie ist <u>der
                                                             Schrank</u>?</div>
                                                 </div>
@@ -556,7 +556,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-10 mx-1 px-1 lh250">
+                                                        class="col-9 mx-1 px-1 lh250">
                                                         <strong>Er</strong>
                                                         ist schön.</div>
                                                 </div>
@@ -571,7 +571,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-10 mx-1 px-1 lh250">
+                                                        class="col-9 mx-1 px-1 lh250">
                                                         Wie ist <u>die Uhr</u>?
                                                     </div>
                                                 </div>
@@ -583,7 +583,7 @@
                                                     tton" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-10 mx-1 px-1 lh250">
+                                                        class="col-9 mx-1 px-1 lh250">
                                                         <strong>Sie</strong>
                                                         ist altmodisch.</div>
                                                 </div>
@@ -598,7 +598,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-10 mx-1 px-1 lh250">
+                                                        class="col-9 mx-1 px-1 lh250">
                                                         Wie ist <u>das
                                                             Regal</u>?</div>
                                                 </div>
@@ -611,7 +611,7 @@
                                                             class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                     </div>
                                                     <div
-                                                        class="col-10 mx-1 px-1 lh250">
+                                                        class="col-9 mx-1 px-1 lh250">
                                                         <strong>Es</strong>
                                                         ist klein.</div>
                                                 </div>

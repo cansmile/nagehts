@@ -9,12 +9,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Hören Sie und ergänzen Sie die Lücken. <br>
-                        <small> 듣고 빈칸을 채우세요. </small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
-                            HV
-                        </button>
-                    </h2>
+                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        HV
+                    </button>
+
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
                             버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button>
@@ -41,7 +39,7 @@
                                             <div class="input-group">
                                                 <input type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
-                                                    aria-label="." id="qst-1">
+                                                    aria-label="." id="qst-1"> Uhr
                                             </div>
                                         </div>
                                     </div>
@@ -60,7 +58,7 @@
                                             <div class="input-group">
                                                 <input type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
-                                                    aria-label="." id="qst-2">
+                                                    aria-label="." id="qst-2"> Uhr
                                             </div>
                                         </div>
                                     </div>
@@ -85,7 +83,7 @@
                                             <div class="input-group">
                                                 <input type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
-                                                    aria-label="." id="qst-3">
+                                                    aria-label="." id="qst-3"> Uhr
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +102,7 @@
                                             <div class="input-group">
                                                 <input type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
-                                                    aria-label="." id="qst-4">
+                                                    aria-label="." id="qst-4"> Uhr
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +130,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
     <script src="./<?php echo($root); ?>js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./{$root}oxsound.php"); ?>
@@ -142,10 +139,10 @@
         $(".ant").hide();
         var an = new Array();
         var an = [
-            ["12 Uhr", "zwölf Uhr"],
-            ["22 Uhr", "zweiundzwanzig Uhr"],
-            ["täglich 17 Uhr 10", "17.10 Uhr"],
-            ["11 Uhr", "elf Uhr"]
+            ["12", "12.00", "zwölf"],
+            ["22", "22.00", "zweiundzwanzig"],
+            ["17.10"],
+            ["11", "11.00", "elf"]
         ];
         $(document).ready(function () {
             /* 소리 출력 전역 변수와 함수 */

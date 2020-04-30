@@ -474,7 +474,7 @@ $rtl = array(
         ),
         "B" => array(
             "B0" => "Wie spät ist es?",
-            "B1" => "Hören Sie die Uhrzeiten und notieren Sie."
+            "B1" => "Hören Sie die Uhrzeiten und notieren Sie. wie spät ist es?"
         ),
         "C" => array(
             "C1" => "Hören Sie und sprechen Sie nach.",
@@ -843,7 +843,7 @@ $rtl_k = array(
         ),
         "B" => array(
             "B0" => "몇시인가요?",
-            "B1" => "시각을 듣고 메모를 하세요."
+            "B1" => "시각을 듣고 메모를 하세요. 몇시인가요?"
         ),
         "C" => array(
             "C1" => "듣고 따라 하세요.",

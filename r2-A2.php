@@ -137,7 +137,7 @@
                                     class="so btn btn-warning btn-lg">▶</button>
                             </th>
                             <td width="70%"
-                                class="so bg-warning align-middle"
+                                class="bg-warning align-middle"
                                 height="20px">
                                 <h3>Pororo</h1>
                             </td>
@@ -195,7 +195,7 @@
                                     class="so btn btn-primary btn-lg">▶</button>
                             </th>
                             <td width="70%"
-                                class="so bg-primary text-white align-middle"
+                                class="bg-primary text-white align-middle"
                                 height="20px">
                                 <h3>Minnie Mouse</h1>
                             </td>

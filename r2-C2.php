@@ -86,14 +86,11 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Hören Sie und sprechen Sie nach.<br>
-                        <small>듣고 따라하세요.</small>
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
-                            HV
-                        </button>
-                    </h2>
+                    <button type="button"
+                        class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                        id="0">
+                        HV
+                    </button>
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
                             버튼 또는 <button type="button"

@@ -872,7 +872,7 @@
                                             data-content="정답!">
                                             <input type="radio" name="options"
                                                 id="option11-2"
-                                                autocomplete="off">speche
+                                                autocomplete="off">spreche
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"

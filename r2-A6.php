@@ -359,7 +359,7 @@
                                 <th scope="row"><button type="button" id="9"
                                         class="so btn btn-outline-warning">▶</button>
                                 </th>
-                                <td><span class="sen">Aber ich komm<span
+                                <td><span class="sen">aber ich komm<span
                                             class="nu"></span>
                                         <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
                                             data-toggle="buttons" id="qst-7">
@@ -764,7 +764,7 @@
                     "2": [12024, 2227],
                     "3": [16926, 2252],
                     "4": [21968, 1800],
-                    "5": [26000, 1899],
+                    "5": [26000, 2140],
                     "6": [31557, 1889],
                     "7": [35254, 2634],
                     "8": [39800, 1970],

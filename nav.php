@@ -348,7 +348,7 @@ $rtl = array(
         ),
         "E" => array(
             "E1" => "Herkunft",
-            "E2" => "Raten Sie! Wo ist das?",
+            "E2" => "Raten Sie! Wo ist das? Sprechen über die Sehenswürdigkeiten.",
             "E3" => "Ergänzen Sie die Lücken.",
             "E4" => "Bilden Sie Sätze und markieren Sie die Verben.",
             "E5" => "Ordnen Sie zu.",
@@ -717,7 +717,7 @@ $rtl_k = array(
         ),
         "E" => array(
             "E1" => "출생지",
-            "E2" => "맞춰보세요! 이것은 어디에 있나요?",
+            "E2" => "맞춰보세요! 이것은 어디에 있나요? 세계 명소에 대해 말해보세요.",
             "E3" => "빈칸을 채우세요.",
             "E4" => "문장을 만들고 동사에 표시하세요.",
             "E5" => "맞는 답끼리 연결하세요.",

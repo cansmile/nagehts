@@ -6,8 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Sprechen Sie über die Sehenswürdigkeiten.
-                        <br><small>세계 명소에 대해 말해보세요.</small>
+                    <h2>[ <small>빈칸을 알맞은 단어로 채우세요</small> ]
                     </h2>
                     <h3>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인
                             문장이 붉게 변합니다.</small> ]</h3>
@@ -39,7 +38,7 @@
                                             class="wd">der Taco</span><span
                                             class="wd">der Panda</span><span
                                             class="wd">die
-                                            Freiheitssatatue</span><span
+                                            Freiheitsstatue</span><span
                                             class="wd">die Pyramide</span><span
                                             class="wd">der Mt.
                                             Kilimanjaro</span></div>
@@ -101,27 +100,31 @@
                                         Wo ist <input type="text" value="das"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
-                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white font-weight-bold text-center"
+                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white
+                                            font-weight-bold text-center"
                                             disabled="true t-6"
                                             style="min-width: 50px; max-width: 80px;">
                                         Namdaemun Tor?
                                         <input type="text" value="Es"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
-                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white font-weight-bold text-center"
+                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white
+                                            font-weight-bold text-center"
                                             disabled="true t-6"
                                             style="min-width: 50px; max-width: 80px;">ist
-                                        in Seoul
+                                        in Seoul,
                                         <input type="text" value="Korea"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
-                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white font-weight-bold text-center"
+                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white
+                                            font-weight-bold text-center"
                                             disabled="true t-6"
                                             style="min-width: 50px; max-width: 80px;">.
                                         Korea ist in <input type="text"
                                             value="Asien" aria-label="Antwort"
                                             aria-describedby="basic-addon4"
-                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white font-weight-bold text-center"
+                                            class="form-control border-bottom-only rounded-0 mx-1 bg-success text-white
+                                            font-weight-bold text-center"
                                             disabled="true t-6"
                                             style="min-width: 50px; max-width: 80px;">.
 
@@ -139,7 +142,7 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group lh250">
-                                        <strong>1. Brandenburger:</strong>&nbsp;
+                                        <strong>1. Brandenburger Tor:</strong>&nbsp;
                                         Wo ist<input type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
@@ -422,14 +425,14 @@
                                     <div class="ant t-6" id="ant-32"></div>
                                     <div class="input-group lh250">
                                         <strong>8.
-                                            Freiheitssatatue:</strong>&nbsp;
+                                            Freiheitsstatue:</strong>&nbsp;
                                         Wo ist <input type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon33"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;"
-                                            id="qst-29"> Freiheitssatatue?
+                                            id="qst-29"> Freiheitsstatue?
                                         <input type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon34"

@@ -10,9 +10,7 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2>Richtig oder falsch? Markieren Sie.<br>
-                        <small>어느 것이 옳은지 체크해보세요.</small>
-                        <button type="button"
+                    <h2><button type="button"
                             class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
                             id="0">
                             HV

@@ -272,7 +272,7 @@ $rtl = array(
         ),
         "E" => array(
             "E1" => "Herkunft",
-            "E2" => "Raten Sie! Wo ist das? Sprechen über die Sehenswürdigkeiten.",
+            "E2" => "Raten Sie! Wo ist das? Sprechen Sie über die Sehenswürdigkeiten.",
             "E3" => "Ergänzen Sie die Lücken.",
             "E4" => "Bilden Sie Sätze und markieren Sie die Verben.",
             "E5" => "Ordnen Sie zu.",

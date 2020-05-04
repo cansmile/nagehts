@@ -54,7 +54,7 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Hören Sie und ergänzen Sie.<br>
+                    <h2> Hören Sie und ergänzen Sie.<br />
                         <small> 듣고 알맞은 국가와 도시를 넣으세요. </small>
                         <button type="button"
                             class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
@@ -93,7 +93,7 @@
                                     type="button" id="7"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Hallo, Sandmännchen! Woher kommst du? <br><span
+                            <td class="text-left">Hallo, Sandmännchen! Woher kommst du? <br /><span
                                     class="tran">&nbsp;<small>안녕, 잔맨셴! 너는 어디에서
                                         왔니?</small></span></td>
                         </tr>
@@ -108,7 +108,7 @@
                                     <h2 class="btn btn-warning btn-xl ttl d-block"
                                         style="min-width: 150px;">
                                         ▼ </h2>
-                                </div>.<br><span class="tran">&nbsp;<small>나는
+                                </div><br /><span class="tran">&nbsp;<small>나는
                                         <strong>독일</strong>에서 왔어.</small></span>
                             </td>
                         </tr>
@@ -123,7 +123,7 @@
                                     <h2 class="btn btn-warning btn-xl ttl d-block"
                                         style="min-width: 150px;">
                                         ▼ </h2>
-                                </div>.<br><span class="tran">&nbsp;<small>그리고
+                                </div>.<br /><span class="tran">&nbsp;<small>그리고
                                         나는 <strong>베를린</strong>에
                                         살아.</small></span></td>
                         </tr>
@@ -151,7 +151,7 @@
                                     type="button" id="10"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Hi, Pororo ! Woher kommst du? <br><span
+                            <td class="text-left">Hi, Pororo ! Woher kommst du? <br /><span
                                     class="tran">&nbsp;<small>안녕, 뽀로로! 너너는 어디에서
                                         왔니?</small></span></td>
                         </tr>
@@ -166,7 +166,7 @@
                                     <h2 class="btn btn-warning btn-xl ttl d-block"
                                         style="min-width: 150px;">
                                         ▼ </h2>
-                                </div>.<br><span class="tran">&nbsp;<small>나는
+                                </div>.<br /><span class="tran">&nbsp;<small>나는
                                         <strong>한국</strong>에서 왔어.</small></span>
                             </td>
                         </tr>
@@ -181,7 +181,7 @@
                                     <h2 class="btn btn-warning btn-xl ttl d-block"
                                         style="min-width: 150px;">
                                         ▼ </h2>
-                                </div>.<br><span class="tran">&nbsp;<small>나는
+                                </div>.<br /><span class="tran">&nbsp;<small>나는
                                         <strong>서울</strong>에서 살아.</small></span>
                             </td>
                         </tr>
@@ -209,7 +209,7 @@
                                     type="button" id="13"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Hallo, Minnie Mouse, woher kommst du? <br><span
+                            <td class="text-left">Hallo, Minnie Mouse, woher kommst du? <br /><span
                                     class="tran">&nbsp;<small>안녕, 미니 마우스, 너는
                                         어디에서 왔니?</small></span></td>
                         </tr>
@@ -224,7 +224,7 @@
                                     <h2 class="btn btn-warning btn-xl ttl d-block"
                                         style="min-width: 150px;">
                                         ▼ </h2>
-                                </div>.<br><span class="tran">&nbsp;<small>나는
+                                </div>.<br /><span class="tran">&nbsp;<small>나는
                                         <strong>미국</strong>에서 왔어.</small></span>
                             </td>
                         </tr>
@@ -233,7 +233,7 @@
                                     type="button" id="15"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Und wo wohnst du? <br><span
+                            <td class="text-left">Und wo wohnst du? <br /><span
                                     class="tran">&nbsp;<small>그러면 어디에서
                                         살아?</small></span></td>
                         </tr>
@@ -248,7 +248,7 @@
                                     <h2 class="btn btn-warning btn-xl ttl d-block"
                                         style="min-width: 150px;">
                                         ▼ </h2>
-                                </div>.<br><span class="tran">&nbsp;<small>나는
+                                </div>.<br /><span class="tran">&nbsp;<small>나는
                                         <strong>캘리포니아</strong>에
                                         살아.</small></span></td>
                         </tr>
@@ -263,6 +263,47 @@
                 </div>
             </div>
             <!-- 정답확인 버튼 끝 -->
+            <div class="row">
+                <div class="col-12 lh350"><span class="tipp">TIPP</span></div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <table class="table table-borderless text-center">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col" colspan="2">Woher<small> 어디에서?</small></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="border border-dark border-right-only">Sie</th>
+                                <td class="text-left">komm<strong>en aus…</strong></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="border border-dark border-right-only">Ich</th>
+                                <td class="text-left">komm<strong>e aus…</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <table class="table table-borderless text-center">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col" colspan="2">Wo<small> 어디?</small></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="border border-dark border-right-only">Sie</th>
+                                <td class="text-left">wohn<strong>en in…</strong></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="border border-dark border-right-only">Ich</th>
+                                <td class="text-left">wohn<strong>e in…</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -425,7 +466,7 @@
                             $(this).html("<h4>" +
                                 qa + "문제 중 " +
                                 qr +
-                                "개를 맞히셨네요!<br>" +
+                                "개를 맞히셨네요!<br />" +
                                 st + "</h4>");
 
                             $(this).attr("id",

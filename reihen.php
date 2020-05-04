@@ -252,7 +252,7 @@ $rtl = array(
     2 =>
     array(
         "A" => array(
-            "A1" => "Welche Haupstädte und Länder kennen Sie?",
+            "A1" => "Welche Hauptstädte und Länder kennen Sie?",
             "A2" => "Woher kommen die Figuren?",
             "A4" => "Hören Sie und ergänzen Sie.",
             "A5" => "Hören Sie noch einmal.",

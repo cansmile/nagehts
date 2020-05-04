@@ -1469,7 +1469,7 @@
                 src: [
                     "./<?php echo($root); ?>sounds/Reihe 2/r2 E4.mp3"],
                 sprite: {
-                    "0": [0, 28479]
+                    "0": [517, 87366]
                 },
                 html5: true,
                 volume: 1,

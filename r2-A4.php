@@ -36,12 +36,9 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2>전체듣기
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                    <h2><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
                         </button>
-                        <br>
-                        <small>2번 들으면 번역이 나옵니다.</small>
                     </h2>
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
@@ -162,51 +159,63 @@
             </div>
             <!-- 정답확인 버튼 끝 -->
             <div class="row">
-                <div class="col-11 text-center">
+                <div class="col-11">
                     <div class="row">
                         <div class="col-12 text-left my-2"><span class="tipp">TIPP</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="row">
-                                <div class="bg-light py-2 col-6 border-right border-dark">
-                                    Sie<br>(<small>당신</small>)</div>
-                                <div class="py-2 col-6">wohn<strong>en
-                                        in</strong>…</div>
-                            </div>
-                            <div class="row">
-                                <div class="py-2 col-6 border-right border-dark">
-                                    Ich</div>
-                                <div class="bg-light py-2 col-6">wehn<strong>e
-                                        in</strong> …</div>
-                            </div>
-                            <div class="row">
-                                <div class="bg-light border-right border-dark py-2 col-6">
-                                    Meine Mutter<br>(<small>나의 엄마</small>)</div>
-                                <div class="py-2 col-6">wohn<strong>t in
-                                    </strong>…</div>
-                            </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <table class="table table-borderless table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" width="30%"
+                                            class="border border-dark border-right-only text-center">
+                                            Sie<br /><small>(당신)</small>
+                                        </th>
+                                        <td class="align-middle">wohn<strong>en
+                                                in</strong>…</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="border border-dark border-right-only text-center">
+                                            Ich<br /><small>(나)</small>
+                                        </th>
+                                        <td class="align-middle">wehn<strong>e
+                                                in</strong> …</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="border border-dark border-right-only text-center">Meine
+                                            Mutter<br /><small>(나의 엄마)</small></th>
+                                        <td class="align-middle">wohn<strong>t in</strong>…</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="row">
-                                <div class="bg-light py-2 col-6 border-right border-dark">
-                                    Sie</div>
-                                <div class="py-2 col-6">komm<strong>en aus
-                                    </strong>…</div>
-                            </div>
-                            <div class="row">
-                                <div class="py-2 col-6 border-right border-dark">
-                                    Ich</div>
-                                <div class="bg-light py-2 col-6">komm<strong>e
-                                        aus</strong> …</div>
-                            </div>
-                            <div class="row">
-                                <div class="bg-light py-2 col-6 border-right border-dark">
-                                    Maria</div>
-                                <div class="py-2 col-6">komm<strong>t aus
-                                    </strong>…</div>
-                            </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <table class="table table-borderless table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" width="30%"
+                                            class="border border-dark border-right-only text-center">Sie<br />
+                                            <small>(당신)</small>
+                                        </th>
+                                        <td class="align-middle">komm<strong>en aus
+                                            </strong>…</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="border border-dark border-right-only text-center">
+                                            Ich<br /><small>(나)</small>
+                                        </th>
+                                        <td class="align-middle">komm<strong>e
+                                                aus</strong> …</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="border border-dark border-right-only text-center">
+                                            Maria<br /><small>(마리아)</small></th>
+                                        <td class="align-middle">komm<strong>t aus</strong>…</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -321,11 +330,13 @@
                     <?php require "wahl.php"; ?>
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        if ($("#wahl").visibility != "visible" && $(this) .attr("id") == "chk") {
+                        if ($("#wahl").visibility != "visible" && $(this).attr("id") ==
+                            "chk") {
                             $(this).attr("id", "done");
 
-                            $(".itm-lst").each(function() {
-                                $(this).find("button").addClass("text-success font-weight-bold");
+                            $(".itm-lst").each(function () {
+                                $(this).find("button").addClass(
+                                    "text-success font-weight-bold");
                             });
 
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
@@ -349,7 +360,8 @@
                                 var cl = "danger";
                             }
                             $(this).addClass("btn-" + cl + " text-" + tcl);
-                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
                             $(this).attr("id", "done");
                         }
                     });

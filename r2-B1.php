@@ -197,19 +197,20 @@
             var sen = new Array(),
                 pa = new Array(),
                 he = new Array(),
-                last
+                last;
+
             $(".so").each(function () {
-                var t = $(this)
-                var ti = t.attr("id")
-                sen[ti] = 0
-                pa[ti] = t.html()
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
             })
 
             function stopAll() {
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")])
                 })
-            }
+            };
 
             /* 문제 재생 */
             var nagehts = new Howl({
@@ -232,8 +233,8 @@
                 onloaderror: function () {
                     $(".alert").append(
                         '<br /><strong class="font-weight-bold text-dark h4">페이지를 다시 읽어주시기 바래요.</strong>',
-                    )
-                    console.log("다시 읽어주세요!")
+                    );
+                    console.log("다시 읽어주세요!");
                 },
                 onload: function () {
                     $("[data-toggle='popover']").popover({
@@ -241,24 +242,25 @@
                             hide: 1000,
                         },
                         container: "body",
-                    })
+                    });
+
                     $(".pop").click(function () {
                         /* 가장 먼저 지문에 'an' 넣기 */
                         if (!$(this).siblings().hasClass("an")) {
-                            $(this).addClass("an")
-                            $(this).addClass("btn-warning")
-                            $(this).parent().children().removeClass("btn-light")
-                        } /* 문제 풀이 정도 업데이트 */
-                        var perc = Math.round(($(".an").length / $(".q").length) * 100)
-                        $(".progress>.bar").attr("width", perc + "%;")
-                    }) /* 팝업 내용 사라지기 */
-                    $(".pop")
-                        .popover()
-                        .click(function () {
-                            setTimeout(function () {
-                                $(".pop").popover("hide")
-                            }, 500)
-                        }) /* 정답확인 */
+                            $(this).addClass("an");
+                            $(this).addClass("btn-warning");
+                            $(this).parent().children().removeClass("btn-light");
+                        }
+                    });
+
+                    /* 팝업 내용 사라지기 */
+                    $(".pop").popover().click(function () {
+                        setTimeout(function () {
+                            $(".pop").popover("hide")
+                        }, 500)
+                    });
+
+                    /* 정답확인 */
                     $("#chk").on("click", function () {
                         if ($(".an").length < $(".q").length) {
                             var na = ""
@@ -269,78 +271,64 @@
                                     }
                                     na += $(this).attr("id").substr(-1)
                                 }
-                            })
-                            alert(
-                                "모든 문제를 풀어주세요.",
-                            ) /* alert(na + "번 문제를 풀어주세요."); */
+                            });
+                            alert("모든 문제를 풀어주세요.", );
                         } else {
                             $(".pop").each(function () {
-                                $(this).removeClass("btn-info")
-                                if ($(this).hasClass("o") && $(this).hasClass("an")) {
-                                    $(this).removeClass("btn-warning")
-                                    $(this).addClass("btn-success")
+                                $(this).removeClass("btn-info");
+                                if ($(this).hasClass("o") && $(this).hasClass(
+                                        "an")) {
+                                    $(this).removeClass("btn-warning");
                                     $(this)
-                                        .closest(".sen")
-                                        .find(".nu")
-                                        .addClass(
-                                            "rounded p-1 px-2 text-white bg-success font-weight-bold",
-                                        )
-                                    $(this)
-                                        .closest(".sen")
-                                        .find(".nu")
-                                        .text($.trim($(this).text()))
+                                        .addClass("btn-success");
+                                    $(this).closest(".sen").find(".nu").addClass(
+                                        "rounded p-1 px-2 text-white bg-success font-weight-bold"
+                                    );
+                                    $(this).closest(".sen").find(
+                                        ".nu").text($.trim($(this).text()))
                                 } else if ($(this).hasClass("o")) {
-                                    $(this).addClass("btn-<?php echo($color); ?>")
+                                    $(this).addClass(
+                                        "btn-<?php echo($color); ?>");
                                     $(this)
-                                        .closest(".sen")
-                                        .find(".ans")
-                                        .html(
-                                            $.trim(
-                                                $(this)
-                                                    .closest(".sen")
-                                                    .find(".o")
-                                                    .text(),
-                                            ),
-                                        )
-                                    $(this)
-                                        .closest(".sen")
-                                        .find(".nu")
-                                        .addClass(
+                                        .closest(".sen").find(".ans").html($.trim($(
+                                                this).closest(".sen").find(".o")
+                                            .text(), ), );
+                                    $(this).closest(".sen")
+                                        .find(".nu").addClass(
                                             "rounded p-1 px-2 text-white bg-danger font-weight-bold",
-                                        )
-                                    $(this)
-                                        .closest(".sen")
-                                        .find(".ans")
+                                        );
+                                    $(this).closest(".sen").find(".ans")
                                         .addClass(
                                             "rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2",
                                         )
                                 } else if ($(this).hasClass("an")) {
-                                    $(this).addClass("btn-warning")
-                                    $(this)
-                                        .closest(".sen")
-                                        .find(".nu")
-                                        .text($.trim($(this).text()))
+                                    $(this).addClass("btn-warning");
+                                    $(this).closest(
+                                        ".sen").find(".nu").text($.trim($(this)
+                                        .text()))
                                 } else {
                                     $(this).addClass("btn-light")
                                 }
                                 $(this).remove()
-                            })
-                            $(".tran").show()
-                            $(".nu").show()
-                            $(".q").hide() /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass("btn-light ")
+                            });
+                            $(".tran").show();
+                            $(".nu").show();
+                            $(".q").hide();
+                            /* 정답 확인 div 상자 배경색 속성 없애기 */
+
+                            $(this).removeClass(
+                                "btn-light ");
                             var qa = $(".q").length /* 전체 문항 수 */
                             var qr = $("span.bg-success").length /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100 /* 정답 비율 */
-                            var tcl =
-                                "white" /* 분류 기준은 100%, 80%, 60%, 40% */ /* 기본 문자색 */
+                            var tcl = "white" /* 분류 기준은 100%, 80%, 60%, 40% */ /* 기본 문자색 */
                             if (pe > 99) {
-                                var st = "원어민이세요?"
-                                var cl = "lime"
-                                var tcl = "dark"
+                                var st = "원어민이세요?";
+                                var cl = "lime";
+                                var tcl = "dark";
                             } else if (pe > 74) {
-                                var st = "어! 좀 하시는데요~^^"
-                                var cl = "success"
+                                var st = "어! 좀 하시는데요~^^";
+                                var cl = "success";
                             } else if (pe > 49) {
                                 var st = "쓰읍~ 다시 해 보실까요?"
                                 var cl = "primary"
@@ -348,52 +336,62 @@
                                 var st = "좀 더 분발해 주세요~"
                                 var cl = "danger"
                             }
-                            $(this).addClass("btn-" + cl + " text-" + tcl)
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html(
-                                "<h4>" +
-                                    qa +
-                                    "문제 중 " +
-                                    qr +
-                                    "개를 맞히셨네요!<br>" +
-                                    st +
-                                    "</h4>",
-                            )
+                                "<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>", )
                         }
-                    })
+                    });
+
                     $(".so").on("click", function () {
-                        var t = $(this)
-                        var ti = t.attr("id")
-                        if (
-                            ($("div#last").text() == "" || t.text() == "❚❚") &&
-                            !t.hasClass(".itm-lst")
-                        ) {
-                            $("#last").text(ti)
-                            t.text("■")
-                            nagehts.seek()
-                            nagehts.play(ti)
-                            sen[ti]++
-                            last = ti
-                            $("#cnt-" + ti).text(sen[ti])
-                        } else if (
-                            last == ti &&
-                            nagehts.playing($("div#last").text())
-                        ) {
-                            $("#last").text("")
-                            t.html(pa[ti])
-                            nagehts.pause()
-                            sen[ti]--
-                            $("#cnt-" + ti).text(sen[ti])
+                        var t = $(this);
+                        var ti = t.attr("id");
+
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+                            last = ti;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(sen[ti]);
                         }
-                    })
-                    $("#0").show()
+                    });
+
+                    $("#0").show();
                 },
                 onend: function () {
-                    $("div#last").text("")
-                    stopAll()
-                    $("#cnt-" + last).text(sen[last])
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" + last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
                 },
             })
         })
+
     </script>
     <?php require "footer.php"; ?>
 </body>

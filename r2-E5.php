@@ -35,7 +35,7 @@
                         Ich wohne auch in Seoul.<span class="tran"><br>&nbsp;<small>나도 서울에
                                 살아.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="7">
                         Ich komme aus Brasilien.<span class="tran"><br>&nbsp;<small>나는 브라질
                                 출신이야.</small></span>
                     </button>
@@ -191,13 +191,13 @@
                 src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 E5.mp3"],
                 sprite: {
                     "0": [82, 75176],
-                    "1": [12509, 2190],
-                    "2": [21131, 3041],
-                    "3": [30747, 1378],
-                    "4": [40277, 2659],
-                    "5": [49916, 2092],
-                    "6": [60092, 3527],
-                    "7": [72339, 2938],
+                    "1": [30747, 1378],
+                    "2": [12509, 2190],
+                    "3": [60092, 3527],
+                    "4": [72339, 2938],
+                    "5": [21131, 3041],
+                    "6": [40277, 2659],
+                    "7": [49916, 2092],
                     "8": [6795, 3776],
                     "9": [15993, 3589],
                     "10": [25897, 3159],

@@ -19,13 +19,10 @@
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-3">eine Halskette
                     schenken<br>Sie trägt gern Schmuck.</div>
-                <div class="col-sm-12 col-md-8 col-lg-7"
-                    style="line-height: 200%;">
+                <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                     <div class="input-group">
-                        Man kann ihr eine Halskette schenken, weil <input
-                            type="text"
-                            class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
-                            mx-1 mt-2 t-6" style="min-width: 150px;" aria-label="." id="qst-1">.
+                        Man kann ihr eine Halskette schenken, weil <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                            mx-1 mt-2 t-6" aria-label="." id="qst-1">.
                     </div>
                     <span class="tran"><small>그녀가 액세서리를 좋아하기 때문에 그녀에게 목걸이를 선물할 수
                             있다.</small></span>
@@ -36,13 +33,11 @@
                     und Sujin</div>
                 <div class="col-sm-12 col-md-2 col-lg-3">einen Reiseführer
                     schenken<br>Sie fahren nach Berlin..</div>
-                <div class="col-sm-12 col-md-8 col-lg-7"
-                    style="line-height: 200%;">
+                <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                     <div class="input-group">
-                        Sie fahren nach Berlin. Man kann ihnen einen Reiseführer
-                        schenken, weil <input type="text"
-                            class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
-                            mx-1 mt-2 t-6" style="min-width: 150px;" aria-label="." id="qst-2">.
+                        Man kann ihnen einen Reiseführer
+                        schenken, weil <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                            mx-1 mt-2 t-6" aria-label="." id="qst-2">.
                     </div>
                     <span class="tran"><small>그들이 베를린으로 가기 때문에, 그들에게 여행 안내서를 선물할
                             수 있다.</small></span>
@@ -52,14 +47,12 @@
                 <div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Jochen
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-3">einen Mülleimer
-                    schenken<br>Er raumt gern auf.</div>
-                <div class="col-sm-12 col-md-8 col-lg-7"
-                    style="line-height: 200%;">
+                    schenken<br>Er räumt gern auf.</div>
+                <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                     <div class="input-group">
-                        Er räumt gern auf. Man kann ihm einen Mülleimer
-                        schenken, weil <input type="text"
-                            class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
-                            mx-1 mt-2 t-6" style="min-width: 150px;" aria-label="." id="qst-3">.
+                        Man kann ihm einen Mülleimer
+                        schenken, weil <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                            mx-1 mt-2 t-6" aria-label="." id="qst-3">.
                     </div>
                     <span class="tran"><small>그가 청소를 좋아하기 때문에, 그에게 휴지통을 선물할 수
                             있다.</small></span>
@@ -69,14 +62,12 @@
                 <div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Bernd
                 </div>
                 <div class="col-sm-12 col-md-2 col-lg-3">eine Krawatte
-                    schenken<br>Er hat bald ein Vorstellungsgesprach.</div>
-                <div class="col-sm-12 col-md-8 col-lg-7"
-                    style="line-height: 200%;">
+                    schenken<br>Er hat bald ein Vorstellungsgespräch.</div>
+                <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                     <div class="input-group">
-                        Er hat bald ein Vorstellungsgespräch. Mann kann ihm eine
-                        Krawatte schenken, weil <input type="text"
-                            class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
-                            mx-1 mt-2 t-6" style="min-width: 150px;" aria-label="." id="qst-4">.
+                        Mann kann ihm eine
+                        Krawatte schenken, weil <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                            mx-1 mt-2 t-6" aria-label="." id="qst-4">.
                     </div>
                     <span class="tran"><small>그가 면접을 앞두고 있기 때문에, 그에게 넥타이를 선물할 수
                             있다.</small></span>
@@ -84,8 +75,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -94,8 +84,7 @@
                 <table class="table table-borderless">
                     <thead>
                         <tr>
-                            <th scope="col"><span
-                                    class="tipp">TIPP</span>weil
+                            <th scope="col"><span class="tipp">TIPP</span>weil
                             </th>
                         </tr>
                     </thead>
@@ -139,6 +128,7 @@
                 qn = (th.attr("id").substr(4)) - 1;
                 a = th.val();
                 a = a.replace(/ /gi, "");
+                di(th);
                 if (!$.isArray(an[qn])) {
                     /* 1 인 경우 */
                     if (io) {
@@ -201,9 +191,10 @@
                         .hide();
                 }
             });
+
             $(".q").on("focusin", function () {
                 $("#ant-" + $(this).attr("id").substr(4))
-            .show();
+                    .show();
                 if (!$("#ant-" + $(this).attr("id").substr(4))
                     .text()) {
                     $("#ant-" + $(this).attr("id").substr(4))
@@ -226,9 +217,10 @@
                     }
                 }
             });
+
             $(".q").on("focusout", function () {
                 $("#ant-" + $(this).attr("id").substr(4))
-            .hide();
+                    .hide();
                 if (rfchk($(this), true)) {
                     $(this).addClass("bg-success");
                     $(this).addClass("text-white");
@@ -250,6 +242,46 @@
                     $(this).removeClass("bg-success");
                 }
             })
+
+            /* 역동적 입력란 */
+            function di(th) {
+                var le = 0,
+                    mp = 8,
+                    l = th.val().length;
+                if (l < 5) {
+                    var mp = 10;
+                }
+                if (l >= 20) {
+                    var mp = 6;
+                }
+                if (l < 20) {
+                    var mp = 8;
+                } else {
+                    var mp = 8;
+                }
+                if (l < 5) {
+                    l = 5;
+                }
+                if (l < 7) {
+                    le = l * 2.2;
+                } else if (l >= 20) {
+                    le = l * 1.45;
+                } else if (l >= 5) {
+                    le = l * 1.55;
+                }
+                var w = (le + 1) * mp + "px";
+                th.addClass("mx-1");
+                th.css("min-width", w);
+                th.css("max-width", w);
+                th.css("width", w);
+            };
+
+            /* 전체 입력란 폭 맞추기 */
+            $(".q").each(function () {
+                di($(this));
+            });
+
+
             /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
             $("#chk").on("click", function () {
                 var na = "";
@@ -271,7 +303,7 @@
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
                                 "cr"
-                                );
+                            );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");
                         } else {
@@ -280,7 +312,7 @@
                                 "disabled", true);
                             $("#qst-" + (i + 1)).addClass(
                                 "wa"
-                                );
+                            );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");
                             if (!$.isArray(an[i])) {
@@ -292,9 +324,9 @@
                                 var r =
                                     "<div class=\"ramt-2 t-6\" style=\"vertical-align: text-bottom;\">";
                                 for (var fd = (an[i].length -
-                                    1); fd >= 0; fd--) {
+                                        1); fd >= 0; fd--) {
                                     if (fd < (an[i].length -
-                                        1)) {
+                                            1)) {
                                         r = r + " / ";
                                     }
                                     r = r + an[i][fd];
@@ -319,7 +351,7 @@
                     $(this).removeClass("btn-light ");
                     var qa = $(".q").length; /* 전체 문항 수 */
                     var qr = $(".bg-success")
-                    .length; /* 맞춘 항목 수 */
+                        .length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
                     /* 분류 기준은 100%, 80%, 60%, 40% */
@@ -358,7 +390,7 @@
                 $(pann).addClass(
                     "bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
-                /* $(pann).closest("tr").find(".tran").show(); */
+                di($("#qst-" + pan[p]));
             }
         });
 

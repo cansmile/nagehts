@@ -20,8 +20,8 @@
                         <div class="col-1 text-center">*</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Wie <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
+                                Wie <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-1">du nach Seoul
                                 gekommen?
                                 <span class="tran">&nbsp;<small>너는 서울에 어떻게
@@ -32,8 +32,8 @@
                         <div class="col-1 text-center">‧</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
+                                Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-2">die U-Bahn
                                 genommen.
                                 <span class="tran">&nbsp;<small>나는 지하철을
@@ -48,8 +48,8 @@
                         <div class="col-1 text-center">*</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Was <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
+                                Was <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-3">du im Urlaub
                                 gemacht?
                                 <span class="tran">&nbsp;<small>휴가 때 너는 뭐
@@ -60,11 +60,12 @@
                         <div class="col-1 text-center">‧</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Ich<input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
-                                    id="qst-4"> ans Meer
+                                Ich<input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
+                                    id="qst-4">
+                                ans Meer
                                 gefahren.
-                                <span class="tran">&nbsp;<small>나는 바닷가에
+                                <span class="tran">&nbsp;<small>나는 바다에
                                         갔어.</small></span>
                             </div>
                         </div>
@@ -90,12 +91,12 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-10">
                             <div class="input-group">
-                                Wir <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
+                                Wir <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-5">zusammen auf eine
-                                Party gegangen und da <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
-                                    id="qst-6">wir getanzt und
+                                Party gegangen und da <input type="text" class="form-control q pl-0 col-2 rounded-0
+                                border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1"
+                                    style="min-width: 150px;" aria-label="." id="qst-6">wir getanzt und
                                 Musik gehört.
                                 <span class="tran">&nbsp;<small>우리는 함께 파티에 가서 춤을
                                         추고 음악을 들었어.</small></span>
@@ -105,8 +106,8 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-10">
                             <div class="input-group">
-                                Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
+                                Ich <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-7">spät nach Hause
                                 gekommen.
                                 <span class="tran">&nbsp;<small>나는 집에 늦게
@@ -125,8 +126,8 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-10">
                             <div class="input-group">
-                                Da <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
-                                    text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
+                                Da <input type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-8">ich für die
                                 Deutschprüfung gelernt.
                                 <span class="tran">&nbsp;<small>그래서 독일어 시험공부를

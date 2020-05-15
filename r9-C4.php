@@ -13,7 +13,7 @@
                             표시됩니다.</small> ]</h3>
                 </div>
             </div>
-            <div class="row py-2 my-2">
+            <div class="row py-2 my-2 lh350">
                 <div class="col">
                     <span class="border border-dark rounded p-2">eine
                         Kaffeemaschine</span>
@@ -228,14 +228,14 @@
                         class="table table-borderless table-sm table-striped">
                         <thead>
                             <tr>
-                                <th scope="col"><span
-                                        class="tipp">TIPP</span>Deshalb
+                                <th scope="col" class="pb-3"><span
+                                        class="tipp">TIPP</span>deshalb
                                     어순</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row"><small>Deshalb(부사: 그래서, 그 때문에) +
+                                <th scope="row"><small>deshalb(부사: 그래서, 그 때문에) +
                                         동사 + 주어</small></th>
                             </tr>
                         </tbody>
@@ -246,7 +246,7 @@
                         class="table table-striped table-sm table-borderless">
                         <thead>
                             <tr>
-                                <th scope="col"><span
+                                <th scope="col" class="pb-3"><span
                                         class="tipp">TIPP</span>강조*
                                     + 동사 + 주어</th>
                             </tr>
@@ -264,7 +264,7 @@
                         class="table table-striped table-sm table-borderless">
                         <thead>
                             <tr>
-                                <th scope="col"><span
+                                <th scope="col" class="pb-3"><span
                                         class="tipp">TIPP</span>möchten
                                     어순</th>
                             </tr>
@@ -456,10 +456,11 @@
 
                             if (!$.isArray(an[i])) {
                                 $("#qst-" + (i + 1))
-                                    .after("<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"min-width: 100px; max-width: 200px;\">" + an[i] + "</div>");
+                                    .after("<div class=\"d-block ra\" style=\"min-width: 100px; max-width: 200px;\">"
+                                    + an[i] + "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r = "<div class=\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\" style=\"min-width: 100px; max-width: 200px;\">";
+                                var r = "<div class=\"d-block ra\" style=\"min-width: 100px; max-width: 200px;\">";
                                 for (var fd = (an[i].length -
                                     1); fd >= 0; fd--) {
                                     if (fd < (an[i].length -

@@ -20,22 +20,7 @@
                             <tr>
                                 <th scope="col">
                                     <div class="input-group">
-                                        <span
-                                            class="tipp">TIPP</span><small
-                                            class="font-weight-bold"><input
-                                                type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="." id="qst-1"><input
-                                                type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="." id="qst-2"><input
-                                                type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="."
-                                                id="qst-3"></small>
+                                        <span class="tipp">TIPP 1</span>
                                     </div>
                                 </th>
                             </tr>
@@ -43,20 +28,34 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <div class="input-group"
-                                        style="line-height: 250%;">
-                                        현재완료형은 sein, haben의 조동사와 <input
-                                            type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="my-1 lh250">
+                                                <span
+                                                    class="border border-dark rounded p-2">일상회화</span>
+                                                <span
+                                                    class="border border-dark rounded p-2">과거분사</span>
+                                                <span
+                                                    class="border border-dark rounded p-2">과거</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group" style="line-height: 250%;">
+                                        현재완료형은 sein, haben의 조동사와 <input type="text" class="form-control q pl-0
+                                        col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-4">
-                                        과 결합된 형태로서 현재까지 유효한 <input type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        과 결합된 형태로서 현재까지 유효한 <input type="text" class="form-control q pl-0
+                                        col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-5">
                                         의 사실이나 현재 시각 전에 일어난 과거사실을 표현하는데 사용되며
-                                        무엇보다도 <input type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        무엇보다도 <input type="text" class="form-control q pl-0
+                                        col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-6"> 에서 과거사실을
                                         표현하는데 주로 사용된다.
@@ -72,18 +71,7 @@
                             <tr>
                                 <th scope="col">
                                     <div class="input-group">
-                                        <span
-                                            class="tipp">TIPP</span><small
-                                            class="font-weight-bold"><input
-                                                type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="." id="qst-7"><input
-                                                type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="."
-                                                id="qst-8"></small>
+                                        <span class="tipp">TIPP 2</span>
                                     </div>
                                 </th>
                             </tr>
@@ -91,15 +79,28 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <div class="input-group"
-                                        style="line-height: 250%;">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="my-1 lh250">
+                                                <span
+                                                    class="border border-dark rounded p-2">지속</span>
+                                                <span class="border border-dark rounded p-2">-ieren
+                                                    동사</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group" style="line-height: 250%;">
                                         독일어의 많은 동사들이 현재완료형에서 조동사 haben과 결합하는데,
-                                        예를 들어 타동사, <input type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        예를 들어 타동사, <input type="text" class="form-control q pl-0
+                                        col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-9"> 그리고
-                                        <input type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        <input type="text" class="form-control q pl-0
+                                        col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-10"> 의 의미를 지닌
                                         자동사들이 이 그룹에 속한다.
@@ -115,22 +116,7 @@
                             <tr>
                                 <th scope="col">
                                     <div class="input-group">
-                                        <span
-                                            class="tipp">TIPP</span><small
-                                            class="font-weight-bold"><input
-                                                type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="."
-                                                id="qst-11"><input type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="."
-                                                id="qst-12"><input type="text"
-                                                class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 d-inline-block t_add_3"
-                                                style="min-width: 150px;"
-                                                aria-label="."
-                                                id="qst-13"></small>
+                                        <span class="tipp">TIPP 3</span>
                                     </div>
                                 </th>
                             </tr>
@@ -138,19 +124,33 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <div class="input-group"
-                                        style="line-height: 250%;">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="my-1 lh250">
+                                                <span
+                                                    class="border border-dark rounded p-2">werden</span>
+                                                <span class="border border-dark rounded p-2">상태의
+                                                    변화</span>
+                                                <span
+                                                    class="border border-dark rounded p-2">bleiben</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group" style="line-height: 250%;">
                                         현재 완료형에서 조동사 sein 과 결합하는 자동사들은 움직임을 나타내는
-                                        자동사, <input type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        자동사, <input type="text" class="form-control q pl-0
+                                        col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-14"> 를 나타내는
-                                        자동사 그리고 sein, <input type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        자동사 그리고 sein, <input type="text" class="form-control q pl-0
+                                        col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
-                                            aria-label="." id="qst-15"> , <input
-                                            type="text"
-                                            class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            aria-label="." id="qst-15"> , <input type="text" class="form-control q pl-0
+                                            col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-16"> 등의 동사들
                                         뿐이다.
@@ -163,8 +163,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -185,8 +184,7 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["일상회화", "과거분사형", "과거", "과거 분사형", "과거", "일상회화", "지속",
-            "-ieren 동사", "-ieren동사", "지속", "werden", "상태의 변화", "bleiben",
+        var an = ["과거 분사형", "과거", "일상회화", "-ieren동사", "지속",
             "상태의 변화", "bleiben", "werden"
         ];
         $(document).ready(function () {
@@ -227,67 +225,48 @@
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-danger");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-success");
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                 if (rfchk($(this))) {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-success");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-success");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                 } else {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-danger");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-danger");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                 }
                 if (!$(this).val()) {
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                 }
                 if ($(this).val()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .show();
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                    $("#ant-" + $(this).attr("id").substr(4)).show();
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 } else {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .hide();
+                    $("#ant-" + $(this).attr("id").substr(4)).hide();
                 }
             });
             $(".q").on("focusin", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .show();
-                if (!$("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                $("#ant-" + $(this).attr("id").substr(4)).show();
+                if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 }
-                if ($("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
+                if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                     if (rfchk($(this))) {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-success");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-success");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-danger");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-danger");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                 }
             });
             $(".q").on("focusout", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .hide();
+                $("#ant-" + $(this).attr("id").substr(4)).hide();
                 if (rfchk($(this), true)) {
                     $(this).addClass("bg-success");
                     $(this).addClass("text-white");
@@ -304,8 +283,7 @@
                 }
                 $(this).removeClass("bg-danger");
                 if (!$(this).attr("disabled")) {
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                     $(this).removeClass("bg-success");
                 }
             })
@@ -320,69 +298,49 @@
                         na += ", ";
                     }
                     if ($(this).val() == "") {
-                        na += $(this).attr("id").substr(
-                            4, 1);
+                        na += $(this).attr("id").substr(4, 1);
                     }
                 });
-                if ($(this).attr("id") == "done") {} else if (
-                    na == "") {
+                if ($(this).attr("id") == "done") {} else if (na == "") {
                     for (var i = 0; i < an.length; i++) {
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
-                            $("#qst-" + (i + 1)).addClass(
-                                "cr"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
+                            $("#qst-" + (i + 1)).addClass("cr");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                         } else {
                             $("#qst-" + (i + 1)).val(oran);
-                            $("#qst-" + (i + 1)).attr(
-                                "disabled", true);
-                            $("#qst-" + (i + 1)).addClass(
-                                "wa"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
-
+                            $("#qst-" + (i + 1)).attr("disabled", true);
+                            $("#qst-" + (i + 1)).addClass("wa");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-inline-block ra t-6\">" +
-                                    an[i] + "</div>");
+                                $("#qst-" + (i + 1)).after("<div class=\"d-inline-block ra t-6\">" + an[
+                                    i] + "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r =
-                                    "<div class=\"d-inline-block ra t-6\">";
-                                for (var fd = (an[i].length -
-                                    1); fd >= 0; fd--) {
-                                    if (fd < (an[i].length -
-                                        1)) {
+                                var r = "<div class=\"d-inline-block ra t-6\">";
+                                for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                    if (fd < (an[i].length - 1)) {
                                         r = r + " / ";
                                     }
                                     r = r + an[i][fd];
                                 }
                                 r = r + "</div>";
                                 if ($("span.sen").length > 0) {
-                                    $("#qst-" + (i + 1))
-                                        .closest("span.sen")
-                                        .after(r);
+                                    $("#qst-" + (i + 1)).closest("span.sen").after(r);
                                 } else {
-                                    $("#qst-" + (i + 1)).after(
-                                        r);
+                                    $("#qst-" + (i + 1)).after(r);
                                 }
                             }
-
                         }
-                        if ($("#qst-" + (i + 1)).hasClass(
-                                "bg-success")) {
+                        if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                             ri++;
                         }
                     }
+
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-
                     var qa = $(".q").length; /* 전체 문항 수 */
-                    var qr = $(".bg-success")
-                    .length; /* 맞춘 항목 수 */
+                    var qr = $(".bg-success").length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
 
@@ -401,17 +359,13 @@
                         var st = "좀 더 분발해 주세요~";
                         var cl = "danger";
                     }
-
-                    $(this).addClass("btn-" + cl + " text-" +
-                        tcl);
-                    $(this).html("<h4>" + qa + "문제 중 " + qr +
-                        "개를 맞히셨네요!<br>" + st + "</h4>");
+                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                     $(this).prop("disabled", true);
                     $(".tran").show();
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
             });
 
@@ -424,7 +378,6 @@
                 $(pann).addClass(
                     "bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
-                /* $(pann).closest("tr").find(".tran").show(); */
             }
         });
 

@@ -23,10 +23,10 @@
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="2">
                         Dabei haben wir einen Umschlag mit Geld bekommen.
-                        <span class="tran"><br />그 때 우리는 돈이든 봉투를 받았어.</span>
+                        <span class="tran"><br />그 때 우리는 돈이 든 봉투를 받았어.</span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark itm"
+                        class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark itm"
                         id="3">
                         Bis bald.
                         <span class="tran"><br />곧 보자.</span>
@@ -52,7 +52,7 @@
                         <span class="tran"><br />사랑하는 미나,</span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark itm"
+                        class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark itm"
                         id="7">
                         Meld dich mal bei mir.
                         <span class="tran"><br />연락하렴.</span>

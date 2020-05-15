@@ -535,7 +535,7 @@ $rtl = array(
             "E10a" => "Das Perfekt mit „haben“ oder „sein“ ?",
             "E10b" => "TIPP",
             "E11" => "Perfekt",
-            "E12" => "Wie war das Fest zu Neujahr, in Korea, Seolnal‘? Schreiben Sie an Ihrer Freundin Mina."
+            "E12" => "Wie war das Fest zu Neujahr, in Korea ,Seolnal’? Schreiben Sie an Ihrer Freundin Mina."
         )
     ),
     10 =>
@@ -905,7 +905,7 @@ $rtl_k = array(
             "E10a" => "완료형에서 조동사 haben 혹은 sein 중 어느 것이 맞나요?",
             "E10b" => "현재완료형",
             "E11" => "완료형",
-            "E12" => "한국의 설날은 어떻게 보내셨나요? 한국인 미나에게 써보세요."
+            "E12" => "한국의 설날은 어떻게 보내셨나요? 친구인 미나에게 써보세요."
         )
     ),
     10 =>

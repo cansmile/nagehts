@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col my-2 py-2">
+                <div class="col my-2 py-2 lh250">
                     <span class="border border-dark p-1 px-2 rounded">Weihnachten<span
                             class="tran">&nbsp;<small>크리스마스</small></span></span>
                     <span class="border border-dark p-1 px-2 rounded">Ostern<span
@@ -330,8 +330,9 @@
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
+
+                $(".tran").show();
             });
 
             var pan = new Array();

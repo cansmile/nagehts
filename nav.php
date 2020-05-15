@@ -82,14 +82,14 @@ if ($fn == "inthebeginning"
 ) {
     $rl = "inthebeginning";
     $rt = "Na geht's?";
-} elseif (strlen($fn) < $lt || $fn == "Deutschland") {
+} elseif (strlen($fn) <= $lt || $fn == "Deutschland") {
     $rl = "inthebeginning";
     $rt = "Na geht's? - Inhalt";
 } elseif (strpos($fn, "-")) {
     $dash = strpos($fn, "-");
     $da = substr($fn, ($dash+1));
     $r = (int)substr($fn, 1, ($dash-1));
-    if (strlen($da) < $lt) {
+    if (strlen($da) <= $lt) {
         $rk = array_keys($tl[$r]);
         for ($j = 0; $j < sizeof($rk); $j++) {
             if (($tl[$r][$rk[$j]])[0] == $da[0]) {
@@ -202,7 +202,7 @@ if ($ds) {
                         <small><?php echo($jt2); ?></small></h1>
 
                         <?php
-                        if (strlen($da) < $lt) {
+                        if (strlen($da) <= $lt) {
                             if (substr($da, 1, 2) == "GR") {
                                 $da = "GR";
                             }

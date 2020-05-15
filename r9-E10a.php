@@ -42,7 +42,7 @@
                         lesen<span class="tran"><br><small>읽다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="11">
-                        passieren<span class="tran"><br><small>통과하다</small></span>
+                        passieren<span class="tran"><br><small>(일이) 일어나다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="12">
                         rennen<span class="tran"><br><small>달리다</small></span>
@@ -58,7 +58,7 @@
                                 ~있다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="16">
-                        studieren<span class="tran"><br><small>공부하다</small></span>
+                        studieren<span class="tran"><br><small>대학에 다니다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="17">
                         umsteigen<span class="tran"><br><small>이사하다</small></span>
@@ -83,29 +83,29 @@
             <!-- 리스트  시작 -->
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
-                    id="lst-1">
+                    class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
+                    col-xl-4 p-2" id="lst-1">
                     <h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">
                         haben + Partzip <span class="tran"><br><small>haben +
                                 과거분사</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
-                    id="lst-2">
+                    class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
+                    col-xl-4 p-2" id="lst-2">
                     <h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">
                         Sein + Partzip: Bewegungsverben <span class="tran"><br><small>Sein + 과거분사:
                                 장소이동</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
-                    id="lst-3">
+                    class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
+                    col-xl-4 p-2" id="lst-3">
                     <h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">
                         Sein + Partzip: Veränderungsverben <span class="tran"><br><small>Sein + 과거분사:
                                 상태변화</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
-                    id="lst-4">
+                    class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
+                    col-xl-4 p-2" id="lst-4">
                     <h2 class="btn btn-xl bg-white ttl d-block font-weight-bold">
                         Sein + Partzip: Sonderverben <span class="tran"><br><small>Sein + 과거분사:
                                 예외동사</small></span></h2>&nbsp;

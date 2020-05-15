@@ -89,7 +89,7 @@
                 <table class="table table-striped table-sm table-borderless">
                     <thead>
                         <tr>
-                            <th scope="col" colspan="10"><span
+                            <th scope="col" colspan="10" class="pb-3"><span
                                     class="tipp">TIPP</span>Personalpronomen
                                 <small>인칭대명사</small></th>
                         </tr>

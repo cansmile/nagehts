@@ -9,32 +9,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Ergänzen Sie die Lücken. <br>
-                        <small> 빈칸을 채우세요. </small>
+                    <h2><small> 빈칸을 채우세요. </small><br />
                         [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                             표시됩니다.</small> ]
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
                             id="0_p">
                             ❚❚
                         </button>
                     </h2>
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
-                            버튼 또는 <button type="button"
-                                class="btn btn-sm btn-outline-secondary disabled">▶</button>
+                            버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button>
                             버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12"><img
-                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-B4-1.png"
-                        alt="Ergänzen Sie die passenden Präpositionen."
-                        style="max-width: 100%; height: auto;"></div>
+                <div class="col-12"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-B4-1.png"
+                        alt="Ergänzen Sie die passenden Präpositionen." style="max-width: 100%; height: auto;"></div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 my-2">
@@ -42,22 +35,19 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-center">
-                                    <button type="button" id="1"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
                                         Ich heiße Nora und bin 9 Jahre alt. Ich
-                                        gehe <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-1">Fuß<input
-                                            type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-2">die
+                                        gehe <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="."
+                                            id="qst-1">Fuß<input type="text" class="form-control q rounded-0
+                                            border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                            col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-2">die
                                         Schule.
                                     </div>
                                     <span class="tran"><br><small>내 이름은 노라이고
@@ -73,23 +63,20 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-center">
-                                    <button type="button" id="2"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
                                         Mein Vater Hans Holm ist Pfarrer von
-                                        Beruf. Er fährt <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-3"> dem
+                                        Beruf. Er fährt <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-3"> dem
                                         Fahrrad
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-4">
+                                        <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-4">
                                         Pfarramt.
                                     </div>
                                     <span class="tran"><br><small>나의 아버지 한스 홀름은
@@ -105,34 +92,30 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-center">
-                                    <button type="button" id="3"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
                                         Meine Mutter Silvia Holm will zuerst
-                                        meinen Bruder Alex <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-5"> Fuß
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-6"> den
+                                        meinen Bruder Alex <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-5"> Fuß
+                                        <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-6"> den
                                         Kindergarten bringen und dann einkaufen.
                                         Sie fährt
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-7"> dem Bus
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-8">
+                                        <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-7"> dem
+                                        Bus
+                                        <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-8">
                                         Supermarkt Kaiser.
                                     </div>
                                     <span class="tran"><br><small>어머니 실비아 홀름은 먼저
@@ -148,23 +131,20 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-center">
-                                    <button type="button" id="4"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
                                         Mein Onkel Georg ist Bankangestellter
                                         und arbeitet bei der Bank. Er fährt
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-9"> dem
-                                        Motorrad <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-10">Bank.
+                                        <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-9"> dem
+                                        Motorrad <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-10">Bank.
                                     </div>
                                     <span class="tran"><br><small>게오르크 삼촌은 은행원이며
                                             은행에서 일한다. 그는 오토바이를 타고 은행으로
@@ -179,22 +159,20 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-center">
-                                    <button type="button" id="5"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
                                         Meine Tante Sabine ist Lehrerin. Sie
-                                        fährt <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-11"> der
-                                        U-Bahn <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-12">Schule.
+                                        fährt <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-11"> der
+                                        U-Bahn <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="."
+                                            id="qst-12">Schule.
                                     </div>
                                     <span class="tran"><br><small>자비네 이모는 교사이다.
                                             그녀는 지하철 타고 학교로 간다.</small></span>
@@ -208,18 +186,15 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-center">
-                                    <button type="button" id="6"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
                                         Mein Onkel Franz Scholl ist Beamter. Er
-                                        fliegt oft wegen der Dienstreise <input
-                                            type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-13"> dem
+                                        fliegt oft wegen der Dienstreise <input type="text" class="form-control q
+                                        rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-13"> dem
                                         Flugzeug.
                                     </div>
                                     <span class="tran"><br><small>프란츠 숄 삼촌은
@@ -235,24 +210,22 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="text-center">
-                                    <button type="button" id="7"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
                                         Meine Großeltern Robert und Maria Holm
-                                        wollen <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-14"> Spanien
+                                        wollen <input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-14">
+                                        Spanien
                                         in den Urlaub gehen. Sie wollen da eine
                                         Kreuzfahrt machen und fahren
-                                        deshalb<input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-15"> dem
+                                        deshalb<input type="text" class="form-control q rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
+                                        col-md-6 col-md col-lg t-6"
+                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-15"> dem
                                         Schiff.
                                     </div>
                                     <span class="tran"><br><small>조부모 로버트와 마리아
@@ -266,8 +239,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -412,10 +384,10 @@
                                 ".an")
                             .length / $(
                                 ".q").length
-                            ) * 100);
+                        ) * 100);
                         $(".progress>.bar").attr(
                             "width", perc + "%;"
-                            );
+                        );
                     });
                     /* 팝업 내용 사라지기 */
                     $(".pop").popover().click(function () {
@@ -440,13 +412,13 @@
                             "▶") {
                             /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
                             ion.sound.play(
-                            "r10 B4", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
+                                "r10 B4", {
+                                    part: $(
+                                            this)
+                                        .attr(
+                                            "id"
                                         )
-                            });
+                                });
                             $(this).html("❚❚");
                         } else if ($(this).html() ==
                             "❚❚") {
@@ -457,23 +429,23 @@
                                             this)
                                         .attr(
                                             "id"
-                                            )
+                                        )
                                 }
                             );
                             $(this).html("▶");
                         } else {
                             /* _p 붙어 있지 않으면 id 그대로 재생 */
                             ion.sound.play(
-                            "r10 B4", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
+                                "r10 B4", {
+                                    part: $(
+                                            this)
+                                        .attr(
+                                            "id"
                                         )
-                            });
+                                });
                             /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
                             if ($(this).attr(
-                                "id") == "0") {
+                                    "id") == "0") {
                                 $(this).hide();
                                 $("#0_p").show();
                             };
@@ -495,7 +467,7 @@
                         if (rfchk($(this))) {
                             $(this).addClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).addClass(
                                 "bg-success");
                             $("#ant-" + $(this)
@@ -506,7 +478,7 @@
                         } else {
                             $(this).addClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).addClass(
                                 "bg-danger");
                             $("#ant-" + $(this)
@@ -522,7 +494,7 @@
                                 "bg-success");
                             $(this).removeClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                         }
                         if ($(this).val()) {
                             $("#ant-" + $(this)
@@ -533,7 +505,7 @@
                                     .attr("id")
                                     .substr(4))
                                 .text($(this)
-                            .val());
+                                    .val());
                         } else {
                             $("#ant-" + $(this)
                                     .attr("id")
@@ -552,7 +524,7 @@
                                     .attr("id")
                                     .substr(4))
                                 .text($(this)
-                            .val());
+                                    .val());
                         }
                         if ($("#ant-" + $(this)
                                 .attr("id").substr(
@@ -560,20 +532,20 @@
                             if (rfchk($(this))) {
                                 $(this).addClass(
                                     "text-white font-weight-bold"
-                                    );
+                                );
                                 $(this).addClass(
                                     "bg-success"
-                                    );
+                                );
                                 $("#ant-" + $(this)
                                         .attr("id")
                                         .substr(4))
                                     .addClass(
                                         "text-success"
-                                        );
+                                    );
                             } else {
                                 $(this).addClass(
                                     "text-white font-weight-bold"
-                                    );
+                                );
                                 $(this).addClass(
                                     "bg-danger");
                                 $("#ant-" + $(this)
@@ -581,7 +553,7 @@
                                         .substr(4))
                                     .addClass(
                                         "text-danger"
-                                        );
+                                    );
                             }
                         }
                     });
@@ -603,13 +575,13 @@
                                     "bg-danger")) {
                                 ion.sound.play(
                                     "Cartoon_Boing"
-                                    );
+                                );
                             } else if ($(this)
                                 .hasClass(
                                     "bg-success")) {
                                 ion.sound.play(
                                     "dingdongdang"
-                                    );
+                                );
                                 $(this).prop(
                                     "disabled",
                                     true);
@@ -621,7 +593,7 @@
                                 "disabled")) {
                             $(this).removeClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).removeClass(
                                 "bg-success");
                         }
@@ -642,10 +614,10 @@
                                         this)
                                     .attr(
                                         "id"
-                                        )
+                                    )
                                     .substr(
                                         4, 1
-                                        );
+                                    );
                             }
                         });
                         if ($(this).attr("id") ==
@@ -658,19 +630,18 @@
                                             i + 1))
                                     .val();
                                 if (rfchk($("#qst-" +
-                                            (i + 1)
-                                            ), true
-                                        )) {
+                                        (i + 1)
+                                    ), true)) {
                                     $("#qst-" + (i +
                                             1))
                                         .addClass(
                                             "cr"
-                                            );
+                                        );
                                     $("#qst-" + (i +
                                             1))
                                         .removeClass(
                                             "rounded-0"
-                                            );
+                                        );
                                 } else {
                                     $("#qst-" + (i +
                                         1)).val(
@@ -684,25 +655,25 @@
                                             1))
                                         .addClass(
                                             "wa"
-                                            );
+                                        );
                                     $("#qst-" + (i +
                                             1))
                                         .removeClass(
                                             "rounded-0"
-                                            );
+                                        );
                                     if (!$.isArray(
                                             an[i]
-                                            )) {
+                                        )) {
                                         $("#qst-" +
                                                 (i +
                                                     1)
-                                                )
+                                            )
                                             .after(
                                                 "<div class=\"d-block ra t-6\" style=\"min-width: 150px;\">" +
                                                 an[
                                                     i] +
                                                 "</div>"
-                                                );
+                                            );
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
@@ -711,15 +682,15 @@
                                                 (an[i]
                                                     .length -
                                                     1
-                                                    ); fd >=
+                                                ); fd >=
                                             0; fd--
-                                            ) {
+                                        ) {
                                             if (fd <
                                                 (an[i]
                                                     .length -
                                                     1
-                                                    )
-                                                ) {
+                                                )
+                                            ) {
                                                 r = r +
                                                     " / ";
                                             }
@@ -727,7 +698,8 @@
                                                 an[
                                                     i]
                                                 [
-                                                fd];
+                                                    fd
+                                                ];
                                         }
                                         r = r +
                                             "</div>";
@@ -738,21 +710,21 @@
                                             $("#qst-" +
                                                     (i +
                                                         1)
-                                                    )
+                                                )
                                                 .closest(
                                                     "span.sen"
-                                                    )
+                                                )
                                                 .after(
                                                     r
-                                                    );
+                                                );
                                         } else {
                                             $("#qst-" +
                                                     (i +
                                                         1)
-                                                    )
+                                                )
                                                 .after(
                                                     r
-                                                    );
+                                                );
                                         }
                                     }
                                 }
@@ -760,7 +732,7 @@
                                         1))
                                     .hasClass(
                                         "bg-success"
-                                        )) {
+                                    )) {
                                     ri++;
                                 }
                             }
@@ -768,14 +740,14 @@
                             $(this).removeClass(
                                 "btn-light ");
                             var qa = $(".q")
-                            .length; /* 전체 문항 수 */
+                                .length; /* 전체 문항 수 */
                             var qr = $(
                                     ".bg-success")
                                 .length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) *
-                            100; /* 정답 비율 */
+                                100; /* 정답 비율 */
                             var tcl =
-                            "white"; /* 기본 문자색 */
+                                "white"; /* 기본 문자색 */
                             /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
@@ -820,7 +792,7 @@
                         $(pann).val(an[(pan[p] - 1)]);
                         $(pann).addClass(
                             "bg-success text-white font-weight-bold"
-                            );
+                        );
                         $(pann).prop("disabled", true);
                         /* $(pann).closest("tr").find(".tran").show(); */
                     }

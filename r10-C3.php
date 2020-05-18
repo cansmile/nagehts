@@ -254,9 +254,8 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "btn-block font-weight-bold");
+                            "btn-block");
                         $("#lst-" + pan[p] + ">h2").remove();
-                        /* $("#lst-"+ pan[p]).parent().find(".tran").show(); */
                     }
                 })
             }

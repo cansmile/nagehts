@@ -63,44 +63,44 @@
             </div>
             <div class="row my-3 text-center">
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 1
-                    </button>
+                    <button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        ▶
+                    </button>Dialog 1
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 2
-                    </button>
+                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        ▶
+                    </button>Dialog 2
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        ▶
+                    </button>Dialog 3
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        ▶
+                    </button>Dialog 4
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        ▶
+                    </button>Dialog 5
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        ▶
+                    </button>Dialog 6
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
                     <button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 3
-                    </button>
+                        ▶
+                    </button>Dialog 7
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
                     <button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 4
-                    </button>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 5
-                    </button>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 6
-                    </button>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 7
-                    </button>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
-                        Dialog 8
-                    </button>
+                        ▶
+                    </button>Dialog 8
                 </div>
             </div>
             <div class="row">
@@ -119,7 +119,7 @@
                             <tr>
                                 <td>
                                     <ul type="circle">
-                                        <li><button type="button" id="10"
+                                        <li><button type="button" id="18"
                                                 class="so btn btn-outline-dark btn-sm mr-1">▶</button>Entschuldigung,
                                             wo kann man hier übernachten? Gibt
                                             es in der Nähe ein Hotel?
@@ -129,7 +129,7 @@
                                         </li>
                                     </ul>
                                     <ul type="square">
-                                        <li><button type="button" id="11"
+                                        <li><button type="button" id="19"
                                                 class="so btn btn-outline-dark btn-sm mr-1">▶</button>Im
                                             Hotel Augustin.
                                             <span class="tran"><br><small>호텔
@@ -137,14 +137,14 @@
                                         </li>
                                     </ul>
                                     <ul type="circle">
-                                        <li><button type="button" id="12"
+                                        <li><button type="button" id="20"
                                                 class="so btn btn-outline-dark btn-sm mr-1">▶</button>Wo
                                             ist das, bitte?
                                             <span class="tran"><br><small>어디인가요?</small></span>
                                         </li>
                                     </ul>
                                     <ul type="square">
-                                        <li><button type="button" id="13"
+                                        <li><button type="button" id="21"
                                                 class="so btn btn-outline-dark btn-sm mr-1">▶</button>Das
                                             ist in der Mannesstraße.
                                             <span class="tran"><br><small>만네스슈트라세에
@@ -621,18 +621,18 @@
                     name: "r10 A2-1 Wo sind die Leute",
                     sprite: {
                         "0": [1.019, 157.705],
-                        "10": [15.490, 4.719],
-                        "11": [20.626, 1.559],
-                        "12": [22.359, 1.516],
-                        "13": [23.907, 2.064],
-                        "14": [13.881, 12.237],
-                        "15": [27.829, 10.410],
-                        "16": [40.315, 11.531],
-                        "17": [53.882, 20.805],
-                        "18": [76.197, 18.689],
-                        "19": [96.246, 19.548],
-                        "20": [117.149, 23.689],
-                        "21": [141.625, 16.551]
+                        "10": [13.881, 12.237],
+                        "11": [27.829, 10.410],
+                        "12": [40.315, 11.531],
+                        "13": [53.882, 20.805],
+                        "14": [76.197, 18.689],
+                        "15": [96.246, 19.548],
+                        "16": [117.149, 23.689],
+                        "17": [141.625, 16.551],
+                        "18": [15.490, 4.719],
+                        "19": [20.626, 1.559],
+                        "20": [22.359, 1.516],
+                        "21": [23.907, 2.064]
                     }
                 }, {
                     name: "dingdongdang",
@@ -690,6 +690,7 @@
                             $(".pop").popover('hide');
                         }, 500);
                     });
+
                     $(".so").on("click", function () {
                         if ($(this).attr("id").substr(-2) == "_p") {
                             /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
@@ -720,7 +721,9 @@
                                 $("#0_p").show();
                             };
                         };
-                    }); /* 정답확인 */
+                    });
+
+                    /* 정답확인 */
                     $("#chk").on("click", function () {
                         var na = "";
                         if ($("#itms").find("button").length < 1) {

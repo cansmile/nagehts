@@ -224,7 +224,7 @@
                                         Der ist<input type="text" class="form-control q rounded-0 border-bottom-only
                                         mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-8">der Berlin
+                                            style="max-width: 100px;" aria-label="." id="qst-8">der Berliner
                                         Straße links.<input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"

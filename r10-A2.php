@@ -61,6 +61,48 @@
                     </h3>
                 </div>
             </div>
+            <div class="row my-3 text-center">
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 1
+                    </button>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 2
+                    </button>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="16" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 3
+                    </button>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 4
+                    </button>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 5
+                    </button>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="19" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 6
+                    </button>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="20" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 7
+                    </button>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg">
+                    <button type="button" id="21" class="so btn btn-outline-dark btn-sm mr-1 font-weight-bold">
+                        Dialog 8
+                    </button>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-9 text-center">
                     <img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-A3-1.png" alt="Wo ist das?"
@@ -582,7 +624,15 @@
                         "10": [15.490, 4.719],
                         "11": [20.626, 1.559],
                         "12": [22.359, 1.516],
-                        "13": [23.907, 2.064]
+                        "13": [23.907, 2.064],
+                        "14": [13.881, 12.237],
+                        "15": [27.829, 10.410],
+                        "16": [40.315, 11.531],
+                        "17": [53.882, 20.805],
+                        "18": [76.197, 18.689],
+                        "19": [96.246, 19.548],
+                        "20": [117.149, 23.689],
+                        "21": [141.625, 16.551]
                     }
                 }, {
                     name: "dingdongdang",

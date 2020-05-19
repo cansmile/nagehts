@@ -12,32 +12,37 @@
                             표시됩니다.</small> ]</h2>
                 </div>
             </div>
+            <div class="row text-center">
+                <span class="col m-2 wd_inline">angekommen</span>
+                <span class="col m-2 wd_inline">aufgestanden</span>
+                <span class="col m-2 wd_inline">bekommen</span>
+                <span class="col m-2 wd_inline">besichtigt</span>
+                <span class="col m-2 wd_inline">ferngesehen</span>
+                <span class="col m-2 wd_inline">getrunken</span>
+                <span class="col m-2 wd_inline">kennengelernt</span>
+                <span class="col m-2 wd_inline">verpasst</span>
+            </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4 my-3 d-block">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="col"
-                                    class="font-weight-bold text-center">
-                                    Perfektformen</th>
-                                <td
-                                    class="font-weight-bold text-center">
-                                    Infinitivformen</td>
+                                <th scope="col" class="font-weight-bold text-center">
+                                    Infinitivformen</th>
+                                <td class="font-weight-bold text-center">
+                                    Perfektformen</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div
-                    class="col-sm-12 col-md-6 col-lg-4 my-3 d-none d-md-block d-lg-block">
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 d-none d-md-block d-lg-block">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="col"
-                                    class="font-weight-bold text-center">
-                                    Perfektformen</th>
-                                <td
-                                    class="font-weight-bold text-center">
-                                    Infinitivformen</td>
+                                <th scope="col" class="font-weight-bold text-center">
+                                    Infinitivformen</th>
+                                <td class="font-weight-bold text-center">
+                                    Perfektformen</td>
                             </tr>
                         </tbody>
                     </table>
@@ -46,327 +51,234 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="col"
-                                    class="font-weight-bold text-center">
-                                    Perfektformen</th>
-                                <td
-                                    class="font-weight-bold text-center">
-                                    Infinitivformen</td>
+                                <th scope="col" class="font-weight-bold text-center">
+                                    Infinitivformen</th>
+                                <td class="font-weight-bold text-center">
+                                    Perfektformen</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-1">
-                                    </div>
-                                </th>
-                                <td>angekommen</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">ankommen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-1">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-2">
-                                    </div>
-                                </th>
-                                <td>ausgepackt</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">auspacken</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-2">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-3">
-                                    </div>
-                                </th>
-                                <td>besichtigt</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">besichtigen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-3">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-4">
-                                    </div>
-                                </th>
-                                <td>kennengelernt</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">kennen lernen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-4">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-5">
-                                    </div>
-                                </th>
-                                <td>gefahren</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">fahren</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-5">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-6">
-                                    </div>
-                                </th>
-                                <td>gekauft</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">kaufen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-6">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-7">
-                                    </div>
-                                </th>
-                                <td>gemacht</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">machen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-7">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-8">
-                                    </div>
-                                </th>
-                                <td>getrunken</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">trinken</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-8">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-9">
-                                    </div>
-                                </th>
-                                <td>telefoniert</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">telefornieren</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-9">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-10">
-                                    </div>
-                                </th>
-                                <td>verpasst</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">verpassen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-10">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-11">
-                                    </div>
-                                </th>
-                                <td>studiert</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">studieren </div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-11">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-12">
-                                    </div>
-                                </th>
-                                <td>gespielt</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">spielen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-12">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-13">
-                                    </div>
-                                </th>
-                                <td>ferngesehen</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">fernsehen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-13">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-14">
-                                    </div>
-                                </th>
-                                <td>getroffen</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">treffen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-14">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-15">
-                                    </div>
-                                </th>
-                                <td>bekommen</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">bekommen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-15">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-16">
-                                    </div>
-                                </th>
-                                <td>aufgestanden</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">aufstehen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-16">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-17">
-                                    </div>
-                                </th>
-                                <td>getanzt</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">tanzen</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-17">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3">
-                    <table class="table table-borderless text-center">
-                        <tbody>
-                            <tr>
-                                <th scope="col">
-                                    <div class="input-group">
-                                        <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
-                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                            style="max-width: 100px;" aria-label="." id="qst-18">
-                                    </div>
-                                </th>
-                                <td>gehört</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 text-center">
+                    <div class="row">
+                        <div class="col-6">hören</div>
+                        <div class="col-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                    style="max-width: 100px;" aria-label="." id="qst-18">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <span
-                        class="tipp">TIPP</span><strong>Partizip
+                    <span class="tipp">TIPP</span><strong>Partizip
                         II-Formen</strong> <small>과거분사형</small>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -374,43 +286,35 @@
                         <thead>
                             <tr>
                                 <th scope="row">&nbsp;</th>
-                                <th scope="row"><small
-                                        class="font-weight-bold">약변화(규칙)</small>
+                                <th scope="row"><small class="font-weight-bold">약변화(규칙)</small>
                                 </th>
-                                <th scope="row"><small
-                                        class="font-weight-bold">강변화(불규칙)</small>
+                                <th scope="row"><small class="font-weight-bold">강변화(불규칙)</small>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row"><small
-                                        class="font-weight-bold">기본형(일반적인
+                                <th scope="row"><small class="font-weight-bold">기본형(일반적인
                                         형태)</small></th>
                                 <td>ge--t</td>
                                 <td>ge--en</td>
                             </tr>
                             <tr>
-                                <th scope="row"><small
-                                        class="font-weight-bold">분리전철</small>
+                                <th scope="row"><small class="font-weight-bold">분리전철</small>
                                 </th>
-                                <td><span
-                                        class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--t
+                                <td><span class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--t
                                 </td>
-                                <td><span
-                                        class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--en
+                                <td><span class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--en
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row"><small
-                                        class="font-weight-bold">비분리전철 &
+                                <th scope="row"><small class="font-weight-bold">비분리전철 &
                                         -ieren</small></th>
                                 <td>--t</td>
                                 <td>--en</td>
                             </tr>
                             <tr>
-                                <th scope="row" class="text-right"
-                                    colspan="3">※ □는 분리전철</th>
+                                <th scope="row" class="text-right" colspan="3">※ □는 분리전철</th>
                             </tr>
                         </tbody>
                     </table>
@@ -420,63 +324,64 @@
                         <thead>
                             <tr>
                                 <th scope="col" colspan="2">
-                                    <small>분리 전철</small>, –en,
-                                    <small>비분리전철</small> (2x), –t, ø ge</th>
+                                    <span class="wd_inline m-2"><small>분리 전철</small></span>
+                                    <span class="wd_inline m-2">–en</span>
+                                    <span class="wd_inline m-2"><small>비분리전철</small> (2x)</span>
+                                    <span class="wd_inline m-2">–t</span>
+                                    <span class="wd_inline m-2">ø ge</span></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th scope="row">1.</th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group d-inline">
                                         독일어의 과거분사형은 약변화동사와 강변화 동사이냐에 따라 과거분사형의
-                                        어미가 <input type="text"
-                                            class="form-control q pl-0 col-4 rounded-0 border-botto
-                                            -only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                        어미가 <input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-19">로 변화한다
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">&nbsp;</th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group d-inline">
-                                        규칙변화동사들은<input type="text"
-                                            class="form-control q pl-0 col-4 rounded-0 border-botto
-                                            -only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
-                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-20">로 그리고 불규칙
-                                        변화 동사들은<input type="text"
-                                            class="form-control q pl-0 col-4 rounded-0 border-botto
-                                            -only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
-                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-21">로 변화한다.
+                                        규칙변화동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-20">로 그리고
+                                        불규칙
+                                        변화 동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-21">로
+                                        변화한다.
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">2.</th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group d-inline">
-                                        전철과 함께 오는 (불)규칙동사들은<input type="text"
-                                            class="form-control q pl-0 col-4 rounded-0 border-botto
-                                            -only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
-                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-22">+ ge + 어간
+                                        전철과 함께 오는 (불)규칙동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-22">+ ge +
+                                        어간
                                         (+/-모음교체) + en, -t 형태로 변화한다.
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">3.</th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group d-inline">
-                                        비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은<input
-                                            type="text"
-                                            class="form-control q pl-0 col-4 rounded-0 border-botto
-                                            -only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
-                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-23">+ ø ge +
+                                        비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은
+                                        <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only
+                                        mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-23">+ ø ge
+                                        +
                                         어간 + t 의 형태이고 비분리 전철과 함께 오는 불규칙변화 동사들의
-                                        과거분사형은<input type="text"
-                                            class="form-control q pl-0 col-4 rounded-0 border-botto
-                                            -only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                        과거분사형은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-24">+ ø ge
                                         +어간(+/-모음교체) + en 의 형태이며 어간은 모음교체현상이 일어날
                                         수 있다.
@@ -485,19 +390,18 @@
                             </tr>
                             <tr>
                                 <th scope="row">4.</th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group d-inline">
-                                        -ieren 동사들의 과거분사형은<input type="text"
-                                            class="form-control q pl-0 col-4 rounded-0 border-botto
-                                            -only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
-                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-25">+ 어간 + t의
+                                        -ieren 동사들의 과거분사형은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-25">+ 어간 +
+                                        t의
                                         형태이다.
                                     </div>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row" class="text-right"
-                                    colspan="2">※ ø은 없다는 표시</th>
+                                <th scope="row" class="text-right" colspan="2">※ ø은 없다는 표시</th>
                             </tr>
                         </tbody>
                     </table>
@@ -505,8 +409,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -530,12 +433,9 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["ankommen", "auspacken", "besichtigen", "kennen lernen",
-            "fahren", "kaufen", "machen", "trinken", "telefornieren",
-            "verpassen", "studieren", "spielen", "fernsehen", "treffen",
-            "bekommen", "aufstehen", "tanzen", "hören", "–t, -en", ["-t",
-                "t"
-            ],
+        var an = ["angekommen", "ausgepackt", "besichtigt", "kennen gelernt", "gefahren", "gekauft", "gemacht",
+            "getrunken", "telefoniert", "verpasst", "studiert", "gespielt", "ferngesehen", "getroffen", "bekommen",
+            "aufgestanden", "getanzt", "gehört", "–t, -en", ["-t", "t"],
             ["-en", "en"], "분리 전철", "비 분리 전철", "비 분리 전철", "ø ge"
         ];
         $(document).ready(function () {

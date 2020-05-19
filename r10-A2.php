@@ -46,7 +46,7 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2>[ <small>알파벳을] 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
+                    <h2>[ <small>번호를] 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
                         </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">auf</div>
+                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">auf dem/der</div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
@@ -418,7 +418,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">in</div>
+                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">in der</div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">

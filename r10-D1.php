@@ -13,14 +13,14 @@
                 </div>
             </div>
             <div class="row text-center">
-                <span class="col m-2 wd_inline">angekommen</span>
-                <span class="col m-2 wd_inline">aufgestanden</span>
-                <span class="col m-2 wd_inline">bekommen</span>
-                <span class="col m-2 wd_inline">besichtigt</span>
-                <span class="col m-2 wd_inline">ferngesehen</span>
-                <span class="col m-2 wd_inline">getrunken</span>
-                <span class="col m-2 wd_inline">kennengelernt</span>
-                <span class="col m-2 wd_inline">verpasst</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">angekommen</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">aufgestanden</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">bekommen</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">besichtigt</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">ferngesehen</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">getrunken</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">kennengelernt</span>
+                <span class="col-sm-3 col-md-3 col-lg wd">verpasst</span>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4 my-3 d-block">

@@ -46,7 +46,7 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2>[ <small>번호를] 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
+                    <h2>[ <small>번호를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
                         </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"

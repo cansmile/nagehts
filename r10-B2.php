@@ -76,10 +76,8 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2>[ <small>문장을 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
+                    <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
                         </button></h2>
                 </div>
@@ -260,13 +258,9 @@
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")]);
                 });
-            }
-
-            /* 문제 재생 */
+            } /* 문제 재생 */
             var nagehts = new Howl({
-                src: [
-                    "./<?php echo($root); ?>sounds/Reihe 10/r10 B2.mp3"
-                ],
+                src: ["./<?php echo($root); ?>sounds/Reihe 10/r10 B2.mp3"],
                 sprite: {
                     "0": [944, 88744],
                     "20": [19500, 17449],
@@ -280,73 +274,48 @@
                 onloaderror: function () {
                     $(".alert").append(
                         "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
-                    );
+                        );
                     console.log("다시 읽어주세요!");
                 },
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
                     $(".alert").hide();
-
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
-
-                        if (($("div#last").text() ==
-                                "" || t.text() ==
-                                "❚❚") && !t
-                            .hasClass(".itm-lst")) {
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
                             $("#last").text(ti);
                             t.text("■");
                             nagehts.seek();
                             nagehts.play(ti);
                             sen[ti]++;
-
                             last = ti;
-
-                            $("#cnt-" + ti).text(
-                                sen[ti]);
-                        } else if (last == ti &&
-                            nagehts.playing($(
-                                    "div#last")
-                                .text())) {
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
                             $("#last").text("");
                             t.html(pa[ti]);
                             nagehts.pause();
                             sen[ti]--;
-                            $("#cnt-" + ti).text(
-                                sen[ti]);
+                            $("#cnt-" + ti).text(sen[ti]);
                         }
-
-                    });
-
-
-                    /* 정답확인 */
+                    }); /* 정답확인 */
                     $("#chk").on("click", function () {
                         var na = "";
                         if ($("#itms").find("button").length < 1) {
-                            $(".tran").show();
-
-                            /* 정답 확인 div 상자 배경색 속성 없애10 */
+                            $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애10 */
                             $(this).removeClass("btn-light ");
-
                             $(".itm-lst").each(function () {
-                                if ($(this).find(
-                                        "button.btn")) {
-                                    $(this).find("button.btn")
-                                        .addClass(
-                                            "text-success font-weight-bold"
-                                        );
+                                if ($(this).find("button.btn")) {
+                                    $(this).find("button.btn").addClass(
+                                        "text-success font-weight-bold");
                                 }
                             });
-
                             var qa = $(".itm-lst").length; /* 전체 문항 수 */
-                            var qr = $(".text-success")
-                                .length; /* 맞춘 항목 수 */
+                            var qr = $(".text-success").length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */
-                            var tcl = "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
@@ -361,61 +330,47 @@
                                 var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-
-                            $(this).addClass("btn-" + cl + " text-" +
-                                tcl);
-                            $(this).html("<h4>" + qa + "문제 중 " + qr +
-                                "개를 맞히셨네요!<br>" + st + "</h4>");
-
-                            $(".btn-lg").text().appendTo($(this)
-                                .closest("td"));
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
+                            $(".btn-lg").text().appendTo($(this).closest("td"));
                             $(".btn-lg").remove();
                         } else {
                             $("div.itm-lst").each(function (idx) {
-                                if (!$(this).find("button")
-                                    .length) {
+                                if (!$(this).find("button").length) {
                                     if (na != "") {
                                         na += ", ";
                                     }
                                     na += (idx + 1);
                                 }
                             });
-                            alert("모든 문제를 풀어주세요!");
-                            /* alert(na+"번 문제를 풀어주세요!"); */
+                            alert("모든 문제를 풀어주세요!"); /* alert(na+"번 문제를 풀어주세요!"); */
                         }
                     });
 
                     <?php require "wahl.php"; ?>
 
                     var pan = new Array();
-                    /* pan = ["1","2","3","4","5","6","7","8","9","10"]; */
                     pan = [1, 2, 8, 11, 14, 19];
                     var il = $("#itms>.itm").length;
                     for (var p = 0; p < pan.length; p++) {
                         var pani = "#lst-" + pan[p];
                         $(".itm").each(function () {
                             if ($(this).hasClass("ans" + pan[p])) {
-                                $("#" + $(this).attr("id"))
-                                    .insertBefore($("#lst-" + pan[p] +
-                                        ">h2"));
+                                $("#" + $(this).attr("id")).insertBefore($("#lst-" + pan[
+                                    p] + ">h2"));
                                 $("#" + $(this).attr("id")).addClass(
                                     "btn-inline-block btn-light");
-                                $("#" + $(this).attr("id")).css(
-                                    "min-width", "100%");
-                                $("#" + $(this).attr("id")).css(
-                                    "position", "relative");
-                                $("#" + $(this).attr("id")).css("left",
-                                    "-6px");
-                                $("#" + $(this).attr("id")).css("top",
-                                    "-6px");
+                                $("#" + $(this).attr("id")).css("min-width", "100%");
+                                $("#" + $(this).attr("id")).css("position", "relative");
+                                $("#" + $(this).attr("id")).css("left", "-6px");
+                                $("#" + $(this).attr("id")).css("top", "-6px");
                                 $("#lst-" + pan[p] + ">h2").remove();
                             }
                         })
                     }
-
                     $("#0").show();
                     $(".alert").hide();
-
                 },
                 onend: function () {
                     $("div#last").text("");
@@ -425,23 +380,18 @@
                         if (sen[last] == 2) {
                             $(".tran").show();
                             $(".so").each(function () {
-                                pa[last] = $("#" +
-                                    last).html();
+                                pa[last] = $("#" + last).html();
                             });
                         }
                     } else if (sen[last] == 2) {
                         if ($("#" + last).hasClass("itm")) {
                             $("#" + last + ">.tran").show();
                         }
-                        $("#" + last).closest("tr").find(
-                            ".tran").show();
+                        $("#" + last).closest("tr").find(".tran").show();
                         pa[last] = $("#" + last).html();
                     }
                 }
-
-
             });
-
         });
 
     </script>

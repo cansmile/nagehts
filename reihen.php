@@ -578,7 +578,7 @@ $rtl = array(
             "E7c" => "Hören Sie die Dialoge und ergänzen Sie die Lücken: An der Bushaltestelle",
             "E8" => "Ordnen Sie die Verben je nach der Partizip –II Formen zu.",
             "E10" => "Ergänzen Sie die Perfekt-Formen.",
-            "E11" => "Mein Urlaub in Dresden"
+            "E11" => "Mein Urlaub in Dresden: Ordnen Sie die Bildungen zu und Schreiben Sie die Sätze ins Perfekt."
         )
     )
 );
@@ -948,7 +948,7 @@ $rtl_k = array(
             "E7c" => "문장을 대화문을 듣고 빈칸을채우세요: 버스 정류장",
             "E8" => "과거분사형태에 따라 구분해보세요.",
             "E10" => "완료형을 넣으세요.",
-            "E11" => "드레스덴에서의 나의 휴가"
+            "E11" => "드레스덴에서의 나의 휴가: 그림을 연결하고 완료형의 문장으로 쓰세요."
         )
     )
 );

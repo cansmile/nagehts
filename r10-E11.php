@@ -13,6 +13,12 @@
                 </div>
             </div>
             <div class="row text-center">
+                <div class="col-12 text-left my-2">
+                Was hat Silvia am Sonntag, 16. Juli in Dresden gemacht?
+                Lesen Sie die Notiz und ordnen Sie die Bilder der Reihe nach zu.
+                <span class="tran"><br />
+                실비아는 7월 16일 드레스덴에서 무엇을 하였나요. 메모를 읽고 그림을 순서대로 나열하세요.</span>
+                </div>
                 <div class="col border border-dark rounded p-2 m-1">1.<br />
                 <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-1.png"
                 alt="Mein Urlaub in Dresden" style="max-width: 240px; height: auto;"></div>
@@ -26,7 +32,7 @@
                 <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-4.png"
                 alt="Mein Urlaub in Dresden" style="max-width: 240px; height: auto;"></div>
                 <div class="col-12 mt-5">
-                    <div class="input-group">
+                    <div class="input-group text-center">
                         ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                         style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-1"> ) -
@@ -42,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row py-2 my-2">
+            <div class="row py-2 mt-5 mb-2">
                 <div class="col">
                     <span class="border border-dark rounded p-2">besichtigt</span>
                     <span class="border border-dark rounded p-2">gab</span>

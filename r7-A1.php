@@ -75,9 +75,6 @@
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0_p">
-                            ❚❚
                         </button>
                     </h2>
                 </div>
@@ -407,24 +404,21 @@
                                         <tr>
                                             <td>
                                                 <span class="bg-light border border-dark rounded m-0 p-2 px-3">
-                                                &nbsp;</span>
-                                                <span
-                                                    class="m-0" style="position: relative; left: -8px; font-size: 2em;">
+                                                    &nbsp;</span>
+                                                <span class="m-0"
+                                                    style="position: relative; left: -8px; font-size: 2em;">
                                                     ←</span>
-                                                <span
-                                                    class="bg-light border border-dark rounded m-0 p-2 px-3"
+                                                <span class="bg-light border border-dark rounded m-0 p-2 px-3"
                                                     style="position: relative; left: -12px;"><strong>in</strong></span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <span class="bg-light border border-dark rounded m-0 p-2 px-3">
-                                                &nbsp;</span>
-                                                <span
-                                                    class="m-0" style="font-size: 2em;">
+                                                    &nbsp;</span>
+                                                <span class="m-0" style="font-size: 2em;">
                                                     ←</span>
-                                                <span
-                                                    class="bg-light border border-dark rounded m-0 p-2 px-3"
+                                                <span class="bg-light border border-dark rounded m-0 p-2 px-3"
                                                     style="position: relative; left: -12px;"><strong>zu</strong></span>
                                             </td>
                                         </tr>
@@ -499,213 +493,86 @@
     </section>
 
     <div id="marg"></div>
+    <div id="last" class="d-none"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $("#0").hide();
-        $("#0_p").hide();
         $("#chk").hide();
         $(document).ready(function () {
-            /* 각 문장 재생 횟수 초기화 */
-            var hm = new Array(),
-                sen = new Array();
-            for (i = 0; i < $(".so").length; i++) {
-                hm[i] = 0;
-                sen[i] = 0;
-            }
-            ion.sound({
-                sounds: [{
-                    name: "r7 A1",
-                    sprite: {
-                        "0": [1.942, 104.703],
-                        "1": [107.900, 1.022],
-                        "2": [110.000, 1.037],
-                        "3": [93.706, 1.223],
-                        "4": [78.568, 1.023],
-                        "5": [112.336, 1.107],
-                        "6": [89.525, 1.950],
-                        "7": [100.912, 1.534],
-                        "8": [85.752, 1.502],
-                        "9": [114.644, 1.673],
-                        "10": [117.785, 1.073],
-                        "11": [104.340, 2.212],
-                        "12": [14.089, 1.294],
-                        "13": [81.990, 1.158],
-                        "14": [97.307, 1.609]
-                    }
-                }, {
-                    name: "dingdongdang",
-                    path: "<?php echo($root); ?>sounds/",
-                }, {
-                    name: "Cartoon_Boing",
-                    path: "<?php echo($root); ?>sounds/",
-                }],
-                path: "<?php echo($root); ?>sounds/Reihe 7/",
-                preload: true,
-                volume: 1.0,
-                multiplay: false,
-                ended_callback: function (obj) {
-                    /* 재생이 끝날 때 2번 이상이면 번역 보이기 */
-                    hmn = obj.part;
-                    hm[hmn]++;
-                    /* 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    if (obj.part == "0") {
-                        $("#0").show();
-                        $("#0_p").hide();
-                        if (hm[hmn] > 1) {
-                            $(".tran").show();
-                        }
-                    } else {
-                        if (obj.part > 14) {
-                            $("#" + obj.part).html("▶");
-                        }
-                        if (hm[hmn] > 1) {
-                            $("#" + hmn).closest("table")
-                                .find(".tran").show();
-                        }
-                    }
+            /* 소리 출력 전역 변수와 함수 */
+            var sen = new Array(),
+                pa = new Array(),
+                he = new Array(),
+                last;
+            $(".so").each(function () {
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
+            });
+
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            };
+
+            /* 문제 재생 */
+            var nagehts = new Howl({
+                src: ["./<?php echo($root); ?>sounds/Reihe 7/r7 A1.mp3"],
+                sprite: {
+                    "0": [1442, 105203],
+                    "1": [107400, 1522],
+                    "2": [109500, 1537],
+                    "3": [93206, 1723],
+                    "4": [78068, 1523],
+                    "5": [111836, 1607],
+                    "6": [89025, 2450],
+                    "7": [100412, 2034],
+                    "8": [85252, 2002],
+                    "9": [114144, 2173],
+                    "10": [117285, 1573],
+                    "11": [103840, 2712],
+                    "12": [13589, 1794],
+                    "13": [81490, 1658],
+                    "14": [96807, 2109]
                 },
-                ready_callback: function () {
-                    $(".o").on("click", function () {
-                        ion.sound.play(
-                            "dingdongdang");
-                    });
-                    $(".x").on("click", function () {
-                        ion.sound.play(
-                            "Cartoon_Boing");
-                    });
-                    $("[data-toggle='popover']").popover({
-                        delay: {
-                            'hide': 1000
-                        },
-                        container: "body"
-                    });
-                    $(".pop").click(function () {
-                        /* 가장 먼저 지문에 'an' 넣기 */
-                        if (!$(this).siblings()
-                            .hasClass("an")) {
-                            $(this).addClass("an");
-                            $(this).addClass(
-                                "btn-warning");
-                            $(this).parent()
-                                .children()
-                                .removeClass(
-                                    "btn-light");
-                        };
-                        /* 문제 풀이 정도 업데이트 */
-                        var perc = Math.round(($(
-                                ".an")
-                            .length / $(
-                                ".q").length
-                        ) * 100);
-                        $(".progress>.bar").attr(
-                            "width", perc + "%;"
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
-                    });
-                    /* 팝업 내용 사라지기 */
-                    $(".pop").popover().click(function () {
-                        setTimeout(function () {
-                            $(".pop")
-                                .popover(
-                                    'hide');
-                        }, 500);
-                    });
-                    $(".so").on("click", function () {
-                        if ($(this).attr("id")
-                            .substr(-2) == "_p") {
-                            /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                                "r7 A1", {
-                                    part: "0"
-                                });
-                            $("#0").show();
-                            $(this).hide();
-                        } else if ($(this).html() ==
-                            "▶") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.play(
-                                "r7 A1", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            $(this).html("❚❚");
-                        } else if ($(this).html() ==
-                            "❚❚") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                                "r7 A1", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            $(this).html("▶");
-                        } else {
-                            /* _p 붙어 있지 않으면 id 그대로 재생 */
-                            ion.sound.play(
-                                "r7 A1", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
-                            if ($(this).attr(
-                                    "id") == "0") {
-                                $(this).hide();
-                                $("#0_p").show();
-                            };
-                        };
-                    });
+                    console.log("다시 읽어주세요!");
+                },
+                onload: function () {
                     /* 정답확인 */
                     $("#chk").on("click", function () {
                         var na = "";
-                        if ($("#itms").find(
-                                "button").length <
-                            1) {
-                            $(".tran").show();
-
-                            /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            $(".itm-lst").each(
-                                function () {
-                                    if ($(this)
-                                        .find(
-                                            ".btn"
-                                        )) {
-                                        $(this)
-                                            .find(
-                                                ".btn"
-                                            )
-                                            .addClass(
-                                                "text-success font-weight-bold"
-                                            );
-                                    }
-                                });
-
-                            var qa = $(".itm-lst")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".text-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                                100; /* 정답 비율 */
-                            var tcl =
-                                "white"; /* 기본 문자색 */
+                        if ($("#itms").find("button").length < 1) {
+                            $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애기 */
+                            $(this).removeClass("btn-light ");
+                            $(".itm-lst").each(function () {
+                                if ($(this).find(".btn")) {
+                                    $(this).find(".btn").addClass(
+                                        "text-success font-weight-bold");
+                                }
+                            });
+                            var qa = $(".itm-lst").length; /* 전체 문항 수 */
+                            var qr = $(".text-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */
 
                             /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
@@ -713,122 +580,105 @@
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-
-                            $(".btn-lg").text()
-                                .appendTo($(this)
-                                    .closest("td"));
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
+                            $(".btn-lg").text().appendTo($(this).closest("td"));
                             $(".btn-lg").remove();
                         } else {
-                            $("div.itm-lst").each(
-                                function (idx) {
-                                    if (!$(this)
-                                        .find(
-                                            "button"
-                                        )
-                                        .length
-                                    ) {
-                                        if (na !=
-                                            ""
-                                        ) {
-                                            na +=
-                                                ", ";
-                                        }
-                                        na += (idx +
-                                            1
-                                        );
+                            $("div.itm-lst").each(function (idx) {
+                                if (!$(this).find("button").length) {
+                                    if (na != "") {
+                                        na += ", ";
                                     }
+                                    na += (idx + 1);
                                 }
-                            );
-                            alert("모든 문제를 풀어주세요!");
-                            /* alert(na+"번 문제를 풀어주세요!"); */
+                            });
+                            alert("모든 문제를 풀어주세요!"); /* alert(na+"번 문제를 풀어주세요!"); */
                         }
                     });
                     $("#0").show();
                     $(".alert").hide();
-
                     <?php require "wahl.php"; ?>
-
                     var pan = new Array();
-                    /* pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"]; */
-                    pan = ["1", "2", "3", "4", "5", "6"];
+                    pan = [];
                     var il = $("#itms>.itm").length;
                     for (var p = 0; p < pan.length; p++) {
                         var pani = "#lst-" + pan[p];
                         $(".itm").each(function () {
-                            if ($(this).hasClass(
-                                    "ans" + pan[p]
-                                )) {
-                                $("#" + $(this)
-                                        .attr("id"))
-                                    .appendTo($(
-                                        "#lst-" +
-                                        pan[p]));
-                                $("#" + $(this)
-                                        .attr("id"))
-                                    .addClass(
-                                        "btn-block font-weight-bold text-left pl-0"
-                                    );
-                                $("#" + $(this)
-                                        .attr("id"))
-                                    .addClass(
-                                        "border-0");
-                                $("#lst-" + pan[p] +
-                                        ">h2")
-                                    .remove();
-                                $("#lst-" + pan[p])
-                                    .parent().find(
-                                        ".tran")
-                                    .show();
+                            if ($(this).hasClass("ans" + pan[p])) {
+                                $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
+                                $("#" + $(this).attr("id")).addClass(
+                                    "btn-block font-weight-bold text-left pl-0");
+                                $("#" + $(this).attr("id")).addClass("border-0");
+                                $("#lst-" + pan[p] + ">h2").remove();
+                                $("#lst-" + pan[p]).parent().find(".tran").show();
                             }
                         })
-                    }
+                    };
 
                     /* 미리 넣기 여백의 미 */
                     $(".itm").each(function () {
-                        if ($(this).text() != "▼" &&
-                            $(this).closest("table")
-                        ) {
-                            $(this).parent().css(
-                                "min-width", ($(
-                                        this)
-                                    .length + 1
-                                ) * 8 + "px"
-                            );
-                            $(this).addClass(
-                                "text-center");
-                            $(this).closest(
-                                    ".itm-lst")
-                                .addClass(
-                                    "mx-0 px-0");
+                        if ($(this).text() != "▼" && $(this).closest("table")) {
+                            $(this).parent().css("min-width", ($(this).length + 1) * 8 +
+                                "px");
+                            $(this).addClass("text-center");
+                            $(this).closest(".itm-lst").addClass("mx-0 px-0");
                         }
                     });
+                    $(".so").on("click", function () {
+                        var t = $(this);
+                        var ti = t.attr("id");
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+                            last = ti;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        }
+                    });
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" + last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
                 }
             });
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

@@ -12,57 +12,23 @@
                 </div>
                 <div class="row">
                     <div class="col-12 py-2 my-2" style="line-height: 250%;">
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Gesicht<span class="tran">&nbsp;<small>얼굴</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Auge<span class="tran">&nbsp;<small>눈</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Nase<span class="tran">&nbsp;<small>코</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Ohren<span class="tran">&nbsp;<small>귀</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Mund<span class="tran">&nbsp;<small>입</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Arm<span class="tran">&nbsp;<small>팔</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Hand<span class="tran">&nbsp;<small>손</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Bauch<span class="tran">&nbsp;<small>배</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Bein<span class="tran">&nbsp;<small>다리</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Fuß(Fuss)<span class="tran">&nbsp;<small>발</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Zahn<span class="tran">&nbsp;<small>이</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Hals<span class="tran">&nbsp;<small>목</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Rücken<span class="tran">&nbsp;<small>등</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Brust<span class="tran">&nbsp;<small>가슴</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Knie<span class="tran">&nbsp;<small>무릎</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Haare<span class="tran">&nbsp;<small>머리카락</small></span>
-                        </span>
-                        <span class="border border-dark rounded p-1 px-2 m-1">
-                            Kopf<span class="tran">&nbsp;<small>머리</small></span>
-                        </span>
+                        <span class="wd">Gesicht<span class="tran">&nbsp;<small>얼굴</small></span></span>
+                        <span class="wd">Auge<span class="tran">&nbsp;<small>눈</small></span></span>
+                        <span class="wd">Nase<span class="tran">&nbsp;<small>코</small></span></span>
+                        <span class="wd">Ohren<span class="tran">&nbsp;<small>귀</small></span></span>
+                        <span class="wd">Mund<span class="tran">&nbsp;<small>입</small></span></span>
+                        <span class="wd">Arm<span class="tran">&nbsp;<small>팔</small></span></span>
+                        <span class="wd">Hand<span class="tran">&nbsp;<small>손</small></span></span>
+                        <span class="wd">Bauch<span class="tran">&nbsp;<small>배</small></span></span>
+                        <span class="wd">Bein<span class="tran">&nbsp;<small>다리</small></span></span>
+                        <span class="wd">Fuß(Fuss)<span class="tran">&nbsp;<small>발</small></span></span>
+                        <span class="wd">Zahn<span class="tran">&nbsp;<small>이</small></span></span>
+                        <span class="wd">Hals<span class="tran">&nbsp;<small>목</small></span></span>
+                        <span class="wd">Rücken<span class="tran">&nbsp;<small>등</small></span></span>
+                        <span class="wd">Brust<span class="tran">&nbsp;<small>가슴</small></span></span>
+                        <span class="wd">Knie<span class="tran">&nbsp;<small>무릎</small></span></span>
+                        <span class="wd">Haare<span class="tran">&nbsp;<small>머리카락</small></span></span>
+                        <span class="wd">Kopf<span class="tran">&nbsp;<small>머리</small></span></span>
                     </div>
 
                     <div class="col-12">

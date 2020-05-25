@@ -29,11 +29,11 @@
                                     Max&nbsp;
                                     <input type="text"
                                         class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
-                                        aria-label="." id="qst-1" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-1" style="position: relative; top: -5px;">
                                     &nbsp;am&nbsp;
                                     <input type="text"
                                         class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
-                                        aria-label="." id="qst-2" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-2" style="position: relative; top: -5px;">
                                     .
                                 </div>
                                 <span class="tran"><br /><small>막스는 아침에
@@ -60,11 +60,11 @@
                                     Am Vormittag&nbsp;
                                     <input type="text"
                                         class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
-                                        aria-label="." id="qst-3" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-3" style="position: relative; top: -5px;">
                                     &nbsp;er&nbsp;
                                     <input type="text"
                                         class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
-                                        aria-label="." id="qst-4" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-4" style="position: relative; top: -5px;">
                                     .
                                 </div>
                                 <span class="tran"><br /><small>오전에 TV를
@@ -91,11 +91,11 @@
                                     Er&nbsp;
                                     <input type="text"
                                         class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
-                                        aria-label="." id="qst-5" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-5" style="position: relative; top: -5px;">
                                     &nbsp;am Mittag&nbsp;
                                     <input type="text"
                                         class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
-                                        aria-label="." id="qst-6" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-6" style="position: relative; top: -5px;">
                                     .
                                 </div>
                                 <span class="tran"><br /><small>그는 점심 때 영화를
@@ -122,11 +122,11 @@
                                     Am Nachmittag&nbsp;
                                     <input type="text"
                                         class="form-control col-6 d-inline rounded-0 border-bottom-only border border-dark q"
-                                        aria-label="." id="qst-7" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-7" style="position: relative; top: -5px;">
                                     &nbsp;er&nbsp;
                                     <input type="text"
                                         class="form-control col-6 d-inline rounded-0 border-bottom-only border border-dark q"
-                                        aria-label="." id="qst-8" style="opsition: relative; top: -5px;">.
+                                        aria-label="." id="qst-8" style="position: relative; top: -5px;">.
                                 </div>
                                 <span class="tran"><br /><small>오후에 음악을
                                         듣는다.</small>
@@ -153,11 +153,11 @@
                                     Am Abend&nbsp;
                                     <input type="text"
                                         class="form-control col-6 d-inline rounded-0 border-bottom-only border border-dark q"
-                                        aria-label="." id="qst-9" style="opsition: relative; top: -5px;">
+                                        aria-label="." id="qst-9" style="position: relative; top: -5px;">
                                     &nbsp;er&nbsp;
                                     <input type="text"
                                         class="form-control col-6 d-inline rounded-0 border-bottom-only border border-dark q"
-                                        aria-label="." id="qst-10" style="opsition: relative; top: -5px;">.
+                                        aria-label="." id="qst-10" style="position: relative; top: -5px;">.
                                 </div>
                                 <span class="tran"><br /><small>저녁에 스테이크를
                                         먹는다.</small>

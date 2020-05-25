@@ -58,381 +58,11 @@
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-F1.png" alt="Stammbaum"
-                                style="max-width: 100%; height: auto;">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="10"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Großvater</span><span class="wd">Opa</span><br />
-                                    <span><small>할아버지</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="11"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Großmutter</span><span class="wd">Oma</span><br />
-                                    <span><small>할머니</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="12"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Großeltern</span><br />
-                                    <span><small>조부모</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="13"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Vater</span><br />
-                                    <span><small>아버지</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="14"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Mutter</span><br />
-                                    <span><small>어머니</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="15"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Eltern</span><br />
-                                    <span><small>부모</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="16"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Sohn</span><br />
-                                    <span><small>아들</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="17"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Tochter</span><br />
-                                    <span><small>딸</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="18"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Kinder</span><br />
-                                    <span><small>자녀</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="19"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Bruder</span><br />
-                                    <span><small>형제</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="20"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwester</span><br />
-                                    <span><small>자매</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="21"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Geschwister</span><br />
-                                    <span><small>형제자매</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="22"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Enkelsohn</span><br />
-                                    <span><small>손자</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="23"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Enkeltochter</span><br />
-                                    <span><small>손녀</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="24"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Enkelkinder</span><br />
-                                    <span><small>손자손녀</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="25"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwager</span><br />
-                                    <span><small>형부, 처남, 매부, 매형</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="26"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwägerin</span><br />
-                                    <span><small>형수, 처제, 올케 …</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="27"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Onkel</span><br />
-                                    <span><small>삼촌, 숙부</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="28"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Tante</span><br />
-                                    <span><small>이모, 고모, 숙모</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="29"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Mann</span><br />
-                                    <span><small>남편</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="30"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Frau</span><br />
-                                    <span><small>아내</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="31"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwiegervater</span><br />
-                                    <span><small>장인. 시부</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="32"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwiegermutter</span><br />
-                                    <span><small>장모, 시모</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="33"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwiegereltern</span><br />
-                                    <span><small>처부모, 시부모</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="34"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwiegersohn</span><br />
-                                    <span><small>사위</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="35"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Schwiegertochter</span><br />
-                                    <span><small>며느리</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="36"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Neffe</span><br />
-                                    <span><small>조카</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="37"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Nichte</span><br />
-                                    <span><small>조카딸</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="38"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Cousin</span><br />
-                                    <span><small>사촌 형제</small></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 lh250 my-1">
-                            <div class="row">
-                                <div class="col-1 mx-1">
-                                    <button type="button" id="39"
-                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
-                                </div>
-                                <div class="col-8 mx-1">
-                                    <span class="wd">Cousine</span><br />
-                                    <span><small>사촌 자매</small></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <thead>
                             <tr class="border border-dark bg-dark text-white font-weight-bold rounded py-0">
                                 <th scope="col" width="50" class="h4 py-0 align-middle">
-                                    &nbsp;1.1.</th>
+                                    &nbsp;1</th>
                                 <th scope="col" class="text-left">
                                     Wer bin ich?
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
@@ -517,12 +147,14 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <thead>
                             <tr class="border border-dark bg-dark text-white font-weight-bold rounded py-0">
                                 <th scope="col" width="50" class="h4 py-0 align-middle">
-                                    &nbsp;1.2.</th>
-                                <th scope="col" class="text-left">
+                                    &nbsp;2</th>
+                                    <th scope="col" class="text-left">
                                     Wer bin ich?
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-5">
@@ -553,12 +185,12 @@
                                         id="lst-6">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
-                                    </div>
+                                        </div>
                                     .
                                     <span class="tran"><br>
                                         &nbsp;<small>제 아이들은 한스,게오르크와
                                             자비네이에요.</small>
-                                    </span>
+                                        </span>
                                 </td>
                             </tr>
                             <tr>
@@ -566,7 +198,7 @@
                                 <td class="text-left">Mein Sohn, Hans Holm hat
                                     eine Tochter.
                                     <span class="tran"><br>
-                                        &nbsp;<small>제 아들, 한스 홀름은 딸 하나가
+                                    &nbsp;<small>제 아들, 한스 홀름은 딸 하나가
                                             있어요.</small>
                                     </span>
                                 </td>
@@ -576,8 +208,8 @@
                                 <td class="text-left">
                                     Sie heißt
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
-                                        id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    id="lst-1">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -591,8 +223,8 @@
                                 <td class="text-left">Meine Tochter ist mit ihm
                                     verheiratet.
                                     <span class="tran"><br>
-                                        &nbsp;<small>저의 딸은 결혼했어요.</small>
-                                    </span>
+                                    &nbsp;<small>저의 딸은 결혼했어요.</small>
+                                </span>
                                 </td>
                             </tr>
                             <tr>
@@ -600,33 +232,403 @@
                                 <td class="text-left">
                                     Er heißt
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
-                                        id="lst-7">
+                                    id="lst-7">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
-                                    </div>
+                                        </div>
                                     .
                                     <span class="tran"><br>
-                                        &nbsp;<small>그는 프란츠 숄이에요.</small>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th width="50" scops="row">5.</th>
+                                    &nbsp;<small>그는 프란츠 숄이에요.</small>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="50" scops="row">5.</th>
                                 <td class="text-left">
                                     Meine Schwiegertochter heißt
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
-                                        id="lst-8">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    id="lst-8">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
-                                    </div>
+                                        </div>
                                     .
                                     <span class="tran"><br>&nbsp;<small>저의 며느리는
-                                            질비아 마크에요.</small>
+                                        질비아 마크에요.</small>
                                     </span>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-F1.png" alt="Stammbaum"
+                                style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="10"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Großvater</span><span class="wd">Opa</span><br />
+                                    <span><small>할아버지</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="11"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Großmutter</span><span class="wd">Oma</span><br />
+                                    <span><small>할머니</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="12"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Großeltern</span><br />
+                                    <span><small>조부모</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="13"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Vater</span><br />
+                                    <span><small>아버지</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="14"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Mutter</span><br />
+                                    <span><small>어머니</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="15"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Eltern</span><br />
+                                    <span><small>부모</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="16"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Sohn</span><br />
+                                    <span><small>아들</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="17"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Tochter</span><br />
+                                    <span><small>딸</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="18"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Kinder</span><br />
+                                    <span><small>자녀</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="19"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Bruder</span><br />
+                                    <span><small>형제</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="20"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwester</span><br />
+                                    <span><small>자매</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="21"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Geschwister</span><br />
+                                    <span><small>형제자매</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="22"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Enkelsohn</span><br />
+                                    <span><small>손자</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="23"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Enkeltochter</span><br />
+                                    <span><small>손녀</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="24"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Enkelkinder</span><br />
+                                    <span><small>손자손녀</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="25"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwager</span><br />
+                                    <span><small>형부, 처남, 매부, 매형</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="26"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwägerin</span><br />
+                                    <span><small>형수, 처제, 올케 …</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="27"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Onkel</span><br />
+                                    <span><small>삼촌, 숙부</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="28"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Tante</span><br />
+                                    <span><small>이모, 고모, 숙모</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="29"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Mann</span><br />
+                                    <span><small>남편</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="30"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Frau</span><br />
+                                    <span><small>아내</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="31"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwiegervater</span><br />
+                                    <span><small>장인. 시부</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="32"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwiegermutter</span><br />
+                                    <span><small>장모, 시모</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="33"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwiegereltern</span><br />
+                                    <span><small>처부모, 시부모</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="34"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwiegersohn</span><br />
+                                    <span><small>사위</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="35"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Schwiegertochter</span><br />
+                                    <span><small>며느리</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="36"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Neffe</span><br />
+                                    <span><small>조카</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="37"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Nichte</span><br />
+                                    <span><small>조카딸</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="38"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Cousin</span><br />
+                                    <span><small>사촌 형제</small></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 lh250 my-1">
+                            <div class="row">
+                                <div class="col-1 mx-1">
+                                    <button type="button" id="39"
+                                        class="so btn btn-outline-primary btn-sm mx-2">▶</button>
+                                </div>
+                                <div class="col-8 mx-1">
+                                    <span class="wd">Cousine</span><br />
+                                    <span><small>사촌 자매</small></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->

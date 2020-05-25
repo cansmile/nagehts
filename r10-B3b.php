@@ -10,12 +10,9 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Ergänzen Sie die Lücken.
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
                             id="0_p">
                             ❚❚
                         </button> <br>
@@ -25,126 +22,88 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="1"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>1.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-1">Auto
-                        <span class="tran">&nbsp;<small>자동차로</small></span>
+                        <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>1.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-1">Auto <span class="tran">&nbsp;<small>자동차로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="2"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>2.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-2">Taxi
-                        <span class="tran">&nbsp;<small>택시로</small></span>
+                        <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>2.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-2">Taxi <span class="tran">&nbsp;<small>택시로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="3"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>3.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-3">Zug
-                        <span class="tran">&nbsp;<small>기차로</small></span>
+                        <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>3.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-3">Zug <span class="tran">&nbsp;<small>기차로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="4"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>4.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-4">Fahrrad
-                        <span class="tran">&nbsp;<small>자전거로</small></span>
+                        <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>4.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-4">Fahrrad <span class="tran">&nbsp;<small>자전거로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="5"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>5.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-5">Straßenbahn
-                        <span class="tran">&nbsp;<small>전철로</small></span>
+                        <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>5.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-5">Straßenbahn <span class="tran">&nbsp;<small>전철로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="6"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>6.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-6">Schiff
-                        <span class="tran">&nbsp;<small>배로</small></span>
+                        <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>6.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-6">Schiff <span class="tran">&nbsp;<small>배로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="7"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>7.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-7">Flugzeug
-                        <span class="tran">&nbsp;<small>비행기로</small></span>
+                        <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>7.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-7">Flugzeug <span class="tran">&nbsp;<small>비행기로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="8"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>8.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-8">U-Bahn
-                        <span class="tran">&nbsp;<small>지하철로</small></span>
+                        <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>8.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-8">U-Bahn <span class="tran">&nbsp;<small>지하철로</small></span>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 my-3"
-                    style="line-height: 250%;">
+                <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="9"
-                            class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>9.
-                        mit <input type="text"
-                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
-                            col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
-                            aria-label="." id="qst-9">Motorrad
-                        <span class="tran">&nbsp;<small>오토바이로</small></span>
+                        <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>9.
+                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
+                        aria-label="." id="qst-9">Motorrad <span class="tran">&nbsp;<small>오토바이로</small></span>
                     </div>
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
             <!-- 정답확인 버튼 끝 -->
             <div class="row">
-                <div class="col-12"><span
-                        class="tipp">TIPP</span><strong>Präpositionen
+                <div class="col-12"><span class="tipp">TIPP</span><strong>Präpositionen
                         im Dativ</strong><small> 3격 지배전치사</small></div>
                 <div class="col-12">
                     <div class="p-1 px-2 my-2">
@@ -172,10 +131,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div
-                        class="p-1 px-2 my-2 bg-light border border-secondary rounded">
-                        <small>독일어의 정(부정)관사류 및 인칭대명사의 격변화는 8과와 9과를 참고하기
-                            바란다.</small>
+                    <div class="p-1 px-2 my-2 bg-light border border-secondary rounded">
+                        <small>독일어의 정(부정)관사류 및 인칭대명사의 격변화는 8과와 9과 참고</small>
                     </div>
                 </div>
             </div>
@@ -198,14 +155,15 @@
         $(".ant").hide();
         var an = new Array();
         var an = ["dem", "dem", "dem", "dem", "der", "dem", "dem", "der",
-        "dem"];
+            "dem"
+        ];
         /* 각 문장 재생 횟수 초기화 */
         var hm = new Array(),
             sen = new Array();
         $(".so").each(function () {
             hm[$(this).attr("id")] = 0;
             sen[$(this).attr("id")] = $("#" + $(this).attr("id"))
-        .html();
+                .html();
         });
         $(document).ready(function () {
             ion.sound({
@@ -268,7 +226,7 @@
                             $(this).hide();
                         } else if ($(this).text() ==
                             sen[$(this).attr("id")]
-                            ) {
+                        ) {
                             /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
                             ion.sound.play(
                                 "r10 B3b", {
@@ -276,7 +234,7 @@
                                             this)
                                         .attr(
                                             "id"
-                                            )
+                                        )
                                 }
                             );
                             $(this).html("❚❚");
@@ -289,7 +247,7 @@
                                             this)
                                         .attr(
                                             "id"
-                                            )
+                                        )
                                 }
                             );
                             $(this).html("▶");
@@ -301,12 +259,12 @@
                                             this)
                                         .attr(
                                             "id"
-                                            )
+                                        )
                                 }
                             );
                             /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
                             if ($(this).attr(
-                                "id") == "0") {
+                                    "id") == "0") {
                                 $(this).hide();
                                 $("#0_p").show();
                             };
@@ -363,7 +321,7 @@
                         if (rfchk($(this))) {
                             $(this).addClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).addClass(
                                 "bg-success");
                             $("#ant-" + $(this)
@@ -374,7 +332,7 @@
                         } else {
                             $(this).addClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).addClass(
                                 "bg-danger");
                             $("#ant-" + $(this)
@@ -390,7 +348,7 @@
                                 "bg-success");
                             $(this).removeClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                         }
                         if ($(this).val()) {
                             $("#ant-" + $(this)
@@ -401,7 +359,7 @@
                                     .attr("id")
                                     .substr(4))
                                 .text($(this)
-                            .val());
+                                    .val());
                         } else {
                             $("#ant-" + $(this)
                                     .attr("id")
@@ -420,7 +378,7 @@
                                     .attr("id")
                                     .substr(4))
                                 .text($(this)
-                            .val());
+                                    .val());
                         }
                         if ($("#ant-" + $(this)
                                 .attr("id").substr(
@@ -428,20 +386,20 @@
                             if (rfchk($(this))) {
                                 $(this).addClass(
                                     "text-white font-weight-bold"
-                                    );
+                                );
                                 $(this).addClass(
                                     "bg-success"
-                                    );
+                                );
                                 $("#ant-" + $(this)
                                         .attr("id")
                                         .substr(4))
                                     .addClass(
                                         "text-success"
-                                        );
+                                    );
                             } else {
                                 $(this).addClass(
                                     "text-white font-weight-bold"
-                                    );
+                                );
                                 $(this).addClass(
                                     "bg-danger");
                                 $("#ant-" + $(this)
@@ -449,7 +407,7 @@
                                         .substr(4))
                                     .addClass(
                                         "text-danger"
-                                        );
+                                    );
                             }
                         }
                     });
@@ -471,13 +429,13 @@
                                     "bg-danger")) {
                                 ion.sound.play(
                                     "Cartoon_Boing"
-                                    );
+                                );
                             } else if ($(this)
                                 .hasClass(
                                     "bg-success")) {
                                 ion.sound.play(
                                     "dingdongdang"
-                                    );
+                                );
                                 $(this).prop(
                                     "disabled",
                                     true);
@@ -489,7 +447,7 @@
                                 "disabled")) {
                             $(this).removeClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).removeClass(
                                 "bg-success");
                         }
@@ -503,181 +461,77 @@
                             if (na != "") {
                                 na += ", ";
                             }
-                            if ($(this)
-                                .val() ==
-                                "") {
-                                na += $(
-                                        this)
-                                    .attr(
-                                        "id"
-                                        )
-                                    .substr(
-                                        4, 1
-                                        );
+                            if ($(this).val() == "") {
+                                na += $(this).attr("id").substr(4, 1);
                             }
                         });
-                        if ($(this).attr("id") ==
-                            "done") {} else if (
-                            na == "") {
-                            for (var i = 0; i < an
-                                .length; i++) {
-                                var oran = $(
-                                        "#qst-" + (
-                                            i + 1))
-                                    .val();
-                                if (rfchk($("#qst-" +
-                                            (i + 1)
-                                            ), true
-                                        )) {
-                                    $("#qst-" + (i +
-                                            1))
-                                        .addClass(
-                                            "cr"
-                                            );
-                                    $("#qst-" + (i +
-                                            1))
-                                        .removeClass(
-                                            "rounded-0"
-                                            );
+                        if ($(this).attr("id") == "done") {} else if (na == "") {
+                            for (var i = 0; i < an.length; i++) {
+                                var oran = $("#qst-" + (i + 1)).val();
+                                if (rfchk($("#qst-" + (i + 1)), true)) {
+                                    $("#qst-" + (i + 1)).addClass("cr");
+                                    $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
-                                    $("#qst-" + (i +
-                                        1)).val(
-                                        oran);
-                                    $("#qst-" + (i +
-                                            1))
-                                        .attr(
-                                            "disabled",
-                                            true);
-                                    $("#qst-" + (i +
-                                            1))
-                                        .addClass(
-                                            "wa"
-                                            );
-                                    $("#qst-" + (i +
-                                            1))
-                                        .removeClass(
-                                            "rounded-0"
-                                            );
-                                    if (!$.isArray(
-                                            an[i]
-                                            )) {
-                                        $("#qst-" +
-                                                (i +
-                                                    1)
-                                                )
-                                            .after(
-                                                "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
-                                                an[
-                                                    i] +
-                                                "</div>"
-                                                );
+                                    $("#qst-" + (i + 1)).val(oran);
+                                    $("#qst-" + (i + 1)).attr("disabled", true);
+                                    $("#qst-" + (i + 1)).addClass("wa");
+                                    $("#qst-" + (i + 1)).removeClass("rounded-0");
+                                    if (!$.isArray(an[i])) {
+                                        $("#qst-" + (i + 1)).after(
+                                            "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                            an[i] + "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
                                             "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
-                                        for (var fd =
-                                                (an[i]
-                                                    .length -
-                                                    1
-                                                    ); fd >=
-                                            0; fd--
-                                            ) {
-                                            if (fd <
-                                                (an[i]
-                                                    .length -
-                                                    1
-                                                    )
-                                                ) {
-                                                r = r +
-                                                    " / ";
+                                        for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                            if (fd < (an[i].length - 1)) {
+                                                r = r + " / ";
                                             }
-                                            r = r +
-                                                an[
-                                                    i]
-                                                [
-                                                fd];
+                                            r = r + an[i][fd];
                                         }
-                                        r = r +
-                                            "</div>";
-                                        if ($(
-                                                "span.sen")
-                                            .length >
-                                            0) {
-                                            $("#qst-" +
-                                                    (i +
-                                                        1)
-                                                    )
-                                                .closest(
-                                                    "span.sen"
-                                                    )
-                                                .after(
-                                                    r
-                                                    );
+                                        r = r + "</div>";
+                                        if ($("span.sen").length > 0) {
+                                            $("#qst-" + (i + 1)).closest("span.sen").after(
+                                                r);
                                         } else {
-                                            $("#qst-" +
-                                                    (i +
-                                                        1)
-                                                    )
-                                                .after(
-                                                    r
-                                                    );
+                                            $("#qst-" + (i + 1)).after(r);
                                         }
                                     }
                                 }
-                                if ($("#qst-" + (i +
-                                        1))
-                                    .hasClass(
-                                        "bg-success"
-                                        )) {
+                                if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                                     ri++;
                                 }
-                            }
+                            };
+
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-                            var qa = $(".q")
-                            .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".bg-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                            100; /* 정답 비율 */
-                            var tcl =
-                            "white"; /* 기본 문자색 */
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            $(this).removeClass("btn-light ");
+                            var qa = $(".q").length; /* 전체 문항 수 */
+                            var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-                            $(this).prop("disabled",
-                                true);
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
+                            $(this).prop("disabled", true);
                             $(".tran").show();
-                            $(this).attr("id",
-                                "done");
+                            $(this).attr("id", "done");
                         } else {
-                            alert("모든 문제를 풀어주세요!");
-                            /* alert(na+"번 문제를 풀어주세요!"); */
+                            alert("모든 문제를 풀어주세요!"); /* alert(na+"번 문제를 풀어주세요!"); */
                         };
                     });
                     var pan = new Array();
@@ -688,7 +542,7 @@
                         $(pann).val(an[(pan[p] - 1)]);
                         $(pann).addClass(
                             "bg-success text-white font-weight-bold"
-                            );
+                        );
                         $(pann).prop("disabled", true);
                         /* $(pann).closest("tr").find(".tran").show(); */
                     }

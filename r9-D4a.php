@@ -369,7 +369,7 @@
                                                     </th>
                                                     <th scope="col"
                                                         class="bg-dark text-white">
-                                                        <small>강변화<br>(불규칙</small>
+                                                        <small>강변화<br>(불규칙)</small>
                                                     </th>
                                                 </tr>
                                             </thead>
@@ -380,22 +380,15 @@
                                                 </th>
                                                 <td class="align-middle">ge--t
                                                 </td>
-                                                <td class="align-middle">gt--en
+                                                <td class="align-middle">ge--en
                                                 </td>
                                             </tbody>
                                         </table>
                                     </div>
-                                    <div class="col-6">
-                                        <div class="h5"
-                                            style="line-height: 160%;">독일어에서
+                                    <div class="col-6 align-middle">
+                                        <div class="h5 lh250 my-auto">독일어에서
                                             과거분사형은 약변화 및 강변화 동사에 따라 그 형태를 달리한다.
                                         </div>
-                                        1. 약변화동사(schwache Verben)는 위의 표와 같이<br>
-                                        1. , , , , 이며<br>
-                                        약변화 동사의 과거분사형의 형태는 이다.<br>
-                                        2. 강변화동사(starke Verben)는 위의 표와 같이<br>
-                                        2. , , , 이며 강변화 동사의 과거분사형의<br>
-                                        형태는 이다.<br>
                                     </div>
                                 </div>
                             </td>

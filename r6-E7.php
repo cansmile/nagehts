@@ -16,8 +16,8 @@
                         id="1">Am</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="2">Samstagabend</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
-                        id="3">macht<span class="tran">&nbsp;<small>~을
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm" id="3">macht<span
+                            class="tran">&nbsp;<small>~을
                                 하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="4">Mina</button>
@@ -27,8 +27,7 @@
                         id="6">große</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="7">Party</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="8">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="8">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="9">Sie</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
@@ -37,18 +36,16 @@
                         id="11">ihren</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="12">20</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="13">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="13">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="14">Geburtstag</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="15">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="15">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="16">Am</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="17">Mittwoch</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
-                        id="18">ruft<span class="tran">&nbsp;<small>전화하다</small></span></button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm" id="18">ruft<span
+                            class="tran">&nbsp;<small>전화하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="19">sie</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
@@ -59,14 +56,13 @@
                         id="22">an</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="23">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
-                        id="24">lädt<span class="tran">&nbsp;<small>초대하다</small></span></button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm" id="24">lädt<span
+                            class="tran">&nbsp;<small>초대하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="25">sie</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 24"
                         id="26">ein</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="27">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="27">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="28">Alle</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
@@ -77,8 +73,7 @@
                         id="31">zur</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="32">Party</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="33">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="33">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="34">Sie</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
@@ -88,16 +83,14 @@
                         id="36">einiges</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 35"
                         id="37">mit</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="38">:</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="38">:</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="39">Tim</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-light itm"
                         id="40">besorgt<span class="tran">&nbsp;<small>구입하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="41">Getränke</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="42">,</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="42">,</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="43">Julia</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
@@ -108,8 +101,7 @@
                         id="46">kaufen<span class="tran">&nbsp;<small>사다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="47">Kekse</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="48">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="48">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="49">Sumin</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
@@ -118,16 +110,14 @@
                         id="51">Musik-CDs</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 50"
                         id="52">mit</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="53">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="53">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="54">Es</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
-                        id="55">ist<span class="tran">&nbsp;<small>~이다</small></span></button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm" id="55">ist<span
+                            class="tran">&nbsp;<small>~이다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="56">Samstag</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="57">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="57">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="58">Mina</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
@@ -150,8 +140,7 @@
                         id="67">Trinken</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 64"
                         id="68">vor</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="69">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="69">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="70">Um</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
@@ -164,26 +153,22 @@
                         id="74">die</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="75">Party</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="76">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="76">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="77">Alle</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
                         id="78">feiern<span class="tran">&nbsp;<small>축하하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="79">,</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="79">,</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
                         id="80">tanzen<span class="tran">&nbsp;<small>춤추다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="81">,</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="81">,</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
                         id="82">lachen<span class="tran">&nbsp;<small>웃다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="83">und</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-light itm"
                         id="84">unterhalten sich<span class="tran">&nbsp;<small>담소하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="85">.</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="85">.</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="86">Nur</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
@@ -200,16 +185,14 @@
                         id="92">Bett</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="93">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
-                        id="94">denken sich<span class="tran">&nbsp;<small>생각하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="95">:</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="96">„</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm" id="94">denken
+                        sich<span class="tran">&nbsp;<small>생각하다</small></span></button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="95">:</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="96">„</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="97">Hoffentlich</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
-                        id="98">hört<span class="tran">&nbsp;<small>끝나다</small></span></button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm" id="98">hört<span
+                            class="tran">&nbsp;<small>끝나다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
                         id="99">die</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
@@ -218,8 +201,7 @@
                         id="101">bald</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 98"
                         id="102">auf</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm"
-                        id="103">!“</button>
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="103">!“</button>
                 </div>
             </div>
         </div>
@@ -233,9 +215,6 @@
                             untrennbare Verben)에<br> 넣으세요.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0_p">
-                            ❚❚
                         </button>
                     </h2>
                 </div>
@@ -377,8 +356,8 @@
                         <strong>trennbare Verben</strong><br><small>분리동사</small>
                     </h2>&nbsp;
                 </div>
-                <div style="min-height: 240px;"
-                    class="rounded-top bg-info itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
+                <div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
+                    id="lst-3">
                     <h2 class="btn btn-light btn-xl ttl d-block">
                         <strong>untrennbare
                             Verben</strong><br><small>비분리동사</small></h2>&nbsp;
@@ -415,469 +394,292 @@
     </section>
 
     <div id="marg"></div>
+    <div id="last" class="d-none"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $("#0").hide();
-        $("#0_p").hide();
         $(".tran").hide();
         $("#chk").hide();
 
         $(document).ready(function () {
-            /* 각 문장 재생 횟수 초기화 */
-            var hm = new Array(),
-                sen = new Array();
-            for (i = 0; i < $(".so").length; i++) {
-                hm[i] = 0;
-                sen[i] = 0;
-            }
-            ion.sound({
-                sounds: [{
-                    name: "r6 U7",
-                    sprite: {
-                        "0": [19.55, 50.23]
-                    }
-                }, {
-                    name: "dingdongdang",
-                    path: "<?php echo($root); ?>sounds/",
-                }, {
-                    name: "Cartoon_Boing",
-                    path: "<?php echo($root); ?>sounds/",
-                }],
-                path: "<?php echo($root); ?>sounds/Reihe 6/",
-                preload: true,
-                volume: 1.0,
-                multiplay: false,
-                ended_callback: function (obj) {
-                    /* 재생이 끝날 때 2번 이상이면 번역 보이기 */
-                    hmn = obj.part;
-                    hm[hmn]++;
-                    /* 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    if (obj.part == "0") {
-                        $("#0").show();
-                        $("#0_p").hide();
-                        if (hm[hmn] > 1) {
-                            $(".tran").show();
-                        }
-                    } else {
-                        if (obj.part > 17) {
-                            $("#" + obj.part).html("▶");
-                        }
-                        if (hm[hmn] > 1) {
-                            $("#" + hmn).closest("tr").find(
-                                ".tran").show();
-                        }
-                    }
+            /* 소리 출력 전역 변수와 함수 */
+            var sen = new Array(),
+                pa = new Array(),
+                he = new Array(),
+                last;
+            $(".so").each(function () {
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
+            });
+
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            };
+
+            /* 문제 재생 */
+            var nagehts = new Howl({
+                src: ["./<?php echo($root); ?>sounds/Reihe 6/r6 E7.mp3"],
+                sprite: {
+                    "0": [1627, 67831]
                 },
-                ready_callback: function () {
-                    $(".o").on("click", function () {
-                        ion.sound.play(
-                            "dingdongdang");
-                    });
-                    $(".x").on("click", function () {
-                        ion.sound.play(
-                            "Cartoon_Boing");
-                    });
-                    $(".so").on("click", function () {
-                        if ($(this).attr("id")
-                            .substr(-2) == "_p") {
-                            /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                                "r6 U7", {
-                                    part: "0"
-                                });
-                            $("#0").show();
-                            $(this).hide();
-                        } else if ($(this).html() ==
-                            "▶") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.play(
-                                "r6 U7", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            $(this).html("❚❚");
-                        } else if ($(this).html() ==
-                            "❚❚") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                                "r6 U7", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            $(this).html("▶");
-                        } else {
-                            /* _p 붙어 있지 않으면 id 그대로 재생 */
-                            ion.sound.play(
-                                "r6 U7", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
-                            if ($(this).attr(
-                                    "id") == "0") {
-                                $(this).hide();
-                                $("#0_p").show();
-                            };
-                        };
-                    });
-                    /* 브라우져 어디를 누르든 실행 */
-                    $(document).on("click", function () {
-                        /* 색 넣기 */
-                        ccl();
-                    }) /* 색칠하자 */
-                    function crr(ts) {
-                        var cr = "#C" + ts.attr("id");
-                        if (ts.hasClass("ans1")) {
-                            $(cr).addClass("bg-danger");
-                            $(cr).addClass(
-                                "text-white font-weight-bold rounded px-1"
-                            );
-                        } else if (ts.hasClass("ans2")) {
-                            $(cr).addClass("bg-success");
-                            $(cr).addClass(
-                                "text-white font-weight-bold rounded px-1"
-                            );
-                        } else if (ts.hasClass("ans3")) {
-                            $(cr).addClass("bg-info");
-                            $(cr).addClass(
-                                "text-white font-weight-bold rounded px-1"
-                            );
-                        }
-                    }
-                    /* 단어들 색칠하기: 상자 안에 있거나 선택되어 있거나 */
-                    function ccl() {
-                        /* 단어색 모두 취소 */
-                        $(".cbtn").removeClass("bg-danger");
-                        $(".cbtn").removeClass(
-                            "bg-success");
-                        $(".cbtn").removeClass("bg-info");
-                        $(".cbtn").removeClass(
-                            "text-white font-weight-bold rounded px-1"
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
-                        /* 상자 안에 있으면 색칠하기 */
-                        var il = $(".itm-lst").length;
-                        var bl = $(".cbtn").length;
-                        /* 리스트 갯수 구하기 */
-                        for (var i = 1; i <= il; i++) {
-                            /* 버튼 정렬 */
-                            for (var j = bl; j > 0; j--) {
-                                var rr = $("#lst-" + i +
-                                    ">#" + j);
-                                rr.insertAfter("#lst-" + i +
-                                    ">h2");
-                                crr(rr);
-                            }
-                        }
-                        /* 선택되었으면 색칠하기 */
-                        $(".btn-secondary").each(
-                            function () {
-                                crr($(this));
-                            }) /* 분리 전철을 합쳐볼까? */
-                        var fl = 0,
-                            lf, fn;
-                        $("#lst-2>button").each(
-                            function () {
-                                for (var i = 1; i <=
-                                    bl; i++) {
-                                    if ($(this)
-                                        .hasClass(i)) {
-                                        if ($("#lst-2>#" +
-                                                i)
-                                            .length) {
-                                            $(this)
-                                                .html($(
-                                                        this)
-                                                    .html() +
-                                                    " | " +
-                                                    $("#" +
-                                                        i
-                                                    )
-                                                    .html()
-                                                );
-                                            $("#" + i)
-                                                .hide();
-                                            $(this)
-                                                .removeClass(
-                                                    String(
-                                                        i
-                                                    )
-                                                );
-                                        }
-                                    }
-                                }
-                            });
-                        $(".itm-lst>button").each(
-                            function () {
-                                if ($(this).attr(
-                                        "id") == 94) {
-                                    $(this).html(
-                                        "sich denken<span class=\"tran\">&nbsp;<small>생각하다</small></span></button>"
-                                    );
-                                    $(this).find(
-                                            ".tran")
-                                        .hide();
-                                }
-                                if ($(this).attr(
-                                        "id") == 84) {
-                                    $(this).html(
-                                        "sich unterhalten<span class=\"tran\">&nbsp;<small>담소하다</small></span></button>"
-                                    );
-                                    $(this).find(
-                                            ".tran")
-                                        .hide();
-                                }
-                            }) /* 버튼에 속성 넣기 */
-                        $(".itm-lst>button").addClass(
-                            "btn-block btn-light");
-                        if ($("#itms>button.ans1").length <
-                            1 && $("#itms>button.ans2")
-                            .length < 1 && $(
-                                "#itms>button.ans3")
-                            .length < 1) {
-                            $(".tran").show();
-                            $(".ans0").hide();
-                        }
-                    };
-
-                    <?php require "wahl.php"; ?>
-                    /* 정답확인 */
-                    $("#chk").on("click", function () {
-                        if ($("#wahl").visibility !=
-                            "visible" && $(this)
-                            .attr("id") == "chk") {
-                            $(this).attr("id",
-                                "done");
-                            $(".itm").each(
-                                function () {
-                                    if ($(this)
-                                        .parent()
-                                        .attr(
-                                            "id"
-                                        )
-                                        .length >
-                                        5) {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                            )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                )
-                                                .length -
-                                                2,
-                                                2
-                                            );
-                                    } else {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                            )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                )
-                                                .length -
-                                                1,
-                                                1
-                                            );
-                                    }
-                                    $(".tran")
-                                        .show();
-                                    if ($(this)
-                                        .hasClass(
-                                            "ans" +
-                                            (a))
-                                    ) {
-                                        $(this)
-                                            .addClass(
-                                                "text-success font-weight-bold"
-                                            );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "text-warning font-weight-bold"
-                                            );
-                                        $(this)
-                                            .find(
-                                                ".tran"
-                                            )
-                                            .show();
-
-                                    };
-
-                                    if ($(this)
-                                        .hasClass(
-                                            "text-warning"
-                                        )) {
-                                        /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                                        for (var i =
-                                                1; i <=
-                                            $(
-                                                ".itm-lst")
-                                            .length; i++
-                                        ) {
-                                            if ($(
-                                                    this)
-                                                .hasClass(
-                                                    "ans" +
-                                                    i
-                                                )
-                                            ) {
-                                                for (
-                                                    var c =
-                                                        1; c <=
-                                                    $(
-                                                        ".cbtn")
-                                                    .length; c++
-                                                ) {
-                                                    if ($(
-                                                            this)
-                                                        .hasClass(
-                                                            c
-                                                        )
-                                                    ) {
-                                                        var cc =
-                                                            c;
-                                                    }
-                                                }
-                                                $(eval('"#lst-' +
-                                                        i +
-                                                        '"'
-                                                    ))
-                                                    .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-light btn-block text-danger bg-white font-weight-bold " +
-                                                        cc +
-                                                        "\" id=\"" +
-                                                        $(
-                                                            this)
-                                                        .attr(
-                                                            "id"
-                                                        ) +
-                                                        "\">" +
-                                                        $(
-                                                            this)
-                                                        .html() +
-                                                        "</button>"
-                                                    );
-                                            }
-                                        }
-                                    };
-
-                                }
-                            );
-
-                            ccl();
-                            $("#lst-2>.undefined")
-                                .each(function () {
-                                    if (!$(this)
-                                        .hasClass(
-                                            "text-warning"
-                                        )) {
-                                        $(this)
-                                            .remove();
-                                    }
-                                });
-
-
-                            /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            $(".itm-lst").each(
-                                function () {
-                                    if ($(this)
-                                        .find(
-                                            ".btn"
-                                        )) {
-                                        $(this)
-                                            .find(
-                                                ".btn"
-                                            )
-                                            .addClass(
-                                                "okay"
-                                            );
-                                    }
-                                });
-
-                            var qa = $(".okay")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(".okay")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                                100; /* 정답 비율 */
-                            var tcl =
-                                "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
-                            if (pe > 99) {
-                                var st = "원어민이세요?";
-                                var cl = "lime";
-                                var tcl = "dark";
-                            } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
-                                var cl = "success";
-                            } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
-                                var cl = "primary";
-                            } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
-                                var cl = "danger";
-                            }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-
-                        }
-                    });
+                    console.log("다시 읽어주세요!");
+                },
+                onload: function () {
                     $("#0").show();
                     $(".alert").hide();
-                    $("#3").insertAfter("#lst-1>h2");
-                    ccl();
+                    $(".so").on("click", function () {
+                        var t = $(this);
+                        var ti = t.attr("id");
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+                            last = ti;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        }
+                    });
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" + last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
                 }
             });
+
+            /* 브라우져 어디를 누르든 실행 */
+            $(document).on("click", function () {
+                /* 색 넣기 */
+                ccl();
+            });
+
+            /* 색칠하자 */
+            function crr(ts) {
+                var cr = "#C" + ts.attr("id");
+                if (ts.hasClass("ans1")) {
+                    $(cr).addClass("bg-danger");
+                    $(cr).addClass("text-white font-weight-bold rounded px-1");
+                } else if (ts.hasClass("ans2")) {
+                    $(cr).addClass("bg-success");
+                    $(cr).addClass("text-white font-weight-bold rounded px-1");
+                } else if (ts.hasClass("ans3")) {
+                    $(cr).addClass("bg-info");
+                    $(cr).addClass("text-white font-weight-bold rounded px-1");
+                }
+            };
+
+            /* 단어들 색칠하기: 상자 안에 있거나 선택되어 있거나 */
+            function ccl() {
+                /* 단어색 모두 취소 */
+                $(".cbtn").removeClass("bg-danger");
+                $(".cbtn").removeClass("bg-success");
+                $(".cbtn").removeClass("bg-info");
+                $(".cbtn").removeClass("text-white font-weight-bold rounded px-1");
+
+                /* 상자 안에 있으면 색칠하기 */
+                var il = $(".itm-lst").length;
+                var bl = $(".cbtn").length;
+
+                /* 리스트 갯수 구하기 */
+                for (var i = 1; i <= il; i++) {
+                    /* 버튼 정렬 */
+                    for (var j = bl; j > 0; j--) {
+                        var rr = $("#lst-" + i + ">#" + j);
+                        rr.insertAfter("#lst-" + i + ">h2");
+                        crr(rr);
+                    }
+                } /* 선택되었으면 색칠하기 */
+                $(".btn-secondary").each(function () {
+                    crr($(this));
+                });
+
+                /* 분리 전철을 합쳐볼까? */
+                var fl = 0,
+                    lf, fn;
+                $("#lst-2>button").each(function () {
+                    for (var i = 1; i <= bl; i++) {
+                        if ($(this).hasClass(i)) {
+                            if ($("#lst-2>#" + i).length) {
+                                $(this).html($(this).html() + " | " + $("#" + i).html());
+                                $("#" + i).hide();
+                                $(this).removeClass(String(i));
+                            }
+                        }
+                    }
+                });
+                $(".itm-lst>button").each(function () {
+                    if ($(this).attr("id") == 94) {
+                        $(this).html(
+                            "sich denken<span class=\"tran\">&nbsp;<small>생각하다</small></span></button>"
+                            );
+                        $(this).find(".tran").hide();
+                    }
+                    if ($(this).attr("id") == 84) {
+                        $(this).html(
+                            "sich unterhalten<span class=\"tran\">&nbsp;<small>담소하다</small></span></button>"
+                            );
+                        $(this).find(".tran").hide();
+                    }
+                });
+
+                /* 버튼에 속성 넣기 */
+                $(".itm-lst>button").addClass("btn-block btn-light");
+                if ($("#itms>button.ans1").length < 1 && $("#itms>button.ans2").length < 1 && $(
+                        "#itms>button.ans3").length < 1) {
+                    $(".tran").show();
+                    $(".ans0").hide();
+                }
+            };
+
+            <?php require "wahl.php"; ?>
+
+            /* 정답확인 */
+            $("#chk").on("click", function () {
+                if ($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+                    $(this).attr("id", "done");
+                    $(".itm").each(function () {
+                        if ($(this).parent().attr("id").length > 5) {
+                            var a = $(this).parent().attr("id").substr($(this).parent().attr(
+                                "id").length - 2, 2);
+                        } else {
+                            var a = $(this).parent().attr("id").substr($(this).parent().attr(
+                                "id").length - 1, 1);
+                        }
+                        $(".tran").show();
+                        if ($(this).hasClass("ans" + (a))) {
+                            $(this).addClass("text-success font-weight-bold");
+                        } else {
+                            $(this).addClass("text-warning font-weight-bold");
+                            $(this).find(".tran").show();
+                        };
+                        if ($(this).hasClass("text-warning")) {
+                            /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
+                            for (var i = 1; i <= $(".itm-lst").length; i++) {
+                                if ($(this).hasClass("ans" + i)) {
+                                    for (var c = 1; c <= $(".cbtn").length; c++) {
+                                        if ($(this).hasClass(c)) {
+                                            var cc = c;
+                                        }
+                                    }
+                                    $(eval('"#lst-' + i + '"')).append(
+                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-light btn-block text-danger bg-white font-weight-bold " +
+                                        cc + "\" id=\"" + $(this).attr("id") + "\">" + $(
+                                            this).html() + "</button>");
+                                }
+                            }
+                        };
+                    });
+                    ccl();
+                    $("#lst-2>.undefined").each(function () {
+                        if (!$(this).hasClass("text-warning")) {
+                            $(this).remove();
+                        }
+                    });
+
+                    /* 정답 확인 div 상자 배경색 속성 없애기 */
+                    $(this).removeClass("btn-light ");
+                    $(".itm-lst").each(function () {
+                        if ($(this).find(".btn")) {
+                            $(this).find(".btn").addClass("okay");
+                        }
+                    });
+                    var qa = $(".okay").length;
+
+                    /* 전체 문항 수 */
+                    var qr = $(".okay").length;
+
+                    /* 맞춘 항목 수 */
+                    var pe = (qr / qa) * 100;
+
+                    /* 정답 비율 */
+                    var tcl = "white";
+
+                    /* 기본 문자색 */
+
+                    /* 분류 기준은 100%, 80%, 60%, 40% */
+                    if (pe > 99) {
+                        var st = "원어민이세요?";
+                        var cl = "lime";
+                        var tcl = "dark";
+                    } else if (pe > 74) {
+                        var st = "어! 좀 하시는데요~^^";
+                        var cl = "success";
+                    } else if (pe > 49) {
+                        var st = "쓰읍~ 다시 해 보실까요?";
+                        var cl = "primary";
+                    } else {
+                        var st = "좀 더 분발해 주세요~";
+                        var cl = "danger";
+                    }
+                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                }
+            });
+            $("#0").show();
+            $(".alert").hide();
+            $("#3").insertAfter("#lst-1>h2");
+            ccl();
+            var pan = new Array();
+
+            /* pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"]; */
+            pan = [];
+            for (var p = 0; p < pan.length; p++) {
+                var pani = "#" + pan[p];
+                for (var n = 0; n < $(".itm-lst").length; n++) {
+                    if ($(pani).hasClass("ans" + (n + 1))) {
+                        $(pani).insertAfter($("#lst-" + (n + 1) + ">h2"));
+                        $(pani).addClass("btn-block btn-light");
+                    }
+                }
+            }
+            $("#0").show();
+            $(".alert").hide();
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

@@ -13,39 +13,31 @@
                         <small> 빈칸을 채우세요. </small>
                         [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                             표시됩니다.</small> ]
-                        <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
                             id="0_p">
                             ❚❚
                         </button>
                     </h2>
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
-                            버튼 또는 <button type="button"
-                                class="btn btn-sm btn-outline-secondary disabled">▶</button>
+                            버튼 또는 <button type="button" class="btn btn-sm btn-outline-secondary disabled">▶</button>
                             버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
                 </div>
             </div>
-            <div class="row my-2 py-2">
+            <div class="row my-2 py-2 lh350">
                 <div class="col">
-                    <span
-                        class="border border-dark rounded p-2">ausgepackt</span>
-                    <span
-                        class="border border-dark rounded p-2">besichtigt</span>
-                    <span class="border border-dark rounded p-2">gefahren</span>
-                    <span class="border border-dark rounded p-2">gegessen</span>
-                    <span class="border border-dark rounded p-2">gekauft</span>
-                    <span class="border border-dark rounded p-2">gemacht</span>
-                    <span class="border border-dark rounded p-2">gesetzt</span>
-                    <span
-                        class="border border-dark rounded p-2">getrunken</span>
-                    <span
-                        class="border border-dark rounded p-2">kennengelernt</span>
-                    <span class="border border-dark rounded p-2">verpasst</span>
+                    <span class="wd">ausgepackt</span>
+                    <span class="wd">besichtigt</span>
+                    <span class="wd">gefahren</span>
+                    <span class="wd">gegessen</span>
+                    <span class="wd">gekauft</span>
+                    <span class="wd">gemacht</span>
+                    <span class="wd">gesetzt</span>
+                    <span class="wd">getrunken</span>
+                    <span class="wd">kennengelernt</span>
+                    <span class="wd">verpasst</span>
                 </div>
             </div>
             <div class="row">
@@ -53,8 +45,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <tr>
-                                <th colspan="2" scope="col"
-                                    class="h2 bg-light text-center">
+                                <th colspan="2" scope="col" class="h2 bg-light text-center">
                                     <small>Mein Urlaub in Dresden</small></th>
                             </tr>
                         </thead>
@@ -63,39 +54,28 @@
                                 <td style="line-height: 250%;">
                                     <div class="input-group d-inline">
                                         Hallo, ich bin gut in Dresden
-                                        angekommen.<span
-                                            class="tran"><br><small>안녕, 난 드레스덴에
-                                                잘 도착했어.</small><br></span> <span
-                                            class="sen">Auf dem Incheon
+                                        angekommen.<span class="tran"><br><small>안녕, 난 드레스덴에
+                                                잘 도착했어.</small><br></span> <span class="sen">Auf dem Incheon
                                             Flughafen war es so voll von Leuten
                                             beim Check-in, dass ich beinah mein
-                                            Flugzeug <input type="text"
-                                                class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            Flugzeug <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                                 text-center border-dark d-inline-block t-6"
-                                                style="max-width: 150px; min-width: 100px;"
-                                                aria-label="." id="qst-1">
-                                            habe.</span><span
-                                            class="tran"><br><small>인천공항에서 체크인할
+                                                style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-1">
+                                            habe.</span><span class="tran"><br><small>인천공항에서 체크인할
                                                 때 사람들로 꽉 차서 거의 비행기를 놓칠 뻔
                                                 했어.</small><br></span> Aber,
                                         Gott sei Dank, gab es 1
-                                        Stunde-Verspätung!<span
-                                            class="tran"><br><small>하지만 다행히도 한
+                                        Stunde-Verspätung!<span class="tran"><br><small>하지만 다행히도 한
                                                 시간 지연되었어!.</small><br></span>
                                         Ich bin zuerst nach Frankfurt und dann
-                                        anschließend nach Dresden geflogen.<span
-                                            class="tran"><br><small>난 먼저 프랑크푸르트로
+                                        anschließend nach Dresden geflogen.<span class="tran"><br><small>난 먼저 프랑크푸르트로
                                                 간 다음 이어서 드레스덴으로
-                                                갔어.</small><br></span> <span
-                                            class="sen">Nach der Ankunft in
+                                                갔어.</small><br></span> <span class="sen">Nach der Ankunft in
                                             Dresden bin ich mit dem Taxi ins
-                                            Hotel <input type="text"
-                                                class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            Hotel <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                                 text-center border-dark d-inline-block t-6"
-                                                style="max-width: 150px; min-width: 100px;"
-                                                aria-label="."
-                                                id="qst-2">.</span><span
-                                            class="tran"><br><small>드레스덴에 도착 후
+                                                style="max-width: 150px; min-width: 100px;" aria-label="."
+                                                id="qst-2">.</span><span class="tran"><br><small>드레스덴에 도착 후
                                                 택시를 타고 호텔로
                                                 갔어.</small><br></span>
                                     </div>
@@ -103,89 +83,64 @@
                             </tr>
                             <td style="line-height: 250%;">
                                 <div class="input-group d-inline">
-                                    Dort habe ich meinen Koffer <input
-                                        type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    Dort habe ich meinen Koffer <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-3"> und bin
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-3"> und bin
                                     gleich mit der Tram in die Stadtmitte
                                     gefahren und habe dort den Zwinger, die
-                                    Frauenkirche und vieles mehr besucht.<span
-                                        class="tran"><br><small>거기서 짐을 풀고 나서 바로
+                                    Frauenkirche und vieles mehr besucht.<span class="tran"><br><small>거기서 짐을 풀고 나서 바로
                                             트램을 타고 시내로 가서 츠빙어, 프라우엔교회, 그리고 여러 곳을
                                             더 방문했어.</small><br></span> Besonders
                                     habe ich in der Gemäldegalerie Alte Meister
                                     am Zwinger die „Sixtinische Madonna” von
-                                    Raffael <input type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    Raffael <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-4">.<span
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-4">.<span
                                         class="tran"><br><small>특히 츠빙어 옆 알테 마이스터
                                             회화관에서 라파엘의 “시스틴의 성모”를
                                             관람했어.</small><br></span> Das war
-                                    einfach wunderbar.<span
-                                        class="tran"><br><small>그것은 정말
+                                    einfach wunderbar.<span class="tran"><br><small>그것은 정말
                                             굉장했어.</small><br></span> Danach habe
-                                    ich mit dem Bus eine Stadtrundfahrt <input
-                                        type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    ich mit dem Bus eine Stadtrundfahrt <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-5">.<span
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-5">.<span
                                         class="tran"><br><small>그 후에 버스로 시내관광투어를
                                             했어.</small><br></span> Die Stadt war
-                                    wirklich toll!<span
-                                        class="tran"><br><small>도시가 정말
+                                    wirklich toll!<span class="tran"><br><small>도시가 정말
                                             멋졌어!</small><br></span> Du kennst
                                     mich ja!<span class="tran"><br><small>너도
                                             알잖아!</small><br></span> Ich habe in
                                     der Altmarkt Galerie Geschenke für meine
-                                    Familie und auch für dich <input type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    Familie und auch für dich <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-6">.<span
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-6">.<span
                                         class="tran"><br><small>알트마르크트 갤러리에서는
                                             가족과 너한테 줄 선물을 샀어.</small><br></span>
-                                    Dann habe ich mich in ein Café <input
-                                        type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    Dann habe ich mich in ein Café <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-7">.<span
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-7">.<span
                                         class="tran"><br><small>그런 다음 카페에 앉아
                                             있었어.</small><br></span> Dort habe
-                                    ich Kaffee <input type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    ich Kaffee <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-8"> und den
-                                    berühmten Kuchen, Eierschecke <input
-                                        type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-8"> und den
+                                    berühmten Kuchen, Eierschecke <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-9">.<span
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-9">.<span
                                         class="tran"><br><small>거기서 커피를 마시고 유명한
                                             케이크인 아이어슈에크를 먹었어.</small><br></span>
-                                    Einfach köstlich.<span
-                                        class="tran"><br><small>정말
+                                    Einfach köstlich.<span class="tran"><br><small>정말
                                             맛있었어.</small><br></span>
                                 </div>
                             </td>
                             </tr>
                             <td style="line-height: 250%;">
                                 <div class="input-group d-inline">
-                                    Stell dir vor!<span
-                                        class="tran"><br><small>상상해봐!</small><br></span>
+                                    Stell dir vor!<span class="tran"><br><small>상상해봐!</small><br></span>
                                     Ich habe da einen Jungen aus Österreich auf
-                                    dem Konzert <input type="text"
-                                        class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
+                                    dem Konzert <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1
                                         text-center border-dark d-inline-block t-6"
-                                        style="max-width: 150px; min-width: 100px;"
-                                        aria-label="." id="qst-10">.<span
+                                        style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-10">.<span
                                         class="tran"><br><small>난 오스트리아 출신 젊은
                                             남자를 콘서트에서 알게 되었어.</small><br></span>
                                     Er ist seit 3 Tagen in Dresden und hört gern
@@ -193,18 +148,14 @@
                                             머문지 3일 되었고 음악 듣는 걸
                                             좋아해!</small><br></span> Wir sind
                                     zusammen ins Musikcafé gegangen, und haben
-                                    zusammen Musik gehört und getanzt.<span
-                                        class="tran"><br><small>우리는 함께 음악카페에 가서
+                                    zusammen Musik gehört und getanzt.<span class="tran"><br><small>우리는 함께 음악카페에 가서
                                             함께 음악을 듣고 춤을 추었어.</small><br></span>
                                     Ich habe auch heute Abend mit ihm eine
-                                    Verabredung!<span
-                                        class="tran"><br><small>오늘도 저녁에 그와 약속이
+                                    Verabredung!<span class="tran"><br><small>오늘도 저녁에 그와 약속이
                                             있단다!</small><br></span> Wir wollen
-                                    zusammen in die Oper gehen.<span
-                                        class="tran"><br><small>우린 함께 오페라에
+                                    zusammen in die Oper gehen.<span class="tran"><br><small>우린 함께 오페라에
                                             갈거야.</small><br></span> Ich schreibe
-                                    dir bald wieder.<span
-                                        class="tran"><br><small>곧 다시
+                                    dir bald wieder.<span class="tran"><br><small>곧 다시
                                             쓸게.</small><br></span> Muss schon
                                     wieder los!<span class="tran"><br><small>벌써
                                             다시 나가 봐야 해!</small><br></span>
@@ -217,8 +168,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -356,10 +306,10 @@
                                 ".an")
                             .length / $(
                                 ".q").length
-                            ) * 100);
+                        ) * 100);
                         $(".progress>.bar").attr(
                             "width", perc + "%;"
-                            );
+                        );
                     });
                     /* 팝업 내용 사라지기 */
                     $(".pop").popover().click(function () {
@@ -384,13 +334,13 @@
                             "▶") {
                             /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
                             ion.sound.play(
-                            "r10 D2", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
+                                "r10 D2", {
+                                    part: $(
+                                            this)
+                                        .attr(
+                                            "id"
                                         )
-                            });
+                                });
                             $(this).html("❚❚");
                         } else if ($(this).html() ==
                             "❚❚") {
@@ -401,23 +351,23 @@
                                             this)
                                         .attr(
                                             "id"
-                                            )
+                                        )
                                 }
                             );
                             $(this).html("▶");
                         } else {
                             /* _p 붙어 있지 않으면 id 그대로 재생 */
                             ion.sound.play(
-                            "r10 D2", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
+                                "r10 D2", {
+                                    part: $(
+                                            this)
+                                        .attr(
+                                            "id"
                                         )
-                            });
+                                });
                             /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
                             if ($(this).attr(
-                                "id") == "0") {
+                                    "id") == "0") {
                                 $(this).hide();
                                 $("#0_p").show();
                             };
@@ -439,7 +389,7 @@
                         if (rfchk($(this))) {
                             $(this).addClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).addClass(
                                 "bg-success");
                             $("#ant-" + $(this)
@@ -450,7 +400,7 @@
                         } else {
                             $(this).addClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).addClass(
                                 "bg-danger");
                             $("#ant-" + $(this)
@@ -466,7 +416,7 @@
                                 "bg-success");
                             $(this).removeClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                         }
                         if ($(this).val()) {
                             $("#ant-" + $(this)
@@ -477,7 +427,7 @@
                                     .attr("id")
                                     .substr(4))
                                 .text($(this)
-                            .val());
+                                    .val());
                         } else {
                             $("#ant-" + $(this)
                                     .attr("id")
@@ -496,7 +446,7 @@
                                     .attr("id")
                                     .substr(4))
                                 .text($(this)
-                            .val());
+                                    .val());
                         }
                         if ($("#ant-" + $(this)
                                 .attr("id").substr(
@@ -504,20 +454,20 @@
                             if (rfchk($(this))) {
                                 $(this).addClass(
                                     "text-white font-weight-bold"
-                                    );
+                                );
                                 $(this).addClass(
                                     "bg-success"
-                                    );
+                                );
                                 $("#ant-" + $(this)
                                         .attr("id")
                                         .substr(4))
                                     .addClass(
                                         "text-success"
-                                        );
+                                    );
                             } else {
                                 $(this).addClass(
                                     "text-white font-weight-bold"
-                                    );
+                                );
                                 $(this).addClass(
                                     "bg-danger");
                                 $("#ant-" + $(this)
@@ -525,7 +475,7 @@
                                         .substr(4))
                                     .addClass(
                                         "text-danger"
-                                        );
+                                    );
                             }
                         }
                     });
@@ -547,13 +497,13 @@
                                     "bg-danger")) {
                                 ion.sound.play(
                                     "Cartoon_Boing"
-                                    );
+                                );
                             } else if ($(this)
                                 .hasClass(
                                     "bg-success")) {
                                 ion.sound.play(
                                     "dingdongdang"
-                                    );
+                                );
                                 $(this).prop(
                                     "disabled",
                                     true);
@@ -565,7 +515,7 @@
                                 "disabled")) {
                             $(this).removeClass(
                                 "text-white font-weight-bold"
-                                );
+                            );
                             $(this).removeClass(
                                 "bg-success");
                         }
@@ -586,10 +536,10 @@
                                         this)
                                     .attr(
                                         "id"
-                                        )
+                                    )
                                     .substr(
                                         4, 1
-                                        );
+                                    );
                             }
                         });
                         if ($(this).attr("id") ==
@@ -602,19 +552,18 @@
                                             i + 1))
                                     .val();
                                 if (rfchk($("#qst-" +
-                                            (i + 1)
-                                            ), true
-                                        )) {
+                                        (i + 1)
+                                    ), true)) {
                                     $("#qst-" + (i +
                                             1))
                                         .addClass(
                                             "cr"
-                                            );
+                                        );
                                     $("#qst-" + (i +
                                             1))
                                         .removeClass(
                                             "rounded-0"
-                                            );
+                                        );
                                 } else {
                                     $("#qst-" + (i +
                                         1)).val(
@@ -628,25 +577,25 @@
                                             1))
                                         .addClass(
                                             "wa"
-                                            );
+                                        );
                                     $("#qst-" + (i +
                                             1))
                                         .removeClass(
                                             "rounded-0"
-                                            );
+                                        );
                                     if (!$.isArray(
                                             an[i]
-                                            )) {
+                                        )) {
                                         $("#qst-" +
                                                 (i +
                                                     1)
-                                                )
+                                            )
                                             .after(
                                                 "<div class=\"d-block ra t-6\" style=\"max-width: 150px; min-width: 100px; max-width: 100px;\">" +
                                                 an[
                                                     i] +
                                                 "</div>"
-                                                );
+                                            );
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
@@ -655,15 +604,15 @@
                                                 (an[i]
                                                     .length -
                                                     1
-                                                    ); fd >=
+                                                ); fd >=
                                             0; fd--
-                                            ) {
+                                        ) {
                                             if (fd <
                                                 (an[i]
                                                     .length -
                                                     1
-                                                    )
-                                                ) {
+                                                )
+                                            ) {
                                                 r = r +
                                                     " / ";
                                             }
@@ -671,7 +620,8 @@
                                                 an[
                                                     i]
                                                 [
-                                                fd];
+                                                    fd
+                                                ];
                                         }
                                         r = r +
                                             "</div>";
@@ -682,21 +632,21 @@
                                             $("#qst-" +
                                                     (i +
                                                         1)
-                                                    )
+                                                )
                                                 .closest(
                                                     "span.sen"
-                                                    )
+                                                )
                                                 .after(
                                                     r
-                                                    );
+                                                );
                                         } else {
                                             $("#qst-" +
                                                     (i +
                                                         1)
-                                                    )
+                                                )
                                                 .after(
                                                     r
-                                                    );
+                                                );
                                         }
                                     }
                                 }
@@ -704,7 +654,7 @@
                                         1))
                                     .hasClass(
                                         "bg-success"
-                                        )) {
+                                    )) {
                                     ri++;
                                 }
                             }
@@ -712,14 +662,14 @@
                             $(this).removeClass(
                                 "btn-light ");
                             var qa = $(".q")
-                            .length; /* 전체 문항 수 */
+                                .length; /* 전체 문항 수 */
                             var qr = $(
                                     ".bg-success")
                                 .length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) *
-                            100; /* 정답 비율 */
+                                100; /* 정답 비율 */
                             var tcl =
-                            "white"; /* 기본 문자색 */
+                                "white"; /* 기본 문자색 */
                             /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
@@ -764,7 +714,7 @@
                         $(pann).val(an[(pan[p] - 1)]);
                         $(pann).addClass(
                             "bg-success text-white font-weight-bold"
-                            );
+                        );
                         $(pann).prop("disabled", true);
                         /* $(pann).closest("tr").find(".tran").show(); */
                     }

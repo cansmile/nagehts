@@ -17,17 +17,13 @@
                 </div>
             </div>
             <div class="row my-2">
-                <span class="wd mr-1">ebacken</span>
-                <span class="wd mr-1">efahren</span>
-                <span class="wd mr-1">egrillt</span>
-                <span class="wd mr-1">ehört</span>
-                <span class="wd mr-1">ekommen</span>
-                <span class="wd mr-1">emacht</span>
-                <span class="wd mr-1">eredet</span>
+                <span class="wd mr-1">gebacken</span>
+                <span class="wd mr-1">gefahren</span>
+                <span class="wd mr-1">gekommen</span>
+                <span class="wd mr-1">gemacht</span>
+                <span class="wd mr-1">geredet</span>
                 <span class="wd mr-1">geblieben</span>
                 <span class="wd mr-1">gegangen</span>
-                <span class="wd mr-1">gelacht</span>
-                <span class="wd mr-1">getanzt</span>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -162,8 +158,8 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["ngerufen", "ratuliert", "emacht", "ebacken", "ekommen",
-            "efahren", "egrillt", "ehört", "eredet", "getanzt", "gelacht",
+        var an = ["angerufen", "gratuliert", "gemacht", "gebacken", "gekommen",
+            "gefahren", "gegrillt", "gehört", "reden", "getanzt", "gelacht",
             "gegangen", "geblieben"
         ];
         $(document).ready(function () {

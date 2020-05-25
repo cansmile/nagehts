@@ -377,7 +377,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>10.)</strong> Der Geburtstag war eine
+                            <strong>10.</strong> Der Geburtstag war eine
                             Katastrophe.
                             <span
                                 class="tran"><br><small>translate</small></span>

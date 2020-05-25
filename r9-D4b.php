@@ -451,7 +451,7 @@
                     });
 
                     var pan = new Array();
-                    pan = [1, 2, 7, 9, 10];
+                    pan = [1, 2, 7, 8, 9, 10, 11];
                     for (var p = 0; p < pan.length; p++) {
                         var pann = "#qst-" + pan[p];
                         $(pann).val(an[(pan[p] - 1)]);

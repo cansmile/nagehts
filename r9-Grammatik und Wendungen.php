@@ -380,7 +380,7 @@
                                         </tr>
                                         <tr>
                                             <td>Man kann Julia eine Halskette
-                                                schenken, weil sie gern Schmuck
+                                                schenken, <strong>weil</strong> sie gern Schmuck
                                                 <span
                                                     class="wd_inline"><strong>trägt</strong></span>.
                                             </td>

@@ -18,24 +18,19 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="row" rowspan="4"
-                                    width="5%">1.
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-1.png"
-                                        alt="erkältet"
+                                <th scope="row" rowspan="4" width="5%">1.
+                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-1.png" alt="erkältet"
                                         class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
                                         style="max-width: 180px; height: auto;">
                                 </th>
                                 <td><strong>erkältet:</strong>
-                                    <span
-                                        class="tran"><br><small>감기</small></span>
+                                    <span class="tran"><br><small>감기</small></span>
                                 </td>
                                 <td>
                                     <div class="input-group">Mina&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon1"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-1">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon1" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-1">
                                         &nbsp;erkältet.
                                     </div>
                                     <span class="tran"><small>미나는
@@ -44,22 +39,17 @@
                             </tr>
                             <tr>
                                 <td>im Bett bleiben
-                                    <span
-                                        class="tran"><br><small>침대에</small></span>
+                                    <span class="tran"><br><small>침대에</small></span>
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon2"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-2">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon2" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-2">
                                         &nbsp;im Bett&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon3"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-3">.
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon3" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-3">.
                                     </div>
                                     <span class="tran"><small>그녀는 침대에 있어야만
                                             합니다.</small></span>
@@ -72,17 +62,13 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon4"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-4 t-6" id="qst-4">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon4" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-4">
                                         &nbsp;nicht schwimmen&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon5"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-5">.
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon5" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-5">.
                                     </div>
                                     <span class="tran"><small>그녀는 수영하러 가면
                                             안됩니다.</small></span>
@@ -95,17 +81,13 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon6"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-4 t-6" id="qst-6">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon6" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-6">
                                         &nbsp;Nasentropfen&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon7"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-7">.
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon7" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-7">.
                                     </div>
                                     <span class="tran"><small>그녀는 콧물약을 넣어야만
                                             합니다.</small></span>
@@ -113,8 +95,7 @@
                             </tr>
                             <tr>
                                 <th scope="row" rowspan="4">2.
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-2.png"
-                                        alt="nervös"
+                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-2.png" alt="nervös"
                                         class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
                                         style="max-width: 180px; height: auto;">
                                 </th>
@@ -124,11 +105,9 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon8"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-8">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon8" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-8">
                                         &nbsp;nervös.
                                     </div>
                                     <span class="tran"><small>그녀는
@@ -137,22 +116,17 @@
                             </tr>
                             <tr>
                                 <td>Alkohol
-                                    <span
-                                        class="tran"><br><small>술</small></span>
+                                    <span class="tran"><br><small>술</small></span>
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon9"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon9" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-5 t-6" id="qst-9">
                                         &nbsp;keinen Alkohol&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon10"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-4 t-6" id="qst-10">.
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon10" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-10">.
                                     </div>
                                     <span class="tran"><small>그녀는 술을 마시지
                                             말아야합니다.</small></span>
@@ -165,17 +139,13 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon11"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-11">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon11" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-11">
                                         &nbsp;Gymnastik&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon12"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-4 t-6" id="qst-12">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon12" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-12">
                                     </div>
                                     <span class="tran"><small>그녀는 체조를
                                             해야합니다.</small></span>
@@ -183,17 +153,14 @@
                             </tr>
                             <tr>
                                 <td>viel spazieren gehen
-                                    <span
-                                        class="tran"><br><small></small></span>
+                                    <span class="tran"><br><small></small></span>
                                 </td>
                                 <td>
                                     <div class="input-group">und viel
                                         spazieren&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon13"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-13">.
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon13" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-13">.
                                     </div>
                                     <span class="tran"><small>그리고 많이 산책해야만
                                             합니다.</small></span>
@@ -201,8 +168,7 @@
                             </tr>
                             <tr>
                                 <th scope="row" rowspan="4">3.
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-3.png"
-                                        alt="Durchfall"
+                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-3.png" alt="Durchfall"
                                         class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
                                         style="max-width: 180px; height: auto;">
                                 </th>
@@ -212,11 +178,9 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Er&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon14"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-14">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon14" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-14">
                                         &nbsp;Durchfall.
                                     </div>
                                     <span class="tran"><small>그는 설사를
@@ -230,17 +194,13 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Er&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon15"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-15">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon15" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-15">
                                         &nbsp;viel Wasser&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon16"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-16">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon16" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-16">
                                         .
                                     </div>
                                     <span class="tran"><small>그는 물을 많이
@@ -254,11 +214,9 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Er&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon17"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-4 t-6" id="qst-17">&nbsp;keine
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon17" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-17">&nbsp;keine
                                         Schokolade
                                     </div>
                                     <span class="tran"><small>그는 초콜릿을 먹어서는
@@ -272,11 +230,9 @@
                                 </td>
                                 <td>
                                     <div class="input-group">und kein Eis&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon18"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-18">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon18" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-18">
                                         &nbsp;.
                                     </div>
                                     <span class="tran"><small>그리고 아이스크림을 먹어서는
@@ -297,11 +253,9 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon19"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-19">Rückenschmerzen.
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon19" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-19">Rückenschmerzen.
                                     </div>
                                     <span class="tran"><small>그녀는 허리 통증이
                                             있습니다.</small></span>
@@ -314,17 +268,13 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon20"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-20">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon20" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-20">
                                         &nbsp;Sport&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon21"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-21">,
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon21" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-21">,
                                     </div>
                                     <span class="tran"><small>그녀는 운동을 해야
                                             합니다.</small></span>
@@ -337,11 +287,9 @@
                                 </td>
                                 <td>
                                     <div class="input-group">z.B. Yoga&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon22"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-4 t-6" id="qst-22">
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon22" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-22">
                                     </div>
                                     <span class="tran"><small>예를 들어 요가를
                                             해야하고</small></span>
@@ -354,11 +302,9 @@
                                 </td>
                                 <td>
                                     <div class="input-group">und gerade&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
-                                            aria-describedby="basic-addon23"
-                                            class="text-center form-control q border-bottom-only border-dark rounded-0
-                                            col-3 t-6" id="qst-23">.
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            aria-describedby="basic-addon23" class="text-center form-control q border-bottom-only border-dark rounded-0
+                                            t-6" id="qst-23">.
                                     </div>
                                     <span class="tran"><small>바르게 앉아야
                                             합니다.</small></span>
@@ -370,8 +316,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -399,14 +344,15 @@
             "essen", "hat", ["soll", "muss"], "treiben", "machen", "sitzen"
         ];
         $(document).ready(function () {
-            /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
-            /* 값 확인해보자, io값이 참이면 전체 검사 */
+            /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */ /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
                 var q, qn, a, b, fl;
                 q = th.val().length;
                 qn = (th.attr("id").substr(4)) - 1;
                 a = th.val();
                 a = a.replace(/ /gi, "");
+                di(th);
+
                 if (!$.isArray(an[qn])) {
                     /* 1 인 경우 */
                     if (io) {
@@ -432,71 +378,55 @@
                         }
                     }
                 }
-            }
+            };
+
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-danger");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-success");
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                 if (rfchk($(this))) {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-success");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-success");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                 } else {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-danger");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-danger");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                 }
                 if (!$(this).val()) {
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                 }
                 if ($(this).val()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .show();
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                    $("#ant-" + $(this).attr("id").substr(4)).show();
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 } else {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .hide();
+                    $("#ant-" + $(this).attr("id").substr(4)).hide();
                 }
             });
+
             $(".q").on("focusin", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .show();
-                if (!$("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                $("#ant-" + $(this).attr("id").substr(4)).show();
+                if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 }
-                if ($("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
+                if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                     if (rfchk($(this))) {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-success");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-success");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-danger");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-danger");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                 }
             });
+
             $(".q").on("focusout", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .hide();
+                $("#ant-" + $(this).attr("id").substr(4)).hide();
                 if (rfchk($(this), true)) {
                     $(this).addClass("bg-success");
                     $(this).addClass("text-white");
@@ -513,13 +443,12 @@
                 }
                 $(this).removeClass("bg-danger");
                 if (!$(this).attr("disabled")) {
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                     $(this).removeClass("bg-success");
                 }
-            })
-            /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
-            $("#chk").on("click", function () {
+            });
+
+            /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */ $("#chk").on("click", function () {
                 var na = "";
                 var ri = 0;
                 var qst = $(".q").length;
@@ -528,70 +457,51 @@
                         na += ", ";
                     }
                     if ($(this).val() == "") {
-                        na += $(this).attr("id").substr(
-                            4, 1);
+                        na += $(this).attr("id").substr(4, 1);
                     }
                 });
-                if ($(this).attr("id") == "done") {} else if (
-                    na == "") {
+
+                if ($(this).attr("id") == "done") {} else if (na == "") {
                     for (var i = 0; i < an.length; i++) {
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
+                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                         } else {
                             $("#qst-" + (i + 1)).val(oran);
-                            $("#qst-" + (i + 1)).attr(
-                                "disabled", true);
-                            $("#qst-" + (i + 1)).addClass(
-                                "wa"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
-
+                            $("#qst-" + (i + 1)).attr("disabled", true);
+                            $("#qst-" + (i + 1)).addClass("wa");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-block ra t-6\">" +
-                                    an[i] + "</div>");
+                                $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] +
+                                    "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r =
-                                    "<div class=\"d-block ra t-6\">";
-                                for (var fd = (an[i].length -
-                                    1); fd >= 0; fd--) {
-                                    if (fd < (an[i].length -
-                                        1)) {
+                                var r = "<div class=\"d-block ra t-6\">";
+                                for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                    if (fd < (an[i].length - 1)) {
                                         r = r + " / ";
                                     }
                                     r = r + an[i][fd];
                                 }
                                 r = r + "</div>";
                                 if ($("span.sen").length > 0) {
-                                    $("#qst-" + (i + 1))
-                                        .closest("span.sen")
-                                        .after(r);
+                                    $("#qst-" + (i + 1)).closest("span.sen").after(r);
                                 } else {
-                                    $("#qst-" + (i + 1)).after(
-                                        r);
+                                    $("#qst-" + (i + 1)).after(r);
                                 }
                             }
-
                         }
-                        if ($("#qst-" + (i + 1)).hasClass(
-                                "bg-success")) {
+                        if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                             ri++;
                         }
                     }
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-
                     var qa = $(".q").length; /* 전체 문항 수 */
-                    var qr = $(".bg-success")
-                    .length; /* 맞춘 항목 수 */
+                    var qr = $(".bg-success").length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
 
@@ -610,31 +520,64 @@
                         var st = "좀 더 분발해 주세요~";
                         var cl = "danger";
                     }
-
-                    $(this).addClass("btn-" + cl + " text-" +
-                        tcl);
-                    $(this).html("<h4>" + qa + "문제 중 " + qr +
-                        "개를 맞히셨네요!<br>" + st + "</h4>");
-
+                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                     $(this).prop("disabled", true);
                     $(".tran").show();
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
             });
+
+
+            /* 역동적 입력란 */
+            function di(th) {
+                var le = 0,
+                    mp = 8,
+                    l = th.val().length;
+                if (l < 5) {
+                    var mp = 10;
+                }
+                if (l >= 20) {
+                    var mp = 6;
+                }
+                if (l < 20) {
+                    var mp = 8;
+                } else {
+                    var mp = 8;
+                }
+
+                if (l < 5) {
+                    l = 5;
+                }
+                if (l < 7) {
+                    le = l * 2.2;
+                } else if (l >= 20) {
+                    le = l * 1.45;
+                } else if (l >= 5) {
+                    le = l * 1.55;
+                }
+                var w = (le + 1) * mp + "px";
+                th.addClass("mx-1");
+                th.css("min-width", w);
+                th.css("max-width", w);
+                th.css("width", w);
+            };
+
+            /* 전체 입력란 폭 맞추기 */
+            $(".q").each(function () {
+                di($(this));
+            });
+
             var pan = new Array();
-            /* pan=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,30,31,32,33,34]; */
             pan = [1, 9, 10, 15, 16, 20];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
                 $(pann).val(an[(pan[p] - 1)]);
                 $(pann).val($(pann).val().replace(",", " / "));
-                $(pann).addClass(
-                    "bg-success text-white font-weight-bold");
+                $(pann).addClass("bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
-                /* $(pann).closest("tr").find(".tran").show(); */
             }
         });
 

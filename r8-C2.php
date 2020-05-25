@@ -24,7 +24,7 @@
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so"
                         id="2">
-                        Zahnschmerzen(Pl.)<span
+                        Zahnschmerzen<span
                             class="tran"><br><small>치통</small></span>
                     </button>
                     <button type="button"

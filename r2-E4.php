@@ -33,10 +33,10 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">1.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">heißt</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">er</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">wie</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">heißt</span>|<span
+                                            class="py-2 px-2 d-inline-block">er</span>|<span
+                                            class="py-2 px-2 d-inline-block">wie</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -109,10 +109,10 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">Tommy</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">er</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">heißt</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">Tommy</span>|<span
+                                            class="py-2 px-2 d-inline-block">er</span>|<span
+                                            class="py-2 px-2 d-inline-block">heißt</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>
@@ -187,10 +187,10 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">2.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">wohnst</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">du</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">wo</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">wohnst</span>|<span
+                                            class="py-2 px-2 d-inline-block">du</span>|<span
+                                            class="py-2 px-2 d-inline-block">wo</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -263,11 +263,11 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">in
+                                            class="py-2 px-2 d-inline-block">in
                                             Daegu</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">du</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">wohnst</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">du</span>|<span
+                                            class="py-2 px-2 d-inline-block">wohnst</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -340,12 +340,12 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">Ja,</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">in
+                                            class="py-2 px-2 d-inline-block">Ja,</span>|<span
+                                            class="py-2 px-2 d-inline-block">in
                                             Daegu</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">ich</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">wohne</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">ich</span>|<span
+                                            class="py-2 px-2 d-inline-block">wohne</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>
@@ -429,10 +429,10 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">3.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">kommt</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">er</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">woher</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">kommt</span>|<span
+                                            class="py-2 px-2 d-inline-block">er</span>|<span
+                                            class="py-2 px-2 d-inline-block">woher</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -505,11 +505,11 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">aus
+                                            class="py-2 px-2 d-inline-block">aus
                                             Chile</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">er</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">kommt</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">er</span>|<span
+                                            class="py-2 px-2 d-inline-block">kommt</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>
@@ -584,11 +584,11 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">4.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">in
+                                            class="py-2 px-2 d-inline-block">in
                                             Asien</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Vietnam</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">liegt</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">Vietnam</span>|<span
+                                            class="py-2 px-2 d-inline-block">liegt</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -661,12 +661,12 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">ja,</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">in
+                                            class="py-2 px-2 d-inline-block">ja,</span>|<span
+                                            class="py-2 px-2 d-inline-block">in
                                             Asien</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Vietnam</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">liegt</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">Vietnam</span>|<span
+                                            class="py-2 px-2 d-inline-block">liegt</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>
@@ -750,11 +750,11 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">5.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">sprechen</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Sie</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">welche
+                                            class="py-2 px-2 d-inline-block">sprechen</span>|<span
+                                            class="py-2 px-2 d-inline-block">Sie</span>|<span
+                                            class="py-2 px-2 d-inline-block">welche
                                             Sprachen</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -828,11 +828,11 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">Deutsch
+                                            class="py-2 px-2 d-inline-block">Deutsch
                                             und Englisch</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">ich</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">spreche</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">ich</span>|<span
+                                            class="py-2 px-2 d-inline-block">spreche</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>
@@ -908,10 +908,10 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">6.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">Koreanisch</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">du</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">sprichst</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">Koreanisch</span>|<span
+                                            class="py-2 px-2 d-inline-block">du</span>|<span
+                                            class="py-2 px-2 d-inline-block">sprichst</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -984,12 +984,12 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">ja,</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Koreanisch</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">ich</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">spreche</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">gut</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">ja,</span>|<span
+                                            class="py-2 px-2 d-inline-block">Koreanisch</span>|<span
+                                            class="py-2 px-2 d-inline-block">ich</span>|<span
+                                            class="py-2 px-2 d-inline-block">spreche</span>|<span
+                                            class="py-2 px-2 d-inline-block">gut</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>
@@ -1082,10 +1082,10 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">7.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">du</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Chinesin</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">bist</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">du</span>|<span
+                                            class="py-2 px-2 d-inline-block">Chinesin</span>|<span
+                                            class="py-2 px-2 d-inline-block">bist</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -1158,11 +1158,11 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">nein,</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Koreanerin</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">ich</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">bin</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">nein,</span>|<span
+                                            class="py-2 px-2 d-inline-block">Koreanerin</span>|<span
+                                            class="py-2 px-2 d-inline-block">ich</span>|<span
+                                            class="py-2 px-2 d-inline-block">bin</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>
@@ -1246,10 +1246,10 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block">8.&nbsp;<span
-                                            class="py-2 px-2 d-inline-block wd">er</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Deutscher</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">ist</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">?</span>
+                                            class="py-2 px-2 d-inline-block">er</span>|<span
+                                            class="py-2 px-2 d-inline-block">Deutscher</span>|<span
+                                            class="py-2 px-2 d-inline-block">ist</span>|<span
+                                            class="py-2 px-2 d-inline-block">?</span>
                                     </div>
                                 </th>
                             </tr>
@@ -1322,11 +1322,11 @@
                             <tr>
                                 <th colspan="2" scope="col">
                                     <div class="d-inline-block"><span
-                                            class="py-2 px-2 d-inline-block wd">nein,</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">Franzose</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">er</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">ist</span>|<span
-                                            class="py-2 px-2 d-inline-block wd">.</span>
+                                            class="py-2 px-2 d-inline-block">nein,</span>|<span
+                                            class="py-2 px-2 d-inline-block">Franzose</span>|<span
+                                            class="py-2 px-2 d-inline-block">er</span>|<span
+                                            class="py-2 px-2 d-inline-block">ist</span>|<span
+                                            class="py-2 px-2 d-inline-block">.</span>
                                     </div>
                                 </th>
                             </tr>

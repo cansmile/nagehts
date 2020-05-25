@@ -92,7 +92,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>1)</strong> Das Geburtstagskind heisst
+                            <strong>1.</strong> Das Geburtstagskind heisst
                             Julia.
                             <span
                                 class="tran"><br><small>translate</small></span>
@@ -124,7 +124,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>2)</strong> Sie feiert ihren 21. Geburtstag.
+                            <strong>2.</strong> Sie feiert ihren 21. Geburtstag.
                             <span
                                 class="tran"><br><small>translate</small></span>
                         </div>
@@ -155,7 +155,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>3)</strong> Ihre Mutter hat einen
+                            <strong>3.</strong> Ihre Mutter hat einen
                             selbstgemachten Kuchen gemacht.
                             <span
                                 class="tran"><br><small>translate</small></span>
@@ -187,7 +187,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>4)</strong> Ihre Freundin hat sie angerufen
+                            <strong>4.</strong> Ihre Freundin hat sie angerufen
                             und ihr am Mittag gratuliert.
                             <span
                                 class="tran"><br><small>translate</small></span>
@@ -219,7 +219,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>5)</strong> Es gab eine Party bei Alex.
+                            <strong>5.</strong> Es gab eine Party bei Alex.
                             <span
                                 class="tran"><br><small>translate</small></span>
                         </div>
@@ -250,7 +250,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>6)</strong> Carlos kommt aus Frankfurt.
+                            <strong>6.</strong> Carlos kommt aus Frankfurt.
                             <span
                                 class="tran"><br><small>translate</small></span>
                         </div>
@@ -281,7 +281,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>7)</strong> Auf der Party wurde gegrillt und
+                            <strong>7.</strong> Auf der Party wurde gegrillt und
                             Musik gehört.
                             <span
                                 class="tran"><br><small>translate</small></span>
@@ -313,7 +313,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>8)</strong> Silvia hat als
+                            <strong>8.</strong> Silvia hat als
                             Geburtstagsgeschenk Konzertkarten bekommen.
                             <span
                                 class="tran"><br><small>translate</small></span>
@@ -345,7 +345,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>9)</strong> Leonie hat bei Silvia
+                            <strong>9.</strong> Leonie hat bei Silvia
                             übernachtet.
                             <span
                                 class="tran"><br><small>translate</small></span>
@@ -377,7 +377,7 @@
                     <div class="row">
                         <div
                             class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
-                            <strong>10)</strong> Der Geburtstag war eine
+                            <strong>10.)</strong> Der Geburtstag war eine
                             Katastrophe.
                             <span
                                 class="tran"><br><small>translate</small></span>

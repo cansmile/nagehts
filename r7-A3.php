@@ -215,34 +215,14 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
+
     <script>
         $(".tran").hide();
 
         $(document).ready(function () {
-
-            ion.sound({
-                sounds: [{
-                    name: "dingdongdang",
-                }, {
-                    name: "Cartoon_Boing",
-                }],
-                path: "<?php echo($root); ?>sounds/",
-                preload: true,
-                volume: 1.0,
-                multiplay: false,
-            });
-
-
-            $(".o").on("click", function () {
-                ion.sound.play("dingdongdang");
-            });
-
-            $(".x").on("click", function () {
-                ion.sound.play("Cartoon_Boing");
-            });
 
             $("[data-toggle='popover']").popover({
                 delay: {
@@ -367,7 +347,6 @@
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

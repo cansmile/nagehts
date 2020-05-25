@@ -546,25 +546,6 @@
             $("#0").show();
             $(".alert").hide();
 
-            $(".so").on("click", function () {
-                var t = $(this);
-                var ti = t.attr("id");
-                if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
-                    $("#last").text(ti);
-                    t.text("■");
-                    nagehts.seek();
-                    nagehts.play(ti);
-                    sen[ti]++;
-                    last = ti;
-                    $("#cnt-" + ti).text(sen[ti]);
-                } else if (last == ti && nagehts.playing($("div#last").text())) {
-                    $("#last").text("");
-                    t.html(pa[ti]);
-                    nagehts.pause();
-                    sen[ti]--;
-                    $("#cnt-" + ti).text(sen[ti]);
-                }
-            });
         });
 
     </script>

@@ -10,7 +10,10 @@
                         <small>써보세요.</small>
                     </h2>
                     <h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
-                            표시됩니다.</small> ]</h3>
+                            표시됩니다.</small> ]
+                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                            HV
+                        </button></h3>
                 </div>
             </div>
             <div class="row my-2 py-2">
@@ -32,15 +35,12 @@
                             <tr>
                                 <th scope="row">1.</th>
                                 <td>
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Mina, bitte hilf&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-1">
+                                            style="max-width: 100px;" id="qst-1">
                                         .&nbsp;Ich habe keine Hand mehr frei.
                                     </div>
                                     <span class="tran"><small>미나야, 나 좀 도와줘. 너무
@@ -50,15 +50,12 @@
                             <tr>
                                 <th scope="row">2.</th>
                                 <td>
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Herr Kim, ich gratuliere&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-2">
+                                            style="max-width: 100px;" id="qst-2">
                                         &nbsp;zum Geburtstag.
                                     </div>
                                     <span class="tran"><small>김선생님, 생일
@@ -68,15 +65,12 @@
                             <tr>
                                 <th scope="row">3.</th>
                                 <td>
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Was fehlt&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-3">
+                                            style="max-width: 100px;" id="qst-3">
                                         ? Marie sieht sehr blass aus.
                                     </div>
                                     <span class="tran"><small>그녀가 어디 아픈거니? 마리가
@@ -86,15 +80,12 @@
                             <tr>
                                 <th scope="row">4.</th>
                                 <td>
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Hallo Kinder, wie geht es&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-4">
+                                            style="max-width: 100px;" id="qst-4">
                                         ?
                                     </div>
                                     <span class="tran"><small>안녕 애들아, 잘
@@ -104,16 +95,13 @@
                             <tr>
                                 <th scope="row">5.</th>
                                 <td>
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Tim hilft mir bei den Hausaufgaben. Ich
                                         danke&nbsp;
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-5">
+                                            style="max-width: 100px;" id="qst-5">
                                         &nbsp;sehr.
                                     </div>
                                     <span class="tran"><small>팀이 내 숙제를 도와주고 있어.
@@ -127,8 +115,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -136,16 +123,18 @@
         </div>
     </section>
 
+    <div id="last" class="d-none"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
+        $("#0").hide();
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
@@ -166,6 +155,86 @@
         }
 
         $(document).ready(function () {
+            /* 소리 출력 전역 변수와 함수 */
+            var sen = new Array(),
+                pa = new Array(),
+                he = new Array(),
+                last;
+            $(".so").each(function () {
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
+            });
+
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            };
+
+            /* 문제 재생 */
+            var nagehts = new Howl({
+                src: ["./<?php echo($root); ?>sounds/Reihe 8/r8 E4.mp3"],
+                sprite: {
+                    "0": [499, 45861]
+                },
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    );
+                    console.log("다시 읽어주세요!");
+                },
+                onload: function () {
+                    $("#0").show();
+                    $(".alert").hide();
+                    $(".so").on("click", function () {
+                        var t = $(this);
+                        var ti = t.attr("id");
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+                            last = ti;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        }
+                    });
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" + last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
+                }
+            });
+
+
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
             /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
@@ -239,7 +308,7 @@
             });
             $(".q").on("focusin", function () {
                 $("#ant-" + $(this).attr("id").substr(4))
-            .show();
+                    .show();
                 if (!$("#ant-" + $(this).attr("id").substr(4))
                     .text()) {
                     $("#ant-" + $(this).attr("id").substr(4))
@@ -264,7 +333,7 @@
             });
             $(".q").on("focusout", function () {
                 $("#ant-" + $(this).attr("id").substr(4))
-            .hide();
+                    .hide();
                 if (rfchk($(this), true)) {
                     $(this).addClass("bg-success");
                     $(this).addClass("text-white");
@@ -273,9 +342,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -307,7 +376,7 @@
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
                                 "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
-                                );
+                            );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");
                         } else {
@@ -316,7 +385,7 @@
                                 "disabled", true);
                             $("#qst-" + (i + 1)).addClass(
                                 "wa"
-                                );
+                            );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");
 
@@ -329,9 +398,9 @@
                                 var r =
                                     "<div class=\"d-block ra t-6\">";
                                 for (var fd = (an[i].length -
-                                    1); fd >= 0; fd--) {
+                                        1); fd >= 0; fd--) {
                                     if (fd < (an[i].length -
-                                        1)) {
+                                            1)) {
                                         r = r + " / ";
                                     }
                                     r = r + an[i][fd];
@@ -359,7 +428,7 @@
 
                     var qa = $(".q").length; /* 전체 문항 수 */
                     var qr = $(".bg-success")
-                    .length; /* 맞춘 항목 수 */
+                        .length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
 
@@ -404,10 +473,10 @@
                 $(pann).closest("tr").find(".tran").show();
             }
             ch();
+
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

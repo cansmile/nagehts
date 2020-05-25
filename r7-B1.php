@@ -14,9 +14,7 @@
                         <small>듣고 따라 하세요.</small>
                         <button type="button"
                             class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0"> HV </button><button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0_p"> ❚❚ </button>
+                            id="0"> HV </button>
                     </h2>
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
@@ -400,203 +398,116 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
 
     <script>
         $("#0").hide();
-        $("#0_p").hide();
         $(".tran").hide();
 
         $(document).ready(function () {
-            /* 각 문장 재생 횟수 초기화 */
-            var hm = new Array(),
-                sen = new Array();
+            /* 소리 출력 전역 변수와 함수 */
+            var sen = new Array(),
+                pa = new Array(),
+                he = new Array(),
+                last;
             $(".so").each(function () {
-                hm[$(this).attr("id")] = 0;
-                sen[$(this).attr("id")] = 0;
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
             });
-            ion.sound({
-                sounds: [{
-                    name: "r7 B1",
 
-                    sprite: {
-                        "0": [11.28, 159.22],
-                        "1": [24.55, 3.76],
-                        "2": [32.08, 3.96],
-                        "3": [39.6, 3.96],
-                        "4": [47.52, 5.14],
-                        "5": [56.24, 5.74],
-                        "6": [64.56, 4.55],
-                        "7": [71.88, 4.35],
-                        "8": [79.41, 2.37],
-                        "9": [85.75, 2.37],
-                        "10": [97.23, 2.17],
-                        "11": [103.37, 4.35],
-                        "12": [112.09, 2.37],
-                        "13": [117.43, 3.56],
-                        "14": [123.37, 3.16],
-                        "15": [128.72, 1.98],
-                        "16": [138.03, 2.77],
-                        "17": [145.75, 2.97],
-                        "18": [153.28, 3.16],
-                        "19": [160.21, 3.76],
-                        "20": [166.55, 4.15]
-                    }
-                }, {
-                    name: "dingdongdang",
-                    path: "sounds/"
-                }, {
-                    name: "Cartoon_Boing",
-                    path: "sounds/"
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            };
 
-                }],
-                path: "<?php echo($root); ?>sounds/Reihe 7/",
-                preload: true,
-                volume: 1.0,
-                multiplay: false,
-
-                ended_callback: function (obj) {
-                    /* 재상이 끝날 때 2번 이상이면 번역 보이기 */
-                    hmn = obj.part;
-                    hm[hmn]++;
-
-                    /* 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    if (obj.part == "0") {
-                        $("#0").show();
-                        $("#0_p").hide();
-
-                        if (hm[hmn] > 1) {
-                            $(".tran").show();
-                        }
-
-                    } else {
-                        $("#" + obj.part).html("▶");
-
-                        if (hm[hmn] > 1) {
-                            $("#" + hmn).closest("tr").find(
-                                ".tran").show();
-                        }
-                    }
-
+            /* 문제 재생 */
+            var nagehts = new Howl({
+                src: ["./<?php echo($root); ?>sounds/Reihe 7/r7 B1.mp3"],
+                sprite: {
+                    "0": [11328, 158588],
+                    "1": [25242, 2586],
+                    "2": [32727, 2620],
+                    "3": [39629, 3317],
+                    "4": [48091,3980],
+                    "5": [57273, 3384],
+                    "6": [64969, 3312],
+                    "7": [72283, 3250],
+                    "8": [79454, 1636],
+                    "9": [85724, 1772],
+                    "10": [96801, 2544],
+                    "11": [103704, 3380],
+                    "12": [111768, 2406],
+                    "13": [118049, 2155],
+                    "14": [123504, 2174],
+                    "15": [128138, 2460],
+                    "16": [137674, 3066],
+                    "17": [145945, 2370],
+                    "18": [153643, 1977],
+                    "19": [160263, 2842],
+                    "20": [167390, 2241]
                 },
-                ready_callback: function () {
-
-                    $(".o").on("click", function () {
-                        ion.sound.play(
-                            "dingdongdang");
-                    });
-
-                    $(".x").on("click", function () {
-                        ion.sound.play(
-                            "Cartoon_Boing");
-                    });
-
-                    $("[data-toggle='popover']").popover({
-                        delay: {
-                            'hide': 1000
-                        },
-                        container: "body"
-                    });
-
-                    $(".pop").click(function () {
-                        /* 가장 먼저 지문에 'an' 넣기 */
-                        if (!$(this).siblings()
-                            .hasClass("an")) {
-                            $(this).addClass("an");
-                            $(this).addClass(
-                                "btn-warning");
-                            $(this).parent()
-                                .children()
-                                .removeClass(
-                                    "btn-light");
-                        };
-
-                        /* 문제 풀이 정도 업데이트 */
-                        var perc = Math.round(($(
-                                ".an")
-                            .length / $(
-                                ".q").length
-                            ) * 100);
-                        $(".progress>.bar").attr(
-                            "width", perc + "%;"
-                            );
-
-                    });
-
-                    /* 팝업 내용 사라지기 */
-                    $(".pop").popover().click(function () {
-                        setTimeout(function () {
-                            $(".pop")
-                                .popover(
-                                    'hide');
-                        }, 500);
-                    });
-
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        );
+                    console.log("다시 읽어주세요!");
+                },
+                onload: function () {
                     $(".so").on("click", function () {
-                        if ($(this).attr("id")
-                            .substr(-2) == "_p") {
-                            /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                            "r7 B1", {
-                                part: "0"
-                            });
-                            $("#0").show();
-                            $(this).hide();
-                        } else if ($(this).html() ==
-                            "▶") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.play(
-                            "r7 B1", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
-                                        )
-                            });
-                            $(this).html("❚❚");
-                        } else if ($(this).html() ==
-                            "❚❚") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                            "r7 B1", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
-                                        )
-                            });
-                            $(this).html("▶");
-                        } else {
-                            /* _p 붙어 있지 않으면 id 그대로 재생 */
-                            ion.sound.play(
-                            "r7 B1", {
-                                part: $(
-                                        this)
-                                    .attr(
-                                        "id"
-                                        )
-                            });
-
-                            /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
-                            if ($(this).attr(
-                                "id") == "0") {
-                                $(this).hide();
-                                $("#0_p").show();
-                            };
-                        };
+                        var t = $(this);
+                        var ti = t.attr("id");
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+                            last = ti;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        }
                     });
 
                     $("#0").show();
-                    $(".alert").hide();
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" + last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
                 }
             });
-
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

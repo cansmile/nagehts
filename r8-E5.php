@@ -343,6 +343,7 @@
             "machen", "gehen", "hat", ["soll", "muss"], "trinken", "darf",
             "essen", "hat", ["soll", "muss"], "treiben", "machen", "sitzen"
         ];
+
         $(document).ready(function () {
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */ /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
@@ -492,7 +493,8 @@
                                     $("#qst-" + (i + 1)).after(r);
                                 }
                             }
-                        }
+                        };
+
                         if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                             ri++;
                         }
@@ -574,8 +576,11 @@
             pan = [1, 9, 10, 15, 16, 20];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
-                $(pann).val(an[(pan[p] - 1)]);
-                $(pann).val($(pann).val().replace(",", " / "));
+                if ($.isArray(an[(pan[p] - 1)])) {
+                    $(pann).val(an[(pan[p] - 1)][0]);
+                } else {
+                    $(pann).val(an[(pan[p] - 1)]);
+                }
                 $(pann).addClass("bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
             }

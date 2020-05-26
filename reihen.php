@@ -398,7 +398,7 @@ $rtl = array(
         ),
         "B" => array(
             "B0" => "Wie spät ist es?",
-            "B1" => "Hören Sie die Uhrzeiten und notieren Sie. wie spät ist es?"
+            "B1" => "Hören Sie die Uhrzeiten und notieren Sie. Wie spät ist es?"
         ),
         "C" => array(
             "C1" => "Hören Sie und sprechen Sie nach.",

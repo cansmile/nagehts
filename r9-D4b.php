@@ -159,7 +159,7 @@
         $(".ant").hide();
         var an = new Array();
         var an = ["angerufen", "gratuliert", "gemacht", "gebacken", "gekommen",
-            "gefahren", "gegrillt", "gehört", "reden", "getanzt", "gelacht",
+            "gefahren", "gegrillt", "gehört", "geredet", "getanzt", "gelacht",
             "gegangen", "geblieben"
         ];
         $(document).ready(function () {
@@ -451,7 +451,7 @@
                     });
 
                     var pan = new Array();
-                    pan = [1, 2, 7, 8, 9, 10, 11];
+                    pan = [1, 2, 7, 8, 10, 11];
                     for (var p = 0; p < pan.length; p++) {
                         var pann = "#qst-" + pan[p];
                         $(pann).val(an[(pan[p] - 1)]);

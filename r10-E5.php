@@ -3,34 +3,23 @@
 <body>
     <?php require "nav.php"; ?>
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2" id="wahl">
         <div class="container">
             <div class="row">
-                <div
-                    class="bg-<?php echo($color); ?> wahl_title col-12">
+                <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-3"
-                        id="1">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-3" id="1">
                         neben dem Hotel / hinter der Kirche und dem Stadtmuseum
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-3"
-                        id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-3" id="2">
                         neben der Universität / hinter der Autowerkstatt
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-3"
-                        id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-3" id="3">
                         zwischen dem Supermarkt und der Stadtbibliothek / neben
                         dem Supermarkt
                     </button>
-                    <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-3"
-                        id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-3" id="4">
                         zwischen der Kirche / neben dem Museum
                     </button>
                 </div>
@@ -49,14 +38,11 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12"><img
                         src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E5-1 (2).png"
-                        alt="Entschuldigung, wo ist ... ?"
-                        style="max-width: 100%; height: auto;"></div>
-                <div
-                    class="col-sm-12 col-md-12 col-lg-12 border border-dark rounded p-5">
+                        alt="Entschuldigung, wo ist ... ?" style="max-width: 100%; height: auto;"></div>
+                <div class="col-sm-12 col-md-12 col-lg-12 border border-dark rounded p-5">
                     <strong>z.B.:</strong><br>
-                    <ul type="square" class="align-top">
-                        <li>Entschuldigung, wo ist das Hotel?<span
-                                class="tran"><br><small>실례지만, 호텔이 어디
+                    <ul type="square">
+                        <li>Entschuldigung, wo ist das Hotel?<span class="tran"><br><small>실례지만, 호텔이 어디
                                     있나요?</small><br></span></li>
                     </ul>
                     <ul type="circle" class="align-top">
@@ -80,19 +66,24 @@
                             1.
                         </div>
                         <div class="col ml-1">
-                            Entschuldigen Sie, wo ist die Kirche?<span
-                                class="tran"><br><small>실례지만, 교회가 어디
-                                    있나요?</small></span>
+                            <ul>
+                                <li type="square">
+                                    Entschuldigen Sie, wo ist die Kirche?
+                                    <span class="tran"><br><small>실례지만, 교회가 어디 있나요?</small></span>
+                                </li>
+                                <li type="circle">
                                     Sie ist
                                     <div class="itm-lst 1itm d-inline-block" id="lst-2">
                                         <h2 class="btn btn-warning btn-lg ttl mx-1 d-block"
-                                        style="min-width: 450px; max-width: 600px;">
-                                        ▼ </h2>
+                                            style="min-width: 350px; max-width: 600px;">
+                                            ▼ </h2>
                                     </div>.
                                     <span class="tran"><br><small>대학교 옆에 또는 자동차정비소 뒤에
-                                        있습니다.</small><br></span>
-                            </div>
+                                            있습니다.</small><br></span>
+                                </li>
+                            </ul>
                         </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
@@ -100,45 +91,54 @@
                             2.
                         </div>
                         <div class="col ml-1">
-                            Entschuldigen Sie, wo ist die Universität?<span
-                                class="tran"><br><small>실례지만, 대학교가 어디
-                                    있나요?</small></span>
+                            <ul>
+                                <li type="square">
+                                    Entschuldigen Sie, wo ist die Universität?
+                                    <span class="tran"><br><small>실례지만, 대학교가 어디 있나요?</small></span>
+                                </li>
+                                <li type="circle">
                                     Sie ist
                                     <div class="itm-lst 1itm d-inline-block" id="lst-3">
                                         <h2 class="btn btn-warning btn-lg ttl mx-1 d-block"
-                                        style="min-width: 450px; max-width: 600px;">
-                                        ▼ </h2>
+                                            style="min-width: 350px; max-width: 600px;">
+                                            ▼ </h2>
                                     </div>.
                                     <span class="tran"><br><small>교회와 박물관 사이에 또는 박물관 옆에
-                                        있습니다</small><br></span>
-                                    </div>
+                                            있습니다</small><br></span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
                         <div class="col-1 mr-1 font-weight-bold">
                             3.
                         </div>
                         <div class="col ml-1">
-                            Entschuldigen Sie, wo ist der Supermarkt?<span
-                                class="tran"><br><small>실례지만, 슈퍼마켓이 어디
-                                    있나요?</small></span>
+                            <ul>
+                                <li type="square">
+                                    Entschuldigen Sie, wo ist der Supermarkt?
+                                    <span class="tran"><br><small>실례지만, 슈퍼마켓이 어디 있나요?</small></span>
+                                </li>
+                                <li type="circle">
                                     Er ist
                                     <div class="itm-lst 1itm d-inline-block" id="lst-4">
                                         <h2 class="btn btn-warning btn-lg ttl mx-1 d-block"
-                                        style="min-width: 450px; max-width: 600px;">
-                                        ▼ </h2>
+                                            style="min-width: 350px; max-width: 600px;">
+                                            ▼ </h2>
                                     </div>.
                                     <span class="tran"><br><small>호텔 옆에 또는 교회 뒤에
-                                        있습니다</small><br></span>
-                                    </div>
+                                            있습니다</small><br></span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -173,17 +173,17 @@
 
                     $(".itm-lst").each(function () {
                         if ($(this).find(
-                            "button.btn")) {
+                                "button.btn")) {
                             $(this).find("button.btn")
                                 .addClass(
                                     "text-success font-weight-bold"
-                                    );
+                                );
                         }
                     });
 
                     var qa = $(".itm-lst").length; /* 전체 문항 수 */
                     var qr = $(".text-success")
-                    .length; /* 맞춘 항목 수 */
+                        .length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
 

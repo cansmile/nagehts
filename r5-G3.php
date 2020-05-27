@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-12">
                     <table class="table table-borderless">
                         <tr>
                             <td rowspan="3">&nbsp;</td>

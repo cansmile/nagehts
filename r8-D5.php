@@ -63,7 +63,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                Sie soll&nbsp;
+                                Sie sollte&nbsp;
                                 <div class="itm-lst 1itm d-inline-block" id="lst-1" style="min-width: 50%;">
                                     <h2 class="btn btn-warning btn-xl ttl d-block">
                                         ▼ </h2>
@@ -85,7 +85,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                Er soll&nbsp;
+                                Er sollte&nbsp;
                                 <div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 50%;">
                                     <h2 class="btn btn-warning btn-xl ttl d-block">
                                         ▼ </h2>
@@ -107,7 +107,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                Sie soll&nbsp;
+                                Sie sollte&nbsp;
                                 <div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 50%;">
                                     <h2 class="btn btn-warning btn-xl ttl d-block">
                                         ▼ </h2>
@@ -129,7 +129,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                Er soll&nbsp;
+                                Er sollte&nbsp;
                                 <div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 50%;">
                                     <h2 class="btn btn-warning btn-xl ttl d-block">
                                         ▼ </h2>
@@ -152,7 +152,7 @@
                         <tr>
                             <td>&nbsp;</td>
                             <td>
-                                Sie soll&nbsp;
+                                Sie sollte&nbsp;
                                 <div class="itm-lst 1itm d-inline-block" id="lst-5" style="min-width: 50%;">
                                     <h2 class="btn btn-warning btn-xl ttl d-block">
                                         ▼ </h2>
@@ -202,11 +202,7 @@
                 sounds: [{
                     name: "r8 D5",
                     sprite: {
-                        "0": [.9, 28.1],
-                        "1": [12.72, 1.45],
-                        "2": [16.86, 2.68],
-                        "3": [21.87, 1.41],
-                        "5": [25.58, 2.11]
+                        "0": [.500, 81.459]
                     }
                 }, {
                     name: "dingdongdang",

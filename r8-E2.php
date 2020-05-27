@@ -2,11 +2,18 @@
 
 <body>
     <?php require "nav.php"; ?>
+    <!-- 알림 시작 -->
+    <?php require_once "ready.php"; ?>
+    <!-- 알림 끝 -->
     <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Schreiben Sie. <br>
+                    <h2> Schreiben Sie.<button type="button"
+                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            id="0">
+                            HV
+                        </button><br>
                         <small>써보세요.</small>
                     </h2>
                     <h3>[ <small>대문자로 된 부분을 바른 단어로 입력하세요.</small> ]</h3>
@@ -262,16 +269,18 @@
         </div>
     </section>
 
+    <div id="last" class="d-none"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
+        $("#0").hide();
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
@@ -279,6 +288,79 @@
             "Mein Hals", "Zahnschmerzen", "Zahn", "Bauch", "Bauchschmerzen"
         ];
         $(document).ready(function () {
+            /* 소리 출력 전역 변수와 함수 */
+            var sen = new Array(),
+                pa = new Array(),
+                he = new Array(),
+                last;
+            $(".so").each(function () {
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
+            });
+
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            }
+
+            /* 문제 재생 */
+            var nagehts = new Howl({
+                src: [
+                    "./<?php echo($root); ?>sounds/Reihe 8/r8 E2.mp3"],
+                sprite: {
+                    "0": [1090, 57470]
+                },
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        );
+                    console.log("다시 읽어주세요!");
+                },
+                onload: function () {
+                    /* 음성 준비되면 HV 버튼 나타내기 */
+                    $("#0").show();
+                    $(".alert").hide();
+
+                    $(".so").on("click", function () {
+                        var t = $(this);
+                        var ti = t.attr("id");
+
+                        if (($("div#last").text() ==
+                                "" || t.text() ==
+                                "❚❚") && !t
+                            .hasClass(".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+
+                            last = ti;
+
+                            $("#cnt-" + ti).text(
+                                sen[ti]);
+                        } else if (last == ti &&
+                            nagehts.playing($(
+                                    "div#last")
+                                .text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(
+                                sen[ti]);
+                        }
+
+                    });
+
+
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
             /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
@@ -385,9 +467,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -500,11 +582,9 @@
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
             });
             var pan = new Array();
-            /* pan=[1,2,3,4,5,6,7,8,9,10]; */
             pan = [1, 2, 5, 6];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
@@ -512,12 +592,39 @@
                 $(pann).addClass(
                     "bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
-                /* $(pann).closest("tr").find(".tran").show(); */
             }
+
+            $(".alert").hide();
+            $("#0").show();
+
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" +
+                                    last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(
+                            ".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
+                }
+
+
+            });
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

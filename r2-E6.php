@@ -34,15 +34,14 @@
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="5">
                         Wohnst du in Berlin?
-                        <span class="tran"><br>&nbsp;<small>너는 어디
-                                살아?</small></span>
+                        <span class="tran"><br>&nbsp;<small>너는 베를린에서 사니?</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
                         Wie geht es dir?
                         <span class="tran"><br>&nbsp;<small>너는? 너는 잘
                                 지내?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
                         Sprechen Sie Deutsch?
                         <span class="tran"><br>&nbsp;<small>독일어를 말할 수
                                 있나요?</small></span>
@@ -67,9 +66,10 @@
                     <table class="table table-borderless table-light">
                         <tbody>
                             <tr>
-                                <th class="bg-light" scope="row" width="10%"><button type="button" id="8"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>1
-                                </th>
+                                <th class="bg-light" scope="row" width="30">1</th>
+                                <td width="50"><button type="button" id="8"
+                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>
+                                </td>
                                 <td width="40%">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
@@ -83,8 +83,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-light" scope="row"><button type="button" id="9"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>2</th>
+                                <th class="bg-light" scope="row">2</th>
+                                <td><button type="button" id="9"
+                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
@@ -98,8 +99,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-light" scope="row"><button type="button" id="10"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>3</th>
+                                <th class="bg-light" scope="row">3</th>
+                                <td><button type="button" id="10"
+                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
@@ -113,8 +115,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-light" scope="row"><button type="button" id="11"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>4</th>
+                                <th class="bg-light" scope="row">4</th>
+                                <td><button type="button" id="11"
+                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
@@ -128,8 +131,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-light" scope="row"><button type="button" id="12"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>5</th>
+                                <th class="bg-light" scope="row">5</th>
+                                <td><button type="button" id="12"
+                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
@@ -143,8 +147,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-light" scope="row"><button type="button" id="13"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>6</th>
+                                <th class="bg-light" scope="row">6</th>
+                                <td><button type="button" id="13"
+                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-6">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
@@ -158,8 +163,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-light" scope="row"><button type="button" id="14"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>7</th>
+                                <th class="bg-light" scope="row">7</th>
+                                <td><button type="button" id="14"
+                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-7">
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
@@ -226,20 +232,20 @@
                 ],
                 sprite: {
                     "0": [2404, 68300],
-                    "1": [10296, 1493],
-                    "2": [19106, 1484],
-                    "3": [28260, 1687],
-                    "4": [38143, 2300],
-                    "5": [47803, 1530],
-                    "6": [55295, 1933],
-                    "7": [65168, 1902],
+                    "1": [38061, 2404],
+                    "2": [19091, 1431],
+                    "3": [55312, 1909],
+                    "4": [10201, 1511],
+                    "5": [65224, 1608],
+                    "6": [47856, 1511],
+                    "7": [28267, 1758],
                     "8": [7632, 7304],
                     "9": [16766, 6864],
                     "10": [26134, 7307],
                     "11": [35632, 7816],
                     "12": [45447, 6939],
                     "13": [53713, 6816],
-                    "14": [62425, 7264]
+                    "14": [62425, 7864]
                 },
                 html5: true,
                 volume: 1,

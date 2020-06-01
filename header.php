@@ -1,6 +1,6 @@
 <?php
 $bn = basename($_SERVER["PHP_SELF"]);
-$fn = substr($_SERVER['REDIRECT_URL'], 1);
+$fn = substr($_SERVER['REQUEST_URI'], 1);
 /* $fn = str_replace(".php","",$bn); */
 $root = "dev/";
 ?>

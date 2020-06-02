@@ -256,6 +256,7 @@
     </section>
 
     <div id="marg"></div>
+    <div id="last" class="d-none"></div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -269,43 +270,10 @@
     <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $("#0").hide();
-        $("#0_p").hide();
         $(".tran").hide();
         $("#chk").hide();
         $(document).ready(function () {
 
-            $(".so").on("click", function () {
-                if ($(this).attr("id").substr(-2) == "_p") {
-                    /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    ion.sound.pause("r9 A0", {
-                        part: "0"
-                    });
-                    $("#0").show();
-                    $(this).hide();
-                } else if ($(this).html() == "▶") {
-                    /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    ion.sound.play("r9 A0", {
-                        part: $(this).attr("id")
-                    });
-                    $(this).html("❚❚");
-                } else if ($(this).html() == "❚❚") {
-                    /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    ion.sound.pause("r9 A0", {
-                        part: $(this).attr("id")
-                    });
-                    $(this).html("▶");
-                } else {
-                    /* _p 붙어 있지 않으면 id 그대로 재생 */
-                    ion.sound.play("r9 A0", {
-                        part: $(this).attr("id")
-                    });
-                    /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
-                    if ($(this).attr("id") == "0") {
-                        $(this).hide();
-                        $("#0_p").show();
-                    };
-                };
-            });
             /* 정답확인 */
             $("#chk").on("click", function () {
                 var na = "";
@@ -364,7 +332,6 @@
                         }
                     });
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 }
             });
             $("#0").show();
@@ -373,7 +340,6 @@
             <?php require "wahl.php"; ?>
 
             var pan = new Array();
-            /* pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"]; */
             pan = [1];
             var il = $("#itms>.itm").length;
             for (var p = 0; p < pan.length; p++) {
@@ -385,14 +351,12 @@
                         $("#" + $(this).attr("id")).addClass(
                             "btn-block");
                         $("#lst-" + pan[p] + ">h2").remove();
-                        /* $("#lst-"+ pan[p]).parent().find(".tran").show(); */
                     }
                 })
             }
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

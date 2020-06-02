@@ -23,8 +23,8 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-1">
+                                        class="text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-1">
                                     &nbsp;Freitag.
                                 </div>
                                 <span class="tran"><small>우리 언제 영화 보러 가?
@@ -41,8 +41,8 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-2">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-2">
                                     &nbsp;der Nacht.
                                 </div>
                                 <span class="tran"><small>내 친구는 파일럿이다. 그는 종종 밤에
@@ -59,14 +59,14 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-3">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-3">
                                     &nbsp;Montag&nbsp;
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-4">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-4">
                                     &nbsp;11.30 Uhr.
                                 </div>
                                 <span class="tran"><small>내 부모님은 월요일 11시 30분에
@@ -83,8 +83,8 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-5">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-5">
                                     &nbsp;3 Uhr?
                                 </div>
                                 <span class="tran"><small>오늘 장볼까? 3시경에
@@ -100,15 +100,15 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-capitalize text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-6">
+                                        class="text-capitalize text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-6">
                                     &nbsp;Freitagvormittag treffe ich meinen
                                     Professor. Wir treffen uns&nbsp;
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-7">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-7">
                                     &nbsp;10 Uhr vor der Universität.
                                 </div>
                                 <span class="tran"><small>나는 금요일 오전에 교수님을 만나기로
@@ -126,8 +126,8 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-8">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-8">
                                     &nbsp;der Nacht.
                                 </div>
                                 <span class="tran"><small>내 아이는 잠을 못 잔다. 소리지르며
@@ -143,14 +143,14 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-capitalize text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-9">
+                                        class="text-capitalize text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-9">
                                     &nbsp;Sonntag&nbsp;
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-10">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-10">
                                     &nbsp;20 Uhr läuft ein Konzert von Nena im
                                     Fernsehen.
                                 </div>
@@ -169,8 +169,8 @@
                                     <input type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-lowercase text-center form-control q border-bottom-only border-dark rounded-0"
-                                        style="max-width: 120px;" id="qst-11">
+                                        class="text-lowercase text-center form-control q border-bottom-only border-dark
+                                        rounded-0" style="max-width: 120px;" id="qst-11">
                                     &nbsp;1?
                                 </div>
                                 <span class="tran"><small>우리 오늘 언제 볼까? - 글쎄, 한
@@ -199,8 +199,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -249,7 +250,7 @@
                     }
 
                 }
-            }
+            };
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
@@ -288,7 +289,7 @@
                     $("#ant-" + $(this).attr("id").substr(4))
                         .hide();
                 }
-            })
+            });
 
             $(".q").on("focusin", function () {
                 $("#ant-" + $(this).attr("id").substr(4))
@@ -314,7 +315,7 @@
                             4)).addClass("text-danger");
                     }
                 }
-            })
+            });
 
             $(".q").on("focusout", function () {
                 $("#ant-" + $(this).attr("id").substr(4))
@@ -328,9 +329,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -341,7 +342,7 @@
                         "text-white font-weight-bold");
                     $(this).removeClass("bg-success");
                 }
-            })
+            });
             /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
             $("#chk").on("click", function () {
@@ -445,7 +446,6 @@
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
             })
 
@@ -457,13 +457,11 @@
                 $(pann).prop("disabled", true);
                 $(pann).addClass(
                     "bg-success text-white font-weight-bold");
-                /* $(pann).closest("tr").find(".tran").show(); */
             }
 
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

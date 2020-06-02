@@ -1,6 +1,6 @@
 <?php
 $bn = basename($_SERVER["PHP_SELF"]);
-$fn = substr($_SERVER['REQUEST_URI'], 1);
+$fn = str_replace("%20", " ", substr($_SERVER['REQUEST_URI'], 1));
 /* $fn = str_replace(".php","",$bn); */
 $root = "dev/";
 ?>

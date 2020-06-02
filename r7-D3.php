@@ -15,19 +15,14 @@
                     <table class="table table-borderless text-left">
                         <tbody>
                             <tr>
-                                <th scope="row" rowspan="2"
-                                    width="50">1.</th>
+                                <th scope="row" rowspan="2" width="50">1.</th>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Ich gehe ins Kino.&nbsp;
-                                        <input type="text"
-                                            placeholder="(möchten)"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="(möchten)" aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-1">
+                                            style="max-width: 100px;" id="qst-1">
                                         &nbsp;du mitkommen?
                                     </div>
                                     <span class="tran"><small>나 영화관 갈건데. 같이
@@ -36,24 +31,17 @@
                             </tr>
                             <tr>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Ich&nbsp;
-                                        <input type="text"
-                                            placeholder="(können)"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="(können)" aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-2">
+                                            style="max-width: 100px;" id="qst-2">
                                         &nbsp;nicht. Ich&nbsp;
-                                        <input type="text"
-                                            placeholder="(müssen)"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="(müssen)" aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-3">
+                                            style="max-width: 100px;" id="qst-3">
                                         &nbsp;leider lernen.
                                     </div>
                                     <span class="tran"><small>난 갈 수 없어. 나
@@ -61,18 +49,13 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row" rowspan="2"
-                                    width="50">2.</th>
+                                <th scope="row" rowspan="2" width="50">2.</th>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text"
-                                            placeholder="(können)"
-                                            aria-label="Antwort"
+                                    <div class="input-group d-inline-flex align-items-baseline">
+                                        <input type="text" placeholder="(können)" aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-4">
+                                            style="max-width: 100px;" id="qst-4">
                                         &nbsp;du mir helfen?
                                     </div>
                                     <span class="tran"><small>나 좀 도와줄 수
@@ -81,16 +64,12 @@
                             </tr>
                             <tr>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Natürlich. Was&nbsp;
-                                        <input type="text"
-                                            placeholder="(können)"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="(können)" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-5">
+                                            style="max-width: 100px;" id="qst-5">
                                         &nbsp;ich für dich tun?
                                     </div>
                                     <span class="tran"><small>물론. 내가 뭘
@@ -101,15 +80,11 @@
                                 <th scope="row" width="50">3.
                                 </th>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text"
-                                            placeholder="(dürfen)"
-                                            aria-label="Antwort"
+                                    <div class="input-group d-inline-flex align-items-baseline">
+                                        <input type="text" placeholder="(dürfen)" aria-label="Antwort"
                                             aria-describedby="basic-addon6"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-6">
+                                            style="max-width: 100px;" id="qst-6">
                                         &nbsp;ich Sie etwas fragen? – Na klar.
                                     </div>
                                     <span class="tran"><small>제가 뭔가 여쭈어봐도 되나요?
@@ -123,18 +98,13 @@
                     <table class="table table-borderless text-left">
                         <tbody>
                             <tr>
-                                <th scope="row" rowspan="2"
-                                    width="50">4.</th>
+                                <th scope="row" rowspan="2" width="50">4.</th>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text"
-                                            placeholder="(wollen)"
-                                            aria-label="Antwort"
+                                    <div class="input-group d-inline-flex align-items-baseline">
+                                        <input type="text" placeholder="(wollen)" aria-label="Antwort"
                                             aria-describedby="basic-addon7"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-7">
+                                            style="max-width: 100px;" id="qst-7">
                                         &nbsp;Mina ins Schwimmbad gehen?
                                     </div>
                                     <span class="tran"><small>미나 수영장
@@ -143,16 +113,12 @@
                             </tr>
                             <tr>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
+                                    <div class="input-group d-inline-flex align-items-baseline">
                                         Ja, aber sie&nbsp;
-                                        <input type="text"
-                                            placeholder="(möchten)"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="(möchten)" aria-label="Antwort"
                                             aria-describedby="basic-addon8"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-8">
+                                            style="max-width: 100px;" id="qst-8">
                                         &nbsp;auch zum Flohmarkt.
                                     </div>
                                     <span class="tran"><small>그래, 하지만 벼룩시장도 가고
@@ -163,24 +129,17 @@
                                 <th scope="row" width="50">5.
                                 </th>
                                 <td class="align-middle">
-                                    <div
-                                        class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text"
-                                            placeholder="(dürfen)"
-                                            aria-label="Antwort"
+                                    <div class="input-group d-inline-flex align-items-baseline">
+                                        <input type="text" placeholder="(dürfen)" aria-label="Antwort"
                                             aria-describedby="basic-addon9"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-9">
+                                            style="max-width: 100px;" id="qst-9">
                                         &nbsp;Tim mit uns zum Deutschkurs gehen?
                                         – Ja, er&nbsp;
-                                        <input type="text"
-                                            placeholder="(dürfen)"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="(dürfen)" aria-label="Antwort"
                                             aria-describedby="basic-addon10"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
-                                            style="max-width: 100px;"
-                                            id="qst-10">
+                                            style="max-width: 100px;" id="qst-10">
                                         .
                                     </div>
                                     <span class="tran"><small>팀이 독일어강의 들어도 되나?
@@ -193,8 +152,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -210,8 +168,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -224,6 +183,7 @@
 
         $(document).ready(function () {
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+
             /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
                 var q, qn, a, b, fl;
@@ -239,11 +199,9 @@
                         b = an[qn].substr(0, q);
                     }
                     b = b.replace(/ /gi, "");
-
                     if (a == b) {
                         return true;
                     }
-
                 } else {
                     /* 2 이상인 경우 */
                     for (var fd = 0; fd < an[qn].length; fd++) {
@@ -253,84 +211,57 @@
                             b = an[qn][fd].substr(0, q);
                         }
                         b = b.replace(/ /gi, "");
-
                         if (a == b) {
                             return true;
                         }
                     }
-
                 }
-            }
+            };
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-danger");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-success");
-
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                 if (rfchk($(this))) {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-success");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-success");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                 } else {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-danger");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-danger");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                 }
-
                 if (!$(this).val()) {
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                 }
-
                 if ($(this).val()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .show();
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                    $("#ant-" + $(this).attr("id").substr(4)).show();
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 } else {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .hide();
+                    $("#ant-" + $(this).attr("id").substr(4)).hide();
                 }
-            })
-
+            });
             $(".q").on("focusin", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .show();
-                if (!$("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                $("#ant-" + $(this).attr("id").substr(4)).show();
+                if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 }
-                if ($("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
+                if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                     if (rfchk($(this))) {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-success");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-success");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-danger");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-danger");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                 }
-            })
-
+            });
             $(".q").on("focusout", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .hide();
-
+                $("#ant-" + $(this).attr("id").substr(4)).hide();
                 if (rfchk($(this), true)) {
                     $(this).addClass("bg-success");
                     $(this).addClass("text-white");
@@ -339,20 +270,18 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
-
                 $(this).removeClass("bg-danger");
                 if (!$(this).attr("disabled")) {
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                     $(this).removeClass("bg-success");
                 }
-            })
+            });
             /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
 
             $("#chk").on("click", function () {
@@ -364,67 +293,48 @@
                         na += ", ";
                     }
                     if ($(this).val() == "") {
-                        na += $(this).attr("id").substr(
-                            4, 1);
+                        na += $(this).attr("id").substr(4, 1);
                     }
                 });
-                if ($(this).attr("id") == "done") {} else if (
-                    na == "") {
+                if ($(this).attr("id") == "done") {} else if (na == "") {
                     for (var i = 0; i < an.length; i++) {
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
+                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                         } else {
                             $("#qst-" + (i + 1)).val(oran);
-                            $("#qst-" + (i + 1)).attr(
-                                "disabled", true);
-                            $("#qst-" + (i + 1)).addClass(
-                                "wa"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
-
+                            $("#qst-" + (i + 1)).attr("disabled", true);
+                            $("#qst-" + (i + 1)).addClass("wa");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-block ra t-6\">" +
-                                    an[i] + "</div>");
+                                $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] +
+                                    "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r =
-                                    "<div class=\"d-block ra t-6\">";
-                                for (var fd = (an[i].length -
-                                    1); fd >= 0; fd--) {
-                                    if (fd < (an[i].length -
-                                        1)) {
+                                var r = "<div class=\"d-block ra t-6\">";
+                                for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                    if (fd < (an[i].length - 1)) {
                                         r = r + " / ";
                                     }
                                     r = r + an[i][fd];
                                 }
                                 r = r + "</div>";
                                 if ($("span.sen").length > 0) {
-                                    $("#qst-" + (i + 1))
-                                        .closest("span.sen")
-                                        .after(r);
+                                    $("#qst-" + (i + 1)).closest("span.sen").after(r);
                                 } else {
-                                    $("#qst-" + (i + 1)).after(
-                                        r);
+                                    $("#qst-" + (i + 1)).after(r);
                                 }
                             }
-
-                        }
-                        if ($("#qst-" + (i + 1)).hasClass(
-                                "bg-success")) {
+                        };
+                        if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                             ri++;
                         }
-                    }
+                    };
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-
                     var qa = $(".q").length; /* 전체 문항 수 */
                     var qr = $(".bg-success").length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
@@ -445,36 +355,26 @@
                         var st = "좀 더 분발해 주세요~";
                         var cl = "danger";
                     }
-
-                    $(this).addClass("btn-" + cl + " text-" +
-                        tcl);
-                    $(this).html("<h4>" + qa + "문제 중 " + qr +
-                        "개를 맞히셨네요!<br>" + st + "</h4>");
-
+                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                     $(this).prop("disabled", true);
                     $(".tran").show();
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
-            })
-
+            });
             var pan = new Array();
             pan = [1];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
                 $(pann).val(an[(pan[p] - 1)]);
                 $(pann).prop("disabled", true);
-                $(pann).addClass(
-                    "bg-success text-white font-weight-bold");
-                /* $(pann).closest("tr").find(".tran").show(); */
+                $(pann).addClass("bg-success text-white font-weight-bold");
             }
-
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

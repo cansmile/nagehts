@@ -20,63 +20,51 @@
                 </div>
             </div>
             <div class="row">
-                <div
-                    class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 px-0 mx-0">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 px-0 mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
-                                <th scope="col"
-                                    class="text-center bg-light">&nbsp;
+                                <th scope="col" class="text-center bg-light">&nbsp;
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     ich</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     du</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     sie/es/er</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     wir</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     ihr</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     sie/Sie</th>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div
-                    class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
-                                <th scope="col"
-                                    class="text-center bg-light">
+                                <th scope="col" class="text-center bg-light">
                                     möchten</th>
-                                <th scope="col"
-                                    class="text-center bg-light">wollen
+                                <th scope="col" class="text-center bg-light">wollen
                                 </th>
-                                <th scope="col"
-                                    class="text-center bg-light">können
+                                <th scope="col" class="text-center bg-light">können
                                 </th>
                             </tr>
                         </thead>
@@ -85,31 +73,28 @@
                                 <td>
                                     <div id="ant-1"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon1"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-1">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-1">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-2"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon2"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-2">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-2">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-3"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon3"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-3">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-3">
                                     </div>
                                 </td>
                             </tr>
@@ -117,31 +102,28 @@
                                 <td>
                                     <div id="ant-7"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon7"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-7">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-7">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-8"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon8"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-8">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-8">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-9"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon9"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-9">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-9">
                                     </div>
                                 </td>
                             </tr>
@@ -149,31 +131,28 @@
                                 <td>
                                     <div id="ant-13"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon13"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-13">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-13">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-14"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon14"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-14">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-14">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-15"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon15"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-15">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-15">
                                     </div>
                                 </td>
                             </tr>
@@ -181,31 +160,28 @@
                                 <td>
                                     <div id="ant-19"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon19"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-19">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-19">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-20"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon20"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-20">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-20">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-21"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon21"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-21">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-21">
                                     </div>
                                 </td>
                             </tr>
@@ -213,31 +189,28 @@
                                 <td>
                                     <div id="ant-25"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon25"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-25">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-25">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-26"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon26"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-26">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-26">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-27"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon27"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-27">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-27">
                                     </div>
                                 </td>
                             </tr>
@@ -245,95 +218,81 @@
                                 <td>
                                     <div id="ant-31"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon31"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-31">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-31">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-32"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon32"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-32">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-32">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-33"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon33"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-33">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-33">
                                     </div>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div
-                    class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 d-lg-none d-xl-none d-md-block d-sm-block px-0 mx-0">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 d-lg-none d-xl-none d-md-block d-sm-block px-0
+                    mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
-                                <th scope="col"
-                                    class="text-center bg-light">&nbsp;
+                                <th scope="col" class="text-center bg-light">&nbsp;
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     ich</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     du</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     sie/es/er</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     wir</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     ihr</th>
                             </tr>
                             <tr>
-                                <th scope="row"
-                                    class="text-center bg-light align-middle">
+                                <th scope="row" class="text-center bg-light align-middle">
                                     sie/Sie</th>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <div
-                    class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
-                                <th scope="col"
-                                    class="text-center bg-light">müssen
+                                <th scope="col" class="text-center bg-light">müssen
                                 </th>
-                                <th scope="col"
-                                    class="text-center bg-light">dürfen
+                                <th scope="col" class="text-center bg-light">dürfen
                                 </th>
-                                <th scope="col"
-                                    class="text-center bg-light">sollen
+                                <th scope="col" class="text-center bg-light">sollen
                                 </th>
                             </tr>
                         </thead>
@@ -342,31 +301,28 @@
                                 <td>
                                     <div id="ant-4"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon4"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-4">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-4">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-5"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-5">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-5">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-6"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon6"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-6">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-6">
                                     </div>
                                 </td>
                             </tr>
@@ -374,31 +330,28 @@
                                 <td>
                                     <div id="ant-10"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon10"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-10">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-10">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-11"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon11"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-11">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-11">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-12"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon12"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-12">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-12">
                                     </div>
                                 </td>
                             </tr>
@@ -406,31 +359,28 @@
                                 <td>
                                     <div id="ant-16"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon16"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-16">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-16">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-17"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon17"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-17">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-17">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-18"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon18"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-18">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-18">
                                     </div>
                                 </td>
                             </tr>
@@ -438,31 +388,28 @@
                                 <td>
                                     <div id="ant-22"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon22"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-22">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-22">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-23"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon23"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-23">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-23">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-24"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon24"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-24">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-24">
                                     </div>
                                 </td>
                             </tr>
@@ -470,31 +417,28 @@
                                 <td>
                                     <div id="ant-28"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon28"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-28">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-28">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-29"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon29"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-29">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-29">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-30"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon30"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-30">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-30">
                                     </div>
                                 </td>
                             </tr>
@@ -502,31 +446,28 @@
                                 <td>
                                     <div id="ant-34"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon34"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-34">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-34">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-35"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon35"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-35">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-35">
                                     </div>
                                 </td>
                                 <td>
                                     <div id="ant-36"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
-                                            aria-label="Antwort"
+                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon36"
-                                            class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
-                                            id="qst-36">
+                                            class="text-center form-control q border border-dark border-bottom-only
+                                            rounded-0 mx-2 px-2 py-1" id="qst-36">
                                     </div>
                                 </td>
                             </tr>
@@ -536,8 +477,7 @@
             </div>
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
-                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
-                    id="chk">
+                <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
                     정답확인
                 </div>
             </div>
@@ -553,8 +493,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -571,8 +512,7 @@
         ];
 
         $(document).ready(function () {
-            /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
-            /* 값 확인해보자, io값이 참이면 전체 검사 */
+            /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */ /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
                 var q, qn, a, b, fl;
                 q = th.val().length;
@@ -587,11 +527,9 @@
                         b = an[qn].substr(0, q);
                     }
                     b = b.replace(/ /gi, "");
-
                     if (a == b) {
                         return true;
                     }
-
                 } else {
                     /* 2 이상인 경우 */
                     for (var fd = 0; fd < an[qn].length; fd++) {
@@ -601,84 +539,60 @@
                             b = an[qn][fd].substr(0, q);
                         }
                         b = b.replace(/ /gi, "");
-
                         if (a == b) {
                             return true;
                         }
                     }
-
                 }
-            }
+            };
+
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-danger");
-                $("#ant-" + $(this).attr("id").substr(4))
-                    .removeClass("text-success");
-
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
+                $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                 if (rfchk($(this))) {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-success");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-success");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                 } else {
-                    $(this).addClass(
-                        "text-white font-weight-bold");
+                    $(this).addClass("text-white font-weight-bold");
                     $(this).addClass("bg-danger");
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .addClass("text-danger");
+                    $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                 }
-
                 if (!$(this).val()) {
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                 }
-
                 if ($(this).val()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .show();
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                    $("#ant-" + $(this).attr("id").substr(4)).show();
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 } else {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .hide();
+                    $("#ant-" + $(this).attr("id").substr(4)).hide();
                 }
-            })
+            });
 
             $(".q").on("focusin", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .show();
-                if (!$("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
-                    $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                $("#ant-" + $(this).attr("id").substr(4)).show();
+                if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
+                    $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                 }
-                if ($("#ant-" + $(this).attr("id").substr(4))
-                    .text()) {
+                if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                     if (rfchk($(this))) {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-success");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-success");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass(
-                            "text-white font-weight-bold");
+                        $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-danger");
-                        $("#ant-" + $(this).attr("id").substr(
-                            4)).addClass("text-danger");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                 }
-            })
+            });
 
             $(".q").on("focusout", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .hide();
-
+                $("#ant-" + $(this).attr("id").substr(4)).hide();
                 if (rfchk($(this), true)) {
                     $(this).addClass("bg-success");
                     $(this).addClass("text-white");
@@ -687,23 +601,20 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
-
                 $(this).removeClass("bg-danger");
                 if (!$(this).attr("disabled")) {
-                    $(this).removeClass(
-                        "text-white font-weight-bold");
+                    $(this).removeClass("text-white font-weight-bold");
                     $(this).removeClass("bg-success");
                 }
-            })
-            /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
+            });
 
-            $("#chk").on("click", function () {
+            /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */ $("#chk").on("click", function () {
                 var na = "";
                 var ri = 0;
                 var qst = $(".q").length;
@@ -712,67 +623,48 @@
                         na += ", ";
                     }
                     if ($(this).val() == "") {
-                        na += $(this).attr("id").substr(
-                            4, 1);
+                        na += $(this).attr("id").substr(4, 1);
                     }
                 });
-                if ($(this).attr("id") == "done") {} else if (
-                    na == "") {
+                if ($(this).attr("id") == "done") {} else if (na == "") {
                     for (var i = 0; i < an.length; i++) {
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
+                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                         } else {
                             $("#qst-" + (i + 1)).val(oran);
-                            $("#qst-" + (i + 1)).attr(
-                                "disabled", true);
-                            $("#qst-" + (i + 1)).addClass(
-                                "wa"
-                                );
-                            $("#qst-" + (i + 1)).removeClass(
-                                "rounded-0");
-
+                            $("#qst-" + (i + 1)).attr("disabled", true);
+                            $("#qst-" + (i + 1)).addClass("wa");
+                            $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-block ra t-6\">" +
-                                    an[i] + "</div>");
+                                $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] +
+                                    "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r =
-                                    "<div class=\"d-block ra t-6\">";
-                                for (var fd = (an[i].length -
-                                    1); fd >= 0; fd--) {
-                                    if (fd < (an[i].length -
-                                        1)) {
+                                var r = "<div class=\"d-block ra t-6\">";
+                                for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                    if (fd < (an[i].length - 1)) {
                                         r = r + " / ";
                                     }
                                     r = r + an[i][fd];
                                 }
                                 r = r + "</div>";
                                 if ($("span.sen").length > 0) {
-                                    $("#qst-" + (i + 1))
-                                        .closest("span.sen")
-                                        .after(r);
+                                    $("#qst-" + (i + 1)).closest("span.sen").after(r);
                                 } else {
-                                    $("#qst-" + (i + 1)).after(
-                                        r);
+                                    $("#qst-" + (i + 1)).after(r);
                                 }
                             }
-
                         }
-                        if ($("#qst-" + (i + 1)).hasClass(
-                                "bg-success")) {
+                        if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                             ri++;
                         }
-                    }
+                    };
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-
                     var qa = $(".q").length; /* 전체 문항 수 */
                     var qr = $(".bg-success").length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
@@ -793,38 +685,28 @@
                         var st = "좀 더 분발해 주세요~";
                         var cl = "danger";
                     }
-
-                    $(this).addClass("btn-" + cl + " text-" +
-                        tcl);
-                    $(this).html("<h4>" + qa + "문제 중 " + qr +
-                        "개를 맞히셨네요!<br>" + st + "</h4>");
-
+                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                     $(this).prop("disabled", true);
                     $(".tran").show();
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
-            })
+            });
 
             var pan = new Array();
-            pan = [2, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 23,
-                25, 27, 28, 30, 31, 32, 35, 36
-            ];
+            pan = [2, 3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 20, 21, 23, 25, 27, 28, 30, 31, 32, 35, 36];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
                 $(pann).val(an[(pan[p] - 1)]);
                 $(pann).prop("disabled", true);
-                $(pann).addClass(
-                    "bg-success text-white font-weight-bold");
+                $(pann).addClass("bg-success text-white font-weight-bold");
                 $(pann).closest("tr").find(".tran").show();
             }
-
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

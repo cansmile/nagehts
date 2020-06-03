@@ -267,12 +267,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
-        $("#0").hide();
-        $("#0_p").hide();
         $(".tran").hide();
         $("#chk").hide();
         $(document).ready(function () {
@@ -329,7 +328,6 @@
                         }
                     });
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 }
             });
             $("#0").show();
@@ -337,7 +335,6 @@
             <?php require "wahl.php"; ?>
             var pan = new Array(),
                 pann;
-            /* pan = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]; */
             pan = [];
             for (var p = 0; p < pan.length; p++) {
                 pann = "#" + pan[p];
@@ -346,13 +343,11 @@
                         $(pann).insertAfter("#lst-" + (i + 1) + ">h2");
                     }
                 }
-                /* $(pann).find(".tran").show(); */
             }
             $(".itm-lst>button").addClass("btn-block btn-light");
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

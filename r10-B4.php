@@ -14,9 +14,6 @@
                             표시됩니다.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0_p">
-                            ❚❚
                         </button>
                     </h2>
                     <h3>[ <small><button type="button"
@@ -37,17 +34,16 @@
                                 <th scope="row" class="text-center">
                                     <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group">
                                         Ich heiße Nora und bin 9 Jahre alt. Ich
                                         gehe <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="."
-                                            id="qst-1">Fuß<input type="text" class="form-control q rounded-0
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-1">Fuß<input type="text" class="form-control q rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                            col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-2">die
+                                            col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-2">die
                                         Schule.
                                     </div>
                                     <span class="tran"><br><small>내 이름은 노라이고
@@ -65,18 +61,18 @@
                                 <th scope="row" class="text-center">
                                     <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group">
                                         Mein Vater Hans Holm ist Pfarrer von
                                         Beruf. Er fährt <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-3"> dem
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-3"> dem
                                         Fahrrad
                                         <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-4">
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-4">
                                         Pfarramt.
                                     </div>
                                     <span class="tran"><br><small>나의 아버지 한스 홀름은
@@ -94,28 +90,28 @@
                                 <th scope="row" class="text-center">
                                     <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group">
                                         Meine Mutter Silvia Holm will zuerst
                                         meinen Bruder Alex <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-5"> Fuß
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-5"> Fuß
                                         <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-6"> den
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-6"> den
                                         Kindergarten bringen und dann einkaufen.
                                         Sie fährt
                                         <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-7"> dem
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-7"> dem
                                         Bus
                                         <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-8">
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-8">
                                         Supermarkt Kaiser.
                                     </div>
                                     <span class="tran"><br><small>어머니 실비아 홀름은 먼저
@@ -133,18 +129,18 @@
                                 <th scope="row" class="text-center">
                                     <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group">
                                         Mein Onkel Georg ist Bankangestellter
                                         und arbeitet bei der Bank. Er fährt
                                         <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-9"> dem
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-9"> dem
                                         Motorrad <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-10">Bank.
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-10">Bank.
                                     </div>
                                     <span class="tran"><br><small>게오르크 삼촌은 은행원이며
                                             은행에서 일한다. 그는 오토바이를 타고 은행으로
@@ -161,18 +157,17 @@
                                 <th scope="row" class="text-center">
                                     <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group">
                                         Meine Tante Sabine ist Lehrerin. Sie
                                         fährt <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-11"> der
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-11"> der
                                         U-Bahn <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="."
-                                            id="qst-12">Schule.
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-12">Schule.
                                     </div>
                                     <span class="tran"><br><small>자비네 이모는 교사이다.
                                             그녀는 지하철 타고 학교로 간다.</small></span>
@@ -188,13 +183,13 @@
                                 <th scope="row" class="text-center">
                                     <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group">
                                         Mein Onkel Franz Scholl ist Beamter. Er
                                         fliegt oft wegen der Dienstreise <input type="text" class="form-control q
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-13"> dem
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-13"> dem
                                         Flugzeug.
                                     </div>
                                     <span class="tran"><br><small>프란츠 숄 삼촌은
@@ -212,20 +207,20 @@
                                 <th scope="row" class="text-center">
                                     <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                 </th>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group">
                                         Meine Großeltern Robert und Maria Holm
                                         wollen <input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-14">
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-14">
                                         Spanien
                                         in den Urlaub gehen. Sie wollen da eine
                                         Kreuzfahrt machen und fahren
                                         deshalb<input type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
-                                        col-md-6 col-md col-lg t-6"
-                                            style="min-width: 150px; max-width: 200px;" aria-label="." id="qst-15"> dem
+                                        col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
+                                            aria-label="." id="qst-15"> dem
                                         Schiff.
                                     </div>
                                     <span class="tran"><br><small>조부모 로버트와 마리아
@@ -247,18 +242,18 @@
         </div>
     </section>
 
+    <div id="last" class="d-none"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $("#0").hide();
-        $("#0_p").hide();
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
@@ -266,338 +261,175 @@
             "zur", "mit", "zur", "mit", "nach", "mit"
         ];
         $(document).ready(function () {
-            /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
-            /* 값 확인해보자, io값이 참이면 전체 검사 */
-            function rfchk(th, io) {
-                var q, qn, a, b, fl;
-                q = th.val().length;
-                qn = (th.attr("id").substr(4)) - 1;
-                a = th.val();
-                a = a.replace(/ /gi, "");
-                if (!$.isArray(an[qn])) {
-                    /* 1 인 경우 */
-                    if (io) {
-                        b = an[qn];
-                    } else {
-                        b = an[qn].substr(0, q);
-                    }
-                    b = b.replace(/ /gi, "");
-                    if (a == b) {
-                        return true;
-                    }
-                } else {
-                    /* 2 이상인 경우 */
-                    for (var fd = 0; fd < an[qn].length; fd++) {
-                        if (io) {
-                            b = an[qn][fd];
-                        } else {
-                            b = an[qn][fd].substr(0, q);
-                        }
-                        b = b.replace(/ /gi, "");
-                        if (a == b) {
-                            return true;
-                        }
-                    }
-                }
-            }
-            /* 각 문장 재생 횟수 초기화 */
-            var hm = new Array(),
-                sen = new Array();
-            for (i = 0; i < $(".so").length; i++) {
-                hm[i] = 0;
-                sen[i] = 0;
-            }
-            ion.sound({
-                sounds: [{
-                    name: "r10 B4",
-                    sprite: {
-                        "0": [.570, 110.024],
-                        "1": [15.095, 9.092],
-                        "2": [26.748, 10.490],
-                        "3": [39.384, 15.402],
-                        "4": [56.926, 12.188],
-                        "5": [70.932, 9.068],
-                        "6": [82.295, 10.045],
-                        "7": [94.733, 15.824]
-                    }
-                }, {
-                    name: "dingdongdang",
-                    path: "<?php echo($root); ?>sounds/",
-                }, {
-                    name: "Cartoon_Boing",
-                    path: "<?php echo($root); ?>sounds/",
-                }],
-                path: "<?php echo($root); ?>sounds/Reihe 10/",
-                preload: true,
-                volume: 1.0,
-                multiplay: false,
-                ended_callback: function (obj) {
-                    /* 재생이 끝날 때 2번 이상이면 번역 보이기 */
-                    hmn = obj.part;
-                    hm[hmn]++;
-                    /* 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    if (obj.part == "0") {
-                        $("#0").show();
-                        $("#0_p").hide();
-                        if (hm[hmn] > 1) {
-                            $(".tran").show();
-                        }
-                    } else {
-                        if (obj.part > 0) {
-                            $("#" + obj.part).html("▶");
-                        }
-                        if (hm[hmn] > 1) {
-                            $("#" + hmn).closest(".table")
-                                .find(".tran").show();
-                        }
-                    }
+            /* 소리 출력 전역 변수와 함수 */
+            var sen = new Array(),
+                pa = new Array(),
+                he = new Array(),
+                last;
+            $(".so").each(function () {
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
+            });
+
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            } /* 문제 재생 */
+            var nagehts = new Howl({
+                src: ["./<?php echo($root); ?>sounds/Reihe 10/r10 B4.mp3"],
+                sprite: {
+                    "0": [70, 110524],
+                    "1": [14595, 9592],
+                    "2": [26248, 10990],
+                    "3": [38884, 15902],
+                    "4": [56426, 12688],
+                    "5": [70432, 9568],
+                    "6": [81795, 10545],
+                    "7": [94233, 16324]
                 },
-                ready_callback: function () {
-                    $(".o").on("click", function () {
-                        ion.sound.play(
-                            "dingdongdang");
-                    });
-                    $(".x").on("click", function () {
-                        ion.sound.play(
-                            "Cartoon_Boing");
-                    });
-                    $("[data-toggle='popover']").popover({
-                        delay: {
-                            'hide': 1000
-                        },
-                        container: "body"
-                    });
-                    $(".pop").click(function () {
-                        /* 가장 먼저 지문에 'an' 넣기 */
-                        if (!$(this).siblings()
-                            .hasClass("an")) {
-                            $(this).addClass("an");
-                            $(this).addClass(
-                                "btn-warning");
-                            $(this).parent()
-                                .children()
-                                .removeClass(
-                                    "btn-light");
-                        };
-                        /* 문제 풀이 정도 업데이트 */
-                        var perc = Math.round(($(
-                                ".an")
-                            .length / $(
-                                ".q").length
-                        ) * 100);
-                        $(".progress>.bar").attr(
-                            "width", perc + "%;"
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
-                    });
-                    /* 팝업 내용 사라지기 */
-                    $(".pop").popover().click(function () {
-                        setTimeout(function () {
-                            $(".pop")
-                                .popover(
-                                    'hide');
-                        }, 500);
-                    });
+                    console.log("다시 읽어주세요!");
+                },
+                onload: function () {
+                    /* 음성 준비되면 HV 버튼 나타내기 */
+                    $("#0").show();
+                    $(".alert").hide();
                     $(".so").on("click", function () {
-                        if ($(this).attr("id")
-                            .substr(-2) == "_p") {
-                            /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                                "r10 B4", {
-                                    part: "0"
-                                }
-                            );
-                            $("#0").show();
-                            $(this).hide();
-                        } else if ($(this).html() ==
-                            "▶") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.play(
-                                "r10 B4", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            $(this).html("❚❚");
-                        } else if ($(this).html() ==
-                            "❚❚") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause(
-                                "r10 B4", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                }
-                            );
-                            $(this).html("▶");
-                        } else {
-                            /* _p 붙어 있지 않으면 id 그대로 재생 */
-                            ion.sound.play(
-                                "r10 B4", {
-                                    part: $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                        )
-                                });
-                            /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
-                            if ($(this).attr(
-                                    "id") == "0") {
-                                $(this).hide();
-                                $("#0_p").show();
-                            };
-                        };
+                        var t = $(this);
+                        var ti = t.attr("id");
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+                            last = ti;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        }
                     });
-                    $(".q").on("keyup", function () {
-                        $(this).removeClass(
-                            "bg-danger");
-                        $(this).removeClass(
-                            "bg-success");
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .removeClass(
-                                "text-danger");
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .removeClass(
-                                "text-success");
-                        if (rfchk($(this))) {
-                            $(this).addClass(
-                                "text-white font-weight-bold"
-                            );
-                            $(this).addClass(
-                                "bg-success");
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .addClass(
-                                    "text-success");
+
+                    /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+                    /* 값 확인해보자, io값이 참이면 전체 검사 */
+                    function rfchk(th, io) {
+                        var q, qn, a, b, fl;
+                        q = th.val().length;
+                        qn = (th.attr("id").substr(4)) - 1;
+                        a = th.val();
+                        a = a.replace(/ /gi, "");
+                        if (!$.isArray(an[qn])) {
+                            /* 1 인 경우 */
+                            if (io) {
+                                b = an[qn];
+                            } else {
+                                b = an[qn].substr(0, q);
+                            }
+                            b = b.replace(/ /gi, "");
+                            if (a == b) {
+                                return true;
+                            }
                         } else {
-                            $(this).addClass(
-                                "text-white font-weight-bold"
-                            );
-                            $(this).addClass(
-                                "bg-danger");
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .addClass(
-                                    "text-danger");
+                            /* 2 이상인 경우 */
+                            for (var fd = 0; fd < an[qn].length; fd++) {
+                                if (io) {
+                                    b = an[qn][fd];
+                                } else {
+                                    b = an[qn][fd].substr(0, q);
+                                }
+                                b = b.replace(/ /gi, "");
+                                if (a == b) {
+                                    return true;
+                                }
+                            }
+                        }
+                    }
+                    $(".q").on("keyup", function () {
+                        $(this).removeClass("bg-danger");
+                        $(this).removeClass("bg-success");
+                        $("#ant-" + $(this).attr("id").substr(4)).removeClass(
+                        "text-danger");
+                        $("#ant-" + $(this).attr("id").substr(4)).removeClass(
+                            "text-success");
+                        if (rfchk($(this))) {
+                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("bg-success");
+                            $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                "text-success");
+                        } else {
+                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("bg-danger");
+                            $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                "text-danger");
                         }
                         if (!$(this).val()) {
-                            $(this).removeClass(
-                                "bg-danger");
-                            $(this).removeClass(
-                                "bg-success");
-                            $(this).removeClass(
-                                "text-white font-weight-bold"
-                            );
+                            $(this).removeClass("bg-danger");
+                            $(this).removeClass("bg-success");
+                            $(this).removeClass("text-white font-weight-bold");
                         }
                         if ($(this).val()) {
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .show();
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .text($(this)
-                                    .val());
+                            $("#ant-" + $(this).attr("id").substr(4)).show();
+                            $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                         } else {
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .hide();
+                            $("#ant-" + $(this).attr("id").substr(4)).hide();
                         }
                     });
                     $(".q").on("focusin", function () {
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .show();
-                        if (!$("#ant-" + $(this)
-                                .attr("id").substr(
-                                    4)).text()) {
-                            $("#ant-" + $(this)
-                                    .attr("id")
-                                    .substr(4))
-                                .text($(this)
-                                    .val());
+                        $("#ant-" + $(this).attr("id").substr(4)).show();
+                        if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
+                            $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
                         }
-                        if ($("#ant-" + $(this)
-                                .attr("id").substr(
-                                    4)).text()) {
+                        if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                             if (rfchk($(this))) {
-                                $(this).addClass(
-                                    "text-white font-weight-bold"
-                                );
-                                $(this).addClass(
-                                    "bg-success"
-                                );
-                                $("#ant-" + $(this)
-                                        .attr("id")
-                                        .substr(4))
-                                    .addClass(
-                                        "text-success"
-                                    );
+                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("bg-success");
+                                $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                    "text-success");
                             } else {
-                                $(this).addClass(
-                                    "text-white font-weight-bold"
-                                );
-                                $(this).addClass(
-                                    "bg-danger");
-                                $("#ant-" + $(this)
-                                        .attr("id")
-                                        .substr(4))
-                                    .addClass(
-                                        "text-danger"
-                                    );
+                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("bg-danger");
+                                $("#ant-" + $(this).attr("id").substr(4)).addClass(
+                                    "text-danger");
                             }
                         }
                     });
                     $(".q").on("focusout", function () {
-                        $("#ant-" + $(this).attr(
-                                "id").substr(4))
-                            .hide();
+                        $("#ant-" + $(this).attr("id").substr(4)).hide();
                         if (rfchk($(this), true)) {
-                            $(this).addClass(
-                                "bg-success");
-                            $(this).addClass(
-                                "text-white");
+                            $(this).addClass("bg-success");
+                            $(this).addClass("text-white");
                         } else {
-                            $(this).addClass(
-                                "bg-danger");
+                            $(this).addClass("bg-danger");
                         }
                         if ($(this).val()) {
-                            if ($(this).hasClass(
-                                    "bg-danger")) {
-                                ion.sound.play(
-                                    "Cartoon_Boing"
-                                );
-                            } else if ($(this)
-                                .hasClass(
-                                    "bg-success")) {
-                                ion.sound.play(
-                                    "dingdongdang"
-                                );
-                                $(this).prop(
-                                    "disabled",
-                                    true);
+                            if ($(this).hasClass("bg-danger")) {
+                                x.play();
+                            } else if ($(this).hasClass("bg-success")) {
+                                o.play();
+                                $(this).prop("disabled", true);
                             }
                         }
-                        $(this).removeClass(
-                            "bg-danger");
-                        if (!$(this).attr(
-                                "disabled")) {
-                            $(this).removeClass(
-                                "text-white font-weight-bold"
-                            );
-                            $(this).removeClass(
-                                "bg-success");
+                        $(this).removeClass("bg-danger");
+                        if (!$(this).attr("disabled")) {
+                            $(this).removeClass("text-white font-weight-bold");
+                            $(this).removeClass("bg-success");
                         }
-                    })
+                    });
                     /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
                     $("#chk").on("click", function () {
                         var na = "";
@@ -607,204 +439,113 @@
                             if (na != "") {
                                 na += ", ";
                             }
-                            if ($(this)
-                                .val() ==
-                                "") {
-                                na += $(
-                                        this)
-                                    .attr(
-                                        "id"
-                                    )
-                                    .substr(
-                                        4, 1
-                                    );
+                            if ($(this).val() == "") {
+                                na += $(this).attr("id").substr(4, 1);
                             }
                         });
-                        if ($(this).attr("id") ==
-                            "done") {} else if (
-                            na == "") {
-                            for (var i = 0; i < an
-                                .length; i++) {
-                                var oran = $(
-                                        "#qst-" + (
-                                            i + 1))
-                                    .val();
-                                if (rfchk($("#qst-" +
-                                        (i + 1)
-                                    ), true)) {
-                                    $("#qst-" + (i +
-                                            1))
-                                        .addClass(
-                                            "cr"
-                                        );
-                                    $("#qst-" + (i +
-                                            1))
-                                        .removeClass(
-                                            "rounded-0"
-                                        );
+                        if ($(this).attr("id") == "done") {} else if (na == "") {
+                            for (var i = 0; i < an.length; i++) {
+                                var oran = $("#qst-" + (i + 1)).val();
+                                if (rfchk($("#qst-" + (i + 1)), true)) {
+                                    $("#qst-" + (i + 1)).addClass("cr");
+                                    $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
-                                    $("#qst-" + (i +
-                                        1)).val(
-                                        oran);
-                                    $("#qst-" + (i +
-                                            1))
-                                        .attr(
-                                            "disabled",
-                                            true);
-                                    $("#qst-" + (i +
-                                            1))
-                                        .addClass(
-                                            "wa"
-                                        );
-                                    $("#qst-" + (i +
-                                            1))
-                                        .removeClass(
-                                            "rounded-0"
-                                        );
-                                    if (!$.isArray(
-                                            an[i]
-                                        )) {
-                                        $("#qst-" +
-                                                (i +
-                                                    1)
-                                            )
-                                            .after(
-                                                "<div class=\"d-block ra t-6\" style=\"min-width: 150px;\">" +
-                                                an[
-                                                    i] +
-                                                "</div>"
-                                            );
+                                    $("#qst-" + (i + 1)).val(oran);
+                                    $("#qst-" + (i + 1)).attr("disabled", true);
+                                    $("#qst-" + (i + 1)).addClass("wa");
+                                    $("#qst-" + (i + 1)).removeClass("rounded-0");
+                                    if (!$.isArray(an[i])) {
+                                        $("#qst-" + (i + 1)).after(
+                                            "<div class=\"d-block ra t-6\" style=\"min-width: 150px;\">" +
+                                            an[i] + "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
                                             "<div class=\"d-block ra t-6\" style=\"min-width: 150px;\">";
-                                        for (var fd =
-                                                (an[i]
-                                                    .length -
-                                                    1
-                                                ); fd >=
-                                            0; fd--
-                                        ) {
-                                            if (fd <
-                                                (an[i]
-                                                    .length -
-                                                    1
-                                                )
-                                            ) {
-                                                r = r +
-                                                    " / ";
+                                        for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                            if (fd < (an[i].length - 1)) {
+                                                r = r + " / ";
                                             }
-                                            r = r +
-                                                an[
-                                                    i]
-                                                [
-                                                    fd
-                                                ];
+                                            r = r + an[i][fd];
                                         }
-                                        r = r +
-                                            "</div>";
-                                        if ($(
-                                                "span.sen")
-                                            .length >
-                                            0) {
-                                            $("#qst-" +
-                                                    (i +
-                                                        1)
-                                                )
-                                                .closest(
-                                                    "span.sen"
-                                                )
-                                                .after(
-                                                    r
-                                                );
+                                        r = r + "</div>";
+                                        if ($("span.sen").length > 0) {
+                                            $("#qst-" + (i + 1)).closest("span.sen").after(
+                                                r);
                                         } else {
-                                            $("#qst-" +
-                                                    (i +
-                                                        1)
-                                                )
-                                                .after(
-                                                    r
-                                                );
+                                            $("#qst-" + (i + 1)).after(r);
                                         }
                                     }
                                 }
-                                if ($("#qst-" + (i +
-                                        1))
-                                    .hasClass(
-                                        "bg-success"
-                                    )) {
+                                if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                                     ri++;
                                 }
-                            }
-                            /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-                            var qa = $(".q")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".bg-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                                100; /* 정답 비율 */
-                            var tcl =
-                                "white"; /* 기본 문자색 */
+                            } /* 정답 확인 div 상자 배경색 속성 없애기 */
+                            $(this).removeClass("btn-light ");
+                            var qa = $(".q").length; /* 전체 문항 수 */
+                            var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */
+
                             /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-                            $(this).prop("disabled",
-                                true);
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                                "</h4>");
+                            $(this).prop("disabled", true);
                             $(".tran").show();
-                            $(this).attr("id",
-                                "done");
+                            $(this).attr("id", "done");
                         } else {
                             alert("모든 문제를 풀어주세요!");
-                            /* alert(na+"번 문제를 풀어주세요!"); */
                         };
                     });
                     var pan = new Array();
-                    /* pan=[1,2,3,4,5,6,7,8,9,10]; */
                     pan = [1, 2];
                     for (var p = 0; p < pan.length; p++) {
                         var pann = "#qst-" + pan[p];
                         $(pann).val(an[(pan[p] - 1)]);
-                        $(pann).addClass(
-                            "bg-success text-white font-weight-bold"
-                        );
+                        $(pann).addClass("bg-success text-white font-weight-bold");
                         $(pann).prop("disabled", true);
-                        /* $(pann).closest("tr").find(".tran").show(); */
                     }
-
                     $("#0").show();
                     $(".alert").hide();
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" + last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
                 }
             });
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

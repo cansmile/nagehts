@@ -348,35 +348,39 @@
                                 <td class="align-middle">
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
-                                            border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-10">
                                     </div>
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-11">
                                     </div>
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-12">
                                     </div>
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-13">
                                     </div>
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-14">
@@ -391,7 +395,8 @@
                                 <td class="align-middle">
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-15">
@@ -408,14 +413,16 @@
                                 <td class="align-middle">
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-16">
                                     </div>
                                     <div class="input-group">
                                         <input type="text"
-                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                            text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-17">
@@ -449,11 +456,10 @@
     <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
-        $("#0").hide();
-        $("#0_p").hide();
 
         $(".tran").hide();
         $(".ant").hide();
@@ -569,9 +575,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -683,12 +689,10 @@
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
             });
 
             var pan = new Array();
-            /* pan=[1,2,3,4,5,6,7,8,9,10]; */
             pan = [10, 15, 17];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
@@ -696,13 +700,11 @@
                 $(pann).addClass(
                     "bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
-                /* $(pann).closest("tr").find(".tran").show(); */
             }
 
         });
 
     </script>
-    <!-- ion.sound finished -->
 
     <?php require "footer.php"; ?>
 </body>

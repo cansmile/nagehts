@@ -423,13 +423,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
-        $("#0").hide();
-        $("#0_p").hide();
-
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
@@ -545,9 +542,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -659,12 +656,10 @@
                     $(this).attr("id", "done");
                 } else {
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
             });
 
             var pan = new Array();
-            /* pan=[1,2,3,4,5,6,7,8,9,10]; */
             pan = [2, 5, 6, 7, 9, 10, 12, 14, 17, 18, 19];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
@@ -672,13 +667,11 @@
                 $(pann).addClass(
                     "bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
-                /* $(pann).closest("tr").find(".tran").show(); */
             }
 
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

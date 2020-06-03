@@ -14,8 +14,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4"
-                    style="line-height: 250%">
+                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4 lh350">
                     <div class="row">
                         <div class="col-1 text-center">1.</div>
                         <div class="col-11">
@@ -52,8 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4"
-                    style="line-height: 250%">
+                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4 lh350">
                     <div class="row">
                         <div class="col-1 text-center">2.</div>
                         <div class="col-11">
@@ -71,8 +69,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4"
-                    style="line-height: 250%">
+                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4 lh350">
                     <div class="row">
                         <div class="col-1 text-center">3.</div>
                         <div class="col-11">
@@ -88,8 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4"
-                    style="line-height: 250%">
+                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4 lh350">
                     <div class="row">
                         <div class="col-1 text-center">4.</div>
                         <div class="col-11">
@@ -116,8 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4"
-                    style="line-height: 250%">
+                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4 lh350">
                     <div class="row">
                         <div class="col-1 text-center">5.</div>
                         <div class="col-11">
@@ -132,8 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4"
-                    style="line-height: 250%">
+                <div class="col-sm-12 col-md-12 col-lg-6 border border-dark rounded p-2 my-2 py-4 lh350">
                     <div class="row">
                         <div class="col-1 text-center">6.</div>
                         <div class="col-11">
@@ -183,9 +177,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -300,9 +294,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -433,7 +427,6 @@
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

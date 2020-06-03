@@ -219,20 +219,14 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $(".tran").hide();
 
         $(document).ready(function () {
-            $(".o").on("click", function () {
-                ion.sound.play("dingdongdang");
-            });
-            $(".x").on("click", function () {
-                ion.sound.play("Cartoon_Boing");
-            });
-
             $("[data-toggle='popover']").popover({
                 delay: {
                     'hide': 1000
@@ -244,22 +238,16 @@
                 if (!$(this).siblings().hasClass("an")) {
                     $(this).addClass("an");
                     $(this).addClass("btn-warning");
-                    $(this).parent().children().removeClass(
-                        "btn-light");
-                };
-                /* 문제 풀이 정도 업데이트 */
-                var perc = Math.round(($(".an").length / $(".q")
-                    .length) * 100);
+                    $(this).parent().children().removeClass("btn-light");
+                }; /* 문제 풀이 정도 업데이트 */
+                var perc = Math.round(($(".an").length / $(".q").length) * 100);
                 $(".progress>.bar").attr("width", perc + "%;");
-            });
-            /* 팝업 내용 사라지기 */
+            }); /* 팝업 내용 사라지기 */
             $(".pop").popover().click(function () {
                 setTimeout(function () {
                     $(".pop").popover('hide');
                 }, 500);
-            });
-
-            /* 정답확인 */
+            }); /* 정답확인 */
             $("#chk").on("click", function () {
                 if ($(this).attr("id") == "chk") {
                     if ($(".an").length < $(".q").length) {
@@ -317,9 +305,7 @@
                     };
                 }
             });
-
             var pan = new Array();
-            /* pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"]; */
             pan = [];
             var il = $(".q").length;
             for (var p = 0; p < pan.length; p++) {
@@ -328,11 +314,9 @@
                 $("#qst-" + pan[p] + ">div.o").addClass("btn-warning");
                 $("#qst-" + pan[p] + ">div.o").removeClass("btn-light");
             }
-
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

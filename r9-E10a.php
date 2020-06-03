@@ -129,9 +129,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $("#chk").hide();
@@ -197,7 +198,6 @@
                         }
                     });
                     alert("모든 문제를 풀어주세요!");
-                    /* alert(na+"번 문제를 풀어주세요!"); */
                 }
             });
 
@@ -213,14 +213,12 @@
                         $(pann).insertAfter("#lst-" + (i + 1) + ">h2");
                     }
                 }
-                /* $(pann).find(".tran").show(); */
             }
             $(".itm-lst>button").addClass("btn-block btn-light");
 
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

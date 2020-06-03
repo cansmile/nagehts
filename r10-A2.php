@@ -49,9 +49,6 @@
                     <h2>[ <small>번호를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
                             HV
-                        </button><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
-                            id="0_p">
-                            ❚❚
                         </button>
                     </h2>
                     <h3>[ <small><button type="button"
@@ -161,38 +158,38 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-8">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;am Hauptbahnhof<span class="tran"><br><small>중앙역에</small></span>
+                            <div class="itm-lst 1itm" id="lst-8">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;am Hauptbahnhof<span class="tran"><br><small>중앙역에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-7">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;am Marktplatz<span class="tran"><br><small>시장에</small></span>
+                            <div class="itm-lst 1itm" id="lst-7">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;am Marktplatz<span class="tran"><br><small>시장에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-32">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;am Rathaus<span class="tran"><br><small>시청에</small></span>
+                            <div class="itm-lst 1itm" id="lst-32">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;am Rathaus<span class="tran"><br><small>시청에</small></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row mt-2">
@@ -200,26 +197,26 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-9">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;auf dem Tennisplatz<span class="tran"><br><small>테니스장에</small></span>
+                            <div class="itm-lst 1itm" id="lst-9">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;auf dem Tennisplatz<span class="tran"><br><small>테니스장에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-19">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;auf der Bank (Sparkasse)<span class="tran"><br><small>은행(슈파카세)</small></span>
+                            <div class="itm-lst 1itm" id="lst-19">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;auf der Bank (Sparkasse)<span class="tran"><br><small>은행(슈파카세)</small></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row mt-2">
@@ -227,194 +224,194 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-1">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Blumenladen<span class="tran"><br><small>꽃집에서</small></span>
+                            <div class="itm-lst 1itm" id="lst-1">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Blumenladen<span class="tran"><br><small>꽃집에서</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-28">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Café<span class="tran"><br><small>카페에</small></span>
+                            <div class="itm-lst 1itm" id="lst-28">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Café<span class="tran"><br><small>카페에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-24">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Fotostudio<span class="tran"><br><small>사진관에</small></span>
+                            <div class="itm-lst 1itm" id="lst-24">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Fotostudio<span class="tran"><br><small>사진관에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-3">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Getränkemarkt<span class="tran"><br><small>음료마켓에서</small></span>
+                            <div class="itm-lst 1itm" id="lst-3">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Getränkemarkt<span class="tran"><br><small>음료마켓에서</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-31">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Hotel<span class="tran"><br><small>호텔에</small></span>
+                            <div class="itm-lst 1itm" id="lst-31">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Hotel<span class="tran"><br><small>호텔에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-23">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Kaufhaus<span class="tran"><br><small>백화점에</small></span>
+                            <div class="itm-lst 1itm" id="lst-23">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Kaufhaus<span class="tran"><br><small>백화점에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-27">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Kino<span class="tran"><br><small>영화관에</small></span>
+                            <div class="itm-lst 1itm" id="lst-27">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Kino<span class="tran"><br><small>영화관에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-2">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Park<span class="tran"><br><small>공원에서</small></span>
+                            <div class="itm-lst 1itm" id="lst-2">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Park<span class="tran"><br><small>공원에서</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-5">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Parkhaus<span class="tran"><br><small>주차장에서</small></span>
+                            <div class="itm-lst 1itm" id="lst-5">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Parkhaus<span class="tran"><br><small>주차장에서</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-29">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Reisebüro<span class="tran"><br><small>여행사에</small></span>
+                            <div class="itm-lst 1itm" id="lst-29">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Reisebüro<span class="tran"><br><small>여행사에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-30">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Restaurant<span class="tran"><br><small>식당에</small></span>
+                            <div class="itm-lst 1itm" id="lst-30">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Restaurant<span class="tran"><br><small>식당에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-25">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Schwimmbad<span class="tran"><br><small>수영장에</small></span>
+                            <div class="itm-lst 1itm" id="lst-25">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Schwimmbad<span class="tran"><br><small>수영장에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-26">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Stadtmuseum<span class="tran"><br><small>시립박물관에</small></span>
+                            <div class="itm-lst 1itm" id="lst-26">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Stadtmuseum<span class="tran"><br><small>시립박물관에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-4">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Supermarkt<span class="tran"><br><small>슈퍼마켓에서</small></span>
+                            <div class="itm-lst 1itm" id="lst-4">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Supermarkt<span class="tran"><br><small>슈퍼마켓에서</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-22">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Theater<span class="tran"><br><small>극장에</small></span>
+                            <div class="itm-lst 1itm" id="lst-22">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Theater<span class="tran"><br><small>극장에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-6">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;im Zoo<span class="tran"><br><small>동물원에서</small></span>
+                            <div class="itm-lst 1itm" id="lst-6">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;im Zoo<span class="tran"><br><small>동물원에서</small></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row mt-2">
@@ -422,134 +419,134 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-20">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Apotheke<span class="tran"><br><small>약국에</small></span>
+                            <div class="itm-lst 1itm" id="lst-20">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Apotheke<span class="tran"><br><small>약국에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-10">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Buchhandlung<span class="tran"><br><small>서점에</small></span>
+                            <div class="itm-lst 1itm" id="lst-10">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Buchhandlung<span class="tran"><br><small>서점에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-11">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Bäckerei<span class="tran"><br><small>빵집에</small></span>
+                            <div class="itm-lst 1itm" id="lst-11">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Bäckerei<span class="tran"><br><small>빵집에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-12">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Diskothek<span class="tran"><br><small>디스코텍에</small></span>
+                            <div class="itm-lst 1itm" id="lst-12">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Diskothek<span class="tran"><br><small>디스코텍에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-13">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Frauenkirche<span class="tran"><br><small>프라우엔교회에</small></span>
+                            <div class="itm-lst 1itm" id="lst-13">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Frauenkirche<span class="tran"><br><small>프라우엔교회에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-15">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Praxis<span class="tran"><br><small>병원에</small></span>
+                            <div class="itm-lst 1itm" id="lst-15">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Praxis<span class="tran"><br><small>병원에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-14">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Sprachschule<span class="tran"><br><small>어학원에</small></span>
+                            <div class="itm-lst 1itm" id="lst-14">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Sprachschule<span class="tran"><br><small>어학원에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-16">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Stadtbibliothek<span class="tran"><br><small>시립도서관에</small></span>
+                            <div class="itm-lst 1itm" id="lst-16">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Stadtbibliothek<span class="tran"><br><small>시립도서관에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-17">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Telefonzelle<span class="tran"><br><small>공중 전화 박스에</small></span>
+                            <div class="itm-lst 1itm" id="lst-17">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Telefonzelle<span class="tran"><br><small>공중 전화 박스에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-18">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Touristeninformation<span class="tran"><br><small>관광안내센터에</small></span>
+                            <div class="itm-lst 1itm" id="lst-18">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Touristeninformation<span class="tran"><br><small>관광안내센터에</small></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 mr-3 p-0">
-                                <div class="itm-lst 1itm" id="lst-21">
-                                    <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
-                                </div>
-                            </div>
-                            <div class="col-8 ml-3 my-auto">
-                                &nbsp;in der Videothek<span class="tran"><br><small>비디오테이프 대여점에</small></span>
+                            <div class="itm-lst 1itm" id="lst-21">
+                                <h2 class="btn btn-warning btn-lg ttl d-inline-block"> ▼ </h2>
                             </div>
                         </div>
+                        <div class="col-8 ml-3 my-auto">
+                            &nbsp;in der Videothek<span class="tran"><br><small>비디오테이프 대여점에</small></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->
@@ -781,139 +778,91 @@
     </section>
 
     <div id="marg"></div>
+    <div id="last" class="d-none"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroup.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $("#0").hide();
-        $("#0_p").hide();
         $(".tran").hide();
         $("#chk").hide();
 
         $(document).ready(function () {
-            /* 각 문장 재생 횟수 초기화 */
-            var hm = new Array(),
-                sen = new Array();
+            /* 소리 출력 전역 변수와 함수 */
+            var sen = new Array(),
+                pa = new Array(),
+                he = new Array(),
+                last;
             $(".so").each(function () {
-                hm[$(this).attr("id")] = 0;
-                sen[$(this).attr("id")] = $("#" + $(this).attr(
-                    "id")).text();
+                var t = $(this);
+                var ti = t.attr("id");
+                sen[ti] = 0;
+                pa[ti] = t.html();
             });
 
-            ion.sound({
-                sounds: [{
-                    name: "r10 A2-1 Wo sind die Leute",
-                    sprite: {
-                        "0": [1.019, 157.705],
-                        "10": [13.881, 12.237],
-                        "11": [27.829, 10.410],
-                        "12": [40.315, 11.531],
-                        "13": [53.882, 20.805],
-                        "14": [76.197, 18.689],
-                        "15": [96.246, 19.548],
-                        "16": [117.149, 23.689],
-                        "17": [141.625, 16.551],
-                        "18": [15.490, 4.719],
-                        "19": [20.626, 1.559],
-                        "20": [22.359, 1.516],
-                        "21": [23.907, 2.064]
-                    }
-                }, {
-                    name: "dingdongdang",
-                    path: "<?php echo($root); ?>sounds/",
-                }, {
-                    name: "Cartoon_Boing",
-                    path: "<?php echo($root); ?>sounds/",
-                }],
-                path: "<?php echo($root); ?>sounds/Reihe 10/",
-                preload: true,
-                volume: 1.0,
-                multiplay: false,
-                ended_callback: function (obj) {
-                    /* 재생이 끝날 때 2번 이상이면 번역 보이기 */
-                    hmn = obj.part;
-                    hm[hmn]++; /* 전체 재생 끝나면 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                    if (obj.part == "0") {
-                        $("#0").show();
-                        $("#0_p").hide();
-                        if (hm[hmn] > 1) {
-                            $(".tran").show();
-                        }
-                    } else {
-                        $("#" + obj.part).text(sen[obj.part]);
-                        if (hm[hmn] > 1) {
-                            $("#" + hmn).closest("ul").find(".tran").show();
-                        }
-                    }
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            } /* 문제 재생 */
+            var nagehts = new Howl({
+                src: ["./<?php echo($root); ?>sounds/Reihe 10/r10 A2-1.mp3"],
+                sprite: {
+                    "0": [519, 158205],
+                    "10": [13381, 12737],
+                    "11": [27329, 10910],
+                    "12": [39815, 12031],
+                    "13": [53382, 21305],
+                    "14": [75697, 19189],
+                    "15": [95746, 20048],
+                    "16": [116649, 24189],
+                    "17": [141125, 17051],
+                    "18": [14990, 5219],
+                    "19": [20126, 2059],
+                    "20": [21859, 2016],
+                    "21": [23407, 2564]
                 },
-                ready_callback: function () {
-                    $(".o").on("click", function () {
-                        ion.sound.play("dingdongdang");
-                    });
-                    $(".x").on("click", function () {
-                        ion.sound.play("Cartoon_Boing");
-                    });
-                    $("[data-toggle='popover']").popover({
-                        delay: {
-                            'hide': 1000
-                        },
-                        container: "body"
-                    });
-                    $(".pop").click(function () {
-                        /* 가장 먼저 지문에 'an' 넣기 */
-                        if (!$(this).siblings().hasClass("an")) {
-                            $(this).addClass("an");
-                            $(this).addClass("btn-warning");
-                            $(this).parent().children().removeClass("btn-light");
-                        }; /* 문제 풀이 정도 업데이트 */
-                        var perc = Math.round(($(".an").length / $(".q").length) * 100);
-                        $(".progress>.bar").attr("width", perc + "%;");
-                    }); /* 팝업 내용 사라지기 */
-                    $(".pop").popover().click(function () {
-                        setTimeout(function () {
-                            $(".pop").popover('hide');
-                        }, 500);
-                    });
-
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        );
+                    console.log("다시 읽어주세요!");
+                },
+                onload: function () {
+                    /* 음성 준비되면 HV 버튼 나타내기 */
+                    $("#0").show();
+                    $(".alert").hide();
                     $(".so").on("click", function () {
-                        if ($(this).attr("id").substr(-2) == "_p") {
-                            /* _p 붙어 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause("r10 A2-1 Wo sind die Leute", {
-                                part: "0"
-                            });
-                            $("#0").show();
-                            $(this).hide();
-                        } else if ($(this).text() == sen[$(this).attr("id")]) {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.play("r10 A2-1 Wo sind die Leute", {
-                                part: $(this).attr("id")
-                            });
-                            $(this).html("❚❚");
-                        } else if ($(this).html() == "❚❚") {
-                            /* 재생되고 있는 것은 일시정지 버튼 숨기고 HV 버튼 보이기 */
-                            ion.sound.pause("r10 A2-1 Wo sind die Leute", {
-                                part: $(this).attr("id")
-                            });
-                            $(this).html("▶");
-                        } else {
-                            /* _p 붙어 있지 않으면 id 그대로 재생 */
-                            ion.sound.play("r10 A2-1 Wo sind die Leute", {
-                                part: $(this).attr("id")
-                            }); /* 전체 듣기 재생일 때는 일시정지 버튼 보이기 */
-                            if ($(this).attr("id") == "0") {
-                                $(this).hide();
-                                $("#0_p").show();
-                            };
-                        };
-                    });
-
-                    /* 정답확인 */
+                        var t = $(this);
+                        var ti = t.attr("id");
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                                ".itm-lst")) {
+                            $("#last").text(ti);
+                            t.text("■");
+                            nagehts.seek();
+                            nagehts.play(ti);
+                            sen[ti]++;
+                            last = ti;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
+                            $("#last").text("");
+                            t.html(pa[ti]);
+                            nagehts.pause();
+                            sen[ti]--;
+                            $("#cnt-" + ti).text(sen[ti]);
+                        }
+                    }); /* 정답확인 */
                     $("#chk").on("click", function () {
                         var na = "";
                         if ($("#itms").find("button").length < 1) {
@@ -928,7 +877,7 @@
                                 }
                             });
                             var qa = $(".itm-lst").length - $(".itm-lst>.ttl")
-                                .length; /* 전체 문항 수 */
+                            .length; /* 전체 문항 수 */
                             var qr = $(".text-success").length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */
                             var tcl = "white"; /* 기본 문자색 */
@@ -962,13 +911,12 @@
                                     na += (idx + 1);
                                 }
                             });
-                            alert("모든 문제를 풀어주세요!"); /* alert(na+"번 문제를 풀어주세요!"); */
+                            alert("모든 문제를 풀어주세요!");
                         }
                     });
 
                     <?php require "wahl.php"; ?>
-
-                    var pan = new Array(); /* pan = ["1","2","3","4","5","6","7","8","9","10"]; */
+                    var pan = new Array();
                     pan = [19, 31];
                     var il = $("#itms>.itm").length;
                     for (var p = 0; p < pan.length; p++) {
@@ -985,12 +933,30 @@
                     }
                     $("#0").show();
                     $(".alert").hide();
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[last] = $("#" + last).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
                 }
             });
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

@@ -301,9 +301,9 @@
                         }
                         if ($(this).val()) {
                             if ($(this).hasClass("bg-danger")) {
-                                ion.sound.play("Cartoon_Boing");
+                                x.play();
                             } else if ($(this).hasClass("bg-success")) {
-                                ion.sound.play("dingdongdang");
+                                o.play();
                                 $(this).prop("disabled", true);
                             }
                         }

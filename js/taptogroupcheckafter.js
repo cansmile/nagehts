@@ -48,19 +48,11 @@ var tm = 0;
 		// 정답‧오답에 따라 소리 내기
 		if(a != tn) {
 				// 틀리면 띠용
-					if(typeof x === 'undefined') {
-						ion.sound.play("Cartoon_Boing");
-					} else {
 						x.play();
-					}
 		} else {
 				// 맞으면 넣기
 				if(tm == 0) {
-					if(typeof o === 'undefined') {
-						ion.sound.play("dingdongdang");
-					} else {
 						o.play();
-					}
 
 				}
 
@@ -90,11 +82,7 @@ var tm = 0;
 $(document).ready(function() {
 	$(".itm").appendTo("#itms");
 
-	// 오답 일 때 띠용~
-	ion.sound({
-		sounds : [{
 			name : "dingdongdang"
-		}, {
 			name : "Cartoon_Boing"
 		}],
 		path : "dev/sounds/",

@@ -702,7 +702,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <!-- ion.sound -->
     <script src="./<?php echo($root); ?>js/howler.core.js"></script>
     <script>
         /* 일단 HV 버튼과 일시정지 버튼 숨기기 */

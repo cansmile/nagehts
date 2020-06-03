@@ -419,7 +419,6 @@
     });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
     </body>
 

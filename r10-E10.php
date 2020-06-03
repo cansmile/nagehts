@@ -13,26 +13,26 @@
                 </div>
             </div>
             <div class="row my-2 py-2">
-                <div class="col" style="line-height: 250%;">
-                    <span class="border border-dark rounded p-2">angekommen</span>
-                    <span class="border border-dark rounded p-2">angerufen</span>
-                    <span class="border border-dark rounded p-2">angezogen</span>
-                    <span class="border border-dark rounded p-2">anrufen</span>
-                    <span class="border border-dark rounded p-2">bin</span>
-                    <span class="border border-dark rounded p-2">bist</span>
-                    <span class="border border-dark rounded p-2">funktioniert</span>
-                    <span class="border border-dark rounded p-2">geblieben</span>
-                    <span class="border border-dark rounded p-2">gefunden</span>
-                    <span class="border border-dark rounded p-2">gegangen</span>
-                    <span class="border border-dark rounded p-2">gegessen</span>
-                    <span class="border border-dark rounded p-2">gesprochen</span>
-                    <span class="border border-dark rounded p-2">getrunken</span>
-                    <span class="border border-dark rounded p-2">habe</span>
-                    <span class="border border-dark rounded p-2">hat</span>
+                <div class="col lh350">
+                    <span class="wd ml-2">angekommen</span>
+                    <span class="wd ml-2">angerufen</span>
+                    <span class="wd ml-2">angezogen</span>
+                    <span class="wd ml-2">anrufen</span>
+                    <span class="wd ml-2">bin</span>
+                    <span class="wd ml-2">bist</span>
+                    <span class="wd ml-2">funktioniert</span>
+                    <span class="wd ml-2">geblieben</span>
+                    <span class="wd ml-2">gefunden</span>
+                    <span class="wd ml-2">gegangen</span>
+                    <span class="wd ml-2">gegessen</span>
+                    <span class="wd ml-2">gesprochen</span>
+                    <span class="wd ml-2">getrunken</span>
+                    <span class="wd ml-2">habe</span>
+                    <span class="wd ml-2">hat</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         1. Musst du ihn noch <input type="text" class="form-control q rounded-0 border-bottom-only mx-1
                         px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 150px;
@@ -45,7 +45,7 @@
                                 전화했어.</small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         2. Warum gehst du nicht mit uns ins Kino? - Früher <input type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
@@ -58,7 +58,7 @@
                                 우리와 함께 영화관에 갔잖아.</small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         3. Suchst du immer noch die Tasche? - Nein, ich <input type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
@@ -71,7 +71,7 @@
                                 찾았어.</small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         4. Wann kommst du denn an? - Ich <input type="text" class="form-control q rounded-0
                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
@@ -84,7 +84,7 @@
                                 도착했어.</small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         5. Will er sich nicht anziehen? - Er <input type="text" class="form-control q rounded-0
                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
@@ -97,7 +97,7 @@
                                 입었어.</small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         6. Warum funktioniert der Apparat nicht? Gestern <input type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
@@ -110,7 +110,7 @@
                                 되었는데요.</small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         7. Er ist ein interessanter Gesprächspartner. Ich <input type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
@@ -123,7 +123,7 @@
                                 이야기했어.</small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         8. Ich <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
@@ -138,7 +138,7 @@
                             </small></span>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3" style="line-height: 250%;">
+                <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
                         9. Wo <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
@@ -165,9 +165,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
         $("#0").hide();
         $("#0_p").hide();
@@ -266,9 +266,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -356,7 +356,6 @@
                 };
             });
             var pan = new Array();
-            /* pan=[1,2,3,4,5,6,7,8,9,10]; */
             pan = [1, 2, 5, 6, 17, 18, 19];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
@@ -364,12 +363,10 @@
                 $(pann).addClass(
                     "bg-success text-white font-weight-bold");
                 $(pann).prop("disabled", true);
-                /* $(pann).closest("tr").find(".tran").show(); */
             }
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

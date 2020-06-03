@@ -14,37 +14,37 @@
             </div>
             <div class="row text-center">
                 <div class="col-12 text-left my-2">
-                Was hat Silvia am Sonntag, 16. Juli in Dresden gemacht?
-                Lesen Sie die Notiz und ordnen Sie die Bilder der Reihe nach zu.
-                <span class="tran"><br />
-                실비아는 7월 16일 드레스덴에서 무엇을 하였나요. 메모를 읽고 그림을 순서대로 나열하세요.</span>
+                    Was hat Silvia am Sonntag, 16. Juli in Dresden gemacht?
+                    Lesen Sie die Notiz und ordnen Sie die Bilder der Reihe nach zu.
+                    <span class="tran"><br />
+                        실비아는 7월 16일 드레스덴에서 무엇을 하였나요. 메모를 읽고 그림을 순서대로 나열하세요.</span>
                 </div>
                 <div class="col border border-dark rounded p-2 m-1">1.<br />
-                <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-1.png"
-                alt="Mein Urlaub in Dresden" style="max-width: 240px; height: auto;"></div>
+                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-1.png" alt="Mein Urlaub in Dresden"
+                        style="max-width: 240px; height: auto;"></div>
                 <div class="col border border-dark rounded p-2 m-1">2.<br />
-                <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-2.png"
-                alt="Mein Urlaub in Dresden" style="max-width: 240px; height: auto;"></div>
+                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-2.png" alt="Mein Urlaub in Dresden"
+                        style="max-width: 240px; height: auto;"></div>
                 <div class="col border border-dark rounded p-2 m-1">3.<br />
-                <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-3.png"
-                alt="Mein Urlaub in Dresden" style="max-width: 240px; height: auto;"></div>
+                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-3.png" alt="Mein Urlaub in Dresden"
+                        style="max-width: 240px; height: auto;"></div>
                 <div class="col border border-dark rounded p-2 m-1">4.<br />
-                <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-4.png"
-                alt="Mein Urlaub in Dresden" style="max-width: 240px; height: auto;"></div>
+                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-4.png" alt="Mein Urlaub in Dresden"
+                        style="max-width: 240px; height: auto;"></div>
                 <div class="col-12 mt-5">
                     <div class="input-group text-center">
                         ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                        style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-1"> ) -
+                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-1"> ) -
                         ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                        style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-2"> ) -
+                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-2"> ) -
                         ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                        style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-3"> ) -
+                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-3"> ) -
                         ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                        style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-4"> )
+                            style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-4"> )
                     </div>
                 </div>
             </div>
@@ -115,12 +115,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./<?php echo($root); ?>js/popper.min.js"></script>
     <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogroupnomove.js"></script>
-    <!-- interact.min.js -->
-    <script src="./<?php echo($root); ?>js/ion.sound.min.js"></script>
+    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <!-- 맞고 틀리는지 소리 -->
+    <?php require_once("./{$root}oxsound.php"); ?>
     <script>
-        $("#0").hide();
-        $("#0_p").hide();
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
@@ -160,7 +158,6 @@
                     }
                 }
             };
-
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
@@ -214,9 +211,9 @@
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
-                        ion.sound.play("Cartoon_Boing");
+                        x.play();
                     } else if ($(this).hasClass("bg-success")) {
-                        ion.sound.play("dingdongdang");
+                        o.play();
                         $(this).prop("disabled", true);
                     }
                 }
@@ -226,8 +223,6 @@
                     $(this).removeClass("bg-success");
                 }
             });
-            /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
-
             /* 정답확인 */
             $("#chk").on("click", function () {
                 var na = "";
@@ -276,12 +271,16 @@
                         if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                             ri++;
                         }
-                    } /* 정답 확인 div 상자 배경색 속성 없애기 */
+                    }
+
+                    /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
                     var qa = $(".q").length; /* 전체 문항 수 */
                     var qr = $(".bg-success").length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
-                    var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
+                    var tcl = "white"; /* 기본 문자색 */
+
+                    /* 분류 기준은 100%, 80%, 60%, 40% */
                     if (pe > 99) {
                         var st = "원어민이세요?";
                         var cl = "lime";
@@ -302,7 +301,9 @@
                     $(".tran").show();
                     $(this).attr("id", "done");
                 } else {
-                    alert("모든 문제를 풀어주세요!"); /* alert(na+"번 문제를 풀어주세요!"); */
+                    alert("모든 문제를 풀어주세요!");
+
+                    /* alert(na+"번 문제를 풀어주세요!"); */
                 };
             });
 
@@ -343,19 +344,17 @@
             $(".q").each(function () {
                 di($(this));
             });
-
-            var pan = new Array(); /* pan=[1,2,3,4,5,6,7,8,9,10]; */
+            var pan = new Array();
             pan = [1];
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
                 $(pann).val(an[(pan[p] - 1)]);
                 $(pann).addClass("bg-success text-white font-weight-bold");
-                $(pann).prop("disabled", true); /* $(pann).closest("tr").find(".tran").show(); */
+                $(pann).prop("disabled", true);
             }
         });
 
     </script>
-    <!-- ion.sound finished -->
     <?php require "footer.php"; ?>
 </body>
 

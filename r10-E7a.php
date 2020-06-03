@@ -171,7 +171,7 @@
                 });
             } /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 10/r10 E6.mp3"],
+                src: ["./<?php echo($root); ?>sounds/Reihe 10/r10 E7.mp3"],
                 sprite: {
                     "0": [9113, 30017],
                     "4": [13472, 2826],

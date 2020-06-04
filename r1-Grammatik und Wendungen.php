@@ -134,7 +134,9 @@
                                                     <button type="button" id="10"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250"><strong>Ja</strong>, das bin ich.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">
+                                                    <strong>Ja</strong>, das bin ich.
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -155,7 +157,9 @@
                                                     <button type="button" id="12"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250"><strong>Nein</strong>, ich bin Un-Hae.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">
+                                                    <strong>Nein</strong>, ich bin Un-Hae.
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -176,7 +180,9 @@
                                                     <button type="button" id="14"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250"><strong>Nein</strong>, Frau Kwan ist nicht da.</div>
+                                                <div class="col-10 mx-1 px-1 lh250">
+                                                    <strong>Nein</strong>, Frau Kwan ist nicht da.
+                                                </div>
                                             </div>
                                         </td>
                                     </tr>
@@ -311,10 +317,16 @@
                             <div class="collapse" id="collapse5" aria-divledby="heading5" data-parent="#accordionitms">
                                 <table class="table table-borderless">
                                     <tr>
+                                        <td colspan="2" class="text-center">
+                                            <button type="button" id="15"
+                                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
                                         <td class="border-bottom-0 border-dark border" width="50%">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="15"
+                                                    <button type="button" id="16"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Hallo!</div>
@@ -323,7 +335,7 @@
                                         <td class="bg-light border border-dark border-bottom-0">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="16"
+                                                    <button type="button" id="17"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Tschüs!</div>
@@ -334,7 +346,7 @@
                                         <td class="border-top-0 border-bottom-0 border-dark border">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="17"
+                                                    <button type="button" id="18"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Guten Morgen!</div>
@@ -343,7 +355,7 @@
                                         <td class="bg-light border border-dark border-top-0">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="18"
+                                                    <button type="button" id="19"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Auf Wiedersehen!</div>
@@ -354,7 +366,7 @@
                                         <td class="border-top-0 border-bottom-0 border-dark border">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="19"
+                                                    <button type="button" id="20"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Guten Tag!</div>
@@ -363,7 +375,7 @@
                                         <td class="border border-dark border-bottom-0">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="20"
+                                                    <button type="button" id="21"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Entschuldigung.</div>
@@ -374,7 +386,7 @@
                                         <td class="border-top-0 border-bottom-0 border-dark border">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="21"
+                                                    <button type="button" id="22"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Guten Abend!</div>
@@ -386,7 +398,7 @@
                                         <td class="border-top-0 border-dark border">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="22"
+                                                    <button type="button" id="23"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Gute Nacht!</div>
@@ -398,7 +410,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="23"
+                                                    <button type="button" id="24"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie heißen Sie?</div>
@@ -407,7 +419,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="24"
+                                                    <button type="button" id="25"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich heiße Sandra Bauer.</div>
@@ -418,7 +430,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="25"
+                                                    <button type="button" id="26"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie heißt du?</div>
@@ -427,7 +439,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="26"
+                                                    <button type="button" id="27"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich heiße Sandra.</div>
@@ -438,7 +450,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="27"
+                                                    <button type="button" id="28"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie ist Ihr Name?</div>
@@ -447,7 +459,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="28"
+                                                    <button type="button" id="29"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Mein Name ist Arum Park.</div>
@@ -458,7 +470,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="29"
+                                                    <button type="button" id="30"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie ist dein Name?</div>
@@ -467,7 +479,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="30"
+                                                    <button type="button" id="31"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Mein Name ist Arum.</div>
@@ -478,7 +490,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="31"
+                                                    <button type="button" id="32"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie geht es Ihnen? / Wie geht es
@@ -488,7 +500,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="32"
+                                                    <button type="button" id="33"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Danke, es geht mir super. / sehr
@@ -501,7 +513,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="33"
+                                                    <button type="button" id="34"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wer sind Sie?</div>
@@ -510,7 +522,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="34"
+                                                    <button type="button" id="35"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich bin Yuna Kim.</div>
@@ -521,7 +533,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="35"
+                                                    <button type="button" id="36"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wer bist du?</div>
@@ -530,7 +542,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="36"
+                                                    <button type="button" id="37"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich bin Yuna.</div>
@@ -541,7 +553,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="37"
+                                                    <button type="button" id="38"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wer ist Herr Bauer?</div>
@@ -550,7 +562,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="38"
+                                                    <button type="button" id="39"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das bin ich.</div>
@@ -561,7 +573,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="39"
+                                                    <button type="button" id="40"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wer ist Somang Kim?</div>
@@ -570,7 +582,7 @@
                                         <td>
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="40"
+                                                    <button type="button" id="41"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das bin ich.</div>
@@ -581,7 +593,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="41"
+                                                    <button type="button" id="42"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Sind Sie Frau Lee?</div>
@@ -590,7 +602,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="42"
+                                                    <button type="button" id="43"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ja, das bin ich. / Nein, ich bin
@@ -602,7 +614,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="43"
+                                                    <button type="button" id="44"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Bist du Sung Hwa?</div>
@@ -611,7 +623,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="44"
+                                                    <button type="button" id="45"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ja, das bin ich. / Nein, ich bin
@@ -623,7 +635,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="45"
+                                                    <button type="button" id="46"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ist Herr Jang da?</div>
@@ -632,7 +644,7 @@
                                         <td class="bg-light">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
-                                                    <button type="button" id="46"
+                                                    <button type="button" id="47"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ja, Herr Jang ist da. / Nein, Herr
@@ -694,38 +706,39 @@
                 "12": [38910, 2111],
                 "13": [42165, 1938],
                 "14": [44868, 2581],
-                "15": [55523, 1519],
-                "16": [70261, 1684],
-                "17": [58222, 1690],
-                "18": [73544, 1767],
-                "19": [61227, 1593],
-                "20": [76860, 1888],
-                "21": [64256, 1634],
-                "22": [67369, 1564],
-                "23": [80578, 1777],
-                "24": [83494, 2236],
-                "25": [87262, 1614],
-                "26": [90132, 2110],
-                "27": [93557, 1975],
-                "28": [96783, 2347],
-                "29": [100860, 1766],
-                "30": [103902, 1992],
-                "31": [107209, 4701],
-                "32": [113215, 27789],
-                "33": [142961, 1915],
-                "34": [146602, 2002],
-                "35": [150266, 1719],
-                "36": [153270, 1845],
-                "37": [156811, 2029],
-                "38": [160170, 1955],
-                "39": [163371, 2137],
-                "40": [167114, 1544],
-                "41": [170272, 1978],
-                "42": [173229, 5813],
-                "43": [180443, 1926],
-                "44": [183154, 5747],
-                "45": [190539, 2099],
-                "46": [193972, 6451]
+                "15": [55523, 144509],
+                "16": [55523, 1519],
+                "17": [70261, 1684],
+                "18": [58222, 1690],
+                "19": [73544, 1767],
+                "20": [61227, 1593],
+                "21": [76860, 1888],
+                "22": [64256, 1634],
+                "23": [67369, 1564],
+                "24": [80578, 1777],
+                "25": [83494, 2236],
+                "26": [87262, 1614],
+                "27": [90132, 2110],
+                "28": [93557, 1975],
+                "29": [96783, 2347],
+                "30": [100860, 1766],
+                "31": [103902, 1992],
+                "32": [107209, 4701],
+                "33": [113215, 27789],
+                "34": [142961, 1915],
+                "35": [146602, 2002],
+                "36": [150266, 1719],
+                "37": [153270, 1845],
+                "38": [156811, 2029],
+                "39": [160170, 1955],
+                "40": [163371, 2137],
+                "41": [167114, 1544],
+                "42": [170272, 1978],
+                "43": [173229, 5813],
+                "44": [180443, 1926],
+                "45": [183154, 5747],
+                "46": [190539, 2099],
+                "47": [193972, 6451]
             },
             html5: true,
             volume: 1,

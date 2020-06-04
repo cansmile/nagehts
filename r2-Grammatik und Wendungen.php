@@ -118,7 +118,7 @@
                                                 </div>
                                                 <div
                                                     class="col-8 mx-1 px-1 lh250">
-                                                    Ich spreche Detusch und
+                                                    Ich spreche Deutsch und
                                                     Englisch.</div>
                                             </div>
                                         </td>

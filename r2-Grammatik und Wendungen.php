@@ -355,7 +355,7 @@
                                             <td>
                                                 sprich<strong>t</strong></td>
                                             <td>
-                                                sprich<strong>t</strong></td>
+                                                lieg<strong>t</strong></td>
                                         </tr>
                                         <tr>
                                             <th class="text-center" scope="row">

@@ -26,7 +26,7 @@
                                                     class="so btn btn-outline-dark btn-sm mr-1">▶</button></th>
                                         </tr>
                                         <tr>
-                                            <th scope="col" class="h4">Modalverbenfs</th>
+                                            <th scope="col" class="h4">Modalverben</th>
                                             <th scope="col" class="h4">Imperative (du, ihr, Sie)</th>
                                         </tr>
                                     </thead>

@@ -1,5 +1,15 @@
 *.cmd
-/Nagehts.sublime-project
+.gitattributes
+.project
+.vscode/ftp-sync.json
+.vscode/launch.json
+.vscode/settings.json
+Nagehts.dev.code-workspace
+Readme.md
+a.reg
+back.php
+php-cs-fixer.phar
+phpcs.xml/Nagehts.sublime-project
 .vscode/ftp-kr.diff*
 Nagehts.sublime-workspace
 .settings/com.aptana.editor.common.prefs

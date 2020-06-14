@@ -557,7 +557,7 @@
                                             <td>sind</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">sind</th>
+                                            <th scope="row">ihr</th>
                                             <td>mach<strong>t</strong></td>
                                             <td>arbeite<strong>t</strong></td>
                                             <td>studier<strong>t</strong></td>

@@ -394,7 +394,7 @@
                                 data-parent="#accordionitms">
                                 <table
                                     class="table table-borderless text-center align-middle">
-                                    <thead>
+                                    <thead class="thead-light">
                                         <tr>
                                             <th scope="col" colspan="4" class="h4">Singular
                                             </th>
@@ -423,7 +423,7 @@
                                 </table>
                                 <table
                                     class="table table-borderless text-center align-middle">
-                                    <thead>
+                                    <thead class="thead-light">
                                         <tr>
                                             <th scope="col" colspan="2" class="h4">Plural
                                             </th>
@@ -432,7 +432,7 @@
                                     <tbody>
                                         <tr>
                                             <td>sie</td>
-                                            <td>ihr-</td>
+                                            <td><strong>ihr-</strong></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -441,10 +441,10 @@
                                     <thead>
                                         <tr>
                                             <th scope="col" colspan="3"
-                                                class="text-center align-middle">
+                                                class="text-center align-middle bg-light">
                                                 Sg.</th>
                                             <th scope="col" rowspan="2"
-                                                class="text-center align-middle">
+                                                class="text-center align-middle bg-light">
                                                 Pl.</th>
                                         </tr>
                                         <tr>
@@ -462,19 +462,19 @@
                                     <tbody>
                                         <tr>
                                             <td>mein Vater</td>
-                                            <td>mein Vater</td>
+                                            <td>mein Mutter</td>
                                             <td>mein Kind</td>
                                             <td>meine Eltern</td>
                                         </tr>
                                         <tr>
                                             <td>dein Vater</td>
                                             <td>deine Mutter</td>
-                                            <td>deine Mutter</td>
-                                            <td>deine Mutter</td>
+                                            <td>dein Kind</td>
+                                            <td>deine Eltern</td>
                                         </tr>
                                         <tr>
-                                            <td>deine Mutter</td>
-                                            <td>deine Mutter</td>
+                                            <td>Ihr Vater</td>
+                                            <td>Ihre Mutter</td>
                                             <td>Ihr Kind</td>
                                             <td>Ihre Eltern</td>
                                         </tr>

@@ -12,7 +12,8 @@ $itl = array(
     7 => "Was hast du am Wochenende vor?",
     8 => "Was fehlt Ihnen?",
     9 => "Feste! Feste!",
-    10 => "Wie komme ich zur Bank?"
+    10 => "Wie komme ich zur Bank?",
+    11 => "Reise und Urlaub"
 );
 
 $itl_k = array(
@@ -27,7 +28,8 @@ $itl_k = array(
     7 => "주말에 뭐 하니?",
     8 => "어디가 아픈가요?",
     9 => "축제! 축제!",
-    10 => "은행에 어떻게 가나요?"
+    10 => "은행에 어떻게 가나요?",
+    11 => "여행 및 휴가"
 );
 
 /* 각 과별 중단원 파일명과 제목 */
@@ -211,7 +213,16 @@ $tl_k = array(
         "r10-Urlaub in Dresden"=>"드레스덴에서의 휴가",
         "r10-Uebungen"=>"연습문제",
         "r10-Grammatik und Wendungen"=>"문법과 표현"
+    ),
+    array(
+        "r11-Reise- und Urlaubstypen" => "여행 및 휴가종류",
+        "r11-Sprachreise" => "어학 연수",
+        "r11-Reservierungen" => "예약",
+        "r11-Minas Reisebeiträge (auf Facebook)" => "미나의 여행일지 (페이스북)",
+        "r11-Uebungen"=>"연습문제",
+        "r11-Grammatik und Wendungen"=>"문법과 표현"
     )
+
 );
 
 /* 각 중단원 아래의 소단원 */
@@ -580,6 +591,44 @@ $rtl = array(
             "E10" => "Ergänzen Sie die Perfekt-Formen.",
             "E11" => "Mein Urlaub in Dresden: Ordnen Sie die Bildungen zu und Schreiben Sie die Sätze ins Perfekt."
         )
+    ),
+    11 =>
+    array(
+        "A" => array(
+            "A1" => "Wie heißen die Urlaubs-und Reisetypen?",
+            "A2" => "Welche Urlaubs-und Reisetypen passen mit den folgenden Textausschnitten zusammen? ",
+            "A3" => "Was möchten die Leute im Urlaub machen?",
+            "A4" => "Hören Sie die Interviews und antworten Sie auf die Fragen.",
+        ),
+        "B" => array(
+            "B1" => "Anfrage nach dem Sommersparchkurs (per Mail)",
+            "B2" => "Rückmeldung vom Sprachinstitut (per Mail)",
+            "B3" => "Anmeldung für den Sommersprachkurs (online)",
+        ),
+        "C" => array(
+            "C1" => "Zimmerreservierung im Studentenwerk (online)",
+            "C2" => "Bahnkartereservierung",
+            "C3" => "Anzeigen für Hotelzimmer",
+            "C4" => "Hotelzimmerreservierung (per Telefon)",
+        ),
+        "D" => array(
+            "D1" => "Mein erster Flug (auf Facebook)",
+            "D2" => "Formulieren Sie die Aktivsätze in Passivsätze um.",
+            "D3" => "Übersetzen Sie die Sätze ins Koreanische.",
+            "D4" => "Meine Sprachreise (auf Facebook)",
+        ),
+        "E" => array(
+            "E1" => "Welche Wörter fallen Ihnen ein?",
+            "E2" => "Sehen Sie sich die Bilder an. Wie heißen die Urlaubs-und Reisetypen Was passt zusammen?",
+            "E3" => "Was bedeuten die Symbole (Piktogramme)?",
+            "E4" => "Aktuelle Urlaubsangebote. Schauen Sie sich sie an.",
+            "E5" => "Mina fliegt ins Fernland. Ihre Mutter fragt sie, ob alles in Ordnung ist.",
+            "E6" => "Welches Bild passt zu welchem Dialog?",
+            "E7" => "Mina ist zur Teilnahme am Sprachkurs in Frankfurt gelandet. Sie will am Amtomaten eine einfache Fahrkarte nach Dresen kaufen. Dabei hilft eine Frau Mina. Ergänzen Sie die Lücken.",
+            "E8" => "Schema der E-Mail: Redemitttel (Anrede/Gruß)",
+            "E9" => "Schema der E-Mail: Redemitttel (Anfang und Schluss)",
+            "E10" => "Lesen Sie die E-Mail und schreiben Sie sie neu, indem Sie die Sätze mit den passenden Konektoren verbinden. Achten Sie auch auf die Verbstellung.",
+        ),
     )
 );
 
@@ -950,5 +999,43 @@ $rtl_k = array(
             "E10" => "완료형을 넣으세요.",
             "E11" => "드레스덴에서의 나의 휴가: 그림을 연결하고 완료형의 문장으로 쓰세요."
         )
+    ),
+    11 =>
+    array(
+        "A" => array(
+            "A1" => "휴가 및 여행 타입을 뭐라 하나요? 연결하세요.",
+            "A2" => "어떤 휴가 및 여행의 종류가 아래의 텍스트와 어울리나요? 알맞게 연결하세요.",
+            "A3" => "사람들은 휴가중에 무엇을 하기를 원하나요? 무엇이 중요할까요?",
+            "A4" => "인터뷰를 듣고 질문에 답하세요.",
+        ),
+        "B" => array(
+            "B1" => "여름어학코스에 관한 문의 (이메일)",
+            "B2" => "어학 기관으로부터의 답장 (메일)",
+            "B3" => "여름코스 등록 (온라인)",
+        ),
+        "C" => array(
+            "C1" => "학교 기숙사 방예약 (온라인)",
+            "C2" => "기차표 예약",
+            "C3" => "호텔방 광고",
+            "C4" => "호텔방 예약 (전화로)",
+        ),
+        "D" => array(
+            "D1" => "나의 첫 비행",
+            "D2" => "능동태의 문장을 수동태로 바꾸세요.",
+            "D3" => "문장들을 한국어로 변역하세요.",
+            "D4" => "나의 어학연수 (페이스북)",
+        ),
+        "E" => array(
+            "E1" => "어떤 단어들이 떠오르나요? 조별로 이야기해보세요.",
+            "E2" => "그림을 보세요. 이러한 휴가 및 여행을 뭐하고 부르나요? 무엇이 어울리나요?",
+            "E3" => "다음의 상징(픽토그램)들은 무슨 뜻일까요? 연결해보세요.",
+            "E4" => "최신 휴가 안내. 광고를 보고 이야기해보세요.",
+            "E5" => "미나는 멀리 여행을 떠납니다. 엄마가 미나에게 모든 것이 다 잘 준비되었는지를 묻습니다.",
+            "E6" => "어떤 그림이 어떤 대화에 알맞습니까?",
+            "E7" => "미나가 어학연수를 위하여 프랑크프르트에 도착하였습니다. 미나는 자동매표기에서 드레스덴으로 가는 표 한 장을 사려고 합니다. 한 사람이 미나를 돕습니다. 빈칸을 채우세요.",
+            "E8" => "이메일의 형식: 어휘 (인사말(호칭) 과 끝 인사",
+            "E9" => "이메일의 형식: 표현법 (그리고 도입과 맺음말)",
+            "E10" => "이메일을 읽고 알맞은 접속사로 연결하여 새로 작성해보세요. 어순에 주의하세요.",
+        ),
     )
 );

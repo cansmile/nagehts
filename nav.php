@@ -8,6 +8,9 @@
     $rm = 8; /* 완성된 페이지만 메인에 노출 */
     $subttl = 21; /* 모바일 레이아웃에서 잘리는 글자수 */
 
+    /* 변수 선언 */
+    $r = $dash = $da = $jt0 = $jt1 = $jt2 = "";
+
     /* 개발자용 */
     $edt = true;
 
@@ -1124,7 +1127,7 @@
     ) {
         $rl = "inthebeginning";
         $rt = "Na geht's?";
-    } elseif (strlen($fn) <= $lt || $fn === "Deutschland") {
+    } elseif ( (strlen($fn) <= $lt) || ($fn === "Deutschland") ) {
         $rl = "inthebeginning";
         $rt = "Na geht's? - Inhalt";
     } elseif (strpos($fn, "-")) {
@@ -1134,14 +1137,14 @@
         if (strlen($da) <= $lt) {
             $rk = array_keys($tl[$r]);
             for ( $j = 0, $jMax = count($rk); $j < $jMax; $j++) {
-                if (($tl[$r][$rk[$j]])[0] == $da[0]) {
+                if (($tl[$r][$rk[$j]])[0] === $da[0]) {
                     $rl = $rk[$j];
                 }
             }
             $rt = "Reihe {$r} - {$da[0]} - Inhalt";
         } else {
             $rl = substr($fn, 0, ($dash));
-            if ($fn[2] == "-") {
+            if ($fn[2] === "-") {
                 $rt = "Reihe {$fn[1]} - Inhalt";
             } else {
                 $rt = "Reihe {$fn[1]}{$fn[2]} - Inhalt";
@@ -1160,11 +1163,9 @@
             /* 중단원 메뉴 */
             for ( $i = 0, $iMax = count($kom); $i < $iMax; $i++) {
                 $cn = array_keys($kom)[$i];
-                if (file_exists($root.$cn.".php")) {
-                    if ($fn == $cn) {
-                        $jt1 = $tl[$r][$cn];
-                        $jt2 = $tl_k[$r][$cn];
-                    }
+                if ( file_exists($root . $cn . ".php") && $fn === $cn ) {
+                    $jt1 = $tl[$r][$cn];
+                    $jt2 = $tl_k[$r][$cn];
                 }
             }
         } else {
@@ -1175,7 +1176,7 @@
                 $mkey = array_keys($kom)[$i];
                 $cn = "r".$r."-".$mkey;
                 if (file_exists($root.($cn).".php")) {
-                    if ($da == $mkey) {
+                    if ($da === $mkey) {
                         $jt1 = ($i+1).". ".$rtl[$r][$mkey[0]][$mkey];
                         $jt2 = $rtl_k[$r][$mkey[0]][$mkey];
                     }
@@ -1189,7 +1190,7 @@
                         $la = $mkey;
                     }
                     for ($c = 97; $c < 121; $c++) {
-                        if (substr($la, -1) == chr($c)) {
+                        if (substr($la, -1) === chr($c)) {
                             $la = substr($la, 0, (strlen($la) - 1))."<small>-".($c - 96)."</small>";
                         }
                     }
@@ -1200,27 +1201,23 @@
         $kom = $tl;
         /* 대단원 메뉴 */
         for ( $i = 0, $iMax = count($kom); $i < $iMax; $i++) {
-            if ($i == 0) {
+            if ($i === 0) {
                 $jt0 = $itl["D"];
                 $jt1 = $itl_k["D"];
                 $jt2 = "";
             }
             /* 작업 완료($rm) 단원 */
-            if (($i-1) < $rm) {
-                if ($fn == "r".($i)) {
-                    $jt0 = "Reihe ".$r;
-                    $jt1 = $itl[$r];
-                    $jt2 = $itl_k[$r];
-                }
+            if ( (($i - 1) < $rm) && $fn === "r" . ($i) ) {
+                $jt0 = "Reihe ".$r;
+                $jt1 = $itl[$r];
+                $jt2 = $itl_k[$r];
             }
 
             /* 작업 완료($rm) 단원 이상인데, 편집지 */
-            if (($i-1) >= $rm && $edt) {
-                if ($fn == "r".($i)) {
-                    $jt0 = "Reihe ".$r;
-                    $jt1 = $itl[$r];
-                    $jt2 = $itl_k[$r];
-                }
+            if ( (($i - 1) >= $rm) && $edt && ($fn === "r" . ($i)) ) {
+                $jt0 = "Reihe ".$r;
+                $jt1 = $itl[$r];
+                $jt2 = $itl_k[$r];
             }
         }
     }
@@ -1268,7 +1265,7 @@
                                     $da = "GR";
                                 }
                                 for ($c = 97; $c < 121; $c++) {
-                                    if (substr($da, -1) == chr($c)) {
+                                    if (substr($da, -1) === chr($c)) {
                                         $da = substr($da, 0, (strlen($da) - 1))."<small>-".($c - 96)."</small>";
                                     }
                                 }

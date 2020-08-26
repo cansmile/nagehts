@@ -1,7 +1,5 @@
-    <?php require "header.php"; ?>
 
-    <body>
-        <?php require "nav.php"; ?>
+            <?php require "nav.php"; ?>
         <section>
             <div class="container">
                 <div class="row">

@@ -1,7 +1,4 @@
-<?php require "header.php"; ?>
-
-<body>
-    <?php require "nav.php"; ?>
+<?php require "nav.php"; ?>
     <?php require_once "ready.php"; ?>
     <style>
         .video-container {

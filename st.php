@@ -7,7 +7,6 @@
 	<script src="./<?php echo($root); ?>js/popper.min.js"></script>
 	<script src="./<?php echo($root); ?>js/bootstrap.js"></script>
 </head>
-<body>
 <section>
 	<div class="container">
 <?php

@@ -1,7 +1,4 @@
-<?php require "header.php"; ?>
-
-<body>
-    <?php require "nav.php"; ?>
+<?php require "nav.php"; ?>
     <!-- 보기시작 -->
     <section class="bg-white rounded p-2"
 

@@ -1,6 +1,4 @@
-<?php require "header.php"; ?>
-	<body>
-<?php require "nav.php"; ?>
+	<?php require "nav.php"; ?>
 		<!--이정표 시작-->
 		<section>
 			<div class="container">

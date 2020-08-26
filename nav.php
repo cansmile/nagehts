@@ -1240,7 +1240,6 @@
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
           rel="stylesheet">
 </head>
-<body>
 <!-- 상단 큰 제목 -->
 <header>
     <?php

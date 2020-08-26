@@ -1,7 +1,4 @@
-<?php require "header.php"; ?>
-
-<body>
-    <?php require "nav.php"; ?>
+<?php require "nav.php"; ?>
     <?php
     $a_cell_height = 60;
     $double_cell_height = $a_cell_height * 2;

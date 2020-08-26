@@ -17,7 +17,6 @@ fwrite($p,"
 	<script src=\"./".$root."js/popper.min.js\"></script>
 	<script src=\"./".$root."js/bootstrap.js\"></script>
 </head>
-<body>
 <section>
 	<div class=\"container\">
 		<div class=\"row\">

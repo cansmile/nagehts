@@ -1,7 +1,4 @@
-<?php require "header.php"; ?>
-
-<body>
-    <?php require "nav.php"; ?>
+<?php require "nav.php"; ?>
     <!-- 보기시작 -->
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>

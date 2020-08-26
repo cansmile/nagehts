@@ -14,3 +14,8 @@ phpcs.xml/Nagehts.sublime-project
 Nagehts.sublime-workspace
 .settings/com.aptana.editor.common.prefs
 Nagehts.sublime-project
+.idea/dev.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/encodings.xml

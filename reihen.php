@@ -215,7 +215,7 @@ $tl_k = array(
         "r10-Grammatik und Wendungen"=>"문법과 표현"
     ),
     array(
-        "r11-Reise- und Urlaubstypen" => "여행 및 휴가종류",
+        "r11-Reise und Urlaubstypen" => "여행 및 휴가종류",
         "r11-Sprachreise" => "어학 연수",
         "r11-Reservierungen" => "예약",
         "r11-Minas Reisebeiträge (auf Facebook)" => "미나의 여행일지 (페이스북)",

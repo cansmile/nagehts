@@ -23,7 +23,7 @@ fwrite($p,"
 		<div class=\"row\">
 "); // php 출력용
 
-$t = sizeof($em); // 전체 학생
+$t = count($em); // 전체 학생
 $done = 0; // 완료된 학생
 $group = "";
 $link = mysqli_connect('localhost', 'root', 'qudwnWkd321!@#');
@@ -31,7 +31,7 @@ if (!$link) { die('연결에 실패했습니다: ' . mysqli_error());}
 
 
 mysqli_select_db($link, $dbn);
-for($i = 0; $i < sizeof($em); $i++) {
+for($i = 0; $i < count($em); $i++) {
 	$q = "SELECT * FROM `".$hdr."_users` WHERE `user_email` LIKE '".$em[$i]."' ORDER BY `ID` ASC";
 	$qr = mysqli_query($link, $q);
 	if($qr!=false) {
@@ -40,7 +40,7 @@ for($i = 0; $i < sizeof($em); $i++) {
 		$q = "SELECT `meta_value` FROM `".$hdr."_usermeta` WHERE `user_id` = ".$uid." AND `meta_key` = '".$hdr."_capabilities'";
 		$qr = mysqli_query($link, $q);
 		if($qr!=false) {
-			$r = mysqli_fetch_array($qr); 
+			$r = mysqli_fetch_array($qr);
 			if($r[0] == "a:1:{s:10:\"subscriber\";b:1;}") {
 				fwrite($p,"<div class=\"col-4 text-center text-success p-2\"><span class=\"border border-dark rounded bg-white text-dark\">".$i."</span>&nbsp;".$em[$i]." = 구독자 </div>");
 				$group .= date("Y-m-d H:i:s", time())."[ ".$em[$i]." ] 처리됨 "."\n";

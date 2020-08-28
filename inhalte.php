@@ -2,6 +2,7 @@
     /** @var integer $lv from heading.php */
     /** @var integer $r from heading.php */
     /** @var integer $hp from heading.php */
+    /** @var array $color from heading.php */
     /** @var array $men from heading.php */
     /** @var string $fn from heading.php */
     require_once( "heading.php" );
@@ -54,19 +55,19 @@
                         switch ( $lv ) {
                             case "int":
                                 $header = $third_key;
+                                if ( $header !== "D" ) {
+                                    $href = "r" . $header;
+                                    $header = (string)$header;
+                                }
+
                                 if ( $header === "D" ) {
                                     $header = "Reihe 0/D";
                                     $href = $third[0];
                                 }
-
-                                if ( $header !== "D" ) {
-                                    $header = (string)$header;
-                                    $href = "r" . $header;
-                                }
                                 break;
                             case "lv1":
-                                $header = 'Reihe 0/' . $third[0][0];
                                 $href = $third_key;
+                                $header = 'Reihe 0/' . $third[0][0];
                                 break;
                             case "lv2":
                                 $header++;

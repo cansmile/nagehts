@@ -19,3 +19,6 @@ Nagehts.sublime-project
 .idea/vcs.xml
 .idea/workspace.xml
 .idea/encodings.xml
+.idea/checkstyle-idea.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml

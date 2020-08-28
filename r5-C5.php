@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -37,27 +37,27 @@
                         <tbody>
                             <tr>
                                 <th class="align-middle" scope="row"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-6.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C4-6.png"
                                         alt="Was isst und trinkt Monika Mai?"
                                         style="max-width: 120px; height: auto;"><br><strong>Monika
                                         Mai</strong><br>Sie trinkt/isst ...</th>
                                 <td class="align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-7.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C4-7.png"
                                         alt="Was isst und trinkt Monika Mai?"
                                         style="max-width: 180px; height: auto;">
                                 </td>
                                 <td class="align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-8.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C4-8.png"
                                         alt="Was isst und trinkt Monika Mai?"
                                         style="max-width: 180px; height: auto;">
                                 </td>
                                 <td class="align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-9.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C4-9.png"
                                         alt="Was isst und trinkt Monika Mai?"
                                         style="max-width: 180px; height: auto;">
                                 </td>
                                 <td class="align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C4-10.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C4-10.png"
                                         alt="Was isst und trinkt Monika Mai?"
                                         style="max-width: 180px; height: auto;">
                                 </td>
@@ -225,15 +225,12 @@
 
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -261,7 +258,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 5/r5 C5.mp3"],
+                    "./dev/sounds/Reihe 5/r5 C5.mp3"],
                 sprite: {
                     "0": [3297, 46408],
                     "1": [15803, 2873],
@@ -703,7 +700,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

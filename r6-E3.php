@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <style>
         th,
         td {
@@ -281,14 +281,11 @@
     <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
     <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -570,7 +567,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

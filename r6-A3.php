@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -60,7 +60,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-2.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-2.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -80,7 +80,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-3.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-3.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -100,7 +100,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-4.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-4.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -120,7 +120,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-5.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-5.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -140,7 +140,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-6.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-6.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -160,7 +160,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-7.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-7.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -180,7 +180,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-8.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-8.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -200,7 +200,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-9.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-9.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -220,7 +220,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th class="text-center" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A3-10.png"
+                                    src="./dev/images/Reihe 6/Reihe-6-A3-10.png"
                                     alt="Wir helfen gern im Haushalt." style="max-width: 212px; height: auto;">
                             </th>
                         </thead>
@@ -278,15 +278,12 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -320,7 +317,7 @@
                 var nagehts = new Howl({
 
                         src: [
-                            "./<?php echo($root); ?>sounds/Reihe 6/r6 A3.mp3"
+                            "./dev/sounds/Reihe 6/r6 A3.mp3"
                         ],
                         sprite: {
                             "0": [615, 46829],
@@ -450,7 +447,6 @@
         );
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

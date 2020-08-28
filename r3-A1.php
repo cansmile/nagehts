@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once"ready.php"; ?>
     <!-- 알림 끝 -->
@@ -44,7 +44,7 @@
                         <tbody>
                             <tr>
                                 <td colspan="3"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-1.png"
+                                        src="./dev/images/Reihe 3/Reihe3-A-A1-1.png"
                                         alt="Das ist meine Familie."
                                         usemap="#image-map1">
                                 </td>
@@ -77,7 +77,7 @@
                                         class="tran"><br><small>저에요.</small></span>
                                 </td>
                                 <td rowspan="3" width="240"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-2.png"
+                                        src="./dev/images/Reihe 3/Reihe3-A-A1-2.png"
                                         id="21" class="so"
                                         style="width: auto; max-height: 140px;"
                                         alt="Das ist meine Familie."></td>
@@ -172,7 +172,7 @@
                                             아들이에요.</small></span>
                                 </td>
                                 <td rowspan="4" width="240"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-3.png"
+                                        src="./dev/images/Reihe 3/Reihe3-A-A1-3.png"
                                         style="width: auto; max-height: 140px;"
                                         id="22" class="so"
                                         alt="Das ist meine Familie.">
@@ -323,7 +323,7 @@
                                             아버지에요.</small></span>
                                 </td>
                                 <td rowspan="3" width="240"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe3-A-A1-4.png"
+                                        src="./dev/images/Reihe 3/Reihe3-A-A1-4.png"
                                         style="width: auto; max-height: 140px;"
                                         id="23" class="so"
                                         alt="Das ist meine Familie."></td>
@@ -425,14 +425,11 @@
             coords="350,62,346,54,366,36,393,36,402,40,402,28,417,46,424,36,424,52,434,58,432,82,437,87,436,101,426,107,429,117,426,112,424,128,413,144,402,149,406,160,432,172,451,188,462,218,464,254,440,253,352,250,346,223,327,212,331,186,344,182,346,191,357,177,357,166,385,161,380,149,366,144,357,134,347,112,339,101,347,87"
             shape="poly">
     </map>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -457,7 +454,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 3/r3 A1.mp3"],
+                    "./dev/sounds/Reihe 3/r3 A1.mp3"],
                 sprite: {
                     "0": [699, 66081],
                     "1": [13071, 2420],

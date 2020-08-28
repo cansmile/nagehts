@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <section>
@@ -669,12 +669,9 @@
         </div>
         </div>
     </section>
-    <div id="last" class="d-none"></div> <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <div id="last" class="d-none"></div> <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <script>
         /* 소리 출력 전역 변수와 함수 */
         var sen = new Array(),
@@ -695,7 +692,7 @@
             });
         }
         var nagehts = new Howl({
-            src: ["./<?php echo($root); ?>sounds/Reihe 8/r8 F.mp3"],
+            src: ["./dev/sounds/Reihe 8/r8 F.mp3"],
             sprite: {
                 "1": [7314, 24008],
                 "2": [7708, 3000],
@@ -784,7 +781,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

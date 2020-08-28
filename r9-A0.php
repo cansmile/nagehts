@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -53,7 +53,7 @@
                         <tbody>
                             <tr>
                                 <td height="250" class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-1.png"
+                                    <img src="./dev/images/Reihe 9/Reihe-9-A0-1.png"
                                         alt="Wann ist das?" style="max-width: 100%; height: auto;">
                                 </td>
                             </tr>
@@ -73,7 +73,7 @@
                         <tbody>
                             <tr>
                                 <td height="250" class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-2.png"
+                                    <img src="./dev/images/Reihe 9/Reihe-9-A0-2.png"
                                         alt="Wann ist das?" style="max-width: 100%; height: auto;">
                                 </td>
                             </tr>
@@ -93,7 +93,7 @@
                         <tbody>
                             <tr>
                                 <td height="250" class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-3.png"
+                                    <img src="./dev/images/Reihe 9/Reihe-9-A0-3.png"
                                         alt="Wann ist das?" style="max-width: 100%; height: auto;">
                                 </td>
                             </tr>
@@ -113,7 +113,7 @@
                         <tbody>
                             <tr>
                                 <td height="250" class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-4.png"
+                                    <img src="./dev/images/Reihe 9/Reihe-9-A0-4.png"
                                         alt="Wann ist das?" style="max-width: 100%; height: auto;">
                                 </td>
                             </tr>
@@ -133,7 +133,7 @@
                         <tbody>
                             <tr>
                                 <td height="250" class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-5.png"
+                                    <img src="./dev/images/Reihe 9/Reihe-9-A0-5.png"
                                         alt="Wann ist das?" style="max-width: 100%; height: auto;">
                                 </td>
                             </tr>
@@ -153,7 +153,7 @@
                         <tbody>
                             <tr>
                                 <td height="250" class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-6.png"
+                                    <img src="./dev/images/Reihe 9/Reihe-9-A0-6.png"
                                         alt="Wann ist das?" style="max-width: 100%; height: auto;">
                                 </td>
                             </tr>
@@ -173,7 +173,7 @@
                         <tbody>
                             <tr>
                                 <td height="250" class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 9/Reihe-9-A0-7.png"
+                                    <img src="./dev/images/Reihe 9/Reihe-9-A0-7.png"
                                         alt="Wann ist das?" style="max-width: 100%; height: auto;">
                                 </td>
                             </tr>
@@ -200,15 +200,12 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -232,7 +229,7 @@
                 });
             } /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 9/r9 A0.mp3"],
+                src: ["./dev/sounds/Reihe 9/r9 A0.mp3"],
                 sprite: {
                     "0": [849, 26176],
                     "1": [11229, 1282],
@@ -367,7 +364,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

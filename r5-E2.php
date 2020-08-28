@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -75,7 +75,7 @@
                             <tr>
                                 <td style="height: 300px;"
                                     class="align-middle text-center"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-1.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-E2-1.png"
                                         alt="Geschmack"
                                         style="max-width: 180px; height: auto;">
                                 </td>
@@ -101,7 +101,7 @@
                             <tr>
                                 <td style="height: 300px;"
                                     class="align-middle text-center"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-2.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-E2-2.png"
                                         alt="Geschmack"
                                         style="max-width: 180px; height: auto;">
                                 </td>
@@ -127,7 +127,7 @@
                             <tr>
                                 <td style="height: 300px;"
                                     class="align-middle text-center"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-3.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-E2-3.png"
                                         alt="Geschmack"
                                         style="max-width: 180px; height: auto;">
                                 </td>
@@ -153,7 +153,7 @@
                             <tr>
                                 <td style="height: 300px;"
                                     class="align-middle text-center"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-4.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-E2-4.png"
                                         alt="Geschmack"
                                         style="max-width: 180px; height: auto;">
                                 </td>
@@ -179,7 +179,7 @@
                             <tr>
                                 <td style="height: 300px;"
                                     class="align-middle text-center"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-5.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-E2-5.png"
                                         alt="Geschmack"
                                         style="max-width: 180px; height: auto;">
                                 </td>
@@ -205,7 +205,7 @@
                             <tr>
                                 <td style="height: 300px;"
                                     class="align-middle text-center"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-E2-6.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-E2-6.png"
                                         alt="Geschmack"
                                         style="max-width: 180px; height: auto;">
                                 </td>
@@ -237,15 +237,12 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -271,7 +268,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 5/r5 E2.mp3"],
+                    "./dev/sounds/Reihe 5/r5 E2.mp3"],
                 sprite: {
                     "0": [382, 22140],
                     "1": [6876, 1057],
@@ -548,7 +545,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

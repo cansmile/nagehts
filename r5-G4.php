@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <section>
         <div class="container">
             <div class="row">
@@ -30,7 +30,7 @@
                             <tr>
                                 <td rowspan="2"
                                     class="text-center align-middle text-purple font-weight-bold">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-1.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-G4-1.png"
                                         style="max-height: 120px; width: auto;"
                                         alt="das Falsche"><br>Käsebrötchen</td>
                                 <td class="text-left align-middle">
@@ -49,7 +49,7 @@
                                 </td>
                                 <td rowspan="2"
                                     class="text-center align-middle text-purple font-weight-bold">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-2.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-G4-2.png"
                                         style="max-height: 120px; width: auto;"
                                         alt="das Richtige"><br>Bratwurstbrötchen
                                 </td>
@@ -73,7 +73,7 @@
                             <tr>
                                 <td rowspan="2"
                                     class="text-center align-middle text-danger font-weight-bold">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-3.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-G4-3.png"
                                         style="max-height: 120px; width: auto;"
                                         alt="das Falsche"><br>Cola</td>
                                 <td class="text-left align-middle">
@@ -92,7 +92,7 @@
                                 </td>
                                 <td rowspan="2"
                                     class="text-center align-middle text-primary font-weight-bold">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-4.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-G4-4.png"
                                         style="max-height: 120px; width: auto;"
                                         alt="das Richtige"><br>Orangensaft</td>
                             </tr>
@@ -115,7 +115,7 @@
                             <tr>
                                 <td rowspan="2"
                                     class="text-center align-middle text-primary font-weight-bold">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-5.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-G4-5.png"
                                         style="max-height: 120px; width: auto;"
                                         alt="das Falsche"><br>Wein</td>
                                 <td class="text-left align-middle">
@@ -134,7 +134,7 @@
                                 </td>
                                 <td rowspan="2"
                                     class="text-center align-middle text-purple font-weight-bold">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-G4-6.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-G4-6.png"
                                         style="max-height: 120px; width: auto;"
                                         alt="das Richtige"><br>Bier</td>
                             </tr>
@@ -172,14 +172,11 @@
     <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
     <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -429,7 +426,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

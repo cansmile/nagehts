@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -31,7 +31,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-1.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-1.png"
                                     alt="a. Ich fahre gern Rad."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -73,7 +73,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-2.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-2.png"
                                     alt="b. Ich lese gern Bücher."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -115,7 +115,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-3.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-3.png"
                                     alt="c. Ich spiele gern Fußball."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -157,7 +157,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-4.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-4.png"
                                     alt="d. Ich fahre gern Auto."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -204,7 +204,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-5.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-5.png"
                                     alt="a. Ich schlafe gern."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -246,7 +246,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-6.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-6.png"
                                     alt="b. Ich esse gern."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -288,7 +288,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-7.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-7.png"
                                     alt="c. Ich gehe gern einkaufen."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -330,7 +330,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-8.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-8.png"
                                     alt="d. Ich arbeite gern."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -377,7 +377,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-9.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-9.png"
                                     alt="a. Ich koche gern."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -419,7 +419,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-10.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-10.png"
                                     alt="b. Ich treffe gern Freunde."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -461,7 +461,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-11.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-11.png"
                                     alt="c. Ich schwimme gern."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -503,7 +503,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td height="300" class="text-center align-middle">
-                                <img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-A1-12.png"
+                                <img src="./dev/images/Reihe 6/Reihe-6-A1-12.png"
                                     alt="d. Ich putze gern."
                                     style="max-height: 240px; max-width: 240px;">
                             </td>
@@ -555,14 +555,11 @@
 
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -595,7 +592,7 @@
                 var nagehts = new Howl({
 
                         src: [
-                            "./<?php echo($root); ?>sounds/Reihe 6/r6 A1.mp3"],
+                            "./dev/sounds/Reihe 6/r6 A1.mp3"],
                         sprite: {
                             "0": [3061, 83124],
                             "1": [17205, 22784],
@@ -876,7 +873,6 @@
         );
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

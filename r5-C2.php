@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -257,14 +257,14 @@
                                 <td>Mineralwasser</td>
                                 <td rowspan="4"
                                     class="bg-white align-middle text-center">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-1.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-C2-1.png"
                                         alt=""
                                         style="max-height: 120px; width: auto;"><br><small>die
                                         Flasche</small>
                                 </td>
                                 <td rowspan="4"
                                     class="bg-white align-middle text-center">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-2.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-C2-2.png"
                                         alt=""
                                         style="max-height: 120px; width: auto;"><br><small>das
                                         Glas</small>
@@ -287,14 +287,14 @@
                                 <td>Cola</td>
                                 <td rowspan="4"
                                     class="bg-white align-middle text-center">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-3.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-C2-3.png"
                                         alt=""
                                         style="max-height: 120px; width: auto;"><br><small>die
                                         Dose</small>
                                 </td>
                                 <td rowspan="4"
                                     class="bg-white align-middle text-center">
-                                    <img src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C2-4.png"
+                                    <img src="./dev/images/Reihe 5/Reihe-5-C2-4.png"
                                         alt=""
                                         style="max-height: 120px; width: auto;"><br><small>die
                                         Tasse</small>
@@ -323,15 +323,12 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -357,7 +354,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 5/r5 C2.mp3"],
+                    "./dev/sounds/Reihe 5/r5 C2.mp3"],
                 sprite: {
                     "0": [13427, 131520],
                     "1": [23990, 3015],
@@ -615,7 +612,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <section>
         <div class="container">
             <div class="row">
@@ -17,7 +17,7 @@
                             <tr>
                                 <th scope="row" class="align-middle text-center"
                                     rowspan="4"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-E3-1.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-E3-1.png"
                                         style="max-width: 240px; height: auto;"
                                         alt="Petra"></th>
                                 <td>
@@ -84,7 +84,7 @@
                             <tr>
                                 <th scope="row" class="align-middle text-center"
                                     rowspan="4"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-E3-2.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-E3-2.png"
                                         style="max-width: 240px; height: auto;"
                                         alt="Sabine"></th>
                                 <td>
@@ -140,14 +140,11 @@
     </section>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -390,7 +387,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <section>
         <div class="container">
             <div class="row">
@@ -40,7 +40,7 @@
                                 <td>
                                     <div
                                         class="border border-dark rounded p-2 mx-auto">
-                                        <img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-1.png"
+                                        <img src="./dev/images/Reihe 10/Reihe-10-BGR-1.png"
                                             alt="Wechselpräpositionen"
                                             style="max-width: 100%; height: auto;"><br>
                                         Der Hund geht zur Katze. Er sitzt neben
@@ -66,7 +66,7 @@
                             <tr>
                                 <td width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-2.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-2.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -95,7 +95,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-3.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-3.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -125,7 +125,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-4.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-4.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -155,7 +155,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-5.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-5.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -183,7 +183,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-6.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-6.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -212,7 +212,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-7.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-7.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -240,7 +240,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-8.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-8.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -269,7 +269,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-9.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-9.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -299,7 +299,7 @@
                             <tr>
                                 <td class="text-center" width="120"
                                     rowspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-BGR-10.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-BGR-10.png"
                                         alt="Präpositionmen des Ortes"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -449,13 +449,10 @@
     </section>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
 
         $(".tran").hide();
@@ -703,7 +700,6 @@
 
     </script>
 
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <section>
         <div class="container">
             <div class="row">
@@ -8,19 +8,19 @@
                             <tr>
                                 <th class="text-center align-middle" scope="col"
                                     colspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C1-1.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C1-1.png"
                                         alt="Was isst er/sie?"
                                         style="max-width: 240px; height: auto;">
                                 </th>
                                 <th class="text-center align-middle" scope="col"
                                     colspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C1-2.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C1-2.png"
                                         alt="Was isst er/sie?"
                                         style="max-width: 240px; height: auto;">
                                 </th>
                                 <th class="text-center align-middle" scope="col"
                                     colspan="2"><img
-                                        src="./<?php echo($root); ?>images/Reihe 5/Reihe-5-C1-3.png"
+                                        src="./dev/images/Reihe 5/Reihe-5-C1-3.png"
                                         alt="Was isst er/sie?"
                                         style="max-width: 240px; height: auto;">
                                 </th>
@@ -131,10 +131,7 @@
             </div>
         </div>
     </section>
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
     <?php require "footer.php"; ?>
-
-</body>
+    </body>
 
 </html>

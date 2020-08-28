@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -22,7 +22,7 @@
                         <tbody>
                             <tr>
                                 <th scope="row" rowspan="4" width="5%">1.
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-1.png" alt="erkältet"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E5-1.png" alt="erkältet"
                                         class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
                                         style="max-width: 180px; height: auto;">
                                 </th>
@@ -107,7 +107,7 @@
                         <tbody>
                             <tr>
                                 <th scope="row" rowspan="4">2.
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-2.png" alt="nervös"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E5-2.png" alt="nervös"
                                         class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
                                         style="max-width: 180px; height: auto;">
                                 </th>
@@ -189,7 +189,7 @@
                         <tbody>
                             <tr>
                                 <th scope="row" rowspan="4">3.
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-3.png" alt="Durchfall"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E5-3.png" alt="Durchfall"
                                         class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
                                         style="max-width: 180px; height: auto;">
                                 </th>
@@ -271,7 +271,7 @@
                         <tbody>
                             <tr>
                                 <th scope="row" rowspan="4">4.
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E5-4.png"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E5-4.png"
                                         alt="Rückenschmerzen"
                                         class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
                                         style="max-width: 180px; height: auto;">
@@ -359,14 +359,11 @@
 
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -399,7 +396,7 @@
 
             /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 8/r8 E5.mp3"],
+                src: ["./dev/sounds/Reihe 8/r8 E5.mp3"],
                 sprite: {
                     "0": [1204, 64564],
                     "1": [8021, 13901],
@@ -707,7 +704,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

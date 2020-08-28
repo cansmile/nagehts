@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <style>
         .video-container {
             position: relative;
@@ -60,9 +60,7 @@
 
 
 
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
     <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

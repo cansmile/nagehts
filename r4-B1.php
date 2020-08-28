@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -111,7 +111,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-1.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-1.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -133,7 +133,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-2.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-2.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -155,7 +155,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-3.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-3.png"
                                     alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
@@ -177,7 +177,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-4.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-4.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -199,7 +199,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-5.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-5.png"
                                     alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
@@ -221,7 +221,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-6.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-6.png"
                                     alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
@@ -243,7 +243,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-7.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-7.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -265,7 +265,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-8.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-8.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -287,7 +287,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-9.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-9.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -309,7 +309,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-10.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-10.png"
                                     alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
@@ -331,7 +331,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-11.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-11.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -353,7 +353,7 @@
                         <thead>
                             <th height="200" class="text-center align-middle"
                                 scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B1-12.png"
+                                    src="./dev/images/Reihe 4/Reihe-4-B1-12.png"
                                     alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
@@ -384,15 +384,12 @@
 
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -417,7 +414,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 4/r4 B1.mp3"],
+                    "./dev/sounds/Reihe 4/r4 B1.mp3"],
                 sprite: {
                     "0": [801, 58913],
                     "1": [14079, 1820],

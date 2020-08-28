@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12"><img src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-B4-1.png"
+                <div class="col-12"><img src="./dev/images/Reihe 10/Reihe-10-B4-1.png"
                         alt="Ergänzen Sie die passenden Präpositionen." style="max-width: 100%; height: auto;"></div>
             </div>
             <div class="row">
@@ -241,14 +241,11 @@
 
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -276,7 +273,7 @@
                 });
             } /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 10/r10 B4.mp3"],
+                src: ["./dev/sounds/Reihe 10/r10 B4.mp3"],
                 sprite: {
                     "0": [70, 110524],
                     "1": [14595, 9592],
@@ -543,7 +540,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

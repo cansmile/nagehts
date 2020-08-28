@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <section>
         <div class="container">
             <div class="row">
@@ -17,16 +17,16 @@
                         실비아는 7월 16일 드레스덴에서 무엇을 하였나요. 메모를 읽고 그림을 순서대로 나열하세요.</span>
                 </div>
                 <div class="col border border-dark rounded p-2 m-1">1.<br />
-                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-1.png" alt="Mein Urlaub in Dresden"
+                    <img src="dev//images/Reihe 10/Reihe-10-E11-1.png" alt="Mein Urlaub in Dresden"
                         style="max-width: 240px; height: auto;"></div>
                 <div class="col border border-dark rounded p-2 m-1">2.<br />
-                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-2.png" alt="Mein Urlaub in Dresden"
+                    <img src="dev//images/Reihe 10/Reihe-10-E11-2.png" alt="Mein Urlaub in Dresden"
                         style="max-width: 240px; height: auto;"></div>
                 <div class="col border border-dark rounded p-2 m-1">3.<br />
-                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-3.png" alt="Mein Urlaub in Dresden"
+                    <img src="dev//images/Reihe 10/Reihe-10-E11-3.png" alt="Mein Urlaub in Dresden"
                         style="max-width: 240px; height: auto;"></div>
                 <div class="col border border-dark rounded p-2 m-1">4.<br />
-                    <img src="<?php echo($root); ?>/images/Reihe 10/Reihe-10-E11-4.png" alt="Mein Urlaub in Dresden"
+                    <img src="dev//images/Reihe 10/Reihe-10-E11-4.png" alt="Mein Urlaub in Dresden"
                         style="max-width: 240px; height: auto;"></div>
                 <div class="col-12 mt-5">
                     <div class="input-group text-center">
@@ -107,14 +107,11 @@
             <!-- 정답확인 버튼 끝 -->
         </div>
     </section>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -352,7 +349,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

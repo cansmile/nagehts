@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -27,7 +27,7 @@
                                     class="align-middle">1</th>
                                 <td rowspan="2" width="100"
                                     class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-1.png"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E2-1.png"
                                         alt="Was fehlt Ihnen?"
                                         style="max-height: 240px; width: auto;">
                                 </td>
@@ -48,7 +48,7 @@
                                     class="align-middle">2</th>
                                 <td rowspan="2" width="100"
                                     class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-2.png"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E2-2.png"
                                         alt="Was fehlt Ihnen?"
                                         style="max-height: 240px; width: auto;">
                                 </td>
@@ -90,7 +90,7 @@
                                     class="align-middle">3</th>
                                 <td rowspan="2" width="100"
                                     class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-3.png"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E2-3.png"
                                         alt="Was fehlt Ihnen?"
                                         style="max-height: 240px; width: auto;">
                                 </td>
@@ -133,7 +133,7 @@
                                     class="align-middle">4</th>
                                 <td rowspan="2" width="100"
                                     class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-4.png"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E2-4.png"
                                         alt="Was fehlt Ihnen?"
                                         style="max-height: 240px; width: auto;">
                                 </td>
@@ -176,7 +176,7 @@
                                     class="align-middle">5</th>
                                 <td rowspan="2" width="100"
                                     class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-5.png"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E2-5.png"
                                         alt="Was fehlt Ihnen?"
                                         style="max-height: 240px; width: auto;">
                                 </td>
@@ -219,7 +219,7 @@
                                     class="align-middle">6</th>
                                 <td rowspan="2" width="100"
                                     class="align-middle">
-                                    <img src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-E2-6.png"
+                                    <img src="./dev/images/Reihe 8/Reihe-8-E2-6.png"
                                         alt="Was fehlt Ihnen?"
                                         style="max-height: 240px; width: auto;">
                                 </td>
@@ -268,14 +268,11 @@
 
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -306,7 +303,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 8/r8 E2.mp3"],
+                    "./dev/sounds/Reihe 8/r8 E2.mp3"],
                 sprite: {
                     "0": [1090, 57470]
                 },
@@ -622,7 +619,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

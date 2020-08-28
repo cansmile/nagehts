@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
@@ -44,23 +44,23 @@
             <!-- 리스트  시작 -->
             <div class="row mt-2" id="lsts">
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-1">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G2-1.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G2-1.png"
                         style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-2">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G2-2.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G2-2.png"
                         style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-3">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G2-3.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G2-3.png"
                         style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-4">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G2-4.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G2-4.png"
                         style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-5">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G2-5.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G2-5.png"
                         style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
                 </div>
             </div>
@@ -270,15 +270,12 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -305,7 +302,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 1/r1 G2.mp3"
+                    "./dev/sounds/Reihe 1/r1 G2.mp3"
                 ],
                 sprite: {
                     "0": [1222, 84607],
@@ -463,7 +460,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

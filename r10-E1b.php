@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 보기시작 -->
     <section class="bg-white rounded p-2"
 
@@ -90,7 +90,7 @@
                                 <td width="20" class="align-top">1.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-10.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-10.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -116,7 +116,7 @@
                                 <td width="20" class="align-top">2.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-11.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-11.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -142,7 +142,7 @@
                                 <td width="20" class="align-top">3.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-12.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-12.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -168,7 +168,7 @@
                                 <td width="20" class="align-top">4.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-13.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-13.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -194,7 +194,7 @@
                                 <td width="20" class="align-top">5.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-14.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-14.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -220,7 +220,7 @@
                                 <td width="20" class="align-top">6.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-15.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-15.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -246,7 +246,7 @@
                                 <td width="20" class="align-top">7.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-16.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-16.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -272,7 +272,7 @@
                                 <td width="20" class="align-top">8.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-17.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-17.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -298,7 +298,7 @@
                                 <td width="20" class="align-top">9.
                                 </td>
                                 <td><img
-                                        src="./<?php echo($root); ?>images/Reihe 10/Reihe-10-E1-18.png"
+                                        src="./dev/images/Reihe 10/Reihe-10-E1-18.png"
                                         alt=""
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -331,15 +331,12 @@
 
     <div id="marg"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $("#chk").hide();
@@ -433,7 +430,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

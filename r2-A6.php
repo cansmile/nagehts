@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -57,7 +57,7 @@
                                                 해.</small></span>
                                     </span></td>
                                 <td rowspan="5" class="text-center align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A6-1.png" alt="Tim"
+                                        src="./dev/images/Reihe 2/Reihe-2-A6-1.png" alt="Tim"
                                         style="max-width: 320px; height: auto;">
                                 </td>
                             </tr>
@@ -190,7 +190,7 @@
                                                 수시야.</small></span>
                                     </span></td>
                                 <th scope="row" rowspan="7" class="text-center align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A6-2.png" alt="Susi"
+                                        src="./dev/images/Reihe 2/Reihe-2-A6-2.png" alt="Susi"
                                         style="max-width: 320px; height: auto;">
                                 </th>
                             </tr>
@@ -359,7 +359,7 @@
                                                 터키출신이야.</small></span>
                                     </span></td>
                                 <td rowspan="5" class="text-center align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 2/Reihe-2-A6-3.png" alt="Wie"
+                                        src="./dev/images/Reihe 2/Reihe-2-A6-3.png" alt="Wie"
                                         style="max-width: 320px; height: auto;">
                                 </td>
                             </tr>
@@ -466,12 +466,11 @@
     </section>
 
     <div id="last" class="d-none"></div>
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -496,7 +495,7 @@
 
             /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 2/r2 A6.mp3"],
+                src: ["./dev/sounds/Reihe 2/r2 A6.mp3"],
                 sprite: {
                     "0": [978, 76196],
                     "1": [7482, 1779],
@@ -689,7 +688,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

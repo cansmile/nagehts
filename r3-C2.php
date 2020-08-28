@@ -1,4 +1,4 @@
-    <?php require "nav.php"; ?>
+    <?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -26,16 +26,16 @@
                         <thead>
                             <tr>
                                 <th scope="col" width="25%"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-C2-1.png"
+                                        src="./dev/images/Reihe 3/Reihe-3-C2-1.png"
                                         style="max-width: 100%; height: auto;" alt=""></th>
                                 <th scope="col" width="25%"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-C2-2.png"
+                                        src="./dev/images/Reihe 3/Reihe-3-C2-2.png"
                                         style="max-width: 100%; height: auto;" alt=""></th>
                                 <th scope="col" width="25%"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-C2-3.png"
+                                        src="./dev/images/Reihe 3/Reihe-3-C2-3.png"
                                         style="max-width: 100%; height: auto;" alt=""></th>
                                 <th scope="col" width="25%"><img
-                                        src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-C2-4.png"
+                                        src="./dev/images/Reihe 3/Reihe-3-C2-4.png"
                                         style="max-width: 100%; height: auto;" alt=""></th>
                             </tr>
                         </thead>
@@ -171,14 +171,11 @@
         </div>
     </section>
     <div id="last" class="d-none"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -200,7 +197,7 @@
                 });
             } /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 3/r3 C2.mp3"],
+                src: ["./dev/sounds/Reihe 3/r3 C2.mp3"],
                 sprite: {
                     "0": [2510, 25292],
                     "1": [7473, 2181],

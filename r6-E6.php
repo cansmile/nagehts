@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -14,7 +14,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <table class="table table-borderless text-center">
                         <tr>
-                            <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-3.png"
+                            <td><img src="./dev/images/Reihe 6/Reihe-6-E6-3.png"
                                     alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
                         </tr>
                         <tr>
@@ -45,7 +45,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <table class="table table-borderless text-center">
                         <tr>
-                            <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-5.png"
+                            <td><img src="./dev/images/Reihe 6/Reihe-6-E6-5.png"
                                     alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
                         </tr>
                         <tr>
@@ -76,7 +76,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <table class="table table-borderless text-center">
                         <tr>
-                            <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-4.png"
+                            <td><img src="./dev/images/Reihe 6/Reihe-6-E6-4.png"
                                     alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
                         </tr>
                         <tr>
@@ -107,7 +107,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <table class="table table-borderless text-center">
                         <tr>
-                            <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-6.png"
+                            <td><img src="./dev/images/Reihe 6/Reihe-6-E6-6.png"
                                     alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
                         </tr>
                         <tr>
@@ -137,7 +137,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <table class="table table-borderless text-center">
                         <tr>
-                            <td><img src="./<?php echo($root); ?>images/Reihe 6/Reihe-6-E6-7.png"
+                            <td><img src="./dev/images/Reihe 6/Reihe-6-E6-7.png"
                                     alt="Was macht er am Freitag?" style="max-width: 100%; height: auto;"></td>
                         </tr>
                         <tr>
@@ -179,14 +179,11 @@
     <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
     <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();
@@ -387,7 +384,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

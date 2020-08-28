@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <style>
         td {
             height: 20%;
@@ -76,7 +76,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
             <table class="table table-borderless"
                 style="background-size: 100% 100%; background-repeat: no-repeat;
-                    background-image: url('./<?php echo($root); ?>images/Reihe 2/Reihe-2-D1-0.png')"
+                    background-image: url('./dev/images/Reihe 2/Reihe-2-D1-0.png')"
                 width="100%">
                 <tbody>
                     <tr>
@@ -154,15 +154,12 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require("./{$root}oxsound.php"); ?>
+    <?php require("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -188,7 +185,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 2/r2 D1.mp3"
+                    "./dev/sounds/Reihe 2/r2 D1.mp3"
                 ],
                 sprite: {
                     "0": [317, 20626],
@@ -369,7 +366,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
     </body>
 
     </html>

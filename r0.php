@@ -1,4 +1,4 @@
-    <?php require "nav.php"; ?>
+    <?php require_once("heading.php"); ?>
         <!--이정표 시작-->
         <section>
             <div class="container">
@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="row">
 <?php
-require "inhalt.php";
+require "inhalte.php";
 ?>
                 </div>
             </div>
@@ -27,10 +27,6 @@ require "inhalt.php";
         </section>
         <!--이정표 끝-->
 <?php require "footer.php"; ?>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-        <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    </body>
+        <script src="./dev/js/popper.min.js"></script>
+        </body>
 </html>

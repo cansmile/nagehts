@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -97,42 +97,42 @@
                     class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-1">
                     <h2 class="btn btn-xl bg-white ttl d-block"><img
-                            src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B4-1.png" alt="Hand"
+                            src="./dev/images/Reihe 8/Reihe-8-B4-1.png" alt="Hand"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-2">
                     <h2 class="btn btn-xl bg-white ttl d-block"><img
-                            src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B4-2.png" alt="Was passt?"
+                            src="./dev/images/Reihe 8/Reihe-8-B4-2.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-3">
                     <h2 class="btn btn-xl bg-white ttl d-block"><img
-                            src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B4-3.png" alt="Was passt?"
+                            src="./dev/images/Reihe 8/Reihe-8-B4-3.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-4">
                     <h2 class="btn btn-xl bg-white ttl d-block"><img
-                            src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B4-4.png" alt="Was passt?"
+                            src="./dev/images/Reihe 8/Reihe-8-B4-4.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-5">
                     <h2 class="btn btn-xl bg-white ttl d-block"><img
-                            src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B4-5.png" alt="Was passt?"
+                            src="./dev/images/Reihe 8/Reihe-8-B4-5.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-purple border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-6">
                     <h2 class="btn btn-xl bg-white ttl d-block"><img
-                            src="./<?php echo($root); ?>images/Reihe 8/Reihe-8-B4-6.png" alt="Was passt?"
+                            src="./dev/images/Reihe 8/Reihe-8-B4-6.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
             </div>
@@ -149,15 +149,12 @@
     <div id="marg" class="border-danger"></div>
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -181,7 +178,7 @@
                 });
             } /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 8/r8 B4.mp3"],
+                src: ["./dev/sounds/Reihe 8/r8 B4.mp3"],
                 sprite: {
                     "0": [348, 71892],
                     "1": [7638, 2091],
@@ -318,7 +315,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

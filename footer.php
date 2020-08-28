@@ -1,3 +1,7 @@
+<!--공통 스크립트-->
+<script src="./dev/js/jquery-3.5.1.min.js"></script>
+<script src="./dev/js/bootstrap.js"></script>
+
 <!-- 꼬리말 시작 -->
 <footer class="text-center mt-5">
     <div class="container">

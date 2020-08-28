@@ -1,4 +1,4 @@
-2<?php require "nav.php"; ?>
+2<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -46,7 +46,7 @@
                     <div class="collapse" id="collapseOne"
                         aria-labelledby="headingOne"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-1.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-1.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -67,7 +67,7 @@
                     <div class="collapse" id="collapseTwo"
                         aria-labelledby="headingTwo"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-2.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-2.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -90,7 +90,7 @@
                     <div class="collapse" id="collapseThree"
                         aria-labelledby="headingThree"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-3.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-3.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -112,7 +112,7 @@
                     <div class="collapse" id="collapseFour"
                         aria-labelledby="headingFour"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-4.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-4.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -134,7 +134,7 @@
                     <div class="collapse" id="collapseFive"
                         aria-labelledby="headingFive"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-5.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-5.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -155,7 +155,7 @@
                     <div class="collapse" id="collapseSix"
                         aria-labelledby="headingSix"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-6.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-6.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -178,7 +178,7 @@
                     <div class="collapse" id="collapseSeven"
                         aria-labelledby="headingSeven"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-7.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-7.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -201,7 +201,7 @@
                     <div class="collapse" id="collapseEight"
                         aria-labelledby="headingEight"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-8.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-8.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -223,7 +223,7 @@
                     <div class="collapse" id="collapseNine"
                         aria-labelledby="headingNine"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-9.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-9.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -244,7 +244,7 @@
                     <div class="collapse" id="collapseTen"
                         aria-labelledby="headingTen"
                         data-parent="#accordionitms">
-                        <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-F1-10.png"
+                        <img src=".\dev/images\Reihe 1\Reihe-1-F1-10.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block mx-auto">
                     </div>
@@ -255,14 +255,11 @@
 
     <div id="last" class="d-none"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -290,7 +287,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 1/r1 F1.mp3"],
+                    "./dev/sounds/Reihe 1/r1 F1.mp3"],
                 sprite: {
                     "0": [242, 34112],
                     "1": [11116, 1428],
@@ -384,7 +381,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

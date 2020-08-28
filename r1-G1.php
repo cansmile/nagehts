@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 보기시작 -->
     <section class="bg-white rounded p-2"
 
@@ -58,7 +58,7 @@
             <div class="row mt-2" id="lsts">
                 <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-1">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G1-1.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G1-1.png"
                         style="height: auto; max-width: 100%"
                         class="mx-auto d-block">
                     <h2 class="btn btn-warning btn-xl ttl d-block">Guten
@@ -67,7 +67,7 @@
                 </div>
                 <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-2">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G1-2.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G1-2.png"
                         style="height: auto; max-width: 100%"
                         class="mx-auto d-block">
                     <h2 class="btn btn-warning btn-xl ttl d-block">Guten
@@ -77,7 +77,7 @@
                 </div>
                 <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-3">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G1-3.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G1-3.png"
                         style="height: auto; max-width: 100%"
                         class="mx-auto d-block">
                     <h2 class="btn btn-warning btn-xl ttl d-block">Guten
@@ -87,7 +87,7 @@
                 </div>
                 <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-4">
-                    <img src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-G1-4.png"
+                    <img src=".\dev/images\Reihe 1\Reihe-1-G1-4.png"
                         style="height: auto; max-width: 100%"
                         class="mx-auto d-block">
                     <h2 class="btn btn-warning btn-xl ttl d-block">Guten
@@ -105,15 +105,12 @@
         </div>
     </section>
     <div id="marg"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $("#chk").hide();
@@ -233,7 +230,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

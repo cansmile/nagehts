@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -63,25 +63,25 @@
             </div>
             <div class="row">
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
-                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-1.png"
+                        src="./dev/images/Reihe 7/Reihe-7-A2-1.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
-                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-2.png"
+                        src="./dev/images/Reihe 7/Reihe-7-A2-2.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
-                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-3.png"
+                        src="./dev/images/Reihe 7/Reihe-7-A2-3.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
-                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-4.png"
+                        src="./dev/images/Reihe 7/Reihe-7-A2-4.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
-                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-5.png"
+                        src="./dev/images/Reihe 7/Reihe-7-A2-5.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
-                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-6.png"
+                        src="./dev/images/Reihe 7/Reihe-7-A2-6.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
-                        src="./<?php echo($root); ?>images/Reihe 7/Reihe-7-A2-7.png"
+                        src="./dev/images/Reihe 7/Reihe-7-A2-7.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
             </div>
             <!-- 리스트  시작 -->
@@ -127,15 +127,12 @@
     </section>
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
 
     <script>
         $("#0").hide();
@@ -162,7 +159,7 @@
 
             /* 문제 재생 */
             var nagehts = new Howl({
-                src: ["./<?php echo($root); ?>sounds/Reihe 7/r7 A2.mp3"],
+                src: ["./dev/sounds/Reihe 7/r7 A2.mp3"],
                 sprite: {
                     "0": [876, 40859],
                     "1": [11862, 1469],
@@ -285,7 +282,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

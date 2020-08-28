@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -121,23 +121,23 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-2.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-2.png"
                                         alt="2"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-3.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-3.png"
                                         alt="3"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-9.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-9.png"
                                         alt="9"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-10.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-10.png"
                                         alt="10"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-7.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-7.png"
                                         alt="7"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -217,23 +217,23 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-8.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-8.png"
                                         alt="8"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-6.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-6.png"
                                         alt="6"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-1.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-1.png"
                                         alt="1"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-5.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-5.png"
                                         alt="5"
                                         style="max-width: 100%; height: auto;">
                                 </td>
-                                <td><img src="./<?php echo($root); ?>images/Reihe 3/Reihe-3-D4-4.png"
+                                <td><img src="./dev/images/Reihe 3/Reihe-3-D4-4.png"
                                         alt="4"
                                         style="max-width: 100%; height: auto;">
                                 </td>
@@ -294,15 +294,12 @@
 
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -327,7 +324,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 3/r3 D4.mp3"],
+                    "./dev/sounds/Reihe 3/r3 D4.mp3"],
                 sprite: {
                     "0": [1892, 46540],
                     "1": [36326, 1344],

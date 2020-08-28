@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
@@ -166,7 +166,7 @@
                 <div style="min-height: 240px;" class="rounded-top bg-primary itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-1">
                     <h2 class="btn btn-light btn-xl ttl d-block">
-                        <img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-1.png"
+                        <img src=".\dev/images\Reihe 0\Reihe-0-1.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block">
                         <strong>Begrüßung</strong> 인사 </h2>&nbsp;
@@ -174,7 +174,7 @@
                 <div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-2">
                     <h2 class="btn btn-light btn-xl ttl d-block">
-                        <img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-2.png"
+                        <img src=".\dev/images\Reihe 0\Reihe-0-2.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block">
                         <strong>Sport</strong> 스포츠 </h2>&nbsp;
@@ -182,7 +182,7 @@
                 <div style="min-height: 240px;" class="rounded-top bg-success itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-3">
                     <h2 class="btn btn-light btn-xl ttl d-block">
-                        <img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-3.png"
+                        <img src=".\dev/images\Reihe 0\Reihe-0-3.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block">
                         <strong>Musik</strong> 음악 </h2>&nbsp;
@@ -190,7 +190,7 @@
                 <div style="min-height: 240px;" class="rounded-top bg-danger itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-4">
                     <h2 class="btn btn-light btn-xl ttl d-block">
-                        <img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-4.png"
+                        <img src=".\dev/images\Reihe 0\Reihe-0-4.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block">
                         <strong>Getränke</strong> 음료 </h2>&nbsp;
@@ -198,7 +198,7 @@
                 <div style="min-height: 240px;" class="rounded-top bg-warning itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-5">
                     <h2 class="btn btn-light btn-xl ttl d-block">
-                        <img src=".\<?php echo($root); ?>images\Reihe 0\Reihe-0-5.png"
+                        <img src=".\dev/images\Reihe 0\Reihe-0-5.png"
                             style="max-width: 100%; height: auto;"
                             class="d-block">
                         <strong>Familie</strong> 가족 </h2>&nbsp;
@@ -219,15 +219,12 @@
     <div id="last" class="d-none"></div>
     <div id="marg"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
 
     <script>
         $("#0").hide();
@@ -255,7 +252,7 @@
         /* 문제 재생 */
         var nagehts = new Howl({
             src: [
-                "./<?php echo($root); ?>sounds/Reihe 0/R0_Ordnen_Sie.mp3"],
+                "./dev/sounds/Reihe 0/R0_Ordnen_Sie.mp3"],
             sprite: {
                 "0": [60000, 53008],
                 "1": [0, 1600],
@@ -478,7 +475,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

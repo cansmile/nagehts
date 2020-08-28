@@ -1,4 +1,4 @@
-    <?php require "nav.php"; ?>
+    <?php require_once("heading.php"); ?>
     <?php require_once "ready.php"; ?>
     <!-- 알림 시작 -->
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -440,16 +440,11 @@
         </div>
     </section>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
 
     <script>
         $(document).ready(function() {
@@ -543,6 +538,5 @@
         });
     });
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 </html>

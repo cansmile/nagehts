@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -71,35 +71,35 @@
                     class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl"
                     id="lst-1">
                     <img style="width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-1.png"
+                        src=".\dev/images\Reihe 1\Reihe-1-A3-1.png"
                         class="ttl">
                 </div>
                 <div style="min-height: 320px;"
                     class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl"
                     id="lst-2">
                     <img style="width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-2.png"
+                        src=".\dev/images\Reihe 1\Reihe-1-A3-2.png"
                         class="ttl">
                 </div>
                 <div style="min-height: 320px;"
                     class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl"
                     id="lst-3">
                     <img style="width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-3.png"
+                        src=".\dev/images\Reihe 1\Reihe-1-A3-3.png"
                         class="ttl">
                 </div>
                 <div style="min-height: 320px;"
                     class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl"
                     id="lst-4">
                     <img style="width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-4.png"
+                        src=".\dev/images\Reihe 1\Reihe-1-A3-4.png"
                         class="ttl">
                 </div>
                 <div style="min-height: 320px;"
                     class="rounded-top border border-outline-dark itm-lst text-center text-dark col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl"
                     id="lst-5">
                     <img style="width: 100%; height: auto;"
-                        src=".\<?php echo($root); ?>images\Reihe 1\Reihe-1-A3-5.png"
+                        src=".\dev/images\Reihe 1\Reihe-1-A3-5.png"
                         class="ttl">
                 </div>
             </div>
@@ -118,15 +118,12 @@
     <div id="last" class="d-none"></div>
     <div id="marg"></div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -153,7 +150,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 1/r1 A3.mp3"],
+                    "./dev/sounds/Reihe 1/r1 A3.mp3"],
                 sprite: {
                     "0": [297, 17192],
                     "1": [4569, 1406],
@@ -423,7 +420,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -37,7 +37,7 @@
                                         <td>1</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-1.png"
+                                        <td><img src="./dev/images/Reihe 4/Reihe-4-A1-1.png"
                                                 style="max-width:100%;height:auto;" class="so" id="7"></td>
                                     </tr>
                                     <tr>
@@ -57,7 +57,7 @@
                                         <td>2</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-2.png"
+                                        <td><img src="./dev/images/Reihe 4/Reihe-4-A1-2.png"
                                                 style="max-width:100%;height:auto;" class="so" id="6"></td>
                                     </tr>
                                     <tr>
@@ -77,7 +77,7 @@
                                         <td>3</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-3.png"
+                                        <td><img src="./dev/images/Reihe 4/Reihe-4-A1-3.png"
                                                 style="max-width:100%;height:auto;" class="so" id="1"></td>
                                     </tr>
                                     <tr>
@@ -98,7 +98,7 @@
                                         <td>4</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-4.png"
+                                        <td><img src="./dev/images/Reihe 4/Reihe-4-A1-4.png"
                                                 style="max-width:100%;height:auto;" class="so" id="2"></td>
                                     </tr>
                                     <tr>
@@ -118,7 +118,7 @@
                                         <td>5</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-5.png"
+                                        <td><img src="./dev/images/Reihe 4/Reihe-4-A1-5.png"
                                                 style="max-width:100%;height:auto;" class="so" id="5"></td>
                                     </tr>
                                     <tr>
@@ -138,7 +138,7 @@
                                         <td>6</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-6.png"
+                                        <td><img src="./dev/images/Reihe 4/Reihe-4-A1-6.png"
                                                 style="max-width:100%;height:auto;" class="so" id="3"></td>
                                     </tr>
                                     <tr>
@@ -158,7 +158,7 @@
                                         <td>7</td>
                                     </tr>
                                     <tr>
-                                        <td><img src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A1-7.png"
+                                        <td><img src="./dev/images/Reihe 4/Reihe-4-A1-7.png"
                                                 style="max-width:100%;height:auto;" class="so" id="4"></td>
                                     </tr>
                                     <tr>
@@ -506,14 +506,11 @@
         </div>
     </section>
     <div id="last" class="d-none"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".ant").hide();
@@ -544,7 +541,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 4/r4 A1.mp3"
+                    "./dev/sounds/Reihe 4/r4 A1.mp3"
                 ],
                 sprite: {
                     "0": [1295, 41265],

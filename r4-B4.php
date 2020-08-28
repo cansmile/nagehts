@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 보기시작 -->
     <section class="bg-white rounded p-2" id="wahl">
         <div class="container">
@@ -67,7 +67,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-4.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-4.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -86,7 +86,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-2.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-2.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -105,7 +105,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-3.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-3.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -124,7 +124,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-1.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-1.png" alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
                         <tbody>
@@ -143,7 +143,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-5.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-5.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -162,7 +162,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-6.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-6.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -181,7 +181,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-7.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-7.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -200,7 +200,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-8.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-8.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -219,7 +219,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-9.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-9.png" alt="Was ist das?"
                                     style="max-width: 100%; height: auto;"></th>
                         </thead>
                         <tbody>
@@ -238,7 +238,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-10.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-10.png" alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
                         <tbody>
@@ -257,7 +257,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-11.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-11.png" alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
                         <tbody>
@@ -276,7 +276,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-12.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-12.png" alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
                         <tbody>
@@ -295,7 +295,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-13.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-13.png" alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
                         <tbody>
@@ -314,7 +314,7 @@
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
-                                    src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-B4-14.png" alt="Was ist das?"
+                                    src="./dev/images/Reihe 4/Reihe-4-B4-14.png" alt="Was ist das?"
                                     style="max-height: 100%; width: auto;"></th>
                         </thead>
                         <tbody>
@@ -342,15 +342,12 @@
     </section>
 
     <div id="last" class="d-none"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $("#chk").hide();
@@ -444,7 +441,6 @@
         });
 
     </script>
-    <?php require "footer.php"; ?>
-</body>
+    </body>
 
 </html>

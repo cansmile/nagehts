@@ -1,4 +1,4 @@
-<?php require "nav.php"; ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -104,7 +104,7 @@
                             <tr>
                                 <th scope="col" width="40%"
                                     class="align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-A3.png"
                                         alt="Haus"
                                         style="width: 100%; height: auto;"></th>
                                 <th scope="col" width="30%"
@@ -120,7 +120,7 @@
                         <tbody>
                             <tr>
                                 <th heigh="150" scope="row"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-2.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-A3-2.png"
                                         alt="Wo und Was tut man?"
                                         style="max-width: 100%; height: auto;">
                                 </th>
@@ -141,7 +141,7 @@
                             </tr>
                             <tr>
                                 <th heigh="150" scope="row"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-4.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-A3-4.png"
                                         alt="Wo und Was tut man?"
                                         style="max-width: 100%; height: auto;">
                                 </th>
@@ -162,7 +162,7 @@
                             </tr>
                             <tr>
                                 <th heigh="150" scope="row"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-5.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-A3-5.png"
                                         alt="Wo und Was tut man?"
                                         style="max-width: 100%; height: auto;">
                                 </th>
@@ -191,7 +191,7 @@
                             <tr>
                                 <th scope="col" width="40%"
                                     class="align-middle"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-A3.png"
                                         alt="Haus"
                                         style="width: 100%; height: auto;"></th>
                                 <th scope="col" width="30%"
@@ -209,7 +209,7 @@
                         <tbody>
                             <tr>
                                 <th width="40%" heigh="150" scope="row"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-6.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-A3-6.png"
                                         alt="Wo und Was tut man?"
                                         style="max-width: 100%; height: auto;">
                                 </th>
@@ -232,7 +232,7 @@
                             </tr>
                             <tr>
                                 <th heigh="150" scope="row"><img
-                                        src="./<?php echo($root); ?>images/Reihe 4/Reihe-4-A3-7.png"
+                                        src="./dev/images/Reihe 4/Reihe-4-A3-7.png"
                                         alt="Wo und Was tut man?"
                                         style="max-width: 100%; height: auto;">
                                 </th>
@@ -268,15 +268,12 @@
 
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./<?php echo($root); ?>js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./<?php echo($root); ?>js/popper.min.js"></script>
-    <script src="./<?php echo($root); ?>js/bootstrap.js"></script>
-    <script src="./<?php echo($root); ?>js/taptogrouph.js"></script>
-    <script src="./<?php echo($root); ?>js/howler.core.js"></script>
+    <?php require "footer.php"; ?>
+    <script src="./dev/js/popper.min.js"></script>
+    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./{$root}oxsound.php"); ?>
+    <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -301,7 +298,7 @@
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
-                    "./<?php echo($root); ?>sounds/Reihe 4/r4 A3.mp3"],
+                    "./dev/sounds/Reihe 4/r4 A3.mp3"],
                 sprite: {
                     "0": [961, 44465],
                     "1": [6303, 2893],

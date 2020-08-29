@@ -459,7 +459,7 @@
                                     <tbody>
                                         <tr>
                                             <td>mein Vater</td>
-                                            <td>mein Mutter</td>
+                                            <td>meine Mutter</td>
                                             <td>mein Kind</td>
                                             <td>meine Eltern</td>
                                         </tr>

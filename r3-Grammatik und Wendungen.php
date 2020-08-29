@@ -459,7 +459,7 @@
                                     <tbody>
                                         <tr>
                                             <td>mein Vater</td>
-                                            <td>mein Mutter</td>
+                                            <td>meine Mutter</td>
                                             <td>mein Kind</td>
                                             <td>meine Eltern</td>
                                         </tr>
@@ -524,7 +524,7 @@
                                         <tr>
                                             <th scope="row">ich</th>
                                             <td>mache</td>
-                                            <td>mache</td>
+                                            <td>arbeite</td>
                                             <td>studiere</td>
                                             <td>habe</td>
                                             <td>bin</td>

@@ -681,7 +681,7 @@
                                     $item_head = $second_key;
                                 }
 
-                                if (substr($second_key, -2) === 'GR') {
+                                if ( substr($second_key, -2) === 'GR' ) {
                                     $item_head = 'GR';
                                 }
                             }
@@ -696,24 +696,6 @@
     }
 ?>
 
-<!DOCTYPE html>
-
-<html lang="ko">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=.5, minimum-scale=.25, user-scalable=yes, shrink-to-fit=no">
-    <title>Na geht's? - Willkommen auf der PUTS Lern-Website! PUTS</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="./dev/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="./dev/css/bootstrap-custom.css" rel="stylesheet" type="text/css">
-    <link href="./dev/css/global.css" rel="stylesheet" type="text/css">
-    <!-- <link href="./dev/images/favicon.ico" rel="shortcut icon"> -->
-    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-          rel="stylesheet">
-</head>
 <!-- 상단 큰 제목 -->
 <header>
     <div class="jumbotron">
@@ -738,7 +720,7 @@
                             /* 교재 항목 번호 출력 */
                             if ( $lv === 'lv3' ) {
                                 echo '<br /><small class="mt-2">( 교재 <span class="bg-' . $color . ' p-1 px-2 m-1 rounded text-white">' . $item_head;
-                                if (!empty($item_tail)) echo '<small>-' . $item_tail . '</small>';
+                                if ( !empty($item_tail) ) echo '<small>-' . $item_tail . '</small>';
                                 echo '</span>)</small>';
                             }
                         ?>

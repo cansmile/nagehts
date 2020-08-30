@@ -259,11 +259,9 @@
 
     <div id="last" class="d-none"></div>
 
-    <?php require "footer.php"; ?>
     <script src="./dev/js/popper.min.js"></script>
-    <!-- interact.min.js -->
+    <?php require "footer.php"; ?>
     <script src="./dev/js/howler.core.js"></script>
-    <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();

@@ -286,8 +286,8 @@
     <div id="last" class="d-none"></div>
     <div id="marg"></div>
     <!-- 정답확인 버튼 끝 -->
-    <?php require "footer.php"; ?>
     <script src="./dev/js/popper.min.js"></script>
+    <?php require "footer.php"; ?>
     <script src="./dev/js/taptogrouph.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
@@ -414,9 +414,7 @@
                         }, 500);
                     });
 
-                    <
-                    ?
-                    php require "wahl.php"; ? >
+                    <?php require "wahl.php"; ?>
 
                     /* 정답확인 */
                     $("#chk").on("click", function () {
@@ -429,10 +427,25 @@
                                     "text-success font-weight-bold");
                             });
 
+                            $(".pop").each(function () {
+                                $(this).removeClass("btn-info");
+                                if ($(this).hasClass("o") && $(this).hasClass("an")) {
+                                    $(this).removeClass("btn-warning");
+                                    $(this).addClass("btn-success");
+                                } else if ($(this).hasClass("o")) {
+                                    $(this).addClass("btn-primary");
+                                } else if ($(this).hasClass("an")) {
+                                    $(this).addClass("btn-warning");
+                                } else {
+                                    $(this).addClass("btn-light");
+                                }
+                                ;
+                            });
+
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
-                            var qa = $(".itm-lst").length; /* 전체 문항 수 */
-                            var qr = $(".text-success").length; /* 맞춘 항목 수 */
+                            var qa = $(".itm-lst").length + $(".q").length; /* 전체 문항 수 */
+                            var qr = $(".text-success").length + $(".btn-success").length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */
                             var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {

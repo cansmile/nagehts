@@ -220,7 +220,6 @@
     <div id="marg"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/popper.min.js"></script>
     <script src="./dev/js/taptogrouph.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
@@ -337,91 +336,37 @@
 
                 /* 정답 확인 */
                 $("#chk").on("click", function () {
-                    if ($("#wahl").visibility !=
-                        "visible" && $(this).attr("id") ==
-                        "chk") {
+                    if ($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
                         $(this).attr("id", "done");
                         $(".itm").each(function () {
-                            if ($(this).parent()
-                                .attr("id").length >
-                                5) {
-                                var a = $(this)
-                                    .parent().attr(
-                                        "id")
-                                    .substr($(this)
-                                        .parent()
-                                        .attr("id")
-                                        .length - 2,
-                                        2);
+                            if ($(this).parent().attr("id").length > 5) {
+                                var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 2, 2);
                             } else {
-                                var a = $(this)
-                                    .parent().attr(
-                                        "id")
-                                    .substr($(this)
-                                        .parent()
-                                        .attr("id")
-                                        .length - 1,
-                                        1);
+                                var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
                             }
                             $(".tran").show();
-                            if ($(this).hasClass(
-                                    "ans" + (a))) {
-                                $(this).addClass(
-                                    "text-success font-weight-bold"
-                                    );
+                            if ($(this).hasClass("ans" + (a))) {
+                                $(this).addClass("text-success font-weight-bold");
                             } else {
-                                $(this).removeClass(
-                                    "btn-lg");
-                                $(this).addClass(
-                                    "btn-sm text-danger font-weight-bold"
-                                    );
-                                $(this).find(
-                                        ".tran")
-                                    .show();
-
-                            };
-
-                            if ($(this).hasClass(
-                                    "text-danger"
-                                    )) {
-                                /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                                for (var i = 1; i <=
-                                    $(".itm-lst")
-                                    .length; i++) {
-                                    if ($(this)
-                                        .hasClass(
-                                            "ans" +
-                                            i)) {
-                                        $(eval('"#lst-' +
-                                                i +
-                                                '"'
-                                                ))
-                                            .append(
-                                                "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-warning bg-white font-weight-bold\">" +
-                                                $(
-                                                    this)
-                                                .html() +
-                                                "</button>"
-                                                );
-                                        /* $(lstn).append(i); */
+                                $(this).removeClass("btn-lg");
+                                $(this).addClass("btn-sm text-danger font-weight-bold");
+                                $(this).find(".tran").show();
+                            }
+                            ;
+                            if ($(this).hasClass("text-danger")) {/* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
+                                for (var i = 1; i <= $(".itm-lst").length; i++) {
+                                    if ($(this).hasClass("ans" + i)) {
+                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-warning bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
                                     }
                                 }
-                            };
-
-                        });
-
-                        /* 정답 확인 div 상자 배경색 속성 없애기 */
+                            }
+                            ;
+                        });/* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light ");
-
-                        var qa = $(".itm")
-                        .length; /* 전체 문항 수 */
-                        var qr = $(".itm.text-success")
-                            .length; /* 맞춘 항목 수 */
-                        var pe = (qr / qa) *
-                        100; /* 정답 비율 */
-                        var tcl = "white"; /* 기본 문자색 */
-
-                        /* 분류 기준은 100%, 80%, 60%, 40% */
+                        var qa = $(".itm").length; /* 전체 문항 수 */
+                        var qr = $(".itm.text-success").length; /* 맞춘 항목 수 */
+                        var pe = (qr / qa) * 100; /* 정답 비율 */
+                        var tcl = "white"; /* 기본 문자색 *//* 분류 기준은 100%, 80%, 60%, 40% */
                         if (pe > 99) {
                             var st = "원어민이세요?";
                             var cl = "lime";
@@ -436,15 +381,9 @@
                             var st = "좀 더 분발해 주세요~";
                             var cl = "danger";
                         }
-
-                        $(this).addClass("btn-" + cl +
-                            " text-" + tcl);
-                        $(this).html("<h4>" + qa + "문제 중 " +
-                            qr + "개를 맞히셨네요!<br>" + st +
-                            "</h4>");
-
+                        $(this).addClass("btn-" + cl + " text-" + tcl);
+                        $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                         $(this).attr("id", "done");
-
                     }
                 });
 

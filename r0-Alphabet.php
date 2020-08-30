@@ -695,7 +695,6 @@
     </section>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/popper.min.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <script>
         /* 일단 HV 버튼과 일시정지 버튼 숨기기 */

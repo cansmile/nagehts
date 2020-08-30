@@ -207,8 +207,8 @@
 
 
 
-    <?php require "footer.php"; ?>
     <script src="./dev/js/popper.min.js"></script>
+    <?php require "footer.php"; ?>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>
@@ -270,30 +270,18 @@
                         $(".tran").show();
                         $(this).attr("id", "done");
                         $(".pop").each(function () {
-                            $(this).removeClass(
-                                "btn-info");
-
-                            if ($(this).hasClass("o") &&
-                                $(this).hasClass("an")
-                                ) {
-                                $(this).removeClass(
-                                    "btn-warning");
-                                $(this).addClass(
-                                    "btn-success");
-                            } else if ($(this).hasClass(
-                                    "o")) {
-                                $(this).addClass(
-                                    "btn-primary");
-                            } else if ($(this).hasClass(
-                                    "an")) {
-                                $(this).addClass(
-                                    "btn-warning");
+                            $(this).removeClass("btn-info");
+                            if ($(this).hasClass("o") && $(this).hasClass("an")) {
+                                $(this).removeClass("btn-warning");
+                                $(this).addClass("btn-success");
+                            } else if ($(this).hasClass("o")) {
+                                $(this).addClass("btn-primary");
+                            } else if ($(this).hasClass("an")) {
+                                $(this).addClass("btn-warning");
                             } else {
-                                $(this).addClass(
-                                    "btn-light");
-                            };
-
-
+                                $(this).addClass("btn-light");
+                            }
+                            ;
                         });
 
                         $(this).removeClass("btn-light ");

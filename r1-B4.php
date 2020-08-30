@@ -546,7 +546,6 @@
 
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/popper.min.js"></script>
     <script src="./dev/js/taptogrouph.js"></script>
     <!-- interact.min.js -->
     <script src="./dev/js/howler.core.js"></script>

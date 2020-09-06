@@ -11,8 +11,7 @@
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="1">
                         Und du, wer bist du?
-                        <span class="tran"><br>&nbsp;<small>그리고 넌, 네 이름은
-                                뭐야?</small></span>
+                        <span class="tran"><br>&nbsp;<small>그리고 넌, 너는 누구니?</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="2">
                         Wo wohnen Sie?
@@ -35,8 +34,7 @@
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
                         Wie geht es dir?
-                        <span class="tran"><br>&nbsp;<small>너는? 너는 잘
-                                지내?</small></span>
+                        <span class="tran"><br>&nbsp;<small>너는 어떻게 지내니?</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="7">
                         Sprechen Sie Deutsch?

@@ -23,7 +23,7 @@
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
                                             col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
-                                            id="qst-1"
+                                            id="qst-1">
                                         ledig.
                                     </div>
                                     <span class="tran">Monika Sager는 미혼이
@@ -41,7 +41,7 @@
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
                                             col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
-                                            id="qst-2"
+                                            id="qst-2">
                                         Wolf, sondern ein Hund.
                                     </div>
                                     <span class="tran">이것은 늑대가 아니라, 강아지야.</span>
@@ -58,7 +58,7 @@
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
                                             col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
-                                            id="qst-3"
+                                            id="qst-3">
                                         heute, sondern erst morgen.
                                     </div>
                                     <span class="tran">시험은 오늘이 아니라, 내일이래.
@@ -76,7 +76,7 @@
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
                                             col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
-                                            id="qst-4"
+                                            id="qst-4">
                                         in München.
                                     </div>
                                     <span class="tran">Manfred는 뮌헨에서 대학에 다니지

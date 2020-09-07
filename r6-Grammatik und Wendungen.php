@@ -1148,7 +1148,6 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/popper.min.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <script>
         /* 소리 출력 전역 변수와 함수 */

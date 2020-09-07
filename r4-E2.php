@@ -178,7 +178,6 @@
     <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/popper.min.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

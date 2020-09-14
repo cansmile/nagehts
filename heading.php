@@ -752,3 +752,9 @@
         <?php
     }
 ?>
+
+<!--스타일 먼저 보이기-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="./dev/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./dev/css/bootstrap-custom.css" rel="stylesheet" type="text/css">
+<link href="./dev/css/global.css" rel="stylesheet" type="text/css">

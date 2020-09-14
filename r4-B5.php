@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col my-2 py-2">
+                <div class="col my-2 py-2 lh250">
                     <span class="p-1 px-2 m-1 border border-dark rounded">die
                         Brille</span>
                     <span class="p-1 px-2 m-1 border border-dark rounded">die

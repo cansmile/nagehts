@@ -26,20 +26,20 @@
         </div>
         <div class="row">
             <div class="col my-2 py-2 lh250">
-                <span class="p-1 px-2 m-1 border border-dark rounded">machen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">besichtigen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">kennenlernen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">treiben</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">machen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">liegen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">fahren</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">ausgeben</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">sparen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">haben</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">unternehmen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">machen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">anssehen</span>
-                <span class="p-1 px-2 m-1 border border-dark rounded">speisen</span>
+                <span class="wd">machen</span>
+                <span class="wd">besichtigen</span>
+                <span class="wd">kennenlernen</span>
+                <span class="wd">treiben</span>
+                <span class="wd">machen</span>
+                <span class="wd">liegen</span>
+                <span class="wd">fahren</span>
+                <span class="wd">ausgeben</span>
+                <span class="wd">sparen</span>
+                <span class="wd">haben</span>
+                <span class="wd">unternehmen</span>
+                <span class="wd">machen</span>
+                <span class="wd">anssehen</span>
+                <span class="wd">speisen</span>
             </div>
         </div>
         <div class="row">

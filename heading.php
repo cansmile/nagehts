@@ -590,7 +590,7 @@
                         array(
                             'A1' => array( 'Wie heißen die Urlaubs und Reisetypen?', '휴가 및 여행 타입을 뭐라 하나요? 연결하세요.' ),
                             'A2' => array( 'Welche Urlaubs-und Reisetypen passen mit den folgenden Textausschnitten zusammen?', '어떤 휴가 및 여행의 종류가 아래의 텍스트와 어울리나요? 알맞게 연결하세요.' ),
-                            'A3' => array( 'Was möchten die Leute im Urlaub machen?', '사람들은 휴가중에 무엇을 하기를 원하나요? 무엇이 중요할까요?' ),
+                            'A3' => array( 'Was möchten die Leute im Urlaub machen?', '사람들은 휴가중에 무엇을 하기를 원하나요?' ),
                             'A4' => array( 'Hören Sie die Interviews und antworten Sie auf die Fragen.', '인터뷰를 듣고 질문에 답하세요.' ),
                         )
                     ),

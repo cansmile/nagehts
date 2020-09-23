@@ -184,7 +184,7 @@
     </section>
 
     <div id="marg"></div>
-    <div id="last"></div>
+    <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
     <script src="./dev/js/taptogrouph.js"></script>

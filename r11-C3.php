@@ -30,12 +30,12 @@
                             <div class="col-12 font-weight-bold">1)	Hotel Waldstein  Zimmer ab 55 EUR</div>
                             <div class="col-12 py-5">
                                 <i class="xi-wifi h4"></i>
-                                <i class="xi-park h4"></i>
+                                <span class="font-weight-bold h4">P</span>
                                 (kostenfrei)
                                 <i class="xi-subway h4"></i>
                                 <i class="xi-cafe h4"></i>
                                 (kostenfrei)
-                                <i class="xi-exchange h4"></i>
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-Road.png" alt="Autobahn" style="max-height: 24px; width: auto;">
                                 in der Nähe
                                 <i class="xi-train h4"></i></div>
                         </div>
@@ -48,9 +48,9 @@
                                 (8, 50 EUR)
                                 <i class="xi-subway h4"></i>
                                 <i class="xi-wifi h4"></i>
-                                <i class="xi-caps h5 border border-dark"></i>
+                                <span class="border border-dark rounded font-weight-bold h5 px-1">T</span>
                                 <i class="xi-fitness-center h4"></i>
-                                <i class="xi-park h4"></i>
+                                <span class="font-weight-bold h4">P</span>
                                 (extra Gebühren)
                             </div>
                         </div>

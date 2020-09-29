@@ -28,29 +28,43 @@
                     <div class="col-6">
                         <div class="row">
                             <div class="col-12 font-weight-bold">1)	Hotel Waldstein  Zimmer ab 55 EUR</div>
-                            <div class="col-12 py-5">
-                                <i class="xi-wifi h4"></i>
-                                <span class="font-weight-bold h4">P</span>
-                                (kostenfrei)
-                                <i class="xi-subway h4"></i>
-                                <i class="xi-cafe h4"></i>
-                                (kostenfrei)
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-Road.png" alt="Autobahn" style="max-height: 24px; width: auto;">
-                                in der Nähe
-                                <i class="xi-train h4"></i></div>
+                            <div class="col-12 py-5 d-flex align-items-center">
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-wifi.svg" class="mx-2" alt="wifi"
+                                     style="max-height: 18px; width: auto;">
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-parking.svg" class="mx-2" alt="parking"
+                                     style="max-height: 18px; width: auto;">
+                                <div class="px-2">(kostenfrei)</div>
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-bus.svg" class="mx-2" alt="bus"
+                                     style="max-height: 18px; width: auto;">
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-coffee.svg" class="mx-2" alt="cafe"
+                                     style="max-height: 18px; width: auto;">
+                                <div class="px-2">(kostenfrei)</div>
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-Road.svg" class="mx-2" alt="Road"
+                                     style="max-height: 18px; width: auto;">
+                                <div class="px-2">in der Nähe</div>
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-train.svg" class="mx-2" alt="train"
+                                     style="max-height: 18px; width: auto;">
+                            </div>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="row">
                             <div class="col-12 text-center font-weight-bold">2)	Hotel Goldstern  Zimmer ab 100 EUR </div>
-                            <div class="col-12 py-5">
-                                <i class="xi-cafe h4"></i>
-                                (8, 50 EUR)
-                                <i class="xi-subway h4"></i>
-                                <i class="xi-wifi h4"></i>
-                                <span class="border border-dark rounded font-weight-bold h5 px-1">T</span>
-                                <i class="xi-fitness-center h4"></i>
-                                <span class="font-weight-bold h4">P</span>
+                            <div class="col-12 py-5 d-flex align-items-center">
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-coffee.svg" class="mx-2" alt="cafe"
+                                     style="max-height: 18px; width: auto;">
+                                <div class="px-2">(8, 50 EUR)</div>
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-bus.svg" class="mx-2" alt="bus"
+                                     style="max-height: 18px; width: auto;">
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-wifi.svg" class="mx-2" alt="wifi"
+                                     style="max-height: 18px; width: auto;">
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-taxi.svg" class="mx-2" alt="Taxi"
+                                     style="max-height: 18px; width: auto;">
+                                <div class="px-2">
+                                    <i class="xi-fitness-center h4"></i>
+                                </div>
+                                <img src="./dev/images/Reihe 11/Reihe-11-C3-taxi.svg" class="mx-2" alt="Taxi"
+                                     style="max-height: 18px; width: auto;">
                                 (extra Gebühren)
                             </div>
                         </div>

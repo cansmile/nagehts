@@ -94,7 +94,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        Er trinkt
+                                        Er trinkt eine
                                         <input type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-4 col-xl-4 border-bottom-only
                                             rounded-0 ml-0 q t-6"
@@ -205,7 +205,7 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["eine Flasche Milch", "Hamburger", "Eis", "Pizza",
+        var an = ["Flasche Milch", "Hamburger", "Eis", "Pizza",
             "Dose Cola"];
         $(document).ready(function () {
            /* 소리 출력 전역 변수와 함수 */
@@ -250,6 +250,39 @@
                 },
                 onload: function () {
                     /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+                    /* 역동적 입력란 */
+                    function di(th) {
+                        var le = 0,
+                            mp = 8,
+                            l = th.val().length;
+                        if (l < 5) {
+                            var mp = 10;
+                        }
+                        if (l >= 20) {
+                            var mp = 6;
+                        }
+                        if (l < 20) {
+                            var mp = 8;
+                        } else {
+                            var mp = 8;
+                        }
+                        if (l < 5) {
+                            l = 5;
+                        }
+                        if (l < 7) {
+                            le = l * 2.2;
+                        } else if (l >= 20) {
+                            le = l * 1.45;
+                        } else if (l >= 5) {
+                            le = l * 1.55;
+                        }
+                        var w = (le + 1) * mp + "px";
+                        th.addClass("mx-1");
+                        th.css("min-width", w);
+                        th.css("max-width", w);
+                        th.css("width", w);
+                    };
+
                    /* 값 확인해보자, io값이 참이면 전체 검사 */
                     function rfchk(th, io) {
                         var q, qn, a, b, fl;
@@ -257,6 +290,7 @@
                         qn = (th.attr("id").substr(4)) - 1;
                         a = th.val();
                         a = a.replace(/ /gi, "");
+                        di(th);
                         if (!$.isArray(an[qn])) {
                            /* 1 인 경우 */
                             if (io) {

@@ -9,48 +9,48 @@
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="1">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so" id="1">
                         das Schwimmbad
                         <span class="tran"><br><small>수영장</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm so" id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so" id="2">
                         das Kino (Megabox)
                         <span class="tran"><br><small>영화관 (메가박스)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm so" id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so" id="3">
                         der Blumenladen (Schön)
                         <span class="tran"><br><small>꽃집 (쉔)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so" id="4">
                         die Bank (Sparkasse)
                         <span class="tran"><br><small>은행 (슈파카세)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark itm so" id="5">
+                    <button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so" id="5">
                         die Kirche (Frauenkirche)
                         <span class="tran"><br><small>교회 (프라우엔교회)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="6">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so" id="6">
                         die Bäckerei (Achso)
                         <span class="tran"><br><small>빵집 (악소)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark itm so" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so" id="7">
                         die Apotheke (Löwe)
                         <span class="tran"><br><small>약국 (뢰베)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm so" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so" id="8">
                         der Supermarkt (Kaiser)
                         <span class="tran"><br><small>슈퍼마켓 (카이저)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="9">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so" id="9">
                         die Post
                         <span class="tran"><br><small>우체국</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm so" id="10">
+                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so" id="10">
                         die Sprachschule (Translingua)
                         <span class="tran"><br><small>어학원
                                 (트란스링구아)</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm so" id="11">
+                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so" id="11">
                         der Park
                         <span class="tran"><br><small>공원</small></span>
                     </button>

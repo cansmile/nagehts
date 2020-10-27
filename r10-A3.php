@@ -320,7 +320,7 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["Zweischen", "Neben", "in", "Im", "in", "hinter", "zum", "n",
+        var an = ["Zwischen", "Neben", "in", "Im", "in", "hinter", "zum", "in",
             "An", "neben"
         ];
         $(document).ready(function () {

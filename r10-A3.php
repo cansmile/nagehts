@@ -395,6 +395,34 @@
                         }
                     });
 
+
+                    /* 역동적 입력란 */
+                    function di(th) {
+                        var le = 0,
+                            mp = 8,
+                            l = th.val().length;
+                        if (l < 5) {
+                            var mp = 10;
+                        } else if (l > 30) {
+                            var mp = 6;
+                        } else if (l < 30) {
+                            var mp = 8;
+                        } else {
+                            var mp = 8;
+                        }
+                        if (l >= 5) {
+                            le = l;
+                        } else {
+                            le = 5;
+                        }
+                        var w = (le + 1) * mp + "px";
+                        th.addClass("mx-1");
+                        th.css("min-width", w);
+                        th.css("max-width", w);
+                        th.css("width", w);
+                    };
+
+
                     /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
                     /* 값 확인해보자, io값이 참이면 전체 검사 */
                     function rfchk(th, io) {
@@ -403,6 +431,7 @@
                         qn = (th.attr("id").substr(4)) - 1;
                         a = th.val();
                         a = a.replace(/ /gi, "");
+                        di(th);
                         if (!$.isArray(an[qn])) {
                             /* 1 인 경우 */
                             if (io) {

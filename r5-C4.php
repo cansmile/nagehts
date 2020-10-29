@@ -72,9 +72,9 @@
             <div class="col-12 py-2 my-2 lh250">
                 <span class="wd">Eis</span>
                 <span class="wd">Pizza</span>
-                <span class="wd">FlascheMilch</span>
+                <span class="wd">Flasche Milch</span>
                 <span class="wd">Hamburger</span>
-                <span class="wd">DoseCola</span>
+                <span class="wd">Dose Cola</span>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <table class="table table-borderless">
@@ -272,9 +272,7 @@
 
                 /* 역동적 입력란 */
                 function di(th) {
-                    var le = 0,
-                        mp = 8,
-                        l = th.val().length;
+                    var le = 0, mp = 8, l = th.val().length;
                     if (l < 5) {
                         var mp = 10;
                     }

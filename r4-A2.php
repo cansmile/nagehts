@@ -182,16 +182,16 @@
                 <table class="table table-borderless">
                     <tbody>
                     <tr>
-                        <td class="border border-gray-light border-top-only align-middle" rowspan="3">
+                        <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
                             <div id="ant-1"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon1"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-1">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only">
+                        <td class="border border-gray-light border-top-only lh350">
                             Ich bin Anna und wohne in Leipzig.
                             <span class="tran"><small>나는 안나이고 라이프찌히에
                                             삽니다.</small></span>
@@ -222,16 +222,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only align-middle" rowspan="2">
+                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="2">
                             <div id="ant-2"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon2"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-2">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only">
+                        <td class="border border-gray-light border-top-only lh350">
                             <div id="ant-9"></div>
                             <div class="input-group">
                                 Meine Eltern wohnen mit ihrem Hund in
@@ -258,16 +258,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only align-middle" rowspan="2">
+                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="2">
                             <div id="ant-3"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon3"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-3">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only">
+                        <td class="border border-gray-light border-top-only lh350">
                             <div id="ant-10"></div>
                             <div class="input-group">
                                 Hi! Ich bin Anna und komme aus Dresden.
@@ -293,16 +293,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only align-middle" rowspan="4">
+                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="4">
                             <div id="ant-4"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon4"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-4">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only">
+                        <td class="border border-gray-light border-top-only lh350">
                             <div id="ant-11"></div>
                             <div class="input-group">
                                 Ich reise gern. Ich möchte gern in
@@ -347,16 +347,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only align-middle" rowspan="4">
+                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="4">
                             <div id="ant-5"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon5"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-5">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only">
+                        <td class="border border-gray-light border-top-only lh350">
                             <div id="ant-12"></div>
                             <div class="input-group">
                                 Ich bin Bauer von Beruf und liebe die
@@ -404,16 +404,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only align-middle" rowspan="3">
+                        <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
                             <div id="ant-6"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon6"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-6">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only">
+                        <td class="border border-gray-light border-top-only lh350">
                             <div id="ant-13"></div>
                             <div class="input-group">
                                 Ich lebe gern umweltfreundlich.
@@ -450,16 +450,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only align-middle" rowspan="3">
+                        <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
                             <div id="ant-7"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon7"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-7">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only">
+                        <td class="border border-gray-light border-top-only lh350">
                             Wir sind verheiratet und haben noch keine
                             Kinder.
                             <span class="tran"><small>우리는 결혼하였고 아직 아이가
@@ -485,14 +485,13 @@
                         <td>
                             <div id="ant-15"></div>
                             <div class="input-group">
-                                Ein
-                                border-
+                                Ein <span
+                                    class="border border-bottom-only border-light bg-success font-weight-bold mx-2 p-2 px-3 text-white t-6">Reihenhaus</span>
                                 ist meistens ein Familienhaus, in einer
                                 Reihe von gleichen, aneinander gebauten
                                 Häusern.
                             </div>
-                            <span class="tran"><small>연립주택이란 대부분 동일한 주택이
-                                            연 이어져 지어진 주택입니다.</small></span>
+                            <span class="tran"><small>연립주택이란 대부분 동일한 주택이연 이어져 지어진 주택입니다.</small></span>
                         </td>
                     </tr>
                     </tbody>
@@ -576,6 +575,41 @@
             onload: function () {
                 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 
+                /* 역동적 입력란 */
+                function di(th) {
+                    var le = 0,
+                        mp = 8,
+                        l = th.val().length;
+                    if (l < 5) {
+                        var mp = 10;
+                    }
+                    if (l >= 20) {
+                        var mp = 6;
+                    }
+                    if (l < 20) {
+                        var mp = 8;
+                    } else {
+                        var mp = 8;
+                    }
+                    if (l < 5) {
+                        l = 5;
+                    }
+                    if (l < 7) {
+                        le = l * 2.2;
+                    } else if (l >= 20) {
+                        le = l * 1.45;
+                    } else if (l >= 5) {
+                        le = l * 1.55;
+                    }
+                    var w = (le + 1) * mp + "px";
+                    if(!th.hasClass("nodi")) {
+                        th.addClass("mx-1");
+                        th.css("min-width", w);
+                        th.css("max-width", w);
+                        th.css("width", w);
+                    }
+                };
+
                 /* 값 확인해보자, io값이 참이면 전체 검사 */
                 function rfchk(th, io) {
                     var q, qn, a, b, fl;
@@ -583,6 +617,7 @@
                     qn = (th.attr("id").substr(4)) - 1;
                     a = th.val();
                     a = a.replace(/ /gi, "");
+                    di(th);
                     if (!$.isArray(an[qn])) {
                         /* 1 인 경우 */
                         if (io) {
@@ -769,7 +804,7 @@
                             var cl = "danger";
                         }
                         $(this).addClass("btn-" + cl + " text-" + tcl);
-                        $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                        $(this).html("<h4>" + (qa + 1) + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                         $(this).prop("disabled", true);
                         $(".tran").show();
                         $(this).attr("id", "done");

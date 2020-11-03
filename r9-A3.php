@@ -33,49 +33,49 @@
             <div class="row">
                 <div class="col-6 my-2">
                     <div class="input-group">
-                        Ein <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        Ein <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-1">
-                        hat 12<input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        hat 12<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-2">
                     </div>
                 </div>
                 <div class="col-6 my-2">
                     <div class="input-group">
-                        Ein <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        Ein <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-3">
-                        hat 4<input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        hat 4<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-4">
                     </div>
                 </div>
                 <div class="col-6 my-2">
                     <div class="input-group">
-                        Eine <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        Eine <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-5">
-                        hat 7<input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        hat 7<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-6">
                     </div>
                 </div>
                 <div class="col-6 my-2">
                     <div class="input-group">
-                        Ein <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        Ein <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-7">
-                        hat 24<input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        hat 24<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-8">
                     </div>
                 </div>
                 <div class="col-6 my-2">
                     <div class="input-group">
-                        Eine <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        Eine <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-9">
-                        hat 60<input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        hat 60<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-10">
                     </div>
                 </div>
                 <div class="col-6 my-2">
                     <div class="input-group">
-                        Eine <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        Eine <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-11">
-                        hat 60<input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
+                        hat 60<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark t-6" aria-label="." id="qst-12">
                     </div>
                 </div>

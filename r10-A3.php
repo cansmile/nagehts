@@ -73,7 +73,7 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-1">dem Kino
@@ -99,11 +99,11 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-2">dem
-                                        Tennisplatz im Park. Das ist <input type="text" class="form-control q rounded-0
+                                        Tennisplatz im Park. Das ist <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-3">der
@@ -143,7 +143,7 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-4">Hotel
@@ -168,11 +168,11 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        Das ist<input type="text" class="form-control q rounded-0 border-bottom-only
+                                        Das ist<input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only
                                         mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-5">der
-                                        Mannesstraße,<input type="text" class="form-control q rounded-0
+                                        Mannesstraße,<input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-6">der
@@ -200,7 +200,7 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        Entschuldigung, wie komme ich denn<input type="text" class="form-control q
+                                        Entschuldigung, wie komme ich denn<input autocomplete="off" type="text" class="form-control q
                                         rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-7">Blumenladen Schön?
@@ -215,11 +215,11 @@
                                 </th>
                                 <td class="lh250">
                                     <div class="input-group">
-                                        Der ist<input type="text" class="form-control q rounded-0 border-bottom-only
+                                        Der ist<input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only
                                         mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-8">der Berliner
-                                        Straße links.<input type="text" class="form-control q rounded-0
+                                        Straße links.<input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg text-capitalize t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-9">der Ecke
@@ -272,7 +272,7 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Ja, gehen Sie hier die Haupstraße immer
-                                        geradeaus, dann links,<input type="text" class="form-control q rounded-0
+                                        geradeaus, dann links,<input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px;" aria-label="." id="qst-10">dem

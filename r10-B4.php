@@ -34,10 +34,10 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Ich heiße Nora und bin 9 Jahre alt. Ich
-                                        gehe <input type="text" class="form-control q rounded-0
+                                        gehe <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
-                                            aria-label="." id="qst-1">Fuß<input type="text" class="form-control q rounded-0
+                                            aria-label="." id="qst-1">Fuß<input autocomplete="off" type="text" class="form-control q rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                             col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-2">die
@@ -61,12 +61,12 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Mein Vater Hans Holm ist Pfarrer von
-                                        Beruf. Er fährt <input type="text" class="form-control q rounded-0
+                                        Beruf. Er fährt <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-3"> dem
                                         Fahrrad
-                                        <input type="text" class="form-control q rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-4">
@@ -90,22 +90,22 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Meine Mutter Silvia Holm will zuerst
-                                        meinen Bruder Alex <input type="text" class="form-control q rounded-0
+                                        meinen Bruder Alex <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-5"> Fuß
-                                        <input type="text" class="form-control q rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-6"> den
                                         Kindergarten bringen und dann einkaufen.
                                         Sie fährt
-                                        <input type="text" class="form-control q rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-7"> dem
                                         Bus
-                                        <input type="text" class="form-control q rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-8">
@@ -130,11 +130,11 @@
                                     <div class="input-group">
                                         Mein Onkel Georg ist Bankangestellter
                                         und arbeitet bei der Bank. Er fährt
-                                        <input type="text" class="form-control q rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-9"> dem
-                                        Motorrad <input type="text" class="form-control q rounded-0
+                                        Motorrad <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-10">Bank.
@@ -157,11 +157,11 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Meine Tante Sabine ist Lehrerin. Sie
-                                        fährt <input type="text" class="form-control q rounded-0
+                                        fährt <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-11"> der
-                                        U-Bahn <input type="text" class="form-control q rounded-0
+                                        U-Bahn <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-12">Schule.
@@ -183,7 +183,7 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Mein Onkel Franz Scholl ist Beamter. Er
-                                        fliegt oft wegen der Dienstreise <input type="text" class="form-control q
+                                        fliegt oft wegen der Dienstreise <input autocomplete="off" type="text" class="form-control q
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-13"> dem
@@ -207,14 +207,14 @@
                                 <td class="lh250">
                                     <div class="input-group">
                                         Meine Großeltern Robert und Maria Holm
-                                        wollen <input type="text" class="form-control q rounded-0
+                                        wollen <input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-14">
                                         Spanien
                                         in den Urlaub gehen. Sie wollen da eine
                                         Kreuzfahrt machen und fahren
-                                        deshalb<input type="text" class="form-control q rounded-0
+                                        deshalb<input autocomplete="off" type="text" class="form-control q rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12
                                         col-md-6 col-md col-lg t-6" style="min-width: 150px; max-width: 200px;"
                                             aria-label="." id="qst-15"> dem

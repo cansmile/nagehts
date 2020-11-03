@@ -144,18 +144,18 @@
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option1"
-                                                    autocomplete="off">mein
+                                                    >mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option2"
-                                                    autocomplete="off">meine
+                                                    >meine
                                             </div>
                                         </div><span class="ans"> </span>
                                     </span> Großeltern, <span class="sen"><span
@@ -167,18 +167,18 @@
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option1"
-                                                    autocomplete="off">mein
+                                                    >mein
                                             </div>
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option2"
-                                                    autocomplete="off">meine
+                                                    >meine
                                             </div>
                                         </div><span class="ans"> </span>
                                     </span> Opa und <span class="sen"><span
@@ -190,18 +190,18 @@
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option1"
-                                                    autocomplete="off">mein
+                                                    >mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option2"
-                                                    autocomplete="off">meine
+                                                    >meine
                                             </div>
                                         </div><span class="ans"> </span>
                                     </span> Oma.<span class="tran"><br><small>이
@@ -229,18 +229,18 @@
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option1"
-                                                    autocomplete="off">mein
+                                                    >mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option2"
-                                                    autocomplete="off">meine
+                                                    >meine
                                             </div>
                                         </div><span class="ans"> </span>
                                     </span> Oma ist Lehrerin.<span

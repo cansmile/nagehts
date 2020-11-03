@@ -34,7 +34,7 @@
                                 <td>
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Mina, bitte hilf&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-1">
@@ -49,7 +49,7 @@
                                 <td>
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Herr Kim, ich gratuliere&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-2">
@@ -64,7 +64,7 @@
                                 <td>
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Was fehlt&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-3">
@@ -79,7 +79,7 @@
                                 <td>
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Hallo Kinder, wie geht es&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-4">
@@ -95,7 +95,7 @@
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Tim hilft mir bei den Hausaufgaben. Ich
                                         danke&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-5">

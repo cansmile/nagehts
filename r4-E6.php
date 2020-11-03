@@ -30,13 +30,13 @@
                                     <div id="ant-1"></div>
                                     <div id="ant-2"></div>
                                     <div class="input-group">Das sind&nbsp;
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control border-bottom-only rounded-0 q col-2 t-6"
                                             id="qst-1">
                                         .&nbsp;
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control border-bottom-only rounded-0 q col-3 t-6"
@@ -59,13 +59,13 @@
                                     <div id="ant-3"></div>
                                     <div id="ant-4"></div>
                                     <div class="input-group">Das ist&nbsp;
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control border-bottom-only rounded-0 q col-3 t-6"
                                             id="qst-3">
                                         .&nbsp;Die Lampe ist praktisch.&nbsp;
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control border-bottom-only rounded-0 q col-2 t-6"
@@ -89,13 +89,13 @@
                                     <div id="ant-6"></div>
                                     <div class="input-group">Das ist ein
                                         Lineal.&nbsp;
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control border-bottom-only rounded-0 q col-3 t-6"
                                             id="qst-5">
                                         &nbsp;ist lang.&nbsp;
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control border-bottom-only rounded-0 q col-2 t-6"

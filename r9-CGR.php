@@ -31,7 +31,7 @@
                                 <td class="px-2">
                                     <div id="ant-1"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-1"> </span></div>
@@ -39,7 +39,7 @@
                                 <td class="px-2">
                                     <div id="ant-2"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-2"> </span></div>
@@ -47,7 +47,7 @@
                                 <td class="px-2">
                                     <div id="ant-3"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-3"> </span></div>
@@ -57,7 +57,7 @@
                                 <td class="px-2">
                                     <div id="ant-4"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-4"> </span></div>
@@ -65,7 +65,7 @@
                                 <td class="px-2">
                                     <div id="ant-5"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-5"> </span></div>
@@ -73,7 +73,7 @@
                                 <td class="px-2">
                                     <div id="ant-6"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-6"> </span></div>
@@ -83,7 +83,7 @@
                                 <td class="px-2">
                                     <div id="ant-7"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-capitalize" id="qst-7"> </span></div>
@@ -91,7 +91,7 @@
                                 <td class="px-2">
                                     <div id="ant-8"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-capitalize" id="qst-8"> </span></div>
@@ -99,7 +99,7 @@
                                 <td class="px-2">
                                     <div id="ant-9"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-capitalize" id="qst-9"> </span></div>
@@ -109,7 +109,7 @@
                                 <td class="px-2">
                                     <div id="ant-10"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-10"> </span></div>
@@ -117,7 +117,7 @@
                                 <td class="px-2">
                                     <div id="ant-11"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-11"> </span></div>
@@ -125,7 +125,7 @@
                                 <td class="px-2">
                                     <div id="ant-12"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-12"> </span></div>
@@ -135,7 +135,7 @@
                                 <td class="px-2">
                                     <div id="ant-13"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-13"> </span></div>
@@ -143,7 +143,7 @@
                                 <td class="px-2">
                                     <div id="ant-14"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-14"> </span></div>
@@ -151,7 +151,7 @@
                                 <td class="px-2">
                                     <div id="ant-15"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-15"> </span></div>
@@ -161,7 +161,7 @@
                                 <td class="px-2">
                                     <div id="ant-16"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-16"> </span></div>
@@ -169,7 +169,7 @@
                                 <td class="px-2">
                                     <div id="ant-17"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-17"> </span></div>
@@ -177,7 +177,7 @@
                                 <td class="px-2">
                                     <div id="ant-18"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-18"> </span></div>
@@ -187,7 +187,7 @@
                                 <td class="px-2">
                                     <div id="ant-19"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-19"> </span></div>
@@ -195,7 +195,7 @@
                                 <td class="px-2">
                                     <div id="ant-20"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-20"> </span></div>
@@ -203,7 +203,7 @@
                                 <td class="px-2">
                                     <div id="ant-21"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-21"> </span></div>
@@ -213,7 +213,7 @@
                                 <td class="px-2">
                                     <div id="ant-22"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-22"> </span></div>
@@ -221,7 +221,7 @@
                                 <td class="px-2">
                                     <div id="ant-23"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-23"> </span></div>
@@ -229,7 +229,7 @@
                                 <td class="px-2">
                                     <div id="ant-24"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-24"> </span></div>
@@ -239,7 +239,7 @@
                                 <td class="px-2">
                                     <div id="ant-25"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-25"> </span></div>
@@ -247,7 +247,7 @@
                                 <td class="px-2">
                                     <div id="ant-26"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-26"> </span></div>
@@ -255,7 +255,7 @@
                                 <td class="px-2">
                                     <div id="ant-27"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-27"> </span></div>
@@ -281,7 +281,7 @@
                                 <td class="px-2">
                                     <div id="ant-28"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-28"> </span></div>
@@ -289,7 +289,7 @@
                                 <td class="px-2">
                                     <div id="ant-29"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-29"> </span></div>
@@ -297,7 +297,7 @@
                                 <td class="px-2">
                                     <div id="ant-30"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-30"> </span></div>
@@ -305,7 +305,7 @@
                                 <td class="px-2">
                                     <div id="ant-31"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-31"> </span></div>
@@ -316,7 +316,7 @@
                                 <td class="px-2">
                                     <div id="ant-32"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-32"> </span></div>
@@ -324,7 +324,7 @@
                                 <td class="px-2">
                                     <div id="ant-33"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-33"> </span></div>
@@ -332,7 +332,7 @@
                                 <td class="px-2">
                                     <div id="ant-34"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-34"> </span></div>
@@ -340,7 +340,7 @@
                                 <td class="px-2">
                                     <div id="ant-35"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-35"> </span></div>
@@ -351,7 +351,7 @@
                                 <td class="px-2">
                                     <div id="ant-36"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-36"> </span></div>
@@ -359,7 +359,7 @@
                                 <td class="px-2">
                                     <div id="ant-37"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-37"> </span></div>
@@ -367,7 +367,7 @@
                                 <td class="px-2">
                                     <div id="ant-38"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-38"> </span></div>
@@ -375,7 +375,7 @@
                                 <td class="px-2">
                                     <div id="ant-39"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-39"> </span></div>
@@ -399,7 +399,7 @@
                                 <td class="px-2">
                                     <div id="ant-40"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-40"> </span></div>
@@ -407,7 +407,7 @@
                                 <td class="px-2">
                                     <div id="ant-41"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-41"> </span></div>
@@ -415,7 +415,7 @@
                                 <td class="px-2">
                                     <div id="ant-42"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-42"> </span></div>
@@ -423,7 +423,7 @@
                                 <td class="px-2">
                                     <div id="ant-43"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-43"> </span></div>
@@ -434,7 +434,7 @@
                                 <td class="px-2">
                                     <div id="ant-44"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-44"> </span></div>
@@ -442,7 +442,7 @@
                                 <td class="px-2">
                                     <div id="ant-45"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-45"> </span></div>
@@ -450,7 +450,7 @@
                                 <td class="px-2">
                                     <div id="ant-46"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-46"> </span></div>
@@ -458,7 +458,7 @@
                                 <td class="px-2">
                                     <div id="ant-47"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-47"> </span></div>
@@ -469,7 +469,7 @@
                                 <td class="px-2">
                                     <div id="ant-48"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-48"> </span></div>
@@ -477,7 +477,7 @@
                                 <td class="px-2">
                                     <div id="ant-49"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-49"> </span></div>
@@ -485,7 +485,7 @@
                                 <td class="px-2">
                                     <div id="ant-50"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-50"> </span></div>
@@ -493,7 +493,7 @@
                                 <td class="px-2">
                                     <div id="ant-51"></div>
                                     <div class="input-group"><span class="sen">
-                                            <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                            <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
                                                 class="text-center form-control q border-bottom-only rounded-0
                                                 text-lowercase" id="qst-51"> </span></div>

@@ -19,20 +19,20 @@
                             data-toggle="buttons" id="qst-1">
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option1" autocomplete="off">Wenn man sich
+                                <input autocomplete="off" type="radio" name="options" id="option1" >Wenn man sich
                                 aufgeregt
                                 hat.<span class="tran">&nbsp;<small>화가 났을
                                         때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option2" autocomplete="off">Wenn man jemandem
+                                <input autocomplete="off" type="radio" name="options" id="option2" >Wenn man jemandem
                                 gratuliert.<span class="tran">&nbsp;<small>누군가에게
                                         축하할 때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option3" autocomplete="off">Wenn jemand traurig
+                                <input autocomplete="off" type="radio" name="options" id="option3" >Wenn jemand traurig
                                 ist.<span class="tran">&nbsp;<small>누군가 슬플
                                         때.</small><br></span>
                             </div>
@@ -49,19 +49,19 @@
                             data-toggle="buttons" id="qst-2">
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option4" autocomplete="off">Wenn man traurig
+                                <input autocomplete="off" type="radio" name="options" id="option4" >Wenn man traurig
                                 ist.<span class="tran">&nbsp;<small>슬플
                                         때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option5" autocomplete="off">Wenn man sich
+                                <input autocomplete="off" type="radio" name="options" id="option5" >Wenn man sich
                                 entschuldigen möchte.<span class="tran">&nbsp;<small>양해를 구할
                                         때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option6" autocomplete="off">Wenn jemand ein
+                                <input autocomplete="off" type="radio" name="options" id="option6" >Wenn jemand ein
                                 Examen
                                 macht.<span class="tran">&nbsp;<small>누군가 시험을 볼
                                         때.</small><br></span>
@@ -79,19 +79,19 @@
                             data-toggle="buttons" id="qst-3">
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option7" autocomplete="off">Wenn man sich
+                                <input autocomplete="off" type="radio" name="options" id="option7" >Wenn man sich
                                 verabschiedet.<span class="tran">&nbsp;<small>작별을 고할
                                         때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option8" autocomplete="off">Wenn jemand wütend
+                                <input autocomplete="off" type="radio" name="options" id="option8" >Wenn jemand wütend
                                 ist.<span class="tran">&nbsp;<small>누군가 화가 났을
                                         때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option9" autocomplete="off">Wenn jemand krank
+                                <input autocomplete="off" type="radio" name="options" id="option9" >Wenn jemand krank
                                 ist.<span class="tran">&nbsp;<small>누군가 아플
                                         때.</small><br></span>
                             </div>
@@ -108,19 +108,19 @@
                             data-toggle="buttons" id="qst-4">
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option10" autocomplete="off">Wenn man ein Examen
+                                <input autocomplete="off" type="radio" name="options" id="option10" >Wenn man ein Examen
                                 hat.<span class="tran">&nbsp;<small>누군가 시험을 볼
                                         때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option11" autocomplete="off">Wenn jemand
+                                <input autocomplete="off" type="radio" name="options" id="option11" >Wenn jemand
                                 verreist.<span class="tran">&nbsp;<small>누군가 여행을
                                         떠날 때.</small><br></span>
                             </div>
                             <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option12" autocomplete="off">Wenn jemand krank
+                                <input autocomplete="off" type="radio" name="options" id="option12" >Wenn jemand krank
                                 ist.<span class="tran">&nbsp;<small>누군가 아플
                                         때.</small><br></span>
                             </div>

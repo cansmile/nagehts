@@ -42,7 +42,7 @@
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">Zwinger mit der
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-1">
                                     </div>
@@ -69,7 +69,7 @@
                                 <td style="line-height: 250%;">
                                     <div class="input-group">VW-Gläserne
                                         Manufaktur mit der
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-2">
                                     </div>
@@ -95,7 +95,7 @@
                                 </th>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">Frauenkirche
-                                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-3">
                                     </div>

@@ -45,7 +45,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Herr
                                             Ober,
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
@@ -75,7 +75,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Wir
                                             möchten
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon3"
@@ -97,7 +97,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Ja
                                             natürlich!
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon4"
@@ -118,7 +118,7 @@
                                     <div id="ant-4"></div>
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Ich nehme
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon5"
@@ -140,7 +140,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Und was
                                             möchten Sie
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon6"
@@ -160,7 +160,7 @@
                                 <td>
                                     <div id="ant-6"></div>
                                     <div class="input-group">
-                                        <div class="sen d-inline-flex"><input
+                                        <div class="sen d-inline-flex"><input autocomplete="off"
                                                 type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
@@ -182,7 +182,7 @@
                                     <div id="ant-7"></div>
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Und Sie?
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon8"
@@ -204,7 +204,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">
                                             Ich esse
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -222,7 +222,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">und
                                             trinke
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -258,7 +258,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Wir
                                             möchten bitte
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon10"
@@ -280,7 +280,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Bitte
                                             schön.
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon11"
@@ -300,7 +300,7 @@
                                 <td>
                                     <div id="ant-12"></div>
                                     <div class="input-group">
-                                        <div class="sen d-inline-flex"><input
+                                        <div class="sen d-inline-flex"><input autocomplete="off"
                                                 type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
@@ -322,7 +322,7 @@
                                     <div id="ant-13"></div>
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon13"
@@ -343,7 +343,7 @@
                                     <div id="ant-14"></div>
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon14"
@@ -362,7 +362,7 @@
                                     <div id="ant-15"></div>
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon14"
@@ -382,7 +382,7 @@
                                 <td>
                                     <div id="ant-16"></div>
                                     <div class="input-group">
-                                        <div class="sen d-inline-flex"><input
+                                        <div class="sen d-inline-flex"><input autocomplete="off"
                                                 type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
@@ -426,7 +426,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Und ich
                                             bezahle
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon18"
@@ -434,7 +434,7 @@
                                                 rounded-0 ml-1 t-6"
                                                 id="qst-17">
                                             und</div>
-                                        <div class="sen d-inline-flex"><input
+                                        <div class="sen d-inline-flex"><input autocomplete="off"
                                                 type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
@@ -455,7 +455,7 @@
                                 <td>
                                     <div id="ant-19"></div>
                                     <div class="input-group">
-                                        <div class="sen d-inline-flex"><input
+                                        <div class="sen d-inline-flex"><input autocomplete="off"
                                                 type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
@@ -475,7 +475,7 @@
                                     <div id="ant-20"></div>
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon19"
@@ -493,7 +493,7 @@
                                 <td>
                                     <div id="ant-21"></div>
                                     <div class="input-group">
-                                        <div class="sen d-inline-flex"><input
+                                        <div class="sen d-inline-flex"><input autocomplete="off"
                                                 type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
@@ -516,7 +516,7 @@
                                     <div class="input-group">
                                         <div class="sen d-inline-flex">Hier,
                                             bitte. 20 €.
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon20"
@@ -536,7 +536,7 @@
                                 <td>
                                     <div id="ant-23"></div>
                                     <div class="input-group">
-                                        <div class="sen d-inline-flex"><input
+                                        <div class="sen d-inline-flex"><input autocomplete="off"
                                                 type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"

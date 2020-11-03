@@ -47,10 +47,10 @@
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
                                         Er
-                                        <input type="text" class="form-control q border-bottom-only rounded ml-1 t-6"
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only rounded ml-1 t-6"
                                             placeholder="Antwort" aria-label="Antwort" id="qst-1">
                                         gern
-                                        <input type="text" class="form-control q border-bottom-only rounded ml-1 t-6"
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only rounded ml-1 t-6"
                                             placeholder="Antwort" aria-label="Antwort" id="qst-2">
                                         .
                                     </div>
@@ -63,7 +63,7 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
                                         Er
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
                                             placeholder="Antwort" aria-label="Antwort" id="qst-3">
                                         gern Fußball.
@@ -77,7 +77,7 @@
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
                                         Er
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
                                             placeholder="Antwort" aria-label="Antwort" id="qst-4">
                                         gern.
@@ -127,7 +127,7 @@
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
                                         Er
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
                                             placeholder="Antwort" aria-label="Antwort" id="qst-5">
                                         nicht gern Bücher.
@@ -141,7 +141,7 @@
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
                                         Er
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
                                             placeholder="Antwort" aria-label="Antwort" id="qst-6">
                                         nicht gern Freunde.
@@ -155,7 +155,7 @@
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
                                         Er
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
                                             placeholder="Antwort" aria-label="Antwort" id="qst-7">
                                         nicht gern Auto.

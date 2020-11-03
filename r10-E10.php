@@ -31,11 +31,11 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        1. Musst du ihn noch <input type="text" class="form-control q rounded-0 border-bottom-only mx-1
+                        1. Musst du ihn noch <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1
                         px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 150px;
                         min-width: 100px;"
                             aria-label="." id="qst-1">? - Nein, ich habe schon
-                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." id="qst-2">.
                         <span class="tran">&nbsp;<small>그에게 전화해야 하니? – 아니, 이미
@@ -44,11 +44,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        2. Warum gehst du nicht mit uns ins Kino? - Früher <input type="text" class="form-control q
+                        2. Warum gehst du nicht mit uns ins Kino? - Früher <input autocomplete="off" type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
                         col-lg t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." id="qst-3">du doch immer mit uns ins
-                        Kino <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        Kino <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-4">.
                         <span class="tran">&nbsp;<small>왜 우리와 함께 영화관에 안가니? 전엔 늘
@@ -57,10 +57,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        3. Suchst du immer noch die Tasche? - Nein, ich <input type="text" class="form-control q
+                        3. Suchst du immer noch die Tasche? - Nein, ich <input autocomplete="off" type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
                         col-lg t-6" style="max-width: 150px; min-width: 100px;"
-                            aria-label="." id="qst-5">sie schon <input type="text" class="form-control q rounded-0
+                            aria-label="." id="qst-5">sie schon <input autocomplete="off" type="text" class="form-control q rounded-0
                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg
                             t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." placeholder="finden" id="qst-6">.
@@ -70,10 +70,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        4. Wann kommst du denn an? - Ich <input type="text" class="form-control q rounded-0
+                        4. Wann kommst du denn an? - Ich <input autocomplete="off" type="text" class="form-control q rounded-0
                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                         style="max-width: 150px; min-width: 100px;"
-                            aria-label="." id="qst-7">schon gestern <input type="text" class="form-control q rounded-0
+                            aria-label="." id="qst-7">schon gestern <input autocomplete="off" type="text" class="form-control q rounded-0
                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg
                             t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." id="qst-8">.
@@ -83,10 +83,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        5. Will er sich nicht anziehen? - Er <input type="text" class="form-control q rounded-0
+                        5. Will er sich nicht anziehen? - Er <input autocomplete="off" type="text" class="form-control q rounded-0
                         border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                         style="max-width: 150px; min-width: 100px;"
-                            aria-label="." id="qst-9">sich schon <input type="text" class="form-control q rounded-0
+                            aria-label="." id="qst-9">sich schon <input autocomplete="off" type="text" class="form-control q rounded-0
                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg
                             t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." id="qst-10">.
@@ -96,10 +96,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        6. Warum funktioniert der Apparat nicht? Gestern <input type="text" class="form-control q
+                        6. Warum funktioniert der Apparat nicht? Gestern <input autocomplete="off" type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
                         col-lg t-6" style="max-width: 150px; min-width: 100px;"
-                            aria-label="." id="qst-11">er noch gut <input type="text" class="form-control q rounded-0
+                            aria-label="." id="qst-11">er noch gut <input autocomplete="off" type="text" class="form-control q rounded-0
                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg
                             t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." id="qst-12">.
@@ -109,10 +109,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        7. Er ist ein interessanter Gesprächspartner. Ich <input type="text" class="form-control q
+                        7. Er ist ein interessanter Gesprächspartner. Ich <input autocomplete="off" type="text" class="form-control q
                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md
                         col-lg t-6" style="max-width: 150px; min-width: 100px;"
-                            aria-label="." id="qst-13">lange mit ihm <input type="text" class="form-control q rounded-0
+                            aria-label="." id="qst-13">lange mit ihm <input autocomplete="off" type="text" class="form-control q rounded-0
                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg
                             t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." id="qst-14">.
@@ -122,12 +122,12 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        8. Ich <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        8. Ich <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-15">gestern Abend eine Pizza
-                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 150px; min-width: 100px;"
-                            aria-label="." id="qst-16">und eine Cola <input type="text" class="form-control q rounded-0
+                            aria-label="." id="qst-16">und eine Cola <input autocomplete="off" type="text" class="form-control q rounded-0
                             border-bottom-only mx-1 px-2 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg
                             t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." id="qst-17">.
@@ -137,10 +137,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 border border-dark rounded m-4 p-3 lh350">
                     <div class="input-group">
-                        9. Wo <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        9. Wo <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-18">du denn so lange
-                        <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 150px; min-width: 100px;"
                             aria-label="." placeholder="bleiben" id="qst-19">? - Ich war im Büro.
                         <span class="tran">&nbsp;<small>대체 어디서 그렇게 오래 있었니? -

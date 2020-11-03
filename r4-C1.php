@@ -47,9 +47,9 @@
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답!">
-                                    <input type="radio" name="options"
+                                    <input autocomplete="off" type="radio" name="options"
                                            id="option1"
-                                           autocomplete="off"><label
+                                           ><label
                                         for="option1"><img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-2.png"
                                             alt="Auto"
@@ -60,9 +60,9 @@
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input type="radio" name="options"
+                                    <input autocomplete="off" type="radio" name="options"
                                            id="option2"
-                                           autocomplete="off"><label
+                                           ><label
                                         for="option2"><img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-1.png"
                                             alt="Fahrrad"
@@ -92,9 +92,9 @@
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input type="radio" name="options"
+                                    <input autocomplete="off" type="radio" name="options"
                                            id="option3"
-                                           autocomplete="off"><label
+                                           ><label
                                         for="option3"><img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-3.png"
                                             alt="Katze"
@@ -105,9 +105,9 @@
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답!">
-                                    <input type="radio" name="options"
+                                    <input autocomplete="off" type="radio" name="options"
                                            id="option4"
-                                           autocomplete="off"><label
+                                           ><label
                                         for="option4"><img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-4.png"
                                             alt="Hund"
@@ -136,9 +136,9 @@
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답!">
-                                    <input type="radio" name="options"
+                                    <input autocomplete="off" type="radio" name="options"
                                            id="option5"
-                                           autocomplete="off"><label
+                                           ><label
                                         for="option5"><img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-6.png"
                                             alt="Frau"
@@ -149,9 +149,9 @@
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input type="radio" name="options"
+                                    <input autocomplete="off" type="radio" name="options"
                                            id="option6"
-                                           autocomplete="off"><label
+                                           ><label
                                         for="option6"><img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-5.png"
                                             alt="Mann"

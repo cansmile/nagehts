@@ -54,7 +54,7 @@
                                         <div class="ant t-6" id="ant-1"></div>
                                         <div class="input-group">
                                             Der Stuhl und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-1 t-6"
                                                 aria-label="." id="qst-1">
                                             passen zusammen.
@@ -70,7 +70,7 @@
                                         <div class="ant t-6" id="ant-2"></div>
                                         <div class="input-group">
                                             Der Bleistift und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-1 t-6"
                                                 aria-label="." id="qst-2">
                                             passen zusammen.
@@ -86,7 +86,7 @@
                                         <div class="ant t-6" id="ant-3"></div>
                                         <div class="input-group">
                                             Das Fenster und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-1 t-6"
                                                 aria-label="." id="qst-3">
                                             passen zusammen.
@@ -102,7 +102,7 @@
                                         <div class="ant t-6" id="ant-4"></div>
                                         <div class="input-group">
                                             Die Blume und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-1 t-6"
                                                 aria-label="." id="qst-4">
                                             passen zusammen.
@@ -124,7 +124,7 @@
                                         <div class="ant t-6" id="ant-5"></div>
                                         <div class="input-group">
                                             Das Auge und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-1 t-6"
                                                 aria-label="." id="qst-5">
                                             passen zusammen.
@@ -140,7 +140,7 @@
                                         <div class="ant t-6" id="ant-6"></div>
                                         <div class="input-group">
                                             Die Hände und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-1 t-6"
                                                 aria-label="." id="qst-6">
                                             passen zusammen.
@@ -156,7 +156,7 @@
                                         <div class="ant t-6" id="ant-7"></div>
                                         <div class="input-group">
                                             Die Zahnbürste und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-1 t-6"
                                                 aria-label="." id="qst-7">
                                             passen zusammen.

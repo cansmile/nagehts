@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="input-group">
-                        <strong>23.03 = </strong>Der<input type="text"
+                        <strong>23.03 = </strong>Der<input autocomplete="off" type="text"
                             class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;"
                             aria-label="." id="qst-1">ist ein Freitag.
@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="input-group">
-                        <strong>06.04 =</strong>Der<input type="text"
+                        <strong>06.04 =</strong>Der<input autocomplete="off" type="text"
                             class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;"
                             aria-label="." id="qst-2">ist ein Freitag.
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="input-group">
-                        <strong>17.05. = </strong>Der<input type="text"
+                        <strong>17.05. = </strong>Der<input autocomplete="off" type="text"
                             class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;"
                             aria-label="." id="qst-3">ist ein Donnerstag.
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="input-group">
-                        <strong>17.08. = </strong>Der<input type="text"
+                        <strong>17.08. = </strong>Der<input autocomplete="off" type="text"
                             class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;"
                             aria-label="." id="qst-4">ist ein Freitag.
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="input-group">
-                        <strong>26.10. = </strong>Der<input type="text"
+                        <strong>26.10. = </strong>Der<input autocomplete="off" type="text"
                             class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;"
                             aria-label="." id="qst-5">ist ein Freitag.
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="input-group">
-                        <strong>25.12. = </strong>Der<input type="text"
+                        <strong>25.12. = </strong>Der<input autocomplete="off" type="text"
                             class="form-control q pl-0 col-6 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;"
                             aria-label="." id="qst-6">ist ein Dienstag.

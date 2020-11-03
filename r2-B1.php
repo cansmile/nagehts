@@ -43,13 +43,13 @@
                                         <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
                                             <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option1"
-                                                    autocomplete="off"><label for="option1">Koreaner</label>
+                                                <input autocomplete="off" type="radio" name="options" id="option1"
+                                                    ><label for="option1">Koreaner</label>
                                             </div>
                                             <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답!">
-                                                <input type="radio" name="options" id="option2"
-                                                    autocomplete="off"><label for="option2">Koreanerin</label>
+                                                <input autocomplete="off" type="radio" name="options" id="option2"
+                                                    ><label for="option2">Koreanerin</label>
                                             </div>
                                         </div>.<span class="ans"></span><span class="tran"><br><small>저는 한국에서 왔어요.
                                                 한국(여)인이에요.</small></span>
@@ -87,13 +87,13 @@
                                         <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
                                             <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답!">
-                                                <input type="radio" name="options" id="option3"
-                                                    autocomplete="off"><label for="option3">Japaner</label>
+                                                <input autocomplete="off" type="radio" name="options" id="option3"
+                                                    ><label for="option3">Japaner</label>
                                             </div>
                                             <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option4"
-                                                    autocomplete="off"><label for="option4">Japanerin</label>
+                                                <input autocomplete="off" type="radio" name="options" id="option4"
+                                                    ><label for="option4">Japanerin</label>
                                             </div>
                                         </div>.<span class="ans"></span><span class="tran"><br><small>저는 일본에서 왔어요.
                                                 저는 일본인입니다.</small></span>

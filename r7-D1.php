@@ -311,7 +311,7 @@
                                         <td>
                                             <div class="ant t-6" id="ant-1"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border border-dark border-bottom-only
                                                     rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-1">
                                             </div><span class="tran"><small><br>저는 영화관에
@@ -343,7 +343,7 @@
                                         <td>
                                             <div class="ant t-6" id="ant-2"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border border-dark border-bottom-only
                                                     rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-2">
                                             </div><span class="tran"><small><br>그녀는 도서관에
@@ -375,7 +375,7 @@
                                         <td>
                                             <div class="ant t-6" id="ant-3"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border border-dark border-bottom-only
                                                     rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-3">
                                             </div><span class="tran"><small><br>그는 공원에
@@ -407,7 +407,7 @@
                                         <td>
                                             <div class="ant t-6" id="ant-4"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border border-dark border-bottom-only
                                                     rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-4">
                                             </div><span class="tran"><small><br>그는 음악회에
@@ -439,7 +439,7 @@
                                         <td>
                                             <div class="ant t-6" id="ant-5"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border border-dark border-bottom-only
                                                     rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-5">
                                             </div><span class="tran"><small><br>그녀는 축구장에
@@ -471,7 +471,7 @@
                                         <td>
                                             <div class="ant t-6" id="ant-6"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border border-dark border-bottom-only
                                                     rounded-0 mx-1 px-2 py-1" aria-label="." id="qst-6">
                                             </div><span class="tran"><small><br>나는 클럽에

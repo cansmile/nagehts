@@ -89,7 +89,7 @@
                                 <td>
                                     <div class="input-group">
                                         Morgens isst Monika Mai
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
                                             aria-label="." id="qst-1">
                                         .
@@ -104,7 +104,7 @@
                                 <td>
                                     <div class="input-group">
                                         Sie trinkt ein Glas
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
                                             aria-label="." id="qst-2">
                                         .
@@ -119,7 +119,7 @@
                                 <td>
                                     <div class="input-group">
                                         Mittags isst sie Fisch mit
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
                                             aria-label="." id="qst-3">
                                         .
@@ -149,7 +149,7 @@
                                 <td>
                                     <div class="input-group">
                                         Nachmittags isst sie einen
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
                                             aria-label="." id="qst-4">
                                     </div><span class="tran"><br><small>오후엔 케이크를
@@ -163,7 +163,7 @@
                                 <td>
                                     <div class="input-group">
                                         und trinkt einen
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
                                             aria-label="." id="qst-5">
                                         .
@@ -178,7 +178,7 @@
                                 <td>
                                     <div class="input-group">
                                         Abends isst sie einen Teller
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
                                             aria-label="." id="qst-6">
                                         .

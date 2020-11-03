@@ -55,20 +55,20 @@
                                                 border-bottom-only q" data-toggle="buttons" id="qst-1">
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option1"
-                                                            autocomplete="off">heiße
+                                                        <input autocomplete="off" type="radio" name="options" id="option1"
+                                                            >heiße
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option2"
-                                                            autocomplete="off">heißt
+                                                        <input autocomplete="off" type="radio" name="options" id="option2"
+                                                            >heißt
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option3"
-                                                            autocomplete="off">heißen
+                                                        <input autocomplete="off" type="radio" name="options" id="option3"
+                                                            >heißen
                                                     </div>
                                                 </div> Heike Klein.<span class="ans">&nbsp;</span>
                                             </span>
@@ -77,20 +77,20 @@
                                                 border-bottom-only q" data-toggle="buttons" id="qst-2">
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option4"
-                                                            autocomplete="off">bin
+                                                        <input autocomplete="off" type="radio" name="options" id="option4"
+                                                            >bin
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option5"
-                                                            autocomplete="off">sind
+                                                        <input autocomplete="off" type="radio" name="options" id="option5"
+                                                            >sind
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option6"
-                                                            autocomplete="off">ist
+                                                        <input autocomplete="off" type="radio" name="options" id="option6"
+                                                            >ist
                                                     </div>
                                                 </div> Ihre
                                                 Deutschlehrerin.<span class="ans">&nbsp;</span>
@@ -136,19 +136,19 @@
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option4"
-                                                            autocomplete="off">bin
+                                                        <input autocomplete="off" type="radio" name="options" id="option4"
+                                                            >bin
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option5"
-                                                            autocomplete="off">sind
+                                                        <input autocomplete="off" type="radio" name="options" id="option5"
+                                                            >sind
                                                     </div>
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option6"
-                                                            autocomplete="off">ist
+                                                        <input autocomplete="off" type="radio" name="options" id="option6"
+                                                            >ist
                                                     </div>
                                                 </div> Hyun Kim?<span class="ans">&nbsp;</span>
                                             </span>
@@ -172,20 +172,20 @@
                                                 border-bottom-only q" data-toggle="buttons" id="qst-4">
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option4"
-                                                            autocomplete="off">bin
+                                                        <input autocomplete="off" type="radio" name="options" id="option4"
+                                                            >bin
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option5"
-                                                            autocomplete="off">sind
+                                                        <input autocomplete="off" type="radio" name="options" id="option5"
+                                                            >sind
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option6"
-                                                            autocomplete="off">ist
+                                                        <input autocomplete="off" type="radio" name="options" id="option6"
+                                                            >ist
                                                     </div>
                                                 </div> ich.<span class="ans">&nbsp;</span>
                                             </span>
@@ -211,19 +211,19 @@
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option4"
-                                                            autocomplete="off">Bin
+                                                        <input autocomplete="off" type="radio" name="options" id="option4"
+                                                            >Bin
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option5"
-                                                            autocomplete="off">Sind
+                                                        <input autocomplete="off" type="radio" name="options" id="option5"
+                                                            >Sind
                                                     </div>
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option6"
-                                                            autocomplete="off">Ist
+                                                        <input autocomplete="off" type="radio" name="options" id="option6"
+                                                            >Ist
                                                     </div>
                                                 </div> Minjung Kim da?<span class="ans">&nbsp;</span>
                                             </span>
@@ -250,19 +250,19 @@
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option4"
-                                                            autocomplete="off">bin
+                                                        <input autocomplete="off" type="radio" name="options" id="option4"
+                                                            >bin
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option5"
-                                                            autocomplete="off">sind
+                                                        <input autocomplete="off" type="radio" name="options" id="option5"
+                                                            >sind
                                                     </div>
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option6"
-                                                            autocomplete="off">ist
+                                                        <input autocomplete="off" type="radio" name="options" id="option6"
+                                                            >ist
                                                     </div>
                                                 </div> nicht da.<span class="ans">&nbsp;</span>
                                             </span>
@@ -289,19 +289,19 @@
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option4"
-                                                            autocomplete="off">Bin
+                                                        <input autocomplete="off" type="radio" name="options" id="option4"
+                                                            >Bin
                                                     </div>
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option5"
-                                                            autocomplete="off">Sind
+                                                        <input autocomplete="off" type="radio" name="options" id="option5"
+                                                            >Sind
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option6"
-                                                            autocomplete="off">Ist
+                                                        <input autocomplete="off" type="radio" name="options" id="option6"
+                                                            >Ist
                                                     </div>
                                                 </div> Sie Bokum Park?<span class="ans">&nbsp;</span>
                                             </span>
@@ -326,20 +326,20 @@
                                                 border-bottom-only q" data-toggle="buttons" id="qst-1">
                                                     <div class="btn btn-light pop o" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option1"
-                                                            autocomplete="off">heiße
+                                                        <input autocomplete="off" type="radio" name="options" id="option1"
+                                                            >heiße
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option2"
-                                                            autocomplete="off">heißt
+                                                        <input autocomplete="off" type="radio" name="options" id="option2"
+                                                            >heißt
                                                     </div>
                                                     <div class="btn btn-light pop x" data-toggle="popover"
                                                         data-container="body" data-placement="top"
                                                         data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option3"
-                                                            autocomplete="off">heißen
+                                                        <input autocomplete="off" type="radio" name="options" id="option3"
+                                                            >heißen
                                                     </div>
                                                 </div> William Park.<span class="ans">&nbsp;</span>
                                             </span>

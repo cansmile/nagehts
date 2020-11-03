@@ -58,7 +58,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-1">
@@ -72,7 +72,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-2">
@@ -119,7 +119,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-3">
@@ -133,7 +133,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-4">
@@ -180,7 +180,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-5">
@@ -194,7 +194,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-6">
@@ -241,7 +241,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-7">
@@ -255,7 +255,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-8">

@@ -76,7 +76,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Die Mutter setzt das Kind <input
+                                        Die Mutter setzt das Kind <input autocomplete="off"
                                             type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
@@ -106,7 +106,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Ich stecke den Schlüssel <input
+                                        Ich stecke den Schlüssel <input autocomplete="off"
                                             type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
@@ -136,7 +136,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Ich fahre in diesem Urlaub <input
+                                        Ich fahre in diesem Urlaub <input autocomplete="off"
                                             type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
@@ -165,7 +165,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Ich lege die Kamera <input type="text"
+                                        Ich lege die Kamera <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
                                             style="max-width: 100px; min-width: 100px;"
@@ -194,7 +194,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Ich stelle den Tisch <input type="text"
+                                        Ich stelle den Tisch <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
                                             style="max-width: 100px; min-width: 100px;"
@@ -222,7 +222,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Ich wohne <input type="text"
+                                        Ich wohne <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
                                             style="max-width: 100px; min-width: 100px;"
@@ -251,7 +251,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        lch fahre das Auto <input type="text"
+                                        lch fahre das Auto <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
                                             style="max-width: 100px; min-width: 100px;"
@@ -280,7 +280,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Ich lege den Hut <input type="text"
+                                        Ich lege den Hut <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
                                             style="max-width: 100px; min-width: 100px;"
@@ -310,7 +310,7 @@
                             <tr>
                                 <td style="line-height: 250%;">
                                     <div class="input-group">
-                                        Ich lege das Buch <input type="text"
+                                        Ich lege das Buch <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
                                             style="max-width: 100px; min-width: 100px;"
@@ -344,14 +344,14 @@
                                 <td class="align-middle">=</td>
                                 <td class="align-middle">
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
                                             style="max-width: 100px; min-width: 100px;"
                                             aria-label="." id="qst-10">
                                     </div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
@@ -359,7 +359,7 @@
                                             aria-label="." id="qst-11">
                                     </div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
@@ -367,7 +367,7 @@
                                             aria-label="." id="qst-12">
                                     </div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
@@ -375,7 +375,7 @@
                                             aria-label="." id="qst-13">
                                     </div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
@@ -391,7 +391,7 @@
                                 <td class="align-middle">=</td>
                                 <td class="align-middle">
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
@@ -409,7 +409,7 @@
                                 <td class="align-middle">=</td>
                                 <td class="align-middle">
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"
@@ -417,7 +417,7 @@
                                             aria-label="." id="qst-16">
                                     </div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center
                                             border-dark col-sm-12 col-md-6 col-md col-lg mx-auto my-2 t-6"

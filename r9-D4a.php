@@ -49,12 +49,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option1" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option1" ><label
                                         for="option1">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option2" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option2" ><label
                                         for="option2">str.</label>
                                 </div>
                             </div>
@@ -69,12 +69,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                         for="option3">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                         for="option4">str.</label>
                                 </div>
                             </div>
@@ -89,12 +89,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option5" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option5" ><label
                                         for="option5">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option6" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option6" ><label
                                         for="option6">str.</label>
                                 </div>
                             </div>
@@ -109,12 +109,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option7" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option7" ><label
                                         for="option7">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option8" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option8" ><label
                                         for="option8">str.</label>
                                 </div>
                             </div>
@@ -129,12 +129,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option9" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option9" ><label
                                         for="option9">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option10" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option10" ><label
                                         for="option10">str.</label>
                                 </div>
                             </div>
@@ -149,12 +149,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option11" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option11" ><label
                                         for="option11">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option12" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option12" ><label
                                         for="option12">str.</label>
                                 </div>
                             </div>
@@ -169,12 +169,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option13" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option13" ><label
                                         for="option13">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option14" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option14" ><label
                                         for="option14">str.</label>
                                 </div>
                             </div>
@@ -189,12 +189,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option15" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option15" ><label
                                         for="option15">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option16" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option16" ><label
                                         for="option16">str.</label>
                                 </div>
                             </div>
@@ -209,12 +209,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option17" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option17" ><label
                                         for="option17">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option18" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option18" ><label
                                         for="option18">str.</label>
                                 </div>
                             </div>
@@ -229,12 +229,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option19" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option19" ><label
                                         for="option19">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option20" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option20" ><label
                                         for="option20">str.</label>
                                 </div>
                             </div>
@@ -249,12 +249,12 @@
                             <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-11">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
-                                    <input type="radio" name="options" id="option21" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option21" ><label
                                         for="option21">schw.</label>
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
-                                    <input type="radio" name="options" id="option22" autocomplete="off"><label
+                                    <input autocomplete="off" type="radio" name="options" id="option22" ><label
                                         for="option22">str.</label>
                                 </div>
                             </div>

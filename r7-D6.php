@@ -48,7 +48,7 @@
                                     <td class="align-middle" height="80">
                                         <div
                                             class="input-group d-inline-flex align-items-baseline">
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
@@ -66,7 +66,7 @@
                                         <div
                                             class="input-group d-inline-flex align-items-baseline">
                                             Leider&nbsp;
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
@@ -84,7 +84,7 @@
                                         <div
                                             class="input-group d-inline-flex align-items-baseline">
                                             Um 14 Uhr&nbsp;
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
@@ -102,7 +102,7 @@
                                         <div
                                             class="input-group d-inline-flex align-items-baseline">
                                             Am Abend&nbsp;
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
@@ -120,7 +120,7 @@
                                         <div
                                             class="input-group d-inline-flex align-items-baseline">
                                             Vielleicht&nbsp;
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"

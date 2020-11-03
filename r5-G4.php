@@ -36,7 +36,7 @@
                                 <td class="text-left align-middle">
                                     <div id="ant-1"></div>
                                     <div class="input-group">
-                                        Ich bekomme <input type="text"
+                                        Ich bekomme <input autocomplete="off" type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
@@ -58,7 +58,7 @@
                                 <td class="text-left align-middle">
                                     <div id="ant-2"></div>
                                     <div class="input-group">
-                                        Ich bekomme <input type="text"
+                                        Ich bekomme <input autocomplete="off" type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
@@ -79,7 +79,7 @@
                                 <td class="text-left align-middle">
                                     <div id="ant-3"></div>
                                     <div class="input-group">
-                                        Ich bekomme <input type="text"
+                                        Ich bekomme <input autocomplete="off" type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
@@ -100,7 +100,7 @@
                                 <td class="text-left align-middle">
                                     <div id="ant-4"></div>
                                     <div class="input-group">
-                                        Ich bekomme <input type="text"
+                                        Ich bekomme <input autocomplete="off" type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
@@ -121,7 +121,7 @@
                                 <td class="text-left align-middle">
                                     <div id="ant-5"></div>
                                     <div class="input-group">
-                                        Ich bekomme <input type="text"
+                                        Ich bekomme <input autocomplete="off" type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon5"
@@ -142,7 +142,7 @@
                                 <td class="text-left align-middle">
                                     <div id="ant-6"></div>
                                     <div class="input-group">
-                                        Ich bekomme <input type="text"
+                                        Ich bekomme <input autocomplete="off" type="text"
                                             placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon6"

@@ -64,7 +64,7 @@
                                 <td>
                                     <div class="input-group">
                                         Mein Bruder ist
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                             style="min-width: 50px; max-width: 150px;"
                                             aria-label="." id="qst-1">
@@ -80,7 +80,7 @@
                                 <td>
                                     <div class="input-group">
                                         und meine Schwester ist
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                             style="min-width: 50px; max-width: 150px;"
                                             aria-label="." id="qst-2">

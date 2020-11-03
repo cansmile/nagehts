@@ -185,7 +185,7 @@
                         <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
                             <div id="ant-1"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
-                                <input type="text" placeholder="Nr." aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon1"
                                        class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-1">
@@ -202,7 +202,7 @@
                             <div id="ant-8"></div>
                             <div class="input-group">
                                 Meine Familie wohnt in einem
-                                <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon8"
                                        class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2 t-6"
                                        id="qst-8">
@@ -225,7 +225,7 @@
                         <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="2">
                             <div id="ant-2"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
-                                <input type="text" placeholder="Nr." aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon2"
                                        class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-2">
@@ -236,7 +236,7 @@
                             <div class="input-group">
                                 Meine Eltern wohnen mit ihrem Hund in
                                 einem 200 Quadratmeter großen
-                                <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon9"
                                        class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2 t-6"
                                        id="qst-9">
@@ -261,7 +261,7 @@
                         <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="2">
                             <div id="ant-3"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
-                                <input type="text" placeholder="Nr." aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon3"
                                        class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-3">
@@ -282,7 +282,7 @@
                         <td>
                             <div class="input-group">
                                 Zurzeit wohne ich in einem
-                                <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon10"
                                        class="text-center form-control q rounded-0 border-bottom-only ml-2 col-3 t-6"
                                        id="qst-10">
@@ -296,7 +296,7 @@
                         <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="4">
                             <div id="ant-4"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
-                                <input type="text" placeholder="Nr." aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon4"
                                        class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-4">
@@ -316,7 +316,7 @@
                         <td>
                             <div class="input-group">
                                 Da will ich das
-                                <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon11"
                                        class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2 t-6"
                                        id="qst-11">
@@ -350,7 +350,7 @@
                         <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="4">
                             <div id="ant-5"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
-                                <input type="text" placeholder="Nr." aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon5"
                                        class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-5">
@@ -370,7 +370,7 @@
                         <td>
                             <div class="input-group">
                                 Mit meiner Familie wohne ich auf einem
-                                <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon12"
                                        class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2 t-6"
                                        id="qst-12">
@@ -407,7 +407,7 @@
                         <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
                             <div id="ant-6"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
-                                <input type="text" placeholder="Nr." aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon6"
                                        class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-6">
@@ -438,7 +438,7 @@
                         <td>
                             <div class="input-group">
                                 Ich lebe auch in einem
-                                <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon13"
                                        class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2 t-6"
                                        id="qst-13">
@@ -453,7 +453,7 @@
                         <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
                             <div id="ant-7"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
-                                <input type="text" placeholder="Nr." aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon7"
                                        class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
                                        id="qst-7">
@@ -471,7 +471,7 @@
                             <div id="ant-14"></div>
                             <div class="input-group">
                                 Wir wohnen jetzt in einem
-                                <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon14"
                                        class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2 t-6"
                                        id="qst-14">

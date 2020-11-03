@@ -184,7 +184,7 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border-bottom-only align-middle border
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only align-middle border
                                         border-dark rounded-0" aria-label="." id="qst-1">
                                     </div>
                                     <span class="tran"><small>그녀의 머리가 아프다. 그녀는
@@ -198,7 +198,7 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border-bottom-only align-middle border
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only align-middle border
                                         border-dark rounded-0" aria-label="." id="qst-2">
                                     </div>
                                     <span class="tran"><small>그녀의 이가 아프다. 그녀는
@@ -212,7 +212,7 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border-bottom-only align-middle border
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only align-middle border
                                         border-dark rounded-0" aria-label="." id="qst-3">
                                     </div>
                                     <span class="tran"><small>그녀의 배가 아프다. 그녀는
@@ -226,7 +226,7 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border-bottom-only align-middle border
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only align-middle border
                                         border-dark rounded-0" aria-label="." id="qst-4">
                                     </div>
                                     <span class="tran"><small>그의 목이 아프다. 그는 기침을
@@ -240,7 +240,7 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border-bottom-only align-middle border
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only align-middle border
                                         border-dark rounded-0" aria-label="." id="qst-5">
                                     </div>
                                     <span class="tran"><small>그녀는 열이 있다. 그녀는
@@ -254,7 +254,7 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border-bottom-only align-middle border
+                                        <input autocomplete="off" type="text" class="form-control q border-bottom-only align-middle border
                                         border-dark rounded-0" aria-label="." id="qst-6">
                                     </div>
                                     <span class="tran"><small>그의 배가 아프다. 그는

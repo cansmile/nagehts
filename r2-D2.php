@@ -41,10 +41,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option1"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option1">heiße</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -52,10 +52,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option2"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option2">heißt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -63,10 +63,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option3"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option3">heißen</label>
                                                 </div>
                                             </div> Abena.<span
@@ -93,10 +93,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option4"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option4">heiße</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -104,10 +104,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option5"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option5">heißt</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -115,10 +115,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option6"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option6">heißen</label>
                                                 </div>
                                             </div> Sie?<span
@@ -144,10 +144,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option7"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option7">sind</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -155,10 +155,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option8"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option8">bin</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -166,10 +166,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option9"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option9">ist</label>
                                                 </div>
                                             </div> Muammar.<span
@@ -195,10 +195,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option10"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option10">komme</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -206,10 +206,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option11"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option11">kommt</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -217,10 +217,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option12"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option12">kommen</label>
                                                 </div>
                                             </div> Sie?<span
@@ -246,10 +246,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option13"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option13">komme</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -257,10 +257,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option14"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option14">kommt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -268,10 +268,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option15"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option15">kommen</label>
                                                 </div>
                                             </div> aus Ghana. Und Sie?<span
@@ -298,10 +298,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option16"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option16">komme</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -309,10 +309,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option17"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option17">kommt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -320,10 +320,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option18"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option18">kommen</label>
                                                 </div>
                                             </div> aus Libyen.<span
@@ -349,10 +349,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option19"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option19">liege</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -360,10 +360,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option20"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option20">liegt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -371,10 +371,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option21"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option21">liegen</label>
                                                 </div>
                                             </div> Ghana?<span
@@ -400,10 +400,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option22"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option22">liege</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -411,10 +411,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option23"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option23">liegt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -422,10 +422,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option24"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option24">liegen</label>
                                                 </div>
                                             </div> in Westafrika.<span
@@ -452,10 +452,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option25"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option25">liege</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -463,10 +463,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option26"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option26">liegt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -474,10 +474,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option27"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option27">liegen</label>
                                                 </div>
                                             </div> Libyen?<span
@@ -503,10 +503,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option28"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option28">Liege</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -514,10 +514,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option29"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option29">Liegt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -525,10 +525,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option30"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option30">Liegen</label>
                                                 </div>
                                             </div> Libyen in Westafrika?<span
@@ -555,10 +555,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option31"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option31">liege</label>
                                                 </div>
                                                 <div class="btn btn-light pop o"
@@ -566,10 +566,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option32"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option32">liegt</label>
                                                 </div>
                                                 <div class="btn btn-light pop x"
@@ -577,10 +577,10 @@
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input type="radio"
+                                                    <input autocomplete="off" type="radio"
                                                         name="options"
                                                         id="option33"
-                                                        autocomplete="off" /><label
+                                                         /><label
                                                         for="option33">liegen</label>
                                                 </div>
                                             </div> in Nordafrika.<span

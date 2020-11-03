@@ -31,7 +31,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-1">
                                         .
@@ -47,7 +47,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-2">
                                         .
@@ -63,7 +63,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-3">
                                         .
@@ -79,7 +79,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-4">
                                         .
@@ -95,7 +95,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-5">
                                         .
@@ -111,7 +111,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon6"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-6">
                                         .
@@ -127,7 +127,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon7"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-7">
                                         .
@@ -143,7 +143,7 @@
                                             있나요?</small></span></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon8"
                                             class="form-control q border-bottom-only rounded-0 mx-1 t-6" id="qst-8">
                                         .

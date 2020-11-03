@@ -26,7 +26,7 @@
                                         <td colspan="2">
                                             <div class="ant t-6" id="ant-1"></div>
                                             <div class="input-group">
-                                                <input type="text" class="form-control q border-bottom-only border border-dark
+                                                <input autocomplete="off" type="text" class="form-control q border-bottom-only border border-dark
                                                     rounded-0" aria-label="." id="qst-1">
                                             </div>
                                             <span class="tran"><small>머리</small></span>
@@ -47,7 +47,7 @@
                                         <td colspan="2">
                                             <div class="ant t-6" id="ant-2"></div>
                                             <div class="input-group">
-                                                <input type="text" class="form-control q border-bottom-only border border-dark
+                                                <input autocomplete="off" type="text" class="form-control q border-bottom-only border border-dark
                                                     rounded-0" aria-label="." id="qst-2">
                                             </div>
                                             <span class="tran"><small>이</small></span>
@@ -79,7 +79,7 @@
                                         <td colspan="2">
                                             <div class="ant t-6" id="ant-3"></div>
                                             <div class="input-group">
-                                                <input type="text" class="form-control q border-bottom-only border border-dark
+                                                <input autocomplete="off" type="text" class="form-control q border-bottom-only border border-dark
                                                     rounded-0" aria-label="." id="qst-3">
                                             </div>
                                             <span class="tran"><small>목</small></span>
@@ -100,7 +100,7 @@
                                         <td colspan="2">
                                             <div class="ant t-6" id="ant-4"></div>
                                             <div class="input-group">
-                                                <input type="text" class="form-control q border-bottom-only border border-dark
+                                                <input autocomplete="off" type="text" class="form-control q border-bottom-only border border-dark
                                                     rounded-0" aria-label="." id="qst-4">
                                             </div>
                                             <span class="tran"><small>등</small></span>
@@ -121,7 +121,7 @@
                                         <td colspan="2">
                                             <div class="ant t-6" id="ant-5"></div>
                                             <div class="input-group">
-                                                <input type="text" class="form-control q border-bottom-only border border-dark
+                                                <input autocomplete="off" type="text" class="form-control q border-bottom-only border border-dark
                                                     rounded-0" aria-label="." id="qst-5">
                                             </div>
                                             <span class="tran"><small>배</small></span>

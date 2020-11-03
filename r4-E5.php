@@ -18,7 +18,7 @@
                                     <div id="ant-1"></div>
                                     <div class="input-group">
                                         Monika Sager ist
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
@@ -36,7 +36,7 @@
                                     <div id="ant-2"></div>
                                     <div class="input-group">
                                         Das ist
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
@@ -53,7 +53,7 @@
                                     <div id="ant-3"></div>
                                     <div class="input-group">
                                         Der Test ist
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
@@ -71,7 +71,7 @@
                                     <div id="ant-4"></div>
                                     <div class="input-group">
                                         Manfred studiert
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4

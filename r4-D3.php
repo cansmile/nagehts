@@ -54,7 +54,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-1" style="max-width: 100px;">
                                         Küche ist komplett.
@@ -70,7 +70,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-2" style="max-width: 100px;">
                                         kostet 999 Euro.
@@ -87,7 +87,7 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
                                         Sie ist eine
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-3" style="max-width: 100px;">
                                         Küche.
@@ -116,7 +116,7 @@
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
                                         Das ist
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-4" style="max-width: 100px;">
                                         Wohnzimmer.
@@ -133,7 +133,7 @@
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
                                         Das
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-5" style="max-width: 100px;">
                                         ist ein Designer-Tisch.
@@ -149,7 +149,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-6" style="max-width: 100px;">
                                         Designer-Tisch ist bildschön.
@@ -165,7 +165,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-7" style="max-width: 100px;">
                                         kostet 599 Euro.
@@ -182,7 +182,7 @@
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group">
                                         Er ist ein bildschön
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 pl-0 t-6"
                                             aria-label="." id="qst-8" style="max-width: 100px;">
                                         Tisch.
@@ -211,7 +211,7 @@
                                     <div class="ant t-6" id="ant-9"></div>
                                     <div class="input-group">
                                         Das ist
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-9" style="max-width: 100px;">
                                         Schlafzimmer.
@@ -227,7 +227,7 @@
                                     <div class="ant t-6" id="ant-10"></div>
                                     <div class="input-group">
                                         Das da ist
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-10" style="max-width: 100px;">
                                         Bett.
@@ -242,7 +242,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-11"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-11" style="max-width: 100px;">
                                         Bett ist originell.
@@ -257,7 +257,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-12"></div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-12" style="max-width: 100px;">
                                         ist 499 Euro.
@@ -273,7 +273,7 @@
                                     <div class="ant t-6" id="ant-13"></div>
                                     <div class="input-group">
                                         Es ist ein originell
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border border- border-bottom-only rounded-0 mx-1 pl-0 t-6"
                                             aria-label="." id="qst-13" style="max-width: 100px;">
                                         Bett.

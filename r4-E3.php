@@ -24,7 +24,7 @@
                                     <div id="ant-1"></div>
                                     <div class="input-group">
                                         Petra
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
@@ -40,7 +40,7 @@
                                     <div id="ant-2"></div>
                                     <div class="input-group">
                                         Sie
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
@@ -55,7 +55,7 @@
                                     <div id="ant-3"></div>
                                     <div class="input-group">
                                         Sie
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
@@ -70,7 +70,7 @@
                                     <div id="ant-4"></div>
                                     <div class="input-group">
                                         Ihr Mann Paul
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
@@ -91,7 +91,7 @@
                                     <div id="ant-5"></div>
                                     <div class="input-group">
                                         Sabine und Achim
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
@@ -112,7 +112,7 @@
                                     <div id="ant-6"></div>
                                     <div class="input-group">
                                         Sie
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"

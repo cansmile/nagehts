@@ -16,7 +16,7 @@
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Ich gehe ins Kino.&nbsp;
-                                        <input type="text" placeholder="(möchten)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(möchten)" aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-1">
@@ -30,12 +30,12 @@
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Ich&nbsp;
-                                        <input type="text" placeholder="(können)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(können)" aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-2">
                                         &nbsp;nicht. Ich&nbsp;
-                                        <input type="text" placeholder="(müssen)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(müssen)" aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-3">
@@ -49,7 +49,7 @@
                                 <th scope="row" rowspan="2" width="50">2.</th>
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text" placeholder="(können)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(können)" aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-4">
@@ -63,7 +63,7 @@
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Natürlich. Was&nbsp;
-                                        <input type="text" placeholder="(können)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(können)" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-5">
@@ -78,7 +78,7 @@
                                 </th>
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text" placeholder="(dürfen)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(dürfen)" aria-label="Antwort"
                                             aria-describedby="basic-addon6"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-6">
@@ -98,7 +98,7 @@
                                 <th scope="row" rowspan="2" width="50">4.</th>
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text" placeholder="(wollen)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(wollen)" aria-label="Antwort"
                                             aria-describedby="basic-addon7"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-7">
@@ -112,7 +112,7 @@
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
                                         Ja, aber sie&nbsp;
-                                        <input type="text" placeholder="(möchten)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(möchten)" aria-label="Antwort"
                                             aria-describedby="basic-addon8"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-8">
@@ -127,13 +127,13 @@
                                 </th>
                                 <td class="align-middle">
                                     <div class="input-group d-inline-flex align-items-baseline">
-                                        <input type="text" placeholder="(dürfen)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(dürfen)" aria-label="Antwort"
                                             aria-describedby="basic-addon9"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-9">
                                         &nbsp;Tim mit uns zum Deutschkurs gehen?
                                         – Ja, er&nbsp;
-                                        <input type="text" placeholder="(dürfen)" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="(dürfen)" aria-label="Antwort"
                                             aria-describedby="basic-addon10"
                                             class="text-center form-control q border-bottom-only border-dark rounded-0"
                                             style="max-width: 100px;" id="qst-10">

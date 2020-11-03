@@ -31,7 +31,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon1" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-1">
                                         &nbsp;bitte mehr Sport!
@@ -48,7 +48,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon2" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-2">
                                         &nbsp;bitte etwas lauter!
@@ -65,7 +65,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon3" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-3">
                                         &nbsp;bitte deine Hände!
@@ -83,7 +83,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon4" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-4">
                                         &nbsp;nicht so viel Eis!
@@ -101,7 +101,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-5">
                                         &nbsp;bitte den Imperativ!
@@ -118,7 +118,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon6" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-6">
                                         &nbsp;bitte nicht so viel!
@@ -136,7 +136,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon7" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-7">
                                         &nbsp;bitte mehr Obst und Gemüse!
@@ -153,7 +153,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon8" class="text-center form-control q border-bottom-only border-dark rounded-0
                                             col-6 t-6" id="qst-8">
                                         &nbsp;bitte regelmäßig Rad!

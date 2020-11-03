@@ -21,7 +21,7 @@
                                         <div id="ant-1"></div>
                                         <div class="input-group">
                                             Wo ist ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -41,7 +41,7 @@
                                         <div id="ant-2"></div>
                                         <div class="input-group">
                                             Zum Frühstück isst Herr Sauer ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -62,7 +62,7 @@
                                         <div id="ant-3"></div>
                                         <div class="input-group">
                                             und trinkt ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -88,7 +88,7 @@
                                         <div id="ant-4"></div>
                                         <div class="input-group">
                                             Anna bestellt ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -108,7 +108,7 @@
                                         <div id="ant-5"></div>
                                         <div class="input-group">
                                             ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -128,7 +128,7 @@
                                         <div id="ant-6"></div>
                                         <div class="input-group">
                                             und ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -148,7 +148,7 @@
                                         <div id="ant-7"></div>
                                         <div class="input-group">
                                             Was bekommen Sie? Ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -169,7 +169,7 @@
                                         <div id="ant-8"></div>
                                         <div class="input-group">
                                             und ein
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"

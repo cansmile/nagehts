@@ -35,14 +35,14 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border border-bottom-only rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q border border-bottom-only rounded-0
                                         mx-1 px-2 py-1 border-dark t-6" aria-label="." id="qst-1">
                                         Maria,
                                     </div>
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
                                         gehen wir heute
-                                        <input type="text" class="form-control q border border-bottom-only rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q border border-bottom-only rounded-0
                                         mx-1 px-2 py-1 border-dark t-6" aria-label="." id="qst-2">
                                         zum Eisessen?
                                     </div>
@@ -80,14 +80,14 @@
                                 <td class="align-middle">
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control q border border-bottom-only rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q border border-bottom-only rounded-0
                                         mx-1 px-2 py-1 border-dark t-6" aria-label="." id="qst-3">
                                         Tim,
                                     </div>
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
                                         ich habe
-                                        <input type="text" class="form-control q border border-bottom-only rounded-0
+                                        <input autocomplete="off" type="text" class="form-control q border border-bottom-only rounded-0
                                         mx-1 px-2 py-1 border-dark t-6" aria-label="." id="qst-4">
                                         .
                                     </div>

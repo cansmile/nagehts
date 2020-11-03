@@ -42,10 +42,10 @@
                                     <div class="input-group">
                                         Julia ist dieses Wochenende auf der
                                         Dienstreise in München. Martin ist ein
-                                        bisschen traurig: Julia <input type="text" class="form-control q pl-0 col-2
+                                        bisschen traurig: Julia <input autocomplete="off" type="text" class="form-control q pl-0 col-2
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 t-6"
                                         style="min-width: 150px;" aria-label="."
-                                            id="qst-1"> Martin. Er denkt den ganzen Tag an <input type="text"
+                                            id="qst-1"> Martin. Er denkt den ganzen Tag an <input autocomplete="off" type="text"
                                             class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 t-6" style="min-width: 150px;" aria-label="."
                                             id="qst-2">. <span class="tran"><small>율리아는 이번 주말에
@@ -64,10 +64,10 @@
                                 <td class="lh350">
                                     <div class="input-group">
                                         Ich bade mein Baby. Mein Mann steht
-                                        neben mir und <input type="text" class="form-control q pl-0 col-2 rounded-0
+                                        neben mir und <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 t-6"
                                         style="min-width: 150px;" aria-label="."
-                                            id="qst-3"><input type="text" class="form-control q pl-0 col-2 rounded-0
+                                            id="qst-3"><input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 t-6"
                                             style="min-width: 150px;" aria-label="."
                                             id="qst-4">. <span class="tran"><small>나는 나의 아기를
@@ -85,16 +85,16 @@
                                 <td class="lh350">
                                     <div class="input-group">
                                         Marias Mutter hat Geburtstag. Maria ruft
-                                        sie an und <input type="text" class="form-control q pl-0 col-2 rounded-0
+                                        sie an und <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 t-6"
                                         style="min-width: 150px;" aria-label="."
-                                            id="qst-5"><input type="text" class="form-control q pl-0 col-2 rounded-0
+                                            id="qst-5"><input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 t-6"
                                             style="min-width: 150px;" aria-label="."
-                                            id="qst-6">. Ihre Mutter <input type="text" class="form-control q pl-0 col-2
+                                            id="qst-6">. Ihre Mutter <input autocomplete="off" type="text" class="form-control q pl-0 col-2
                                             rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1
                                             t-6" style="min-width: 150px;" aria-label="."
-                                            id="qst-7"><input type="text" class="form-control q pl-0 col-2 rounded-0
+                                            id="qst-7"><input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1 t-6"
                                             style="min-width: 150px;" aria-label="."
                                             id="qst-8">: „Ach, Maria, das ist aber nett, dass du an

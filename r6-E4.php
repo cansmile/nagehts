@@ -45,12 +45,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option1">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option2">nicht
                                                 trennbar</label>
                                         </div>
@@ -68,12 +68,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option3">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option4">nicht
                                                 trennbar</label>
                                         </div>
@@ -91,12 +91,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option5">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option6">nicht
                                                 trennbar</label>
                                         </div>
@@ -114,12 +114,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option7">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option8">nicht
                                                 trennbar</label>
                                         </div>
@@ -137,12 +137,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option9">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option10">nicht
                                                 trennbar</label>
                                         </div>
@@ -160,12 +160,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option11">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option12">nicht
                                                 trennbar</label>
                                         </div>
@@ -202,12 +202,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option13">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option14">nicht
                                                 trennbar</label>
                                         </div>
@@ -225,12 +225,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option15">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option16">nicht
                                                 trennbar</label>
                                         </div>
@@ -248,12 +248,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option17">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option18">nicht
                                                 trennbar</label>
                                         </div>
@@ -271,12 +271,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option19">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option20">nicht
                                                 trennbar</label>
                                         </div>
@@ -294,12 +294,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-11">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option21">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option22">nicht
                                                 trennbar</label>
                                         </div>
@@ -317,12 +317,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-12">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option23">trennbar</label>
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option24">nicht
                                                 trennbar</label>
                                         </div>

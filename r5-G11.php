@@ -19,7 +19,7 @@
                                         <div id="ant-1"></div>
                                         <div class="input-group">
                                             Tim
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -39,7 +39,7 @@
                                         <div id="ant-2"></div>
                                         <div class="input-group">
                                             Er spr
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -59,7 +59,7 @@
                                         <div id="ant-3"></div>
                                         <div class="input-group">
                                             Was n
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -86,7 +86,7 @@
                                         <div id="ant-4"></div>
                                         <div class="input-group">
                                             Was
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -106,7 +106,7 @@
                                         <div id="ant-5"></div>
                                         <div class="input-group">
                                             N
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -126,7 +126,7 @@
                                         <div id="ant-6"></div>
                                         <div class="input-group">
                                             Er h
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"

@@ -100,7 +100,7 @@
                         <td>
                             <div class="input-group">
                                 Er trinkt eine
-                                <input type="text"
+                                <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-4 col-xl-4 border-bottom-only
                                             rounded-0 ml-0 q t-6"
                                        aria-label="."
@@ -120,7 +120,7 @@
                         <td>
                             <div class="input-group">
                                 Mittags isst er einen
-                                <input type="text"
+                                <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
                                             rounded-0 ml-1 q t-6"
                                        aria-label="."
@@ -146,7 +146,7 @@
                         <td>
                             <div class="input-group">
                                 Nachmittags isst er Pommes und ein
-                                <input type="text"
+                                <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
                                             rounded-0 ml-1 q t-6"
                                        aria-label="."
@@ -166,7 +166,7 @@
                         <td>
                             <div class="input-group">
                                 Abends isst er eine
-                                <input type="text"
+                                <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
                                             rounded-0 ml-1 q t-6"
                                        aria-label="."
@@ -185,7 +185,7 @@
                         <td>
                             <div class="input-group">
                                 und trinkt eine
-                                <input type="text"
+                                <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
                                             rounded-0 ml-1 q t-6"
                                        aria-label="."

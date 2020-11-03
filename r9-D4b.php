@@ -31,10 +31,10 @@
                         wunderschönes Erlebnis. <span class="tran">&nbsp;<small>파티는 진짜 너무 멋진 경험이었어.</small>&nbsp;</span>
                     </div>
                     <div class="input-group lh350">
-                        Gleich am Morgen hat meine Freundin mich <input type="text"
+                        Gleich am Morgen hat meine Freundin mich <input autocomplete="off" type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="anrufen"
-                            id="qst-1"> und mir zum Geburtstag <input type="text"
+                            id="qst-1"> und mir zum Geburtstag <input autocomplete="off" type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="gratuliert"
                             id="qst-2"> . <span class="tran">&nbsp;<small>아침이
@@ -42,14 +42,14 @@
                     </div>
                     <div class="input-group lh350">
                         Zum FrühstücZum Frühstück hat meine Mutter
-                        mir ein leckeres Frühstück mit gekochtem Ei, und Speck und Toast <input type="text"
+                        mir ein leckeres Frühstück mit gekochtem Ei, und Speck und Toast <input autocomplete="off" type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="machen"
                             id="qst-3"> . <span class="tran">&nbsp;<small>아침식사에 엄마가
                                 나에게 삶은 계란, 베이컨, 토스트 빵으로 맛난 아침식사를 해주었어.</small>&nbsp;</span>
                     </div>
                     <div class="input-group lh350">
-                        Sie hat sogar einen selbstgemachten Kuchen <input type="text"
+                        Sie hat sogar einen selbstgemachten Kuchen <input autocomplete="off" type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="backen"
                             id="qst-4"> - <span class="tran">&nbsp;<small>더욱이 엄마가 손수
@@ -69,14 +69,14 @@
                     </div>
                     <div class="input-group lh350">
                         Und meine
-                        alte Schulfreundin Julia ist aus Frankfurt <input type="text"
+                        alte Schulfreundin Julia ist aus Frankfurt <input autocomplete="off" type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="kommen"
                             id="qst-5"> . <span class="tran">&nbsp;<small>나의 오랜
                                 학교친구인 율리아도 프랑크프르트에서 왔어.</small>&nbsp;</span>
                     </div>
                     <div class="input-group lh350">
-                        Sie ist mit der Bahn zu mir <input
+                        Sie ist mit der Bahn zu mir <input autocomplete="off"
                             type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="fahren"
@@ -85,23 +85,23 @@
                     </div>
                     <div class="input-group lh350">
                         Wir haben
-                        <input type="text"
+                        <input autocomplete="off" type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="grillen"
-                            id="qst-7"> und dabei Musik <input type="text"
+                            id="qst-7"> und dabei Musik <input autocomplete="off" type="text"
                             class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="hören"
                             id="qst-8"> . <span class="tran">&nbsp;<small>리는 그릴도 하고
                                 음악도 들었어.</small>&nbsp;</span>
                     </div>
                     <div class="input-group lh350">
-                        Bis zum Abend hin haben wir <input type="text"
+                        Bis zum Abend hin haben wir <input autocomplete="off" type="text"
                         class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="reden"
-                        id="qst-9"> , <input type="text"
+                        id="qst-9"> , <input autocomplete="off" type="text"
                         class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="tanzen"
-                        id="qst-10"> und viel <input type="text"
+                        id="qst-10"> und viel <input autocomplete="off" type="text"
                         class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="lachen"
                         id="qst-11"> . <span class="tran">&nbsp;<small>저녁까지 이야기도
@@ -115,10 +115,10 @@
                                     선물이었어.</small>&nbsp;</span>
                     </div>
                     <div class="input-group lh350">
-                        Sie sind spät gegen 11Uhr nach Hause <input type="text"
+                        Sie sind spät gegen 11Uhr nach Hause <input autocomplete="off" type="text"
                         class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="gehen"
-                        id="qst-12"> , nur Leoni ist bei mir <input type="text"
+                        id="qst-12"> , nur Leoni ist bei mir <input autocomplete="off" type="text"
                         class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="bleiben"
                             id="qst-13"> und hat übernachtet. <span

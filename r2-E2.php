@@ -81,24 +81,24 @@
                                     <div class="input-group lh250">
                                         <strong>z.B. Namdeamun
                                             Tor:</strong>&nbsp;
-                                        Wo ist <input type="text" value="das" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" value="das" aria-label="Antwort"
                                             aria-describedby="basic-addon1" class="form-control border-bottom-only
                                             rounded-0 mx-1 bg-success text-white
                                             font-weight-bold text-center" disabled="true t-6"
                                             style="min-width: 50px; max-width: 80px;">
                                         Namdaemun Tor?
-                                        <input type="text" value="Es" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" value="Es" aria-label="Antwort"
                                             aria-describedby="basic-addon2" class="form-control border-bottom-only
                                             rounded-0 mx-1 bg-success text-white
                                             font-weight-bold text-center" disabled="true t-6"
                                             style="min-width: 50px; max-width: 80px;">ist
                                         in Seoul,
-                                        <input type="text" value="Korea" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" value="Korea" aria-label="Antwort"
                                             aria-describedby="basic-addon3" class="form-control border-bottom-only
                                             rounded-0 mx-1 bg-success text-white
                                             font-weight-bold text-center" disabled="true t-6"
                                             style="min-width: 50px; max-width: 80px;">.
-                                        Korea ist in <input type="text" value="Asien" aria-label="Antwort"
+                                        Korea ist in <input autocomplete="off" type="text" value="Asien" aria-label="Antwort"
                                             aria-describedby="basic-addon4" class="form-control border-bottom-only
                                             rounded-0 mx-1 bg-success text-white
                                             font-weight-bold text-center" disabled="true t-6"
@@ -118,19 +118,19 @@
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group lh250">
                                         <strong>1. Brandenburger Tor:</strong>&nbsp;
-                                        Wo ist<input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist<input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-1">Brandenburger Tor?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon6"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-2">ist in Berlin, <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-2">ist in Berlin, <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon7"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-3">. Deutschland liegt in
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon8"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-4">.
@@ -148,19 +148,19 @@
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group lh250">
                                         <strong>2. Kolosseum:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon9"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-5"> Kolosseum?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon10"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-6"> ist in Rom, <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-6"> ist in Rom, <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon11"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-7">. Italien liegt in
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon12"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-8">.
@@ -179,19 +179,19 @@
                                     <div class="ant t-6" id="ant-12"></div>
                                     <div class="input-group lh250">
                                         <strong>3. Eiffelturm:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon13"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-9">Eiffelturm?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon14"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-10"> ist in Paris, <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-10"> ist in Paris, <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon15"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-11">. Frankreich ist in
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon16"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-12">.
@@ -210,18 +210,18 @@
                                     <div class="ant t-6" id="ant-16"></div>
                                     <div class="input-group lh250">
                                         <strong>4. Panda:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon17"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-13"> Panda?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon18"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-14"> ist in Peking, <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-14"> ist in Peking, <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon19"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-15">. China ist in <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-15">. China ist in <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon20"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
@@ -241,19 +241,19 @@
                                     <div class="ant t-6" id="ant-20"></div>
                                     <div class="input-group lh250">
                                         <strong>5. Pyramide:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon21"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-17"> Pyramide?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon22"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-18"> ist in Giza, <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-18"> ist in Giza, <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon23"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-19">. Ägypten ist in
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon24"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-20">.
@@ -273,19 +273,19 @@
                                     <div class="input-group lh250">
                                         <strong>6. Mt.
                                             Kilimanjaro:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon25"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-21"> Mt. Kilimanjaro?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon26"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-22"> ist in Moshi, <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-22"> ist in Moshi, <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon27"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-23">. Tanzania ist in
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon28"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-24">.
@@ -305,19 +305,19 @@
                                     <div class="ant t-6" id="ant-28"></div>
                                     <div class="input-group lh250">
                                         <strong>7. Känguru:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon29"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-25"> Känguru?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon30"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-26"> ist in Sydney, <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-26"> ist in Sydney, <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon31"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-27">. Australien ist in
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon32"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-28">.
@@ -338,19 +338,19 @@
                                     <div class="input-group lh250">
                                         <strong>8.
                                             Freiheitsstatue:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon33"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-29"> Freiheitsstatue?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon34"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-30"> ist in New York,
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon35"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-31">. Amerika ist in
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon36"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-32">.
@@ -369,18 +369,18 @@
                                     <div class="ant t-6" id="ant-36"></div>
                                     <div class="input-group lh250">
                                         <strong>9. Taco:</strong>&nbsp;
-                                        Wo ist <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon37"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-33"> Taco?
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon38"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
                                             style="min-width: 50px; max-width: 80px;" id="qst-34"> ist in Mexico City,
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon39"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"
-                                            style="min-width: 50px; max-width: 80px;" id="qst-35">. Mexico ist in <input
+                                            style="min-width: 50px; max-width: 80px;" id="qst-35">. Mexico ist in <input autocomplete="off"
                                             type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon40"
                                             class="form-control q border-bottom-only rounded-0 mx-1 border-dark"

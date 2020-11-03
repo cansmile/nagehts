@@ -61,7 +61,7 @@
                         <div class="col-6">ankommen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-1">
                             </div>
@@ -73,7 +73,7 @@
                         <div class="col-6">auspacken</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-2">
                             </div>
@@ -85,7 +85,7 @@
                         <div class="col-6">besichtigen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-3">
                             </div>
@@ -97,7 +97,7 @@
                         <div class="col-6">kennen lernen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-4">
                             </div>
@@ -109,7 +109,7 @@
                         <div class="col-6">fahren</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-5">
                             </div>
@@ -121,7 +121,7 @@
                         <div class="col-6">kaufen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-6">
                             </div>
@@ -133,7 +133,7 @@
                         <div class="col-6">machen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-7">
                             </div>
@@ -145,7 +145,7 @@
                         <div class="col-6">trinken</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-8">
                             </div>
@@ -157,7 +157,7 @@
                         <div class="col-6">telefornieren</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-9">
                             </div>
@@ -169,7 +169,7 @@
                         <div class="col-6">verpassen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-10">
                             </div>
@@ -181,7 +181,7 @@
                         <div class="col-6">studieren </div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-11">
                             </div>
@@ -193,7 +193,7 @@
                         <div class="col-6">spielen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-12">
                             </div>
@@ -205,7 +205,7 @@
                         <div class="col-6">fernsehen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-13">
                             </div>
@@ -217,7 +217,7 @@
                         <div class="col-6">treffen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-14">
                             </div>
@@ -229,7 +229,7 @@
                         <div class="col-6">bekommen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-15">
                             </div>
@@ -241,7 +241,7 @@
                         <div class="col-6">aufstehen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-16">
                             </div>
@@ -253,7 +253,7 @@
                         <div class="col-6">tanzen</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-17">
                             </div>
@@ -265,7 +265,7 @@
                         <div class="col-6">hören</div>
                         <div class="col-6">
                             <div class="input-group">
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                 py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                     style="max-width: 100px;" aria-label="." id="qst-18">
                             </div>
@@ -334,7 +334,7 @@
                                 <td class="lh250">
                                     <div class="input-group d-inline">
                                         독일어의 과거분사형은 약변화동사와 강변화 동사이냐에 따라 과거분사형의
-                                        어미가 <input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        어미가 <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-19">로 변화한다
                                     </div>
@@ -344,11 +344,11 @@
                                 <th scope="row">&nbsp;</th>
                                 <td class="lh250">
                                     <div class="input-group d-inline">
-                                        규칙변화동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        규칙변화동사들은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-20">로 그리고
                                         불규칙
-                                        변화 동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        변화 동사들은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-21">로
                                         변화한다.
@@ -359,7 +359,7 @@
                                 <th scope="row">2.</th>
                                 <td class="lh250">
                                     <div class="input-group d-inline">
-                                        전철과 함께 오는 (불)규칙동사들은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        전철과 함께 오는 (불)규칙동사들은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-22">+ ge +
                                         어간
@@ -372,12 +372,12 @@
                                 <td class="lh250">
                                     <div class="input-group d-inline">
                                         비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은
-                                        <input type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only
+                                        <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only
                                         mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-23">+ ø ge
                                         +
                                         어간 + t 의 형태이고 비분리 전철과 함께 오는 불규칙변화 동사들의
-                                        과거분사형은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        과거분사형은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-24">+ ø ge
                                         +어간(+/-모음교체) + en 의 형태이며 어간은 모음교체현상이 일어날
@@ -389,7 +389,7 @@
                                 <th scope="row">4.</th>
                                 <td class="lh250">
                                     <div class="input-group d-inline">
-                                        -ieren 동사들의 과거분사형은<input type="text" class="form-control q pl-0 col-4 rounded-0
+                                        -ieren 동사들의 과거분사형은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-25">+ 어간 +
                                         t의

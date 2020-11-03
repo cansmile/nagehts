@@ -20,7 +20,7 @@
                                         <div id="ant-1"></div>
                                         <div class="input-group">
                                             Ich esse den Salat.
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -41,7 +41,7 @@
                                         <div id="ant-2"></div>
                                         <div class="input-group">
                                             Den Wein trinke ich nicht.
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -62,7 +62,7 @@
                                         <div id="ant-3"></div>
                                         <div class="input-group">
                                             Die Kartoffeln esse ich nicht.
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -89,7 +89,7 @@
                                         <div id="ant-4"></div>
                                         <div class="input-group">
                                             Ich esse das Hähnchen.
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -110,7 +110,7 @@
                                         <div id="ant-5"></div>
                                         <div class="input-group">
                                             Die Cola trinkt sie nicht.
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"

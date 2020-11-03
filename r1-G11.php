@@ -48,18 +48,18 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option1"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option1">↗</label>
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option2"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option2">↘</label>
                                     </div>
                                 </div>
@@ -79,18 +79,18 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option3"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option3">↗</label>
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option4"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option4">↘</label>
                                     </div>
                                 </div>
@@ -109,9 +109,9 @@
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option5"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option5">↗</label>
                                     </div>
                                     <div class="btn btn-light pop x"
@@ -119,9 +119,9 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option6"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option6">↘</label>
                                     </div>
                                 </div>
@@ -141,18 +141,18 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option7"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option7">↗</label>
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option8"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option8">↘</label>
                                     </div>
                                 </div>
@@ -172,18 +172,18 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option9"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option9">↗</label>
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option10"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option10">↘</label>
                                     </div>
                                 </div>
@@ -216,9 +216,9 @@
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option11"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option11">↗</label>
                                     </div>
                                     <div class="btn btn-light pop x"
@@ -226,9 +226,9 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option12"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option12">↘</label>
                                     </div>
                                 </div>
@@ -248,18 +248,18 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option13"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option13">↗</label>
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option14"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option14">↘</label>
                                     </div>
                                 </div>
@@ -278,9 +278,9 @@
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option15"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option15">↗</label>
                                     </div>
                                     <div class="btn btn-light pop x"
@@ -288,9 +288,9 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option16"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option16">↘</label>
                                     </div>
                                 </div>
@@ -310,18 +310,18 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option17"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option17">↗</label>
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option18"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option18">↘</label>
                                     </div>
                                 </div>
@@ -341,9 +341,9 @@
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option19"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option19">↗</label>
                                     </div>
                                     <div class="btn btn-light pop x"
@@ -351,9 +351,9 @@
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input type="radio" name="options"
+                                        <input autocomplete="off" type="radio" name="options"
                                             id="option20"
-                                            autocomplete="off"><label
+                                            ><label
                                             for="option20">↘</label>
                                     </div>
                                 </div>

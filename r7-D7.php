@@ -17,7 +17,7 @@
                                 <div
                                     class="input-group d-inline-flex align-items-baseline">
                                     Wann gehen wir ins Kino?&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-center form-control q border-bottom-only border-dark
@@ -35,7 +35,7 @@
                                 <div
                                     class="input-group d-inline-flex align-items-baseline">
                                     Mein Freund ist Pilot. Er arbeitet oft&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
@@ -53,13 +53,13 @@
                                 <div
                                     class="input-group d-inline-flex align-items-baseline">
                                     Meine Eltern kommen&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
                                         rounded-0" style="max-width: 120px;" id="qst-3">
                                     &nbsp;Montag&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
@@ -77,7 +77,7 @@
                                 <div
                                     class="input-group d-inline-flex align-items-baseline">
                                     Wollen wir heute einkaufen? Sagen wir&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
@@ -94,14 +94,14 @@
                             <td class="align-middle">
                                 <div
                                     class="input-group d-inline-flex align-items-baseline">
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-capitalize text-center form-control q border-bottom-only border-dark
                                         rounded-0" style="max-width: 120px;" id="qst-6">
                                     &nbsp;Freitagvormittag treffe ich meinen
                                     Professor. Wir treffen uns&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
@@ -120,7 +120,7 @@
                                     class="input-group d-inline-flex align-items-baseline">
                                     Mein Baby kann nicht schlafen. Es schreit
                                     und weint immer&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
@@ -137,13 +137,13 @@
                             <td class="align-middle">
                                 <div
                                     class="input-group d-inline-flex align-items-baseline">
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-capitalize text-center form-control q border-bottom-only border-dark
                                         rounded-0" style="max-width: 120px;" id="qst-9">
                                     &nbsp;Sonntag&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
@@ -163,7 +163,7 @@
                                     class="input-group d-inline-flex align-items-baseline">
                                     Wann wollen wir uns heute sehen? -Hm,
                                     vielleicht&nbsp;
-                                    <input type="text" placeholder="Antwort"
+                                    <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark

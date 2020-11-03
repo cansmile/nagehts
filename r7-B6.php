@@ -68,12 +68,12 @@
                                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
                                         <div class="btn btn-light pop x pb-0" data-toggle="popover"
                                             data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                                 for="option3">höflich.</label>
                                         </div>
                                         <div class="btn btn-light pop o pb-0" data-toggle="popover"
                                             data-container="body" data-placement="top" data-content="정답!">
-                                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                                 for="option4">unhöflich.</label>
                                         </div>
                                     </div>

@@ -27,15 +27,15 @@
                             data-toggle="buttons" id="qst-1">
                             <div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option1" autocomplete="off">Tochter
+                                <input autocomplete="off" type="radio" name="options" id="option1" >Tochter
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option2" autocomplete="off">Kinder
+                                <input autocomplete="off" type="radio" name="options" id="option2" >Kinder
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option3" autocomplete="off">Bruder
+                                <input autocomplete="off" type="radio" name="options" id="option3" >Bruder
                             </div>
                         </div>besucht uns mit ihren Kindern.&nbsp;<span class="ans"> </span>
                     </span>
@@ -46,15 +46,15 @@
                             data-toggle="buttons" id="qst-2">
                             <div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option4" autocomplete="off">Ostereier
+                                <input autocomplete="off" type="radio" name="options" id="option4" >Ostereier
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option5" autocomplete="off">Osterhase
+                                <input autocomplete="off" type="radio" name="options" id="option5" >Osterhase
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option6" autocomplete="off">Schokolade
+                                <input autocomplete="off" type="radio" name="options" id="option6" >Schokolade
                             </div>
                         </div> im Garten.&nbsp;<span class="ans"> </span>
                     </span>
@@ -73,15 +73,15 @@
                             data-toggle="buttons" id="qst-3">
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option7" autocomplete="off">Weihnachten
+                                <input autocomplete="off" type="radio" name="options" id="option7" >Weihnachten
                             </div>
                             <div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option8" autocomplete="off">Ostern
+                                <input autocomplete="off" type="radio" name="options" id="option8" >Ostern
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option9" autocomplete="off">Geburtstag
+                                <input autocomplete="off" type="radio" name="options" id="option9" >Geburtstag
                             </div>
                         </div>&nbsp;<span class="ans"> </span>
                     </span>
@@ -96,15 +96,15 @@
                             data-toggle="buttons" id="qst-4">
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option10" autocomplete="off">Oktoberfest
+                                <input autocomplete="off" type="radio" name="options" id="option10" >Oktoberfest
                             </div>
                             <div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option11" autocomplete="off">Weihnachten
+                                <input autocomplete="off" type="radio" name="options" id="option11" >Weihnachten
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option12" autocomplete="off">Geburtstag
+                                <input autocomplete="off" type="radio" name="options" id="option12" >Geburtstag
                             </div>
                         </div>.&nbsp;<span class="ans"> </span>
                     </span>
@@ -114,15 +114,15 @@
                             data-toggle="buttons" id="qst-5">
                             <div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option13" autocomplete="off">Geschenke
+                                <input autocomplete="off" type="radio" name="options" id="option13" >Geschenke
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option14" autocomplete="off">Essen
+                                <input autocomplete="off" type="radio" name="options" id="option14" >Essen
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option15" autocomplete="off">Geld
+                                <input autocomplete="off" type="radio" name="options" id="option15" >Geld
                             </div>
                         </div> ein.&nbsp;<span class="ans"> </span>
                     </span>
@@ -135,15 +135,15 @@
                             data-toggle="buttons" id="qst-6">
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option16" autocomplete="off">Weihnachtsgans
+                                <input autocomplete="off" type="radio" name="options" id="option16" >Weihnachtsgans
                             </div>
                             <div class="btn btn-light pop x px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
-                                <input type="radio" name="options" id="option17" autocomplete="off">Geschenke
+                                <input autocomplete="off" type="radio" name="options" id="option17" >Geschenke
                             </div>
                             <div class="btn btn-light pop o px-1" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
-                                <input type="radio" name="options" id="option18" autocomplete="off">Tannenbaum
+                                <input autocomplete="off" type="radio" name="options" id="option18" >Tannenbaum
                             </div>
                         </div> ist doch vor allem für das Fest.<span class="ans"> </span>
                     </span>

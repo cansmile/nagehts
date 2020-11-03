@@ -59,9 +59,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option1"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option1">Ja , das
                                                 geht.</label>
                                         </div>
@@ -70,9 +70,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option2"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option2">Nein, das geht
                                                 leider nicht !</label>
                                         </div>
@@ -93,9 +93,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option1"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option3">Ja , das
                                                 geht.</label>
                                         </div>
@@ -104,9 +104,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option2"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option4">Nein, das geht
                                                 leider nicht !</label>
                                         </div>
@@ -133,9 +133,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option1"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option5">Ja , das
                                                 geht.</label>
                                         </div>
@@ -144,9 +144,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option2"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option6">Nein, das geht
                                                 leider nicht !</label>
                                         </div>
@@ -169,9 +169,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option1"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option7">Ja , das
                                                 geht.</label>
                                         </div>
@@ -180,9 +180,9 @@
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input type="radio" name="options"
+                                            <input autocomplete="off" type="radio" name="options"
                                                 id="option2"
-                                                autocomplete="off"><label
+                                                ><label
                                                 for="option8">Nein, das geht
                                                 leider nicht !</label>
                                         </div>

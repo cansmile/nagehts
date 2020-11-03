@@ -34,7 +34,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Mina&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon1" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-1">
                                         &nbsp;erkältet.
@@ -49,11 +49,11 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon2" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-2">
                                         &nbsp;im Bett&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon3" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-3">.
                                     </div>
@@ -68,11 +68,11 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon4" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-4">
                                         &nbsp;nicht schwimmen&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-5">.
                                     </div>
@@ -87,11 +87,11 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon6" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-6">
                                         &nbsp;Nasentropfen&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon7" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-7">.
                                     </div>
@@ -120,7 +120,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon8" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-8">
                                         &nbsp;nervös.
@@ -135,11 +135,11 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon9" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 col-5 t-6" id="qst-9">
                                         &nbsp;keinen Alkohol&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon10" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-10">.
                                     </div>
@@ -154,11 +154,11 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon11" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-11">
                                         &nbsp;Gymnastik&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon12" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-12">
                                     </div>
@@ -173,7 +173,7 @@
                                 <td>
                                     <div class="input-group">und viel
                                         spazieren&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon13" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-13">.
                                     </div>
@@ -202,7 +202,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Er&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon14" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-14">
                                         &nbsp;Durchfall.
@@ -218,11 +218,11 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Er&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon15" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-15">
                                         &nbsp;viel Wasser&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon16" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-16">
                                         .
@@ -238,7 +238,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Er&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon17" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-17">&nbsp;keine
                                         Schokolade
@@ -254,7 +254,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">und kein Eis&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon18" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-18">
                                         &nbsp;.
@@ -286,7 +286,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon19" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-19">Rückenschmerzen.
                                     </div>
@@ -301,11 +301,11 @@
                                 </td>
                                 <td>
                                     <div class="input-group">Sie&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon20" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-20">
                                         &nbsp;Sport&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon21" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-21">,
                                     </div>
@@ -320,7 +320,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">z.B. Yoga&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon22" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-22">
                                     </div>
@@ -335,7 +335,7 @@
                                 </td>
                                 <td>
                                     <div class="input-group">und gerade&nbsp;
-                                        <input type="text" placeholder="Antwort" aria-label="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon23" class="text-center form-control q
                                             border-bottom-only border-dark rounded-0 t-6" id="qst-23">.
                                     </div>

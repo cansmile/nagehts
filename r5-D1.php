@@ -87,7 +87,7 @@
                                 <td>
                                     <div class="input-group">
                                         möcht
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-1">
@@ -99,7 +99,7 @@
                                 <td>
                                     <div class="input-group">
                                         möcht
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-2">
@@ -111,7 +111,7 @@
                                 <td>
                                     <div class="input-group">
                                         möcht
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-3">
@@ -123,7 +123,7 @@
                                 <td>
                                     <div class="input-group">
                                         möcht
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-4">
@@ -135,7 +135,7 @@
                                 <td>
                                     <div class="input-group">
                                         möcht
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-5">
@@ -147,7 +147,7 @@
                                 <td>
                                     <div class="input-group">
                                         möcht
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-6">
@@ -159,7 +159,7 @@
                                 <td>
                                     <div class="input-group">
                                         möcht
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-7">
@@ -177,7 +177,7 @@
                                 <td>
                                     <div class="input-group">
                                         nehm
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-8">
@@ -189,7 +189,7 @@
                                 <td>
                                     <div class="input-group">
                                         nimm
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-9">
@@ -201,7 +201,7 @@
                                 <td>
                                     <div class="input-group">
                                         nehm
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-10">
@@ -213,7 +213,7 @@
                                 <td>
                                     <div class="input-group">
                                         nimm
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-11">
@@ -225,7 +225,7 @@
                                 <td>
                                     <div class="input-group">
                                         nehm
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-12">
@@ -237,7 +237,7 @@
                                 <td>
                                     <div class="input-group">
                                         nehm
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-13">
@@ -249,7 +249,7 @@
                                 <td>
                                     <div class="input-group">
                                         nehm
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
                                             q pl-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-14">

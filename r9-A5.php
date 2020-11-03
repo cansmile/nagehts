@@ -70,7 +70,7 @@
                                 <td width="50" class="text-right">1.1</td>
                                 <td>
                                     <div class="input-group">
-                                        Am ersten <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        Am ersten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-1">ist
                                         Neujahr.
@@ -92,7 +92,7 @@
                                 <td width="50" class="text-right">14.2</td>
                                 <td>
                                     <div class="input-group">
-                                        Am vierzehnten <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                                        Am vierzehnten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-2">ist
                                         Valentinstag.
@@ -114,7 +114,7 @@
                                 <td width="50" class="text-right">1.5.</td>
                                 <td>
                                     <div class="input-group">
-                                        Am ersten <input type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
+                                        Am ersten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-3">ist Tag
                                         der Arbeit.
@@ -136,7 +136,7 @@
                                 <td width="50" class="text-right">3.10.</td>
                                 <td>
                                     <div class="input-group">
-                                        Am dritten <input type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
+                                        Am dritten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-4">ist Tag
                                         der deutschen Einheit.
@@ -158,7 +158,7 @@
                                 <td width="50" class="text-right">6.12.</td>
                                 <td>
                                     <div class="input-group">
-                                        Am sechsten <input type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
+                                        Am sechsten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-5">ist
                                         Nikolaustag.

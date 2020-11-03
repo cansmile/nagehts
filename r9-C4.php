@@ -42,7 +42,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-1">
                         haben.
@@ -60,7 +60,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-2">
                         haben.
@@ -78,7 +78,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-3">
                         haben.
@@ -96,7 +96,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-4">
                         haben.
@@ -114,7 +114,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-5">
                         haben.
@@ -132,7 +132,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-6">
                         haben.
@@ -150,7 +150,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-7">
                         haben.
@@ -168,7 +168,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-8">
                         haben.
@@ -186,7 +186,7 @@
                 <div class="col-sm-6 col-md-12 col-lg-12 my-2">
                     <div class="input-group">
                         Deshalb möchte ich
-                        <input type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
+                        <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark t-6" style="min-width: 100px; max-width: 200px;" aria-label="."
                         id="qst-9">
                         haben.

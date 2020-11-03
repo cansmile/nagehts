@@ -61,27 +61,27 @@
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option1"
-                                                    autocomplete="off">du
+                                                    >du
                                             </div>
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!zx">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option2"
-                                                    autocomplete="off">dir
+                                                    >dir
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option3"
-                                                    autocomplete="off">Ihnen
+                                                    >Ihnen
                                             </div>
                                         </div>?<span class="ans">&nbsp;</span>
                                     </span>
@@ -102,27 +102,27 @@
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option4"
-                                                    autocomplete="off">dir
+                                                    >dir
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option5"
-                                                    autocomplete="off">du
+                                                    >du
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input type="radio"
+                                                <input autocomplete="off" type="radio"
                                                     name="options" id="option6"
-                                                    autocomplete="off">Sie
+                                                    >Sie
                                             </div>
                                         </div> ?<span class="ans">&nbsp;</span>
                                     </span>

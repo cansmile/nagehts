@@ -21,17 +21,17 @@
                                             data-toggle="buttons" id="qst-1">
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option1" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option1" ><span
                                                     class="text-primary">den</span>
                                             </div>
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input type="radio" name="options" id="option2" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option2" ><span
                                                     class="text-danger">die</span>
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option3" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option3" ><span
                                                     class="text-secondary">das</span>
                                             </div>
                                         </div> Pizza.<span class="ans"></span>
@@ -51,17 +51,17 @@
                                             data-toggle="buttons" id="qst-2">
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option4" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option4" ><span
                                                     class="text-primary">den</span>
                                             </div>
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input type="radio" name="options" id="option5" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option5" ><span
                                                     class="text-danger">die</span>
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option6" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option6" ><span
                                                     class="text-secondary">das</span>
                                             </div>
                                         </div> Cola.<span class="ans"></span>
@@ -81,17 +81,17 @@
                                             data-toggle="buttons" id="qst-3">
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option7" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option7" ><span
                                                     class="text-primary">den</span>
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option8" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option8" ><span
                                                     class="text-danger">die</span>
                                             </div>
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input type="radio" name="options" id="option9" autocomplete="off"><span
+                                                <input autocomplete="off" type="radio" name="options" id="option9" ><span
                                                     class="text-secondary">das</span>
                                             </div>
                                         </div> Steak <span class="ans"></span>
@@ -101,18 +101,18 @@
                                             data-toggle="buttons" id="qst-4">
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input type="radio" name="options" id="option10"
-                                                    autocomplete="off"><span class="text-primary">den</span>
+                                                <input autocomplete="off" type="radio" name="options" id="option10"
+                                                    ><span class="text-primary">den</span>
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option11"
-                                                    autocomplete="off"><span class="text-danger">die</span>
+                                                <input autocomplete="off" type="radio" name="options" id="option11"
+                                                    ><span class="text-danger">die</span>
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input type="radio" name="options" id="option12"
-                                                    autocomplete="off"><span class="text-secondary">das</span>
+                                                <input autocomplete="off" type="radio" name="options" id="option12"
+                                                    ><span class="text-secondary">das</span>
                                             </div>
                                         </div> Wein.<span class="ans"></span>
                                     </span>

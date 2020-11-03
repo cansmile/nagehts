@@ -30,16 +30,16 @@
                         style="max-width: 240px; height: auto;"></div>
                 <div class="col-12 mt-5">
                     <div class="input-group text-center">
-                        ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                        ( <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-1"> ) -
-                        ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                        ( <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-2"> ) -
-                        ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                        ( <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-3"> ) -
-                        ( <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                        ( <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-4"> )
                     </div>
@@ -59,7 +59,7 @@
                     <strong>Sonntag 16 Juli</strong>
                     <div class="input-group">
                         Am Sonntag, den 16. Juli habe ich einen
-                        Stadtrundgang <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                        Stadtrundgang <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                         py-1 text-center border-dark
                         col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px; min-width: 50px;" aria-label="."
                             id="qst-5">.
@@ -68,7 +68,7 @@
                     </div>
                     <div class="input-group">
                         Ich habe die Semperoper
-                        und dann den Zwinger <input type="text" class="form-control q rounded-0 border-bottom-only mx-1
+                        und dann den Zwinger <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1
                         px-2 py-1 text-center border-dark
                         col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px; min-width: 50px;" aria-label="."
                             id="qst-6">.<span class="tran">&nbsp;<small>잼퍼오퍼와 츠빙어를
@@ -76,19 +76,19 @@
                     </div>
                     <div class="input-group">
                         Am Nachmittag habe
-                        ich einen Ausflug in die Sächsische Schweiz <input type="text" class="form-control q rounded-0
+                        ich einen Ausflug in die Sächsische Schweiz <input autocomplete="off" type="text" class="form-control q rounded-0
                         border-bottom-only mx-1 px-2 py-1 text-center border-dark
                         col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px; min-width: 50px;" aria-label="."
                             id="qst-7">.<span class="tran">&nbsp;<small>오후에는 작센의 스위스로 소풍을
                                 갔다.</small>&nbsp;</span>
                     </div>
                     <div class="input-group">
-                        Dort <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        Dort <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark
                             col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px; min-width: 50px;"
                             aria-label="." id="qst-8"> es ein schönes
                         Panorama.<span class="tran">&nbsp;<small>그곳은 경치가
-                                아름다웠다.</small>&nbsp;</span> Am Abend <input type="text" class="form-control q
+                                아름다웠다.</small>&nbsp;</span> Am Abend <input autocomplete="off" type="text" class="form-control q
                                 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                             col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px; min-width: 50px;"
                             aria-label="." id="qst-9"> ich auf dem Orgelkonzert

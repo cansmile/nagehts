@@ -17,22 +17,22 @@
                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option1" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option1" ><label
                                 for="option1">Frühling<span class="tran"><br><small>봄</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option2" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option2" ><label
                                 for="option2">Sommer<span class="tran"><br><small>여름</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option3" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
                                 for="option3">Herbst<span class="tran"><br><small>가을</small></span></label>
                         </div>
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답!">
-                            <input type="radio" name="options" id="option4" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
                                 for="option4">Winter<span class="tran"><br><small>겨울</small></span></label>
                         </div>
                     </div>
@@ -44,22 +44,22 @@
                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답!">
-                            <input type="radio" name="options" id="option5" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option5" ><label
                                 for="option5">Frühling<span class="tran"><br><small>봄</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option6" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option6" ><label
                                 for="option6">Sommer<span class="tran"><br><small>여름</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option7" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option7" ><label
                                 for="option7">Herbst<span class="tran"><br><small>가을</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option8" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option8" ><label
                                 for="option8">Winter<span class="tran"><br><small>겨울</small></span></label>
                         </div>
                     </div>
@@ -71,22 +71,22 @@
                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option9" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option9" ><label
                                 for="option9">Frühling<span class="tran"><br><small>봄</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option10" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option10" ><label
                                 for="option10">Sommer<span class="tran"><br><small>여름</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option11" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option11" ><label
                                 for="option11">Herbst<span class="tran"><br><small>가을</small></span></label>
                         </div>
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답!">
-                            <input type="radio" name="options" id="option12" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option12" ><label
                                 for="option12">Winter<span class="tran"><br><small>겨울</small></span></label>
                         </div>
                     </div>
@@ -97,22 +97,22 @@
                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답!">
-                            <input type="radio" name="options" id="option13" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option13" ><label
                                 for="option13">Frühling<span class="tran"><br><small>봄</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option14" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option14" ><label
                                 for="option14">Sommer<span class="tran"><br><small>여름</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option15" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option15" ><label
                                 for="option15">Herbst<span class="tran"><br><small>가을</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option16" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option16" ><label
                                 for="option16">Winter<span class="tran"><br><small>겨울</small></span></label>
                         </div>
                     </div>
@@ -124,22 +124,22 @@
                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option17" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option17" ><label
                                 for="option17">Frühling<span class="tran"><br><small>봄</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option18" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option18" ><label
                                 for="option18">Sommer<span class="tran"><br><small>여름</small></span></label>
                         </div>
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답!">
-                            <input type="radio" name="options" id="option19" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option19" ><label
                                 for="option19">Herbst<span class="tran"><br><small>가을</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option20" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option20" ><label
                                 for="option20">Winter<span class="tran"><br><small>겨울</small></span></label>
                         </div>
                     </div>
@@ -151,22 +151,22 @@
                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option21" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option21" ><label
                                 for="option21">Frühling<span class="tran"><br><small>봄</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option22" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option22" ><label
                                 for="option22">Sommer<span class="tran"><br><small>여름</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option23" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option23" ><label
                                 for="option23">Herbst<span class="tran"><br><small>가을</small></span></label>
                         </div>
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답!">
-                            <input type="radio" name="options" id="option24" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option24" ><label
                                 for="option24">Winter<span class="tran"><br><small>겨울</small></span></label>
                         </div>
                     </div>
@@ -177,22 +177,22 @@
                     <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option25" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option25" ><label
                                 for="option25">Frühling<span class="tran"><br><small>봄</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option26" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option26" ><label
                                 for="option26">Sommer<span class="tran"><br><small>여름</small></span></label>
                         </div>
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답!">
-                            <input type="radio" name="options" id="option27" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option27" ><label
                                 for="option27">Herbst<span class="tran"><br><small>가을</small></span></label>
                         </div>
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                             data-placement="top" data-content="정답이 아니에요.">
-                            <input type="radio" name="options" id="option28" autocomplete="off"><label
+                            <input autocomplete="off" type="radio" name="options" id="option28" ><label
                                 for="option28">Winter<span class="tran"><br><small>겨울</small></span></label>
                         </div>
                     </div>

@@ -94,15 +94,15 @@
                                                     data-toggle="buttons" id="qst-1">
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option3" autocomplete="off">kein
+                                                        <input autocomplete="off" type="radio" name="options" id="option3" >kein
                                                     </div>
                                                     <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option4" autocomplete="off">keine
+                                                        <input autocomplete="off" type="radio" name="options" id="option4" >keine
                                                     </div>
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option4" autocomplete="off">nicht
+                                                        <input autocomplete="off" type="radio" name="options" id="option4" >nicht
                                                     </div>
                                                 </div> Kinder. Und Sie?<span class="ans"></span>
                                             </span>
@@ -122,15 +122,15 @@
                                                     data-toggle="buttons" id="qst-2">
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option3" autocomplete="off">kein
+                                                        <input autocomplete="off" type="radio" name="options" id="option3" >kein
                                                     </div>
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input type="radio" name="options" id="option4" autocomplete="off">keine
+                                                        <input autocomplete="off" type="radio" name="options" id="option4" >keine
                                                     </div>
                                                     <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input type="radio" name="options" id="option4" autocomplete="off">nicht
+                                                        <input autocomplete="off" type="radio" name="options" id="option4" >nicht
                                                     </div>
                                                 </div> verheiratet. Ich bin ledig.<span class="ans"></span>
                                             </span>

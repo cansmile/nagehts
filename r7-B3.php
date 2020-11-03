@@ -155,7 +155,7 @@
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
                                         Tim und Mina gehen ins
-                                        <input type="text" class="form-control border border-dark border-bottom-only
+                                        <input autocomplete="off" type="text" class="form-control border border-dark border-bottom-only
                                         rounded-0 mx-1 px-2 py-1 q t-6" aria-label="." id="qst-1">
                                         .
                                     </div><span class="tran"><small><br>네, 치우는 거
@@ -168,7 +168,7 @@
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
                                         Tim trifft Mina heute um
-                                        <input type="text" class="form-control border border-dark border-bottom-only
+                                        <input autocomplete="off" type="text" class="form-control border border-dark border-bottom-only
                                         rounded-0 mx-1 px-2 py-1 q t-6" aria-label="." id="qst-2">
                                         .
                                     </div><span class="tran"><small><br>아뇨, 저는

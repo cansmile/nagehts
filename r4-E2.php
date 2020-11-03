@@ -26,7 +26,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -36,7 +36,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -49,7 +49,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -59,7 +59,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -72,7 +72,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -82,7 +82,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -95,7 +95,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -105,7 +105,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -118,7 +118,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-9"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -128,7 +128,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-10"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -141,7 +141,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-11"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"
@@ -151,7 +151,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-12"></div>
                                     <div class="input-group">
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="form-control q border border-bottom-only rounded-0 t-6"

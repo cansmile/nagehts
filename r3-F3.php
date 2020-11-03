@@ -29,7 +29,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Wie
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
@@ -48,7 +48,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Ich
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon2"
@@ -67,7 +67,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Und was
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon3"
@@ -86,14 +86,14 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Ich
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon4"
                                                 class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-4">
                                             Student und
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon5"
@@ -112,7 +112,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Wie alt
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon6"
@@ -131,7 +131,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Ich
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon7"

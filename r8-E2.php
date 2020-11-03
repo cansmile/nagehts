@@ -56,7 +56,7 @@
                                     <div class="ant text-capitalize" id="ant-1">
                                     </div>
                                     <div class="input-group">Ich habe&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-1">.
@@ -70,7 +70,7 @@
                                     <div class="ant text-capitalize" id="ant-2">
                                     </div>
                                     <div class="input-group">Ich habe&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-2">.
@@ -98,7 +98,7 @@
                                     <div class="ant text-capitalize" id="ant-3">
                                     </div>
                                     <div class="input-group">Ich habe&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-3">.
@@ -112,7 +112,7 @@
                                     <div class="ant text-capitalize" id="ant-4">
                                     </div>
                                     <div class="input-group">Mein&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-4">&nbsp;tut
@@ -141,7 +141,7 @@
                                     <div class="ant text-capitalize" id="ant-5">
                                     </div>
                                     <div class="input-group">Ich habe&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-5">.
@@ -155,7 +155,7 @@
                                     <div class="ant text-capitalize" id="ant-6">
                                     </div>
                                     <div class="input-group">
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-6">&nbsp;tut
@@ -184,7 +184,7 @@
                                     <div class="ant text-capitalize" id="ant-7">
                                     </div>
                                     <div class="input-group">Ich habe&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-7">.
@@ -198,7 +198,7 @@
                                     <div class="ant text-capitalize" id="ant-8">
                                     </div>
                                     <div class="input-group">Mein&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-8">&nbsp;tut
@@ -227,7 +227,7 @@
                                     <div class="ant text-capitalize" id="ant-9">
                                     </div>
                                     <div class="input-group">Mein&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-9">&nbsp;tut
@@ -242,7 +242,7 @@
                                     <div class="ant text-capitalize"
                                         id="ant-10"></div>
                                     <div class="input-group">Ich habe&nbsp;
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
                                             col-auto text-center text-capitalize t-6"
                                             aria-label="." id="qst-10">.

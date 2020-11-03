@@ -80,7 +80,7 @@
                                     Um halb zehn&nbsp;<br />
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control border border-bottom-only q"
+                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
                                             aria-label="." id="qst-1" style="position: relation; top: 5px;">
                                     </div><span class="tran"><br /><small>9시
                                             30분에 그는 신문을 읽습니다.</small>
@@ -108,7 +108,7 @@
                                     Um halb zwei&nbsp;<br />
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control border border-bottom-only q"
+                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
                                             aria-label="." id="qst-2" style="position: relation; top: 5px;">
                                     </div><span class="tran"><br /><small>1시
                                             30분에 그는 점심을 주문합니다.</small>
@@ -136,7 +136,7 @@
                                     Um drei&nbsp;<br />
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control border border-bottom-only q"
+                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
                                             aria-label="." id="qst-3" style="position: relation; top: 5px;">
                                     </div><span class="tran"><br /><small>3시에 그는
                                             사진을 찍습니다.</small>
@@ -164,7 +164,7 @@
                                     Um halb acht&nbsp;<br />
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control border border-bottom-only q"
+                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
                                             aria-label="." id="qst-4" style="position: relation; top: 5px;">
                                     </div><span class="tran"><br /><small>7시
                                             30분에 그는 저녁을 먹습니다.</small>
@@ -192,7 +192,7 @@
                                     Um zehn&nbsp;<br />
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
-                                        <input type="text" class="form-control border border-bottom-only q"
+                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
                                             aria-label="." id="qst-5" style="position: relation; top: 5px;">
                                     </div><span class="tran"><br /><small>10시에
                                             그는 TV를 봅니다.</small>

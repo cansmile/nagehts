@@ -85,7 +85,7 @@
                                         <div id="ant-1"></div>
                                         <div class="input-group">
                                             Er isst gern
-                                            <input type="text"
+                                            <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
@@ -102,7 +102,7 @@
                             <div id="ant-2"></div>
                             <div class="input-group">
                                 und trinkt gern
-                                <input type="text" placeholder="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort"
                                     aria-label="Antwort"
                                     aria-describedby="basic-addon2"
                                     class="text-center form-control col-4 border-bottom-only rounded-0 ml-1 q t-6"
@@ -119,7 +119,7 @@
                             <div id="ant-3"></div>
                             <div class="input-group">
                                 Aber er mag keinen
-                                <input type="text" placeholder="Antwort"
+                                <input autocomplete="off" type="text" placeholder="Antwort"
                                     aria-label="Antwort"
                                     aria-describedby="basic-addon3"
                                     class="text-center form-control col-4 border-bottom-only rounded-0 ml-1 q t-6"
@@ -144,7 +144,7 @@
                                     <div id="ant-4"></div>
                                     <div class="input-group">
                                         Sie isst gern
-                                        <input type="text" placeholder="Antwort"
+                                        <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control col-4 border-bottom-only rounded-0 ml-1 q t-6"
@@ -160,7 +160,7 @@
                         <div id="ant-5"></div>
                         <div class="input-group">
                             und trinkt gern
-                            <input type="text" placeholder="Antwort"
+                            <input autocomplete="off" type="text" placeholder="Antwort"
                                 aria-label="Antwort"
                                 aria-describedby="basic-addon5"
                                 class="text-center form-control col-4 border-bottom-only rounded-0 ml-1 q t-6"
@@ -176,7 +176,7 @@
                     <div id="ant-6"></div>
                     <div class="input-group">
                         Aber sie mag kein
-                        <input type="text" placeholder="Antwort"
+                        <input autocomplete="off" type="text" placeholder="Antwort"
                             aria-label="Antwort" aria-describedby="basic-addon6"
                             class="text-center form-control col-4 border-bottom-only rounded-0 ml-1 q t-6" id="qst-6">
                         .

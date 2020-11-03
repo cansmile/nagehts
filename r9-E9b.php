@@ -16,13 +16,13 @@
                         <div class="col-1 text-center">1.</div>
                         <div class="col-11">
                             <div class="input-group">
-                                Du <input type="text"
+                                Du <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-1"> gestern deine
                                 Geburtstagsfeier. <span
                                     class="tran">&nbsp;<small>너 어제 생일파티를
-                                        했구나.</small>&nbsp;</span> Wie <input
+                                        했구나.</small>&nbsp;</span> Wie <input autocomplete="off"
                                     type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
@@ -33,12 +33,12 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-11">
                             <div class="input-group">
-                                Sie <input type="text"
+                                Sie <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-3"> super! <span
                                     class="tran">&nbsp;<small>대단했어.</small>&nbsp;</span>
-                                Wir <input type="text"
+                                Wir <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-4"> viel Spaß. <span
@@ -53,7 +53,7 @@
                         <div class="col-1 text-center">2.</div>
                         <div class="col-11">
                             <div class="input-group">
-                                Meine Eltern <input type="text"
+                                Meine Eltern <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-5"> vor 20 Jahren
@@ -71,7 +71,7 @@
                         <div class="col-1 text-center">3.</div>
                         <div class="col-11">
                             <div class="input-group">
-                                Sabine <input type="text"
+                                Sabine <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-6">schon als Kind
@@ -87,7 +87,7 @@
                         <div class="col-1 text-center">4.</div>
                         <div class="col-11">
                             <div class="input-group">
-                                Wo <input type="text"
+                                Wo <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-7">ihr zu
@@ -99,7 +99,7 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-11">
                             <div class="input-group">
-                                Wir <input type="text"
+                                Wir <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-8">bei unseren
@@ -114,7 +114,7 @@
                         <div class="col-1 text-center">5.</div>
                         <div class="col-11">
                             <div class="input-group">
-                                Als Kind<input type="text"
+                                Als Kind<input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-9"> ich ein eigenes
@@ -129,7 +129,7 @@
                         <div class="col-1 text-center">6.</div>
                         <div class="col-11">
                             <div class="input-group">
-                                Wo <input type="text"
+                                Wo <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-10">du denn? <span
@@ -140,13 +140,13 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-11">
                             <div class="input-group">
-                                Ich <input type="text"
+                                Ich <input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-11"> mit Tim im
                                 Konzert. <span class="tran">&nbsp;<small>나는 톰과
                                         함께 콘서트에 있었어.</small>&nbsp;</span>
-                                Das<input type="text"
+                                Das<input autocomplete="off" type="text"
                                     class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                     text-center border-dark mx-1 t-6" style="min-width: 150px;"
                                     aria-label="." id="qst-12">sehr schön. <span

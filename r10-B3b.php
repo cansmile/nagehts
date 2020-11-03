@@ -19,7 +19,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>1.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-1">Auto <span class="tran">&nbsp;<small>자동차로</small></span>
                     </div>
@@ -27,7 +27,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>2.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-2">Taxi <span class="tran">&nbsp;<small>택시로</small></span>
                     </div>
@@ -35,7 +35,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>3.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-3">Zug <span class="tran">&nbsp;<small>기차로</small></span>
                     </div>
@@ -43,7 +43,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>4.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-4">Fahrrad <span class="tran">&nbsp;<small>자전거로</small></span>
                     </div>
@@ -51,7 +51,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>5.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-5">Straßenbahn <span class="tran">&nbsp;<small>전철로</small></span>
                     </div>
@@ -59,7 +59,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>6.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-6">Schiff <span class="tran">&nbsp;<small>배로</small></span>
                     </div>
@@ -67,7 +67,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>7.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-7">Flugzeug <span class="tran">&nbsp;<small>비행기로</small></span>
                     </div>
@@ -75,7 +75,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>8.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-8">U-Bahn <span class="tran">&nbsp;<small>지하철로</small></span>
                     </div>
@@ -83,7 +83,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
                         <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>9.
-                        mit <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                        mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-9">Motorrad <span class="tran">&nbsp;<small>오토바이로</small></span>
                     </div>

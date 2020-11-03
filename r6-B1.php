@@ -34,7 +34,7 @@
 
                                             <div class="ant t-6" id="ant-1"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
                                                     aria-label="." id="qst-1"> Uhr
                                             </div>
@@ -53,7 +53,7 @@
 
                                             <div class="ant t-6" id="ant-2"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
                                                     aria-label="." id="qst-2"> Uhr
                                             </div>
@@ -78,7 +78,7 @@
 
                                             <div class="ant t-6" id="ant-3"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
                                                     aria-label="." id="qst-3"> Uhr
                                             </div>
@@ -97,7 +97,7 @@
 
                                             <div class="ant t-6" id="ant-4"></div>
                                             <div class="input-group">
-                                                <input type="text"
+                                                <input autocomplete="off" type="text"
                                                     class="form-control q border-bottom-only rounded-0 mx-1"
                                                     aria-label="." id="qst-4"> Uhr
                                             </div>

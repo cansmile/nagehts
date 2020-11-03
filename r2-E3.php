@@ -29,7 +29,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Frau Kim
-                                            komm<input type="text"
+                                            komm<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-1">
                                             aus Korea.
@@ -45,7 +45,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Woher
-                                            komm<input type="text"
+                                            komm<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-2">
                                             Sie?
@@ -61,7 +61,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Ich
-                                            komm<input type="text"
+                                            komm<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-3">
                                             aus Japan.
@@ -83,7 +83,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Ich
-                                            heiß<input type="text"
+                                            heiß<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-4">
                                             Chul.
@@ -99,7 +99,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Wie
-                                            heiß<input type="text"
+                                            heiß<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-5">
                                             du?
@@ -115,7 +115,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Wie
-                                            heiß<input type="text"
+                                            heiß<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-6">
                                             Sie?
@@ -137,7 +137,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Wo
-                                            wohn<input type="text"
+                                            wohn<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-7">
                                             du?
@@ -153,7 +153,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Ich
-                                            wohn<input type="text"
+                                            wohn<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-8">
                                             in Salzburg.
@@ -169,7 +169,7 @@
                                     <span class="sen">
                                         <div class="input-group">
                                             Stefan
-                                            wohn<input type="text"
+                                            wohn<input autocomplete="off" type="text"
                                                 class="form-control q border-bottom-only rounded-0 ml-0 mr-1 col-2 pl-0 t-6"
                                                 aria-label="." id="qst-9">
                                             in Graz.

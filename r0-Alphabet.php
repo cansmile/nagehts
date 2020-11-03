@@ -664,7 +664,7 @@
                         <br>
                         <small>이름을 써보고 스펠링을 말해보아요.<br>(입력은 되지만 별도의 기능이
                             없어요.)</small></h2>
-                    <input type="text" class="form-control-lg text-lowercase"
+                    <input autocomplete="off" type="text" class="form-control-lg text-lowercase"
                         placeholder="Namen" id="namen"><button type="button"
                         class="p-2 px-3 m-1 border rounded btn btn-lime"
                         id="play">▶</button>

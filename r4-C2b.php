@@ -52,7 +52,7 @@
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
                                         Sie hat einen Kleber, aber
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
                                             aria-label="." id="qst-1">
                                         Radiergummi.
@@ -68,7 +68,7 @@
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
                                         Sie hat Buntstifte, aber
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
                                             aria-label="." id="qst-2">
                                         Geld.
@@ -107,7 +107,7 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
                                         Er hat Geld, aber
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
                                             aria-label="." id="qst-3">
                                         Bleistift.
@@ -124,7 +124,7 @@
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
                                         Er hat
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
                                             aria-label="." id="qst-4">
                                         Kuli,
@@ -140,7 +140,7 @@
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
                                         aber
-                                        <input type="text"
+                                        <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
                                             aria-label="." id="qst-5">
                                         Schultasche.

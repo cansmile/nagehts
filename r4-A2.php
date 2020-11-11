@@ -179,19 +179,19 @@
         </div>
         <div class="row">
             <div class="col">
-                <table class="table table-borderless">
+                <table class="table table-borderless lh350">
                     <tbody>
                     <tr>
-                        <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
+                        <td class="border border-gray-light border-top-only align-top" rowspan="3">
                             <div id="ant-1"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon1"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
+                                       class="text-center form-control q rounded-0 border-bottom-only nodi"
                                        id="qst-1">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only lh350">
+                        <td class="border border-gray-light border-top-only">
                             Ich bin Anna und wohne in Leipzig.
                             <span class="tran"><small>나는 안나이고 라이프찌히에
                                             삽니다.</small></span>
@@ -204,7 +204,7 @@
                                 Meine Familie wohnt in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon8"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2 t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2"
                                        id="qst-8">
                                 .
                             </div>
@@ -222,23 +222,23 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="2">
+                        <td class="border border-gray-light border-top-only align-middle" rowspan="2">
                             <div id="ant-2"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon2"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
+                                       class="text-center form-control q rounded-0 border-bottom-only nodi"
                                        id="qst-2">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only lh350">
+                        <td class="border border-gray-light border-top-only">
                             <div id="ant-9"></div>
                             <div class="input-group">
                                 Meine Eltern wohnen mit ihrem Hund in
                                 einem 200 Quadratmeter großen
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon9"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2 t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2"
                                        id="qst-9">
                                 .
                             </div>
@@ -258,16 +258,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="2">
+                        <td class="border border-gray-light border-top-only align-middle" rowspan="2">
                             <div id="ant-3"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon3"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
+                                       class="text-center form-control q rounded-0 border-bottom-only nodi"
                                        id="qst-3">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only lh350">
+                        <td class="border border-gray-light border-top-only">
                             <div id="ant-10"></div>
                             <div class="input-group">
                                 Hi! Ich bin Anna und komme aus Dresden.
@@ -284,7 +284,7 @@
                                 Zurzeit wohne ich in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon10"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-3 t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-3"
                                        id="qst-10">
                                 , denn es ist günstig.
                             </div>
@@ -293,16 +293,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="4">
+                        <td class="border border-gray-light border-top-only align-middle" rowspan="4">
                             <div id="ant-4"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon4"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
+                                       class="text-center form-control q rounded-0 border-bottom-only nodi"
                                        id="qst-4">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only lh350">
+                        <td class="border border-gray-light border-top-only">
                             <div id="ant-11"></div>
                             <div class="input-group">
                                 Ich reise gern. Ich möchte gern in
@@ -318,7 +318,7 @@
                                 Da will ich das
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon11"
-                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2 t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2"
                                        id="qst-11">
                                 besuchen.
                             </div>
@@ -347,16 +347,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only lh350 align-middle" rowspan="4">
+                        <td class="border border-gray-light border-top-only align-middle" rowspan="4">
                             <div id="ant-5"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon5"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
+                                       class="text-center form-control q rounded-0 border-bottom-only nodi"
                                        id="qst-5">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only lh350">
+                        <td class="border border-gray-light border-top-only">
                             <div id="ant-12"></div>
                             <div class="input-group">
                                 Ich bin Bauer von Beruf und liebe die
@@ -372,7 +372,7 @@
                                 Mit meiner Familie wohne ich auf einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon12"
-                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2 t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2"
                                        id="qst-12">
                                 .
                             </div>
@@ -404,16 +404,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
+                        <td class="border border-gray-light border-top-only align-top" rowspan="3">
                             <div id="ant-6"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon6"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
+                                       class="text-center form-control q rounded-0 border-bottom-only nodi"
                                        id="qst-6">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only lh350">
+                        <td class="border border-gray-light border-top-only">
                             <div id="ant-13"></div>
                             <div class="input-group">
                                 Ich lebe gern umweltfreundlich.
@@ -440,7 +440,7 @@
                                 Ich lebe auch in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon13"
-                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2 t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2"
                                        id="qst-13">
                                 mit Solarenergie und Wasserspartechnik.
                             </div>
@@ -450,16 +450,16 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="border border-gray-light border-top-only lh350 align-top" rowspan="3">
+                        <td class="border border-gray-light border-top-only align-top" rowspan="3">
                             <div id="ant-7"></div>
                             <div class="input-group" style="width:50px;" class="text-center">
                                 <input autocomplete="off" type="text" placeholder="Nr." aria-label="Antwort"
                                        aria-describedby="basic-addon7"
-                                       class="text-center form-control q rounded-0 border-bottom-only t-6 nodi"
+                                       class="text-center form-control q rounded-0 border-bottom-only nodi"
                                        id="qst-7">
                             </div>
                         </td>
-                        <td class="border border-gray-light border-top-only lh350">
+                        <td class="border border-gray-light border-top-only">
                             Wir sind verheiratet und haben noch keine
                             Kinder.
                             <span class="tran"><small>우리는 결혼하였고 아직 아이가
@@ -473,7 +473,7 @@
                                 Wir wohnen jetzt in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon14"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2 t-6"
+                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2"
                                        id="qst-14">
                                 .
                             </div>
@@ -486,7 +486,7 @@
                             <div id="ant-15"></div>
                             <div class="input-group">
                                 Ein <span
-                                    class="border border-bottom-only border-light bg-success font-weight-bold mx-2 p-2 px-3 text-white t-6">Reihenhaus</span>
+                                    class="border border-bottom-only border-light bg-success font-weight-bold mx-2 p-2 px-3 text-white">Reihenhaus</span>
                                 ist meistens ein Familienhaus, in einer
                                 Reihe von gleichen, aneinander gebauten
                                 Häusern.
@@ -546,21 +546,21 @@
                 "./dev/sounds/Reihe 4/r4 A2.mp3"
             ],
             sprite: {
-                "0": [41, 40456],
-                "1": [1762, 1434],
-                "2": [6779, 2024],
-                "3": [11797, 2664],
-                "4": [18634, 2074],
-                "5": [24500, 2110],
-                "6": [31521, 1778],
-                "7": [37965, 1582],
-                "8": [1762, 1434],
-                "9": [6779, 2024],
-                "10": [11797, 2664],
-                "11": [18634, 2074],
-                "12": [24500, 2110],
-                "13": [31521, 1778],
-                "14": [37965, 1582]
+                "0": [41, 49456],
+                "1": [10762, 1434],
+                "2": [15779, 2024],
+                "3": [20797, 2664],
+                "4": [27634, 2074],
+                "5": [33500, 2110],
+                "6": [40521, 1778],
+                "7": [46965, 1582],
+                "8": [10762, 1434],
+                "9": [15779, 2024],
+                "10": [20797, 2664],
+                "11": [27634, 2074],
+                "12": [33500, 2110],
+                "13": [40521, 1778],
+                "14": [46965, 1582]
             },
             html5: true,
             volume: 1,
@@ -577,9 +577,7 @@
 
                 /* 역동적 입력란 */
                 function di(th) {
-                    var le = 0,
-                        mp = 8,
-                        l = th.val().length;
+                    var le = 0, mp = 8, l = th.val().length;
                     if (l < 5) {
                         var mp = 10;
                     }
@@ -602,7 +600,7 @@
                         le = l * 1.55;
                     }
                     var w = (le + 1) * mp + "px";
-                    if(!th.hasClass("nodi")) {
+                    if (!th.hasClass("nodi")) {
                         th.addClass("mx-1");
                         th.css("min-width", w);
                         th.css("max-width", w);
@@ -755,7 +753,7 @@
                         for (var i = 0; i < an.length; i++) {
                             var oran = $("#qst-" + (i + 1)).val();
                             if (rfchk($("#qst-" + (i + 1)), true)) {
-                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1 t+3");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                             } else {
                                 $("#qst-" + (i + 1)).val(oran);
@@ -763,9 +761,9 @@
                                 $("#qst-" + (i + 1)).addClass("wa");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] + "</div>");
+                                    $("#qst-" + (i + 1)).after("<div class=\"d-block ra\">" + an[i] + "</div>");
                                 } else {/* 2 이상인 경우 */
-                                    var r = "<div class=\"d-block ra t-6\">";
+                                    var r = "<div class=\"d-block ra\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";

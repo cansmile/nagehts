@@ -485,8 +485,10 @@
                         <td>
                             <div id="ant-15"></div>
                             <div class="input-group">
-                                Ein <span
-                                    class="border border-bottom-only border-light bg-success font-weight-bold mx-2 p-2 px-3 text-white">Reihenhaus</span>
+                                Ein <input autocomplete="off" type="text" placeholder="Reihenhaus" aria-label="Reihenhaus"
+                                           aria-describedby="basic-addon15"
+                                           class="text-center form-control rounded-0 border-bottom-only mx-2 col-2 bg-success font-weight-bold text-white t_add_6"
+                                           id="nqst" disabled>
                                 ist meistens ein Familienhaus, in einer
                                 Reihe von gleichen, aneinander gebauten
                                 Häusern.
@@ -834,6 +836,8 @@
 
                 $("#0").show();
                 $(".alert").hide();
+
+                $("#nqst").val("Reihenhaus");
             },
             onend: function () {
                 $("div#last").text("");

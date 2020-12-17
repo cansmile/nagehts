@@ -30,11 +30,11 @@
                     <div class="col-12 my-5">
                         <div class="row">
                             <div class="col-6 text-center">
-                                <img src="./dev/images/Reihe%2011/Reihe-11-D4-1.png"
+                                <img src="./dev/images/Reihe 12/Reihe-12-D4-1.png"
                                      style="max-width: 100%; height: auto;" alt="Meine Sprachreise">
                             </div>
                             <div class="col-6 text-center">
-                                <img src="./dev/images/Reihe%2011/Reihe-11-D4-2.png"
+                                <img src="./dev/images/Reihe 12/Reihe-12-D4-2.png"
                                      style="max-width: 100%; height: auto;" alt="Meine Sprachreise">
                             </div>
                         </div>
@@ -117,131 +117,131 @@
                     <div class="col-12 my-5">
                         <div class="row">
                             <div class="col-6 text-center">
-                                <img src="./dev/images/Reihe%2011/Reihe-11-D4-3.png"
+                                <img src="./dev/images/Reihe 12/Reihe-12-D4-3.png"
                                      style="max-width: 100%; height: auto;" alt="Meine Sprachreise">
                             </div>
                             <div class="col-6 text-center">
-                                <img src="./dev/images/Reihe%2011/Reihe-11-D4-4.png"
+                                <img src="./dev/images/Reihe 12/Reihe-12-D4-4.png"
                                      style="max-width: 100%; height: auto;" alt="Meine Sprachreise">
                             </div>
                         </div>
                     </div>
                     <div class="col-11 mx-auto border border-dark rounded">
-                        Hallo, ihr Lieben<input type="text" style="max-width: 25px; min-width: 25px;"
+                        Hallo, ihr Lieben<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                 class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                 placeholder="Antwort" aria-label="Antwort" id="qst-1"><br/>
-                        wie geht es euch<input type="text" style="max-width: 25px; min-width: 25px;"
+                        wie geht es euch<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                placeholder="Antwort" aria-label="Antwort" id="qst-2"> Ich freue mich
                         sehr, dass ich euch schreiben kann.<br/>
-                        Verbringt ihr schöne Ferien auf der Jeju-Insel<input type="text"
+                        Verbringt ihr schöne Ferien auf der Jeju-Insel<input autocomplete="off" type="text"
                                                                              style="max-width: 25px; min-width: 25px;"
                                                                              class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                              placeholder="Antwort" aria-label="Antwort"
                                                                              id="qst-3"><br/>
-                        <input type="text" style="max-width: 80px; min-width: 80px;"
+                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-4"> ihr wisst<input type="text"
+                               placeholder="Antwort" aria-label="Antwort" id="qst-4"> ihr wisst<input autocomplete="off" type="text"
                                                                                                       style="max-width: 25px; min-width: 25px;"
                                                                                                       class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                                       placeholder="Antwort"
                                                                                                       aria-label="Antwort"
                                                                                                       id="qst-5"> bin
-                        ich seit einer Woche in Dresden und nehme an einem vierwöchigen Sprachkurs teil<input
+                        ich seit einer Woche in Dresden und nehme an einem vierwöchigen Sprachkurs teil<input autocomplete="off"
                             type="text" style="max-width: 25px; min-width: 25px;"
                             class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                             placeholder="Antwort" aria-label="Antwort" id="qst-6"><br/>
-                        Zum Glück hatte ich im Einstufungstest eine gute Note und bin jetzt im B2 Kurs<input type="text"
+                        Zum Glück hatte ich im Einstufungstest eine gute Note und bin jetzt im B2 Kurs<input autocomplete="off" type="text"
                                                                                                              style="max-width: 25px; min-width: 25px;"
                                                                                                              class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                                              placeholder="Antwort"
                                                                                                              aria-label="Antwort"
                                                                                                              id="qst-7"><br/>
-                        Ich habe vormittags vier Stunden Sprachkurs und nachmittags Exkursionen<input type="text"
+                        Ich habe vormittags vier Stunden Sprachkurs und nachmittags Exkursionen<input autocomplete="off" type="text"
                                                                                                       style="max-width: 25px; min-width: 25px;"
                                                                                                       class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                                       placeholder="Antwort"
                                                                                                       aria-label="Antwort"
                                                                                                       id="qst-8"><br/>
-                        Das finde ich gut<input type="text" style="max-width: 25px; min-width: 25px;"
+                        Das finde ich gut<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                 class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                 placeholder="Antwort" aria-label="Antwort" id="qst-9"> Hier habe ich
                         schon viele nette Freunde aus der ganzen Welt kennengelernt.<br/>
-                        Deutsch zu lernen macht mir Spaß<input type="text" style="max-width: 25px; min-width: 25px;"
+                        Deutsch zu lernen macht mir Spaß<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                placeholder="Antwort" aria-label="Antwort" id="qst-10">
-                        Am letzten Wochenende bin ich mit anderen Kursteilnehmern nach Leipzig und Berlin gereist<input
+                        Am letzten Wochenende bin ich mit anderen Kursteilnehmern nach Leipzig und Berlin gereist<input autocomplete="off"
                             type="text" style="max-width: 25px; min-width: 25px;"
                             class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
-                            placeholder="Antwort" aria-label="Antwort" id="qst111"> <input type="text"
+                            placeholder="Antwort" aria-label="Antwort" id="qst111"> <input autocomplete="off" type="text"
                                                                                            style="max-width: 80px; min-width: 80px;"
                                                                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                            placeholder="Antwort"
                                                                                            aria-label="Antwort"
                                                                                            id="qs12-1"> es als eine
-                        Exkursion angeboten wurde<input type="text" style="max-width: 25px; min-width: 25px;"
+                        Exkursion angeboten wurde<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="q13t-1"><br/>
-                        <input type="text" style="max-width: 80px; min-width: 80px;"
+                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                placeholder="Antwort" aria-label="Antwort" id="qst-14"> ich nach Berlin fuhr, habe ich im
-                        Internet nach den Sehenswürdigkeiten recherchiert<input type="text"
+                        Internet nach den Sehenswürdigkeiten recherchiert<input autocomplete="off" type="text"
                                                                                 style="max-width: 25px; min-width: 25px;"
                                                                                 class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                 placeholder="Antwort"
                                                                                 aria-label="Antwort" id="qst151"><br/>
-                        <input type="text" style="max-width: 80px; min-width: 80px;"
+                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                placeholder="Antwort" aria-label="Antwort" id="qst-16"> das Wetter nicht schön war,
-                        hatten wir trotzdem viel Spaß<input type="text" style="max-width: 25px; min-width: 25px;"
+                        hatten wir trotzdem viel Spaß<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                             class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                             placeholder="Antwort" aria-label="Antwort" id="qst171">
-                        <input type="text" style="max-width: 80px; min-width: 80px;"
+                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                placeholder="Antwort" aria-label="Antwort" id="qs18-1"> unser Leiter Martin uns bei der
                         Führung viele informationsreiche Tipps gegeben hatte. Im Anhang könnt ihr einige Fotos von
-                        Berlin und Leipzig sehen<input type="text" style="max-width: 25px; min-width: 25px;"
+                        Berlin und Leipzig sehen<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                        class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                        placeholder="Antwort" aria-label="Antwort" id="q19t-1"><br/>
                         <br/>
-                        An diesem Wochenende will ich nach Prag fahren<input type="text"
+                        An diesem Wochenende will ich nach Prag fahren<input autocomplete="off" type="text"
                                                                              style="max-width: 25px; min-width: 25px;"
                                                                              class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                              placeholder="Antwort" aria-label="Antwort"
-                                                                             id="qst-20"> <input type="text"
+                                                                             id="qst-20"> <input autocomplete="off" type="text"
                                                                                                  style="max-width: 80px; min-width: 80px;"
                                                                                                  class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                                  placeholder="Antwort"
                                                                                                  aria-label="Antwort"
                                                                                                  id="qst211"> es schon
                         immer einer meiner Traumorte war. Für die Reise habe ich bereits ein Zimmer reserviert und auch
-                        ein Auto gemietet<input type="text" style="max-width: 25px; min-width: 25px;"
+                        ein Auto gemietet<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                 class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
-                                                placeholder="Antwort" aria-label="Antwort" id="qs22-1"> <input
+                                                placeholder="Antwort" aria-label="Antwort" id="qs22-1"> <input autocomplete="off"
                             type="text" style="max-width: 80px; min-width: 80px;"
                             class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                             placeholder="Antwort" aria-label="Antwort" id="q23t-1"> meines Aufenthalts möchte ich dort
-                        gerne viele Sehenswürdigkeiten und historische Orte besichtigen<input type="text"
+                        gerne viele Sehenswürdigkeiten und historische Orte besichtigen<input autocomplete="off" type="text"
                                                                                               style="max-width: 25px; min-width: 25px;"
                                                                                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                               placeholder="Antwort"
                                                                                               aria-label="Antwort"
                                                                                               id="24st-1"> Darauf freue
-                        ich mich schon sehr. Ich werde euch später mal auch einige Fotos von Prag posten<input
+                        ich mich schon sehr. Ich werde euch später mal auch einige Fotos von Prag posten<input autocomplete="off"
                             type="text" style="max-width: 25px; min-width: 25px;"
                             class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
-                            placeholder="Antwort" aria-label="Antwort" id=25qst-1"> <input type="text"
+                            placeholder="Antwort" aria-label="Antwort" id=25qst-1"> <input autocomplete="off" type="text"
                                                                                            style="max-width: 80px; min-width: 80px;"
                                                                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                            placeholder="Antwort"
                                                                                            aria-label="Antwort" id26"qst-1">
-                        wir uns treffen<input type="text" style="max-width: 25px; min-width: 25px;"
+                        wir uns treffen<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                               placeholder="Antwort" aria-label="Antwort" i27="qst-1"> zeige ich euch
-                        dann auch Videos<input type="text" style="max-width: 25px; min-width: 25px;"
+                        dann auch Videos<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                placeholder="Antwort" aria-label="Antwort" 28d="qst-1"><br/>
-                        Ich vermisse euch alle so sehr<input type="text" style="max-width: 25px; min-width: 25px;"
+                        Ich vermisse euch alle so sehr<input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                                              class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                              placeholder="Antwort" aria-label="Antwort"
                                                              id="qst-29"><br/>
@@ -263,7 +263,7 @@
                 시간 의미의 wenn(때), als(때), während (동안), nachdem(후에), bevor(전에)가 있고 인과적 의미의 weil, da(왜냐하면, 때문에)와 목적의 의미의
                 damit (위하여)그리고 양보의 의미의 obwohl(불구하고) 등이 있다. 부정관계대명사로는 was, wer 등이 있다.<br/>
                 <div class="input-group">
-                    <i class="xi-angle-down mr-1 mt-3"></i>접속사가 이끄는 부문장에서 동사는 <input type="text"
+                    <i class="xi-angle-down mr-1 mt-3"></i>접속사가 이끄는 부문장에서 동사는 <input autocomplete="off" type="text"
                                                                                      style="max-width: 80px; min-width: 80px;"
                                                                                      class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                      placeholder="Antwort"
@@ -272,7 +272,7 @@
                     위치한다.<br/>
                 </div>
                 <div class="input-group">
-                    <i class="xi-angle-down mr-1 mt-3"></i>주문장과 부문장사이에는 항상 <input type="text"
+                    <i class="xi-angle-down mr-1 mt-3"></i>주문장과 부문장사이에는 항상 <input autocomplete="off" type="text"
                                                                                   style="max-width: 80px; min-width: 80px;"
                                                                                   class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                                                                   placeholder="Antwort"
@@ -282,7 +282,7 @@
                 </div>
                 <div class="input-group">
                     <i class="xi-angle-down mr-1 mt-3"></i>주문장과 먼저 오고 접속사가 이끄는 부 문장이 뒤따라 올 때는 주문장의
-                    동사가 <input type="text" style="max-width: 80px; min-width: 80px;"
+                    동사가 <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1"
                                placeholder="Antwort" aria-label="Antwort" id="qst-32">에 오나 부 분장이 먼저 오고 주문장이 뒤따라 오면 주문장에
                     동사 다음 주어가 온다.
@@ -339,7 +339,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 D4.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 D4.mp3"],
             sprite: {
                 "0": [209, 148553]
             },
@@ -612,6 +612,7 @@
                     if ($("#" + last).hasClass("itm")) {
                         $("#" + last + ">.tran").show();
                     }
+
                     $("#" + last).closest("tr").find(".tran").show();
                     pa[last] = $("#" + last).html();
                 }

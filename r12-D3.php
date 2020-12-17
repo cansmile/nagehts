@@ -23,23 +23,23 @@
         <div class="row lh250">
             <div class="col-sm-12 col-md-6 col-lg-6">1. Ich erzähle euch in meinem ersten Bericht, was ich beim Check-in und nach dem Landen erlebt habe.</div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <input type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-1">
+                <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-1">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">2. Auf den Monitor fand ich die Flugnummer die Abflugzeit sowie auch den Check-In Schalter.</div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <input type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-2">
+                <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-2">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">3. Bevor ich zum Flugsteig kam, musste ich mich einer Sicherheitskontrolle unterziehen.</div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <input type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-3">
+                <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-3">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">4. Als ich dann am Zielflughafen landete, ging ich zuerst einmal Richtung Gepäckausgabe.</div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <input type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-4">
+                <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-4">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">5. Am entsprechenden Förderband angekommen nahm ich dann mein Gepäck herunter.</div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <input type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-5">
+                <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;" class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1" placeholder="Antwort" aria-label="Antwort" id="qst-5">
             </div>
         </div>
         <!-- 정답화인 버튼 시작 -->

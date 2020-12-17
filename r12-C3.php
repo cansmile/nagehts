@@ -29,20 +29,20 @@
                         <div class="row">
                             <div class="col-12 font-weight-bold">1)	Hotel Waldstein  Zimmer ab 55 EUR</div>
                             <div class="col-12 py-5 d-flex align-items-center">
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-wifi.svg" class="mx-2" alt="wifi"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-wifi.svg" class="mx-2" alt="wifi"
                                      style="max-height: 18px; width: auto;">
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-parking.svg" class="mx-2" alt="parking"
-                                     style="max-height: 18px; width: auto;">
-                                <div class="px-2">(kostenfrei)</div>
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-bus.svg" class="mx-2" alt="bus"
-                                     style="max-height: 18px; width: auto;">
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-coffee.svg" class="mx-2" alt="cafe"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-parking.svg" class="mx-2" alt="parking"
                                      style="max-height: 18px; width: auto;">
                                 <div class="px-2">(kostenfrei)</div>
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-Road.svg" class="mx-2" alt="Road"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-bus.svg" class="mx-2" alt="bus"
+                                     style="max-height: 18px; width: auto;">
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-coffee.svg" class="mx-2" alt="cafe"
+                                     style="max-height: 18px; width: auto;">
+                                <div class="px-2">(kostenfrei)</div>
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-Road.svg" class="mx-2" alt="Road"
                                      style="max-height: 18px; width: auto;">
                                 <div class="px-2">in der Nähe</div>
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-train.svg" class="mx-2" alt="train"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-train.svg" class="mx-2" alt="train"
                                      style="max-height: 18px; width: auto;">
                             </div>
                         </div>
@@ -51,19 +51,19 @@
                         <div class="row">
                             <div class="col-12 text-center font-weight-bold">2)	Hotel Goldstern  Zimmer ab 100 EUR </div>
                             <div class="col-12 py-5 d-flex align-items-center">
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-coffee.svg" class="mx-2" alt="cafe"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-coffee.svg" class="mx-2" alt="cafe"
                                      style="max-height: 18px; width: auto;">
                                 <div class="px-2">(8, 50 EUR)</div>
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-bus.svg" class="mx-2" alt="bus"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-bus.svg" class="mx-2" alt="bus"
                                      style="max-height: 18px; width: auto;">
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-wifi.svg" class="mx-2" alt="wifi"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-wifi.svg" class="mx-2" alt="wifi"
                                      style="max-height: 18px; width: auto;">
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-taxi.svg" class="mx-2" alt="Taxi"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-taxi.svg" class="mx-2" alt="Taxi"
                                      style="max-height: 18px; width: auto;">
                                 <div class="px-2">
                                     <i class="xi-fitness-center h4"></i>
                                 </div>
-                                <img src="./dev/images/Reihe 11/Reihe-11-C3-taxi.svg" class="mx-2" alt="Taxi"
+                                <img src="./dev/images/Reihe 12/Reihe-12-C3-taxi.svg" class="mx-2" alt="Taxi"
                                      style="max-height: 18px; width: auto;">
                                 (extra Gebühren)
                             </div>
@@ -78,7 +78,7 @@
                     <div class="col-12">
                         <div class="input-group">
                             Ich finde die Anzeige___ geeignet für sie, weil
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-1">
                         </div>
@@ -137,7 +137,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 C2.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 C2.mp3"],
             sprite: {
                 "0": [691, 40476]
             },

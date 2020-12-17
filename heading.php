@@ -583,10 +583,10 @@
                     'r10-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
                 )
             ),
-        11 =>
+        12 =>
             array( 'Reise und Urlaub', '여행 및 휴가',
                 array(
-                    'r11-Reise und Urlaubstypen' => array( 'A. Reise und Urlaubstypen', '여행 및 휴가종류',
+                    'r12-Reise und Urlaubstypen' => array( 'A. Reise und Urlaubstypen', '여행 및 휴가종류',
                         array(
                             'A1' => array( 'Wie heißen die Urlaubs und Reisetypen?', '휴가 및 여행 타입을 뭐라 하나요? 연결하세요.' ),
                             'A2' => array( 'Welche Urlaubs-und Reisetypen passen mit den folgenden Textausschnitten zusammen?', '어떤 휴가 및 여행의 종류가 아래의 텍스트와 어울리나요? 알맞게 연결하세요.' ),
@@ -594,14 +594,14 @@
                             'A4' => array( 'Hören Sie die Interviews und antworten Sie auf die Fragen.', '인터뷰를 듣고 질문에 답하세요.' ),
                         )
                     ),
-                    'r11-Sprachreise' => array( 'B. Sprachreise', '어학 연수',
+                    'r12-Sprachreise' => array( 'B. Sprachreise', '어학 연수',
                         array(
                             'B1' => array( 'Anfrage nach dem Sommersparchkurs (per Mail)', '여름어학코스에 관한 문의 (이메일)' ),
                             'B2' => array( 'Rückmeldung vom Sprachinstitut (per Mail)', '어학 기관으로부터의 답장 (메일)' ),
                             'B3' => array( 'Anmeldung für den Sommersprachkurs (online)', '여름코스 등록 (온라인)' ),
                         )
                     ),
-                    'r11-Reservierungen' => array( 'C. Reservierungen', '예약',
+                    'r12-Reservierungen' => array( 'C. Reservierungen', '예약',
                         array(
                             'C1' => array( 'Zimmerreservierung im Studentenwerk (online)', '학교 기숙사 방예약 (온라인)' ),
                             'C2' => array( 'Bahnkartereservierung', '기차표 예약' ),
@@ -609,7 +609,7 @@
                             'C4' => array( 'Hotelzimmerreservierung (per Telefon)', '호텔방 예약 (전화로)' ),
                         )
                     ),
-                    'r11-Minas Reisebeitraege (auf Facebook)' => array( 'D. Minas Reisebeiträge (auf Facebook)', '미나의 여행일지 (페이스북)',
+                    'r12-Minas Reisebeitraege (auf Facebook)' => array( 'D. Minas Reisebeiträge (auf Facebook)', '미나의 여행일지 (페이스북)',
                         array(
                             'D1' => array( 'Mein erster Flug (auf Facebook)', '나의 첫 비행' ),
                             'D2' => array( 'Formulieren Sie die Aktivsätze in Passivsätze um.', '능동태의 문장을 수동태로 바꾸세요.' ),
@@ -617,7 +617,7 @@
                             'D4' => array( 'Meine Sprachreise (auf Facebook)', '나의 어학연수 (페이스북)' ),
                         )
                     ),
-                    'r11-Uebungen' => array( 'E. Übungen', '연습문제',
+                    'r12-Uebungen' => array( 'E. Übungen', '연습문제',
                         array(
                             'E1' => array( 'Welche Wörter fallen Ihnen ein?', '어떤 단어들이 떠오르나요? 조별로 이야기해보세요.' ),
                             'E2' => array( 'Sehen Sie sich die Bilder an. Wie heißen die Urlaubs-und Reisetypen Was passt zusammen?', '그림을 보세요. 이러한 휴가 및 여행을 뭐하고 부르나요? 무엇이 어울리나요?' ),
@@ -631,7 +631,7 @@
                             'E10' => array( 'Lesen Sie die E-Mail und schreiben Sie sie neu, indem Sie die Sätze mit den passenden Konektoren verbinden. Achten Sie auch auf die Verbstellung.', '이메일을 읽고 알맞은 접속사로 연결하여 새로 작성해보세요. 어순에 주의하세요.' ),
                         )
                     ),
-                    'r11-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r12-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
                 )
             )
     );

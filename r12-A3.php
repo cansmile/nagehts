@@ -53,7 +53,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Wir
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-1">
                                 gern Städtereisen.
@@ -66,7 +66,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Dabei
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-2">
                                 wir viele Sehenswürdigkeiten.
@@ -87,10 +87,10 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Für mich ist wichtig, Kultur und auch Leute
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 mr-0 pr-0 text-right border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-3">zu
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 ml-0 pl-0 text-left border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-4">. Dazu
                                 besuche ich die berühmten Dome und Paläste.
@@ -112,11 +112,11 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Ich
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-5">gern
                                 Wassersport, wie z.B. schwimmen
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;"
                                        aria-label="." id="qst-6">tauchen.
@@ -129,7 +129,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Und ich
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-7">gern am
                                 Strand in der Sonne und geniesse das Wellenrauschen. Das ist wie im Paradies!
@@ -151,7 +151,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Wir
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-8">jedes Jahr
                                 ins Allgäu. Wir lieben die Wanderungen in den Bergen, aber auch Bungee-Jumping und
@@ -174,7 +174,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Meine Familie
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-9">mit dem Wohnwagen Campingurlaub.
                             </div>
@@ -186,11 +186,11 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Dafür brauchen wir nicht viel Geld
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-10">
                                 &nbsp;und können daher viel Geld
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-11">.
                             </div>
@@ -210,7 +210,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Ich möchte im Urlaub gern nur Zeit für meine Frau und meine Kinder
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-12">.
                             </div>
@@ -222,7 +222,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Wir wollen viel gemeinsam
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-13">, wie z.B. schöne Ausflüge in die Berge machen.
                             </div>
@@ -242,7 +242,7 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Ich bevorzuge eine Gruppenreise, da man viele Hauptsehenswürdigkeiten
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-14">kann.
                             </div>
@@ -254,11 +254,11 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Außerdem
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-15">
                                 &nbsp;man einen Halt am einheimischen Bazaar und
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-16">in gehobenen Restaurants.
                             </div>
@@ -310,7 +310,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 A3.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 A3.mp3"],
             sprite: {
                 "0": [205, 100970],
                 "1": [9027, 8381],

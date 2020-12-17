@@ -84,7 +84,7 @@
                     <div class="col-sm-12 col-md-3 col-lg-2 align-top bg-gray-light">
                         <div class="input-group text-break">
                             <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
-                            <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                            <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark" style="max-width: 80px;"
                                    aria-label="." id="qst-1">
                         </div>
@@ -96,7 +96,7 @@
                     <div class="col-sm-12 col-md-3 col-lg-2 align-top bg-gray-light">
                         <div class="input-group text-break">
                             <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
-                            <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                            <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark" style="max-width: 80px;"
                                    aria-label="." id="qst-2">
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="input-group text-break">
-                                    <input type="text"
+                                    <input autocomplete="off" type="text"
                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                            style="max-width: 50px;" aria-label="." id="qst-7">
                                     da ich vorhabe, mich nächstes Jahr für ein einjähriges Austauschstudium an der TUD
@@ -128,35 +128,35 @@
                     <div class="col-sm-12 col-md-3 col-lg-2 align-top bg-gray-light">
                         <div class="input-group text-break">
                             <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
-                            <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                            <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark" style="max-width: 80px;"
                                    aria-label="." id="qst-3">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-9 col-lg-9">
                         <div class="input-group text-break">
-                            <input type="text"
+                            <input autocomplete="off" type="text"
                                    class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                    style="max-width: 50px;" aria-label="." id="qst-8">
                             was in dem Einstufungstest geprüft wird und wie lange der Test dauern würde.
                             <span class="tran font-weight-bold">&nbsp;<small>우선 반편성시험에서 무엇을 보는지 그리고 시험 시간이 얼마나 소요되는지 알고 싶습니다.</small></span>
                         </div>
                         <div class="input-group text-break">
-                            <input type="text"
+                            <input autocomplete="off" type="text"
                                    class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                    style="max-width: 50px;" aria-label="." id="qst-9">
                             spezielle Prüfungskurse. Bieten Sie auch einen B1-Vorbereitungskurs an?
                             <span class="tran font-weight-bold">&nbsp;<small>당신은 공고에서 특별한 시험준비반을 언급하시는데, B1 시험준비반도 제공이 되나요?</small></span>
                         </div>
                         <div class="input-group text-break">
-                            <input type="text"
+                            <input autocomplete="off" type="text"
                                    class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                    style="max-width: 50px;" aria-label="." id="qst-10">
                             wie viele Teilnehmer eine Gruppe ausmacht ist und welches Freizeitprogramm angeboten wird?
                             <span class="tran font-weight-bold">&nbsp;<small>또한 한 반에 몇 명이나 참여하는지 그리고 어떤 여가 프로그램이 제공되는지 알려주실 수 있을까요?</small></span>
                         </div>
                         <div class="input-group text-break">
-                            <input type="text"
+                            <input autocomplete="off" type="text"
                                    class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                    style="max-width: 50px;" aria-label="." id="qst-11">
                             möchte ich noch gerne wissen, ob ich einen Rabatt bekommen würde, wenn ich mich für zwei
@@ -169,21 +169,21 @@
                     <div class="col-sm-12 col-md-3 col-lg-2 align-top bg-gray-light">
                         <div class="input-group text-break">
                             <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
-                            <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                            <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark" style="max-width: 80px;"
                                    aria-label="." id="qst-4">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-9 col-lg-9">
                         <div class="input-group text-break">
-                            <input type="text"
+                            <input autocomplete="off" type="text"
                                    class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                    style="max-width: 50px;" aria-label="." id="qst-12">
                             wenn Sie mir genauere Angaben zu meinen Fragen geben würden.
                             <span class="tran font-weight-bold">&nbsp;<small>저의 질문에 대한 정확한 답변을 주시면 좋겠습니다.</small></span>
                         </div>
                         <div class="input-group text-break">
-                            <input type="text"
+                            <input autocomplete="off" type="text"
                                    class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                    style="max-width: 50px;" aria-label="." id="qst-13">
                             für Ihre Antwort.
@@ -195,14 +195,14 @@
                     <div class="col-sm-12 col-md-3 col-lg-2 align-top bg-gray-light">
                         <div class="input-group text-break">
                             <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
-                            <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                            <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark" style="max-width: 80px;"
                                    aria-label="." id="qst-5">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-9 col-lg-9">
                         <div class="input-group text-break">
-                            <input type="text"
+                            <input autocomplete="off" type="text"
                                    class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark"
                                    style="max-width: 50px;" aria-label="." id="qst-14">
                             <span class="tran font-weight-bold">&nbsp;<small>인사를 전하며</small></span>
@@ -213,7 +213,7 @@
                     <div class="col-sm-12 col-md-3 col-lg-2 align-top bg-gray-light">
                         <div class="input-group text-break">
                             <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
-                            <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
+                            <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark" style="max-width: 80px;"
                                    aria-label="." id="qst-6">
                         </div>
@@ -259,9 +259,9 @@
                         <td><i class="xi-angle-down mt-3"></i>
                             <div class="input-group text-break">
                                 사적 이메일은 주로 친구 등
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-15">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-15">
                                 에게
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-16">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-16">
                                 로 글을 쓴다.
                             </div>
                         </td>
@@ -270,11 +270,11 @@
                         <td><i class="xi-angle-down mt-3"></i>
                             <div class="input-group text-break">
                                 준 공식적인 이메일은 위와 같이
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-17">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-17">
                                 , 상관,
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-18">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-18">
                                 선생님 등이나 공적인 관계, 공공업무에서 쓰는 것이며
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-19">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-19">
                                 로만 글을 쓴다.
                             </div>
                         </td>
@@ -283,13 +283,13 @@
                         <td><i class="xi-angle-down mt-3"></i>
                             <div class="input-group text-break">
                                 사적 그리고 준 공식적 이메일의 구조는 공통적으로 인사말(호칭Anrede) ->
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-20">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-20">
                                 ->
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-21">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-21">
                                 ->
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-22">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-22">
                                 ->
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-23">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-23">
                                 -> 이름 (성과 이름)으로 되어 있다.
                             </div>
                         </td>
@@ -303,9 +303,9 @@
                         <td><i class="xi-angle-down mt-3"></i>
                             <div class="input-group text-break">
                                 준 공식적-사적 이메일에서는 인사말(호칭Anrede)을 쓰고 난 뒤에는 반드시
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-24">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-24">
                                 를 찍고, 이어지는 도입 문장(Einleitungssatz)은
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-25">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-25">
                                 로 시작한다.
                             </div>
                         </td>
@@ -314,9 +314,9 @@
                         <td><i class="xi-angle-down mt-3"></i>
                             <div class="input-group text-break">
                                 도입부(Einleitungssatz)에서는
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-26">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-26">
                                 와 함께
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-27">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-27">
                                 를 짧고 정중하게 언급한다.
                             </div>
                         </td>
@@ -325,9 +325,9 @@
                         <td><i class="xi-angle-down mt-3"></i>
                             <div class="input-group text-break">
                                 맺음말(Schlusssatz)에서는
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-28">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-28">
                                 과
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-29">
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6" style="max-width: 80px;" aria-label="." id="qst-29">
                                 을 쓴다. (Es wäre schön, wenn … /Ich würde mich freuen/ Für Ihre Antwort wäre ich Ihnen sehr dankbar/Vielen Dank im Voraus....)
                             </div>
                         </td>
@@ -531,7 +531,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 B1.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 B1.mp3"],
             sprite: {
                 "0": [438, 100030],
                 "1": [31303, 2819],

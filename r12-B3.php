@@ -107,7 +107,7 @@
                                 <div class="input-group">
                                     <strong>Anmeldformular Internationale Dresdner Frühlings- und Sommerkurse
                                         Familienname:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-1">
                                 </div>
@@ -115,7 +115,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Vorname:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-2">
                                 </div>
@@ -123,7 +123,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Geburtsdatum:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-3">
                                 </div>
@@ -131,7 +131,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Muttersprache:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-4">
                                 </div>
@@ -139,7 +139,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Außer meiner Muttersprache spreche ich:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-5">
                                 </div>
@@ -147,7 +147,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Adresse:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-6">
                                 </div>
@@ -155,7 +155,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Land:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-7">
                                 </div>
@@ -163,7 +163,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     E-Mail:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-8">
                                 </div>
@@ -171,7 +171,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Telefon:
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-9">
                                 </div>
@@ -179,11 +179,11 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Dauer: von
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-10">
                                     bis
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-11">
                                 </div>
@@ -191,7 +191,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     Deutsche Sprachkenntnisse (bitte ankreuzen):
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-12">
                                 </div>
@@ -251,7 +251,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 B3.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 B3.mp3"],
             sprite: {
                 "0": [460, 116403]
             },

@@ -70,7 +70,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-1.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-1.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -91,7 +91,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-2.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-2.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -112,7 +112,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-3.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-3.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -133,7 +133,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-4.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-4.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -154,7 +154,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-5.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-5.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -175,7 +175,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-6.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-6.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -196,7 +196,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-7.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-7.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -217,7 +217,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-8.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-8.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -238,7 +238,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-9.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-9.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -259,7 +259,7 @@
                     <tbody>
                     <tr>
                         <td height="250" class="align-middle">
-                            <img src="./dev/images/Reihe 11/Reihe-11-A1-10.png"
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-10.png"
                                  alt="Wie heißen die Urlaubs-und Reisetypen?"
                                  style="max-width: 100%; height: auto;">
                         </td>
@@ -325,7 +325,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 A1.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 A1.mp3"],
             sprite: {
                 "0": [174, 70712],
                 "1": [12649, 1932],

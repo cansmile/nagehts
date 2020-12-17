@@ -80,13 +80,13 @@
 
                         Es wäre schön wenn wir Sie bei uns begrüßen können.
                         <br/><br/>
-                        <div class="input-group"><input type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-1">
                             auf den Einstufungstest eingehen.
                             <br/><br/>
                         </div>
-                        <div class="input-group"><input type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-2">
                             , findet ca. ein 2-stündiger Einstufungstest statt.
@@ -95,13 +95,13 @@
                         </div>
                         Dabei Sie werden auf Ihre Grammatik- und Wortschatzkenntnisse sowie auf Ihre Schreibfähigkeiten getestet.
                         Sprechen wird nicht geprüft.
-                        <div class="input-group"><input type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-3">
                             Sie dann am nächsten Tag einstufen.
                             <br/><br/>
                         </div>
-                        <div class="input-group"><input type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-4">
                             auch B1-Vorbereitungskurse an.
@@ -114,14 +114,14 @@
                         Man kann Museen, Konzerte, die Altstadt sowie die Neustadt erleben. Der Preis für die
                         Exkursionen ist in den Sprachkursgebühren enthalten.
                         Sie können sich für ein Zimmer in einer WG online auf unserer Homepage anmelden.<br/><br/>
-                        <div class="input-group"><input type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-5">
                             stehen wir Ihnen jederzeit zur Verfügung.
                             <br/><br/>
                         </div>
                         <div class="input-group">
-                            <input type="text" style="max-width: 80px; min-width: 80px;"
+                            <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-6">
                             <br/><br/>
@@ -207,7 +207,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 B2.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 B2.mp3"],
             sprite: {
                 "0": [460, 116403]
             },

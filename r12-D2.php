@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-10">
                         <div class="input-group">
-                            <input type="text" style="min-width: 100%;"
+                            <input autocomplete="off" type="text" style="min-width: 100%;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-1">
                         </div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-10">
                         <div class="input-group">
-                            <input type="text" style="min-width: 100%;"
+                            <input autocomplete="off" type="text" style="min-width: 100%;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-2">
                         </div>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-10">
                         <div class="input-group">
-                            <input type="text" style="min-width: 100%;"
+                            <input autocomplete="off" type="text" style="min-width: 100%;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-3">
                         </div>
@@ -124,7 +124,7 @@
                     </div>
                     <div class="col-10">
                         <div class="input-group">
-                            <input type="text" style="min-width: 100%;"
+                            <input autocomplete="off" type="text" style="min-width: 100%;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-4">
                         </div>
@@ -147,7 +147,7 @@
                     </div>
                     <div class="col-10">
                         <div class="input-group">
-                            <input type="text" style="min-width: 100%;"
+                            <input autocomplete="off" type="text" style="min-width: 100%;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-5">
                         </div>
@@ -169,7 +169,7 @@
                     </div>
                     <div class="col-10">
                         <div class="input-group">
-                            <input type="text" style="min-width: 100%;"
+                            <input autocomplete="off" type="text" style="min-width: 100%;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-6">
                         </div>
@@ -234,7 +234,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 D2.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 D2.mp3"],
             sprite: {
                 "0": [169, 60852],
                 "1": [9500, 7236],

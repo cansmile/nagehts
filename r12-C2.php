@@ -24,7 +24,7 @@
         </div>
         <div class="row lh250">
             <div class="col-12">
-                <img src="./dev/images/Reihe 11/Reihe-11-C1.png" alt="Bahnkartenreservierung" style="max-width: 100%; height: auto;">
+                <img src="./dev/images/Reihe 12/Reihe-12-C1.png" alt="Bahnkartenreservierung" style="max-width: 100%; height: auto;">
             </div>
             <div class="col-12">
                 <div class="row">
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-2">
                         <div class="input-group">
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-1">
                         </div>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-2">
                         <div class="input-group">
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-2">
                         </div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-2">
                         <div class="input-group">
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-3">
                         </div>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-2">
                         <div class="input-group">
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-4">
                         </div>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-2">
                         <div class="input-group">
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-5">
                         </div>
@@ -140,7 +140,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-2">
                         <div class="input-group">
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-6">
                         </div>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-2">
                         <div class="input-group">
-                            <input type="text" style="max-width: 100px; min-width: 100px;"
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-7">
                         </div>
@@ -221,7 +221,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 C2.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 C2.mp3"],
             sprite: {
                 "0": [366, 80750],
                 "1": [8063, 3194],

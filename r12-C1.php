@@ -107,7 +107,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>Anrede</strong>
-                                    <input type="text" style="max-width: 100px; min-width: 100px;"
+                                    <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Herr / Frau" aria-label="Antwort" id="qst-1">
                                 </div>
@@ -115,7 +115,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>Nachname:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-2">
                                 </div>
@@ -123,7 +123,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>Vorname:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-3">
                                 </div>
@@ -131,7 +131,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>Land:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-4">
                                 </div>
@@ -139,7 +139,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>Nationalität:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-5">
                                 </div>
@@ -147,7 +147,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>Adresse:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-6">
                                 </div>
@@ -155,7 +155,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>Geburtsdatum:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-7">
                                 </div>
@@ -163,7 +163,7 @@
                             <div class="col-12 my-2">
                                 <div class="input-group">
                                     <strong>E-Mail:</strong>
-                                    <input type="text" style="max-width: 80px; min-width: 80px;"
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-8">
                                 </div>
@@ -173,7 +173,7 @@
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group">
-                                    <input type="text" style="max-width: 25px; min-width: 25px;"
+                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="v" aria-label="v" id="qst-9">
                                     Ich bin als Student immatrikuliert
@@ -184,7 +184,7 @@
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group">
-                                    <input type="text" style="max-width: 25px; min-width: 25px;"
+                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="v" aria-label="v" id="qst-10">
                                     1-Raum-Apartment mit eigener Küche und Badezimmer
@@ -192,7 +192,7 @@
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group text-break">
-                                    <input type="text" style="max-width: 25px; min-width: 25px;"
+                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="v" aria-label="v" id="qst-11">
                                     Einzelzimmer in Wohngemeinschaft (max. 3 Zimmer)
@@ -200,7 +200,7 @@
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group">
-                                    <input type="text" style="max-width: 25px; min-width: 25px;"
+                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                            placeholder="v" aria-label="v" id="qst-12">
                                     Wohnplatz im Doppelzimmer
@@ -261,7 +261,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 C1.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 C1.mp3"],
             sprite: {
                 "0": [470, 123137]
             },

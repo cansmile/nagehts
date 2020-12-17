@@ -35,25 +35,25 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;mit wem gefahren?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-1">
                             </div>
                             <div class="input-group">
                                 &nbsp;wohin/wo gefahren?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-2">
                             </div>
                             <div class="input-group">
                                 &nbsp;was unternommen?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-3">
                             </div>
                             <div class="input-group">
                                 &nbsp;(nicht)gut? /warum?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-4">
                             </div>
@@ -85,25 +85,25 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;mit wem gefahren?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-5">
                             </div>
                             <div class="input-group">
                                 &nbsp;wohin/wo gefahren?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-6">
                             </div>
                             <div class="input-group">
                                 &nbsp;was unternommen?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-7">
                             </div>
                             <div class="input-group">
                                 &nbsp;(nicht)gut? /warum?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-8">
                             </div>
@@ -133,25 +133,25 @@
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;mit wem gefahren?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-9">
                             </div>
                             <div class="input-group">
                                 &nbsp;wohin/wo gefahren?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-10">
                             </div>
                             <div class="input-group">
                                 &nbsp;was unternommen?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-11">
                             </div>
                             <div class="input-group">
                                 &nbsp;(nicht)gut? /warum?
-                                <input type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
+                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark col-12 t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-12">
                             </div>
@@ -217,7 +217,7 @@
             });
         } /* 문제 재생 */
         var nagehts = new Howl({
-            src: ["./dev/sounds/Reihe 11/r11 A4.mp3"],
+            src: ["./dev/sounds/Reihe 12/r12 A4.mp3"],
             sprite: {
                 "0": [1244, 115097],
                 "1": [8829, 40634],

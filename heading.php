@@ -619,7 +619,6 @@
                     ),
                     'r12-Uebungen' => array( 'E. Übungen', '연습문제',
                         array(
-                            'E1' => array( 'Welche Wörter fallen Ihnen ein?', '어떤 단어들이 떠오르나요? 조별로 이야기해보세요.' ),
                             'E2' => array( 'Sehen Sie sich die Bilder an. Wie heißen die Urlaubs-und Reisetypen Was passt zusammen?', '그림을 보세요. 이러한 휴가 및 여행을 뭐하고 부르나요? 무엇이 어울리나요?' ),
                             'E3' => array( 'Was bedeuten die Symbole (Piktogramme)?', '다음의 상징(픽토그램)들은 무슨 뜻일까요? 연결해보세요.' ),
                             'E4' => array( 'Aktuelle Urlaubsangebote. Schauen Sie sich sie an.', '최신 휴가 안내. 광고를 보고 이야기해보세요.' ),

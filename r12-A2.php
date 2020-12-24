@@ -80,7 +80,7 @@
         <div class="row mt-2">
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">1</span>
                         <button type="button" id="11"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -102,7 +102,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">2</span>
                         <button type="button" id="12"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -124,7 +124,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">3</span>
                         <button type="button" id="13"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -147,7 +147,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">4</span>
                         <button type="button" id="14"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -171,7 +171,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">5</span>
                         <button type="button" id="15"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -193,7 +193,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">6</span>
                         <button type="button" id="16"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -217,7 +217,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">7</span>
                         <button type="button" id="17"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -240,7 +240,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">8</span>
                         <button type="button" id="18"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -263,7 +263,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">9</span>
                         <button type="button" id="19"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -288,7 +288,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 my-4 lh250">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-9 text-justify">
                         <span class="rounded bg-black text-white text-center p-1 px-2 m-1">10</span>
                         <button type="button" id="20"
                                 class="so btn btn-sm btn-outline-dark">▶
@@ -468,7 +468,7 @@
 
                 <?php require "wahl.php"; ?>
                 var pan = new Array();
-                pan = [];
+                pan = [1,4,10];
                 var il = $("#itms>.itm").length;
                 for (var p = 0; p < pan.length; p++) {
                     var pani = "#lst-" + pan[p];

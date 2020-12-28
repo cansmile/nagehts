@@ -6,8 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
-                <h2> Was ist wichtig für sie? Ergänzen Sie die Lücken. <br/>
-                    <small> 무엇이 중요할까요? 빈칸을 채우세요. </small><br/>
+                <h2> Was ist wichtig für sie? Ergänzen Sie die Verben in der richtigen Form. <br/>
+                    <small> 무엇이 중요할까요? 동사를 알맞은 형태로 써넣으세요. </small><br/>
                     [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                         표시됩니다.</small> ]
                     <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
@@ -54,7 +54,7 @@
                             <div class="input-group">
                                 &nbsp;Wir
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                                                    py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-1">
                                 gern Städtereisen.
                             </div>
@@ -67,7 +67,7 @@
                             <div class="input-group">
                                 &nbsp;Dabei
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-2">
                                 wir viele Sehenswürdigkeiten.
                             </div>
@@ -88,15 +88,23 @@
                             <div class="input-group">
                                 &nbsp;Für mich ist wichtig, Kultur und auch Leute
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 mr-0 pr-0 text-right border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 mr-0 pr-0 text-right border-dark t-6"
                                        style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-3">zu
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 ml-0 pl-0 text-left border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                       style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-4">. Dazu
-                                besuche ich die berühmten Dome und Paläste.
+                                        py-1 ml-0 pl-0 text-left border-dark t-6"
+                                       style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-4">.
                             </div>
                             <span
-                                class="tran"><br/><small>나에게 문화와 사람들을 알아가는 것은 매우 중요하다. 그것을 위해 나는 유명한 대성당과 성을 방문한다.</small></span>
+                                class="tran"><br/><small>나에게 문화와 사람들을 알아가는 것은 매우 중요하다.</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th width="20" class="text-center">&nbsp;</th>
+                        <td class="lh250">
+                            <div class="input-group">
+                                Dazu besuche ich die berühmten Dome und Paläste.
+                            </div>
+                            <span class="tran"><br/><small>그것을 위해 나는 유명한 대성당과 성을 방문한다.</small></span>
                         </td>
                     </tr>
                     </tbody>
@@ -113,11 +121,11 @@
                             <div class="input-group">
                                 &nbsp;Ich
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-5">gern
                                 Wassersport, wie z.B. schwimmen
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;"
                                        aria-label="." id="qst-6">tauchen.
                             </div>
@@ -130,12 +138,20 @@
                             <div class="input-group">
                                 &nbsp;Und ich
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-7">gern am
-                                Strand in der Sonne und geniesse das Wellenrauschen. Das ist wie im Paradies!
+                                Strand
+                                in der Sonne und genieße das Wellenrauschen.
                             </div>
                             <span
-                                class="tran"><br/><small>그리고 해변에서 태양 아래에 누워 파도 소리를 듣는다. 이것은 마치 낙원에 있는 것과 같다.</small></span>
+                                class="tran"><br/><small>그리고 해변에서 태양 아래에 누워 파도 소리를 듣는다.</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th width="20" class="text-center">&nbsp;</th>
+                        <td class="lh250">
+                            Das ist wie im Paradies!
+                            <span class="tran"><br/><small>이것은 마치 낙원에 있는 것과 같다.</small></span>
                         </td>
                     </tr>
                     </tbody>
@@ -152,13 +168,13 @@
                             <div class="input-group">
                                 &nbsp;Wir
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-8">jedes Jahr
                                 ins Allgäu. Wir lieben die Wanderungen in den Bergen, aber auch Bungee-Jumping und
                                 Trekkingtouren.
                             </div>
                             <span
-                                class="tran"><br /><small>우리는 매년 알고이에 간다. 우리는 산 속을 산책하고, 번지점프와 트래킹 투어를 사랑한다.</small></span>
+                                class="tran"><br/><small>우리는 매년 알고이에 간다. 우리는 산 속을 산책하고, 번지점프와 트래킹 투어를 사랑한다.</small></span>
                         </td>
                     </tr>
                     </tbody>
@@ -175,10 +191,11 @@
                             <div class="input-group">
                                 &nbsp;Meine Familie
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-9">mit dem Wohnwagen Campingurlaub.
+                                        py-1 text-center border-dark t-6"
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-9">mit dem
+                                Wohnwagen Campingurlaub.
                             </div>
-                            <span class="tran"><br /><small>나의 가족은 캠핑카로 캠핑 휴가를 간다.</small></span>
+                            <span class="tran"><br/><small>나의 가족은 캠핑카로 캠핑 휴가를 간다.</small></span>
                         </td>
                     </tr>
                     <tr>
@@ -187,14 +204,14 @@
                             <div class="input-group">
                                 &nbsp;Dafür brauchen wir nicht viel Geld
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-10">
                                 &nbsp;und können daher viel Geld
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-11">.
                             </div>
-                            <span class="tran"><br /><small>이를 위해 우리는 많은 돈을 지출할 필요가 없으며 많은 돈을 절약할 수 있다.</small></span>
+                            <span class="tran"><br/><small>이를 위해 우리는 많은 돈을 지출할 필요가 없으며 많은 돈을 절약할 수 있다.</small></span>
                         </td>
                     </tr>
                     </tbody>
@@ -211,10 +228,10 @@
                             <div class="input-group">
                                 &nbsp;Ich möchte im Urlaub gern nur Zeit für meine Frau und meine Kinder
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-12">.
                             </div>
-                            <span class="tran"><br /><small>나는 휴가 때 나의 아내와 자녀들을 위해서만 시간을 갖고 싶다.</small></span>
+                            <span class="tran"><br/><small>나는 휴가 때 나의 아내와 자녀들을 위해서만 시간을 갖고 싶다.</small></span>
                         </td>
                     </tr>
                     <tr>
@@ -223,10 +240,11 @@
                             <div class="input-group">
                                 &nbsp;Wir wollen viel gemeinsam
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-13">, wie z.B. schöne Ausflüge in die Berge machen.
+                                        py-1 text-center border-dark t-6"
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-13">, wie z.B.
+                                schöne Ausflüge in die Berge machen.
                             </div>
-                            <span class="tran"><br /><small>우리는 산으로 소풍을 가는 등 함께 많은 시간을 보낼 것이다.</small></span>
+                            <span class="tran"><br/><small>우리는 산으로 소풍을 가는 등 함께 많은 시간을 보낼 것이다.</small></span>
                         </td>
                     </tr>
                     </tbody>
@@ -243,10 +261,10 @@
                             <div class="input-group">
                                 &nbsp;Ich bevorzuge eine Gruppenreise, da man viele Hauptsehenswürdigkeiten
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-14">kann.
                             </div>
-                            <span class="tran"><br /><small>나는 여러 주요 명소들을 볼 수 있는 단체 여행을 선호한다.</small></span>
+                            <span class="tran"><br/><small>나는 여러 주요 명소들을 볼 수 있는 단체 여행을 선호한다.</small></span>
                         </td>
                     </tr>
                     <tr>
@@ -255,14 +273,15 @@
                             <div class="input-group">
                                 &nbsp;Außerdem
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                        py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-15">
                                 &nbsp;man einen Halt am einheimischen Bazaar und
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-16">in gehobenen Restaurants.
+                                        py-1 text-center border-dark t-6"
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-16">in
+                                gehobenen Restaurants.
                             </div>
-                            <span class="tran"><br /><small>그 외에도 토속적인 재래시장을 가고 고급 레스토랑에서 식사한다.</small></span>
+                            <span class="tran"><br/><small>그 외에도 토속적인 재래시장을 가고 고급 레스토랑에서 식사한다.</small></span>
                         </td>
                     </tr>
                     </tbody>
@@ -314,7 +333,7 @@
             sprite: {
                 "0": [205, 100970],
                 "1": [9027, 8381],
-                "2": [19320, 10262],
+                "2": [18820, 10762],
                 "3": [30318, 14968],
                 "4": [47020, 10851],
                 "5": [59029, 11676],
@@ -551,7 +570,7 @@
                     ;
                 });
                 var pan = new Array();
-                pan = [];
+                pan = [1, 6, 10, 15, 16];
                 for (var p = 0; p < pan.length; p++) {
                     var pann = "#qst-" + pan[p];
                     $(pann).val(an[(pan[p] - 1)]);
@@ -594,6 +613,9 @@
 
                 $("#0").show();
                 $(".alert").hide();
+                $(".q").each(function () {
+                    $(this).focusout();
+                });
             },
             onend: function () {
                 $("div#last").text("");

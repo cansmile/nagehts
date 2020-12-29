@@ -308,11 +308,12 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"contents": "2020년 11월 22일 대신 부천시온성교회 주일 2부 실시간 온라인 예배\n\n시온성교회에서 김성광 목사님께서 신명기 8장 1~10절 성경 본문으로 ”기억하라! 감사하라! 그 은혜! 그 사랑!”이라는 제목으로 설교합니다.\n경기도 부천시 오정구 원종동에 위치한 시온성교회는 성경위에 바로서 있는 건강한 신앙을 가진 예수교장로회 대신 교단의 교회입니다.\n\nd:\\cansmile\\Canny Dropbox\\Cha Cansmile B\\for UplOad\\2020122700009 201213 1부.png\nd:\\cansmile\\Canny Dropbox\\Cha Cansmile B\\for UplOad\\2020122700010 201213 2부.png\n",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
+				"buffer_size": 356,
+				"line_ending": "Unix",
+				"name": "2020년 11월 22일 대신 부천시온성교회 주일 2부 실시간 온라인 예배"
 			}
 		}
 	],
@@ -432,6 +433,50 @@
 		"selected_items":
 		[
 			[
+				"pcins",
+				"Package Control: Install Package"
+			],
+			[
+				"html character",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"decode",
+				"StringEncode: Decode Escaped Unicode"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"pcinsp",
+				"Package Control: Install Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"wrap emme",
+				"Emmet: Wrap with Abbreviation"
+			],
+			[
 				"keymap",
 				"Keymaps: Cheat Sheet"
 			],
@@ -448,20 +493,8 @@
 				"HTMLPrettify: Set Prettify Preferences"
 			],
 			[
-				"decode",
-				"StringEncode: URL Decode"
-			],
-			[
-				"install package",
-				"Package Control: Install Package"
-			],
-			[
 				"vue syn",
 				"Set Syntax: Vue Component"
-			],
-			[
-				"remove package",
-				"Package Control: Remove Package"
 			],
 			[
 				"node",
@@ -494,10 +527,6 @@
 			[
 				"key",
 				"Keymaps: Markdown Cheat Sheet"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"package",
@@ -860,10 +889,6 @@
 				"ConvertToUTF8: Reload with Encoding"
 			],
 			[
-				"enable pa",
-				"Package Control: Enable Package"
-			],
-			[
 				"install pac",
 				"Package Control: Install Package"
 			],
@@ -918,30 +943,6 @@
 			[
 				"compare",
 				"Sublimerge: Compare to View..."
-			],
-			[
-				"git fetch",
-				"Git: Fetch"
-			],
-			[
-				"git:",
-				"Git: Log All"
-			],
-			[
-				"git: commit",
-				"Git: Commit history"
-			],
-			[
-				"git list",
-				"Git: Stash List"
-			],
-			[
-				"python",
-				"Pretty Print: Format (Pretty Print) Python code"
-			],
-			[
-				"removepack",
-				"Package Control: Remove Package"
 			]
 		],
 		"width": 528.0
@@ -962,12 +963,30 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/web/nagehts/dev"
-	],
 	"file_history":
 	[
+		"/D/cansmile/csdn/wp-dev-admin-ko.po",
+		"/D/cansmile/csdn/part-of-wp-admin-ko.po",
+		"/C/Users/Administrator/.gitconfig",
+		"/C/Users/Administrator/.git-credentials",
+		"/C/web/nagehts/dev/.git/config",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1609140998/nagehts.json/home/nagehts/public_html/dev/.git/config",
+		"/D/cansmile/csdn/SF_2009-01-20_KOR_KOR_(KOREAN VERSION).xml",
+		"/D/cansmile/Canny Dropbox/Cha Cansmile B/Dropbox reports/Symlink report - Items that will stop syncing.csv",
+		"/C/web/nagehts/dev/js/howler.core.js",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608780629/nagehts.json/root/.ssh/authorized_keys",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608780353/nagehts.json/root/.ssh/authorized_keys",
+		"/D/cansmile/csdn/wp-5.4.x-ko.po",
+		"/D/cansmile/csdn/wp-dev-ko.po",
+		"/D/cansmile/csdn/part-of-wp-dev.po",
+		"/C/Program Files (x86)/QWinFF/presets.xml",
+		"/C/Program Files (x86)/QWinFF/tools/mplayer/config",
+		"/D/cansmile/csdn/wp-5.5.x-ko.po",
+		"/C/web/nagehts/dev/r1-A2.php",
+		"/C/web/nagehts/dev/r12-A1.php",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608273557/nagehts.json/home/nagehts/public_html/plugins/xero_commerce/src/Components/Widget/MainSlider/assets/mainSlider.css",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608273350/nagehts.json/home/nagehts/public_html/plugins/xero_commerce/src/Components/Widget/MainSlider/views/widget.blade.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
 		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1592898450/nagehts.json/home/nagehts/public_html/.htaccess",
 		"/C/Users/Administrator/AppData/Local/Temp/_tc/includes/languages/english.php",
 		"/C/Users/Administrator/AppData/Local/Temp/_tc/plugins/ext/languages/english.php",
@@ -1073,33 +1092,11 @@
 		"/C/web/nagehts/ppb/nkr_whole.sql",
 		"/C/web/nagehts/ppb/zverse.sql",
 		"/C/web/nagehts/ppb/darby-en.rvbible",
-		"/C/web/nagehts/ppb/index.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/Usx_1/1CO.usx",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/Usx_1/1CH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/8994c86f-0113-4e5f-ade2-3d922baf5491/metadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/8994c86f-0113-4e5f-ade2-3d922baf5491/USX_1/1CH.usx",
-		"/C/web/nagehts/ppb/2KI.usx",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/Usx/1CH.usx",
-		"/C/web/nagehts/ppb/p.php",
-		"/C/web/nagehts/ppb/PropresentBible/src/kjv-en/USX/ISA.usx",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc_/metadata.xml",
-		"/D/cansmile/csde/ProPre/README.md",
-		"/C/web/nagehts/ppb/README.md",
-		"/C/Users/Administrator/AppData/Local/Temp/_tcx/0/Secure FTP/cansmile@xe/home/cansmile/public_html/p.php",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/10f7756b-7ade-4f2d-8324-7ed2348a3682/metadata.xml",
-		"/C/web/nagehts/ppb/갈.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/10f7756b-7ade-4f2d-8324-7ed2348a3682/USX/1CH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/ae69ab51-bb28-4248-8ec9-a7d6af204bcc/USX/1CH.usx",
-		"/C/Users/Administrator/AppData/Roaming/RenewedVision/ProPresenter/Preferences/Bible.proPref",
-		"/C/Users/Administrator/AppData/Roaming/RenewedVision/ProPresenter/Preferences/AppPreferences.proPref",
-		"/C/web/nagehts/ppb/JDG.usx",
-		"/C/web/nagehts/ppb/고후.usx",
-		"/C/web/nagehts/ppb/PropresentBible/src/kjv-en/USX/2CO.usx",
-		"/C/web/nagehts/ppb/PropresentBible/src/kjv-en/USX/1CH.usx"
+		"/C/web/nagehts/ppb/index.php"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -1138,6 +1135,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\", \"",
+			", ",
+			" ",
+			"Limit result set to posts assigned to specific authors.\t",
+			"msgstr \"\"",
+			"쉬운",
+			"<?",
+			"text-center",
+			"body",
+			"html>head+body\n",
+			"body",
 			"schnu",
 			"< $lt",
 			"$lt",
@@ -1254,18 +1262,7 @@
 			");",
 			"^\\(616",
 			");",
-			"^\\(238",
-			"^\\(224",
-			");",
-			")",
-			");",
-			"^\\(94",
-			"^\\(79",
-			"^(79",
-			");",
-			"INSERT INTO",
-			"후렴; ",
-			"\"ZTOCHAPTER\","
+			"^\\(238"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1273,6 +1270,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\n",
 			"\\n",
 			"/",
 			"\n",
@@ -1399,8 +1397,7 @@
 			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; bottom: 0; z-index: 1; width: 100%;\" id=\"wahl>\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12\">Wahl</div>",
 			"span",
 			"<div class=\"col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12\">Wahl</div>",
-			"</small></span>",
-			"타나고, 오답이"
+			"</small></span>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1419,7 +1416,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 356,
 						"regions":
 						{
 						},
@@ -1427,12 +1424,12 @@
 						[
 							[
 								0,
-								0
+								356
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
+							"auto_name": "2020년 11월 22일 대신 부천시온성교회 주일 2부 실시간 온라인 예배",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -1451,6 +1448,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1466,47 +1498,13 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_default_content"
 							],
+							"color_scheme": "Monokai Pro (Filter Machine).sublime-color-scheme",
 							"git_gutter_is_enabled": false,
 							"incomplete_sync": null,
 							"is_init_dirty_state": true,
@@ -1524,7 +1522,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -1564,6 +1562,10 @@
 	"output.GitSavvy":
 	{
 		"height": 215.0
+	},
+	"output.SFTP":
+	{
+		"height": 130.0
 	},
 	"output.SublimeLinter":
 	{
@@ -1617,7 +1619,7 @@
 	"project": "Nagehts.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 126.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1626,6 +1628,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"r1a2php",
+				"r1-A2.php"
+			],
+			[
+				"r12-a1.php",
+				"r12-A1.php"
+			],
+			[
+				"r1a",
+				"r1-A2.php"
+			],
 			[
 				"r7-C4",
 				"r7-C4.php"
@@ -1686,7 +1700,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 177.0,
 	"status_bar_visible": true,
 	"template_settings":

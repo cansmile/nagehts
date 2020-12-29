@@ -123,11 +123,7 @@
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
                                        style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-5">gern
-                                Wassersport, wie z.B. schwimmen
-                                <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;"
-                                       aria-label="." id="qst-6">tauchen.
+                                Wassersport, wie z.B. schwimmen tauchen.
                             </div>
                             <span class="tran"><br/><small>나는 수영이나 다이빙 같은 수중 스포츠 하기를 좋아한다.</small></span>
                         </td>
@@ -139,7 +135,7 @@
                                 &nbsp;Und ich
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-7">gern am
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-6">gern am
                                 Strand
                                 in der Sonne und genieße das Wellenrauschen.
                             </div>
@@ -169,7 +165,7 @@
                                 &nbsp;Wir
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-8">jedes Jahr
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-7">jedes Jahr
                                 ins Allgäu. Wir lieben die Wanderungen in den Bergen, aber auch Bungee-Jumping und
                                 Trekkingtouren.
                             </div>
@@ -192,7 +188,7 @@
                                 &nbsp;Meine Familie
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-9">mit dem
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-8">mit dem
                                 Wohnwagen Campingurlaub.
                             </div>
                             <span class="tran"><br/><small>나의 가족은 캠핑카로 캠핑 휴가를 간다.</small></span>
@@ -205,11 +201,11 @@
                                 &nbsp;Dafür brauchen wir nicht viel Geld
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-10">
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-9">
                                 &nbsp;und können daher viel Geld
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-11">.
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-10">.
                             </div>
                             <span class="tran"><br/><small>이를 위해 우리는 많은 돈을 지출할 필요가 없으며 많은 돈을 절약할 수 있다.</small></span>
                         </td>
@@ -229,7 +225,7 @@
                                 &nbsp;Ich möchte im Urlaub gern nur Zeit für meine Frau und meine Kinder
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-12">.
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-11">.
                             </div>
                             <span class="tran"><br/><small>나는 휴가 때 나의 아내와 자녀들을 위해서만 시간을 갖고 싶다.</small></span>
                         </td>
@@ -241,8 +237,7 @@
                                 &nbsp;Wir wollen viel gemeinsam
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-13">, wie z.B.
-                                schöne Ausflüge in die Berge machen.
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-12">, wie z.B. schöne Ausflüge in die Berge machen.
                             </div>
                             <span class="tran"><br/><small>우리는 산으로 소풍을 가는 등 함께 많은 시간을 보낼 것이다.</small></span>
                         </td>
@@ -262,7 +257,7 @@
                                 &nbsp;Ich bevorzuge eine Gruppenreise, da man viele Hauptsehenswürdigkeiten
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-14">kann.
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-13">kann.
                             </div>
                             <span class="tran"><br/><small>나는 여러 주요 명소들을 볼 수 있는 단체 여행을 선호한다.</small></span>
                         </td>
@@ -274,11 +269,11 @@
                                 &nbsp;Außerdem
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-15">
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-14">
                                 &nbsp;man einen Halt am einheimischen Bazaar und
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-16">in
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-15">in
                                 gehobenen Restaurants.
                             </div>
                             <span class="tran"><br/><small>그 외에도 토속적인 재래시장을 가고 고급 레스토랑에서 식사한다.</small></span>
@@ -309,7 +304,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["machen", "besichtigen", "kennen", "lernen", "treibe", "und", "liege", "fahren", "macht", "auszugeben", "sparen", "haben", "unternehmen", "ansehen", "macht", "speist"];
+    var an = ["machen", "besichtigen", "kennen", "lernen", "treibe", "liege", "fahren", "macht", "auszugeben", "sparen", "haben", "unternehmen", "ansehen", "macht", "speist"];
     $(document).ready(function () {
         /* 소리 출력 전역 변수와 함수 */
         var sen = new Array(),
@@ -570,7 +565,7 @@
                     ;
                 });
                 var pan = new Array();
-                pan = [1, 6, 10, 15, 16];
+                pan = [1, 9, 14, 15];
                 for (var p = 0; p < pan.length; p++) {
                     var pann = "#qst-" + pan[p];
                     $(pann).val(an[(pan[p] - 1)]);

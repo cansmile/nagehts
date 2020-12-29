@@ -18,8 +18,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 wd_inline_inverted">Frau Miriam Funke im Sprachinstitut TUD hat Mina gemailt. In dem
-                linken Text sind Fehler in Rot bezüglich der Wortstellung. Korrigieren Sie.
+            <div class="col-12 wd_inline_inverted">Frau Miriam Funke aus dem Sprachinstitut TUD hat Mina eine Nachricht
+                zugemailt. In dem linken Text gibt es Fehler der Wortsatzstellung, die in Rot gekennzeichnet sind.
+                Korrigieren Sie die Fehler.
                 <span class="tran font-weight-bold">&nbsp;<small>TUD 어학원의 미리암 풍케씨는 미나에게 메일을 보냈습니다. 왼쪽 텍스트의 빨간 글씨의 어순관련 오류가 있습니다.</small><br/></span>
             </div>
         </div>
@@ -50,7 +51,7 @@
                         <span class="tran"><br><small>물론 B1 준비반도 있습니다.</small><br/></span><br/>
                         Jeder Kurs besteht aus 10 bis 20 Kursteilnehmern.
                         <span class="tran"><br><small>각 그룹은 10명에서 20명 정도의 참여자로 구성됩니다.</small><br/></span>
-                        Was die Freizeitangebote betrifft werden viele Programme in Sachen Kultur und Geschichte
+                        Was die Freizeitangebote betrifft, werden viele Programme in Sachen Kultur und Geschichte
                         Dresdens angeboten.
                         <span class="tran"><br><small>여가활동에 관한 것은 드레스덴의 문화와 역사에 대해 다루어집니다.</small><br/></span>
                         Man kann Museen, Konzerte, die Altstadt sowie die Neustadt erleben. Der Preis für die
@@ -101,9 +102,9 @@
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-3">
                             auf Ihre Grammatik- und Wortschatzkenntnisse sowie auf Ihre Schreibfähigkeiten getestet.
-                            Sprechen wird nicht geprüft. Je nach Ergebnis Sie dann am nächsten Tag einstufen.
-                            <br />
-                            <br />
+                            Sprechen wird nicht geprüft. Je nach Ergebnis wird man Sie dann am nächsten Tag einstufen.
+                            <br/>
+                            <br/>
                         </div>
                         <div class="input-group"><input autocomplete="off" type="text"
                                                         style="max-width: 80px; min-width: 80px;"
@@ -113,7 +114,7 @@
                         </div>
                         Jeder Kurs besteht aus 10 bis 20 Kursteilnehmern.
 
-                        Was die Freizeitangebote betrifft werden viele Programme in Sachen Kultur und Geschichte
+                        Was die Freizeitangebote betrifft, werden viele Programme in Sachen Kultur und Geschichte
                         Dresdens angeboten.
 
                         Man kann Museen, Konzerte, die Altstadt sowie die Neustadt erleben. Der Preis für die

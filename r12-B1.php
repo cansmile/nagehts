@@ -83,12 +83,12 @@
                 <button type="button"
                         id="20"
                         class="mt-1 mx-1 btn ans14 btn-sm btn-outline-dark so itm">
-                    Mit freundlichen Grüßen,
+                    Mit freundlichen Grüßen
                 </button>
                 <button type="button"
                         id="21"
                         class="mt-1 mx-1 btn ans9 btn-sm btn-outline-dark so itm">
-                    Sie erwähnen in Ihrer Anzeige,
+                    Sie erwähnen in Ihrer Anzeige
                 </button>
             </div>
         </div>
@@ -277,7 +277,7 @@
                             <div class="itm-lst 1itm d-inline-block" id="lst-12" style="min-width: 120px!important;">
                                 <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
                             </div>
-                            wenn Sie mir genauere Angaben zu meinen Fragen geben würden.
+                            , wenn Sie mir genauere Angaben zu meinen Fragen geben würden.
                             <span class="tran">저의 질문에 대한 정확한 답변을 주시면 좋겠습니다.</span>
                         </td>
                     </tr>

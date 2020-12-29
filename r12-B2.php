@@ -10,40 +10,41 @@
                     <small> 빈칸을 채우세요. </small>
                     <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
                         HV
-                    </button><br/>
+                    </button>
+                    <br/>
                     [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                         표시됩니다.</small> ]
                 </h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 wd_inline_inverted">Frau Miriam Funke im Sprachinstitut TUD hat Mina gemailt. Hier sind
-                Fehler (Kommas und Wortstellung) passiert, die rot und kursiv markiert werden. Korrigieren Sie und
-                schreiben Sie neu.
-                <span class="tran font-weight-bold">&nbsp;<small>TUD 어학원의 미리암 풍케씨는 미나에게 메일을 보냈습니다. 여기에 빨간 글씨 이탤릭체로 표기된 오류 (콤마와 어순)가 있습니다. 올바르게 수정하여 새로 작성해보세요.</small><br/></span>
+            <div class="col-12 wd_inline_inverted">Frau Miriam Funke im Sprachinstitut TUD hat Mina gemailt. In dem
+                linken Text sind Fehler in Rot bezüglich der Wortstellung. Korrigieren Sie.
+                <span class="tran font-weight-bold">&nbsp;<small>TUD 어학원의 미리암 풍케씨는 미나에게 메일을 보냈습니다. 왼쪽 텍스트의 빨간 글씨의 어순관련 오류가 있습니다.</small><br/></span>
             </div>
         </div>
         <div class="row lh250">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="row">
                     <div class="col-11 mx-auto border border-dark rounded">
-                        Sehr geehrte Frau Mina Kim
+                        Sehr geehrte Frau Mina Kim,
                         <span class="tran"><br><small>친애하는 김미나씨,</small><br/></span><br/><br/>
                         vielen Dank für Ihr Interesse an unserem Sprachinstitut.
                         <span class="tran"><br><small>저희 어학원에 관심을 가져주셔서 대단히 감사합니다.</small><br/></span>
-                        Es wäre schön wenn wir Sie bei uns begrüßen können.
+                        Es wäre schön, wenn wir Sie bei uns begrüßen können.
                         <span class="tran"><br><small>우리가 당신을 맞이할 수 있다면 매우 좋겠습니다.</small><br/></span><br/><br/>
-                        <span class="wd_inline_red">Zuerst ich möchte gerne</span> auf den Einstufungstest eingehen.
+                        <span class="wd_inline_red">Zuerst ich möchte</span> gerne auf den Einstufungstest eingehen.
                         <span class="tran"><br><small>우선 반배치 시험에 대해 언급하고 싶습니다.</small><br/></span><br/><br/>
                         <span class="wd_inline_red">Wenn Sie kommen am Montag zu uns</span>, findet ca. ein 2-stündiger
                         Einstufungstest statt.
                         <span class="tran"><br><small>당신이 월요일에 우리에게 오신다면, 약 2시간이 소요되는 반배치 시험을 실시합니다.</small></span><br/><br/>
-                        Dabei Sie werden auf Ihre Grammatik- und Wortschatzkenntnisse sowie auf Ihre Schreibfähigkeiten
+                        <span class="wd_inline_red">Dabei Sie werden</span> auf Ihre Grammatik- und Wortschatzkenntnisse
+                        sowie auf Ihre Schreibfähigkeiten
                         getestet.
                         <span class="tran"><br><small>시험에서는 문법과 어휘 그리고 쓰기를 다룹니다.</small><br/></span>
                         Sprechen wird nicht geprüft.
                         <span class="tran"><br><small>말하기는 여기에서 시험을 보지 않습니다.</small><br/></span>
-                        <span class="wd_inline_red">Je nach Ergebnis wird man</span> Sie dann am nächsten Tag einstufen.
+                        Je nach Ergebnis wird man Sie dann am nächsten Tag einstufen.
                         <span class="tran"><br><small>결과에 따라서 다음 날 배정이 됩니다.</small><br/></span><br/><br/>
                         <span class="wd_inline_red">Natürlich wir bieten</span> auch B1-Vorbereitungskurse an.
                         <span class="tran"><br><small>물론 B1 준비반도 있습니다.</small><br/></span><br/>
@@ -59,10 +60,10 @@
                         Sie können sich für ein Zimmer in einer WG online auf unserer Homepage anmelden.
                         <span
                             class="tran"><br><small>당신은 우리의 홈페이지에서 플랫쉐어(WG) 내의 방을 신청하실 수 있습니다.</small><br/></span><br/><br/>
-                        <span class="wd_inline_red">Wenn_Sie noch Fragen haben</span> stehen wir Ihnen jederzeit zur
+                        <span class="wd_inline_red">Wenn Sie haben noch Fragen</span> stehen wir Ihnen jederzeit zur
                         Verfügung.
                         <span class="tran"><br><small>궁금하신 사항이 있으시면, 언제든 우리에게 문의해주세요.</small><br/></span><br/><br/>
-                        <span class="wd_inline_red">Auf Ihre Antwort wir freuen uns sehr.</span>
+                        <span class="wd_inline_red">Auf Ihre Antwort wir freuen uns sehr</span>.
                         <span class="tran"><br><small>답장을 주시면 매우 감사하겠습니다.</small><br/></span><br/><br/>
                         Mit freundlichen Grüßen
                         <span class="tran"><br><small>인사를 전하며</small><br/></span><br/><br/>
@@ -74,34 +75,38 @@
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="row">
                     <div class="col-11 mx-auto border border-dark rounded">
-                        Sehr geehrte Frau Mina Kim
+                        Sehr geehrte Frau Mina Kim,
                         <br/><br/>
                         vielen Dank für Ihr Interesse an unserem Sprachinstitut.
 
-                        Es wäre schön wenn wir Sie bei uns begrüßen können.
+                        Es wäre schön, wenn wir Sie bei uns begrüßen können.
                         <br/><br/>
-                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text"
+                                                        style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-1">
                             auf den Einstufungstest eingehen.
                             <br/><br/>
                         </div>
-                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text"
+                                                        style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-2">
                             , findet ca. ein 2-stündiger Einstufungstest statt.
                             <br/>
                             <br/>
                         </div>
-                        Dabei Sie werden auf Ihre Grammatik- und Wortschatzkenntnisse sowie auf Ihre Schreibfähigkeiten getestet.
-                        Sprechen wird nicht geprüft.
-                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text"
+                                                        style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-3">
-                            Sie dann am nächsten Tag einstufen.
-                            <br/><br/>
+                            auf Ihre Grammatik- und Wortschatzkenntnisse sowie auf Ihre Schreibfähigkeiten getestet.
+                            Sprechen wird nicht geprüft. Je nach Ergebnis Sie dann am nächsten Tag einstufen.
+                            <br />
+                            <br />
                         </div>
-                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text"
+                                                        style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-4">
                             auch B1-Vorbereitungskurse an.
@@ -114,7 +119,8 @@
                         Man kann Museen, Konzerte, die Altstadt sowie die Neustadt erleben. Der Preis für die
                         Exkursionen ist in den Sprachkursgebühren enthalten.
                         Sie können sich für ein Zimmer in einer WG online auf unserer Homepage anmelden.<br/><br/>
-                        <div class="input-group"><input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
+                        <div class="input-group"><input autocomplete="off" type="text"
+                                                        style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-5">
                             stehen wir Ihnen jederzeit zur Verfügung.
@@ -142,25 +148,29 @@
         </div>
         <!-- 정답확인 버튼 끝 -->
         <div class="row">
-            <div class="col-12"><span class="tipp">TIPP</span></div>
-            <div class="col-12 h5 my-3">콤마 (흘림체) Kommasetzung (kursiv)</div>
+            <div class="col-12 mb-3"><span class="tipp">TIPP</span></div>
+            <div class="col-12 h5 my-3">콤마 Kommasetzung</div>
             <div class="col-12">
                 <ul>
                     <li>사적 및 준 공식적 이메일에서 인사말 뒤에 반드시 콤마(,)가 온다.</li>
                     <li>독일어에서 주문장과 부문장 사이에 항상 콤마(,)가 온다.</li>
                 </ul>
             </div>
-            <div class="col-12 h5 my-3">어순 (동사의 위치) Wortstellungen der Verben (<span class="wd_inline_inverted">&nbsp;&nbsp;</span>로 표시) </div>
+            <div class="col-12 h5 my-3">어순 (동사의 위치) Wortstellungen der Verben</div>
             <div class="col-12">
                 <ul>
-                    <li>부사(zuerst, natürlich), 형용사, 전치사구 그리고 대등접속사(deshalb, daher, also, denn 등)가 문장 앞에 나올 때는 동사는 문장 두번째에 오고 주어는 세 번째 자리에 위치한다. </li>
-                    <li>종속접속사가 이끄는 종속절에서는 동사가 맨 뒤에 온다. </li>
+                    <li>부사(zuerst, natürlich), 형용사, 전치사구 그리고 대등접속사(deshalb, daher, also, denn 등)가 문장 앞에 나올 때는 동사는 문장
+                        두번째에 오고 주어는 세 번째 자리에 위치한다.
+                    </li>
+                    <li>종속접속사가 이끄는 종속절에서는 동사가 맨 뒤에 온다.</li>
                 </ul>
             </div>
-            <div class="col-12 h5 my-3">Konnektoren</div>
+            <div class="col-12 h5 my-3">접속사 Konnektoren</div>
             <div class="col-12">
                 <ul>
-                    <li>접속사에는 조건의 의미 wenn, 주절과 목적절을 이끄는 dass, 시간 의미의 wenn, als, während, nachdem, bevor가 있고 인과적 의미의 weil, da와 목적의 의미의 damit 그리고 양보의 의미의 obwohl등이 있다.</li>
+                    <li>접속사에는 조건의 의미 wenn, 주절과 목적절을 이끄는 dass, 시간 의미의 wenn, als, während, nachdem, bevor가 있고 인과적 의미의
+                        weil, da와 목적의 의미의 damit 그리고 양보의 의미의 obwohl등이 있다.
+                    </li>
                 </ul>
             </div>
         </div>
@@ -178,7 +188,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["Zuerst möchte ich gerne", "Wenn Sie am Montag zu uns kommen", "Je nach Ergebnis wird man", "Natürlich bieten wir", "Wenn Sie noch Fragen haben", "Auf Ihre Antwort freuen wir uns sehr."];
+    var an = ["Zuerst möchte ich", "Wenn Sie am Montag zu uns kommen", "Dabei werden Sie", "Natürlich bieten wir", "Wenn Sie noch Fragen haben", "Auf Ihre Antwort freuen wir uns sehr"];
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();

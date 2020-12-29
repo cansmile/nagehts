@@ -15,43 +15,53 @@
             <div class="col-12" id="itms">
                 <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-3" id="1">
-                    A
+                    A. <small>Erholungsreise</small>
+                    <span class="tran"><small><br/>휴양여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-3" id="2">
-                    B
+                    B. <small>Flitterwochen</small>
+                    <span class="tran"><small><br/>신혼여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm px-3" id="3">
-                    C
+                    C. <small>Badeurlaub</small>
+                    <span class="tran"><small><br/>바닷가여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-3" id="4">
-                    D
+                    D. <small>Familienurlaub</small>
+                    <span class="tran"><small><br/>가족휴가여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm px-3" id="5">
-                    E
+                    E. <small>Campingurlaub</small>
+                    <span class="tran"><small><br/>캠핑휴가여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm px-3" id="6">
-                    F
+                    F. <small>Kreuzfahrt</small>
+                    <span class="tran"><small><br/>크루즈여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-3" id="7">
-                    G
+                    G. <small>Städtereise</small>
+                    <span class="tran"><small><br/>도시여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm px-3" id="8">
-                    H
+                    H. <small>Sprachreise</small>
+                    <span class="tran"><small><br/>어학연수</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm px-3" id="9">
-                    I
+                    I. <small>Studienreise</small>
+                    <span class="tran"><small><br/>답사, 연구여행</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark itm px-3" id="10">
-                    J
+                    J. <small>Rucksackreise / Backpacking</small>
+                    <span class="tran"><small><br/>배낭여행</small></span>
                 </button>
             </div>
         </div>
@@ -295,7 +305,7 @@
                         </button>&nbsp;Ich will diesen
                         Sommer
                         drei Wochen allein durch Europa reisen und habe dafür online wichtige Tipps
-                        eingeholt (<a href="https://fernsuchtblog.de/backpacking-fuer-anfaenger/">https://fernsuchtblog.de/backpacking-fuer-anfaenger/</a>).
+                        eingeholt.
                         Basierend darauf habe ich vor, zuerst eine grobe Reiseroute festzulegen und dementsprechend
                         rechtzeitig günstige Flugtickets sowie den Eurail-Pass und Unterkünfte online zu buchen.
                         Vielleicht

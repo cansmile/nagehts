@@ -224,6 +224,8 @@
                             </div>
                         </th>
                         <td>
+                            <button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-8" style="min-width: 120px!important;">
                                 <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
                             </div>
@@ -233,6 +235,8 @@
                     </tr>
                     <tr>
                         <td>
+                            <button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-9" style="min-width: 120px!important;">
                                 <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
                             </div>
@@ -242,6 +246,8 @@
                     </tr>
                     <tr>
                         <td>
+                            <button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-10" style="min-width: 120px!important;">
                                 <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
                             </div>
@@ -251,12 +257,14 @@
                     </tr>
                     <tr>
                         <td>
+                            <button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-11" style="min-width: 120px!important;">
                                 <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
                             </div>
                             möchte ich noch gerne wissen, ob ich einen Rabatt bekommen würde, wenn ich mich für zwei
                             Kurse anmelden würde?
-                            <span class="tran"><br />그리고 마지막으로 제가 두 코스를(그러니까 8주) 신청할 경우 할인을 받을 수 있는지 알고 싶습니다.</span>
+                            <span class="tran"><br/>그리고 마지막으로 제가 두 코스를(그러니까 8주) 신청할 경우 할인을 받을 수 있는지 알고 싶습니다.</span>
                         </td>
                     </tr>
                     <tr>
@@ -536,7 +544,11 @@
                 "18": [116899, 1229],
                 "19": [113872, 1037],
                 "20": [118590, 2252],
-                "21": [108113, 2497]
+                "21": [108113, 2497],
+                "22": [53864, 7625],
+                "23": [61893, 8514],
+                "24": [70965, 8763],
+                "25": [80067, 7645],
             },
             html5: true,
             volume: 1,

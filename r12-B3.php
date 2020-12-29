@@ -2,8 +2,60 @@
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" id="wahl">
+    <div class="container">
+        <div class="row">
+            <div class="bg-<?php echo( $color ); ?> wahl_title col-12">
+                Wahl
+            </div>
+            <div class="col-12" id="itms">
+                <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm" id="1">
+                    11. August 1999
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm" id="2">
+                    15. Juni
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm" id="3">
+                    3. August
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm" id="4">
+                    73125, 22 Mokdonggil
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm" id="5">
+                    B3
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm" id="6">
+                    Englisch
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm" id="7">
+                    Kim
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm" id="8">
+                    Korea
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="9">
+                    Koreanisch
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm" id="10">
+                    Mina
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm" id="11">
+                    MNKim12@gmail.com
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm" id="12">
+                    weiblich
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm" id="13">
+                    82-10-1234-4321
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="container">
+        <!-- 고르는 아이템들 -->
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.<br/>
@@ -15,12 +67,6 @@
                     [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                         표시됩니다.</small> ]
                 </h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 wd_inline_inverted">Mina will sich für ihren Sommerkurs am Sprachinstitut TUDIAS
-                anmelden. Bitte lesen Sie ihre E-Mail und füllen Sie für sie das Anmeldeformular zum Sprachkurs aus.
-                <span class="tran font-weight-bold"><br/><small>미나는 TUDIAS 어학원의 여름코스를 신청하려고 합니다. 그녀의 이메일을 읽고 어학코스 신청서를 채워보세요.</small><br/></span>
             </div>
         </div>
         <div class="row lh250">
@@ -105,95 +151,94 @@
                         <div class="row">
                             <div class="col-12 my-2">
                                 <div class="input-group">
-                                    <strong>Anmeldformular Internationale Dresdner Frühlings- und Sommerkurse
-                                        Familienname:</strong>
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-1">
+                                    <strong>Anmeldformular Internationale Dresdner Frühlings- und Sommerkurse</strong>
+                                    Familienname:
+                                    <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-1">
+                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                            ▼ </h2>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Vorname:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-2">
+                                Vorname:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-2">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Geburtsdatum:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-3">
+                                Geschlecht:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-3">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Muttersprache:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-4">
+                                Geburtsdatum:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-4">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Außer meiner Muttersprache spreche ich:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-5">
+                                Muttersprache:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-5">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Adresse:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-6">
+                                Außer meiner Muttersprache spreche ich:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-6">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Land:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-7">
+                                Adresse:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-7">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    E-Mail:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-8">
+                                Land:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-8">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Telefon:
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-9">
+                                E-Mail:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-9">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Dauer: von
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-10">
-                                    bis
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-11">
+                                Telefon:
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-10">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <div class="input-group">
-                                    Deutsche Sprachkenntnisse (bitte ankreuzen):
-                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="Antwort" aria-label="Antwort" id="qst-12">
+                                Dauer: von
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-11">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
+                                </div>
+                                bis
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-12">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
+                                </div>
+                            </div>
+                            <div class="col-12 my-2">
+                                Deutsche Sprachkenntnisse (bitte ankreuzen):
+                                <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-13">
+                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        ▼ </h2>
                                 </div>
                             </div>
                         </div>
@@ -203,26 +248,25 @@
         </div>
         <!-- 정답화인 버튼 시작 -->
         <div class="row">
-            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-                정답확인
-            </div>
+            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk"> 정답확인</div>
         </div>
         <!-- 정답확인 버튼 끝 -->
     </div>
 </section>
 
+<div id="marg"></div>
 <div id="last" class="d-none"></div>
 
 <?php require "footer.php"; ?>
+<script src="./dev/js/taptogrouph.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();
-    $(".ant").hide();
-    var an = new Array();
-    var an = ["antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort"];
+    $("#chk").hide();
+
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();
@@ -288,186 +332,19 @@
                         sen[ti]--;
                         $("#cnt-" + ti).text(sen[ti]);
                     }
-                });
-
-                /* 값 확인해보자, io값이 참이면 전체 검사 */
-                function rfchk(th, io) {
-                    var q, qn, a, b, fl;
-                    q = th.val().length;
-                    qn = (th.attr("id").substr(4)) - 1;
-                    a = th.val();
-                    a = a.replace(/ /gi, "");
-                    di(th);
-                    if (!$.isArray(an[qn])) {/* 1 인 경우 */
-                        if (io) {
-                            b = an[qn];
-                        } else {
-                            b = an[qn].substr(0, q);
-                        }
-                        b = b.replace(/ /gi, "");
-                        if (a == b) {
-                            return true;
-                        }
-                    } else {/* 2 이상인 경우 */
-                        for (var fd = 0; fd < an[qn].length; fd++) {
-                            if (io) {
-                                b = an[qn][fd];
-                            } else {
-                                b = an[qn][fd].substr(0, q);
-                            }
-                            b = b.replace(/ /gi, "");
-                            if (a == b) {
-                                return true;
-                            }
-                        }
-                    }
-                }
-
-                /* 역동적 입력란 */
-                function di(th) {
-                    var le = 0, mp = 8, l = th.val().length;
-                    if (l < 5) {
-                        var mp = 10;
-                    } else if (l > 30) {
-                        var mp = 6;
-                    } else if (l < 30) {
-                        var mp = 8;
-                    } else {
-                        var mp = 8;
-                    }
-                    if (l >= 5) {
-                        le = l;
-                    } else {
-                        le = 5;
-                    }
-                    var w = (le + 1) * mp + "px";
-                    th.addClass("mx-1");
-                    th.css("min-width", w);
-                    th.css("max-width", w);
-                    th.css("width", w);
-                };
-
-                $(".q").on("keyup", function () {
-                    $(this).removeClass("bg-danger");
-                    $(this).removeClass("bg-success");
-                    $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
-                    $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
-                    if (rfchk($(this))) {
-                        $(this).addClass("text-white font-weight-bold");
-                        $(this).addClass("bg-success");
-                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
-                    } else {
-                        $(this).addClass("text-white font-weight-bold");
-                        $(this).addClass("bg-danger");
-                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
-                    }
-                    if (!$(this).val()) {
-                        $(this).removeClass("bg-danger");
-                        $(this).removeClass("bg-success");
-                        $(this).removeClass("text-white font-weight-bold");
-                    }
-                    if ($(this).val()) {
-                        $("#ant-" + $(this).attr("id").substr(4)).show();
-                        $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
-                    } else {
-                        $("#ant-" + $(this).attr("id").substr(4)).hide();
-                    }
-                });
-                $(".q").on("focusin", function () {
-                    $("#ant-" + $(this).attr("id").substr(4)).show();
-                    if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
-                        $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
-                    }
-                    if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
-                        if (rfchk($(this))) {
-                            $(this).addClass("text-white font-weight-bold");
-                            $(this).addClass("bg-success");
-                            $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
-                        } else {
-                            $(this).addClass("text-white font-weight-bold");
-                            $(this).addClass("bg-danger");
-                            $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
-                        }
-                    }
-                });
-                $(".q").on("focusout", function () {
-                    $("#ant-" + $(this).attr("id").substr(4)).hide();
-                    if (rfchk($(this), true)) {
-                        $(this).addClass("bg-success");
-                        $(this).addClass("text-white");
-                    } else {
-                        $(this).addClass("bg-danger");
-                    }
-                    if ($(this).val()) {
-                        if ($(this).hasClass("bg-danger")) {
-                            x.play();
-                        } else if ($(this).hasClass("bg-success")) {
-                            o.play();
-                            $(this).prop("disabled", true);
-                        }
-                    }
-                    $(this).removeClass("bg-danger");
-                    if (!$(this).attr("disabled")) {
-                        $(this).removeClass("text-white font-weight-bold");
-                        $(this).removeClass("bg-success");
-                    }
-                })
-                /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
+                }); /* 정답확인 */
                 $("#chk").on("click", function () {
                     var na = "";
-                    var ri = 0;
-                    var qst = $(".q").length;
-                    $(".q").each(function () {
-                        if (na != "") {
-                            na += ", ";
-                        }
-                        if ($(this).val() == "") {
-                            na += $(this).attr("id").substr(4, 1);
-                        }
-                    });
-                    if ($(this).attr("id") == "done") {
-                    } else if (na == "") {
-                        for (var i = 0; i < an.length; i++) {
-                            var oran = $("#qst-" + (i + 1)).val();
-                            if (rfchk($("#qst-" + (i + 1)), true)) {
-                                $("#qst-" + (i + 1)).addClass("cr");
-                                $("#qst-" + (i + 1)).removeClass("rounded-0");
-                            } else {
-                                $("#qst-" + (i + 1)).val(oran);
-                                $("#qst-" + (i + 1)).attr("disabled", true);
-                                $("#qst-" + (i + 1)).addClass("wa");
-                                $("#qst-" + (i + 1)).removeClass("rounded-0");
-                                if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
-                                        an[i] + "</div>");
-                                } else {
-                                    /* 2 이상인 경우 */
-                                    var r =
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
-                                    for (var fd = (an[i].length - 1); fd >= 0; fd--) {
-                                        if (fd < (an[i].length - 1)) {
-                                            r = r + " / ";
-                                        }
-                                        r = r + an[i][fd];
-                                    }
-                                    r = r + "</div>";
-                                    if ($("span.sen").length > 0) {
-                                        $("#qst-" + (i + 1)).closest("span.sen").after(
-                                            r);
-                                    } else {
-                                        $("#qst-" + (i + 1)).after(r);
-                                    }
-                                }
-                            }
-                            if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
-                                ri++;
-                            }
-                        }
-                        ; /* 정답 확인 div 상자 배경색 속성 없애기 */
+                    if ($("#itms").find("button").length < 1) {
+                        $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light ");
-                        var qa = $(".q").length; /* 전체 문항 수 */
-                        var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                        $(".itm-lst").each(function () {
+                            if ($(this).find(".btn")) {
+                                $(this).find(".btn").addClass("text-success");
+                            }
+                        });
+                        var qa = $(".itm-lst").length; /* 전체 문항 수 */
+                        var qr = $(".text-success").length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) * 100; /* 정답 비율 */
                         var tcl = "white"; /* 기본 문자색 */
                         /* 분류 기준은 100%, 80%, 60%, 40% */
@@ -488,39 +365,49 @@
                         $(this).addClass("btn-" + cl + " text-" + tcl);
                         $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                             "</h4>");
-                        $(this).prop("disabled", true);
-                        $(".tran").show();
-                        $(this).attr("id", "done");
+                        $(".btn-lg").text().appendTo($(this).closest("td"));
+                        $(".btn-lg").remove();
                     } else {
+                        $("div.itm-lst").each(function (idx) {
+                            if (!$(this).find("button").length) {
+                                if (na != "") {
+                                    na += ", ";
+                                }
+                                na += (idx + 1);
+                            }
+                        });
                         alert("모든 문제를 풀어주세요!");
                     }
-                    ;
                 });
+                <?php require "wahl.php"; ?>
                 var pan = new Array();
-                pan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+                pan = [];
+                var il = $("#itms>.itm").length;
                 for (var p = 0; p < pan.length; p++) {
-                    var pann = "#qst-" + pan[p];
-                    $(pann).val(an[(pan[p] - 1)]);
-                    $(pann).addClass("bg-success text-white font-weight-bold");
-                    $(pann).prop("disabled", true);
-                    di($(pann));
+                    var pani = "#lst-" + pan[p];
+                    $(".itm").each(function () {
+                        if ($(this).hasClass("ans" + pan[p])) {
+                            $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
+                            $("#" + $(this).attr("id")).addClass("btn-block btn-light");
+                            $("#lst-" + pan[p] + ">h2").remove();
+                        }
+                    })
                 }
                 $("#0").show();
                 $(".alert").hide();
-
             },
             onend: function () {
                 $("div#last").text("");
                 stopAll();
                 $("#cnt-" + last).text(sen[last]);
                 if (last == 0) {
-                    if (sen[last] == 3) {
+                    if (sen[last] == 2) {
                         $(".tran").show();
                         $(".so").each(function () {
                             pa[last] = $("#" + last).html();
                         });
                     }
-                } else if (sen[last] == 3) {
+                } else if (sen[last] == 2) {
                     if ($("#" + last).hasClass("itm")) {
                         $("#" + last + ">.tran").show();
                     }
@@ -530,6 +417,7 @@
             }
         });
     });
+
 </script>
 </body>
 

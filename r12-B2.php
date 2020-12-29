@@ -60,7 +60,7 @@
                         Sie können sich für ein Zimmer in einer WG online auf unserer Homepage anmelden.
                         <span
                             class="tran"><br><small>당신은 우리의 홈페이지에서 플랫쉐어(WG) 내의 방을 신청하실 수 있습니다.</small><br/></span><br/><br/>
-                        <span class="wd_inline_red">Wenn Sie haben noch Fragen</span> stehen wir Ihnen jederzeit zur
+                        <span class="wd_inline_red">Wenn Sie haben noch Fragen</span>, stehen wir Ihnen jederzeit zur
                         Verfügung.
                         <span class="tran"><br><small>궁금하신 사항이 있으시면, 언제든 우리에게 문의해주세요.</small><br/></span><br/><br/>
                         <span class="wd_inline_red">Auf Ihre Antwort wir freuen uns sehr</span>.
@@ -123,7 +123,7 @@
                                                         style="max-width: 80px; min-width: 80px;"
                                                         class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
                                                         placeholder="Antwort" aria-label="Antwort" id="qst-5">
-                            stehen wir Ihnen jederzeit zur Verfügung.
+                            , stehen wir Ihnen jederzeit zur Verfügung.
                             <br/><br/>
                         </div>
                         <div class="input-group">

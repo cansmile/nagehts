@@ -342,6 +342,151 @@
             </div>
         </div>
         <!-- 정답확인 버튼 끝 -->
+        <div class="row">
+            <div class="col-12"><span class="gr">GR</span><span class="tipp">TIPP</span><strong>가정법 II식 (Konjunktiv
+                    II)</strong></div>
+            <div class="col-12 h5 my-3">가정법 II 사용</div>
+            <div class="col-12">
+                가정법 II식은 동사의 서법으로 공손한 부탁, 비현실적인 조건, 소망 등을 표현할 수 있다.<br/>
+                würden, hätte, wäre 혹은 다른 화법동사의 가정법 II식 형태들은 공손한 부탁을 표현하는데 자주 사용된다.
+            </div>
+            <div class="col-12 h5 my-3">가정법 II식 형태</div>
+            <div class="col-12">
+                <ul>
+                    <li>가정법 현재에서는 대부분 würden+(일반)동사원형 형태를 취하고 과거의 경우 hätte, wäre+ 과거분사형 의 형태를 사용한다.</li>
+                    <li>가정법 II식의 형태는 과거형에서 파생되고 직설법 과거형에서와 같이 일인칭 삼인칭 단수의 동사 형태가 동일하다. 가정법의 동사 어미는 아래와 같다.</li>
+                </ul>
+            </div>
+            <div class="col-12">
+                <table class="table table-borderless table-striged text-center">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ich</th>
+                        <th scope="col">du</th>
+                        <th scope="col">er/sie/es</th>
+                        <th scope="col">wir</th>
+                        <th scope="col">ihr</th>
+                        <th scope="col">sie</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>-e</td>
+                        <td>-(e)st</td>
+                        <td>-e</td>
+                        <td>-en</td>
+                        <td>-(e)t</td>
+                        <td>-en</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12 h5">동사의 접속법 II식의 형태는 다음과 같다.</div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <table class="table table-borderless table-striped">
+                            <tbody>
+                            <tr>
+                                <th scope="row">Ich</th>
+                                <td>würde fahren. (=Ich führe.)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Du</th>
+                                <td>würdest fahren.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Er / Sie / Es</th>
+                                <td>würde fahren.</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <table class="table table-borderless table-striped">
+                            <tbody>
+                            <tr>
+                                <th scope="row">Wir</th>
+                                <td>würden fahren.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Ihr</th>
+                                <td>würdet fahren.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sie</th>
+                                <td>würden fahren.</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <table class="table table-borderless table-striped">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">&nbsp;</th>
+                        <th scope="col">sein</th>
+                        <th scope="col">haben</th>
+                        <th scope="col">dürfen</th>
+                        <th scope="col">können</th>
+                        <th scope="col">müssen</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">직설법 과거 3인칭</th>
+                        <td>war</td>
+                        <td>hatte</td>
+                        <td>durfte</td>
+                        <td>konnte</td>
+                        <td>musste</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ich</th>
+                        <td>wäre</td>
+                        <td>hätte</td>
+                        <td>dürfte</td>
+                        <td>könnte</td>
+                        <td>müsste</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">du</th>
+                        <td>wärst</td>
+                        <td>hättest</td>
+                        <td>dürftest</td>
+                        <td>könntest</td>
+                        <td>müsstest</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">er / sie / es</th>
+                        <td>wäre</td>
+                        <td>hätte</td>
+                        <td>dürfte</td>
+                        <td>könnte</td>
+                        <td>müsste</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">wir</th>
+                        <td>wären</td>
+                        <td>hätten</td>
+                        <td>dürften</td>
+                        <td>könnten</td>
+                        <td>müssten</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">sie / Sie</th>
+                        <td>wären</td>
+                        <td>hätten</td>
+                        <td>dürften</td>
+                        <td>könnten</td>
+                        <td>müssten</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </section>
 <div id="marg"></div>

@@ -18,17 +18,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 wd_inline_inverted">Mina ist zur Teilnahme am Sprachkurs auf dem Frankfurter Flughafen gelandet. Sie hat bereits zu Hause eine Bahnkarte gebucht. Schauen Sie sich die Bahnkarte an und antworten Sie bitte auf die Fragen.
+            <div class="col-12 wd_inline_inverted">Mina ist zur Teilnahme am Sprachkurs auf dem Frankfurter Flughafen
+                gelandet. Sie hat bereits zu Hause eine Bahnkarte gebucht. Schauen Sie sich die Bahnkarte an und
+                antworten Sie bitte auf die Fragen.
                 <span class="tran font-weight-bold"><br/><small>미나는 어학코스에 참여하기 위해 프랑크푸르트 공항에 내렸습니다. 그녀는 이미 집에서 기차표를 예약했습니다. 아래 기차표를 보고 질문에 답하세요.</small><br/></span>
             </div>
         </div>
         <div class="row lh250">
             <div class="col-12">
-                <img src="./dev/images/Reihe 12/Reihe-12-C1.png" alt="Bahnkartenreservierung" style="max-width: 100%; height: auto;">
+                <img src="./dev/images/Reihe 12/Reihe-12-C1.png" alt="Bahnkartenreservierung"
+                     style="max-width: 100%; height: auto;">
             </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-sm-12 col-md-8 col-lg-4 my-2">
+                    <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
                                 <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -38,17 +41,17 @@
                                 <span class="tran"><br><small>기차가 언제 프랑크푸르트를 출발합니까? </small></span></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
-                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-1">
+                            Um <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
+                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                      placeholder="Antwort" aria-label="Antwort" id="qst-1"> Uhr
                         </div>
                         <span class="tran">
                             <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
                         </span>
                     </div>
-                    <div class="col-sm-12 col-md-8 col-lg-4 my-2">
+                    <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
                                 <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -58,17 +61,17 @@
                                 <span class="tran"><br><small>기차가 언제 드레스덴에 도착합니까? </small></span></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
-                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-2">
+                            Um <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
+                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                      placeholder="Antwort" aria-label="Antwort" id="qst-2"> Uhr
                         </div>
                         <span class="tran">
                             <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
                         </span>
                     </div>
-                    <div class="col-sm-12 col-md-8 col-lg-4 my-2">
+                    <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
                                 <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -78,17 +81,17 @@
                                 <span class="tran"><br><small>어디에서 환승해야 합니까?</small></span></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
-                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-3">
+                            In <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
+                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                      placeholder="Antwort" aria-label="Antwort" id="qst-3">
                         </div>
                         <span class="tran">
                             <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
                         </span>
                     </div>
-                    <div class="col-sm-12 col-md-8 col-lg-4 my-2">
+                    <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
                                 <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -98,17 +101,20 @@
                                 <span class="tran"><br><small>기차시간은얼마나 소요됩니까?</small></span></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
                             <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-4">
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-4"> Stunde
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-4"> Minuten
                         </div>
                         <span class="tran">
                             <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
                         </span>
                     </div>
-                    <div class="col-sm-12 col-md-8 col-lg-4 my-2">
+                    <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
                                 <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -118,17 +124,25 @@
                                 <span class="tran"><br><small>기차표 가격은 얼마입니까?</small></span></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4 lh350">
                         <div class="input-group">
                             <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-5">
+                            EUR.
+                        </div>
+                        <div class="input-group">
+                            Im Sparangebot
+                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-5">
+                            EUR.
                         </div>
                         <span class="tran">
                             <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
                         </span>
                     </div>
-                    <div class="col-sm-12 col-md-8 col-lg-4 my-2">
+                    <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
                                 <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -138,9 +152,9 @@
                                 <span class="tran"><br><small>기차는 몇 번 선로에서 출발합니까? </small></span></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
-                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
+                            Auf Gleis <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-6">
                         </div>
@@ -148,7 +162,7 @@
                             <button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
                         </span>
                     </div>
-                    <div class="col-sm-12 col-md-8 col-lg-4 my-2">
+                    <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
                                 <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -158,9 +172,9 @@
                                 <span class="tran"><br><small>기차는 드레스덴에서 몇 번 선로에 도착합니까?</small></span></div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
-                            <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
+                            Auf Gleis <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
                                    class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-7">
                         </div>
@@ -192,7 +206,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["Um 16.13 Uhr", "Um 20.34 Uhr", "In Leipzig", "4 Stunden 21 Minuten", "92,60 EUR.  Im Sparangebot 59,90 EUR.", "Auf Gleis 4", "Auf Gleis 1"];
+    var an = ["16.13", "20.34", "Leipzig", "4", "21", "92,60", "59,90", "4", "1"];
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();

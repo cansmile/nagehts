@@ -18,9 +18,26 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 wd_inline_inverted">Mina will am Sprachkurs an der TUDIAS Dresden teilnehmen. Bitte lesen Sie ihre E-Mail und füllen Sie
+            <div class="col-12 wd_inline_inverted">Mina will am Sprachkurs an der TUDIAS Dresden teilnehmen. Bitte lesen
+                Sie ihre E-Mail und füllen Sie
                 für sie das Anmeldeformular zur Zimmerreservierung aus.
                 <span class="tran font-weight-bold"><br/><small>미나는 TUDIAS 어학원의 여름코스에 참여하려고 합니다. 그녀의 이메일을 읽고 방 예약을 위한 신청서를 채워보세요.</small><br/></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-2 text-center my-3">
+                <span class="wd">11. August 1999</span>
+                <span class="wd">14. Juni</span>
+                <span class="wd">6. August</span>
+                <span class="wd">73125, 22 Mokdonggil</span>
+                <span class="wd">Frau</span>
+                <span class="wd">gegen 19 Uhr</span>
+                <span class="wd">Kim</span>
+                <span class="wd">Korea</span>
+                <span class="wd">Koreanisch</span>
+                <span class="wd">Mina</span>
+                <span class="wd">MNKim12@gmail.com</span>
+                <span class="wd">Theologie</span>
             </div>
         </div>
         <div class="row lh250">
@@ -40,8 +57,10 @@
                                 <span class="tran"><br><small>저는 한국에서 온 김미나라고 합니다.</small></span>
                             </div>
                             <div class="col-12">
-                                Ich bin Theologiestudentin an der PUTS und möchte im nächsten Sommer Deutsch an der Sprachschule in Dresden lernen.
-                                <span class="tran"><br><small>저는 PUTS에서 신학을 공부하는 대학생이고 다음 여름에 드레스덴의 어학원에서 독일어를 배우고 싶습니다.</small></span>
+                                Ich bin Theologiestudentin an der PUTS und möchte im nächsten Sommer Deutsch an der
+                                Sprachschule in Dresden lernen.
+                                <span
+                                    class="tran"><br><small>저는 PUTS에서 신학을 공부하는 대학생이고 다음 여름에 드레스덴의 어학원에서 독일어를 배우고 싶습니다.</small></span>
                             </div>
                             <div class="col-12">
                                 Ich bin am 11. August 1999 in Seoul, Korea geboren und wohne derzeit in Seoul.
@@ -102,7 +121,8 @@
                     <div class="col-11 mx-auto border border-dark rounded">
                         <div class="row">
                             <div class="col-12 my-2">
-                                <strong>Formular für Reservierungsanfrage zum Internationalen Gästehaus<br/>Angaben zum Nutzer der Unterkunft</strong>
+                                <strong>Formular für Reservierungsanfrage zum Internationalen Gästehaus<br/>Angaben zum
+                                    Nutzer der Unterkunft</strong>
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group">
@@ -169,42 +189,51 @@
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <strong>Grund des Aufenthaltes:</strong>
+                                <strong>Grund des Aufenthaltes:</strong><br/>
+                                Ich bin als Student immatrikuliert
+                            </div>
+                            <div class="col-12 my-2">
+                                <strong>Name der Universität bzw: Einrichtung:</strong>
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group">
-                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
+                                    Fachrichtung:
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="v" aria-label="v" id="qst-9">
-                                    Ich bin als Student immatrikuliert
+                                           placeholder="Antwort" aria-label="Antwort" id="qst-9">
                                 </div>
                             </div>
                             <div class="col-12 my-2">
-                                <strong>Unterkunftswunsch</strong>
+                                <strong>Gewünschter Zeitraum für die Unterbringung</strong>
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group">
-                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
+                                    von (Tag der Anreise):
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="v" aria-label="v" id="qst-10">
-                                    1-Raum-Apartment mit eigener Küche und Badezimmer
+                                           placeholder="Antwort" aria-label="Antwort" id="qst-10">
                                 </div>
-                            </div>
-                            <div class="col-12 my-2">
-                                <div class="input-group text-break">
-                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
-                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="v" aria-label="v" id="qst-11">
-                                    Einzelzimmer in Wohngemeinschaft (max. 3 Zimmer)
-                                </div>mit gemeinsamer Nutzung von Küche und Badezimmer
                             </div>
                             <div class="col-12 my-2">
                                 <div class="input-group">
-                                    <input autocomplete="off" type="text" style="max-width: 25px; min-width: 25px;"
+                                    Uhrzeit der Ankunft:
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
-                                           placeholder="v" aria-label="v" id="qst-12">
-                                    Wohnplatz im Doppelzimmer
+                                           placeholder="Antwort" aria-label="Antwort" id="qst-11">
                                 </div>
+                            </div>
+                            <div class="col-12 my-2">
+                                <div class="input-group">
+                                    bis
+                                    <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
+                                           class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1"
+                                           placeholder="Antwort" aria-label="Antwort" id="qst-12">
+                                </div>
+                            </div>
+                            <div class="col-12 my-2">
+                                <strong>Unterkunftswunsch</strong><br/>
+                                Einzelzimmer in Wohngemeinschaft (max. 3 Zimmer)
+                                mit gemeinsamer Nutzung von Küche und Badezimmer
                             </div>
                         </div>
                     </div>
@@ -232,7 +261,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "antwort", "v", "v", "v", "v"];
+    var an = ["Frau", "Kim", "Mina", "Korea", "Koreanisch", "73125, 22 Mokdonggil", "11. August 1999", "MNKim12@gmail.com", "Theologie", "14. Juni", "gegen 19 Uhr", "6. August"];
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();
@@ -507,7 +536,7 @@
                     ;
                 });
                 var pan = new Array();
-                pan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+                pan = [1, 5, 6, 9, 11, 12];
                 for (var p = 0; p < pan.length; p++) {
                     var pann = "#qst-" + pan[p];
                     $(pann).val(an[(pan[p] - 1)]);

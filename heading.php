@@ -613,7 +613,6 @@
                         array(
                             'D1' => array( 'Mein erster Flug (auf Facebook)', '나의 첫 비행' ),
                             'D2' => array( 'Formulieren Sie die Aktivsätze in Passivsätze um.', '능동태의 문장을 수동태로 바꾸세요.' ),
-                            'D3' => array( 'Übersetzen Sie die Sätze ins Koreanische.', '문장들을 한국어로 번역하세요.' ),
                             'D4' => array( 'Meine Sprachreise (auf Facebook)', '나의 어학연수 (페이스북)' ),
                         )
                     ),

@@ -20,8 +20,8 @@
         <div class="row">
             <div class="col-12 wd_inline_inverted">Mina ist zu ihrer Sprachreise nach Dresden geflogen. Das war ihr
                 erster Flug. Daher berichtet sie ihren Freunden darüber. Ergänzen Sie die Lücken. Bilden Sie Sätze
-                entweder im Präteritum, im Perfekt oder im Passiv.
-                <span class="tran font-weight-bold">&nbsp;<small>미나는 드레스덴으로 어학연수를 떠났습니다. 이것이 그녀의 첫 번째 비행이었습니다. 그래서 그녀는 그녀의 친구들에게 이것에 대해 알려줍니다. 빈칸을 채우세요. 과거형, 현재완료, 수동태 중에 알맞게 골라 문장을 완성하세요.</small><br/></span>
+                entweder, im Perfekt oder im Passiv.
+                <span class="tran font-weight-bold">&nbsp;<small>미나는 드레스덴으로 어학연수를 떠났습니다. 이것이 그녀의 첫 번째 비행이었습니다. 그래서 그녀는 그녀의 친구들에게 이것에 대해 알려줍니다. 빈칸을 채우세요. 현재완료, 수동태 중에 알맞게 골라 문장을 완성하세요.</small><br/></span>
             </div>
         </div>
         <div class="row lh250">
@@ -41,12 +41,11 @@
                             class="wd_inline_red">(erleben)</span>.
                         <span
                             class="tran"><br><small>내가 체크인에서 그리고 착륙 후에 무엇을 경험했는지 나의 첫 번째 소식을 이야기 할게.</small></span><br/>
-                        Das <span class="wd_inline_red">(sein)</span> alles ziemlich anstrengend für mich.
+                        Das war alles ziemlich anstrengend für mich.
                         <span class="tran"><br><small>나에게는 모든 것이 상당히 힘든 일이었어.</small></span><br/>
-                        Am Flughafen <span class="wd_inline_red">(suchen)</span> ich zuerst in meinen Reiseunterlagen
-                        nach der Flugnummer und <span class="wd_inline_red">(blicken)</span> dann auf den Monitor und
-                        <span class="wd_inline_red">(finden)</span> die Flugnummer, die Abflugzeit sowie auch den
-                        Check-In Schalter.
+                        Am Flughafen suchte ich zuerst in meinen Reiseunterlagen
+                        nach der Flugnummer und blickte dann auf den Monitor und fand die Flugnummer, die Abflugzeit
+                        sowie auch den Check-In Schalter.
                         <span class="tran"><br><small>공항에서 나는 우선 여행서류에서 비행기 번호를 찾고 모니터를 보고 나의 비행기 번호와 비행시간, 그리고 체크인 창구를 찾았어.</small></span><br/>
                         Dort <span class="wd_inline_red">&nbsp;&nbsp;&nbsp;&nbsp;</span> ich <span
                             class="wd_inline_red">(eingecheckt werden / einchecken)</span> und mein Gepäck <span
@@ -57,26 +56,23 @@
                         <span class="tran"><br><small>탑승권을 넘겨 받았어. 탑승권에 써 있는 게이트를 찾고, 거기에서 비행기를 기다려.</small></span>
                         Auf der Bordkarte findet man den Flugsteig, an dem das Flugzeug wartet.
                         <span class="tran"><br><small>비행기 탑승 전에, 나는 보안검사를 통과했어.</small></span>
-                        Bevor ich zum Flugsteig <span class="wd_inline_red">(kommen)</span>, musste ich mich einer
+                        Bevor ich zum Flugsteig kommen, musste ich mich einer
                         Sicherheitskontrolle unterziehen.
                         <span class="tran"><br><small></small></span>
-                        Nach der Sicherheitskontrolle <span class="wd_inline_red">(warten)</span> ich, bis die Fluggäste<span
+                        Nach der Sicherheitskontrolle wartete ich, bis die Fluggäste<span
                             class="wd_inline_red">(aufgerufen werden/ aufrufen)</span> und in das Flugzeug steigen
                         konnten.
                         <span class="tran"><br><small>보안검사 후에, 탑승객들이 호명되고 비행기를 타기 전까지 기다렸어.</small></span>
                         Im Flugzeug <span class="wd_inline_red">&nbsp;&nbsp;&nbsp;&nbsp;</span> ich dann meinen
-                        Sitzplatz <span class="wd_inline_red">(suchen)</span> und <span class="wd_inline_red">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        mich <span class="wd_inline_red">(hinsetzen)</span>.
+                        Sitzplatz <span class="wd_inline_red">(suchen)</span> und habe mich <span class="wd_inline_red">(hinsetzen)</span>.
                         <span class="tran"><br><small>비행기에서 나는 나의 좌석을 찾고 자리에 앉았어. </small></span>
-                        Während des Flugs <span class="wd_inline_red">&nbsp;&nbsp;&nbsp;&nbsp;</span> uns einige Snacks
+                        Während des Flugs wurden uns einige Snacks
                         und Getränke <span class="wd_inline_red">(angeboten werden/ anbieten)</span>, die natürlich im
                         Flugticket inbegriffen waren.
                         <span class="tran"><br><small>비행 동안 약간의 스낵과 음료가 제공됐는데, 당연히 항공권에 포함됐어.</small></span>
-                        Als ich dann am Zielflughafen <span class="wd_inline_red">(landen)</span>, <span
-                            class="wd_inline_red">(gehen)</span> ich zuerst einmal Richtung Gepäckausgabe.
+                        Als ich dann am Zielflughafen landete, ging ich zuerst einmal Richtung Gepäckausgabe.
                         <span class="tran"><br><small>도착지 공항에 착륙했을 때 나는 우선 짐 찾는 곳으로 갔어.</small></span>
-                        Hier <span class="wd_inline_red">&nbsp;&nbsp;&nbsp;&nbsp;</span> wieder ein Monitor <span
-                            class="wd_inline_red">(anzeigen)</span>, wo man sein Gepäck findet.
+                        Hier zeigte wieder ein Monitor an, wo man sein Gepäck findet.
                         <span class="tran"><br><small>여기에서 다시 어디에서 짐을 찾을 수 있는지 모니터를 봤어.</small></span>
                         Am entsprechenden Förderband angekommen nahm ich dann mein Gepäck herunter.
                         <span class="tran"><br><small>정해진 컨베이어 벨트에서 나의 짐을 찾았어.</small></span>
@@ -117,102 +113,68 @@
                                placeholder="Antwort" aria-label="Antwort" id="qst-5">
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-6">. Das
+                               placeholder="Antwort" aria-label="Antwort" id="qst-6">. Das war alles ziemlich
+                        anstrengend für mich.<br/>Am Flughafen suchte ich zuerst in meinen Reiseunterlagen nach der
+                        Flugnummer und blickte dann auf den Monitor und fand die Flugnummer,die Abflugzeit sowie auch
+                        den Check-In Schalter. Dort
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
                                placeholder="Antwort" aria-label="Antwort" id="qst-7">
-                        alles ziemlich anstrengend für mich.<br/>
-                        Am Flughafen
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-8">
-                        ich zuerst in meinen Reiseunterlagen nach der Flugnummer und
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-9">
-                        dann auf den Monitor und
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-10">
-                        die Flugnummer,die Abflugzeit sowie auch den Check-In Schalter. Dort
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-11">
                         ich
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-12">
+                               placeholder="Antwort" aria-label="Antwort" id="qst-8">
                         und mein Gepäck
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-13">
-                        aufgegeben. Die Bordkarte
+                               placeholder="Antwort" aria-label="Antwort" id="qst-9">
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-14">
+                               placeholder="Antwort" aria-label="Antwort" id="qst-10">
+                        . Die Bordkarte
+                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               placeholder="Antwort" aria-label="Antwort" id="qst-11">
                         mir
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-15">. Auf der Bordkarte findet man den
+                               placeholder="Antwort" aria-label="Antwort" id="qst-12">. Auf der Bordkarte findet man den
                         Flugsteig, an dem das Flugzeug wartet. Bevor ich zum Flugsteig kam, musste ich mich einer
-                        Sicherheitskontrolle unterziehen. Nach der Sicherheitskontrolle
+                        Sicherheitskontrolle unterziehen. Nach der Sicherheitskontrolle wartete ich, bis die Fluggäste
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-16">
-                        ich, bis die Fluggäste
+                               placeholder="Antwort" aria-label="Antwort" id="qst-13">
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-17">
-                        wurden und in das Flugzeug steigen konnten. Im Flugzeug
+                               placeholder="Antwort" aria-label="Antwort" id="qst-14">
+                        und in das Flugzeug steigen konnten. Im Flugzeug
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-18">
+                               placeholder="Antwort" aria-label="Antwort" id="qst-15">
                         ich dann meinen Sitzplatz
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-19">
-                        und
+                               placeholder="Antwort" aria-label="Antwort" id="qst-16">
+                        und habe mich
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-20">
-                        mich
+                               placeholder="Antwort" aria-label="Antwort" id="qst-17">.
+                        Während des Flugs wurden uns einige Snacks und Getränke
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-21">.
-                        Während des Flugs
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-22">
-                        uns einige Snacks und Getränke
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-23">, die natürlich im Flugticket
+                               placeholder="Antwort" aria-label="Antwort" id="qst-18">, die natürlich im Flugticket
                         inbegriffen waren.<br/>
-                        Als ich dann am Zielflughafen
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-24">,
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-25">
-                        ich zuerst einmal Richtung Gepäckausgabe.<br/>
-                        Hier
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-26">
-                        wieder ein Monitor
-                        <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-27">, wo man sein Gepäck findet.<br/>
+                        Als ich dann am Zielflughafen ich zuerst einmal Richtung Gepäckausgabe.<br/>
+                        Hier zeigte wieder ein Monitor an, wo man sein Gepäck findet.<br/>
                         Am entsprechenden Förderband angekommen nahm ich dann mein Gepäck herunter.
                         Gott sei Dank
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-28">
+                               placeholder="Antwort" aria-label="Antwort" id="qst-19">
                         mein Anreisetag reibungslos
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
-                               placeholder="Antwort" aria-label="Antwort" id="qst-29">
+                               placeholder="Antwort" aria-label="Antwort" id="qst-20">
                         .
                         Ich melde mich wieder bei euch, und berichte euch dann, wie meine Sprachreise ist.<br/>
                         Bis bald<br/><br/>
@@ -396,7 +358,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["bin", "angekommen", "bin", "geflogen", "erlebt", "habe", "war", "suchte", "blickte", "fand", "wurde", "eingecheckt", "wurde", "wurde", "ausgehändigt", "wartete", "aufgerufen", "habe", "gesucht", "habe", "hingesetzt", "wurden", "angeboten", "landete", "ging", "zeigte", "an", "ist", "gelaufen"];
+    var an = ["bin", "angekommen", "bin", "geflogen", "erlebt", "habe", "wurde", "eingecheckt", "wurde", "aufgegeben", "wurde", "ausgehändigt", "aufgerufen", "wurden", "habe", "gesucht", "hingesetzt", "angeboten", "ist", "gelaufen"];
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();
@@ -446,8 +408,7 @@
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
-                    if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
-                        ".itm-lst")) {
+                    if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
                         $("#last").text(ti);
                         t.text("■");
                         nagehts.seek();
@@ -482,7 +443,8 @@
                         if (a == b) {
                             return true;
                         }
-                    } else {/* 2 이상인 경우 */
+                    } else {
+                        /* 2 이상인 경우 */
                         for (var fd = 0; fd < an[qn].length; fd++) {
                             if (io) {
                                 b = an[qn][fd];
@@ -586,6 +548,7 @@
                         $(this).removeClass("bg-success");
                     }
                 })
+
                 /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
                 $("#chk").on("click", function () {
                     var na = "";
@@ -612,13 +575,9 @@
                                 $("#qst-" + (i + 1)).addClass("wa");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
-                                        an[i] + "</div>");
-                                } else {
-                                    /* 2 이상인 경우 */
-                                    var r =
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                    $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" + an[i] + "</div>");
+                                } else {/* 2 이상인 경우 */
+                                    var r = "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
@@ -627,8 +586,7 @@
                                     }
                                     r = r + "</div>";
                                     if ($("span.sen").length > 0) {
-                                        $("#qst-" + (i + 1)).closest("span.sen").after(
-                                            r);
+                                        $("#qst-" + (i + 1)).closest("span.sen").after(r);
                                     } else {
                                         $("#qst-" + (i + 1)).after(r);
                                     }
@@ -638,13 +596,14 @@
                                 ri++;
                             }
                         }
-                        ; /* 정답 확인 div 상자 배경색 속성 없애기 */
+                        ;
+
+                        /* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light ");
                         var qa = $(".q").length; /* 전체 문항 수 */
                         var qr = $(".bg-success").length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) * 100; /* 정답 비율 */
-                        var tcl = "white"; /* 기본 문자색 */
-                        /* 분류 기준은 100%, 80%, 60%, 40% */
+                        var tcl = "white"; /* 기본 문자색 *//* 분류 기준은 100%, 80%, 60%, 40% */
                         if (pe > 99) {
                             var st = "원어민이세요?";
                             var cl = "lime";
@@ -660,8 +619,7 @@
                             var cl = "danger";
                         }
                         $(this).addClass("btn-" + cl + " text-" + tcl);
-                        $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
-                            "</h4>");
+                        $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                         $(this).prop("disabled", true);
                         $(".tran").show();
                         $(this).attr("id", "done");
@@ -671,7 +629,7 @@
                     ;
                 });
                 var pan = new Array();
-                pan = [1, 6, 15, 19, 21];
+                pan = [1, 2, 6, 7, 8, 17];
                 for (var p = 0; p < pan.length; p++) {
                     var pann = "#qst-" + pan[p];
                     $(pann).val(an[(pan[p] - 1)]);
@@ -681,7 +639,6 @@
                 }
                 $("#0").show();
                 $(".alert").hide();
-
             },
             onend: function () {
                 $("div#last").text("");

@@ -605,7 +605,6 @@
                         array(
                             'C1' => array( 'Zimmerreservierung im Studentenwerk (online)', '학교 기숙사 방예약 (온라인)' ),
                             'C2' => array( 'Bahnkartereservierung', '기차표 예약' ),
-                            'C3' => array( 'Anzeigen für Hotelzimmer', '호텔방 광고' ),
                             'C4' => array( 'Hotelzimmerreservierung (per Telefon)', '호텔방 예약 (전화로)' ),
                         )
                     ),

@@ -23,7 +23,7 @@
                     73125, 22 Mokdonggil
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm" id="5">
-                    B3
+                    B1
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm" id="6">
                     Englisch

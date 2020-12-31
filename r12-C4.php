@@ -10,7 +10,7 @@
                 Wahl</div>
             <div class="col-12" id="itms">
                 <button type="button" class="mt-1 mx-1 btn ans1 btn-md t-3 btn-outline-dark itm so" id="1">
-                    Hier ist Kim. Ich möchte gern von Montag den 12. bis Mittwoch den 14. August in Ihrem Hotel übernachten. Haben Sie noch ein Zimmer für mich frei?
+                    Hier ist Kim. Ich möchte gern von Montag den 12. bis Mittwoch den 14. Juli in Ihrem Hotel übernachten. Haben Sie noch ein Zimmer für mich frei?
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans4 btn-md t-3 btn-outline-dark itm so" id="2">
                     Gut! Das nehme ich dann. Ab wann könnte ich dann einchecken? Ich komme nämlich am 12. Juli gegen 14 Uhr an.

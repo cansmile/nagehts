@@ -2,8 +2,40 @@
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2" id="wahl">
+    <div class="container">
+        <div class="row">
+            <div class="bg-<?php echo( $color ); ?> wahl_title col-12">
+                Wahl
+            </div>
+            <div class="col-12" id="itms">
+                <button type="button" class="mt-1 mx-1 btn ans2 btn-md t-3 btn-outline-dark itm so" id="1">
+                    Die Bordkarte wurde mir ausgehändigt.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans3 btn-md t-3 btn-outline-dark itm so" id="2">
+                    Die Fluggäste wurden aufgerufen.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans1 btn-md t-3 btn-outline-dark itm so" id="3">
+                    Dort wurde ich eingecheckt und mein Gepäck wurde aufgegeben.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans6 btn-md t-3 btn-outline-dark itm so" id="4">
+                    Ich wurde gefragt , ob ich etwas zu verzollen hätte.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans5 btn-md t-3 btn-outline-dark itm so" id="5">
+                    Vor Beginn des Abflugs wurden von den Flugbegleiterinnen einige Hinweise zum richtigen Anschnallen
+                    gegeben.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans4 btn-md t-3 btn-outline-dark itm so" id="6">
+                    Während des Flugs wurden uns einige Snacks und Getränke angeboten.
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="container">
+        <!-- 고르는 아이템들 -->
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.<br/>
@@ -28,161 +60,156 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 wd_inline_inverted">Mina ist zu ihrer Sprachreise nach Dresden geflogen. Das war ihr
-                erster Flug. Daher berichtet sie ihren Freunden darüber. Ergänzen Sie die Lücken. Bilden Sie Sätze
-                entweder im Präteritum, im Perfekt oder im Passiv.
-                <span class="tran font-weight-bold">&nbsp;<small>미나는 드레스덴으로 어학연수를 떠났습니다. 이것이 그녀의 첫 번째 비행이었습니다. 그래서 그녀는 그녀의 친구들에게 이것에 대해 알려줍니다. 빈칸을 채우세요. 과거형, 현재완료, 수동태 중에 알맞게 골라 문장을 완성하세요.</small><br/></span>
+            <div class="col-12">
+                <table class="table table-borderless table-striped">
+                    <thead class="thead-dark text-center">
+                    <tr>
+                        <th scope="col">
+                            Aktivsätze
+                            <span class="tran"><br><small>능동문</small></span>
+                        </th>
+                        <th scope="col">
+                            Passivsätze
+                            <span class="tran"><br><small>수동문</small></span>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-2 col-lg-1">
+                                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    </button>
+                                </div>
+                                <div class="col-sm-9 col-md-10 col-lg-11">
+                                    Dort hat man mich eingecheckt und ich habe mein Gepäck aufgegeben.
+                                    <span class="tran"><br><small>어떤 사람이 나를 체크인하고 나의 짐을 부쳐주었다.</small></span>
+                                </div>
+                            </div>
+                        </th>
+                        <td>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-1">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
+                            <span class="tran"><br><small>거기에서 나는 체크인되고 나의 짐은 부쳐졌다</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-2 col-lg-1">
+                                    <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    </button>
+                                </div>
+                                <div class="col-sm-9 col-md-10 col-lg-11">
+                                    Man hat mir die Bordkarte ausgehändigt.
+                                    <span class="tran"><br><small>어떤 사람이 나의 탑승권을 넘겨주었다.</small></span>
+                                </div>
+                            </div>
+                        </th>
+                        <td>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-2">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
+                            <span class="tran"><br><small>탑승권이 나에게 넘겨졌다.</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-2 col-lg-1">
+                                    <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    </button>
+                                </div>
+                                <div class="col-sm-9 col-md-10 col-lg-11">
+                                    Man hat die Fluggäste aufgerufen.
+                                    <span class="tran"><br><small>어떤 사람이 탑승객들을 호명했다.</small></span>
+                                </div>
+                            </div>
+                        </th>
+                        <td>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-3">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
+                            <span class="tran"><br><small>탑승객들이 호명되었다.</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-2 col-lg-1">
+                                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    </button>
+                                </div>
+                                <div class="col-sm-9 col-md-10 col-lg-11">
+                                    Während des Flugs hat man uns einige Snacks und Getränke angeboten.
+                                    <span class="tran"><br><small>어떤사람이 비행 동안 우리에게 약간의 스낵과 음료가 제공하였다.</small></span>
+                                </div>
+                            </div>
+                        </th>
+                        <td>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-4">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
+                            <span class="tran"><br><small>비행 동안 우리에게 약간의 스낵과 음료가 제공되었다.</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-2 col-lg-1">
+                                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    </button>
+                                </div>
+                                <div class="col-sm-9 col-md-10 col-lg-11">
+                                    Vor Beginn des Abflugs haben die Flugbegleiterinnen einige Hinweise zum richtigen
+                                    Anschnallen gegeben.
+                                    <span
+                                        class="tran"><br><small>비행 출발에 앞서 승무원들이 올바른 안전벨트 기능에 대한 주의사항을 주었다. gegeben.</small></span>
+                                </div>
+                            </div>
+                        </th>
+                        <td>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-5">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
+                            <span class="tran"><br><small>비행 출발에 앞서 승무원들에 의해 올바른 안전벨트 기능에 대한 주의사항이 주어졌다.</small></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <div class="row">
+                                <div class="col-sm-3 col-md-2 col-lg-1">
+                                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    </button>
+                                </div>
+                                <div class="col-sm-9 col-md-10 col-lg-11">
+                                    Man hat mich gefragt , ob ich etwas zu verzollen hätte.
+                                    <span class="tran"><br><small>어떤 사람이 관세 신고할 것이 있는지 나에게 물었다.</small></span>
+                                </div>
+                            </div>
+                        </th>
+                        <td>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-6">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
+                            <span class="tran"><br><small>관세 신고할 것이 있는지 나에게 물어졌다.</small></span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        <div class="row lh250">
-            <div class="col-sm-12 col-md-6 col-lg-6 h5 text-center">
-                Aktivsätze
-                <span class="tran"><br><small>능동문</small></span>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 h5 text-center">
-                Passivsätze
-                <span class="tran"><br><small>수동문</small></span>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-2">1</button>
-                Dort hat man mich eingecheckt und ich habe mein Gepäck aufgegeben.
-                <span class="tran"><br/><small>어떤 사람이 나를 체크인하고 나의 짐을 부쳐주었다.</small></span>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
-                    <div class="col-1">
-                                <span class="tran">
-                                                <button type="button" id="7"
-                                                        class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
-                                            </span>
-                    </div>
-                    <div class="col-10">
-                        <div class="input-group">
-                            <input autocomplete="off" type="text" style="min-width: 100%;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-1">
-                        </div>
-                        <span class="tran"><small>거기에서 나는 체크인되고 나의 짐은 부쳐졌다</small></span>
-                    </div>
-                </div></div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-2">2</button>
-                Man hat mir die Bordkarte ausgehändigt.
-                <span class="tran"><br/><small>어떤 사람이 나의 탑승권을 넘겨주었다.</small></span>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
-                    <div class="col-1">
-                                <span class="tran">
-                                                <button type="button" id="8"
-                                                        class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
-                                            </span>
-                    </div>
-                    <div class="col-10">
-                        <div class="input-group">
-                            <input autocomplete="off" type="text" style="min-width: 100%;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-2">
-                        </div>
-                        <span class="tran"><small>탑승권이 나에게 넘겨졌다.</small></span>
-                    </div>
-                </div></div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-2">3</button>
-                Man hat die Fluggäste aufgerufen.
-                <span class="tran"><br/><small>어떤 사람이 탑승객들을 호명했다.</small></span>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
-                    <div class="col-1">
-                                <span class="tran">
-                                                <button type="button" id="9"
-                                                        class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
-                                            </span>
-                    </div>
-                    <div class="col-10">
-                        <div class="input-group">
-                            <input autocomplete="off" type="text" style="min-width: 100%;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-3">
-                        </div>
-                        <span class="tran"><small>탑승객들이 호명되었다.</small></span>
-                    </div>
-                </div></div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-2">4</button>
-                Während des Flugs hat man uns einige Snacks und Getränke angeboten.
-                <span class="tran"><br/><small>어떤사람이 비행 동안 우리에게 약간의 스낵과 음료가 제공하였다.</small></span>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
-                    <div class="col-1">
-                                <span class="tran">
-                                                <button type="button" id="10"
-                                                        class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
-                                            </span>
-                    </div>
-                    <div class="col-10">
-                        <div class="input-group">
-                            <input autocomplete="off" type="text" style="min-width: 100%;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-4">
-                        </div>
-                        <span class="tran"><small>비행 동안 우리에게 약간의 스낵과 음료가 제공되었다.</small></span>
-                    </div>
-                </div></div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-2">5</button>
-                Vor Beginn des Abflugs haben die Flugbegleiterinnen einige Hinweise zum richtigen Anschnallen
-                <span class="tran"><br/><small>비행 출발에 앞서 승무원들이 올바른 안전벨트 기능에 대한 주의사항을 주었다.</small></span>
-                gegeben.
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
-                    <div class="col-1">
-                                <span class="tran">
-                                                <button type="button" id="11"
-                                                        class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
-                                            </span>
-                    </div>
-                    <div class="col-10">
-                        <div class="input-group">
-                            <input autocomplete="off" type="text" style="min-width: 100%;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-5">
-                        </div>
-                        <span class="tran"><small>비행 출발에 앞서 승무원들에 의해 올바른 안전벨트 기능에 대한 주의사항이 주어졌다.</small></span>
-                    </div>
-                </div></div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-2">6</button>
-                Man hat mich gefragt , ob ich etwas zu verzollen hätte.
-                <span class="tran"><br/><small>어떤 사람이 관세 신고할 것이 있는지 나에게 물었다.</small></span>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
-                    <div class="col-1">
-                                <span class="tran">
-                                                <button type="button" id="12"
-                                                        class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
-                                            </span>
-                    </div>
-                    <div class="col-10">
-                        <div class="input-group">
-                            <input autocomplete="off" type="text" style="min-width: 100%;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-6">
-                        </div>
-                        <span class="tran"><small>관세 신고할 것이 있는지 나에게 물어졌다.</small></span>
-                    </div>
-                </div></div>
-
         </div>
         <!-- 정답화인 버튼 시작 -->
         <div class="row">
-            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk">
-                정답확인
-            </div>
+            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk"> 정답확인</div>
         </div>
         <!-- 정답확인 버튼 끝 -->
         <div class="row">
@@ -194,18 +221,19 @@
     </div>
 </section>
 
+<div id="marg"></div>
 <div id="last" class="d-none"></div>
 
 <?php require "footer.php"; ?>
+<script src="./dev/js/taptogrouph.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();
-    $(".ant").hide();
-    var an = new Array();
-    var an = ["Dort wurde ich eingecheckt und mein Gepäck wurde aufgegeben.", "Die Bordkarte wurde mir ausgehändigt.", "Die Fluggäste wurden aufgerufen.", "Während des Flugs wurden uns einige Snacks und Getränke angeboten.", "Vor Beginn des Abflugs wurden von den Flugbegleiterinnen einige Hinweise zum richtigen Anschnallen gegeben.", "Ich wurde gefragt , ob ich etwas zu verzollen hätte."];
+    $("#chk").hide();
+
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();
@@ -237,18 +265,18 @@
             src: ["./dev/sounds/Reihe 12/r12 D2.mp3"],
             sprite: {
                 "0": [169, 60852],
-                "1": [9500, 7236],
-                "2": [17842, 5989],
-                "3": [25340, 5328],
-                "4": [32035, 7697],
-                "5": [41541, 9663],
-                "6": [52519, 6542],
-                "7": [64034, 6634],
-                "8": [72067, 5388],
-                "9": [79232, 5385],
-                "10": [86126, 7328],
-                "11": [95498, 9872],
-                "12": [107816, 5989]
+                "1": [74159, 3297],
+                "2": [74130, 3282],
+                "3": [66516, 4113],
+                "4": [110136, 3505],
+                "5": [98187, 7433],
+                "6": [88604, 5114],
+                "7": [9500, 7236],
+                "8": [17842, 5989],
+                "9": [25340, 5328],
+                "10": [32035, 7697],
+                "11": [41541, 9663],
+                "12": [52519, 6542]
             },
             html5: true,
             volume: 1,
@@ -283,186 +311,19 @@
                         sen[ti]--;
                         $("#cnt-" + ti).text(sen[ti]);
                     }
-                });
-
-                /* 값 확인해보자, io값이 참이면 전체 검사 */
-                function rfchk(th, io) {
-                    var q, qn, a, b, fl;
-                    q = th.val().length;
-                    qn = (th.attr("id").substr(4)) - 1;
-                    a = th.val();
-                    a = a.replace(/ /gi, "");
-                    di(th);
-                    if (!$.isArray(an[qn])) {/* 1 인 경우 */
-                        if (io) {
-                            b = an[qn];
-                        } else {
-                            b = an[qn].substr(0, q);
-                        }
-                        b = b.replace(/ /gi, "");
-                        if (a == b) {
-                            return true;
-                        }
-                    } else {/* 2 이상인 경우 */
-                        for (var fd = 0; fd < an[qn].length; fd++) {
-                            if (io) {
-                                b = an[qn][fd];
-                            } else {
-                                b = an[qn][fd].substr(0, q);
-                            }
-                            b = b.replace(/ /gi, "");
-                            if (a == b) {
-                                return true;
-                            }
-                        }
-                    }
-                }
-
-                /* 역동적 입력란 */
-                function di(th) {
-                    var le = 0, mp = 8, l = th.val().length;
-                    if (l < 5) {
-                        var mp = 10;
-                    } else if (l > 30) {
-                        var mp = 6;
-                    } else if (l < 30) {
-                        var mp = 8;
-                    } else {
-                        var mp = 8;
-                    }
-                    if (l >= 5) {
-                        le = l;
-                    } else {
-                        le = 5;
-                    }
-                    var w = (le + 1) * mp + "px";
-                    th.addClass("mx-1");
-                    th.css("min-width", w);
-                    th.css("max-width", w);
-                    th.css("width", w);
-                };
-
-                $(".q").on("keyup", function () {
-                    $(this).removeClass("bg-danger");
-                    $(this).removeClass("bg-success");
-                    $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
-                    $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
-                    if (rfchk($(this))) {
-                        $(this).addClass("text-white font-weight-bold");
-                        $(this).addClass("bg-success");
-                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
-                    } else {
-                        $(this).addClass("text-white font-weight-bold");
-                        $(this).addClass("bg-danger");
-                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
-                    }
-                    if (!$(this).val()) {
-                        $(this).removeClass("bg-danger");
-                        $(this).removeClass("bg-success");
-                        $(this).removeClass("text-white font-weight-bold");
-                    }
-                    if ($(this).val()) {
-                        $("#ant-" + $(this).attr("id").substr(4)).show();
-                        $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
-                    } else {
-                        $("#ant-" + $(this).attr("id").substr(4)).hide();
-                    }
-                });
-                $(".q").on("focusin", function () {
-                    $("#ant-" + $(this).attr("id").substr(4)).show();
-                    if (!$("#ant-" + $(this).attr("id").substr(4)).text()) {
-                        $("#ant-" + $(this).attr("id").substr(4)).text($(this).val());
-                    }
-                    if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
-                        if (rfchk($(this))) {
-                            $(this).addClass("text-white font-weight-bold");
-                            $(this).addClass("bg-success");
-                            $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
-                        } else {
-                            $(this).addClass("text-white font-weight-bold");
-                            $(this).addClass("bg-danger");
-                            $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
-                        }
-                    }
-                });
-                $(".q").on("focusout", function () {
-                    $("#ant-" + $(this).attr("id").substr(4)).hide();
-                    if (rfchk($(this), true)) {
-                        $(this).addClass("bg-success");
-                        $(this).addClass("text-white");
-                    } else {
-                        $(this).addClass("bg-danger");
-                    }
-                    if ($(this).val()) {
-                        if ($(this).hasClass("bg-danger")) {
-                            x.play();
-                        } else if ($(this).hasClass("bg-success")) {
-                            o.play();
-                            $(this).prop("disabled", true);
-                        }
-                    }
-                    $(this).removeClass("bg-danger");
-                    if (!$(this).attr("disabled")) {
-                        $(this).removeClass("text-white font-weight-bold");
-                        $(this).removeClass("bg-success");
-                    }
-                })
-                /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
+                }); /* 정답확인 */
                 $("#chk").on("click", function () {
                     var na = "";
-                    var ri = 0;
-                    var qst = $(".q").length;
-                    $(".q").each(function () {
-                        if (na != "") {
-                            na += ", ";
-                        }
-                        if ($(this).val() == "") {
-                            na += $(this).attr("id").substr(4, 1);
-                        }
-                    });
-                    if ($(this).attr("id") == "done") {
-                    } else if (na == "") {
-                        for (var i = 0; i < an.length; i++) {
-                            var oran = $("#qst-" + (i + 1)).val();
-                            if (rfchk($("#qst-" + (i + 1)), true)) {
-                                $("#qst-" + (i + 1)).addClass("cr");
-                                $("#qst-" + (i + 1)).removeClass("rounded-0");
-                            } else {
-                                $("#qst-" + (i + 1)).val(oran);
-                                $("#qst-" + (i + 1)).attr("disabled", true);
-                                $("#qst-" + (i + 1)).addClass("wa");
-                                $("#qst-" + (i + 1)).removeClass("rounded-0");
-                                if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
-                                        an[i] + "</div>");
-                                } else {
-                                    /* 2 이상인 경우 */
-                                    var r =
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
-                                    for (var fd = (an[i].length - 1); fd >= 0; fd--) {
-                                        if (fd < (an[i].length - 1)) {
-                                            r = r + " / ";
-                                        }
-                                        r = r + an[i][fd];
-                                    }
-                                    r = r + "</div>";
-                                    if ($("span.sen").length > 0) {
-                                        $("#qst-" + (i + 1)).closest("span.sen").after(
-                                            r);
-                                    } else {
-                                        $("#qst-" + (i + 1)).after(r);
-                                    }
-                                }
-                            }
-                            if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
-                                ri++;
-                            }
-                        }
-                        ; /* 정답 확인 div 상자 배경색 속성 없애기 */
+                    if ($("#itms").find("button").length < 1) {
+                        $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light ");
-                        var qa = $(".q").length; /* 전체 문항 수 */
-                        var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                        $(".itm-lst").each(function () {
+                            if ($(this).find(".btn")) {
+                                $(this).find(".btn").addClass("text-success");
+                            }
+                        });
+                        var qa = $(".itm-lst").length; /* 전체 문항 수 */
+                        var qr = $(".text-success").length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) * 100; /* 정답 비율 */
                         var tcl = "white"; /* 기본 문자색 */
                         /* 분류 기준은 100%, 80%, 60%, 40% */
@@ -483,26 +344,36 @@
                         $(this).addClass("btn-" + cl + " text-" + tcl);
                         $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                             "</h4>");
-                        $(this).prop("disabled", true);
-                        $(".tran").show();
-                        $(this).attr("id", "done");
+                        $(".btn-lg").text().appendTo($(this).closest("td"));
+                        $(".btn-lg").remove();
                     } else {
+                        $("div.itm-lst").each(function (idx) {
+                            if (!$(this).find("button").length) {
+                                if (na != "") {
+                                    na += ", ";
+                                }
+                                na += (idx + 1);
+                            }
+                        });
                         alert("모든 문제를 풀어주세요!");
                     }
-                    ;
                 });
+                <?php require "wahl.php"; ?>
                 var pan = new Array();
                 pan = [1];
+                var il = $("#itms>.itm").length;
                 for (var p = 0; p < pan.length; p++) {
-                    var pann = "#qst-" + pan[p];
-                    $(pann).val(an[(pan[p] - 1)]);
-                    $(pann).addClass("bg-success text-white font-weight-bold");
-                    $(pann).prop("disabled", true);
-                    di($(pann));
+                    var pani = "#lst-" + pan[p];
+                    $(".itm").each(function () {
+                        if ($(this).hasClass("ans" + pan[p])) {
+                            $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
+                            $("#" + $(this).attr("id")).addClass("btn-block btn-light");
+                            $("#lst-" + pan[p] + ">h2").remove();
+                        }
+                    })
                 }
                 $("#0").show();
                 $(".alert").hide();
-
             },
             onend: function () {
                 $("div#last").text("");
@@ -519,12 +390,13 @@
                     if ($("#" + last).hasClass("itm")) {
                         $("#" + last + ">.tran").show();
                     }
-                    $("#" + last).closest("div").find(".tran").show();
+                    $("#" + last).closest("tr").find(".tran").show();
                     pa[last] = $("#" + last).html();
                 }
             }
         });
     });
+
 </script>
 </body>
 

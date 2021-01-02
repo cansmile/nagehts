@@ -49,6 +49,10 @@
                     Rucksackreise/Backpacking
                     <span class="tran"><br><small>배낭여행</small></span>
                 </button>
+                <button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark itm so" id="11">
+                    Work-Camp-Urlaub
+                    <span class="tran"><br><small>캠프-봉사 휴가</small></span>
+                </button>
             </div>
         </div>
     </div>
@@ -275,6 +279,27 @@
                     </tbody>
                 </table>
             </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <table class="table table-borderless text-center">
+                    <tbody>
+                    <tr>
+                        <td height="250" class="align-middle">
+                            <img src="./dev/images/Reihe 12/Reihe-12-A1-11.png"
+                                 alt="Wie heißen die Urlaubs-und Reisetypen?"
+                                 style="max-width: 100%; height: auto;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="itm-lst 1itm" id="lst-11">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <!-- 정답화인 버튼 시작 -->
         <div class="row">
@@ -327,7 +352,7 @@
         var nagehts = new Howl({
             src: ["./dev/sounds/Reihe 12/r12 A1.mp3"],
             sprite: {
-                "0": [174, 70712],
+                "0": [174, 75752],
                 "1": [12649, 1932],
                 "2": [18802, 1787],
                 "3": [24618, 1595],
@@ -337,7 +362,8 @@
                 "7": [49331, 2000],
                 "8": [55299, 2017],
                 "9": [61115, 2185],
-                "10": [67015, 3871]
+                "10": [67015, 3871],
+                "11": [73809, 2103],
             },
             html5: true,
             volume: 1,

@@ -1,4 +1,4 @@
-<?php require_once("heading.php"); ?>
+<?php require_once( "heading.php" ); ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -6,8 +6,9 @@
 <section class="bg-white rounded p-2" id="wahl">
     <div class="container">
         <div class="row">
-            <div class="bg-<?php echo($color); ?> wahl_title col-12">
-                Wahl</div>
+            <div class="bg-<?php echo( $color ); ?> wahl_title col-12">
+                Wahl
+            </div>
             <div class="col-12" id="itms">
                 <button type="button" class="mt-1 mx-1 btn ans2 btn-sm t-3 btn-outline-dark itm so" id="1">
                     Parkplatz
@@ -98,14 +99,23 @@
         <!-- 고르는 아이템들 -->
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
+                <h2>Ordnen Sie zu.<small><br />채우세요</small></h2>
                 <h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
                         HV
-                    </button><br/>
-                    [ <small><button type="button"
-                                     class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button> 버튼 또는 <button
-                            type="button" class="btn btn-sm btn-outline-secondary disabled">알파벳</button> 버튼을 눌러
-                        듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
+                    </button>
+                    <br/>
+                    [ <small>
+                        <button type="button"
+                                class="btn disabled btn-sm btn-<?php echo( $color ); ?>">HV
+                        </button>
+                        버튼 또는
+                        <button
+                            type="button" class="btn btn-sm btn-outline-secondary disabled">알파벳
+                        </button>
+                        버튼을 눌러
+                        듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]
+                </h3>
             </div>
         </div>
         <div class="row">
@@ -114,15 +124,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-1.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-1.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-1">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-1">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -133,15 +144,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-2.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-2.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-2">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-2">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -152,15 +164,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-3.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-3.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-3">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-3">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -171,15 +184,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-4.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-4.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-4">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-4">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -190,15 +204,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-5.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-5.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-5">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-5">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -209,15 +224,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-6.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-6.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-6">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-6">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -228,15 +244,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-7.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-7.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-7">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-7">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -247,15 +264,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-8.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-8.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-8">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-8">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -266,15 +284,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-9.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-9.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-9">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-9">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -285,15 +304,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-10.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-10.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-10">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-10">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -304,15 +324,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-11.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-11.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-11">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-11">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -323,15 +344,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-12.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-12.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-12">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-12">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -342,15 +364,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-13.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-13.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-13">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-13">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -361,15 +384,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-14.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-14.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-14">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-14">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -380,15 +404,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-15.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-15.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-15">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-15">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -399,15 +424,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-16.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-16.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-16">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-16">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -418,15 +444,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-17.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-17.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-17">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-17">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -437,15 +464,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-18.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-18.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-18">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-18">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -456,15 +484,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-19.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-19.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-19">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-19">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -475,15 +504,16 @@
                     <tbody>
                     <tr>
                         <td class="text-center">
-                            <img src="./dev/images/Reihe 12/Reihe-12-E3-20.svg" alt="Piktogramme" style="width: 72px; height: 72px;">
+                            <img src="./dev/images/Reihe 12/Reihe-12-E3-20.svg" alt="Piktogramme"
+                                 style="width: 72px; height: 72px;">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-20">
-                            <h2 class="btn btn-warning btn-xl ttl d-block">
-                                ▼ </h2>
-                        </div>
+                            <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-20">
+                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    ▼ </h2>
+                            </div>
                         </td>
                     </tr>
                     </tbody>
@@ -492,7 +522,7 @@
         </div>
         <!-- 정답화인 버튼 시작 -->
         <div class="row">
-            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk"> 정답확인 </div>
+            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk"> 정답확인</div>
         </div>
         <!-- 정답확인 버튼 끝 -->
     </div>
@@ -507,7 +537,7 @@
 <script src="./dev/js/taptogrouph.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once("./dev/oxsound.php"); ?>
+<?php require_once( "./dev/oxsound.php" ); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();
@@ -647,7 +677,7 @@
                 });
                 <?php require "wahl.php"; ?>
                 var pan = new Array();
-                pan = [];
+                pan = [1, 3, 10, 16];
                 var il = $("#itms>.itm").length;
                 for (var p = 0; p < pan.length; p++) {
                     var pani = "#lst-" + pan[p];

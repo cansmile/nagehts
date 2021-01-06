@@ -619,7 +619,6 @@
                         array(
                             'E2' => array( 'Sehen Sie sich die Bilder an. Wie heißen die Urlaubs-und Reisetypen Was passt zusammen?', '그림을 보세요. 이러한 휴가 및 여행을 뭐하고 부르나요? 무엇이 어울리나요?' ),
                             'E3' => array( 'Was bedeuten die Symbole (Piktogramme)?', '다음의 상징(픽토그램)들은 무슨 뜻일까요? 연결해보세요.' ),
-                            'E4' => array( 'Aktuelle Urlaubsangebote. Schauen Sie sich sie an.', '최신 휴가 안내. 광고를 보고 이야기해보세요.' ),
                             'E5' => array( 'Mina fliegt ins Fernland. Ihre Mutter fragt sie, ob alles in Ordnung ist.', '미나는 멀리 여행을 떠납니다. 엄마가 미나에게 모든 것이 다 잘 준비되었는지를 묻습니다.' ),
                             'E6' => array( 'Welches Bild passt zu welchem Dialog?', '어떤 그림이 어떤 대화에 알맞습니까?' ),
                             'E7' => array( 'Mina ist zur Teilnahme am Sprachkurs in Frankfurt gelandet. Sie will am Amtomaten eine einfache Fahrkarte nach Dresen kaufen. Dabei hilft eine Frau Mina. Ergänzen Sie die Lücken.', '미나가 어학연수를 위하여 프랑크프르트에 도착하였습니다. 미나는 자동매표기에서 드레스덴으로 가는 표 한 장을 사려고 합니다. 한 사람이 미나를 돕습니다. 빈칸을 채우세요.' ),

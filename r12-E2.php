@@ -1,4 +1,4 @@
-<?php require_once("heading.php"); ?>
+<?php require_once( "heading.php" ); ?>
 <!-- 보기시작 -->
 <section class="bg-white rounded p-2" id="wahl">
     <div class="container">
@@ -8,147 +8,79 @@
                 wo
             </div>
             <div class="col-12" id="itms">
-                <button type="button" class="mt-1 mx-1 btn ans2 ans btn-md btn-outline-dark itm" id="1">
+                <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm" id="1">
                     in den Bergen
                     <span class="tran"><br><small>산으로</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans2 ans btn-md btn-outline-dark itm" id="2">
-                    in den Bergen
-                    <span class="tran"><br><small>산으로</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="3">
+                <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm" id="2">
                     am Meer
                     <span class="tran"><br><small>바닷가에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="4">
+                <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm" id="3">
                     auf dem Land
                     <span class="tran"><br><small>시골에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="5">
+                <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm" id="4">
                     auf einer Insel
                     <span class="tran"><br><small>섬에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="6">
+                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="5">
                     in der Stadt
-                    <span class="tran"><br><small>도시에</small></span>
+                    <span class="tran"><br><small>시내에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="7">
-                    in der Stadt
-                    <span class="tran"><br><small>도시에</small></span>
+                <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm" id="6">
+                    in einem Campingplatz
+                    <span class="tran"><br><small>캠핑촌에</small></span>
                 </button>
-            </div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
-                was
-            </div>
-            <div class="col-12" id="itms">
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="8">
-                    Blume
-                    <span class="tran"><br><small>꽃</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="9">
-                    Palmen
-                    <span class="tran"><br><small>야자수</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="10">
-                    Safari
-                    <span class="tran"><br><small>사파리</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="11">
-                    Museen
-                    <span class="tran"><br><small>박물관</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="12">
-                    Sehnswürdigkeiten
-                    <span class="tran"><br><small>명소</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="13">
-                    Stadtrundfahrt
-                    <span class="tran"><br><small>시티투어</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="14">
-                    Sprachkurs.
-                    <span class="tran"><br><small>어학연수</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="15">
-                    Wellness-Programm
-                    <span class="tran"><br><small>웰니스프로그램</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="16">
-                    Theater
-                    <span class="tran"><br><small>연극</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="17">
-                    Konzert
-                    <span class="tran"><br><small>콘서트</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="18">
-                    Kaufhaus
-                    <span class="tran"><br><small>백화점</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="19">
-                    Campingzelt
-                    <span class="tran"><br><small>캠핑텐트</small></span>
+                <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm" id="7">
+                    in Griechenland
+                    <span class="tran"><br><small>그리스에</small></span>
                 </button>
             </div>
         </div>
+        <div class="row">
             <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
                 tun
             </div>
             <div class="col-12" id="itms">
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="20">
+                <button class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm" id="8">
                     wandern
-                    <span class="tran"><br><small>산행하다</small></span>
+                    <span class="tran"><br/><small>산행하기</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="21">
-                    schwimmen
-                    <span class="tran"><br><small>수영하다</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="22">
-                    in der Sonne liegen
-                    <span class="tran"><br><small>일광욕하다</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="23">
+                <button class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm" id="9">
                     surfen
-                    <span class="tran"><br><small>서핑하다</small></span>
+                    <span class="tran"><br/><small>서핑하기</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="24">
+                <button class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm" id="10">
                     tauchen
-                    <span class="tran"><br><small>잠수하다</small></span>
+                    <span class="tran"><br/><small>잠수하기</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="25">
-                    sich bräunen werden
-                    <span class="tran"><br><small>갈색으로 변하다</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="26">
+                <button class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm" id="11">
                     Kultur und Geschichte erleben
-                    <span class="tran"><br><small>문화와 역사를 체험하다</small></span>
+                    <span class="tran"><br/><small>문화와 역사 체험하기</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="27">
-                    besichtigen
-                    <span class="tran"><br><small>관람하다</small></span>
+                <button class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="12">
+                    Stadtrunfahrt machen
+                    <span class="tran"><br/><small>시내 관광하기</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="28">
-                    faulenzen
-                    <span class="tran"><br><small>게으름 피우다</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="29">
-                    besuchen
-                    <span class="tran"><br><small>방문하다</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="30">
-                    fotografieren
-                    <span class="tran"><br><small>사진찍다</small></span>
-                </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="31">
+                <button class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="13">
                     shoppen
-                    <span class="tran"><br><small>쇼핑하다</small></span>
+                    <span class="tran"><br/><small>쇼핑하기</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans btn-md btn-outline-dark itm" id="32">
+                <button class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm" id="14">
                     Campingzelt aufbauen
-                    <span class="tran"><br><small>텐트를 치다</small></span>
+                    <span class="tran"><br/><small>텐트치기</small></span>
                 </button>
-            </div>
-        </div>
+                <button class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm" id="15">
+                    an Bord schwimmen
+                    <span class="tran"><br/><small>선상 수영하기</small></span>
+                </button>
+                <button class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm" id="16">
+                    Beeren pflücken, Bauerhof-Erlebnis machen
+                    <span class="tran"><br/><small>농장 체험하기</small></span>
+                </button>
+            </div></div>
+    </div>
     </div>
 </section>
 <section>
@@ -164,49 +96,63 @@
                  class="rounded-top border bg-danger border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-1">
                 <h2 class="text-center bg-white p-2">
-                    <img src="./dev/images/Reihe 12/Reihe-12-E2-1.png" alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?" style="max-width: 100%; height: auto;">
+                    <img src="./dev/images/Reihe 12/Reihe-12-E2-1.png"
+                         alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
+                         style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-orange border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-2">
                 <h2 class="text-center bg-white p-2">
-                    <img src="./dev/images/Reihe 12/Reihe-12-E2-2.png" alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?" style="max-width: 100%; height: auto;">
+                    <img src="./dev/images/Reihe 12/Reihe-12-E2-2.png"
+                         alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
+                         style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-warning border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-3">
                 <h2 class="text-center bg-white p-2">
-                    <img src="./dev/images/Reihe 12/Reihe-12-E2-3.png" alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?" style="max-width: 100%; height: auto;">
+                    <img src="./dev/images/Reihe 12/Reihe-12-E2-3.png"
+                         alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
+                         style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-success border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-4">
                 <h2 class="text-center bg-white p-2">
-                    <img src="./dev/images/Reihe 12/Reihe-12-E2-4.png" alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?" style="max-width: 100%; height: auto;">
+                    <img src="./dev/images/Reihe 12/Reihe-12-E2-4.png"
+                         alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
+                         style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-primary border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-5">
                 <h2 class="text-center bg-white p-2">
-                    <img src="./dev/images/Reihe 12/Reihe-12-E2-5.png" alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?" style="max-width: 100%; height: auto;">
+                    <img src="./dev/images/Reihe 12/Reihe-12-E2-5.png"
+                         alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
+                         style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-purple border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-6">
                 <h2 class="text-center bg-white p-2">
-                    <img src="./dev/images/Reihe 12/Reihe-12-E2-6.png" alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?" style="max-width: 100%; height: auto;">
+                    <img src="./dev/images/Reihe 12/Reihe-12-E2-6.png"
+                         alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
+                         style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-purple border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-7">
                 <h2 class="text-center bg-white p-2">
-                    <img src="./dev/images/Reihe 12/Reihe-12-E2-7.png" alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?" style="max-width: 100%; height: auto;">
+                    <img src="./dev/images/Reihe 12/Reihe-12-E2-7.png"
+                         alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
+                         style="max-width: 100%; height: auto;">
                 </h2>
             </div>
         </div>
@@ -226,7 +172,7 @@
 <script src="./dev/js/taptogroupnomoveh.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once("./dev/oxsound.php"); ?>
+<?php require_once( "./dev/oxsound.php" ); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();

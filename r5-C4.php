@@ -271,31 +271,28 @@
                 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 
                 /* 역동적 입력란 */
+                $.fn.textWidth = function (text, font) {
+                    if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
+                    $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
+                    return $.fn.textWidth.fakeEl.width();
+                };
+
                 function di(th) {
-                    var le = 0, mp = 8, l = th.val().length;
-                    if (l < 5) {
-                        var mp = 10;
+                    if (th.val().length < 10) {
+                        var m = 1.5;
                     }
-                    if (l >= 20) {
-                        var mp = 6;
+                    if (th.val().length < 5) {
+                        var m = 2;
                     }
-                    if (l < 20) {
-                        var mp = 8;
-                    } else {
-                        var mp = 8;
+                    if (th.val().length < 3) {
+                        var m = 3;
                     }
-                    if (l < 5) {
-                        l = 5;
+                    if (th.val().length >= 10) {
+                        var m = 1.15;
                     }
-                    if (l < 7) {
-                        le = l * 2.2;
-                    } else if (l >= 20) {
-                        le = l * 1.45;
-                    } else if (l >= 5) {
-                        le = l * 1.55;
-                    }
-                    var w = (le + 1) * mp + "px";
-                    th.addClass("mx-1");
+                    var w = Math.ceil(th.textWidth() * m) + 'px';
+                    console.log(w);
+
                     th.css("min-width", w);
                     th.css("max-width", w);
                     th.css("width", w);

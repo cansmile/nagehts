@@ -485,7 +485,8 @@
                         <td>
                             <div id="ant-15"></div>
                             <div class="input-group">
-                                Ein <input autocomplete="off" type="text" placeholder="Reihenhaus" aria-label="Reihenhaus"
+                                Ein <input autocomplete="off" type="text" placeholder="Reihenhaus"
+                                           aria-label="Reihenhaus"
                                            aria-describedby="basic-addon15"
                                            class="text-center form-control rounded-0 border-bottom-only mx-2 col-2 bg-success font-weight-bold text-white t_add_6"
                                            id="nqst" disabled>
@@ -578,36 +579,31 @@
                 /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
 
                 /* 역동적 입력란 */
+                $.fn.textWidth = function (text, font) {
+                    if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
+                    $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
+                    return $.fn.textWidth.fakeEl.width();
+                };
+
                 function di(th) {
-                    var le = 0, mp = 8, l = th.val().length;
-                    if (l < 5) {
-                        var mp = 10;
+                    if (th.val().length < 10) {
+                        var m = 1.5;
                     }
-                    if (l >= 20) {
-                        var mp = 6;
+                    if (th.val().length < 5) {
+                        var m = 2;
                     }
-                    if (l < 20) {
-                        var mp = 8;
-                    } else {
-                        var mp = 8;
+                    if (th.val().length < 3) {
+                        var m = 3;
                     }
-                    if (l < 5) {
-                        l = 5;
+                    if (th.val().length >= 10) {
+                        var m = 1.15;
                     }
-                    if (l < 7) {
-                        le = l * 2.2;
-                    } else if (l >= 20) {
-                        le = l * 1.45;
-                    } else if (l >= 5) {
-                        le = l * 1.55;
-                    }
-                    var w = (le + 1) * mp + "px";
-                    if (!th.hasClass("nodi")) {
-                        th.addClass("mx-1");
-                        th.css("min-width", w);
-                        th.css("max-width", w);
-                        th.css("width", w);
-                    }
+                    var w = Math.ceil(th.textWidth() * m) + 'px';
+                    console.log(w);
+
+                    th.css("min-width", w);
+                    th.css("max-width", w);
+                    th.css("width", w);
                 };
 
                 /* 값 확인해보자, io값이 참이면 전체 검사 */

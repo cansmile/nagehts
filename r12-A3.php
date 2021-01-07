@@ -237,7 +237,8 @@
                                 &nbsp;Wir wollen viel gemeinsam
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
                                         py-1 text-center border-dark t-6"
-                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-12">, wie z.B. schöne Ausflüge in die Berge machen.
+                                       style="max-width: 100px; min-width: 150px;" aria-label="." id="qst-12">, wie z.B.
+                                schöne Ausflüge in die Berge machen.
                             </div>
                             <span class="tran"><br/><small>우리는 산으로 소풍을 가는 등 함께 많은 시간을 보낼 것이다.</small></span>
                         </td>
@@ -574,33 +575,28 @@
                 }
 
                 /* 역동적 입력란 */
+                $.fn.textWidth = function (text, font) {
+                    if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
+                    $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
+                    return $.fn.textWidth.fakeEl.width();
+                };
+
                 function di(th) {
-                    var le = 0,
-                        mp = 8,
-                        l = th.val().length;
-                    if (l < 5) {
-                        var mp = 10;
+                    if (th.val().length < 10) {
+                        var m = 1.5;
                     }
-                    if (l >= 20) {
-                        var mp = 6;
+                    if (th.val().length < 5) {
+                        var m = 2;
                     }
-                    if (l < 20) {
-                        var mp = 8;
-                    } else {
-                        var mp = 8;
+                    if (th.val().length < 3) {
+                        var m = 3;
                     }
-                    if (l < 5) {
-                        l = 5;
+                    if (th.val().length >= 10) {
+                        var m = 1.15;
                     }
-                    if (l < 7) {
-                        le = l * 2.2;
-                    } else if (l >= 20) {
-                        le = l * 1.45;
-                    } else if (l >= 5) {
-                        le = l * 1.55;
-                    }
-                    var w = (le + 1) * mp + "px";
-                    th.addClass("mx-1");
+                    var w = Math.ceil(th.textWidth() * m) + 'px';
+                    console.log(w);
+
                     th.css("min-width", w);
                     th.css("max-width", w);
                     th.css("width", w);

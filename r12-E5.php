@@ -37,7 +37,7 @@
                             <thead class="thead-dark">
                             <tr>
                                 <th score="col"><strong>Notiz</strong>
-                                    <span class="tran"><br /><small>주의</small></span>
+                                    <span class="tran"><br/><small>주의</small></span>
                                 </th>
                             </tr>
                             </thead>
@@ -449,24 +449,28 @@
                 }
 
                 /* 역동적 입력란 */
+                $.fn.textWidth = function (text, font) {
+                    if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
+                    $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
+                    return $.fn.textWidth.fakeEl.width();
+                };
+
                 function di(th) {
-                    var le = 0, mp = 8, l = th.val().length;
-                    if (l < 5) {
-                        var mp = 10;
-                    } else if (l > 30) {
-                        var mp = 6;
-                    } else if (l < 30) {
-                        var mp = 8;
-                    } else {
-                        var mp = 8;
+                    if (th.val().length < 10) {
+                        var m = 1.5;
                     }
-                    if (l >= 5) {
-                        le = l;
-                    } else {
-                        le = 5;
+                    if (th.val().length < 5) {
+                        var m = 2;
                     }
-                    var w = (le + 1) * mp + "px";
-                    th.addClass("mx-1");
+                    if (th.val().length < 3) {
+                        var m = 3;
+                    }
+                    if (th.val().length >= 10) {
+                        var m = 1.15;
+                    }
+                    var w = Math.ceil(th.textWidth() * m) + 'px';
+                    console.log(w);
+
                     th.css("min-width", w);
                     th.css("max-width", w);
                     th.css("width", w);

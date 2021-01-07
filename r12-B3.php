@@ -117,7 +117,7 @@
                                 <span class="tran"><br><small>2021년 6월 15일부터 8월 3일까지 어학코스를 신청하고 싶습니다. </small></span>
                             </div>
                             <div class="col-12">
-                                Ich lerne seit zwei Jahren Deutsch und möchte an einem Deutschkurs auf B1 Niveau
+                                Ich lerne seit zwei Jahren Deutsch(Mein Deutsch ist auf dem B1.1 Niveau) und ich möchte an einem Deutschkurs auf B1 Niveau
                                 teilnehmen.
                                 <span class="tran"><br><small>저는 2년 정도 독일어를 공부했고 B1레벨의 독일어코스에 참여하고 싶습니다.</small></span>
                             </div>
@@ -297,7 +297,7 @@
         var nagehts = new Howl({
             src: ["./dev/sounds/Reihe 12/r12 B3.mp3"],
             sprite: {
-                "0": [460, 116403]
+                "0": [460, 121875]
             },
             html5: true,
             volume: 1,

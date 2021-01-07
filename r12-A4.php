@@ -104,7 +104,7 @@
                 <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm"
                         id="21">
-                    Schwimmen gegangen
+                    Schwimmen und gegangen
                 </button>
             </div>
         </div>
@@ -159,7 +159,7 @@
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-4">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Wasunternommen?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl d-block">Was unternommen?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-warning border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
@@ -198,7 +198,7 @@
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-10">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Wasunternommen?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl d-block">Was unternommen?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-warning border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"

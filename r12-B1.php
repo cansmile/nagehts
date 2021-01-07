@@ -68,7 +68,7 @@
                 <button type="button"
                         id="17"
                         class="mt-1 mx-1 btn ans12 btn-sm btn-outline-dark so itm">
-                    Es wäre schön,
+                    Es wäre schön
                 </button>
                 <button type="button"
                         id="18"

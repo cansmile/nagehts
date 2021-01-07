@@ -104,7 +104,7 @@
                 <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm"
                         id="21">
-                    Schwimmen und gegangen
+                    schwimmen und gegangen
                 </button>
             </div>
         </div>

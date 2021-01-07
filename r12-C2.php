@@ -44,7 +44,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
                             Um <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                       placeholder="Antwort" aria-label="Antwort" id="qst-1"> Uhr
                         </div>
                         <span class="tran">
@@ -64,7 +64,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
                             Um <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                       placeholder="Antwort" aria-label="Antwort" id="qst-2"> Uhr
                         </div>
                         <span class="tran">
@@ -84,7 +84,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
                             In <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                      class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                       placeholder="Antwort" aria-label="Antwort" id="qst-3">
                         </div>
                         <span class="tran">
@@ -104,11 +104,11 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
                             <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
                                    placeholder="Antwort" aria-label="Antwort" id="qst-4"> Stunde
                             <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-4"> Minuten
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-5"> Minuten
                         </div>
                         <span class="tran">
                             <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -127,15 +127,15 @@
                     <div class="col-sm-12 col-md-6 col-lg-4 lh350">
                         <div class="input-group">
                             <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-5">
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-6">
                             EUR.
                         </div>
                         <div class="input-group">
                             Im Sparangebot
                             <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-5">
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-7">
                             EUR.
                         </div>
                         <span class="tran">
@@ -155,8 +155,8 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
                             Auf Gleis <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-6">
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-8">
                         </div>
                         <span class="tran">
                             <button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -175,8 +175,8 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="input-group">
                             Auf Gleis <input autocomplete="off" type="text" style="max-width: 100px; min-width: 100px;"
-                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t_add_6"
-                                   placeholder="Antwort" aria-label="Antwort" id="qst-7">
+                                   class="form-control q rounded-0 border border-dark border-bottom-only mx-1 px-2 py-1 t-3"
+                                   placeholder="Antwort" aria-label="Antwort" id="qst-9">
                         </div>
                         <span class="tran">
                             <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
@@ -206,7 +206,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["16.13", "20.34", "Leipzig", "4", "21", "92,60", "59,90", "4", "1"];
+    var an = ["16:13", "20:34", "Leipzig", "4", "21", "92,60", "59,90", "8", "1"];
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();
@@ -441,12 +441,12 @@
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
                                     $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                        "<div class=\"d-block ra t-3\" style=\"max-width: 100px;\">" +
                                         an[i] + "</div>");
                                 } else {
                                     /* 2 이상인 경우 */
                                     var r =
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                        "<div class=\"d-block ra t-3\" style=\"max-width: 100px;\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";

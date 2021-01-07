@@ -1,4 +1,4 @@
-<?php require_once("heading.php"); ?>
+<?php require_once( "heading.php" ); ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
@@ -6,8 +6,9 @@
 <section class="bg-white rounded p-2" id="wahl">
     <div class="container">
         <div class="row">
-            <div class="bg-<?php echo($color); ?> wahl_title col-12">
-                Wahl</div>
+            <div class="bg-<?php echo( $color ); ?> wahl_title col-12">
+                Wahl
+            </div>
             <div class="col-12" id="itms">
                 <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="1">
                     Erholungsreise
@@ -63,9 +64,10 @@
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
                         HV
-                    </button></h3>
+                    </button>
+                </h3>
             </div>
         </div>
         <div class="row">
@@ -303,7 +305,7 @@
         </div>
         <!-- 정답화인 버튼 시작 -->
         <div class="row">
-            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk"> 정답확인 </div>
+            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12" id="chk"> 정답확인</div>
         </div>
         <!-- 정답확인 버튼 끝 -->
     </div>
@@ -316,7 +318,7 @@
 <script src="./dev/js/taptogrouph.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once("./dev/oxsound.php"); ?>
+<?php require_once( "./dev/oxsound.php" ); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();
@@ -453,7 +455,7 @@
 
                 <?php require "wahl.php"; ?>
                 var pan = new Array();
-                pan = [1];
+                pan = [1, 8, 11];
                 var il = $("#itms>.itm").length;
                 for (var p = 0; p < pan.length; p++) {
                     var pani = "#lst-" + pan[p];
@@ -461,7 +463,7 @@
                         if ($(this).hasClass("ans" + pan[p])) {
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                             $("#" + $(this).attr("id")).addClass("btn-block");
-                            $("#lst-" + pan[p] + ">h2") .remove();
+                            $("#lst-" + pan[p] + ">h2").remove();
                         }
                     })
                 }

@@ -15,7 +15,7 @@
                     <span class="tran"><br><small>휴양여행</small></span>
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm so" id="2">
-                    Flitterwoche
+                    Flitterwochen
                     <span class="tran"><br><small>신혼여행</small></span>
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="3">

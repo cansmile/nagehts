@@ -621,10 +621,13 @@
                             'E3' => array( 'Was bedeuten die Symbole (Piktogramme)?', '다음의 상징(픽토그램)들은 무슨 뜻일까요? 연결해보세요.' ),
                             'E5' => array( 'Mina fliegt ins Fernland. Ihre Mutter fragt sie, ob alles in Ordnung ist.', '미나는 멀리 여행을 떠납니다. 엄마가 미나에게 모든 것이 다 잘 준비되었는지를 묻습니다.' ),
                             'E6' => array( 'Welches Bild passt zu welchem Dialog?', '어떤 그림이 어떤 대화에 알맞습니까?' ),
-                            'E7' => array( 'Mina ist zur Teilnahme am Sprachkurs in Frankfurt gelandet. Sie will am Amtomaten eine einfache Fahrkarte nach Dresen kaufen. Dabei hilft eine Frau Mina. Ergänzen Sie die Lücken.', '미나가 어학연수를 위하여 프랑크프르트에 도착하였습니다. 미나는 자동매표기에서 드레스덴으로 가는 표 한 장을 사려고 합니다. 한 사람이 미나를 돕습니다. 빈칸을 채우세요.' ),
-                            'E8' => array( 'Schema der E-Mail: Redemitttel (Anrede/Gruß)', '이메일의 형식: 어휘 (인사말(호칭) 과 끝 인사' ),
-                            'E9' => array( 'Schema der E-Mail: Redemitttel (Anfang und Schluss)', '이메일의 형식: 표현법 (그리고 도입과 맺음말)' ),
-                            'E10' => array( 'Lesen Sie die E-Mail und schreiben Sie sie neu, indem Sie die Sätze mit den passenden Konektoren verbinden. Achten Sie auch auf die Verbstellung.', '이메일을 읽고 알맞은 접속사로 연결하여 새로 작성해보세요. 어순에 주의하세요.' ),
+                            'E7' => array( 'Durchsagen und Ansagen . Welche Durchsage passt nicht?', '안내방송. 어떤 말이 어울리지 않나요?' ),
+                            'E8' => array( 'Mina ist zur Teilnahme am Sprachkurs in Frankfurt gelandet.', '미나가 어학연수를 위하여 프랑크프르트에 도착하였습니다.' ),
+                            'E9a' => array( 'Wen siezt oder duzt man normalerweise in Deutschland?', '독일에서 누구에게 존칭 그리고 친칭하나요?' ),
+                            'E9b' => array( 'Welche Anrede und Grußformeln benutzen Sie beim Siezen und beim Duzen?', 'Sie를 사용할 때와 du를 사용할 때 어떤 인사말 (호칭) 과 끝 인사를 사용하나요' ),
+                            'E10' => array( 'Schema der E-Mail: Redemitttel (Anfang und Schluss)', '이메일의 형식: 표현법 (그리고 도입과 맺음말)' ),
+                            'E11a' => array( 'Indikativ Präteritum und Konjunktiv II.', '과거형과 가정법 II식.' ),
+                            'E11b' => array( 'Bilden Sie Sätze in Konjunkitv II', '가정법 II식으로 문장을 만드세요.' ),
                         )
                     ),
                     'r12-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )

@@ -25,7 +25,7 @@
                                 보다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark so itm" id="5">
-                        (eine) Pause machen<span class="tran"><br><small>쉬다</small></span>
+                        eine Pause machen<span class="tran"><br><small>쉬다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="6">
                         auf|räumen<span class="tran"><br><small>정리하다</small></span>
@@ -37,7 +37,7 @@
                         auf|stehen<span class="tran"><br><small>기상하다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="9">
-                        (das) Geschirr ab|waschen und ab|trocknen<span class="tran"><br><small>그릇을 설겆이하다.</small></span>
+                        das Geschirr ab|waschen und ab|trocknen<span class="tran"><br><small>그릇을 설겆이하다.</small></span>
                     </button>
                 </div>
             </div>

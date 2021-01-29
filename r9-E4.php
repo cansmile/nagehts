@@ -31,7 +31,7 @@
                 und Sujin
             </div>
             <div class="col-sm-12 col-md-2 col-lg-3">einen Reiseführer
-                schenken<br>Sie fahren nach Berlin..
+                schenken<br>Sie fahren nach Berlin.
             </div>
             <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                 <div class="input-group">

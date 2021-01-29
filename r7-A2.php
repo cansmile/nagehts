@@ -36,7 +36,7 @@
                         Kino<small><span class="tran"><br>영화관<br>(Fr. bis Sa.
                                 17.45, 20.00)</span></small>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="8">
                         Staatsoperette<small><span class="tran"><br>국립
                                 오페레타극장<br>(Sa. 14.30)</span></small>
                     </button>
@@ -111,7 +111,7 @@
                     class="rounded-top bg-primary itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-4">
                     <h2 class="btn btn-light btn-xl ttl d-block">
-                        <small><strong>Am Abend</strong></small><br>(17-0 Uhr)
+                        <small><strong>Am Abend</strong></small><br>(17-20 Uhr)
                     </h2>&nbsp;
                 </div>
             </div>

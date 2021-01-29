@@ -35,7 +35,7 @@
                             초대된다.<br></small></span> Sie schenken dem
                     Geburtstagskind Bücher, CDs oder Ähnliches.<span class="tran"><br><small>친구들은 생일 맞은 사람에게 책이나, CD 등등을
                             선물한다.<br></small></span> Geburtstage feiern in Korea
-                    ist im Gegensatz zu Deutschland ein wenig anders.<span class="tran"><br><small>한국에서의 생일파티는 독일과 반대로
+                    ist im Vergleich zu Deutschland ein wenig anders.<span class="tran"><br><small>한국에서의 생일파티는 독일과 반대로
                             약간
                             다르다.<br></small></span> In Korea ist es Tradition,
                     dass das Geburtagskind am Geburtstagsmorgen Reis mit
@@ -246,7 +246,7 @@
             var nagehts = new Howl({
                 src: ["./dev/sounds/Reihe 9/r9 B2.mp3"],
                 sprite: {
-                    "0": [750, 71105]
+                    "0": [996, 66491]
                 },
                 html5: true,
                 volume: 1,

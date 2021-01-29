@@ -194,7 +194,7 @@
                                     </div>
                                     <span class="tran"><br><small>“아스피린을 먹어야 해.”</small></span>
                                 </td>
-                                <th scope="row">„Du sollst Aspirin einnehmen“</th>
+                                <th scope="row">„Du sollst Aspirin nehmen“</th>
                             </tr>
                             <tr>
                                 <td class="text-right py-0">

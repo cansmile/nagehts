@@ -85,6 +85,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 책을 읽을 수 있습니다.</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -94,6 +95,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 조용히 대화해야 합니다.</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -103,6 +105,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 먹거나 마셔서는 안 됩니다.</small></span>
                                 </td>
                             </tr>
                         </tbody>
@@ -131,6 +134,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 수영할 수 있습니다.</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -140,6 +144,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 샤워를 해야 합니다.</small></span>
                                 </td>
                             </tr>
                         </tbody>
@@ -168,6 +173,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 영화를 볼 수 있습니다.</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -177,6 +183,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 음료를 가져와서는 안 됩니다.</small></span>
                                 </td>
                             </tr>
                         </tbody>
@@ -205,6 +212,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 먹거나 마실 수 있습니다.</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -219,6 +227,7 @@
                                         <h2 class="btn btn-warning btn-xl ttl d-block">
                                             ▼ </h2>
                                     </div>
+                                    <span class="tran"><br /><small>여기에서는 담배를 피워서는 안 됩니다.</small></span>
                                 </td>
                             </tr>
                         </tbody>

@@ -3,944 +3,62 @@
 	{
 		"selected_items":
 		[
-			[
-				"preserve",
-				"preserve_newlines\tabc"
-			],
-			[
-				"children",
-				"count($menu['children\t(gnb.blade.php)"
-			],
-			[
-				"Entschu",
-				"Entschuldigung\tabc"
-			],
-			[
-				"d-inline",
-				"d-inline-block \tBootstrap 4 Class"
-			],
-			[
-				"d-in",
-				"d-inline-block \tBootstrap 4 Class"
-			],
-			[
-				"zweiund",
-				"zweiundzwanzigste"
-			],
-			[
-				"btn-o",
-				"btn-outline-dark"
-			],
-			[
-				"font-",
-				"font-weight-bold \tBootstrap 4 Class"
-			],
-			[
-				"after",
-				"insertAfter〔function〕"
-			],
-			[
-				"btn-group-",
-				"btn-group-vertical \tBootstrap 4 Class"
-			],
-			[
-				"font",
-				"font-weight-bold \tBootstrap 4 Class"
-			],
-			[
-				"1",
-				"1itm"
-			],
-			[
-				"wrap",
-				"word-wrap\tproperty"
-			],
-			[
-				"requ",
-				"require_once"
-			],
-			[
-				"min",
-				"minHeight\t = 'inherit' Style CSS"
-			],
-			[
-				"btn-",
-				"btn-secondary"
-			],
-			[
-				"ins",
-				"insertBefore〔function〕"
-			],
-			[
-				"decora",
-				"textDecoration\t = 'line-through' Style CSS"
-			],
-			[
-				"sub",
-				"substr〔function〕"
-			],
-			[
-				"search",
-				"array_search"
-			],
-			[
-				"char",
-				"char\t<meta>"
-			],
-			[
-				"ch",
-				"char\t<meta>"
-			],
-			[
-				"cgi-",
-				"cgi-script"
-			],
-			[
-				"text-",
-				"text-capitalize \tBootstrap 4 Class"
-			],
-			[
-				"collapse",
-				"collapse-preserve-inline"
-			],
-			[
-				"collap",
-				"collapse-preserve-inline"
-			],
-			[
-				"deut",
-				"Deutschland"
-			],
-			[
-				"align-b",
-				"align-content-between \tBootstrap 4 Class"
-			],
-			[
-				"border-",
-				"border-radius\tproperty"
-			],
-			[
-				"clo",
-				"closest\t.closest()"
-			],
-			[
-				"text-da",
-				"text-danger \tBootstrap 4 Class"
-			],
-			[
-				"input-gr",
-				"input-group-addon \tBootstrap 4 Class"
-			],
-			[
-				"index",
-				"indexOf"
-			],
-			[
-				"rounded-",
-				"rounded-circle \tBootstrap 4 Class"
-			],
-			[
-				"align",
-				"vertical-align\tproperty"
-			],
-			[
-				"height",
-				"min-height\tproperty"
-			],
-			[
-				"as",
-				"async\tAttr"
-			],
-			[
-				"max",
-				"max-width\tproperty"
-			],
-			[
-				"app",
-				"append\t.append()"
-			],
-			[
-				"word",
-				"word-break\tproperty"
-			],
-			[
-				"btn-outline-s",
-				"btn-outline-success \tBootstrap 4 Class"
-			],
-			[
-				"back",
-				"background-color\tproperty"
-			],
-			[
-				"has",
-				"hasClass\t.hasClass()"
-			],
-			[
-				"table-in",
-				"table-inverse \tBootstrap 4 Class"
-			],
-			[
-				"table",
-				"table-striped \tBootstrap 4 Class"
-			],
-			[
-				"add",
-				"addClass\t.addClass()"
-			],
-			[
-				"backgre",
-				"background-size\tproperty"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
-				"this",
-				"this\t$(this)"
-			],
-			[
-				"btn-outline-",
-				"btn-outline-dark \tBootstrap 4 Class"
-			],
-			[
-				"repl",
-				"replaceWith\t.replaceWith()"
-			],
-			[
-				"text-gray",
-				"text-gray-dark \tBootstrap 4 Class"
-			],
-			[
-				"bg-",
-				"bg-info \tBootstrap 4 Class"
-			],
-			[
-				"border-l",
-				"border-left-0 \tBootstrap 4 Class"
-			],
-			[
-				"replace",
-				"str_replace"
-			],
-			[
-				"strr",
-				"str_replace"
-			],
-			[
-				"table-s",
-				"table-striped \tBootstrap 4 Class"
-			],
-			[
-				"col-",
-				"col-xl \tBootstrap 4 Class"
-			],
-			[
-				"btn-gr",
-				"btn-danger \tBootstrap 4 Class"
-			],
-			[
-				"c",
-				"content-name"
-			],
-			[
-				"margin",
-				"margin"
-			],
-			[
-				"color",
-				"color"
-			],
-			[
-				"backgr",
-				"background-color: 〔property〕"
-			],
-			[
-				"doct",
-				"DOCTYPE  (doctype)"
-			],
-			[
-				"doc",
-				"DOCTYPE  (doctype)"
-			],
-			[
-				"in",
-				"inline-block"
-			],
-			[
-				"str",
-				"STRONG\tTag"
-			],
-			[
-				"mys",
-				"mysql_connect"
-			],
-			[
-				"mkt",
-				"mkt\tmkt"
-			],
-			[
-				"inline",
-				"inline-table"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"backgro",
-				"background-color"
-			],
-			[
-				"flo",
-				"overflow"
-			],
-			[
-				"font-f",
-				"font-family"
-			],
-			[
-				"mark",
-				"markdown2"
-			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "r12-E8.php",
+			"settings":
+			{
+				"buffer_size": 20585,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "r12-E7.php",
+			"settings":
+			{
+				"buffer_size": 28762,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				],
-				[
-					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				],
-				[
-					"Packages/User/Chrome.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Ruby/Ruby.sublime-build",
-					""
-				],
-				[
-					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/Ruby/Ruby.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Ruby/Ruby.sublime-build",
-					""
-				],
-				[
-					"Packages/User/Chrome.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/Ruby/Ruby.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-					""
-				],
-				[
-					"Packages/TypeScript/TypeScript.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-				""
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 131.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"pcins",
+				"install pack",
 				"Package Control: Install Package"
-			],
-			[
-				"html character",
-				"HTML: Encode Special Characters"
-			],
-			[
-				"decode",
-				"StringEncode: Decode Escaped Unicode"
-			],
-			[
-				"word",
-				"Word Wrap: Toggle"
-			],
-			[
-				"encode",
-				"HTML: Encode Special Characters"
-			],
-			[
-				"pcinsp",
-				"Package Control: Install Package"
-			],
-			[
-				"remove package",
-				"Package Control: Remove Package"
 			],
 			[
 				"install package",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
+				"monokai",
+				"Monokai Pro: select theme"
 			],
 			[
-				"enable pa",
-				"Package Control: Enable Package"
-			],
-			[
-				"wrap emme",
-				"Emmet: Wrap with Abbreviation"
-			],
-			[
-				"keymap",
-				"Keymaps: Cheat Sheet"
-			],
-			[
-				"shortcut",
-				"HTMLPrettify: Set Keyboard Shortcuts"
-			],
-			[
-				"gitsavvy",
-				"Preferences: GitSavvy Settings"
-			],
-			[
-				"prettier",
-				"HTMLPrettify: Set Prettify Preferences"
-			],
-			[
-				"vue syn",
-				"Set Syntax: Vue Component"
-			],
-			[
-				"node",
-				"HTMLPrettify: Set `node` Path"
-			],
-			[
-				"jsprettie",
-				"JsPrettier: Format Code"
-			],
-			[
-				"js prettier",
-				"Preferences: JsPrettier Settings - Default"
-			],
-			[
-				"install packa",
-				"Package Control: Install Package"
-			],
-			[
-				"prettify",
-				"HTMLPrettify"
-			],
-			[
-				"wordwa",
-				"Word Wrap: Toggle"
-			],
-			[
-				"pull",
-				"git: pull"
-			],
-			[
-				"key",
-				"Keymaps: Markdown Cheat Sheet"
-			],
-			[
-				"package",
-				"Package Control: List Packages"
-			],
-			[
-				"cq",
-				"ChangeQuotes"
-			],
-			[
-				"glcf",
-				"git: log current file"
-			],
-			[
-				" install pack",
-				"Package Control: Install Package"
-			],
-			[
-				"javascript",
-				"Minify Javascript/CSS"
-			],
-			[
-				"minify",
-				"HTML Minfier: Minify File (modify existing)"
-			],
-			[
-				"pretti",
-				"HTMLPrettify: Set Prettify Preferences"
-			],
-			[
-				"htmlprettify",
-				"HTMLPrettify: Set Plugin Options"
-			],
-			[
-				"cheat",
-				"Keymaps: Cheat Sheet"
-			],
-			[
-				"phpcs",
-				"PHP Code Sniffer: Sniff this file"
-			],
-			[
-				"phps",
-				"PHP Code Sniffer: Sniff this file"
-			],
-			[
-				"phpcomp",
-				"PHPCompanion:Goto Definition Scope"
-			],
-			[
-				"install pack",
-				"Package Control: Install Package"
-			],
-			[
-				"disablpack",
-				"Package Control: Disable Package"
-			],
-			[
-				"disable pa",
-				"Package Control: Disable Package"
-			],
-			[
-				"disable",
-				"Package Control: Disable Package"
-			],
-			[
-				"php code sn",
-				"PHP Coding Standards Fixer: Fix this file (PHP Code Beautifier)"
-			],
-			[
-				"php codebeauti",
-				"PHP CodeBeautifier"
-			],
-			[
-				"php b",
-				"PHP Coding Standards Fixer: Fix this file (PHP Code Beautifier)"
-			],
-			[
-				"dict",
-				"git: diff current file"
-			],
-			[
-				"update package",
-				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"git savvy",
-				"Preferences: GitSavvy Settings"
-			],
-			[
-				"gitstat",
-				"Preferences: GitSavvy Settings"
-			],
-			[
-				"gitstatus",
-				"Git: Status"
-			],
-			[
-				"gitcurrent",
-				"Git: Add Current File"
-			],
-			[
-				"gitcommit",
-				"Git: Commit"
-			],
-			[
-				"gitcurre",
-				"Git: Add Current File"
-			],
-			[
-				"gitcurr",
-				"Git: Add Current File"
-			],
-			[
-				"git addc",
-				"Git: Add Current File"
-			],
-			[
-				"gitaddc",
-				"Git: Add Current File"
-			],
-			[
-				"gitcommt",
-				"Git: Commit"
-			],
-			[
-				"gitaddcurr",
-				"Git: Add Current File"
-			],
-			[
-				"git commit",
-				"Git: Commit"
-			],
-			[
-				"git curr",
-				"Git: Add Current File"
-			],
-			[
-				"git status",
-				"Git: Status"
-			],
-			[
-				"git statur",
-				"Git: Stash Include Untracked"
-			],
-			[
-				"git command",
-				"Git: Custom Command"
-			],
-			[
-				"gitcommand",
-				"Git: Custom Command"
-			],
-			[
-				"command",
-				"Git: Custom Command"
-			],
-			[
-				"gitcc",
-				"Git: Custom Command"
-			],
-			[
-				"filename",
-				"File: Copy Name"
-			],
-			[
-				"gitpush",
-				"Git: Push"
-			],
-			[
-				"gitdiff",
-				"Git: Diff Current File"
-			],
-			[
-				"log",
-				"Git: Log"
-			],
-			[
-				"git push",
-				"Git: Push"
-			],
-			[
-				"timmer",
-				"Trimmer: Trim leading AND trailing whitespace."
-			],
-			[
-				"gitadd",
-				"Git: Add Current File"
-			],
-			[
-				"gitamend",
-				"Git: Amend Commit"
-			],
-			[
-				"gitdiffcu",
-				"Git: Diff Current File"
-			],
-			[
-				"gitamen",
-				"Git: Amend Commit"
-			],
-			[
-				"gitcommit am",
-				"Git: Amend Commit"
-			],
-			[
-				"git add",
-				"Git: Add Tag"
-			],
-			[
-				"git add c",
-				"Git: Add Current File"
-			],
-			[
-				"git commin",
-				"Git: Quick Commit Current File"
-			],
-			[
-				"commit am",
-				"Git: Amend Commit"
-			],
-			[
-				"git add ",
-				"Git: Add Current File"
-			],
-			[
-				"git diff",
-				"Git: Diff"
-			],
-			[
-				"git stash",
-				"Git: Stash"
-			],
-			[
-				"git log",
-				"Git: Log"
-			],
-			[
-				"remove packa",
-				"Package Control: Remove Package"
-			],
-			[
-				"git commti",
-				"Git: Commit"
-			],
-			[
-				"color:",
-				"Colorsublime: Install Theme"
-			],
-			[
-				"autofile",
-				"AutoFileName: Quick Settings"
-			],
-			[
-				"install pa",
-				"Package Control: Install Package"
-			],
-			[
-				"gutter",
-				"GitGutter: Compare Against Commit"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"babel",
-				"Babel Transform"
-			],
-			[
-				"remove pack",
-				"Package Control: Remove Package"
-			],
-			[
-				"color sublime",
-				"Colorsublime: Install Theme"
-			],
-			[
-				"'",
-				"Package Control: Install Package"
-			],
-			[
-				"colorpicker",
-				"Color Picker"
-			],
-			[
-				"remove pa",
-				"Package Control: Remove Package"
-			],
-			[
-				"git show",
-				"Git: Show"
-			],
-			[
-				"git pu",
-				"Git: Push"
-			],
-			[
-				"git comm",
-				"Git: Commit"
-			],
-			[
-				"gita dd c",
-				"Git: Add Current File"
-			],
-			[
-				"enable",
-				"Package Control: Enable Package"
-			],
-			[
-				"git c",
-				"Git: Amend Commit"
-			],
-			[
-				"push",
-				"Git: Push"
-			],
-			[
-				"git com",
-				"Git: Commit"
-			],
-			[
-				"log curr",
-				"Git: Log Current File"
-			],
-			[
-				"git lo",
-				"Git: Log Current File"
-			],
-			[
-				"log all",
-				"Git: Log All"
-			],
-			[
-				"disabl",
-				"Package Control: Disable Package"
-			],
-			[
-				"git: rever",
-				"Git: Show Previous Version of Current File"
-			],
-			[
-				"git: log",
-				"Git: Log Current File"
-			],
-			[
-				"git: ",
-				"Git: Commit history"
-			],
-			[
-				"diff all files",
-				"Git: Diff All Files"
-			],
-			[
-				"git:log",
-				"Git: Log Current File"
-			],
-			[
-				"unico",
-				"ConvertToUTF8: Reload with Encoding"
-			],
-			[
-				"install pac",
-				"Package Control: Install Package"
-			],
-			[
-				"cs php",
-				"PHP CS Fixer: format this file"
-			],
-			[
-				"base64",
-				"StringEncode: Base64 Decode"
-			],
-			[
-				"deco",
-				"StringEncode: Base64 Decode"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"markdown",
-				"MarkdownLivePreview: Open Preview"
-			],
-			[
-				"installpa",
-				"Package Control: Install Package"
-			],
-			[
-				"removepa",
-				"Package Control: Remove Package"
-			],
-			[
-				"64",
-				"StringEncode: Base64 Decode"
-			],
-			[
-				"emmet:encod",
-				"Emmet: Encode\\Decode Image to data:URL"
-			],
-			[
-				"check",
-				"Snippet: Checkbox"
-			],
-			[
-				"compa",
-				"Sublimerge: Compare to View..."
-			],
-			[
-				"compare ",
-				"Sublimerge: Compare to Revision..."
-			],
-			[
-				"compare",
-				"Sublimerge: Compare to View..."
+				"packag",
+				"Install Package Control"
 			]
 		],
-		"width": 528.0
+		"width": 0.0
 	},
 	"console":
 	{
-		"height": 442.0,
+		"height": 0.0,
 		"history":
 		[
 		]
@@ -954,171 +72,25 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/web/nagehts/dev"
+	],
 	"file_history":
 	[
-		"/D/cansmile/csdn/wp-dev-admin-ko.po",
-		"/D/cansmile/csdn/part-of-wp-admin-ko.po",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1609239681/nagehts.json/etc/nginx/sites-enabled/nagehts",
-		"/C/Users/Administrator/.gitconfig",
-		"/C/Users/Administrator/.git-credentials",
-		"/C/web/nagehts/dev/.git/config",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1609140998/nagehts.json/home/nagehts/public_html/dev/.git/config",
-		"/D/cansmile/csdn/SF_2009-01-20_KOR_KOR_(KOREAN VERSION).xml",
-		"/D/cansmile/Canny Dropbox/Cha Cansmile B/Dropbox reports/Symlink report - Items that will stop syncing.csv",
-		"/C/web/nagehts/dev/js/howler.core.js",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608780629/nagehts.json/root/.ssh/authorized_keys",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608780353/nagehts.json/root/.ssh/authorized_keys",
-		"/D/cansmile/csdn/wp-5.4.x-ko.po",
-		"/D/cansmile/csdn/wp-dev-ko.po",
-		"/D/cansmile/csdn/part-of-wp-dev.po",
-		"/C/Program Files (x86)/QWinFF/presets.xml",
-		"/C/Program Files (x86)/QWinFF/tools/mplayer/config",
-		"/D/cansmile/csdn/wp-5.5.x-ko.po",
-		"/C/web/nagehts/dev/r1-A2.php",
-		"/C/web/nagehts/dev/r12-A1.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608273557/nagehts.json/home/nagehts/public_html/plugins/xero_commerce/src/Components/Widget/MainSlider/assets/mainSlider.css",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1608273350/nagehts.json/home/nagehts/public_html/plugins/xero_commerce/src/Components/Widget/MainSlider/views/widget.blade.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1592898450/nagehts.json/home/nagehts/public_html/.htaccess",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/includes/languages/english.php",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/plugins/ext/languages/english.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1589568540/nagehts.json/home/nagehts/public_html/nagehts/nav.php",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1587461409/nagehts.json/home/nagehts/public_html/nagehts/nav.php",
-		"/C/web/nagehts/.vscode/.jsbeautifyrc",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
-		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1587395918/nagehts.json/home/nagehts/public_html/nagehts/nav.php",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
-		"/C/web/nagehts/ts/csts20-00001.ts",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/TypeScript/tsserver/lib.es5.d.ts",
-		"/C/web/nagehts/.vscode/php-cs-fixer-v2.phar",
-		"/C/web/nagehts/.vscode/.php_cs",
-		"/C/web/nagehts/nagehts/css/global.css",
-		"/C/phpcs/bin/phpcs",
-		"/C/phpcs/bin/phpcs.bat",
-		"/C/web/nagehts/.vscode/nagehts.php_cs",
-		"/D/cansmile/cswd/txt/2020042000001 Scrivener 3.0 Release Candidate 4 version 2.9.9.4 (Download Links & Change List).txt",
-		"/C/php/extras/ssl/openssl.cnf",
-		"/C/php/php.ini",
-		"/C/web/nagehts/ppb/.vscode/launch.json",
-		"/C/web/nagehts/ppb/.vscode/.prettierrc",
-		"/C/web/.rnd",
-		"/C/web/nagehts/.vscode/settings.json",
-		"/C/web/nagehts/ppb/PropresentBible/src/Results/1CH.usx",
-		"/C/web/nagehts/ppb/PropresentBible/src/Results/1KI.usx",
-		"/C/web/nagehts/ppb/PropresentBible/.project",
-		"/C/web/nagehts/ppb/PropresentBible/.gitignore",
-		"/C/web/nagehts/ppb/PropresentBible/.flexProperties",
-		"/C/web/nagehts/.eslintrc.js",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
-		"/C/web/nagehts/vue/csvue20-00001.js",
-		"/C/web/nagehts/vue/csvue20-00001.html",
-		"/C/web/nagehts/vue/main.js",
-		"/C/web/nagehts/vue/node_modules/main.js",
-		"/C/Users/Administrator/AppData/Local/Microsoft/Windows/INetCache/IE/0P63GD5S/vue[1]",
-		"/C/web/nagehts/dev/css/bootstrap.css",
-		"/C/web/nagehts/vue/node_modules/bootstrap/dist/css/bootstrap.css",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/0ed5b4a6-d4fc-476d-8ada-c582056ffefe/USX/송영.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/0ed5b4a6-d4fc-476d-8ada-c582056ffefe/USX/가정.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/0ed5b4a6-d4fc-476d-8ada-c582056ffefe/USX_1/송영.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/0ed5b4a6-d4fc-476d-8ada-c582056ffefe/metadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/226cdc37-0ad5-47f5-a0b9-c6763eff7b61/metadata.xml",
-		"/C/web/nagehts/ppb/PropresentBible/src/kjv-en/USX_1/1CH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX/감사의생활.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/7407ffd3-ad43-4675-b9fb-60e4fa307b12/release/USX_2/2CO.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/226cdc37-0ad5-47f5-a0b9-c6763eff7b61/USX_1/가정.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/226cdc37-0ad5-47f5-a0b9-c6763eff7b61/USX/거듭남.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/226cdc37-0ad5-47f5-a0b9-c6763eff7b61/USX_1/혼례.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/0ed5b4a6-d4fc-476d-8ada-c582056ffefe/USX/1CH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX_1/가정.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX_1/감사의생활.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/7407ffd3-ad43-4675-b9fb-60e4fa307b12/release/USX_2/1TH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/46d16628-e3ac-49d6-b3db-3d42261a3c0b/USX_1/1CH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX/거듭남.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/BibleData.proPref",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX/아멘송.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX_1/아멘송.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/metadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/c21d25ce-b556-4559-bfad-c8b158164101/metadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX/새해(송구영신).usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX_1/은사.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX_1/주현.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/license.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/rvmetadata.xml",
-		"/C/web/nagehts/ppb/PropresentBible/src/kjv-en/metadata.xml",
-		"/C/web/nagehts/ppb/PropresentBible/src/kjv-en/rvmetadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX_1/헌신과봉사.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX/주현.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/557f080f-f8fa-4772-a20e-af6d07600dc1/USX/헌신과봉사.usx",
-		"/C/web/nagehts/ppb/PropresentBible/src/hymn/darby-en/rvmetadata.xml",
-		"/C/Users/Administrator/AppData/Roaming/Visual Runtime 11.0.0/default_bookmark",
-		"/C/Users/Administrator/AppData/Roaming/Visual Runtime 11.0.0/html/test1.html",
-		"/C/Users/Administrator/AppData/Roaming/Visual Runtime 11.0.0/html/test.html",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/2ce43ad2-5f29-4171-a029-d2a107461bfb/rvmetadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/940de6ba-7a82-4b46-a16a-8814b3618522/metadata.xml",
-		"/C/web/nagehts/ppb/경배.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/5838f8a3-1691-4d63-8bac-83ae8ee5b09f/USX/감사의생활.usx",
-		"/C/web/nagehts/ppb/헌신과봉사.usx",
-		"/C/web/nagehts/ppb/전도.usx",
-		"/C/web/nagehts/ppb/rvmetadata.xml",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/metadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/6f6cb341-0a86-48c7-98f6-5c28aa13c21d/rvmetadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/5838f8a3-1691-4d63-8bac-83ae8ee5b09f/metadata.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/6f6cb341-0a86-48c7-98f6-5c28aa13c21d/license.xml",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/rvmetadata.xml",
-		"/C/Users/Administrator/AppData/Local/Temp/_tc/license.xml",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/6f6cb341-0a86-48c7-98f6-5c28aa13c21d/USX_1/GEN.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/6f6cb341-0a86-48c7-98f6-5c28aa13c21d/USX_1/1CH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/c58390dd-7b92-4f01-9810-da5a86c084cd/USX_1/갈.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/5838f8a3-1691-4d63-8bac-83ae8ee5b09f/USX_1/1CH.usx",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/c58390dd-7b92-4f01-9810-da5a86c084cd/USX/갈.usx",
-		"/D/cansmile/csde/ProPre/ProPre.php",
-		"/C/web/nagehts/ppb/ProPre.php",
-		"/C/ProgramData/RenewedVision/ProPresenter/Bibles/c58390dd-7b92-4f01-9810-da5a86c084cd/metadata.xml",
-		"/C/web/nagehts/ppb/metadata.xml",
-		"/C/web/nagehts/ppb/nkrv/metadata.xml",
-		"/C/web/nagehts/ppb/nkr_whole.sql",
-		"/C/web/nagehts/ppb/zverse.sql",
-		"/C/web/nagehts/ppb/darby-en.rvbible"
+		"/C/web/nagehts/nagehts.sublime-project",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text (Safe Mode)/Packages/User/sftp_servers/Nagehts",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text (Safe Mode)/Packages/User/Theme - Monokai Pro.sublime-settings"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
-		"height": 661.0,
+		"height": 0.0,
 		"where_history":
 		[
-			"c:\\web\\nagehts\\dev\\,r*.php",
-			"c:\\web\\nagehts\\dev\\,*.php",
-			"d:\\cansmile\\csde\\nagehts\\,*.php",
-			"d:\\cansmile\\csde\\nagehts\\js\\,*.js",
-			"d:\\cansmile\\csde\\nagehts\\,*.php",
-			"d:\\cansmile\\csde\\nagehts\\",
-			"c:\\xampp\\apps\\wordpress\\htdocs\\",
-			"D:\\cansmile\\csde\\nagehts",
-			"d:\\cansmile\\ex-jobs\\Moodle\\ko\\",
-			"D:\\cansmile\\csde\\nagehts",
-			"<open files>",
-			"d:\\cansmile\\csde\\nagehts\\",
-			"d:\\cansmile\\Dropbox\\Documents\\Scrivener\\Scrivener Projects\\csri19-00001 스크리브너 처음 따라하기.scriv\\*.php",
-			"d:\\cansmile\\Dropbox\\Documents\\Scrivener\\Scrivener Projects\\csri19-00001 스크리브너 처음 따라하기.scriv\\",
-			"d:\\cansmile\\Dropbox\\Documents\\Scrivener\\Scrivener Projects\\scrivenerTutorialkor180422.scriv\\",
-			"d:\\cansmile\\Dropbox\\Documents\\Scrivener\\Scrivener Projects\\2019081900001 스크리브너 시작.scriv\\Files\\Docs\\",
-			"d:\\cansmile\\csde\\nagehts\\",
-			"d:\\cansmile\\csde\\eDeutsch",
-			"d:\\cansmile\\csde\\eDeutsch\\",
-			"<open folders>",
-			"d:\\cansmile\\csde\\eDeutsch\\",
-			"D:\\cansmile\\cswd\\markdown\\",
-			"c:\\Users\\Administrator\\AppData\\Roaming\\",
-			"D:\\cansmile\\cswd\\markdown\\",
-			""
 		]
 	},
 	"find_state":
@@ -1126,134 +98,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\", \"",
-			"/",
-			"www.nagehts.org",
-			"nagehts.org",
-			"                <button type=\"button\"",
-			"class=\"mt-1 mx-1 btn ans0 btn-sm btn-outline-dark itm\"",
-			",",
-			"/",
-			"[0-9]>$",
-			"/",
-			"\", \"",
-			", ",
-			" ",
-			"Limit result set to posts assigned to specific authors.\t",
-			"msgstr \"\"",
-			"쉬운",
-			"<?",
-			"text-center",
-			"body",
-			"html>head+body\n",
-			"body",
-			"schnu",
-			"< $lt",
-			"$lt",
-			"er, sie",
-			"Was isst und trinkt er",
-			"// ",
-			"$mkey",
-			"trinken",
-			"subttl",
-			"                    if (substr($da, 1, 2) == \"GR\") {\n                        $la = substr($da, 1, 2);\n                    } elseif ($da == \"Uebungen\") {\n                        $la = \"Übungen\";\n                    } else {\n                        $la = $da;\n                    }\n",
-			"subttl",
-			"85",
-			"80",
-			"(\\\"[,]$)|(\\\"$)|(\\]$)(\\][,]$)",
-			"\"]",
-			"]\"",
-			"\" => \"",
-			"method_argument_space",
-			"rule",
-			"\\r\\n",
-			"85",
-			"cacert",
-			"cacert.pem\n",
-			"\\",
-			"}}</",
-			"<chapter number=\"",
-			"mt1",
-			"para",
-			"<para style=\"p\">",
-			"japane",
-			"2 => \"\\D",
-			"\"\\d[.]",
-			"1.",
-			"<chapter number=\"",
-			"<para style=\"mt\">",
-			"ft",
-			"<chapter number=\"2\" style=\"c\" />",
-			"손과 발을 드려",
-			"^\\d =>",
-			"^\\)",
-			"^7[.]",
-			"^6[.]",
-			"^5[.]",
-			"^4[.]",
-			"^3[.]",
-			"^2[.]",
-			"^1[.]",
-			"^1.",
-			"1.",
-			"^[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]",
-			"(^\\D)!(\\))",
-			"^\\d* ",
-			"7.",
-			"6.",
-			"5.",
-			"4.",
-			"3.",
-			"2.",
-			"^\\d* ",
-			"^\\d*$",
-			"^\\d* ",
-			" 1.",
-			"^\\d* ",
-			"\n\n",
-			"  ",
-			"   ",
-			"^\\d* ",
-			"7.",
-			"6.",
-			"5.",
-			"4.",
-			"3.",
-			"2.",
-			"^\\d* $",
-			"^\\d*$",
-			"\n\n",
-			"^\\d* ",
-			"  ",
-			"6.",
-			"5.",
-			"4.",
-			"3.",
-			"2.",
-			"(^\\d*.)(^\\D)",
-			" ~ ",
-			");",
-			"pack(\"CCC\", 0xef, 0xbb, 0xbf));",
-			"fopen",
-			"write",
-			"kbk_s",
-			"bkc = ",
-			"pack(\"CCC\", 0xef, 0xbb, 0xbf));",
-			"fwrite($fp, pack(\"CCC\", 0xef, 0xbb, 0xbf));",
-			"lang",
-			"fopen(",
-			"fwrite",
-			"$bkc = strtoupper($bk",
-			", ",
-			"$bkc = ",
-			"$bkc =",
-			"429",
-			"<br>\\n",
-			"nkrv",
-			"kor",
-			"time",
-			"excution",
-			"echo<<<END"
+			"</span></td>",
+			"tbody",
+			"</span></td>",
+			"doctype"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1261,134 +109,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"\n",
-			"\\n",
-			"/",
-			"\n",
-			"/",
-			" ",
-			"\"",
-			"],\n",
-			"<?=$root ?>",
-			"<?=$color ?>",
-			".",
-			"nagehts.test",
-			"\\\\",
-			"nagehts.test",
-			"http://nagehts.test",
-			"path: \"dev/sounds/\",",
-			"path : \"dev/sounds/\",",
-			"path : \"dev/sounds/\",",
-			"path : \"dev/sounds/\",",
-			"/home/nagehts/",
-			"\"dev/images",
-			"\".\\dev/images",
-			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; left: 0; bottom: 0; z-index: 9999; width: 100",
-			"<?php require_once(\"./dev/oxsound.php\"); ?>",
-			"<?php require_once(\"./dev/oxsound.php\"); ?>",
-			"dev/images/",
-			"dev/sounds/Re",
-			"./dev/js/",
-			"<?php include \"nav.php\"; ?>",
-			"",
-			"http://cansmi",
-			"home/cansmile",
-			"cansmile/public_html",
-			"`wp",
-			"/home/nagehts",
-			"http://cansmile",
-			"cansmile.xehub.net",
-			"http://cansmile",
-			"cansmile.xehub.net",
-			"cansmile.org",
-			" ",
-			"tport_",
-			"https://www.nagehts.org",
-			"nagehts.org/tport",
-			"https://tport.nagehts.org",
-			"/home/nagehts/public_html/",
-			"\\\\\\\\",
-			"\\\\",
-			"\"",
-			"\\\\",
-			"\\\\\\\\",
-			".",
-			"",
-			" rounded text-center text-white font-weight-bold col-12\">Wahl<small>선택지</small></div>",
-			"var st = \"쓰읍~ 다시 해 보실까요!\";",
-			"907",
-			"",
-			".\n",
-			"} else if(pe > 49) {",
-			"} else if(pe > 74) {",
-			"/",
-			"7070",
-			"\"\n\"",
-			"\n",
-			";",
-			"\n",
-			";",
-			", ",
-			"::-moz-selection",
-			"\n",
-			"txt",
-			")",
-			"(",
-			"신약",
-			"|",
-			"가격",
-			".js\"></script>",
-			"dingdongdang",
-			"$(\"#qst-\"+(i+1)).after(\"<div class=\\\"d-block text-dark bg-warning rounded p-1 m-1 px-2 font-weight-bold\\\" style=\\\"position: relative; top: -6px;\\\">\"",
-			"<script src=\"./js/jquery-3.5.1.min.js\"></script>",
-			"$(\".tran\").show();\nif($(this).hasClass(\"ans\"+ (a))) {",
-			"and",
-			"if($(\"#wahl\").visibility != \"visible\" && $(this).attr(\"id\") == \"chk\") {",
-			"if($(\"#wahl\").visibility !=\"visible\" && $(this).attr(\"id\") == \"chk\" {",
-			"$(\"#chk\").on(\"click\", function() {\n\t\t\t\tif($(\"#wahl\").visibility !=\"visible\" && $(this).attr(\"id\") == \"chk\" {",
-			"맞히셨네요",
-			"/",
-			"\n",
-			"/",
-			"\n",
-			"');",
-			"<div id=\"marg\"></div>",
-			"\n",
-			"treiben",
-			".\",\"",
-			"text",
-			".\n",
-			" ",
-			"; ",
-			"ko_KR",
-			"-",
-			";\n",
-			".\n",
-			"게시판",
-			"ko_KR",
-			"\t\t$(\".so\").each(function() {\n\t\t\thm[$(this).attr(\"id\")] = 0;\n\t\t\tsen[$(this).attr(\"id\")] = 0;\n\t\t})\n",
-			" ",
-			"#",
-			"\t\t\t\t</",
-			"\");\n",
-			" ?>\n\t\t<section>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-lg-12 mb-4 mt-2 text-center\">\n\t\t\t\t\t\t<h2> Schreiben Sie. <br>\n\t\t\t\t\t\t\t<small>써보세요.</small>\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<h3>[ <small>대문자로 된 부분을 바른 단어로 입력하세요.</small> ]</h3>\n\t\t\t\t\t\t<h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게 표시됩니다.</small> ]</h3>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t\t<!-- 정답화인 버튼 시작 -->\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"btn my-3 btn-light col-sm-12 col-md-12 col-lg-12\" id=\"chk\">\n\t\t\t\t\t\t정답확인\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- 정답확인 버튼 끝 -->\n\t\t\t</div>\n\t\t</section>\n\t\t\n\n\t\t\n\t\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t\t<script src=\"./js/jquery-3.3.1.min.js\"></script>\n\t\t<!-- Include all compiled plugins (below), or include individual files as needed -->\n\t\t<script src=\"./js/popper.min.js\"></script>\n\t\t<script src=\"./js/bootstrap.js\"></script>\n\t\t<script src=\"./js/taptogroupnomove.js\"></script>\n\t\t<!-- interact.min.js -->\n\t\t<script src=\"./js/ion.sound.min.js\"></script>\n\t\t<script>\n\t\t\t$(\".tran\").hide();\n\t\t\t$(\".ant\").hide();\n\n\t\t\tvar an = new Array();\n\t\t\tvar an = [\"Kopf\",\"Zahn\",\"Hals\",\"Rücken\",\"Bauch\"];\n\n\t\t\t$(document).ready(function() {\n/* 입력하는 문자 확인(정답 표시 없음) 여기부터 */\n// 값 확인해보자, io값이 참이면 전체 검사\nfunction rfchk(th,io) {\n\tvar q, qn, a, b, fl;\n\tq = th.val().length;\n\tqn = (th.attr(\"id\").substr(4))-1;\n\ta = th.val();\n\ta = a.replace(/ /gi, \"\");\n\tif(!$.isArray(an[qn])) {\n\t\t// 1 인 경우 \n\t\tif(io) {\n\t\t\tb = an[qn];\n\t\t} else {\n\t\t\tb = an[qn].substr(0,q);\n\t\t}\n\t\tb = b.replace(/ /gi, \"\");\n\n\t\tif(a == b) {\n\t\t\treturn true;\n\t\t}\n\n\t} else {\n\t\t// 2 이상인 경우\n\t\tfor(var fd = 0; fd < an[qn].length; fd++) {\n\t\t\tif(io) {\n\t\t\t\tb = an[qn][fd];\n\t\t\t} else {\n\t\t\t\tb = an[qn][fd].substr(0,q);\n\t\t\t}\n\t\t\tb = b.replace(/ /gi, \"\");\n\t\t\t\n\t\t\tif(a == b) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t}\n\t\t\n\t}\n}\n\t\t\t\t$(\".q\").on(\"keyup\", function () {\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-danger\");\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).removeClass(\"text-success\");\n\n\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t}\n\n\t\t\t\t\tif(!$(this).val()) {\n\t\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t}\n\t\t\t\t\t\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".q\").on(\"focusin\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).show();\n\t\t\t\t\tif(!$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).text($(this).val());\n\t\t\t\t\t}\n\t\t\t\t\tif($(\"#ant-\"+$(this).attr(\"id\").substr(4)).text()) {\n\t\t\t\t\t\tif(rfchk($(this))) {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-success\");\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t$(this).addClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).addClass(\"text-danger\");\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t})\n\n\t\t\t\t$(\".q\").on(\"focusout\", function() {\n\t\t\t\t\t$(\"#ant-\"+$(this).attr(\"id\").substr(4)).hide();\n\n\t\t\t\t\tif(rfchk($(this),true)) {\n\t\t\t\t\t\t$(this).addClass(\"bg-success\");\n\t\t\t\t\t\t$(this).addClass(\"text-white\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).addClass(\"bg-danger\");\n\t\t\t\t\t}\n\t\t\t\t\tif($(this).val()) {\n\t\t\t\t\t\tif($(this).hasClass(\"bg-danger\")) {\n\t\t\t\t\t\t\tion.sound.play(\"Cartoon_Boing\");\n\t\t\t\t\t\t} else if($(this).hasClass(\"bg-success\")){\n\t\t\t\t\t\t\tion.sound.play(\"Bama_Country_Country\");\n\t\t\t\t\t\t\t$(this).prop(\"disabled\",true);\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\n\t\t\t\t\t$(this).removeClass(\"bg-danger\");\n\t\t\t\t\tif(!$(this).attr(\"disabled\")) {\n\t\t\t\t\t\t$(this).removeClass(\"text-white font-weight-bold\");\n\t\t\t\t\t\t$(this).removeClass(\"bg-success\");\n\t\t\t\t\t}\n\t\t\t\t})\n/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */\n\n\t\t\t\t$(\"#chk\").on(\"click\", function() {\n\t\t\t\t\tvar na = \"\";\n\t\t\t\t\tvar ri = 0;\n\t\t\t\t\tvar qst = $(\".q\").length;\n\t\t\t\t\t$(\".q\").each(function () {\n\t\t\t\t\t\tif(na != \"\") {\n\t\t\t\t\t\t\tna += \", \";\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif($(this).val() == \"\") {\n\t\t\t\t\t\t\tna += $(this).attr(\"id\").substr(4,1);\n\t\t\t\t\t\t}\n\t\t\t\t\t})\n\t\t\t\t\t\n\t\t\t\t\tif($(this).attr(\"id\") == \"done\") {} else if(na == \"\") {\n\t\t\t\t\t\tfor(var i = 0; i < an.length; i++) {\n\t\t\t\t\t\t\tvar oran = $(\"#qst-\"+(i+1)).val();\n\t\t\t\t\t\t\tif(rfchk($(\"#qst-\"+(i+1)))) {\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).addClass(\"bg-success text-white\");\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).val(an[i]);\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).attr(\"disabled\",true);\n\t\t\t\t\t\t\t\t$(\"#qst-\"+(i+1)).parent().append(\"<span class=\\\"ml-5 text-danger\\\">\"+oran+\"</span>\");\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\tif($(\"#qst-\"+(i+1)).hasClass(\"bg-success\")) {\n\t\t\t\t\t\t\t\tri++;\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t}\n\n\t\t\t\t\tif (ri < (qst/2)) {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-danger text-white\");\n\t\t\t\t\t} else if(ri == qst) {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!<br>혹시 독일인이세요?</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-primary text-white\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\t$(this).html('<h4>' + qst + \"문제 중 \" + ri + \"개를 맞추셨네요!<br>훌륭합니다!</h4>\");\n\t\t\t\t\t\t$(this).addClass(\"bg-warning text-white\");\n\t\t\t\t\t}\n\n\t\t\t\t\t$(this).prop(\"disabled\", true);\n\t\t\t\t\t$(\".tran\").show();\n\t\t\t\t\t$(this).attr(\"id\",\"done\");\n\t\t\t\t\t} else {\n\t\t\t\t\t\talert(\"모든 문제를 풀어주세요!\");\n\t\t\t\t\t\t// alert(na+\"번 문제를 풀어주세요!\");\n\t\t\t\t\t};\n\t\t\t\t})\n\n\t\t\t\tvar pan = new Array();\n\t\t\t\tpan = [\"1\"];\n\t\t\t\t// pan = [\"1\",\"2\",\"4\",\"6\",\"8\"];\n\t\t\t\tfor(var p = 0; p < pan.length; p++) {\n\t\t\t\t\tvar pann = \"#qst-\"+pan[p];\n\t\t\t\t\t$(pann).val(an[(pan[p]-1)]);\n\t\t\t\t\t$(pann).addClass(\"bg-success text-white font-weight-bold\");\n\t\t\t\t\t$(pann).prop(\"disabled\",true);\n\t\t\t\t\t$(pann).closest(\"tr\").find(\".tran\").show();\n\t\t\t\t}\t\t\t\t\n\n});\n\t\t\t\n\t\t</script>\n\t\t<!-- ion.sound finished -->\n<? ",
-			"",
-			";",
-			";\n",
-			"\n",
-			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; bottom: 0; z-index: 9999; width: 100%;\" id=\"wahl\">",
-			"});\n\t\t\t\t\t\t\t\t\t$(\".q\").on(",
-			"</small></span>\n</td>",
-			"==",
-			" = ",
-			"\t\t\t\tvar hm = new Array(), sen = new Array();\n\t\t\t\tfor(i = 0; i < $(\".so\").length; i++) {\n\t\t\t\t\thm[i] = 0;\n\t\t\t\t\tsen[i] = 0;\n\t\t\t\t}",
-			"\t\t$(\"#marg\").height($(\"#wahl\").height()*.1); // wahl 높이만큼 여백 만들기\n\t\t$(document).on(\"click\", function() {\n\t\t\tif($(\"#wahl\").find(\".itm\").length < 1) {",
-			"\t\t\t\t\tif($(\"#wahl\").find(\".ans0\").length == $(\".ans0\").length) {\n\t\t\t\t\t\t$(\"#wahl\").hide();\t\t\t\t\t\n\t\t\t\t\t\t$(\"#chk\").show();\n",
-			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; bottom: 0; z-index: 1; width: 100%;\" id=\"wahl\">",
-			"<section class=\"bg-white rounded p-2\" style=\"position: fixed; bottom: 0; z-index: 1; width: 100%;\" id=\"wahl>\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12\">Wahl</div>",
-			"span",
-			"<div class=\"col display-4 bg-<?php echo($color); ?> rounded text-center text-white font-weight-bold col-12\">Wahl</div>",
-			"</small></span>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1399,18 +119,259 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "r12-E8.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14291,
+								14291
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14291,
+										14292
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										14288,
+										14289
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"git_gutter_is_enabled": true,
+							"git_savvy.repo_path": "C:\\web\\nagehts\\dev",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "r12-E7.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								501
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										1003,
+										1004
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"git_gutter_is_enabled": true,
+							"git_savvy.repo_path": "C:\\web\\nagehts\\dev",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"input":
 	{
-		"height": 223.0
+		"height": 51.0
 	},
 	"layout":
 	{
@@ -1435,77 +396,33 @@
 		]
 	},
 	"menu_visible": true,
-	"output.Cmder-2":
-	{
-		"height": 120.0
-	},
-	"output.Cmder-4":
-	{
-		"height": 120.0
-	},
 	"output.GitSavvy":
 	{
-		"height": 215.0
+		"height": 142.0
 	},
 	"output.SFTP":
 	{
-		"height": 130.0
+		"height": 0.0
 	},
 	"output.SublimeLinter":
 	{
 		"height": 0.0
 	},
-	"output.doc":
-	{
-		"height": 0.0
-	},
-	"output.exec":
-	{
-		"height": 156.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
-	},
-	"output.git":
-	{
-		"height": 120.0
-	},
-	"output.git-commit":
-	{
-		"height": 215.0
-	},
-	"output.git-push":
-	{
-		"height": 215.0
-	},
-	"output.hex_viewer_inspector":
-	{
-		"height": 124.0
-	},
-	"output.markdown":
-	{
-		"height": 136.0
 	},
 	"output.mdpopups":
 	{
 		"height": 0.0
 	},
-	"output.sftp":
-	{
-		"height": 329.0
-	},
-	"output.show_commit_info":
-	{
-		"height": 741.0
-	},
-	"pinned_build_system": "Packages/TypeScript/TypeScript.sublime-build",
-	"project": "Nagehts.sublime-project",
+	"pinned_build_system": "",
+	"project": "Nagehts.sublime-workspace",
 	"replace":
 	{
-		"height": 50.0
+		"height": 54.0
 	},
-	"save_all_on_build": false,
+	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
@@ -1513,60 +430,24 @@
 		"selected_items":
 		[
 			[
-				"r1a2php",
-				"r1-A2.php"
+				"r12-e7php",
+				"r12-E7.php"
 			],
 			[
-				"r12-a1.php",
-				"r12-A1.php"
-			],
-			[
-				"r1a",
-				"r1-A2.php"
-			],
-			[
-				"r7-C4",
-				"r7-C4.php"
-			],
-			[
-				"r7-B5",
-				"r7-B5.php"
-			],
-			[
-				"r4-E5",
-				"r4-E5.php"
-			],
-			[
-				"140",
-				"sounds\\Reihe 10\\r10 B4.aac"
-			],
-			[
-				".tran",
-				".settings\\com.aptana.editor.common.prefs"
-			],
-			[
-				"zuo",
-				"r0-Zuordnung.html"
-			],
-			[
-				"",
-				"David E. Aune, 김철, Word Biblical Commentary Volume"
+				"r12-e8",
+				"r12-E8.php"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"D:\\cansmile\\csde\\eDeutsch\\Nagehts.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -1582,13 +463,12 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 177.0,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
-		"max_columns": 5
 	}
 }

@@ -93,7 +93,7 @@
                                 <th scope="row"><button type="button" id="9"
                                         class="so btn btn-outline-success">▶</button>
                                 </th>
-                                <td>Ich esse ein Steak und trinke einen
+                                <td>Ich nehme ein Steak und trinke einen
                                     Wein.<span class="tran"><br><small>전 스테이크
                                             하나와 와인 한 잔이요.</small></span></td>
                             </tr>
@@ -164,7 +164,7 @@
                 src: [
                     "./dev/sounds/Reihe 5/r5 D4.mp3"],
                 sprite: {
-                    "0": [1030, 47117],
+                    "0": [1030, 47973],
                     "1": [10841, 3217],
                     "2": [16298, 1251],
                     "3": [18197, 2119],
@@ -173,7 +173,7 @@
                     "6": [31182, 2239],
                     "7": [34233, 2093],
                     "8": [39544, 2898],
-                    "9": [44686, 3400]
+                    "9": [44686, 4447]
                 },
                 html5: true,
                 volume: 1,

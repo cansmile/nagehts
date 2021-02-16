@@ -460,7 +460,7 @@
                     var m = 3;
                 }
                 if (th.val().length >= 10) {
-                    var m = 1.15;
+                    var m = 1.35;
                 }
                 var w = Math.ceil(th.textWidth() * m) + 'px';
                 console.log(w);

@@ -834,6 +834,8 @@
                 $(".alert").hide();
 
                 $("#nqst").val("Reihenhaus");
+                di($("#nqst"));
+
             },
             onend: function () {
                 $("div#last").text("");

@@ -333,7 +333,7 @@
                                 <th class="border border-dark" width="90" rowspan="3">aus den</th>
                                 <td class="border border-dark">
                                     <button type="button" id="31" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
-                                    U.S.A</td>
+                                    USA</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">

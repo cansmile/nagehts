@@ -614,7 +614,7 @@
                                                     <button type="button" id="44"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Bist du Sung Hwa?</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Bist du Sungh(ε)wa?</div>
                                             </div>
                                         </td>
                                         <td class="bg-light">
@@ -624,7 +624,7 @@
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ja, das bin ich. / Nein, ich bin
-                                                    Chung Man.</div>
+                                                    Chungman.</div>
                                             </div>
                                         </td>
                                     </tr>

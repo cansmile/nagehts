@@ -144,7 +144,7 @@
                                 <td width="50"><button type="button" id="13"
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
-                                <td>Ach, Das kannst du immer machen.
+                                <td>Ach, das kannst du immer machen.
                                     <span class="tran"><br><small>아, 그건 맨날 할 수
                                             있잖아.</small></span>
                                 </td>

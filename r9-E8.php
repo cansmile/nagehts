@@ -113,7 +113,7 @@
             var nagehts = new Howl({
                 src: ["./dev/sounds/Reihe 9/r9 E8.mp3"],
                 sprite: {
-                    "0": [.802, 43.390]
+                    "0": [.347, 43812]
                 },
                 html5: true,
                 volume: 1,

@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col my-2 py-2">
+                <div class="col my-2 py-2 lh250">
                     <span class="border border-dark p-1 px-2 rounded">danken</span>
                     <span class="border border-dark p-1 px-2 rounded">gratulieren</span>
                     <span class="border border-dark p-1 px-2 rounded">fehlen</span>

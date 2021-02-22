@@ -6,79 +6,79 @@
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm so" id="1">
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so" id="1">
                         Fußball spielen<span class="tran"><br><small>축구</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="2">
                         Karten spielen<span class="tran"><br><small>카드
                                 놀이하다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="3">
                         Tennis spielen<span class="tran"><br><small>테니스
                                 하기</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="4">
                         in den Park gehen<span class="tran"><br><small>공원에
                                 가다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="5">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="5">
                         in die Disko gehen<span class="tran"><br><small>디스코장에서</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm so" id="6">
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so" id="6">
                         in die Oper gehen<span class="tran"><br><small>오페라
                                 하우스에서</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="7">
                         in die Stadt gehen<span class="tran"><br><small>시내에서</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm so" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so" id="8">
                         in den Zoo gehen<span class="tran"><br><small>동물원에서</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="9">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="9">
                         in die Bibliothek gehen<span class="tran"><br><small>도서관에 가다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm so" id="10">
-                        ins Kino<span class="tran"><br><small>영화관에서</small></span>
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so" id="10">
+                        ins Kino gehen<span class="tran"><br><small>영화관에 가다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm so" id="11">
-                        ins Theater<span class="tran"><br><small>극장에서</small></span>
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so" id="11">
+                        ins Theater gehen<span class="tran"><br><small>극장에 가다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="12">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so" id="12">
                         ins Museum gehen<span class="tran"><br><small>박물관에서</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="13">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so" id="13">
                         ins Konzert gehen<span class="tran"><br><small>콘서트에
                                 가다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="14">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="14">
                         fotografieren<span class="tran"><br><small>사진찍다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="15">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="15">
                         joggen<span class="tran"><br><small>조깅하다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="16">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="16">
                         lesen<span class="tran"><br><small>읽다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm so" id="17">
+                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so" id="17">
                         schwimmen<span class="tran"><br><small>수영하다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="18">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="18">
                         tanzen<span class="tran"><br><small>춤추다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="19">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="19">
                         Fahrrad fahren<span class="tran"><br><small>운전하다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="20">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="20">
                         spazieren gehen<span class="tran"><br><small>산책하다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans0 btn-lg btn-outline-dark itm so" id="21">
+                    <button type="button" class="mt-1 mx-1 btn ans0 btn-md btn-outline-dark itm so" id="21">
                         Musik hören<span class="tran"><br><small>음악
                                 듣기</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="22">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so" id="22">
                         ins Café gehen<span class="tran"><br><small>카페에서</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="23">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so" id="23">
                         ins Restaurant gehen<span class="tran"><br><small>레스토랑에서</small></span>
                     </button>
                 </div>
@@ -562,8 +562,8 @@
                     "7": [33519, 2031],
                     "8": [37632, 1965],
                     "9": [41702, 2607],
-                    "10": [46372, 1684],
-                    "11": [49547, 1864],
+                    "10": [46441, 2948],
+                    "11": [49629, 3339],
                     "12": [53030, 1998],
                     "13": [57467, 1941],
                     "14": [62022, 1820],

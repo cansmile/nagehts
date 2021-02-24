@@ -614,7 +614,7 @@
                                                     <button type="button" id="44"
                                                         class="so btn btn-outline-dark btn-sm mr-1">▶</button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Bist du Sungh(ε)wa?</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Bist du Sunghwa?</div>
                                             </div>
                                         </td>
                                         <td class="bg-light">

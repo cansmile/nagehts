@@ -55,7 +55,7 @@
                 <table class="table table-borderless border border-dark">
                     <tbody>
                     <tr>
-                        <th class="text-center align-middle" scope="row" width="20">■</th>
+                        <th class="text-center align-middle" scope="row" width="20"><small>■</small></th>
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 Hallo Mina, hier ist Tim.&nbsp;
@@ -71,7 +71,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="text-center align-middle" scope="row" width="20">●</th>
+                        <th class="text-center align-middle" scope="row" width="20"><small>●</small></th>
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 <div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 30%; ">
@@ -86,7 +86,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="text-center align-middle" scope="row" width="20">■</th>
+                        <th class="text-center align-middle" scope="row" width="20"><small>■</small></th>
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 <div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 30%; ">
@@ -99,7 +99,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="text-center align-middle" scope="row" width="20">●</th>
+                        <th class="text-center align-middle" scope="row" width="20"><small>●</small></th>
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 <div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 30%; ">
@@ -121,7 +121,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="text-center align-middle" scope="row" width="20">■</th>
+                        <th class="text-center align-middle" scope="row" width="20"><small>■</small></th>
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 Um 20.30 Uhr.
@@ -131,7 +131,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th class="text-center align-middle" scope="row" width="20">●</th>
+                        <th class="text-center align-middle" scope="row" width="20"><small>●</small></th>
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 Gut, bis dann.

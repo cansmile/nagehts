@@ -35,7 +35,7 @@
                 <div class="col align-middle text-center border border-dark p-1 px-2 pt-2 m-1 rounded">
                     Fotos machen<span class="tran"><br /><small>사진찍기</small></span></div>
                 <div class="col align-middle text-center border border-dark p-1 px-2 pt-2 m-1 rounded">
-                    Mittagessen bestellen<span class="tran"><br /><small>점심
+                    das Mittagessen bestellen<span class="tran"><br /><small>점심
                             주문하기</small></span></div>
             </div>
             <div class="row">

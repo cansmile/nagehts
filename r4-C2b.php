@@ -26,7 +26,7 @@ z<?php require_once("heading.php"); ?>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 lh250">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -81,7 +81,7 @@ z<?php require_once("heading.php"); ?>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 lh250">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>

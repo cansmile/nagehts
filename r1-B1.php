@@ -32,7 +32,7 @@
                                     <span class="sen">Guten Tag! Wie <span
                                             class="nu">①</span>
                                         <div role="group" class="btn-group border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-1">
+                                            data-toggle="buttons" role="group" id="qst-1">
                                             <button type="button" class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
@@ -69,7 +69,7 @@
                                     <span class="sen">Guten Tag! Ich <span
                                             class="nu">②</span>
                                         <div role="group" class="btn-group border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-2">
+                                            data-toggle="buttons" role="group" id="qst-2">
                                             <button type="button" class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
@@ -106,7 +106,7 @@
                                     <span class="sen">Freut mich! Und wie <span
                                             class="nu">③</span>
                                         <div role="group" class="btn-group border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-3">
+                                            data-toggle="buttons" role="group" id="qst-3">
                                             <button type="button" class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
@@ -143,17 +143,15 @@
                                     <span class="sen">Mein Name <span
                                             class="nu">④</span>
                                         <div role="group" class="btn-group border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-4">
+                                            data-toggle="buttons" role="group" id="qst-4">
                                             <button type="button" class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option10"
-                                                    >bin
-                                            </div>
-                                            <div class="btn btn-light pop x"
+                                                bin
+                                            </button>
+                                            <button class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"

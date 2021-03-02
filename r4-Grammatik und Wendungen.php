@@ -6,1126 +6,827 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="accordion" id="accordionitms">
-                    <div class="card">
-                        <div class="card-header" id="heading1">
-                            <h5 class="mb-0">
-                                <button
-                                    class="btn btn-outline-danger mt-1 mx-1 btn-block"
-                                    type="button" data-toggle="collapse"
-                                    data-target="#collapse1"
-                                    area-expanded="false"
-                                    aria-controls="collapse1" id="1">
-                                    <strong>F1. unbestimmter Artikel im
-                                        Nominativ und Akkusativ</strong>
-                                    <small>주격 및 목적격 부정관사</small>
-                                </button>
-                            </h5>
-                        </div>
-                        <div class="collapse" id="collapse1"
-                             aria-divledby="heading1"
-                             data-parent="#accordionitms">
-                            <table
-                                class="table table-borderless text-justify align-middle">
-                                <tbody>
-                                <tr>
-                                    <th class="text-center align-middle m-2 p-2"
-                                        colspan="2">
-                                        <button
-                                            type="button" id="1"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶
-                                        </button>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row" rowspan="3">
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="2"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                <div class="accordion accordion-flush" id="accordionFlush">
+                    <div class="accordion-item">
+                        <h5 class="accordion-header" id="flush-heading1">
+                            <button class="text-danger bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse1" aria-expanded="false"
+                                    aria-controls="flush-collapse1"><strong>F1. unbestimmter Artikel im Nominativ
+                                    und Akkusativ</strong><small>주격 및 목적격 부정관사</small>
+                            </button>
+                        </h5>
+                        <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
+                             data-bs-parent="#accordionFlush">
+                            <div class="accordion-body">
+                                <table class="table table-borderless text-justify align-middle">
+                                    <tbody>
+                                    <tr>
+                                        <th class="text-center align-middle m-2 p-2" colspan="2">
+                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" rowspan="3">
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="2"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Was <strong>ist</strong>das?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Was <strong>ist</strong>
-                                                das?
+                                        </th>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="3"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist <span
+                                                        class="wd_inline_inverted"><strong>ein</strong></span>Computer.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </th>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="3"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="4"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist <span
+                                                        class="wd_inline_inverted"><strong>eine</strong></span>Uhr.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist <span
-                                                    class="wd_inline_inverted"><strong>ein</strong></span>
-                                                Computer.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="5"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist <span
+                                                        class="wd_inline_inverted"><strong>ein</strong></span>Smartphone.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="4"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center align-middle m-2 p-2" colspan="2">
+                                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" rowspan="3">
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="7"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Was<strong>haben</strong>Sie?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist <span
-                                                    class="wd_inline_inverted"><strong>eine</strong></span>
-                                                Uhr.
+                                        </th>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="8"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe <span
+                                                        class="wd_inline_inverted"><strong>einen</strong></span>Computer.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="5"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="9"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe <span
+                                                        class="wd_inline_inverted"><strong>eine</strong></span>Uhr.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist <span
-                                                    class="wd_inline_inverted"><strong>ein</strong></span>
-                                                Smartphone.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="10"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe <span
+                                                        class="wd_inline_inverted"><strong>ein</strong></span>Smartphone.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th class="text-center align-middle m-2 p-2"
-                                        colspan="2">
-                                        <button
-                                            type="button" id="6"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶
-                                        </button>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row" rowspan="3">
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="7"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Was
-                                                <strong>haben</strong>
-                                                Sie?
-                                            </div>
-                                        </div>
-                                    </th>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="8"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe <span
-                                                    class="wd_inline_inverted"><strong>einen</strong></span>
-                                                Computer.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="9"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe <span
-                                                    class="wd_inline_inverted"><strong>eine</strong></span>
-                                                Uhr.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="10"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe <span
-                                                    class="wd_inline_inverted"><strong>ein</strong></span>
-                                                Smartphone.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <table
-                                class="table table-borderless table-striped text-center table-sm">
-                                <tbody>
-                                <tr>
-                                    <th scope="col">&nbsp;</th>
-                                    <th class="text-primary"
-                                        scope="col">m
-                                    </th>
-                                    <th class="text-danger" scope="col">
-                                        f
-                                    </th>
-                                    <th class="text-purple" scope="col">
-                                        n
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Nominativ</th>
-                                    <td class="text-primary">ein
-                                        Computer
-                                    </td>
-                                    <td class="text-danger">eine Uhr
-                                    </td>
-                                    <td class="text-purple">ein
-                                        Smartphone
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Akkusativ</th>
-                                    <td class="text-primary">einen
-                                        Computer
-                                    </td>
-                                    <td class="text-danger">eine Uhr
-                                    </td>
-                                    <td class="text-purple">ein
-                                        Smartphone
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless table-striped text-center table-sm">
+                                    <tbody>
+                                    <tr>
+                                        <th scope="col">&nbsp;</th>
+                                        <th class="text-primary" scope="col">m</th>
+                                        <th class="text-danger" scope="col">f</th>
+                                        <th class="text-purple" scope="col">n</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Nominativ</th>
+                                        <td class="text-primary">ein Computer</td>
+                                        <td class="text-danger">eine Uhr</td>
+                                        <td class="text-purple">ein Smartphone</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Akkusativ</th>
+                                        <td class="text-primary">einen Computer</td>
+                                        <td class="text-danger">eine Uhr</td>
+                                        <td class="text-purple">ein Smartphone</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="heading2">
-                            <h5 class="mb-0">
-                                <button
-                                    class="btn btn-outline-orange mt-1 mx-1 btn-block"
-                                    type="button" data-toggle="collapse"
-                                    data-target="#collapse2"
-                                    area-expanded="false"
-                                    aria-controls="collapse2" id="2">
-                                    <strong>F2. bestimmter Artikel im
-                                        Nominativ und Akkusativ</strong>
-                                    <small>주격 및 목적격 정관사</small>
-                                </button>
-                            </h5>
-                        </div>
-                        <div class="collapse" id="collapse2"
-                             aria-divledby="heading2"
-                             data-parent="#accordionitms">
-                            <table
-                                class="table table-borderless align-middle">
-                                <tbody>
-                                <tr>
-                                    <th class="text-center align-middle m-2 p-2"
-                                        colspan="2">
-                                        <button
-                                            type="button" id="11"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶
-                                        </button>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="12"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                    <div class="accordion-item">
+                        <h5 class="accordion-header" id="flush-heading2">
+                            <button class="text-orange bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse2" aria-expanded="false"
+                                    aria-controls="flush-collapse2"><strong>F2. bestimmter Artikel im Nominativ und
+                                    Akkusativ</strong><small>주격 및 목적격 정관사</small>
+                            </button>
+                        </h5>
+                        <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+                             data-bs-parent="#accordionFlush">
+                            <div class="accordion-body">
+                                <table class="table table-borderless align-middle">
+                                    <tbody>
+                                    <tr>
+                                        <th class="text-center align-middle m-2 p-2" colspan="2">
+                                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="12"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Hier ist der Computer.</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Hier ist der Computer.
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="13"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe den Computer.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="13"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="14"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Hier ist die Uhr.</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe den Computer.
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="15"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe die Uhr.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="14"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="16"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Hier ist das Smartphone.</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Hier ist die Uhr.
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="17"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe das Smartphone.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="15"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe die Uhr.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="16"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Hier ist das Smartphone.
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="17"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe das Smartphone.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <table
-                                class="table table-borderless table-striped text-center table-sm">
-                                <tbody>
-                                <tr>
-                                    <th scope="col">&nbsp;</th>
-                                    <th class="text-primary"
-                                        scope="col">m
-                                    </th>
-                                    <th class="text-danger" scope="col">
-                                        f
-                                    </th>
-                                    <th class="text-purple" scope="col">
-                                        n
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Nominativ</th>
-                                    <td class="text-primary">der
-                                        Computer
-                                    </td>
-                                    <td class="text-danger">die Uhr</td>
-                                    <td class="text-purple">das
-                                        Smartphone
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Akkusativ</th>
-                                    <td class="text-primary">den
-                                        Computer
-                                    </td>
-                                    <td class="text-danger">die Uhr</td>
-                                    <td class="text-purple">das
-                                        Smartphone
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless table-striped text-center table-sm">
+                                    <tbody>
+                                    <tr>
+                                        <th scope="col">&nbsp;</th>
+                                        <th class="text-primary" scope="col">m</th>
+                                        <th class="text-danger" scope="col">f</th>
+                                        <th class="text-purple" scope="col">n</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Nominativ</th>
+                                        <td class="text-primary">der Computer</td>
+                                        <td class="text-danger">die Uhr</td>
+                                        <td class="text-purple">das Smartphone</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Akkusativ</th>
+                                        <td class="text-primary">den Computer</td>
+                                        <td class="text-danger">die Uhr</td>
+                                        <td class="text-purple">das Smartphone</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="heading3">
-                            <h5 class="mb-0">
-                                <button
-                                    class="btn btn-outline-warning mt-1 mx-1 btn-block"
-                                    type="button" data-toggle="collapse"
-                                    data-target="#collapse3"
-                                    area-expanded="false"
-                                    aria-controls="collapse3" id="3">
-                                    <strong>F3. Verbkonjugation von haben
-                                        und sein</strong> <small>haben과
-                                        sein의 동사변화</small>
-                                </button>
-                            </h5>
-                        </div>
-                        <div class="collapse" id="collapse3"
-                             aria-divledby="heading3"
-                             data-parent="#accordionitms">
-                            <table
-                                class="table table-borderless text-center table-striped align-middle">
-                                <thead>
-                                <tr>
-                                    <th scope="col">&nbsp;</th>
-                                    <th scope="col">haben</th>
-                                    <th scope="col">sein</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <th scope="row">ich</th>
-                                    <td>habe</td>
-                                    <td>bin</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">du</th>
-                                    <td>hast</td>
-                                    <td>bist</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">er/sie/es</th>
-                                    <td>hat</td>
-                                    <td>ist</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">wir</th>
-                                    <td>haben</td>
-                                    <td>sind</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">ihr</th>
-                                    <td>habt</td>
-                                    <td>seid</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">sie/Sie</th>
-                                    <td>haben</td>
-                                    <td>sind</td>
-                                </tr>
-                                </tbody>
-                            </table>
+                    <div class="accordion-item">
+                        <h5 class="accordion-header" id="flush-heading3">
+                            <button class="text-warning bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse3" aria-expanded="false"
+                                    aria-controls="flush-collapse3"><strong>F3. Verbkonjugation von haben und
+                                    sein</strong> <small>haben과 sein의 동사변화</small>
+                            </button>
+                        </h5>
+                        <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                             data-bs-parent="#accordionFlush">
+                            <div class="accordion-body">
+                                <table class="table table-borderless text-center table-striped align-middle">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">&nbsp;</th>
+                                        <th scope="col">haben</th>
+                                        <th scope="col">sein</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">ich</th>
+                                        <td>habe</td>
+                                        <td>bin</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">du</th>
+                                        <td>hast</td>
+                                        <td>bist</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">er/sie/es</th>
+                                        <td>hat</td>
+                                        <td>ist</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">wir</th>
+                                        <td>haben</td>
+                                        <td>sind</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">ihr</th>
+                                        <td>habt</td>
+                                        <td>seid</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">sie/Sie</th>
+                                        <td>haben</td>
+                                        <td>sind</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="heading4">
-                            <h5 class="mb-0">
-                                <button
-                                    class="btn btn-outline-primary mt-1 mx-1 btn-block"
-                                    type="button" data-toggle="collapse"
-                                    data-target="#collapse4"
-                                    area-expanded="false"
-                                    aria-controls="collapse4" id="4">
-                                    <strong>F4. Negation: kein / keine /
-                                        nicht</strong> <small>부정어: kein /
-                                        keine / nicht</small>
-                                </button>
-                            </h5>
-                        </div>
-                        <div class="collapse" id="collapse4"
-                             aria-divledby="heading4"
-                             data-parent="#accordionitms">
-                            <table class="table table-borderless">
-                                <tbody>
-                                <tr>
-                                    <th class="text-center align-middle m-2 p-2"
-                                        colspan="2">
-                                        <button
-                                            type="button" id="18"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶
-                                        </button>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="19"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                    <div class="accordion-item">
+                        <h5 class="accordion-header" id="flush-heading4">
+                            <button class="text-primary bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse4" aria-expanded="false"
+                                    aria-controls="flush-collapse4"><strong>F4. Negation: kein / keine /
+                                    nicht</strong> <small>부정어: kein / keine / nicht</small>
+                            </button>
+                        </h5>
+                        <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                             data-bs-parent="#accordionFlush">
+                            <div class="accordion-body">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                    <tr>
+                                        <th class="text-center align-middle m-2 p-2" colspan="2">
+                                            <button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="19"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Auf Ullungdo gibt
+                                                    es<strong>keine</strong>Universität.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Auf Ullungdo gibt es
-                                                <strong>keine</strong>
-                                                Universität.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="20"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Karla ist<strong>keine</strong>Telefonistin,
+                                                    sondern Sekretärin.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="20"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="21"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Er ist<strong>kein</strong>Engländer,
+                                                    sondern Amerikaner.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Karla ist
-                                                <strong>keine</strong>
-                                                Telefonistin, sondern
-                                                Sekretärin.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="22"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Sim Chung ist<strong>nicht</strong>alt.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="21"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Er ist
-                                                <strong>kein</strong>
-                                                Engländer, sondern
-                                                Amerikaner.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="22"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Sim Chung ist
-                                                <strong>nicht</strong>
-                                                alt.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="heading5">
-                            <h5 class="mb-0">
-                                <button
-                                    class="btn btn-outline-purple mt-1 mx-1 btn-block"
-                                    type="button" data-toggle="collapse"
-                                    data-target="#collapse5"
-                                    area-expanded="false"
-                                    aria-controls="collapse5" id="5">
-                                    <strong>F5. Personalpronomen im
-                                        Nominativ</strong> <small>주격
-                                        인칭대명사</small>
-                                </button>
-                            </h5>
-                        </div>
-                        <div class="collapse" id="collapse5"
-                             aria-divledby="heading5"
-                             data-parent="#accordionitms">
-                            <table class="table table-borderless">
-                                <tbody>
-                                <tr>
-                                    <th class="text-center align-middle m-2 p-2"
-                                        colspan="2">
-                                        <button
-                                            type="button" id="23"
-                                            class="so btn btn-outline-dark btn-sm mr-1">▶
-                                        </button>
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="24"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                    <div class="accordion-item">
+                        <h5 class="accordion-header" id="flush-heading5">
+                            <button class="text-purple bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse5" aria-expanded="false"
+                                    aria-controls="flush-collapse5"><strong>F5. Personalpronomen im
+                                    Nominativ</strong> <small>주격 인칭대명사</small>
+                            </button>
+                        </h5>
+                        <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                             data-bs-parent="#accordionFlush">
+                            <div class="accordion-body">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                    <tr>
+                                        <th class="text-center align-middle m-2 p-2" colspan="2">
+                                            <button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="24"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-9 mx-1 px-1 lh250">Wie ist <u>der Schrank</u>?</div>
                                             </div>
-                                            <div
-                                                class="col-9 mx-1 px-1 lh250">
-                                                Wie ist <u>der
-                                                    Schrank</u>?
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="25"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Er</strong>ist schön.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="25"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="26"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-9 mx-1 px-1 lh250">Wie ist <u>die Uhr</u>?</div>
                                             </div>
-                                            <div
-                                                class="col-9 mx-1 px-1 lh250">
-                                                <strong>Er</strong>
-                                                ist schön.
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="bu tton" id="27"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Sie</strong>ist altmodisch.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="26"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="28"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-9 mx-1 px-1 lh250">Wie ist <u>das Regal</u>?</div>
                                             </div>
-                                            <div
-                                                class="col-9 mx-1 px-1 lh250">
-                                                Wie ist <u>die Uhr</u>?
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="29"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Es</strong>ist klein.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="bu
-                                                    tton" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-9 mx-1 px-1 lh250">
-                                                <strong>Sie</strong>
-                                                ist altmodisch.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="28"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-9 mx-1 px-1 lh250">
-                                                Wie ist <u>das
-                                                    Regal</u>?
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="29"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-9 mx-1 px-1 lh250">
-                                                <strong>Es</strong>
-                                                ist klein.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="heading5">
-                            <h5 class="mb-0">
-                                <button
-                                    class="btn btn-outline-pink mt-1 mx-1 btn-block"
-                                    type="button" data-toggle="collapse"
-                                    data-target="#collapse6"
-                                    area-expanded="false"
-                                    aria-controls="collapse6" id="6">
-                                    <strong>F6. Redewendungen</strong>
-                                    <small>어휘와 숙어</small>
-                                </button>
-                            </h5>
-                        </div>
-                        <div class="collapse" id="collapse6"
-                             aria-divledby="heading6"
-                             data-parent="#accordionitms">
-                            <table
-                                class="table table-borderless text-left bg-light">
-                                <tbody>
-                                <tr>
-                                    <td width="50%">
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="30"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                    <div class="accordion-item">
+                        <h5 class="accordion-header" id="flush-heading6">
+                            <button class="text-pink bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse6" aria-expanded="false"
+                                    aria-controls="flush-collapse6"><strong>F6. Redewendungen</strong><small>어휘와
+                                    숙어</small>
+                            </button>
+                        </h5>
+                        <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
+                             data-bs-parent="#accordionFlush">
+                            <div class="accordion-body">
+                                <table class="table table-borderless text-left bg-light">
+                                    <tbody>
+                                    <tr>
+                                        <td width="50%">
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="30"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Wie wohnen Sie?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Wie wohnen Sie?
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="31"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich wohne in einem Apartment.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="31"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="32"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Wie heißt das Zimmer?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich wohne in einem
-                                                Apartment.
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="33"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist ein Wohnzimmer.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="32"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="34"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Was ist das?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Wie heißt das Zimmer?
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="35"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist ein Kugelschreiber.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="33"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="36"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Wie heißt das auf Deutsch?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist ein
-                                                Wohnzimmer.
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="37"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist ein Foto.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="34"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="38"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist eine Kamera.</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Was ist das?
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="39"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Wie viele Zimmer hat Ihre Wohnung?</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="35"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="40"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Sie hat 3 Zimmer, ein Wohnzimmer, ein
+                                                    Schlafzimmer und ein Kinderzimmer.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist ein
-                                                Kugelschreiber.
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless text-left">
+                                    <tbody>
+                                    <tr>
+                                        <td width="50%">
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="41"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Was hast du in deiner Schultasche?</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="36"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="42"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe einen Kugelschreiber, ein Buch
+                                                    und Büroklammern.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Wie heißt das auf
-                                                Deutsch?
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="43"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ist das ein Schrank?</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="37"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="44"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Nein, das ist kein Schrank.</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist ein Foto.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="45"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist ein Regal.</div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>&nbsp;</td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="38"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="46"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ist das eine Vase?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist eine Kamera.
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="47"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Nein, das ist keine Vase. Das ist ein
+                                                    Glas.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="39"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="48"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ist die Vase klein?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Wie viele Zimmer hat
-                                                Ihre Wohnung?
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="49"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Nein, die Vase/sie ist nicht klein.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="40"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless text-left bg-light">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="50"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Ich habe einen Computer, eine Uhr und
+                                                    ein Regal.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Sie hat 3 Zimmer, ein
-                                                Wohnzimmer, ein
-                                                Schlafzimmer und ein
-                                                Kinderzimmer.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="51"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Er hat keinen Computertisch, keine
+                                                    Brille und kein Handy.
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <table class="table table-borderless text-left">
-                                <tbody>
-                                <tr>
-                                    <td width="50%">
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="41"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless text-left">
+                                    <tbody>
+                                    <tr>
+                                        <td width="50%">
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="52"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Wie ist das Wohnzimmer?</div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Was hast du in deiner
-                                                Schultasche?
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="53"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Es ist
+                                                    dunkel/hell/schön/modisch/altmodisch...
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="42"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-borderless text-left bg-light">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="row">
+                                                <div class="mx-1 px-1">
+                                                    <button type="button" id="54"
+                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                    </button>
+                                                </div>
+                                                <div class="col-10 mx-1 px-1 lh250">Das ist ein Stuhl. Er kostet 77 Euro.
+                                                </div>
                                             </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe einen
-                                                Kugelschreiber, ein Buch
-                                                und Büroklammern.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="43"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ist das ein Schrank?
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="44"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Nein, das ist kein
-                                                Schrank.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>&nbsp;</td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="45"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist ein Regal.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="46"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ist das eine Vase?
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="47"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Nein, das ist keine
-                                                Vase. Das ist ein Glas.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="48"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ist die Vase klein?
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="49"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Nein, die Vase/sie ist
-                                                nicht klein.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <table
-                                class="table table-borderless text-left bg-light">
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="50"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Ich habe einen Computer,
-                                                eine Uhr und ein Regal.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="51"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Er hat keinen
-                                                Computertisch, keine
-                                                Brille und kein Handy.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <table class="table table-borderless text-left">
-                                <tbody>
-                                <tr>
-                                    <td width="50%">
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="52"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Wie ist das Wohnzimmer?
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="53"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Es ist
-                                                dunkel/hell/schön/modisch/altmodisch...
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <table
-                                class="table table-borderless text-left bg-light">
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="row">
-                                            <div class="mx-1 px-1">
-                                                <button type="button"
-                                                        id="54"
-                                                        class="so btn btn-outline-dark btn-sm mr-1">▶
-                                                </button>
-                                            </div>
-                                            <div
-                                                class="col-10 mx-1 px-1 lh250">
-                                                Das ist ein Stuhl. Er
-                                                kostet 77 Euro.
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>

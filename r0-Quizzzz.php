@@ -32,8 +32,7 @@
         </button>
         으로 변합니다.
         <br />
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
         </button>
     </div>
     <!-- 알림 끝 -->

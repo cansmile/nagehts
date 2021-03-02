@@ -27,9 +27,8 @@
             HV
         </button>
         를 누르면 전체 알파벳 발음과 예제 단어의 발음을 들으실 수 있어요.
-        <button type="button" class="close" data-dismiss="alert"
+        <button type="button" class="btn-close" data-bs-dismiss="alert"
             aria-label="Close">
-            <span aria-hidden="true">&times;</span>
         </button>
     </div>
     <!-- 알림 끝 -->

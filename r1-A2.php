@@ -10,7 +10,7 @@
                 disabled> 정답확인 </button> 에 이용됩니다. </p> <button class="badge badge-light"> 정답확인 </button> 을 누르면 지문의 배경색이
         <button class="badge badge-warning" disabled> 선택한 지문 </button> , <button class="badge badge-success" disabled>
             선택한 지문이 정답인 경우 </button> , <button class="badge badge-primary" disabled> 정답 </button> 으로 변합니다. <button
-            type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span>
+            type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
         </button>
     </div>
     <!-- 알림 끝 -->

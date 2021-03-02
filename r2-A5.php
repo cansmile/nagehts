@@ -10,7 +10,7 @@
                     <h2>Richtig oder falsch? Markieren Sie.<br>
                         <small>어느 것이 옳은지 체크해보세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -30,32 +30,26 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <table
-                        class="table table-borderless table-light text-center">
+                        class="table table-borderless text-center">
                         <tr>
                             <td>Anna Müller wohnt in Berlin.<span
                                     class="tran">&nbsp;<br><small>안나 뮐러는 베를린에
                                         산다.</small></span></td>
                             <td>
-                                <div class="btn-group btn-group-toggle q"
-                                    data-toggle="buttons" id="qst-1">
+                                <div class="btn-group q"
+                                    data-toggle="buttons" role="group" id="qst-1">
                                     <div class="btn btn-light pop x"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option1"
-                                            ><label
-                                            for="option1">richtig</label>
+                                        richtig
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option2"
-                                            ><label
-                                            for="option2">falsch</label>
+                                        falsch
                                     </div>
                                 </div>
                             </td>
@@ -65,26 +59,20 @@
                                     class="tran">&nbsp;<br><small>막스 페르난데즈는
                                         멕시코출신이다.</small></span></td>
                             <td>
-                                <div class="btn-group btn-group-toggle q"
-                                    data-toggle="buttons" id="qst-2">
+                                <div class="btn-group q"
+                                    data-toggle="buttons" role="group" id="qst-2">
                                     <div class="btn btn-light pop x"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option3"
-                                            ><label
-                                            for="option3">richtig</label>
+                                        richtig
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option4"
-                                            ><label
-                                            for="option4">falsch</label>
+                                        falsch
                                     </div>
                                 </div>
                             </td>
@@ -94,26 +82,20 @@
                                     class="tran">&nbsp;<br><small>막스 페르난데즈는 베를린에
                                         산다.</small></span></td>
                             <td>
-                                <div class="btn-group btn-group-toggle q"
-                                    data-toggle="buttons" id="qst-3">
+                                <div class="btn-group q"
+                                    data-toggle="buttons" role="group" id="qst-3">
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option5"
-                                            ><label
-                                            for="option5">richtig</label>
+                                        richtig
                                     </div>
                                     <div class="btn btn-light pop x"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option6"
-                                            ><label
-                                            for="option6">falsch</label>
+                                        falsch
                                     </div>
                                 </div>
                             </td>
@@ -123,26 +105,20 @@
                                     class="tran">&nbsp;<br><small>안나 뮐러는 드레스덴에
                                         산다.</small></span></td>
                             <td>
-                                <div class="btn-group btn-group-toggle q"
-                                    data-toggle="buttons" id="qst-4">
+                                <div class="btn-group q"
+                                    data-toggle="buttons" role="group" id="qst-4">
                                     <div class="btn btn-light pop x"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top"
                                         data-content="정답이 아니에요.">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option7"
-                                            ><label
-                                            for="option7">richtig</label>
+                                        richtig
                                     </div>
                                     <div class="btn btn-light pop o"
                                         data-toggle="popover"
                                         data-container="body"
                                         data-placement="top" data-content="정답!">
-                                        <input autocomplete="off" type="radio" name="options"
-                                            id="option8"
-                                            ><label
-                                            for="option8">falsch</label>
+                                        falsch
                                     </div>
                                 </div>
                             </td>
@@ -382,7 +358,7 @@
                     });
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $("#qst-1>div.o").addClass("an");
                     $("#qst-1>div.o").addClass(
                         "btn-warning");

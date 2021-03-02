@@ -10,7 +10,7 @@
                     <h2> Hören Sie und ergänzen Sie.<br>
                         <small>듣고 채우세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button><br>
@@ -469,7 +469,7 @@
                                     $("#qst-" + (i +
                                             1))
                                         .addClass(
-                                            "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                            "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                             );
                                     $("#qst-" + (i +
                                             1))
@@ -503,7 +503,7 @@
                                                     1)
                                                 )
                                             .after(
-                                                "<div class=\"d-block ra t-6\">" +
+                                                "<div class=\"w-100 ra t-6\">" +
                                                 an[
                                                     i] +
                                                 "</div>"
@@ -511,7 +511,7 @@
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
-                                            "<div class=\"d-block ra t-6\">";
+                                            "<div class=\"w-100 ra t-6\">";
                                         for (var fd =
                                                 (an[i]
                                                     .length -
@@ -652,7 +652,7 @@
 
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

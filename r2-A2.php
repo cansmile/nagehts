@@ -54,7 +54,7 @@
                     <h2> Hören Sie und ergänzen Sie.<br />
                         <small> 듣고 알맞은 국가와 도시를 넣으세요. </small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -100,9 +100,9 @@
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
                             <td class="text-left">Ich komme aus
-                                <div class="itm-lst 1itm d-inline-block mr-2"
+                                <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-1">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block"
+                                    <h2 class="btn btn-warning btn-xl ttl w-100"
                                         style="min-width: 150px;">
                                         ▼ </h2>
                                 </div><br /><span class="tran">&nbsp;<small>나는
@@ -115,9 +115,9 @@
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
                             <td class="text-left">und ich wohne in
-                                <div class="itm-lst 1itm d-inline-block mr-2"
+                                <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-2">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block"
+                                    <h2 class="btn btn-warning btn-xl ttl w-100"
                                         style="min-width: 150px;">
                                         ▼ </h2>
                                 </div>.<br /><span class="tran">&nbsp;<small>그리고
@@ -158,9 +158,9 @@
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
                             <td class="text-left">Ich komme aus
-                                <div class="itm-lst 1itm d-inline-block mr-2"
+                                <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-3">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block"
+                                    <h2 class="btn btn-warning btn-xl ttl w-100"
                                         style="min-width: 150px;">
                                         ▼ </h2>
                                 </div>.<br /><span class="tran">&nbsp;<small>나는
@@ -173,9 +173,9 @@
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
                             <td class="text-left">Ich wohne in
-                                <div class="itm-lst 1itm d-inline-block mr-2"
+                                <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-4">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block"
+                                    <h2 class="btn btn-warning btn-xl ttl w-100"
                                         style="min-width: 150px;">
                                         ▼ </h2>
                                 </div>.<br /><span class="tran">&nbsp;<small>나는
@@ -216,9 +216,9 @@
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
                             <td class="text-left">Ich komme aus
-                                <div class="itm-lst 1itm d-inline-block mr-2"
+                                <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-5">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block"
+                                    <h2 class="btn btn-warning btn-xl ttl w-100"
                                         style="min-width: 150px;">
                                         ▼ </h2>
                                 </div>.<br /><span class="tran">&nbsp;<small>나는
@@ -240,9 +240,9 @@
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
                             <td class="text-left">Ich wohne in
-                                <div class="itm-lst 1itm d-inline-block mr-2"
+                                <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-6">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block"
+                                    <h2 class="btn btn-warning btn-xl ttl w-100"
                                         style="min-width: 150px;">
                                         ▼ </h2>
                                 </div>.<br /><span class="tran">&nbsp;<small>나는
@@ -264,7 +264,7 @@
                 <div class="col-12 lh350"><span class="tipp">TIPP</span></div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <table class="table table-borderless text-center">
-                        <thead class="thead-light">
+                        <thead class="table-light">
                             <tr>
                                 <th scope="col" colspan="2">Woher<small> 어디에서?</small></th>
                             </tr>
@@ -283,7 +283,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <table class="table table-borderless text-center">
-                        <thead class="thead-light">
+                        <thead class="table-light">
                             <tr>
                                 <th scope="col" colspan="2">Wo<small> 어디?</small></th>
                             </tr>
@@ -373,7 +373,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

@@ -22,7 +22,7 @@
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -31,7 +31,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="2"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Was <strong>ist</strong>das?</div>
@@ -41,7 +41,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="3"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist <span
@@ -55,7 +55,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="4"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist <span
@@ -69,7 +69,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="5"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist <span
@@ -80,7 +80,7 @@
                                     </tr>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -89,7 +89,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="7"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Was<strong>haben</strong>Sie?</div>
@@ -99,7 +99,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="8"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe <span
@@ -113,7 +113,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="9"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe <span
@@ -127,7 +127,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="10"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe <span
@@ -178,7 +178,7 @@
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -187,7 +187,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="12"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Hier ist der Computer.</div>
@@ -197,7 +197,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="13"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe den Computer.</div>
@@ -209,7 +209,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="14"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Hier ist die Uhr.</div>
@@ -219,7 +219,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="15"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe die Uhr.</div>
@@ -231,7 +231,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="16"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Hier ist das Smartphone.</div>
@@ -241,7 +241,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="17"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe das Smartphone.</div>
@@ -345,7 +345,7 @@
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="18" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="18" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -354,7 +354,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="19"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Auf Ullungdo gibt
@@ -368,7 +368,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="20"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Karla ist<strong>keine</strong>Telefonistin,
@@ -382,7 +382,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="21"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Er ist<strong>kein</strong>Engländer,
@@ -396,7 +396,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="22"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Sim Chung ist<strong>nicht</strong>alt.
@@ -424,7 +424,7 @@
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="23" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -433,7 +433,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="24"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wie ist <u>der Schrank</u>?</div>
@@ -443,7 +443,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="25"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250"><strong>Er</strong>ist schön.</div>
@@ -455,7 +455,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="26"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wie ist <u>die Uhr</u>?</div>
@@ -465,7 +465,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="bu tton" id="27"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250"><strong>Sie</strong>ist altmodisch.</div>
@@ -477,7 +477,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="28"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wie ist <u>das Regal</u>?</div>
@@ -487,7 +487,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="29"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250"><strong>Es</strong>ist klein.</div>
@@ -517,7 +517,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="30"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie wohnen Sie?</div>
@@ -527,7 +527,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="31"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich wohne in einem Apartment.</div>
@@ -539,7 +539,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="32"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie heißt das Zimmer?</div>
@@ -549,7 +549,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="33"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist ein Wohnzimmer.</div>
@@ -561,7 +561,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="34"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Was ist das?</div>
@@ -571,7 +571,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="35"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist ein Kugelschreiber.</div>
@@ -583,7 +583,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="36"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie heißt das auf Deutsch?</div>
@@ -593,7 +593,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="37"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist ein Foto.</div>
@@ -606,7 +606,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="38"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist eine Kamera.</div>
@@ -618,7 +618,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="39"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie viele Zimmer hat Ihre Wohnung?</div>
@@ -628,7 +628,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="40"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Sie hat 3 Zimmer, ein Wohnzimmer, ein
@@ -646,7 +646,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="41"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Was hast du in deiner Schultasche?</div>
@@ -656,7 +656,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="42"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe einen Kugelschreiber, ein Buch
@@ -670,7 +670,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="43"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ist das ein Schrank?</div>
@@ -680,7 +680,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="44"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Nein, das ist kein Schrank.</div>
@@ -693,7 +693,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="45"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist ein Regal.</div>
@@ -705,7 +705,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="46"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ist das eine Vase?</div>
@@ -715,7 +715,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="47"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Nein, das ist keine Vase. Das ist ein
@@ -729,7 +729,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="48"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ist die Vase klein?</div>
@@ -739,7 +739,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="49"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Nein, die Vase/sie ist nicht klein.
@@ -756,7 +756,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="50"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Ich habe einen Computer, eine Uhr und
@@ -770,7 +770,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="51"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Er hat keinen Computertisch, keine
@@ -788,7 +788,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="52"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Wie ist das Wohnzimmer?</div>
@@ -798,7 +798,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="53"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Es ist
@@ -816,7 +816,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="54"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Das ist ein Stuhl. Er kostet 77 Euro.
@@ -942,9 +942,9 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#whole").show();
-                $("#alt").hide();
+                $("#ready").hide();
 
-                /* $(".alert").hide(); */
+                /* $("#ready").hide(); */
                 $(".so").on("click", function (idx) {
                         var t = $(this);
                         var ti = t.attr("id");

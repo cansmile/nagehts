@@ -236,13 +236,13 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-danger border-white itm-lst col-6 p-2"
                     id="lst-1">
-                    <h2 class="btn btn-xl bg-white ttl d-block">Wo? (Präposition
+                    <h2 class="btn btn-xl bg-white ttl w-100">Wo? (Präposition
                         + Dativ)</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-6 p-2"
                     id="lst-2">
-                    <h2 class="btn btn-xl bg-white ttl d-block">Wohin?
+                    <h2 class="btn btn-xl bg-white ttl w-100">Wohin?
                         (Präposition + Akkusativ)</h2>&nbsp;
                 </div>
             </div>
@@ -325,7 +325,7 @@
                 }
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
             <?php require "wahl.php"; ?>
             var pan = new Array(),
                 pann;
@@ -338,7 +338,7 @@
                     }
                 }
             }
-            $(".itm-lst>button").addClass("btn-block btn-light");
+            $(".itm-lst>button").addClass("w-100 btn-light");
         });
 
     </script>

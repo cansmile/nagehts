@@ -112,7 +112,7 @@
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 150px;" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -126,7 +126,7 @@
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 150px;" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -147,7 +147,7 @@
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 150px;" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -168,7 +168,7 @@
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 150px;" id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -182,7 +182,7 @@
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 150px;" id="lst-5">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -203,7 +203,7 @@
                                     <div class="itm-lst 1itm d-inline-block"
                                         style="min-width: 150px;" id="lst-6">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -371,7 +371,7 @@
                 }
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
 
             var pan = new Array();
             pan = [1];
@@ -384,7 +384,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "btn-block");
+                            "w-100");
                         $("#lst-" + pan[p] + ">h2").remove();
                     }
 

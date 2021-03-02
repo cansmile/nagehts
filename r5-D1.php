@@ -9,7 +9,7 @@
                     <h2> Hören Sie und ergänzen Sie die Lücken. <br>
                         <small> 듣고 빈칸을 채우세요. </small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -645,7 +645,7 @@
                                                     1)
                                                 )
                                             .after(
-                                                "<div class=\"d-block ra t-6\">" +
+                                                "<div class=\"w-100 ra t-6\">" +
                                                 an[
                                                     i] +
                                                 "</div>"
@@ -653,7 +653,7 @@
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
-                                            "<div class=\"d-block ra t-6\">";
+                                            "<div class=\"w-100 ra t-6\">";
                                         for (var fd =
                                                 (an[i]
                                                     .length -
@@ -760,7 +760,7 @@
                         };
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

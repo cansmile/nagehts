@@ -54,7 +54,7 @@ var tm = 0;
 		} // 답안 번호랑 맞는 것만 넣기 마감
 
 		// 맞든지 틀리든지 넣기
-		$(this).addClass("btn-block btn-light");
+		$(this).addClass("w-100 btn-light");
 		$(this).insertAfter(t);
 
 		if($(this).closest(".1itm").children("button").length > 0) {

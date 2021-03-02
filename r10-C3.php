@@ -76,7 +76,7 @@
                             1. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-1"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                             2. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-2"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                             3. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-3"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                             4. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-4"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                             5. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-5"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                             6. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-6"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -124,7 +124,7 @@
                             7. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-7"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                             8. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-8"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                             9. <div class="itm-lst 1itm d-inline-block"
                                 id="lst-9"
                                 style="min-width: 200px; max-width: 100%;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                 }
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
 
             <?php require "wahl.php"; ?>
 
@@ -244,7 +244,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "btn-block");
+                            "w-100");
                         $("#lst-" + pan[p] + ">h2").remove();
                     }
                 })

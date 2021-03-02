@@ -54,7 +54,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>[ <small>단어를 알맞은 그림에 넣으세요.</small> ]
                     <button type="button"
-                            class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so"
                             id="0">
                         HV
                     </button>
@@ -177,7 +177,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
 
                 $(".so").on("click", function () {
                     var t = $(this);
@@ -232,7 +232,7 @@
                             if ($(this).hasClass("text-warning")) {/* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
                                 for (var i = 1; i <= $(".itm-lst").length; i++) {
                                     if ($(this).hasClass("ans" + i)) {
-                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
+                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
                                     }
                                 }
                             }
@@ -283,11 +283,11 @@
                     $(pann).find(".tran").show();
                 }
                 $(".itm-lst>button").addClass(
-                    "btn-block btn-light");
+                    "w-100 btn-light");
 
 
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
 
             },
             onend: function () {

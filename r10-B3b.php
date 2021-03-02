@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Ergänzen Sie die Lücken.
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button> <br>
                         <small> 빈칸을 채우세요. </small><br>
@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>1.
+                        <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>1.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-1">Auto <span class="tran">&nbsp;<small>자동차로</small></span>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>2.
+                        <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>2.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-2">Taxi <span class="tran">&nbsp;<small>택시로</small></span>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>3.
+                        <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>3.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-3">Zug <span class="tran">&nbsp;<small>기차로</small></span>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>4.
+                        <button type="button" id="4" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>4.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-4">Fahrrad <span class="tran">&nbsp;<small>자전거로</small></span>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>5.
+                        <button type="button" id="5" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>5.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-5">Straßenbahn <span class="tran">&nbsp;<small>전철로</small></span>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>6.
+                        <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>6.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-6">Schiff <span class="tran">&nbsp;<small>배로</small></span>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>7.
+                        <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>7.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-7">Flugzeug <span class="tran">&nbsp;<small>비행기로</small></span>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>8.
+                        <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>8.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-8">U-Bahn <span class="tran">&nbsp;<small>지하철로</small></span>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 my-3" style="line-height: 250%;">
                     <div class="input-group">
-                        <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>9.
+                        <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>9.
                         mit <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                         text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6" style="max-width: 100px;"
                             aria-label="." id="qst-9">Motorrad <span class="tran">&nbsp;<small>오토바이로</small></span>
@@ -200,7 +200,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -352,12 +352,12 @@
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
                                         $("#qst-" + (i + 1)).after(
-                                            "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                            "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">" +
                                             an[i] + "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
-                                            "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                            "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">";
                                         for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                             if (fd < (an[i].length - 1)) {
                                                 r = r + " / ";
@@ -416,7 +416,7 @@
                         $(pann).prop("disabled", true);
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

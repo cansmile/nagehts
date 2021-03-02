@@ -10,7 +10,7 @@
                     <h2>Hören Sie und sprechen Sie nach.<br>
                         <small>듣고 따라 하세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0"> HV </button>
                     </h2>
                     <h3>[ <small><button type="button"

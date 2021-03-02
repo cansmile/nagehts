@@ -51,7 +51,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 칸<small>(Am Vormittag, Am Mittag, Am
                                 Nachmittag, Am Abend)</small>에 넣으세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -89,28 +89,28 @@
                 <div style="min-height: 240px;"
                     class="rounded-top bg-danger itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Vormittag</strong></small><br>(10-12
                         Uhr)</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-success itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Mittag</strong></small><br>(12-13 Uhr)
                     </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-info itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-3">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Nachmittag</strong></small><br>(13-17
                         Uhr)</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-primary itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-4">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Abend</strong></small><br>(17-20 Uhr)
                     </h2>&nbsp;
                 </div>
@@ -227,15 +227,15 @@
                         for (var i = 1; i <= $(".itm-lst").length; i++) {
                             if ($("#" + pan[p]).hasClass("ans" + i)) {
                                 $("#" + pan[p]).insertAfter("#lst-" + i + ">h2");
-                                $("#" + pan[p]).addClass("btn-block");
+                                $("#" + pan[p]).addClass("w-100");
                                 $("#" + pan[p]).addClass(
                                     "btn-light"); /* $("#"+pan[p]).find(".tran").show(); */
                             }
                         }
-                        $(".itm-lst>button").addClass("btn-block btn-light");
+                        $(".itm-lst>button").addClass("w-100 btn-light");
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

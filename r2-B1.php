@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>듣고 알맞은 단어를 선택하세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -40,16 +40,14 @@
                                 </th>
                                 <td><span class="sen">Ich komme aus Korea. Ich
                                         bin <span class="nu"></span>
-                                        <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
+                                        <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                                             <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option1"
-                                                    ><label for="option1">Koreaner</label>
+                                                Koreaner
                                             </div>
                                             <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답!">
-                                                <input autocomplete="off" type="radio" name="options" id="option2"
-                                                    ><label for="option2">Koreanerin</label>
+                                                Koreanerin
                                             </div>
                                         </div>.<span class="ans"></span><span class="tran"><br><small>저는 한국에서 왔어요.
                                                 한국(여)인이에요.</small></span>
@@ -84,16 +82,14 @@
                                 </th>
                                 <td><span class="sen">Ich komme aus Japan. Ich
                                         bin <span class="nu"></span>
-                                        <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
+                                        <div class="btn-group q" data-toggle="buttons" role="group" id="qst-2">
                                             <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답!">
-                                                <input autocomplete="off" type="radio" name="options" id="option3"
-                                                    ><label for="option3">Japaner</label>
+                                                Japaner
                                             </div>
                                             <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                                 data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option4"
-                                                    ><label for="option4">Japanerin</label>
+                                                Japanerin
                                             </div>
                                         </div>.<span class="ans"></span><span class="tran"><br><small>저는 일본에서 왔어요.
                                                 저는 일본인입니다.</small></span>

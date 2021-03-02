@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>보기를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -56,14 +56,14 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                <td><button type="button" id="4" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </td>
                                 <td>Hallo, kann ich dir
                                     helfen?<span class="tran"><br><small>안녕, 내가
                                             도와줄까? </small><br></span></td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                <td><button type="button" id="5" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </td>
                                 <td>Ja, bitte.<span class="tran"><br><small>응,
                                             부탁해.</small><br></span> Ich kann die
@@ -71,12 +71,12 @@
                                             찾겠어.</small><br></span></td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                <td><button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </td>
                                 <td style="line-height: 250%;">
                                     Die Bushaltestelle ist vor der
                                     <div class="itm-lst 1itm d-inline-block" id="lst-1">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                        <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                             style="min-width: 85px; max-width: 100px;">
                                             ▼ </h2>
                                     </div>
@@ -89,7 +89,7 @@
                                             가.</small><br></span>
                                     Dann gehst du nach
                                     <div class="itm-lst 1itm d-inline-block" id="lst-2">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                        <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                             style="min-width: 85px; max-width: 100px;">
                                             ▼ </h2>
                                     </div>
@@ -98,7 +98,7 @@
                                             브레히트슈트라세로 가.</small><br></span>
                                     Und dann siehst du schon auf der
                                     <div class="itm-lst 1itm d-inline-block" id="lst-3">
-                                        <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                        <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                             style="min-width: 85px; max-width: 100px;">
                                             ▼ </h2>
                                     </div>
@@ -107,13 +107,13 @@
                                             버스정류장이 보일거야.</small><br></span></td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                <td><button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </td>
                                 <td>Ja, vielen Dank!<span class="tran"><br><small>그래, 정말
                                             고마워!</small><br></span></td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                <td><button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </td>
                                 <td>Kein Problem. Tschüs.<span class="tran"><br><small>천만에.
                                             안녕.</small><br></span></td>
@@ -186,7 +186,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -276,7 +276,7 @@
                         })
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

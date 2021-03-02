@@ -65,16 +65,14 @@
                             <tr>
                                 <td class="p-0 align-middle">
                                     Die SMS ist
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                                         <div class="btn btn-light pop x pb-0" data-toggle="popover"
                                             data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option3">höflich.</label>
+                                            höflich.
                                         </div>
                                         <div class="btn btn-light pop o pb-0" data-toggle="popover"
                                             data-container="body" data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option4">unhöflich.</label>
+                                            unhöflich.
                                         </div>
                                     </div>
 
@@ -89,7 +87,7 @@
                             E-Mail neu.
                             <small><br> 아래의 낱말들을 맞는 순으로 정렬하여 이메일을 새로 써보세요.
                             </small>
-                            <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                            <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                                 HV
                             </button>
                         </h2>
@@ -104,7 +102,7 @@
                             <tr>
                                 <td class="my-0 py-1">
                                     <div class="itm-lst 1itm" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -112,7 +110,7 @@
                             <tr>
                                 <td class="my-0 py-1">
                                     <div class="itm-lst 1itm" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -120,7 +118,7 @@
                             <tr>
                                 <td class="my-0 py-1">
                                     <div class="itm-lst 1itm" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -128,7 +126,7 @@
                             <tr>
                                 <td class="my-0 py-1">
                                     <div class="itm-lst 1itm" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -136,7 +134,7 @@
                             <tr>
                                 <td class="my-0 py-1">
                                     <div class="itm-lst 1itm" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -210,7 +208,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -346,7 +344,7 @@
                             }
                         });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     var pan =
                         new Array();
                     pan = ["1"];
@@ -356,7 +354,7 @@
                         $(".itm").each(function () {
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                $("#" + $(this).attr("id")).addClass("btn-block");
+                                $("#" + $(this).attr("id")).addClass("w-100");
                                 $("#lst-" + pan[p] + ">h2")
                                     .remove();
                             }

@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <button type="button"
-                        class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                        class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                         id="0">
                         HV
                     </button>
@@ -132,7 +132,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-danger btn-xl ttl d-block">
+                                            class="btn btn-danger btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
 
@@ -154,7 +154,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-primary btn-xl ttl d-block">
+                                            class="btn btn-primary btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
 
@@ -185,7 +185,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
                                         <h2
-                                            class="btn btn-danger btn-xl ttl d-block">
+                                            class="btn btn-danger btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
 
@@ -207,7 +207,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
                                         <h2
-                                            class="btn btn-primary btn-xl ttl d-block">
+                                            class="btn btn-primary btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
 

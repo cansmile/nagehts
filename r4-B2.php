@@ -60,17 +60,17 @@
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
                     class="rounded-top bg-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         남성 <strong>M</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         여성 <strong>F</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-purple itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         중성 <strong>N</strong></h2>&nbsp;
                 </div>
             </div>
@@ -140,7 +140,7 @@
                                             i + '"'
                                         ))
                                         .append(
-                                            "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" +
+                                            "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
                                             $(this)
                                             .html() +
                                             "</button>"
@@ -190,7 +190,7 @@
                     if ($(pani).hasClass("ans" + (i + 1))) {
                         $(pani).insertAfter($("#lst-" + (i + 1) +
                             ">h2"));
-                        $(pani).addClass("btn-block btn-light");
+                        $(pani).addClass("w-100 btn-light");
                     }
                 }
             }

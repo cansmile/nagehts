@@ -8,7 +8,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Was macht Tim heute Abend? <br>
                         <small>팀은 오늘 저녁에 무엇을 하나요?</small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -29,11 +29,11 @@
                                 <td class="p-0 pt-2">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Tim</span>
                                     <br>
-                                    <span class="p-1 ml-4 m-1 px-2 rounded bg-secondary text-white">Was
+                                    <span class="p-1 ms-4 m-1 px-2 rounded bg-secondary text-white">Was
                                         machst du heute Nachmittag?
                                     </span>
                                     <button type="button" id="1" class="so btn btn-sm btn-outline-primary">▶</button>
-                                    <span class="tran ml-5"><br><small>너 오늘 오후에
+                                    <span class="tran ms-5"><br><small>너 오늘 오후에
                                             뭐해?</small></span>
                                 </td>
                             </tr>
@@ -42,20 +42,20 @@
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="2" class="so btn btn-sm btn-outline-danger">▶</button>
-                                    <span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Nichts!
+                                    <span class="p-1 me-4 m-1 px-2 rounded bg-warning">Nichts!
                                     </span>
-                                    <span class="tran mr-5"><br><small>아무것도!</small></span>
+                                    <span class="tran me-5"><br><small>아무것도!</small></span>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="p-0 pt-2">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Tim</span>
                                     <br>
-                                    <span class="p-1 ml-4 m-1 px-2 rounded bg-secondary text-white">Hast
+                                    <span class="p-1 ms-4 m-1 px-2 rounded bg-secondary text-white">Hast
                                         du Lust auf Lernen?
                                     </span>
                                     <button type="button" id="3" class="so btn btn-sm btn-outline-primary">▶</button>
-                                    <span class="tran ml-5"><br><small>그럼
+                                    <span class="tran ms-5"><br><small>그럼
                                             공부할래?</small></span>
                                 </td>
                             </tr>
@@ -64,10 +64,10 @@
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="4" class="so btn btn-sm btn-outline-danger">▶</button>
-                                    <span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Nöö.
+                                    <span class="p-1 me-4 m-1 px-2 rounded bg-warning">Nöö.
                                         Keine Lust!
                                     </span>
-                                    <span class="tran mr-5"><br><small>싫어. 별로 하고
+                                    <span class="tran me-5"><br><small>싫어. 별로 하고
                                             싶지 않은데!</small></span>
                                 </td>
                             </tr>
@@ -75,11 +75,11 @@
                                 <td class="p-0 pt-2">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Tim</span>
                                     <br>
-                                    <span class="p-1 ml-4 m-1 px-2 rounded bg-secondary text-white">Gehen
+                                    <span class="p-1 ms-4 m-1 px-2 rounded bg-secondary text-white">Gehen
                                         wir dann ins Musik-Café?
                                     </span>
                                     <button type="button" id="5" class="so btn btn-sm btn-outline-primary">▶</button>
-                                    <span class="tran ml-5"><br><small>그럼 우리
+                                    <span class="tran ms-5"><br><small>그럼 우리
                                             음악-카페에 갈래?</small></span>
                                 </td>
                             </tr>
@@ -88,10 +88,10 @@
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="6" class="so btn btn-sm btn-outline-danger">▶</button>
-                                    <span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Gute
+                                    <span class="p-1 me-4 m-1 px-2 rounded bg-warning">Gute
                                         Idee! Wann denn?
                                     </span>
-                                    <span class="tran mr-5"><br><small>좋은 생각이야!
+                                    <span class="tran me-5"><br><small>좋은 생각이야!
                                             그럼 언제?</small></span>
                                 </td>
                             </tr>
@@ -99,11 +99,11 @@
                                 <td class="p-0 pt-2">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Tim</span>
                                     <br>
-                                    <span class="p-1 ml-4 m-1 px-2 rounded bg-secondary text-white">Um
+                                    <span class="p-1 ms-4 m-1 px-2 rounded bg-secondary text-white">Um
                                         vier oder um sechs?
                                     </span>
                                     <button type="button" id="7" class="so btn btn-sm btn-outline-primary">▶</button>
-                                    <span class="tran ml-5"><br><small>4시 또는
+                                    <span class="tran ms-5"><br><small>4시 또는
                                             6시?</small></span>
                                 </td>
                             </tr>
@@ -112,10 +112,10 @@
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="8" class="so btn btn-sm btn-outline-danger">▶</button>
-                                    <span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Gehen
+                                    <span class="p-1 me-4 m-1 px-2 rounded bg-warning">Gehen
                                         wir um vier?
                                     </span>
-                                    <span class="tran mr-5"><br><small>우리 4시에
+                                    <span class="tran me-5"><br><small>우리 4시에
                                             갈까?</small></span>
                                 </td>
                             </tr>
@@ -123,11 +123,11 @@
                                 <td class="p-0 pt-2">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Tim</span>
                                     <br>
-                                    <span class="p-1 ml-4 m-1 px-2 rounded bg-secondary text-white">Okay.
+                                    <span class="p-1 ms-4 m-1 px-2 rounded bg-secondary text-white">Okay.
                                         Dann bis um vier!
                                     </span>
                                     <button type="button" id="9" class="so btn btn-sm btn-outline-primary">▶</button>
-                                    <span class="tran ml-5"><br><small>좋아. 그럼
+                                    <span class="tran ms-5"><br><small>좋아. 그럼
                                             4시에 보자!</small></span>
                                 </td>
                             </tr>
@@ -136,10 +136,10 @@
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="10" class="so btn btn-sm btn-outline-danger">▶</button>
-                                    <span class="p-1 mr-4 m-1 px-2 rounded bg-warning">Ja,
+                                    <span class="p-1 me-4 m-1 px-2 rounded bg-warning">Ja,
                                         bis dann!
                                     </span>
-                                    <span class="tran mr-5"><br><small>그래, 그때
+                                    <span class="tran me-5"><br><small>그래, 그때
                                             봐!</small></span>
                                 </td>
                             </tr>
@@ -399,7 +399,7 @@
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
                                     $("#qst-" + (i + 1)).addClass(
-                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                     );
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
@@ -409,11 +409,11 @@
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
                                         $("#qst-" + (i + 1)).after(
-                                            "<div class=\"d-block ra t-6\">" + an[i] +
+                                            "<div class=\"w-100 ra t-6\">" + an[i] +
                                             "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
-                                        var r = "<div class=\"d-block ra t-6\">";
+                                        var r = "<div class=\"w-100 ra t-6\">";
                                         for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                             if (fd < (an[i].length - 1)) {
                                                 r = r + " / ";
@@ -467,7 +467,7 @@
                         };
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

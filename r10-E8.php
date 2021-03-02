@@ -307,42 +307,42 @@
                     class="rounded-top border bg-danger border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                     id="lst-1">
                     <h2
-                        class="btn btn-xl bg-white ttl d-block font-weight-bold">
+                        class="btn btn-xl bg-white ttl w-100 font-weight-bold">
                         ge/.../(e)t</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-orange border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                     id="lst-2">
                     <h2
-                        class="btn btn-xl bg-white ttl d-block font-weight-bold">
+                        class="btn btn-xl bg-white ttl w-100 font-weight-bold">
                         Präfixe/ ge/.../(e)t</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-warning border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                     id="lst-3">
                     <h2
-                        class="btn btn-xl bg-white ttl d-block font-weight-bold">
+                        class="btn btn-xl bg-white ttl w-100 font-weight-bold">
                         (Präfixe) ...t</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                     id="lst-4">
                     <h2
-                        class="btn btn-xl bg-white ttl d-block font-weight-bold">
+                        class="btn btn-xl bg-white ttl w-100 font-weight-bold">
                         ge/.../en</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                     id="lst-5">
                     <h2
-                        class="btn btn-xl bg-white ttl d-block font-weight-bold">
+                        class="btn btn-xl bg-white ttl w-100 font-weight-bold">
                         Präfixe/ ge/.../en</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-purple border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                     id="lst-6">
                     <h2
-                        class="btn btn-xl bg-white ttl d-block font-weight-bold">
+                        class="btn btn-xl bg-white ttl w-100 font-weight-bold">
                         (Präfix) ....en</h2>&nbsp;
                 </div>
             </div>
@@ -425,7 +425,7 @@
                 }
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
             <?php require "wahl.php"; ?>
             var pan = new Array(),
                 pann;
@@ -441,7 +441,7 @@
                     }
                 }
             }
-            $(".itm-lst>button").addClass("btn-block btn-light");
+            $(".itm-lst>button").addClass("w-100 btn-light");
         });
 
     </script>

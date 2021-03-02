@@ -12,7 +12,7 @@
         </div>
         <div class="row border border-dark p-2 my-2 rounded py-4">
             <div class="font-weight-bold col-sm-12 col-md-2 col-lg-2"><span
-                    class="border border-dark bg-dark text-white p-1 px-2 rounded mr-1">Bsp.</span>Julia
+                    class="border border-dark bg-dark text-white p-1 px-2 rounded me-1">Bsp.</span>Julia
             </div>
             <div class="col-sm-12 col-md-2 col-lg-3">eine Halskette
                 schenken<br>Sie trägt gern Schmuck.

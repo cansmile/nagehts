@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Ergänzen Sie die Lücken.<button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button><br>
                         <small> 빈칸을 채우세요. </small>
@@ -273,7 +273,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -430,7 +430,7 @@
                                     $("#qst-" + (i + 1)).addClass("wa");
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
-                                        $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] + "</div>");
+                                        $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] + "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r = "<div class=\"rad-inline-block t-6\">";

@@ -113,25 +113,25 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-1">
-                    <h2 class="btn btn-xl bg-white ttl d-block">nach dem Weg
+                    <h2 class="btn btn-xl bg-white ttl w-100">nach dem Weg
                         fragen</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-2">
-                    <h2 class="btn btn-xl bg-white ttl d-block">den Weg
+                    <h2 class="btn btn-xl bg-white ttl w-100">den Weg
                         beschreiben</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-3">
-                    <h2 class="btn btn-xl bg-white ttl d-block">nicht den Weg
+                    <h2 class="btn btn-xl bg-white ttl w-100">nicht den Weg
                         kennen</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-4">
-                    <h2 class="btn btn-xl bg-white ttl d-block">sich bedanken /
+                    <h2 class="btn btn-xl bg-white ttl w-100">sich bedanken /
                         antworten</h2>&nbsp;
                 </div>
             </div>
@@ -224,7 +224,7 @@
                     }
                 }
             }
-            $(".itm-lst>button").addClass("btn-block btn-light");
+            $(".itm-lst>button").addClass("w-100 btn-light");
         });
 
     </script>

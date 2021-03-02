@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 그림과 짝지우세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -147,7 +147,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -226,12 +226,12 @@
                         for (var i = 0; i < $(".itm-lst").length; i++) {
                             if ($(pani).hasClass("ans" + (i + 1))) {
                                 $(pani).insertAfter($("#lst-" + (i + 1) + ">img"));
-                                $(pani).addClass("btn-block btn-light");
+                                $(pani).addClass("w-100 btn-light");
                             }
                         }
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

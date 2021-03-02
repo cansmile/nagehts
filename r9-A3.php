@@ -226,11 +226,11 @@
                             $("#qst-" + (i + 1)).addClass("wa");
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] +
+                                $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] +
                                     "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r = "<div class=\"d-block ra t-6\">";
+                                var r = "<div class=\"w-100 ra t-6\">";
                                 for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                     if (fd < (an[i].length - 1)) {
                                         r = r + " / ";

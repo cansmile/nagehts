@@ -9,7 +9,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Was ist Ihr Familienstand? <br>
                         <small>가족상황이 어떻게 되죠?</small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -90,19 +90,19 @@
                                                 class="so btn btn-outline-danger">▶</button>
                                     </div><div class="col-9 text-left lh250">
                                             <span class="sen">Nein, ich habe <span class="nu"></span>
-                                                <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                                    data-toggle="buttons" id="qst-1">
+                                                <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                                    data-toggle="buttons" role="group" id="qst-1">
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input autocomplete="off" type="radio" name="options" id="option3" >kein
+                                                        kein
                                                     </div>
                                                     <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input autocomplete="off" type="radio" name="options" id="option4" >keine
+                                                        keine
                                                     </div>
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input autocomplete="off" type="radio" name="options" id="option4" >nicht
+                                                        nicht
                                                     </div>
                                                 </div> Kinder. Und Sie?<span class="ans"></span>
                                             </span>
@@ -118,19 +118,19 @@
                                                 class="so btn btn-outline-danger">▶</button>
                                     </div><div class="col-9 text-left lh250">
                                             <span class="sen">Ich bin <span class="nu"></span>
-                                                <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                                    data-toggle="buttons" id="qst-2">
+                                                <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                                    data-toggle="buttons" role="group" id="qst-2">
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input autocomplete="off" type="radio" name="options" id="option3" >kein
+                                                        kein
                                                     </div>
                                                     <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                        <input autocomplete="off" type="radio" name="options" id="option4" >keine
+                                                        keine
                                                     </div>
                                                     <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                         data-container="body" data-placement="top" data-content="정답!">
-                                                        <input autocomplete="off" type="radio" name="options" id="option4" >nicht
+                                                        nicht
                                                     </div>
                                                 </div> verheiratet. Ich bin ledig.<span class="ans"></span>
                                             </span>
@@ -153,7 +153,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <table class="table table-sm table-borderless">
-                        <thead class="thead-light">
+                        <thead class="table-light">
                             <tr>
                                 <th scope="col" class="p-2"><span class="tipp">TIPP</span>
                                 </th>
@@ -311,7 +311,7 @@
                         };
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

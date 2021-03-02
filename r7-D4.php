@@ -75,7 +75,7 @@
                                                 id="lst-1"
                                                 style="min-width: 30%; ">
                                                 <h2
-                                                    class="btn btn-warning btn-xl ttl d-block">
+                                                    class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                             &nbsp;hier nicht rauchen.
@@ -89,7 +89,7 @@
                                                 id="lst-2"
                                                 style="min-width: 30%; ">
                                                 <h2
-                                                    class="btn btn-warning btn-xl ttl d-block">
+                                                    class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                             &nbsp;Ihre Zigarette ausmachen.
@@ -124,7 +124,7 @@
                                                 id="lst-3"
                                                 style="min-width: 30%; ">
                                                 <h2
-                                                    class="btn btn-warning btn-xl ttl d-block">
+                                                    class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                             &nbsp;deine Hausaufgaben machen.
@@ -164,7 +164,7 @@
                                                 id="lst-4"
                                                 style="min-width: 30%; ">
                                                 <h2
-                                                    class="btn btn-warning btn-xl ttl d-block">
+                                                    class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                             &nbsp;nicht in die Schule gehen.
@@ -177,7 +177,7 @@
                                                 id="lst-5"
                                                 style="min-width: 30%; ">
                                                 <h2
-                                                    class="btn btn-warning btn-xl ttl d-block">
+                                                    class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                             &nbsp;zu Hause bleiben.
@@ -212,7 +212,7 @@
                                                 id="lst-2"
                                                 style="min-width: 30%; ">
                                                 <h2
-                                                    class="btn btn-warning btn-xl ttl d-block">
+                                                    class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                             &nbsp;einkaufen.
@@ -326,7 +326,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "btn-block");
+                            "w-100");
                         $("#" + $(this).attr("id")).addClass(
                             "btn-light");
                         $("#lst-" + pan[p] + ">h2").remove();

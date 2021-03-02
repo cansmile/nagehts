@@ -244,11 +244,11 @@
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                         if (!$.isArray(an[i])) {
                             $("#qst-" + (i + 1)).after(
-                                "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">" +
                                 an[i] + "</div>");
                         } else {
                             /* 2 이상인 경우 */
-                            var r = "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                            var r = "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">";
                             for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                 if (fd < (an[i].length - 1)) {
                                     r = r + " / ";

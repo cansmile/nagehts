@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <button type="button"
-                        class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                        class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                         id="0">
                         HV
                     </button>
@@ -100,7 +100,7 @@
                     class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th class="align-middle py-0" scope="col"
                                     colspan="2">Land&nbsp;<small>나라</small></th>
@@ -202,7 +202,7 @@
                     class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th class="align-middle py-0" scope="col"
                                     colspan="2">Mann&nbsp;<small>남</small></th>
@@ -241,7 +241,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -268,7 +268,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-5">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -288,7 +288,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-9">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -311,7 +311,7 @@
                     class="col-xs-6 col-sm-6 d-sm-block d-md-none d-lg-none d-xl-none p-0 mt-sm-5">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th class="align-middle py-0" scope="col">
                                     Land&nbsp;<small>나라</small></th>
@@ -369,7 +369,7 @@
                     class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th class="align-middle py-0" scope="col"
                                     colspan="2">Frau&nbsp;<small>여</small></th>
@@ -387,7 +387,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -422,7 +422,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -449,7 +449,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-7">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -476,10 +476,10 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-6 col-sm-6 col-md-4 d-sm-block d-md-block d-lg-none d-xl-none p-0 mt-sm-5">
+                    class="col-xs-6 col-sm-6 col-md-4 d-sm-block d-mw-100 d-lg-none d-xl-none p-0 mt-sm-5">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th class="align-middle py-0" scope="col">
                                     Land&nbsp;<small>나라</small></th>
@@ -537,7 +537,7 @@
                     class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th class="align-middle py-0" scope="col"
                                     colspan="2">Sprache&nbsp;<small>언어</small>
@@ -570,7 +570,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -583,7 +583,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -596,7 +596,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -616,7 +616,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-6">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -629,7 +629,7 @@
                                 <td class="align-middle py-0">
                                     <div class="itm-lst 1itm" id="lst-8">
                                         <h2
-                                            class="btn btn-warning btn-lg ttl d-block">
+                                            class="btn btn-warning btn-lg ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -772,7 +772,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

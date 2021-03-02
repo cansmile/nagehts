@@ -9,194 +9,194 @@
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="1">Am</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="2">Samstagabend</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm" id="3">macht<span
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm" id="3">macht<span
                             class="tran">&nbsp;<small>~을
                                 하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="4">Mina</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="5">eine</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="6">große</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="7">Party</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="8">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="9">Sie</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="10">feiert<span class="tran">&nbsp;<small>축하하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="11">ihren</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="12">20</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="13">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="14">Geburtstag</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="15">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="16">Am</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="17">Mittwoch</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm" id="18">ruft<span
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm" id="18">ruft<span
                             class="tran">&nbsp;<small>전화하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="19">sie</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="20">ihre</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="21">Freunde</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 18"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm 18"
                         id="22">an</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="23">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm" id="24">lädt<span
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm" id="24">lädt<span
                             class="tran">&nbsp;<small>초대하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="25">sie</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 24"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm 24"
                         id="26">ein</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="27">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="28">Alle</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="29">kommen<span class="tran">&nbsp;<small>오다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="30">gern</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="31">zur</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="32">Party</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="33">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="34">Sie</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm"
                         id="35">bringen<span class="tran">&nbsp;<small>가지고
                                 오다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="36">einiges</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 35"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm 35"
                         id="37">mit</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="38">:</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="39">Tim</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans3 btn-lg btn-light itm"
                         id="40">besorgt<span class="tran">&nbsp;<small>구입하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="41">Getränke</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="42">,</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="43">Julia</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="44">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="45">Max</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="46">kaufen<span class="tran">&nbsp;<small>사다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="47">Kekse</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="48">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="49">Sumin</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm"
                         id="50">bringt<span class="tran">&nbsp;<small>가지고오다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="51">Musik-CDs</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 50"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm 50"
                         id="52">mit</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="53">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="54">Es</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm" id="55">ist<span
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm" id="55">ist<span
                             class="tran">&nbsp;<small>~이다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="56">Samstag</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="57">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="58">Mina</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="59">schmückt<span class="tran">&nbsp;<small>꾸미다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="60">schön</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="61">die</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="62">Wohnung</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="63">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm"
                         id="64">bereitet<span class="tran">&nbsp;<small>준비하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="65">Essen</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="66">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="67">Trinken</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 64"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm 64"
                         id="68">vor</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="69">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="70">Um</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="71">17</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="72">Uhr</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans3 btn-lg btn-light itm"
                         id="73">beginnt<span class="tran">&nbsp;<small>시작하다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="74">die</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="75">Party</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="76">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="77">Alle</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="78">feiern<span class="tran">&nbsp;<small>축하하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="79">,</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="80">tanzen<span class="tran">&nbsp;<small>춤추다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="81">,</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="82">lachen<span class="tran">&nbsp;<small>웃다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="83">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans3 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans3 btn-lg btn-light itm"
                         id="84">unterhalten sich<span class="tran">&nbsp;<small>담소하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="85">.</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="86">Nur</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="87">Minas</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="88">Eltern</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm"
                         id="89">liegen<span class="tran">&nbsp;<small>누워있다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="90">wach</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="91">im</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="92">Bett</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="93">und</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans1 btn-lg btn-light itm" id="94">denken
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans1 btn-lg btn-light itm" id="94">denken
                         sich<span class="tran">&nbsp;<small>생각하다</small></span></button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="95">:</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="96">„</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="97">Hoffentlich</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm" id="98">hört<span
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm" id="98">hört<span
                             class="tran">&nbsp;<small>끝나다</small></span></button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="99">die</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="100">Party</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans0 btn-lg btn-light itm"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans0 btn-lg btn-light itm"
                         id="101">bald</button>
-                    <button type="button" class="p-0 m-0 pt-1 mt-1 ml-1 btn ans2 btn-lg btn-light itm 98"
+                    <button type="button" class="p-0 m-0 pt-1 mt-1 ms-1 btn ans2 btn-lg btn-light itm 98"
                         id="102">auf</button>
                     <button type="button" class="p-0 m-0 pt-1 mt-1 btn ans0 btn-lg btn-light itm" id="103">!“</button>
                 </div>
@@ -210,7 +210,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 칸(einfache Verben, trennbare Verben,
                             untrennbare Verben)에<br> 넣으세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -343,19 +343,19 @@
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
                     class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>einfache Verben</strong><br><small>단순동사</small>
                     </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-success itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>trennbare Verben</strong><br><small>분리동사</small>
                     </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-3">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>untrennbare
                             Verben</strong><br><small>비분리동사</small></h2>&nbsp;
                 </div>
@@ -440,7 +440,7 @@
                 },
                 onload: function () {
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -559,7 +559,7 @@
                 });
 
                 /* 버튼에 속성 넣기 */
-                $(".itm-lst>button").addClass("btn-block btn-light");
+                $(".itm-lst>button").addClass("w-100 btn-light");
                 if ($("#itms>button.ans1").length < 1 && $("#itms>button.ans2").length < 1 && $(
                         "#itms>button.ans3").length < 1) {
                     $(".tran").show();
@@ -598,7 +598,7 @@
                                         }
                                     }
                                     $(eval('"#lst-' + i + '"')).append(
-                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-light btn-block text-danger bg-white font-weight-bold " +
+                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-light w-100 text-danger bg-white font-weight-bold " +
                                         cc + "\" id=\"" + $(this).attr("id") + "\">" + $(
                                             this).html() + "</button>");
                                 }
@@ -652,7 +652,7 @@
                 }
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
             $("#3").insertAfter("#lst-1>h2");
             ccl();
             var pan = new Array();
@@ -664,12 +664,12 @@
                 for (var n = 0; n < $(".itm-lst").length; n++) {
                     if ($(pani).hasClass("ans" + (n + 1))) {
                         $(pani).insertAfter($("#lst-" + (n + 1) + ">h2"));
-                        $(pani).addClass("btn-block btn-light");
+                        $(pani).addClass("w-100 btn-light");
                     }
                 }
             }
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
         });
 
     </script>

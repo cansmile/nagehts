@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>Ergänzen Sie.
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br/>
@@ -204,7 +204,7 @@
                                 Meine Familie wohnt in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon8"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-2"
                                        id="qst-8">
                                 .
                             </div>
@@ -238,7 +238,7 @@
                                 einem 200 Quadratmeter großen
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon9"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-2"
                                        id="qst-9">
                                 .
                             </div>
@@ -284,7 +284,7 @@
                                 Zurzeit wohne ich in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon10"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-3"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-3"
                                        id="qst-10">
                                 , denn es ist günstig.
                             </div>
@@ -473,7 +473,7 @@
                                 Wir wohnen jetzt in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon14"
-                                       class="text-center form-control q rounded-0 border-bottom-only ml-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-2"
                                        id="qst-14">
                                 .
                             </div>
@@ -751,7 +751,7 @@
                         for (var i = 0; i < an.length; i++) {
                             var oran = $("#qst-" + (i + 1)).val();
                             if (rfchk($("#qst-" + (i + 1)), true)) {
-                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1 t+3");
+                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ms-1 t+3");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                             } else {
                                 $("#qst-" + (i + 1)).val(oran);
@@ -759,9 +759,9 @@
                                 $("#qst-" + (i + 1)).addClass("wa");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after("<div class=\"d-block ra\">" + an[i] + "</div>");
+                                    $("#qst-" + (i + 1)).after("<div class=\"w-100 ra\">" + an[i] + "</div>");
                                 } else {/* 2 이상인 경우 */
-                                    var r = "<div class=\"d-block ra\">";
+                                    var r = "<div class=\"w-100 ra\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
@@ -831,7 +831,7 @@
                 });
 
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
 
                 $("#nqst").val("Reihenhaus");
                 di($("#nqst"));

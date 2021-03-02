@@ -199,7 +199,7 @@
                     <h2>[ <small>단어를 알맞은 위치에 짝지우세요. 다중 선택이 되지만 한 위치에 한 단어만
                             배치됩니다.</small> ]
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -225,21 +225,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-5">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -249,21 +249,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-6">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-7">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-8">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -273,21 +273,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-9">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -297,21 +297,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-10">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-11">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -321,21 +321,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-12">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-13">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-14">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -345,21 +345,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-15">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-16">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-17">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -369,14 +369,14 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-18">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -400,21 +400,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-19">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-20">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-21">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -424,21 +424,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-22">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-23">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -448,21 +448,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -472,21 +472,21 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-24">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-25">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-26">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -496,14 +496,14 @@
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-27">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-28">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -524,7 +524,7 @@
             <div class="row">
                 <div class="col-12">
                     <table class="table table-borderless text-center">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <th scope="col">
                                 Nach-(Familien)namen (Herr / Frau)
                             </th>
@@ -628,7 +628,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -751,7 +751,7 @@
                                 $("#" + $(this)
                                         .attr("id"))
                                     .addClass(
-                                        "btn-block"
+                                        "w-100"
                                         );
                                 $("#" + $(this)
                                         .attr("id"))
@@ -767,7 +767,7 @@
                     }
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

@@ -21,7 +21,7 @@
                                 <table class="table table-borderless">
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -34,7 +34,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="2"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Woher</strong>kommen Sie?
@@ -45,7 +45,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="3"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich komme<strong>aus</strong>Deutschland.
@@ -58,7 +58,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="4"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Wo</strong> wohnen Sie?</div>
@@ -68,7 +68,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="5"
-                                                            class="so btd btn-outline-dark btn-sm mr-2 my-auto">▶
+                                                            class="so btd btn-outline-dark btn-sm me-2 my-auto">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich wohne<strong>in</strong> München.
@@ -81,7 +81,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="6"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Welche</strong>Sprachen
@@ -93,7 +93,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="7"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich spreche Deutsch und Englisch.
@@ -106,7 +106,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="8"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Wo</strong> liegt Ghana?
@@ -117,7 +117,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="9"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ghana liegt<strong>in</strong>Westafrika.
@@ -143,7 +143,7 @@
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">
+                                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1">
                                                 ▶
                                             </button>
                                         </th>
@@ -157,7 +157,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="11"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Kommen</strong>Sie aus Japan?
@@ -168,7 +168,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="12"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Ja(Nein)</strong>, ich komme
@@ -182,7 +182,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="13"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Wohnen</strong>Sie in Seoul?
@@ -193,7 +193,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="14"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Ja(Nein)</strong>, ich wohne
@@ -207,7 +207,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="15"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Liegt</strong>Frankreich in
@@ -219,7 +219,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="16"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Ja</strong>, es liegt in
@@ -352,7 +352,7 @@
                                 <table class="table table-borderless">
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="17" class="so btn btn-outline-dark btn-sm mr-1">
+                                            <button type="button" id="17" class="so btn btn-outline-dark btn-sm me-1">
                                                 ▶
                                             </button>
                                         </th>
@@ -362,7 +362,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="18"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Woher kommen Sie?</div>
@@ -372,7 +372,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="19"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich komme aus Korea.</div>
@@ -384,7 +384,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="20"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Woher kommst du?</div>
@@ -394,7 +394,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="21"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich komme aus Korea.</div>
@@ -406,7 +406,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="22"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Woher kommt sie?</div>
@@ -416,7 +416,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="23"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Sie kommt aus Korea.</div>
@@ -428,7 +428,7 @@
                                     </tr>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1">
+                                            <button type="button" id="24" class="so btn btn-outline-dark btn-sm me-1">
                                                 ▶
                                             </button>
                                         </th>
@@ -438,7 +438,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="25"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Kommen Sie aus Japan?</div>
@@ -448,7 +448,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="26"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ja (Nein), ich komme (nicht) aus
@@ -462,7 +462,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="27"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Kommst du aus Deutschland?</div>
@@ -472,7 +472,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="28"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ja (Nein), ich komme (nicht) aus
@@ -486,7 +486,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="29"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Kommt sie aus Italien?</div>
@@ -496,7 +496,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="30"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ja (Nein), sie kommt (nicht) aus
@@ -510,7 +510,7 @@
                                     </tr>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">
+                                            <button type="button" id="31" class="so btn btn-outline-dark btn-sm me-1">
                                                 ▶
                                             </button>
                                         </th>
@@ -520,7 +520,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="32"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Wo wohnen Sie?</div>
@@ -530,7 +530,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="33"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich wohne in Busan.</div>
@@ -542,7 +542,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="34"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Wo wohnst du?</div>
@@ -552,7 +552,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="35"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich wohne in Busan.</div>
@@ -564,7 +564,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="36"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Wo wohnt er?</div>
@@ -574,7 +574,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="37"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Er wohnt in Busan.</div>
@@ -586,7 +586,7 @@
                                     </tr>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="38" class="so btn btn-outline-dark btn-sm mr-1">
+                                            <button type="button" id="38" class="so btn btn-outline-dark btn-sm me-1">
                                                 ▶
                                             </button>
                                         </th>
@@ -596,7 +596,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="39"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Wohnen Sie in Guri?</div>
@@ -606,7 +606,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="40"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ja (Nein), ich wohne (nicht) in
@@ -620,7 +620,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="41"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Wohnst du in Guri ?</div>
@@ -630,7 +630,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="42"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ja (Nein), ich wohne (nicht) in
@@ -644,7 +644,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="43"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Wohnt er in Guri?</div>
@@ -654,7 +654,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="44"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ja (Nein), er wohnt (nicht) in
@@ -668,7 +668,7 @@
                                     </tr>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="45" class="so btn btn-outline-dark btn-sm mr-1">
+                                            <button type="button" id="45" class="so btn btn-outline-dark btn-sm me-1">
                                                 ▶
                                             </button>
                                         </th>
@@ -678,7 +678,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="46"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Welche Sprachen sprechen Sie?</div>
@@ -688,7 +688,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="47"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich spreche Koreanisch, Englisch und
@@ -702,7 +702,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="48"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Welche Sprachen sprichst du?</div>
@@ -712,7 +712,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="49"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ich spreche Japanisch.</div>
@@ -724,7 +724,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="50"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Welche Sprachen spricht er?</div>
@@ -734,7 +734,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="51"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Er spricht Japanisch.</div>
@@ -746,7 +746,7 @@
                                     </tr>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="52" class="so btn btn-outline-dark btn-sm mr-1">
+                                            <button type="button" id="52" class="so btn btn-outline-dark btn-sm me-1">
                                                 ▶
                                             </button>
                                         </th>
@@ -756,7 +756,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="53"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Wo liegt Korea?</div>
@@ -766,7 +766,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="54"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Korea liegt in Asien.</div>
@@ -778,7 +778,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="55"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Liegt Deutschland in Europa?</div>
@@ -788,7 +788,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="56"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250">Ja, es liegt in Europa.</div>
@@ -904,8 +904,8 @@
         onload: function () {
             /* 음성 준비되면 HV 버튼 나타내기 */
             $("#whole").show();
-            $("#alt").hide();
-            /* $(".alert").hide(); */
+            $("#ready").hide();
+            /* $("#ready").hide(); */
 
             $(".so").on("click", function (idx) {
                 var t = $(this);

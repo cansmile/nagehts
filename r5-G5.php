@@ -79,7 +79,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>[ <small>버튼을 눌러 선택하여, <br>분류에 맞는 단어를 알맞게 채우세요.</small> ]
                     <button type="button"
-                            class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so"
                             id="0">
                         HV
                     </button>
@@ -113,7 +113,7 @@
                                  class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                  id="lst-1">
                                 <h2
-                                    class="btn btn-warning btn-xl ttl d-block">
+                                    class="btn btn-warning btn-xl ttl w-100">
                                             <span
                                                 class="tran"><small>팀은<br></small></span><span
                                         class="sen">Tim bestellt</span>
@@ -127,7 +127,7 @@
                                  class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                  id="lst-2">
                                 <h2
-                                    class="btn btn-warning btn-xl ttl d-block">
+                                    class="btn btn-warning btn-xl ttl w-100">
                                             <span
                                                 class="tran"><small>프레디는<br></small></span><span
                                         class="sen">Fredi
@@ -141,7 +141,7 @@
                                  class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                  id="lst-3">
                                 <h2
-                                    class="btn btn-warning btn-xl ttl d-block">
+                                    class="btn btn-warning btn-xl ttl w-100">
                                             <span
                                                 class="tran"><small>안나는<br></small></span><span
                                         class="sen">Anna bestellt</span>
@@ -249,7 +249,7 @@
                             if ($(this).hasClass("text-warning")) {/* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
                                 for (var i = 1; i <= $(".itm-lst").length; i++) {
                                     if ($(this).hasClass("ans" + i)) {
-                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
+                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
                                     }
                                 }
                             }
@@ -332,12 +332,12 @@
                     for (var i = 0; i < $(".itm-lst").length; i++) {
                         if ($(pani).hasClass("ans" + (i + 1))) {
                             $(pani).insertAfter($("#lst-" + (i + 1) + ">h2"));
-                            $(pani).addClass("btn-block btn-light");
+                            $(pani).addClass("w-100 btn-light");
                         }
                     }
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");

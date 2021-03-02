@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -82,7 +82,7 @@
                                 <td class="align-middle">
                                     Hier kann man
                                     <div class="itm-lst 1itm d-inline-block" id="lst-1" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 책을 읽을 수 있습니다.</small></span>
@@ -92,7 +92,7 @@
                                 <td class="align-middle">
                                     Hier muss man
                                     <div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 조용히 대화해야 합니다.</small></span>
@@ -102,7 +102,7 @@
                                 <td class="align-middle">
                                     Hier darf man nicht
                                     <div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 먹거나 마셔서는 안 됩니다.</small></span>
@@ -131,7 +131,7 @@
                                 <td class="align-middle">
                                     Hier kann man
                                     <div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 수영할 수 있습니다.</small></span>
@@ -141,7 +141,7 @@
                                 <td class="align-middle">
                                     Hier muss man
                                     <div class="itm-lst 1itm d-inline-block" id="lst-5" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 샤워를 해야 합니다.</small></span>
@@ -170,7 +170,7 @@
                                 <td class="align-middle">
                                     Hier kann man
                                     <div class="itm-lst 1itm d-inline-block" id="lst-6" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 영화를 볼 수 있습니다.</small></span>
@@ -180,7 +180,7 @@
                                 <td class="align-middle">
                                     Hier darf man
                                     <div class="itm-lst 1itm d-inline-block" id="lst-7" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 음료를 가져와서는 안 됩니다.</small></span>
@@ -209,7 +209,7 @@
                                 <td class="align-middle">
                                     Hier kann man
                                     <div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 먹거나 마실 수 있습니다.</small></span>
@@ -219,12 +219,12 @@
                                 <td class="align-middle">
                                     Hier
                                     <div class="itm-lst 1itm d-inline-block" id="lst-8" style="min-width: 20%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>&nbsp;
                                     man nicht
                                     <div class="itm-lst 1itm d-inline-block" id="lst-9" style="min-width: 40%; ">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br /><small>여기에서는 담배를 피워서는 안 됩니다.</small></span>
@@ -305,7 +305,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -387,7 +387,7 @@
                         $(".itm").each(function () {
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                $("#" + $(this).attr("id")).addClass("btn-block");
+                                $("#" + $(this).attr("id")).addClass("w-100");
                                 $("#" + $(this).attr("id")).addClass("btn-light");
                                 $("#lst-" + pan[p] + ">h2").remove();
                                 $("#lst-" + pan[p]).parent().find(".tran").show();
@@ -395,7 +395,7 @@
                         })
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

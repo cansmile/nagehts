@@ -54,44 +54,44 @@
             <div class="row text-center" id="lsts">
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-1">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="eins">eins</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="eins">eins</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-2">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="zwei">zwei</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="zwei">zwei</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-3">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="drei">drei</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="drei">drei</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-4">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="sechs">sechs</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="sechs">sechs</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-5">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="acht">acht</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="acht">acht</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-6">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="vier">vier</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="vier">vier</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-7">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="fünf">fünf</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="fünf">fünf</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-8">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="sieben">sieben</strong>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="sieben">sieben</strong>
                     </h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-9">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="neun">neun</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="neun">neun</strong></h2>
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst text-center text-dark col my-4" id="lst-10">
-                    <h2 class="btn btn-light mt-3 btn-xl ttl d-block"><strong class="so" id="zehn">zehn</strong></h2>
+                    <h2 class="btn btn-light mt-3 btn-xl ttl w-100"><strong class="so" id="zehn">zehn</strong></h2>
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->
@@ -174,7 +174,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -258,14 +258,14 @@
                                     "#lst-" + (i +
                                         1) + ">h2"));
                                 $(pani).addClass(
-                                    "btn-block btn-light"
+                                    "w-100 btn-light"
                                 );
                             }
                         }
                     }
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

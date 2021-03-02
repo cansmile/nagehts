@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col text-center">
                     <h3>[ <small>문제에 맞는 답안을 알맞게 짝지우세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h3>
@@ -63,11 +63,11 @@
                             <tr>
                                 <th class="bg-light" scope="row" width="30">1</th>
                                 <td width="50"><button type="button" id="8"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button>
+                                        class="so btn btn-outline-dark btn-md me-2">▶</button>
                                 </td>
                                 <td width="40%">
                                     <div class="itm-lst 1itm" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -80,10 +80,10 @@
                             <tr>
                                 <th class="bg-light" scope="row">2</th>
                                 <td><button type="button" id="9"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
+                                        class="so btn btn-outline-dark btn-md me-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -96,10 +96,10 @@
                             <tr>
                                 <th class="bg-light" scope="row">3</th>
                                 <td><button type="button" id="10"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
+                                        class="so btn btn-outline-dark btn-md me-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -112,10 +112,10 @@
                             <tr>
                                 <th class="bg-light" scope="row">4</th>
                                 <td><button type="button" id="11"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
+                                        class="so btn btn-outline-dark btn-md me-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -128,10 +128,10 @@
                             <tr>
                                 <th class="bg-light" scope="row">5</th>
                                 <td><button type="button" id="12"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
+                                        class="so btn btn-outline-dark btn-md me-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -144,10 +144,10 @@
                             <tr>
                                 <th class="bg-light" scope="row">6</th>
                                 <td><button type="button" id="13"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
+                                        class="so btn btn-outline-dark btn-md me-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -160,10 +160,10 @@
                             <tr>
                                 <th class="bg-light" scope="row">7</th>
                                 <td><button type="button" id="14"
-                                        class="so btn btn-outline-dark btn-md mr-2">▶</button></td>
+                                        class="so btn btn-outline-dark btn-md me-2">▶</button></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-7">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -251,7 +251,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -337,7 +337,7 @@
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                                 $("#" + $(this).attr("id")).addClass(
-                                    "btn-block text-left"
+                                    "w-100 text-left"
                                     ); /* $("#"+ $(this).attr("id")).addClass("border-0"); */
                                 $("#lst-" + pan[p] + ">h2")
                                     .remove(); /* $("#lst-"+ pan[p]).closest("tr").find(".tran").show(); */
@@ -346,7 +346,7 @@
                     }
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

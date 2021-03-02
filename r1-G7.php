@@ -9,31 +9,27 @@
             <!-- 정답화인 버튼 시작 -->
             <div class="row">
                 <div class="my-3 col-sm-12 col-md-12 col-lg-12" id="qst">
-                    <table class="table table-borderless table-light">
+                    <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row" class="table-light">1</th>
                                 <td><span class="sen">Ich heiße Tim, und <span
                                             class="nu">①</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-1">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-1">
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option1"
-                                                    >du
+                                                du
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option2"
-                                                    >Sie
+                                                Sie
                                             </div>
                                         </div>?
                                     </span><span class="tran"><br><small>나는 팀이라고
@@ -45,28 +41,24 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
+                                <th scope="row" class="table-light">2</th>
                                 <td><span class="sen">Wie heißen <span
                                             class="nu">②</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-2">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-2">
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option3"
-                                                    >du
+                                                du
                                             </div>
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option4"
-                                                    >Sie
+                                                Sie
                                             </div>
                                         </div>?
                                     </span><span
@@ -77,28 +69,24 @@
                                             슈마허에요.</small></span></td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
+                                <th scope="row" class="table-light">3</th>
                                 <td><span class="sen">Ich heiße Lee, Und <span
                                             class="nu">③</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-3">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-3">
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option5"
-                                                    >du
+                                                du
                                             </div>
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option6"
-                                                    >Sie
+                                                Sie
                                             </div>
                                         </div>?
                                     </span><span class="tran"><br><small>저는 이 라고
@@ -110,28 +98,24 @@
                                             박이야.</small></span></td>
                             </tr>
                             <tr>
-                                <th scope="row">4</th>
+                                <th scope="row" class="table-light">4</th>
                                 <td><span class="sen">Hallo, ich bin Max! Und
                                         wie heißt <span class="nu">④</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-4">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-4">
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option7"
-                                                    >du
+                                                du
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option8"
-                                                    >Sie
+                                                Sie
                                             </div>
                                         </div>?
                                     </span><span class="tran"><br><small>안녕, 나는
@@ -214,11 +198,11 @@
                                 "btn-success");
                             $(this).parent().find(".nu")
                                 .addClass(
-                                    "bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0"
+                                    "bg-success text-white font-weight-bold rounded p-1 px-2 m-1 me-0"
                                     );
                             $(this).closest("td").find(
                                 ".nu").addClass(
-                                "bg-success text-white font-weight-bold rounded p-1 px-2 m-1 mr-0"
+                                "bg-success text-white font-weight-bold rounded p-1 px-2 m-1 me-0"
                                 );
                             $(this).closest("td").find(
                                 ".nu").text($.trim(
@@ -290,7 +274,7 @@
                 };
             });
 
-            $(".alert").hide();
+            $("#ready").hide();
 
 
         });

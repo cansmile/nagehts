@@ -31,7 +31,7 @@
                                                placeholder="Antwort"
                                                aria-label="Antwort"
                                                aria-describedby="basic-addon1"
-                                               class="text-center form-control q border-bottom-only rounded-0 ml-1 t-6"
+                                               class="text-center form-control q border-bottom-only rounded-0 ms-1 t-6"
                                                id="qst-1">
                             .
                         </div>
@@ -47,7 +47,7 @@
                                                placeholder="Antwort"
                                                aria-label="Antwort"
                                                aria-describedby="basic-addon2"
-                                               class="text-center form-control q border-bottom-only rounded-0 ml-1 t-6"
+                                               class="text-center form-control q border-bottom-only rounded-0 ms-1 t-6"
                                                id="qst-2">
                             .
                         </div>
@@ -77,7 +77,7 @@
                                                placeholder="Antwort"
                                                aria-label="Antwort"
                                                aria-describedby="basic-addon3"
-                                               class="text-center form-control q border-bottom-only rounded-0 ml-1 t-6"
+                                               class="text-center form-control q border-bottom-only rounded-0 ms-1 t-6"
                                                id="qst-3">
                             .
                         </div>
@@ -91,7 +91,7 @@
                                                placeholder="Antwort"
                                                aria-label="Antwort"
                                                aria-describedby="basic-addon4"
-                                               class="text-center form-control q border-bottom-only rounded-0 ml-1 t-6"
+                                               class="text-center form-control q border-bottom-only rounded-0 ms-1 t-6"
                                                id="qst-4">
                             .
                         </div>
@@ -120,7 +120,7 @@
                                                placeholder="Antwort"
                                                aria-label="Antwort"
                                                aria-describedby="basic-addon5"
-                                               class="text-center form-control q border-bottom-only rounded-0 ml-1 t-6"
+                                               class="text-center form-control q border-bottom-only rounded-0 ms-1 t-6"
                                                id="qst-5">
                             .
                         </div>
@@ -134,7 +134,7 @@
                                                placeholder="Antwort"
                                                aria-label="Antwort"
                                                aria-describedby="basic-addon6"
-                                               class="text-center form-control q border-bottom-only rounded-0 ml-1 t-6"
+                                               class="text-center form-control q border-bottom-only rounded-0 ms-1 t-6"
                                                id="qst-6">
                             .
                         </div>
@@ -297,7 +297,7 @@
                 for (var i = 0; i < an.length; i++) {
                     var oran = $("#qst-" + (i + 1)).val();
                     if (rfchk($("#qst-" + (i + 1)), true)) {
-                        $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                        $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                     } else {
                         $("#qst-" + (i + 1)).val(oran);
@@ -305,10 +305,10 @@
                         $("#qst-" + (i + 1)).addClass("wa");
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                         if (!$.isArray(an[i])) {
-                            $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] + "</div>");
+                            $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] + "</div>");
                         } else {
                             /* 2 이상인 경우 */
-                            var r = "<div class=\"d-block ra t-6\">";
+                            var r = "<div class=\"w-100 ra t-6\">";
                             for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                 if (fd < (an[i].length - 1)) {
                                     r = r + " / ";

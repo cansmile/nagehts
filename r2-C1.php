@@ -68,7 +68,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>
                         [ <small>듣고 알맞은 위치에 단어를 짝지우세요.</small> ]<button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -123,7 +123,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-1">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그는
@@ -138,7 +138,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-2">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그는
@@ -153,7 +153,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-3">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그는
@@ -203,7 +203,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-4">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그녀는
@@ -218,7 +218,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-5">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그녀는
@@ -233,7 +233,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-6">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그녀는
@@ -283,7 +283,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-7">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그는
@@ -298,7 +298,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-8">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그는
@@ -313,7 +313,7 @@
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-9">
                                     <h2
-                                        class="btn btn-warning btn-xl ttl d-block">
+                                        class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 . <br><span class="tran">&nbsp;<small>그는
@@ -436,7 +436,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

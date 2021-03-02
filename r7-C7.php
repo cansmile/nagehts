@@ -49,7 +49,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>순서에 맞게 노란 단추를 눌러 넣세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -63,7 +63,7 @@
                             <tr>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><small>안녕 애들아, 거기서 뭐하니?</small></span>
@@ -72,7 +72,7 @@
                             <tr>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><small>농구하는데요!</small></span>
@@ -81,7 +81,7 @@
                             <tr>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><small>여기서 농구하면 안된단다.</small></span>
@@ -90,7 +90,7 @@
                             <tr>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><small>우리가 왜 여기서 놀면 안 되나요?</small></span>
@@ -99,7 +99,7 @@
                             <tr>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><small>금지되어 있어.</small></span>
@@ -108,11 +108,11 @@
                             <tr>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block" id="lst-6" style="min-width: 19%;">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <div class="itm-lst 1itm d-inline-block" id="lst-7" style="min-width: 79%;">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><small>네, 그럼 우리 그만할게요.</small></span>
@@ -191,7 +191,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -261,7 +261,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     <?php require "wahl.php"; ?>
                     var pan = new Array();
@@ -272,7 +272,7 @@
                         $(".itm").each(function () {
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                $("#" + $(this).attr("id")).addClass("btn-block");
+                                $("#" + $(this).attr("id")).addClass("w-100");
                                 $("#lst-" + pan[p] + ">h2").remove();
                             }
                         })

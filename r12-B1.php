@@ -140,7 +140,7 @@
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br>
@@ -158,12 +158,12 @@
                         <th scope="row" width="20%">
                             <div class="row">
                                 <div class="col-3">
-                                    <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                                    <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                                     </button>
                                 </div>
                                 <div class="col-9">
                                     <div class="itm-lst 1itm" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                                     </div>
                                 </div>
                             </div>
@@ -177,12 +177,12 @@
                         <th scope="row" rowspan="3">
                             <div class="row">
                                 <div class="col-3">
-                                    <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                                    <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                                     </button>
                                 </div>
                                 <div class="col-9">
                                     <div class="itm-lst 1itm" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@
                     <tr>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" id="lst-7" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             , da ich vorhabe, mich nächstes Jahr für ein einjähriges Austauschstudium an der TUD zu
                             bewerben.
@@ -213,21 +213,21 @@
                         <th scope="row" rowspan="4">
                             <div class="row">
                                 <div class="col-3">
-                                    <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                                    <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                                     </button>
                                 </div>
                                 <div class="col-9">
                                     <div class="itm-lst 1itm" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                                     </div>
                                 </div>
                             </div>
                         </th>
                         <td>
-                            <button type="button" id="22" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            <button type="button" id="22" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                             </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-8" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             , was in dem Einstufungstest geprüft wird und wie lange der Test dauern würde.
                             <span class="tran"><br/>우선 반편성시험에서 무엇을 보는지 그리고 시험 시간이 얼마나 소요되는지 알고 싶습니다.</span>
@@ -235,10 +235,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="23" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            <button type="button" id="23" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                             </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-9" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             spezielle Prüfungskurse. Bieten Sie auch einen B1-Vorbereitungskurs an?
                             <span class="tran"><br/>당신은 공고에서 특별한 시험준비반을 언급하시는데, B1 시험준비반도 제공이 되나요?</span>
@@ -246,10 +246,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="24" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            <button type="button" id="24" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                             </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-10" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             , wie viele Teilnehmer eine Gruppe ausmacht und welches Freizeitprogramm angeboten wird?
                             <span class="tran"><br/>또한 한 반에 몇 명이나 참여하는지 그리고 어떤 여가 프로그램이 제공되는지 알려주실 수 있을까요?</span>
@@ -257,10 +257,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="25" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                            <button type="button" id="25" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                             </button>
                             <div class="itm-lst 1itm d-inline-block" id="lst-11" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             möchte ich noch gerne wissen, ob ich einen Rabatt bekommen würde, wenn ich mich für zwei
                             Kurse anmelden würde?
@@ -271,19 +271,19 @@
                         <th scope="row" rowspan="2">
                             <div class="row">
                                 <div class="col-3">
-                                    <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                                    <button type="button" id="4" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                                     </button>
                                 </div>
                                 <div class="col-9">
                                     <div class="itm-lst 1itm" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                                     </div>
                                 </div>
                             </div>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" id="lst-12" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             , wenn Sie mir genauere Angaben zu meinen Fragen geben würden.
                             <span class="tran">저의 질문에 대한 정확한 답변을 주시면 좋겠습니다.</span>
@@ -292,7 +292,7 @@
                     <tr>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" id="lst-13" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             für Ihre Antwort.
                             <span class="tran">답장해 주실 것에 대해 미리 당신께 감사드립니다.</span>
@@ -302,19 +302,19 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-3">
-                                    <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                                    <button type="button" id="5" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                                     </button>
                                 </div>
                                 <div class="col-9">
                                     <div class="itm-lst 1itm" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                                     </div>
                                 </div>
                             </div>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" id="lst-14" style="min-width: 120px!important;">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                             </div>
                             <span class="tran">인사를 전하며</span>
                         </td>
@@ -323,12 +323,12 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-3">
-                                    <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶
+                                    <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1 px-3">▶
                                     </button>
                                 </div>
                                 <div class="col-9">
                                     <div class="itm-lst 1itm" id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">▼ </h2>
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">▼ </h2>
                                     </div>
                                 </div>
                             </div>
@@ -367,7 +367,7 @@
             </div>
             <div class="col-12">
                 <table class="table table-borderless table-striged text-center">
-                    <thead class="thead-dark">
+                    <thead class="table-dark">
                     <tr>
                         <th scope="col">ich</th>
                         <th scope="col">du</th>
@@ -432,7 +432,7 @@
             </div>
             <div class="col-12">
                 <table class="table table-borderless table-striped">
-                    <thead class="thead-light">
+                    <thead class="table-light">
                     <tr>
                         <th scope="col">&nbsp;</th>
                         <th scope="col">sein</th>
@@ -627,13 +627,13 @@
                     $(".itm").each(function () {
                         if ($(this).hasClass("ans" + pan[p])) {
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                            $("#" + $(this).attr("id")).addClass("btn-block");
+                            $("#" + $(this).attr("id")).addClass("w-100");
                             $("#lst-" + pan[p] + ">h2").remove();
                         }
                     })
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");

@@ -35,7 +35,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">Bsp.</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     viel Kaffee trinken</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich trinke
                     viel Kaffee.</div>
@@ -53,7 +53,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">1</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     viel Musik hören</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich höre viel
                     Musik.</div>
@@ -71,7 +71,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">2</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     gern fotografieren</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich
                     fotografiere gern.</div>
@@ -89,7 +89,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">3</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     viel lesen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich lese viel.
                 </div>
@@ -107,7 +107,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">4</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     gern reisen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich reise
                     gern.</div>
@@ -125,7 +125,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">5</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     sich gern schminken</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich schminke
                     mich gern.</div>
@@ -143,7 +143,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">6</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     Haustiere mögen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich mag
                     Haustiere.</div>
@@ -161,7 +161,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">7</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     gern kochen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich koche
                     gern.</div>
@@ -179,7 +179,7 @@
                 <div class="col-12"><span
                         class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">8</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ml-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
                     Deutsch lernen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich lerne
                     Deutsch.</div>
@@ -392,12 +392,12 @@
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
                                 $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-block ra\" style=\"min-width: 100px; max-width: 200px;\">" +
+                                    "<div class=\"w-100 ra\" style=\"min-width: 100px; max-width: 200px;\">" +
                                     an[i] + "</div>");
                             } else {
                                 /* 2 이상인 경우 */
                                 var r =
-                                    "<div class=\"d-block ra\" style=\"min-width: 100px; max-width: 200px;\">";
+                                    "<div class=\"w-100 ra\" style=\"min-width: 100px; max-width: 200px;\">";
                                 for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                     if (fd < (an[i].length - 1)) {
                                         r = r + " / ";

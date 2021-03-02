@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button></h2>
                 </div>
@@ -88,24 +88,24 @@
                     <span class="border border-white p-1 px-2 rounded bg-dark">Dialog
                         1</span> Wie komme ich zum
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-1">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
                 <div class="col-12 p-3" style="line-height: 250%;">
                     Zuerst gehen Sie die
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-2">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     geradeaus bis zum
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-3">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     . Dort links an der Ecke ist die
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-4">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     . Hinter der Bäckerei ist das Hotel Augustin.
@@ -119,29 +119,29 @@
                     <span class="border border-white p-1 px-2 rounded bg-dark">Dialog
                         2</span> Wie komme ich zum / zur
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-5">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
                 <div class="col-12 p-3" style="line-height: 250%;">
                     Zuerst hier geradeaus bis zur
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-6">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     , dort rechts. An der
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-7">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     und dem
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-8">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     vorbei. Und da links an der Ecke liegt auch das
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-5">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     .
@@ -155,54 +155,54 @@
                     <span class="border border-white p-1 px-2 rounded bg-dark">Dialog
                         3</span> Wie komme ich zum/zur
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-10">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
                 <div class="col-12 p-3" style="line-height: 250%;">
                     Hier die
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-11">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     geradeaus bis zum
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-3">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     . Dort an der
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-13">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     rechts in die
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-14">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     . Gehen Sie
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-15">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     geradeaus bis zur
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-16">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     . Dort sehen Sie dann
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-10">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     . Es liegt direkt zwischen dem
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-18">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     und dem
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-19">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     .
@@ -273,7 +273,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -363,7 +363,7 @@
                         })
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

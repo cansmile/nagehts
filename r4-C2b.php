@@ -12,7 +12,7 @@ z<?php require_once("heading.php"); ?>
                         „kein/-e/-en“.<br>
                         <small>듣고 “ein/-e/-en” 또는 “kein/-e/-en“을 채우세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -438,7 +438,7 @@ z<?php require_once("heading.php"); ?>
                             for (var i = 0; i < an.length; i++) {
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
-                                    $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                                    $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
                                     $("#qst-" + (i + 1)).val(oran);
@@ -446,9 +446,9 @@ z<?php require_once("heading.php"); ?>
                                     $("#qst-" + (i + 1)).addClass("wa");
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
-                                        $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] + "</div>");
+                                        $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] + "</div>");
                                     } else {/* 2 이상인 경우 */
-                                        var r = "<div class=\"d-block ra t-6\">";
+                                        var r = "<div class=\"w-100 ra t-6\">";
                                         for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                             if (fd < (an[i].length - 1)) {
                                                 r = r + " / ";
@@ -549,7 +549,7 @@ z<?php require_once("heading.php"); ?>
                         di($(this));
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

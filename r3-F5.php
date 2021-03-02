@@ -67,7 +67,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Hören Sie und sprechen Sie nach.<br>
                         <small>듣고 따라하세요.</small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -118,18 +118,18 @@
                         <tbody>
                             <tr>
                                 <td style="line-height: 350%;"><button type="button" id="17"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Vivien kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Sie ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -137,18 +137,18 @@
                                             출신이에요. 그녀는 헝가리인이에요.</small></span>
                                 </td>
                                 <td style="line-height: 350%;"><button type="button" id="18"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Pierre kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Er ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -158,18 +158,18 @@
                             </tr>
                             <tr>
                                 <td style="line-height: 350%;"><button type="button" id="19"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Sumi kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Sie ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -177,18 +177,18 @@
                                             그녀는 한국인이에요.</small></span>
                                 </td>
                                 <td style="line-height: 350%;"><button type="button" id="20"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Max kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-7">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Er ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-8">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -198,18 +198,18 @@
                             </tr>
                             <tr>
                                 <td style="line-height: 350%;"><button type="button" id="21"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Julia kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-9">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Sie ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-10">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -217,18 +217,18 @@
                                             폴란드인이에요.</small></span>
                                 </td>
                                 <td style="line-height: 350%;"><button type="button" id="22"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Carlos kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-11">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Er ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-12">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -238,18 +238,18 @@
                             </tr>
                             <tr>
                                 <td style="line-height: 350%;"><button type="button" id="23"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Diana kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-13">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Sie ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-14">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -257,18 +257,18 @@
                                             출신이에요. 그녀는 그리스인이에요.</small></span>
                                 </td>
                                 <td style="line-height: 350%;"><button type="button" id="24"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                     Amit kommt aus
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-15">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .<br>
                                     Er ist
-                                    <div class="itm-lst 1itm d-inline-block px-0 mr-1" style="min-width: 200px;"
+                                    <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
                                         id="lst-16">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -365,7 +365,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

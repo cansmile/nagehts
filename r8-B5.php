@@ -65,7 +65,7 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2"
                     id="lst-1">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B5-1.png"
                             alt="Hand" style="max-height: 120px; width: auto;">
                     </h2>&nbsp;
@@ -73,7 +73,7 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2"
                     id="lst-2">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B5-2.png"
                             alt="Was passt?"
                             style="max-height: 120px; width: auto;"></h2>&nbsp;
@@ -81,7 +81,7 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2"
                     id="lst-3">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B5-3.png"
                             alt="Was passt?"
                             style="max-height: 120px; width: auto;"></h2>&nbsp;
@@ -89,7 +89,7 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2"
                     id="lst-4">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B5-4.png"
                             alt="Was passt?"
                             style="max-height: 120px; width: auto;"></h2>&nbsp;
@@ -186,7 +186,7 @@
                     }
                 }
             }
-            $(".itm-lst>button").addClass("btn-block btn-light");
+            $(".itm-lst>button").addClass("w-100 btn-light");
 
         });
 

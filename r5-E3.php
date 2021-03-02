@@ -74,7 +74,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 그림 아래의 노란 단추를 누르세요.</small> ]
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -174,7 +174,7 @@
                                         class="tran"><small>미지근해요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -199,7 +199,7 @@
                                         class="tran"><small>말랐어요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -210,7 +210,7 @@
                                         class="tran"><small>딱딱해요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -235,7 +235,7 @@
                                         class="tran"><small>차가워요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -260,7 +260,7 @@
                                             써요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-5">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -284,7 +284,7 @@
                                     <span class="tran"><small>짜요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-6">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -314,7 +314,7 @@
                                             매워요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-7">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -339,7 +339,7 @@
                                             달아요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-8">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -364,7 +364,7 @@
                                             않아요.</small></span>
                                     <div class="itm-lst 1itm" id="lst-9">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -545,7 +545,7 @@
                                                         '"'
                                                         ))
                                                     .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-md btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" +
+                                                        "<button class=\"mt-1 mx-1 btn btn-md btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
                                                         $(
                                                             this)
                                                         .html() +
@@ -679,7 +679,7 @@
                                 $("#lst-" + pan[p] +
                                         ">.itm")
                                     .addClass(
-                                        "btn-block font-weight-bold"
+                                        "w-100 font-weight-bold"
                                         );
                                 $("#lst-" + pan[p] +
                                         ">.itm")
@@ -698,7 +698,7 @@
                     }
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

@@ -17,22 +17,19 @@
                             <tr>
                                 <td>
                                     <span class="sen">Ich bezahle <span class="nu">①</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-1">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" role="group" id="qst-1">
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option1" ><span
-                                                    class="text-primary">den</span>
+                                                den
                                             </div>
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input autocomplete="off" type="radio" name="options" id="option2" ><span
-                                                    class="text-danger">die</span>
+                                                die
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option3" ><span
-                                                    class="text-secondary">das</span>
+                                                das
                                             </div>
                                         </div> Pizza.<span class="ans"></span>
                                     </span>
@@ -47,22 +44,19 @@
                             <tr>
                                 <td>
                                     <span class="sen">Ich bezahle <span class="nu">②</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-2">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" role="group" id="qst-2">
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option4" ><span
-                                                    class="text-primary">den</span>
+                                                den
                                             </div>
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input autocomplete="off" type="radio" name="options" id="option5" ><span
-                                                    class="text-danger">die</span>
+                                                die
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option6" ><span
-                                                    class="text-secondary">das</span>
+                                                das
                                             </div>
                                         </div> Cola.<span class="ans"></span>
                                     </span>
@@ -77,42 +71,36 @@
                             <tr>
                                 <td>
                                     <span class="sen">Ich bezahle <span class="nu">③</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-3">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" role="group" id="qst-3">
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option7" ><span
-                                                    class="text-primary">den</span>
+                                                den
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option8" ><span
-                                                    class="text-danger">die</span>
+                                                die
                                             </div>
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input autocomplete="off" type="radio" name="options" id="option9" ><span
-                                                    class="text-secondary">das</span>
+                                                das
                                             </div>
                                         </div> Steak <span class="ans"></span>
                                     </span>
                                     <span class="sen">und <span class="nu">④</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-4">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" role="group" id="qst-4">
                                             <div class="btn btn-light pop o px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답!">
-                                                <input autocomplete="off" type="radio" name="options" id="option10"
-                                                    ><span class="text-primary">den</span>
+                                                den
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option11"
-                                                    ><span class="text-danger">die</span>
+                                                die
                                             </div>
                                             <div class="btn btn-light pop x px-1" data-toggle="popover"
                                                 data-container="body" data-placement="top" data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio" name="options" id="option12"
-                                                    ><span class="text-secondary">das</span>
+                                                das
                                             </div>
                                         </div> Wein.<span class="ans"></span>
                                     </span>

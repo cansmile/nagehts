@@ -9,7 +9,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>Hören Sie und sprechen Sie nach.<br>
                         <small>듣고 따라 하세요.</small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col">
                     <table class="table table-borderless table-striped text-center table-sm">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th scope="row" colspan="4">Demonstrativpronomen <small>지시대명사</small></th>
                             </tr>
@@ -138,8 +138,8 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#whole").show();
-                $("#alt").hide();
-                /* $(".alert").hide(); */
+                $("#ready").hide();
+                /* $("#ready").hide(); */
                 $(".so").on("click", function (idx) {
                     var t = $(this);
                     var ti = t.attr("id");

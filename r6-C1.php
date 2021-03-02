@@ -9,7 +9,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>Hören Sie und sprechen Sie nach.<br>
                         <small>듣고 따라 하세요.</small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -100,7 +100,7 @@
                                 </td>
                                 <td>
                                     ■ Im Januar ... / Am Montag ...<br>
-                                    <span class="ml-3">Um 12 Uhr ... / Am Morgen
+                                    <span class="ms-3">Um 12 Uhr ... / Am Morgen
                                         ...</span><br>
                                 </td>
                             <tr>
@@ -245,7 +245,7 @@
 
                     onload: function () {
                             $("#0").show();
-                            $(".alert").hide();
+                            $("#ready").hide();
 
                             /* $("#qst-1>div.o").addClass("an"); */
                             /* $("#qst-1>div.o").addClass("btn-warning"); */

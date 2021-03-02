@@ -10,7 +10,7 @@
                     <small> 무엇이 중요할까요? 동사를 알맞은 형태로 써넣으세요. </small><br/>
                     [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                         표시됩니다.</small> ]
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
@@ -48,7 +48,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">1</button>
+                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1">1</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -82,16 +82,16 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">2</button>
+                            <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-1">2</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
                                 &nbsp;Für mich ist wichtig, Kultur und auch Leute
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 mr-0 pr-0 text-right border-dark t-6"
+                                        py-1 me-0 pr-0 text-right border-dark t-6"
                                        style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-3">zu
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 ml-0 pl-0 text-left border-dark t-6"
+                                        py-1 ms-0 pl-0 text-left border-dark t-6"
                                        style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-4">.
                             </div>
                             <span
@@ -115,7 +115,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">3</button>
+                            <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-1">3</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -158,7 +158,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">4</button>
+                            <button type="button" id="4" class="so btn btn-outline-dark btn-sm me-1">4</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -181,7 +181,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">5</button>
+                            <button type="button" id="5" class="so btn btn-outline-dark btn-sm me-1">5</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -218,7 +218,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">6</button>
+                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1">6</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -251,7 +251,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">7</button>
+                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1">7</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -349,7 +349,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -506,12 +506,12 @@
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
                                     $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra\" style=\"max-width: 100px; min-width: 150px;\">" +
+                                        "<div class=\"w-100 ra\" style=\"max-width: 100px; min-width: 150px;\">" +
                                         an[i] + "</div>");
                                 } else {
                                     /* 2 이상인 경우 */
                                     var r =
-                                        "<div class=\"d-block ra\" style=\"max-width: 100px; min-width: 150px;\">";
+                                        "<div class=\"w-100 ra\" style=\"max-width: 100px; min-width: 150px;\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
@@ -603,7 +603,7 @@
                 };
 
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".q").each(function () {
                     $(this).focusout();
                 });

@@ -113,7 +113,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -122,7 +122,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -131,7 +131,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -140,7 +140,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -149,7 +149,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -158,7 +158,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-6">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -167,7 +167,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-7">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -176,7 +176,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-8">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -185,7 +185,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-9">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -194,7 +194,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-10">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -203,7 +203,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-11">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -212,7 +212,7 @@
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-12">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -318,7 +318,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "btn-block");
+                            "w-100");
                         $("#lst-" + pan[p] + ">h2").remove();
                     }
                 })

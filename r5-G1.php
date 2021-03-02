@@ -101,7 +101,7 @@
                     <h2>[ <small>버튼을 눌러 선택하여, 분류에 맞는 단어를 선택하여<br>알맞게
                             채우세요.</small> ]
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -133,7 +133,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -142,7 +142,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -155,7 +155,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -164,7 +164,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -321,13 +321,13 @@
                                     "#lst-" + (i +
                                         1) + ">h2"));
                                 $(pani).addClass(
-                                    "btn-block btn-light"
+                                    "w-100 btn-light"
                                     );
                             }
                         }
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

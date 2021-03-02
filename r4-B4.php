@@ -74,7 +74,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -93,7 +93,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -112,7 +112,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -131,7 +131,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -150,7 +150,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -169,7 +169,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -188,7 +188,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-7">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -207,7 +207,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-8">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -226,7 +226,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-9">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -245,7 +245,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-10">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -264,7 +264,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-11">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -283,7 +283,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-12">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -302,7 +302,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-13">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -321,7 +321,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-14">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -396,7 +396,7 @@
                                             i + '"'
                                         ))
                                         .append(
-"<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" +
+"<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
                                             $(this).html() + "</button>");
                                     /* $(lstn).append(i); */
                                 }
@@ -436,7 +436,7 @@
                         "개를 맞히셨네요!<br>" + st + "</h4>");
                 }
             });
-            $(".alert").hide();
+            $("#ready").hide();
         });
 
     </script>

@@ -91,14 +91,14 @@
                         class="border border-white p-1 px-2 rounded bg-dark">1</span>
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-1">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
                 <div class="col-12 p-3 lh250">
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-2">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     gehört zu den beeindruckendsten Bauwerken des Barocks. Im
@@ -119,7 +119,7 @@
                         class="border border-white p-1 px-2 rounded bg-dark">2</span>
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-3">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
@@ -127,7 +127,7 @@
                     Die
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-3">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     in Dresden ist eine evangelischlutherische Kirche des
@@ -147,14 +147,14 @@
                         class="border border-white p-1 px-2 rounded bg-dark">3</span>
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-4">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
                 <div class="col-12 p-3 lh250">
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-4">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     wurde 1912 gegründet und ist ein Unikat unter Europas
@@ -174,14 +174,14 @@
                         class="border border-white p-1 px-2 rounded bg-dark">4</span>
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-5">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
                 <div class="col-12 p-3 lh250">
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-5">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     in Dresden ist das Opernhaus der Sächsischen Staatsoper
@@ -201,7 +201,7 @@
                         class="border border-white p-1 px-2 rounded bg-dark">5</span>
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-6">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
@@ -209,7 +209,7 @@
                     Die
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-6">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     in Dresden ist eines von drei Produktionsstätten der
@@ -230,7 +230,7 @@
                         class="border border-white p-1 px-2 rounded bg-dark">6</span>
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-7">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>?
                 </div>
@@ -238,7 +238,7 @@
                     Als
                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                         style="min-width: 200px;" id="lst-8">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     wird der deutsche Teil des Elbsandsteingebirges in Sachsen

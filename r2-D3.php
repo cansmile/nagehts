@@ -8,7 +8,7 @@
             <div class="col text-center">
                 <h2>[ <small>정답을 입력하면 입력란 위로 초록색 확인 문장이 나타나고, 오답이 될 때는 확인
                         문장이 붉게 변합니다.</small> ]
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
@@ -29,7 +29,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="1"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">1.</td>
@@ -47,7 +47,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="2"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">2.</td>
@@ -65,7 +65,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="3"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">3.</td>
@@ -83,7 +83,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="4"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">4.</td>
@@ -101,7 +101,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="5"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">5.</td>
@@ -119,7 +119,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="6"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">6.</td>
@@ -137,7 +137,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="7"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">7.</td>
@@ -155,7 +155,7 @@
                     <tr>
                         <th width="50">
                             <button type="button" id="8"
-                                    class="so btn btn-outline-dark btn-sm mr-1">▶
+                                    class="so btn btn-outline-dark btn-sm me-1">▶
                             </button>
                         </th>
                         <td width="50">8.</td>
@@ -390,7 +390,7 @@
                             var oran = $("#qst-" + (i + 1)).val();
                             if (rfchk($("#qst-" + (i + 1)), true)) {
                                 $("#qst-" + (i + 1)).addClass(
-                                    "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                    "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                 );
                                 $("#qst-" + (i + 1)).removeClass(
                                     "rounded-0");
@@ -406,12 +406,12 @@
 
                                 if (!$.isArray(an[i])) {
                                     $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-6\">" +
+                                        "<div class=\"w-100 ra t-6\">" +
                                         an[i] + "</div>");
                                 } else {
                                     /* 2 이상인 경우 */
                                     var r =
-                                        "<div class=\"d-block ra t-6\">";
+                                        "<div class=\"w-100 ra t-6\">";
                                     for (var fd = (an[i].length -
                                         1); fd >= 0; fd--) {
                                         if (fd < (an[i].length -
@@ -517,7 +517,7 @@
                 $("#qst-1").addClass("bg-success text-white font-weight-bold");
                 $("#qst-1").attr("disabled", true);
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last")

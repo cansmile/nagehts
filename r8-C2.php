@@ -41,7 +41,7 @@
                     </h2>
                     <h2>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                             표시됩니다.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -64,7 +64,7 @@
                             <tr>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -84,7 +84,7 @@
                             <tr>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -104,7 +104,7 @@
                             <tr>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -124,7 +124,7 @@
                             <tr>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -144,7 +144,7 @@
                             <tr>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -164,7 +164,7 @@
                             <tr>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -459,7 +459,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -606,7 +606,7 @@
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
                                     $("#qst-" + (i + 1)).addClass(
-                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                         );
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
@@ -616,11 +616,11 @@
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
                                         $("#qst-" + (i + 1)).after(
-                                            "<div class=\"d-block ra t-6\">" + an[i] +
+                                            "<div class=\"w-100 ra t-6\">" + an[i] +
                                             "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
-                                        var r = "<div class=\"d-block ra t-6\">";
+                                        var r = "<div class=\"w-100 ra t-6\">";
                                         for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                             if (fd < (an[i].length - 1)) {
                                                 r = r + " / ";
@@ -696,13 +696,13 @@
                         for (var i = 0; i < $(".itm-lst").length; i++) {
                             if ($(pann).hasClass("ans" + (i + 1))) {
                                 $(pann).appendTo($("#lst-" + (i + 1)));
-                                $(pann).addClass("btn-block");
+                                $(pann).addClass("w-100");
                                 $("#lst-" + (i + 1) + ">h2").remove();
                             }
                         }
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

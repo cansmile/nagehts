@@ -67,7 +67,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 그림에 넣으세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -78,31 +78,31 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-1">
-                    <h2 class="btn btn-xl bg-white ttl d-block">Weinachten</h2>
+                    <h2 class="btn btn-xl bg-white ttl w-100">Weinachten</h2>
                     &nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-2">
-                    <h2 class="btn btn-xl bg-white ttl d-block">Silvester</h2>
+                    <h2 class="btn btn-xl bg-white ttl w-100">Silvester</h2>
                     &nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-3">
-                    <h2 class="btn btn-xl bg-white ttl d-block">Geburtstag</h2>
+                    <h2 class="btn btn-xl bg-white ttl w-100">Geburtstag</h2>
                     &nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-4">
-                    <h2 class="btn btn-xl bg-white ttl d-block">Ostern</h2>
+                    <h2 class="btn btn-xl bg-white ttl w-100">Ostern</h2>
                     &nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-5">
-                    <h2 class="btn btn-xl bg-white ttl d-block">Neujahr</h2>
+                    <h2 class="btn btn-xl bg-white ttl w-100">Neujahr</h2>
                     &nbsp;
                 </div>
             </div>
@@ -188,7 +188,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -255,7 +255,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     <?php require "wahl.php"; ?>
 
@@ -270,7 +270,7 @@
                             }
                         }
                     }
-                    $(".itm-lst>button").addClass("btn-block btn-light");
+                    $(".itm-lst>button").addClass("w-100 btn-light");
                 },
                 onend: function () {
                     $("div#last").text("");

@@ -88,7 +88,7 @@
                     <h2>[ <small>단어를 선택하고 아래의 성(m, f, n)을 누르면 단어가 이동합니다.</small>
                         ]
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -105,19 +105,19 @@
                 <div style="min-height: 240px;"
                     class="rounded-top bg-info itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>m</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>f</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-purple itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-3">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>n</strong></h2>&nbsp;
                 </div>
             </div>
@@ -282,7 +282,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -324,7 +324,7 @@
                                     "#lst-" + (i +
                                         1) + ">h2"));
                                 $(pani).addClass(
-                                    "btn-block btn-light"
+                                    "w-100 btn-light"
                                     );
                             }
                         }

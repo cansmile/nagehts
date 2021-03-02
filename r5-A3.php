@@ -122,7 +122,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 칸(Essen, Getränk)에 넣으세요.</small> ]
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -134,7 +134,7 @@
                 <div style="min-height: 240px;"
                     class="rounded-top bg-info itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>1. Essen</strong><span
                             class="tran">&nbsp;<small>음식</small></h2>
                     &nbsp;</span>
@@ -142,7 +142,7 @@
                 <div style="min-height: 240px;"
                     class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>2. Getränk</strong><span
                             class="tran">&nbsp;<small>음료</small></h2>
                     &nbsp;</span>
@@ -314,7 +314,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -356,7 +356,7 @@
                                     "#lst-" + (i +
                                         1) + ">h2"));
                                 $(pani).addClass(
-                                    "btn-block btn-light"
+                                    "w-100 btn-light"
                                     );
                             }
                         }

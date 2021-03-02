@@ -241,7 +241,7 @@
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -255,7 +255,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="2"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Hast du heute Abend / am ...... Zeit?<br>(Heute,
@@ -267,7 +267,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="3"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ja, klar.</div>
@@ -279,7 +279,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="4"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Das weiß ich noch nicht.</div>
@@ -291,7 +291,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="5"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Vielleicht</div>
@@ -303,7 +303,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="6"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Heute Abend / Am ..... habe ich leider
@@ -318,7 +318,7 @@
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -333,7 +333,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="8"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Gehen wir ins Kino / ..... ?</div>
@@ -343,7 +343,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="9"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Gute Idee! / Okay!</div>
@@ -355,7 +355,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="10"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wollen wir heute Abend in den / in die /
@@ -367,7 +367,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="11"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Nein, leider nicht. Ich habe keine
@@ -381,7 +381,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="12"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Hast du Lust auf Kino?</div>
@@ -391,7 +391,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="13"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ja, gut!</div>
@@ -404,7 +404,7 @@
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -418,7 +418,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="15"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Das ist verboten.</div>
@@ -431,7 +431,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="16"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Hier dürfen Sie nicht rauchen.</div>
@@ -441,7 +441,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="17"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Warum nicht?</div>
@@ -453,7 +453,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="18"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Das ist verboten.</div>
@@ -463,7 +463,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="19"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Na, gut. Dann höre ich auf.</div>
@@ -475,7 +475,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="20"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Hier kann man Bücher lesen.</div>
@@ -487,7 +487,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="21"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Hier muss man leise sprechen.</div>
@@ -499,7 +499,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="22"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Hier darf man nicht rauchen.</div>
@@ -511,7 +511,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="23"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich möchte tanzen.</div>
@@ -521,7 +521,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="24"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Dann solltest du in die Disko gehen.
@@ -534,7 +534,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="25"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Sie möchte einen Film sehen.</div>
@@ -544,7 +544,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="26"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Dann sollte sie ins Kino gehen.</div>
@@ -557,7 +557,7 @@
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="27" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="27" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -571,7 +571,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="28"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich kann leider nicht.</div>
@@ -583,7 +583,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="29"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Das geht leider nicht.</div>
@@ -595,7 +595,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="30"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Das passt leider nicht.</div>
@@ -608,7 +608,7 @@
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="31" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="31" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -622,7 +622,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="32"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wann / Um wie viel Uhr?</div>
@@ -632,7 +632,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="33"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Am Dienstag / Abend / Mittwochabend
@@ -647,7 +647,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="34"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Um ..... Uhr.</div>
@@ -660,7 +660,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="35"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Um drei / halb vier.</div>
@@ -673,7 +673,7 @@
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="36" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="36" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -687,7 +687,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="37"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wie spät ist es? / Wie viel Uhr ist es?
@@ -698,7 +698,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="38"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Es ist Viertel vor drei / halb sechs.
@@ -796,8 +796,8 @@
         onload: function () {
             /* 음성 준비되면 HV 버튼 나타내기 */
             $("#whole").show();
-            $("#alt").hide();
-            /* $(".alert").hide(); */
+            $("#ready").hide();
+            /* $("#ready").hide(); */
 
             $(".so").on("click", function (idx) {
                 var t = $(this);

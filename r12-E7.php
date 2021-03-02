@@ -9,7 +9,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>Markieren Sie.<br>
                     <small>체크해보세요.</small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
 
@@ -23,23 +23,21 @@
                     <tbody>
                     <tr>
                         <th rowspan="4" scope="row" width="150">
-                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button><br />
+                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button><br />
                             1) Auf dem Bahnhof
                             <span class="tran"><br><small>기차역에서</small></span>
                         </td>
                         <td>Auf dem Bahnhof Wegen einer Bauarbeit ist die Waldstraße gesperrt.
                             <span class="tran"><br><small>기차역에서   공사로 발트길이 패쇄되었습니다.</small></span></td>
                         <td class="align-middle" width="200">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option1"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option2"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -48,16 +46,14 @@
                         <td>Herr Kim, kommen Sie bitte zur Information.
                             <span class="tran"><br><small>김선생님, 안내실로 와주세요</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-2">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option3"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option4"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -66,16 +62,14 @@
                         <td>Die Regionalbahn aus Leipzig hat 20 Minuten Verspätung
                             <span class="tran"><br><small>라이프치히에서 오는 국철이 20분 연착됩니다</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-3">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option5"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option6"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -84,16 +78,14 @@
                         <td>Der ICE nach Berlin fährt in wenigen Minuten auf Gleis 10 ab
                             <span class="tran"><br><small>베를린으로 가는 ICE가 10번 선로에서 곧 출발합니다.</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-4">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option7"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option8"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -106,23 +98,21 @@
                     <tbody>
                     <tr>
                         <th rowspan="5" scope="row" width="150">
-                            <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button><br />
+                            <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button><br />
                             2) Am Flughafen
                             <span class="tran"><br><small>공항에서</small></span>
                         </td>
                         <td>Am Flughafen Frau Kaiser, bitte kommen Sie zur Information in Halle C
                             <span class="tran"><br><small>공항에서    카이저씨, C홀에 있는 안내실로 와주시기 바랍니다.</small></span></td>
                         <td class="align-middle" width="200">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-5">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option9"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option10"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -131,16 +121,14 @@
                         <td>Machen Sie bitte den Motor aus.
                             <span class="tran"><br><small>엔진을 끄세요</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-6">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option11"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option12"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -149,16 +137,14 @@
                         <td>Der Flug aus Paris hat eine Stunde Verspätung.
                             <span class="tran"><br><small>파리발 비행기가 한시간 연착입니다</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-7">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option13"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option14"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -167,16 +153,14 @@
                         <td>Letzter Aufruf gebucht auf Flug 707 nach London.
                             <span class="tran"><br><small>런던행 707비행기 탑승자에게 마지막 탑승방송입니다</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-8">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option15"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option16"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -185,16 +169,14 @@
                         <td>Der Flug 404 aus San Francisco landet in wenigen Minuten.
                             <span class="tran"><br><small>샌프란시스코발 404 비행기 수분내에 착륙합니다.</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-9">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option17"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option18"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -207,23 +189,21 @@
                     <tbody>
                     <tr>
                         <th rowspan="5" scope="row" width="150">
-                            <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button><br />
+                            <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button><br />
                             3) Im Fernbus
                             <span class="tran"><br><small>고속버스에서</small></span>
                         </td>
                         <td>Im Fernbus Liebe Fahrgäste, wir fahren gleich ab.
                             <span class="tran"><br><small>고속버스에서  버스탑승자여러분, 저희는 곧 출발합니다.</small></span></td>
                         <td class="align-middle" width="200">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-10">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option19"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option20"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -232,16 +212,14 @@
                         <td>Bitte schnallen Sie sich an.
                             <span class="tran"><br><small>안전밸트를 매세요</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-11">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-11">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option21"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option22"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -251,16 +229,14 @@
                             <span class="tran"><br><small>수분내에 저희들은 목적지에 도착합니다. 여러분들에게 편안한 여행이 되길 바랍니다.</small></span>
                         </td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-12">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-12">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option23"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option24"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -269,16 +245,14 @@
                         <td>- Wir machen jetzt eine kleine Pause und treffen uns wieder hier vor dem Bus.
                             <span class="tran"><br><small>우리들은 잠시 휴식시간을 가지고 이곳 버스앞에서 다시  만나요.</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-13">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-13">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option25"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option26"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -287,16 +261,14 @@
                         <td>– Liebe Fluggäste, hier spricht Ihr Kapitän Martin Fischer.
                             <span class="tran"><br><small>비행기 탑승자여러분, 여러분의 기장 마틴피셔입니다.</small></span></td>
                         <td class="align-middle">
-                            <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-14">
+                            <div class="btn-group q" data-toggle="buttons" role="group" id="qst-14">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options" id="option27"><label
-                                        for="option1">Richtig</label>
+                                    Richtig
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options" id="option28"><label
-                                        for="option2">Falsch</label>
+                                    Falsch
                                 </div>
                             </div>
                         </td>
@@ -373,7 +345,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");

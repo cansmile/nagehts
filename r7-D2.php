@@ -243,7 +243,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 d-lg-none d-xl-none d-md-block d-sm-block px-0
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 d-lg-none d-xl-none d-mw-100 d-sm-block px-0
                     mx-0">
                     <table class="table table-borderless">
                         <thead>
@@ -624,7 +624,7 @@
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                                "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                         } else {
                             $("#qst-" + (i + 1)).val(oran);
@@ -632,11 +632,11 @@
                             $("#qst-" + (i + 1)).addClass("wa");
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] +
+                                $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] +
                                     "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r = "<div class=\"d-block ra t-6\">";
+                                var r = "<div class=\"w-100 ra t-6\">";
                                 for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                     if (fd < (an[i].length - 1)) {
                                         r = r + " / ";

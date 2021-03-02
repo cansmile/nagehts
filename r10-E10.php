@@ -11,21 +11,21 @@
         </div>
         <div class="row my-2 py-2">
             <div class="col lh350">
-                <span class="wd ml-2">angekommen</span>
-                <span class="wd ml-2">angerufen</span>
-                <span class="wd ml-2">angezogen</span>
-                <span class="wd ml-2">anrufen</span>
-                <span class="wd ml-2">bin</span>
-                <span class="wd ml-2">bist</span>
-                <span class="wd ml-2">funktioniert</span>
-                <span class="wd ml-2">geblieben</span>
-                <span class="wd ml-2">gefunden</span>
-                <span class="wd ml-2">gegangen</span>
-                <span class="wd ml-2">gegessen</span>
-                <span class="wd ml-2">gesprochen</span>
-                <span class="wd ml-2">getrunken</span>
-                <span class="wd ml-2">habe</span>
-                <span class="wd ml-2">hat</span>
+                <span class="wd ms-2">angekommen</span>
+                <span class="wd ms-2">angerufen</span>
+                <span class="wd ms-2">angezogen</span>
+                <span class="wd ms-2">anrufen</span>
+                <span class="wd ms-2">bin</span>
+                <span class="wd ms-2">bist</span>
+                <span class="wd ms-2">funktioniert</span>
+                <span class="wd ms-2">geblieben</span>
+                <span class="wd ms-2">gefunden</span>
+                <span class="wd ms-2">gegangen</span>
+                <span class="wd ms-2">gegessen</span>
+                <span class="wd ms-2">gesprochen</span>
+                <span class="wd ms-2">getrunken</span>
+                <span class="wd ms-2">habe</span>
+                <span class="wd ms-2">hat</span>
             </div>
         </div>
         <div class="row">
@@ -329,11 +329,11 @@
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                         if (!$.isArray(an[i])) {
                             $("#qst-" + (i + 1)).after(
-                                "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">" +
                                 an[i] + "</div>");
                         } else {
                             /* 2 이상인 경우 */
-                            var r = "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                            var r = "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">";
                             for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                 if (fd < (an[i].length - 1)) {
                                     r = r + " / ";

@@ -8,7 +8,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.<br/>
                     <small> 빈칸을 채우세요. </small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br/>
@@ -201,7 +201,7 @@
                     </li>
                 </ul>
                 <table class="table table-borderless table-striped">
-                    <thead class="thead-light">
+                    <thead class="table-light">
                     <tr>
                         <th class="text-center" scope="col">행위자 중심 (능동태)</th>
                         <th class="text-center" scope="col">행위 중심 (수동태)</th>
@@ -226,7 +226,7 @@
                     <li>수동태의 형태는 werden (조동사) + 과거분사형으로 조동사 werden의 현재형과 과거 형은 아래와 같다.</li>
                 </ul>
                 <table class="table table-borderless table-striped">
-                    <thead class="thead-light">
+                    <thead class="table-light">
                     <tr>
                         <th scope="col">&nbsp;</th>
                         <th scope="col">ich</th>
@@ -265,7 +265,7 @@
                     <li>독일어의 많은 동사들이 현재형과 마찬가지로 과거 형에서도 규칙 변화하며 1인칭 및 3인칭 단수 및 복수형의 형태가 아래의 표와 같이 동일하게 변화한다.</li>
                 </ul>
                 <table class="table table-borderless table-striped">
-                    <thead class="thead-light">
+                    <thead class="table-light">
                     <tr>
                         <th scope="col">&nbsp;</th>
                         <th scope="col">ich</th>
@@ -292,7 +292,7 @@
                     <li>불규칙 변화 동사의 과거 형은 불규칙변화동사의 현재형과 마찬가지로 동사 어간에 모음교체현상이 일어나며 1인칭 및 3인칭 단수 및 복수형의 형태가 동일하다.</li>
                 </ul>
                 <table class="table table-borderless table-striped text-center">
-                    <thead class="thead-light">
+                    <thead class="table-light">
                     <tr>
                         <th scope="col">&nbsp;</th>
                         <th scope="col">ich</th>
@@ -404,7 +404,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -579,9 +579,9 @@
                                 $("#qst-" + (i + 1)).addClass("wa");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" + an[i] + "</div>");
+                                    $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">" + an[i] + "</div>");
                                 } else {/* 2 이상인 경우 */
-                                    var r = "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                    var r = "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
@@ -642,7 +642,7 @@
                     di($(pann));
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

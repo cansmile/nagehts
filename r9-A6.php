@@ -46,7 +46,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -56,12 +56,12 @@
                 <div class="col-12" style="line-height: 250%;">
                     Bei uns in Korea feiert man nicht nur am 1.1
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-1">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     , sondern auch
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-2">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     nach dem Mondkalender Neujahr.<span class="tran"><br><small>우리나라 한국에서는 새해를 양력 1월 1일뿐만 아니라 음력
@@ -72,18 +72,18 @@
                             하나이다.</small></span> Da feiert man mit Familie und
                     Verwandten
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-3">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     .<span class="tran"><br><small>그때 집에서 가족과 친적들과 함께 명절을
                             지낸다.</small></span> Man spielt
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-4">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     , wie zum Beispiel ‚Yutnoli‘ und verbeugt sich
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-5">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     und Älteren.<span class="tran"><br><small>새해에는 한국 전통놀이들, 예를
@@ -92,7 +92,7 @@
                             한다).</small></span> Als traditionelles Gericht zum
                     Neujahr gibt es
                     <div class="itm-lst 1itm d-inline-block px-0 m-0" style="min-width: 200px;" id="lst-6">
-                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                        <h2 class="btn btn-warning btn-xl ttl w-100">
                             ▼ </h2>
                     </div>
                     .<span class="tran"><br><small>새해명절음식으로 떡국이
@@ -168,7 +168,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -237,7 +237,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     <?php require "wahl.php"; ?>
                     var pan = new Array();
@@ -249,7 +249,7 @@
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                                 $("#" + $(this).attr("id")).addClass(
-                                    "btn-block font-weight-bold text-left pl-0");
+                                    "w-100 font-weight-bold text-left pl-0");
                                 $("#" + $(this).attr("id")).addClass("border-0");
                                 $("#lst-" + pan[p] + ">h2").remove();
                                 $("#lst-" + pan[p]).parent().find(".tran").show();

@@ -42,7 +42,7 @@
                     einfache Fahrkarte nach Dresden kaufen. Dabei hilft ihr eine Frau . Ergänzen Sie die Lücken.<br/>
                     <small>미나는 자동매표기에서 드레스덴으로 가는 표 한 장을 사려고 합니다. 한 사람이 미나를 돕습니다. 빈칸을
                         채우세요. </small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br/>
@@ -71,7 +71,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Entschuldigung, wie kann man am Automaten eine Fahrkarte kaufen?
                             <span class="tran"><br/><small>실례합니다. 어떻게 자동매표기에서 기차표를 살 수 있을까요?</small></span>
@@ -87,7 +87,7 @@
                         </td>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-1">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼</h2>
                             </div>
                         </td>
                     </tr>
@@ -97,7 +97,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Gut, ich will allein nach Dresden fahren. Aber hier steht Ermäßigung. Was bedeutet das?
                             <span class="tran"><br/><small>좋습니다, 저는 혼자 드레스덴에 가려고 합니다. 하지만 여기 할인이라고 있군요. 무슨 뜻인가요?</small></span>
@@ -113,7 +113,7 @@
                         </td>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-2">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼</h2>
                             </div>
                         </td>
                     </tr>
@@ -123,7 +123,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Ja, richtig.
                             <span class="tran"><br/><small>네, 맞아요.</small></span></td>
@@ -134,7 +134,7 @@
                             <span class="tran"><br/><small>여자</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Dann klicken Sie auf „Student“ und bekommen das Ticket ermäßigt, also billiger.
                             <span class="tran"><br><small>그리고 학생을 클릭해서 할인된 저렴한 티켓을 받으세요.</small></span>
@@ -146,7 +146,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Ja, aber ich studiere in Korea, nicht hier. Ich will nur am Sommersprachkurs in Dresden
                             teilnehmen.
@@ -162,7 +162,7 @@
                         </td>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-3">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼</h2>
                             </div>
                         </td>
                     </tr>
@@ -172,7 +172,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Aha!
                             <span class="tran"><br/><small>아!</small></span></td>
@@ -183,7 +183,7 @@
                             <span class="tran"><br/><small>여자</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Wie möchten Sie zahlen? Hier können Sie Ihre Zahlmethode auswählen. Sehen Sie?
                             <span class="tran"><br/><small>어떻게 결제하시겠어요? 여기에서 지불방법을 선택할 수 있습니다. 보이세요?</small></span></td>
@@ -194,7 +194,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="13" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Ja, ich sehe, man kann mit einer Bankomatkarte, Kreditkarte oder bar bezahlen. Dann zahle
                             ich am besten mit der Kreditkarte. (Sie schiebt sie ein.)
@@ -210,7 +210,7 @@
                         </td>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-4">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼</h2>
                             </div>
                         </td>
                     </tr>
@@ -220,7 +220,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Ah, super! Vielen Dank für Ihre Hilfe.
                             <span class="tran"><br/><small>도와주셔서 감사합니다.</small></span></td>
@@ -235,7 +235,7 @@
                         </td>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-5">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼</h2>
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼</h2>
                             </div>
                         </td>
                     </tr>
@@ -245,7 +245,7 @@
                             <span class="tran"><br/><small>미나</small></span>
                         </th>
                         <td width="50">
-                            <button type="button" id="15" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                            <button type="button" id="15" class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                         </td>
                         <td>Vielen Dank! Und Ihnen einen schönen Tag noch!
                             <span class="tran"><br/><small>감사합니다! 당신도 좋은 하루 보내세요!</small></span></td>
@@ -335,7 +335,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -411,14 +411,14 @@
                     $(".itm").each(function () {
                         if ($(this).hasClass("ans" + pan[p])) {
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                            $("#" + $(this).attr("id")).addClass("btn-block btn-light");
+                            $("#" + $(this).attr("id")).addClass("w-100 btn-light");
                             $("#lst-" + pan[p] + ">h2").remove();
                             $(this).closest("tr").find(".tran").show();
                         }
                     })
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

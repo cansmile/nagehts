@@ -10,7 +10,7 @@
                 <h2>Der Kellner oder der Gast?<br>
                     <small>종업원? 손님?</small>
                     <button type="button"
-                            class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so"
                             id="0">
                         HV
                     </button>
@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <table
-                    class="table table-borderless table-light text-center">
+                    class="table table-borderless text-center">
                     <tr>
                         <td width="10%">
                             <button type="button" id="1"
@@ -39,26 +39,20 @@
                                 class="tran"><br>&nbsp;<small>물 한 잔
                                         주세요.</small></span></td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-1">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-1">
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option1"
-                                           ><label
-                                        for="option1">Kellner</label>
+                                    Kellner
                                 </div>
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option2"
-                                           ><label
-                                        for="option2">Gast</label>
+                                    Gast
                                 </div>
                             </div>
                         </td>
@@ -73,26 +67,20 @@
                                 class="tran"><br>&nbsp;<small>여기
                                         주문할게요.</small></span></td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-2">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-2">
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option3"
-                                           ><label
-                                        for="option3">Kellner</label>
+                                    Kellner
                                 </div>
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option4"
-                                           ><label
-                                        for="option4">Gast</label>
+                                    Gast
                                 </div>
                             </div>
                         </td>
@@ -107,26 +95,20 @@
                                 class="tran"><br>&nbsp;<small>네, 바로 가겠습니다. 뭘
                                         드시겠습니까?</small></span></td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-3">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-3">
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option5"
-                                           ><label
-                                        for="option5">Kellner</label>
+                                    Kellner
                                 </div>
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option6"
-                                           ><label
-                                        for="option6">Gast</label>
+                                    Gast
                                 </div>
                             </div>
                         </td>
@@ -141,26 +123,20 @@
                                 class="tran"><br>&nbsp;<small>자우어크라우트가 있는
                                         슈바이네학세요.</small></span></td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-4">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-4">
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option7"
-                                           ><label
-                                        for="option7">Kellner</label>
+                                    Kellner
                                 </div>
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option8"
-                                           ><label
-                                        for="option8">Gast</label>
+                                    Gast
                                 </div>
                             </div>
                         </td>
@@ -175,26 +151,20 @@
                             Salat.<span class="tran"><br>&nbsp;<small>굴라쉬수프와
                                         샐러드요.</small></span></td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-5">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-5">
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option11"
-                                           ><label
-                                        for="option9">Kellner</label>
+                                    Kellner
                                 </div>
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option12"
-                                           ><label
-                                        for="option10">Gast</label>
+                                    Gast
                                 </div>
                             </div>
                         </td>
@@ -209,26 +179,20 @@
                                 class="tran"><br>&nbsp;<small>그러면 음료는 뭘
                                         드시겠습니까?</small></span></td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-6">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-6">
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option13"
-                                           ><label
-                                        for="option11">Kellner</label>
+                                    Kellner
                                 </div>
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option14"
-                                           ><label
-                                        for="option12">Gast</label>
+                                    Gast
                                 </div>
                             </div>
                         </td>
@@ -298,7 +262,7 @@
             },
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -382,14 +346,16 @@
                             } else {
                                 $(this).addClass("btn-light");
                             };
-                            $(this).remove();
+                            // $(this).remove();
                         });
                         $(".tran").show();
                         $(".nu").show();
-                        $(".q").hide(); /* 정답 확인 div 상자 배경색 속성 없애기 */
+                        $(".q").hide();
+
+                        /* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light");
                         var qa = $(".q").length; /* 전체 문항 수 */
-                        var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                        var qr = $(".btn-success").length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) * 100; /* 정답 비율 */
                         var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                         if (pe > 99) {

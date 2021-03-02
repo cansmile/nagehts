@@ -325,7 +325,7 @@
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
-                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶
+                                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1">▶
                                             </button>
                                         </th>
                                     </tr>
@@ -334,7 +334,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="2"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Frohe Weihnachten!</div>
@@ -344,7 +344,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="3"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Gesegnete Weihnachten!</div>
@@ -360,7 +360,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="4"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Prosit Neujahr!</div>
@@ -370,7 +370,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="5"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Guten Rutsch ins Neujahr!</div>
@@ -382,7 +382,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="6"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Frohes neues Jahr!</div>
@@ -392,7 +392,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="7"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Gesegnetes neues Jahr!</div>
@@ -404,7 +404,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="8"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Frohe Ostern!</div>
@@ -421,7 +421,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="9"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Alles Gute zum Geburtstag!</div>
@@ -433,7 +433,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="10"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Alles Liebe zum Geburtstag!</div>
@@ -449,7 +449,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="11"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Welches Datum haben wir heute?</div>
@@ -461,7 +461,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="12"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Heute ist der fünfzehnte August.</div>
@@ -477,7 +477,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="13"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wann hast du Geburtstag?</div>
@@ -489,7 +489,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="14"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich habe im Juli/ im Sommer / am 30. Juli
@@ -507,7 +507,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="15"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wann bist du geboren?</div>
@@ -519,7 +519,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="16"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich bin am 30. Juli 2000 geboren.</div>
@@ -535,7 +535,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="17"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Am fünfzehnten August ist unabhängiger
@@ -553,7 +553,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="18"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Welche Feiertage und Feste gibt es in
@@ -567,7 +567,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="19"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wir haben Neujahr, Kindertag,
@@ -585,7 +585,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="20"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wie feiert man in Korea?</div>
@@ -601,7 +601,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="21"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Mit wem feiern Sie?</div>
@@ -613,7 +613,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="22"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wir feiern mit Familie. / mit Verwandten.
@@ -631,7 +631,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="23"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wo feiern Sie?</div>
@@ -643,7 +643,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="24"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wir feiern zu Hause. / im Restaurant oder
@@ -657,7 +657,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="25"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Wir mieten einen Raum.</div>
@@ -673,7 +673,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="26"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Was möchten Sie zum Geburtstag
@@ -687,7 +687,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="27"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich freue mich [nicht] über das
@@ -701,7 +701,7 @@
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="28"
-                                                            class="so btn btn-outline-dark btn-sm mr-1">▶
+                                                            class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 lh250">Ich möchte zum Geburtstag (nicht) gern
@@ -790,8 +790,8 @@
         onload: function () {
             /* 음성 준비되면 HV 버튼 나타내기 */
             $("#whole").show();
-            $("#alt").hide();
-            /* $(".alert").hide(); */
+            $("#ready").hide();
+            /* $("#ready").hide(); */
 
             $(".so").on("click", function (idx) {
                 var t = $(this);

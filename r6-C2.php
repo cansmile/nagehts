@@ -85,7 +85,7 @@
                         <td class="text-center" width="50" id="t1">1.</td>
                         <td id="b1">
                             <div class="itm-lst 1itm py-0 my-0" id="lst-1">
-                                <h2 class="btn py-0 my-0 btn-warning btnsml ttl d-block">
+                                <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
                                     ▼ </h2>
                             </div>
                         </td>
@@ -105,7 +105,7 @@
                             <td class="text-center" id="t3">2.</td>
                             <td id="b3">
                                 <div class="itm-lst 1itm py-0 my-0" id="lst-2">
-                                    <h2 class="btn py-0 my-0 btn-warning btnsml ttl d-block">
+                                    <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </td>
@@ -129,7 +129,7 @@
                         <td class="text-center" width="50" id="t5">3.</td>
                         <td id="b5">
                             <div class="itm-lst 1itm py-0 my-0" id="lst-3">
-                                <h2 class="btn py-0 my-0 btn-warning btnsml ttl d-block">
+                                <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
                                     ▼ </h2>
                             </div>
                         </td>
@@ -151,7 +151,7 @@
                         </td>
                         <td id="b7">
                             <div class="itm-lst 1itm py-0 my-0" id="lst-4">
-                                <h2 class="btn py-0 my-0 btn-warning btnsml ttl d-block">
+                                <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
                                     ▼ </h2>
                             </div>
                         </td>
@@ -335,7 +335,7 @@
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[
                                     p]));
                                 $("#" + $(this).attr("id")).addClass(
-                                    "btn-block font-weight-bold");
+                                    "w-100 font-weight-bold");
                                 $("#lst-" + pan[p] + ">h2").remove();
                             }
                         })
@@ -343,7 +343,7 @@
 
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                             var t = $(this);

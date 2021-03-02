@@ -339,19 +339,19 @@ h6,
     box-shadow: 0 0 0 0.2rem rgba(219, 219, 219, 0.5);
 }
 
-.badge-gray {
+.bg-gray {
     color: #fff;
     background-color: #7f7f7f;
 }
 
-a.badge-gray:hover,
-a.badge-gray:focus {
+a.bg-gray:hover,
+a.bg-gray:focus {
     color: #fff;
     background-color: #666666;
 }
 
-a.badge-gray:focus,
-a.badge-gray.focus {
+a.bg-gray:focus,
+a.bg-gray.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(219, 219, 219, 0.5);
 }
@@ -508,19 +508,19 @@ a.text-gray:focus {
     box-shadow: 0 0 0 0.2rem rgba(221, 184, 255, 0.5);
 }
 
-.badge-purple {
+.bg-purple {
     color: #fff;
     background-color: #8300ff;
 }
 
-a.badge-purple:hover,
-a.badge-purple:focus {
+a.bg-purple:hover,
+a.bg-purple:focus {
     color: #fff;
     background-color: #6900cc;
 }
 
-a.badge-purple:focus,
-a.badge-purple.focus {
+a.bg-purple:focus,
+a.bg-purple.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(221, 184, 255, 0.5);
 }
@@ -677,19 +677,19 @@ a.text-purple:focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 221, 184, 0.5);
 }
 
-.badge-orange {
+.bg-orange {
     color: #fff;
     background-color: #ff8300;
 }
 
-a.badge-orange:hover,
-a.badge-orange:focus {
+a.bg-orange:hover,
+a.bg-orange:focus {
     color: #fff;
     background-color: #cc6900;
 }
 
-a.badge-orange:focus,
-a.badge-orange.focus {
+a.bg-orange:focus,
+a.bg-orange.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(255, 221, 184, 0.5);
 }
@@ -846,19 +846,19 @@ a.text-orange:focus {
     box-shadow: 0 0 0 0.2rem rgba(237, 237, 237, 0.5);
 }
 
-.badge-gray-light {
+.bg-gray-light {
     color: #fff;
     background-color: #bfbfbf;
 }
 
-a.badge-gray-light:hover,
-a.badge-gray-light:focus {
+a.bg-gray-light:hover,
+a.bg-gray-light:focus {
     color: #fff;
     background-color: #b2b2b2;
 }
 
-a.badge-gray-light:focus,
-a.badge-gray-light.focus {
+a.bg-gray-light:focus,
+a.bg-gray-light.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(237, 237, 237, 0.5);
 }
@@ -1015,19 +1015,19 @@ a.text-gray-light:focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 184, 224, 0.5);
 }
 
-.badge-pink {
+.bg-pink {
     color: #fff;
     background-color: #ff008f;
 }
 
-a.badge-pink:hover,
-a.badge-pink:focus {
+a.bg-pink:hover,
+a.bg-pink:focus {
     color: #fff;
     background-color: #cc0073;
 }
 
-a.badge-pink:focus,
-a.badge-pink.focus {
+a.bg-pink:focus,
+a.bg-pink.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(255, 184, 224, 0.5);
 }
@@ -1184,19 +1184,19 @@ a.text-pink:focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-.badge-lime {
+.bg-lime {
     color: #fff;
     background-color: #c6ff00;
 }
 
-a.badge-lime:hover,
-a.badge-lime:focus {
+a.bg-lime:hover,
+a.bg-lime:focus {
     color: #fff;
     background-color: #9fcc00;
 }
 
-a.badge-lime:focus,
-a.badge-lime.focus {
+a.bg-lime:focus,
+a.bg-lime.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }

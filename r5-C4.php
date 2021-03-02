@@ -10,7 +10,7 @@
                 <h2> Hören Sie und ergänzen Sie.<br>
                     <small>듣고 채우세요.</small>
                     <button type="button"
-                            class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so"
                             id="0">
                         HV
                     </button>
@@ -102,7 +102,7 @@
                                 Er trinkt eine
                                 <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-4 col-xl-4 border-bottom-only
-                                            rounded-0 ml-0 q t-6"
+                                            rounded-0 ms-0 q t-6"
                                        aria-label="."
                                        id="qst-1">
                                 .
@@ -122,7 +122,7 @@
                                 Mittags isst er einen
                                 <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
-                                            rounded-0 ml-1 q t-6"
+                                            rounded-0 ms-1 q t-6"
                                        aria-label="."
                                        id="qst-2">
                                 und trinkt eine Cola.
@@ -148,7 +148,7 @@
                                 Nachmittags isst er Pommes und ein
                                 <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
-                                            rounded-0 ml-1 q t-6"
+                                            rounded-0 ms-1 q t-6"
                                        aria-label="."
                                        id="qst-3">
                                 .
@@ -168,7 +168,7 @@
                                 Abends isst er eine
                                 <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
-                                            rounded-0 ml-1 q t-6"
+                                            rounded-0 ms-1 q t-6"
                                        aria-label="."
                                        id="qst-4">
                             </div>
@@ -187,7 +187,7 @@
                                 und trinkt eine
                                 <input autocomplete="off" type="text"
                                        class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 border-bottom-only
-                                            rounded-0 ml-1 q t-6"
+                                            rounded-0 ms-1 q t-6"
                                        aria-label="."
                                        id="qst-5">
                                 .
@@ -517,7 +517,7 @@
                                 $("#qst-" + (i +
                                     1))
                                     .addClass(
-                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                     );
                                 $("#qst-" + (i +
                                     1))
@@ -551,7 +551,7 @@
                                             1)
                                     )
                                         .after(
-                                            "<div class=\"d-block ra t-6\">" +
+                                            "<div class=\"w-100 ra t-6\">" +
                                             an[
                                                 i] +
                                             "</div>"
@@ -559,7 +559,7 @@
                                 } else {
                                     /* 2 이상인 경우 */
                                     var r =
-                                        "<div class=\"d-block ra t-6\">";
+                                        "<div class=\"w-100 ra t-6\">";
                                     for (var fd =
                                         (an[i]
                                                 .length -
@@ -667,7 +667,7 @@
                     ;
                 });
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
 
                 $(".so").on("click", function () {
                     var t = $(this);

@@ -72,7 +72,7 @@ if($("#th-"+opp).find("button").length) {
 						if(tm == 0) {
 						o.play();
 
-							$(this).addClass("btn-block btn-light");
+							$(this).addClass("w-100 btn-light");
 							$(this).insertAfter(t);
 						}
 
@@ -101,7 +101,7 @@ if($("#th-"+opp).find("button").length) {
 						if(tm == 0) {
 						o.play();
 
-							$(this).addClass("btn-block btn-light");
+							$(this).addClass("w-100 btn-light");
 							$(this).insertAfter(t);
 						}
 
@@ -144,7 +144,7 @@ $("#rst").on("click", function() {
 	for (var i = 1; i <= ($(".itm").length); i++) {
 		var n = eval('"#' + i + '"');
 		$(n).appendTo("#itms");
-		$(n).removeClass("btn-block");
+		$(n).removeClass("w-100");
 		$(n).removeClass("btn-light");
 	}
 	$("#itms").children(".itm").removeClass("btn-secondary");

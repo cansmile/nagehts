@@ -36,7 +36,7 @@
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h3>
@@ -60,7 +60,7 @@
                             <div class="p-2 m-0">
                                 Hallo Mina, hier ist Tim.&nbsp;
                                 <div class="itm-lst 1itm d-inline-block" id="lst-1" style="min-width: 30%; ">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 <br>Wollen wir ins Kino gehen?
@@ -75,7 +75,7 @@
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 <div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 30%; ">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 &nbsp;Ich gehe am Samstag in die Kirche.
@@ -90,7 +90,7 @@
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 <div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 30%; ">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 <span class="tran"><br><small>그럼 일요일
@@ -103,15 +103,15 @@
                         <td class="align-middle">
                             <div class="p-2 m-0">
                                 <div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 30%; ">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 <div class="itm-lst 1itm d-inline-block" id="lst-5" style="min-width: 30%; ">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 <div class="itm-lst 1itm d-inline-block" id="lst-6" style="min-width: 30%; ">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 <span class="tran"><br><small>일요일 저녁에는
@@ -297,7 +297,7 @@
                     $(".itm").each(function () {
                         if ($(this).hasClass("ans" + pan[p])) {
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                            $("#" + $(this).attr("id")).addClass("btn-block");
+                            $("#" + $(this).attr("id")).addClass("w-100");
                             $("#" + $(this).attr("id")).addClass("border-0");
                             $("#" + $(this).attr("id")).addClass("border-0 text-left");
                             $("#lst-" + pan[p] + ">h2").remove();/* $("#lst-" + pan[p]).parent().find(".tran").show(); */

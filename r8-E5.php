@@ -8,7 +8,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Schreiben Sie. <br>
                     <small>써보세요.</small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
@@ -23,7 +23,7 @@
                     <tr>
                         <th scope="row" rowspan="4" width="5%">1.
                             <img src="./dev/images/Reihe 8/Reihe-8-E5-1.png" alt="erkältet"
-                                 class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
+                                 class="rounded d-sm-none d-mw-100 d-lg-block d-xl-block "
                                  style="max-width: 180px; height: auto;">
                         </th>
                         <td>
@@ -109,7 +109,7 @@
                     <tr>
                         <th scope="row" rowspan="4">2.
                             <img src="./dev/images/Reihe 8/Reihe-8-E5-2.png" alt="nervös"
-                                 class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
+                                 class="rounded d-sm-none d-mw-100 d-lg-block d-xl-block "
                                  style="max-width: 180px; height: auto;">
                         </th>
                         <td>
@@ -192,7 +192,7 @@
                     <tr>
                         <th scope="row" rowspan="4">3.
                             <img src="./dev/images/Reihe 8/Reihe-8-E5-3.png" alt="Durchfall"
-                                 class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
+                                 class="rounded d-sm-none d-mw-100 d-lg-block d-xl-block "
                                  style="max-width: 180px; height: auto;">
                         </th>
                         <td>
@@ -276,7 +276,7 @@
                         <th scope="row" rowspan="4">4.
                             <img src="./dev/images/Reihe 8/Reihe-8-E5-4.png"
                                  alt="Rückenschmerzen"
-                                 class="rounded d-sm-none d-md-block d-lg-block d-xl-block "
+                                 class="rounded d-sm-none d-mw-100 d-lg-block d-xl-block "
                                  style="max-width: 180px; height: auto;">
                         </th>
                         <td>
@@ -419,7 +419,7 @@
             },
             onload: function () {
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -589,7 +589,7 @@
                     var oran = $("#qst-" + (i + 1)).val();
                     if (rfchk($("#qst-" + (i + 1)), true)) {
                         $("#qst-" + (i + 1)).addClass(
-                            "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                            "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                     } else {
                         $("#qst-" + (i + 1)).val(oran);
@@ -597,11 +597,11 @@
                         $("#qst-" + (i + 1)).addClass("wa");
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                         if (!$.isArray(an[i])) {
-                            $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] +
+                            $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] +
                                 "</div>");
                         } else {
                             /* 2 이상인 경우 */
-                            var r = "<div class=\"d-block ra t-6\">";
+                            var r = "<div class=\"w-100 ra t-6\">";
                             for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                 if (fd < (an[i].length - 1)) {
                                     r = r + " / ";

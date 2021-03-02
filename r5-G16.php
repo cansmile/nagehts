@@ -9,7 +9,7 @@
                 <h2> Hören Sie und ergänzen Sie die Lücken. <br>
                     <small> 듣고 빈칸을 채우세요. </small>
                     <button type="button"
-                            class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so"
                             id="0">
                         HV
                     </button>
@@ -57,7 +57,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon1"
                                            class="form-control q text-center col-4 border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-1">
                                     bitte.
                                 </div>
@@ -92,7 +92,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon3"
                                            class="form-control col-3 q pr-0 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-2">
                                     .
                                 </div>
@@ -117,7 +117,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon4"
                                            class="form-control col-4 q text-right pr-0 border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-3">
                                     ?
                                 </div>
@@ -141,7 +141,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon5"
                                            class="pr-0 form-control col-6 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-4">
                                     .
                                 </div>
@@ -166,7 +166,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon6"
                                            class="form-control col-3 q pr-0 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-5">
                                     ?
                                 </div>
@@ -190,7 +190,7 @@
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon7"
                                                                       class="form-control q col-6 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                                                       id="qst-6">
                                     .
                                 </div>
@@ -214,7 +214,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon8"
                                            class="form-control q text-center col-6 border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-7">
                                     ?
                                 </div>
@@ -239,7 +239,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon9"
                                            class="form-control col-4 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-8">
                                 </div>
                             </div>
@@ -257,7 +257,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon9"
                                            class="form-control col-3 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-9">
                                     .
                                 </div>
@@ -296,7 +296,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon10"
                                            class="form-control col-4 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-10">
                                     .
                                 </div>
@@ -321,7 +321,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon11"
                                            class="form-control col-6 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-11">
                                     ?
                                 </div>
@@ -345,7 +345,7 @@
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon12"
                                                                       class="form-control col-3 q pr-0 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                                                       id="qst-12">
                                     , bitte.
                                 </div>
@@ -369,7 +369,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon13"
                                            class="form-control col-5 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-13">
                                     ?
                                 </div>
@@ -393,7 +393,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon14"
                                            class="form-control col-6 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-14">
                                 </div>
                             </div>
@@ -412,7 +412,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon14"
                                            class="form-control col-6 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-15">
                                     .
                                 </div>
@@ -436,7 +436,7 @@
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon15"
                                                                       class="form-control col-5 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                                                       id="qst-16">
                                     9,70 €.
                                 </div>
@@ -486,7 +486,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon18"
                                            class="form-control q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-17">
                                     und
                                 </div>
@@ -496,7 +496,7 @@
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon18"
                                                                       class="form-control q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                                                       id="qst-18">
                                     .
                                 </div>
@@ -520,7 +520,7 @@
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon19"
                                                                       class="form-control col-2 q text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                                                       id="qst-19">
                                     ,
                                 </div>
@@ -540,7 +540,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon19"
                                            class="form-control q pr-0 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-20">
                                     ...,
                                 </div>
@@ -560,7 +560,7 @@
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon19"
                                                                       class="form-control q pr-0 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                                                       id="qst-21">
                                     18,50 €.
                                 </div>
@@ -585,7 +585,7 @@
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon20"
                                            class="form-control q pr-0 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                            id="qst-22">
                                     !
                                 </div>
@@ -609,7 +609,7 @@
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon21"
                                                                       class="form-control q pr-0 text-center border-bottom-only
-                                                rounded-0 ml-1 t-6"
+                                                rounded-0 ms-1 t-6"
                                                                       id="qst-23">
                                     !
                                 </div>
@@ -969,7 +969,7 @@
                                             $("#qst-" + (i +
                                                 1))
                                                 .addClass(
-                                                    "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                                    "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                                 );
                                             $("#qst-" + (i +
                                                 1))
@@ -1004,7 +1004,7 @@
                                                         1)
                                                 )
                                                     .after(
-                                                        "<div class=\"d-block ra t-6\">" +
+                                                        "<div class=\"w-100 ra t-6\">" +
                                                         an[
                                                             i] +
                                                         "</div>"
@@ -1012,7 +1012,7 @@
                                             } else {
                                                 /* 2 이상인 경우 */
                                                 var r =
-                                                    "<div class=\"d-block ra t-6\">";
+                                                    "<div class=\"w-100 ra t-6\">";
                                                 for (var fd =
                                                     (an[i]
                                                             .length -
@@ -1180,7 +1180,7 @@
 
 
                         $("#0").show();
-                        $(".alert").hide();
+                        $("#ready").hide();
 
                         $(".so").on("click", function () {
                                 var t = $(this);

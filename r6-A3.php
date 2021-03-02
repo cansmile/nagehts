@@ -49,7 +49,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>그림에 맞는 단어를 그림 아래에 노란 단추를 눌러 넣세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -68,7 +68,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -88,7 +88,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -108,7 +108,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -128,7 +128,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -148,7 +148,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -168,7 +168,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -188,7 +188,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-7">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -208,7 +208,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-8">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -228,7 +228,7 @@
                             <tr>
                                 <th scope="row">
                                     <div class="itm-lst 1itm" id="lst-9">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </th>
@@ -380,7 +380,7 @@
                                     }
                                 });
                                 $("#0").show();
-                                $(".alert").hide();
+                                $("#ready").hide();
 
                                 /* 답 미리넣어놓기 */
                                 var pan = new Array();
@@ -391,7 +391,7 @@
                                     $(".itm").each(function () {
                                         if ($(this).hasClass("ans" + pan[p])) {
                                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                            $("#" + $(this).attr("id")).addClass("btn-block text-center");
+                                            $("#" + $(this).attr("id")).addClass("w-100 text-center");
                                             $("#lst-" + pan[p] + ">h2").remove();
                                             $("#lst-" + pan[p]).parent().find(".tran").show();
                                         }

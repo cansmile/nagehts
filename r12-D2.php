@@ -40,7 +40,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.<br/>
                     <small> 빈칸을 채우세요. </small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br/>
@@ -62,7 +62,7 @@
         <div class="row">
             <div class="col-12">
                 <table class="table table-borderless table-striped">
-                    <thead class="thead-dark text-center">
+                    <thead class="table-dark text-center">
                     <tr>
                         <th scope="col">
                             Aktivsätze
@@ -79,7 +79,7 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-sm-3 col-md-2 col-lg-1">
-                                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </div>
                                 <div class="col-sm-9 col-md-10 col-lg-11">
@@ -90,7 +90,7 @@
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-1">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>거기에서 나는 체크인되고 나의 짐은 부쳐졌다</small></span>
@@ -100,7 +100,7 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-sm-3 col-md-2 col-lg-1">
-                                    <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </div>
                                 <div class="col-sm-9 col-md-10 col-lg-11">
@@ -111,7 +111,7 @@
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-2">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>탑승권이 나에게 넘겨졌다.</small></span>
@@ -121,7 +121,7 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-sm-3 col-md-2 col-lg-1">
-                                    <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </div>
                                 <div class="col-sm-9 col-md-10 col-lg-11">
@@ -132,7 +132,7 @@
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-3">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>탑승객들이 호명되었다.</small></span>
@@ -142,7 +142,7 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-sm-3 col-md-2 col-lg-1">
-                                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </div>
                                 <div class="col-sm-9 col-md-10 col-lg-11">
@@ -153,7 +153,7 @@
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-4">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>비행 동안 우리에게 약간의 스낵과 음료가 제공되었다.</small></span>
@@ -163,7 +163,7 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-sm-3 col-md-2 col-lg-1">
-                                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </div>
                                 <div class="col-sm-9 col-md-10 col-lg-11">
@@ -176,7 +176,7 @@
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-5">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>비행 출발에 앞서 승무원들에 의해 올바른 안전벨트 기능에 대한 주의사항이 주어졌다.</small></span>
@@ -186,7 +186,7 @@
                         <th scope="row">
                             <div class="row">
                                 <div class="col-sm-3 col-md-2 col-lg-1">
-                                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </div>
                                 <div class="col-sm-9 col-md-10 col-lg-11">
@@ -197,7 +197,7 @@
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-6">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>관세 신고할 것이 있는지 나에게 물어졌다.</small></span>
@@ -291,7 +291,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -367,13 +367,13 @@
                     $(".itm").each(function () {
                         if ($(this).hasClass("ans" + pan[p])) {
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                            $("#" + $(this).attr("id")).addClass("btn-block btn-light");
+                            $("#" + $(this).attr("id")).addClass("w-100 btn-light");
                             $("#lst-" + pan[p] + ">h2").remove();
                         }
                     })
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

@@ -52,29 +52,23 @@
                                     <span class="tran"><br><small>우리 토요일 오후에 국립
                                             오페레타극장에 갈래?</small></span></td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q"
-                                        data-toggle="buttons" id="qst-1">
+                                    <div class="btn-group q"
+                                        data-toggle="buttons" role="group" id="qst-1">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1"
-                                                ><label
-                                                for="option1">Ja , das
-                                                geht.</label>
+                                            Ja , das
+                                                geht.
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2"
-                                                ><label
-                                                for="option2">Nein, das geht
-                                                leider nicht !</label>
+                                            Nein, das geht
+                                                leider nicht !
                                         </div>
                                     </div>
                                 </td>
@@ -86,29 +80,23 @@
                                     <span class="tran"><br><small>우리 일요일 저녁에 서커스
                                             보러 갈래?</small></span></td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q"
-                                        data-toggle="buttons" id="qst-2">
+                                    <div class="btn-group q"
+                                        data-toggle="buttons" role="group" id="qst-2">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1"
-                                                ><label
-                                                for="option3">Ja , das
-                                                geht.</label>
+                                            Ja , das
+                                                geht.
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2"
-                                                ><label
-                                                for="option4">Nein, das geht
-                                                leider nicht !</label>
+                                            Nein, das geht
+                                                leider nicht !
                                         </div>
                                     </div>
                                 </td>
@@ -126,29 +114,23 @@
                                     <span class="tran"><br><small>우리 토요일 저녁에
                                             영화관에 갈래?</small></span></td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q"
-                                        data-toggle="buttons" id="qst-3">
+                                    <div class="btn-group q"
+                                        data-toggle="buttons" role="group" id="qst-3">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1"
-                                                ><label
-                                                for="option5">Ja , das
-                                                geht.</label>
+                                            Ja , das
+                                                geht.
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2"
-                                                ><label
-                                                for="option6">Nein, das geht
-                                                leider nicht !</label>
+                                            Nein, das geht
+                                                leider nicht !
                                         </div>
                                     </div>
                                 </td>
@@ -162,29 +144,23 @@
                                             시티투어와 미술관 관람 할거야. 너도
                                             갈래?</small></span></td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q"
-                                        data-toggle="buttons" id="qst-4">
+                                    <div class="btn-group q"
+                                        data-toggle="buttons" role="group" id="qst-4">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1"
-                                                ><label
-                                                for="option7">Ja , das
-                                                geht.</label>
+                                            Ja , das
+                                                geht.
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2"
-                                                ><label
-                                                for="option8">Nein, das geht
-                                                leider nicht !</label>
+                                            Nein, das geht
+                                                leider nicht !
                                         </div>
                                     </div>
                                 </td>
@@ -321,7 +297,7 @@
                 }
             });
             /* $("#0").show(); */
-            /* $(".alert").hide(); */
+            /* $("#ready").hide(); */
             $("#qst-1>div.o").addClass("an");
             $("#qst-1>div.o").addClass("btn-warning");
             $("#qst-1>div.o").removeClass("btn-light");

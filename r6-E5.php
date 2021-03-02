@@ -77,7 +77,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 칸(einfache Verben, trennbare Verben,
                             untrennbare Verben)에 넣으세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -91,19 +91,19 @@
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
                     class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>einfache Verben</strong><br><small>단순동사</small>
                     </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-success itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>trennbare Verben</strong><br><small>분리동사</small>
                     </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-3">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>untrennbare
                             Verben</strong><br><small>비분리동사</small></h2>&nbsp;
                 </div>
@@ -184,7 +184,7 @@
                 },
                 onload: function () {
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -274,7 +274,7 @@
                             for (var i = 1; i <= $(".itm-lst").length; i++) {
                                 if ($(this).hasClass("ans" + i)) {
                                     $(eval('"#lst-' + i + '"')).append(
-                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" +
+                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
                                         $(this).html() + "</button>"); /* $(lstn).append(i); */
                                 }
                             }
@@ -317,14 +317,14 @@
                             "#lst-" + (n +
                                 1) + ">h2"));
                         $(pani).addClass(
-                            "btn-block btn-light"
+                            "w-100 btn-light"
                         );
                     }
                 }
             }
 
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
 
         });
 

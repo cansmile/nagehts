@@ -56,7 +56,7 @@ var tm = 0;
 				if(tm == 0) {
 					o.play();
 
-					$(this).addClass("btn-block btn-light");
+					$(this).addClass("w-100 btn-light");
 					$(this).insertAfter(t);
 				}
 

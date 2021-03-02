@@ -42,17 +42,17 @@
                 <table class="table table-borderless">
                     <tbody>
                     <tr>
-                        <td class="mr-0 pr-0">
+                        <td class="me-0 pr-0">
                             <div class="ant t-6" id="ant-1"></div>
                             <div class="ant t-6" id="ant-2"></div>
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control q border-bottom-only rounded ml-1 t-6"
+                                       class="form-control q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-1">
                                 gern
                                 <input autocomplete="off" type="text"
-                                       class="form-control q border-bottom-only rounded ml-1 t-6"
+                                       class="form-control q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-2">
                                 .
                             </div>
@@ -66,7 +66,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
+                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-3">
                                 gern Fußball.
                             </div>
@@ -80,7 +80,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
+                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-4">
                                 gern.
                             </div>
@@ -126,12 +126,12 @@
                 <table class="table table-borderless">
                     <tbody>
                     <tr>
-                        <td class="mr-0 pr-0">
+                        <td class="me-0 pr-0">
                             <div class="ant t-6" id="ant-5"></div>
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
+                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-5">
                                 nicht gern Bücher.
                             </div>
@@ -145,7 +145,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
+                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-6">
                                 nicht gern Freunde.
                             </div>
@@ -154,12 +154,12 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="pr-0 mr-0">
+                        <td class="pr-0 me-0">
                             <div class="ant t-6" id="ant-7"></div>
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ml-1 t-6"
+                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-7">
                                 nicht gern Auto.
                             </div>
@@ -194,11 +194,11 @@
                     <tr>
                         <td width="50%">[부사]<br>
                             1. 즐겨, 기꺼이<br>
-                            <div class="ml-4">• 부탁이나 권유에 대한 대답<br>
-                                <span class="ml-4">Ja, gern! 네,
+                            <div class="ms-4">• 부탁이나 권유에 대한 대답<br>
+                                <span class="ms-4">Ja, gern! 네,
                                             그럼요.</span><br><br>
                                 • 감사에 대한 대답<br>
-                                <span class="ml-4">Bitte, gern
+                                <span class="ms-4">Bitte, gern
                                             geschehen. 천만에요, 기꺼이
                                             한일이에요.</span><br></div>
                         </td>
@@ -368,7 +368,7 @@
                             var oran = $("#qst-" + (i + 1)).val();
                             if (rfchk($("#qst-" + (i + 1)), true)) {
                                 $("#qst-" + (i + 1)).addClass(
-                                    "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                                    "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                             } else {
                                 $("#qst-" + (i + 1)).val(oran);
@@ -378,12 +378,12 @@
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
                                     $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-6\">" +
+                                        "<div class=\"w-100 ra t-6\">" +
                                         an[i] + "</div>");
                                 } else {
                                     /* 2 이상인 경우 */
                                     var r =
-                                        "<div class=\"d-block ra t-6\">";
+                                        "<div class=\"w-100 ra t-6\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";

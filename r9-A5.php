@@ -10,7 +10,7 @@
                         <small> 빈칸을 채우세요. </small> <br>
                         [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                             표시됩니다.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -65,7 +65,7 @@
                         <tbody>
                             <tr>
                                 <th width="20" class="text-center"><button type="button" id="1"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
                                 <td width="50" class="text-right">1.1</td>
                                 <td>
@@ -87,7 +87,7 @@
                         <tbody>
                             <tr>
                                 <th width="20" class="text-center"><button type="button" id="2"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
                                 <td width="50" class="text-right">14.2</td>
                                 <td>
@@ -109,12 +109,12 @@
                         <tbody>
                             <tr>
                                 <th width="20" class="text-center"><button type="button" id="3"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
                                 <td width="50" class="text-right">1.5.</td>
                                 <td>
                                     <div class="input-group">
-                                        Am ersten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
+                                        Am ersten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only me-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-3">ist Tag
                                         der Arbeit.
@@ -131,12 +131,12 @@
                         <tbody>
                             <tr>
                                 <th width="20" class="text-center"><button type="button" id="4"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
                                 <td width="50" class="text-right">3.10.</td>
                                 <td>
                                     <div class="input-group">
-                                        Am dritten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
+                                        Am dritten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only me-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-4">ist Tag
                                         der deutschen Einheit.
@@ -153,12 +153,12 @@
                         <tbody>
                             <tr>
                                 <th width="20" class="text-center"><button type="button" id="5"
-                                        class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                                        class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
                                 <td width="50" class="text-right">6.12.</td>
                                 <td>
                                     <div class="input-group">
-                                        Am sechsten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mr-1 px-2 py-1
+                                        Am sechsten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only me-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
                                             aria-label="." id="qst-5">ist
                                         Nikolaustag.
@@ -241,7 +241,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -397,11 +397,11 @@
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
                                         $("#qst-" + (i + 1)).after(
-                                            "<div class=\"d-block ra t-6\">" + an[i] +
+                                            "<div class=\"w-100 ra t-6\">" + an[i] +
                                             "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
-                                        var r = "<div class=\"d-block ra t-6\">";
+                                        var r = "<div class=\"w-100 ra t-6\">";
                                         for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                             if (fd < (an[i].length - 1)) {
                                                 r = r + " / ";
@@ -467,7 +467,7 @@
                         $(pann).prop("disabled", true);
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

@@ -6,7 +6,7 @@
                     <h2>Hören Sie und ergänzen Sie „?“ oder „.“.<br>
                         <small>빈칸에 물음표(?) 또는 마침표(.)를 넣으세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -37,28 +37,22 @@
                                     <div>
                                         <span class="sen">Ich heiße Martin<span
                                                 class="nu">①</span>
-                                            <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                                data-toggle="buttons"
+                                            <div class="btn-group border border-dark border-bottom-only q"
+                                                data-toggle="buttons" rold="group"
                                                 id="qst-1">
                                                 <div class="btn btn-light pop o"
                                                     data-toggle="popover"
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답!">
-                                                    <input autocomplete="off" type="radio"
-                                                        name="options"
-                                                        id="option1"
-                                                        >.
+                                                    .
                                                 </div>
                                                 <div class="btn btn-light pop x"
                                                     data-toggle="popover"
                                                     data-container="body"
                                                     data-placement="top"
                                                     data-content="정답이 아니에요.">
-                                                    <input autocomplete="off" type="radio"
-                                                        name="options"
-                                                        id="option2"
-                                                        >?
+                                                    ?
                                                 </div>
                                             </div>
                                         </span>
@@ -74,25 +68,21 @@
                                 <td>
                                     <span class="sen">Und wie heißt du<span
                                             class="nu">②</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-2">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-2">
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option3"
-                                                    >.
+                                                .
                                             </div>
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option4"
-                                                    >?
+                                                ?
                                             </div>
                                         </div>
                                     </span>
@@ -107,25 +97,21 @@
                                 <td>
                                     <span class="sen">Tim<span
                                             class="nu">③</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-3">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-3">
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option5"
-                                                    >.
+                                                .
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option6"
-                                                    >?
+                                                ?
                                             </div>
                                         </div>
                                     </span>
@@ -153,25 +139,21 @@
                                 <td>
                                     <span class="sen">Wie heißen Sie<span
                                             class="nu">④</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-4">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-4">
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option7"
-                                                    >.
+                                                .
                                             </div>
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option8"
-                                                    >?
+                                                ?
                                             </div>
                                         </div>
                                     </span>
@@ -187,25 +169,21 @@
                                 <td>
                                     <span class="sen">Mein Name ist Sauer<span
                                             class="nu">⑤</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-5">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-5">
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option9"
-                                                    >.
+                                                .
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option10"
-                                                    >?
+                                                ?
                                             </div>
                                         </div>
                                     </span>
@@ -234,25 +212,21 @@
                                 <td>
                                     <span class="sen">Ich heiße Esswein<span
                                             class="nu">⑥</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-6">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-6">
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option13"
-                                                    >.
+                                                .
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option14"
-                                                    >?
+                                                ?
                                             </div>
                                         </div>
                                     </span>
@@ -268,25 +242,21 @@
                                 <td>
                                     <span class="sen">Und Sie<span
                                             class="nu">⑦</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-7">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-7">
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option15"
-                                                    >.
+                                                .
                                             </div>
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option16"
-                                                    >?
+                                                ?
                                             </div>
                                         </div>
                                     </span>
@@ -301,25 +271,21 @@
                                 <td>
                                     <span class="sen">Anna, Anna Kim<span
                                             class="nu">⑧</span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                            data-toggle="buttons" id="qst-8">
+                                        <div class="btn-group border border-dark border-bottom-only q"
+                                            data-toggle="buttons" rold="group" id="qst-8">
                                             <div class="btn btn-light pop o"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option17"
-                                                    >.
+                                                .
                                             </div>
                                             <div class="btn btn-light pop x"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option18"
-                                                    >?
+                                                ?
                                             </div>
                                         </div>
                                     </span>
@@ -401,7 +367,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -677,7 +643,7 @@
                     });
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

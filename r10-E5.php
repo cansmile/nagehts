@@ -46,7 +46,7 @@
                         <li>
                             <div class="itm-lst 1itm d-inline-block" id="lst-1">
                                 Das ist
-                                <h2 class="btn btn-warning btn-lg ttl mx-1 d-block"
+                                <h2 class="btn btn-warning btn-lg ttl mx-1 w-100"
                                     style="min-width: 450px; max-width: 600px;">
                                     ▼ </h2>
                             </div>.
@@ -59,10 +59,10 @@
             <div class="row mt-2">
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
-                        <div class="col-1 mr-1 font-weight-bold">
+                        <div class="col-1 me-1 font-weight-bold">
                             1.
                         </div>
-                        <div class="col ml-1">
+                        <div class="col ms-1">
                             <ul>
                                 <li type="square">
                                     Entschuldigen Sie, wo ist die Kirche?
@@ -71,7 +71,7 @@
                                 <li type="circle">
                                     Sie ist
                                     <div class="itm-lst 1itm d-inline-block" id="lst-2">
-                                        <h2 class="btn btn-warning btn-lg ttl mx-1 d-block"
+                                        <h2 class="btn btn-warning btn-lg ttl mx-1 w-100"
                                             style="min-width: 350px; max-width: 600px;">
                                             ▼ </h2>
                                     </div>.
@@ -84,10 +84,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
-                        <div class="col-1 mr-1 font-weight-bold">
+                        <div class="col-1 me-1 font-weight-bold">
                             2.
                         </div>
-                        <div class="col ml-1">
+                        <div class="col ms-1">
                             <ul>
                                 <li type="square">
                                     Entschuldigen Sie, wo ist die Universität?
@@ -96,7 +96,7 @@
                                 <li type="circle">
                                     Sie ist
                                     <div class="itm-lst 1itm d-inline-block" id="lst-3">
-                                        <h2 class="btn btn-warning btn-lg ttl mx-1 d-block"
+                                        <h2 class="btn btn-warning btn-lg ttl mx-1 w-100"
                                             style="min-width: 350px; max-width: 600px;">
                                             ▼ </h2>
                                     </div>.
@@ -109,10 +109,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
-                        <div class="col-1 mr-1 font-weight-bold">
+                        <div class="col-1 me-1 font-weight-bold">
                             3.
                         </div>
-                        <div class="col ml-1">
+                        <div class="col ms-1">
                             <ul>
                                 <li type="square">
                                     Entschuldigen Sie, wo ist der Supermarkt?
@@ -121,7 +121,7 @@
                                 <li type="circle">
                                     Er ist
                                     <div class="itm-lst 1itm d-inline-block" id="lst-4">
-                                        <h2 class="btn btn-warning btn-lg ttl mx-1 d-block"
+                                        <h2 class="btn btn-warning btn-lg ttl mx-1 w-100"
                                             style="min-width: 350px; max-width: 600px;">
                                             ▼ </h2>
                                     </div>.

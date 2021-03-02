@@ -10,7 +10,7 @@
                     <h2>Hören Sie und sprechen Sie nach.<br>
                         <small>듣고 따라 하세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -26,7 +26,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                    <table class="table table-borderless">
+                    <table class="table table-borderless lh250">
                         <thead>
                             <tr>
                                 <th scope="col" width="100"><button
@@ -53,7 +53,7 @@
                     </table>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                    <table class="table table-borderless">
+                    <table class="table table-borderless lh250">
                         <thead>
                             <tr>
                                 <th scope="col" width="100"><button
@@ -88,25 +88,21 @@
                                 </th>
                                 <td><span class="sen">Das ist <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-1">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-1">
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option1"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option2"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Frau.<span class="ans"></span>
                                     </span><span class="tran"><br><small>제
@@ -125,7 +121,7 @@
                     </table>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                    <table class="table table-borderless">
+                    <table class="table table-borderless lh250">
                         <thead>
                             <tr>
                                 <th scope="col" width="100"><button
@@ -147,25 +143,21 @@
                                 </th>
                                 <td><span class="sen">Das ist <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-2">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-2">
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option3"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option4"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Sohn.<span class="ans"></span>
                                     </span><span class="tran"><br><small>제
@@ -184,25 +176,21 @@
                                 </th>
                                 <td><span class="sen">Das ist <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-3">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-3">
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option5"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option6"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Tochter.<span class="ans"></span>
                                     </span><span class="tran"><br><small>제
@@ -215,25 +203,21 @@
                                 </th>
                                 <td><span class="sen">Das sind <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-4">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-4">
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option7"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option8"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Kinder.<span class="ans"></span>
                                     </span><span class="tran"><br><small>제
@@ -246,25 +230,21 @@
                                 </th>
                                 <td><span class="sen">Mein Sohn ist 6 und <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-5">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-5">
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option9"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option10"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Tochter ist 10.<span
                                             class="ans"></span>
@@ -276,7 +256,7 @@
                     </table>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
-                    <table class="table table-borderless">
+                    <table class="table table-borderless lh250">
                         <thead>
                             <tr>
                                 <th scope="col" width="100"><button
@@ -298,25 +278,21 @@
                                 </th>
                                 <td><span class="sen">Das ist <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-6">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-6">
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option11"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option12"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Vater.<span class="ans"></span>
                                     </span><span class="tran"><br><small>제
@@ -334,25 +310,21 @@
                                 </th>
                                 <td><span class="sen">Das ist <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-7">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-7">
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option13"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option14"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Mutter.<span class="ans"></span>
                                     </span><span class="tran"><br><small>제
@@ -365,25 +337,21 @@
                                 </th>
                                 <td><span class="sen">Das sind <span
                                             class="nu"></span>
-                                        <div class="btn-group btn-group-toggle border border-dark border-bottom-only q d-inline-flex"
-                                            data-toggle="buttons" id="qst-8">
+                                        <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
+                                            data-toggle="buttons" role="group" id="qst-8">
                                             <div class="btn btn-light pop x px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답이 아니에요.">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option15"
-                                                    >mein
+                                                mein
                                             </div>
                                             <div class="btn btn-light pop o px-1"
                                                 data-toggle="popover"
                                                 data-container="body"
                                                 data-placement="top"
                                                 data-content="정답!">
-                                                <input autocomplete="off" type="radio"
-                                                    name="options" id="option16"
-                                                    >meine
+                                                meine
                                             </div>
                                         </div>Eltern.<span class="ans"></span>
                                     </span><span class="tran"><br><small>제
@@ -737,7 +705,7 @@
                         };
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

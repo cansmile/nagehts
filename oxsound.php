@@ -11,7 +11,7 @@
             );
         },
         onload: function () {
-            $(".alert").hide();
+            $("#ready").hide();
             $(".o").on("click", function () {
                 o.play();
             });
@@ -30,7 +30,7 @@
             );
         },
         onload: function () {
-            $(".alert").hide();
+            $("#ready").hide();
             $(".x").on("click", function () {
                 x.play();
             });

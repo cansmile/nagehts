@@ -10,7 +10,7 @@
                 <h2> Hören Sie und wählen Sie aus.
                     <small><br> 듣고 선택하세요.</small>
                     <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                         HV
                     </button>
@@ -40,33 +40,27 @@
                             </button>
                         </td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-1">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-1">
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option1"
-                                           ><label
-                                        for="option1"><img
+                                    <img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-2.png"
                                             alt="Auto"
-                                            style="max-width: 240px; height: auto;"></label>
+                                            style="max-width: 240px; height: auto;">
                                 </div>
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option2"
-                                           ><label
-                                        for="option2"><img
+                                    <img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-1.png"
                                             alt="Fahrrad"
-                                            style="max-width: 240px; height: auto;"></label>
+                                            style="max-width: 240px; height: auto;">
                                 </div>
                             </div>
                             <span class="tran"><br>Was ist das? Ist das
@@ -85,33 +79,27 @@
                             </button>
                         </td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-2">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-2">
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option3"
-                                           ><label
-                                        for="option3"><img
+                                    <img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-3.png"
                                             alt="Katze"
-                                            style="max-width: 240px; height: auto;"></label>
+                                            style="max-width: 240px; height: auto;">
                                 </div>
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option4"
-                                           ><label
-                                        for="option4"><img
+                                    <img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-4.png"
                                             alt="Hund"
-                                            style="max-width: 240px; height: auto;"></label>
+                                            style="max-width: 240px; height: auto;">
                                 </div>
                             </div>
                             <span class="tran"><br>Was ist das? Ist das
@@ -129,33 +117,27 @@
                             </button>
                         </td>
                         <td>
-                            <div class="btn-group btn-group-toggle q"
-                                 data-toggle="buttons" id="qst-3">
+                            <div class="btn-group q"
+                                 data-toggle="buttons" role="group" id="qst-3">
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답!">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option5"
-                                           ><label
-                                        for="option5"><img
+                                    <img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-6.png"
                                             alt="Frau"
-                                            style="max-width: 240px; height: auto;"></label>
+                                            style="max-width: 240px; height: auto;">
                                 </div>
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
                                      data-container="body"
                                      data-placement="top"
                                      data-content="정답이 아니에요.">
-                                    <input autocomplete="off" type="radio" name="options"
-                                           id="option6"
-                                           ><label
-                                        for="option6"><img
+                                    <img
                                             src="./dev/images/Reihe 4/Reihe-4-C1-5.png"
                                             alt="Mann"
-                                            style="max-width: 240px; height: auto;"></label>
+                                            style="max-width: 240px; height: auto;">
                                 </div>
                             </div>
                             <span class="tran"><br>Wer ist das? Ist das
@@ -444,7 +426,7 @@
                     ;
                 });
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");

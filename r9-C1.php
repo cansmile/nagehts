@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>알파벳을] 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -79,13 +79,13 @@
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-1">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-6">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
@@ -108,13 +108,13 @@
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-2">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-7">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
@@ -137,13 +137,13 @@
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-3">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-8">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
@@ -166,13 +166,13 @@
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-4">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-9">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
@@ -195,13 +195,13 @@
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-5">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
                                         <td class="text-center align-middle">
                                             <div class="itm-lst 1itm" id="lst-10">
-                                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                                     ▼ </h2>
                                             </div>
                                         </td>
@@ -214,31 +214,31 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="row">
                         <div class="col-12 p-2 border border-light"><button type="button" id="11"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>1</strong></span><br>Die Verkäuferin zeigt der Mutter und dem Kind ein
                             Wertkauftelefon.<span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="12"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>2</strong></span><br>Eine Kursteilnehmerin stellt dem Lehrer eine Frage nach
                             dem Dativ.<span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="13"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>3</strong></span><br>Der Vater will seiner Tochter beim Sprachenlernen
                             helfen.<span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="14"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>4</strong></span><br>Tim schenkt seiner Freundin zum Valentinstag eine
                             Halskette.<span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="15"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>5</strong></span><br>Die Oma kauft ihrem Enkelkind zum Geburtstag ein
                             Fahrrad.<span class="tran"><br><small></small></span>
@@ -248,31 +248,31 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="row">
                         <div class="col-12 p-2 border border-light"><button type="button" id="16"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>a</strong></span><br>Deshalb kauft er ihr ein Wörterbuch.<br>
                                 <span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="17"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>b</strong></span><br>Er erklärt ihr den Dativ.<br>
                                 <span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="18"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>c</strong></span><br>Er schenkt ihr die Kette.<br>
                                 <span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="19"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>d</strong></span><br>Sie zeigt ihnen ein Wertkauftelefon<br>
                                 <span class="tran"><br><small></small></span>
                         </div>
                         <div class="col-12 p-2 border border-light"><button type="button" id="20"
-                                class="so btn btn-outline-dark btn-sm mr-1">▶</button><span
+                                class="so btn btn-outline-dark btn-sm me-1">▶</button><span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2">
                                 <strong>e</strong></span><br>Sie will ihm das Fahrrad schenken.<br>
                                 <span class="tran"><br><small></small></span>
@@ -351,7 +351,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -381,14 +381,14 @@
                         $(".itm").each(function () {
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                $("#" + $(this).attr("id")).addClass("btn-block");
+                                $("#" + $(this).attr("id")).addClass("w-100");
                                 $("#" + $(this).attr("id")).addClass("btn-light");
                                 $("#lst-" + pan[p] + ">h2").remove();
                             }
                         })
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

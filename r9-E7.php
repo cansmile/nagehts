@@ -8,7 +8,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Ergänzen Sie die Lücken. <br>
                         <small> 빈칸을 채우세요. </small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
 
@@ -176,7 +176,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -333,11 +333,11 @@
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
                                         $("#qst-" + (i + 1)).after(
-                                            "<div class=\"d-block ra t-6\">" + an[i] +
+                                            "<div class=\"w-100 ra t-6\">" + an[i] +
                                             "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
-                                        var r = "<div class=\"d-block ra t-6\">";
+                                        var r = "<div class=\"w-100 ra t-6\">";
                                         for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                             if (fd < (an[i].length - 1)) {
                                                 r = r + " / ";
@@ -401,7 +401,7 @@
                     }
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

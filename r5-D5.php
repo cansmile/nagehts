@@ -82,7 +82,7 @@
                     <h2> Hören Sie die Gespräche und ergänzen Sie. <br>
                         <small> 대화문을 듣고 채우세요. </small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -188,7 +188,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-1">
                                         <h2
-                                            class="btn btn-primary btn-xl ttl d-block">
+                                            class="btn btn-primary btn-xl ttl w-100">
                                             die Mutter</h2>&nbsp;
                                     </div>
                                 </td>
@@ -197,7 +197,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-3">
                                         <h2
-                                            class="btn btn-success btn-xl ttl d-block">
+                                            class="btn btn-success btn-xl ttl w-100">
                                             Mann</h2>&nbsp;
                                     </div>
                                 </td>
@@ -208,7 +208,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-2">
                                         <h2
-                                            class="btn btn-primary btn-xl ttl d-block">
+                                            class="btn btn-primary btn-xl ttl w-100">
                                             das Kind</h2>&nbsp;
                                     </div>
                                 </td>
@@ -217,7 +217,7 @@
                                         class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-4">
                                         <h2
-                                            class="btn btn-success btn-xl ttl d-block">
+                                            class="btn btn-success btn-xl ttl w-100">
                                             die Frau</h2>&nbsp;
                                     </div>
                                 </td>
@@ -443,7 +443,7 @@
                                                         '"'
                                                         ))
                                                     .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" +
+                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
                                                         $(
                                                             this)
                                                         .html() +
@@ -560,7 +560,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

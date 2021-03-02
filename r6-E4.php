@@ -9,7 +9,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Hören Sie und markieren Sie.
                         <small><br> 듣고 표시하세요.</small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -42,17 +42,15 @@
                                     <span class="tran"><br><small>일어나다</small></span>
                                 </td>
                                 <td width="60%">
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option1">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option2">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -65,17 +63,15 @@
                                     <span class="tran"><br><small>지불하다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-2">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option3">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option4">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -88,17 +84,15 @@
                                     <span class="tran"><br><small>시도하다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-3">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option5">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option6">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -111,17 +105,15 @@
                                     <span class="tran"><br><small>켜다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-4">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option7">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option8">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -134,17 +126,15 @@
                                     <span class="tran"><br><small>잠들다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-5">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option9">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option10">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -157,17 +147,15 @@
                                     <span class="tran"><br><small>초대하다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-6">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-6">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option11">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option12">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -199,17 +187,15 @@
                                     <span class="tran"><br><small>이야기하다</small></span>
                                 </td>
                                 <td width="60%">
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-7">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-7">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option13">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option14">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -222,17 +208,15 @@
                                     <span class="tran"><br><small>방문하다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-8">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-8">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option15">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option16">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -245,17 +229,15 @@
                                     <span class="tran"><br><small>속하다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-9">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-9">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option17">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option18">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -268,17 +250,15 @@
                                     <span class="tran"><br><small>걸다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-10">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-10">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option19">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option20">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -291,17 +271,15 @@
                                     <span class="tran"><br><small>이해하다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-11">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-11">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option21">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option22">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -314,17 +292,15 @@
                                     <span class="tran"><br><small>낭독하다</small></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-12">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-12">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option23">trennbar</label>
+                                            trennbar
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option24">nicht
-                                                trennbar</label>
+                                            nicht
+                                                trennbar
                                         </div>
                                     </div>
                                 </td>
@@ -403,7 +379,7 @@
                 },
                 onload: function () {
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -538,7 +514,7 @@
                 };
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
 
         });
 

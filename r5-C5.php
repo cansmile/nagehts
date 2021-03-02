@@ -10,7 +10,7 @@
                     <h2> Hören Sie und ergänzen Sie.<br>
                         <small>듣고 채우세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -90,7 +90,7 @@
                                     <div class="input-group">
                                         Morgens isst Monika Mai
                                         <input autocomplete="off" type="text"
-                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
+                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
                                             aria-label="." id="qst-1">
                                         .
                                     </div><span class="tran"><br><small>아침에 모니카
@@ -105,7 +105,7 @@
                                     <div class="input-group">
                                         Sie trinkt ein Glas
                                         <input autocomplete="off" type="text"
-                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
+                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
                                             aria-label="." id="qst-2">
                                         .
                                     </div><span class="tran"><br><small>그녀는 물을 한
@@ -120,7 +120,7 @@
                                     <div class="input-group">
                                         Mittags isst sie Fisch mit
                                         <input autocomplete="off" type="text"
-                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
+                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
                                             aria-label="." id="qst-3">
                                         .
                                     </div><span class="tran"><br><small>점심엔
@@ -150,7 +150,7 @@
                                     <div class="input-group">
                                         Nachmittags isst sie einen
                                         <input autocomplete="off" type="text"
-                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
+                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
                                             aria-label="." id="qst-4">
                                     </div><span class="tran"><br><small>오후엔 케이크를
                                             먹고</small></span>
@@ -164,7 +164,7 @@
                                     <div class="input-group">
                                         und trinkt einen
                                         <input autocomplete="off" type="text"
-                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
+                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
                                             aria-label="." id="qst-5">
                                         .
                                     </div><span class="tran"><br><small>커피를
@@ -179,7 +179,7 @@
                                     <div class="input-group">
                                         Abends isst sie einen Teller
                                         <input autocomplete="off" type="text"
-                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ml-1"
+                                            class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
                                             aria-label="." id="qst-6">
                                         .
                                     </div><span class="tran"><br><small>저녁엔 수프를
@@ -495,7 +495,7 @@
                                     $("#qst-" + (i +
                                             1))
                                         .addClass(
-                                            "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                            "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                             );
                                     $("#qst-" + (i +
                                             1))
@@ -529,7 +529,7 @@
                                                     1)
                                                 )
                                             .after(
-                                                "<div class=\"d-block ra t-6\">" +
+                                                "<div class=\"w-100 ra t-6\">" +
                                                 an[
                                                     i] +
                                                 "</div>"
@@ -537,7 +537,7 @@
                                     } else {
                                         /* 2 이상인 경우 */
                                         var r =
-                                            "<div class=\"d-block ra t-6\">";
+                                            "<div class=\"w-100 ra t-6\">";
                                         for (var fd =
                                                 (an[i]
                                                     .length -
@@ -644,7 +644,7 @@
                         };
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

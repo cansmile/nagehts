@@ -28,7 +28,7 @@
                             <tr>
                                 <th>1.</th>
                                 <td><button type="button" id="1"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Peter kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Peter kommt<span
                                         class="tran"><br><small>피터는
                                             <strong>독일에서</strong>
                                             왔다.</small></span></td>
@@ -45,7 +45,7 @@
                             <tr>
                                 <th>2.</th>
                                 <td><button type="button" id="2"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Lucia kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Lucia kommt<span
                                         class="tran"><br><small>루시아는
                                             <strong>스페인에서</strong>
                                             왔다.</small></span></td>
@@ -62,7 +62,7 @@
                             <tr>
                                 <th>3.</th>
                                 <td><button type="button" id="3"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Ivan kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Ivan kommt<span
                                         class="tran"><br><small>이반은
                                             <strong>러시아에서</strong>
                                             왔다.</small></span></td>
@@ -79,7 +79,7 @@
                             <tr>
                                 <th>4.</th>
                                 <td><button type="button" id="4"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Merve kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Merve kommt<span
                                         class="tran"><br><small>메릐베는
                                             <strong>터키에서</strong>
                                             왔다.</small></span></td>
@@ -96,7 +96,7 @@
                             <tr>
                                 <th>5.</th>
                                 <td><button type="button" id="5"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Arthur kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Arthur kommt<span
                                         class="tran"><br><small>아서는
                                             <strong>브라질에서</strong>
                                             왔다.</small></span></td>
@@ -113,7 +113,7 @@
                             <tr>
                                 <th>6.</th>
                                 <td><button type="button" id="6"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Diana kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Diana kommt<span
                                         class="tran"><br><small>다이아나는
                                             <strong>그리스에서</strong>
                                             왔다.</small></span></td>
@@ -130,7 +130,7 @@
                             <tr>
                                 <th>7.</th>
                                 <td><button type="button" id="7"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Arti kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Arti kommt<span
                                         class="tran"><br><small>아르티는
                                             <strong>수단에서</strong>
                                             왔다.</small></span></td>
@@ -147,7 +147,7 @@
                             <tr>
                                 <th>8.</th>
                                 <td><button type="button" id="8"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Linh kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Linh kommt<span
                                         class="tran"><br><small>린은
                                             <strong>베트남에서</strong>
                                             왔다.</small></span>
@@ -165,7 +165,7 @@
                             <tr>
                                 <th>9.</th>
                                 <td><button type="button" id="9"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Xiao kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Xiao kommt<span
                                         class="tran"><br><small>샤오는
                                             <strong>중국에서</strong>
                                             왔다.</small></span>
@@ -183,7 +183,7 @@
                             <tr>
                                 <th>10.</th>
                                 <td><button type="button" id="10"
-                                        class="so btn btn-outline-dark mr-1 btn-md">▶</button>Vanessa kommt<span
+                                        class="so btn btn-outline-dark me-1 btn-md">▶</button>Vanessa kommt<span
                                         class="tran"><br><small>바네사는
                                             <strong>우크라이나에서</strong>
                                             왔다.</small></span></td>
@@ -206,72 +206,72 @@
                             <tr>
                                 <th class="border border-dark" width="90" rowspan="15">aus</th>
                                 <td class="border border-dark">
-                                    <button type="button" id="11" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="11" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Korea</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="12" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="12" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Deutschland</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="13" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="13" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     China</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="14" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="14" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Brasilien</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="15" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="15" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Spanien</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="16" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="16" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     England</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="17" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="17" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Vietnam</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="18" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="18" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Ungarn</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="19" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="19" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Österreich</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="20" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="20" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Griechenland</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="21" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="21" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Polen</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="22" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="22" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Japan</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="23" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="23" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Amerika</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="24" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="24" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Russland</td>
                             </tr>
                             <tr>
@@ -286,17 +286,17 @@
                             <tr>
                                 <th class="border border-dark" width="90" rowspan="5">aus der</th>
                                 <td class="border border-dark">
-                                    <button type="button" id="25" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="25" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Schweiz</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="26" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="26" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Türkei</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="27" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="27" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Ukraine</td>
                             </tr>
                             <tr>
@@ -309,17 +309,17 @@
                             <tr>
                                 <th class="border border-dark" width="90" rowspan="4">aus dem</th>
                                 <td class="border border-dark">
-                                    <button type="button" id="28" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="28" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Iran</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="29" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="29" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Irak</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="30" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="30" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     Sudan</td>
                             </tr>
                             <tr>
@@ -332,12 +332,12 @@
                             <tr>
                                 <th class="border border-dark" width="90" rowspan="3">aus den</th>
                                 <td class="border border-dark">
-                                    <button type="button" id="31" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="31" class="so btn btn-outline-dark me-1 btn-md">▶</button>
                                     USA</td>
                             </tr>
                             <tr>
                                 <td class="border border-dark">
-                                    <button type="button" id="32" class="so btn btn-outline-dark mr-1 btn-md">▶</button>
+                                    <button type="button" id="32" class="so btn btn-outline-dark me-1 btn-md">▶</button>
 
                                     Niederlande<strong>n</strong></td>
                             </tr>
@@ -450,7 +450,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -610,7 +610,7 @@
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
                                     $("#qst-" + (i + 1)).addClass(
-                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                         );
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
@@ -620,11 +620,11 @@
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     if (!$.isArray(an[i])) {
                                         $("#qst-" + (i + 1)).after(
-                                            "<div class=\"d-block ra t-6\">" + an[i] +
+                                            "<div class=\"w-100 ra t-6\">" + an[i] +
                                             "</div>");
                                     } else {
                                         /* 2 이상인 경우 */
-                                        var r = "<div class=\"d-block ra t-6\">";
+                                        var r = "<div class=\"w-100 ra t-6\">";
                                         for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                             if (fd < (an[i].length - 1)) {
                                                 r = r + " / ";
@@ -689,7 +689,7 @@
 
 
 
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

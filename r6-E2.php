@@ -10,7 +10,7 @@
                     <h2> Hören Sie und ergänzen Sie die Lücken. <br>
                         <small> 듣고 빈칸을 채우세요. </small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -59,7 +59,7 @@
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-1">
                                         , ich räume gern auf.
@@ -73,7 +73,7 @@
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-2">
                                         , ich räume nicht gern auf.
@@ -120,7 +120,7 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-3">
                                         , ich gehe gern spazieren.
@@ -134,7 +134,7 @@
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-4">
                                         , ich gehe nicht gern spazieren.
@@ -181,7 +181,7 @@
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-5">
                                         , ich gehe gern schwimmen.
@@ -195,7 +195,7 @@
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-6">
                                         , ich gehe nicht gern schwimmen.
@@ -242,7 +242,7 @@
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-7">
                                         , ich koche gern.
@@ -256,7 +256,7 @@
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 mr-0 border-bottom-only rounded q
+                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
                                             t-6"
                                             aria-label="." id="qst-8">
                                         , ich koche nicht gern.
@@ -292,13 +292,13 @@
                             <tr>
                                 <td class="align-middle">
                                     <strong>[긍정적 의문문]</strong><br>
-                                    <div class="ml-4 pt-2">긍정의 대답은 ja<br>
+                                    <div class="ms-4 pt-2">긍정의 대답은 ja<br>
                                         부정의 대답은 nein, nicht로 답을 한다.</div>
                                 </td>
                                 <td class="align-middle">
                                     <strong>[부정적 의문문]</strong> nicht, kein
                                     포함<br>
-                                    <div class="ml-4 pt-2">긍정의 대답은 doch<br>
+                                    <div class="ms-4 pt-2">긍정의 대답은 doch<br>
                                         부정의 대답은 nein, nicht로 답을 한다.</div>
                                 </td>
                             </tr>
@@ -363,7 +363,7 @@
                 },
                 onload: function () {
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -524,7 +524,7 @@
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1");
+                                "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                         } else {
                             $("#qst-" + (i + 1)).val(oran);
@@ -532,11 +532,11 @@
                             $("#qst-" + (i + 1)).addClass("wa");
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                             if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\">" + an[i] +
+                                $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] +
                                     "</div>");
                             } else {
                                 /* 2 이상인 경우 */
-                                var r = "<div class=\"d-block ra t-6\">";
+                                var r = "<div class=\"w-100 ra t-6\">";
                                 for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                     if (fd < (an[i].length - 1)) {
                                         r = r + " / ";

@@ -72,7 +72,7 @@ if($("#th-"+opp).find("button").length) {
 						if(tm == 0) {
 							o.play();
 
-							$(this).addClass("btn-block btn-light");
+							$(this).addClass("w-100 btn-light");
 							$(this).insertAfter(t);
 						}
 
@@ -94,14 +94,14 @@ if($("#th-"+opp).find("button").length) {
 							$(this).addClass("btn-light");
 						}
 					}
-					
+
 				} else {
 					// 맞는지 검사하는데, 반대쪽 항목이 #itms에 있으면 넣기
 					if($("#itms").find("button#"+cp[(tt.attr("id")-1)]).length) {
 						if(tm == 0) {
 							o.play();
 
-							$(this).addClass("btn-block btn-light");
+							$(this).addClass("w-100 btn-light");
 							$(this).insertAfter(t);
 						}
 
@@ -144,7 +144,7 @@ $("#rst").on("click", function() {
 	for (var i = 1; i <= ($(".itm").length); i++) {
 		var n = eval('"#' + i + '"');
 		$(n).appendTo("#itms");
-		$(n).removeClass("btn-block");
+		$(n).removeClass("w-100");
 		$(n).removeClass("btn-light");
 	}
 	$("#itms").children(".itm").removeClass("btn-secondary");

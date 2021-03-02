@@ -10,7 +10,7 @@
                     <p>
                         듣고 따라하세요
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -35,7 +35,7 @@
                     <div class="card-header bg-white" id="headingOne">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseOne" area-expanded="false"
                                 aria-controls="collapseOne" id="1">
@@ -48,7 +48,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-1.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -56,7 +56,7 @@
                     <div class="card-header bg-white" id="headingTwo">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseTwo" area-expanded="false"
                                 aria-controls="collapseTwo" id="2">
@@ -69,7 +69,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-2.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -78,7 +78,7 @@
                         id="headingThree">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseThree"
                                 area-expanded="false"
@@ -92,7 +92,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-3.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -100,7 +100,7 @@
                     <div class="card-header bg-white" id="headingFour">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseFour"
                                 area-expanded="false"
@@ -114,7 +114,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-4.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -122,7 +122,7 @@
                     <div class="card-header bg-white" id="headingFive">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseFive"
                                 area-expanded="false"
@@ -136,7 +136,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-5.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -144,7 +144,7 @@
                     <div class="card-header bg-white" id="headingSix">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseSix" area-expanded="false"
                                 aria-controls="collapseSix" id="6">
@@ -157,7 +157,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-6.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -166,7 +166,7 @@
                         id="headingSeven">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseSeven"
                                 area-expanded="false"
@@ -180,7 +180,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-7.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -189,7 +189,7 @@
                         id="headingEight">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseEight"
                                 area-expanded="false"
@@ -203,7 +203,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-8.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -211,7 +211,7 @@
                     <div class="card-header bg-white" id="headingNine">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseNine"
                                 area-expanded="false"
@@ -225,7 +225,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-9.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
                 <div
@@ -233,7 +233,7 @@
                     <div class="card-header bg-white" id="headingTen">
                         <h5 class="mb-0">
                             <button
-                                class="btn btn-outline-dark btn-block btn-md mt-1 so"
+                                class="btn btn-outline-dark w-100 btn-md mt-1 so"
                                 type="button" data-toggle="collapse"
                                 data-target="#collapseTen" area-expanded="false"
                                 aria-controls="collapseTen" id="10">
@@ -246,7 +246,7 @@
                         data-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-10.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block mx-auto">
+                            class="w-100 mx-auto">
                     </div>
                 </div>
             </div>
@@ -313,7 +313,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -349,7 +349,7 @@
 
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

@@ -116,7 +116,7 @@
                         <thead>
                             <tr>
                                 <th scope="col"
-                                    class="bg-secondary text-white d-sm-block d-md-block d-lg-block">
+                                    class="bg-secondary text-white d-sm-block d-mw-100 d-lg-block">
                                     Personal-<br>pronomen</th>
                                 <th scope="col" class="bg-dark text-white">ich
                                 </th>
@@ -126,14 +126,14 @@
                         <tbody>
                             <tr>
                                 <th scope="row"
-                                    class="bg-dark text-white d-sm-block d-md-block d-lg-block">
+                                    class="bg-dark text-white d-sm-block d-mw-100 d-lg-block">
                                     sein
                                 </th>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -141,21 +141,21 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row"
-                                    class="bg-secondary text-white d-sm-block d-md-block d-lg-block">
+                                    class="bg-secondary text-white d-sm-block d-mw-100 d-lg-block">
                                     haben
                                 </th>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-8">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -163,7 +163,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-9">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -197,7 +197,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -205,7 +205,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -213,7 +213,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-5">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -228,7 +228,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-10">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -236,7 +236,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-11">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -244,7 +244,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-10">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -259,7 +259,7 @@
                         <thead>
                             <tr>
                                 <th scope="col"
-                                    class="bg-secondary text-white d-sm-block d-md-block d-lg-none">
+                                    class="bg-secondary text-white d-sm-block d-mw-100 d-lg-none">
                                     Personal-<br>pronomen</th>
                                 <th scope="col" class="bg-secondary text-white">
                                     ihr</th>
@@ -271,14 +271,14 @@
                         <tbody>
                             <tr>
                                 <th scope="row"
-                                    class="bg-dark text-white d-sm-block d-md-block d-lg-none">
+                                    class="bg-dark text-white d-sm-block d-mw-100 d-lg-none">
                                     sein
                                 </th>
                                 <td class="bg-white">
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-6">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -286,7 +286,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-7">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -294,21 +294,21 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row"
-                                    class="bg-secondary text-white d-sm-block d-md-block d-lg-none">
+                                    class="bg-secondary text-white d-sm-block d-mw-100 d-lg-none">
                                     haben
                                 </th>
                                 <td class="bg-light">
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-12">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -316,7 +316,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-10">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -324,7 +324,7 @@
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
                                         style="min-width: 100px;" id="lst-10">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </td>
@@ -418,7 +418,7 @@
                 }
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
 
             <?php require "wahl.php"; ?>
 
@@ -432,7 +432,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "btn-block font-weight-bold pl-0"
+                            "w-100 font-weight-bold pl-0"
                             );
                         $("#" + $(this).attr("id")).addClass(
                             "text-center");

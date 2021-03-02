@@ -125,7 +125,7 @@
                     <p>
                         독일어에 대해 얼마나 아시나요? 다음 단어들을 주제에 따라 나누세요.
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -146,15 +146,15 @@
                     <div
                         class="border-3 border-danger bg-light col-sm-12 col-md-12 col-lg-12">
                         [ 주제:
-                        <h6 class="badge badge-primary badge-sm my-3" disabled>
+                        <h6 class="badge bg-primary bg-sm my-3" disabled>
                             Begrüßung 인사 </h6>&nbsp;
-                        <h6 class="badge badge-info badge-sm my-3" disabled>
+                        <h6 class="badge bg-info bg-sm my-3" disabled>
                             Sport 스포츠 </h6>&nbsp;
-                        <h6 class="badge badge-success badge-sm my-3" disabled>
+                        <h6 class="badge bg-success bg-sm my-3" disabled>
                             Musik 음악 </h6>&nbsp;
-                        <h6 class="badge badge-danger badge-sm my-3" disabled>
+                        <h6 class="badge bg-danger bg-sm my-3" disabled>
                             Getränke 음료 </h6>&nbsp;
-                        <h6 class="badge badge-warning badge-sm my-3" disabled>
+                        <h6 class="badge bg-warning bg-sm my-3" disabled>
                             Familie 가족 </h6> ]
                     </div>
                 </div>
@@ -165,42 +165,42 @@
             <div class="row mt-3" id="lsts">
                 <div style="min-height: 240px;" class="rounded-top bg-primary itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <img src=".\dev/images\Reihe 0\Reihe-0-1.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block">
+                            class="w-100">
                         <strong>Begrüßung</strong> 인사 </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;" class="rounded-top bg-info itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <img src=".\dev/images\Reihe 0\Reihe-0-2.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block">
+                            class="w-100">
                         <strong>Sport</strong> 스포츠 </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;" class="rounded-top bg-success itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-3">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <img src=".\dev/images\Reihe 0\Reihe-0-3.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block">
+                            class="w-100">
                         <strong>Musik</strong> 음악 </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;" class="rounded-top bg-danger itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-4">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <img src=".\dev/images\Reihe 0\Reihe-0-4.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block">
+                            class="w-100">
                         <strong>Getränke</strong> 음료 </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;" class="rounded-top bg-warning itm-lst col-xs-6 col-sm-6 col-md-4
                 col-lg-4 col-xl-4 pt-1 border border-white" id="lst-5">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         <img src=".\dev/images\Reihe 0\Reihe-0-5.png"
                             style="max-width: 100%; height: auto;"
-                            class="d-block">
+                            class="w-100">
                         <strong>Familie</strong> 가족 </h2>&nbsp;
                 </div>
             </div>
@@ -285,7 +285,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
 
                 $(".so").on("click", function () {
                     var t = $(this);
@@ -330,8 +330,7 @@
                     }
                     /* $(pann).find(".tran").show(); */
                 }
-                $(".itm-lst>button").addClass(
-                "btn-block btn-light");
+                $(".itm-lst>button").addClass("w-100 btn-light");
 
 
                 /* 정답 확인 */
@@ -356,7 +355,7 @@
                             if ($(this).hasClass("text-danger")) {/* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
                                 for (var i = 1; i <= $(".itm-lst").length; i++) {
                                     if ($(this).hasClass("ans" + i)) {
-                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-warning bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
+                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-warning bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
                                     }
                                 }
                             }
@@ -389,7 +388,7 @@
 
                 /* 준비되면 HV 보이기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
 
 
             },

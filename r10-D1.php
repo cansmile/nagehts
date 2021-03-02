@@ -20,7 +20,7 @@
                 <span class="col-sm-3 col-md-3 col-lg wd">verpasst</span>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3 d-block">
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 w-100">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -32,7 +32,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 my-3 d-none d-md-block d-lg-block">
+                <div class="col-sm-12 col-md-6 col-lg-4 my-3 d-none d-mw-100 d-lg-block">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -299,9 +299,9 @@
                             <tr>
                                 <th scope="row"><small class="font-weight-bold">분리전철</small>
                                 </th>
-                                <td><span class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--t
+                                <td><span class="border border-dark rounded p-1 px-3 me-1">&nbsp;</span>ge--t
                                 </td>
-                                <td><span class="border border-dark rounded p-1 px-3 mr-1">&nbsp;</span>ge--en
+                                <td><span class="border border-dark rounded p-1 px-3 me-1">&nbsp;</span>ge--en
                                 </td>
                             </tr>
                             <tr>
@@ -585,12 +585,12 @@
 
                             if (!$.isArray(an[i])) {
                                 $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                    "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">" +
                                     an[i] + "</div>");
                             } else {
                                 /* 2 이상인 경우 */
                                 var r =
-                                    "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                    "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">";
                                 for (var fd = (an[i].length -
                                         1); fd >= 0; fd--) {
                                     if (fd < (an[i].length -

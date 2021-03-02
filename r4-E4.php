@@ -30,7 +30,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-1">
                                         Computer?
                                     </div>
@@ -47,7 +47,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-2">
                                         Computer.
                                     </div>
@@ -64,7 +64,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-3">
                                         Fernseher.
                                     </div>
@@ -81,7 +81,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-4">
                                         Fernseher von Kim.
                                     </div>
@@ -113,7 +113,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon5"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-5">
                                         Handy?
                                     </div>
@@ -130,7 +130,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon6"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-6">
                                         Handy.
                                     </div>
@@ -148,7 +148,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon7"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-7">
                                         Telefon.
                                     </div>
@@ -165,7 +165,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon8"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-8">
                                         Telefon von Mina.
                                     </div>
@@ -197,7 +197,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon9"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-9">
                                         Uhr?
                                     </div>
@@ -214,7 +214,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon10"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-10">
                                         Uhr.
                                     </div>
@@ -231,7 +231,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon11"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-11">
                                         Brille.
                                     </div>
@@ -248,7 +248,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon12"
                                             class="text-center form-control q
-                                            border-bottom-only rounded-0 ml-1 t-6"
+                                            border-bottom-only rounded-0 ms-1 t-6"
                                             id="qst-12">
                                         Brille von Park.
                                     </div>
@@ -427,7 +427,7 @@
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                 );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");
@@ -442,12 +442,12 @@
                                 "rounded-0");
                             if (!$.isArray(an[i])) {
                                 $("#qst-" + (i + 1)).after(
-                                    "<div class=\"d-block ra t-6\">" +
+                                    "<div class=\"w-100 ra t-6\">" +
                                     an[i] + "</div>");
                             } else {
                                 /* 2 이상인 경우 */
                                 var r =
-                                    "<div class=\"d-block ra t-6\">";
+                                    "<div class=\"w-100 ra t-6\">";
                                 for (var fd = (an[i].length -
                                     1); fd >= 0; fd--) {
                                     if (fd < (an[i].length -

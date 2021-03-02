@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>[ <small>보기를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
@@ -73,7 +73,7 @@
                     <tbody>
                     <tr>
                         <td>
-                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </td>
                         <td>
                             Entschuldigen Sie, wo finde ich hier die
@@ -83,7 +83,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </td>
                         <td style="line-height: 250%;">
                             Die Frauenkirche?<span class="tran"><br><small>프라우엔교회요?</small><br></span>
@@ -91,14 +91,14 @@
                                             있어요.</small><br></span> Sie gehen
                             hier die
                             <div class="itm-lst 1itm d-inline-block mx-1" id="lst-1">
-                                <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                     style="min-width: 90px; max-width: 190px;">
                                     ▼ </h2>
                             </div>
                             geradeaus entlang und biegen leicht
                             nach
                             <div class="itm-lst 1itm d-inline-block mx-1" id="lst-2">
-                                <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                     style="min-width: 90px; max-width: 190px;">
                                     ▼ </h2>
                             </div>
@@ -108,13 +108,13 @@
                             Straße biegen Sie sofort nach
                             <div class="itm-lst 1itm d-inline-block mx-1"
                                  id="lst-3">
-                                <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                     style="min-width: 90px; max-width: 190px;">
                                     ▼ </h2>
                             </div>
                             in den
                             <div class="itm-lst 1itm d-inline-block mx-1" id="lst-4">
-                                <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                     style="min-width: 90px; max-width: 190px;">
                                     ▼ </h2>
                             </div>
@@ -123,13 +123,13 @@
                                             가세요.</small><br></span> Am Ende des
                             Weges biegen Sie nach
                             <div class="itm-lst 1itm d-inline-block mx-1" id="lst-2">
-                                <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                     style="min-width: 90px; max-width: 190px;">
                                     ▼ </h2>
                             </div>
                             in die
                             <div class="itm-lst 1itm d-inline-block mx-1" id="lst-5">
-                                <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                     style="min-width: 90px; max-width: 190px;">
                                     ▼ </h2>
                             </div>
@@ -138,7 +138,7 @@
                                             가세요.</small><br></span> Auf der
                             <div
                                 class="itm-lst 1itm d-inline-block mx-1" id="lst-6">
-                                <h2 class="btn btn-warning btn-lg ttl d-block t_add_6"
+                                <h2 class="btn btn-warning btn-lg ttl w-100 t_add_6"
                                     style="min-width: 90px; max-width: 190px;">
                                     ▼ </h2>
                             </div>
@@ -149,7 +149,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </td>
                         <td>
                             Ja, vielen Dank!<span class="tran"><br><small>네, 대단히
@@ -158,7 +158,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </td>
                         <td>
                             Kein Problem. Auf Wiedersehen.<span class="tran"><br><small>천만에요. 안녕히
@@ -232,7 +232,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -322,7 +322,7 @@
                     })
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

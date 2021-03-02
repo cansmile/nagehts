@@ -9,7 +9,7 @@
                     <h2>Markieren Sie Namen, Länder, Alter und Berufe.<br>
                         <small>이름과 국가와 나이 그리고 직업에 표시하세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -35,83 +35,67 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td><span class="num">[1]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-1">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-1">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1-1"
-                                                >Das
+                                            Das
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1-3"
-                                                >Felix Becker
+                                            Felix Becker
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option1-4"
-                                                >,
+                                            ,
                                         </div>
                                     </div>
                                     <span class="num">[2]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-2">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-2">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2-1"
-                                                >26
+                                            26
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2-2"
-                                                >Jahre
+                                            Jahre
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2-3"
-                                                >alt
+                                            alt
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option2-4"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>이 사람은 펠릭스
@@ -123,88 +107,70 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td><span class="num">[3]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-3">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-3">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-1"
-                                                >Er
+                                            Er
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-2"
-                                                >kommt
+                                            kommt
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-3"
-                                                >aus
+                                            aus
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-4"
-                                                >Deutschland
+                                            Deutschland
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-5"
-                                                >und
+                                            und
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-6"
-                                                >wohnt
+                                            wohnt
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-7"
-                                                >in
+                                            in
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-8"
-                                                >Köln
+                                            Köln
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option3-9"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>그는 독일 출신이고
@@ -216,88 +182,70 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td><span class="num">[4]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-4">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-4">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-1"
-                                                >Er
+                                            Er
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-3"
-                                                >Bäcker
+                                            Bäcker
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-4"
-                                                >und
+                                            und
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-5"
-                                                >arbeitet
+                                            arbeitet
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-6"
-                                                >in
+                                            in
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-7"
-                                                >einer
+                                            einer
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-8"
-                                                >Bäckerei
+                                            Bäckerei
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option4-9"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>그는 제빵사이고 빵집에서
@@ -318,74 +266,60 @@
                                 <td
                                     class="border border-dark border-top-only">
                                     <span class="num">[5]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-5">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-5">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option5-1"
-                                                >Das
+                                            Das
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option5-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option5-3"
-                                                >Clara Smith
+                                            Clara Smith
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option5-4"
-                                                >,
+                                            ,
                                         </div>
                                     </div>
                                     <span class="num">[6]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-6">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-6">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option6-1"
-                                                >aus
+                                            aus
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option6-2"
-                                                >Amerika
+                                            Amerika
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option6-3"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>이 사람은 클라라
@@ -397,79 +331,63 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td><span class="num">[7]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-7">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-7">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-1"
-                                                >Sie
+                                            Sie
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-3"
-                                                >28
+                                            28
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-4"
-                                                >Jahre
+                                            Jahre
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-5"
-                                                >alt
+                                            alt
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-6"
-                                                >und
+                                            und
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-7"
-                                                >verheiratet
+                                            verheiratet
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option7-8"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>그녀는 28살이고
@@ -496,79 +414,63 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td><span class="num">[8]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-8">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-8">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-1"
-                                                >Sie
+                                            Sie
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-3"
-                                                >Ärztin
+                                            Ärztin
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-4"
-                                                >und
+                                            und
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-5"
-                                                >arbeitet
+                                            arbeitet
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-6"
-                                                >im
+                                            im
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-7"
-                                                >Krankenhaus
+                                            Krankenhaus
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option8-8"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>그녀는 의사이고 병원에서
@@ -589,74 +491,60 @@
                                 <td
                                     class="border border-dark border-top-only">
                                     <span class="num">[9]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-9">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-9">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option9-1"
-                                                >Das
+                                            Das
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option9-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option9-3"
-                                                >Lionel Messi
+                                            Lionel Messi
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option9-4"
-                                                >,
+                                            ,
                                         </div>
                                     </div>
                                     <span class="num">[10]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-10">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-10">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option10-1"
-                                                >aus
+                                            aus
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option10-2"
-                                                >Argentinien
+                                            Argentinien
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option10-3"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>이 사람은 리오넬 메시,
@@ -669,83 +557,67 @@
                                 </td>
                                 <td>
                                     <span class="num">[11]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-11">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-11">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option11-1"
-                                                >Er
+                                            Er
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option11-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option11-3"
-                                                >25
+                                            25
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option11-4"
-                                                >Jahre
+                                            Jahre
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option11-5"
-                                                >alt
+                                            alt
                                         </div>
                                     </div>
                                     <span class="num">[12]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-12">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-12">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option12-1"
-                                                >und
+                                            und
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option12-2"
-                                                >Fußballspieler
+                                            Fußballspieler
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option12-3"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>그는 25살이고
@@ -786,43 +658,35 @@
                                 <td
                                     class="border border-dark border-top-only">
                                     <span class="num">[13]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-13">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-13">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option13-1"
-                                                >Das
+                                            Das
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option13-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option13-3"
-                                                >Eva Green
+                                            Eva Green
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option13-4"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>이 사람은 에바
@@ -835,79 +699,63 @@
                                 </td>
                                 <td>
                                     <span class="num">[14]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-14">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-14">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-1"
-                                                >Sie
+                                            Sie
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-3"
-                                                >31
+                                            31
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-4"
-                                                >Jahre
+                                            Jahre
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-5"
-                                                >alt
+                                            alt
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-6"
-                                                >und
+                                            und
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-7"
-                                                >ledig
+                                            ledig
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-8"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>그녀는 31살이고
@@ -920,34 +768,28 @@
                                 </td>
                                 <td>
                                     <span class="num">[15]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-15">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-15">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-1"
-                                                >Sie
+                                            Sie
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-2"
-                                                >ist
+                                            ist
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option14-3"
-                                                >Schauspielerin
+                                            Schauspielerin
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>그녀는 유명한
@@ -960,52 +802,42 @@
                                 </td>
                                 <td>
                                     <span class="num">[16]</span>
-                                    <div class="btn-group btn-group-toggle border border-dark border-bottom-only q"
-                                        data-toggle="buttons" id="qst-16">
+                                    <div class="btn-group border border-dark border-bottom-only q"
+                                        data-toggle="buttons" role="group" id="qst-16">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option16-1"
-                                                >und
+                                            und
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option16-2"
-                                                >kommt
+                                            kommt
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option16-3"
-                                                >aus
+                                            aus
                                         </div>
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option16-4"
-                                                >Frankreich
+                                            Frankreich
                                         </div>
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
                                             data-container="body"
                                             data-placement="top"
                                             data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options"
-                                                id="option16-5"
-                                                >.
+                                            .
                                         </div>
                                     </div>
                                     <span class="tran"><br><small>프랑스
@@ -1325,7 +1157,7 @@
                         };
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

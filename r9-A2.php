@@ -103,10 +103,10 @@
                                 <td class="align-middle"
                                     style="line-height: 220%;">
                                     An <div
-                                        class="itm-lst 1itm d-inline-block px-0 mr-1"
+                                        class="itm-lst 1itm d-inline-block px-0 me-1"
                                         style="min-width: 200px;" id="lst-1">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>und Neujahr feiern alle Familien zu
                                     Hause. Sie spielen Karten oder andere
@@ -124,10 +124,10 @@
                                 <td class="align-middle"
                                     style="line-height: 220%;">
                                     An <div
-                                        class="itm-lst 1itm d-inline-block px-0 mr-1"
+                                        class="itm-lst 1itm d-inline-block px-0 me-1"
                                         style="min-width: 200px;" id="lst-2">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>schenken sich Verliebte und Freunde
                                     Postkarten, Geschenke oder Blumen.
@@ -143,10 +143,10 @@
                                     Die Leute freuen sich, wenn der Winter bald
                                     vorbei ist und der Frühling kommt. Zu dieser
                                     Zeit feiert man <div
-                                        class="itm-lst 1itm d-inline-block px-0 mr-1"
+                                        class="itm-lst 1itm d-inline-block px-0 me-1"
                                         style="min-width: 200px;" id="lst-3">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>, auch Fastnacht oder Fasching
                                     genannt. Am Rosenmontag gibt es große
@@ -164,10 +164,10 @@
                                 <td class="align-middle"
                                     style="line-height: 220%;">
                                     An <div
-                                        class="itm-lst 1itm d-inline-block px-0 mr-1"
+                                        class="itm-lst 1itm d-inline-block px-0 me-1"
                                         style="min-width: 200px;" id="lst-4">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>versteckt der Osterhase Eier im
                                     Garten. Kinder suchen dann die Eier.
@@ -181,10 +181,10 @@
                                 <td class="align-middle"
                                     style="line-height: 220%;">
                                     In deutschen Familien steht zu <div
-                                        class="itm-lst 1itm d-inline-block px-0 mr-1"
+                                        class="itm-lst 1itm d-inline-block px-0 me-1"
                                         style="min-width: 200px;" id="lst-5">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>der Adventskranz mit vier Kerzen. An
                                     den vier Sonntagen vor Weihnachten brennen
@@ -200,10 +200,10 @@
                                     style="line-height: 220%;">
                                     Nikolaus war ein Bischof und ein Freund der
                                     Kinder. Am <div
-                                        class="itm-lst 1itm d-inline-block px-0 mr-1"
+                                        class="itm-lst 1itm d-inline-block px-0 me-1"
                                         style="min-width: 200px;" id="lst-6">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>stellen Kinder am Abend vor dem 6.
                                     Dezember ihre Schuhe oder Socken vor dem
@@ -222,10 +222,10 @@
                                     style="line-height: 220%;">
 
                                     Man feiert häufig <div
-                                        class="itm-lst 1itm d-inline-block px-0 mr-1"
+                                        class="itm-lst 1itm d-inline-block px-0 me-1"
                                         style="min-width: 200px;" id="lst-7">
                                         <h2
-                                            class="btn btn-warning btn-xl ttl d-block">
+                                            class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><small>독일에서 크리스마스는 이렇게
@@ -328,7 +328,7 @@
                 }
             });
             $("#0").show();
-            $(".alert").hide();
+            $("#ready").hide();
 
             <?php require "wahl.php"; ?>
 
@@ -342,7 +342,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "btn-block");
+                            "w-100");
                         $("#lst-" + pan[p] + ">h2").remove();
                     }
                 })

@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -87,7 +87,7 @@
                                     Am Samstag gehe ich
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -104,7 +104,7 @@
                                     Da
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -129,7 +129,7 @@
                                     Am Samstagabend gehe ich
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -146,7 +146,7 @@
                                     Da
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -171,7 +171,7 @@
                                     Am Samstagvormittag gehe ich
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -188,7 +188,7 @@
                                     Da
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -213,7 +213,7 @@
                                     Am Freitagnachmittag gehe ich
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-7">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -230,7 +230,7 @@
                                     Da
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-8">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -255,7 +255,7 @@
                                     Am Sonntagvormittag gehe ich
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-9">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -272,7 +272,7 @@
                                     Da
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-10">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -297,7 +297,7 @@
                                     Am Sonntagnachmittag gehe ich
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-11">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -314,7 +314,7 @@
                                     Da
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-12">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -339,7 +339,7 @@
                                     Am Samstagnachmittag gehe ich
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-13">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -356,7 +356,7 @@
                                     Da
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-14">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -390,9 +390,9 @@
                     <tbody>
                         <tr>
                             <td width="50%">
-                                <span class="ml-3">• in den (m), die (f), ins
+                                <span class="ms-3">• in den (m), die (f), ins
                                     (n) + Haus und Gebäude, Ort</span><br>
-                                <span class="ml-3">• zum (m,n) zur (f) +
+                                <span class="ms-3">• zum (m,n) zur (f) +
                                     Aktivitäten, Person</span><br>
                             </td>
                             <td class="align-middle text-center">
@@ -477,9 +477,9 @@
                     <tbody>
                         <tr>
                             <td>
-                                <span class="ml-3">• <small>공간적 의미: 저기, 거기,
+                                <span class="ms-3">• <small>공간적 의미: 저기, 거기,
                                         여기</small></span><br>
-                                <span class="ml-3">• <small>시간적 의미: 그때, 그
+                                <span class="ms-3">• <small>시간적 의미: 그때, 그
                                         당시</small></span><br>
                             </td>
                         </tr>
@@ -600,7 +600,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     <?php require "wahl.php"; ?>
                     var pan = new Array();
                     pan = [];
@@ -611,7 +611,7 @@
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                                 $("#" + $(this).attr("id")).addClass(
-                                    "btn-block font-weight-bold text-left pl-0");
+                                    "w-100 font-weight-bold text-left pl-0");
                                 $("#" + $(this).attr("id")).addClass("border-0");
                                 $("#lst-" + pan[p] + ">h2").remove();
                                 $("#lst-" + pan[p]).parent().find(".tran").show();

@@ -60,7 +60,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.<br/>
                     <small> 빈칸을 채우세요. </small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br/>
@@ -154,7 +154,7 @@
                                     <strong>Anmeldformular Internationale Dresdner Frühlings- und Sommerkurse</strong>
                                     Familienname:
                                     <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                 </div>
@@ -162,82 +162,82 @@
                             <div class="col-12 my-2">
                                 Vorname:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-2">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Geschlecht:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-3">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Geburtsdatum:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-4">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Muttersprache:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-5">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Außer meiner Muttersprache spreche ich:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-6">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Adresse:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-7">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Land:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-8">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 E-Mail:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-9">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Telefon:
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-10">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Dauer: von
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-11">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                                 bis
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-12">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
                             <div class="col-12 my-2">
                                 Deutsche Sprachkenntnisse (bitte ankreuzen):
                                 <div class="itm-lst 1itm d-inline-block" style="min-width: 120px!important;" id="lst-13">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                         ▼ </h2>
                                 </div>
                             </div>
@@ -312,7 +312,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -388,13 +388,13 @@
                     $(".itm").each(function () {
                         if ($(this).hasClass("ans" + pan[p])) {
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                            $("#" + $(this).attr("id")).addClass("btn-block btn-light");
+                            $("#" + $(this).attr("id")).addClass("w-100 btn-light");
                             $("#lst-" + pan[p] + ">h2").remove();
                         }
                     })
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

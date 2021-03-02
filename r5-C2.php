@@ -141,7 +141,7 @@
                     <h2> Ergänzen Sie die Tabelle.<br>
                         <small>다음 표를 채우세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -173,7 +173,7 @@
                                         class="rounded-top border border-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-1">
                                         <h2
-                                            class="btn btn-primary btn-xl ttl d-block">
+                                            class="btn btn-primary btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -182,7 +182,7 @@
                                         class="rounded-top border border-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-2">
                                         <h2
-                                            class="btn btn-danger btn-xl ttl d-block">
+                                            class="btn btn-danger btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -191,7 +191,7 @@
                                         class="rounded-top border border-purple itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-3">
                                         <h2
-                                            class="btn btn-purple btn-xl ttl d-block">
+                                            class="btn btn-purple btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -208,7 +208,7 @@
                                         class="rounded-top border border-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-4">
                                         <h2
-                                            class="btn btn-primary btn-xl ttl d-block">
+                                            class="btn btn-primary btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -217,7 +217,7 @@
                                         class="rounded-top border border-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-5">
                                         <h2
-                                            class="btn btn-danger btn-xl ttl d-block">
+                                            class="btn btn-danger btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -226,7 +226,7 @@
                                         class="rounded-top border border-purple itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                                         id="lst-6">
                                         <h2
-                                            class="btn btn-purple btn-xl ttl d-block">
+                                            class="btn btn-purple btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -488,7 +488,7 @@
                                                         '"'
                                                         ))
                                                     .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block text-danger bg-white font-weight-bold\">" +
+                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
                                                         $(
                                                             this)
                                                         .html() +
@@ -557,7 +557,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

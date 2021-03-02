@@ -32,7 +32,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>Hören Sie und ordnen Sie zu.
                     <small> 듣고 그림과 내용을 연결해 보세요.</small>
-                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
@@ -45,23 +45,23 @@
             <div class="row mt-2" id="lsts">
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-1">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-1.png"
-                        style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-2">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-2.png"
-                        style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-3">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-3.png"
-                        style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-4">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-4.png"
-                        style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-5">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-5.png"
-                        style="width: auto; max-height: 140px" class="mx-auto d-block ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
                 </div>
             </div>
             <div class="row">
@@ -336,7 +336,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -421,14 +421,14 @@
                                         1) + ">img"
                                 ));
                                 $(pani).addClass(
-                                    "btn-block btn-light"
+                                    "w-100 btn-light"
                                 );
                             }
                         }
                     }
 
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

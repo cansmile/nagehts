@@ -40,7 +40,7 @@
                         <br>
                         <small>듣고 따라해보세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline itm"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline itm"
                             id="whole">
                             HV
                         </button></h2>
@@ -834,8 +834,8 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#whole").show();
-                $("#alt").hide();
-                /* $(".alert").hide(); */
+                $("#ready").hide();
+                /* $("#ready").hide(); */
 
                 $(".itm").on("click", function (idx) {
                     var t = $(this);

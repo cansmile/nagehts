@@ -119,7 +119,7 @@
                     <small> 빈칸을 채우세요. </small><br/>
                     [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                         표시됩니다.</small> ]
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
@@ -144,32 +144,32 @@
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-1">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Urlaubstyp</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Urlaubstyp</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-2">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Mit wem gefahren?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Mit wem gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-3">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Wohin gefahren?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Wohin gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-4">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Was unternommen?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Was unternommen?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-warning border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-5">
-                        <h2 class="btn btn-xl bg-white ttl d-block">gut</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">gut</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-purple border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-6">
-                        <h2 class="btn btn-xl bg-white ttl d-block">nicht gut</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">nicht gut</h2>&nbsp;
                     </div>
                 </div>
             </div>
@@ -183,32 +183,32 @@
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-7">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Urlaubstyp</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Urlaubstyp</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-8">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Mit wem gefahren?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Mit wem gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-9">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Wohin gefahren?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Wohin gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-10">
-                        <h2 class="btn btn-xl bg-white ttl d-block">Was unternommen?</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">Was unternommen?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-warning border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-11">
-                        <h2 class="btn btn-xl bg-white ttl d-block">gut</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">gut</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
                          class="rounded-top border bg-purple border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-12">
-                        <h2 class="btn btn-xl bg-white ttl d-block">nicht gut</h2>&nbsp;
+                        <h2 class="btn btn-xl bg-white ttl w-100">nicht gut</h2>&nbsp;
                     </div>
                 </div>
             </div>
@@ -327,10 +327,10 @@
                         }
                     }
                 }
-                $(".itm-lst>button").addClass("btn-block btn-light");
+                $(".itm-lst>button").addClass("w-100 btn-light");
 
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");

@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -60,7 +60,7 @@
                                         Herr Kim will Deutsch lernen. Dann kann
                                         er&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-1" style="min-width: 30%; ">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100">
                                                 ▼ </h2>
                                         </div>
                                         <span class="tran"><br><small>김 선생님은
@@ -76,7 +76,7 @@
                                         Wir wollen essen gehen. Dann sollten
                                         wir&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-2" style="min-width: 30%; ">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100">
                                                 ▼ </h2>
                                         </div>
                                         <span class="tran"><br><small>우리는 식사를
@@ -92,7 +92,7 @@
                                         Frau Lee will Kuchen essen und Kaffee
                                         trinken. Dann sollte sie&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-3" style="min-width: 30%; ">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100">
                                                 ▼ </h2>
                                         </div>
                                         <span class="tran"><br><small>이 선생님은 케잌을
@@ -108,7 +108,7 @@
                                         Er will ein Buch kaufen. Dann
                                         sollte&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 30%; ">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100">
                                                 ▼ </h2>
                                         </div>
                                         <span class="tran"><br><small>그는 책을 사려고
@@ -124,7 +124,7 @@
                                         Wir wollen einen Film sehen. Dann
                                         sollten wir&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-5" style="min-width: 30%; ">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100">
                                                 ▼ </h2>
                                         </div>
                                         <span class="tran"><br><small>우리는 영화를
@@ -140,7 +140,7 @@
                                         Ich will Fleisch besorgen. Dann sollte
                                         ich&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-6" style="min-width: 30%; ">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100">
                                                 ▼ </h2>
                                         </div>
                                         <span class="tran"><br><small>나는 고기를 사려고
@@ -217,7 +217,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -300,13 +300,13 @@
                         $(".itm").each(function () {
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                $("#" + $(this).attr("id")).addClass("btn-block");
+                                $("#" + $(this).attr("id")).addClass("w-100");
                                 $("#lst-" + pan[p] + ">h2").remove();
                             }
                         })
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

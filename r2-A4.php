@@ -33,7 +33,7 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2><button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                    <h2><button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -79,7 +79,7 @@
                                 </th>
                                 <td>Nein, aus
                                     <div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     . <span class="tran">&nbsp;<br><small>아니오,
@@ -92,7 +92,7 @@
                                 </th>
                                 <td>Und wohnen Sie hier in
                                     <div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     ? <span class="tran">&nbsp;<br><small>그러면
@@ -112,7 +112,7 @@
                                 </th>
                                 <td>Wohnen Sie auch in
                                     <div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     ? <span class="tran">&nbsp;<br><small><strong>베를린</strong>에서
@@ -124,7 +124,7 @@
                                 </th>
                                 <td>Nein, ich wohne in
                                     <div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     . <span class="tran">&nbsp;<br><small>아뇨, 저는
@@ -137,7 +137,7 @@
                                 </th>
                                 <td>Aber meine Mutter wohnt hier in
                                     <div class="itm-lst 1itm d-inline-block" style="min-width: 150px;" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     . <span class="tran">&nbsp;<br><small>하지만, 제
@@ -285,7 +285,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

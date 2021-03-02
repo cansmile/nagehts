@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                    <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button><br/>
                     [ <small><button type="button"
@@ -60,7 +60,7 @@
                     <tbody>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="9" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="9" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Guten Tag, Hotel Waltstein, Bauer am Apparat, was kann ich für Sie tun?
                             <span class="tran"><br><small>안녕하십니까, 호텔 발트슈타인입니다. 저는 바우어입니다. 무엇을 도와드릴까요?</small></span>
@@ -68,11 +68,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="10" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="10" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-1">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>저는 김입니다. 7월 12일 월요일부터 14일 수요일까지 당신의 호텔에서 묵고 싶습니다. 저를 위해 남는 방이 있을까요?</small></span>
@@ -80,7 +80,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="11" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="11" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Einen Moment, bitte. ... Ja, wir haben noch freie Zimmer. Möchten Sie ein Einzel- oder Doppelzimmer?
                             <span class="tran"><br><small>잠시만요. 네, 방이 있습니다. 1인실 방을 원하시나요? 아님  2인실 원하시나요?</small></span>
@@ -88,11 +88,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="12" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="12" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-2">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>저는 1인실을 원합니다.</small></span>
@@ -100,7 +100,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="13" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="13" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Gut, möchten Sie das Zimmer mit oder ohne Frühstück?
                             <span class="tran"><br><small>좋습니다, 조식 포함을 원하시나요? 아님 조식제외를 원하시나요?</small></span>
@@ -108,11 +108,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="14" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="14" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-3">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>조식을 포함한 1인실 가격이 어떻게 되나요?</small></span>
@@ -120,7 +120,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="15" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="15" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Mit Frühstück kostet das Zimmer für eine Nacht 55 Euro.
                             <span class="tran"><br><small>조식을 포함한 1인실은 하루에 55유로입니다.</small></span>
@@ -128,11 +128,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="16" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="16" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-4">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>좋습니다! 그걸로 부탁합니다. 방은 언제부터 입실가능하나요? 저는 7월 12일 14시쯤 도착합니다.</small></span>
@@ -140,7 +140,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="17" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="17" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Das Zimmer ist ab 13 Uhr frei.
                             <span class="tran"><br><small>방은 13시부터 입실 가능합니다.</small></span>
@@ -148,11 +148,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="18" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="18" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-5">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>아주 좋군요. 그러면 제가 프론트 리셉션에서 열쇠를 받을 수 있을까요?</small></span>
@@ -160,7 +160,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="19" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="19" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Ja. richtig. Dabei sollten Sie auch ein Anmeldeformular ausfüllen und wir bräuchten auch Ihren Ausweis oder Reisepass.
                             <span class="tran"><br><small>네 맞습니다. 그때 투숙객을 위한 신고서를 작성하셔야 합니다. 저희는 또한 당신의 신분증이나 여권이 필요합니다.</small></span>
@@ -168,7 +168,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="20" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="20" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>Ist gut.
                             <span class="tran"><br><small>알겠습니다.</small></span>
@@ -176,7 +176,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="21" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="21" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Auf welchem Namen soll ich das Zimmer reservieren?
                             <span class="tran"><br><small>어떤 이름으로 방을 예약해 드릴까요?</small></span>
@@ -184,11 +184,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="22" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="22" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-6">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>제 이름은 김미나입니다.</small></span>
@@ -196,7 +196,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="23" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="23" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Gut. Das Zimmer ist reserviert für Sie, Frau Kim.
                             <span class="tran"><br><small>좋습니다. 김씨 이름으로 예약되었습니다.</small></span>
@@ -204,7 +204,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="24" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="24" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>Vielen Dank.
                             <span class="tran"><br><small>감사합니다.</small></span>
@@ -212,7 +212,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="25" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="25" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Haben Sie noch Fragen?
                             <span class="tran"><br><small>질문이 더 있으신가요?</small></span>
@@ -220,11 +220,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="26" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="26" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>Ja,
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-7">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>네. 주차공간이 있나요? 거기에 제 자동차를 주차할 수 있을까요?</small></span>
@@ -232,7 +232,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="27" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="27" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Ja, vor dem Hotel gibt es Parkplätze.
                             <span class="tran"><br><small>네, 호텔 앞에 주차장이 있습니다.</small></span>
@@ -240,7 +240,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="28" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="28" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>Vielen Dank.
                             <span class="tran"><br><small>감사합니다.</small></span>
@@ -248,7 +248,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="29" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="29" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Gern geschehen. Wir erwarten Sie dann am 12. Juli.
                             <span class="tran"><br><small>별말씀을요. 7월 12일에뵙겠습니다.</small></span>
@@ -256,7 +256,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="30" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="30" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>Ja, auf Wiederhören.
                             <span class="tran"><br><small>네. 안녕히 계세요.</small></span>
@@ -264,7 +264,7 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="31" class="so btn btn-outline-danger btn-sm mr-1 px-3">A</button>
+                            <button type="button" id="31" class="so btn btn-outline-danger btn-sm me-1 px-3">A</button>
                         </th>
                         <td>Auf Wiederhören. Und einen schönen Tag noch.
                             <span class="tran"><br><small>안녕히 계세요. 즐거운 하루되세요.</small></span>
@@ -272,11 +272,11 @@
                     </tr>
                     <tr>
                         <th scope="row">
-                            <button type="button" id="32" class="so btn btn-outline-primary btn-sm mr-1 px-3">B</button>
+                            <button type="button" id="32" class="so btn btn-outline-primary btn-sm me-1 px-3">B</button>
                         </th>
                         <td>
                             <div class="itm-lst 1itm d-inline-block" style="min-width: 300px;" id="lst-8">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
                             <span class="tran"><br><small>네. 즐거운 하루되세요.</small></span>
@@ -384,7 +384,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -460,13 +460,13 @@
                     $(".itm").each(function () {
                         if ($(this).hasClass("ans" + pan[p])) {
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                            $("#" + $(this).attr("id")).addClass("btn-block btn-light");
+                            $("#" + $(this).attr("id")).addClass("w-100 btn-light");
                             $("#lst-" + pan[p] + ">h2").remove();
                         }
                     })
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

@@ -92,7 +92,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -115,7 +115,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -135,7 +135,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -155,7 +155,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -175,7 +175,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -195,7 +195,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -215,7 +215,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -235,7 +235,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-7">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -255,7 +255,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-8">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -275,7 +275,7 @@
                             <tr>
                                 <td>
                                     <div class="rounded-top itm-lst pt-1 p-2 border border-dark" id="lst-9">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼</h2>&nbsp;
                                     </div>
                                 </td>
@@ -590,7 +590,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -743,7 +743,7 @@
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
                                     $("#qst-" + (i + 1)).addClass(
-                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                         );
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
@@ -752,7 +752,7 @@
                                     $("#qst-" + (i + 1)).addClass("wa");
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                     $("#qst-" + (i + 1)).after(
-                                        "<br /><div class=\"d-block ra t-6\">" + an[i] +
+                                        "<br /><div class=\"w-100 ra t-6\">" + an[i] +
                                         "</div>");
                                 }
                                 if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
@@ -808,7 +808,7 @@
                         for (n = 1; n < $(".itm-lst").length; n++) {
                             if ($(pann).hasClass("ans" + n)) {
                                 $(pann).insertAfter("#lst-" + n + ">h2");
-                                $(pann).addClass("btn-block btn-light");
+                                $(pann).addClass("w-100 btn-light");
                                 $(pann).find(".tran").show();
                             }
                         }
@@ -821,7 +821,7 @@
                         $(pann).prop("disabled", true);
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

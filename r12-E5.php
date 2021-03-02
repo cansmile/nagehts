@@ -8,7 +8,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.<br/>
                     <small> 빈칸을 채우세요. </small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br/>
@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-11 mx-1">
                         <table class="table table-borderless">
-                            <thead class="thead-dark">
+                            <thead class="table-dark">
                             <tr>
                                 <th score="col"><strong>Notiz</strong>
                                     <span class="tran"><br/><small>주의</small></span>
@@ -84,7 +84,7 @@
                             <tbody>
                             <tr>
                                 <th scope="row">
-                                    <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
@@ -96,7 +96,7 @@
                                 <th scope="row">&nbsp;
                                     <span class="tran">
                                         <button type="button" id="8"
-                                                class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                                                class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
@@ -110,7 +110,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">
-                                    <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
@@ -122,7 +122,7 @@
                                 <th scope="row">&nbsp;
                                     <span class="tran">
                                         <button type="button" id="9"
-                                                class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                                                class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
@@ -142,7 +142,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">
-                                    <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
@@ -154,7 +154,7 @@
                                 <th scope="row">&nbsp;
                                     <span class="tran">
                                         <button type="button" id="10"
-                                                class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                                                class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
@@ -176,7 +176,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">
-                                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </
                                     button>
                                 </th>
@@ -197,7 +197,7 @@
                                 <th scope="row">&nbsp;
                                     <span class="tran">
                                         <button type="button" id="11"
-                                                class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                                                class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
@@ -219,7 +219,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">
-                                    <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="5" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
@@ -239,7 +239,7 @@
                                 <th scope="row">&nbsp;
                                     <span class="tran">
                                         <button type="button" id="12"
-                                                class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                                                class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
@@ -260,7 +260,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">
-                                    <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
@@ -280,7 +280,7 @@
                                 <th scope="row">&nbsp;
                                     <span class="tran">
                                         <button type="button" id="13"
-                                                class="so btn btn-outline-dark btn-sm mr-1 px-2">▶</button>
+                                                class="so btn btn-outline-dark btn-sm me-1 px-2">▶</button>
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
@@ -300,7 +300,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">
-                                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-2">▶
+                                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1 px-2">▶
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
@@ -393,7 +393,7 @@
             },
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -568,9 +568,9 @@
                                 $("#qst-" + (i + 1)).addClass("wa");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after("<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" + an[i] + "</div>");
+                                    $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">" + an[i] + "</div>");
                                 } else {/* 2 이상인 경우 */
-                                    var r = "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                    var r = "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
@@ -631,7 +631,7 @@
                     $(pann).prop("disabled", true);
                     di($(pann));
                 }
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

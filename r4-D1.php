@@ -108,7 +108,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2> Ordnen Sie zu. </h2>
                     <p> 알맞은 단어끼리 연결해보세요. <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button></p>
@@ -127,7 +127,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -137,7 +137,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -147,7 +147,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -157,7 +157,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -167,7 +167,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -177,7 +177,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -187,7 +187,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -197,7 +197,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-1">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -213,7 +213,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -223,7 +223,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -233,7 +233,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -243,7 +243,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -253,7 +253,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -263,7 +263,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -273,7 +273,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -283,7 +283,7 @@
                                     <div class="align-middle itm-lst 1itm py-0"
                                         style="min-height: 50px;" id="lst-2">
                                         <h1
-                                            class="btn btn-warning my-0 cmp btn-xl ttl d-block">
+                                            class="btn btn-warning my-0 cmp btn-xl ttl w-100">
                                             ▼ </h1>
                                     </div>
                                 </th>
@@ -458,7 +458,7 @@
                         }
                     });
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");

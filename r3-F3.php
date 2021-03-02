@@ -313,7 +313,7 @@
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ml-1"
+                                "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
                                 );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");

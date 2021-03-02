@@ -57,7 +57,7 @@
                     <h2> Ergänzen Sie die Kontinente.<br>
                         <small>빈칸에 알맞은 대륙 이름을 넣어보세요.</small>
                         <button type="button"
-                            class="btn btn-<?php echo($color); ?> ml-2 btn-inline so"
+                            class="btn btn-<?php echo($color); ?> ms-2 btn-inline so"
                             id="0">
                             HV
                         </button>
@@ -85,20 +85,20 @@
                     <tr>
                         <td colspan="3">
                             <div class="itm-lst 1itm" id="lst-1">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼
                                 </h2>
                             </div>
                         </td>
                         <td>&nbsp;</td>
                         <td colspan="2">
                             <div class="itm-lst 1itm" id="lst-2">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼
                                 </h2>
                             </div>
                         </td>
                         <td colspan="3">
                             <div class="itm-lst 1itm" id="lst-3">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼
                                 </h2>
                             </div>
                         </td>
@@ -111,7 +111,7 @@
                         <td colspan="4">&nbsp;</td>
                         <td colspan="3">
                             <div class="itm-lst 1itm" id="lst-4">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼
                                 </h2>
                             </div>
                         </td>
@@ -121,14 +121,14 @@
                         <td>&nbsp;</td>
                         <td colspan="3">
                             <div class="itm-lst 1itm" id="lst-5">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼
                                 </h2>
                             </div>
                         </td>
                         <td colspan="4">&nbsp;</td>
                         <td colspan="2">
                             <div class="itm-lst 1itm" id="lst-6">
-                                <h2 class="btn btn-warning btn-xl ttl d-block">▼
+                                <h2 class="btn btn-warning btn-xl ttl w-100">▼
                                 </h2>
                             </div>
                         </td>

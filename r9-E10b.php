@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-12">
                     <table class="table table-borderless">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th scope="col">
                                     <div class="input-group">
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-12">
                     <table class="table table-borderless">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th scope="col">
                                     <div class="input-group">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-12">
                     <table class="table table-borderless">
-                        <thead class="thead-dark">
+                        <thead class="table-dark">
                             <tr>
                                 <th scope="col">
                                     <div class="input-group">

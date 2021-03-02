@@ -58,7 +58,7 @@
                                     <th width="50" class="align-middle" scope="col">1.</th>
                                     <td width="50" class="align-middle">
                                         <div class="itm-lst 1itm" id="lst-1">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100 rounded-circle">
                                             ▼ </h2>
                                         </div>
                                     </td>
@@ -69,7 +69,7 @@
                                     <th width="50" class="align-middle" scope="col">2.</th>
                                     <td width="50" class="align-middle">
                                         <div class="itm-lst 1itm" id="lst-2">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100 rounded-circle">
                                             ▼ </h2>
                                         </div>
                                     </td>
@@ -80,7 +80,7 @@
                                     <th width="50" class="align-middle" scope="col">3.</th>
                                     <td width="50" class="align-middle">
                                         <div class="itm-lst 1itm" id="lst-3">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100 rounded-circle">
                                             ▼ </h2>
                                         </div>
                                     </td>
@@ -91,7 +91,7 @@
                                     <th width="50" class="align-middle" scope="col">4.</th>
                                     <td width="50" class="align-middle">
                                         <div class="itm-lst 1itm" id="lst-4">
-                                            <h2 class="btn btn-warning btn-xl ttl d-block rounded-circle">
+                                            <h2 class="btn btn-warning btn-xl ttl w-100 rounded-circle">
                                             ▼ </h2>
                                         </div>
                                     </td>
@@ -190,7 +190,7 @@ $(document).ready(function() {
         $(".itm").each(function() {
             if($(this).hasClass("ans" + pan[p])) {
                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                $("#" + $(this).attr("id")).addClass("btn-block");
+                $("#" + $(this).attr("id")).addClass("w-100");
                 $("#" + $(this).attr("id")).addClass("btn-light");
                 $("#lst-" + pan[p] + ">h2").remove();
                 $("#lst-" + pan[p]).closest("tr").find(".tran").show();

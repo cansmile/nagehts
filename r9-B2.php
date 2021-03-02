@@ -9,7 +9,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>Markieren Sie.<br>
                         <small>체크해보세요.</small>
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
 
@@ -72,16 +72,14 @@
                                             (생일) 파티를 한다.</small></br></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-1">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option1" ><label
-                                                for="option1">Richtig</label>
+                                            Richtig
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option2" ><label
-                                                for="option2">Falsch</label>
+                                            Falsch
                                         </div>
                                     </div>
                                 </td>
@@ -93,16 +91,14 @@
                                             집에서만 파티를 한다.</small></br></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-2">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-2">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option3" ><label
-                                                for="option3">Richtig</label>
+                                            Richtig
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option4" ><label
-                                                for="option4">Falsch</label>
+                                            Falsch
                                         </div>
                                     </div>
                                 </td>
@@ -113,16 +109,14 @@
                                     Geburtstagstorten.<span class="tran"><br><small>독일에서는 생일케익을
                                             산다.</small></br></span></td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-3">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-3">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option5" ><label
-                                                for="option5">Richtig</label>
+                                            Richtig
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option6" ><label
-                                                for="option6">Falsch</label>
+                                            Falsch
                                         </div>
                                     </div>
                                 </td>
@@ -135,16 +129,14 @@
                                             맞이한 사람이 생일날 아침에 밥과 미역국을
                                             먹는다.</small></br></span></td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-4">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-4">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option7" ><label
-                                                for="option7">Richtig</label>
+                                            Richtig
                                         </div>
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option8" ><label
-                                                for="option8">Falsch</label>
+                                            Falsch
                                         </div>
                                     </div>
                                 </td>
@@ -156,16 +148,14 @@
                                             사람에게 항상 돈을 선물한다.</small></br></span>
                                 </td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-5">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-5">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option9" ><label
-                                                for="option9">Richtig</label>
+                                            Richtig
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option10" ><label
-                                                for="option10">Falsch</label>
+                                            Falsch
                                         </div>
                                     </div>
                                 </td>
@@ -177,16 +167,14 @@
                                             (생일)파티를 집에서 하지
                                             않는다.</small></br></span></td>
                                 <td>
-                                    <div class="btn-group btn-group-toggle q" data-toggle="buttons" id="qst-61">
+                                    <div class="btn-group q" data-toggle="buttons" role="group" id="qst-61">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
-                                            <input autocomplete="off" type="radio" name="options" id="option11" ><label
-                                                for="option11">Richtig</label>
+                                            Richtig
                                         </div>
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
-                                            <input autocomplete="off" type="radio" name="options" id="option12" ><label
-                                                for="option12">Falsch</label>
+                                            Falsch
                                         </div>
                                     </div>
                                 </td>
@@ -261,7 +249,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -335,7 +323,7 @@
                                         $(this).removeClass("btn-warning");
                                         $(this).addClass("btn-success");
                                     } else if ($(this).hasClass("o")) {
-                                        $(this).addClass("btn-primary");
+                                        $(this).addClass("btn-danger");
                                     } else if ($(this).hasClass("an")) {
                                         $(this).addClass("btn-warning");
                                     } else {

@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 그림에 넣으세요.</small> ]
-                        <button type="button" class="btn btn-<?php echo($color); ?> ml-2 btn-inline so" id="0">
+                        <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
                     </h2>
@@ -96,42 +96,42 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-1">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B4-1.png" alt="Hand"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-2">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B4-2.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-3">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B4-3.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-4">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B4-4.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-lime border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-5">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B4-5.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-purple border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-6">
-                    <h2 class="btn btn-xl bg-white ttl d-block"><img
+                    <h2 class="btn btn-xl bg-white ttl w-100"><img
                             src="./dev/images/Reihe 8/Reihe-8-B4-6.png" alt="Was passt?"
                             style="max-height: 120px; width: auto;"><br>Man kann damit </h2>&nbsp;
                 </div>
@@ -215,7 +215,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
@@ -287,9 +287,9 @@
                         }
                         /* $(pann).find(".tran").show(); */
                     }
-                    $(".itm-lst>button").addClass("btn-block btn-light");
+                    $(".itm-lst>button").addClass("w-100 btn-light");
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
                 },
                 onend: function () {
                     $("div#last").text("");

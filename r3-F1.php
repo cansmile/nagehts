@@ -64,7 +64,7 @@
                                     Wer bin ich?
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-1">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br>
@@ -80,7 +80,7 @@
                                     Meine Eltern heißen
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-2">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -96,7 +96,7 @@
                                     Meine Großeltern heißen
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-3">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -133,7 +133,7 @@
                                     Sie heißt
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-4">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -155,7 +155,7 @@
                                     Wer bin ich?
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-5">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     <span class="tran"><br>
@@ -180,7 +180,7 @@
                                     Meine Kinder heißen
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                         id="lst-6">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                         </div>
                                     .
@@ -206,7 +206,7 @@
                                     Sie heißt
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                     id="lst-1">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
                                     .
@@ -230,7 +230,7 @@
                                     Er heißt
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                     id="lst-7">
-                                        <h2 class="btn btn-warning btn-xl ttl d-block">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                         </div>
                                     .
@@ -245,7 +245,7 @@
                                     Meine Schwiegertochter heißt
                                     <div class="itm-lst 1itm d-inline-block px-0 mx-0" style="min-width: 200px;"
                                     id="lst-8">
-                                    <h2 class="btn btn-warning btn-xl ttl d-block">
+                                    <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                         </div>
                                     .
@@ -719,7 +719,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);

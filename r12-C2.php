@@ -8,7 +8,7 @@
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2> Ergänzen Sie die Lücken.<br/>
                     <small> 빈칸을 채우세요. </small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                     <br/>
@@ -34,7 +34,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
-                                <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                                <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                             </div>
                             <div class="col-9">
                                 Wann fährt der Zug von Frankfurt ab?
@@ -48,13 +48,13 @@
                                       placeholder="Antwort" aria-label="Antwort" id="qst-1"> Uhr
                         </div>
                         <span class="tran">
-                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                         </span>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
-                                <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                                <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                             </div>
                             <div class="col-9">
                                 Wann kommt der Zug in Dresden an?
@@ -68,13 +68,13 @@
                                       placeholder="Antwort" aria-label="Antwort" id="qst-2"> Uhr
                         </div>
                         <span class="tran">
-                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                         </span>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
-                                <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                                <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                             </div>
                             <div class="col-9">
                                 Wo muss man umsteigen?
@@ -88,13 +88,13 @@
                                       placeholder="Antwort" aria-label="Antwort" id="qst-3">
                         </div>
                         <span class="tran">
-                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                         </span>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
-                                <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                                <button type="button" id="4" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                             </div>
                             <div class="col-9">
                                 Wie lange dauert die Fahrt?
@@ -111,13 +111,13 @@
                                    placeholder="Antwort" aria-label="Antwort" id="qst-5"> Minuten
                         </div>
                         <span class="tran">
-                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                         </span>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
-                                <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                                <button type="button" id="5" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                             </div>
                             <div class="col-9">
                                 Was kostet eine Fahrkarte?
@@ -139,13 +139,13 @@
                             EUR.
                         </div>
                         <span class="tran">
-                            <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                            <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                         </span>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
-                                <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                                <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                             </div>
                             <div class="col-9">
                                 Auf welchem Gleis fährt der Zug ab?
@@ -159,13 +159,13 @@
                                    placeholder="Antwort" aria-label="Antwort" id="qst-8">
                         </div>
                         <span class="tran">
-                            <button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                            <button type="button" id="13" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                         </span>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-8 my-2">
                         <div class="row">
                             <div class="col-3">
-                                <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                                <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                             </div>
                             <div class="col-9">
                                 Auf welchem Gleis kommt der Zug in Dresden an?
@@ -179,7 +179,7 @@
                                    placeholder="Antwort" aria-label="Antwort" id="qst-9">
                         </div>
                         <span class="tran">
-                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1 px-3">▶</button>
+                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm me-1 px-3">▶</button>
                         </span>
                     </div>
                 </div>
@@ -266,7 +266,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -441,12 +441,12 @@
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
                                     $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-3\" style=\"max-width: 100px;\">" +
+                                        "<div class=\"w-100 ra t-3\" style=\"max-width: 100px;\">" +
                                         an[i] + "</div>");
                                 } else {
                                     /* 2 이상인 경우 */
                                     var r =
-                                        "<div class=\"d-block ra t-3\" style=\"max-width: 100px;\">";
+                                        "<div class=\"w-100 ra t-3\" style=\"max-width: 100px;\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
@@ -508,7 +508,7 @@
                     di($(pann));
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
 
             },
             onend: function () {

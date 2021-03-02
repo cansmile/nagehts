@@ -89,11 +89,11 @@
                 </div>
                 <div
                     class="border-3 border-danger bg-light col-sm-12 col-md-12 col-lg-12">
-                    [ 분류: <h6 class="badge badge-primary badge-sm my-3"
+                    [ 분류: <h6 class="badge bg-primary bg-sm my-3"
                         disabled>남자 Vornamen </h6>&nbsp; <h6
-                        class="badge badge-danger badge-sm my-3" disabled>여자
+                        class="badge bg-danger bg-sm my-3" disabled>여자
                         Vornamen </h6>&nbsp; <h6
-                        class="badge badge-warning badge-sm my-3" disabled>성
+                        class="badge bg-warning bg-sm my-3" disabled>성
                         Familennamen </h6> ]
                 </div>
             </div>
@@ -102,19 +102,19 @@
                 <div style="min-height: 240px;"
                     class="rounded-top bg-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-1">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         남자 <strong>Vornamen</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-2">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         여자 <strong>Vornamen</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top bg-warning itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
                     id="lst-3">
-                    <h2 class="btn btn-light btn-xl ttl d-block">
+                    <h2 class="btn btn-light btn-xl ttl w-100">
                         성 <strong>Familennamen</strong></h2>&nbsp;
                 </div>
             </div>
@@ -190,7 +190,7 @@
                 onload: function () {
                     /* 음성 준비되면 HV 버튼 나타내기 */
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                     $(".so").on("click", function () {
                         var t = $(this);
@@ -326,7 +326,7 @@
                                                         '"'
                                                         ))
                                                     .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark btn-block bg-white text-danger font-weight-bold\">" +
+                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 bg-white text-danger font-weight-bold\">" +
                                                         $(
                                                             this)
                                                         .html() +
@@ -403,13 +403,13 @@
                                     "#lst-" + (i +
                                         1) + ">h2"));
                                 $(pani).addClass(
-                                    "btn-block btn-light"
+                                    "w-100 btn-light"
                                     );
                             }
                         }
                     }
                     $("#0").show();
-                    $(".alert").hide();
+                    $("#ready").hide();
 
                 },
                 onend: function () {

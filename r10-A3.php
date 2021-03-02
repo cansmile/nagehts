@@ -10,7 +10,7 @@
                     <small> 빈칸을 채우세요. </small>
                     [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                         표시됩니다.</small> ]
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ml-2 btn-inline so" id="0">
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
@@ -63,7 +63,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             Entschuldigung, wo ist das Café Dornbusch,
@@ -74,7 +74,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="2" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -90,7 +90,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="3" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             Und das Schwimmbad, wo ist das?
@@ -100,7 +100,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="4" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="4" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -132,7 +132,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="5" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="5" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             Entschuldigung, wo kann man hier
@@ -144,7 +144,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -160,7 +160,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             Wo ist das, bitte?
@@ -169,7 +169,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -201,7 +201,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -217,7 +217,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -238,7 +238,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             Vielen Dank.
@@ -260,7 +260,7 @@
                     <tbody>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="12" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -273,7 +273,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="13" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="13" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             <div class="input-group">
@@ -291,7 +291,7 @@
                     </tr>
                     <tr>
                         <th width="20" class="text-center">
-                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm mr-1">▶</button>
+                            <button type="button" id="14" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                         </th>
                         <td class="lh250">
                             Vielen Dank.
@@ -379,7 +379,7 @@
             onload: function () {
                 /* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -569,12 +569,12 @@
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
                                     $("#qst-" + (i + 1)).after(
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">" +
+                                        "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">" +
                                         an[i] + "</div>");
                                 } else {
                                     /* 2 이상인 경우 */
                                     var r =
-                                        "<div class=\"d-block ra t-6\" style=\"max-width: 100px;\">";
+                                        "<div class=\"w-100 ra t-6\" style=\"max-width: 100px;\">";
                                     for (var fd = (an[i].length - 1); fd >= 0; fd--) {
                                         if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
@@ -637,7 +637,7 @@
                     $(pann).prop("disabled", true);
                 }
                 $("#0").show();
-                $(".alert").hide();
+                $("#ready").hide();
             },
             onend: function () {
                 $("div#last").text("");

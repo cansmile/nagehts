@@ -42,7 +42,7 @@
                 <table class="table table-borderless">
                     <tbody>
                     <tr>
-                        <td class="me-0 pr-0">
+                        <td class="me-0 pe-0">
                             <div class="ant t-6" id="ant-1"></div>
                             <div class="ant t-6" id="ant-2"></div>
                             <div class="input-group">
@@ -126,7 +126,7 @@
                 <table class="table table-borderless">
                     <tbody>
                     <tr>
-                        <td class="me-0 pr-0">
+                        <td class="me-0 pe-0">
                             <div class="ant t-6" id="ant-5"></div>
                             <div class="input-group">
                                 Er
@@ -154,7 +154,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="pr-0 me-0">
+                        <td class="pe-0 me-0">
                             <div class="ant t-6" id="ant-7"></div>
                             <div class="input-group">
                                 Er
@@ -203,9 +203,9 @@
                                             한일이에요.</span><br></div>
                         </td>
                         <td>• 무엇을 즐겨하다 / 즐겨하지 않다<br>
-                            <div class="pl-4">Ich schlafe gern. / nicht
+                            <div class="ps-4">Ich schlafe gern. / nicht
                                 gern.<br>
-                                <div class="pl-4">- Ich esse
+                                <div class="ps-4">- Ich esse
                                     <strong>gern</strong>.<br>
                                     - Er fährt <strong>gern</strong>
                                     Auto.<br>

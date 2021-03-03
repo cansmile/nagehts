@@ -92,10 +92,10 @@
                                     <tr>
                                         <td width="60%">
                                             <div class="row">
-                                                <div class="col-4 text-left"><span class="wd_inline_inverted">Leider</span>
+                                                <div class="col-4 text-start"><span class="wd_inline_inverted">Leider</span>
                                                 </div>
                                                 <div class="col-4 text-center">habe</div>
-                                                <div class="col-4 text-right"><span class="wd_inline_inverted">ich</span>
+                                                <div class="col-4 text-end"><span class="wd_inline_inverted">ich</span>
                                                 </div>
                                             </div>
                                         </td>
@@ -114,10 +114,10 @@
                                     <tr>
                                         <td width="60%">
                                             <div class="row">
-                                                <div class="col-4 text-left"><span class="wd_inline_inverted">Ich</span>
+                                                <div class="col-4 text-start"><span class="wd_inline_inverted">Ich</span>
                                                 </div>
                                                 <div class="col-4 text-center">habe</div>
-                                                <div class="col-4 text-right"><span class="wd_inline_inverted">leider</span>
+                                                <div class="col-4 text-end"><span class="wd_inline_inverted">leider</span>
                                                 </div>
                                             </div>
                                         </td>
@@ -237,7 +237,7 @@
                         <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
                              data-bs-parent="#accordionFlush">
                             <div class="accordion-body">
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
@@ -314,7 +314,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
@@ -400,7 +400,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
@@ -553,7 +553,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
@@ -604,7 +604,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
@@ -669,7 +669,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <thead>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">

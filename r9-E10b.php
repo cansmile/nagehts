@@ -39,16 +39,16 @@
                             <tr>
                                 <td>
                                     <div class="input-group lh350">
-                                        현재완료형은 sein, haben의 조동사와 <input autocomplete="off" type="text" class="form-control q pl-0
+                                        현재완료형은 sein, haben의 조동사와 <input autocomplete="off" type="text" class="form-control q ps-0
                                         col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-1">
-                                        과 결합된 형태로서 현재까지 유효한 <input autocomplete="off" type="text" class="form-control q pl-0
+                                        과 결합된 형태로서 현재까지 유효한 <input autocomplete="off" type="text" class="form-control q ps-0
                                         col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-2">
                                         의 사실이나 현재 시각 전에 일어난 과거사실을 표현하는데 사용되며
-                                        무엇보다도 <input autocomplete="off" type="text" class="form-control q pl-0
+                                        무엇보다도 <input autocomplete="off" type="text" class="form-control q ps-0
                                         col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-3"> 에서 과거사실을
@@ -88,11 +88,11 @@
                                 <td>
                                     <div class="input-group lh350">
                                         독일어의 많은 동사들이 현재완료형에서 조동사 haben과 결합하는데,
-                                        예를 들어 타동사, <input autocomplete="off" type="text" class="form-control q pl-0
+                                        예를 들어 타동사, <input autocomplete="off" type="text" class="form-control q ps-0
                                         col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-4"> 그리고
-                                        <input autocomplete="off" type="text" class="form-control q pl-0
+                                        <input autocomplete="off" type="text" class="form-control q ps-0
                                         col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-5"> 의 의미를 지닌
@@ -133,14 +133,14 @@
                                 <td>
                                     <div class="input-group lh350">
                                         현재 완료형에서 조동사 sein 과 결합하는 자동사들은 움직임을 나타내는
-                                        자동사, <input autocomplete="off" type="text" class="form-control q pl-0
+                                        자동사, <input autocomplete="off" type="text" class="form-control q ps-0
                                         col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-6"> 를 나타내는
-                                        자동사 그리고 sein, <input autocomplete="off" type="text" class="form-control q pl-0
+                                        자동사 그리고 sein, <input autocomplete="off" type="text" class="form-control q ps-0
                                         col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
-                                            aria-label="." id="qst-7"> , <input autocomplete="off" type="text" class="form-control q pl-0
+                                            aria-label="." id="qst-7"> , <input autocomplete="off" type="text" class="form-control q ps-0
                                             col-2 rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark mx-1 d-inline-block t-6" style="min-width: 150px;"
                                             aria-label="." id="qst-8"> 등의 동사들

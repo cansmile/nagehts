@@ -432,7 +432,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "w-100 font-weight-bold pl-0"
+                            "w-100 font-weight-bold ps-0"
                             );
                         $("#" + $(this).attr("id")).addClass(
                             "text-center");

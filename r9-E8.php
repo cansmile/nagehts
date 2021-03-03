@@ -36,13 +36,13 @@
                 <div class="col-12 my-2">
                     <div class="input-group">
                         <input autocomplete="off" type="text"
-                            class="form-control q pl-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                            class="form-control q ps-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-1">
                         sind 20 Jahre verheiratet.<span class="tran">&nbsp;<small>저희가 결혼한 지 20주년이
                                 되었습니다.</small>&nbsp;</span> Das möchten <input autocomplete="off" type="text"
-                            class="form-control q pl-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                            class="form-control q ps-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-2">gern mit
-                            <input autocomplete="off" type="text" class="form-control q pl-0 col-1 rounded-0 border-bottom-only mx-1 px-2
+                            <input autocomplete="off" type="text" class="form-control q ps-0 col-1 rounded-0 border-bottom-only mx-1 px-2
                             py-1 text-center border-dark mx-1 text-capitalize" style="min-width: 150px;" aria-label="."
                             id="qst-3" >und Ihrer Frau und unseren anderen Bekannten und Freunden feiern.
                             <span class="tran">&nbsp; <small>저희는 당신과 당신의 아내, 우리의 다른
@@ -50,20 +50,20 @@
                                 합니다.</small>&nbsp;</span> Die Feier ist am
                         Montag, 16. 6., um 19.00 Uhr.<span class="tran">&nbsp;<small>파티는 6월 16일 월요일,
                                 19시입니다.</small>&nbsp;</span> Haben<input autocomplete="off" type="text"
-                            class="form-control q pl-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                            class="form-control q ps-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 text-capitalize" style="min-width: 150px;" aria-label="." id="qst-4">
                         da Zeit?<span class="tran">&nbsp;<small>시간이
                                 괜찮으신가요?</small>&nbsp;</span> Bitte antworten Sie
                         <input autocomplete="off" type="text"
-                            class="form-control q pl-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                            class="form-control q ps-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-5">
                             bis Mittwoch oder rufen Sie <input autocomplete="off" type="text"
-                            class="form-control q pl-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                            class="form-control q ps-0 col-1 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" style="min-width: 150px;" aria-label="." id="qst-6">an.
                             <span class="tran">&nbsp;<small>저희에게 수요일까지 답신을 주시거나 전화해주세요.</small>&nbsp;</span>
                     </div>
 
-                    <div class="col-12  text-right">Mit freundlichen Grüßen<span class="tran">&nbsp;<small>마음을
+                    <div class="col-12  text-end">Mit freundlichen Grüßen<span class="tran">&nbsp;<small>마음을
                                 담아,</small>&nbsp;</span><br>
                         Ihre Christa und Wolfgang Haister
                         <span class="tran">&nbsp;<small>당신의 크리스타와 볼프강

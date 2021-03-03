@@ -66,16 +66,16 @@
                     <table class="table table-borderless table-sm table-striped text-center">
                         <tbody>
                             <tr>
-                                <th class="text-right" scope="row">♥</th>
+                                <th class="text-end" scope="row">♥</th>
                                 <td>Ich esse <strong>gern</strong> Kuchen.</td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row">♥♥</th>
+                                <th class="text-end" scope="row">♥♥</th>
                                 <td>Ich esse <strong>lieber</strong> Wurstbort.
                                 </td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row">♥♥♥</th>
+                                <th class="text-end" scope="row">♥♥♥</th>
                                 <td>Ich esse <strong>am liebsten</strong>
                                     Käsebrot.</td>
                             </tr>

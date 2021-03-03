@@ -164,22 +164,22 @@
                                         <th width="45%" scope="col" colspan="3">Partizip II</th>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">↙</td>
+                                        <td class="text-end">↙</td>
                                         <td></td>
-                                        <td class="text-left">↘</td>
+                                        <td class="text-start">↘</td>
                                         <td></td>
-                                        <td class="text-right">↙</td>
+                                        <td class="text-end">↙</td>
                                         <td></td>
-                                        <td class="text-left">↘</td>
+                                        <td class="text-start">↘</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">haben</td>
+                                        <td class="text-end">haben</td>
                                         <td></td>
-                                        <td class="text-left">sein</td>
+                                        <td class="text-start">sein</td>
                                         <td></td>
-                                        <td class="text-right">ge-<span class="wd_inline"></span>-t<br>(schwache V)</td>
+                                        <td class="text-end">ge-<span class="wd_inline"></span>-t<br>(schwache V)</td>
                                         <td></td>
-                                        <td class="text-left">ge-<span class="wd_inline"></span>-en<br>(starke V)</td>
+                                        <td class="text-start">ge-<span class="wd_inline"></span>-en<br>(starke V)</td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -321,7 +321,7 @@
                         <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
                              data-bs-parent="#accordionFlush">
                             <div class="accordion-body">
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
@@ -353,7 +353,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td width="50%">
@@ -414,7 +414,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -442,7 +442,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -470,7 +470,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -500,7 +500,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -528,7 +528,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -546,7 +546,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -578,7 +578,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -594,7 +594,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -624,7 +624,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -666,7 +666,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td>

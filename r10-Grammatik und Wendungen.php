@@ -21,7 +21,7 @@
                                 <table class="table table-borderless text-center">
                                     <thead>
                                     <tr>
-                                        <th scope="col" colspan="5" class="text-left pl-2">Wechselpräpositionen</th>
+                                        <th scope="col" colspan="5" class="text-start ps-2">Wechselpräpositionen</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -49,7 +49,7 @@
                                         <td width="5%">&nbsp;</td>
                                         <td width="35%" class="p-2">
                                             <div class="row">
-                                                <div class="col border border-dark p-1 text-left">
+                                                <div class="col border border-dark p-1 text-start">
                                                     <ul>
                                                         <li>Entschulidgung, wo ist das Café Dornbusch, bitte ?</li>
                                                         <li>Zwischen dem Kino Megabox und dem Restaurant Maredo.</li>
@@ -60,7 +60,7 @@
                                         <td width="10%">&nbsp;</td>
                                         <td width="35%" class="p-2">
                                             <div class="row">
-                                                <div class="col border border-dark p-1 text-left">
+                                                <div class="col border border-dark p-1 text-start">
                                                     <ul>
                                                         <li>Wohin gehen Sie ?</li>
                                                         <li>In den Supermarkt Kaiser.</li>
@@ -116,13 +116,13 @@
                                         <td width="45%" colspan="3" class="text-center">Partizip II</td>
                                     </tr>
                                     <tr>
-                                        <td width="15%" class="py-0 my-0 text-right">↙</td>
+                                        <td width="15%" class="py-0 my-0 text-end">↙</td>
                                         <td width="15%" class="py-0 my-0 text-center"></td>
-                                        <td width="15%" class="py-0 my-0 text-left">↘</td>
+                                        <td width="15%" class="py-0 my-0 text-start">↘</td>
                                         <td width="10%" class="py-0 my-0">&nbsp;</td>
-                                        <td width="15%" class="py-0 my-0 text-right">↙</td>
+                                        <td width="15%" class="py-0 my-0 text-end">↙</td>
                                         <td width="15%" class="py-0 my-0 text-center">↓</td>
-                                        <td width="15%" class="py-0 my-0 text-left">↘</td>
+                                        <td width="15%" class="py-0 my-0 text-start">↘</td>
                                     </tr>
                                     <tr>
                                         <td width="15%" class="text-center">haben</td>
@@ -182,7 +182,7 @@
                         <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
                              data-bs-parent="#accordionFlush">
                             <div class="accordion-body">
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <th class="text-center align-middle m-2 p-2" colspan="2">
@@ -312,7 +312,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <th class="align-middle m-2 p-2" colspan="2">
@@ -343,10 +343,10 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
-                                        <th class="text-left align-middle m-2 p-2" colspan="2">
+                                        <th class="text-start align-middle m-2 p-2" colspan="2">
                                             <div class="row">
                                                 <div class="col-1 mx-1 px-1 ms-2">
                                                     <button type="button" id="13"

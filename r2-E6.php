@@ -294,7 +294,7 @@
                             $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
                             $(".itm-lst>button").addClass(
-                                "text-success font-weight-bold text-left");
+                                "text-success font-weight-bold text-start");
                             var qa = $(".itm-lst").length; /* 전체 문항 수 */
                             var qr = $(".text-success").length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */
@@ -337,7 +337,7 @@
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                                 $("#" + $(this).attr("id")).addClass(
-                                    "w-100 text-left"
+                                    "w-100 text-start"
                                     ); /* $("#"+ $(this).attr("id")).addClass("border-0"); */
                                 $("#lst-" + pan[p] + ">h2")
                                     .remove(); /* $("#lst-"+ pan[p]).closest("tr").find(".tran").show(); */

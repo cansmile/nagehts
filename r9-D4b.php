@@ -14,14 +14,15 @@
             </div>
         </div>
         <div class="row my-2">
-            <span class="wd me-1">gebacken</span>
-            <span class="wd me-1">gefahren</span>
-            <span class="wd me-1">gekommen</span>
-            <span class="wd me-1">gemacht</span>
-            <span class="wd me-1">geredet</span>
-            <span class="wd me-1">geblieben</span>
-            <span class="wd me-1">gegangen</span>
-        </div>
+            <div class="col-12">
+                <span class="wd me-1">gebacken</span>
+                <span class="wd me-1">gefahren</span>
+                <span class="wd me-1">gekommen</span>
+                <span class="wd me-1">gemacht</span>
+                <span class="wd me-1">geredet</span>
+                <span class="wd me-1">geblieben</span>
+                <span class="wd me-1">gegangen</span>
+            </div></div>
         <div class="row">
             <div class="col-12">
                 <div class="input-group lh350">
@@ -32,11 +33,11 @@
                 </div>
                 <div class="input-group lh350">
                     Gleich am Morgen hat meine Freundin mich <input autocomplete="off" type="text"
-                                                                    class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                                    class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="anrufen"
                                                                     id="qst-1"> und mir zum Geburtstag <input
                         autocomplete="off" type="text"
-                        class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="gratuliert"
                         id="qst-2"> . <span class="tran">&nbsp;<small>아침이
                                 되자마자 내 친구가 나에게 전화하여 나에게 생일 축하를 해주었어.</small>&nbsp;</span>
@@ -45,7 +46,7 @@
                     Zum FrühstücZum Frühstück hat meine Mutter
                     mir ein leckeres Frühstück mit gekochtem Ei, und Speck und Toast <input autocomplete="off"
                                                                                             type="text"
-                                                                                            class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                                                            class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="machen"
                                                                                             id="qst-3"> . <span
                         class="tran">&nbsp;<small>아침식사에 엄마가
@@ -53,7 +54,7 @@
                 </div>
                 <div class="input-group lh350">
                     Sie hat sogar einen selbstgemachten Kuchen <input autocomplete="off" type="text"
-                                                                      class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                                      class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="backen"
                                                                       id="qst-4"> - <span class="tran">&nbsp;<small>더욱이 엄마가 손수
                                 케익을 만들어 주셨어.</small>&nbsp;</span>Erdbeerkuchen mit Sahne, einfach köstlich! <span
@@ -73,7 +74,7 @@
                 <div class="input-group lh350">
                     Und meine
                     alte Schulfreundin Julia ist aus Frankfurt <input autocomplete="off" type="text"
-                                                                      class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                                      class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="kommen"
                                                                       id="qst-5"> . <span class="tran">&nbsp;<small>나의 오랜
                                 학교친구인 율리아도 프랑크프르트에서 왔어.</small>&nbsp;</span>
@@ -81,7 +82,7 @@
                 <div class="input-group lh350">
                     Sie ist mit der Bahn zu mir <input autocomplete="off"
                                                        type="text"
-                                                       class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                       class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="fahren"
                                                        id="qst-6"> , um mir zum Geburtstag zu gratulieren.
                     <span class="tran">&nbsp;<small>율리아는 나에게 생일축하인사를 하려고 기차를 타고 왔어.</small>&nbsp;</span>
@@ -89,24 +90,24 @@
                 <div class="input-group lh350">
                     Wir haben
                     <input autocomplete="off" type="text"
-                           class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                           class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="grillen"
                            id="qst-7"> und dabei Musik <input autocomplete="off" type="text"
-                                                              class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                              class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="hören"
                                                               id="qst-8"> . <span class="tran">&nbsp;<small>리는 그릴도 하고
                                 음악도 들었어.</small>&nbsp;</span>
                 </div>
                 <div class="input-group lh350">
                     Bis zum Abend hin haben wir <input autocomplete="off" type="text"
-                                                       class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                       class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="reden"
                                                        id="qst-9"> , <input autocomplete="off" type="text"
-                                                                            class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                                            class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="tanzen"
                                                                             id="qst-10"> und viel <input
                         autocomplete="off" type="text"
-                        class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="lachen"
                         id="qst-11"> . <span class="tran">&nbsp;<small>저녁까지 이야기도
                             나누었고, 춤도 추고 많이 웃었어.</small>&nbsp;</span>
@@ -120,11 +121,11 @@
                 </div>
                 <div class="input-group lh350">
                     Sie sind spät gegen 11Uhr nach Hause <input autocomplete="off" type="text"
-                                                                class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                                                class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                         border-dark mx-1" aria-label="." placeholder="gehen"
                                                                 id="qst-12"> , nur Leoni ist bei mir <input
                         autocomplete="off" type="text"
-                        class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1" aria-label="." placeholder="bleiben"
                         id="qst-13"> und hat übernachtet. <span
                         class="tran">&nbsp;<small>친구들은 (저녁) 11시경에 집으로 돌아갔고 레오니만 우리집에 머물면서 잠을
@@ -440,10 +441,6 @@
                     th.css("width", w);
                 };
 
-                /* 전체 입력란 폭 맞추기 */
-                $(".q").each(function () {
-                    di($(this));
-                });
 
                 var pan = new Array();
                 pan = [1, 2, 7, 8, 10, 11];
@@ -453,6 +450,11 @@
                     $(pann).addClass("bg-success text-white font-weight-bold");
                     $(pann).prop("disabled", true);
                 }
+
+                /* 전체 입력란 폭 맞추기 */
+                $(".q").each(function () {
+                    di($(this));
+                });
                 $("#0").show();
                 $("#ready").hide();
             },

@@ -183,7 +183,7 @@
                                     <div class="input-group">
                                         Er ist ein bildschön
                                         <input autocomplete="off" type="text"
-                                            class="form-control q border border- border-bottom-only rounded-0 mx-1 pl-0 t-6"
+                                            class="form-control q border border- border-bottom-only rounded-0 mx-1 ps-0 t-6"
                                             aria-label="." id="qst-8" style="max-width: 100px;">
                                         Tisch.
                                     </div>
@@ -274,7 +274,7 @@
                                     <div class="input-group">
                                         Es ist ein originell
                                         <input autocomplete="off" type="text"
-                                            class="form-control q border border- border-bottom-only rounded-0 mx-1 pl-0 t-6"
+                                            class="form-control q border border- border-bottom-only rounded-0 mx-1 ps-0 t-6"
                                             aria-label="." id="qst-13" style="max-width: 100px;">
                                         Bett.
                                     </div>

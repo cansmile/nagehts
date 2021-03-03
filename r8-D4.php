@@ -18,68 +18,68 @@
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-left" id="1">
+                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-start" id="1">
                         Was hast du gegessen?
                         <span class="tran"><br><small>뭘 먹었니?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so text-left" id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so text-start" id="2">
                         Das ist aber nicht gut! Du musst viel Obst und Gemüse
                         essen.
                         <span class="tran"><br><small>그것은 안좋아! 과일과 채소를 많이 먹어야
                                 하는데.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so text-left" id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so text-start" id="3">
                         Heute verschreibe ich dir ein Medikament!
                         <span class="tran"><br><small>오늘 약을
                                 처방해줄게!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-left" id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-start" id="4">
                         Guten Tag, Frau Doktor!
                         <span class="tran"><br><small>안녕하세요, 선생님!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so text-left" id="5">
+                    <button type="button" class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so text-start" id="5">
                         Gute Besserung!
                         <span class="tran"><br><small>얼른 나으렴!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-left" id="6">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-start" id="6">
                         Hallo Peter?
                         <span class="tran"><br><small>안녕 피터?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-left" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-start" id="7">
                         Ich habe Hamburger gegessen.
                         <span class="tran"><br><small>햄버거 먹었어요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-start" id="8">
                         Was fehlt dir denn?
                         <span class="tran"><br><small>어디가 아프니?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-left" id="9">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-start" id="9">
                         Mein Magen tut mir sehr weh und ich habe Fieber.
                         <span class="tran"><br><small>배가 많이 아프고 열이
                                 있어요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-left" id="10">
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-start" id="10">
                         Ich esse meistens Fast Food, Hamburger oder Pizza.
                         <span class="tran"><br><small>저는 보통 패스트푸드 먹는데, 햄버거나
                                 피자에요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans15 btn-md btn-outline-dark itm so text-left" id="11">
+                    <button type="button" class="mt-1 mx-1 btn ans15 btn-md btn-outline-dark itm so text-start" id="11">
                         Danke schön, Frau Doktor!
                         <span class="tran"><br><small>고맙습니다, 선생님!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so text-left" id="12">
+                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so text-start" id="12">
                         Ja, ich weiß.
                         <span class="tran"><br><small>네, 알아요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so text-left" id="13">
+                    <button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so text-start" id="13">
                         (nach der Untersuchung) Peter!
                         <span class="tran"><br><small>(검진 후)피터!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so text-left" id="14">
+                    <button type="button" class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so text-start" id="14">
                         Du hast Darmgrippe.
                         <span class="tran"><br><small>장염에 걸렸구나.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so text-left" id="15">
+                    <button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so text-start" id="15">
                         Aber ich bin den ganzen Tag in der Schule und gleich
                         danach habe ich Nachhilfeunterricht.
                         <span class="tran"><br><small>하지만 저는 하루 종일 학교에 있고, 곧바로

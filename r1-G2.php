@@ -45,23 +45,23 @@
             <div class="row mt-2" id="lsts">
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-1">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-1.png"
-                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-2">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-2.png"
-                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-3">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-3.png"
-                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-4">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-4.png"
-                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto ttl">
                 </div>
                 <div class="rounded-top itm-lst mx-auto col-auto pt-1" style="min-height: 240px;" id="lst-5">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G2-5.png"
-                        style="width: auto; max-height: 140px" class="mx-auto w-100 ttl">
+                        style="width: auto; max-height: 140px" class="mx-auto ttl">
                 </div>
             </div>
             <div class="row">

@@ -65,7 +65,7 @@
                                 <th width="20" class="text-center">
                                     <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">12.1.
+                                <td width="50" class="text-end">12.1.
                                 </td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
@@ -86,7 +86,7 @@
                                 <th width="20" class="text-center">
                                     <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">5.2.
+                                <td width="50" class="text-end">5.2.
                                 </td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
@@ -107,7 +107,7 @@
                                 <th width="20" class="text-center">
                                     <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">1.5.
+                                <td width="50" class="text-end">1.5.
                                 </td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
@@ -128,7 +128,7 @@
                                 <th width="20" class="text-center">
                                     <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">17.6.
+                                <td width="50" class="text-end">17.6.
                                 </td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
@@ -149,7 +149,7 @@
                                 <th width="20" class="text-center">
                                     <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">9.7.
+                                <td width="50" class="text-end">9.7.
                                 </td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"
@@ -170,7 +170,7 @@
                                 <th width="20" class="text-center">
                                     <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">
+                                <td width="50" class="text-end">
                                     23.12.</td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 me-1" style="min-width: 200px;"

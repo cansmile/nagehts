@@ -17,7 +17,7 @@
                         <div class="col-1 text-center">*</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Wie <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                Wie <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only
                                 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-1">du nach Seoul
                                 gekommen?
@@ -29,7 +29,7 @@
                         <div class="col-1 text-center">‧</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Ich <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                Ich <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only
                                 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-2">die U-Bahn
                                 genommen.
@@ -45,7 +45,7 @@
                         <div class="col-1 text-center">*</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Was <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                Was <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only
                                 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-3">du im Urlaub
                                 gemacht?
@@ -57,7 +57,7 @@
                         <div class="col-1 text-center">‧</div>
                         <div class="col-10">
                             <div class="input-group">
-                                Ich<input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                Ich<input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only
                                 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-4">
                                 ans Meer
@@ -88,10 +88,10 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-10">
                             <div class="input-group">
-                                Wir <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                Wir <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only
                                 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-5">zusammen auf eine
-                                Party gegangen und da <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0
+                                Party gegangen und da <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0
                                 border-bottom-only mx-1 px-2 py-1 text-center border-dark mx-1"
                                     style="min-width: 150px;" aria-label="." id="qst-6">wir getanzt und
                                 Musik gehört.
@@ -103,7 +103,7 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-10">
                             <div class="input-group">
-                                Ich <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                Ich <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only
                                 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-7">spät nach Hause
                                 gekommen.
@@ -123,7 +123,7 @@
                         <div class="col-1 text-center"></div>
                         <div class="col-10">
                             <div class="input-group">
-                                Da <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only
+                                Da <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only
                                 mx-1 px-2 py-1 text-center border-dark mx-1" style="min-width: 150px;" aria-label="."
                                     id="qst-8">ich für die
                                 Deutschprüfung gelernt.

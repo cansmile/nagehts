@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
-                        <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-1">Frühling –
                         Hase –
                         Eier –
@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
-                        <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-2">Maske –
                         Kostüm –
                         Karnerval
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
-                        <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-3">Bier – Musik
                         – Brezel
                         -
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
-                        <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-4">Kranz
                         –Weihnachtsbaum–
                         Geschenke – Familie
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
-                        <input autocomplete="off" type="text" class="form-control q pl-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        <input autocomplete="off" type="text" class="form-control q ps-0 col-2 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-5">Alter –
                         Geburtstagstorte –
                         Kerze – Party – Geschenke

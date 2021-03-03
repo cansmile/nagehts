@@ -229,7 +229,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row" colspan="2" class="text-right">* nicht<small>는 부정어로서 영어의</small>not<small>을
+                                        <th scope="row" colspan="2" class="text-end">* nicht<small>는 부정어로서 영어의</small>not<small>을
                                                 의미한다</small>.
                                         </th>
                                     </tr>

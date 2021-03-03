@@ -55,7 +55,7 @@
                                     <div class="col-1">
                                         <button type="button" id="1"
                                                 class="so btn btn-outline-danger">▶</button>
-                                    </div><div class="col-9 text-left lh250">
+                                    </div><div class="col-9 text-start lh250">
                                         Was ist Ihr Familienstand?<span class="tran"><br><small>가족상황이 어떻게
                                                     되죠?</small></span>
                                     </div>
@@ -66,7 +66,7 @@
                                     <div class="col-1">
                                         <button type="button" id="2"
                                                 class="so btn btn-outline-danger">▶</button>
-                                    </div><div class="col-9 text-left lh250">
+                                    </div><div class="col-9 text-start lh250">
                                         Ich bin verheiratet.<span class="tran"><br><small>저는
                                                     결혼했어요.</small></span>
                                     </div>
@@ -77,7 +77,7 @@
                                     <div class="col-1">
                                         <button type="button" id="3"
                                                 class="so btn btn-outline-danger">▶</button>
-                                    </div><div class="col-9 text-left lh250">
+                                    </div><div class="col-9 text-start lh250">
                                         Haben Sie Kinder?<span class="tran"><br><small>아이가
                                                     있으신가요?</small></span>
                                     </div>
@@ -88,7 +88,7 @@
                                     <div class="col-1">
                                         <button type="button" id="4"
                                                 class="so btn btn-outline-danger">▶</button>
-                                    </div><div class="col-9 text-left lh250">
+                                    </div><div class="col-9 text-start lh250">
                                             <span class="sen">Nein, ich habe <span class="nu"></span>
                                                 <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
                                                     data-toggle="buttons" role="group" id="qst-1">
@@ -116,7 +116,7 @@
                                     <div class="col-1">
                                         <button type="button" id="5"
                                                 class="so btn btn-outline-danger">▶</button>
-                                    </div><div class="col-9 text-left lh250">
+                                    </div><div class="col-9 text-start lh250">
                                             <span class="sen">Ich bin <span class="nu"></span>
                                                 <div class="btn-group border border-dark border-bottom-only q d-inline-flex"
                                                     data-toggle="buttons" role="group" id="qst-2">

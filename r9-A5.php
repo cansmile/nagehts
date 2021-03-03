@@ -67,7 +67,7 @@
                                 <th width="20" class="text-center"><button type="button" id="1"
                                         class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">1.1</td>
+                                <td width="50" class="text-end">1.1</td>
                                 <td>
                                     <div class="input-group">
                                         Am ersten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
@@ -89,7 +89,7 @@
                                 <th width="20" class="text-center"><button type="button" id="2"
                                         class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">14.2</td>
+                                <td width="50" class="text-end">14.2</td>
                                 <td>
                                     <div class="input-group">
                                         Am vierzehnten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
@@ -111,7 +111,7 @@
                                 <th width="20" class="text-center"><button type="button" id="3"
                                         class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">1.5.</td>
+                                <td width="50" class="text-end">1.5.</td>
                                 <td>
                                     <div class="input-group">
                                         Am ersten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only me-1 px-2 py-1
@@ -133,7 +133,7 @@
                                 <th width="20" class="text-center"><button type="button" id="4"
                                         class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">3.10.</td>
+                                <td width="50" class="text-end">3.10.</td>
                                 <td>
                                     <div class="input-group">
                                         Am dritten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only me-1 px-2 py-1
@@ -155,7 +155,7 @@
                                 <th width="20" class="text-center"><button type="button" id="5"
                                         class="so btn btn-outline-dark btn-sm me-1">▶</button>
                                 </th>
-                                <td width="50" class="text-right">6.12.</td>
+                                <td width="50" class="text-end">6.12.</td>
                                 <td>
                                     <div class="input-group">
                                         Am sechsten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only me-1 px-2 py-1

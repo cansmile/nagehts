@@ -205,13 +205,13 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">&nbsp;</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b1">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b1">Es ist</td>
                                 <td class="align-middle"><strong>ein</strong>
                                     Uhr.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b2">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b2">Es ist</td>
                                 <td class="align-middle">
                                     <strong>dreizehn</strong> Uhr.</td>
                             </tr>
@@ -219,13 +219,13 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">1.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b3">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b3">Es ist</td>
                                 <td class="align-middle"><strong>sechs</strong>
                                     Uhr <strong>dreißig</strong>.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b4">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b4">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-1">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -237,13 +237,13 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">2.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b5">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b5">Es ist</td>
                                 <td class="align-middle"><strong>drei</strong>
                                     Uhr <strong>zwanzig</strong>.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b6">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b6">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-2">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -255,7 +255,7 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">3.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b7">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b7">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-3">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -265,7 +265,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b8">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b8">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-4">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -277,7 +277,7 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">4.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b9">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b9">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-5">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -287,7 +287,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b10">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b10">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-6">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -299,7 +299,7 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">5.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b11">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b11">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-7">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -309,7 +309,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b12">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b12">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-8">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -321,7 +321,7 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">6.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b13">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b13">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-9">
                                         <h2 class="btn py-0 my-0 btn-warning btnsml ttl w-100">
@@ -331,7 +331,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b14">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b14">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-10">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -343,7 +343,7 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">7.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b15">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b15">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-11">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -353,7 +353,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b16">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b16">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-12">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -365,7 +365,7 @@
                                 <td class="text-center align-middle" height="<?php echo($double_cell_height); ?>"
                                     width="50" rowspan="2">8.</td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b17">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b17">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-13">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -375,7 +375,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b18">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b18">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-14">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -508,13 +508,13 @@
                                         1.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b19">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b19">Es ist</td>
                                 <td class="align-middle"><strong>eins</strong>.
                                 </td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b20">&nbsp;</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b20">&nbsp;</td>
                                 <td class="align-middle">&nbsp;</td>
                             </tr>
                             <tr>
@@ -526,13 +526,13 @@
                                         2.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b21">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b21">Es ist</td>
                                 <td class="align-middle"><strong>halb</strong>
                                     sieben.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b22">&nbsp;</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b22">&nbsp;</td>
                                 <td class="align-middle">&nbsp;</td>
                             </tr>
                             <tr>
@@ -544,13 +544,13 @@
                                         3.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b23">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b23">Es ist</td>
                                 <td class="align-middle">zwanzig
                                     <strong>nach</strong> drei.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b24">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b24">Es ist</td>
                                 <td class="align-middle">zehn
                                     <strong>vor</strong> halb vier.</td>
                             </tr>
@@ -563,12 +563,12 @@
                                         4.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b25">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b25">Es ist</td>
                                 <td class="align-middle">zwanzig vor acht.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b26">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b26">Es ist</td>
                                 <td class="align-middle">zehn nach halb acht.
                                 </td>
                             </tr>
@@ -581,12 +581,12 @@
                                         5.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b27">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b27">Es ist</td>
                                 <td class="align-middle">zehn nach zehn.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b28">&nbsp;</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b28">&nbsp;</td>
                                 <td class="align-middle">&nbsp;</td>
                             </tr>
                             <tr>
@@ -598,7 +598,7 @@
                                         6.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b29">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b29">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-15">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -608,7 +608,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b30">&nbsp;</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b30">&nbsp;</td>
                                 <td class="align-middle">&nbsp;</td>
                             </tr>
                             <tr>
@@ -620,7 +620,7 @@
                                         7.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b31">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b31">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-16">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -630,7 +630,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b32">&nbsp;</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b32">&nbsp;</td>
                                 <td class="align-middle">&nbsp;</td>
                             </tr>
                             <tr>
@@ -642,7 +642,7 @@
                                         8.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b33">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b33">Es ist</td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm py-0 my-0" id="lst-17">
                                         <h2 class="btn py-0 my-0 btn-warning btn-sm ttl w-100">
@@ -652,7 +652,7 @@
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b34">&nbsp;</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b34">&nbsp;</td>
                                 <td class="align-middle">&nbsp;</td>
                             </tr>
                             <tr>
@@ -664,12 +664,12 @@
                                         9.</div>
                                 </td>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b35">Es ist</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b35">Es ist</td>
                                 <td class="align-middle">kurz nach elf.</td>
                             </tr>
                             <tr>
                                 <td width="80" height="<?php echo($a_cell_height); ?>"
-                                    class="text-right pr-0 me-0 align-middle" id="b36">&nbsp;</td>
+                                    class="text-end pe-0 me-0 align-middle" id="b36">&nbsp;</td>
                                 <td class="align-middle">&nbsp;</td>
                             </tr>
                         </tbody>
@@ -695,15 +695,15 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <div class="pl-1">• 시각을 나타낼 때에는 시각과 전치사
+                                    <div class="ps-1">• 시각을 나타낼 때에는 시각과 전치사
                                         <strong>um</strong>이 함께 쓰인다.</div>
-                                    <div class="pl-3">이때 의문사는 <strong>Um wie
+                                    <div class="ps-3">이때 의문사는 <strong>Um wie
                                             viel Uhr?</strong> 혹은
                                         <strong>Wann?</strong> 으로 질문한다.</div>
-                                    <div class="pl-1 pt-2">• 시간을 나타내는 부사구는 문장의
+                                    <div class="ps-1 pt-2">• 시간을 나타내는 부사구는 문장의
                                         첫번째에 놓일수 있다.</div>
-                                    <div class="pl-3">이 때 주어는 동사 다음에 위치한다.</div>
-                                    <div class="pl-4 pt-2"><strong>Um sechs
+                                    <div class="ps-3">이 때 주어는 동사 다음에 위치한다.</div>
+                                    <div class="ps-4 pt-2"><strong>Um sechs
                                             Uhr</strong> stehe
                                         <strong>ich</strong> auf.<br>
                                         <strong>Um halb elf</strong> schlafe
@@ -740,14 +740,10 @@
                             <tr>
                                 <td class="bg-light">
                                     <div class="row">
-                                        <div class="col-1">
-                                            <span class="tipp">TIPP</span>
-                                        </div>
-                                        <div class="pl-5 col-8">
-                                            <strong>Wochentage</strong><br><small>요일,
-                                                공휴일 등의 시간적 의미를 나타낼 때에는 전치사 an이
-                                                함께 쓰인다.</small>
-                                        </div>
+                                        <span class="tipp w-auto">TIPP</span>
+                                        <strong>Wochentage</strong><br><small>요일,
+                                            공휴일 등의 시간적 의미를 나타낼 때에는 전치사 an이
+                                            함께 쓰인다.</small>
                                     </div>
                                 </td>
                             </tr>
@@ -776,23 +772,23 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="pl-4 row">
+                                    <div class="ps-4 row">
                                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-middle">
                                             <div class="pt-1"><strong>Am</strong> Morgen
                                                 machen wir einen Spaziergang.<br>
-                                                <small class="pl-2">우리는 아침에
+                                                <small class="ps-2">우리는 아침에
                                                     산책한다.</small><br></div>
                                             <div class="pt-1"><strong>Am</strong> Sonntag
                                                 gehen sie in die Kirche.<br>
-                                                <small class="pl-2">그들은 일요일에 교회에
+                                                <small class="ps-2">그들은 일요일에 교회에
                                                     간다.</small><br></div>
                                             <div class="pt-1"><strong>Am</strong> Wochenende
                                                 fahre ich nach Paris.<br>
-                                                <small class="pl-2">주말에 나는 파리로
+                                                <small class="ps-2">주말에 나는 파리로
                                                     간다.</small><br></div>
                                             <div class="pt-1"><strong>Am</strong> 4. Juli
                                                 habe ich Geburtstag.<br>
-                                                <small class="pl-2">7월 4일이 내
+                                                <small class="ps-2">7월 4일이 내
                                                     생일이다.</small><br></div>
                                         </div>
                                         <div
@@ -955,7 +951,7 @@
                                                 $("#" + $(this)
                                                         .attr("id"))
                                                     .addClass(
-                                                        "w-100 font-weight-bold text-left pl-0"
+                                                        "w-100 font-weight-bold text-start ps-0"
                                                     );
                                                 $("#" + $(this)
                                                         .attr("id"))

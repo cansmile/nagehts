@@ -89,7 +89,7 @@
                                         möcht
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-1">
                                     </div>
                                 </td>
@@ -101,7 +101,7 @@
                                         möcht
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-2">
                                     </div>
                                 </td>
@@ -113,7 +113,7 @@
                                         möcht
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-3">
                                     </div>
                                 </td>
@@ -125,7 +125,7 @@
                                         möcht
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-4">
                                     </div>
                                 </td>
@@ -137,7 +137,7 @@
                                         möcht
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-5">
                                     </div>
                                 </td>
@@ -149,7 +149,7 @@
                                         möcht
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-6">
                                     </div>
                                 </td>
@@ -161,7 +161,7 @@
                                         möcht
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-7">
                                     </div>
                                 </td>
@@ -179,7 +179,7 @@
                                         nehm
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-8">
                                     </div>
                                 </td>
@@ -191,7 +191,7 @@
                                         nimm
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-9">
                                     </div>
                                 </td>
@@ -203,7 +203,7 @@
                                         nehm
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-10">
                                     </div>
                                 </td>
@@ -215,7 +215,7 @@
                                         nimm
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-11">
                                     </div>
                                 </td>
@@ -227,7 +227,7 @@
                                         nehm
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-12">
                                     </div>
                                 </td>
@@ -239,7 +239,7 @@
                                         nehm
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-13">
                                     </div>
                                 </td>
@@ -251,7 +251,7 @@
                                         nehm
                                         <input autocomplete="off" type="text"
                                             class="text-lowercase form-control
-                                            q pl-0 col-4 rounded-0 border-bottom-only t-6"
+                                            q ps-0 col-4 rounded-0 border-bottom-only t-6"
                                             aria-label="." id="qst-14">
                                     </div>
                                 </td>

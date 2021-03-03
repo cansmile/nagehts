@@ -55,7 +55,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-1">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -86,7 +86,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>그는 이름이
                                             뭔가요?</small></span>
                                 </td>
@@ -123,7 +123,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-2">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -154,7 +154,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>그는
                                             토미라고해요.</small></span>
                                 </td>
@@ -193,7 +193,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-3">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -224,7 +224,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>어디에서
                                             사니?</small></span>
                                 </td>
@@ -262,7 +262,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-4">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
@@ -293,7 +293,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>대구에서
                                             사니?</small></span>
                                 </td>
@@ -332,7 +332,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-5">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -370,7 +370,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>응, 난
                                             대구에서 살아.</small></span>
                                 </td>
@@ -409,7 +409,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-6">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -440,7 +440,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>그는 어디에서
                                             왔나요</small></span>
                                 </td>
@@ -478,7 +478,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-7">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -509,7 +509,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right text-"
+                                    <span class="tran text-end text-"
                                         style="width: 100%;"><br><small>그는 칠레
                                             출신이에요.</small></span>
                                 </td>
@@ -549,7 +549,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-8">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
@@ -580,7 +580,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>베트남은 아시아
                                             대륙에 있나요?</small></span>
                                 </td>
@@ -619,7 +619,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-9">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -657,7 +657,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right text-"
+                                    <span class="tran text-end text-"
                                         style="width: 100%;"><br><small>네, 베트남은
                                             아시아 대륙에 있어요.</small></span>
                                 </td>
@@ -697,7 +697,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-10">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -729,7 +729,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>당신은 어떤
                                             언어를 말하나요?</small></span>
                                 </td>
@@ -767,7 +767,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-11">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -799,7 +799,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right text-"
+                                    <span class="tran text-end text-"
                                         style="width: 100%;"><br><small>저는 독일어와
                                             영어를 말해요.</small></span>
                                 </td>
@@ -838,7 +838,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-12">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
@@ -869,7 +869,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>너는 한국어
                                             말할 수 있니?</small></span>
                                 </td>
@@ -908,7 +908,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-13">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -953,7 +953,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right text-"
+                                    <span class="tran text-end text-"
                                         style="width: 100%;"><br><small>그럼, 나
                                             한국어 잘해.</small></span>
                                 </td>
@@ -992,7 +992,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-14">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
@@ -1023,7 +1023,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>너는
                                             중국인이니?</small></span>
                                 </td>
@@ -1061,7 +1061,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-15">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -1099,7 +1099,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right text-"
+                                    <span class="tran text-end text-"
                                         style="width: 100%;"><br><small>아니, 난
                                             한국인이야.</small></span>
                                 </td>
@@ -1138,7 +1138,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-16">
                                         <div class="btn btn-light pop o"
                                             data-toggle="popover"
@@ -1169,7 +1169,7 @@
                                             ?
                                         </div>
                                     </div>
-                                    <span class="tran text-right"
+                                    <span class="tran text-end"
                                         style="width: 100%;"><br><small>그는
                                             독일인인가요?</small></span>
                                 </td>
@@ -1207,7 +1207,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <div class="text-right btn-group q"
+                                    <div class="text-end btn-group q"
                                         data-toggle="buttons" role="group" id="qst-17">
                                         <div class="btn btn-light pop x"
                                             data-toggle="popover"
@@ -1245,7 +1245,7 @@
                                             .
                                         </div>
                                     </div>
-                                    <span class="tran text-right text-"
+                                    <span class="tran text-end text-"
                                         style="width: 100%;"><br><small>아뇨, 그는
                                             프랑스인이에요.</small></span>
                                 </td>

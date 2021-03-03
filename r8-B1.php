@@ -32,18 +32,18 @@
                     <table class="table table-borderless text-center">
                         <tbody>
                             <tr>
-                                <td width="40%" class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td width="40%" class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">der Kopf
                                     <span class="tran"><small>머리</small>
                                 </td>
                                 <td width="10%" class="align-middle p-0 m-1"><button type="button" id="1"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td rowspan="9" class="align-middle p-0 m-2 pl-2"><img
+                                <td rowspan="9" class="align-middle p-0 m-2 ps-2"><img
                                         src="./dev/images/Reihe 8/Reihe-8-E1-1.png" alt="Eva"
                                         style="max-width: 100%; height: auto;"></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">das Auge
                                     <span class="tran"><small>눈</small>
                                 </td>
@@ -51,7 +51,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">die Nase
                                     <span class="tran"><small>코</small>
                                 </td>
@@ -59,7 +59,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">der Mund
                                     <span class="tran"><small>입</small>
                                 </td>
@@ -67,7 +67,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">der Arm
                                     <span class="tran"><small>팔</small>
                                 </td>
@@ -75,7 +75,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">die Hand
                                     <span class="tran"><small>손</small>
                                 </td>
@@ -83,7 +83,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">der Bauch
                                     <span class="tran"><small>배</small>
                                 </td>
@@ -91,7 +91,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">das Bein
                                     <span class="tran"><small>다리</small>
                                 </td>
@@ -99,7 +99,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-right font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
                                     style="font-size: 1.5em;">der Fuß
                                     <span class="tran"><small>발</small>
                                 </td>

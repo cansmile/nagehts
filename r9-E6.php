@@ -17,20 +17,20 @@
                     <span class="sen"><span class="nu"></span>
                         <div class="btn-group-vertical btn-group-toggle border border-dark border-bottom-only q w-100"
                             data-toggle="buttons" role="group" id="qst-1">
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn man sich
                                 aufgeregt
                                 hat.<span class="tran">&nbsp;<small>화가 났을
                                         때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop o px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
                                 Wenn man jemandem
                                 gratuliert.<span class="tran">&nbsp;<small>누군가에게
                                         축하할 때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn jemand traurig
                                 ist.<span class="tran">&nbsp;<small>누군가 슬플
@@ -47,19 +47,19 @@
                     <span class="sen"><span class="nu"></span>
                         <div class="btn-group-vertical btn-group-toggle border border-dark border-bottom-only q w-100"
                             data-toggle="buttons" role="group" id="qst-2">
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn man traurig
                                 ist.<span class="tran">&nbsp;<small>슬플
                                         때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn man sich
                                 entschuldigen möchte.<span class="tran">&nbsp;<small>양해를 구할
                                         때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop o px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
                                 Wenn jemand ein
                                 Examen
@@ -77,19 +77,19 @@
                     <span class="sen"><span class="nu"></span>
                         <div class="btn-group-vertical btn-group-toggle border border-dark border-bottom-only q w-100"
                             data-toggle="buttons" role="group" id="qst-3">
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn man sich
                                 verabschiedet.<span class="tran">&nbsp;<small>작별을 고할
                                         때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn jemand wütend
                                 ist.<span class="tran">&nbsp;<small>누군가 화가 났을
                                         때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop o px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
                                 Wenn jemand krank
                                 ist.<span class="tran">&nbsp;<small>누군가 아플
@@ -106,19 +106,19 @@
                     <span class="sen"><span class="nu"></span>
                         <div class="btn-group-vertical btn-group-toggle border border-dark border-bottom-only q w-100"
                             data-toggle="buttons" role="group" id="qst-4">
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn man ein Examen
                                 hat.<span class="tran">&nbsp;<small>누군가 시험을 볼
                                         때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop o px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop o px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답!">
                                 Wenn jemand
                                 verreist.<span class="tran">&nbsp;<small>누군가 여행을
                                         떠날 때.</small><br></span>
                             </div>
-                            <div class="btn btn-light pop x px-1 text-left" data-toggle="popover" data-container="body"
+                            <div class="btn btn-light pop x px-1 text-start" data-toggle="popover" data-container="body"
                                 data-placement="top" data-content="정답이 아니에요.">
                                 Wenn jemand krank
                                 ist.<span class="tran">&nbsp;<small>누군가 아플

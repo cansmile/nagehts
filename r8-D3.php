@@ -17,47 +17,47 @@
             <div class="row">
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="1">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-start" id="1">
                         Guten Tag, Frau Lehmann. Was kann ich für Sie tun?
                         <span class="tran"><br><small>안녕하세요, 레만 부인. 제가 뭘 도와드릴까요?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so text-left" id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so text-start" id="2">
                         Ich komme gleich mit ihm!
                         <span class="tran"><br><small>제가 아들을 데리고 갈게요!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-left" id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-start" id="3">
                         Kann er für heute Vormittag einen Termin haben?
                         <span class="tran"><br><small>오늘 오전에 예약할 수 있나요?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so text-left" id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so text-start" id="4">
                         Vielen Dank!
                         <span class="tran"><br><small>감사합니다!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so text-left" id="5">
+                    <button type="button" class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so text-start" id="5">
                         Bis dann!
                         <span class="tran"><br><small>이 따 뵐게요!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-left" id="6">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-start" id="6">
                         Guten Tag, mein Name ist Lehmann.
                         <span class="tran"><br><small>안녕하세요, 저는 레만이라고 해요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-left" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-start" id="7">
                         Mein Sohn Peter hat Fieber und starke Bauchschmerzen.
                         <span class="tran"><br><small>제 아들 피터가 열이 나고 복통이 심해요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-left" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-start" id="8">
                         Das ist gut!
                         <span class="tran"><br><small>다행이네요!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-left" id="9">
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-start" id="9">
                         Ja. Wir haben um 11 Uhr einen Termin frei.
                         <span class="tran"><br><small>네. 11시에 시간이 비어있네요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-left" id="10">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-start" id="10">
                         Guten Tag, Praxis Dr. Fischer.
                         <span class="tran"><br><small>안녕하세요, 피셔 병원입니다.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so text-left" id="11">
+                    <button type="button" class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so text-start" id="11">
                         Keine Ursache. Bis gleich, Frau Lehmann.
                         <span class="tran"><br><small>천만에요. 곧 뵙겠습니다, 레만 부인.</small></span>
                     </button>

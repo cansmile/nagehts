@@ -30,7 +30,7 @@
                                         <button type="button" id="1"
                                             class="so btn btn-outline-danger">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Hallo, ich <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -70,7 +70,7 @@
                                         <button type="button" id="2"
                                             class="so btn btn-outline-danger">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Wie <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -109,7 +109,7 @@
                                         <button type="button" id="3"
                                             class="so btn btn-outline-info">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Ich <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -148,7 +148,7 @@
                                         <button type="button" id="4"
                                             class="so btn btn-outline-info">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Woher <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -187,7 +187,7 @@
                                         <button type="button" id="5"
                                             class="so btn btn-outline-danger">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Ich <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -227,7 +227,7 @@
                                         <button type="button" id="6"
                                             class="so btn btn-outline-info">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Ich <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -266,7 +266,7 @@
                                         <button type="button" id="7"
                                             class="so btn btn-outline-info">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Wo <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -305,7 +305,7 @@
                                         <button type="button" id="8"
                                             class="so btn btn-outline-danger">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Ghana <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -345,7 +345,7 @@
                                         <button type="button" id="9"
                                             class="so btn btn-outline-danger">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Wo <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -384,7 +384,7 @@
                                         <button type="button" id="10"
                                             class="so btn btn-outline-danger">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen"><span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -424,7 +424,7 @@
                                         <button type="button" id="11"
                                             class="so btn btn-outline-info">▶</button>
                                     </th>
-                                    <td class="text-left">
+                                    <td class="text-start">
                                         <span class="sen">Nein, Libyen <span
                                                 class="nu"></span>
                                             <div class="btn-group q"
@@ -522,14 +522,14 @@
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="align-middle text-right h3">
+                                    <td class="align-middle text-end h3">
                                         Westen</td>
                                     <td class="align-middle"><img
                                             src="./dev/images/Reihe 2/Reihe-2-D2-2.png"
                                             alt="Himmelsrichtungen"
                                             style="max-height: 320px; width: auto">
                                     </td>
-                                    <td class="align-middle text-left h3">
+                                    <td class="align-middle text-start h3">
                                         Osten</td>
                                 </tr>
                                 <tr>

@@ -13,7 +13,7 @@
                         <tr>
                             <td rowspan="3">&nbsp;</td>
                             <td
-                                class="text-right border border-secondary border-right-only">
+                                class="text-end border border-secondary border-right-only">
                                 isst</td>
                             <td>gern</td>
                             <td rowspan="3"
@@ -29,13 +29,13 @@
                                     style="max-width: 120px; height: auto;">
                             </td>
                             <td
-                                class="border border-secondary border-right-only text-right">
+                                class="border border-secondary border-right-only text-end">
                                 mag</td>
                             <td>keinen</td>
                         </tr>
                         <tr>
                             <td
-                                class="text-right border border-secondary border-right-only">
+                                class="text-end border border-secondary border-right-only">
                                 trinkt</td>
                             <td>&nbsp;</td>
                             <td

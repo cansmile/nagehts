@@ -1069,7 +1069,7 @@
 
                                     $(this)
                                         .addClass(
-                                            "font-weight-bold rounded p-1 pr-2"
+                                            "font-weight-bold rounded p-1 pe-2"
                                             );
                                     if (tt
                                         .length >

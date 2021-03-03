@@ -739,7 +739,7 @@
                     <div class="col-12">
                         <img class="mx-auto" width="100%" src="dev/images/Reihe 0/Reihe-0-0.png" alt=""/>
                         <p>&nbsp;</p>
-                        <p class="text-left">독일(Bundesrepublik Deutschland)은 중부유럽 북부에 위치하고 있으며 북쪽으로는 덴마크, 네덜란드, 벨기에,
+                        <p class="text-start">독일(Bundesrepublik Deutschland)은 중부유럽 북부에 위치하고 있으며 북쪽으로는 덴마크, 네덜란드, 벨기에,
                             룩셈부르크, 프랑스, 남쪽으로는
                             스위스, 오스트리아, 동쪽으로는 체코공화국, 폴란드 등 9 개의 나라에 둘러 쌓여있다. 이러한 지형적인 특성으로 유럽의 심장(das Herz Europas)이라고
                             불린다. 독일의 면적은 35만

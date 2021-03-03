@@ -23,7 +23,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-right form-control col-1 border-bottom-only rounded-0 q pr-0 ms-1 t-6"
+                                                class="text-end form-control col-1 border-bottom-only rounded-0 q pe-0 ms-1 t-6"
                                                 id="qst-1">
                                             sst gern Birnen.
                                         </div>
@@ -90,7 +90,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-right pr-0 form-control col-1 border-bottom-only rounded-0 q t-6"
+                                                class="text-end pe-0 form-control col-1 border-bottom-only rounded-0 q t-6"
                                                 id="qst-4">
                                             sst ihr heute?
                                         </div>

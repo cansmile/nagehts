@@ -190,19 +190,13 @@
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>
-<script>
-    $("#0").hide();
+<script> $("#0").hide();
     $(".tran").hide();
     $(".tran").hide();
-    var an = new
-    Array();
-    var an = ["In Asien", "In Australien", "In Nordamerika", "In Europa ",
-        " In Asien ", " In Asien ", " In Afrika ", " In Europa "
-    ];
-    $(document).ready(function () {
-        /* 소리 출력 전역 변수와 함수 */
-        var sen = new
-        Array(), pa = new Array(), he = new Array(), last;
+    var an = new Array();
+    var an = ["In Asien", "In Australien", "In Nordamerika", "In Europa ", " In Asien ", " In Asien ", " In Afrika ", " In Europa "];
+    $(document).ready(function () {/* 소리 출력 전역 변수와 함수 */
+        var sen = new Array(), pa = new Array(), he = new Array(), last;
         $(".so").each(function () {
             var t = $(this);
             var ti = t.attr("id");
@@ -214,17 +208,11 @@
             $(".so").each(function () {
                 $(this).html(pa[$(this).attr("id")]);
             });
-        }
-
-        /* 문제 재생 */
+        }/* 문제 재생 */
         var nagehts = new Howl({
-            src: [
-                "./dev/sounds/Reihe 2/r2 D3.mp3"
-            ],
+            src: ["./dev/sounds/Reihe 2/r2 D3.mp3"],
             sprite: {
-                "0": [0,
-                    62342
-                ],
+                "0": [0, 62342],
                 "1": [4140, 6722],
                 "2": [11746, 7057],
                 "3": [20264, 6258],
@@ -239,17 +227,14 @@
             format: "mp3",
             preload: true,
             onloaderror: function () {
-                $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요. < /strong>"
-                );
+                $(".alert").append("<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요. < /strong>");
                 console.log("다시 읽어주세요!");
             },
             onload: function () {
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
-                    if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
-                        ".itm-lst")) {
+                    if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
                         $("#last").text(ti);
                         t.text("■");
                         nagehts.seek();
@@ -272,8 +257,7 @@
                     a = th.val();
                     a = a.replace(/ /gi, "");
                     di(th);
-                    if (!$.isArray(an[qn])) {
-                        /* 1 인 경우 */
+                    if (!$.isArray(an[qn])) {/* 1 인 경우 */
                         if (io) {
                             b = an[qn];
                         } else {
@@ -283,8 +267,7 @@
                         if (a == b) {
                             return true;
                         }
-                    } else {
-                        /* 2 이상인 경우 */
+                    } else {/* 2 이상인 경우 */
                         for (var fd = 0; fd < an[qn].length; fd++) {
                             if (io) {
                                 b = an[qn][fd];
@@ -302,20 +285,16 @@
                 $(".q").on("keyup", function () {
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
-                    $("#ant-" + $(this).attr("id").substr(4)).removeClass(
-                        "text-danger");
-                    $("#ant-" + $(this).attr("id").substr(4)).removeClass(
-                        "text-success");
+                    $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
+                    $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                     if (rfchk($(this))) {
                         $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-success");
-                        $("#ant-" + $(this).attr("id").substr(4)).addClass(
-                            "text-success");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
                         $(this).addClass("text-white font-weight-bold");
                         $(this).addClass("bg-danger");
-                        $("#ant-" + $(this).attr("id").substr(4)).addClass(
-                            "text-danger");
+                        $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                     if (!$(this).val()) {
                         $(this).removeClass("bg-danger");
@@ -338,13 +317,11 @@
                         if (rfchk($(this))) {
                             $(this).addClass("text-white font-weight-bold");
                             $(this).addClass("bg-success");
-                            $("#ant-" + $(this).attr("id").substr(4)).addClass(
-                                "text-success");
+                            $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                         } else {
                             $(this).addClass("text-white font-weight-bold");
                             $(this).addClass("bg-danger");
-                            $("#ant-" + $(this).attr("id").substr(4)).addClass(
-                                "text-danger");
+                            $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                         }
                     }
                 });
@@ -379,75 +356,48 @@
                             na += ", ";
                         }
                         if ($(this).val() == "") {
-                            na += $(this).attr("id").substr(
-                                4, 1);
+                            na += $(this).attr("id").substr(4, 1);
                         }
                     });
                     if ($(this).attr("id") == "done") {
-                    } else if (
-                        na == "") {
+                    } else if (na == "") {
                         for (var i = 0; i < an.length; i++) {
                             var oran = $("#qst-" + (i + 1)).val();
                             if (rfchk($("#qst-" + (i + 1)), true)) {
-                                $("#qst-" + (i + 1)).addClass(
-                                    "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
-                                );
-                                $("#qst-" + (i + 1)).removeClass(
-                                    "rounded-0");
+                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
+                                $("#qst-" + (i + 1)).removeClass("rounded-0");
                             } else {
                                 $("#qst-" + (i + 1)).val(oran);
-                                $("#qst-" + (i + 1)).attr(
-                                    "disabled", true);
-                                $("#qst-" + (i + 1)).addClass(
-                                    "wa"
-                                );
-                                $("#qst-" + (i + 1)).removeClass(
-                                    "rounded-0");
-
+                                $("#qst-" + (i + 1)).attr("disabled", true);
+                                $("#qst-" + (i + 1)).addClass("wa");
+                                $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 if (!$.isArray(an[i])) {
-                                    $("#qst-" + (i + 1)).after(
-                                        "<div class=\"w-100 ra t-6\">" +
-                                        an[i] + "</div>");
-                                } else {
-                                    /* 2 이상인 경우 */
-                                    var r =
-                                        "<div class=\"w-100 ra t-6\">";
-                                    for (var fd = (an[i].length -
-                                        1); fd >= 0; fd--) {
-                                        if (fd < (an[i].length -
-                                            1)) {
+                                    $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] + "</div>");
+                                } else {/* 2 이상인 경우 */
+                                    var r = "<div class=\"w-100 ra t-6\">";
+                                    for (var fd = (an[i].length - 1); fd >= 0; fd--) {
+                                        if (fd < (an[i].length - 1)) {
                                             r = r + " / ";
                                         }
                                         r = r + an[i][fd];
                                     }
                                     r = r + "</div>";
                                     if ($("span.sen").length > 0) {
-                                        $("#qst-" + (i + 1))
-                                            .closest("span.sen")
-                                            .after(r);
+                                        $("#qst-" + (i + 1)).closest("span.sen").after(r);
                                     } else {
-                                        $("#qst-" + (i + 1)).after(
-                                            r);
+                                        $("#qst-" + (i + 1)).after(r);
                                     }
                                 }
-
                             }
-                            if ($("#qst-" + (i + 1)).hasClass(
-                                "bg-success")) {
+                            if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
                                 ri++;
                             }
-                        }
-
-                        /* 정답 확인 div 상자 배경색 속성 없애기 */
+                        }/* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light ");
-
                         var qa = $(".q").length; /* 전체 문항 수 */
-                        var qr = $(".bg-success")
-                            .length; /* 맞춘 항목 수 */
+                        var qr = $(".bg-success").length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) * 100; /* 정답 비율 */
-                        var tcl = "white"; /* 기본 문자색 */
-
-                        /* 분류 기준은 100%, 80%, 60%, 40% */
+                        var tcl = "white"; /* 기본 문자색 *//* 분류 기준은 100%, 80%, 60%, 40% */
                         if (pe > 99) {
                             var st = "원어민이세요?";
                             var cl = "lime";
@@ -462,25 +412,17 @@
                             var st = "좀 더 분발해 주세요~";
                             var cl = "danger";
                         }
-
-                        $(this).addClass("btn-" + cl + " text-" +
-                            tcl);
-                        $(this).html("<h4>" + qa + "문제 중 " + qr +
-                            "개를 맞히셨네요!<br>" + st + "</h4>");
-
+                        $(this).addClass("btn-" + cl + " text-" + tcl);
+                        $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
                         $(this).prop("disabled", true);
                         $(".tran").show();
                         $(this).attr("id", "done");
-
                         checkHeight();
                     } else {
-                        alert("모든 문제를 풀어주세요!");
-                        /* alert(na+"번 문제를 풀어주세요!"); */
+                        alert("모든 문제를 풀어주세요!");/* alert(na+"번 문제를 풀어주세요!"); */
                     }
                     ;
-                })
-
-                /* 역동적 입력란 */
+                })/* 역동적 입력란 */
                 $.fn.textWidth = function (text, font) {
                     if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
                     $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
@@ -502,82 +444,43 @@
                     }
                     var w = Math.ceil(th.textWidth() * m) + 'px';
                     console.log(w);
-
                     th.css("min-width", w);
                     th.css("max-width", w);
                     th.css("width", w);
                 };
 
                 /* 전체 입력란 폭 맞추기 */
-                $(".q").each(function () {
-                    di($(this));
-                });
-
                 $("#qst-1").val("In Asien");
                 $("#qst-1").addClass("bg-success text-white font-weight-bold");
                 $("#qst-1").attr("disabled", true);
+
+                $(".q").each(function () {
+                    di($(this));
+                });
                 $("#0").show();
                 $("#ready").hide();
             },
             onend: function () {
-                $("div#last")
-                    .text("");
+                $("div#last").text("");
                 stopAll();
-                $("#cnt-" +
-                    last)
-                    .text(sen[
-                        last
-                        ]);
+                $("#cnt-" + last).text(sen[last]);
                 if (last == 0) {
-                    if (sen[
-                            last] ==
-                        2) {
-                        $(".tran")
-                            .show();
-                        $(".so")
-                            .each(
-                                function () {
-                                    pa[last] =
-                                        $("#" +
-                                            last
-                                        )
-                                            .html();
-                                }
-                            );
+                    if (sen[last] == 2) {
+                        $(".tran").show();
+                        $(".so").each(function () {
+                            pa[last] = $("#" + last).html();
+                        });
                     }
-                } else if (sen[
-                        last] ==
-                    2) {
-                    if ($("#" +
-                        last
-                    )
-                        .hasClass(
-                            "itm"
-                        )) {
-                        $("#" + last +
-                            ">.tran"
-                        )
-                            .show();
+                } else if (sen[last] == 2) {
+                    if ($("#" + last).hasClass("itm")) {
+                        $("#" + last + ">.tran").show();
                     }
-                    $("#" +
-                        last)
-                        .closest(
-                            "tr"
-                        )
-                        .find(
-                            ".tran"
-                        )
-                        .show();
-                    pa[last] =
-                        $("#" +
-                            last
-                        )
-                            .html();
+                    $("#" + last).closest("tr").find(".tran").show();
+                    pa[last] = $("#" + last).html();
                 }
             }
         });
     });
-
 </script>
 </body>
 

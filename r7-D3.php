@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <table class="table table-borderless text-left">
+                    <table class="table table-borderless text-start">
                         <tbody>
                             <tr>
                                 <th scope="row" rowspan="2" width="50">1.</th>
@@ -92,7 +92,7 @@
                     </table>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <table class="table table-borderless text-left">
+                    <table class="table table-borderless text-start">
                         <tbody>
                             <tr>
                                 <th scope="row" rowspan="2" width="50">4.</th>

@@ -88,10 +88,10 @@
                             <div class="input-group">
                                 &nbsp;Für mich ist wichtig, Kultur und auch Leute
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 me-0 pr-0 text-right border-dark t-6"
+                                        py-1 me-0 pe-0 text-end border-dark t-6"
                                        style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-3">zu
                                 <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only mx-1 px-2
-                                        py-1 ms-0 pl-0 text-left border-dark t-6"
+                                        py-1 ms-0 ps-0 text-start border-dark t-6"
                                        style="max-width: 30px; min-width: 50px;" aria-label="." id="qst-4">.
                             </div>
                             <span

@@ -48,19 +48,19 @@
                                             zur Hanabank?</strong><span class="tran"><br><small><strong>실례합니다,
                                                     하나은행으로 어떻게
                                                     가나요?</strong></small><br></span>
-                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-1">
                                         Friedenplatz.<span class="tran"><br><small>프리덴광장까지 계속
                                                 직진하세요.</small><br></span> Dann
-                                        links <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        links <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-2">
                                         Maxstraße.<span class="tran"><br><small>그런 다음 왼쪽
                                                 막스슈트라세로 가세요.</small><br></span>
-                                        Gehen Sie geradeaus <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        Gehen Sie geradeaus <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-3">
@@ -89,20 +89,20 @@
                                 <td class="lh350">
                                     <div class="input-group d-inline">
                                         <strong>Entschuldigung, wie komme ich
-                                            <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                            <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                             rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                             d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                             aria-label="." id="qst-4">
                                             Peterskirche?</strong><span class="tran"><br><small><strong>실례합니다,
                                                     페터스교회로 어떻게
                                                     가나요?</strong></small><br></span>
-                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-5">
                                         Olympicpark.<span class="tran"><br><small>올림픽공원까지 계속
                                                 직진하세요.</small><br></span> Dann
-                                        links <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        links <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-6">
@@ -138,7 +138,7 @@
                                             zum Schwimmbad?</strong><span class="tran"><br><small><strong>실례합니다,
                                                     수영장으로 어떻게
                                                     가나요?</strong></small><br></span>
-                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-7">
@@ -146,13 +146,13 @@
                                                 직진하세요.</small><br></span> Dann
                                         rechts in die Mariagasse.<span class="tran"><br><small>그런 다음 왼쪽
                                                 마리아가세로 가세요.</small><br></span>
-                                        Gehen Sie geradeaus <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        Gehen Sie geradeaus <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-8">
                                         Sportplatz.<span class="tran"><br><small>운동장까지 똑바로
                                                 가세요.</small><br></span> Das
-                                        Schwimmbad ist <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        Schwimmbad ist <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-9">
@@ -179,14 +179,14 @@
                                 <td class="lh350">
                                     <div class="input-group d-inline">
                                         <strong>Entschuldigung, wie komme ich
-                                            <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                            <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                             rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                             d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                             aria-label="." id="qst-10">
                                             Post?</strong><span class="tran"><br><small><strong>실례합니다,
                                                     우체국으로 어떻게
                                                     가나요?</strong></small><br></span>
-                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        Gehen Sie immer geradeaus <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-11">
@@ -196,7 +196,7 @@
                                                 자말가세로 가세요.</small><br></span>
                                         Gehen Sie geradeaus bis zum Südtor.<span class="tran"><br><small>남문까지 똑바로
                                                 가세요.</small><br></span> Die Post
-                                        ist <input autocomplete="off" type="text" class="form-control q pl-0 col-4
+                                        ist <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                         rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                         d-inline-block t-6" style="max-width: 150px; min-width: 100px;"
                                         aria-label="." id="qst-12">

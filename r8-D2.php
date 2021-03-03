@@ -17,31 +17,31 @@
             <div class="row">
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-left" id="1">
+                    <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-start" id="1">
                         Dann bleib im Bett. Ich rufe in der Schule an.
                         <span class="tran"><br><small>그럼 누워있으렴. 내가 학교에 전화할게.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-left" id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-start" id="2">
                         Deshalb kann ich heute nicht zur Schule gehen.
                         <span class="tran"><br><small>그래서 오늘 학교에 갈 수 없어요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-left" id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so text-start" id="3">
                         Was hast du denn?
                         <span class="tran"><br><small>무슨일이니?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-left" id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-start" id="4">
                         Mama, mir geht es nicht gut.
                         <span class="tran"><br><small>엄마, 저 기분이 좋지 않아요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-left" id="5">
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so text-start" id="5">
                         Aua, der Bauch tut mir so weh!
                         <span class="tran"><br><small>어우, 배가 너무 아파요!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-left" id="6">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so text-start" id="6">
                         Ich habe Fieber und starke Bauchschmerzen.
                         <span class="tran"><br><small>저 열이 나고 복통이 심해요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-left" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so text-start" id="7">
                         Komm, wir gehen zum Arzt!
                         <span class="tran"><br><small>그래, 우리 의사한테 가자!</small></span>
                     </button>

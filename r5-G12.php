@@ -25,7 +25,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-1">
                                             gutes Café?
                                         </div>
@@ -45,7 +45,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-2">
                                             Müsli
                                         </div>
@@ -66,7 +66,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-3">
                                             Kaffee.
                                         </div>
@@ -92,7 +92,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-4">
                                             Zwiebelsuppe,
                                         </div>
@@ -112,7 +112,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-5">
                                             Schnitzel
                                         </div>
@@ -132,7 +132,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-6">
                                             Glas Wein.
                                         </div>
@@ -152,7 +152,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-7">
                                             Stück Erdbeerkuchen
                                         </div>
@@ -173,7 +173,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="border-bottom-only rounded-0 form-control col-1 q pl-0 t-6"
+                                                class="border-bottom-only rounded-0 form-control col-1 q ps-0 t-6"
                                                 id="qst-8">
                                             Tasse Kaffee, bitte.
                                         </div>

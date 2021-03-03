@@ -112,7 +112,7 @@
                         <tbody>
                             <tr>
                                 <td class="m-0 p-0"><span
-                                        class="tran text-left"><br>
+                                        class="tran text-start"><br>
                                         <strong>Mama: Na, Tim, was möchtest du
                                             trinken?</strong><br>
                                         <small>엄마: 글쎄, 팀, 무엇을 마실래?</small><br>
@@ -137,7 +137,7 @@
                                             먹어야겠다.</small><br>
                                     </span></td>
                                 <td class="m-0 p-0"><span
-                                        class="tran text-left"><br>
+                                        class="tran text-start"><br>
                                         <strong>Frau: Ah! das Restaurant ist
                                             wirklich schön. Und die Musik!
                                             Ausgezeichnet!</strong><br>

@@ -96,7 +96,7 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    • Wann... ? <br><span class="pl-2"><small>언제...?</small></span><br>
+                                    • Wann... ? <br><span class="ps-2"><small>언제...?</small></span><br>
                                 </td>
                                 <td>
                                     ■ Im Januar ... / Am Montag ...<br>
@@ -105,7 +105,7 @@
                                 </td>
                             <tr>
                                 <td>
-                                    • Wie viel Uhr... ? <br><span class="pl-2"><small>몇
+                                    • Wie viel Uhr... ? <br><span class="ps-2"><small>몇
                                             시...?</small></span><br>
                                 </td>
                                 <td>
@@ -114,7 +114,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    • Um wie viel Uhr... ? <br><span class="pl-2"><small>몇
+                                    • Um wie viel Uhr... ? <br><span class="ps-2"><small>몇
                                             시에...?</small></span><br>
                                 </td>
                                 <td>
@@ -123,7 +123,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    • Von wann bis wann..? <br><span class="pl-2"><small>언제부터
+                                    • Von wann bis wann..? <br><span class="ps-2"><small>언제부터
                                             언제까지...?</small></span><br>
                                 </td>
                                 <td>
@@ -139,12 +139,12 @@
                         <tbody>
                             <tr>
                                 <td class="border bg-light">
-                                    an | fangen mit +3 (= beginnen) <br><span class="pl-2"><small>~을
+                                    an | fangen mit +3 (= beginnen) <br><span class="ps-2"><small>~을
                                             시작하다.</small></span><br>
                                     Der Lehrer fängt mit dem Unterricht an.
-                                    <br><span class="pl-2"><small>선생님께서 수업을
+                                    <br><span class="ps-2"><small>선생님께서 수업을
                                             시작하신다.</small></span><br>
-                                    Ein neues Leben fängt an. <br><span class="pl-2"><small>새로운 인생이
+                                    Ein neues Leben fängt an. <br><span class="ps-2"><small>새로운 인생이
                                             시작된다.</small></span><br>
                                 </td>
                             </tr>
@@ -160,11 +160,11 @@
                             </tr>
                             <tr>
                                 <td class="bg-light border border-top-0"> Ich komme <strong>um</strong> 11 Uhr nachts
-                                    nach Hause. <br><span class="pl-2"><small>나는 밤 11시<strong>에</strong>
+                                    nach Hause. <br><span class="ps-2"><small>나는 밤 11시<strong>에</strong>
                                             귀가한다.</small></span><br> <strong>Um</strong> 9 Uhr beginnt der
-                                    Deutschunterricht. <br><span class="pl-2"><small>9시<strong>에</strong> 독일어 수업이
+                                    Deutschunterricht. <br><span class="ps-2"><small>9시<strong>에</strong> 독일어 수업이
                                             시작된다.</small></span><br> <strong>Um</strong> 7 Uhr abends gehe ich nach
-                                    Hause. <br><span class="pl-2"><small>저녁 7시<strong>에</strong> 집에
+                                    Hause. <br><span class="ps-2"><small>저녁 7시<strong>에</strong> 집에
                                             간다.</small></span><br>
                                 </td>
                             </tr>

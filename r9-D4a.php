@@ -14,37 +14,37 @@
             <div class="row border border-dark rounded p-3">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right font-weight-bold">Partizip
+                        <div class="col-4 text-end font-weight-bold">Partizip
                             II</div>
                         <div class="col-4 text-center font-weight-bold">schwach/
                             stark</div>
-                        <div class="col-4 text-left font-weight-bold">
+                        <div class="col-4 text-start font-weight-bold">
                             Infinitiv-Formen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-sm-none d-mw-100 d-lg-block">
                     <div class="row">
-                        <div class="col-4 text-right font-weight-bold">Partizip
+                        <div class="col-4 text-end font-weight-bold">Partizip
                             II</div>
                         <div class="col-4 text-center font-weight-bold">schwach/
                             stark</div>
-                        <div class="col-4 text-left font-weight-bold">
+                        <div class="col-4 text-start font-weight-bold">
                             Infinitiv-Formen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-sm-none d-md-none d-lg-block">
                     <div class="row">
-                        <div class="col-4 text-right font-weight-bold">Partizip
+                        <div class="col-4 text-end font-weight-bold">Partizip
                             II</div>
                         <div class="col-4 text-center font-weight-bold">schwach/
                             stark</div>
-                        <div class="col-4 text-left font-weight-bold">
+                        <div class="col-4 text-start font-weight-bold">
                             Infinitiv-Formen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gemacht</div>
+                        <div class="col-4 text-end">gemacht</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-1">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -57,12 +57,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">machen</div>
+                        <div class="col-4 text-start">machen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gebacken</div>
+                        <div class="col-4 text-end">gebacken</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-2">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -75,12 +75,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">backen</div>
+                        <div class="col-4 text-start">backen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gefahren</div>
+                        <div class="col-4 text-end">gefahren</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-3">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -93,12 +93,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">fahren</div>
+                        <div class="col-4 text-start">fahren</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gekommen</div>
+                        <div class="col-4 text-end">gekommen</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-4">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -111,12 +111,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">kommen</div>
+                        <div class="col-4 text-start">kommen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gegrillt</div>
+                        <div class="col-4 text-end">gegrillt</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-5">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -129,12 +129,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">grillen</div>
+                        <div class="col-4 text-start">grillen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gehört</div>
+                        <div class="col-4 text-end">gehört</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-6">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -147,12 +147,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">hören</div>
+                        <div class="col-4 text-start">hören</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">geredet</div>
+                        <div class="col-4 text-end">geredet</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-7">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -165,12 +165,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">reden</div>
+                        <div class="col-4 text-start">reden</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">getanzt</div>
+                        <div class="col-4 text-end">getanzt</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-8">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -183,12 +183,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">tanzen</div>
+                        <div class="col-4 text-start">tanzen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gelacht</div>
+                        <div class="col-4 text-end">gelacht</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-9">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -201,12 +201,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">lachen</div>
+                        <div class="col-4 text-start">lachen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">gegangen</div>
+                        <div class="col-4 text-end">gegangen</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-10">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -219,12 +219,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">gehen</div>
+                        <div class="col-4 text-start">gehen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-right">geblieben</div>
+                        <div class="col-4 text-end">geblieben</div>
                         <div class="col-4 text-center">
                             <div class="btn-group q" data-toggle="buttons" id="qst-11">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-left">bleiben</div>
+                        <div class="col-4 text-start">bleiben</div>
                     </div>
                 </div>
             </div>

@@ -391,7 +391,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
                             <div class="row">
-                                <div class="py-1 col-4 border-right border-dark text-left pl-5">
+                                <div class="py-1 col-4 border-right border-dark text-start ps-5">
                                     Das</div>
                                 <div class="bg-light py-1 col-4 border-dark">
                                     <i>bin ich.</i></div>
@@ -435,7 +435,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-12">
                             <div class="row">
-                                <div class="bg-light py-1 col-4 text-left pl-5">
+                                <div class="bg-light py-1 col-4 text-start ps-5">
                                     Ja. / Nein.</div>
                             </div>
                         </div>

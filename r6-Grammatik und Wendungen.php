@@ -34,9 +34,9 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>&nbsp;
                                                 </div>
-                                                <div class="col-2 text-right pr-0">auf</div>
+                                                <div class="col-2 text-end pe-0">auf</div>
                                                 <div class="col-1 text-center">|</div>
-                                                <div class="col-4 text-left pl-0">stehen</div>
+                                                <div class="col-4 text-start ps-0">stehen</div>
                                             </div>
                                         </td>
                                         <td width="10%" class="text-center">→</td>
@@ -59,9 +59,9 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>&nbsp;
                                                 </div>
-                                                <div class="col-2 text-right pr-0">auf</div>
+                                                <div class="col-2 text-end pe-0">auf</div>
                                                 <div class="col-1 text-center">|</div>
-                                                <div class="col-4 text-left pl-0">räumen</div>
+                                                <div class="col-4 text-start ps-0">räumen</div>
                                             </div>
                                         </td>
                                         <td width="10%" class="text-center">→</td>
@@ -84,9 +84,9 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>&nbsp;
                                                 </div>
-                                                <div class="col-2 text-right pr-0">aus</div>
+                                                <div class="col-2 text-end pe-0">aus</div>
                                                 <div class="col-1 text-center">|</div>
-                                                <div class="col-4 text-left pl-0">leeren</div>
+                                                <div class="col-4 text-start ps-0">leeren</div>
                                             </div>
                                         </td>
                                         <td width="10%" class="text-center">→</td>
@@ -109,9 +109,9 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>&nbsp;
                                                 </div>
-                                                <div class="col-2 text-right pr-0">ab</div>
+                                                <div class="col-2 text-end pe-0">ab</div>
                                                 <div class="col-1 text-center">|</div>
-                                                <div class="col-4 text-left pl-0">waschen</div>
+                                                <div class="col-4 text-start ps-0">waschen</div>
                                             </div>
                                         </td>
                                         <td width="10%" class="text-center">→</td>
@@ -134,9 +134,9 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>&nbsp;
                                                 </div>
-                                                <div class="col-2 text-right pr-0">ein</div>
+                                                <div class="col-2 text-end pe-0">ein</div>
                                                 <div class="col-1 text-center">|</div>
-                                                <div class="col-4 text-left pl-0">kaufen</div>
+                                                <div class="col-4 text-start ps-0">kaufen</div>
                                             </div>
                                         </td>
                                         <td width="10%" class="text-center">→</td>
@@ -159,9 +159,9 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>&nbsp;
                                                 </div>
-                                                <div class="col-2 text-right pr-0">fern</div>
+                                                <div class="col-2 text-end pe-0">fern</div>
                                                 <div class="col-1 text-center">|</div>
-                                                <div class="col-4 text-left pl-0">sehen</div>
+                                                <div class="col-4 text-start ps-0">sehen</div>
                                             </div>
                                         </td>
                                         <td width="10%" class="text-center">→</td>
@@ -478,7 +478,7 @@
                         <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
                              data-bs-parent="#accordionFlush">
                             <div class="accordion-body">
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <thead>
                                     <tr>
                                         <th scope="col" colspan="2" class="h4">gern/nicht gern</th>
@@ -633,7 +633,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <thead>
                                     <tr>
                                         <th scope="col" colspan="2" class="h4">Haushalt</th>
@@ -737,7 +737,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <thead>
                                     <tr>
                                         <th scope="col" colspan="2" class="h4">Tagesablauf</th>
@@ -933,7 +933,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <thead>
                                     <tr>
                                         <th scope="col" colspan="2" class="h4">Uhrzeit/Tageszeiten</th>

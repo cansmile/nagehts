@@ -8,50 +8,50 @@
             <div class="row">
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
                 <div class="col-12" id="itms">
-                    <button type="button" class="mt-1 mx-1 btn text-left ans1 btn-lg btn-outline-dark itm px-3" id="1">
+                    <button type="button" class="mt-1 mx-1 btn text-start ans1 btn-lg btn-outline-dark itm px-3" id="1">
                         Liebe Julia,
                         <span class="tran"><br><small>사랑하는 율리아</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans10 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans10 btn-lg btn-outline-dark itm px-3 so"
                         id="2">
                         Max
                         <span class="tran"><br><small>막스가</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans9 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans9 btn-lg btn-outline-dark itm px-3 so"
                         id="3">
                         Liebe Grüße
                         <span class="tran"><br><small>인사를 전하며</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans2 btn-lg btn-outline-dark itm px-3" id="4">
+                    <button type="button" class="mt-1 mx-1 btn text-start ans2 btn-lg btn-outline-dark itm px-3" id="4">
                         wie geht es dir?
                         <span class="tran"><br><small>어떻게 지내?</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans3 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans3 btn-lg btn-outline-dark itm px-3 so"
                         id="5">
                         Du fehlst mir sehr.
                         <span class="tran"><br><small>니가 너무 보고 싶어.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans8 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans8 btn-lg btn-outline-dark itm px-3 so"
                         id="6">
                         Ich danke dir im Voraus für deine Hilfe.
                         <span class="tran"><br><small>네가 도와줄 것에 대해 고마워.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans4 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans4 btn-lg btn-outline-dark itm px-3 so"
                         id="7">
                         Mir geht es nicht gut. Ich glaube, ich bin erkältet.
                         <span class="tran"><br><small>기분이 좋지 않아. 감기에 걸린 것 같아.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans6 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans6 btn-lg btn-outline-dark itm px-3 so"
                         id="8">
                         Ich muss deshalb im Bett bleiben.
                         <span class="tran"><br><small>그래서 누워있어야해.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans5 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans5 btn-lg btn-outline-dark itm px-3 so"
                         id="9">
                         Mein Kopf tut mir weh und ich habe Ohrenschmerzen.
                         <span class="tran"><br><small>내 머리가 너무 아프고 귀가 아파.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn text-left ans7 btn-lg btn-outline-dark itm px-3 so"
+                    <button type="button" class="mt-1 mx-1 btn text-start ans7 btn-lg btn-outline-dark itm px-3 so"
                         id="10">
                         Ich habe eine Bitte. Kannst du mir bitte bei den Hausaufgaben helfen? Ich verstehe eine Aufgabe
                         nicht richtig.

@@ -19,7 +19,7 @@
             </div>
             <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                 <div class="input-group">
-                    Man kann ihr eine Halskette schenken, weil <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                    Man kann ihr eine Halskette schenken, weil <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
                             mx-1 mt-2 t-6" aria-label="." id="qst-1">.
                 </div>
                 <span class="tran"><small>그녀가 액세서리를 좋아하기 때문에 그녀에게 목걸이를 선물할 수
@@ -36,7 +36,7 @@
             <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                 <div class="input-group">
                     Man kann ihnen einen Reiseführer
-                    schenken, weil <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                    schenken, weil <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
                             mx-1 mt-2 t-6" aria-label="." id="qst-2">.
                 </div>
                 <span class="tran"><small>그들이 베를린으로 가기 때문에, 그들에게 여행 안내서를 선물할
@@ -52,7 +52,7 @@
             <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                 <div class="input-group">
                     Man kann ihm einen Mülleimer
-                    schenken, weil <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                    schenken, weil <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
                             mx-1 mt-2 t-6" aria-label="." id="qst-3">.
                 </div>
                 <span class="tran"><small>그가 청소를 좋아하기 때문에, 그에게 휴지통을 선물할 수
@@ -68,7 +68,7 @@
             <div class="col-sm-12 col-md-8 col-lg-7" style="line-height: 200%;">
                 <div class="input-group">
                     Mann kann ihm eine
-                    Krawatte schenken, weil <input autocomplete="off" type="text" class="form-control q pl-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
+                    Krawatte schenken, weil <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 border-dark
                             mx-1 mt-2 t-6" aria-label="." id="qst-4">.
                 </div>
                 <span class="tran"><small>그가 면접을 앞두고 있기 때문에, 그에게 넥타이를 선물할 수

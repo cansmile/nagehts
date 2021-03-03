@@ -166,7 +166,7 @@ z<?php require_once("heading.php"); ?>
                         class="table table-borderless table-striped text-center table-sm">
                         <tbody>
                             <tr>
-                                <td colspan="4" class="text-left">haben 동사는 4격
+                                <td colspan="4" class="text-start">haben 동사는 4격
                                     목적어를 취하며, 명사를 부정할 때는 kein이라는 부정관사를
                                     사용한다.<br>이 때 kein은 부정관사류(ein, nein)와 같이 동일하게
                                     관사어미변화한다. (keinen, keine, kein)</td>
@@ -208,7 +208,7 @@ z<?php require_once("heading.php"); ?>
                         class="table table-borderless table-striped text-center table-sm">
                         <tbody>
                             <tr>
-                                <td colspan="7" class="text-left">
+                                <td colspan="7" class="text-start">
                                     <strong>(un)bestimmte Artikel</strong></td>
                             </tr>
                             <tr>

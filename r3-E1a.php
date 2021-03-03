@@ -49,33 +49,33 @@
                             <table class="table table-borderless table-sm">
                                 <tbody>
                                     <tr>
-                                        <td class="text-left">Jonas Meyer</td>
+                                        <td class="text-start">Jonas Meyer</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">&nbsp;&nbsp;Diplom
+                                        <td class="text-start">&nbsp;&nbsp;Diplom
                                             Ingenieur Siemens</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">Nonnendammallee 72
+                                        <td class="text-start">Nonnendammallee 72
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">13628 Berlin
+                                        <td class="text-start">13628 Berlin
                                             Germany</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">&nbsp;</td>
+                                        <td class="text-end">&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">Tel.: (0941) 95
+                                        <td class="text-end">Tel.: (0941) 95
                                             83 13</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">Handy: (0176) 59
+                                        <td class="text-end">Handy: (0176) 59
                                             17 77</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">E-Mail:
+                                        <td class="text-end">E-Mail:
                                             jonasmeyer@yahoo.de</td>
                                     </tr>
                                 </tbody>

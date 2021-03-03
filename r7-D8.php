@@ -299,7 +299,7 @@
                             $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                             $("#" + $(this).attr("id")).addClass("w-100");
                             $("#" + $(this).attr("id")).addClass("border-0");
-                            $("#" + $(this).attr("id")).addClass("border-0 text-left");
+                            $("#" + $(this).attr("id")).addClass("border-0 text-start");
                             $("#lst-" + pan[p] + ">h2").remove();/* $("#lst-" + pan[p]).parent().find(".tran").show(); */
                         }
                     })

@@ -32,7 +32,7 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
@@ -52,7 +52,7 @@
                                 <th width="50%" class="ailgn-middle" scope="row">hat Grippe.</th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-2">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
@@ -72,7 +72,7 @@
                                 <th width="50%" class="ailgn-middle" scope="row">hat Fieber.</th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-3">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
@@ -92,7 +92,7 @@
                                 <th width="50%" class="ailgn-middle" scope="row">hat Husten.</th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-4">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">
@@ -112,7 +112,7 @@
                                 <th width="50%" class="ailgn-middle" scope="row">kann nicht arbeiten gehen.</th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-5">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
@@ -132,7 +132,7 @@
                                 <th width="50%" class="ailgn-middle" scope="row">kann nicht einkaufen gehen.</th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-6">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
@@ -156,7 +156,7 @@
                                         class="tran"><br><small>의사는 무슨 말을 하나요?</small></span></th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-8">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
@@ -176,7 +176,7 @@
                                 <th scope="row">„Du sollst Aspirin nehmen“</th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-9">
                                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답이 아니에요.">
@@ -196,7 +196,7 @@
                                 <th width="50%" class="ailgn-middle" scope="row">„Nehmen Sie Hustensaft.”</th>
                             </tr>
                             <tr>
-                                <td class="text-right py-0">
+                                <td class="text-end py-0">
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-10">
                                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                             data-placement="top" data-content="정답!">

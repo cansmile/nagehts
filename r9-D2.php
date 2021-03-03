@@ -26,9 +26,9 @@
                 </div>
                 <div class="col-12 my-2">
                     <div class="input-group">
-                        Das möchte <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        Das möchte <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-1">
-                        gern mit<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        gern mit<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-2">
                         meinen anderen Freunden
                         feiern.
@@ -36,25 +36,25 @@
                                 싶어.</small></span> Die Party ist am Samstag, 4.
                         5., um 20.00 Uhr.
                         <span class="tran"><br><small>파티는 5월 4일 토요일,
-                                20시야.</small></span> <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                20시야.</small></span> <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-3">
-                        lade<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        lade<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-4">
                         herzlich ein.
                         <span class="tran"><br><small>너희를 초대할게.</small></span>
-                        Habt<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        Habt<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-5">
                         da Zeit?
                         <span class="tran"><br><small>너희는 그 때에 시간이
-                                있니?</small></span>Bitte antwortet<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                있니?</small></span>Bitte antwortet<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-6">
-                        bis Donnerstag oder<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        bis Donnerstag oder<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-7">
                         ruft an.
                         <span class="tran"><br><small>목요일까지 나에게 대답해주거나
                                 전화해줘.</small></span><br>
                     </div>
-                    <div class="col-12  text-right">Herzliche Grüße
+                    <div class="col-12  text-end">Herzliche Grüße
                         <span class="tran"><br><small>인사를
                                 전하며,</small></span><br>Eure Mina
                         <span class="tran"><br><small>너희의 미나.</small></span>

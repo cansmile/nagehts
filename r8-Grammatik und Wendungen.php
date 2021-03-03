@@ -487,7 +487,7 @@
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="25"
@@ -501,7 +501,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="26"
@@ -514,7 +514,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="27"
@@ -543,7 +543,7 @@
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="29"
@@ -556,7 +556,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="30"
@@ -569,7 +569,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="31"
@@ -585,7 +585,7 @@
                                         <td style="max-height: 10px; font-size: 1pt;" class="p-0 m-0">&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="32"
@@ -598,7 +598,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="33"
@@ -611,7 +611,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="34"
@@ -624,7 +624,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="35"
@@ -637,7 +637,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="36"
@@ -668,7 +668,7 @@
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="38"
@@ -681,7 +681,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="39"
@@ -695,7 +695,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="40"
@@ -710,7 +710,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="pl-5">
+                                        <td class="ps-5">
                                             <div class="row">
                                                 <div class="mx-1 px-1">
                                                     <button type="button" id="41"

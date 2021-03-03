@@ -40,7 +40,7 @@
                                     <div class="row">
                                         <div class="col-6"><small>나의</small>
                                         </div>
-                                        <div class="col-6 text-left">mein</div>
+                                        <div class="col-6 text-start">mein</div>
                                     </div>
                                 </th>
                                 <td class="bg-light">Vater</td>
@@ -49,7 +49,7 @@
                                 <th rowspan="2" class="align-middle bg-light">
                                     <div class="row">
                                         <div class="col-6"></div>
-                                        <div class="col-6 text-left">meine</div>
+                                        <div class="col-6 text-start">meine</div>
                                     </div>
                                 </th>
                                 <td class="bg-light">Mutter</td>
@@ -66,7 +66,7 @@
                                     <div class="row">
                                         <div class="col-6"><small>당신의</small>
                                         </div>
-                                        <div class="col-6 text-left">Ihr</div>
+                                        <div class="col-6 text-start">Ihr</div>
                                     </div>
                                 </th>
                                 <td class="bg-light">Vater</td>
@@ -75,7 +75,7 @@
                                 <th rowspan="2" class="align-middle bg-light">
                                     <div class="row">
                                         <div class="col-6"></div>
-                                        <div class="col-6 text-left">Ihre</div>
+                                        <div class="col-6 text-start">Ihre</div>
                                     </div>
                                 </th>
                                 <td class="bg-light">Mutter</td>
@@ -91,7 +91,7 @@
                                 <th class="bg-light">
                                     <div class="row">
                                         <div class="col-6"></div>
-                                        <div class="col-6 text-left">ich</div>
+                                        <div class="col-6 text-start">ich</div>
                                     </div>
                                 </th>
                                 <td class="bg-light">komme</td>
@@ -101,7 +101,7 @@
                                     <div class="row">
                                         <div class="col-6"><small>당신</small>
                                         </div>
-                                        <div class="col-6 text-left">Sie</div>
+                                        <div class="col-6 text-start">Sie</div>
                                     </div>
                                 </th>
                                 <td class="bg-light">komm<strong>en</strong>
@@ -112,7 +112,7 @@
                                     <div class="row">
                                         <div class="col-6"><small>그들</small>
                                         </div>
-                                        <div class="col-6 text-left">sie</div>
+                                        <div class="col-6 text-start">sie</div>
                                     </div>
                                 </th>
                                 <td class="bg-light">komm<strong>en</strong>

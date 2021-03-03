@@ -61,34 +61,34 @@
                             <table class="table table-borderless table-sm">
                                 <tbody>
                                     <tr>
-                                        <td class="text-left">Sophie Bauer</td>
+                                        <td class="text-start">Sophie Bauer</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">
+                                        <td class="text-start">
                                             &nbsp;&nbsp;Diplomkauffrau Volksbank
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">Alsterstraße 88
+                                        <td class="text-start">Alsterstraße 88
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">15334 Frankfurt
+                                        <td class="text-start">15334 Frankfurt
                                             Germany</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">&nbsp;</td>
+                                        <td class="text-end">&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">Tel.: (0342) 23
+                                        <td class="text-end">Tel.: (0342) 23
                                             43 99</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">Handy: (0170) 23
+                                        <td class="text-end">Handy: (0170) 23
                                             55 41</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-right">E-Mail:
+                                        <td class="text-end">E-Mail:
                                             sophiebauer@gmail.com</td>
                                     </tr>
                                 </tbody>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <table class="table table-borderless table-light text-left">
+                    <table class="table table-borderless table-light text-start">
                         <tbody>
                             <tr>
                                 <td>

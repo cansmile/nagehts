@@ -103,7 +103,7 @@
                                             ▼ </h2>
                                     </div>
                                 </td>
-                                <td rowspan="9" class="align-middle p-0 m-2 pl-2">
+                                <td rowspan="9" class="align-middle p-0 m-2 ps-2">
                                     <img src="./dev/images/Reihe 8/Reihe-8-E1-1.png" alt="Eva"
                                         style="max-width: 100%; height: auto;">
                                 </td>

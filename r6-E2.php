@@ -59,8 +59,8 @@
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-1">
                                         , ich räume gern auf.
                                     </div><span class="tran"><small><br>네, 치우는 거
@@ -73,8 +73,8 @@
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-2">
                                         , ich räume nicht gern auf.
                                     </div><span class="tran"><small><br>아뇨, 저는
@@ -120,8 +120,8 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-3">
                                         , ich gehe gern spazieren.
                                     </div><span class="tran"><small><br>네, 산책하는
@@ -134,8 +134,8 @@
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-4">
                                         , ich gehe nicht gern spazieren.
                                     </div><span class="tran"><small><br>아뇨, 저는
@@ -181,8 +181,8 @@
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-5">
                                         , ich gehe gern schwimmen.
                                     </div><span class="tran"><small><br>네, 수영하는거
@@ -195,8 +195,8 @@
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-6">
                                         , ich gehe nicht gern schwimmen.
                                     </div><span class="tran"><small><br>아뇨, 수영하는
@@ -242,8 +242,8 @@
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-7">
                                         , ich koche gern.
                                     </div><span class="tran"><small><br>네, 저는
@@ -256,8 +256,8 @@
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-right col-2 pr-0 me-0 border-bottom-only rounded q
-                                            t-6"
+                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            t-6 w-auto"
                                             aria-label="." id="qst-8">
                                         , ich koche nicht gern.
                                     </div><span class="tran"><small><br>아뇨, 저는

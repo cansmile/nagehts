@@ -38,7 +38,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-0 pt-2 text-right">
+                                <td class="p-0 pt-2 text-end">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="2" class="so btn btn-sm btn-outline-danger">▶</button>
@@ -60,7 +60,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-0 pt-2 text-right">
+                                <td class="p-0 pt-2 text-end">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="4" class="so btn btn-sm btn-outline-danger">▶</button>
@@ -84,7 +84,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-0 pt-2 text-right">
+                                <td class="p-0 pt-2 text-end">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="6" class="so btn btn-sm btn-outline-danger">▶</button>
@@ -108,7 +108,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-0 pt-2 text-right">
+                                <td class="p-0 pt-2 text-end">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="8" class="so btn btn-sm btn-outline-danger">▶</button>
@@ -132,7 +132,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-0 pt-2 text-right">
+                                <td class="p-0 pt-2 text-end">
                                     <span class="bg-dark text-white m-1 p-1 px-2 rounded">Mina</span>
                                     <br>
                                     <button type="button" id="10" class="so btn btn-sm btn-outline-danger">▶</button>

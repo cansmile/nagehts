@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-12 text-left my-2">
+            <div class="col-12 text-start my-2">
                 Was hat Silvia am Sonntag, 16. Juli in Dresden gemacht?
                 Lesen Sie die Notiz und ordnen Sie die Bilder der Reihe nach zu.
                 <span class="tran"><br/>

@@ -510,7 +510,7 @@
                         <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
                              data-bs-parent="#accordionFlush">
                             <div class="accordion-body">
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td width="50%">
@@ -639,7 +639,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td width="50%">
@@ -749,7 +749,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td>
@@ -781,7 +781,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left">
+                                <table class="table table-borderless text-start">
                                     <tbody>
                                     <tr>
                                         <td width="50%">
@@ -809,7 +809,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-borderless text-left bg-light">
+                                <table class="table table-borderless text-start bg-light">
                                     <tbody>
                                     <tr>
                                         <td>

@@ -53,28 +53,28 @@
                     <table class="table table-borderless table-light">
                         <tbody>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="1"
+                                <th class="text-end" scope="row"><button type="button" id="1"
                                         class="so btn btn-danger">▶</button>
                                 </th>
                                 <td>Hallo, ich bin Anna Müller. <span class="tran">&nbsp;<br><small>안녕하세요, 저는
                                             안나 뮐러에요.</small></span></td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="2"
+                                <th class="text-end" scope="row"><button type="button" id="2"
                                         class="so btn btn-primary">▶</button>
                                 </th>
                                 <td>Hallo, ich heiße Max Fernández. <span class="tran">&nbsp;<br><small>안녕하세요, 저는
                                             막스 페르난데즈에요.</small></span></td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="3"
+                                <th class="text-end" scope="row"><button type="button" id="3"
                                         class="so btn btn-danger">▶</button>
                                 </th>
                                 <td>Ah, kommen Sie aus Mexiko? <span class="tran">&nbsp;<br><small>아, 멕시코
                                             출신이신가요?</small></span></td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="4"
+                                <th class="text-end" scope="row"><button type="button" id="4"
                                         class="so btn btn-primary">▶</button>
                                 </th>
                                 <td>Nein, aus
@@ -87,7 +87,7 @@
                                             출신이에요.</small></span></td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="5"
+                                <th class="text-end" scope="row"><button type="button" id="5"
                                         class="so btn btn-danger">▶</button>
                                 </th>
                                 <td>Und wohnen Sie hier in
@@ -100,14 +100,14 @@
                                             사시나요?</small></span></td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="6"
+                                <th class="text-end" scope="row"><button type="button" id="6"
                                         class="so btn btn-primary">▶</button>
                                 </th>
                                 <td>Ja. Und Sie? <span class="tran">&nbsp;<br><small>네,
                                             당신은요?</span></td></small>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="7"
+                                <th class="text-end" scope="row"><button type="button" id="7"
                                         class="so btn btn-primary">▶</button>
                                 </th>
                                 <td>Wohnen Sie auch in
@@ -119,7 +119,7 @@
                                             사시나요?</span></td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="8"
+                                <th class="text-end" scope="row"><button type="button" id="8"
                                         class="so btn btn-danger">▶</button>
                                 </th>
                                 <td>Nein, ich wohne in
@@ -132,7 +132,7 @@
                                             살아요.</small></span></td>
                             </tr>
                             <tr>
-                                <th class="text-right" scope="row"><button type="button" id="9"
+                                <th class="text-end" scope="row"><button type="button" id="9"
                                         class="so btn btn-danger">▶</button>
                                 </th>
                                 <td>Aber meine Mutter wohnt hier in
@@ -158,7 +158,7 @@
             <div class="row">
                 <div class="col-11">
                     <div class="row">
-                        <div class="col-12 text-left my-2"><span class="tipp">TIPP</span>
+                        <div class="col-12 text-start my-2"><span class="tipp">TIPP</span>
                         </div>
                     </div>
                     <div class="row">

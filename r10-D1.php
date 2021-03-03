@@ -311,7 +311,7 @@
                                 <td>--en</td>
                             </tr>
                             <tr>
-                                <th scope="row" class="text-right" colspan="3">※ □는 분리전철</th>
+                                <th scope="row" class="text-end" colspan="3">※ □는 분리전철</th>
                             </tr>
                         </tbody>
                     </table>
@@ -334,7 +334,7 @@
                                 <td class="lh250">
                                     <div class="input-group d-inline">
                                         독일어의 과거분사형은 약변화동사와 강변화 동사이냐에 따라 과거분사형의
-                                        어미가 <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
+                                        어미가 <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-19">로 변화한다
                                     </div>
@@ -344,11 +344,11 @@
                                 <th scope="row">&nbsp;</th>
                                 <td class="lh250">
                                     <div class="input-group d-inline">
-                                        규칙변화동사들은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
+                                        규칙변화동사들은<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-20">로 그리고
                                         불규칙
-                                        변화 동사들은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
+                                        변화 동사들은<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-21">로
                                         변화한다.
@@ -359,7 +359,7 @@
                                 <th scope="row">2.</th>
                                 <td class="lh250">
                                     <div class="input-group d-inline">
-                                        전철과 함께 오는 (불)규칙동사들은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
+                                        전철과 함께 오는 (불)규칙동사들은<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-22">+ ge +
                                         어간
@@ -372,12 +372,12 @@
                                 <td class="lh250">
                                     <div class="input-group d-inline">
                                         비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은
-                                        <input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0 border-bottom-only
+                                        <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only
                                         mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-23">+ ø ge
                                         +
                                         어간 + t 의 형태이고 비분리 전철과 함께 오는 불규칙변화 동사들의
-                                        과거분사형은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
+                                        과거분사형은<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-24">+ ø ge
                                         +어간(+/-모음교체) + en 의 형태이며 어간은 모음교체현상이 일어날
@@ -389,7 +389,7 @@
                                 <th scope="row">4.</th>
                                 <td class="lh250">
                                     <div class="input-group d-inline">
-                                        -ieren 동사들의 과거분사형은<input autocomplete="off" type="text" class="form-control q pl-0 col-4 rounded-0
+                                        -ieren 동사들의 과거분사형은<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                         border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-25">+ 어간 +
                                         t의
@@ -398,7 +398,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row" class="text-right" colspan="2">※ ø은 없다는 표시</th>
+                                <th scope="row" class="text-end" colspan="2">※ ø은 없다는 표시</th>
                             </tr>
                         </tbody>
                     </table>

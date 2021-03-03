@@ -90,7 +90,7 @@
                                     type="button" id="7"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Hallo, Sandmännchen! Woher kommst du? <br /><span
+                            <td class="text-start">Hallo, Sandmännchen! Woher kommst du? <br /><span
                                     class="tran">&nbsp;<small>안녕, 잔맨셴! 너는 어디에서
                                         왔니?</small></span></td>
                         </tr>
@@ -99,7 +99,7 @@
                                     type="button" id="8"
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
-                            <td class="text-left">Ich komme aus
+                            <td class="text-start">Ich komme aus
                                 <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-1">
                                     <h2 class="btn btn-warning btn-xl ttl w-100"
@@ -114,7 +114,7 @@
                                     type="button" id="9"
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
-                            <td class="text-left">und ich wohne in
+                            <td class="text-start">und ich wohne in
                                 <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-2">
                                     <h2 class="btn btn-warning btn-xl ttl w-100"
@@ -148,7 +148,7 @@
                                     type="button" id="10"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Hi, Pororo ! Woher kommst du? <br /><span
+                            <td class="text-start">Hi, Pororo ! Woher kommst du? <br /><span
                                     class="tran">&nbsp;<small>안녕, 뽀로로! 너너는 어디에서
                                         왔니?</small></span></td>
                         </tr>
@@ -157,7 +157,7 @@
                                     type="button" id="11"
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
-                            <td class="text-left">Ich komme aus
+                            <td class="text-start">Ich komme aus
                                 <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-3">
                                     <h2 class="btn btn-warning btn-xl ttl w-100"
@@ -172,7 +172,7 @@
                                     type="button" id="12"
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
-                            <td class="text-left">Ich wohne in
+                            <td class="text-start">Ich wohne in
                                 <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-4">
                                     <h2 class="btn btn-warning btn-xl ttl w-100"
@@ -206,7 +206,7 @@
                                     type="button" id="13"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Hallo, Minnie Mouse, woher kommst du? <br /><span
+                            <td class="text-start">Hallo, Minnie Mouse, woher kommst du? <br /><span
                                     class="tran">&nbsp;<small>안녕, 미니 마우스, 너는
                                         어디에서 왔니?</small></span></td>
                         </tr>
@@ -215,7 +215,7 @@
                                     type="button" id="14"
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
-                            <td class="text-left">Ich komme aus
+                            <td class="text-start">Ich komme aus
                                 <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-5">
                                     <h2 class="btn btn-warning btn-xl ttl w-100"
@@ -230,7 +230,7 @@
                                     type="button" id="15"
                                     class="so btn btn-outline-primary">▶</button>
                             </th>
-                            <td class="text-left">Und wo wohnst du? <br /><span
+                            <td class="text-start">Und wo wohnst du? <br /><span
                                     class="tran">&nbsp;<small>그러면 어디에서
                                         살아?</small></span></td>
                         </tr>
@@ -239,7 +239,7 @@
                                     type="button" id="16"
                                     class="so btn btn-outline-danger">▶</button>
                             </th>
-                            <td class="text-left">Ich wohne in
+                            <td class="text-start">Ich wohne in
                                 <div class="itm-lst 1itm d-inline-block me-2"
                                     id="lst-6">
                                     <h2 class="btn btn-warning btn-xl ttl w-100"
@@ -272,11 +272,11 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="border border-dark border-right-only">Sie</th>
-                                <td class="text-left">komm<strong>en aus…</strong></td>
+                                <td class="text-start">komm<strong>en aus…</strong></td>
                             </tr>
                             <tr>
                                 <th scope="row" class="border border-dark border-right-only">Ich</th>
-                                <td class="text-left">komm<strong>e aus…</strong></td>
+                                <td class="text-start">komm<strong>e aus…</strong></td>
                             </tr>
                         </tbody>
                     </table>
@@ -291,11 +291,11 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="border border-dark border-right-only">Sie</th>
-                                <td class="text-left">wohn<strong>en in…</strong></td>
+                                <td class="text-start">wohn<strong>en in…</strong></td>
                             </tr>
                             <tr>
                                 <th scope="row" class="border border-dark border-right-only">Ich</th>
-                                <td class="text-left">wohn<strong>e in…</strong></td>
+                                <td class="text-start">wohn<strong>e in…</strong></td>
                             </tr>
                         </tbody>
                     </table>

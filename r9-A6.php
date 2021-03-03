@@ -249,7 +249,7 @@
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                                 $("#" + $(this).attr("id")).addClass(
-                                    "w-100 font-weight-bold text-left pl-0");
+                                    "w-100 font-weight-bold text-start ps-0");
                                 $("#" + $(this).attr("id")).addClass("border-0");
                                 $("#lst-" + pan[p] + ">h2").remove();
                                 $("#lst-" + pan[p]).parent().find(".tran").show();

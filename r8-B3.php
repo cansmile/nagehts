@@ -32,2502 +32,2502 @@
                     <div class="col-12">
                         <div class="row">
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-0 border-bottom-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0
-                            pr-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
+                            border-end-0 border-bottom-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0
+                            pe-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-0 border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0
-                            pr-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
+                            border-bottom-0 border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0
+                            pe-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4
-                            pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4
+                            pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4
-                            pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4
+                            pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4
-                            pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4
+                            pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4
-                            pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4
+                            pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-right-0
-                            border-bottom-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-end-0
+                            border-bottom-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="1">F
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="2">O
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="3">G
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="4">U
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="5">L
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-0 border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0
-                            pr-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
+                            border-bottom-0 border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0
+                            pe-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="6">O
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="7">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="8">M
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="9">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="10">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="11">O
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="12">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-right-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-end-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="13">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="14">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="15">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="16">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="17">N
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="18">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="19">T
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="20">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="21">I
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="22">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="23">G
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="24">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-right-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-end-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-0 border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0
-                            pr-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
+                            border-bottom-0 border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0
+                            pe-sm-1 text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-right-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-end-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="25">A
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="26">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="27">C
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="28">H
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="29">O
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="30">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="31">H
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="32">I
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="33">T
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="34">P
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="35">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="36">U
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="37">L
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="38">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="39">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="40">L
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="41">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="42">C
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="43">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="44">U
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="45">L
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-right-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-end-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="46">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="47">M
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="48">I
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="49">K
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="50">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="51">T
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="52">Y
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="53">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="54">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="55">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md
-                            3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md
+                            3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="56">D
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="57">M
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="58">T
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="59">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="60">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="61">Z
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="62">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="63">T
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="64">Ü
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="65">B
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="66">I
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="67">Z
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="68">B
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="69">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="70">U
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="71">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="72">T
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="73">O
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="74">C
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="75">R
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-bottom-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="76">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="77">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="78">O
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="79">G
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="80">U
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="81">L
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="82">F
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="83">K
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="84">A
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-bottom-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-bottom-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="85">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="86">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="87">B
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="88">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="89">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="90">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="91">C
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="92">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="93">H
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-bottom-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-bottom-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="94">N
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="95">K
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="96">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="97">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="98">M
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="99">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="100">D
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="101">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="102">A
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="103">O
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="104">B
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="105">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="106">U
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="107">C
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="108">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="109">O
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="110">A
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="111">P
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="112">O
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="113">T
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="114">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="115">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="116">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="117">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="118">R
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="119">F
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="120">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="121">H
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="122">D
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="123">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="124">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="125">F
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="126">E
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-0 border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-top-0 border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="127">B
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="128">T
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="129">O
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="130">W
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="131">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="132">U
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="133">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="134">B
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="135">M
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="136">K
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="137">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="138">R
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="139">R
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="140">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="141">A
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="142">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="143">K
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="144">O
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="145">H
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="146">I
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="147">S
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="148">I
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="149">S
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="150">N
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="151">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="152">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="153">C
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="154">E
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="155">P
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="156">D
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="163">A
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="164">N
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="165">K
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="166">N
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="167">L
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="168">O
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="169">A
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-top-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="170">M
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-right-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-end-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk border-top-0
-                            border-right-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-end-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="171">L
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="172">I
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="173">D
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="174">B
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="175">S
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-left-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center
+                            border-left-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center
                             align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-right-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-right-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="176">F
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="177">U
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="178">S
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-bottom-only pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-bottom-only pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans1 btn-lg btn-outline-dark itm" id="179">S
                                 </button>
                             </div>
                             <div class="col border border-dark py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 rk
-                            border-top-0 border-left-0 pr-xl-4 pr-lg-4 pr-md-3 pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1
+                            border-top-0 border-start-0 pe-xl-4 pe-lg-4 pe-md-3 ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1
                             text-center align-middle" style="max-width: 5%; height: auto;">
                                 <button type="button" class="px-2 py-0 btn ans0 btn-lg btn-outline-dark itm" id="180">U
                                 </button>
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>
-                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pr-xl-4 pr-lg-4 pr-md-3
-                            pl-xl-3 pl-lg-2 pl-md-1 pl-sm-0 pr-sm-1 text-center align-middle border-0"
+                            <div class="col border py-xl-3 py-lg-2 py-md-1 py-sm-0 py-xs-0 pe-xl-4 pe-lg-4 pe-md-3
+                            ps-xl-3 ps-lg-2 ps-md-1 ps-sm-0 pe-sm-1 text-center align-middle border-0"
                             style="max-width: 5%; height: auto;">
                                 &nbsp;
                             </div>

@@ -55,7 +55,7 @@
                                 <th class="bg-light" scope="row" width="10%"><button type="button" id="8"
                                         class="so btn btn-outline-dark btn-md me-2">▶</button>1
                                 </th>
-                                <td class="text-left">Wohnst du in Yeosu?<span class="tran"><br>&nbsp;<small>너는 여수에서
+                                <td class="text-start">Wohnst du in Yeosu?<span class="tran"><br>&nbsp;<small>너는 여수에서
                                             사니?</small></span></td>
                                 <td width="40%">
                                     <div class="itm-lst 1itm" id="lst-1">
@@ -67,7 +67,7 @@
                             <tr>
                                 <th class="bg-light" scope="row"><button type="button" id="9"
                                         class="so btn btn-outline-dark btn-md me-2">▶</button>2</th>
-                                <td class="text-left">Kommst du aus Finnland?<span class="tran"><br>&nbsp;<small>넌 핀란드
+                                <td class="text-start">Kommst du aus Finnland?<span class="tran"><br>&nbsp;<small>넌 핀란드
                                             출신이니?</small></span></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-2">
@@ -79,7 +79,7 @@
                             <tr>
                                 <th class="bg-light" scope="row"><button type="button" id="10"
                                         class="so btn btn-outline-dark btn-md me-2">▶</button>3</th>
-                                <td class="text-left">Wo wohnst du?<span class="tran"><br>&nbsp;<small>너는 어디에
+                                <td class="text-start">Wo wohnst du?<span class="tran"><br>&nbsp;<small>너는 어디에
                                             사니?</small></span></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-3">
@@ -91,7 +91,7 @@
                             <tr>
                                 <th class="bg-light" scope="row"><button type="button" id="11"
                                         class="so btn btn-outline-dark btn-md me-2">▶</button>4</th>
-                                <td class="text-left">Ich wohne in Seoul, und du?
+                                <td class="text-start">Ich wohne in Seoul, und du?
                                     <span class="tran"><br>&nbsp;<small>나는 서울에 살아,
                                             너는?</small></span></td>
                                 <td>
@@ -104,7 +104,7 @@
                             <tr>
                                 <th class="bg-light" scope="row"><button type="button" id="12"
                                         class="so btn btn-outline-dark btn-md me-2">▶</button>5</th>
-                                <td class="text-left">Woher kommst du?<span class="tran"><br>&nbsp;<small>너는 어디에서
+                                <td class="text-start">Woher kommst du?<span class="tran"><br>&nbsp;<small>너는 어디에서
                                             왔어?</small></span></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-5">
@@ -116,7 +116,7 @@
                             <tr>
                                 <th class="bg-light" scope="row"><button type="button" id="13"
                                         class="so btn btn-outline-dark btn-md me-2">▶</button>6</th>
-                                <td class="text-left">Sprichst du gut Englisch?<span class="tran"><br>&nbsp;<small>너 영어
+                                <td class="text-start">Sprichst du gut Englisch?<span class="tran"><br>&nbsp;<small>너 영어
                                             잘하니?</small></span></td>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-6">
@@ -128,7 +128,7 @@
                             <tr>
                                 <th class="bg-light" scope="row"><button type="button" id="14"
                                         class="so btn btn-outline-dark btn-md me-2">▶</button>7</th>
-                                <td class="text-left">Wohnst du in Gwangjin-Gu?
+                                <td class="text-start">Wohnst du in Gwangjin-Gu?
                                     <span class="tran"><br>&nbsp;<small>너는 광진구에
                                             살아?</small></span></td>
                                 <td>
@@ -260,7 +260,7 @@
                         $(".itm").each(function () {
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                $("#" + $(this).attr("id")).addClass("w-100 text-left");
+                                $("#" + $(this).attr("id")).addClass("w-100 text-start");
                                 $("#lst-" + pan[p] + ">h2").remove();
                             }
                         });

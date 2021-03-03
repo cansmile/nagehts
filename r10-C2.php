@@ -85,7 +85,7 @@
             <div class="row">
             </div>
             <div class="row mt-2">
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 pl-3
+                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
                 mt-5">
                     <span
                         class="border border-white p-1 px-2 rounded bg-dark">1</span>
@@ -113,7 +113,7 @@
                             후 일부는 1960년부터 개방될 수 있었습니다. 오늘날에는 그곳에 도자기박물관,
                             수학-물리학박물관 및 알테 마이스터 회화관이 있습니다.</small></span>
                 </div>
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 pl-3
+                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
                 mt-5">
                     <span
                         class="border border-white p-1 px-2 rounded bg-dark">2</span>
@@ -141,7 +141,7 @@
                             차 세계 대전이 끝날 무렵 훼손되었습니다. 통독 이후 1994년에 재건이 시작되었습니다. 그런
                             이유에서 오늘날엔 화해의 공식적인 상징입니다</small></span>
                 </div>
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 pl-3
+                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
                 mt-5">
                     <span
                         class="border border-white p-1 px-2 rounded bg-dark">3</span>
@@ -168,7 +168,7 @@
                             엔터테인먼트가 있습니다. 글레저네 프라우과 함께 대중 과학 전시회인 "아벤토이어 멘쉬" 또는
                             대화식 어린이박물관 "벨트 데어 진네"도 제공됩니다.</small></span>
                 </div>
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 pl-3
+                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
                 mt-5">
                     <span
                         class="border border-white p-1 px-2 rounded bg-dark">4</span>
@@ -195,7 +195,7 @@
                             테아터플라츠(Theaterplatz)에 있습니다. 그것은 건축가 고트프리트 젬퍼의 이름을 따서
                             명명되었습니다.</small></span>
                 </div>
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 pl-3
+                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
                 mt-5">
                     <span
                         class="border border-white p-1 px-2 rounded bg-dark">5</span>
@@ -224,7 +224,7 @@
                             미래 이동성의 중심으로 발전하고 있습니다. 2018년 중반에 이 곳에 380명이
                             고용되었습니다.</small></span>
                 </div>
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 pl-3
+                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
                 mt-5">
                     <span
                         class="border border-white p-1 px-2 rounded bg-dark">6</span>

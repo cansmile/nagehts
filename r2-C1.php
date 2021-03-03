@@ -111,7 +111,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="10"
                                     class="so btn btn-danger">▶</button></th>
-                            <td class="text-left">Das ist Dooly. <br><span
+                            <td class="text-start">Das ist Dooly. <br><span
                                     class="tran">&nbsp;<small>이 아이는
                                         둘리에요.</small></span></td>
                         </tr>
@@ -119,7 +119,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="11"
                                     class="so btn btn-danger">▶</button></th>
-                            <td class="text-left">Er kommt aus
+                            <td class="text-start">Er kommt aus
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-1">
                                     <h2
@@ -134,7 +134,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="12"
                                     class="so btn btn-danger">▶</button></th>
-                            <td class="text-left">Er ist
+                            <td class="text-start">Er ist
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-2">
                                     <h2
@@ -149,7 +149,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="13"
                                     class="so btn btn-danger">▶</button></th>
-                            <td class="text-left">Er spricht
+                            <td class="text-start">Er spricht
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-3">
                                     <h2
@@ -182,7 +182,7 @@
                                 <button type="button" id="23"
                                     class="so btn btn-info btn-lg">▶</button>
                             </th>
-                            <td class="bg-info text-white text-left"
+                            <td class="bg-info text-white text-start"
                                 height="25px">
                                 <h3>Kleopatra</h3>
                             </td>
@@ -199,7 +199,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="15"
                                     class="so btn btn-info">▶</button></th>
-                            <td class="text-left">Sie kommt aus
+                            <td class="text-start">Sie kommt aus
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-4">
                                     <h2
@@ -214,7 +214,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="16"
                                     class="so btn btn-info">▶</button></th>
-                            <td class="text-left">Sie ist
+                            <td class="text-start">Sie ist
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-5">
                                     <h2
@@ -229,7 +229,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="17"
                                     class="so btn btn-info">▶</button></th>
-                            <td class="text-left">Sie spricht
+                            <td class="text-start">Sie spricht
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-6">
                                     <h2
@@ -271,7 +271,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="18"
                                     class="so btn btn-primary">▶</button></th>
-                            <td class="text-left">Das ist Mickey Mouse. <br><span
+                            <td class="text-start">Das ist Mickey Mouse. <br><span
                                     class="tran">&nbsp;<small>이 아이는 미키
                                         마우스에요.</small></span></td>
                         </tr>
@@ -279,7 +279,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="19"
                                     class="so btn btn-primary">▶</button></th>
-                            <td class="text-left">Er kommt aus
+                            <td class="text-start">Er kommt aus
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-7">
                                     <h2
@@ -294,7 +294,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="20"
                                     class="so btn btn-primary">▶</button></th>
-                            <td class="text-left">Er ist
+                            <td class="text-start">Er ist
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-8">
                                     <h2
@@ -309,7 +309,7 @@
                             <th class="bg-light" scope="row"><button
                                     type="button" id="21"
                                     class="so btn btn-primary">▶</button></th>
-                            <td class="text-left">Er spricht
+                            <td class="text-start">Er spricht
                                 <div class="itm-lst 1itm d-inline-block"
                                     style="min-width: 30%;" id="lst-9">
                                     <h2
@@ -337,7 +337,7 @@
                         class="table table-borderless text-center table-sm table-striped">
                         <thead>
                             <tr>
-                                <th class="text-left" scope="col"><span
+                                <th class="text-start" scope="col"><span
                                         class="tipp">TIPP</span>
                                 </th>
                             </tr>

@@ -37,7 +37,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="1"
                                     class="so btn btn-secondary">1</button></th>
-                            <td class="text-left">Wie ist ihr Name?<span
+                            <td class="text-start">Wie ist ihr Name?<span
                                     class="tran"><br><small>당신의 이름은
                                         무엇인가요?</small></span></td>
                             <td>
@@ -62,7 +62,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="2"
                                     class="so btn btn-secondary">2</button></th>
-                            <td class="text-left">Ich heiße Maria Kim.<span
+                            <td class="text-start">Ich heiße Maria Kim.<span
                                     class="tran"><br><small>저는 마리아
                                         킴입니다.</small></span></td>
                             <td>
@@ -87,7 +87,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="3"
                                     class="so btn btn-secondary">3</button></th>
-                            <td class="text-left">Mina. Und du?<span
+                            <td class="text-start">Mina. Und du?<span
                                     class="tran"><br><small>미나야.
                                         너는?</small></span></td>
                             <td>
@@ -112,7 +112,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="4"
                                     class="so btn btn-secondary">4</button></th>
-                            <td class="text-left">Ja, mein Name ist Kim.<span
+                            <td class="text-start">Ja, mein Name ist Kim.<span
                                     class="tran"><br><small>응, 나의 이름은
                                         김이야.</small></span></td>
                             <td>
@@ -137,7 +137,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="5"
                                     class="so btn btn-secondary">5</button></th>
-                            <td class="text-left">Wie geht es dir?<span
+                            <td class="text-start">Wie geht es dir?<span
                                     class="tran"><br><small>어떻게
                                         지내?</small></span></td>
                             <td>
@@ -176,7 +176,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="6"
                                     class="so btn btn-secondary">6</button></th>
-                            <td class="text-left">Danke, gut. Und dir?<span
+                            <td class="text-start">Danke, gut. Und dir?<span
                                     class="tran"><br><small>고마워, 좋아.
                                         너는?</small></span></td>
                             <td>
@@ -201,7 +201,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="7"
                                     class="so btn btn-secondary">7</button></th>
-                            <td class="text-left">Was machen Sie ?<span
+                            <td class="text-start">Was machen Sie ?<span
                                     class="tran"><br><small>당신은 무슨 일을
                                         하시나요?</small></span></td>
                             <td>
@@ -226,7 +226,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="8"
                                     class="so btn btn-secondary">8</button></th>
-                            <td class="text-left">Sind Sie Studentin?<span
+                            <td class="text-start">Sind Sie Studentin?<span
                                     class="tran"><br><small>당신은
                                         학생인가요?</small></span></td>
                             <td>
@@ -251,7 +251,7 @@
                         <tr>
                             <th scope="row"><button type="button" id="9"
                                     class="so btn btn-secondary">9</button></th>
-                            <td class="text-left">Woher kommen Sie?<span
+                            <td class="text-start">Woher kommen Sie?<span
                                     class="tran"><br><small>어디에서
                                         오셨나요?</small></span></td>
                             <td>
@@ -277,7 +277,7 @@
                             <th scope="row"><button type="button" id="10"
                                     class="so btn btn-secondary">10</button>
                             </th>
-                            <td class="text-left">Kommen Sie aus Korea?<span
+                            <td class="text-start">Kommen Sie aus Korea?<span
                                     class="tran"><br><small>당신은 한국에서
                                         오셨나요?</small></span></td>
                             <td>

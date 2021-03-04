@@ -17,457 +17,612 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 px-0 mx-0">
-                    <table class="table table-borderless">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 px-0">
+                    <table class="table table-borderless mx-0">
                         <thead>
-                            <tr>
-                                <th scope="col" class="text-center bg-light">&nbsp;
-                                </th>
-                            </tr>
+                        <tr>
+                            <th scope="col" class="text-center bg-light">&nbsp;</th>
+                            <th scope="col" class="text-center bg-light">möchten</th>
+                            <th scope="col" class="text-center bg-light">wollen</th>
+                        </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    ich</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    du</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    sie/es/er</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    wir</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    ihr</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    sie/Sie</th>
-                            </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle">ich</th>
+                            <td class="px-0">
+                                <div id="ant-1"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon1"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-1"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-2"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon2"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-2"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle">du</th>
+                            <td class="px-0">
+                                <div id="ant-7"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon7"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-7"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-8"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon8"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-8"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle">
+                                sie/es/er
+                            </th>
+                            <td class="px-0">
+                                <div id="ant-13"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon13"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-13"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-14"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon14"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-14"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle">wir</th>
+                            <td class="px-0">
+                                <div id="ant-19"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon19"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-19"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-20"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon20"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-20"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle">ihr</th>
+                            <td class="px-0">
+                                <div id="ant-25"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon25"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-25"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-26"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon26"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-26"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle">
+                                sie/Sie
+                            </th>
+                            <td class="px-0">
+                                <div id="ant-31"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon31"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-31"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-32"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon32"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-32"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
-                    <table class="table table-borderless">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 px-0">
+                    <table class="table table-borderless mx-0">
                         <thead>
-                            <tr>
-                                <th scope="col" class="text-center bg-light">
-                                    möchten</th>
-                                <th scope="col" class="text-center bg-light">wollen
-                                </th>
-                                <th scope="col" class="text-center bg-light">können
-                                </th>
-                            </tr>
+                        <tr>
+                            <th scope="col" class="text-center bg-light d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">&nbsp;</th>
+                            <th scope="col" class="text-center bg-light">müssen</th>
+                            <th scope="col" class="text-center bg-light">können</th>
+                        </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>
-                                    <div id="ant-1"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon1"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-1">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-2"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon2"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-2">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-3"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon3"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-3">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-7"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon7"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-7">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-8"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon8"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-8">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-9"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon9"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-9">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-13"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon13"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-13">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-14"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon14"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-14">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-15"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon15"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-15">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-19"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon19"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-19">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-20"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon20"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-20">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-21"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon21"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-21">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-25"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon25"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-25">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-26"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon26"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-26">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-27"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon27"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-27">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-31"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon31"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-31">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-32"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon32"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-32">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-33"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon33"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-33">
-                                    </div>
-                                </td>
-                            </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">ich</th>
+                            <td class="px-0">
+                                <div id="ant-4"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon4"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-4"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-3"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon3"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-3"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">du</th>
+                            <td class="px-0">
+                                <div id="ant-10"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon10"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-10"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-9"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon9"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-9"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
+                                sie/es/er
+                            </th>
+                            <td class="px-0">
+                                <div id="ant-16"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon16"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-16"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-15"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon15"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-15"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">wir</th>
+                            <td class="px-0">
+                                <div id="ant-22"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon22"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-22"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-21"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon21"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-21"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">ihr</th>
+                            <td class="px-0">
+                                <div id="ant-28"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon28"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-28"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-27"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon27"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-27"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
+                                sie/Sie
+                            </th>
+                            <td class="px-0">
+                                <div id="ant-34"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon34"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-34"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-33"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon33"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-33"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 d-lg-none d-xl-none d-mw-100 d-sm-block px-0
-                    mx-0">
-                    <table class="table table-borderless">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 px-0">
+                    <table class="table table-borderless mx-0">
                         <thead>
-                            <tr>
-                                <th scope="col" class="text-center bg-light">&nbsp;
-                                </th>
-                            </tr>
+                        <tr>
+                            <th scope="col" class="text-center bg-light d-xs-block d-sm-block d-md-block d-lg-block d-xl-none">&nbsp;</th>
+                            <th scope="col" class="text-center bg-light">dürfen</th>
+                            <th scope="col" class="text-center bg-light">sollen</th>
+                        </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    ich</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    du</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    sie/es/er</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    wir</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    ihr</th>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-center bg-light align-middle">
-                                    sie/Sie</th>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
-                    <table class="table table-borderless">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="text-center bg-light">müssen
-                                </th>
-                                <th scope="col" class="text-center bg-light">dürfen
-                                </th>
-                                <th scope="col" class="text-center bg-light">sollen
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div id="ant-4"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon4"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-4">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-5"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon5"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-5">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-6"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon6"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-6">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-10"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon10"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-10">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-11"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon11"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-11">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-12"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon12"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-12">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-16"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon16"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-16">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-17"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon17"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-17">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-18"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon18"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-18">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-22"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon22"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-22">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-23"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon23"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-23">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-24"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon24"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-24">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-28"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon28"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-28">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-29"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon29"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-29">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-30"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon30"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-30">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div id="ant-34"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon34"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-34">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-35"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon35"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-35">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div id="ant-36"></div>
-                                    <div class="input-group">
-                                        <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
-                                            aria-describedby="basic-addon36"
-                                            class="text-center form-control q border border-dark border-bottom-only
-                                            rounded-0 mx-2 px-2 py-1" id="qst-36">
-                                    </div>
-                                </td>
-                            </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-block d-xl-none">ich</th>
+                            <td class="px-0">
+                                <div id="ant-5"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon5"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-5"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-6"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon6"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-6"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-block d-xl-none">du</th>
+                            <td class="px-0">
+                                <div id="ant-11"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon11"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-11"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-12"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon12"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-12"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-block d-xl-none">
+                                sie/es/er
+                            </th>
+                            <td class="px-0">
+                                <div id="ant-17"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon17"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-17"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-18"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon18"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-18"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-block d-xl-none">wir</th>
+                            <td class="px-0">
+                                <div id="ant-23"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon23"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-23"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-24"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon24"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-24"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-block d-xl-none">ihr</th>
+                            <td class="px-0">
+                                <div id="ant-29"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon29"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-29"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-30"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon30"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-30"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-center bg-light align-middle d-xs-block d-sm-block d-md-block d-lg-block d-xl-none">
+                                sie/Sie
+                            </th>
+                            <td class="px-0">
+                                <div id="ant-35"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon35"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-35"
+                                    />
+                                </div>
+                            </td>
+                            <td class="px-0">
+                                <div id="ant-36"></div>
+                                <div class="input-group">
+                                    <input
+                                        autocomplete="off"
+                                        type="text"
+                                        placeholder="Antwort"
+                                        aria-label="Antwort"
+                                        aria-describedby="basic-addon36"
+                                        class="text-center form-control q border border-dark border-bottom-only rounded-0 mx-2 px-2 py-1"
+                                        id="qst-36"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>

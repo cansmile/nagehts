@@ -628,6 +628,7 @@
                             'E10' => array( 'Schema der E-Mail: Redemitttel (Anfang und Schluss)', '이메일의 형식: 표현법 (그리고 도입과 맺음말)' ),
                             'E11a' => array( 'Indikativ Präteritum und Konjunktiv II.', '과거형과 가정법 II식.' ),
                             'E11b' => array( 'Bilden Sie Sätze in Konjunkitv II', '가정법 II식으로 문장을 만드세요.' ),
+                            'E12' => array( 'Lesen Sie die E-Mail und schreiben Sie sie neu, indem Sie die Sätze mit den passenden Konektoren verbinden.', '이메일을 읽고 알맞은 접속사로 연결하여 새로 작성해보세요.' ),
                         )
                     ),
                     'r12-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )

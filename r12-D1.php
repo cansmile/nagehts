@@ -94,74 +94,74 @@
                     <div class="col-11 mx-auto border border-dark rounded">
                         Halli hallo, ihr Lieben,<br/>
                         ich<input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                                  class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                                  class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                   placeholder="Antwort" aria-label="Antwort" id="qst-1">
                         gestern schon in Dresden
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-2">. Wie ihr wisst,
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-3">
                         ich zum ersten Mal über zehn Stunden mit dem Flugzeug
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-4">. Ich erzähle euch in meinem ersten
                         Bericht, was ich beim Check-in und nach dem Landen
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-5">
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-6">. Das war alles ziemlich
                         anstrengend für mich.<br/>Am Flughafen suchte ich zuerst in meinen Reiseunterlagen nach der
                         Flugnummer und blickte dann auf den Monitor und fand die Flugnummer,die Abflugzeit sowie auch
                         den Check-In Schalter. Dort
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-7">
                         ich
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-8">
                         und mein Gepäck
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-9">
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-10">
                         . Die Bordkarte
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-11">
                         mir
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-12">. Auf der Bordkarte findet man den
                         Flugsteig, an dem das Flugzeug wartet. Bevor ich zum Flugsteig kam, musste ich mich einer
                         Sicherheitskontrolle unterziehen. Nach der Sicherheitskontrolle wartete ich, bis die Fluggäste
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-13">
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-14">
                         und in das Flugzeug steigen konnten. Im Flugzeug
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-15">
                         ich dann meinen Sitzplatz
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-16">
                         und habe mich
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-17">.
                         Während des Flugs wurden uns einige Snacks und Getränke
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-18">, die natürlich im Flugticket
                         inbegriffen waren.<br/>
                         Als ich dann am Zielflughafen ich zuerst einmal Richtung Gepäckausgabe.<br/>
@@ -169,11 +169,11 @@
                         Am entsprechenden Förderband angekommen nahm ich dann mein Gepäck herunter.
                         Gott sei Dank
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-19">
                         mein Anreisetag reibungslos
                         <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
-                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
+                               class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3 d-inline"
                                placeholder="Antwort" aria-label="Antwort" id="qst-20">
                         .
                         Ich melde mich wieder bei euch, und berichte euch dann, wie meine Sprachreise ist.<br/>

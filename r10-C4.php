@@ -6,9 +6,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Ergänzen Sie die Lücken. <br>
-                        <small> 빈칸을 채우세요. </small>
-                        [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
+                    <h2> Hören Sie die dialoge und ergänzen Sie die Lücken.<br />
+                        <small> 대화문을 듣고 빈칸을 채우세요. </small>
+                        [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br /> 오답이 될 때는 입력란이 붉게
                             표시됩니다.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV

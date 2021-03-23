@@ -118,7 +118,7 @@
                                             wo kann man hier übernachten? Gibt
                                             es in der Nähe ein Hotel?
                                             <span class="tran"><br><small>실례합니다.
-                                                    가르텐슈타트에서는 어디서 머물 수 있습니까? 근처에
+                                                    여기에서는 어디서 숙박할 수 있습니까? 근처에
                                                     호텔이 있습니까?</small></span>
                                         </li>
                                     </ul>

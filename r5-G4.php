@@ -386,7 +386,7 @@
 
         function di(th) {
             if (th.val().length < 10) {
-                var m = 1.5;
+                var m = 1.75;
             }
             if (th.val().length < 5) {
                 var m = 2;

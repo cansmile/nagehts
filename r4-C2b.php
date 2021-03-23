@@ -34,7 +34,7 @@ z<?php require_once("heading.php"); ?>
                                 <td scope="row" rowspan="7"
                                     class="text-center align-middle"><img
                                         src="./dev/images/Reihe 4/Reihe-4-C2-1-1.png"
-                                        style="max-width: 240px; height: auto;">
+                                        style="max-width: 140px; height: auto;">
                                 </td>
                                 <td width="25"><button type="button" id="1"
                                         class="so btn btn-outline-danger">▶</button>
@@ -89,7 +89,7 @@ z<?php require_once("heading.php"); ?>
                                 <td scope="row" rowspan="7"
                                     class="text-center align-middle"><img
                                         src="./dev/images/Reihe 4/Reihe-4-C2-2-1.png"
-                                        style="max-width: 240px; height: auto;">
+                                        style="max-width: 140px; height: auto;">
                                 </td>
                                 <td width="25"><button type="button" id="4"
                                         class="so btn btn-outline-danger">▶</button>
@@ -525,7 +525,7 @@ z<?php require_once("heading.php"); ?>
 
                     function di(th) {
                         if (th.val().length < 10) {
-                            var m = 1.5;
+                            var m = 1.75;
                         }
                         if (th.val().length < 5) {
                             var m = 2;

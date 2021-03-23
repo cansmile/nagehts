@@ -158,7 +158,7 @@
                     </tr>
                     <tr>
                         <td id="t8">&nbsp;</td>
-                        <td id="b8">Die Tanzkurs kostet 15 Euro pro Stunde.<span class="tran"><small><br>댄스 교습소는 시간당15유로를 받습니다.</small>
+                        <td id="b8">Der Tanzkurs kostet 15 Euro pro Stunde.<span class="tran"><small><br>댄스 교습소는 시간당15유로를 받습니다.</small>
                         </td>
                     </tr>
                     </tbody>

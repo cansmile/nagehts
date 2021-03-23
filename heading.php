@@ -583,6 +583,57 @@
                     'r10-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
                 )
             ),
+        11 =>
+            array( 'On-/Offeinkauf', '온라인/오프라인쇼핑',
+                array(
+                    'r11-Im Supermarkt und auf dem Markt' => array( 'A. Im Supermarkt und auf dem Markt', '슈퍼마켓과 시장에서',
+                        array(
+                            'A1' => array( 'Wie heißen die Artikel?', '이 상품들은 뭐라고 하나요?' ),
+                            'A2' => array( 'Vergleichen Sie die Lebensmittel.', '생필품을 비교해 보세요.' ),
+                            'A3' => array( 'Wo kaufen Sie was?', '어디에 무엇이 있나요?' ),
+                            'A4' => array( 'Lisa war auf dem Wochenmarkt und schreibt darüber auf Facebook.', '리자는 요일장에 갔던 일을 페이스북에 씁니다.' ),
+                            'A5' => array( 'Warum kaufen Sie das im Supermarkt oder auf dem Markt?', '슈퍼마켓이나 시장에서 쇼핑을 하는 이유는 무엇인가요?' ),
+                            'A6' => array( 'Schreiben Sie Vor- und Nachteile für den Einkauf im Supermarkt bzw. auf dem Markt.', '슈퍼마켓이나 시장 쇼핑의 장점과 단점을 이야기해 보세요.' ),
+                        )
+                    ),
+                    'r11-Wo findet man was' => array( 'B. Wo findet man was?', '어디에 무엇이 있나요?',
+                        array(
+                            'B1a' => array( 'Wo findet man was?', '어디에 무엇이 있나요?' ),
+                            'B2a' => array( 'Ergänzen Sie den Plan.', '안내게시판의 빈칸을 채우세요.' ),
+                            'B3' => array( 'Was ist richtig?', '무엇이 맞나요?' ),
+                            'B4' => array( 'Welche Anzeige passt zu welcher Situation?', '상황에 맞는 광고를 골라보세요.' ),
+                            'B5' => array( 'Lesen Sie die E-Mail.', '이메일을 읽으세요.' ),
+                        )
+                    ),
+                    'r11-Online-Shopping' => array( 'C. Online-Shopping', '온라인쇼핑',
+                        array(
+                            'C1' => array( 'Ordnen Sie die Redemittel zur Meinungsäußerung ein.', '의사표시를 하는 데 유용한 구문을 분류해보세요.' ),
+                            'C2' => array( 'Lesen Sie die kurzen Kommentare zu einem Artikel über Online-Shopping:', '온라인쇼핑에 대한 짧은 코멘트를 읽어보세요.' ),
+                            'C3' => array( 'Ergänzen Sie die Lücken. Welches Wort (1-10) passt?', '빈칸을 알맞은 단어로 채우세요.' ),
+                        )
+                    ),
+                    'r11-Bewusster Einkauf' => array( 'D. Bewusster Einkauf', '의식있는 쇼핑',
+                        array(
+                            'D1' => array( 'Haben Sie schon von Fairem Handel gehört?', '공정거래에 대해 들어본 적 있나요?' ),
+                            'D2' => array( 'Lesen Sie den Dialog.', '대화를 읽어보세요.' ),
+                        )
+                    ),
+                    'r11-Uebungen' => array( 'E. Übungen', '연습문제',
+                        array(
+                            'E1' => array( 'Ergänzen Sie die bestimmten Artikel und die Pluralformen.', '정관사와 복수형을 채우세요.' ),
+                            'E2' => array( 'Lesen Sie einen Einkaufszettel.', '쇼핑할 물건을 읽으세요.' ),
+                            'E3' => array( 'Ergänzen Sie die richtigen Endungen.', '알맞은 어미를 써 넣으세요.' ),
+                            'E4' => array( 'Ergänzen Sie den Komparativ(++) oder den Superlativ(+++) der Adjektive in der richtigen Form.', '형용사의 비교급이나 최상급을 알맞은 형태로 채우세요.' ),
+                            'E5' => array( 'Was passt?', '무엇이 알맞은가요?' ),
+                            'E6' => array( 'Bestellungsformular ', '주문서' ),
+                            'E7' => array( 'Bewertung.', '견적' ),
+                            'E8' => array( 'Mina will eine Reklamationsemail schreiben.', '미나는 구매 취소 및 환불 요청 이메일을 씁니다.' ),
+                            'E9' => array( 'Hören Sie den Text.', '본문을 읽으세요.' ),
+                        )
+                    ),
+                    '' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                )
+            ),
         12 =>
             array( 'Reise und Urlaub', '여행 및 휴가',
                 array(

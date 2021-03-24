@@ -437,11 +437,11 @@
                                 "btn-success");
                             $(this).parent().find(".nu")
                                 .addClass(
-                                    "bg-success text-white font-weight-bold rounded p-1 px-2 m-1"
+                                    "bg-success text-white fw-bold rounded p-1 px-2 m-1"
                                     );
                             $(this).closest("td").find(
                                 ".nu").addClass(
-                                "bg-success text-white font-weight-bold rounded p-1 px-2 m-1"
+                                "bg-success text-white fw-bold rounded p-1 px-2 m-1"
                                 );
                             $(this).closest("td").find(
                                 ".nu").text($.trim(
@@ -452,14 +452,14 @@
                                 "btn-primary");
                             $(this).closest("td").find(
                                 ".sen").append(
-                                "<button class=\"btn btn-warning text-dark rounded font-weight-bold p-1 px-2 m-1\">" +
+                                "<button class=\"btn btn-warning text-dark rounded fw-bold p-1 px-2 m-1\">" +
                                 $(this).closest(
                                     "td").find(".o")
                                 .text() +
                                 "</button>");
                             $(this).closest("td").find(
                                 ".nu").addClass(
-                                "btn p-1 px-2 m-1 btn-danger text-white font-weight-bold"
+                                "btn p-1 px-2 m-1 btn-danger text-white fw-bold"
                                 );
                         } else if ($(this).hasClass(
                                 "an")) {

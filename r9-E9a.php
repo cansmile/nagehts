@@ -14,7 +14,7 @@
             <div class="row">
                 <div
                     class="col display-4 bg-<?php echo($color); ?> rounded
-                    text-white font-weight-bold col-12 text-center">
+                    text-white fw-bold col-12 text-center">
                     Wahl</div>
                 <div class="col-12" id="itms">
                     <button type="button"
@@ -369,7 +369,7 @@
                         if ($(this).find(".btn")) {
                             $(this).find(".btn")
                                 .addClass(
-                                    "font-weight-bold text-success"
+                                    "fw-bold text-success"
                                     );
                         }
                     });
@@ -432,7 +432,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "w-100 font-weight-bold ps-0"
+                            "w-100 fw-bold ps-0"
                             );
                         $("#" + $(this).attr("id")).addClass(
                             "text-center");

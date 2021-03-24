@@ -244,7 +244,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                     );
                     console.log("다시 읽어주세요!");
                 },
@@ -294,7 +294,7 @@
                             $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
                             $(".itm-lst>button").addClass(
-                                "text-success font-weight-bold text-start");
+                                "text-success fw-bold text-start");
                             var qa = $(".itm-lst").length; /* 전체 문항 수 */
                             var qr = $(".text-success").length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */

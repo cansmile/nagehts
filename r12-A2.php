@@ -396,7 +396,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -434,7 +434,7 @@
                         $(".itm-lst").each(function () {
                             if ($(this).find(".btn")) {
                                 $(this).find(".btn").addClass(
-                                    "text-success font-weight-bold");
+                                    "text-success fw-bold");
                             }
                         });
                         var qa = $(".itm-lst").length; /* 전체 문항 수 */

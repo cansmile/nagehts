@@ -24,9 +24,9 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="col" class="font-weight-bold text-center">
+                                <th scope="col" class="fw-bold text-center">
                                     Infinitivformen</th>
-                                <td class="font-weight-bold text-center">
+                                <td class="fw-bold text-center">
                                     Perfektformen</td>
                             </tr>
                         </tbody>
@@ -36,9 +36,9 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="col" class="font-weight-bold text-center">
+                                <th scope="col" class="fw-bold text-center">
                                     Infinitivformen</th>
-                                <td class="font-weight-bold text-center">
+                                <td class="fw-bold text-center">
                                     Perfektformen</td>
                             </tr>
                         </tbody>
@@ -48,9 +48,9 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="col" class="font-weight-bold text-center">
+                                <th scope="col" class="fw-bold text-center">
                                     Infinitivformen</th>
-                                <td class="font-weight-bold text-center">
+                                <td class="fw-bold text-center">
                                     Perfektformen</td>
                             </tr>
                         </tbody>
@@ -283,21 +283,21 @@
                         <thead>
                             <tr>
                                 <th scope="row">&nbsp;</th>
-                                <th scope="row"><small class="font-weight-bold">약변화(규칙)</small>
+                                <th scope="row"><small class="fw-bold">약변화(규칙)</small>
                                 </th>
-                                <th scope="row"><small class="font-weight-bold">강변화(불규칙)</small>
+                                <th scope="row"><small class="fw-bold">강변화(불규칙)</small>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row"><small class="font-weight-bold">기본형(일반적인
+                                <th scope="row"><small class="fw-bold">기본형(일반적인
                                         형태)</small></th>
                                 <td>ge--t</td>
                                 <td>ge--en</td>
                             </tr>
                             <tr>
-                                <th scope="row"><small class="font-weight-bold">분리전철</small>
+                                <th scope="row"><small class="fw-bold">분리전철</small>
                                 </th>
                                 <td><span class="border border-dark rounded p-1 px-3 me-1">&nbsp;</span>ge--t
                                 </td>
@@ -305,7 +305,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row"><small class="font-weight-bold">비분리전철 &
+                                <th scope="row"><small class="fw-bold">비분리전철 &
                                         -ieren</small></th>
                                 <td>--t</td>
                                 <td>--en</td>
@@ -472,13 +472,13 @@
                     .removeClass("text-success");
                 if (rfchk($(this))) {
                     $(this).addClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).addClass("bg-success");
                     $("#ant-" + $(this).attr("id").substr(4))
                         .addClass("text-success");
                 } else {
                     $(this).addClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).addClass("bg-danger");
                     $("#ant-" + $(this).attr("id").substr(4))
                         .addClass("text-danger");
@@ -487,7 +487,7 @@
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
                     $(this).removeClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                 }
                 if ($(this).val()) {
                     $("#ant-" + $(this).attr("id").substr(4))
@@ -511,13 +511,13 @@
                     .text()) {
                     if (rfchk($(this))) {
                         $(this).addClass(
-                            "text-white font-weight-bold");
+                            "text-white fw-bold");
                         $(this).addClass("bg-success");
                         $("#ant-" + $(this).attr("id").substr(
                             4)).addClass("text-success");
                     } else {
                         $(this).addClass(
-                            "text-white font-weight-bold");
+                            "text-white fw-bold");
                         $(this).addClass("bg-danger");
                         $("#ant-" + $(this).attr("id").substr(
                             4)).addClass("text-danger");
@@ -544,7 +544,7 @@
                 $(this).removeClass("bg-danger");
                 if (!$(this).attr("disabled")) {
                     $(this).removeClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).removeClass("bg-success");
                 }
             })
@@ -658,7 +658,7 @@
                 var pann = "#qst-" + pan[p];
                 $(pann).val(an[(pan[p] - 1)]);
                 $(pann).addClass(
-                    "bg-success text-white font-weight-bold");
+                    "bg-success text-white fw-bold");
                 $(pann).prop("disabled", true);
             }
 

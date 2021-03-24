@@ -249,7 +249,7 @@
             format: "mp3",
             preload: true,
             onloaderror: function () {
-                $(".alert").append("<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
+                $(".alert").append("<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>");
                 console.log("다시 읽어주세요!");
             },
             onload: function () {/* 음성 준비되면 HV 버튼 나타내기 */
@@ -294,7 +294,7 @@
                     if ($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
                         $(this).attr("id", "done");
                         $(".itm-lst").each(function () {
-                            $(this).find("button").addClass("text-success font-weight-bold");
+                            $(this).find("button").addClass("text-success fw-bold");
                         });
                         $(".pop").each(function () {
                             $(this).removeClass("btn-info");

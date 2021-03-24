@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="row border border-dark p-2 my-2 rounded py-4">
-            <div class="font-weight-bold col-sm-12 col-md-2 col-lg-2"><span
+            <div class="fw-bold col-sm-12 col-md-2 col-lg-2"><span
                     class="border border-dark bg-dark text-white p-1 px-2 rounded me-1">Bsp.</span>Julia
             </div>
             <div class="col-sm-12 col-md-2 col-lg-3">eine Halskette
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="row border border-dark p-2 my-2 rounded py-4">
-            <div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Mina
+            <div class="fw-bold col-sm-12 col-md-2 col-lg-2">Mina
                 und Sujin
             </div>
             <div class="col-sm-12 col-md-2 col-lg-3">einen Reiseführer
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="row border border-dark p-2 my-2 rounded py-4">
-            <div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Jochen
+            <div class="fw-bold col-sm-12 col-md-2 col-lg-2">Jochen
             </div>
             <div class="col-sm-12 col-md-2 col-lg-3">einen Mülleimer
                 schenken<br>Er räumt gern auf.
@@ -60,7 +60,7 @@
             </div>
         </div>
         <div class="row border border-dark p-2 my-2 rounded py-4">
-            <div class="font-weight-bold col-sm-12 col-md-2 col-lg-2">Bernd
+            <div class="fw-bold col-sm-12 col-md-2 col-lg-2">Bernd
             </div>
             <div class="col-sm-12 col-md-2 col-lg-3">eine Krawatte
                 schenken<br>Er hat bald ein Vorstellungsgespräch.
@@ -94,7 +94,7 @@
                 <tr>
                     <td class="text-center" style="line-height: 250%;">
                         weil은 <strong>종속접속사</strong>로 <span
-                            class="border border-dark rounded p-1 px-2 font-weight-bold"><small>주어(S)
+                            class="border border-dark rounded p-1 px-2 fw-bold"><small>주어(S)
                                         + ··· + 동사(V)</small></span> 종속문에서는 분리
                         동사가 분리되지 않는다.<br><strong>Bsp.</strong> aufraumen
                         --> aufräumt
@@ -165,13 +165,13 @@
                 .removeClass("text-success");
             if (rfchk($(this))) {
                 $(this).addClass(
-                    "text-white font-weight-bold");
+                    "text-white fw-bold");
                 $(this).addClass("bg-success");
                 $("#ant-" + $(this).attr("id").substr(4))
                     .addClass("text-success");
             } else {
                 $(this).addClass(
-                    "text-white font-weight-bold");
+                    "text-white fw-bold");
                 $(this).addClass("bg-danger");
                 $("#ant-" + $(this).attr("id").substr(4))
                     .addClass("text-danger");
@@ -180,7 +180,7 @@
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
                 $(this).removeClass(
-                    "text-white font-weight-bold");
+                    "text-white fw-bold");
             }
             if ($(this).val()) {
                 $("#ant-" + $(this).attr("id").substr(4))
@@ -205,13 +205,13 @@
                 .text()) {
                 if (rfchk($(this))) {
                     $(this).addClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).addClass("bg-success");
                     $("#ant-" + $(this).attr("id").substr(
                         4)).addClass("text-success");
                 } else {
                     $(this).addClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).addClass("bg-danger");
                     $("#ant-" + $(this).attr("id").substr(
                         4)).addClass("text-danger");
@@ -239,7 +239,7 @@
             $(this).removeClass("bg-danger");
             if (!$(this).attr("disabled")) {
                 $(this).removeClass(
-                    "text-white font-weight-bold");
+                    "text-white fw-bold");
                 $(this).removeClass("bg-success");
             }
         })
@@ -386,7 +386,7 @@
             var pann = "#qst-" + pan[p];
             $(pann).val(an[(pan[p] - 1)]);
             $(pann).addClass(
-                "bg-success text-white font-weight-bold");
+                "bg-success text-white fw-bold");
             $(pann).prop("disabled", true);
             di($("#qst-" + pan[p]));
         }

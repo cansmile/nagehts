@@ -220,7 +220,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -241,15 +241,15 @@
                                 var a = $(this).parent().attr("id").substr($(this).parent().attr("id").length - 1, 1);
                             }
                             if ($(this).hasClass("ans" + (a))) {
-                                $(this).addClass("text-success font-weight-bold");
+                                $(this).addClass("text-success fw-bold");
                             } else {
-                                $(this).addClass("text-warning font-weight-bold");
+                                $(this).addClass("text-warning fw-bold");
                             }
                             ;
                             if ($(this).hasClass("text-warning")) {/* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
                                 for (var i = 1; i <= $(".itm-lst").length; i++) {
                                     if ($(this).hasClass("ans" + i)) {
-                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
+                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white fw-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
                                     }
                                 }
                             }
@@ -262,7 +262,7 @@
                             $("#ans-" + i).append($("#lst-" + i + ">h2>.sen").text() + " ");
                             $("#tra-" + i).append("<small>" + $("#lst-" + i + ">h2>.tran").text() + " ");
                             $("#lst-" + i + ">button").each(function () {
-                                if ($(this).hasClass("font-weight-bold") && ($(this).hasClass("text-success") || $(this).hasClass("text-danger"))) {
+                                if ($(this).hasClass("fw-bold") && ($(this).hasClass("text-success") || $(this).hasClass("text-danger"))) {
                                     ind++;
                                     switch ($(this).find(".gen").text()) {
                                         case '':

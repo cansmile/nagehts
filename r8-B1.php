@@ -32,7 +32,7 @@
                     <table class="table table-borderless text-center">
                         <tbody>
                             <tr>
-                                <td width="40%" class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td width="40%" class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">der Kopf
                                     <span class="tran"><small>머리</small>
                                 </td>
@@ -43,7 +43,7 @@
                                         style="max-width: 100%; height: auto;"></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">das Auge
                                     <span class="tran"><small>눈</small>
                                 </td>
@@ -51,7 +51,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">die Nase
                                     <span class="tran"><small>코</small>
                                 </td>
@@ -59,7 +59,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">der Mund
                                     <span class="tran"><small>입</small>
                                 </td>
@@ -67,7 +67,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">der Arm
                                     <span class="tran"><small>팔</small>
                                 </td>
@@ -75,7 +75,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">die Hand
                                     <span class="tran"><small>손</small>
                                 </td>
@@ -83,7 +83,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">der Bauch
                                     <span class="tran"><small>배</small>
                                 </td>
@@ -91,7 +91,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">das Bein
                                     <span class="tran"><small>다리</small>
                                 </td>
@@ -99,7 +99,7 @@
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
                             </tr>
                             <tr>
-                                <td class="align-middle p-0 m-1 text-end font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-end fw-bold px-2"
                                     style="font-size: 1.5em;">der Fuß
                                     <span class="tran"><small>발</small>
                                 </td>
@@ -118,7 +118,7 @@
                                         style="max-width: 100%; height: auto;"></td>
                                 <td width="10%" class="align-middle p-0 m-1"><button type="button" id="10"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td width="40%" class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td width="40%" class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">das Ohr
                                     <span class="tran"><small>귀</small>
                                 </td>
@@ -126,7 +126,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="11"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">das Gesicht
                                     <span class="tran"><small>얼굴</small>
                                 </td>
@@ -134,7 +134,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="12"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">die Zähne
                                     <span class="tran"><small>이</small>
                                 </td>
@@ -142,7 +142,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="13"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">der Hals
                                     <span class="tran"><small>목</small>
                                 </td>
@@ -150,7 +150,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="14"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">der Rücken
                                     <span class="tran"><small>등</small>
                                 </td>
@@ -158,7 +158,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="15"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">der Finger
                                     <span class="tran"><small>손가락</small>
                                 </td>
@@ -166,7 +166,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="16"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">die Brust
                                     <span class="tran"><small>가슴</small>
                                 </td>
@@ -174,7 +174,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="17"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">das Knie
                                     <span class="tran"><small>무릎</small>
                                 </td>
@@ -182,7 +182,7 @@
                             <tr>
                                 <td class="align-middle p-0 m-1"><button type="button" id="18"
                                         class="so btn btn-<?php echo($color); ?>">▶</button></td>
-                                <td class="align-middle p-0 m-1 text-justify font-weight-bold px-2"
+                                <td class="align-middle p-0 m-1 text-justify fw-bold px-2"
                                     style="font-size: 1.5em;">der Zeh
                                     <span class="tran"><small>발가락</small>
                                 </td>
@@ -254,7 +254,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },

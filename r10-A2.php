@@ -57,42 +57,42 @@
             </div>
             <div class="row my-3 text-center">
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="15" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="15" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 1
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 2
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 3
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="13" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="13" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 4
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="14" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="14" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 5
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 6
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="16" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="16" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 7
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg">
-                    <button type="button" id="17" class="so btn btn-outline-dark btn-sm me-1 font-weight-bold">
+                    <button type="button" id="17" class="so btn btn-outline-dark btn-sm me-1 fw-bold">
                         ▶
                     </button>Dialog 8
                 </div>
@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">am</div>
+                <div class="col-12 rounded p-2 text-center bg-dark text-white fw-bold">am</div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 me-3 p-0">
@@ -190,7 +190,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">auf dem/der</div>
+                <div class="col-12 rounded p-2 text-center bg-dark text-white fw-bold">auf dem/der</div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 me-3 p-0">
@@ -217,7 +217,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">im</div>
+                <div class="col-12 rounded p-2 text-center bg-dark text-white fw-bold">im</div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 me-3 p-0">
@@ -412,7 +412,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-12 rounded p-2 text-center bg-dark text-white font-weight-bold">in der</div>
+                <div class="col-12 rounded p-2 text-center bg-dark text-white fw-bold">in der</div>
                 <div class="col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="row">
                         <div class="col-2 me-3 p-0">
@@ -580,7 +580,7 @@
                         <table class="table table-bordered text-center m-0">
                             <tbody>
                                 <tr>
-                                    <td class="font-weight-bold">in</td>
+                                    <td class="fw-bold">in</td>
                                     <td rowspan="2" class="align-middle">안에</td>
                                 </tr>
                                 <tr>
@@ -600,7 +600,7 @@
                         <table class="table table-bordered text-center m-0">
                             <tbody>
                                 <tr>
-                                    <td class="font-weight-bold">an</td>
+                                    <td class="fw-bold">an</td>
                                     <td rowspan="2" class="align-middle">곁에</td>
                                 </tr>
                                 <tr>
@@ -620,7 +620,7 @@
                         <table class="table table-bordered text-center m-0">
                             <tbody>
                                 <tr>
-                                    <td class="font-weight-bold">auf</td>
+                                    <td class="fw-bold">auf</td>
                                     <td rowspan="2" class="align-middle">위에</td>
                                 </tr>
                                 <tr>
@@ -828,7 +828,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },

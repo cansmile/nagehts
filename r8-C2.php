@@ -452,7 +452,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -524,12 +524,12 @@
                         $("#ant-" + $(this).attr("id").substr(4)).removeClass(
                             "text-success");
                         if (rfchk($(this))) {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-success");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass(
                                 "text-success");
                         } else {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-danger");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass(
                                 "text-danger");
@@ -537,7 +537,7 @@
                         if (!$(this).val()) {
                             $(this).removeClass("bg-danger");
                             $(this).removeClass("bg-success");
-                            $(this).removeClass("text-white font-weight-bold");
+                            $(this).removeClass("text-white fw-bold");
                         }
                         if ($(this).val()) {
                             $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -553,12 +553,12 @@
                         }
                         if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                             if (rfchk($(this))) {
-                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("text-white fw-bold");
                                 $(this).addClass("bg-success");
                                 $("#ant-" + $(this).attr("id").substr(4)).addClass(
                                     "text-success");
                             } else {
-                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("text-white fw-bold");
                                 $(this).addClass("bg-danger");
                                 $("#ant-" + $(this).attr("id").substr(4)).addClass(
                                     "text-danger");
@@ -583,7 +583,7 @@
                         }
                         $(this).removeClass("bg-danger");
                         if (!$(this).attr("disabled")) {
-                            $(this).removeClass("text-white font-weight-bold");
+                            $(this).removeClass("text-white fw-bold");
                             $(this).removeClass("bg-success");
                         }
                     });
@@ -606,7 +606,7 @@
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
                                     $("#qst-" + (i + 1)).addClass(
-                                        "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
+                                        "bg-success text-white rounded fw-bold p-1 px-2 ms-1"
                                         );
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
@@ -686,7 +686,7 @@
                     for (var p = 0; p < pan.length; p++) {
                         var pann = "#qst-" + pan[p];
                         $(pann).val(an[(pan[p] - 1)]);
-                        $(pann).addClass("bg-success text-white font-weight-bold");
+                        $(pann).addClass("bg-success text-white fw-bold");
                         $(pann).prop("disabled",
                         true);
                     } /* 보기 채우기 */

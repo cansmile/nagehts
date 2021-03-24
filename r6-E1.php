@@ -222,7 +222,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -277,7 +277,7 @@
                     $(this).attr("id", "done");
 
                     $(".itm-lst").each(function() {
-                        $(this).find("button").addClass("text-success font-weight-bold");
+                        $(this).find("button").addClass("text-success fw-bold");
                     });
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
@@ -319,7 +319,7 @@
                     if ($(this).hasClass("ans" + pan[p])) {
                         $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "w-100 font-weight-bold");
+                            "w-100 fw-bold");
                         $("#lst-" + pan[p] + ">h2").remove();
                         $("#lst-" + pan[p]).parent().find(".tran").show();
                     }

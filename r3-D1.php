@@ -928,7 +928,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -1069,7 +1069,7 @@
 
                                     $(this)
                                         .addClass(
-                                            "font-weight-bold rounded p-1 pe-2"
+                                            "fw-bold rounded p-1 pe-2"
                                             );
                                     if (tt
                                         .length >
@@ -1096,7 +1096,7 @@
                             $(".border.border-dark.border-bottom-only.bg-light.mx-0.p-2")
                                 .removeClass()
                                 .addClass(
-                                    "font-weight-bold mx-1"
+                                    "fw-bold mx-1"
                                     );
                             $(this).removeClass(
                                 "btn-light ");
@@ -1147,12 +1147,12 @@
                             $(".text-warning")
                                 .removeClass()
                                 .addClass(
-                                    "text-danger font-weight-bold"
+                                    "text-danger fw-bold"
                                     );
                             $(".text-primary")
                                 .removeClass()
                                 .addClass(
-                                    "text-success font-weight-bold"
+                                    "text-success fw-bold"
                                     );
                         };
                     });

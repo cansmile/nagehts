@@ -243,7 +243,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -330,7 +330,7 @@
                             if ($(this).hasClass("ans" + pan[p])) {
                                 $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
                                 $("#" + $(this).attr("id")).addClass(
-                                    "w-100 font-weight-bold");
+                                    "w-100 fw-bold");
                                 $("#" + $(this).attr("id")).addClass("border-0");
                                 $("#lst-" + pan[p] + ">h2")
                             .remove(); /* $("#lst-" + pan[p]).parent().find(".tran").show(); */

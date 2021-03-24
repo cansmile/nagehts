@@ -945,7 +945,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -985,7 +985,7 @@
                             $(".itm-lst").each(function () {
                                 $(this).html($(this).find("button").html());
                                 $(this).addClass(
-                                    "text-success font-weight-bold"); /* $(this).addClass("font-weight-bold bg-white border rounded border-dark"); */
+                                    "text-success fw-bold"); /* $(this).addClass("fw-bold bg-white border rounded border-dark"); */
                             }); /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
                             var qa = $(".itm-lst").length; /* 전체 문항 수 */

@@ -168,7 +168,7 @@
                         if ($(this).find(".itm")) {
                             $(this).find(".itm")
                                 .addClass(
-                                    "text-success font-weight-bold"
+                                    "text-success fw-bold"
                                     );
                         }
                     });

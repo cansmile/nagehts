@@ -21,27 +21,27 @@
                                     <div class="col-12 py-5 h5">Persönliche E-Mail&nbsp;<small>사적 이메일</small></div>
                                     <div class="col-12 bg-light rounded-2">
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Anrede&nbsp;<small>인사말</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Anrede&nbsp;<small>인사말</small></div>
                                             <div class="col-6 pt-3 align-middle">Lieber Tom/, Hallo, Maria, / Lieber Frau Schneider,/ Guten Tag,/ Hallo, Herr Kim,</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Einleitungssatz&nbsp;<small>도입</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Einleitungssatz&nbsp;<small>도입</small></div>
                                             <div class="col-6 pt-3 align-middle">vielen Dank für deine/Ihre Mail oder für deine E-Mail (Rückmeldung, Einladung...). Sie hat mich sehr gefreut. /Wie geht es dir? Mir geht es gut, (weil ....)....</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Mailtext&nbsp;<small>본론</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Mailtext&nbsp;<small>본론</small></div>
                                             <div class="col-6 pt-3 align-middle">....</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Schlusssatz&nbsp;<small>맺음말</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Schlusssatz&nbsp;<small>맺음말</small></div>
                                             <div class="col-6 pt-3 align-middle">Ich hoffe, bald von dir zu hören/ Richte 000 meine Grüße aus.<br />Es wäre schön, wenn …  /Auf deine Antwort freue ich mich sehr.</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Gruß (끝)&nbsp;<small>인사</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Gruß (끝)&nbsp;<small>인사</small></div>
                                             <div class="col-6 pt-3 align-middle">Beste Grüße/ Viele Grüße/ Liebe Grüße /Herzliche Grüße/Grüße/ Ciao<br />Bis Bald/ Alles Gute/</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Unterschrift&nbsp;<small>이름</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Unterschrift&nbsp;<small>이름</small></div>
                                             <div class="col-6 pt-3 align-middle">Dein/ Deine 000 (nur  Vorname, 이름만)</div>
                                         </div>
                                     </div>
@@ -54,27 +54,27 @@
                                     <div class="col-12 py-5 h5">Halbformelle E-Mail&nbsp;<small>사적 이메일</small></div>
                                     <div class="col-12 bg-light rounded-2">
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Anrede&nbsp;<small>인사말</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Anrede&nbsp;<small>인사말</small></div>
                                             <div class="col-6 pt-3 align-middle">Sehr geehrte Frau Dr. Eva Fischer/ Sehr geehrtet Herr Müller/ Lieber Herr Schneider Sehr geehrte Damen und Herren,</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Einleitungssatz&nbsp;<small>도입</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Einleitungssatz&nbsp;<small>도입</small></div>
                                             <div class="col-6 pt-3 align-middle">vielen Dank für Ihre Mail (Rückmeldung, Einladung, Information...). Sie hat mich sehr gefreut.<br />Wie geht es dir? Mir geht es gut, weil....</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Mailtext&nbsp;<small>본론</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Mailtext&nbsp;<small>본론</small></div>
                                             <div class="col-6 pt-3 align-middle">....</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Schlusssatz&nbsp;<small>맺음말</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Schlusssatz&nbsp;<small>맺음말</small></div>
                                             <div class="col-6 pt-3 align-middle">Ich hoffe, bald von Ihnen zu hören/ Richten Sie 000 meine Grüße aus.<br />Es wäre schön, wenn …  /Auf Ihre Antwort freue ich mich sehr./Vielen Dank im Voraus für Ihre Mühe.</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Gruß (끝)&nbsp;<small>인사</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Gruß (끝)&nbsp;<small>인사</small></div>
                                             <div class="col-6 pt-3 align-middle">Mit freundlichen Grüßen/ Mit besten Grüßen</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 font-weight-bold align-middle">Unterschrift&nbsp;<small>이름</small></div>
+                                            <div class="col-3 border border-dark rounded-2 my-3 py-2 fw-bold align-middle">Unterschrift&nbsp;<small>이름</small></div>
                                             <div class="col-6 pt-3 align-middle">Ihr/ Ihre 000 (Vor und Nachname, 성과 이름 함께)</div>
                                         </div>
                                     </div>
@@ -680,7 +680,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             }

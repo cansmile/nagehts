@@ -470,7 +470,7 @@
                             $(this).removeClass("btn-warning");
                             $(this).addClass("btn-success text-white");
                         } else if ($(this).hasClass("o")) {
-                            $(this).addClass("btn-warning font-weight-bold");
+                            $(this).addClass("btn-warning fw-bold");
                         } else if ($(this).hasClass("an")) {
                             $(this).addClass("btn-danger");
                         } else {
@@ -484,7 +484,7 @@
 
                     $(".itm-lst").each(function() {
                         if($(this).find(".btn")) {
-                            $(this).find(".btn").addClass("font-weight-bold text-success");
+                            $(this).find(".btn").addClass("fw-bold text-success");
                         }
                     });
 

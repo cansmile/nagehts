@@ -389,7 +389,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -445,7 +445,7 @@
                                 "text-success");
                         if (rfchk($(this))) {
                             $(this).addClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                             $(this).addClass(
                                 "bg-success");
@@ -456,7 +456,7 @@
                                     "text-success");
                         } else {
                             $(this).addClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                             $(this).addClass(
                                 "bg-danger");
@@ -472,7 +472,7 @@
                             $(this).removeClass(
                                 "bg-success");
                             $(this).removeClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                         }
                         if ($(this).val()) {
@@ -510,7 +510,7 @@
                                     4)).text()) {
                             if (rfchk($(this))) {
                                 $(this).addClass(
-                                    "text-white font-weight-bold"
+                                    "text-white fw-bold"
                                     );
                                 $(this).addClass(
                                     "bg-success"
@@ -523,7 +523,7 @@
                                         );
                             } else {
                                 $(this).addClass(
-                                    "text-white font-weight-bold"
+                                    "text-white fw-bold"
                                     );
                                 $(this).addClass(
                                     "bg-danger");
@@ -567,7 +567,7 @@
                         if (!$(this).attr(
                                 "disabled")) {
                             $(this).removeClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                             $(this).removeClass(
                                 "bg-success");

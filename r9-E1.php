@@ -12,7 +12,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="border border-dark rounded p-1 px-2 w-100 font-weight-bold">
+                    <div class="border border-dark rounded p-1 px-2 w-100 fw-bold">
                         Weihnachten<span class="tran">&nbsp;<small>크리스마스</small></span></div>
                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="border border-dark rounded p-1 px-2 w-100 font-weight-bold">
+                    <div class="border border-dark rounded p-1 px-2 w-100 fw-bold">
                         Ostern<span class="tran">&nbsp;<small>부활절</small></span>
                     </div>
                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-2">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="border border-dark rounded p-1 px-2 w-100 font-weight-bold">
+                    <div class="border border-dark rounded p-1 px-2 w-100 fw-bold">
                         Silvester<span class="tran">&nbsp;<small>12월
                                 31일</small></span></div>
                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-3">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="border border-dark rounded p-1 px-2 w-100 font-weight-bold">
+                    <div class="border border-dark rounded p-1 px-2 w-100 fw-bold">
                         Karneval<span class="tran">&nbsp;<small>카니발</small></span></div>
                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-4">
                         <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="border border-dark rounded p-1 px-2 w-100 font-weight-bold">
+                    <div class="border border-dark rounded p-1 px-2 w-100 fw-bold">
                         Oktoberfest<span class="tran">&nbsp;<small>옥토버페스트</small></span>
                     </div>
                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-5">
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="border border-dark rounded p-1 px-2 w-100 font-weight-bold">
+                    <div class="border border-dark rounded p-1 px-2 w-100 fw-bold">
                         Valentinstag<span class="tran">&nbsp;<small>발렌타인데이</small></span>
                     </div>
                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-6">
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="border border-dark rounded p-1 px-2 w-100 font-weight-bold">
+                    <div class="border border-dark rounded p-1 px-2 w-100 fw-bold">
                         Erntedankfest<span class="tran">&nbsp;<small>추수감사절</small></span></div>
                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-7">
                         <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -236,7 +236,7 @@
                                 $(this).removeClass("btn-warning");
                                 $(this).addClass("btn-success text-white");
                             } else if ($(this).hasClass("o")) {
-                                $(this).addClass("btn-warning font-weight-bold");
+                                $(this).addClass("btn-warning fw-bold");
                             } else if ($(this).hasClass("an")) {
                                 $(this).addClass("btn-danger");
                             } else {

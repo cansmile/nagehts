@@ -138,11 +138,11 @@
                         if ($(this).hasClass("ans" + (
                                 a))) {
                             $(this).addClass(
-                                "text-success font-weight-bold"
+                                "text-success fw-bold"
                                 );
                         } else {
                             $(this).addClass(
-                                "text-warning font-weight-bold"
+                                "text-warning fw-bold"
                                 );
                             $(this).find(".tran")
                         .show();
@@ -161,7 +161,7 @@
                                                 i + '"'
                                                 ))
                                         .append(
-                                            "<button class=\"mt-1 mx-1 btn btn-sm so btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
+                                            "<button class=\"mt-1 mx-1 btn btn-sm so btn-outline-dark w-100 text-danger bg-white fw-bold\">" +
                                             $(this)
                                             .html() +
                                             "</button>"

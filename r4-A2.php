@@ -488,7 +488,7 @@
                                 Ein <input autocomplete="off" type="text" placeholder="Reihenhaus"
                                            aria-label="Reihenhaus"
                                            aria-describedby="basic-addon15"
-                                           class="text-center form-control rounded-0 border-bottom-only mx-2 col-2 bg-success font-weight-bold text-white t_add_6"
+                                           class="text-center form-control rounded-0 border-bottom-only mx-2 col-2 bg-success fw-bold text-white t_add_6"
                                            id="nqst" disabled>
                                 ist meistens ein Familienhaus, in einer
                                 Reihe von gleichen, aneinander gebauten
@@ -571,7 +571,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -654,7 +654,7 @@
                     }
                     $("#qst-" + fan).val(an[(fan - 1)]);
                     $("#qst-" + fan).prop("disabled", true);
-                    $("#qst-" + fan).addClass("bg-success font-weight-bold text-white");
+                    $("#qst-" + fan).addClass("bg-success fw-bold text-white");
                 }
 
                 $(".q").on("keyup", function () {
@@ -669,18 +669,18 @@
                     $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
                     $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                     if (rfchk($(this))) {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-success");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-danger");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                     if (!$(this).val()) {
                         $(this).removeClass("bg-danger");
                         $(this).removeClass("bg-success");
-                        $(this).removeClass("text-white font-weight-bold");
+                        $(this).removeClass("text-white fw-bold");
                     }
                     if ($(this).val()) {
                         $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -697,11 +697,11 @@
                     }
                     if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                         if (rfchk($(this))) {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-success");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                         } else {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-danger");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                         }
@@ -728,7 +728,7 @@
                     }
                     $(this).removeClass("bg-danger");
                     if (!$(this).attr("disabled")) {
-                        $(this).removeClass("text-white font-weight-bold");
+                        $(this).removeClass("text-white fw-bold");
                         $(this).removeClass("bg-success");
                     }
                 });
@@ -751,7 +751,7 @@
                         for (var i = 0; i < an.length; i++) {
                             var oran = $("#qst-" + (i + 1)).val();
                             if (rfchk($("#qst-" + (i + 1)), true)) {
-                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ms-1 t+3");
+                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded fw-bold p-1 px-2 ms-1 t+3");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                             } else {
                                 $("#qst-" + (i + 1)).val(oran);

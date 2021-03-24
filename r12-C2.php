@@ -21,7 +21,7 @@
             <div class="col-12 wd_inline_inverted">Mina ist zur Teilnahme am Sprachkurs auf dem Frankfurter Flughafen
                 gelandet. Sie hat bereits zu Hause eine Bahnkarte gebucht. Schauen Sie sich die Bahnkarte an und
                 antworten Sie bitte auf die Fragen.
-                <span class="tran font-weight-bold"><br/><small>미나는 어학코스에 참여하기 위해 프랑크푸르트 공항에 내렸습니다. 그녀는 이미 집에서 기차표를 예약했습니다. 아래 기차표를 보고 질문에 답하세요.</small><br/></span>
+                <span class="tran fw-bold"><br/><small>미나는 어학코스에 참여하기 위해 프랑크푸르트 공항에 내렸습니다. 그녀는 이미 집에서 기차표를 예약했습니다. 아래 기차표를 보고 질문에 답하세요.</small><br/></span>
             </div>
         </div>
         <div class="row lh250">
@@ -259,7 +259,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -355,18 +355,18 @@
                     $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
                     $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                     if (rfchk($(this))) {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-success");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-danger");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                     if (!$(this).val()) {
                         $(this).removeClass("bg-danger");
                         $(this).removeClass("bg-success");
-                        $(this).removeClass("text-white font-weight-bold");
+                        $(this).removeClass("text-white fw-bold");
                     }
                     if ($(this).val()) {
                         $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -382,11 +382,11 @@
                     }
                     if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                         if (rfchk($(this))) {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-success");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                         } else {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-danger");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                         }
@@ -410,7 +410,7 @@
                     }
                     $(this).removeClass("bg-danger");
                     if (!$(this).attr("disabled")) {
-                        $(this).removeClass("text-white font-weight-bold");
+                        $(this).removeClass("text-white fw-bold");
                         $(this).removeClass("bg-success");
                     }
                 })
@@ -503,7 +503,7 @@
                 for (var p = 0; p < pan.length; p++) {
                     var pann = "#qst-" + pan[p];
                     $(pann).val(an[(pan[p] - 1)]);
-                    $(pann).addClass("bg-success text-white font-weight-bold");
+                    $(pann).addClass("bg-success text-white fw-bold");
                     $(pann).prop("disabled", true);
                     di($(pann));
                 }

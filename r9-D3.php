@@ -247,7 +247,7 @@
                 $(".itm").each(function () {
                     if ($(this).hasClass("ans" + pan[p])) {
                         $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                        $("#" + $(this).attr("id")).addClass("w-100 font-weight-bold");
+                        $("#" + $(this).attr("id")).addClass("w-100 fw-bold");
                         $("#" + $(this).attr("id")).addClass("border-0");
                         $("#lst-" + pan[p] + ">h2").remove();
                     }

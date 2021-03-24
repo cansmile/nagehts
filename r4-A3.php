@@ -317,7 +317,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -342,7 +342,7 @@
                                             );
                                     $(this)
                                         .addClass(
-                                            "text-success font-weight-bold"
+                                            "text-success fw-bold"
                                             );
                                 }
                             );

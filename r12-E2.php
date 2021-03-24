@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="bg-<?php echo( $color ); ?> wahl_title col-12">Wahl</div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 wo
             </div>
             <div class="col-12" id="itms">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 tun
             </div>
             <div class="col-12" id="itms">
@@ -186,7 +186,7 @@
                 $(".tran").show();
                 $(".itm-lst").each(function () {
                     $(this).html($(this).find("button").html());
-                    $(this).addClass("text-success font-weight-bold");
+                    $(this).addClass("text-success fw-bold");
                 });
 
                 /* 정답 확인 div 상자 배경색 속성 없애기 */

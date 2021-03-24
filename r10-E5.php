@@ -59,7 +59,7 @@
             <div class="row mt-2">
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
-                        <div class="col-1 me-1 font-weight-bold">
+                        <div class="col-1 me-1 fw-bold">
                             1.
                         </div>
                         <div class="col ms-1">
@@ -84,7 +84,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
-                        <div class="col-1 me-1 font-weight-bold">
+                        <div class="col-1 me-1 fw-bold">
                             2.
                         </div>
                         <div class="col ms-1">
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2">
                     <div class="row">
-                        <div class="col-1 me-1 font-weight-bold">
+                        <div class="col-1 me-1 fw-bold">
                             3.
                         </div>
                         <div class="col ms-1">
@@ -170,7 +170,7 @@
                                 "button.btn")) {
                             $(this).find("button.btn")
                                 .addClass(
-                                    "text-success font-weight-bold"
+                                    "text-success fw-bold"
                                 );
                         }
                     });

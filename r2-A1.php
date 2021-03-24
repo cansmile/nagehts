@@ -500,7 +500,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -553,7 +553,7 @@
                                     );
                                 $(".itm-lst>button")
                                     .addClass(
-                                        "text-success font-weight-bold"
+                                        "text-success fw-bold"
                                         );
                                 var qa = $(
                                         ".itm-lst")
@@ -648,13 +648,13 @@
                     $("#th-1").find("h1").remove();
                     $("#11").appendTo($("#th-1>div"));
                     $("#11").addClass(
-                        "w-100 btn-outline-dark font-weight-bold"
+                        "w-100 btn-outline-dark fw-bold"
                         );
                     $("#11").addClass("border-0");
                     $("#th-11").find("h1").remove();
                     $("#6").appendTo($("#th-11>div"));
                     $("#6").addClass(
-                        "w-100 btn-outline-dark font-weight-bold"
+                        "w-100 btn-outline-dark fw-bold"
                         );
                     $("#6").addClass("border-0");
                     checkHeight();

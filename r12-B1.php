@@ -11,7 +11,7 @@
                 Wahl
             </div>
             <div
-                class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+                class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 Schema
             </div>
             <div class="col-12" id="itms">
@@ -46,7 +46,7 @@
                     Unterschrift
                 </button>
             </div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 Redemittel
             </div>
             <div class="col-12" id="13">
@@ -101,33 +101,33 @@
             <div class="col-12 wd_inline_inverted">Mina will in diesen Sommerferien ihre Deutschkenntnisse verbessern,
                 da sie vorhat, nächstes Jahr an der TUD ein Austauschstudium zu machen. Im Internet findet sie folgende
                 Anzeige.
-                <span class="tran font-weight-bold">&nbsp;<small>미나는 내년에 TUD에서 교환학생연수를 떠날 계획을 가지고 있기 때문에, 여름방학 때 독일어 실력을 향상 시키고 싶어합니다. 인터넷에서 아래의 공고를 찾았습니다.</small></span>
+                <span class="tran fw-bold">&nbsp;<small>미나는 내년에 TUD에서 교환학생연수를 떠날 계획을 가지고 있기 때문에, 여름방학 때 독일어 실력을 향상 시키고 싶어합니다. 인터넷에서 아래의 공고를 찾았습니다.</small></span>
             </div>
         </div>
         <div class="row border border-dark rounded p-2">
             <div class="col-12 h4">Sommerkurse in Dresden
-                <span class="tran font-weight-bold">&nbsp;<small>드레스덴 여름어학코스</small></span></div>
+                <span class="tran fw-bold">&nbsp;<small>드레스덴 여름어학코스</small></span></div>
             <div class="col-12">
                 <ul>
                     <li>Deutschkurse auf verschiedenen Niveaus sowie Prüfungskurse
-                        <span class="tran font-weight-bold">&nbsp;<small>다양한 수준의 독일어 강좌와 시험준비반</small></span></li>
+                        <span class="tran fw-bold">&nbsp;<small>다양한 수준의 독일어 강좌와 시험준비반</small></span></li>
                     <li>Einstufung nach einem Einstufungstest
-                        <span class="tran font-weight-bold">&nbsp;<small>테스트에 따른 반 편성</small></span></li>
+                        <span class="tran fw-bold">&nbsp;<small>테스트에 따른 반 편성</small></span></li>
                     <li>kompetente Lehrer und viele Aktivitäten
-                        <span class="tran font-weight-bold">&nbsp;<small>자격을 갖춘 좋은 교사 진과 다양한 활동들</small></span></li>
+                        <span class="tran fw-bold">&nbsp;<small>자격을 갖춘 좋은 교사 진과 다양한 활동들</small></span></li>
                     <li>Exkursionen (inkludiert in den Sprachkursgebühren) in und außerhalb von Dresden
-                        <span class="tran font-weight-bold">&nbsp;<small>드레스덴 안과 바깥의 현장활동 (어학코스비용에 포함)</small></span>
+                        <span class="tran fw-bold">&nbsp;<small>드레스덴 안과 바깥의 현장활동 (어학코스비용에 포함)</small></span>
                     </li>
                     <li>mit Teilnahmeausweis Zugang zu Mensen und Bibliotheken der Uni
-                        <span class="tran font-weight-bold">&nbsp;<small>대학교의 학생식당, 도서관에 출입이 가능한 참가 증명서</small></span>
+                        <span class="tran fw-bold">&nbsp;<small>대학교의 학생식당, 도서관에 출입이 가능한 참가 증명서</small></span>
                     </li>
                     <li>Unterbringung im internationalem Gästehaus der Uni
-                        <span class="tran font-weight-bold">&nbsp;<small>대학의 인터네셔널 게스트하우스 숙소</small></span></li>
+                        <span class="tran fw-bold">&nbsp;<small>대학의 인터네셔널 게스트하우스 숙소</small></span></li>
                 </ul>
             </div>
             <div class="col-12 h5">Nähere Auskünfte bei: TUDIAS (https://www.idfsk.tudias.de/)
                 <span
-                    class="tran font-weight-bold">&nbsp;<small>자세한 정보 : 투디아스 (https://www.idfsk.tudias.de/)</small></span>
+                    class="tran fw-bold">&nbsp;<small>자세한 정보 : 투디아스 (https://www.idfsk.tudias.de/)</small></span>
             </div>
         </div>
         <div class="row">
@@ -555,7 +555,7 @@
             format: "mp3",
             preload: true,
             onloaderror: function () {
-                $(".alert").append("<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>");
+                $(".alert").append("<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>");
                 console.log("다시 읽어주세요!");
             },
             onload: function () { <?php require "wahl.php"; ?> /* 정답확인 */
@@ -572,7 +572,7 @@
                                 "button.btn")) {
                                 $(this).find("button.btn")
                                     .addClass(
-                                        "text-success font-weight-bold"
+                                        "text-success fw-bold"
                                     );
                             }
                         });

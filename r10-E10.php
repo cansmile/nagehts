@@ -243,18 +243,18 @@
             $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
             $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
             if (rfchk($(this))) {
-                $(this).addClass("text-white font-weight-bold");
+                $(this).addClass("text-white fw-bold");
                 $(this).addClass("bg-success");
                 $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
             } else {
-                $(this).addClass("text-white font-weight-bold");
+                $(this).addClass("text-white fw-bold");
                 $(this).addClass("bg-danger");
                 $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
             }
             if (!$(this).val()) {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
-                $(this).removeClass("text-white font-weight-bold");
+                $(this).removeClass("text-white fw-bold");
             }
             if ($(this).val()) {
                 $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -270,11 +270,11 @@
             }
             if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                 if (rfchk($(this))) {
-                    $(this).addClass("text-white font-weight-bold");
+                    $(this).addClass("text-white fw-bold");
                     $(this).addClass("bg-success");
                     $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                 } else {
-                    $(this).addClass("text-white font-weight-bold");
+                    $(this).addClass("text-white fw-bold");
                     $(this).addClass("bg-danger");
                     $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                 }
@@ -298,7 +298,7 @@
             }
             $(this).removeClass("bg-danger");
             if (!$(this).attr("disabled")) {
-                $(this).removeClass("text-white font-weight-bold");
+                $(this).removeClass("text-white fw-bold");
                 $(this).removeClass("bg-success");
             }
         })
@@ -387,7 +387,7 @@
             var pann = "#qst-" + pan[p];
             $(pann).val(an[(pan[p] - 1)]);
             $(pann).addClass(
-                "bg-success text-white font-weight-bold");
+                "bg-success text-white fw-bold");
             $(pann).prop("disabled", true);
         }
     });

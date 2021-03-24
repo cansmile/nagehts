@@ -193,8 +193,8 @@
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td class="font-weight-bold text-center">Hilfsverb: haben (70-80%)</td>
-                                        <td class="font-weight-bold text-center">Hilfsverb: sein (20-30%)</td>
+                                        <td class="fw-bold text-center">Hilfsverb: haben (70-80%)</td>
+                                        <td class="fw-bold text-center">Hilfsverb: sein (20-30%)</td>
                                     </tr>
                                     <tr>
                                         <td>die meisten Verben<br>(V-trans./ V-intrans., +durativ / V-ieren)</td>
@@ -783,7 +783,7 @@
         preload: true,
         onloaderror: function () {
             $(".alert").append(
-                "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
             );
             console.log("다시 읽어주세요!");
         },

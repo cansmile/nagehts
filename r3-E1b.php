@@ -318,7 +318,7 @@
                             "btn btn-outline-dark btn-sm nu"
                             );
                         $(this).addClass(
-                            "font-weight-bold rounded bg-success text-white p-1 px-2 m-1"
+                            "fw-bold rounded bg-success text-white p-1 px-2 m-1"
                             );
                     });
                     $(".tran").show();
@@ -327,7 +327,7 @@
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
                     $(".itm-lst>button").addClass(
-                        "text-success font-weight-bold");
+                        "text-success fw-bold");
 
                     var qa = $(".itm-lst").length; /* 전체 문항 수 */
                     var qr = $(".text-success")

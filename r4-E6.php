@@ -14,14 +14,14 @@
                             <tr>
                                 <th scope="row" colspan="2"
                                     class="border-secondary border p-4"><span
-                                        class="text-white p-1 px-2 m-1 rounded bg-primary font-weight-bold">Tisch(m)</span>
+                                        class="text-white p-1 px-2 m-1 rounded bg-primary fw-bold">Tisch(m)</span>
                                     – klein - 80 €<br>Das ist ein Tisch. Der
                                     Tisch ist klein. Er kostet 80 Euro.</th>
                             </tr>
                             <tr>
                                 <th scope="row" width="10%">1.</th>
                                 <td><span
-                                        class="text-white p-1 px-2 m-1 rounded bg-khaki font-weight-bold">Stühle(Pl)</span>
+                                        class="text-white p-1 px-2 m-1 rounded bg-khaki fw-bold">Stühle(Pl)</span>
                                     – teuer – 399 €</td>
                             </tr>
                             <tr>
@@ -50,7 +50,7 @@
                             <tr>
                                 <th scope="row">2.</th>
                                 <td><span
-                                        class="text-white p-1 px-2 m-1 rounded bg-danger font-weight-bold">Lampe(f)</span>
+                                        class="text-white p-1 px-2 m-1 rounded bg-danger fw-bold">Lampe(f)</span>
                                     – praktisch – 52 €</td>
                             </tr>
                             <tr>
@@ -79,7 +79,7 @@
                             <tr>
                                 <th scope="row">3.</th>
                                 <td><span
-                                        class="text-white p-1 px-2 m-1 rounded bg-purple font-weight-bold">Lineal(n)</span>
+                                        class="text-white p-1 px-2 m-1 rounded bg-purple fw-bold">Lineal(n)</span>
                                     – lang - 5 €</td>
                             </tr>
                             <tr>
@@ -195,13 +195,13 @@
                     .removeClass("text-success");
                 if (rfchk($(this))) {
                     $(this).addClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).addClass("bg-success");
                     $("#ant-" + $(this).attr("id").substr(4))
                         .addClass("text-success");
                 } else {
                     $(this).addClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).addClass("bg-danger");
                     $("#ant-" + $(this).attr("id").substr(4))
                         .addClass("text-danger");
@@ -210,7 +210,7 @@
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
                     $(this).removeClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                 }
 
                 if ($(this).val()) {
@@ -235,13 +235,13 @@
                     .text()) {
                     if (rfchk($(this))) {
                         $(this).addClass(
-                            "text-white font-weight-bold");
+                            "text-white fw-bold");
                         $(this).addClass("bg-success");
                         $("#ant-" + $(this).attr("id").substr(
                             4)).addClass("text-success");
                     } else {
                         $(this).addClass(
-                            "text-white font-weight-bold");
+                            "text-white fw-bold");
                         $(this).addClass("bg-danger");
                         $("#ant-" + $(this).attr("id").substr(
                             4)).addClass("text-danger");
@@ -268,7 +268,7 @@
                 $(this).removeClass("bg-danger");
                 if (!$(this).attr("disabled")) {
                     $(this).removeClass(
-                        "text-white font-weight-bold");
+                        "text-white fw-bold");
                     $(this).removeClass("bg-success");
                 }
             });
@@ -292,7 +292,7 @@
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
                             $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
+                                "bg-success text-white rounded fw-bold p-1 px-2 ms-1"
                                 );
                             $("#qst-" + (i + 1)).removeClass(
                                 "rounded-0");

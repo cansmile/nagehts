@@ -21,7 +21,7 @@
             <div class="col-12 wd_inline_inverted">Mina ist in Dresden und nimmt an einem Sommerkurs teil. Darüber
                 schreibt sie auf Facebook. Ergänzen Sie die Satzzeichen (./,/?) und auch die passenden Konnektoren.
                 Schreiben Sie neu.
-                <span class="tran font-weight-bold">&nbsp;<small>미나는 드레스덴에 있고 여름어학코스에 참석합니다. 이에 대해 그녀는 페이스북에 글을 썼습니다. 문장부호(./,/?)와 알맞은 접속사를 채워서 새롭게 써보세요.</small><br /></span>
+                <span class="tran fw-bold">&nbsp;<small>미나는 드레스덴에 있고 여름어학코스에 참석합니다. 이에 대해 그녀는 페이스북에 글을 썼습니다. 문장부호(./,/?)와 알맞은 접속사를 채워서 새롭게 써보세요.</small><br /></span>
             </div>
         </div>
         <div class="row">
@@ -355,7 +355,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },

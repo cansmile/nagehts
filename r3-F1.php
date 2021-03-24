@@ -57,7 +57,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <thead>
-                            <tr class="border border-dark bg-dark text-white font-weight-bold rounded py-0">
+                            <tr class="border border-dark bg-dark text-white fw-bold rounded py-0">
                                 <th scope="col" width="50" class="h4 py-0 align-middle">
                                     &nbsp;1</th>
                                 <th scope="col" class="text-start">
@@ -148,7 +148,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <thead>
-                            <tr class="border border-dark bg-dark text-white font-weight-bold rounded py-0">
+                            <tr class="border border-dark bg-dark text-white fw-bold rounded py-0">
                                 <th scope="col" width="50" class="h4 py-0 align-middle">
                                     &nbsp;2</th>
                                     <th scope="col" class="text-start">
@@ -712,7 +712,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                     );
                     console.log("다시 읽어주세요!");
                 },
@@ -766,11 +766,11 @@
                                 $(this).removeClass(
                                     "btn btn-outline-dark btn-sm nu");
                                 $(this).addClass(
-                                    "font-weight-bold rounded bg-success text-white p-1 px-2 m-1"
+                                    "fw-bold rounded bg-success text-white p-1 px-2 m-1"
                                 );
                             }); /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
-                            $(".itm-lst>button").addClass("text-success font-weight-bold");
+                            $(".itm-lst>button").addClass("text-success fw-bold");
                             var qa = $(".itm-lst").length; /* 전체 문항 수 */
                             var qr = $(".text-success").length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */

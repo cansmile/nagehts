@@ -33,9 +33,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">Bsp.</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">Bsp.</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     viel Kaffee trinken</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich trinke
                     viel Kaffee.</div>
@@ -51,9 +51,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">1</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">1</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     viel Musik hören</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich höre viel
                     Musik.</div>
@@ -69,9 +69,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">2</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">2</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     gern fotografieren</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich
                     fotografiere gern.</div>
@@ -87,9 +87,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">3</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">3</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     viel lesen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich lese viel.
                 </div>
@@ -105,9 +105,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">4</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">4</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     gern reisen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich reise
                     gern.</div>
@@ -123,9 +123,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">5</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">5</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     sich gern schminken</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich schminke
                     mich gern.</div>
@@ -141,9 +141,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">6</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">6</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     Haustiere mögen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich mag
                     Haustiere.</div>
@@ -159,9 +159,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">7</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">7</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     gern kochen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich koche
                     gern.</div>
@@ -177,9 +177,9 @@
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
                 <div class="col-12"><span
-                        class="border border-dark bg-black text-white p-1 px-2 rounded font-weight-bold">8</span>
+                        class="border border-dark bg-black text-white p-1 px-2 rounded fw-bold">8</span>
                 </div>
-                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white font-weight-bold py-2">
+                <div class="col-sm-2 col-md-5 col-lg-5 ms-3 my-2 rounded bg-secondary text-white fw-bold py-2">
                     Deutsch lernen</div>
                 <div class="col-sm-3 col-md-6 col-lg-6 my-2 pt-2">Ich lerne
                     Deutsch.</div>
@@ -307,18 +307,18 @@
                 $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
                 $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                 if (rfchk($(this))) {
-                    $(this).addClass("text-white font-weight-bold");
+                    $(this).addClass("text-white fw-bold");
                     $(this).addClass("bg-success");
                     $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                 } else {
-                    $(this).addClass("text-white font-weight-bold");
+                    $(this).addClass("text-white fw-bold");
                     $(this).addClass("bg-danger");
                     $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                 }
                 if (!$(this).val()) {
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
-                    $(this).removeClass("text-white font-weight-bold");
+                    $(this).removeClass("text-white fw-bold");
                 }
                 if ($(this).val()) {
                     $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -334,11 +334,11 @@
                 }
                 if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                     if (rfchk($(this))) {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-success");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-danger");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
@@ -362,7 +362,7 @@
                 }
                 $(this).removeClass("bg-danger");
                 if (!$(this).attr("disabled")) {
-                    $(this).removeClass("text-white font-weight-bold");
+                    $(this).removeClass("text-white fw-bold");
                     $(this).removeClass("bg-success");
                 }
             });
@@ -452,7 +452,7 @@
             for (var p = 0; p < pan.length; p++) {
                 var pann = "#qst-" + pan[p];
                 $(pann).val(an[(pan[p] - 1)]);
-                $(pann).addClass("bg-success text-white font-weight-bold");
+                $(pann).addClass("bg-success text-white fw-bold");
                 $(pann).prop("disabled", true);
             }
         });

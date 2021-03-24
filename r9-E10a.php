@@ -82,28 +82,28 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
                     col-xl-4 p-2" id="lst-1">
-                    <h2 class="btn btn-xl bg-white ttl w-100 font-weight-bold">
+                    <h2 class="btn btn-xl bg-white ttl w-100 fw-bold">
                         haben + Partzip <span class="tran"><br><small>haben +
                                 과거분사</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
                     col-xl-4 p-2" id="lst-2">
-                    <h2 class="btn btn-xl bg-white ttl w-100 font-weight-bold">
+                    <h2 class="btn btn-xl bg-white ttl w-100 fw-bold">
                         Sein + Partzip: Bewegungsverben <span class="tran"><br><small>Sein + 과거분사:
                                 장소이동</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
                     col-xl-4 p-2" id="lst-3">
-                    <h2 class="btn btn-xl bg-white ttl w-100 font-weight-bold">
+                    <h2 class="btn btn-xl bg-white ttl w-100 fw-bold">
                         Sein + Partzip: Veränderungsverben <span class="tran"><br><small>Sein + 과거분사:
                                 상태변화</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-4 col-lg-4
                     col-xl-4 p-2" id="lst-4">
-                    <h2 class="btn btn-xl bg-white ttl w-100 font-weight-bold">
+                    <h2 class="btn btn-xl bg-white ttl w-100 fw-bold">
                         Sein + Partzip: Sonderverben <span class="tran"><br><small>Sein + 과거분사:
                                 예외동사</small></span></h2>&nbsp;
                 </div>

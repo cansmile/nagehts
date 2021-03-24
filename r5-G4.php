@@ -7,17 +7,17 @@
                         문장이 붉게 변합니다.</small> ]</h2>
             </div>
         </div>
-        <div class="row border border-dark rounded p-2 font-weight-bold text-center">
+        <div class="row border border-dark rounded p-2 fw-bold text-center">
             <div class="col-sm-12 col-md-3 col-lg-3">das Falsche</div>
             <div class="col-sm-12 col-md-6 col-lg-6 my-3">
                 <span class="p-1 px-2 m-1 bg-primary align-middle text-white rounded">m</span>
                 <span class="p-1 px-2 m-1 bg-danger align-middle text-white rounded">f</span>
                 <span class="p-1 px-2 m-1 bg-purple align-middle text-white rounded">n</span>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 font-weight-bold">das Richtige</div>
+            <div class="col-sm-12 col-md-3 col-lg-3 fw-bold">das Richtige</div>
         </div>
         <div class="row border border-dark rounded p-2 text-center">
-            <div class="col-sm-12 col-md-3 col-lg-3 font-weight-bold text-purple">
+            <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-purple">
                 <img src="./dev/images/Reihe 5/Reihe-5-G4-1.png" style="max-height: 120px; width: auto;"
                      alt="das Falsche">
                 <br>Käsebrötchen
@@ -56,14 +56,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 font-weight-bold text-purple">
+            <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-purple">
                 <img src="./dev/images/Reihe 5/Reihe-5-G4-2.png" style="max-height: 120px; width: auto;"
                      alt="das Richtige">
                 <br>Bratwurstbrötchen
             </div>
         </div>
         <div class="row border border-dark rounded p-2 text-center">
-            <div class="col-sm-12 col-md-3 col-lg-3 font-weight-bold text-danger">
+            <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-danger">
                 <img src="./dev/images/Reihe 5/Reihe-5-G4-3.png"
                      style="max-height: 120px; width: auto;"
                      alt="das Falsche"><br>Cola
@@ -100,13 +100,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 font-weight-bold text-primary">
+            <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-primary">
                 <img src="./dev/images/Reihe 5/Reihe-5-G4-4.png" style="max-height: 120px; width: auto;"
                      alt="das Richtige"><br>Orangensaft
             </div>
         </div>
         <div class="row border border-dark rounded p-2 text-center">
-            <div class="col-sm-12 col-md-3 col-lg-3 font-weight-bold text-primary">
+            <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-primary">
                 <img src="./dev/images/Reihe 5/Reihe-5-G4-5.png"
                      style="max-height: 120px; width: auto;"
                      alt="das Falsche"><br>Wein
@@ -143,7 +143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3 font-weight-bold text-purple">
+            <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-purple">
                 <img src="./dev/images/Reihe 5/Reihe-5-G4-6.png"
                      style="max-height: 120px; width: auto;"
                      alt="das Richtige"><br>Bier
@@ -220,18 +220,18 @@
             $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
             $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
             if (rfchk($(this))) {
-                $(this).addClass("text-white font-weight-bold");
+                $(this).addClass("text-white fw-bold");
                 $(this).addClass("bg-success");
                 $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
             } else {
-                $(this).addClass("text-white font-weight-bold");
+                $(this).addClass("text-white fw-bold");
                 $(this).addClass("bg-danger");
                 $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
             }
             if (!$(this).val()) {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
-                $(this).removeClass("text-white font-weight-bold");
+                $(this).removeClass("text-white fw-bold");
             }
             if ($(this).val()) {
                 $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -247,11 +247,11 @@
             }
             if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                 if (rfchk($(this))) {
-                    $(this).addClass("text-white font-weight-bold");
+                    $(this).addClass("text-white fw-bold");
                     $(this).addClass("bg-success");
                     $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                 } else {
-                    $(this).addClass("text-white font-weight-bold");
+                    $(this).addClass("text-white fw-bold");
                     $(this).addClass("bg-danger");
                     $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                 }
@@ -275,7 +275,7 @@
             }
             $(this).removeClass("bg-danger");
             if (!$(this).attr("disabled")) {
-                $(this).removeClass("text-white font-weight-bold");
+                $(this).removeClass("text-white fw-bold");
                 $(this).removeClass("bg-success");
             }
         });
@@ -297,7 +297,7 @@
                 for (var i = 0; i < an.length; i++) {
                     var oran = $("#qst-" + (i + 1)).val();
                     if (rfchk($("#qst-" + (i + 1)), true)) {
-                        $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
+                        $("#qst-" + (i + 1)).addClass("bg-success text-white rounded fw-bold p-1 px-2 ms-1");
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                     } else {
                         $("#qst-" + (i + 1)).val(oran);
@@ -371,7 +371,7 @@
             $(pann).val(an[(pan[p] - 1)]);
             $(pann).prop("disabled", true);
             $(pann).removeClass("rounded-0");
-            $(pann).addClass("bg-success text-white font-weight-bold");
+            $(pann).addClass("bg-success text-white fw-bold");
 
             /* $(pann).closest("tr").find(".tran").show(); */
         }

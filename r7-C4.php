@@ -534,11 +534,11 @@
                 if (ts.hasClass("ans1")) {
                     $(cr).addClass("bg-danger");
                     $(cr).addClass(
-                        "text-white font-weight-bold rounded px-1");
+                        "text-white fw-bold rounded px-1");
                 } else if (ts.hasClass("ans2")) {
                     $(cr).addClass("bg-primary");
                     $(cr).addClass(
-                        "text-white font-weight-bold rounded px-1");
+                        "text-white fw-bold rounded px-1");
                 }
             }
 
@@ -548,7 +548,7 @@
                 $(".cbtn").removeClass("bg-danger");
                 $(".cbtn").removeClass("bg-primary");
                 $(".cbtn").removeClass(
-                    "text-white font-weight-bold rounded px-1");
+                    "text-white fw-bold rounded px-1");
 
                 /* 상자 안에 있으면 색칠하기 */
                 var il = $(".itm-lst").length;
@@ -616,11 +616,11 @@
                         if ($(this).hasClass("ans" + (
                                 a))) {
                             $(this).addClass(
-                                "text-success font-weight-bold"
+                                "text-success fw-bold"
                                 );
                         } else {
                             $(this).addClass(
-                                "text-warning font-weight-bold"
+                                "text-warning fw-bold"
                                 );
                             $(this).find(".tran")
                         .show();
@@ -648,7 +648,7 @@
                                                 i + '"'
                                                 ))
                                         .append(
-                                            "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold " +
+                                            "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white fw-bold " +
                                             cc +
                                             "\" id=\"" +
                                             $(this)

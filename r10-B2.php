@@ -82,7 +82,7 @@
             <div class="row">
             </div>
             <div class="row mt-2">
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
+                <div class="col-12 border border-dark bg-secondary text-white fw-bold rounded p-1 pt-3 ps-3
                     mt-5">
                     <button type="button" id="20" class="btn btn-outline-dark btn-sm bg-white so">▶</button>
                     <span class="border border-white p-1 px-2 rounded bg-dark">Dialog
@@ -113,7 +113,7 @@
                             직진하세요. 악소 빵집이 왼쪽 코너에 있습니다. 빵집 뒤에 아우구스틴 호텔이
                             있습니다.</small></span>
                 </div>
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
+                <div class="col-12 border border-dark bg-secondary text-white fw-bold rounded p-1 pt-3 ps-3
                     mt-5">
                     <button type="button" id="21" class="btn btn-outline-dark btn-sm bg-white so">▶</button>
                     <span class="border border-white p-1 px-2 rounded bg-dark">Dialog
@@ -149,7 +149,7 @@
                             오른쪽으로 가세요. 시립도서관과 극장을 지나 가세요. 그리면 거기 왼쪽코너에 시립박물관이
                             있습니다.</small></span>
                 </div>
-                <div class="col-12 border border-dark bg-secondary text-white font-weight-bold rounded p-1 pt-3 ps-3
+                <div class="col-12 border border-dark bg-secondary text-white fw-bold rounded p-1 pt-3 ps-3
                     mt-5">
                     <button type="button" id="22" class="btn btn-outline-dark btn-sm bg-white so">▶</button>
                     <span class="border border-white p-1 px-2 rounded bg-dark">Dialog
@@ -266,7 +266,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -302,7 +302,7 @@
                             $(".itm-lst").each(function () {
                                 if ($(this).find("button.btn")) {
                                     $(this).find("button.btn").addClass(
-                                        "text-success font-weight-bold");
+                                        "text-success fw-bold");
                                 }
                             });
                             var qa = $(".itm-lst").length; /* 전체 문항 수 */

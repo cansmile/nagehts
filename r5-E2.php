@@ -283,7 +283,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -353,12 +353,12 @@
                                         ) {
                                         $(this)
                                             .addClass(
-                                                "text-success font-weight-bold"
+                                                "text-success fw-bold"
                                                 );
                                     } else {
                                         $(this)
                                             .addClass(
-                                                "text-warning font-weight-bold"
+                                                "text-warning fw-bold"
                                                 );
                                         $(this)
                                             .find(
@@ -389,7 +389,7 @@
                                                         '"'
                                                         ))
                                                     .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white font-weight-bold\">" +
+                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white fw-bold\">" +
                                                         $(
                                                             this)
                                                         .html() +
@@ -415,7 +415,7 @@
                                                 ".btn"
                                                 )
                                             .addClass(
-                                                "text-success font-weight-bold"
+                                                "text-success fw-bold"
                                                 );
                                     }
                                 }
@@ -475,7 +475,7 @@
                                 $("#lst-" + pan[p] +
                                         ">.itm")
                                     .addClass(
-                                        "w-100 font-weight-bold"
+                                        "w-100 fw-bold"
                                         );
                                 $("#lst-" + pan[p] +
                                         ">.itm")

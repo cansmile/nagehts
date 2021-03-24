@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6 mb-5 lh250">
                     <span
-                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold w-100">
+                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white fw-bold w-100">
                         Herzlichen Glückwunsch!<span class="tran">&nbsp;<small>생일
                                 축하합니다!</small><br></span></span>
                     <span class="sen"><span class="nu"></span>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 mb-5 lh250">
                     <span
-                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold w-100">Viel
+                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white fw-bold w-100">Viel
                         Glück!<span class="tran">&nbsp;<small>행운을
                                 빌어요!</small><br></span></span>
                     <span class="sen"><span class="nu"></span>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 mb-5 lh250">
                     <span
-                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold w-100">Gute
+                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white fw-bold w-100">Gute
                         Besserung!<span class="tran">&nbsp;<small>얼른 낫길
                                 바래요!</small><br></span></span>
                     <span class="sen"><span class="nu"></span>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 mb-5 lh250">
                     <span
-                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white font-weight-bold w-100">Gute
+                        class="border border-dark rounded p-1 px-2 m-1 bg-dark text-white fw-bold w-100">Gute
                         Reise!<span class="tran">&nbsp;<small>즐거운 여행이
                                 되길!</small><br></span></span>
                     <span class="sen"><span class="nu"></span>
@@ -195,7 +195,7 @@
                             $(this).removeClass("btn-warning");
                             $(this).addClass("btn-success");
                             $(this).closest(".sen").find(".nu").addClass(
-                                "rounded p-1 px-2 text-white bg-success font-weight-bold");
+                                "rounded p-1 px-2 text-white bg-success fw-bold");
                             $(this).closest(".sen").find(".nu").html($.trim($(this).html()));
                             $(this).closest(".sen").find(".nu>input").remove();
                             $(this).closest(".sen").find(".tran").show();
@@ -205,9 +205,9 @@
                                 ".sen").find(".o").html()));
                             $(this).closest(".sen").find(".ans>input").remove();
                             $(this).closest(".sen").find(".nu").addClass(
-                                "rounded p-1 px-2 text-white bg-danger font-weight-bold");
+                                "rounded p-1 px-2 text-white bg-danger fw-bold");
                             $(this).closest(".sen").find(".ans").addClass(
-                                "rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2"
+                                "rounded bg-warning text-dark fw-bold text-center m-2 p-1 px-2"
                                 );
                         } else if ($(this).hasClass("an")) {
                             $(this).addClass("btn-warning");

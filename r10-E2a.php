@@ -333,7 +333,7 @@
                             "button.btn")) {
                             $(this).find("button.btn")
                                 .addClass(
-                                    "text-success font-weight-bold"
+                                    "text-success fw-bold"
                                     );
                         }
                     });

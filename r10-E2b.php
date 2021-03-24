@@ -82,7 +82,7 @@
                         src="./dev/images/Reihe 10/Reihe-10-E-2-2.png"
                         alt="Wohin bringt sie die Gegenstände? Mina"
                         style="max-width: 100%; height: auto;"></div>
-                <div class="col-12 font-weight-bold display-4">Mina...</div>
+                <div class="col-12 fw-bold display-4">Mina...</div>
             </div>
             <div class="row mt-2">
                 <div class="col-sm-6 col-md-6 col-lg-4 my-2">
@@ -336,7 +336,7 @@
                                 "button.btn")) {
                             $(this).find("button.btn")
                                 .addClass(
-                                    "text-success font-weight-bold"
+                                    "text-success fw-bold"
                                 );
                         }
                     });

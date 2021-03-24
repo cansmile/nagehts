@@ -226,7 +226,7 @@
                         if ($(this).find(".btn")) {
                             $(this).find(".btn")
                                 .addClass(
-                                    "text-success font-weight-bold"
+                                    "text-success fw-bold"
                                     );
                         }
                     });
@@ -289,7 +289,7 @@
                         $("#" + $(this).attr("id")).appendTo($(
                             "#lst-" + pan[p]));
                         $("#" + $(this).attr("id")).addClass(
-                            "w-100 font-weight-bold");
+                            "w-100 fw-bold");
                         $("#lst-" + pan[p] + ">h2").remove();
                     }
                 })

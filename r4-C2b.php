@@ -30,7 +30,7 @@ z<?php require_once("heading.php"); ?>
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th rowspan="3" class="align-top h4 font-weight-bold">1</th>
+                                <th rowspan="3" class="align-top h4 fw-bold">1</th>
                                 <td scope="row" rowspan="7"
                                     class="text-center align-middle"><img
                                         src="./dev/images/Reihe 4/Reihe-4-C2-1-1.png"
@@ -85,7 +85,7 @@ z<?php require_once("heading.php"); ?>
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th rowspan="4" class="align-top h4 font-weight-bold">2</th>
+                                <th rowspan="4" class="align-top h4 fw-bold">2</th>
                                 <td scope="row" rowspan="7"
                                     class="text-center align-middle"><img
                                         src="./dev/images/Reihe 4/Reihe-4-C2-2-1.png"
@@ -313,7 +313,7 @@ z<?php require_once("heading.php"); ?>
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                     );
                     console.log("다시 읽어주세요!");
                 },
@@ -362,18 +362,18 @@ z<?php require_once("heading.php"); ?>
                         $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
                         $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                         if (rfchk($(this))) {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-success");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                         } else {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-danger");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                         }
                         if (!$(this).val()) {
                             $(this).removeClass("bg-danger");
                             $(this).removeClass("bg-success");
-                            $(this).removeClass("text-white font-weight-bold");
+                            $(this).removeClass("text-white fw-bold");
                         }
                         if ($(this).val()) {
                             $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -389,11 +389,11 @@ z<?php require_once("heading.php"); ?>
                         }
                         if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                             if (rfchk($(this))) {
-                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("text-white fw-bold");
                                 $(this).addClass("bg-success");
                                 $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                             } else {
-                                $(this).addClass("text-white font-weight-bold");
+                                $(this).addClass("text-white fw-bold");
                                 $(this).addClass("bg-danger");
                                 $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                             }
@@ -417,7 +417,7 @@ z<?php require_once("heading.php"); ?>
                         }
                         $(this).removeClass("bg-danger");
                         if (!$(this).attr("disabled")) {
-                            $(this).removeClass("text-white font-weight-bold");
+                            $(this).removeClass("text-white fw-bold");
                             $(this).removeClass("bg-success");
                         }
                     });/* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
@@ -438,7 +438,7 @@ z<?php require_once("heading.php"); ?>
                             for (var i = 0; i < an.length; i++) {
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
-                                    $("#qst-" + (i + 1)).addClass("bg-success text-white rounded font-weight-bold p-1 px-2 ms-1");
+                                    $("#qst-" + (i + 1)).addClass("bg-success text-white rounded fw-bold p-1 px-2 ms-1");
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
                                     $("#qst-" + (i + 1)).val(oran);

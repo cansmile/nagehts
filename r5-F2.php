@@ -140,14 +140,14 @@
                                     것이므로 정관사를 사용한다.</td>
                             </tr>
                             <tr>
-                                <td class="font-weight-bold">„zusammen oder
+                                <td class="fw-bold">„zusammen oder
                                     getrennt?”</td>
                             </tr>
                             <tr>
                                 <td>한꺼번에 아니면 각자 계산하시겠습니까?</td>
                             </tr>
                             <tr>
-                                <td class="font-weight-bold">„Stimmt so.”</td>
+                                <td class="fw-bold">„Stimmt so.”</td>
                             </tr>
                             <tr>
                                 <td>계산할 때 거스름돈을 팁으로 주겠다는 표현이다. 한국어로 “거스름돈은
@@ -212,7 +212,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },

@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="bg-<?php echo( $color ); ?> wahl_title col-12">Wahl</div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 Klaudia
             </div>
             <div class="col-12" id="itms">
@@ -24,7 +24,7 @@
                 <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm" id="13">das Geld<span
                         class="tran"><br><small>돈</small></span></button>
             </div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 Michael
             </div>
             <div class="col-12" id="itms">
@@ -92,7 +92,7 @@
                     </tr>
                     <tr>
                         <td><span
-                                class="h4 font-weight-bold">Claudia</span>
+                                class="h4 fw-bold">Claudia</span>
                         </td>
                     </tr>
                     </tbody>
@@ -272,7 +272,7 @@
                     </tr>
                     <tr>
                         <td><span
-                                class="h4 font-weight-bold">Michael</span>
+                                class="h4 fw-bold">Michael</span>
                         </td>
                     </tr>
                     </tbody>
@@ -605,7 +605,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -630,7 +630,7 @@
                                     );
                                 $(this)
                                     .addClass(
-                                        "text-success font-weight-bold"
+                                        "text-success fw-bold"
                                     );
                             }
                         );

@@ -14,31 +14,31 @@
             <div class="row border border-dark rounded p-3">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="row">
-                        <div class="col-4 text-end font-weight-bold">Partizip
+                        <div class="col-4 text-end fw-bold">Partizip
                             II</div>
-                        <div class="col-4 text-center font-weight-bold">schwach/
+                        <div class="col-4 text-center fw-bold">schwach/
                             stark</div>
-                        <div class="col-4 text-start font-weight-bold">
+                        <div class="col-4 text-start fw-bold">
                             Infinitiv-Formen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-sm-none d-mw-100 d-lg-block">
                     <div class="row">
-                        <div class="col-4 text-end font-weight-bold">Partizip
+                        <div class="col-4 text-end fw-bold">Partizip
                             II</div>
-                        <div class="col-4 text-center font-weight-bold">schwach/
+                        <div class="col-4 text-center fw-bold">schwach/
                             stark</div>
-                        <div class="col-4 text-start font-weight-bold">
+                        <div class="col-4 text-start fw-bold">
                             Infinitiv-Formen</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-sm-none d-md-none d-lg-block">
                     <div class="row">
-                        <div class="col-4 text-end font-weight-bold">Partizip
+                        <div class="col-4 text-end fw-bold">Partizip
                             II</div>
-                        <div class="col-4 text-center font-weight-bold">schwach/
+                        <div class="col-4 text-center fw-bold">schwach/
                             stark</div>
-                        <div class="col-4 text-start font-weight-bold">
+                        <div class="col-4 text-start fw-bold">
                             Infinitiv-Formen</div>
                     </div>
                 </div>
@@ -349,7 +349,7 @@
                             $(this).removeClass("btn-warning");
                             $(this).addClass("btn-success");
                         } else if ($(this).hasClass("o")) {
-                            $(this).addClass("btn-warning font-weight-bold");
+                            $(this).addClass("btn-warning fw-bold");
                         } else if ($(this).hasClass("an")) {
                             $(this).addClass("btn-danger");
                         } else {

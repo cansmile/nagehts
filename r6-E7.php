@@ -434,7 +434,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -494,13 +494,13 @@
                 var cr = "#C" + ts.attr("id");
                 if (ts.hasClass("ans1")) {
                     $(cr).addClass("bg-danger");
-                    $(cr).addClass("text-white font-weight-bold rounded px-1");
+                    $(cr).addClass("text-white fw-bold rounded px-1");
                 } else if (ts.hasClass("ans2")) {
                     $(cr).addClass("bg-success");
-                    $(cr).addClass("text-white font-weight-bold rounded px-1");
+                    $(cr).addClass("text-white fw-bold rounded px-1");
                 } else if (ts.hasClass("ans3")) {
                     $(cr).addClass("bg-info");
-                    $(cr).addClass("text-white font-weight-bold rounded px-1");
+                    $(cr).addClass("text-white fw-bold rounded px-1");
                 }
             };
 
@@ -510,7 +510,7 @@
                 $(".cbtn").removeClass("bg-danger");
                 $(".cbtn").removeClass("bg-success");
                 $(".cbtn").removeClass("bg-info");
-                $(".cbtn").removeClass("text-white font-weight-bold rounded px-1");
+                $(".cbtn").removeClass("text-white fw-bold rounded px-1");
 
                 /* 상자 안에 있으면 색칠하기 */
                 var il = $(".itm-lst").length;
@@ -583,9 +583,9 @@
                         }
                         $(".tran").show();
                         if ($(this).hasClass("ans" + (a))) {
-                            $(this).addClass("text-success font-weight-bold");
+                            $(this).addClass("text-success fw-bold");
                         } else {
-                            $(this).addClass("text-warning font-weight-bold");
+                            $(this).addClass("text-warning fw-bold");
                             $(this).find(".tran").show();
                         };
                         if ($(this).hasClass("text-warning")) {
@@ -598,7 +598,7 @@
                                         }
                                     }
                                     $(eval('"#lst-' + i + '"')).append(
-                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-light w-100 text-danger bg-white font-weight-bold " +
+                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-light w-100 text-danger bg-white fw-bold " +
                                         cc + "\" id=\"" + $(this).attr("id") + "\">" + $(
                                             this).html() + "</button>");
                                 }

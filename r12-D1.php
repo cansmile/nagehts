@@ -21,7 +21,7 @@
             <div class="col-12 wd_inline_inverted">Mina ist zu ihrer Sprachreise nach Dresden geflogen. Das war ihr
                 erster Flug. Daher berichtet sie ihren Freunden darüber. Ergänzen Sie die Lücken. Bilden Sie Sätze
                 entweder, im Perfekt oder im Passiv.
-                <span class="tran font-weight-bold">&nbsp;<small>미나는 드레스덴으로 어학연수를 떠났습니다. 이것이 그녀의 첫 번째 비행이었습니다. 그래서 그녀는 그녀의 친구들에게 이것에 대해 알려줍니다. 빈칸을 채우세요. 현재완료, 수동태 중에 알맞게 골라 문장을 완성하세요.</small><br/></span>
+                <span class="tran fw-bold">&nbsp;<small>미나는 드레스덴으로 어학연수를 떠났습니다. 이것이 그녀의 첫 번째 비행이었습니다. 그래서 그녀는 그녀의 친구들에게 이것에 대해 알려줍니다. 빈칸을 채우세요. 현재완료, 수동태 중에 알맞게 골라 문장을 완성하세요.</small><br/></span>
             </div>
         </div>
         <div class="row lh250">
@@ -397,7 +397,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -493,18 +493,18 @@
                     $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-danger");
                     $("#ant-" + $(this).attr("id").substr(4)).removeClass("text-success");
                     if (rfchk($(this))) {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-success");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                     } else {
-                        $(this).addClass("text-white font-weight-bold");
+                        $(this).addClass("text-white fw-bold");
                         $(this).addClass("bg-danger");
                         $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                     }
                     if (!$(this).val()) {
                         $(this).removeClass("bg-danger");
                         $(this).removeClass("bg-success");
-                        $(this).removeClass("text-white font-weight-bold");
+                        $(this).removeClass("text-white fw-bold");
                     }
                     if ($(this).val()) {
                         $("#ant-" + $(this).attr("id").substr(4)).show();
@@ -520,11 +520,11 @@
                     }
                     if ($("#ant-" + $(this).attr("id").substr(4)).text()) {
                         if (rfchk($(this))) {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-success");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-success");
                         } else {
-                            $(this).addClass("text-white font-weight-bold");
+                            $(this).addClass("text-white fw-bold");
                             $(this).addClass("bg-danger");
                             $("#ant-" + $(this).attr("id").substr(4)).addClass("text-danger");
                         }
@@ -548,7 +548,7 @@
                     }
                     $(this).removeClass("bg-danger");
                     if (!$(this).attr("disabled")) {
-                        $(this).removeClass("text-white font-weight-bold");
+                        $(this).removeClass("text-white fw-bold");
                         $(this).removeClass("bg-success");
                     }
                 })
@@ -637,7 +637,7 @@
                 for (var p = 0; p < pan.length; p++) {
                     var pann = "#qst-" + pan[p];
                     $(pann).val(an[(pan[p] - 1)]);
-                    $(pann).addClass("bg-success text-white font-weight-bold");
+                    $(pann).addClass("bg-success text-white fw-bold");
                     $(pann).prop("disabled", true);
                     di($(pann));
                 }

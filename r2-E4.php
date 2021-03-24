@@ -1322,7 +1322,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -1426,7 +1426,7 @@
 
                         if (rfchk($(this))) {
                             $(this).addClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                             $(this).addClass(
                                 "bg-success");
@@ -1437,7 +1437,7 @@
                                     "text-success");
                         } else {
                             $(this).addClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                             $(this).addClass(
                                 "bg-danger");
@@ -1454,7 +1454,7 @@
                             $(this).removeClass(
                                 "bg-success");
                             $(this).removeClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                         }
 
@@ -1494,7 +1494,7 @@
                                     4)).text()) {
                             if (rfchk($(this))) {
                                 $(this).addClass(
-                                    "text-white font-weight-bold"
+                                    "text-white fw-bold"
                                     );
                                 $(this).addClass(
                                     "bg-success"
@@ -1507,7 +1507,7 @@
                                         );
                             } else {
                                 $(this).addClass(
-                                    "text-white font-weight-bold"
+                                    "text-white fw-bold"
                                     );
                                 $(this).addClass(
                                     "bg-danger");
@@ -1560,7 +1560,7 @@
                         if (!$(this).attr(
                                 "disabled")) {
                             $(this).removeClass(
-                                "text-white font-weight-bold"
+                                "text-white fw-bold"
                                 );
                             $(this).removeClass(
                                 "bg-success");
@@ -1631,7 +1631,7 @@
                                     $("#txt-" + (i +
                                             1))
                                         .addClass(
-                                            "bg-success text-white rounded font-weight-bold p-1 px-2 ms-1"
+                                            "bg-success text-white rounded fw-bold p-1 px-2 ms-1"
                                             );
                                     $("#txt-" + (i +
                                             1))
@@ -1734,7 +1734,7 @@
                                                 ) {
                                                 $(this)
                                                     .addClass(
-                                                        "bg-danger text-white font-weight-bold rounded"
+                                                        "bg-danger text-white fw-bold rounded"
                                                         );
                                                 $(this)
                                                     .attr(
@@ -1782,7 +1782,7 @@
                                                 );
                                         $(this)
                                             .addClass(
-                                                "btn-success font-weight-bold"
+                                                "btn-success fw-bold"
                                                 );
                                     } else if (
                                         $(this)
@@ -1791,7 +1791,7 @@
                                         ) {
                                         $(this)
                                             .addClass(
-                                                "btn-warning font-weight-bold text-dark"
+                                                "btn-warning fw-bold text-dark"
                                                 );
                                     } else if (
                                         $(this)
@@ -1881,7 +1881,7 @@
                         var pann2 = "#qst-" + pan[p];
                         $(pann1).val(an[(pan[p] - 1)]);
                         $(pann1).addClass(
-                            "bg-success text-white font-weight-bold"
+                            "bg-success text-white fw-bold"
                             );
                         $(pann1).prop("disabled", true);
                         $(pann2).show();

@@ -360,7 +360,7 @@
                 preload: true,
                 onloaderror: function () {
                     $(".alert").append(
-                        "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                     console.log("다시 읽어주세요!");
                 },
@@ -493,7 +493,7 @@
                                                 ".nu"
                                                 )
                                             .addClass(
-                                                "bg-success text-white font-weight-bold rounded p-1 px-2 m-1"
+                                                "bg-success text-white fw-bold rounded p-1 px-2 m-1"
                                                 );
                                         $(this)
                                             .closest(
@@ -503,7 +503,7 @@
                                                 ".nu"
                                                 )
                                             .addClass(
-                                                "bg-success text-white font-weight-bold rounded p-1 px-2 m-1"
+                                                "bg-success text-white fw-bold rounded p-1 px-2 m-1"
                                                 );
                                         $(this)
                                             .closest(
@@ -537,7 +537,7 @@
                                                 ".sen"
                                                 )
                                             .append(
-                                                "<button class=\"btn btn-warning text-dark rounded font-weight-bold p-1 px-2 m-1\">" +
+                                                "<button class=\"btn btn-warning text-dark rounded fw-bold p-1 px-2 m-1\">" +
                                                 $(
                                                     this)
                                                 .closest(
@@ -557,7 +557,7 @@
                                                 ".nu"
                                                 )
                                             .addClass(
-                                                "btn p-1 px-2 m-1 btn-danger text-white font-weight-bold"
+                                                "btn p-1 px-2 m-1 btn-danger text-white fw-bold"
                                                 );
                                     } else if (
                                         $(this)

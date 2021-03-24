@@ -544,7 +544,7 @@
                     preload: true,
                     onloaderror: function () {
                         $(".alert").append(
-                            "<br /><strong class=\"font-weight-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                            "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
                         );
                         console.log("다시 읽어주세요!");
                     }
@@ -599,7 +599,7 @@
                                             $(this).removeClass("btn-warning");
                                             $(this).addClass("btn-success");
                                         } else if ($(this).hasClass("o")) {
-                                            $(this).addClass("btn-warning font-weight-bold");
+                                            $(this).addClass("btn-warning fw-bold");
                                         } else if ($(this).hasClass("an")) {
                                             $(this).addClass("btn-danger");
                                         } else {

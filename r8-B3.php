@@ -2535,9 +2535,9 @@
                     </div>
                 </div>
                 <div id="range" class="text-center m-5">
-                    <span class="p-2 px-3 m-1 bg-lime rounded font-weight-bold">맞은 정답</span>
-                    <span class="p-2 px-3 m-1 bg-primary text-white rounded font-weight-bold">놓친 정답</span>
-                    <span class="p-2 px-3 m-1 bg-danger text-white rounded font-weight-bold">오답</span>
+                    <span class="p-2 px-3 m-1 bg-lime rounded fw-bold">맞은 정답</span>
+                    <span class="p-2 px-3 m-1 bg-primary text-white rounded fw-bold">놓친 정답</span>
+                    <span class="p-2 px-3 m-1 bg-danger text-white rounded fw-bold">오답</span>
                 </div>
                 <!-- 정답화인 버튼 시작 -->
                 <div class="row">
@@ -2569,9 +2569,9 @@ function btchk(th) {
     $("#nu").text(th.attr("id"));
     if(th.hasClass("ans1")) {
         if(th.hasClass("bg-purple")) {
-            th.removeClass("bg-purple text-white font-weight-bold");
+            th.removeClass("bg-purple text-white fw-bold");
         } else {
-            th.addClass("bg-purple text-white font-weight-bold");
+            th.addClass("bg-purple text-white fw-bold");
         }
     } else {
         if(th.hasClass("bg-secondary")) {
@@ -2611,7 +2611,7 @@ function btchk(th) {
                         $(this).removeClass("bg-purple text-white");
                         $(this).addClass("bg-lime");
                     } else {
-                        $(this).addClass("bg-primary text-white font-weight-bold");
+                        $(this).addClass("bg-primary text-white fw-bold");
                     }
                 }
             })
@@ -2659,7 +2659,7 @@ function btchk(th) {
     for(var i = 0; i < pan.length; i++) {
         if(an[i].length > 1) {
             for(var j = 0; j < an[pan[i]].length; j++) {
-                $("#" + an[pan[i]][j]).addClass("bg-purple text-white font-weight-bold");
+                $("#" + an[pan[i]][j]).addClass("bg-purple text-white fw-bold");
 
             }
         }

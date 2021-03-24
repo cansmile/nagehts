@@ -256,7 +256,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -324,7 +324,7 @@
                                 $(this).removeClass("btn-warning");
                                 $(this).addClass("btn-success");
                                 $(this).closest(".sen").find(".nu").addClass(
-                                    "rounded p-1 px-2 text-white bg-success font-weight-bold"
+                                    "rounded p-1 px-2 text-white bg-success fw-bold"
                                 );
                                 $(this).closest(".sen").find(".nu").text($.trim(
                                     $(this).text()));
@@ -334,10 +334,10 @@
                                     .trim($(this).closest(".sen").find(".o")
                                         .text()));
                                 $(this).closest(".sen").find(".nu").addClass(
-                                    "rounded p-1 px-2 text-white bg-danger font-weight-bold"
+                                    "rounded p-1 px-2 text-white bg-danger fw-bold"
                                 );
                                 $(this).closest(".sen").find(".ans").addClass(
-                                    "rounded bg-warning text-dark font-weight-bold text-center m-2 p-1 px-2"
+                                    "rounded bg-warning text-dark fw-bold text-center m-2 p-1 px-2"
                                 );
                             } else if ($(this).hasClass("an")) {
                                 $(this).addClass("btn-warning");

@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="bg-<?php echo( $color ); ?> wahl_title col-12">Wahl</div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 Anrede&nbsp;<small>호칭</small>
             </div>
             <div class="col-12" id="itms">
@@ -29,7 +29,7 @@
                     <span class="tran"><br><small>안녕 마리아</small></span>
                 </button>
             </div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white font-weight-bold col-12 mt-1">
+            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 Grußformeln&nbsp;<small>끝인사</small>
             </div>
             <div class="col-12" id="itms">
@@ -188,7 +188,7 @@
             preload: true,
             onloaderror: function () {
                 $(".alert").append(
-                    "<br /><strong class=\"font-weight-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
                 );
                 console.log("다시 읽어주세요!");
             },
@@ -235,7 +235,7 @@
                         $(this).attr("id", "done");
 
                         $(".itm-lst").each(function () {
-                            $(this).find("button").addClass("text-success font-weight-bold");
+                            $(this).find("button").addClass("text-success fw-bold");
                         });
 
                         /* 정답 확인 div 상자 배경색 속성 없애기 */

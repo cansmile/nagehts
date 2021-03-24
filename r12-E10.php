@@ -102,7 +102,7 @@
             $(this).removeClass("btn-light ");
             $(".itm-lst").each(function () {
                 if ($(this).find(".itm")) {
-                    $(this).find(".itm").addClass("text-success font-weight-bold");
+                    $(this).find(".itm").addClass("text-success fw-bold");
                 }
             });
             var qa = $(".itm-lst>button").length; /* 전체 문항 수 */

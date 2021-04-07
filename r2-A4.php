@@ -177,7 +177,7 @@
                                         <th scope="row" class="border border-dark border-right-only text-center">
                                             Ich<br /><small>(나)</small>
                                         </th>
-                                        <td class="align-middle">wehn<strong>e
+                                        <td class="align-middle">wohn<strong>e
                                                 in</strong> …</td>
                                     </tr>
                                     <tr>

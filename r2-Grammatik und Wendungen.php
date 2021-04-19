@@ -134,7 +134,7 @@
                             <button class="text-orange bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse2" aria-expanded="false"
                                     aria-controls="flush-collapse2"><strong>F2. Ja / Nein Fragen und
-                                    Antworten</strong><small>예/아니요-질문</small></button>
+                                    Antworten</strong>&nbsp;<small>예/아니요-질문</small></button>
                         </h5>
                         <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
                              data-bs-parent="#accordionFlush">
@@ -160,7 +160,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250"><strong>Kommen</strong>Sie aus Japan?
+                                                <div class="col-8 mx-1 px-1 lh250"><strong>Kommen</strong>&nbsp;Sie aus Japan?
                                                 </div>
                                             </div>
                                         </td>
@@ -172,7 +172,7 @@
                                                     </button>
                                                 </div>
                                                 <div class="col-8 mx-1 px-1 lh250"><strong>Ja(Nein)</strong>, ich komme
-                                                    *<strong>(nicht)</strong>aus Japan.
+                                                    <strong>*(nicht)</strong>aus Japan.
                                                 </div>
                                             </div>
                                         </td>
@@ -210,7 +210,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250"><strong>Liegt</strong>Frankreich in
+                                                <div class="col-8 mx-1 px-1 lh250"><strong>Liegt</strong>&nbsp;Frankreich in
                                                     Europa?
                                                 </div>
                                             </div>
@@ -229,7 +229,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row" colspan="2" class="text-end">* nicht<small>는 부정어로서 영어의</small>not<small>을
+                                        <th scope="row" colspan="2" class="text-end">* nicht<small>는 부정어로서 영어의</small>&nbsp;not<small>을
                                                 의미한다</small>.
                                         </th>
                                     </tr>

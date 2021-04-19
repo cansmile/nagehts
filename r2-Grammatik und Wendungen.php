@@ -12,7 +12,7 @@
                         <h5 class="accordion-header" id="flush-heading1">
                             <button class="text-danger bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse1" aria-expanded="false"
-                                    aria-controls="flush-collapse1"><strong>F1. W-Fragen und Antworten</strong> <small>W-의문사와
+                                    aria-controls="flush-collapse1"><strong>F1. W-Fragen und Antworten</strong>&nbsp;<small>W-의문사와
                                     대답</small></button>
                         </h5>
                         <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
@@ -37,7 +37,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250"><strong>Woher</strong>kommen Sie?
+                                                <div class="col-8 mx-1 px-1 lh250"><strong>Woher</strong>&nbsp;kommen Sie?
                                                 </div>
                                             </div>
                                         </td>
@@ -48,7 +48,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250">Ich komme<strong>aus</strong>Deutschland.
+                                                <div class="col-8 mx-1 px-1 lh250">Ich komme&nbsp;<strong>aus</strong>&nbsp;Deutschland.
                                                 </div>
                                             </div>
                                         </td>
@@ -71,7 +71,7 @@
                                                             class="so btd btn-outline-dark btn-sm me-2 my-auto">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250">Ich wohne<strong>in</strong> München.
+                                                <div class="col-8 mx-1 px-1 lh250">Ich wohne&nbsp;<strong>in</strong> München.
                                                 </div>
                                             </div>
                                         </td>
@@ -84,7 +84,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250"><strong>Welche</strong>Sprachen
+                                                <div class="col-8 mx-1 px-1 lh250"><strong>Welche&nbsp;</strong>Sprachen
                                                     sprechen Sie?
                                                 </div>
                                             </div>
@@ -120,7 +120,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250">Ghana liegt<strong>in</strong>Westafrika.
+                                                <div class="col-8 mx-1 px-1 lh250">Ghana liegt&nbsp;<strong>in</strong>&nbsp;Westafrika.
                                                 </div>
                                             </div>
                                         </td>

@@ -297,7 +297,7 @@
                         <h5 class="accordion-header" id="flush-heading4">
                             <button class="text-primary bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse4" aria-expanded="false"
-                                    aria-controls="flush-collapse4"><strong>F4. Wortstellung</strong><small>어순</small>
+                                    aria-controls="flush-collapse4"><strong>F4. Wortstellung</strong>&nbsp;<small>어순</small>
                             </button>
                         </h5>
                         <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
@@ -315,8 +315,8 @@
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <th scope="row">W-Frage<small><br>w-의문문</small></th>
-                                        <td class="bg-light" scope="row"><strong>Woher<br>Wo<br>Welche</strong>Sprachen
+                                        <th scope="row">W-Frage<small><br>W-의문문</small></th>
+                                        <td class="bg-light" scope="row"><strong>Woher<br>Wo<br>Welche</strong>&nbsp;Sprachen
                                         </td>
                                         <td><strong>kommen<br>wohnst<br>sprechen</strong></td>
                                         <td class="bg-light"><strong>Sie?<br>du?<br>Sie?</strong></td>

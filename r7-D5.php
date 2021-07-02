@@ -57,7 +57,7 @@
                                 <th class="text-center align-middle" scope="row" width="50">Bsp.</th>
                                 <td class="align-middle">
                                     <div class="p-2 m-0">
-                                        Herr Kim will Deutsch lernen. Dann kann
+                                        Herr Kim will Deutsch lernen. Dann sellte
                                         er&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-1" style="min-width: 30%; ">
                                             <h2 class="btn btn-warning btn-xl ttl w-100">
@@ -106,7 +106,7 @@
                                 <td class="align-middle">
                                     <div class="p-2 m-0">
                                         Er will ein Buch kaufen. Dann
-                                        sollte&nbsp;
+                                        sollte er&nbsp;
                                         <div class="itm-lst 1itm d-inline-block" id="lst-4" style="min-width: 30%; ">
                                             <h2 class="btn btn-warning btn-xl ttl w-100">
                                                 ▼ </h2>

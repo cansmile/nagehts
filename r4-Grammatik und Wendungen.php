@@ -34,7 +34,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Was <strong>ist</strong>das?</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Was <strong>ist</strong>&nbsp;das?</div>
                                             </div>
                                         </th>
                                         <td>
@@ -92,7 +92,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Was<strong>haben</strong>Sie?</div>
+                                                <div class="col-10 mx-1 px-1 lh250">Was&nbsp;<strong>haben</strong>&nbsp;Sie?</div>
                                             </div>
                                         </th>
                                         <td>

@@ -91,7 +91,7 @@
                                                 data-content="정답이 아니에요.">
                                                 heißen
                                             </button>
-                                        </div> Kim.<span
+                                        </div> Hyun Kim.<span
                                             class="ans">&nbsp;</span>
                                     </span>
                                     <span class="tran"><br><small>안녕하세요! 저는 김이라고
@@ -270,8 +270,8 @@
                 sprite: {
                     "0": [840, 29109],
                     "1": [12445, 3027],
-                    "2": [17347, 2797],
-                    "3": [21139, 3219],
+                    "2": [17571, 2718],
+                    "3": [21266, 3683],
                     "4": [26463, 3525]
                 },
                 html5: true,
@@ -292,33 +292,21 @@
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
-
-                        if (($("div#last").text() ==
-                                "" || t.text() ==
-                                "❚❚") && !t
-                            .hasClass(".itm-lst")) {
+                        if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
                             $("#last").text(ti);
                             t.text("■");
                             nagehts.seek();
                             nagehts.play(ti);
                             sen[ti]++;
-
                             last = ti;
-
-                            $("#cnt-" + ti).text(
-                                sen[ti]);
-                        } else if (last == ti &&
-                            nagehts.playing($(
-                                    "div#last")
-                                .text())) {
+                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti && nagehts.playing($("div#last").text())) {
                             $("#last").text("");
                             t.html(pa[ti]);
                             nagehts.pause();
                             sen[ti]--;
-                            $("#cnt-" + ti).text(
-                                sen[ti]);
+                            $("#cnt-" + ti).text(sen[ti]);
                         }
-
                     });
 
                     $("[data-toggle='popover']").popover({
@@ -353,219 +341,66 @@
 
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        if ($(".an").length < $(
-                                ".q").length) {
+                        if ($(".an").length < $(".q").length) {
                             var na = "";
-                            $(".q").each(
-                        function () {
-                                if (!$(this)
-                                    .find(
-                                        "div"
-                                        )
-                                    .hasClass(
-                                        "an"
-                                        )) {
-                                    if (na !=
-                                        ""
-                                        ) {
-                                        na +=
-                                            ", ";
+                            $(".q").each(function () {
+                                if (!$(this).find("div").hasClass("an")) {
+                                    if (na != "") {
+                                        na += ", ";
                                     }
-                                    na += $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                            )
-                                        .substr(
-                                            -
-                                            1
-                                            );
-                                };
+                                    na += $(this).attr("id").substr(-1);
+                                }
+                                ;
                             });
-
-                            alert("모든 문제를 풀어주세요.");
-                            /* alert(na + "번 문제를 풀어주세요."); */
+                            alert("모든 문제를 풀어주세요.");/* alert(na + "번 문제를 풀어주세요."); */
                         } else {
-                            $(".pop").each(
-                                function () {
-                                    $(this)
-                                        .removeClass(
-                                            "btn-info"
-                                            );
-
-                                    if ($(this)
-                                        .hasClass(
-                                            "o"
-                                            ) &&
-                                        $(this)
-                                        .hasClass(
-                                            "an"
-                                            )) {
-                                        $(this)
-                                            .removeClass(
-                                                "btn-warning"
-                                                );
-                                        $(this)
-                                            .addClass(
-                                                "btn-success"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .addClass(
-                                                "rounded p-1 px-2 text-white bg-success fw-bold"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .text(
-                                                $
-                                                .trim(
-                                                    $(
-                                                        this)
-                                                    .text()
-                                                    )
-                                                );
-                                    } else if (
-                                        $(this)
-                                        .hasClass(
-                                            "o")
-                                        ) {
-                                        $(this)
-                                            .addClass(
-                                                "btn-<?php echo($color); ?>"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".ans"
-                                                )
-                                            .html(
-                                                $
-                                                .trim(
-                                                    $(
-                                                        this)
-                                                    .closest(
-                                                        ".sen"
-                                                        )
-                                                    .find(
-                                                        ".o"
-                                                        )
-                                                    .text()
-                                                    )
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .addClass(
-                                                "rounded p-1 px-2 text-white bg-danger fw-bold"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".ans"
-                                                )
-                                            .addClass(
-                                                "rounded bg-warning text-dark fw-bold text-center m-2 p-1 px-2"
-                                                );
-                                    } else if (
-                                        $(this)
-                                        .hasClass(
-                                            "an"
-                                            )) {
-                                        $(this)
-                                            .addClass(
-                                                "btn-warning"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                "td"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .text(
-                                                $
-                                                .trim(
-                                                    $(
-                                                        this)
-                                                    .text()
-                                                    )
-                                                );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "btn-light"
-                                                );
-                                    };
-                                    $(this)
-                                        .remove();
-                                });
+                            $(".pop").each(function () {
+                                $(this).removeClass("btn-info");
+                                if ($(this).hasClass("o") && $(this).hasClass("an")) {
+                                    $(this).removeClass("btn-warning");
+                                    $(this).addClass("btn-success");
+                                    $(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-success fw-bold");
+                                    $(this).closest(".sen").find(".nu").text($.trim($(this).text()));
+                                } else if ($(this).hasClass("o")) {
+                                    $(this).addClass("btn-<?php echo( $color ); ?>");
+                                    $(this).closest(".sen").find(".ans").html($.trim($(this).closest(".sen").find(".o").text()));
+                                    $(this).closest(".sen").find(".nu").addClass("rounded p-1 px-2 text-white bg-danger fw-bold");
+                                    $(this).closest(".sen").find(".ans").addClass("rounded bg-warning text-dark fw-bold text-center m-2 p-1 px-2");
+                                } else if ($(this).hasClass("an")) {
+                                    $(this).addClass("btn-warning");
+                                    $(this).closest("td").find(".nu").text($.trim($(this).text()));
+                                } else {
+                                    $(this).addClass("btn-light");
+                                }
+                                ;$(this).remove();
+                            });
                             $(".tran").show();
                             $(".nu").show();
-                            $(".q").hide();
-
-                            /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            var qa = $(".q")
-                            .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".bg-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                            100; /* 정답 비율 */
-                            var tcl =
-                            "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            $(".q").hide();/* 정답 확인 div 상자 배경색 속성 없애기 */
+                            $(this).removeClass("btn-light ");
+                            var qa = $(".q").length; /* 전체 문항 수 */
+                            var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 *//* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
                                 var cl = "lime";
                                 var tcl = "dark";
                             } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
+                                var st = "어! 좀 하시는데요~^^";
                                 var cl = "success";
                             } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
+                                var st = "쓰읍~ 다시 해 보실까요?";
                                 var cl = "primary";
                             } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
+                                var st = "좀 더 분발해 주세요~";
                                 var cl = "danger";
                             }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st + "</h4>");
-
-                            $(this).attr("id",
-                                "done");
-                        };
+                            $(this).addClass("btn-" + cl + " text-" + tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                            $(this).attr("id", "done");
+                        }
+                        ;
                     });
 
                     $("#0").show();

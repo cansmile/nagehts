@@ -5,40 +5,40 @@
     $lt = 4; /* 제목 데쉬 이후의 글자 수 제한 */
 
     $dash = strpos($fn, '-');
-    if ( !empty($dash) ) {
-        $hp = $dash + 1;
-    }
+if (!empty($dash)) {
+    $hp = $dash + 1;
+}
 
     /* Reihe를 구해요*/
-    if ( ( $fn[0] !== 'D' ) || ( $fn[0] !== 'i' ) ) {
-        if ( !empty($dash) ) {
-            $r = substr($fn, 1, ( $dash - 1 ));
-        }
-        if ( ( empty($dash) ) && ( strlen($fn) < 4 ) ) {
-            $r = substr($fn, 1);
-        }
+if (( $fn[0] !== 'D' ) || ( $fn[0] !== 'i' )) {
+    if (!empty($dash)) {
+        $r = substr($fn, 1, ( $dash - 1 ));
     }
+    if (( empty($dash) ) && ( strlen($fn) < 4 )) {
+        $r = substr($fn, 1);
+    }
+}
 
     /* 여기가 어디냐? */
-    if ( $fn[0] === "D" ) {
-        $lv = "Deu";
-    }
+if ($fn[0] === "D") {
+    $lv = "Deu";
+}
 
-    if ( $fn[0] === "i" ) {
-        $lv = "int";
-    }
+if ($fn[0] === "i") {
+    $lv = "int";
+}
 
-    if ( ( isset($r) ) && ( strlen($fn) < 4 ) ) {
-        $lv = "lv1";
-    }
+if (( isset($r) ) && ( strlen($fn) < 4 )) {
+    $lv = "lv1";
+}
 
-    if ( ( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) > $lt ) ) {
-        $lv = "lv2";
-    }
+if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) > $lt )) {
+    $lv = "lv2";
+}
 
-    if ( ( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt ) ) {
-        $lv = "lv3";
-    }
+if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
+    $lv = "lv3";
+}
     /* 색상 */
     $col = array(
         'blue',
@@ -450,7 +450,7 @@
                             'D2' => array( 'Zu Hause', '집에서' ),
                             'D3' => array( 'Termin beim Arzt', '병원예약' ),
                             'D4' => array( 'Bei der Ärztin', '개인병원에서' ),
-                            'D5' => array( 'Und jetzt sind Sie der Doktor! Was sollen die Personen tun?', '당신은 의사입니다. 사람들이 무엇을 해야 하나요?' ),
+                            'D5' => array( 'Und jetzt sind Sie der Doktor! Was sollten die Personen tun?', '당신은 의사입니다. 사람들이 무엇을 해야 하나요?' ),
                             'D6' => array( 'Ihr(e) Freund(in) hat Probleme. Was würden Sie ihm (ihr) empfehlen?', '당신의 친구에게 문제가 있어요. 그에게 뭐라고 조언을 해야 하나요?' ),
                         )
                     ),
@@ -689,7 +689,7 @@
     );
 
     /* 주 제목과 부 제목 추출 */
-    switch ( $lv ) {
+    switch ($lv) {
         case 'int':
             $main_title = '
             <img src="./dev/images/Na geht\'s title.png"
@@ -716,24 +716,24 @@
             break;
         case 'lv3':
             $item = substr($fn, $hp);
-            foreach ( $men[$r][2] as $first_key => $first ) {
-                for ( $f = 0, $fMax = count($first); $f < $fMax; $f++ ) {
-                    if ( $f === 2 ) {
-                        foreach ( $first[$f] as $second_key => $second ) {
-                            if ( $second_key === $item ) {
+            foreach ($men[$r][2] as $first_key => $first) {
+                for ($f = 0, $fMax = count($first); $f < $fMax; $f++) {
+                    if ($f === 2) {
+                        foreach ($first[$f] as $second_key => $second) {
+                            if ($second_key === $item) {
                                 $main_title = $second[0];
                                 $sub_title = $second[1];
 
-                                if ( preg_match('/[a-z]/', ( substr($second_key, -1) )) ) {
+                                if (preg_match('/[a-z]/', ( substr($second_key, -1) ))) {
                                     $item_head = substr($second_key, 0, ( strlen($second_key) - 1 ));
                                     $item_tail = ord(substr($second_key, -1)) - 96;
                                 }
 
-                                if ( preg_match('/[^a-z]/', ( substr($second_key, -1) )) ) {
+                                if (preg_match('/[^a-z]/', ( substr($second_key, -1) ))) {
                                     $item_head = $second_key;
                                 }
 
-                                if ( substr($second_key, -2) === 'GR' ) {
+                                if (substr($second_key, -2) === 'GR') {
                                     $item_head = 'GR';
                                 }
                             }
@@ -744,9 +744,8 @@
             break;
         default:
             throw new RuntimeException('있을 수 없는 값이네요');
-
     }
-?>
+    ?>
 
 <!-- 상단 큰 제목 -->
 <header>
@@ -757,24 +756,26 @@
                     <h1 class="display-4 font-weight-bold">
                         <?php
                             /* 주 제목 출력 */
-                            if ( !empty($main_title) ) {
-                                echo $main_title;
-                            }
+                        if (!empty($main_title)) {
+                            echo $main_title;
+                        }
                         ?>
                     </h1>
                     <h2>
                         <?php
                             /* 부 제목 출력 */
-                            if ( !empty($sub_title) ) {
-                                echo $sub_title;
-                            }
+                        if (!empty($sub_title)) {
+                            echo $sub_title;
+                        }
 
                             /* 교재 항목 번호 출력 */
-                            if ( $lv === 'lv3' ) {
-                                echo '<br /><small class="mt-2">( 교재 <span class="bg-' . $color . ' p-1 px-2 m-1 rounded text-white">' . $item_head;
-                                if ( !empty($item_tail) ) echo '<small>-' . $item_tail . '</small>';
-                                echo '</span>)</small>';
+                        if ($lv === 'lv3') {
+                            echo '<br /><small class="mt-2">( 교재 <span class="bg-' . $color . ' p-1 px-2 m-1 rounded text-white">' . $item_head;
+                            if (!empty($item_tail)) {
+                                echo '<small>-' . $item_tail . '</small>';
                             }
+                            echo '</span>)</small>';
+                        }
                         ?>
                     </h2>
                 </div>
@@ -784,8 +785,8 @@
 </header>
 <?php
     /* Deutschland */
-    if ( $lv === "Deu" ) {
-        ?>
+if ($lv === "Deu") {
+    ?>
         <section>
             <div class="container">
                 <div class="row">
@@ -801,8 +802,8 @@
                 </div>
             </div>
         </section>
-        <?php
-    }
+    <?php
+}
 ?>
 
 <!--스타일 먼저 보이기-->

@@ -30,7 +30,7 @@
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="4">
-                        Sächsische Schwei
+                        Sächsische Schweiz
                         <span class="tran"><br><small>작센 스위스</small></span>
                     </button>
                     <button type="button"

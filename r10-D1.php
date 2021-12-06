@@ -360,7 +360,7 @@
                                 <td class="lh250">
                                     <div class="input-group d-inline">
                                         전철과 함께 오는 (불)규칙동사들은<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
-                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6 w-50"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-22">+ ge +
                                         어간
                                         (+/-모음교체) + en, -t 형태로 변화한다.
@@ -373,12 +373,12 @@
                                     <div class="input-group d-inline">
                                         비분리 전철과 함께 오는 규칙변화 동사들의 과거분사형은
                                         <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0 border-bottom-only
-                                        mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                        mx-1 px-2 py-1 text-center border-dark d-inline-block t-6 w-50"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-23">+ ø ge
                                         +
                                         어간 + t 의 형태이고 비분리 전철과 함께 오는 불규칙변화 동사들의
                                         과거분사형은<input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
-                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6"
+                                        border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block t-6 w-50"
                                             style="max-width: 100px; min-width: 50px;" aria-label="." id="qst-24">+ ø ge
                                         +어간(+/-모음교체) + en 의 형태이며 어간은 모음교체현상이 일어날
                                         수 있다.

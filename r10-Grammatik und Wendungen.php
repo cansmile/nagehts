@@ -5,7 +5,7 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-22">
                 <div class="accordion accordion-flush" id="accordionFlush">
                     <div class="accordion-item">
                         <h5 class="accordion-header" id="flush-heading1">
@@ -193,92 +193,92 @@
                                     <tr>
                                         <td width="50%">
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="2"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Entschuldigung, wo kann man in
+                                                <div class="col-8 mx-1 px-1 lh250">Entschuldigung, wo kann man in
                                                     Gartenstadt übernachten? Gibt es in der Nähe ein Hotel?
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="3"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Im Hotel Augustin.</div>
+                                                <div class="col-8 mx-1 px-1 lh250">Im Hotel Augustin.</div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td width="50%">
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="4"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Wo ist das, bitte?</div>
+                                                <div class="col-8 mx-1 px-1 lh250">Wo ist das, bitte?</div>
                                             </div>
                                         </td>
                                         <td>
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="5"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Das ist in der Mannesstraße.</div>
+                                                <div class="col-8 mx-1 px-1 lh250">Das ist in der Mannesstraße.</div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td width="50%">
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="6"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Vielen Dank!</div>
+                                                <div class="col-8 mx-1 px-1 lh250">Vielen Dank!</div>
                                             </div>
                                         </td>
                                         <td>
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="7"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Bitte sehr.</div>
+                                                <div class="col-8 mx-1 px-1 lh250">Bitte sehr.</div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td width="50%">
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="8"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Entschuldigung, wo ist das Café
+                                                <div class="col-8 mx-1 px-1 lh250">Entschuldigung, wo ist das Café
                                                     Dornbusch, bitte?
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="9"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Zwischen dem Kino Megabox und dem
+                                                <div class="col-8 mx-1 px-1 lh250">Zwischen dem Kino Megabox und dem
                                                     Restaurant Maredo.
                                                 </div>
                                             </div>
@@ -287,24 +287,24 @@
                                     <tr>
                                         <td width="50%">
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="10"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Entschuldigung, wie komme ich denn
+                                                <div class="col-8 mx-1 px-1 lh250">Entschuldigung, wie komme ich denn
                                                     zum Blumenladen Schön?
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1">
+                                                <div class="col-2 mx-1 px-1">
                                                     <button type="button" id="11"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Der ist in der Berlinstraße links. An
+                                                <div class="col-8 mx-1 px-1 lh250">Der ist in der Berlinstraße links. An
                                                     der Ecke ist er.
                                                 </div>
                                             </div>
@@ -317,12 +317,12 @@
                                     <tr>
                                         <th class="align-middle m-2 p-2" colspan="2">
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1 ms-2">
+                                                <div class="col-2 mx-1 px-1 ms-2">
                                                     <button type="button" id="12"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250 h4">so kann man fragen</div>
+                                                <div class="col-8 mx-1 px-1 lh250 h4">so kann man fragen</div>
                                             </div>
                                         </th>
                                         <th>&nbsp;</th>
@@ -348,12 +348,12 @@
                                     <tr>
                                         <th class="text-start align-middle m-2 p-2" colspan="2">
                                             <div class="row">
-                                                <div class="col-1 mx-1 px-1 ms-2">
+                                                <div class="col-2 mx-1 px-1 ms-2">
                                                     <button type="button" id="13"
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250 h4">so kann man antworten</div>
+                                                <div class="col-8 mx-1 px-1 lh250 h4">so kann man antworten</div>
                                             </div>
                                         </th>
                                         <th>&nbsp;</th>
@@ -453,7 +453,7 @@
         src: ["./dev/sounds/Reihe 10/r10 F.mp3"],
         sprite: {
             "1": [5756, 40933],
-            "2": [4756, 6944],
+            "2": [4756, 7944],
             "3": [13261, 1958],
             "4": [15870, 2058],
             "5": [18559, 2508],

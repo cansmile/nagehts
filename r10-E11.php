@@ -331,10 +331,6 @@
             th.css("width", w);
         };
 
-        /* 전체 입력란 폭 맞추기 */
-        $(".q").each(function () {
-            di($(this));
-        });
         var pan = new Array();
         pan = [1];
         for (var p = 0; p < pan.length; p++) {
@@ -343,6 +339,11 @@
             $(pann).addClass("bg-success text-white fw-bold");
             $(pann).prop("disabled", true);
         }
+
+        /* 전체 입력란 폭 맞추기 */
+        $(".q").each(function () {
+            di($(this));
+        });
     });
 
 </script>

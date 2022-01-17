@@ -11,7 +11,7 @@
             </div>
             <div class="col-12" id="itms">
                 <button type="button" class="mt-1 mx-1 btn ans1 btn-md t-3 btn-outline-dark itm so" id="1">
-                    könntest
+                    könnte
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans3 btn-md t-3 btn-outline-dark itm so" id="2">
                     würde
@@ -26,13 +26,13 @@
                     möchte
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans8 btn-md t-3 btn-outline-dark itm so" id="6">
-                    hätten
+                    bräuchtest
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans2 btn-md t-3 btn-outline-dark itm so" id="7">
                     sollten
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans7 btn-md t-3 btn-outline-dark itm so" id="8">
-                    bräuchte
+                    nähme
                 </button>
             </div>
         </div>
@@ -271,7 +271,7 @@
                             du
                         </td>
                         <td class="align-middle">
-                            brauchte
+                            brauchtest
                         </td>
                         <td class="align-middle">
                             <div class="itm-lst 1itm w-100" id="lst-8">

@@ -514,7 +514,7 @@
                             });
                             var qa = $(".itm-lst").length; /* 전체 문항 수 */
                             var qr = $(".okay").length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) * 00; /* 정답 비율 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
                             var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";

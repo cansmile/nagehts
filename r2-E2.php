@@ -526,6 +526,7 @@
                         qn = (th.attr("id").substr(4)) - 1;
                         a = th.val();
                         a = a.replace(/ /gi, "");
+                        di(th);
                         if (!$.isArray(an[qn])) {
                             /* 1 인 경우 */
                             if (io) {
@@ -552,6 +553,36 @@
                             }
                         }
                     }
+
+                    /* 역동적 입력란 */
+                    $.fn.textWidth = function (text, font) {
+                        if (!$.fn.textWidth.fakeEl) $.fn.textWidth.fakeEl = $('<span>').hide().appendTo(document.body);
+                        $.fn.textWidth.fakeEl.text(text || this.val() || this.text()).css('font', font || this.css('font'));
+                        return $.fn.textWidth.fakeEl.width();
+                    };
+
+                    function di(th) {
+                        if (th.val().length < 10) {
+                            var m = 1.75;
+                        }
+                        if (th.val().length < 5) {
+                            var m = 2;
+                        }
+                        if (th.val().length < 3) {
+                            var m = 3;
+                        }
+                        if (th.val().length >= 10) {
+                            var m = 1.35;
+                        }
+                        var w = Math.ceil(th.textWidth() * m) + 'px';
+                        console.log(w);
+
+                        th.css("min-width", w);
+                        th.css("max-width", w);
+                        th.css("width", w);
+                    };
+
+
                     $(".q").on("keyup", function () {
                         $(this).removeClass("bg-danger");
                         $(this).removeClass("bg-success");
@@ -712,13 +743,14 @@
 
                     var pan = new Array();
                     /* pan=[1,2,3,4,5,6,7,8,9,10]; */
-                    pan = [13, 14, 15, 16, 25, 26, 27, 28, 29, 30, 31, 32];
+                    pan = [1, 2, 4, 5, 10, 12, 13, 14, 15, 16, 21, 25, 26, 27, 28, 29, 30, 31, 32, 34];
                     for (var p = 0; p < pan.length; p++) {
                         var pann = "#qst-" + pan[p];
                         $(pann).val(an[(pan[p] - 1)]);
                         $(pann).addClass(
                             "bg-success text-white fw-bold");
                         $(pann).prop("disabled", true);
+                        di($(pann));
                         /* $(pann).closest("tr").find(".tran").show(); */
                     }
 

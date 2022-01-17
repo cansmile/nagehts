@@ -8,31 +8,31 @@
                 wo
             </div>
             <div class="col-12" id="itms">
-                <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm" id="1">
+                <button type="button" class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm" id="1">
                     in den Bergen
                     <span class="tran"><br><small>산으로</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm" id="2">
+                <button type="button" class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm" id="2">
                     am Meer
                     <span class="tran"><br><small>바닷가에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm" id="3">
+                <button type="button" class="mt-1 mx-1 btn ans6 btn-sm btn-outline-dark itm" id="3">
                     auf dem Land
                     <span class="tran"><br><small>시골에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm" id="4">
+                <button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm" id="4">
                     auf einer Insel
                     <span class="tran"><br><small>섬에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="5">
+                <button type="button" class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm" id="5">
                     in der Stadt
                     <span class="tran"><br><small>시내에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm" id="6">
+                <button type="button" class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm" id="6">
                     in einem Campingplatz
                     <span class="tran"><br><small>캠핑촌에</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm" id="7">
+                <button type="button" class="mt-1 mx-1 btn ans7 btn-sm btn-outline-dark itm" id="7">
                     in Griechenland
                     <span class="tran"><br><small>그리스에</small></span>
                 </button>
@@ -43,39 +43,39 @@
                 tun
             </div>
             <div class="col-12" id="itms">
-                <button class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm" id="8">
+                <button class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm" id="8">
                     wandern
                     <span class="tran"><br/><small>산행하기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm" id="9">
+                <button class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm" id="9">
                     surfen
                     <span class="tran"><br/><small>서핑하기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm" id="10">
+                <button class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm" id="10">
                     tauchen
                     <span class="tran"><br/><small>잠수하기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm" id="11">
+                <button class="mt-1 mx-1 btn ans7 btn-sm btn-outline-dark itm" id="11">
                     Kultur und Geschichte erleben
                     <span class="tran"><br/><small>문화와 역사 체험하기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="12">
+                <button class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm" id="12">
                     Stadtrunfahrt machen
                     <span class="tran"><br/><small>시내 관광하기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm" id="13">
+                <button class="mt-1 mx-1 btn ans5 btn-sm btn-outline-dark itm" id="13">
                     shoppen
                     <span class="tran"><br/><small>쇼핑하기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm" id="14">
+                <button class="mt-1 mx-1 btn ans3 btn-sm btn-outline-dark itm" id="14">
                     Campingzelt aufbauen
                     <span class="tran"><br/><small>텐트치기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm" id="15">
+                <button class="mt-1 mx-1 btn ans4 btn-sm btn-outline-dark itm" id="15">
                     an Bord schwimmen
                     <span class="tran"><br/><small>선상 수영하기</small></span>
                 </button>
-                <button class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm" id="16">
+                <button class="mt-1 mx-1 btn ans6 btn-sm btn-outline-dark itm" id="16">
                     Beeren pflücken, Bauerhof-Erlebnis machen
                     <span class="tran"><br/><small>농장 체험하기</small></span>
                 </button>

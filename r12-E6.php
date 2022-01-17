@@ -43,7 +43,7 @@
                     <li>Was sagt die Durchsage? Auf welchem Gleis fährt der Zug nach Berlin?
                         <span class="tran"><br/><small>안내방송이 뭐라고 말하는거야? 베를린으로 가는 기차는 몇 번 선로에서 가?</small></span>
                     </li>
-                    <li>Entschuldigung, wie kann ich am Automaten eine Fahrkarte kaufen?
+                    <li><strike>Entschuldigung, wie kann ich am Automaten eine Fahrkarte kaufen?</strike>
                         <span class="tran"><br/><small>실례합니다, 자동매표기에서 기차표를 어떻게 살 수 있을까요?</small></span>
                     </li>
                     <li>Wir müssen doch auf dem Fahrplan sehen, wo der Zug aus Berlin ankommt.
@@ -327,7 +327,7 @@
                 });
                 <?php require "wahl.php"; ?>
                 var pan = new Array();
-                pan = [];
+                pan = [1];
                 var il = $("#itms>.itm").length;
                 for (var p = 0; p < pan.length; p++) {
                     var pani = "#lst-" + pan[p];

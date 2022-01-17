@@ -6,9 +6,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Ergänzen Sie die Lücken. <br>
+                    <h2> Ergänzen Sie die Lücken. <br/>
                         <small> 빈칸을 채우세요. </small>
-                        [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
+                        [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br/> 오답이 될 때는 입력란이 붉게
                             표시됩니다.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
@@ -37,47 +37,48 @@
             <div class="row">
                 <div class="col-12 border border-dark rounded p-2">
                     <table class="table table-borderless">
-                        <thead>
-                            <tr>
-                                <th colspan="2" scope="col" class="h2 bg-light text-center">
-                                    <small>Mein Urlaub in Dresden</small></th>
-                            </tr>
-                        </thead>
                         <tbody>
                             <tr>
-                                <td style="line-height: 250%;">
+                                <td class="lh250">
                                     <div class="input-group d-inline">
-                                        Hallo, ich bin gut in Dresden
-                                        angekommen.<span class="tran"><br><small>안녕, 난 드레스덴에
-                                                잘 도착했어.</small><br></span> <span class="sen">Auf dem Incheon
+                                        Hallo Mina,<span class="tran"><br/><small>안녕 미나야,</small></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="lh250">
+                                    <div class="input-group d-inline">
+                                        ich bin gut in Dresden
+                                        angekommen.<span class="tran"><br/><small>난 드레스덴에
+                                                잘 도착했어.</small><br/></span> <span class="sen">Auf dem Incheon
                                             Flughafen war es so voll von Leuten
                                             beim Check-in, dass ich beinah mein
                                             Flugzeug <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                             t-6"
                                                 style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-1">
-                                            habe.</span><span class="tran"><br><small>인천공항에서 체크인할
+                                            habe.</span><span class="tran"><br/><small>인천공항에서 체크인할
                                                 때 사람들로 꽉 차서 거의 비행기를 놓칠 뻔
-                                                했어.</small><br></span> Aber,
+                                                했어.</small><br/></span> Aber,
                                         Gott sei Dank, gab es 1
-                                        Stunde-Verspätung!<span class="tran"><br><small>하지만 다행히도 한
-                                                시간 지연되었어!.</small><br></span>
+                                        Stunde-Verspätung!<span class="tran"><br/><small>하지만 다행히도 한
+                                                시간 지연되었어!.</small><br/></span>
                                         Ich bin zuerst nach Frankfurt und dann
-                                        anschließend nach Dresden geflogen.<span class="tran"><br><small>난 먼저 프랑크푸르트로
+                                        anschließend nach Dresden geflogen.<span class="tran"><br/><small>난 먼저 프랑크푸르트로
                                                 간 다음 이어서 드레스덴으로
-                                                갔어.</small><br></span> <span class="sen">Nach der Ankunft in
+                                                갔어.</small><br/></span> <span class="sen">Nach der Ankunft in
                                             Dresden bin ich mit dem Taxi ins
                                             Hotel <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                             t-6"
                                                 style="max-width: 150px; min-width: 100px;" aria-label="."
-                                                id="qst-2">.</span><span class="tran"><br><small>드레스덴에 도착 후
+                                                id="qst-2">.</span><span class="tran"><br/><small>드레스덴에 도착 후
                                                 택시를 타고 호텔로
-                                                갔어.</small><br></span>
+                                                갔어.</small><br/></span>
                                     </div>
                                 </td>
                             </tr>
-                            <td style="line-height: 250%;">
+                            <td class="lh250">
                                 <div class="input-group d-inline">
                                     Dort habe ich meinen Koffer <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
@@ -85,43 +86,43 @@
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-3"> und bin
                                     gleich mit der Tram in die Stadtmitte
                                     gefahren und habe dort den Zwinger, die
-                                    Frauenkirche und vieles mehr besucht.<span class="tran"><br><small>거기서 짐을 풀고 나서
+                                    Frauenkirche und vieles mehr besucht.<span class="tran"><br/><small>거기서 짐을 풀고 나서
                                             바로 트램을 타고 시내로 가서 츠빙어, 프라우엔교회, 그리고 여러 곳을
-                                            더 방문했어.</small><br></span> Besonders
+                                            더 방문했어.</small><br/></span> Besonders
                                     habe ich in der Gemäldegalerie Alte Meister
                                     am Zwinger die „Sixtinische Madonna” von
                                     Raffael <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                     border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-4">.<span
-                                        class="tran"><br><small>특히 츠빙어 옆 알테 마이스터
+                                        class="tran"><br/><small>특히 츠빙어 옆 알테 마이스터
                                             회화관에서 라파엘의 “시스틴의 성모”를
-                                            관람했어.</small><br></span> Das war
-                                    einfach wunderbar.<span class="tran"><br><small>그것은 정말
-                                            굉장했어.</small><br></span> Danach habe
+                                            관람했어.</small><br/></span> Das war
+                                    einfach wunderbar.<span class="tran"><br/><small>그것은 정말
+                                            굉장했어.</small><br/></span> Danach habe
                                     ich mit dem Bus eine Stadtrundfahrt <input autocomplete="off" type="text" class="form-control q ps-0
                                     col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                     d-inline-block t-6" style="max-width: 150px; min-width: 100px;" aria-label="."
                                     id="qst-5">.<span
-                                        class="tran"><br><small>그 후에 버스로 시내관광투어를
-                                            했어.</small><br></span> Die Stadt war
-                                    wirklich toll!<span class="tran"><br><small>도시가 정말
-                                            멋졌어!</small><br></span> Du kennst
-                                    mich ja!<span class="tran"><br><small>너도
-                                            알잖아!</small><br></span> Ich habe in
+                                        class="tran"><br/><small>그 후에 버스로 시내관광투어를
+                                            했어.</small><br/></span> Die Stadt war
+                                    wirklich toll!<span class="tran"><br/><small>도시가 정말
+                                            멋졌어!</small><br/></span> Du kennst
+                                    mich ja!<span class="tran"><br/><small>너도
+                                            알잖아!</small><br/></span> Ich habe in
                                     der Altmarkt Galerie Geschenke für meine
                                     Familie und auch für dich <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-6">.<span
-                                        class="tran"><br><small>알트마르크트 갤러리에서는
-                                            가족과 너한테 줄 선물을 샀어.</small><br></span>
+                                        class="tran"><br/><small>알트마르크트 갤러리에서는
+                                            가족과 너한테 줄 선물을 샀어.</small><br/></span>
                                     Dann habe ich mich in ein Café <input autocomplete="off" type="text" class="form-control q ps-0 col-4
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-7">.<span
-                                        class="tran"><br><small>그런 다음 카페에 앉아
-                                            있었어.</small><br></span> Dort habe
+                                        class="tran"><br/><small>그런 다음 카페에 앉아
+                                            있었어.</small><br/></span> Dort habe
                                     ich Kaffee <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                     border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
@@ -130,41 +131,47 @@
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-9">.<span
-                                        class="tran"><br><small>거기서 커피를 마시고 유명한
-                                            케이크인 아이어슈에크를 먹었어.</small><br></span>
-                                    Einfach köstlich.<span class="tran"><br><small>정말
-                                            맛있었어.</small><br></span>
+                                        class="tran"><br/><small>거기서 커피를 마시고 유명한
+                                            케이크인 아이어슈에크를 먹었어.</small><br/></span>
+                                    Einfach köstlich.<span class="tran"><br/><small>정말
+                                            맛있었어.</small><br/></span>
                                 </div>
                             </td>
                             </tr>
-                            <td style="line-height: 250%;">
+                            <td class="lh250">
                                 <div class="input-group d-inline">
-                                    Stell dir vor!<span class="tran"><br><small>상상해봐!</small><br></span>
+                                    Stell dir vor!<span class="tran"><br/><small>상상해봐!</small><br/></span>
                                     Ich habe da einen Jungen aus Österreich auf
                                     dem Konzert <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
                                     border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-10">.<span
-                                        class="tran"><br><small>난 오스트리아 출신 젊은
-                                            남자를 콘서트에서 알게 되었어.</small><br></span>
+                                        class="tran"><br/><small>난 오스트리아 출신 젊은
+                                            남자를 콘서트에서 알게 되었어.</small><br/></span>
                                     Er ist seit 3 Tagen in Dresden und hört gern
-                                    Musik!<span class="tran"><br><small>그는 드레스덴에
+                                    Musik!<span class="tran"><br/><small>그는 드레스덴에
                                             머문지 3일 되었고 음악 듣는 걸
-                                            좋아해!</small><br></span> Wir sind
+                                            좋아해!</small><br/></span> Wir sind
                                     zusammen ins Musikcafé gegangen, und haben
-                                    zusammen Musik gehört und getanzt.<span class="tran"><br><small>우리는 함께 음악카페에 가서
-                                            함께 음악을 듣고 춤을 추었어.</small><br></span>
+                                    zusammen Musik gehört und getanzt.<span class="tran"><br/><small>우리는 함께 음악카페에 가서
+                                            함께 음악을 듣고 춤을 추었어.</small><br/></span>
                                     Ich habe auch heute Abend mit ihm eine
-                                    Verabredung!<span class="tran"><br><small>오늘도 저녁에 그와 약속이
-                                            있단다!</small><br></span> Wir wollen
-                                    zusammen in die Oper gehen.<span class="tran"><br><small>우린 함께 오페라에
-                                            갈거야.</small><br></span> Ich schreibe
-                                    dir bald wieder.<span class="tran"><br><small>곧 다시
-                                            쓸게.</small><br></span> Muss schon
-                                    wieder los!<span class="tran"><br><small>벌써
-                                            다시 나가 봐야 해!</small><br></span>
+                                    Verabredung!<span class="tran"><br/><small>오늘도 저녁에 그와 약속이
+                                            있단다!</small><br/></span> Wir wollen
+                                    zusammen in die Oper gehen.<span class="tran"><br/><small>우린 함께 오페라에
+                                            갈거야.</small><br/></span> Ich schreibe
+                                    dir bald wieder.<span class="tran"><br/><small>곧 다시
+                                            쓸게.</small><br/></span> Muss schon
+                                    wieder los!<span class="tran"><br/><small>벌써
+                                            다시 나가 봐야 해!</small><br/></span>
                                 </div>
                             </td>
+                            </tr>
+                            <tr>
+                                <td class="lh250">
+                                    <div class="input-group d-inline">LG Silvia<span
+                                            class="tran"><br/><small>실비아가</small></span></div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -436,7 +443,7 @@
                                 var cl = "danger";
                             }
                             $(this).addClass("btn-" + cl + " text-" + tcl);
-                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
+                            $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br/>" + st +
                                 "</h4>");
                             $(this).prop("disabled", true);
                             $(".tran").show();

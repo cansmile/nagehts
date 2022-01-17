@@ -93,7 +93,7 @@
                     <tr>
                         <td id="t2">&nbsp;</td>
                         <td id="b2">Der Film läuft um
-                            15.30 ,17.45 und um 20.00 Uhr.<span class="tran"><small><br>영화 상영은 15시 30분,
+                            15.30, 17.45 und um 20.00 Uhr.<span class="tran"><small><br>영화 상영은 15시 30분,
                                                 17시 45분 그리고 20시에 시작합니다.</small>
                         </td>
                     </tr>
@@ -114,9 +114,9 @@
                             <td id="t4">&nbsp;
                             </td>
                             <td id="b4">Am Freitag
-                                ist die Sprechzeit von der Allianz
-                                von 10 bis 18 Uhr.<span class="tran"><small><br>금요일에
-                                                        알리안츠 보험회사는 10시에서 18시까지
+                                sind die Sprechzeiten von der Allianz
+                                von 10 bis 13 Uhr.<span class="tran"><small><br>금요일에
+                                                        알리안츠 보험회사는 10시에서 13시까지
                                                         상담합니다.</small></td>
                         </tr>
                         </tbody>
@@ -140,8 +140,8 @@
                     <tbody>
                     <tr>
                         <td id="t6">&nbsp;</td>
-                        <td id="b6">Die Sprechstunde
-                            von Dr. Fiedler ist am Mittwoch von 8 bis
+                        <td id="b6">Die Sprechzeiten
+                            von Dr. Fiedler sind am Mittwoch von 8 bis
                             12 Uhr.<span class="tran"><small><br>피들러
                                                 선생님의 수요일 진료 시간은 8시에서 12시까지
                                                 입니다.</small></td>

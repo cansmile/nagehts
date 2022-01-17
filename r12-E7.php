@@ -27,8 +27,8 @@
                             1) Auf dem Bahnhof
                             <span class="tran"><br><small>기차역에서</small></span>
                         </td>
-                        <td>Auf dem Bahnhof Wegen einer Bauarbeit ist die Waldstraße gesperrt.
-                            <span class="tran"><br><small>기차역에서   공사로 발트길이 패쇄되었습니다.</small></span></td>
+                        <td>Wegen einer Bauarbeit ist die Waldstraße gesperrt.
+                            <span class="tran"><br><small>공사로 발트길이 패쇄되었습니다.</small></span></td>
                         <td class="align-middle" width="200">
                             <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
@@ -102,8 +102,8 @@
                             2) Am Flughafen
                             <span class="tran"><br><small>공항에서</small></span>
                         </td>
-                        <td>Am Flughafen Frau Kaiser, bitte kommen Sie zur Information in Halle C
-                            <span class="tran"><br><small>공항에서    카이저씨, C홀에 있는 안내실로 와주시기 바랍니다.</small></span></td>
+                        <td>Frau Kaiser, bitte kommen Sie zur Information in Halle C
+                            <span class="tran"><br><small>카이저씨, C홀에 있는 안내실로 와주시기 바랍니다.</small></span></td>
                         <td class="align-middle" width="200">
                             <div class="btn-group q" data-toggle="buttons" role="group" id="qst-5">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -193,8 +193,8 @@
                             3) Im Fernbus
                             <span class="tran"><br><small>고속버스에서</small></span>
                         </td>
-                        <td>Im Fernbus Liebe Fahrgäste, wir fahren gleich ab.
-                            <span class="tran"><br><small>고속버스에서  버스탑승자여러분, 저희는 곧 출발합니다.</small></span></td>
+                        <td>Liebe Fahrgäste, wir fahren gleich ab.
+                            <span class="tran"><br><small>버스탑승자여러분, 저희는 곧 출발합니다.</small></span></td>
                         <td class="align-middle" width="200">
                             <div class="btn-group q" data-toggle="buttons" role="group" id="qst-10">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
@@ -225,7 +225,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>- In wenigen Minuten kommen wir am Zielort an. Wir wünschen Ihnen eine angenehme Reise.
+                        <td>In wenigen Minuten kommen wir am Zielort an. Wir wünschen Ihnen eine angenehme Reise.
                             <span class="tran"><br><small>수분내에 저희들은 목적지에 도착합니다. 여러분들에게 편안한 여행이 되길 바랍니다.</small></span>
                         </td>
                         <td class="align-middle">
@@ -242,7 +242,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>- Wir machen jetzt eine kleine Pause und treffen uns wieder hier vor dem Bus.
+                        <td>Wir machen jetzt eine kleine Pause und treffen uns wieder hier vor dem Bus.
                             <span class="tran"><br><small>우리들은 잠시 휴식시간을 가지고 이곳 버스앞에서 다시  만나요.</small></span></td>
                         <td class="align-middle">
                             <div class="btn-group q" data-toggle="buttons" role="group" id="qst-13">
@@ -258,7 +258,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>– Liebe Fluggäste, hier spricht Ihr Kapitän Martin Fischer.
+                        <td>Liebe Fluggäste, hier spricht Ihr Kapitän Martin Fischer.
                             <span class="tran"><br><small>비행기 탑승자여러분, 여러분의 기장 마틴피셔입니다.</small></span></td>
                         <td class="align-middle">
                             <div class="btn-group q" data-toggle="buttons" role="group" id="qst-14">

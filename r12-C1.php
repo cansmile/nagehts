@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 p-2 text-center my-3">
+            <div class="col-12 p-2 text-center my-3 lh250">
                 <span class="wd">11. August 1999</span>
                 <span class="wd">14. Juni</span>
                 <span class="wd">6. August</span>
@@ -261,7 +261,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["Frau", "Kim", "Mina", "Korea", "Koreanisch", "73125, 22 Mokdonggil", "11. August 1999", "MNKim12@gmail.com", "Theologie", "14. Juni", "gegen 19 Uhr", "6. August"];
+    var an = ["Frau", "Kim", "Mina", "Korea", "Koreanisch", "73125, 22 Mokdonggil", ["11. August 1999", "11. 08. 1999"], "MNKim12@gmail.com", "Theologie", "14. Juni", "gegen 19 Uhr", "6. August"];
     /* 각 문장 재생 횟수 초기화 */
     var hm = new Array(),
         sen = new Array();

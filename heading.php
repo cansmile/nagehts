@@ -669,7 +669,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                     ),
                     'r12-Uebungen' => array( 'E. Übungen', '연습문제',
                         array(
-                            'E2' => array( 'Sehen Sie sich die Bilder an. Wie heißen die Urlaubs-und Reisetypen Was passt zusammen?', '그림을 보세요. 이러한 휴가 및 여행을 뭐하고 부르나요? 무엇이 어울리나요?' ),
+                            'E1' => array( 'Sehen Sie sich die Bilder an. Wie heißen die Urlaubs-und Reisetypen Was passt zusammen?', '그림을 보세요. 이러한 휴가 및 여행을 뭐하고 부르나요? 무엇이 어울리나요?' ),
                             'E3' => array( 'Was bedeuten die Symbole (Piktogramme)?', '다음의 상징(픽토그램)들은 무슨 뜻일까요? 연결해보세요.' ),
                             'E5' => array( 'Mina fliegt ins Fernland. Ihre Mutter fragt sie, ob alles in Ordnung ist.', '미나는 멀리 여행을 떠납니다. 엄마가 미나에게 모든 것이 다 잘 준비되었는지를 묻습니다.' ),
                             'E6' => array( 'Welches Bild passt zu welchem Dialog?', '어떤 그림이 어떤 대화에 알맞습니까?' ),

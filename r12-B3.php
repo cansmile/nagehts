@@ -108,7 +108,7 @@
                                 <span class="tran"><br><small>독일어와 영어를 할 수 있습니다.</small></span>
                             </div>
                             <div class="col-12">
-                                Meine Telefonnummer ist 82- 10-1234-4321.
+                                Meine Telefonnummer ist 82-10-1234-4321.
                                 <span class="tran"><br><small>전화번호는 82-10-1234-4321입니다.</small></span>
                             </div>
                             <div class="col-12">
@@ -297,7 +297,7 @@
         var nagehts = new Howl({
             src: ["./dev/sounds/Reihe 12/r12 B3.mp3"],
             sprite: {
-                "0": [460, 121875]
+                "0": [460, 122375]
             },
             html5: true,
             volume: 1,

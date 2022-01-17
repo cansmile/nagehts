@@ -81,6 +81,7 @@
                 </button>
             </div></div>
     </div>
+    </div>
 </section>
 <section>
     <div class="container">
@@ -92,56 +93,63 @@
         </div>
         <div class="row" id="lsts">
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-danger border-white col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2 itm-lst" id="lst-1">
-                <h2 class="text-center bg-white p-2 ttl btn">
+                 class="rounded-top border bg-danger border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
+                 id="lst-1">
+                <h2 class="text-center bg-white p-2">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-1.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-orange border-white col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2 itm-lst" id="lst-2">
-                <h2 class="text-center bg-white p-2 ttl btn">
+                 class="rounded-top border bg-orange border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
+                 id="lst-2">
+                <h2 class="text-center bg-white p-2">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-2.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-warning border-white col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2 itm-lst" id="lst-3">
-                <h2 class="text-center bg-white p-2 ttl btn">
+                 class="rounded-top border bg-warning border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
+                 id="lst-3">
+                <h2 class="text-center bg-white p-2">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-3.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-success border-white col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2 itm-lst" id="lst-4">
-                <h2 class="text-center bg-white p-2 ttl btn">
+                 class="rounded-top border bg-success border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
+                 id="lst-4">
+                <h2 class="text-center bg-white p-2">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-4.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-primary border-white col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2 itm-lst" id="lst-5">
-                <h2 class="text-center bg-white p-2 ttl btn">
+                 class="rounded-top border bg-primary border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
+                 id="lst-5">
+                <h2 class="text-center bg-white p-2">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-5.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-purple border-white col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2 itm-lst" id="lst-6">
-                <h2 class="text-center bg-white p-2 ttl btn">
+                 class="rounded-top border bg-purple border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
+                 id="lst-6">
+                <h2 class="text-center bg-white p-2">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-6.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
                 </h2>
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-purple border-white col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2 itm-lst" id="lst-7">
-                <h2 class="text-center bg-white p-2 ttl btn">
+                 class="rounded-top border bg-purple border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
+                 id="lst-7">
+                <h2 class="text-center bg-white p-2">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-7.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
@@ -159,6 +167,7 @@
     </div>
 </section>
 <div id="marg"></div>
+<div id="last" class="d-none"></div>
 <?php require "footer.php"; ?>
 <script src="./dev/js/taptogroupnomoveh.js"></script>
 <script src="./dev/js/howler.core.js"></script>
@@ -169,18 +178,20 @@
     $(".tran").hide();
 
     $(document).ready(function () {
+        <?php require "wahl.php"; ?>
         /* 정답확인 */
         $("#chk").on("click", function () {
             var na = "";
-            if ($("#wahl").is(":hidden")) {
-                $(".tran").show();/* 정답 확인 div 상자 배경색 속성 없애기 */
-                $(this).removeClass("btn-light ");
+            if ($("#itms").find("button").length < 1) {
+                $(".tran").show();
                 $(".itm-lst").each(function () {
-                    if ($(this).find(".itm")) {
-                        $(this).find(".itm").addClass("text-success fw-bold");
-                    }
+                    $(this).html($(this).find("button").html());
+                    $(this).addClass("text-success fw-bold");
                 });
-                var qa = $(".itm-lst>button").length; /* 전체 문항 수 */
+
+                /* 정답 확인 div 상자 배경색 속성 없애기 */
+                $(this).removeClass("btn-light ");
+                var qa = $(".itm-lst").length; /* 전체 문항 수 */
                 var qr = $(".text-success").length; /* 맞춘 항목 수 */
                 var pe = (qr / qa) * 100; /* 정답 비율 */
                 var tcl = "white"; /* 기본 문자색 *//* 분류 기준은 100%, 80%, 60%, 40% */
@@ -200,8 +211,6 @@
                 }
                 $(this).addClass("btn-" + cl + " text-" + tcl);
                 $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-                $(".btn-lg").text().appendTo($(this).closest("td"));
-                $(".btn-lg").remove();
             } else {
                 $("div.itm-lst").each(function (idx) {
                     if (!$(this).find("button").length) {
@@ -211,14 +220,10 @@
                         na += (idx + 1);
                     }
                 });
-                alert("모든 문제를 풀어주세요!");
+                alert(na + "번 문제를 풀어주세요!");
             }
         });
-
-        <?php require "wahl.php"; ?>
-
     });
-
 </script>
 </body>
 

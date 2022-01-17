@@ -42,7 +42,7 @@
                     mit dem Bus
                     <span class="tran"><br><small>버스로</small></span>
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans6 btn-sm t-3 btn-outline-dark itm so" id="9">
+                <button type="button" class="mt-1 mx-1 btn ans7 btn-sm t-3 btn-outline-dark itm so" id="9">
                     mit der Bahn
                     <span class="tran"><br><small>기차로</small></span>
                 </button>
@@ -586,7 +586,7 @@
                 "10": [20823, 3291],
                 "11": [41374, 3060],
                 "12": [50052, 1570],
-                "13": [72452,],
+                "13": [72452, 1375],
                 "14": [56056, 1859],
                 "15": [59657, 2049],
                 "16": [63267, 1298],

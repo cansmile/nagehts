@@ -94,7 +94,7 @@
                                         </div> Hyun Kim.<span
                                             class="ans">&nbsp;</span>
                                     </span>
-                                    <span class="tran"><br><small>안녕하세요! 저는 김이라고
+                                    <span class="tran"><br><small>안녕하세요! 저는 김 현이라고
                                             해요.</small></span>
                                 </td>
                             </tr>

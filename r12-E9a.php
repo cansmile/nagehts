@@ -59,12 +59,12 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-danger border-white itm-lst col-sm-6 col-md-6 col-lg-6 col-xl-6 p-2"
                  id="lst-1">
-                <h2 class="text-center bg-white text-dark p-2">duzen</h2>
+                <h2 class="text-center bg-white text-dark p-2 ttl">duzen</h2>
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-orange border-white itm-lst col-sm-6 col-md-6 col-lg-6 col-xl-6 p-2"
                  id="lst-2">
-                <h2 class="text-center bg-white text-dark p-2">siezen</h2>
+                <h2 class="text-center bg-white text-dark p-2 ttl">siezen</h2>
             </div>
         </div>
         <!-- 정답화인 버튼 시작 -->

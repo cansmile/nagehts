@@ -95,7 +95,7 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-danger border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-1">
-                <h2 class="text-center bg-white p-2">
+                <h2 class="text-center bg-white p-2 ttl btn">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-1.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
@@ -104,7 +104,7 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-orange border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-2">
-                <h2 class="text-center bg-white p-2">
+                <h2 class="text-center bg-white p-2 ttl btn">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-2.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
@@ -113,7 +113,7 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-warning border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-3">
-                <h2 class="text-center bg-white p-2">
+                <h2 class="text-center bg-white p-2 ttl btn">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-3.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
@@ -122,7 +122,7 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-success border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-4">
-                <h2 class="text-center bg-white p-2">
+                <h2 class="text-center bg-white p-2 ttl btn">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-4.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
@@ -131,7 +131,7 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-primary border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-5">
-                <h2 class="text-center bg-white p-2">
+                <h2 class="text-center bg-white p-2 ttl btn">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-5.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
@@ -140,7 +140,7 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-purple border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-6">
-                <h2 class="text-center bg-white p-2">
+                <h2 class="text-center bg-white p-2 ttl btn">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-6.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">
@@ -149,7 +149,7 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-purple border-white itm-lst col-sm-12 col-md-6 col-lg-4 col-xl-2 p-2"
                  id="lst-7">
-                <h2 class="text-center bg-white p-2">
+                <h2 class="text-center bg-white p-2 ttl btn">
                     <img src="./dev/images/Reihe 12/Reihe-12-E2-7.png"
                          alt="Sehen Sie sich die Bilder an. Wie heißen die Reisetypen?"
                          style="max-width: 100%; height: auto;">

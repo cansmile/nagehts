@@ -16,17 +16,20 @@
                 <button type="button" class="mt-1 mx-1 btn ans2 btn-md t-3 btn-outline-dark itm" id="3">
                     weil
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans4 ans6 btn-md t-3 btn-outline-dark itm" id="4">
+                <button type="button" class="mt-1 mx-1 btn ans4 btn-md t-3 btn-outline-dark itm" id="4">
                     Wenn
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans3 btn-md t-3 btn-outline-dark itm" id="5">
                     obwohl
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans6 ans4 btn-md t-3 btn-outline-dark itm" id="6">
+                <button type="button" class="mt-1 mx-1 btn ans6 btn-md t-3 btn-outline-dark itm" id="6">
                     Wenn
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans5 btn-md t-3 btn-outline-dark itm" id="7">
-                    als
+                    Als
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans7 btn-md t-3 btn-outline-dark itm" id="8">
+                    dass
                 </button>
             </div>
         </div>

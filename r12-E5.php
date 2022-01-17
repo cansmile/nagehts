@@ -20,7 +20,7 @@
                         <button type="button"
                                 class="btn disabled btn-sm btn-<?php echo( $color ); ?>">HV
                         </button>
-                        버튼과 Mina의
+                        버튼과
                         <button type="button"
                                 class="btn disabled btn-sm btn-outline-dark">▶
                         </button>
@@ -38,7 +38,7 @@
                             <tr>
                                 <th score="col"><strong>Notiz</strong>
                                     <span class="tran"><br/><small>주의</small></span>
-                                </th>
+                    </div></div></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -70,7 +70,7 @@
                                             <span class="tran"><br><small>방을 예약하다</small></span>
                                         </li>
                                     </ul>
-                                </td>
+            </div></div></td>
                             </tr>
                             </tbody>
                         </table>
@@ -88,9 +88,9 @@
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
-                                <td>Hast du dich schon impfen lassen?
+                                <td><div class="input-group">Hast du dich schon impfen lassen?
                                     <span class="tran"><br><small>예방접종은 했니?</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
                                 <th scope="row">&nbsp;
@@ -100,13 +100,13 @@
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     Ja, ich wurde schon geimpft.
                                     <span class="tran"><br><small>네, 예방접종 했어요.</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
-                                <th colspan="2" scope="row">&nbsp;</th>
+                                <th colspan="2" scope="row">&nbsp;</div></div></th>
                             </tr>
                             <tr>
                                 <th scope="row">
@@ -114,9 +114,9 @@
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
-                                <td>Hast du deinen Reisepass verlängern lassen?
+                                <td><div class="input-group">Hast du deinen Reisepass verlängern lassen?
                                     <span class="tran"><br><small>너의 여권은 연장했니?</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
                                 <th scope="row">&nbsp;
@@ -126,7 +126,7 @@
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     Ja, mein Reisepass
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
@@ -135,10 +135,10 @@
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-2">.
                                     <span class="tran"><br><small>네, 저의 여권은 연장되었어요.</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
-                                <th colspan="2" scope="row">&nbsp;</th>
+                                <th colspan="2" scope="row">&nbsp;</div></section></th>
                             </tr>
                             <tr>
                                 <th scope="row">
@@ -146,9 +146,9 @@
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
-                                <td>Und dein Visum?
+                                <td><div class="input-group">Und dein Visum?
                                     <span class="tran"><br><small>그리고 너의 비자는?</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
                                 <th scope="row">&nbsp;
@@ -158,7 +158,7 @@
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     Ja, das Visum
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
@@ -169,10 +169,10 @@
                                            placeholder="Antwort" aria-label="Antwort" id="qst-4">
                                     .
                                     <span class="tran"><br><small>네, 비자도 이미 발급됐어요.</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
-                                <th colspan="2" scope="row">&nbsp;</th>
+                                <th colspan="2" scope="row">&nbsp;</div></th></th>
                             </tr>
                             <tr>
                                 <th scope="row">
@@ -181,7 +181,7 @@
                                     button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-5">
@@ -191,7 +191,7 @@
                                            placeholder="Antwort" aria-label="Antwort" id="qst-6">
                                     ?
                                     <span class="tran"><br><small>너의 여행은 예약했니?</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
                                 <th scope="row">&nbsp;
@@ -201,7 +201,7 @@
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     Ja, die Reise
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
@@ -212,10 +212,10 @@
                                            placeholder="Antwort" aria-label="Antwort" id="qst-8">
                                     .
                                     <span class="tran"><br><small>네, 여행도 이미 예약됐어요.</small></span>
-                                </td>
+                                    </div></td></td>
                             </tr>
                             <tr>
-                                <th colspan="2" scope="row">&nbsp;</th>
+                                <th colspan="2" scope="row">&nbsp;</th></th>
                             </tr>
                             <tr>
                                 <th scope="row">
@@ -223,7 +223,7 @@
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-9">
@@ -233,7 +233,7 @@
                                            placeholder="Antwort" aria-label="Antwort" id="qst-10">
                                     ?
                                     <span class="tran"><br><small>짐은 챙겼니?</small></span>
-                                </td>
+                                    </div></td>
                             </tr>
                             <tr>
                                 <th scope="row">&nbsp;
@@ -243,7 +243,7 @@
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     Ja, die Tasche
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
@@ -253,10 +253,10 @@
                                            placeholder="Antwort" aria-label="Antwort" id="qst-12">
                                     .
                                     <span class="tran"><br><small>네, 짐도 다 쌌어요.</small></span>
-                                </td>
+                                    </div></td>
                             </tr>
                             <tr>
-                                <th colspan="2" scope="row">&nbsp;</th>
+                                <th colspan="2" scope="row">&nbsp;</th></th>
                             </tr>
                             <tr>
                                 <th scope="row">
@@ -264,7 +264,7 @@
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
                                            placeholder="Antwort" aria-label="Antwort" id="qst-13">
@@ -274,7 +274,7 @@
                                            placeholder="Antwort" aria-label="Antwort" id="qst-14">
                                     ?
                                     <span class="tran"><br><small>방은 예약했니?</small></span>
-                                </td>
+                                    </div></td>
                             </tr>
                             <tr>
                                 <th scope="row">&nbsp;
@@ -284,7 +284,7 @@
                                     </span>
                                 </th>
                                 <td><strong>Mina:</strong></td>
-                                <td>
+                                <td><div class="input-group">
                                     Ja, das Zimmer
                                     <input autocomplete="off" type="text" style="max-width: 80px; min-width: 80px;"
                                            class="form-control q rounded-0 border border-dark border-bottom-only text-center mx-1 px-2 py-1 t-3"
@@ -294,9 +294,7 @@
                                            placeholder="Antwort" aria-label="Antwort" id="qst-16">
                                     .
                                     <span class="tran"><br><small>네, 방은 예약됐어요.</small></span>
-                                </td>
-                            </tr>
-
+                                    </div></td>
                             </tr>
                             <tr>
                                 <th scope="row">
@@ -304,9 +302,9 @@
                                     </button>
                                 </th>
                                 <td><strong>Mutter:</strong></td>
-                                <td>Gut! Mina! Dann kann nichts mehr schief gehen, oder?
+                                <td><div class="input-group">Gut! Mina! Dann kann nichts mehr schief gehen, oder?
                                     <span class="tran"><br><small>좋아 미나! 더 이상 확인할 것이 없구나, 그렇지?</small></span>
-                                </td>
+                                    </div></td>
                             </tr>
                             </tbody>
                         </table>
@@ -331,7 +329,7 @@
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>
 <script>
-    $("#0").hide();
+    $(".so").hide();
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
@@ -373,11 +371,11 @@
                 "4": [31725, 2278],
                 "5": [39601, 2167],
                 "6": [46924, 2459],
-                "7": [54435, 1549],
+                "7": [54500, 4145],
                 "8": [12491, 2741],
                 "9": [19933, 3266],
                 "10": [26707, 3638],
-                "11": [34807, 3228],
+                "11": [31773, 2129],
                 "12": [42643, 2875],
                 "13": [50455, 3158]
             },
@@ -616,7 +614,7 @@
                         $(this).prop("disabled", true);
                         $(".tran").show();
                         $(this).attr("id", "done");
-                        $("#0").show();
+                        $(".so").show();
                     } else {
                         alert("모든 문제를 풀어주세요!");
                     }

@@ -63,7 +63,7 @@
                                     class="so btn btn-outline-danger">▶
                             </button>
                         </td>
-                        <td>Herr Ober, wir möchten gern bestellen.<span
+                        <td>Entschuldigung! Wir möchten gern bestellen.<span
                                 class="tran"><br>&nbsp;<small>여기
                                         주문할게요.</small></span></td>
                         <td>
@@ -119,7 +119,7 @@
                                     class="so btn btn-outline-danger">▶
                             </button>
                         </td>
-                        <td>Eine Schweinehaxe mit Sauerkraut, bitte.<span
+                        <td>Eine Schweinshaxe mit Sauerkraut, bitte.<span
                                 class="tran"><br>&nbsp;<small>자우어크라우트가 있는
                                         슈바이네학세요.</small></span></td>
                         <td>
@@ -246,7 +246,7 @@
                 "1": [12843, 2173],
                 "2": [21566, 3593],
                 "3": [33636, 3578],
-                "4": [44884, 3224],
+                "4": [44884, 4125],
                 "5": [66095, 3932],
                 "6": [78258, 2636]
             },

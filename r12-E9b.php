@@ -50,7 +50,7 @@
                     <span class="tran"><br><small>사랑의 인사를</small></span>
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so" id="10">
-                    Mit herzlichen Grüßen
+                    Herzlichen Grüßen
                     <span class="tran"><br><small>진심의 인사를 담아서</small></span>
                 </button>
             </div>

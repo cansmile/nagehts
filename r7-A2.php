@@ -10,7 +10,7 @@
                     Wahl</div>
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="1">
-                        Tanzkurs<small><span class="tran"><br>댄스강좌<br>(So. 18
+                        Tanzkurs<small><span class="tran"><br>댄스강좌<br>(Sa. 18
                                 Uhr)</span></small>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="2">
@@ -19,10 +19,10 @@
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="3">
                         Galakonzerte<small><span class="tran"><br>갈라콘서트<br>(Sa.
-                                22 Uhr)</span></small>
+                                19 Uhr)</span></small>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="4">
-                        Kino<small><span class="tran"><br>영화관<br>(Fr. bis Sa.
+                        Kino<small><span class="tran"><br>영화관<br>(So. bis So.
                                 15.30)</span></small>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="5">
@@ -33,7 +33,7 @@
                                 서커스<br>(So. 15.30)</span></small>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="7">
-                        Kino<small><span class="tran"><br>영화관<br>(Fr. bis Sa.
+                        Kino<small><span class="tran"><br>영화관<br>(Fr. bis So.
                                 17.45, 20.00)</span></small>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="8">

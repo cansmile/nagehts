@@ -391,7 +391,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 q border-lime rounded border" id="20"
                 style="min-height: 450px;">
-                    <h3 class="mt-3">20. 유럽 중에 가장 큰 항구도시는 어디인가요?</h3>
+                    <h3 class="mt-3">20. 독일에서 가장 큰 항구도시는 어디인가요?</h3>
                     <div class="align-middle text-start pb-3">
                         <div class="btn btn-info pop btn-lg w-100 mb-1 text-start o" data-toggle="popover"
                         data-container="body" data-placement="top" data-content="정답!">

@@ -19,9 +19,8 @@
         </div>
         <div class="row">
             <div class="col-12 wd_inline_inverted">Mina ist in Dresden und nimmt an einem Sommerkurs teil. Darüber
-                schreibt sie auf Facebook. Ergänzen Sie die Satzzeichen (./,/?) und auch die passenden Konnektoren.
-                Schreiben Sie neu.
-                <span class="tran fw-bold">&nbsp;<small>미나는 드레스덴에 있고 여름어학코스에 참석합니다. 이에 대해 그녀는 페이스북에 글을 썼습니다. 문장부호(./,/?)와 알맞은 접속사를 채워서 새롭게 써보세요.</small><br /></span>
+                schreibt sie auf Facebook. Was ist richtig? Kreuzen Sie an.
+                <span class="tran fw-bold"><br /><small>미나는 드레스덴에 있고 여름어학코스에 참석합니다. 이에 대해 그녀는 페이스북에 글을 썼습니다. 무엇이 맞나요? 표시해 보세요.</small><br /></span>
             </div>
         </div>
         <div class="row">

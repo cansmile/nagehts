@@ -213,18 +213,18 @@
                     <tr>
                         <th scope="row" rowspan="3" class="table-light fw-bold align-middle">단수</th>
                         <td class="table-light fw-bold">1격</td>
-                        <td class="text-primary">hausgemachter Kuchen ein anderer Wochentag
+                        <td class="text-primary">hausgemachter Kuchen <br />ein anderer Wochentag
                         </td>
                         <td class="text-purple align-middle" rowspan="2">frisches Obst</td>
                         <td class="text-danger align-middle" rowspan="2">leckere Wurst</td>
                     </tr>
                     <tr>
                         <td class="table-light fw-bold">4격</td>
-                        <td class="text-primary">hausgemachten Kuchen einen anderen Wochentag</td>
+                        <td class="text-primary">hausgemachten Kuchen <br />einen anderen Wochentag</td>
                     </tr>
                     <tr>
                         <td class="table-light fw-bold">3격</td>
-                        <td class="text-primary">hausgemachtem Kuchen einem anderen Wochentag</td>
+                        <td class="text-primary">hausgemachtem Kuchen <br />einem anderen Wochentag</td>
                         <td class="text-purple">frischem Obst</td>
                         <td class="text-danger">leckerer Wurst</td>
                     </tr>

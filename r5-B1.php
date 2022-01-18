@@ -41,7 +41,7 @@
                             </tr>
                             <tr>
                                 <th scope="row"><button type="button" id="4"
-                                        class="so btn btn-outline-danger">▶</button></th>
+                                        class="so btn btn-outline-success">▶</button></th>
                                 <td>Mein Lieblingsessen ist Wurstbrot. Das schmeckt gut.<span class="tran"><br><small>내가
                                             좋아하는 음식은 소시지빵이야. 그것이 맛이 좋아.</small></span></td>
                             </tr>

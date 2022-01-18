@@ -47,8 +47,7 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </th>
                                 <td>Ich esse <strong>lieber</strong>
-                                    Wurstbrot.<span class="tran"><br><small>오히려
-                                            소시지빵 먹는 게 더 좋아.</small></span></td>
+                                    Wurstbrot.<span class="tran"><br><small>난 소시지빵 먹는 게 더 좋아.</small></span></td>
                             </tr>
                             <tr>
                                 <th scope="row"><button type="button" id="5" class="so btn btn-outline-info">▶</button>

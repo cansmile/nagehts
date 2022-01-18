@@ -278,7 +278,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                         array(
                             'B1' => array( 'Mein Lieblingsessen', '내가 좋아 하는 음식' ),
                             'B2' => array( 'Was trinkst du gern?', '무엇을 즐겨 마시니?' ),
-                            'B4' => array( 'Ich esse lieber Brot.', '나는 차라리 빵을 먹겠어요.' ),
+                            'B4' => array( 'Ich esse lieber Brot.', '나는 빵을 더 즐겨 먹어요.' ),
                         )
                     ),
                     'r5-Was isst und trinkt er,sie' => array( 'C. Was isst und trinkt er/sie?', '그(녀)는 무엇을 먹고 마시나요?',

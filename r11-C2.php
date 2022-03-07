@@ -27,11 +27,11 @@
                         <div class="btn-group q" id="qst-1" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />1. Das Online-Shopping wird immer wichtiger für uns. Es gehört zu unserem Alltag. Nicht selten kaufe ich auch im Internet ein. Dort kaufe ich gern Schuhe oder Kleidung, weil es viele Angebote gibt und man sie miteinander vergleichen kann. Vor allem wird die Ware in nur ein paar Tagen vor die Tür geliefert. Was nicht passt, kann einfach wieder zurückgeschickt werden. Das finde ich einfach prima.
@@ -51,11 +51,11 @@
                         <div class="btn-group q" id="qst-2" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />2. Online-Shopping ist sehr bequem. Das gebe ich zu. Aber man kann durch den Einkauf den kleinen, lokalen Läden schaden, die dadurch Verluste machen. Man verursacht beim Online Shopping Verpackungsmüll. Nee, lieber nicht.
@@ -75,11 +75,11 @@
                         <div class="btn-group q" id="qst-3" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />3. Unschlagbar ist der Einkauf im Internet, weil es dort einfach alles gibt. Mir ist es schon oft passiert, dass ich im Laden etwas bestimmtes kaufen wollte und es dort einfach nicht gefunden habe. Ein paar Klicks im Internet und schon findet man, was man sucht und auch gleich bestellt. Das ist wunderbar. Ich kann es nur jedem empfehlen.
@@ -99,11 +99,11 @@
                         <div class="btn-group q" id="qst-4" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />4. Wenn der Winter kommt und das Weihnachtsfest vor der Tür steht, sind die Lieferungen praktisch. Am Abend bestelle ich auf der Couch schnell die Geschenke, und ein paar Tage später stehen sie bei mir vor der Tür. Das Online-Shopping-Wunder ist eine geniale Erfindung.
@@ -123,11 +123,11 @@
                         <div class="btn-group q" id="qst-5" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />5. Ich liebe Einkaufsbummel, und zwar gemeinsam mit meinen Freundinnen. Wir genießen es, entspannt shoppen zu gehen. Wir können die Kleidungen anprobieren und uns gegenseitig beraten, was uns steht und was nicht. Danach gehen wir auch ins Café und plaudern. Gemeinsam einen Eiskaufsbummel zu machen macht uns mehr Spaß als allein am Computer zu sitzen.
@@ -147,11 +147,11 @@
                         <div class="btn-group q" id="qst-6" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />6. Auch wenn viele Läden anbieten, Lebensmittel nach Hause zu liefern, gehe ich wie die meisten Deutschen nach wie vor lieber selber in den Supermarkt, um einzukaufen. Dadurch kann ich mit meinen Augen überprüfen, ob das Obst oder Gemüse tatsächlich frisch ist.
@@ -171,11 +171,11 @@
                         <div class="btn-group q" id="qst-7" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />7. Ich lasse mir keine Ware aus China oder anderen entfernten Ländern schicken. Sonst haben wir wieder ein Problem mit dem Umweltschutz. Die Registrierung wird zwar einfacher, das Bestellen immer schneller, aber die Mitarbeiter werden oft nicht gut behandelt. Deswegen versuche ich, selbst in den Läden einzukaufen.
@@ -195,11 +195,11 @@
                         <div class="btn-group q" id="qst-8" data-toggle="buttons" role="group">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답!">
-                                    Richtig
+                                    Ja
                                 </div>
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                      data-placement="top" data-content="정답이 아니에요.">
-                                    Falsch
+                                    Nein
                                 </div>
                             </div>
                         <br />8. Ich lasse mich gern in einem Geschäft beraten. Die Verkäufer/-innen helfen mir bei der Wahl. Das gibt es im Internet eben nicht. Mir fehlen die Menschen, die mich angenmessen beraten können. Ich lese auch die Bewertungen von Produkten. Aber leider sind diese oft nicht echt.

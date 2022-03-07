@@ -103,14 +103,6 @@
                 <h2 class="btn btn-xl bg-white ttl w-100">dagegen sein&nbsp;<small><strong>반대</strong></small></h2>&nbsp;
             </div>
         </div>
-        <div class="row py-2 border border-dark rounded-1 mt-2">
-            <div class="col-12 my-2">Im Supermakt kaufe ich normalerweise Butter, ...  und .... .
-                <span class="tran"><br><small>수퍼마켓에서는 보통 버터를 삽니다, ... 그리고  .... .</small></span>
-            </div>
-            <div class="col-12 my-2">Auf dem Markt kaufe ich meistens Erdbeeren, ... und ... .
-                <span class="tran"><br><small>시장에서는 딸기를 삽니다, ... 그리고 ... . </small></span>
-            </div>
-        </div>
         <!-- 정답화인 버튼 시작 -->
         <div class="row">
             <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"

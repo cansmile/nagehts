@@ -130,7 +130,7 @@
             <div class="col-12 text-center h4 bg-light py-2">Anzeigen&nbsp;<small class="fw-bold">광고</small></div>
             <div class="col-6 p-3 border border-dark rounded-3">
                 <div class="fw-bold my-2 bg-gray-light p-2 rounded-3 h5">
-                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
+                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
                     a. Sonderverkauf im Kaufhaus Neuwelt
                     <span class="tran"><br/><small>노이벨트 백화점 바겐세일</small></span><br/></div>
                 Nicht verpassen!
@@ -144,7 +144,7 @@
             </div>
             <div class="col-6 p-3 border border-dark rounded-3">
                 <div class="fw-bold my-2 bg-gray-light p-2 rounded-3 h5">
-                    <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
+                    <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
                     b. Claudia‘s Nähstudio Änderungsschneiderei
                     <span class="tran"><br><small>클라우디아 바느질스튜디오 수선점</small></span><br/></div>
                 Expressänderungen/Gardinen
@@ -160,7 +160,7 @@
             </div>
             <div class="col-6 p-3 border border-dark rounded-3">
                 <div class="fw-bold my-2 bg-gray-light p-2 rounded-3 h5">
-                    <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
+                    <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
                     c. Einkaufszentrum W-Markt
                     <span class="tran"><br><small>쇼핑센터 W-마트</small></span><br/></div>
                 Stöbern und entdecken!
@@ -174,7 +174,7 @@
             </div>
             <div class="col-6 p-3 border border-dark rounded-3">
                 <div class="fw-bold my-2 bg-gray-light p-2 rounded-3 h5">
-                    <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
+                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
                     d. Größter Garagen-Flohmarkt in der Dürerstraße
                     <span class="tran"><br><small>뒤러슈트라쎄에서 가장 큰 창고-벼룩시장</small></span><br/></div>
                 Samstag, 19. 09. 2020
@@ -190,7 +190,7 @@
             </div>
             <div class="col-6 p-3 border border-dark rounded-3">
                 <div class="fw-bold my-2 bg-gray-light p-2 rounded-3 h5">
-                    <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
+                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
                     e. Motorradhaus Fieber
                     <span class="tran"><br/><small>피버 오토바이 대리점</small></span><br/></div>
                 Riesige Auswahl an Motorrädern, Elektrorollern, Kick-Scootern und weiteres Zubehör
@@ -202,7 +202,7 @@
             </div>
             <div class="col-6 p-3 border border-dark rounded-3">
                 <div class="fw-bold my-2 bg-gray-light p-2 rounded-3 h5">
-                    <button type="button" id="11" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
+                    <button type="button" id="12" class="so btn btn-outline-dark btn-sm me-2 bg-white">▶</button>
                     f. Drogerie Mähler
                     <span class="tran"><br><small>멜러 상점</small></span><br/></div>
                 Vielfalt für die ganze Familie!

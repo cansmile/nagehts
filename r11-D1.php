@@ -81,7 +81,7 @@
 
             </div>
             <div class="col-12 mt-3 lh350">Gestern habe ich im Supermarkt eine Packung Kaffee mit dem
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-1">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -103,7 +103,7 @@
                 Darüber habe ich erst vor einigen Tagen in einer Fernsehsendung erfahren.
                 <span class="tran"><small>좋은 점은 공정거래를 통해 상대적으로 어려운 생산업체를 도울 수 있다는 거야.</small><br></span>
                 Das Gute dabei ist, dass man durch Fairen Handel benachteiligten
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-3">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -111,7 +111,7 @@
                 helfen hann.
                 <span class="tran"><small>따라서 우리가 공정거래 제품을 더 많이 사면 생산자들은 안정적인 수입과 더 나은 미래를 위한 기회를 가질 수 있어.</small><br></span>
                 Wenn wir also mehr Fairtrade-Produkte einkaufen, können Produzenten ein stabiles
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-4">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -119,13 +119,13 @@
                 und die Chance auf eine bessere Zukunft haben.
                 <span class="tran"><small>이것은 예를 들어 물과 전기를 공급하거나 학교를 개조함으로써 재배를 하는 나라에 사는 가족의 근로 및 생활 조건을 개선할 수 있다는 걸 의미해.</small><br></span>
                 Das bedeutet, die Arbeits- und
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-5">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
                 </div>
                 von den Familien in den Anbauländern können verbessert werden, zum Beispiel durch eine
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-6">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -134,17 +134,22 @@
                 <span class="tran"><small>독일에는 많은 슈퍼마켓, 카페, 제과점 및 레스토랑, 유기농 및 수입상점에 2000개 이상의 공정거래 제품이 있어.</small><br></span>
 
                 In Deutschland gibt es über 2000 Fairtrade-Produkte in vielen Supermärkten, Cafés, Bäckereien und Restaurants, Bio- und
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-7">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
                 </div>
                 .
                 <span class="tran"><small>오늘날 공정거래 제품은 거의 어디서나 살 수 있어.</small><br></span>
-                Heute sind Fairtrade-Produkte praktisch überall erhältlich.
+                Heute sind Fairtrade-Produkte praktisch überall
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-8">
+                    <h2 class="btn btn-warning btn-md ttl w-100"
+                        style="max-width: 150px; min-width: 150px;">
+                        ▼ </h2>
+                </div>.
                 <span class="tran"><small>생산공정은 특히 투명해.</small><br></span>
                 Besonders ist der Produktionsprozess
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-9">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -152,7 +157,7 @@
                 .
                 <span class="tran"><small>즉, 누가 우리의 식료품을 재배하는지, 어디서 왔는지 추적할 수 있어.</small><br></span>
                 Das heißt, wir können verfolgen, wer unsere Lebensmittel
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-10">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -160,7 +165,7 @@
                 und woher sie kommen.
                 <span class="tran"><small>그래서 공정 거래 제품은 신뢰할만해.</small><br></span>
                 Deshalb sind Fairtrade-Produkte
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-11">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -169,7 +174,7 @@
                 <span class="tran"><small>TV 방송에 따르면 커피는 가장 잘 알려진 공정거래 제품 중 하나야.</small><br></span>
 
                 Nach Angaben der Sendung ist Kaffee einer der
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-12">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>
@@ -177,7 +182,7 @@
                 Produkte des Fairen Handels.
                 <span class="tran"><small>그외에도 바나나, 코코아, 쌀, 차, 설탕 등과 같은 다른 공정 거래 제품도 많이 있어.</small><br></span>
                 Außerdem gibt es auch noch viele andere Fairtrade-Produkte wie Bananen, Kakao, Reis, Tee, Zucker usw. Wenn wir nun Fairtrade-Produkte kaufen würden, dann könnten nicht nur die Produzenten, sondern auch ihre Familien
-                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-13">
                     <h2 class="btn btn-warning btn-md ttl w-100"
                         style="max-width: 150px; min-width: 150px;">
                         ▼ </h2>

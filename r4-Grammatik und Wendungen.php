@@ -446,7 +446,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250"><strong>Er</strong>ist schön.</div>
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Er</strong> ist schön.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -468,7 +468,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250"><strong>Sie</strong>ist altmodisch.</div>
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Sie</strong> ist altmodisch.</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -490,7 +490,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250"><strong>Es</strong>ist klein.</div>
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Es</strong> ist klein.</div>
                                             </div>
                                         </td>
                                     </tr>

@@ -83,11 +83,11 @@
                     oder : <input autocomplete="off" type="text"
                                   class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                                   style="max-width: 100px; min-width: 150px;"
-                                  aria-label="." id="qst-5"> den Pfirsichen sind die Erdbeeren teurer das <input
+                                  aria-label="." id="qst-5"> den Pfirsichen sind die Erdbeeren <input
                         autocomplete="off" type="text"
                         class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                         style="max-width: 100px; min-width: 150px;"
-                        aria-label="." id="qst-6">.
+                        aria-label="." id="qst-6"> das Kilo.
                     <span class="tran"><small>또는: 복숭아에 비해 딸기가 킬로 당 더 비싸요.</small></span>
                 </div>
             </div>
@@ -269,7 +269,7 @@
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["Kilo", "Kilo", "Im Vergleich zu", "mehr", "Im Vergleich zu", "Kilo", "Flasche", "Flasche", "Im Vergleich zur", "weinger", "Im Vergleich zur", "billiger"];
+    var an = ["Kilo", "Kilo", "Im Vergleich zu", "mehr", "Im Vergleich zu", "teuer", "Flasche", "Flasche", "Im Vergleich zur", "weinger", "Im Vergleich zur", "billiger"];
     $(document).ready(function () {
         /* 소리 출력 전역 변수와 함수 */
         var sen = new Array(),

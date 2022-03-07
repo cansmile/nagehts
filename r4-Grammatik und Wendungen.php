@@ -358,7 +358,7 @@
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Auf Ullungdo gibt
-                                                    es<strong>keine</strong>Universität.
+                                                    es <strong>keine</strong> Universität.
                                                 </div>
                                             </div>
                                         </td>
@@ -371,7 +371,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Karla ist<strong>keine</strong>Telefonistin,
+                                                <div class="col-10 mx-1 px-1 lh250">Karla ist <strong>keine</strong> Telefonistin,
                                                     sondern Sekretärin.
                                                 </div>
                                             </div>
@@ -385,7 +385,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Er ist<strong>kein</strong>Engländer,
+                                                <div class="col-10 mx-1 px-1 lh250">Er ist <strong>kein</strong> Engländer,
                                                     sondern Amerikaner.
                                                 </div>
                                             </div>
@@ -399,7 +399,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-10 mx-1 px-1 lh250">Sim Chung ist<strong>nicht</strong>alt.
+                                                <div class="col-10 mx-1 px-1 lh250">Sim Chung ist <strong>nicht</strong> alt.
                                                 </div>
                                             </div>
                                         </td>

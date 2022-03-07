@@ -79,6 +79,7 @@
                                 <td>
                                     <div class="ant t-6" id="ant-0"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>z.B. Namdeamun
                                             Tor:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" value="das" aria-label="Antwort"
@@ -117,6 +118,7 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="2" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>1. Brandenburger Tor:</strong>&nbsp;
                                         Wo ist<input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon5"
@@ -147,6 +149,7 @@
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="3" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>2. Kolosseum:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon9"
@@ -178,6 +181,7 @@
                                     <div class="ant t-6" id="ant-11"></div>
                                     <div class="ant t-6" id="ant-12"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="4" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>3. Eiffelturm:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon13"
@@ -209,6 +213,7 @@
                                     <div class="ant t-6" id="ant-15"></div>
                                     <div class="ant t-6" id="ant-16"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="5" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>4. Panda:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon17"
@@ -240,6 +245,7 @@
                                     <div class="ant t-6" id="ant-19"></div>
                                     <div class="ant t-6" id="ant-20"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="6" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>5. Pyramide:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon21"
@@ -271,6 +277,7 @@
                                     <div class="ant t-6" id="ant-23"></div>
                                     <div class="ant t-6" id="ant-24"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="7" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>6. Mt.
                                             Kilimanjaro:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
@@ -304,6 +311,7 @@
                                     <div class="ant t-6" id="ant-27"></div>
                                     <div class="ant t-6" id="ant-28"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="8" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>7. Känguru:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon29"
@@ -336,6 +344,7 @@
                                     <div class="ant t-6" id="ant-31"></div>
                                     <div class="ant t-6" id="ant-32"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="9" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>8.
                                             Freiheitsstatue:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
@@ -368,6 +377,7 @@
                                     <div class="ant t-6" id="ant-35"></div>
                                     <div class="ant t-6" id="ant-36"></div>
                                     <div class="input-group lh250">
+                                        <button type="button" id="10" class="so btn btn-outline-dark btn-sm me-2">▶</button>
                                         <strong>9. Taco:</strong>&nbsp;
                                         Wo ist <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                             aria-describedby="basic-addon37"
@@ -468,7 +478,17 @@
                     "./dev/sounds/Reihe 2/r2 E2.mp3"
                 ],
                 sprite: {
-                    "0": [3410, 151681]
+                    "0": [3410, 151681],
+                    "1": [14457, 12801],
+                    "2": [28815, 14629],
+                    "3": [44943, 12912],
+                    "4": [59653, 13385],
+                    "5": [74345, 12015],
+                    "6": [86923, 12544],
+                    "7": [100822, 13900],
+                    "8": [115962, 12204],
+                    "9": [129354, 12750],
+                    "10": [143246, 11936]
                 },
                 html5: true,
                 volume: 1,

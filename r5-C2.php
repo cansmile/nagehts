@@ -71,7 +71,7 @@
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark so itm"
                         id="10">
-                        Marmelade.<span
+                        eine Marmelade.<span
                             class="tran">&nbsp;<br /><small>잼.</small></span>
                     </button>
                     <button type="button"

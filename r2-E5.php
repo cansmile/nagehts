@@ -217,6 +217,7 @@
                         if ($("#wahl").visibility != "visible" && $(this).attr("id") ==
                             "chk") {
                             $(this).attr("id", "done");
+                            $('.tran').show();
                             $(".itm-lst").each(function () {
                                 $(this).find("button").addClass(
                                     "text-success fw-bold");

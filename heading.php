@@ -632,7 +632,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E9' => array( 'Hören Sie den Text.', '본문을 읽으세요.' ),
                         )
                     ),
-                    '' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r11-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
                 )
             ),
         12 =>

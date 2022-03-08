@@ -154,12 +154,12 @@
             <div style="min-height: 240px;"
                  class="rounded-top border bg-danger border-white itm-lst col-6 p-2"
                  id="lst-1">
-                <h2 class="btn btn-xl bg-white ttl w-100 font-weight-bold">im Supermarkt&nbsp;<small><strong>슈퍼마켓에서</strong></small></h2>&nbsp;
+                <h2 class="btn btn-xl bg-white ttl w-100 fw-bold">im Supermarkt&nbsp;<small><strong>슈퍼마켓에서</strong></small></h2>&nbsp;
             </div>
             <div style="min-height: 240px;"
                  class="rounded-top border bg-success border-white itm-lst col-6 p-2"
                  id="lst-2">
-                <h2 class="btn btn-xl bg-white ttl w-100 font-weight-bold">auf dem Markt&nbsp;<small><strong>시장에서</strong></small></h2>&nbsp;
+                <h2 class="btn btn-xl bg-white ttl w-100 fw-bold">auf dem Markt&nbsp;<small><strong>시장에서</strong></small></h2>&nbsp;
             </div>
         </div>
         <!-- 정답화인 버튼 시작 -->

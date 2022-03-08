@@ -1,0 +1,377 @@
+<?php require_once( "heading.php" ); ?>
+<!-- 보기시작 -->
+<section class="bg-white rounded p-2"
+
+         id="wahl">
+    <div class="container">
+        <div class="row">
+            <div class="bg-<?php echo( $color ); ?> wahl_title col-12">Wahl</div>
+            <div class="col-12" id="itms">
+                <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm px-3 so" id="1">Aus diesem
+                    Grund möchte ich Sie darum bitten,
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm px-3 so" id="2">warte auf
+                    baldige Antwort Ihrerseits.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm px-3 so" id="3">Sie war mir
+                    zu klein.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm px-3 so" id="4">Auch die
+                    Online-Bewertungen waren sehr positiv.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm px-3 so" id="5">wünsche ich,
+                    dass Sie mir die Kosten zurückerstatten.
+                </button>
+                <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm px-3 so" id="6">die Hose ist
+                    insgesamt allgemein etwas klein ausgefallen. ~
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <!-- 고르는 아이템들 -->
+        <div class="row">
+            <div class="col-lg-12 mb-4 mt-2 text-center">
+                <h2>[ <small>Vervollständigen Sie die Sätze mit den richtigen Wörtern.
+                        <span class="tran"><br /><small>리자는 요일장에 갔던 일을 페이스북에 씁니다. 알맞은 단어로 문장을 완성하세요.</small></span>
+                    </small> ]
+                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
+                        HV
+                    </button>
+                </h2>
+                <h3>[ <small>
+                        <button type="button"
+                                class="btn disabled btn-sm btn-<?php echo( $color ); ?>">HV
+                        </button>
+                        버튼은 정답을 확인해야 나옵니다.</small> ]
+                </h3>
+            </div>
+        </div>
+        <div class="row mt-2 border border-dark rounded-3 p-2">
+            <div class="col-12 mb-5">Betreff: Reklamation über die bestellte Hose
+                <span class="tran"><br /><small>제목: 주문한 바지에 대한 구매 취소 및 환불요청</small></span></div>
+            <div class="col-12 lh250">Sehr geehrte Damen und Herren,
+                <span class="tran"><br /><small>친애하는 담당자님께,</small></span></div>
+            <div class="col-12 lh250">vor einer Woche habe ich auf Ihrer Hompage das tolle Angebot für eine schicke Hose entdeckt.
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-1">
+                    <h2 class="btn btn-warning btn-md ttl w-100"
+                        style="max-width: 150px; min-width: 150px;">
+                        ▼ </h2>
+                </div>
+            . Deshalb habe ich ohne groß zu zögern die Hose bestellt. Sobald sie geliefert wurde, habe ich sie gleich anprobiert - leider vegebens.
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-2">
+                    <h2 class="btn btn-warning btn-md ttl w-100"
+                        style="max-width: 150px; min-width: 150px;">
+                        ▼ </h2>
+                </div>
+             Normalerweise passt mir die Größe 38 gut. Ich glaube,
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-3">
+                    <h2 class="btn btn-warning btn-md ttl w-100"
+                        style="max-width: 150px; min-width: 150px;">
+                        ▼ </h2>
+                </div>
+            Darauf hätten Sie eventuell vor dem Kauf hinweisen müssen! Vor dem Bestellen konnte ich mich aber in der Produktbeschreibung gar nicht darüber informieren.
+                <span class="tran"><br /><small>몇 주 전 저는 귀 회사 홈페이지에서 정말 좋은 특가상품인 세련된 바지를 발견했습니다. 온라인 상품평도 매우 긍정적이었습니다. 그래서 크게 주저하지 않고 그 바지를 주문했습니다. 바지가 배송되자마자, 바로 입어보았습니다 – 안타깝게도 헛수고였습니다. 바지는 저한테 너무 작았습니다. 보통 38 사이즈는 저에게 잘 맞습니다. 제 생각에 이 바지는 전체적으로 모두 약간 작게 제작된 것 같습니다. 그것에 대해서 구매 전에 어떻게든 알려주시는게 좋았을 겁니다! 하지만 주문 전에 전 상품설명에서 그 부분에 대해 전혀 정보를 얻을 수 없었습니다.</small></span></div>
+            <div class="col-12">
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-4">
+                    <h2 class="btn btn-warning btn-md ttl w-100"
+                        style="max-width: 150px; min-width: 150px;">
+                        ▼ </h2>
+                </div>
+            die Hose zurückzunehmen und mir eine in einer Größe größer zurückzuschicken. Wenn es diese nicht mehr in Größe 40 gibt,
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-5">
+                    <h2 class="btn btn-warning btn-md ttl w-100"
+                        style="max-width: 150px; min-width: 150px;">
+                        ▼ </h2>
+                </div>
+                <span class="tran"><br /><small>이런 이유에서 저는 이 바지를 반품하고 한 치수 더 큰 사이즈로 교환해주시기를 요청하고 싶습니다. 만일 40 사이즈 바지가 없다면 환불을 해주시기 바랍니다.</small></span>
+            </div>
+            <div class="col-12">Ich wünsche, dass der Vorgang so schnell wie möglich in Gang gesetzt wird und
+                <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-6">
+                    <h2 class="btn btn-warning btn-md ttl w-100"
+                        style="max-width: 150px; min-width: 150px;">
+                        ▼ </h2>
+                </div>
+                <span class="tran"><br /><small>가능한한 빨리 처리되기를 바라고 빠른 답변을 기다리겠습니다.</small></span>
+            </div>
+            <div class="col-12 mt-5">Mit freundlichen Grüßen
+                <span class="tran"><br /><small>인사를 전하며</small></span></div>
+            <div class="col-12">
+                Mina Kim
+                <span class="tran"><br><small>김 미나</small></span>
+            </div>
+        </div>
+        <!-- 정답화인 버튼 시작 -->
+        <div class="row">
+            <div class="btn my-3 btn-light col-sm-12 col-md-12 col-lg-12"
+                 id="chk">
+                정답확인
+            </div>
+        </div>
+        <!-- 정답확인 버튼 끝 -->
+        <div class="row mt-5">
+            <div class="col-12 my-2"><span class="tipp">TIPP</span>&nbsp;<strong>Deklination der Adjektive</strong>&nbsp;<small>형용사의
+                    어미변화</small></div>
+            <div class="col-12 mt-3">
+                <table class="table table-bordered border-light text-center">
+                    <thead class="table-light fw-bold">
+                    <tr>
+                        <th scope="col">&nbsp;</th>
+                        <th scope="col">&nbsp;</th>
+                        <th class="text-primary w-25" scope="col">maskulin</th>
+                        <th class="text-purple w-25" scope="col">neutrum</th>
+                        <th class="text-danger w-25" scope="col">feminin</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3" class="table-light fw-bold align-middle">단수</th>
+                        <td class="table-light fw-bold">1격</td>
+                        <td class="text-primary">hausgemachter Kuchen <br />ein anderer Wochentag
+                        </td>
+                        <td class="text-purple align-middle" rowspan="2">frisches Obst</td>
+                        <td class="text-danger align-middle" rowspan="2">leckere Wurst</td>
+                    </tr>
+                    <tr>
+                        <td class="table-light fw-bold">4격</td>
+                        <td class="text-primary">hausgemachten Kuchen <br />einen anderen Wochentag</td>
+                    </tr>
+                    <tr>
+                        <td class="table-light fw-bold">3격</td>
+                        <td class="text-primary">hausgemachtem Kuchen <br />einem anderen Wochentag</td>
+                        <td class="text-purple">frischem Obst</td>
+                        <td class="text-danger">leckerer Wurst</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3" class="table-light fw-bold align-middle">복수</th>
+                        <td class="table-light fw-bold">1격</td>
+                        <td class="text-primary align-middle" rowspan="2">andere Wochentage</td>
+                        <td class="text-purple align-middle" rowspan="2">regionale Produkte</td>
+                        <td class="text-danger align-middle" rowspan="2">verschiedene Würste</td>
+                    </tr>
+                    <tr>
+                        <td class="table-light fw-bold">4격</td>
+                    </tr>
+                    <tr>
+                        <td class="table-light fw-bold">3격</td>
+                        <td class="text-primary">anderen Wochentagen</td>
+                        <td class="text-purple">regionalen Produkten</td>
+                        <td class="text-danger">verschiedenen Würsten</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row my-3">
+            <ul type="circle">
+                <li>관사 없이 쓰는 형용사의 경우 뒤에 오는 명사가 남성, 중성 2격(–es 대신 –en 사용)일 때만 제외하고 정관사처럼 어미변화한다.</li>
+                <li>부사나 술어로 쓰이는 형용사는 어미없이 원급을 그대로 쓴다.<br />ganz, natürlich, zufrieden, eigentlich, schade
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div id="marg"></div>
+<div id="last" class="d-none"></div>
+
+<?php require "footer.php"; ?>
+<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/howler.core.js"></script>
+<!-- 맞고 틀리는지 소리 -->
+<?php require_once( "./dev/oxsound.php" ); ?>
+<script>
+    $("#0").hide();
+    $(".tran").hide();
+    $("#chk").hide();
+
+    /* 각 문장 재생 횟수 초기화 */
+    var hm = new Array(),
+        sen = new Array();
+    $(".so").each(function () {
+        hm[$(this).attr("id")] = 0;
+        sen[$(this).attr("id")] = $("#" + $(this).attr("id"))
+            .html();
+    });
+
+    $(document).ready(function () {
+        /* 소리 출력 전역 변수와 함수 */
+        var sen = new Array(),
+            pa = new Array(),
+            he = new Array(),
+            last;
+        $(".so").each(function () {
+            var t = $(this);
+            var ti = t.attr("id");
+            sen[ti] = 0;
+            pa[ti] = t.html();
+        });
+
+        function stopAll() {
+            $(".so").each(function () {
+                $(this).html(pa[$(this).attr("id")]);
+            });
+        } /* 문제 재생 */
+        var nagehts = new Howl({
+            src: ["./dev/sounds/Reihe 11/r11 E8.mp3"],
+            sprite: {
+                "0": [567, 81938],
+                "1": [86627, 3024],
+                "2": [94019, 3185],
+                "3": [101607, 1962],
+                "4": [108142, 3162],
+                "5": [116274, 3414],
+                "6": [124345, 4354]
+            },
+            html5: true,
+            volume: 1,
+            format: "mp3",
+            preload: true,
+            onloaderror: function () {
+                $(".alert").append(
+                    "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                );
+                console.log("다시 읽어주세요!");
+            },
+            onload: function () {
+                /* 음성 준비되면 HV 버튼 나타내기 */
+                $("#ready").hide();
+                $(".so").on("click", function () {
+                    var t = $(this);
+                    var ti = t.attr("id");
+                    if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
+                        ".itm-lst")) {
+                        $("#last").text(ti);
+                        t.text("■");
+                        nagehts.seek();
+                        nagehts.play(ti);
+                        sen[ti]++;
+                        last = ti;
+                        $("#cnt-" + ti).text(sen[ti]);
+                    } else if (last == ti && nagehts.playing($("div#last").text())) {
+                        $("#last").text("");
+                        t.html(pa[ti]);
+                        nagehts.pause();
+                        sen[ti]--;
+                        $("#cnt-" + ti).text(sen[ti]);
+                    }
+                });
+
+                $(".tran").hide();
+                $("#chk").hide();
+
+                $(document).ready(function () {
+                    /* 정답확인 */
+                    $("#chk").on("click", function () {
+                        var na = "";
+                        if ($("#itms").find("button").length < 1) {
+                            $(".tran").show();
+                            $("#0").show();
+
+                            /* 정답 확인 div 상자 배경색 속성 없애10 */
+                            $(this).removeClass("btn-light ");
+
+                            $(".itm-lst").each(function () {
+                                if ($(this).find(
+                                    "button.btn")) {
+                                    $(this).find("button.btn")
+                                        .addClass(
+                                            "text-success");
+                                }
+                            });
+
+                            var qa = $(".itm-lst").length; /* 전체 문항 수 */
+                            var qr = $(".text-success")
+                                .length; /* 맞춘 항목 수 */
+                            var pe = (qr / qa) * 100; /* 정답 비율 */
+                            var tcl = "white"; /* 기본 문자색 */
+
+                            /* 분류 기준은 100%, 80%, 60%, 40% */
+                            if (pe > 99) {
+                                var st = "원어민이세요?";
+                                var cl = "lime";
+                                var tcl = "dark";
+                            } else if (pe > 74) {
+                                var st = "어! 좀 하시는데요~^^";
+                                var cl = "success";
+                            } else if (pe > 49) {
+                                var st = "쓰읍~ 다시 해 보실까요?";
+                                var cl = "primary";
+                            } else {
+                                var st = "좀 더 분발해 주세요~";
+                                var cl = "danger";
+                            }
+
+                            $(this).addClass("btn-" + cl + " text-" +
+                                tcl);
+                            $(this).html("<h4>" + qa + "문제 중 " + qr +
+                                "개를 맞히셨네요!<br>" + st + "</h4>");
+
+                            $(".btn-lg").text().appendTo($(this)
+                                .closest("td"));
+                            $(".btn-lg").remove();
+                        } else {
+                            $("div.itm-lst").each(function (idx) {
+                                if (!$(this).find("button")
+                                    .length) {
+                                    if (na != "") {
+                                        na += ", ";
+                                    }
+                                    na += (idx + 1);
+                                }
+                            });
+                            alert("모든 문제를 풀어주세요!");
+                        }
+                    });
+
+                    <?php require "wahl.php"; ?>
+
+                    var pan = new Array();
+                    pan = [];
+                    var il = $("#itms>.itm").length;
+                    for (var p = 0; p < pan.length; p++) {
+                        var pani = "#lst-" + pan[p];
+                        $(".itm").each(function () {
+                            if ($(this).hasClass("ans" + pan[p])) {
+                                $("#" + $(this).attr("id"))
+                                    .insertBefore($("#lst-" + pan[p] +
+                                        ">h2"));
+                                $("#" + $(this).attr("id")).addClass(
+                                    "btn-inline-block");
+                                $("#" + $(this).attr("id")).addClass(
+                                    "btn-light");
+                                $("#lst-" + pan[p] + ">h2").remove();
+                            }
+                        })
+                    }
+                });
+
+            },
+            onend: function () {
+                $("div#last").text("");
+                stopAll();
+                $("#cnt-" + last).text(sen[last]);
+                if (last == 0) {
+                    if (sen[last] == 2) {
+                        $(".tran").show();
+                        $(".so").each(function () {
+                            pa[last] = $("#" + last).html();
+                        });
+                    }
+                } else if (sen[last] == 2) {
+                    if ($("#" + last).hasClass("itm")) {
+                        $("#" + last + ">.tran").show();
+                    }
+                    $("#" + last).closest("tr").find(".tran").show();
+                    pa[last] = $("#" + last).html();
+                }
+            }
+        });
+    });
+</script>
+</body>
+
+</html>

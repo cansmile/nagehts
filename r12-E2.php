@@ -1,10 +1,10 @@
-<?php require_once( "heading.php" ); ?>
+<?php require_once("heading.php"); ?>
 <!-- 보기시작 -->
 <section class="bg-white rounded p-2" id="wahl">
     <div class="container">
         <div class="row">
-            <div class="bg-<?php echo( $color ); ?> wahl_title col-12">Wahl</div>
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
+            <div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
+            <div class="col bg-<?php echo($color); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 wo
             </div>
             <div class="col-12" id="itms">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col bg-<?php echo( $color ); ?> rounded text-center text-white fw-bold col-12 mt-1">
+            <div class="col bg-<?php echo($color); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 tun
             </div>
             <div class="col-12" id="itms">
@@ -79,13 +79,12 @@
                     Beeren pflücken, Bauerhof-Erlebnis machen
                     <span class="tran"><br/><small>농장 체험하기</small></span>
                 </button>
-            </div></div>
+            </div>
+        </div>
     </div>
-    </div>
-</section>
+    </div></section>
 <section>
-    <div class="container">
-        <!-- 고르는 아이템들 -->
+    <div class="container"><!-- 고르는 아이템들 -->
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>[ <small>단어를 알맞은 위치에 넣으세요.</small> ]</h2>
@@ -172,7 +171,7 @@
 <script src="./dev/js/taptogroupnomoveh.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once( "./dev/oxsound.php" ); ?>
+<?php require_once("./dev/oxsound.php"); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();
@@ -222,6 +221,7 @@
                 });
                 alert(na + "번 문제를 풀어주세요!");
             }
+            $(".tran").show();
         });
     });
 </script>

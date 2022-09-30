@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col bg-<?php echo($color); ?> rounded text-center text-white fw-bold col-12 mt-1">
                 tun
-            </div>
+            </div><!---->
             <div class="col-12" id="itms">
                 <button class="mt-1 mx-1 btn ans2 btn-sm btn-outline-dark itm" id="8">
                     wandern
@@ -179,21 +179,26 @@
     $(document).ready(function () {
         <?php require "wahl.php"; ?>
         /* 정답확인 */
-        $("#chk").on("click", function () {
+        $("#chk").on("click", function () {{
             var na = "";
             if ($("#itms").find("button").length < 1) {
                 $(".tran").show();
-                $(".itm-lst").each(function () {
-                    $(this).html($(this).find("button").html());
-                    $(this).addClass("text-success fw-bold");
-                });
-
                 /* 정답 확인 div 상자 배경색 속성 없애기 */
                 $(this).removeClass("btn-light ");
-                var qa = $(".itm-lst").length; /* 전체 문항 수 */
-                var qr = $(".text-success").length; /* 맞춘 항목 수 */
+                $(".itm-lst").each(function () {
+                    if ($(this).find(".itm")) {
+                        $(this).find(".itm")
+                            .addClass(
+                                "text-success fw-bold"
+                            );
+                    }
+                });
+                var qa = $(".itm").length; /* 전체 문항 수 */
+                var qr = $(".text-success")
+                    .length; /* 맞춘 항목 수 */
                 var pe = (qr / qa) * 100; /* 정답 비율 */
-                var tcl = "white"; /* 기본 문자색 *//* 분류 기준은 100%, 80%, 60%, 40% */
+                var tcl = "white"; /* 기본 문자색 */
+                /* 분류 기준은 100%, 80%, 60%, 40% */
                 if (pe > 99) {
                     var st = "원어민이세요?";
                     var cl = "lime";
@@ -208,21 +213,26 @@
                     var st = "좀 더 분발해 주세요~";
                     var cl = "danger";
                 }
-                $(this).addClass("btn-" + cl + " text-" + tcl);
-                $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                $(this).addClass("btn-" + cl + " text-" +
+                    tcl);
+                $(this).html("<h4>" + qa + "문제 중 " + qr +
+                    "개를 맞히셨네요!<br>" + st + "</h4>");
+                $(".btn-lg").text().appendTo($(this)
+                    .closest("td"));
+                $(".btn-lg").remove();
             } else {
                 $("div.itm-lst").each(function (idx) {
-                    if (!$(this).find("button").length) {
+                    if (!$(this).find("button")
+                        .length) {
                         if (na != "") {
                             na += ", ";
                         }
                         na += (idx + 1);
                     }
                 });
-                alert(na + "번 문제를 풀어주세요!");
+                alert("모든 문제를 풀어주세요!");
             }
-            $(".tran").show();
-        });
+        }});
     });
 </script>
 </body>

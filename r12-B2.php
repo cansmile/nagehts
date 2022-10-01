@@ -310,8 +310,12 @@
                     if (th.val().length >= 10) {
                         var m = 1.35;
                     }
-                    var w = Math.ceil(th.textWidth() * m) + 'px';
-                    console.log(w);
+                    var w = Math.ceil(th.textWidth() * m);
+                    if (w < 100) {
+                        w = 100;
+                    } else {
+                        w = w + 'px';
+                    }
 
                     th.css("min-width", w);
                     th.css("max-width", w);

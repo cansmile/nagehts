@@ -26,28 +26,33 @@
         </div>
         <div class="row">
             <div class="col my-2 py-2 lh250">
-                <span class="wd">Im Vergleich zu</span>
+                <span class="wd">im Vergleich zu</span>
                 <span class="wd">Kilo</span>
                 <span class="wd">mehr</span>
                 <span class="wd">teurer</span>
+                <span class="wd">die</span>
             </div>
         </div>
         <div class="row border border-dark rounded-2 py-3">
             <div class="col-12 h5">
                 <button type="button" id="1" class="so btn btn-outline-dark btn-sm me-1">▶</button>
-                z.B.: 1 Kilo Pfirsiche 1,99 Euro vs. 1 Kilo Erdbeeren 5.99 Euro
-                <span class="tran"><small>z.B.: 복숭아 1kg 1,99 유로 vs. 딸기 1kg 5.99 유로</small></span>
+                z.B.: 1 Kilo Pfirsiche 1,99 Euro vs. 1 Kilo Erdbeeren 4.99 Euro
+                <span class="tran"><small>z.B.: 복숭아 1kg 1,99 유로 vs. 딸기 1kg 4.99 유로</small></span>
             </div>
             <div class="col-12 mt-2">
                 <span class="text-dark me-2 h-100">□</span>Was kosten die Pfirsiche?
                 <span class="tran"><small>복숭아는 얼마인가요?</small></span>
             </div>
             <div class="col-12 mt-2">
-                <div class="input-group"><span class="text-dark me-2 h-100">◇</span>Sie kosten 1,99 Euro das <input
+                <div class="input-group"><span class="text-dark me-2 h-100">◇</span><input
                         autocomplete="off" type="text"
                         class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                         style="max-width: 100px; min-width: 150px;"
-                        aria-label="." id="qst-1">.
+                        aria-label="." id="qst-1"> kosten 1,99 Euro pro <input
+                        autocomplete="off" type="text"
+                        class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
+                        style="max-width: 100px; min-width: 150px;"
+                        aria-label="." id="qst-2">.
                     <span class="tran"><small>1 킬로그램에 1,99 유로예요.</small></span>
                 </div>
             </div>
@@ -56,11 +61,15 @@
                 <span class="tran"><small>복숭아에 비해 딸기는 얼마인가요?</small></span>
             </div>
             <div class="col-12 mt-2">
-                <div class="input-group"><span class="text-dark me-2 h-100">◇</span>Sie kosten 4,99 Euro das <input
+                <div class="input-group"><span class="text-dark me-2 h-100">◇</span><input
                         autocomplete="off" type="text"
                         class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                         style="max-width: 100px; min-width: 150px;"
-                        aria-label="." id="qst-2">.
+                        aria-label="." id="qst-3"> kosten 4,99 Euro pro <input
+                        autocomplete="off" type="text"
+                        class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
+                        style="max-width: 100px; min-width: 150px;"
+                        aria-label="." id="qst-4">.
                     <span class="tran"><small>1 킬로그램에 4,99 유로예요.</small></span>
                 </div>
             </div>
@@ -69,13 +78,13 @@
                     <input autocomplete="off" type="text"
                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                            style="max-width: 100px; min-width: 150px;"
-                           aria-label="." id="qst-3"> den Pfirsichen kosten die Erdbeeren <input autocomplete="off"
+                           aria-label="." id="qst-5"> den Pfirsichen kosten die Erdbeeren <input autocomplete="off"
                                                                                                  type="text"
                                                                                                  class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                                                                                                  style="max-width: 100px; min-width: 150px;"
                                                                                                  aria-label="."
-                                                                                                 id="qst-4"> das Kilo.
-                    <span class="tran"><small>복숭아에 비해 딸기가 킬로 당 값이 더 나가요.</small></span>
+                                                                                                 id="qst-6">.
+                    <span class="tran"><small>복숭아에 비해 딸기가 값이 더 나가요.</small></span>
                 </div>
             </div>
             <div class="col-12 mt-2">
@@ -83,12 +92,13 @@
                     oder : <input autocomplete="off" type="text"
                                   class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                                   style="max-width: 100px; min-width: 150px;"
-                                  aria-label="." id="qst-5"> den Pfirsichen sind die Erdbeeren <input
-                        autocomplete="off" type="text"
-                        class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
-                        style="max-width: 100px; min-width: 150px;"
-                        aria-label="." id="qst-6"> das Kilo.
-                    <span class="tran"><small>또는: 복숭아에 비해 딸기가 킬로 당 더 비싸요.</small></span>
+                                  aria-label="." id="qst-7"> den Pfirsichen sind die Erdbeeren<input autocomplete="off"
+                                                                                                     type="text"
+                                                                                                     class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
+                                                                                                     style="max-width: 100px; min-width: 150px;"
+                                                                                                     aria-label="."
+                                                                                                     id="qst-8">.
+                    <span class="tran"><small>또는: 복숭아에 비해 딸기가 더 비싸요.</small></span>
                 </div>
             </div>
         </div>
@@ -102,8 +112,9 @@
                     <div class="col my-2 py-2 lh250">
                         <span class="wd">billiger</span>
                         <span class="wd">Flasche</span>
-                        <span class="wd">Im Vergleich zu</span>
+                        <span class="wd">im Vergleich zur</span>
                         <span class="wd">weinger</span>
+                        <span class="wd">die</span>
                     </div>
                 </div>
             </div>
@@ -116,11 +127,15 @@
                 <span class="tran"><small>레몬에이드는 얼마인가요?</small></span>
             </div>
             <div class="col-12 mt-2">
-                <div class="input-group"><span class="text-dark me-2 h-100">◇</span>Sie kostet 1,49 Euro die <input
+                <div class="input-group"><span class="text-dark me-2 h-100">◇</span><input
                         autocomplete="off" type="text"
                         class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                         style="max-width: 100px; min-width: 150px;"
-                        aria-label="." id="qst-7">.
+                        aria-label="." id="qst-9"> kostet 1,49 Euro pro <input
+                        autocomplete="off" type="text"
+                        class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
+                        style="max-width: 100px; min-width: 150px;"
+                        aria-label="." id="qst-10">.
                     <span class="tran"><small>한 병에 1,49 유로예요.</small></span>
                 </div>
             </div>
@@ -129,11 +144,15 @@
                 <span class="tran"><small>레몬에이드에 비해 전유는 얼마인가요?</small></span>
             </div>
             <div class="col-12 mt-2">
-                <div class="input-group"><span class="text-dark me-2 h-100">◇</span>Sie kostet 1,07 Euro die <input
+                <div class="input-group"><span class="text-dark me-2 h-100">◇</span><input
                         autocomplete="off" type="text"
                         class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                         style="max-width: 100px; min-width: 150px;"
-                        aria-label="." id="qst-8">.
+                        aria-label="." id="qst-11"> kostet 1,07 Euro pro <input
+                        autocomplete="off" type="text"
+                        class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
+                        style="max-width: 100px; min-width: 150px;"
+                        aria-label="." id="qst-12">.
                     <span class="tran"><small>한 병에 1,07유로예요.</small></span>
                 </div>
             </div>
@@ -142,13 +161,13 @@
                     <input autocomplete="off" type="text"
                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                            style="max-width: 100px; min-width: 150px;"
-                           aria-label="." id="qst-9"> Limonade kostet die Vollmilch <input autocomplete="off"
+                           aria-label="." id="qst-13"> Limonade kostet die Vollmilch <input autocomplete="off"
                                                                                            type="text"
                                                                                            class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                                                                                            style="max-width: 100px; min-width: 150px;"
                                                                                            aria-label="."
-                                                                                           id="qst-10"> die Flasche.
-                    <span class="tran"><small>레몬에이드에 비해 전유는 병 당 값이 덜 나가요.</small></span>
+                                                                                           id="qst-14">.
+                    <span class="tran"><small>레몬에이드에 비해 전유는 값이 덜 나가요.</small></span>
                 </div>
             </div>
             <div class="col-12 mt-2">
@@ -156,12 +175,12 @@
                     oder: <input autocomplete="off" type="text"
                                  class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                                  style="max-width: 100px; min-width: 150px;"
-                                 aria-label="." id="qst-11"> Limonade ist die Vollmilch <input
+                                 aria-label="." id="qst-15"> Limonade ist die Vollmilch <input
                         autocomplete="off" type="text"
                         class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark t-6"
                         style="max-width: 100px; min-width: 150px;"
-                        aria-label="." id="qst-12"> die Flasche.
-                    <span class="tran"><small>또는: 레몬에이드에 비해 전유는 병 당 더 싸요.</small></span>
+                        aria-label="." id="qst-16">.
+                    <span class="tran"><small>또는: 레몬에이드에 비해 전유는 더 싸요.</small></span>
                 </div>
             </div>
         </div>
@@ -264,12 +283,13 @@
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>
+</body>
 <script>
     $("#0").hide();
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
-    var an = ["Kilo", "Kilo", "Im Vergleich zu", "mehr", "Im Vergleich zu", "teuer", "Flasche", "Flasche", "Im Vergleich zur", "weinger", "Im Vergleich zur", "billiger"];
+    var an = ["Die", "Kilo", "Die", "Kilo", "Im Vergleich zu", "mehr", "Im Vergleich zu", "teuer", "die", "Flasche", "die", "Flasche", "Im Vergleich zur", "weinger", "Im Vergleich zur", "billiger"];
     $(document).ready(function () {
         /* 소리 출력 전역 변수와 함수 */
         var sen = new Array(),
@@ -291,10 +311,10 @@
         var nagehts = new Howl({
             src: ["./dev/sounds/Reihe 11/r11 A2.mp3"],
             sprite: {
-                "0": [209, 180851],
-                "1": [9872, 26105],
-                "2": [37066, 32049],
-                "3": [69436, 101690]
+                "0": [309, 68943],
+                "1": [9998, 30979],
+                "2": [41287, 28168],
+                "3": [69765, 101545]
             },
             html5: true,
             volume: 1,
@@ -306,15 +326,13 @@
                 );
                 console.log("다시 읽어주세요!");
             },
-            onload: function () {
-                /* 음성 준비되면 HV 버튼 나타내기 */
+            onload: function () {/* 음성 준비되면 HV 버튼 나타내기 */
                 $("#0").show();
                 $("#ready").hide();
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
-                    if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
-                        ".itm-lst")) {
+                    if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(".itm-lst")) {
                         $("#last").text(ti);
                         t.text("■");
                         nagehts.seek();
@@ -480,11 +498,8 @@
                                     }
                                     r = r + "</div>";
                                     if ($("span.sen").length > 0) {
-                                        $("#qst-" + (i + 1)).closest("span.sen").after(
-                                            r);
-                                    } else {
-                                        $("#qst-" + (i + 1)).after(r);
-                                    }
+                                        $("#qst-" + (i + 1)).closest("span.sen").after(r);
+                                    } else $("#qst-" + (i + 1)).after(r);
                                 }
                             }
                             if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
@@ -525,14 +540,16 @@
                     }
                     ;
                 });
+                nagehts.volume(0);
                 var pan = new Array();
-                pan = [1, 2, 3, 4, 5, 6];
+                pan = [2, 4, 5, 6, 7];
                 for (var p = 0; p < pan.length; p++) {
                     var pann = "#qst-" + pan[p];
                     $(pann).val(an[(pan[p] - 1)]);
                     $(pann).addClass("bg-success text-white fw-bold");
                     $(pann).prop("disabled", true);
                 }
+                nagehts.volume(1.0);
 
                 /* 역동적 입력란 */
                 $.fn.textWidth = function (text, font) {
@@ -554,8 +571,12 @@
                     if (th.val().length >= 10) {
                         var m = 1.35;
                     }
-                    var w = Math.ceil(th.textWidth() * m) + 'px';
-                    console.log(w);
+                    var w = Math.ceil(th.textWidth() * m);
+                    if (w < 100) {
+                        w = 100;
+                    } else {
+                        w = w + 'px';
+                    }
 
                     th.css("min-width", w);
                     th.css("max-width", w);
@@ -591,6 +612,5 @@
     });
 
 </script>
-</body>
 
 </html>

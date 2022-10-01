@@ -589,7 +589,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                     'r11-Im Supermarkt und auf dem Markt' => array( 'A. Im Supermarkt und auf dem Markt', '슈퍼마켓과 시장에서',
                         array(
                             'A1' => array( 'Wie heißen die Artikel?', '이 상품들은 뭐라고 하나요?' ),
-                            'A2' => array( 'Vergleichen Sie die Lebensmittel.', '생필품을 비교해 보세요.' ),
+                            'A2' => array( 'Vergleichen Sie die Lebensmittel.', '식료품을 비교해 보세요.' ),
                             'A3' => array( 'Wo kaufen Sie was?', '어디에서 무엇을 사나요?' ),
                             'A4' => array( 'Lisa war auf dem Wochenmarkt und schreibt darüber auf Facebook.', '리자는 요일장에 갔던 일을 페이스북에 씁니다.' ),
                             'A5' => array( 'Warum kaufen Sie das im Supermarkt oder auf dem Markt?', '슈퍼마켓이나 시장에서 쇼핑을 하는 이유는 무엇인가요?' ),

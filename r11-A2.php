@@ -209,39 +209,54 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <th class="table-light text-center align-middle" scope="row" rowspan="4">복수형이 있는 명사</th>
+                    <th class="table-light text-center align-middle" scope="row" rowspan="5">복수형이 있는 명사</th>
+                    <td class="text-center fw-bold">(")-</td>
+                    <td>der Äpfel</td>
+                    <td>die Äpfel</td>
+                </tr>
+                <tr>
                     <td class="text-center fw-bold">(“)-e</td>
-                    <td>der Kopfsalat<br/>
-                        der Pfirsich<br/>
-                        das Vollkornbrot
-                    </td>
-                    <td>die Kopfsalate<br/>
-                        die Pfirsiche<br/>
-                        die Vollkornbrote
-                    </td>
+                    <td>der Fisch<br />
+                        der Kopfsalat<br />
+                        die Leberwurst<br />
+                        der Pfirsich<br />
+                        des Vollkornbrot</td>
+                    <td>die Fische<br />
+                        die Kopfsalate<br />
+                        die Leberwürste<br />
+                        die Pfirsiche<br />
+                        die Vollkornbrote</td>
                 </tr>
                 <tr>
                     <td class="text-center fw-bold">(“)-er</td>
                     <td>das Ei</td>
-                    <td>das Ei</td>
+                    <td>die Eier</td>
                 </tr>
                 <tr>
                     <td class="text-center fw-bold">-n/-en</td>
-                    <td>die Erdbeere<br/>
-                        die Gurke<br/>
-                        die Kartoffel<br/>
-                        die Bratpfanne
-                    </td>
-                    <td>die Erdbeeren<br/>
-                        die Gurken<br/>
-                        die Kartoffeln<br/>
-                        die Bratpfannen
-                    </td>
+                    <td>die Bratpfanne<br />
+                        die Erdbeere<br />
+                        die Flasche<br />
+                        die Gurke<br />
+                        die Kartoffel<br />
+                        die Limonade<br />
+                        die Schokolade<br />
+                        die Seife</td>
+                    <td>die Bratpfannen<br />
+                        die Erdbeeren<br />
+                        die Flaschen<br />
+                        die Gurken<br />
+                        die Kartoffeln<br />
+                        die Limonaden<br />
+                        die Schokoladen<br />
+                        die Seifen</td>
                 </tr>
                 <tr>
                     <td class="text-center fw-bold">-s</td>
-                    <td>das Lachsfilet</td>
-                    <td>die Lachsfilets</td>
+                    <td>das Lachsfilet<br />
+                        der Paprika</td>
+                    <td>die Lachsfilets<br />
+                        die Paprika(s)</td>
                 </tr>
                 </tbody>
             </table>
@@ -262,14 +277,10 @@
                         der Schnittkäse<br/>
                         der Speisequark
                     </td>
-                    <td class="text-purple">das Schweinehackfleisch</td>
-                    <td class="text-danger">die Butter<br/>
-                        die Leberwurst<br/>
-                        die Limonade<br/>
-                        die Schokolade<br/>
-                        die Seife<br/>
-                        die Vollmilch
-                    </td>
+                    <td class="text-purple">das Schweinehackfleisch<br />
+                        das Kilo</td>
+                    <td class="text-danger">die Butter<br />
+                        die Vollmilch</td>
                 </tr>
                 </tbody>
             </table>
@@ -314,7 +325,7 @@
                 "0": [221, 69301],
                 "1": [9998, 30979],
                 "2": [41287, 28168],
-                "3": [69765, 101545]
+                "3": [69584, 157549]
             },
             html5: true,
             volume: 1,

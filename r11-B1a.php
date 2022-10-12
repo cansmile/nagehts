@@ -35,7 +35,7 @@
                     <span class="tran"><br><small>조미료</small></span>
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans1 btn-sm btn-outline-dark itm so" id="7">
-                    Haushlaltswaren
+                    Haushaltswaren
                     <span class="tran"><br><small>생활용퓸</small></span>
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans17 btn-sm btn-outline-dark itm so" id="8">
@@ -71,7 +71,7 @@
                     <span class="tran"><br><small>과자류</small></span>
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans10 btn-sm btn-outline-dark itm so" id="16">
-                    tiefgekühltes Hänhchen
+                    tiefgekühltes Hänchen
                     <span class="tran"><br><small>냉동 치킨</small></span>
                 </button>
                 <button type="button" class="mt-1 mx-1 btn ans9 btn-sm btn-outline-dark itm so" id="17">
@@ -107,9 +107,9 @@
                 </h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 p-0">
-                <table class="table table-bordered text-center">
+        <div class="row border-bottom-0">
+            <div class="col-5">
+                <table class="table table-borderless text-center" border-spacing="5">
                     <tbody class="align-middle">
                     <tr>
                         <td class="p-1 w-25">
@@ -120,18 +120,6 @@
                         </td>
                         <td class="p-1 w-25">
                             <div class="itm-lst 1itm m-0" id="lst-2">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
-                        <td class="p-1 w-25">
-                            <div class="itm-lst 1itm m-0" id="lst-3">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
-                        <td class="p-1 w-25">
-                            <div class="itm-lst 1itm m-0" id="lst-4">
                                 <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
@@ -150,18 +138,6 @@
                                     ▼ </h2>
                             </div>
                         </td>
-                        <td class="p-1">
-                            <div class="itm-lst 1itm m-0" id="lst-7">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
-                        <td class="p-1">
-                            <div class="itm-lst 1itm m-0" id="lst-8">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
                     </tr>
                     <tr>
                         <td class="p-1">
@@ -172,18 +148,6 @@
                         </td>
                         <td class="p-1">
                             <div class="itm-lst 1itm m-0" id="lst-10">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
-                        <td class="p-1">
-                            <div class="itm-lst 1itm m-0" id="lst-11">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
-                        <td class="p-1">
-                            <div class="itm-lst 1itm m-0" id="lst-12">
                                 <h2 class="btn btn-warning btn-xl ttl w-100">
                                     ▼ </h2>
                             </div>
@@ -202,18 +166,6 @@
                                     ▼ </h2>
                             </div>
                         </td>
-                        <td class="p-1">
-                            <div class="itm-lst 1itm m-0" id="lst-15">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
-                        <td class="p-1">
-                            <div class="itm-lst 1itm m-0" id="lst-16">
-                                <h2 class="btn btn-warning btn-xl ttl w-100">
-                                    ▼ </h2>
-                            </div>
-                        </td>
                     </tr>
                     <tr>
                         <td class="p-1">
@@ -228,6 +180,71 @@
                                     ▼ </h2>
                             </div>
                         </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-1 d-none d-sm-bolck d-md-block d-lg-block d-xl-block d-xs-none border border-dark border-1 border-top-0 border-bottom-0"></div>
+            <div class="col-5">
+                <table class="table table-borderless text-center">
+                    <tbody class="align-middle">
+                    <tr>
+                        <td class="p-1 w-25">
+                            <div class="itm-lst 1itm m-0" id="lst-3">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                        <td class="p-1 w-25">
+                            <div class="itm-lst 1itm m-0" id="lst-4">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-1">
+                            <div class="itm-lst 1itm m-0" id="lst-7">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                        <td class="p-1">
+                            <div class="itm-lst 1itm m-0" id="lst-8">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-1">
+                            <div class="itm-lst 1itm m-0" id="lst-11">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                        <td class="p-1">
+                            <div class="itm-lst 1itm m-0" id="lst-12">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-1">
+                            <div class="itm-lst 1itm m-0" id="lst-15">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                        <td class="p-1">
+                            <div class="itm-lst 1itm m-0" id="lst-16">
+                                <h2 class="btn btn-warning btn-xl ttl w-100">
+                                    ▼ </h2>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
                         <td class="p-1">
                             <div class="itm-lst 1itm m-0" id="lst-19">
                                 <h2 class="btn btn-warning btn-xl ttl w-100">

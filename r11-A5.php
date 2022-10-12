@@ -26,19 +26,24 @@
                     günstiger <span class="tran"><br /><small>더 저렴한</small></span>
                 </button>
                 <button type="button"
-                        class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm px-3 so"
+                        class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm px-3 so"
                         id="4">
+                    besser <span class="tran"><br /><small>더 나은</small></span>
+                </button>
+                <button type="button"
+                        class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm px-3"
+                        id="5">
                     hausgemacht <span class="tran"><br /><small>수제의</small></span>
                 </button>
                 <button type="button"
-                        class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm px-3 so"
-                        id="5">
+                        class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm px-3"
+                        id="6">
                     keine <span class="tran"><br /><small>~이 없는</small></span>
                 </button>
                 <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm px-3 so"
-                        id="6">
-                    näher <span class="tran"><br /><small>더 가까운</small></span>
+                        id="7">
+                    gesünder <span class="tran"><br /><small>더 건강한</small></span>
                 </button>
             </div>
         </div>
@@ -50,22 +55,15 @@
         <!-- 고르는 아이템들 -->
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
-                <h2>[ <small>Vervollständigen Sie die Sätze mit den richtigen Wörtern.
-                        <span class="tran"><br /><small>리자는 요일장에 갔던 일을 페이스북에 씁니다. 알맞은 단어로 문장을 완성하세요.</small></span>
+                <h2>[ <small>Hören Sie den Text und ergänzen Sie die Lücken.
+                        <span class="tran"><br /><small>텍스트를 읽고 빈칸을 채우세요</small></span>
                     </small> ]
                     <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
                         HV
                     </button>
                 </h2>
-                <h3>[ <small>
-                        <button type="button" class="btn btn-sm btn-outline-secondary disabled">번호</button>
+                <h3>[ <small><button type="button" class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
                         버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]
-                </h3>
-                <h3>[ <small>
-                        <button type="button"
-                                class="btn disabled btn-sm btn-<?php echo( $color ); ?>">HV
-                        </button>
-                        버튼은 정답을 확인해야 나옵니다.</small> ]
                 </h3>
             </div>
         </div>
@@ -109,24 +107,24 @@
                             ist.
                             <span class="tran"><br /><small>저는 가격이 훨씬 더 저렴하기 때문에 다진 돼지고기를 슈퍼마켓에서 삽니다.</small></span>
                         </td>
-                        <td>Ich kaufe Kartoffeln auf dem Markt, weil der Markt
+                        <td>Ich kaufe Kartoffeln auf dem Markt, weil Sie aus dem Bioanbau sind, und daher
                             <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-4">
                                 <h2 class="btn btn-warning btn-md ttl w-100"
                                     style="max-width: 150px; min-width: 150px;">
                                     ▼ </h2>
                             </div>
-                            ist.
+                            sind.
                             <span class="tran"><br /><small>저는 시장이 더 가깝기 때문에 감자를 시장에서 삽니다.</small></span>
                         </td>
                     </tr>
                     <tr>
-                        <td>Ich kaufe Bratpfanne im Supermakt, weil es
+                        <td>Ich kaufe eine Bratpfanne im Supermakt, weil es auf dem Markt
                             <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-5">
                                 <h2 class="btn btn-warning btn-md ttl w-100"
                                     style="max-width: 150px; min-width: 150px;">
                                     ▼ </h2>
                             </div>
-                            Pfanne auf dem Markt gibt.
+                            Pfanne gibt.
                             <span class="tran"><br /><small>저는 프라이팬이 시장에는 없기 떄문에 프라이팬을 슈퍼마켓에서 삽니다.</small></span>
                         </td>
                         <td>Ich kaufe Leberwurst auf dem Markt, weil sie
@@ -135,7 +133,13 @@
                                     style="max-width: 150px; min-width: 150px;">
                                     ▼ </h2>
                             </div>
-                            ist.
+                            ist und
+                            <div class="itm-lst 1itm d-inline-flex mx-1 t-3" id="lst-7">
+                                <h2 class="btn btn-warning btn-md ttl w-100"
+                                    style="max-width: 150px; min-width: 150px;">
+                                    ▼ </h2>
+                            </div>
+                            sohmeckt.
                             <span class="tran"><br /><small>저는 수제라서 간소시지를 시장에서 삽니다.</small></span>
                         </td>
                     </tr>
@@ -176,6 +180,18 @@
                     <tr>
                         <td>nah</td>
                         <td>näher</td>
+                    </tr>
+                    <tr>
+                        <td>gut</td>
+                        <td>besser</td>
+                    </tr>
+                    <tr>
+                        <td>viel</td>
+                        <td>mehr</td>
+                    </tr>
+                    <tr>
+                        <td>gern</td>
+                        <td>lieber</td>
                     </tr>
                     </tbody>
                 </table>
@@ -227,13 +243,12 @@
         var nagehts = new Howl({
             src: ["./dev/sounds/Reihe 11/r11 A5.mp3"],
             sprite: {
-                "0": [112, 75185],
-                "1": [64623, 1126],
-                "2": [69616, 1157],
-                "3": [59419, 1275],
-                "4": [76698, 1217],
-                "5": [75576, 917],
-                "6": [74145, 1114]
+                "0": [1041, 93279],
+                "1": [97928, 1480],
+                "2": [102760, 1149],
+                "3": [95281, 1509],
+                "4": [104555, 842],
+                "7": [106500, 963]
             },
             html5: true,
             volume: 1,
@@ -278,7 +293,6 @@
                         var na = "";
                         if ($("#itms").find("button").length < 1) {
                             $(".tran").show();
-                            $("#0").show();
 
                             /* 정답 확인 div 상자 배경색 속성 없애10 */
                             $(this).removeClass("btn-light ");
@@ -339,7 +353,7 @@
                     <?php require "wahl.php"; ?>
 
                     var pan = new Array();
-                    pan = [];
+                    pan = [5, 6];
                     var il = $("#itms>.itm").length;
                     for (var p = 0; p < pan.length; p++) {
                         var pani = "#lst-" + pan[p];
@@ -356,6 +370,7 @@
                             }
                         })
                     }
+                    $("#0").show();
                 });
 
             },

@@ -598,7 +598,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                     ),
                     'r11-Wo findet man was' => array( 'B. Wo findet man was?', '어디에 무엇이 있나요?',
                         array(
-                            'B1' => array( 'Im Supermakt', '슈퍼마켓에서' ),
+//                            'B1' => array( 'Im Supermakt', '슈퍼마켓에서' ),
                             'B1a' => array( 'Wo findet man was?', '어디에 무엇이 있나요?' ),
                             'B2a' => array( 'Ergänzen Sie den Plan.', '안내게시판의 빈칸을 채우세요.' ),
                             'B3' => array( 'Was ist richtig?', '무엇이 맞나요?' ),

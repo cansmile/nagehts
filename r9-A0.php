@@ -22,7 +22,7 @@
                             class="tran"><br><small>카니발</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm so" id="5">Neujahr
-                        Silveser<span class="tran"><br><small>새해
+                        Silvester<span class="tran"><br><small>새해
                                 전날</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm so"

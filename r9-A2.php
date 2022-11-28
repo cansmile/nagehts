@@ -227,7 +227,8 @@
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
-                                    </div>
+                                    </div>in Deutschland wie folgt:
+                                    Am Morgen schmückt die ganze Familie den Weihnachtsbaum. Nach dem Kaffeetrinken und dem Weihnachtsstollen geht sie um 17 Uhr in die Kirche. Wenn sie nach der Kirche wieder zu Hause ist, singen alle gemeinsam Weihnachtslieder. Sie packen dann die Geschenke aus. Ein festliches Weihnachtsessen, z.B. die Weihnachsgans gibt es erst am 25. Dezember.
                                     <span class="tran"><small>독일에서 크리스마스는 이렇게
                                             지낸다: 아침에는 온 가족이 크리스마스나무를 장식한다. 커피와
                                             슈톨렌 (크리스마스에 먹는 빵)을 먹고 마신 후에 17시에 교회로

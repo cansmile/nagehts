@@ -234,7 +234,7 @@
             var nagehts = new Howl({
                 src: ["./dev/sounds/Reihe 9/r9 B2.mp3"],
                 sprite: {
-                    "0": [996, 66491]
+                    "0": [15074, 70344]
                 },
                 html5: true,
                 volume: 1,

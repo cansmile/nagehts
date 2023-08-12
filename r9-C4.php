@@ -47,6 +47,7 @@
                         id="qst-1">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 커피를 많이 마셔요. 그래서 커피머신을 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -65,6 +66,7 @@
                         id="qst-2">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 음악을 많이 들어요. 그래서 음악 CD를 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -83,6 +85,7 @@
                         id="qst-3">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 사진을 즐겨 찍어요. 그래서 카메라를 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -101,6 +104,7 @@
                         id="qst-4">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 독서를 많이 해요. 그래서 책을 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -119,6 +123,7 @@
                         id="qst-5">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 여행을 즐겨 해요. 그래서 여행안내서를 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -137,6 +142,7 @@
                         id="qst-6">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 화장을 즐겨 해요. 그래서 화장품을 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -155,6 +161,7 @@
                         id="qst-7">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 반려동물을 좋아해요. 그래서 개를 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -173,6 +180,7 @@
                         id="qst-8">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 요리를 즐겨 해요. 그래서 요리책을 갖고 싶어요.</span>
                 </div>
             </div>
             <div class="row py-2 border border-dark my-2 rounded">
@@ -191,6 +199,7 @@
                         id="qst-9">
                         haben.
                     </div>
+                    <span class="tran"><br />저는 독일어를 배워요. 그래서 사전을 갖고 싶어요.</span>
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->

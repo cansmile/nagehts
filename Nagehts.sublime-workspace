@@ -7,56 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<?php require_once( \"heading.php\" ); ?>\n<!-- 알림 시작 -->\n<?php require_once \"ready.php\"; ?>\n<!-- 알림 끝 -->\n<section>\n    <div class=\"container\">\n        <!-- 고르는 아이템들 -->\n        <div class=\"row\">\n            <div class=\"col-lg-12 mb-4 mt-2 text-center\">\n                <h2>Markieren Sie.<br>\n                    <small>체크해보세요.</small>\n                    <button type=\"button\" class=\"btn btn-<?php echo( $color ); ?> ms-2 btn-inline so\" id=\"0\">\n                        HV\n                    </button>\n\n                </h2>\n                <h3>[ <small>문제를 모두 풀고 확인하세요.</small> ]</h3>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <table class=\"table table-borderless\">\n                    <tbody>\n                    <tr>\n                        <th rowspan=\"4\" scope=\"row\" width=\"150\">\n                            <button type=\"button\" id=\"1\" class=\"so btn btn-outline-dark btn-sm me-1 px-2\">▶</button><br />\n                            1) Auf dem Bahnhof\n                            <span class=\"tran\"><br><small>기차역에서</small></span>\n                        </td>\n                        <td>Wegen einer Bauarbeit ist die Waldstraße gesperrt.\n                            <span class=\"tran\"><br><small>공사로 발트길이 패쇄되었습니다.</small></span></td>\n                        <td class=\"align-middle\" width=\"200\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-1\">\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Herr Kim, kommen Sie bitte zur Information.\n                            <span class=\"tran\"><br><small>김선생님, 안내실로 와주세요</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-2\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Die Regionalbahn aus Leipzig hat 20 Minuten Verspätung\n                            <span class=\"tran\"><br><small>라이프치히에서 오는 국철이 20분 연착됩니다</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-3\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Der ICE nach Berlin fährt in wenigen Minuten auf Gleis 10 ab\n                            <span class=\"tran\"><br><small>베를린으로 가는 ICE가 10번 선로에서 곧 출발합니다.</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-4\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    </tbody>\n                </table>\n            </div>\n            <div class=\"col-12\">\n                <table class=\"table table-borderless\">\n                    <tbody>\n                    <tr>\n                        <th rowspan=\"5\" scope=\"row\" width=\"150\">\n                            <button type=\"button\" id=\"2\" class=\"so btn btn-outline-dark btn-sm me-1 px-2\">▶</button><br />\n                            2) Am Flughafen\n                            <span class=\"tran\"><br><small>공항에서</small></span>\n                        </td>\n                        <td>Frau Kaiser, bitte kommen Sie zur Information in Halle C\n                            <span class=\"tran\"><br><small>카이저씨, C홀에 있는 안내실로 와주시기 바랍니다.</small></span></td>\n                        <td class=\"align-middle\" width=\"200\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-5\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Machen Sie bitte den Motor aus.\n                            <span class=\"tran\"><br><small>엔진을 끄세요</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-6\">\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Der Flug aus Paris hat eine Stunde Verspätung.\n                            <span class=\"tran\"><br><small>파리발 비행기가 한시간 연착입니다</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-7\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Letzter Aufruf gebucht auf Flug 707 nach London.\n                            <span class=\"tran\"><br><small>런던행 707비행기 탑승자에게 마지막 탑승방송입니다</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-8\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Der Flug 404 aus San Francisco landet in wenigen Minuten.\n                            <span class=\"tran\"><br><small>샌프란시스코발 404 비행기 수분내에 착륙합니다.</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-9\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    </tbody>\n                </table>\n            </div>\n            <div class=\"col-12\">\n                <table class=\"table table-borderless\">\n                    <tbody>\n                    <tr>\n                        <th rowspan=\"5\" scope=\"row\" width=\"150\">\n                            <button type=\"button\" id=\"3\" class=\"so btn btn-outline-dark btn-sm me-1 px-2\">▶</button><br />\n                            3) Im Fernbus\n                            <span class=\"tran\"><br><small>고속버스에서</small></span>\n                        </td>\n                        <td>Liebe Fahrgäste, wir fahren gleich ab.\n                            <span class=\"tran\"><br><small>버스탑승자여러분, 저희는 곧 출발합니다.</small></span></td>\n                        <td class=\"align-middle\" width=\"200\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-10\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Bitte schnallen Sie sich an.\n                            <span class=\"tran\"><br><small>안전밸트를 매세요</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-11\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>In wenigen Minuten kommen wir am Zielort an. Wir wünschen Ihnen eine angenehme Reise.\n                            <span class=\"tran\"><br><small>수분내에 저희들은 목적지에 도착합니다. 여러분들에게 편안한 여행이 되길 바랍니다.</small></span>\n                        </td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-12\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Wir machen jetzt eine kleine Pause und treffen uns wieder hier vor dem Bus.\n                            <span class=\"tran\"><br><small>우리들은 잠시 휴식시간을 가지고 이곳 버스앞에서 다시  만나요.</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-13\">\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Liebe Fluggäste, hier spricht Ihr Kapitän Martin Fischer.\n                            <span class=\"tran\"><br><small>비행기 탑승자여러분, 여러분의 기장 마틴피셔입니다.</small></span></td>\n                        <td class=\"align-middle\">\n                            <div class=\"btn-group q\" data-toggle=\"buttons\" role=\"group\" id=\"qst-14\">\n                                <div class=\"btn btn-light pop x\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답이 아니에요.\">\n                                    Richtig\n                                </div>\n                                <div class=\"btn btn-light pop o\" data-toggle=\"popover\" data-container=\"body\"\n                                     data-placement=\"top\" data-content=\"정답!\">\n                                    Falsch\n                                </div>\n                            </div>\n                        </td>\n                    </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n        <!-- 정답화인 버튼 시작 -->\n        <div class=\"row\">\n            <div class=\"btn my-3 btn-light col-sm-12 col-md-12 col-lg-12\" id=\"chk\">\n                정답확인\n            </div>\n        </div>\n        <!-- 정답확인 버튼 끝 -->\n    </div>\n</section>\n\n<div id=\"last\" class=\"d-none\"></div>\n\n<script src=\"./dev/js/popper.min.js\"></script>\n<?php require \"footer.php\"; ?>\n<script src=\"./dev/js/taptogrouph.js\"></script>\n<script src=\"./dev/js/howler.core.js\"></script>\n<!-- 맞고 틀리는지 소리 -->\n<?php require_once( \"./dev/oxsound.php\" ); ?>\n<script>\n    $(\"#0\").hide();\n    $(\".tran\").hide();\n    /* 각 문장 재생 횟수 초기화 */\n    var hm = new Array();\n    $(\".so\").each(function () {\n        hm[$(this).attr(\"id\")] = 0;\n    });\n\n    $(document).ready(function () {\n        /* 소리 출력 전역 변수와 함수 */\n        var sen = new Array(),\n            pa = new Array(),\n            he = new Array(),\n            last;\n        $(\".so\").each(function () {\n            var t = $(this);\n            var ti = t.attr(\"id\");\n            sen[ti] = 0;\n            pa[ti] = t.html();\n        });\n\n        function stopAll() {\n            $(\".so\").each(function () {\n                $(this).html(pa[$(this).attr(\"id\")]);\n            });\n        }\n\n        /* 문제 재생 */\n        var nagehts = new Howl({\n            src: [\"./dev/sounds/Reihe 12/r12 E7.mp3\"],\n            sprite: {\n                \"0\": [968, 107738],\n                \"1\": [12592, 24583],\n                \"2\": [39579, 36345],\n                \"3\": [78809, 29769]\n            },\n            html5: true,\n            volume: 1,\n            format: \"mp3\",\n            preload: true,\n            onloaderror: function () {\n                $(\".alert\").append(\n                    \"<br /><strong class=\\\"fw-bold text-dark display-4\\\">페이지를 다시 읽어주시기 바래요.</strong>\"\n                );\n                console.log(\"다시 읽어주세요!\");\n            },\n            onload: function () {\n                /* 음성 준비되면 HV 버튼 나타내기 */\n                $(\"#0\").show();\n                $(\"#ready\").hide();\n                $(\".so\").on(\"click\", function () {\n                    var t = $(this);\n                    var ti = t.attr(\"id\");\n                    if (($(\"div#last\").text() == \"\" || t.text() == \"❚❚\") && !t.hasClass(\n                        \".itm-lst\")) {\n                        $(\"#last\").text(ti);\n                        t.text(\"■\");\n                        nagehts.seek();\n                        nagehts.play(ti);\n                        sen[ti]++;\n                        last = ti;\n                        $(\"#cnt-\" + ti).text(sen[ti]);\n                    } else if (last == ti && nagehts.playing($(\"div#last\").text())) {\n                        $(\"#last\").text(\"\");\n                        t.html(pa[ti]);\n                        nagehts.pause();\n                        sen[ti]--;\n                        $(\"#cnt-\" + ti).text(sen[ti]);\n                    }\n                });\n\n                $(\"[data-toggle='popover']\").popover({\n                    delay: {\n                        'hide': 1000\n                    },\n                    container: \"body\"\n                });\n                $(\".pop\").click(function () {\n                    /* 가장 먼저 지문에 'an' 넣기 */\n                    if (!$(this).siblings().hasClass(\"an\")) {\n                        $(this).addClass(\"an\");\n                        $(this).addClass(\"btn-warning\");\n                        $(this).parent().children().removeClass(\n                            \"btn-light\");\n                    }\n                    ;\n                    /* 문제 풀이 정도 업데이트 */\n                    var perc = Math.round(($(\".an\").length / $(\".q\").length) *\n                        100);\n                    $(\".progress>.bar\").attr(\"width\", perc + \"%;\");\n                });\n\n                /* 팝업 내용 사라지기 */\n                $(\".pop\").popover().click(function () {\n                    setTimeout(function () {\n                            $(\".pop\").popover('hide');\n                        },\n                        500);\n                });\n\n                /* 정답확인 */\n                $(\"#chk\").on(\"click\", function () {\n                    if ($(this).attr(\"id\") == \"chk\") {\n                        if ($(\".an\").length < $(\".q\").length) {\n                            var na = \"\";\n                            $(\".q\").each(function () {\n                                if (!$(this).find(\"div\").hasClass(\"an\")) {\n                                    if (na != \"\") {\n                                        na += \", \";\n                                    }\n                                    na += $(this).attr(\"id\").substr(4);\n                                }\n                                ;\n                            });\n                            alert(\"모든 문제를 풀어주세요.\");\n                        } else {\n                            $(\".tran\").show();\n                            $(this).attr(\"id\", \"done\");\n                            $(\".pop\").each(function () {\n                                $(this).removeClass(\"btn-info\");\n                                if ($(this).hasClass(\"o\") && $(this).hasClass(\n                                    \"an\")) {\n                                    $(this).removeClass(\"btn-warning\");\n                                    $(this).addClass(\"btn-success\");\n                                } else if ($(this).hasClass(\"o\")) {\n                                    $(this).addClass(\"btn-primary\");\n                                } else if ($(this).hasClass(\"an\")) {\n                                    $(this).addClass(\"btn-warning\");\n                                } else {\n                                    $(this).addClass(\"btn-light\");\n                                }\n                                ;\n                            });\n\n                            /* 정답 확인 div 상자 배경색 속성 없애기 */\n                            $(this).removeClass(\"btn-light \");\n                            var qa = $(\".q\").length; /* 전체 문항 수 */\n                            var qr = $(\".btn-success\").length; /* 맞춘 항목 수 */\n                            var pe = (qr / qa) * 100; /* 정답 비율 */\n                            var tcl = \"white\"; /* 기본 문자색 */\n\n                            /* 분류 기준은 100%, 80%, 60%, 40% */\n                            if (pe > 99) {\n                                var st = \"원어민이세요?\";\n                                var cl = \"lime\";\n                                var tcl = \"dark\";\n                            } else if (pe > 74) {\n                                var st = \"어! 좀 하시는데요~^^\";\n                                var cl = \"success\";\n                            } else if (pe > 49) {\n                                var st = \"쓰읍~ 다시 해 보실까요?\";\n                                var cl = \"primary\";\n                            } else {\n                                var st = \"좀 더 분발해 주세요~\";\n                                var cl = \"danger\";\n                            }\n                            $(this).addClass(\"btn-\" + cl + \" text-\" + tcl);\n                            $(this).html(\"<h4>\" + qa + \"문제 중 \" + qr + \"개를 맞히셨네요!<br>\" +\n                                st + \"</h4>\");\n                        }\n                        ;\n                    }\n                });\n                var pan = new Array();\n                pan = [1];\n                var il = $(\".q\").length;\n                for (var p = 0; p < pan.length; p++) {\n                    var pani = \"#qst-\" + pan[p];\n                    $(\"#qst-\" + pan[p] + \">div.o\").addClass(\"an\");\n                    $(\"#qst-\" + pan[p] + \">div.o\").addClass(\"btn-warning\");\n                    $(\"#qst-\" + pan[p] + \">div.o\").removeClass(\"btn-light\");\n                    $(\"#qst-\" + pan[p] + \">div.o\").closest(\"tr\").find(\"td>.tran\").show();\n                }\n            },\n            onend: function () {\n                $(\"div#last\").text(\"\");\n                stopAll();\n                $(\"#cnt-\" + last).text(sen[last]);\n                if (last == 0) {\n                    if (sen[last] == 2) {\n                        $(\".tran\").show();\n                        $(\".so\").each(function () {\n                            pa[last] = $(\"#\" + last).html();\n                        });\n                    }\n                } else if (sen[last] == 2) {\n                    if ($(\"#\" + last).hasClass(\"itm\")) {\n                        $(\"#\" + last + \">.tran\").show();\n                    }\n                    $(\"#\" + last).closest(\"table\").find(\".tran\").show();\n                    pa[last] = $(\"#\" + last).html();\n                }\n            }\n        });\n    });\n\n</script>\n</body>\n\n</html>\n",
-			"file": "r12-E7.php",
-			"file_size": 26078,
-			"file_write_time": 133001262938209561,
-			"settings":
-			{
-				"buffer_size": 24800,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					68,
-					1,
-					"insert",
-					{
-						"characters": "Œ"
-					},
-					"AQAAANICAAAAAAAA0wIAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADSAgAAAAAAANICAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					70,
-					1,
-					"left_delete",
-					null,
-					"AQAAANICAAAAAAAA0gIAAAAAAAACAAAAxZI",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADTAgAAAAAAANMCAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					8,
-					1,
-					"insert",
-					{
-						"characters": "p"
-					},
-					"AQAAANICAAAAAAAA0wIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0gIAAAAAAADSAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"left_delete",
-					null,
-					"AQAAANICAAAAAAAA0gIAAAAAAAABAAAAcA",
-					"AQAAAAAAAAABAAAA0wIAAAAAAADTAgAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -106,6 +56,7 @@
 	},
 	"file_history":
 	[
+		"/Users/cansmile/nagehts/dev/r12-E7.php",
 		"/Users/cansmile/nagehts/dev/r12-E8.php",
 		"/C/web/nagehts/nagehts.sublime-project",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text (Safe Mode)/Packages/User/sftp_servers/Nagehts",
@@ -152,136 +103,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "r12-E7.php",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24800,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								722,
-								722
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										730,
-										731
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										707,
-										708
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Monokai Pro (Filter Machine).sublime-color-scheme",
-							"git_gutter_is_enabled": true,
-							"git_savvy.repo_path": "C:\\web\\nagehts\\dev",
-							"incomplete_sync": null,
-							"is_init_dirty_state": true,
-							"origin_encoding": "UTF-8",
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 31.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],

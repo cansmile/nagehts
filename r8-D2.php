@@ -18,7 +18,7 @@
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so text-start" id="1">
-                        Dann bleib im Bett. Ich rufe in der Schule an.
+                        Dann bleib im Bett. Ich rufe die Schule an.
                         <span class="tran"><br><small>그럼 누워있으렴. 내가 학교에 전화할게.</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so text-start" id="2">

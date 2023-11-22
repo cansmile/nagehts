@@ -42,7 +42,7 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2>[ <small>그림에 맞는 단어를 그림 아래에 노란 단추를 눌러 넣세요.</small> ]
+                    <h2>[ <small>듣고 알맞게 고르세요.</small> ]
                         <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
                         </button>
@@ -54,7 +54,7 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="align-middle text-center" scope="row">1.</th>
+                                <th class="align-middle text-center" width="30 px" scope="row">1.</th>
                                 <td class="align-middle">Jemand
                                     schwimmt.<span class="tran"><small><br>어떤
                                             사람이 수영한다.</small></span></td>
@@ -96,7 +96,7 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th class="align-middle text-center" scope="row">4.</th>
+                                <th class="align-middle text-center" width="30 px" scope="row">4.</th>
                                 <td class="align-middle">Jemand
                                     schläft.<span class="tran"><small><br>어떤 사람이
                                             잔다.</small></span></td>

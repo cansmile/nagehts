@@ -1,6 +1,7 @@
 *.cmd
 .gitattributes
 .project
+.sync
 .vscode/ftp-sync.json
 .vscode/launch.json
 .vscode/settings.json

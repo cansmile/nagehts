@@ -346,7 +346,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                     ),
                     'r6-Wann hast du Deutschunterricht' => array( 'C. Wann hast du Deutschunterricht?', '독일어 수업이 언제니?',
                         array(
-                            'C1' => array( 'Hören Sie und sprechen Sie nach.', '듣고 따라 하세요.' ),
+                            'C1' => array( 'Wann hast du Deutschunterricht?', '독일어 수업이 언제 있니?' ),
                             'C2' => array( 'Wie sind die Fragen?', '어떤 질문을 할까요?' ),
                         )
                     ),

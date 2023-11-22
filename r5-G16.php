@@ -363,7 +363,7 @@
                         <td>
                             <div id="ant-13"></div>
                             <div class="input-group">
-                                <div class="sen d-inline-flex">und
+                                <div class="sen d-inline-flex">Und
                                     <input autocomplete="off" type="text"
                                            placeholder="Antwort"
                                            aria-label="Antwort"
@@ -406,7 +406,7 @@
                         <td>
                             <div id="ant-15"></div>
                             <div class="input-group">
-                                <div class="sen d-inline-flex">Und
+                                <div class="sen d-inline-flex">und
                                     <input autocomplete="off" type="text"
                                            placeholder="Antwort"
                                            aria-label="Antwort"

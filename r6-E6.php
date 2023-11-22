@@ -99,7 +99,7 @@
                                     .
                                 </div>
                                 <span class="tran"><br /><small>그는 점심 때 영화를
-                                        보았다.</small>
+                                        보러 갔다.</small>
                             </td>
                         </tr>
                     </table>

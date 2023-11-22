@@ -15,7 +15,7 @@
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm"
                         id="1">
-                        das Apartment (das Hochhaus)<span
+                        das Apartment (die Einzimmerwohnung)<span
                             class="tran"><br><small>아파트</small></span>
                     </button>
                     <button type="button"
@@ -275,7 +275,7 @@
                     "./dev/sounds/Reihe 4/r4 A1.mp3"],
                 sprite: {
                     "0": [1295, 41370],
-                    "1": [11970, 2700],
+                    "1": [11970, 3104],
                     "2": [18235, 2230],
                     "3": [23963, 1763],
                     "4": [28295, 1613],

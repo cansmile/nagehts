@@ -30,7 +30,7 @@
                                 <th scope="row"><button type="button" id="1"
                                         class="so btn btn-outline-danger">▶</button>
                                 </th>
-                                <td>Herr Ober, die Speisekarte bitte.<span
+                                <td>Enschuldigung, die Speisekarte bitte.<span
                                         class="tran"><br><small>여기 메뉴판 좀
                                             주세요.</small></span></td>
                             </tr>
@@ -77,7 +77,7 @@
                                 <th scope="row"><button type="button" id="7"
                                         class="so btn btn-outline-danger">▶</button>
                                 </th>
-                                <td>Ich trinke eine Cola.<span
+                                <td>Eine Cola, bitte.<span
                                         class="tran"><br><small>콜라 한 잔
                                             주세요.</small></span></td>
                             </tr>
@@ -93,7 +93,7 @@
                                 <th scope="row"><button type="button" id="9"
                                         class="so btn btn-outline-success">▶</button>
                                 </th>
-                                <td>Ich nehme ein Steak und trinke einen
+                                <td>Ich nehme ein Steak und einen
                                     Wein.<span class="tran"><br><small>전 스테이크
                                             하나와 와인 한 잔이요.</small></span></td>
                             </tr>
@@ -164,16 +164,16 @@
                 src: [
                     "./dev/sounds/Reihe 5/r5 D4.mp3"],
                 sprite: {
-                    "0": [1030, 47973],
-                    "1": [10841, 3217],
-                    "2": [16298, 1251],
-                    "3": [18197, 2119],
-                    "4": [21895, 3015],
-                    "5": [26204, 3540],
-                    "6": [31182, 2239],
-                    "7": [34233, 2093],
-                    "8": [39544, 2898],
-                    "9": [44686, 4447]
+                    "0": [164, 30223],
+                    "1": [2838, 3545],
+                    "2": [6636, 1434],
+                    "3": [8421, 2486],
+                    "4": [11065, 3359],
+                    "5": [14722, 3569],
+                    "6": [18719, 2239],
+                    "7": [21509, 1828],
+                    "8": [23982, 2687],
+                    "9": [27088, 3299]
                 },
                 html5: true,
                 volume: 1,

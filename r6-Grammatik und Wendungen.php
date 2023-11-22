@@ -1025,12 +1025,12 @@
                                         <td>Es ist halb zehn.</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2"><span class="d-inline-block">amMorgen</span>, <span
-                                                class="d-inline-block">amVormittag</span>, <span class="d-inline-block">amMittag</span>,
-                                            <span class="d-inline-block">amNachmittag</span>, <span class="d-inline-block">amAbend</span>,
-                                            <span class="d-inline-block">amFreitagabend</span>, <span
-                                                class="d-inline-block">amSonntagmorgen</span>, <span class="d-inline-block">amMontagnachmittag</span>,<span
-                                                class="d-inline-block">inder Nacht</span></td>
+                                        <td colspan="2"><span class="d-inline-block">am Morgen</span>, <span
+                                                class="d-inline-block">am Vormittag</span>, <span class="d-inline-block">am Mittag</span>,
+                                            <span class="d-inline-block">am Nachmittag</span>, <span class="d-inline-block">am Abend</span>,
+                                            <span class="d-inline-block">am Freitagabend</span>, <span
+                                                class="d-inline-block">am Sonntagmorgen</span>, <span class="d-inline-block">am Montagnachmittag</span>,<span
+                                                class="d-inline-block">in der Nacht</span></td>
                                     </tr>
                                     </tbody>
                                 </table>

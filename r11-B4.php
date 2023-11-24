@@ -6,21 +6,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
-                <h2> Ergänzen Sie die Lücken.<br/>
-                    <small> 빈칸을 채우세요. </small>
-                    <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
-                        HV
-                    </button>
-                    <br/>
-                    [ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
-                        표시됩니다.</small> ]
-                </h2>
-                <h3>[ <small>문제를 풀어야
-                        <button type="button"
-                                class="btn disabled btn-sm btn-<?php echo( $color ); ?>">HV
-                        </button>
-                        가 나타납니다.</small> ]
-                </h3>
+                <button type="button" class="btn btn-<?php echo( $color ); ?> ms-2 btn-inline so" id="0">
+                    HV
+                </button>
             </div>
         </div>
         <div class="row">
@@ -167,7 +155,7 @@
                 <span class="tran"><br><small>찾으면 나옵니다!</small></span><br/>
                 Hier finden Sie alles, was Sie suchen!
                 <span class="tran"><br><small>당신 찾는 모든 것이 여기 있습니다!</small></span><br/>
-                Die modernsten Herrenkleider wie im Kaufhaus!
+                Die modernste Herrenbekleidung wie im Kaufhaus!
                 <span class="tran"><br><small>백화점 상품같은 최신 유행의 남성의류!</small></span><br/>
                 Lassen Sie es sich nicht entgehen!
                 <span class="tran"><br><small>놓치지 마세요!</small></span><br/>
@@ -270,7 +258,6 @@
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>
 <script>
-    $("#0").hide();
     $(".tran").hide();
     $(".ant").hide();
     var an = new Array();
@@ -314,7 +301,7 @@
                 "6": [62827, 8444],
                 "7": [73827, 19591],
                 "8": [93694, 25292],
-                "9": [119575, 15029],
+                "9": [118755, 16291],
                 "10": [134788, 27317],
                 "11": [161962, 15849],
                 "12": [178052, 18534],
@@ -530,7 +517,6 @@
                         $(this).prop("disabled", true);
                         $(".tran").show();
                         $(this).attr("id", "done");
-                        $("#0").show();
                     } else {
                         alert("모든 문제를 풀어주세요!");
                     }
@@ -550,6 +536,7 @@
             },
             onend: function () {
                 $("div#last").text("");
+                $("#0").show();
                 stopAll();
                 $("#cnt-" + last).text(sen[last]);
                 if (last == 0) {

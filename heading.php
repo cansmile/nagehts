@@ -602,7 +602,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'B1a' => array( 'Wo findet man was?', '어디에 무엇이 있나요?' ),
                             'B2a' => array( 'Ergänzen Sie den Plan.', '안내게시판의 빈칸을 채우세요.' ),
                             'B3' => array( 'Was ist richtig?', '무엇이 맞나요?' ),
-                            'B4' => array( 'Welche Anzeige passt zu welcher Situation?', '상황에 맞는 광고를 골라보세요.' ),
+                            'B4' => array( 'Welche Anzeige passt zu welcher Situation? Wählen Sie.', '상황에 맞는 광고를 골라보세요.' ),
                             'B5' => array( 'Lesen Sie die E-Mail.', '이메일을 읽으세요.' ),
                         )
                     ),

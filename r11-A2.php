@@ -291,6 +291,8 @@
 <div id="last" class="d-none"></div>
 
 <?php require "footer.php"; ?>
+<a href="https://commons.wikimedia.org/wiki/File:Magerquark.jpg">Elskeletto</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+<a href="https://commons.wikimedia.org/wiki/File:Haltbare_Vollmilch_1.jpg">Viikksss</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>

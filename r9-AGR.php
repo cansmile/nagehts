@@ -602,7 +602,7 @@
                         <td>
                             <button type="button" id="hundert" class="so btn btn-outline-danger">▶</button>
                         </td>
-                        <td>hundert</td>
+                        <td>(Ein) hundert</td>
                         <td>
                             <button type="button" id="hundertste" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -614,7 +614,7 @@
                         <td>
                             <button type="button" id="hunderteins" class="so btn btn-outline-danger">▶</button>
                         </td>
-                        <td>hunderteins</td>
+                        <td>(Ein) hunderteins</td>
                         <td>
                             <button type="button" id="hunderteinste"
                                     class="so btn btn-outline-danger">▶

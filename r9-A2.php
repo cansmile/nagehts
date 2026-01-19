@@ -26,7 +26,7 @@
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so"
-                        id="4">Karneval<span
+                        id="4">Karnevalsumzüge<span
                             class="tran"><br><small>카니발</small></span>
                     </button>
                     <button type="button"

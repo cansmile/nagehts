@@ -50,7 +50,7 @@
                         Guten Rutsch ins Neujahr!<span class="tran"><br><small>새해 복 많이 받으세요!</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm" id="7">
-                        Frohe Weinachten!<span class="tran"><br><small>메리
+                        Frohe Weihnachten!<span class="tran"><br><small>메리
                                 크리스마스!</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark so itm" id="8">

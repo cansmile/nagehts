@@ -158,8 +158,7 @@
                                         <input autocomplete="off" type="text" class="form-control border border-dark border-bottom-only
                                         rounded-0 mx-1 px-2 py-1 q t-6" aria-label="." id="qst-1">
                                         .
-                                    </div><span class="tran"><small><br>네, 치우는 거
-                                            좋아해요.</small>
+                                    </div><span class="tran"><small><br>팀과 미나는 음악 카페에 간다.</small>
                                 </td>
                             </tr>
                             <tr>
@@ -171,8 +170,7 @@
                                         <input autocomplete="off" type="text" class="form-control border border-dark border-bottom-only
                                         rounded-0 mx-1 px-2 py-1 q t-6" aria-label="." id="qst-2">
                                         .
-                                    </div><span class="tran"><small><br>아뇨, 저는
-                                            치우는 거 좋아하지 않아요.</small>
+                                    </div><span class="tran"><small><br>팀과 미나는 4시에 만난다.</small>
                                 </td>
                             </tr>
                         </tbody>

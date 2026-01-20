@@ -268,7 +268,8 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 칸(mit Modalverben, einfache Verben)에
-                            넣으세요.</small> ]
+                            넣으세요.</small><br />
+                        <small>단어를 선택하여 칸 제목을 눌러 모두 넣으면 번역이 보입니다.</small> ]
                     </h2>
                 </div>
             </div>

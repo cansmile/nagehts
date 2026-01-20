@@ -12,9 +12,7 @@
 
     </style>
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2" id="wahl">
         <div class="container">
             <div class="row">
                 <div
@@ -271,7 +269,8 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/howler.core.js"></script>
+<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>
 
@@ -358,6 +357,77 @@
                             $("#cnt-" + ti).text(sen[ti]);
                         }
                     });
+
+                    /* 정답확인 */
+                    $("#chk").on("click",
+                        function () {
+                            if ($(this).attr("id") == "chk") {
+                                if ($(".an").length < $(".q").length || $("#itms>button")
+                                    .length) {
+                                    var na = "";
+                                    $(".q").each(function () {
+                                        if (!$(this).find("div").hasClass("an")) {
+                                            if (na != "") {
+                                                na += ", ";
+                                            }
+                                            na += $(this).attr("id").substr(4);
+                                        };
+                                    });
+                                    alert("모든 문제를 풀어주세요.");
+                                } else {
+                                    $(this).attr("id", "done");
+                                    $(".tran").show();
+                                    $(".pop").each(function () {
+                                        $(this).removeClass("btn-info");
+                                        if ($(this).hasClass("o") && $(this).hasClass(
+                                            "an")) {
+                                            $(this).removeClass("btn-warning");
+                                            $(this).addClass("btn-success");
+                                        } else if ($(this).hasClass("o")) {
+                                            $(this).addClass("btn-primary");
+                                        } else if ($(this).hasClass("an")) {
+                                            $(this).addClass("btn-warning");
+                                        } else {
+                                            $(this).addClass("btn-light");
+                                        };
+                                    });
+                                    $(this).removeClass("btn-light ");
+                                    /* 정답 확인 div 상자 배경색 속성 없애기 */
+                                    $(this).removeClass("btn-light ");
+                                    $(".itm-lst").each(function () {
+                                        if ($(this).find(".btn")) {
+                                            $(this).find(".btn").addClass(
+                                                "text-success fw-bold");
+                                        }
+                                    });
+                                    var qa = $(".itm-lst").length + $(".q")
+                                        .length; /* 전체 문항 수 */
+                                    var qr = $(".text-success").length + $(".btn-success")
+                                        .length; /* 맞춘 항목 수 */
+                                    var pe = (qr / qa) * 100; /* 정답 비율 */
+                                    var tcl = "white"; /* 기본 문자색 */
+
+                                    /* 분류 기준은 100%, 80%, 60%, 40% */
+                                    if (pe > 99) {
+                                        var st = "원어민이세요?";
+                                        var cl = "lime";
+                                        var tcl = "dark";
+                                    } else if (pe > 74) {
+                                        var st = "어! 좀 하시는데요~^^";
+                                        var cl = "success";
+                                    } else if (pe > 49) {
+                                        var st = "쓰읍~ 다시 해 보실까요?";
+                                        var cl = "primary";
+                                    } else {
+                                        var st = "좀 더 분발해 주세요~";
+                                        var cl = "danger";
+                                    }
+                                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" +
+                                        st + "</h4>");
+                                };
+                            }
+                        })
 
                     $("#0").show();
                 },

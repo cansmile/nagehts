@@ -28,6 +28,9 @@
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so" id="5">
                         Lieber Max,<span class="tran"><br><small>막스에게,</small></span>
                     </button>
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm" id="6">
+                        Mina<span class="tran"><br><small>미나가</small></span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -134,6 +137,14 @@
                             <tr>
                                 <td class="my-0 py-1">
                                     <div class="itm-lst 1itm" id="lst-5">
+                                        <h2 class="btn btn-warning btn-xl ttl w-100">
+                                            ▼ </h2>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="my-0 py-1">
+                                    <div class="itm-lst 1itm" id="lst-6">
                                         <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>
@@ -347,7 +358,7 @@
                     $("#ready").hide();
                     var pan =
                         new Array();
-                    pan = ["1"];
+                    pan = ["1", "6"];
                     var il = $("#itms>.itm").length;
                     for (var p = 0; p < pan.length; p++) {
                         var pani = "#lst-" + pan[p];

@@ -97,7 +97,7 @@
                                     <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-capitalize text-center form-control q border-bottom-only border-dark
+                                        class="text-center form-control q border-bottom-only border-dark
                                         rounded-0" style="max-width: 120px;" id="qst-6">
                                     &nbsp;Freitagvormittag treffe ich meinen
                                     Professor. Wir treffen uns&nbsp;
@@ -140,7 +140,7 @@
                                     <input autocomplete="off" type="text" placeholder="Antwort"
                                         aria-label="Antwort"
                                         aria-describedby="basic-addon1"
-                                        class="text-capitalize text-center form-control q border-bottom-only border-dark
+                                        class="text-center form-control q border-bottom-only border-dark
                                         rounded-0" style="max-width: 120px;" id="qst-9">
                                     &nbsp;Sonntag&nbsp;
                                     <input autocomplete="off" type="text" placeholder="Antwort"
@@ -168,7 +168,7 @@
                                         aria-describedby="basic-addon1"
                                         class="text-lowercase text-center form-control q border-bottom-only border-dark
                                         rounded-0" style="max-width: 120px;" id="qst-11">
-                                    &nbsp;1?
+                                    &nbsp;1 Uhr?
                                 </div>
                                 <span class="tran"><small>우리 오늘 언제 볼까? - 글쎄, 한
                                         1시에 어때?</small></span>

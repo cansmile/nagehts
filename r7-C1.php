@@ -332,6 +332,7 @@
                                 "</h4>");
                             $(".btn-lg").text().appendTo($(this).closest("td"));
                             $(".btn-lg").remove();
+                            $(".tran").show();
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

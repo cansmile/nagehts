@@ -73,12 +73,12 @@
                                 </td>
                                 <td>
                                     <div class="btn-group q" data-toggle="buttons" role="group" id="qst-1">
-                                        <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
-                                            data-placement="top" data-content="정답이 아니에요.">
+                                        <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
+                                             data-placement="top" data-content="정답!">
                                             Richtig
                                         </div>
-                                        <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
-                                            data-placement="top" data-content="정답!">
+                                        <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
+                                             data-placement="top" data-content="정답이 아니에요.">
                                             Falsch
                                         </div>
                                     </div>

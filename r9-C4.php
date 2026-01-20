@@ -21,8 +21,7 @@
                     <span class="border border-dark rounded p-2">Bücher</span>
                     <span class="border border-dark rounded p-2">einen
                         Reiseführer</span>
-                    <span class="border border-dark rounded p-2">eine
-                        Kosmetik</span>
+                    <span class="border border-dark rounded p-2">Kosmetik</span>
                     <span class="border border-dark rounded p-2">einen
                         Hund</span>
                     <span class="border border-dark rounded p-2">ein
@@ -272,7 +271,7 @@
         $(".ant").hide();
         var an = new Array();
         var an = ["eine Kaffeemaschine", "Musik CDs", "eine Kamera", "Bücher",
-            "einen Reiseführer", "eine Kosmetik", "einen Hund",
+            "einen Reiseführer", "Kosmetik", "einen Hund",
             "ein Kochbuch", "ein Wörterbuch"
         ];
         $(document).ready(function () {

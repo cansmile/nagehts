@@ -36,7 +36,7 @@
                         Das ist verboten.
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm" id="7">
-                        dann hören wir auf damit.
+                        dann hören wir damit auf.
                     </button>
                 </div>
             </div>

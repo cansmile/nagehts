@@ -20,7 +20,7 @@
                                     <div class="rounded bg-info text-white p-3" style="font-size: 1.5em;">
                                         <strong>BELEI</strong> Maria, gehen wir
                                         heute <strong>MITGTA</strong> zum Eis
-                                        essen?<br>Tim
+                                        essen?<br>Liebe Grüße Tim
                                     </div>
                                 </td>
                             </tr>

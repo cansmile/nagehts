@@ -255,7 +255,6 @@
                                     "</h4>");
                                 $(this).attr("id", "done");
                                 $(".tran").show();
-                                $(".itm-lst").hide();
                             } else {
                                 $("div.itm-lst").each(function (idx) {
                                     if (!$(this).find("button").length) {

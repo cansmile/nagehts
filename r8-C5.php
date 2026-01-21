@@ -48,7 +48,7 @@
                         gratulieren<span class="tran"><br><small>축하하다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm" id="14">
-                        danken<span class="tran"><br><small>생각하다</small></span>
+                        danken<span class="tran"><br><small>감사하다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm" id="15">
                         haben<span class="tran"><br><small>가지다</small></span>
@@ -118,7 +118,7 @@
                 <div style="min-height: 240px;" class="rounded-top border bg-success border-white itm-lst col-xs-6
                 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-2 pe-3" id="lst-4">
                     <h2 style="min-height: 60px;" class="btn btn-xl bg-white ttl w-100 pt-3">Verben im Dativ<span
-                            class="tran">&nbsp;<small>3격 지배동새</small></span>
+                            class="tran">&nbsp;<small>3격 지배동사</small></span>
                     </h2>&nbsp;
                 </div>
             </div>

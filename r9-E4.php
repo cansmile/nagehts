@@ -300,49 +300,35 @@
             if ($(this).attr("id") == "done") {
             } else if (
                 na == "") {
+                // 정답 표시용 텍스트(복수 정답은 / 로 연결)
+                function answerText(idx) {
+                    if ($.isArray(an[idx])) {
+                        return an[idx].join(" / ");
+                    }
+                    return an[idx];
+                }
                 for (var i = 0; i < an.length; i++) {
                     var oran = $("#qst-" + (i + 1)).val();
                     if (rfchk($("#qst-" + (i + 1)), true)) {
-                        $("#qst-" + (i + 1)).addClass(
-                            "cr"
-                        );
-                        $("#qst-" + (i + 1)).removeClass(
-                            "rounded-0");
+                        // 정답: 별도 박스 생성 없이 입력란 안에 정답(복수 정답은 /)을 굵은 흰 글씨로 표시
+                        $("#qst-" + (i + 1)).val(answerText(i));
+                        $("#qst-" + (i + 1)).addClass("bg-success text-white fw-bold cr");
+                        $("#qst-" + (i + 1)).removeClass("rounded-0 text-dark bg-danger");
+                        $("#qst-" + (i + 1)).prop("disabled", true);
                     } else {
+                        // 오답: 입력한 내용은 그대로 두고 굵은 검정 글씨로 표시 (별도 정답 박스 생성 없음)
                         $("#qst-" + (i + 1)).val(oran);
-                        $("#qst-" + (i + 1)).attr(
-                            "disabled", true);
-                        $("#qst-" + (i + 1)).addClass(
-                            "wa"
+                        $("#qst-" + (i + 1)).prop("disabled", true);
+                        $("#qst-" + (i + 1)).addClass("wa fw-bold text-dark");
+                        $("#qst-" + (i + 1)).removeClass("rounded-0 text-white bg-success bg-danger");
+
+                        // 정답(복수 정답은 /)을 오답 입력칸 오른쪽에 굵고 붉은 글씨로 표시
+                        $("#qst-" + (i + 1)).next(".ans-inline").remove();
+                        $("#qst-" + (i + 1)).after(
+                            "<span class=\"ms-2 fw-bold text-danger ans-inline\">" +
+                            answerText(i) +
+                            "</span>"
                         );
-                        $("#qst-" + (i + 1)).removeClass(
-                            "rounded-0");
-                        if (!$.isArray(an[i])) {
-                            $("#qst-" + (i + 1)).after(
-                                "<div class=\"ramt-2 t-6\" style=\"vertical-align: text-bottom;\">" +
-                                an[i] + "</div>");
-                        } else {
-                            /* 2 이상인 경우 */
-                            var r =
-                                "<div class=\"ramt-2 t-6\" style=\"vertical-align: text-bottom;\">";
-                            for (var fd = (an[i].length -
-                                1); fd >= 0; fd--) {
-                                if (fd < (an[i].length -
-                                    1)) {
-                                    r = r + " / ";
-                                }
-                                r = r + an[i][fd];
-                            }
-                            r = r + "</div>";
-                            if ($("span.sen").length > 0) {
-                                $("#qst-" + (i + 1))
-                                    .closest("span.sen")
-                                    .after(r);
-                            } else {
-                                $("#qst-" + (i + 1)).after(
-                                    r);
-                            }
-                        }
                     }
                     if ($("#qst-" + (i + 1)).hasClass(
                         "bg-success")) {

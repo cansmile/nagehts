@@ -160,6 +160,9 @@
             function stopAll() {
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")]);
+                    if (!$("#chk").hasClass("btn-lg")) {
+                        $(this).closest("tr").find(".tran").show();
+                    }
                 });
             } /* 문제 재생 */
             var nagehts = new Howl({

@@ -18,7 +18,7 @@
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2 so" id="3">
                         nicht mehr rauchen.
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-2" id="4">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm px-2 so" id="4">
                         mehr Obst und Gemüse essen.
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-2 so" id="5">
@@ -205,7 +205,12 @@
             var nagehts = new Howl({
                 src: ["./dev/sounds/Reihe 8/r8 D5.mp3"],
                 sprite: {
-                    "0": [942, 81017]
+                    "0": [942, 81017],
+                    "1": [89505, 1988],
+                    "2": [103619, 3706],
+                    "3": [99502, 1738],
+                    "4": [84547, 2777],
+                    "5": [93991, 2461]
                 },
                 html5: true,
                 volume: 1,

@@ -272,7 +272,7 @@
         $(".ant").hide();
         var an = new Array();
         var an = ["eine Kaffeemaschine", "Musik CDs", "eine Kamera", "Bücher",
-            "einen Reiseführer", "eine Kosmetik", "einen Hund",
+            "einen Reiseführer", "Kosmetik", "einen Hund",
             "ein Kochbuch", "ein Wörterbuch"
         ];
         $(document).ready(function () {

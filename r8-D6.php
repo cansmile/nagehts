@@ -104,7 +104,7 @@
                                 <th width="50" class="align-middle" scope="col">4.</th>
                                 <td class="align-middle">Bauchschmerzen
                                     (Herr Kim)
-                                    <span class="tran"><br><small>독감
+                                    <span class="tran"><br><small>복통
                                             (김씨)</small></span></td>
                                 <td class="align-middle">
                                     <div class="itm-lst 1itm" id="lst-4">

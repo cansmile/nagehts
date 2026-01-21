@@ -8,43 +8,39 @@
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="1">
                         Herzlichen Glückwunsch zur neuen Wohnung.
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />새 집 구한 거 진심으로 축하해.</span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm" id="2">
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm" id="2">
                         Herzliche Grüße
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />안녕</span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="3">
                         Wie groß ist sie?
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />집은 얼마나 크니?</span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="4">
                         vielen Dank für die Einladung.
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />초대해 줘서 많이 고마워.</span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="5">
                         Und wie hoch ist die Miete?
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />집세는 얼마나 되니?</span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm" id="6">
-                        Und wie hoch ist die Miete?
-                        <span class="tran"><br />translate</span>
-                    </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="6">
                         Liebe Mina,
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />사랑하는 미나,</span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm" id="7">
                         Ich freue mich auf die Party.
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />파티 기대할게.</span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="9">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="8">
                         Ich komme gern. Ich möchte gern wissen, wo du wohnst.
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />기꺼이 갈게. 어디 사는지 알고 싶어.</span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark itm" id="10">
+                    <button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm" id="9">
                         ○○○
-                        <span class="tran"><br />translate</span>
+                        <span class="tran"><br />○○○</span>
                     </button>
                 </div>
             </div>
@@ -154,14 +150,6 @@
                             <tr>
                                 <td>
                                     <div class="itm-lst 1itm" id="lst-9">
-                                        <h2 class="btn btn-warning btn-xl ttl w-100">
-                                            ▼ </h2>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="itm-lst 1itm" id="lst-10">
                                         <h2 class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
                                     </div>

@@ -29,7 +29,7 @@
                                         <div class="col">
                                             <div class="my-1 lh250">
                                                 <span class="border border-dark rounded p-2">일상회화</span>
-                                                <span class="border border-dark rounded p-2">과거분사</span>
+                                                <span class="border border-dark rounded p-2">과거 분사형</span>
                                                 <span class="border border-dark rounded p-2">과거</span>
                                             </div>
                                         </div>

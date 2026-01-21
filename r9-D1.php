@@ -10,7 +10,7 @@
                     Wahl</div>
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="1">
-                        Liebe Julia
+                        Liebe Julia,
                         <span class="tran"><br />사랑하는 율리아</span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm so" id="2">
@@ -31,11 +31,11 @@
                             전화해주렴</span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="6">
-                        ich werde zwanzig.
-                        <span class="tran"><br />내가 20살이 되.</span>
+                        Denn ich werde zwanzig.
+                        <span class="tran"><br />내가 20살이 되기 때문이야.</span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="7">
-                        Das möchte ich gern mit dir und meinen anderen Freunden
+                        das möchte ich gern mit dir und meinen anderen Freunden
                         feiern.
                         <span class="tran"><br />너와 나의 다른 친구들과 생일파티를 하고자
                             해.</span>

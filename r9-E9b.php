@@ -177,8 +177,8 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["hattest", "war", "war", "hatten", "waren", "waren", "war",
-            "wart", "hatte", "warst", "war", "war"
+        var an = ["hattest", "war", "war", "hatten", "waren", "war", "wart",
+            "waren", "hatte", "warst", "war", "war"
         ];
         $(document).ready(function () {
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

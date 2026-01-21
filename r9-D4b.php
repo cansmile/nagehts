@@ -43,7 +43,7 @@
                                 되자마자 내 친구가 나에게 전화하여 나에게 생일 축하를 해주었어.</small>&nbsp;</span>
                 </div>
                 <div class="input-group lh350">
-                    Zum FrühstücZum Frühstück hat meine Mutter
+                    Zum Frühstück hat meine Mutter
                     mir ein leckeres Frühstück mit gekochtem Ei, und Speck und Toast <input autocomplete="off"
                                                                                             type="text"
                                                                                             class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center

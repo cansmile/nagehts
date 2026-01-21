@@ -500,7 +500,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                         array(
                             'D1' => array( 'Schreiben Sie eine Einladungskarte.', '초대장을 써보세요. 순서에 맞게 문장을 써보세요.' ),
                             'D2' => array( 'Ergänzen Sie die Personalpronomen.', '알맞은 인칭대명사를 쓰세요.' ),
-                            'D3' => array( 'Schreiben Sie einen Einladungskarte zur Einweihungsfeier.', '집들이 파티에 초장을 쓰세요.' ),
+                            'D3' => array( 'Schreiben Sie einen Einladungskarte zur Einweihungsfeier.', '집들이 파티에 초대장을 쓰세요.' ),
                             'D4a' => array( 'Meine 20. Geburtstagsfeier', '나의 스무번째 생일' ),
                             'D4b' => array( 'Hören Sie und ergänzen Sie die passenden Partizip II-Formen.', '듣고 알맞은 과거분사형을 채우세요.' ),
                             'D4c' => array( 'Hören Sie den Text und klicken Sie an.', '듣고 알맞은 답을 선택하세요.' ),

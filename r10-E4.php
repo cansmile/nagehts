@@ -12,212 +12,212 @@
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="1">
-                        auf das Rathaus
+                        auf das Rathaus<span class="tran"><br /><small>시청으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="2">
-                        auf dem Hauptbahnhof
+                        auf dem Hauptbahnhof<span class="tran"><br /><small>중앙역에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="3">
-                        auf dem Marktplatz
+                        auf dem Marktplatz<span class="tran"><br /><small>시장 광장에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="4">
-                        auf dem Rathaus
+                        auf dem Rathaus<span class="tran"><br /><small>시청에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="5">
-                        auf dem Turm
+                        auf dem Turm<span class="tran"><br /><small>탑 위에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="6">
-                        auf den Hauptbahnhof
+                        auf den Hauptbahnhof<span class="tran"><br /><small>중앙역으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="7">
-                        auf den Marktplatz
+                        auf den Marktplatz<span class="tran"><br /><small>시장 광장으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="8">
-                        auf den Turm
+                        auf den Turm<span class="tran"><br /><small>탑 위로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="9">
-                        auf der Bank
+                        auf der Bank<span class="tran"><br /><small>은행에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="10">
-                        auf der Post
+                        auf der Post<span class="tran"><br /><small>우체국에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="11">
-                        auf die Bank
+                        auf die Bank<span class="tran"><br /><small>은행으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="12">
-                        auf die Post
+                        auf die Post<span class="tran"><br /><small>우체국으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="13">
-                        im Supermarkt
+                        im Supermarkt<span class="tran"><br /><small>슈퍼마켓에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="14">
-                        im Café
+                        im Café<span class="tran"><br /><small>카페에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="15">
-                        im Fotostudio
+                        im Fotostudio<span class="tran"><br /><small>사진관에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="16">
-                        im Kaufhaus
+                        im Kaufhaus<span class="tran"><br /><small>백화점에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="17">
-                        im Park
+                        im Park<span class="tran"><br /><small>공원에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="18">
-                        im Reisebüro
+                        im Reisebüro<span class="tran"><br /><small>여행사에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="19">
-                        im Rottannenweg
+                        im Rottannenweg<span class="tran"><br /><small>로트탄넨베크에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="20">
-                        im Schwimmbad
+                        im Schwimmbad<span class="tran"><br /><small>수영장에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="21">
-                        im Stadtmuseum
+                        im Stadtmuseum<span class="tran"><br /><small>시립 박물관에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="22">
-                        in dem Bus
+                        in dem Bus<span class="tran"><br /><small>버스 안에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="23">
-                        in den Bus
+                        in den Bus<span class="tran"><br /><small>버스 안으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="24">
-                        in den Park
+                        in den Park<span class="tran"><br /><small>공원으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="25">
-                        in den Rottannenweg
+                        in den Rottannenweg<span class="tran"><br /><small>로트탄넨베크로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="26">
-                        in der Apotheke
+                        in der Apotheke<span class="tran"><br /><small>약국에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="27">
-                        in der Bäckerei
+                        in der Bäckerei<span class="tran"><br /><small>빵집에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="28">
-                        in der Frauenkirche
+                        in der Frauenkirche<span class="tran"><br /><small>프라우엔교회에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="29">
-                        in der Haupstraße
+                        in der Haupstraße<span class="tran"><br /><small>하우프트슈트라세에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="30">
-                        in die Apotheke
+                        in die Apotheke<span class="tran"><br /><small>약국으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="31">
-                        in die Bäckerei
+                        in die Bäckerei<span class="tran"><br /><small>빵집으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="32">
-                        in die Frauenkirche
+                        in die Frauenkirche<span class="tran"><br /><small>프라우엔교회로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="33">
-                        in die Haupstraße
+                        in die Haupstraße<span class="tran"><br /><small>하우프트슈트라세로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="34">
-                        ins Café
+                        ins Café<span class="tran"><br /><small>카페로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="35">
-                        ins Fotostudio
+                        ins Fotostudio<span class="tran"><br /><small>사진관으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="36">
-                        ins Kaufhaus
+                        ins Kaufhaus<span class="tran"><br /><small>백화점으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="37">
-                        ins Reisebüro
+                        ins Reisebüro<span class="tran"><br /><small>여행사로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="38">
-                        ins Schwimmbad
+                        ins Schwimmbad<span class="tran"><br /><small>수영장으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="39">
-                        ins Stadtmuseum
+                        ins Stadtmuseum<span class="tran"><br /><small>시립 박물관으로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="40">
-                        zwischen der Kirche und der Bibliothek
+                        zwischen der Kirche und der Bibliothek<span class="tran"><br /><small>교회와 도서관 사이에</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="41">
-                        zwischen die Kirche und die Bibliothek
+                        zwischen die Kirche und die Bibliothek<span class="tran"><br /><small>교회와 도서관 사이로</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="42">
-                        in den Supermarkt
+                        in den Supermarkt<span class="tran"><br /><small>슈퍼마켓으로</small></span>
                     </button>
                 </div>
             </div>

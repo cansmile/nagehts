@@ -566,8 +566,8 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                         array(
                             'E1a' => array( 'Wo ist der Spatz?', '어디에 참새가 있나요?' ),
                             'E1b' => array( 'Wohin fliegt der Spatz?', '어디로 참새가 날라가나요?' ),
-                            'E2a' => array( 'Wo sind die Gegenstände im Zimmer?', '문장을 채우세요.' ),
-                            'E2b' => array( 'Wohin bringt sie die Gegenstände?', '문장을 채우세요.' ),
+                            'E2a' => array( 'Wo sind die Gegenstände im Zimmer?', '방 안에 물건들은 어디에 있나요?' ),
+                            'E2b' => array( 'Wohin bringt sie die Gegenstände?', '그녀는 물건들을 어디로 가져가나요?' ),
                             'E3' => array( 'Wo kann man in Gartenstadt was machen?', '가르텐시의 어디서 무엇을 할 수 있나요?' ),
                             'E4' => array( 'Ordnen Sie die Ausdrücke aus dem Kasten in die Tabelle ein.', '상자안의 표현구들을 표안에 넣으세요.' ),
                             'E5' => array( 'Entschuldigung, wo ist ... ?', '실례하지만...' ),

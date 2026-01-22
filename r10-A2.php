@@ -30,7 +30,7 @@
                     <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm px-2" id="7">
                         ⑦
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans17 btn-lg btn-outline-dark itm px-2" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans18 btn-lg btn-outline-dark itm px-2" id="8">
                         ⑦
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="9">

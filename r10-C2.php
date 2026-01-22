@@ -162,7 +162,7 @@
                     aus dem Bereich der Kultur, Wissenschaft oder Gesellschaft.
                     Angeboten wird zudem auch die populärwissenschaft liche
                     Ausstellung „Abenteuer Mensch“ mit der Gläsernen Frau oder
-                    das interaktive Kinder- Musuem „Welt der Sinne“.
+                    das interaktive Kinder-Museum „Welt der Sinne“.
                     <span class="tran"><br><small>독일 위생박물관은 1912 년에 설립되었으며 유럽
                             박물관 중에서 독특합니다. 문화, 과학 또는 사회 분야의 모든 사람들을 위한 풍부한
                             엔터테인먼트가 있습니다. 글레저네 프라우과 함께 대중 과학 전시회인 "아벤토이어 멘쉬" 또는

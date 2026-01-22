@@ -17,7 +17,7 @@
                         dem Supermarkt
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-3" id="4">
-                        zwischen der Kirche / neben dem Museum
+                        zwischen der Kirche und dem Museum / neben dem Museum
                     </button>
                 </div>
             </div>

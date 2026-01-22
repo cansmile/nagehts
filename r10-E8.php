@@ -12,282 +12,282 @@
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="1">
-                        abgeflogen
+                        abgeflogen<span class="tran"><br><small>출발했다(비행기로)</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="2">
-                        abgesprochen
+                        abgesprochen<span class="tran"><br><small>약속했다/합의했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="3">
-                        abgezahlt
+                        abgezahlt<span class="tran"><br><small>(빚을) 갚았다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="4">
-                        angekommen
+                        angekommen<span class="tran"><br><small>도착했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="5">
-                        angerufen
+                        angerufen<span class="tran"><br><small>전화했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="6">
-                        angezogen
+                        angezogen<span class="tran"><br><small>입었다/껴 입었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="7">
-                        aufgeblieben
+                        aufgeblieben<span class="tran"><br><small>늦게까지 깨어 있었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="8">
-                        aufgefunden
+                        aufgefunden<span class="tran"><br><small>발견했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="9">
-                        aufgegessen
+                        aufgegessen<span class="tran"><br><small>다 먹었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="10">
-                        aufgeschrieben
+                        aufgeschrieben<span class="tran"><br><small>적어 두었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="11">
-                        aufgewacht
+                        aufgewacht<span class="tran"><br><small>잠에서 깼다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="12">
-                        ausgesucht
+                        ausgesucht<span class="tran"><br><small>골랐다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="13">
-                        ausgetrunken
+                        ausgetrunken<span class="tran"><br><small>다 마셨다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="14">
-                        befunden
+                        befunden<span class="tran"><br><small>(~에) 있었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="15">
-                        begangen
+                        begangen<span class="tran"><br><small>(범죄/실수 등을) 저질렀다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="16">
-                        bekommen
+                        bekommen<span class="tran"><br><small>받았다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="17">
-                        berufen
+                        berufen<span class="tran"><br><small>임명했다/불렀다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="18">
-                        besprochen
+                        besprochen<span class="tran"><br><small>논의했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="19">
-                        besucht
+                        besucht<span class="tran"><br><small>방문했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="20">
-                        betrunken
+                        betrunken<span class="tran"><br><small>취했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="21">
-                        bezahlt
+                        bezahlt<span class="tran"><br><small>지불했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="22">
-                        bezogen
+                        bezogen<span class="tran"><br><small>관련되었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="23">
-                        eingekauft
+                        eingekauft<span class="tran"><br><small>장을 봤다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="24">
-                        eingeschlafen
+                        eingeschlafen<span class="tran"><br><small>잠들었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="25">
-                        erlernt
+                        erlernt<span class="tran"><br><small>배웠다/습득했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="26">
-                        erwacht
+                        erwacht<span class="tran"><br><small>깨어났다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="27">
-                        fotografiert
+                        fotografiert<span class="tran"><br><small>사진을 찍었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="28">
-                        geblieben
+                        geblieben<span class="tran"><br><small>머물렀다/남아 있었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="29">
-                        gefahren
+                        gefahren<span class="tran"><br><small>(차로) 갔다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="30">
-                        geflogen
+                        geflogen<span class="tran"><br><small>날았다/비행했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="31">
-                        gefunden
+                        gefunden<span class="tran"><br><small>찾았다/발견했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="32">
-                        gegangen
+                        gegangen<span class="tran"><br><small>갔다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="33">
-                        gegessen
+                        gegessen<span class="tran"><br><small>먹었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="34">
-                        gekauft
+                        gekauft<span class="tran"><br><small>샀다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="35">
-                        gekommen
+                        gekommen<span class="tran"><br><small>왔다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="36">
-                        gelernt
+                        gelernt<span class="tran"><br><small>배웠다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="37">
-                        gerufen
+                        gerufen<span class="tran"><br><small>불렀다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="38">
-                        geschlafen
+                        geschlafen<span class="tran"><br><small>잤다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="39">
-                        geschrieben
+                        geschrieben<span class="tran"><br><small>썼다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="40">
-                        gesprochen
+                        gesprochen<span class="tran"><br><small>말했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="41">
-                        gesucht
+                        gesucht<span class="tran"><br><small>찾았다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="42">
-                        getrunken
+                        getrunken<span class="tran"><br><small>마셨다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="43">
-                        gewacht
+                        gewacht<span class="tran"><br><small>깨어 있었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="44">
-                        gezahlt
+                        gezahlt<span class="tran"><br><small>지불했다/냈다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="45">
-                        gezogen
+                        gezogen<span class="tran"><br><small>당겼다/이사했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="46">
-                        nachgelernt
+                        nachgelernt<span class="tran"><br><small>다시/추가로 배웠다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="47">
-                        studiert
+                        studiert<span class="tran"><br><small>공부했다/전공했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="48">
-                        teleforniert
+                        teleforniert<span class="tran"><br><small>전화했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="49">
-                        unterschrieben
+                        unterschrieben<span class="tran"><br><small>서명했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="50">
-                        verblieben
+                        verblieben<span class="tran"><br><small>남아 있었다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="51">
-                        verfahren
+                        verfahren<span class="tran"><br><small>진행했다/처리했다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="52">
-                        verflogen
+                        verflogen<span class="tran"><br><small>날아가 버렸다/사라졌다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="53">
-                        verkauft
+                        verkauft<span class="tran"><br><small>팔았다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm"
                         id="54">
-                        verschlafen
+                        verschlafen<span class="tran"><br><small>늦잠잤다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="55">
-                        weggegangen
+                        weggegangen<span class="tran"><br><small>떠나갔다</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm"
                         id="56">
-                        zurückgefahren
+                        zurückgefahren<span class="tran"><br><small>(차로) 돌아갔다</small></span>
                     </button>
                 </div>
             </div>

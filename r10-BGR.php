@@ -55,8 +55,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Präpositionmen des Ortes <br>
-                        <small>장소와 연관된 3·4격 지배전치사</small>
+                    <h2> Präpositionmen<br>
+                        <small>지배전치사</small>
                 </div>
             </div>
             <div class="row">
@@ -111,7 +111,7 @@
                                             class="form-control q rounded-0 border-bottom-only mx-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg mx-auto t-6"
                                             style="max-width: 100px; min-width: 100px;"
-                                            aria-label="." id="qst-2">Schloß.
+                                            aria-label="." id="qst-2">Schloss.
                                     </div>
                                     <span class="tran"><small><br>나는 이번 휴가에 바다에
                                             간다.</small></span>

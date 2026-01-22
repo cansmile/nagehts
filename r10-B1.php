@@ -13,88 +13,105 @@
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="1">
                         Auf der linken(rechten) Seite finden Sie .....
+                        <span class="tran"><br><small>왼쪽(오른쪽) 편에서 ...을 찾으실 수 있습니다.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="2">
                         Bitte.
+                        <span class="tran"><br><small>천만에요. / 여기 있습니다.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="3">
                         Dann die (erste, zweite, dritte) Straße links/rechts!
+                        <span class="tran"><br><small>그다음 (첫 번째, 두 번째, 세 번째) 골목에서 왼쪽/오른쪽으로 가세요!</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="4">
                         Der/Die/Das .... ist in der Nähe.
+                        <span class="tran"><br><small>...은 근처에 있습니다.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="5">
-                        Entschuldigen Sie bitte! Gibt es hier einen/ eine/
-                        ein....?
+                        Entschuldigen Sie bitte! Gibt es hier einen/
+                        ein....?<br />
+                        <span class="tran"><br><small>실례합니다! 이 근처에 ...이 있나요?</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="6">
                         Entschuldigung, wie komme ich zum/ zur....?
+                        <span class="tran"><br><small>실례합니다, ...에 어떻게 가나요?</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="7">
                         Entschuldigung, wo finde ich …?
+                        <span class="tran"><br><small>실례합니다, ...을 어디서 찾을 수 있나요?</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="8">
-                        Gehen Sie (die ...Straße) immer geradeaus/nach links/
+                        Gehen Sie (die ...Straße) immer geradeaus/nach
                         nach rechts.
+                        <span class="tran"><br><small>(... 거리로) 계속 직진/왼쪽/오른쪽으로 가세요.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="9">
                         Gern geschehen!
+                        <span class="tran"><br><small>별말씀을요! (기꺼이 도와드린 거예요!)</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="10">
                         Ich bin fremd hier.
+                        <span class="tran"><br><small>저도 여기가 처음입니다. (이곳 사람이 아닙니다.)</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="11">
                         Ich suche ....
+                        <span class="tran"><br><small>...을 찾고 있습니다.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="12">
                         Neben dem Supermarkt.
+                        <span class="tran"><br><small>슈퍼마켓 옆에 있습니다.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="13">
                         Nichts zu danken!
+                        <span class="tran"><br><small>감사할 것까지 없습니다! (천만에요!)</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm"
                         id="14">
                         Tut mir Leid. Das weiß ich nicht.
+                        <span class="tran"><br><small>죄송합니다. 잘 모르겠습니다.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm"
                         id="15">
                         Verzeihung, ich suche...
+                        <span class="tran"><br><small>죄송합니다, ...을 찾고 있습니다.</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm"
                         id="16">
                         Vielen Dank!
+                        <span class="tran"><br><small>정말 감사합니다!</small></span>
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm"
                         id="17">
                         Zwischen der Post und dem Reisebüro.
+                        <span class="tran"><br><small>우체국과 여행사 사이에 있습니다.</small></span>
                     </button>
                 </div>
             </div>
@@ -114,25 +131,25 @@
                     class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-1">
                     <h2 class="btn btn-xl bg-white ttl w-100">nach dem Weg
-                        fragen</h2>&nbsp;
+                        fragen<span class="tran"><br><small>(길 묻기)</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-2">
                     <h2 class="btn btn-xl bg-white ttl w-100">den Weg
-                        beschreiben</h2>&nbsp;
+                        beschreiben<span class="tran"><br><small>(길 안내하기)</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-3">
                     <h2 class="btn btn-xl bg-white ttl w-100">nicht den Weg
-                        kennen</h2>&nbsp;
+                        kennen<span class="tran"><br><small>(길을 모를 때)</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-4">
                     <h2 class="btn btn-xl bg-white ttl w-100">sich bedanken /
-                        antworten</h2>&nbsp;
+                        antworten<span class="tran"><br><small>(감사하기 및 응답하기)</small></span></h2>&nbsp;
                 </div>
             </div>
             <!-- 정답화인 버튼 시작 -->

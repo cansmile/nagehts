@@ -19,3 +19,30 @@
     </div>
 </footer>
 <!-- 꼬리말 끝 -->
+
+<!-- MakeQ LMS: postMessage bridge for iframe completion tracking -->
+<script>
+(function() {
+    if (window.parent === window) return;
+    $(document).ready(function() {
+        var chkEl = document.getElementById('chk');
+        if (!chkEl) return;
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(m) {
+                if (m.target.id === 'done') {
+                    var total = $('.q').length;
+                    var correct = $('.bg-success').length;
+                    var pct = total > 0 ? Math.round((correct / total) * 10000) / 100 : 0;
+                    window.parent.postMessage({
+                        type: 'makeq-completion',
+                        correct: correct,
+                        total: total,
+                        percentage: pct
+                    }, '*');
+                }
+            });
+        });
+        observer.observe(chkEl, { attributes: true, attributeFilter: ['id'] });
+    });
+})();
+</script>

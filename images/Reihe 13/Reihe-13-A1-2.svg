@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Abgase (Exhaust Fumes) -->
+  <rect x="0" y="0" width="200" height="200" fill="#e8e8e8" rx="12"/>
+  <!-- Road -->
+  <rect x="0" y="140" width="200" height="60" fill="#555"/>
+  <rect x="0" y="168" width="200" height="4" fill="#ffd93d" stroke-dasharray="20 10"/>
+  <!-- Car body -->
+  <path d="M30 130 L30 145 Q30 150 35 150 L135 150 Q140 150 140 145 L140 125 L120 100 L60 100 L45 120 Z" fill="#3498db" stroke="#2980b9" stroke-width="1.5"/>
+  <!-- Car roof -->
+  <path d="M60 100 L75 80 L115 80 L120 100 Z" fill="#5dade2"/>
+  <!-- Windows -->
+  <path d="M63 100 L76 83 L95 83 L95 100 Z" fill="#aed6f1" opacity="0.8"/>
+  <path d="M98 100 L98 83 L114 83 L118 100 Z" fill="#aed6f1" opacity="0.8"/>
+  <!-- Wheels -->
+  <circle cx="55" cy="150" r="12" fill="#333"/>
+  <circle cx="55" cy="150" r="6" fill="#777"/>
+  <circle cx="120" cy="150" r="12" fill="#333"/>
+  <circle cx="120" cy="150" r="6" fill="#777"/>
+  <!-- Exhaust pipe -->
+  <rect x="20" y="140" width="12" height="6" fill="#888" rx="2"/>
+  <!-- Exhaust fumes -->
+  <ellipse cx="15" cy="136" rx="10" ry="6" fill="#999" opacity="0.7"/>
+  <ellipse cx="5" cy="128" rx="14" ry="8" fill="#aaa" opacity="0.6"/>
+  <ellipse cx="12" cy="118" rx="18" ry="10" fill="#bbb" opacity="0.5"/>
+  <ellipse cx="0" cy="106" rx="22" ry="12" fill="#ccc" opacity="0.4"/>
+  <ellipse cx="10" cy="92" rx="26" ry="14" fill="#ddd" opacity="0.3"/>
+</svg>

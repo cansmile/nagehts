@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Kraftwerk (Power Plant) -->
+  <rect x="0" y="0" width="200" height="200" fill="#1a1a2e" rx="12"/>
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="60%" stop-color="#f7c59f"/>
+      <stop offset="100%" stop-color="#2d3436"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="200" height="140" fill="url(#sky)" rx="12"/>
+  <!-- Ground -->
+  <rect x="0" y="140" width="200" height="60" fill="#2d3436" rx="0"/>
+  <!-- Main building -->
+  <rect x="40" y="90" width="80" height="60" fill="#555" stroke="#333" stroke-width="1"/>
+  <!-- Windows -->
+  <rect x="50" y="100" width="10" height="10" fill="#ffd93d" opacity="0.8"/>
+  <rect x="68" y="100" width="10" height="10" fill="#ffd93d" opacity="0.8"/>
+  <rect x="86" y="100" width="10" height="10" fill="#ffd93d" opacity="0.8"/>
+  <rect x="50" y="118" width="10" height="10" fill="#ffd93d" opacity="0.6"/>
+  <rect x="68" y="118" width="10" height="10" fill="#ffd93d" opacity="0.6"/>
+  <rect x="86" y="118" width="10" height="10" fill="#ffd93d" opacity="0.6"/>
+  <!-- Chimney 1 -->
+  <rect x="55" y="40" width="14" height="50" fill="#666"/>
+  <!-- Chimney 2 -->
+  <rect x="130" y="55" width="18" height="85" fill="#c0392b" stroke="#a93226" stroke-width="1"/>
+  <rect x="130" y="75" width="18" height="4" fill="#fff" opacity="0.3"/>
+  <rect x="130" y="105" width="18" height="4" fill="#fff" opacity="0.3"/>
+  <!-- Smoke from chimney 1 -->
+  <ellipse cx="62" cy="32" rx="12" ry="8" fill="#aaa" opacity="0.6"/>
+  <ellipse cx="55" cy="20" rx="16" ry="10" fill="#999" opacity="0.5"/>
+  <ellipse cx="65" cy="8" rx="20" ry="12" fill="#888" opacity="0.4"/>
+  <!-- Smoke from chimney 2 -->
+  <ellipse cx="139" cy="46" rx="14" ry="9" fill="#aaa" opacity="0.6"/>
+  <ellipse cx="145" cy="30" rx="18" ry="11" fill="#999" opacity="0.5"/>
+  <ellipse cx="135" cy="14" rx="22" ry="13" fill="#888" opacity="0.4"/>
+  <!-- Cooling tower -->
+  <path d="M95 150 Q95 100 85 90 L115 90 Q105 100 105 150 Z" fill="#777"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Wasserverschmutzung (Water Pollution) -->
+  <rect x="0" y="0" width="200" height="200" fill="#1a5276" rx="12"/>
+  <!-- Sky -->
+  <rect x="0" y="0" width="200" height="80" fill="#85c1e9" rx="12"/>
+  <!-- Polluted water -->
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5d8a5e"/>
+      <stop offset="100%" stop-color="#2e4a2f"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 80 Q30 75 50 82 Q80 90 100 80 Q130 70 160 82 Q180 90 200 80 L200 200 L0 200 Z" fill="url(#water)"/>
+  <!-- Pipe discharging waste -->
+  <rect x="0" y="90" width="60" height="20" fill="#7f8c8d" rx="3"/>
+  <ellipse cx="60" cy="100" rx="5" ry="10" fill="#666"/>
+  <!-- Waste flowing out -->
+  <ellipse cx="75" cy="105" rx="15" ry="8" fill="#8b6914" opacity="0.7"/>
+  <ellipse cx="95" cy="110" rx="12" ry="6" fill="#7a5c12" opacity="0.5"/>
+  <!-- Dead fish -->
+  <g transform="translate(120, 95) rotate(10)">
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#bdc3c7"/>
+    <path d="M15 0 L25 -8 L25 8 Z" fill="#bdc3c7"/>
+    <circle cx="-6" cy="-2" r="2.5" fill="#fff"/>
+    <circle cx="-6" cy="-2" r="1.5" fill="#333"/>
+    <text x="-4" y="2" font-size="5" fill="#333">X</text>
+  </g>
+  <!-- Floating trash -->
+  <rect x="140" y="82" width="12" height="8" fill="#e67e22" opacity="0.8" rx="1"/>
+  <circle cx="85" cy="88" r="5" fill="#27ae60" opacity="0.6"/>
+  <!-- Oil slick -->
+  <ellipse cx="100" cy="140" rx="40" ry="15" fill="#1a1a2e" opacity="0.3"/>
+  <!-- Bubbles -->
+  <circle cx="65" cy="108" r="3" fill="#fff" opacity="0.3"/>
+  <circle cx="70" cy="115" r="2" fill="#fff" opacity="0.2"/>
+  <circle cx="62" cy="120" r="2.5" fill="#fff" opacity="0.25"/>
+  <!-- Warning skull -->
+  <g transform="translate(155, 55)">
+    <circle cx="0" cy="0" r="15" fill="#f39c12"/>
+    <circle cx="-4" cy="-3" r="2.5" fill="#333"/>
+    <circle cx="4" cy="-3" r="2.5" fill="#333"/>
+    <path d="M-4 5 Q0 8 4 5" fill="none" stroke="#333" stroke-width="1.5"/>
+  </g>
+</svg>

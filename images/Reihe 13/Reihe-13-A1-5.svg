@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Zigarettenkippen (Cigarette Butts) -->
+  <rect x="0" y="0" width="200" height="200" fill="#d4c5a9" rx="12"/>
+  <!-- Ground texture -->
+  <rect x="0" y="130" width="200" height="70" fill="#bfae8e" rx="0"/>
+  <!-- Cigarette butt 1 (large, center) -->
+  <g transform="translate(60, 100) rotate(-20)">
+    <rect x="0" y="0" width="60" height="12" fill="#f5f0e1" rx="2"/>
+    <rect x="0" y="0" width="15" height="12" fill="#d4a574" rx="2"/>
+    <circle cx="60" cy="6" r="3" fill="#c0392b" opacity="0.7"/>
+  </g>
+  <!-- Cigarette butt 2 -->
+  <g transform="translate(30, 140) rotate(10)">
+    <rect x="0" y="0" width="45" height="10" fill="#ede8d5" rx="2"/>
+    <rect x="0" y="0" width="12" height="10" fill="#c9a06c" rx="2"/>
+  </g>
+  <!-- Cigarette butt 3 -->
+  <g transform="translate(110, 150) rotate(-35)">
+    <rect x="0" y="0" width="50" height="10" fill="#f0ead8" rx="2"/>
+    <rect x="0" y="0" width="13" height="10" fill="#d4a574" rx="2"/>
+  </g>
+  <!-- Cigarette butt 4 -->
+  <g transform="translate(80, 160) rotate(25)">
+    <rect x="0" y="0" width="40" height="9" fill="#e8e0cc" rx="2"/>
+    <rect x="0" y="0" width="11" height="9" fill="#c9a06c" rx="2"/>
+  </g>
+  <!-- Cigarette butt 5 -->
+  <g transform="translate(140, 130) rotate(-5)">
+    <rect x="0" y="0" width="42" height="9" fill="#f2ece0" rx="2"/>
+    <rect x="0" y="0" width="11" height="9" fill="#d4a574" rx="2"/>
+  </g>
+  <!-- Smoke wisps -->
+  <path d="M115 95 Q118 80 113 65" fill="none" stroke="#999" stroke-width="1.5" opacity="0.4"/>
+  <path d="M120 90 Q125 72 118 55" fill="none" stroke="#aaa" stroke-width="1" opacity="0.3"/>
+  <!-- No smoking circle -->
+  <circle cx="100" cy="45" r="30" fill="none" stroke="#c0392b" stroke-width="4"/>
+  <line x1="79" y1="24" x2="121" y2="66" stroke="#c0392b" stroke-width="4"/>
+  <!-- Small cigarette icon inside circle -->
+  <rect x="82" y="42" width="36" height="7" fill="#f5f0e1" rx="1.5"/>
+  <rect x="82" y="42" width="10" height="7" fill="#d4a574" rx="1.5"/>
+</svg>

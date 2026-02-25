@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Abfall (Garbage/Waste) -->
+  <rect x="0" y="0" width="200" height="200" fill="#f0e6d3" rx="12"/>
+  <!-- Trash bin -->
+  <path d="M55 80 L45 170 Q44 178 52 178 L148 178 Q156 178 155 170 L145 80 Z" fill="#7f8c8d" stroke="#6c7a7b" stroke-width="2"/>
+  <!-- Bin lid -->
+  <rect x="42" y="72" width="116" height="12" fill="#95a5a6" rx="4"/>
+  <!-- Lid handle -->
+  <rect x="88" y="64" width="24" height="10" fill="#7f8c8d" rx="4"/>
+  <!-- Trash overflowing - banana peel -->
+  <path d="M70 72 Q65 50 80 45 Q85 55 75 65" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+  <!-- Bottle sticking out -->
+  <rect x="105" y="48" width="10" height="28" fill="#27ae60" rx="3"/>
+  <rect x="108" y="42" width="4" height="8" fill="#27ae60" rx="1"/>
+  <!-- Paper/box sticking out -->
+  <rect x="120" y="55" width="20" height="20" fill="#e67e22" stroke="#d35400" stroke-width="1" transform="rotate(-15 130 65)"/>
+  <!-- Can -->
+  <ellipse cx="85" cy="58" rx="7" ry="5" fill="#bdc3c7"/>
+  <rect x="78" y="58" width="14" height="16" fill="#bdc3c7"/>
+  <!-- Flies -->
+  <circle cx="60" cy="40" r="2" fill="#333"/>
+  <line x1="58" y1="38" x2="55" y2="35" stroke="#333" stroke-width="0.8"/>
+  <line x1="62" y1="38" x2="65" y2="35" stroke="#333" stroke-width="0.8"/>
+  <circle cx="140" cy="45" r="2" fill="#333"/>
+  <line x1="138" y1="43" x2="135" y2="40" stroke="#333" stroke-width="0.8"/>
+  <line x1="142" y1="43" x2="145" y2="40" stroke="#333" stroke-width="0.8"/>
+  <!-- Stink lines -->
+  <path d="M90 35 Q93 25 90 15" fill="none" stroke="#95a5a6" stroke-width="1.5" opacity="0.5"/>
+  <path d="M100 30 Q103 20 100 10" fill="none" stroke="#95a5a6" stroke-width="1.5" opacity="0.5"/>
+  <path d="M110 35 Q113 25 110 15" fill="none" stroke="#95a5a6" stroke-width="1.5" opacity="0.5"/>
+</svg>

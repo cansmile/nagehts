@@ -648,6 +648,8 @@
                         array(
                             'A1' => array( 'Zuordnung: Umweltprobleme', '연결하기: 환경 문제' ),
                             'A2' => array( 'Gelber Sand und Feinstaub', '황사와 미세먼지' ),
+                            'A2a' => array( 'Wörter', '어휘' ),
+                            'A2b' => array( 'Was ist richtig?', '어느 것이 맞을까요?' ),
                             'A3' => array( 'Covid-19 auf Langzeit?', '장기적인 코로나19?' ),
                             'A4' => array( 'Was tun für die Umwelt?', '환경을 위해 무엇을?' ),
                             'A5' => array( 'wenn-Satz Übungen', 'wenn-문장 연습' ),

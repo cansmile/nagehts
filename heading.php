@@ -5,81 +5,44 @@
     $lt = 4; /* 제목 데쉬 이후의 글자 수 제한 */
 
     $dash = strpos($fn, '-');
-if (!empty($dash)) {
-    $hp = $dash + 1;
-}
+    if (!empty($dash)) {
+        $hp = $dash + 1;
+    }
 
     /* Reihe를 구해요*/
-if (( $fn[0] !== 'D' ) || ( $fn[0] !== 'i' )) {
-    if (!empty($dash)) {
-        $r = substr($fn, 1, ( $dash - 1 ));
+    if (( isset($fn[0]) ) && (( $fn[0] !== 'D' ) && ( $fn[0] !== 'i' ))) {
+        if (!empty($dash)) {
+            $r = substr($fn, 1, ( $dash - 1 ));
+        }
+        if (( empty($dash) ) && ( strlen($fn) < 4 )) {
+            $r = substr($fn, 1);
+        }
     }
-    if (( empty($dash) ) && ( strlen($fn) < 4 )) {
-        $r = substr($fn, 1);
-    }
-}
 
     /* 여기가 어디냐? */
-if ($fn[0] === "D") {
-    $lv = "Deu";
-}
+    if (isset($fn[0])) {
+        if ($fn[0] === 'D') { $lv = 'Deu'; }
+        if ($fn[0] === 'i') { $lv = 'int'; }
+    }
+    if (( isset($r) ) && ( strlen($fn) < 4 )) { $lv = 'lv1'; }
+    if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) > $lt )) { $lv = 'lv2'; }
+    if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) { $lv = 'lv3'; }
 
-if ($fn[0] === "i") {
-    $lv = "int";
-}
-
-if (( isset($r) ) && ( strlen($fn) < 4 )) {
-    $lv = "lv1";
-}
-
-if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) > $lt )) {
-    $lv = "lv2";
-}
-
-if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
-    $lv = "lv3";
-}
     /* 색상 */
-    $col = array(
-        'blue',
-        'brown',
-        'darkblue',
-        'darkgray',
-        'flame',
-        'gold',
-        'grape',
-        'gray',
-        'green',
-        'khaki',
-        'lightcyan',
-        'navy',
-        'orange',
-        'pink',
-        'primary',
-        'purple',
-        'red',
-        'redbeen',
-        'scarlet',
-        'skyblue',
-        'violet',
-        'warning',
-        'wine',
-        'yellowgreen'
-    );
-
-    /* 색상 뽑기 */
+    $col = array('blue','brown','darkblue','darkgray','flame','gold','grape','gray',
+        'green','khaki','lightcyan','navy','orange','pink','primary','purple',
+        'red','redbeen','scarlet','skyblue','violet','warning','wine','yellowgreen');
     $color = $col[array_rand($col)];
-
 
     /* 각 과별 대단원 파일명과 제목 */
     $men = array(
         'D' => array( 'Deutschland', '독일은…' ),
         0 =>
-            array( 'Deutschland und die deutsche Spache', '독일과 독일어',
+            array( 'Deutschland und die deutsche Sprache', '독일과 독일어',
                 array(
                     'r0-Alphabet' => array( 'A. Alphabet', '알파벳' ),
                     'r0-Quizzzz' => array( 'B. Quiz', '퀴즈' ),
-                    'r0-Zuordnung' => array( 'C. Zuordnung', '연결하기' )
+                    'r0-Zuordnung' => array( 'C. Zuordnung', '연결하기' ),
                 )
             ),
         1 =>
@@ -127,7 +90,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'G11' => array( 'Hören Sie und ergänzen Sie.', '듣고 알맞은 억양(Satzmelodie)기호를 채우세요.' ),
                         )
                     ),
-                    'r1-Grammatik und Wendungen' => array( 'H. Grammatik und Wendungen', '문법과 표현' )
+                    'r1-Grammatik und Wendungen' => array( 'H. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         2 =>
@@ -170,7 +133,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E6' => array( 'Ergänzen Sie die Fragen.', '질문을 채우세요.' ),
                         )
                     ),
-                    'r2-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r2-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         3 =>
@@ -216,7 +179,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'F5' => array( 'Ergänzen Sie', '아래의 정보를 가지고 빈 칸을 채우세요.' ),
                         )
                     ),
-                    'r3-Grammatik und Wendungen' => array( 'G. Grammatik und Wendungen', '문법과 표현' )
+                    'r3-Grammatik und Wendungen' => array( 'G. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         4 =>
@@ -261,7 +224,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E6' => array( 'Schreiben Sie die Sätze.', '보기와 같이 문장을 만드세요.' ),
                         )
                     ),
-                    'r4-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r4-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         5 =>
@@ -325,7 +288,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'G16' => array( 'Ich möchte bestellen. Ich möchte bezahlen.', '주문하고 싶어요 계산하고 싶어요.' ),
                         )
                     ),
-                    'r5-Grammatik und Wendungen' => array( 'H. Grammatik und Wendungen', '문법과 표현' )
+                    'r5-Grammatik und Wendungen' => array( 'H. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         6 =>
@@ -334,7 +297,6 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                     'r6-Was machst du gern' => array( 'A. Was machst du gern?', '하루일과 중 무엇을 즐겨 하니?',
                         array(
                             'A1' => array( 'Was machen sie gern?', '그들은 무엇하기를 좋아하나요?' ),
-                            'A2' => array( 'Was machen sie (nicht) gern?', '무엇을 즐겨 하나(하지 않나)요?' ),
                             'A3' => array( 'Haushalt', '가사일' ),
                         )
                     ),
@@ -367,7 +329,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E7' => array( 'Lesen Sie den Text.', '다음 글을 읽으세요.' ),
                         )
                     ),
-                    'r6-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r6-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         7 =>
@@ -413,7 +375,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'D8' => array( 'Ergänzen Sie das Telefongespräch.', '다음 전화통화 내용에 알맞은 답을 넣어 문장을 완성해 보세요.' ),
                         )
                     ),
-                    'r7-Grammatik und Wendungen' => array( 'E. Grammatik und Wendungen', '문법과 표현' )
+                    'r7-Grammatik und Wendungen' => array( 'E. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         8 =>
@@ -441,7 +403,6 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'C3' => array( 'Krankheiten: Ergänzen Sie.', '병명을 채우세요.' ),
                             'C4' => array( 'Hören Sie die Gespräche und klicken Sie an.', '대화를 듣고 맞는 곳에 표시하세요.' ),
                             'C5' => array( 'Welche Verben sind im Nominativ, Akkusativ, Dativ und Akkusativ oder Dativ?', '어떤 동사가 주격동사, 직접목적격동사, 간접목적격동사 혹은 직접·간접목적격 동사인가요?' ),
-                            'C7' => array( 'Bilden Sie mit den Verben im Dativ einen Text.', '3격 (간접목적격) 지배동사를 가지고 텍스트를 만들어 보세요.' ),
                         )
                     ),
                     'r8-Beim Arzt' => array( 'D. Beim Arzt', '개인병원에서',
@@ -451,7 +412,6 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'D3' => array( 'Termin beim Arzt', '병원예약' ),
                             'D4' => array( 'Bei der Ärztin', '개인병원에서' ),
                             'D5' => array( 'Und jetzt sind Sie der Doktor! Was sollten die Personen tun?', '당신은 의사입니다. 사람들이 무엇을 해야 하나요?' ),
-                            'D6' => array( 'Ihr(e) Freund(in) hat Probleme. Was würden Sie ihm (ihr) empfehlen?', '당신의 친구에게 문제가 있어요. 그에게 뭐라고 조언을 해야 하나요?' ),
                         )
                     ),
                     'r8-Uebungen' => array( 'E. Übungen', '연습문제',
@@ -464,7 +424,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E6' => array( 'Imperativ: Was sagen Sie?', '명령형: 무엇이라고 말해야 하나요?' ),
                         )
                     ),
-                    'r8-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r8-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         9 =>
@@ -524,7 +484,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E12' => array( 'Wie war das Fest zu Neujahr, in Korea ,Seolnal’? Schreiben Sie an Ihrer Freundin Mina.', '한국의 설날은 어떻게 보내셨나요? 친구인 미나에게 써보세요.' ),
                         )
                     ),
-                    'r9-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r9-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         10 =>
@@ -580,7 +540,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E11' => array( 'Mein Urlaub in Dresden: Ordnen Sie die Bildungen zu und Schreiben Sie die Sätze ins Perfekt.', '드레스덴에서의 나의 휴가: 그림을 연결하고 완료형의 문장으로 쓰세요.' ),
                         )
                     ),
-                    'r10-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r10-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         11 =>
@@ -593,12 +553,10 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'A3' => array( 'Wo kaufen Sie was?', '어디에서 무엇을 사나요?' ),
                             'A4' => array( 'Lisa war auf dem Wochenmarkt und schreibt darüber auf Facebook.', '리자는 요일장에 갔던 일을 페이스북에 씁니다.' ),
                             'A5' => array( 'Warum kaufen Sie das im Supermarkt oder auf dem Markt?', '슈퍼마켓이나 시장에서 쇼핑을 하는 이유는 무엇인가요?' ),
-//                            'A6' => array( 'Schreiben Sie Vor- und Nachteile für den Einkauf im Supermarkt bzw. auf dem Markt.', '슈퍼마켓이나 시장 쇼핑의 장점과 단점을 이야기해 보세요.' ),
                         )
                     ),
                     'r11-Wo findet man was' => array( 'B. Wo findet man was?', '어디에 무엇이 있나요?',
                         array(
-//                            'B1' => array( 'Im Supermakt', '슈퍼마켓에서' ),
                             'B1a' => array( 'Wo findet man was?', '어디에 무엇이 있나요?' ),
                             'B2a' => array( 'Ergänzen Sie den Plan.', '안내게시판의 빈칸을 채우세요.' ),
                             'B3' => array( 'Was ist richtig?', '무엇이 맞나요?' ),
@@ -610,7 +568,6 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                         array(
                             'C1' => array( 'Ordnen Sie die Redemittel zur Meinungsäußerung ein.', '의사표시를 하는 데 유용한 구문을 분류해보세요.' ),
                             'C2' => array( 'Lesen Sie die kurzen Kommentare zu einem Artikel über Online-Shopping:', '온라인쇼핑에 대한 짧은 코멘트를 읽어보세요.' ),
-                            'C3' => array( 'Ergänzen Sie die Lücken. Welches Wort (1-10) passt?', '빈칸을 알맞은 단어로 채우세요.' ),
                         )
                     ),
                     'r11-Bewusster Einkauf' => array( 'D. Bewusster Einkauf', '의식있는 쇼핑',
@@ -624,7 +581,6 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E1' => array( 'Ergänzen Sie die bestimmten Artikel und die Pluralformen.', '정관사와 복수형을 채우세요.' ),
                             'E2' => array( 'Lesen Sie einen Einkaufszettel.', '쇼핑할 물건을 읽으세요.' ),
                             'E3' => array( 'Ergänzen Sie die richtigen Endungen.', '알맞은 어미를 써 넣으세요.' ),
-                            'E4' => array( 'Ergänzen Sie den Komparativ(++) oder den Superlativ(+++) der Adjektive in der richtigen Form.', '형용사의 비교급이나 최상급을 알맞은 형태로 채우세요.' ),
                             'E5' => array( 'Was passt?', '무엇이 알맞은가요?' ),
                             'E6' => array( 'Bestellungsformular ', '주문서' ),
                             'E7' => array( 'Bewertung.', '견적' ),
@@ -632,7 +588,7 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E9' => array( 'Hören Sie den Text.', '본문을 읽으세요.' ),
                         )
                     ),
-                    'r11-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r11-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
             ),
         12 =>
@@ -676,138 +632,42 @@ if (( isset($r) ) && ( !empty($dash) ) && ( ( strlen($fn) - $hp ) <= $lt )) {
                             'E7' => array( 'Durchsagen und Ansagen . Welche Durchsage passt nicht?', '안내방송. 어떤 말이 어울리지 않나요?' ),
                             'E8' => array( 'Mina ist zur Teilnahme am Sprachkurs in Frankfurt gelandet.', '미나가 어학연수를 위하여 프랑크프르트에 도착하였습니다.' ),
                             'E9a' => array( 'Wen siezt oder duzt man normalerweise in Deutschland?', '독일에서 누구에게 존칭 그리고 친칭하나요?' ),
-                            'E9b' => array( 'Welche Anrede und Grußformeln benutzen Sie beim Siezen und beim Duzen?', 'Sie를 사용할 때와 du를 사용할 때 어떤 인사말 (호칭) 과 끝 인사를 사용하나요' ),
                             'E10' => array( 'Schema der E-Mail: Redemitttel (Anfang und Schluss)', '이메일의 형식: 표현법 (그리고 도입과 맺음말)' ),
                             'E11a' => array( 'Indikativ Präteritum und Konjunktiv II.', '과거형과 가정법 II식.' ),
                             'E11b' => array( 'Bilden Sie Sätze in Konjunkitv II', '가정법 II식으로 문장을 만드세요.' ),
                             'E12' => array( 'Lesen Sie die E-Mail und schreiben Sie sie neu, indem Sie die Sätze mit den passenden Konektoren verbinden.', '이메일을 읽고 알맞은 접속사로 연결하여 새로 작성해보세요.' ),
                         )
                     ),
-                    'r12-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' )
+                    'r12-Grammatik und Wendungen' => array( 'F. Grammatik und Wendungen', '문법과 표현' ),
                 )
-            )
+            ),
+        13 =>
+            array( 'die Umwelt um uns herum', '우리 주변의 환경',
+                array(
+                    'r13-Umweltprobleme' => array( 'A. Umweltprobleme', '환경 문제',
+                        array(
+                            'A1' => array( 'Zuordnung: Umweltprobleme', '연결하기: 환경 문제' ),
+                            'A2' => array( 'Gelber Sand und Feinstaub', '황사와 미세먼지' ),
+                            'A3' => array( 'Covid-19 auf Langzeit?', '장기적인 코로나19?' ),
+                            'A4' => array( 'Was tun für die Umwelt?', '환경을 위해 무엇을?' ),
+                            'A5' => array( 'wenn-Satz Übungen', 'wenn-문장 연습' ),
+                        )
+                    ),
+                    'r13-Umweltschutz' => array( 'B. Was ist Umweltschutz?', '환경 보호란 무엇인가?',
+                        array(
+                            'B1' => array( 'Hören: Max und Lisa', '듣기: 막스와 리사' ),
+                            'B2' => array( 'Lücke: Umweltschutz', '빈칸: 환경 보호' ),
+                            'B3' => array( 'Richtig oder Falsch?', '맞을까 틀릴까?' ),
+                            'B4' => array( 'Mülltrennung zuordnen', '분리수거 연결하기' ),
+                        )
+                    ),
+                    'r13-Klimawandel' => array( 'C. Der Müll wird getrennt!', '쓰레기는 분리수거 되어진다!',
+                        array(
+                            'C1' => array( 'Müll in der richtigen Tonne', '수거함에 맞는 쓰레기' ),
+                            'C2' => array( 'Wozu trennt man den Müll?', '왜 분리수거를 할까?' ),
+                        )
+                    ),
+                    'r13-Grammatik und Wendungen' => array( 'E. Grammatik und Wendungen', '문법 및 표현' ),
+                )
+            ),
     );
-
-    /* 주 제목과 부 제목 추출 */
-    switch ($lv) {
-        case 'int':
-            $main_title = '
-            <img src="./dev/images/Na geht\'s title.png"
-                 width="50%" class="mx-auto" alt=""/>
-            <h1>Willkommen auf der PUTS
-                Lern-Website!<br/><small>PUTS 학습 웹사이트에 오신 것을
-                    환영합니다!</small></h1>
-            <h2><small>보이지 않는 단원은 작업 중입니다.<br>문의 사항은 <a
-                        href="https://www.nagehts.org/together"><small>함께해요</small></a>
-                    공간을 이용해주세요.</small></h2>
-            ';
-            break;
-        case 'Deu':
-            $main_title = $men['D'][0];
-            $sub_title = $men['D'][1];
-            break;
-        case 'lv1':
-            $main_title = 'Reihe ' . $r;
-            $sub_title = $men[$r][0] . '<br /><small>' . $men[$r][1] . '</small>';
-            break;
-        case 'lv2':
-            $main_title = $men[$r][2][$fn][0];
-            $sub_title = $men[$r][2][$fn][1];
-            break;
-        case 'lv3':
-            $item = substr($fn, $hp);
-            foreach ($men[$r][2] as $first_key => $first) {
-                for ($f = 0, $fMax = count($first); $f < $fMax; $f++) {
-                    if ($f === 2) {
-                        foreach ($first[$f] as $second_key => $second) {
-                            if ($second_key === $item) {
-                                $main_title = $second[0];
-                                $sub_title = $second[1];
-
-                                if (preg_match('/[a-z]/', ( substr($second_key, -1) ))) {
-                                    $item_head = substr($second_key, 0, ( strlen($second_key) - 1 ));
-                                    $item_tail = ord(substr($second_key, -1)) - 96;
-                                }
-
-                                if (preg_match('/[^a-z]/', ( substr($second_key, -1) ))) {
-                                    $item_head = $second_key;
-                                }
-
-                                if (substr($second_key, -2) === 'GR') {
-                                    $item_head = 'GR';
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            break;
-        default:
-            throw new RuntimeException('있을 수 없는 값이네요');
-    }
-    ?>
-
-<!-- 상단 큰 제목 -->
-<header>
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center align-middle">
-                    <h1 class="display-4 font-weight-bold">
-                        <?php
-                            /* 주 제목 출력 */
-                        if (!empty($main_title)) {
-                            echo $main_title;
-                        }
-                        ?>
-                    </h1>
-                    <h2>
-                        <?php
-                            /* 부 제목 출력 */
-                        if (!empty($sub_title)) {
-                            echo $sub_title;
-                        }
-
-                            /* 교재 항목 번호 출력 */
-                        if ($lv === 'lv3') {
-                            echo '<br /><small class="mt-2">( 교재 <span class="bg-' . $color . ' p-1 px-2 m-1 rounded text-white">' . $item_head;
-                            if (!empty($item_tail)) {
-                                echo '<small>-' . $item_tail . '</small>';
-                            }
-                            echo '</span>)</small>';
-                        }
-                        ?>
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<?php
-    /* Deutschland */
-if ($lv === "Deu") {
-    ?>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <img class="mx-auto" width="100%" src="dev/images/Reihe 0/Reihe-0-0.png" alt=""/>
-                        <p>&nbsp;</p>
-                        <p class="text-start">독일(Bundesrepublik Deutschland)은 중부유럽 북부에 위치하고 있으며 북쪽으로는 덴마크, 네덜란드, 벨기에,
-                            룩셈부르크, 프랑스, 남쪽으로는
-                            스위스, 오스트리아, 동쪽으로는 체코공화국, 폴란드 등 9 개의 나라에 둘러 쌓여있다. 이러한 지형적인 특성으로 유럽의 심장(das Herz Europas)이라고
-                            불린다. 독일의 면적은 35만
-                            7,104㎢로서 세계에서 61번째로 큰 나라로 우리 나라의1.6배에 해당하며 1990년 통일 이후 16개의 주로 구성된 연방국가이다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <?php
-}
-?>
-
-<!--스타일 먼저 보이기-->
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="./dev/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="./dev/css/bootstrap-custom.css" rel="stylesheet" type="text/css">
-<link href="./dev/css/global.css" rel="stylesheet" type="text/css">

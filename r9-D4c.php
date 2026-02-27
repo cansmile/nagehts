@@ -81,11 +81,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>1.</strong> Das Geburtstagskind heisst
                             Julia.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-1">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
@@ -101,10 +101,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>2.</strong> Sie feiert ihren 21. Geburtstag.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-2">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
@@ -120,11 +120,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>3.</strong> Ihre Mutter hat einen
                             selbstgemachten Kuchen gemacht.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-3">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
@@ -140,11 +140,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>4.</strong> Ihre Freundin hat sie angerufen
                             und ihr am Mittag gratuliert.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-4">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
@@ -160,10 +160,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>5.</strong> Es gab eine Party bei Alex.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-5">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
@@ -179,10 +179,10 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>6.</strong> Carlos kommt aus Frankfurt.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-6">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
@@ -198,11 +198,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>7.</strong> Auf der Party wurde gegrillt und
                             Musik gehört.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-7">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">
@@ -218,11 +218,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>8.</strong> Silvia hat als
                             Geburtstagsgeschenk Konzertkarten bekommen.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-8">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
@@ -238,11 +238,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>9.</strong> Leonie hat bei Silvia
                             übernachtet.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-9">
                                 <div class="btn btn-light pop o" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답!">
@@ -258,11 +258,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 my-2 p-3">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 border border-dark rounded p-2 align-middle">
                             <strong>10.</strong> Der Geburtstag war eine
                             Katastrophe.
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 text-center align-middle">
                             <div class="btn-group-vertical btn-group-toggle q" data-toggle="buttons" role="group" id="qst-10">
                                 <div class="btn btn-light pop x" data-toggle="popover" data-container="body"
                                     data-placement="top" data-content="정답이 아니에요.">

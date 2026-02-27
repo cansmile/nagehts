@@ -53,7 +53,7 @@ z<?php require_once("heading.php"); ?>
                                     <div class="input-group">
                                         Sie hat einen Kleber, aber
                                         <input autocomplete="off" type="text"
-                                            class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
+                                            class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-1">
                                         Radiergummi.
                                     </div><span class="tran"><br><small>그녀는 풀이
@@ -69,7 +69,7 @@ z<?php require_once("heading.php"); ?>
                                     <div class="input-group">
                                         Sie hat Buntstifte, aber
                                         <input autocomplete="off" type="text"
-                                            class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
+                                            class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-2">
                                         Geld.
                                     </div><span class="tran"><br><small>그녀는 색연필이
@@ -108,7 +108,7 @@ z<?php require_once("heading.php"); ?>
                                     <div class="input-group">
                                         Er hat Geld, aber
                                         <input autocomplete="off" type="text"
-                                            class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
+                                            class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-3">
                                         Bleistift.
                                     </div><span class="tran"><br><small>그는 돈이
@@ -125,7 +125,7 @@ z<?php require_once("heading.php"); ?>
                                     <div class="input-group">
                                         Er hat
                                         <input autocomplete="off" type="text"
-                                            class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
+                                            class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-4">
                                         Kuli,
                                     </div><span class="tran"><br><small>그는 펜이
@@ -141,7 +141,7 @@ z<?php require_once("heading.php"); ?>
                                     <div class="input-group">
                                         aber
                                         <input autocomplete="off" type="text"
-                                            class="form-control q border-bottom-only rounded-0 mx-1 col-3 t-6"
+                                            class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                             aria-label="." id="qst-5">
                                         Schultasche.
                                     </div><span class="tran"><br><small>책가방은 가지고

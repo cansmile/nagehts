@@ -11,7 +11,7 @@
             </div>
             <div class="row">
                 <div
-                    class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mt-2 text-center">
+                    class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mt-2 text-center">
                     <table class="table table-borderless text-center">
                         <thead>
                             <tr>
@@ -97,7 +97,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mt-2 text-center">
+                    class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mt-2 text-center">
                     <table class="table table-borderless text-center">
                         <thead>
                             <tr>
@@ -180,7 +180,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mt-2 text-center">
+                    class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4 mt-2 text-center">
                     <table class="table table-borderless text-center">
                         <thead>
                             <tr>

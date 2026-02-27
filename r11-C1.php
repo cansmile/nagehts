@@ -88,17 +88,17 @@
         <!-- 리스트  시작 -->
         <div class="row" id="lsts">
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-danger border-white itm-lst col-4 p-2"
+                 class="rounded-top border bg-danger border-white itm-lst col-12 col-sm-4 p-2"
                  id="lst-1">
                 <h2 class="btn btn-xl bg-white ttl w-100">Meinung äußern&nbsp;<small>&nbsp;<strong>의견 표현</strong></small></h2>&nbsp;
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-success border-white itm-lst col-4 p-2"
+                 class="rounded-top border bg-success border-white itm-lst col-12 col-sm-4 p-2"
                  id="lst-2">
                 <h2 class="btn btn-xl bg-white ttl w-100">dafür sein&nbsp;<small>&nbsp;<strong>찬성</strong></small></h2>&nbsp;
             </div>
             <div style="min-height: 240px;"
-                 class="rounded-top border bg-primary border-white itm-lst col-4 p-2"
+                 class="rounded-top border bg-primary border-white itm-lst col-12 col-sm-4 p-2"
                  id="lst-3">
                 <h2 class="btn btn-xl bg-white ttl w-100">dagegen sein&nbsp;<small><strong>반대</strong></small></h2>&nbsp;
             </div>
@@ -118,7 +118,7 @@
 <div id="last" class="d-none"></div>
 
 <?php require "footer.php"; ?>
-<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/dragtogroup.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>

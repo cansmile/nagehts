@@ -11,7 +11,7 @@
                 <div
                     class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
-                <div class="mb col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                <div class="mb col-12 col-sm-12 col-md-12 col-lg-12"
                     id="itms">
                     <button type="button"
                         class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark so itm"
@@ -546,7 +546,7 @@
 
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <!-- interact.min.js -->
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->

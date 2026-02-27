@@ -151,7 +151,7 @@
             </div>
             <!-- 정답확인 버튼 끝 -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <table class="table table-sm table-borderless">
                         <thead class="table-light">
                             <tr>

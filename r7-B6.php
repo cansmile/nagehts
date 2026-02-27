@@ -43,7 +43,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2">
                     <div class="col-12 mb-4 mt-2 text-center">
                         <h2>1. Wählen Sie aus.
                             <small><br> 선택하세요.</small>
@@ -84,7 +84,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="col-12 mb-4 mt-2 text-center">
                         <h2>2. Sortieren Sie Wendungen. Schreiben Sie dann die
                             E-Mail neu.
@@ -169,7 +169,7 @@
 
     <script src="./dev/js/popper.min.js"></script>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

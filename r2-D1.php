@@ -73,7 +73,7 @@
     </div>
     <div class="row text-center">
         <div class="col"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
             <table class="table table-borderless"
                 style="background-size: 100% 100%; background-repeat: no-repeat;
                     background-image: url('./dev/images/Reihe 2/Reihe-2-D1-0.png')"
@@ -155,7 +155,7 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require("./dev/oxsound.php"); ?>

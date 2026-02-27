@@ -74,7 +74,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -89,7 +89,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-center form-control col-4 border-bottom-only rounded-0 ms-1 q t-6"
+                                                class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
                                                 id="qst-1">
                                         </div>
                 </div></span>
@@ -105,7 +105,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                     aria-label="Antwort"
                                     aria-describedby="basic-addon2"
-                                    class="text-center form-control col-4 border-bottom-only rounded-0 ms-1 q t-6"
+                                    class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
                                     id="qst-2">
                                 .
                             </div>
@@ -122,7 +122,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                     aria-label="Antwort"
                                     aria-describedby="basic-addon3"
-                                    class="text-center form-control col-4 border-bottom-only rounded-0 ms-1 q t-6"
+                                    class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
                                     id="qst-3">
                                 .
                             </div>
@@ -133,7 +133,7 @@
                 </tbody>
                 </table>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <table class="table table-borderless">
                     <tbody>
                         <tr>
@@ -147,7 +147,7 @@
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
-                                            class="text-center form-control col-4 border-bottom-only rounded-0 ms-1 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
                                             id="qst-4">
                                     </div>
             </div></span>
@@ -163,7 +163,7 @@
                             <input autocomplete="off" type="text" placeholder="Antwort"
                                 aria-label="Antwort"
                                 aria-describedby="basic-addon5"
-                                class="text-center form-control col-4 border-bottom-only rounded-0 ms-1 q t-6"
+                                class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
                                 id="qst-5">
                             .
                         </div>
@@ -178,7 +178,7 @@
                         Aber sie mag kein
                         <input autocomplete="off" type="text" placeholder="Antwort"
                             aria-label="Antwort" aria-describedby="basic-addon6"
-                            class="text-center form-control col-4 border-bottom-only rounded-0 ms-1 q t-6" id="qst-6">
+                            class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6" id="qst-6">
                         .
                     </div>
                     <span class="tran">하지만 맥주는 좋아하지 않습니다.</span>

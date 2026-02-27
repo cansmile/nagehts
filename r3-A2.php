@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                     <table class="table table-borderless text-center">
                         <thead>
                             <tr>
@@ -121,7 +121,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-9 col-xl-9">
+                <div class="col-8 col-sm-8 col-md-8 col-lg-9 col-xl-9">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>

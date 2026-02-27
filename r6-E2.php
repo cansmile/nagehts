@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -50,7 +50,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -59,7 +59,7 @@
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-1">
                                         , ich räume gern auf.
@@ -73,7 +73,7 @@
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-2">
                                         , ich räume nicht gern auf.
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -111,7 +111,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -120,7 +120,7 @@
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-3">
                                         , ich gehe gern spazieren.
@@ -134,7 +134,7 @@
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-4">
                                         , ich gehe nicht gern spazieren.
@@ -147,7 +147,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -172,7 +172,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -181,7 +181,7 @@
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-5">
                                         , ich gehe gern schwimmen.
@@ -195,7 +195,7 @@
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-6">
                                         , ich gehe nicht gern schwimmen.
@@ -208,7 +208,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -233,7 +233,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -242,7 +242,7 @@
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-7">
                                         , ich koche gern.
@@ -256,7 +256,7 @@
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
-                                            class="form-control text-end col-2 pe-0 me-0 border-bottom-only rounded q
+                                            class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-8">
                                         , ich koche nicht gern.

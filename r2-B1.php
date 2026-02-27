@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
@@ -112,7 +112,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
                     <table class="table text-danger table-borderless text-center">
                         <thead>
                             <tr>
@@ -137,7 +137,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
                     <table class="table text-primary table-borderless text-center">
                         <thead>
                             <tr>

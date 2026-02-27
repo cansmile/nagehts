@@ -128,25 +128,25 @@
             <!-- 리스트  시작 -->
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                    class="rounded-top border bg-danger border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-1">
                     <h2 class="btn btn-xl bg-white ttl w-100">nach dem Weg
                         fragen<span class="tran"><br><small>(길 묻기)</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                    class="rounded-top border bg-success border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-2">
                     <h2 class="btn btn-xl bg-white ttl w-100">den Weg
                         beschreiben<span class="tran"><br><small>(길 안내하기)</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                    class="rounded-top border bg-primary border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-3">
                     <h2 class="btn btn-xl bg-white ttl w-100">nicht den Weg
                         kennen<span class="tran"><br><small>(길을 모를 때)</small></span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                    class="rounded-top border bg-orange border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                     id="lst-4">
                     <h2 class="btn btn-xl bg-white ttl w-100">sich bedanken /
                         antworten<span class="tran"><br><small>(감사하기 및 응답하기)</small></span></h2>&nbsp;
@@ -166,7 +166,7 @@
     <div id="marg" class="border-danger"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

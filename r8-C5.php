@@ -94,28 +94,28 @@
             </div>
             <!-- 리스트  시작 -->
             <div class="row" id="lsts">
-                <div style="min-height: 240px;" class="rounded-top border bg-danger border-white itm-lst col-xs-6
+                <div style="min-height: 240px;" class="rounded-top border bg-danger border-white itm-lst col-6
                 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-2 pe-3" id="lst-1">
                     <h2 style="min-height: 60px;"
                         class="btn btn-xl bg-white ttl w-100 pt-sm-2 pt-md-3 pt-lg-3 pt-xl-3">Verben im Nominativ<span
                             class="tran"><small><br>1격 지배 동사</small></span>
                     </h2>&nbsp;
                 </div>
-                <div style="min-height: 240px;" class="rounded-top border bg-orange border-white itm-lst col-xs-6
+                <div style="min-height: 240px;" class="rounded-top border bg-orange border-white itm-lst col-6
                 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-2 pe-3" id="lst-2">
                     <h2 style="min-height: 60px;"
                         class="btn btn-xl bg-white ttl w-100 pt-sm-2 pt-md-3 pt-lg-3 pt-xl-3">Verben im Akkusativ<span
                             class="tran">&nbsp;<small><br>4격 지배 동사</small></span>
                     </h2>&nbsp;
                 </div>
-                <div style="min-height: 240px;" class="rounded-top border bg-warning border-white itm-lst col-xs-6
+                <div style="min-height: 240px;" class="rounded-top border bg-warning border-white itm-lst col-6
                 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-2 pe-3" id="lst-3">
                     <h2 style="min-height: 60px;" class="btn btn-xl bg-white ttl w-100">Verben im Dativ<span
                             class="tran">&nbsp;<small>3격 그리고</small></span><br>und Akkusativ<span
                             class="tran">&nbsp;<small>4격 지배동사</small></span>
                     </h2>&nbsp;
                 </div>
-                <div style="min-height: 240px;" class="rounded-top border bg-success border-white itm-lst col-xs-6
+                <div style="min-height: 240px;" class="rounded-top border bg-success border-white itm-lst col-6
                 col-sm-6 col-md-3 col-lg-3 col-xl-3 p-2 pe-3" id="lst-4">
                     <h2 style="min-height: 60px;" class="btn btn-xl bg-white ttl w-100 pt-3">Verben im Dativ<span
                             class="tran">&nbsp;<small>3격 지배동사</small></span>
@@ -137,7 +137,7 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

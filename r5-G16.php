@@ -56,7 +56,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon1"
-                                           class="form-control q text-center col-4 border-bottom-only
+                                           class="form-control q text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-1">
                                     bitte.
@@ -91,7 +91,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon3"
-                                           class="form-control col-3 q pe-0 text-center border-bottom-only
+                                           class="form-control q pe-0 text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-2">
                                     .
@@ -116,7 +116,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon4"
-                                           class="form-control col-4 q text-end pe-0 border-bottom-only
+                                           class="form-control q text-end pe-0 border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-3">
                                     ?
@@ -165,7 +165,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon6"
-                                           class="form-control col-3 q pe-0 text-center border-bottom-only
+                                           class="form-control q pe-0 text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-5">
                                     ?
@@ -238,7 +238,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon9"
-                                           class="form-control col-4 q text-center border-bottom-only
+                                           class="form-control q text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-8">
                                 </div>
@@ -256,7 +256,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon9"
-                                           class="form-control col-3 q text-center border-bottom-only
+                                           class="form-control q text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-9">
                                     .
@@ -295,7 +295,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon10"
-                                           class="form-control col-4 q text-center border-bottom-only
+                                           class="form-control q text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-10">
                                     .
@@ -344,7 +344,7 @@
                                                                       placeholder="Antwort"
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon12"
-                                                                      class="form-control col-3 q pe-0 text-center border-bottom-only
+                                                                      class="form-control q pe-0 text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                                                       id="qst-12">
                                     , bitte.
@@ -519,7 +519,7 @@
                                                                       placeholder="Antwort"
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon19"
-                                                                      class="form-control col-2 q text-center border-bottom-only
+                                                                      class="form-control q text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                                                       id="qst-19">
                                     ,

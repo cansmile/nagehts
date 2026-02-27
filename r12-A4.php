@@ -142,32 +142,32 @@
                 </div>
                 <div class="row">
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-danger border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-1">
                         <h2 class="btn btn-xl bg-white ttl w-100">Urlaubstyp</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-success border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-2">
                         <h2 class="btn btn-xl bg-white ttl w-100">Mit wem gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-primary border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-3">
                         <h2 class="btn btn-xl bg-white ttl w-100">Wohin gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-orange border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-4">
                         <h2 class="btn btn-xl bg-white ttl w-100">Was unternommen?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-warning border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-warning border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-5">
                         <h2 class="btn btn-xl bg-white ttl w-100">gut</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-purple border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-purple border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-6">
                         <h2 class="btn btn-xl bg-white ttl w-100">nicht gut</h2>&nbsp;
                     </div>
@@ -181,32 +181,32 @@
                 </div>
                 <div class="row">
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-danger border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-danger border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-7">
                         <h2 class="btn btn-xl bg-white ttl w-100">Urlaubstyp</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-success border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-success border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-8">
                         <h2 class="btn btn-xl bg-white ttl w-100">Mit wem gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-primary border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-primary border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-9">
                         <h2 class="btn btn-xl bg-white ttl w-100">Wohin gefahren?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-orange border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-orange border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-10">
                         <h2 class="btn btn-xl bg-white ttl w-100">Was unternommen?</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-warning border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-warning border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-11">
                         <h2 class="btn btn-xl bg-white ttl w-100">gut</h2>&nbsp;
                     </div>
                     <div style="min-height: 240px;"
-                         class="rounded-top border bg-purple border-white itm-lst col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
+                         class="rounded-top border bg-purple border-white itm-lst col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 p-2"
                          id="lst-12">
                         <h2 class="btn btn-xl bg-white ttl w-100">nicht gut</h2>&nbsp;
                     </div>
@@ -226,7 +226,7 @@
 <div id="marg"></div>
 <div id="last" class="d-none"></div>
 <?php require "footer.php"; ?>
-<script src="./dev/js/taptogroupnomoveh.js"></script>
+<script src="./dev/js/dragtogroupnomove.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>

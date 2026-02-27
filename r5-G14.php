@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -24,7 +24,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-1">
                                             Bier.
@@ -44,7 +44,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-2">
                                             ist zu warm.
@@ -64,7 +64,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-3">
                                             Salat esse ich nicht.
@@ -84,7 +84,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-4">
                                             ist nicht frisch.
@@ -96,7 +96,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -111,7 +111,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-5">
                                             Milch.
@@ -131,7 +131,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-6">
                                             ist sauer.
@@ -151,7 +151,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-7">
                                             Kartoffeln esse ich nicht.
@@ -171,7 +171,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control col-2 q text-center border-bottom-only rounded-0
+                                                class="form-control q text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-8">
                                             sind kalt.

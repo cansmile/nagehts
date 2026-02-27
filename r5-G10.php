@@ -18,7 +18,7 @@
             </div>
             <div class="row">
                 <div
-                    class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 px-0 mx-0">
+                    class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 px-0 mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
@@ -61,7 +61,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
+                    class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
@@ -288,7 +288,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 d-lg-none d-xl-none d-mw-100 d-sm-block px-0 mx-0">
+                    class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 d-lg-none d-xl-none d-mw-100 d-sm-block px-0 mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>
@@ -331,7 +331,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
+                    class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 px-0 mx-0">
                     <table class="table table-borderless">
                         <thead>
                             <tr>

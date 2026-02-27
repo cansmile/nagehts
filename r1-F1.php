@@ -31,7 +31,7 @@
 
             <div class="accordion row" id="accordionitms">
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white" id="headingOne">
                         <h5 class="mb-0">
                             <button
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white" id="headingTwo">
                         <h5 class="mb-0">
                             <button
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white"
                         id="headingThree">
                         <h5 class="mb-0">
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white" id="headingFour">
                         <h5 class="mb-0">
                             <button
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white" id="headingFive">
                         <h5 class="mb-0">
                             <button
@@ -140,7 +140,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white" id="headingSix">
                         <h5 class="mb-0">
                             <button
@@ -161,7 +161,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white"
                         id="headingSeven">
                         <h5 class="mb-0">
@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white"
                         id="headingEight">
                         <h5 class="mb-0">
@@ -207,7 +207,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white" id="headingNine">
                         <h5 class="mb-0">
                             <button
@@ -229,7 +229,7 @@
                     </div>
                 </div>
                 <div
-                    class="card col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
+                    class="card col-12 col-sm-6 col-md-4 col-lg-3 col-xl px-0">
                     <div class="card-header bg-white" id="headingTen">
                         <h5 class="mb-0">
                             <button

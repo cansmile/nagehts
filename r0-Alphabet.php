@@ -661,8 +661,7 @@
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>Schreiben Sie Ihren Namen und buchstabieren Sie.
                         <br>
-                        <small>이름을 써보고 스펠링을 말해보아요.<br>(입력은 되지만 별도의 기능이
-                            없어요.)</small></h2>
+                        <small>이름을 써보고 스펠링을 말해보아요.</small></h2>
                     <input autocomplete="off" type="text" class="form-control-lg text-lowercase"
                         placeholder="Namen" id="namen"><button type="button"
                         class="p-2 px-3 m-1 border rounded btn btn-lime"
@@ -707,6 +706,25 @@
             pa = new Array(),
             he = new Array(),
             last;
+
+        /* namen 입력 스택 및 재생 관리 */
+        var namenQueue = [];
+        var isNamenPlaying = false;
+
+        function playNextFromQueue() {
+            if (namenQueue.length === 0) {
+                isNamenPlaying = false;
+                return;
+            }
+            isNamenPlaying = true;
+            var nextChar = namenQueue.shift(); // 스택에서 첫 번째 문자 제거 및 반환
+            if (nagehts._sprite[nextChar]) {
+                nagehts.play(nextChar);
+            } else {
+                // sprite에 없는 문자는 건너뛰고 다음 재생
+                playNextFromQueue();
+            }
+        }
         $(".itm").each(function () {
             var t = $(this);
             var ti = t.attr("id");
@@ -837,6 +855,25 @@
                 $("#ready").hide();
                 /* $("#ready").hide(); */
 
+                /* namen 입력 시 스택에 추가 후 순차 재생 */
+                $("#namen").on("input", function (e) {
+                    var inputVal = $(this).val();
+                    if (inputVal.length > 0) {
+                        var lastChar = inputVal.charAt(inputVal.length - 1).toUpperCase();
+                        // 특수문자 매핑 (ä->Ä, ö->Ö, ü->Ü)
+                        var charMap = {
+                            'Ä': 'Ä', 'Ö': 'Ö', 'Ü': 'Ü', 'ß': 'ß'
+                        };
+                        var spriteKey = charMap[lastChar] || lastChar;
+                        // 스택에 추가
+                        namenQueue.push(spriteKey);
+                        // 재생 중이 아니면 재생 시작
+                        if (!isNamenPlaying) {
+                            playNextFromQueue();
+                        }
+                    }
+                });
+
                 $(".itm").on("click", function (idx) {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -863,6 +900,11 @@
                 });
             },
             onend: function () {
+                // namen 스택에 남은 문자가 있으면 다음 재생
+                if (isNamenPlaying) {
+                    playNextFromQueue();
+                    return;
+                }
                 $("div#last").text("");
                 stopAll();
                 $("#cnt-" + last).text(sen[last]);

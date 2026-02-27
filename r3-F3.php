@@ -33,7 +33,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon1"
-                                                class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
+                                                class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-1">
                                             Sie?
                                         </div>
@@ -52,7 +52,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon2"
-                                                class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
+                                                class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-2">
                                             Tim Schulz.
                                         </div>
@@ -71,7 +71,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon3"
-                                                class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
+                                                class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-3">
                                             Sie beruflich?
                                         </div>
@@ -90,14 +90,14 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon4"
-                                                class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
+                                                class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-4">
                                             Student und
                                             <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon5"
-                                                class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
+                                                class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-5">
                                             Theologie.
                                         </div>
@@ -116,7 +116,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon6"
-                                                class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
+                                                class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-6">
                                             Sie?
                                         </div>
@@ -135,7 +135,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon7"
-                                                class="form-control col-3 q border-bottom-only rounded-0 mx-1 t-6"
+                                                class="form-control q border-bottom-only rounded-0 mx-1 t-6"
                                                 id="qst-7">
                                             20 Jahre alt.
                                         </div>

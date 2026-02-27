@@ -27,7 +27,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                        aria-label="Antwort"
                                        aria-describedby="basic-addon1"
-                                       class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
+                                       class="text-center form-control q border-bottom-only rounded-0 mx-1 t-6"
                                        id="qst-1">
                                 mit Paul verheiratet.
                             </div>
@@ -43,7 +43,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                        aria-label="Antwort"
                                        aria-describedby="basic-addon1"
-                                       class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
+                                       class="text-center form-control q border-bottom-only rounded-0 mx-1 t-6"
                                        id="qst-2">
                                 zwei Kinder.
                             </div>
@@ -58,7 +58,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                        aria-label="Antwort"
                                        aria-describedby="basic-addon2"
-                                       class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
+                                       class="text-center form-control q border-bottom-only rounded-0 mx-1 t-6"
                                        id="qst-3">
                                 Pfarrerin.
                             </div>
@@ -73,7 +73,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                        aria-label="Antwort"
                                        aria-describedby="basic-addon3"
-                                       class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
+                                       class="text-center form-control q border-bottom-only rounded-0 mx-1 t-6"
                                        id="qst-4">
                                 auch Pfarrer von Beruf.
                             </div>
@@ -94,7 +94,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                        aria-label="Antwort"
                                        aria-describedby="basic-addon4"
-                                       class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
+                                       class="text-center form-control q border-bottom-only rounded-0 mx-1 t-6"
                                        id="qst-5">
                                 nicht verheiratet.
                             </div>
@@ -115,7 +115,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                        aria-label="Antwort"
                                        aria-describedby="basic-addon5"
-                                       class="text-center form-control col-2 q border-bottom-only rounded-0 mx-1 t-6"
+                                       class="text-center form-control q border-bottom-only rounded-0 mx-1 t-6"
                                        id="qst-6">
                                 noch keine Kinder, aber eine Katze und
                                 einen Hund.

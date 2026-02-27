@@ -92,7 +92,7 @@
                         <div class="input-group">
                             Sie schläft
                             <input autocomplete="off" type="text"
-                                   class="form-control col-3 q border-bottom-only rounded t-6"
+                                   class="form-control q border-bottom-only rounded t-6"
                                    aria-label="." id="qst-1">
                             .
                         </div>
@@ -109,7 +109,7 @@
                         <div class="ant t-6" id="ant-2"></div>
                         <div class="input-group">
                             <input autocomplete="off" type="text"
-                                   class="form-control col-3 q border-bottom-only rounded t-6"
+                                   class="form-control q border-bottom-only rounded t-6"
                                    aria-label="." id="qst-2">
                             steht sie auf.
                         </div>
@@ -126,7 +126,7 @@
                         <div class="ant t-6" id="ant-3"></div>
                         <div class="input-group">
                             <input autocomplete="off" type="text"
-                                   class="form-control col-3 q border-bottom-only rounded t-6"
+                                   class="form-control q border-bottom-only rounded t-6"
                                    aria-label="." id="qst-3">
                             frühstückt sie.
                         </div>
@@ -155,7 +155,7 @@
                         <div class="ant t-6" id="ant-4"></div>
                         <div class="input-group">
                             <input autocomplete="off" type="text"
-                                   class="form-control col-3 q border-bottom-only rounded t-6"
+                                   class="form-control q border-bottom-only rounded t-6"
                                    aria-label="." id="qst-4">
                             kauft sie Lebensmittel ein.
                         </div>
@@ -172,7 +172,7 @@
                         <div class="ant t-6" id="ant-5"></div>
                         <div class="input-group">
                             <input autocomplete="off" type="text"
-                                   class="form-control col-3 q border-bottom-only rounded t-6"
+                                   class="form-control q border-bottom-only rounded t-6"
                                    aria-label="." id="qst-5">
                             isst sie zu Mittag.
                         </div>

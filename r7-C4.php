@@ -446,14 +446,14 @@
             <!-- 리스트  시작 -->
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg col-xl pt-1 m-1"
+                    class="rounded-top bg-danger itm-lst col-6 col-sm-4 col-md-3 p-2"
                     id="lst-1">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>mit Modalverben</strong><br><small>화법조동사와
                             함께</small></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-primary itm-lst col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-1 m-1"
+                    class="rounded-top bg-primary itm-lst col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2"
                     id="lst-2">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         <strong>einfache Verben</strong><br><small>단순동사</small>
@@ -513,7 +513,7 @@
 
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

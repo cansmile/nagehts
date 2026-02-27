@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 bg-light">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 bg-light">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -27,7 +27,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                     <table class="table table-borderless my-auto">
                         <tbody>
                             <tr>
@@ -57,7 +57,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 bg-light">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-2 bg-light">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -72,7 +72,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                     <table class="table table-borderless my-auto">
                         <tbody>
                             <tr>

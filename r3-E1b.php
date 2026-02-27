@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="row">
                         <div class="col bg-gray-light">
                             <table class="table table-borderless table-sm">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless table-light text-start">
                         <tbody>
                             <tr>
@@ -225,7 +225,7 @@
             <!-- 정답확인 버튼 끝 -->
             <div class="row">
                 <div
-                    class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
+                    class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
                     <div class="row">
                         <div class="col">
                             <table
@@ -257,7 +257,7 @@
                     </div>
                 </div>
                 <div
-                    class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
+                    class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 px-2">
                     <div class="row">
                         <div class="col">
                             <table
@@ -295,7 +295,7 @@
     <div id="marg"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

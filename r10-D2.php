@@ -53,7 +53,7 @@
                                                 잘 도착했어.</small><br/></span> <span class="sen">Auf dem Incheon
                                             Flughafen war es so voll von Leuten
                                             beim Check-in, dass ich beinah mein
-                                            Flugzeug <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
+                                            Flugzeug <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                             t-6"
                                                 style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-1">
@@ -68,7 +68,7 @@
                                                 간 다음 이어서 드레스덴으로
                                                 갔어.</small><br/></span> <span class="sen">Nach der Ankunft in
                                             Dresden bin ich mit dem Taxi ins
-                                            Hotel <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
+                                            Hotel <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0
                                             border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                             t-6"
                                                 style="max-width: 150px; min-width: 100px;" aria-label="."
@@ -80,7 +80,7 @@
                             </tr>
                             <td class="lh250">
                                 <div class="input-group d-inline">
-                                    Dort habe ich meinen Koffer <input autocomplete="off" type="text" class="form-control q ps-0 col-4
+                                    Dort habe ich meinen Koffer <input autocomplete="off" type="text" class="form-control q ps-0
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-3"> und bin
@@ -91,7 +91,7 @@
                                             더 방문했어.</small><br/></span> Besonders
                                     habe ich in der Gemäldegalerie Alte Meister
                                     am Zwinger die „Sixtinische Madonna” von
-                                    Raffael <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
+                                    Raffael <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0
                                     border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-4">.<span
@@ -101,7 +101,7 @@
                                     einfach wunderbar.<span class="tran"><br/><small>그것은 정말
                                             굉장했어.</small><br/></span> Danach habe
                                     ich mit dem Bus eine Stadtrundfahrt <input autocomplete="off" type="text" class="form-control q ps-0
-                                    col-4 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
+                                    rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark
                                     d-inline-block t-6" style="max-width: 150px; min-width: 100px;" aria-label="."
                                     id="qst-5">.<span
                                         class="tran"><br/><small>그 후에 버스로 시내관광투어를
@@ -111,23 +111,23 @@
                                     mich ja!<span class="tran"><br/><small>너도
                                             알잖아!</small><br/></span> Ich habe in
                                     der Altmarkt Galerie Geschenke für meine
-                                    Familie und auch für dich <input autocomplete="off" type="text" class="form-control q ps-0 col-4
+                                    Familie und auch für dich <input autocomplete="off" type="text" class="form-control q ps-0
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-6">.<span
                                         class="tran"><br/><small>알트마르크트 갤러리에서는
                                             가족과 너한테 줄 선물을 샀어.</small><br/></span>
-                                    Dann habe ich mich in ein Café <input autocomplete="off" type="text" class="form-control q ps-0 col-4
+                                    Dann habe ich mich in ein Café <input autocomplete="off" type="text" class="form-control q ps-0
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-7">.<span
                                         class="tran"><br/><small>그런 다음 카페에 앉아
                                             있었어.</small><br/></span> Dort habe
-                                    ich Kaffee <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
+                                    ich Kaffee <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0
                                     border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-8"> und den
-                                    berühmten Kuchen, Eierschecke <input autocomplete="off" type="text" class="form-control q ps-0 col-4
+                                    berühmten Kuchen, Eierschecke <input autocomplete="off" type="text" class="form-control q ps-0
                                     rounded-0 border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-9">.<span
@@ -142,7 +142,7 @@
                                 <div class="input-group d-inline">
                                     Stell dir vor!<span class="tran"><br/><small>상상해봐!</small><br/></span>
                                     Ich habe da einen Jungen aus Österreich auf
-                                    dem Konzert <input autocomplete="off" type="text" class="form-control q ps-0 col-4 rounded-0
+                                    dem Konzert <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0
                                     border-bottom-only mx-1 px-2 py-1 text-center border-dark d-inline-block
                                     t-6"
                                         style="max-width: 150px; min-width: 100px;" aria-label="." id="qst-10">.<span

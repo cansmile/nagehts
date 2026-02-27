@@ -118,7 +118,7 @@
             </div>
             <!-- 정답확인 버튼 끝 -->
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                     <table
                         class="table table-borderless table-sm table-striped">
                         <tbody>
@@ -140,7 +140,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                     <table
                         class="table table-borderless table-sm table-striped">
                         <tbody>
@@ -162,7 +162,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                     <table
                         class="table table-borderless table-sm table-striped">
                         <tbody>

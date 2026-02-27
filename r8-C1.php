@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="row">
                         <div class="col-12">
                             <table class="table table-borderless my-auto">
@@ -58,14 +58,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="row">
                         <div class="col text-center align-middle"><img
                                 src="./dev/images/Reihe 8/Reihe-8-C1.png" alt="schmerzen"
                                 style="max-width: 240px; height: auto;"></div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <div class="row">
                         <div class="col-12">
                             <table class="table table-borderless my-auto">

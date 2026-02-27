@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="my-3 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+            <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
                 id="qst">
                 <table class="table table-borderless text-center">
                     <thead class="table-light">
@@ -162,7 +162,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="my-3 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+            <div class="my-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
                 id="qst">
                 <table class="table table-borderless text-center">
                     <thead class="table-light">

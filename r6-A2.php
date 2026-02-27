@@ -66,7 +66,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
+                                       class="form-control q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-3">
                                 gern Fußball.
                             </div>
@@ -80,7 +80,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
+                                       class="form-control q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-4">
                                 gern.
                             </div>
@@ -131,7 +131,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
+                                       class="form-control q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-5">
                                 nicht gern Bücher.
                             </div>
@@ -145,7 +145,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
+                                       class="form-control q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-6">
                                 nicht gern Freunde.
                             </div>
@@ -159,7 +159,7 @@
                             <div class="input-group">
                                 Er
                                 <input autocomplete="off" type="text"
-                                       class="form-control col-3 q border-bottom-only rounded ms-1 t-6"
+                                       class="form-control q border-bottom-only rounded ms-1 t-6"
                                        placeholder="Antwort" aria-label="Antwort" id="qst-7">
                                 nicht gern Auto.
                             </div>
@@ -228,7 +228,7 @@
 <!-- 여러개의 답이 인정되어야 하는 경우는 배열로 처리 -->
 <!-- 확인하는 단계에서는 배열일 경우 모두 대치 -->
 <?php require "footer.php"; ?>
-<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/dragtogroup.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>

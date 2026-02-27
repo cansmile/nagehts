@@ -49,7 +49,7 @@
                         style="max-width: 480px; height: auto;" alt="Sandmännchen"></div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="prev">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="prev">
                     <table class="table table-borderless table-light">
                         <tbody>
                             <tr>
@@ -223,7 +223,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

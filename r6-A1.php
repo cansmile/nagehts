@@ -34,7 +34,7 @@
                             class="so btn btn-outline-primary">▶
                     </button>&nbsp;1.
                     Tim Sager</strong></div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -70,7 +70,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -106,7 +106,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -142,7 +142,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -185,7 +185,7 @@
                             class="so btn btn-outline-danger">▶
                     </button>&nbsp;2.
                     Maria Adam</strong></div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -221,7 +221,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -257,7 +257,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -293,7 +293,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -336,7 +336,7 @@
                             class="so btn btn-outline-success">▶
                     </button>&nbsp;3.
                     Mai Keller</strong></div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -372,7 +372,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -408,7 +408,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">
@@ -444,7 +444,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                 <table class="table table-borderless">
                     <tr>
                         <td height="300" class="text-center align-middle">

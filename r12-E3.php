@@ -534,7 +534,7 @@
 <?php require "footer.php"; ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 <script src="https://kit.fontawesome.com/3380850483.js" crossorigin="anonymous"></script>
-<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/dragtogroup.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>

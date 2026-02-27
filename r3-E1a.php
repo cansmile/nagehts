@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="row">
                         <div class="col bg-gray-light">
                             <table class="table table-borderless table-sm">
@@ -185,7 +185,7 @@
     <div id="marg"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

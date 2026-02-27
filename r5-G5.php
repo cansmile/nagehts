@@ -103,14 +103,14 @@
                     style="max-height: 320px; width: auto;"></div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <table
                     class="table table-borderless table-striped text-center">
                     <tbody>
                     <tr>
                         <td>
                             <div style="min-height: 240px;"
-                                 class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
+                                 class="rounded-top border border-secondary itm-lst col-6 col-sm-4 col-md-3 p-2"
                                  id="lst-1">
                                 <h2
                                     class="btn btn-warning btn-xl ttl w-100">
@@ -124,7 +124,7 @@
                         </td>
                         <td>
                             <div style="min-height: 240px;"
-                                 class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
+                                 class="rounded-top border border-secondary itm-lst col-6 col-sm-4 col-md-3 p-2"
                                  id="lst-2">
                                 <h2
                                     class="btn btn-warning btn-xl ttl w-100">
@@ -138,7 +138,7 @@
                         </td>
                         <td>
                             <div style="min-height: 240px;"
-                                 class="rounded-top border border-secondary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
+                                 class="rounded-top border border-secondary itm-lst col-6 col-sm-4 col-md-3 p-2"
                                  id="lst-3">
                                 <h2
                                     class="btn btn-warning btn-xl ttl w-100">
@@ -170,7 +170,7 @@
 <div id="last" class="d-none"></div>
 
 <?php require "footer.php"; ?>
-<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/dragtogroup.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>

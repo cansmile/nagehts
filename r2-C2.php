@@ -97,7 +97,7 @@
             </div>
             <div class="row">
                 <div
-                    class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
+                    class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
                         <thead class="table-dark">
@@ -199,7 +199,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
+                    class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
                         <thead class="table-dark">
@@ -308,7 +308,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-6 col-sm-6 d-sm-block d-md-none d-lg-none d-xl-none p-0 mt-sm-5">
+                    class="col-6 col-sm-6 d-sm-block d-md-none d-lg-none d-xl-none p-0 mt-sm-5">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
                         <thead class="table-dark">
@@ -366,7 +366,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
+                    class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
                         <thead class="table-dark">
@@ -476,7 +476,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-6 col-sm-6 col-md-4 d-sm-block d-mw-100 d-lg-none d-xl-none p-0 mt-sm-5">
+                    class="col-6 col-sm-6 col-md-4 d-sm-block d-mw-100 d-lg-none d-xl-none p-0 mt-sm-5">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
                         <thead class="table-dark">
@@ -534,7 +534,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
+                    class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mt-sm-5 p-0">
                     <table
                         class="table table-borderless table-striped m-0 text-center">
                         <thead class="table-dark">
@@ -670,7 +670,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

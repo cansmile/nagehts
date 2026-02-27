@@ -83,7 +83,7 @@
             </div>
             <div class="row">
                 <div
-                    class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                    class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
                     <table class="table table-borderless text-center"
                         style="min-height: 100%;">
                         <tr>
@@ -94,7 +94,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
                     <table
                         class="table table-borderless text-center table-light">
                         <tr>
@@ -163,7 +163,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                    class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
                     <table class="table table-borderless text-center"
                         style="min-height: 100%;">
                         <tr>
@@ -174,7 +174,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
                     <table
                         class="table table-borderless text-center table-light">
                         <tr>
@@ -243,7 +243,7 @@
                     </table>
                 </div>
                 <div
-                    class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                    class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
                     <table class="table table-borderless text-center"
                         style="min-height: 100%;">
                         <tr>
@@ -254,7 +254,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-4">
                     <table
                         class="table table-borderless text-center table-light">
                         <tr>
@@ -365,7 +365,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

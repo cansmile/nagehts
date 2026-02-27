@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -68,7 +68,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -88,7 +88,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -108,7 +108,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -128,7 +128,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -148,7 +148,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -168,7 +168,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -201,7 +201,7 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

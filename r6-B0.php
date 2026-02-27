@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">
                     Wahl</div>
-                <div class="my-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="itms">
+                <div class="my-2 col-12 col-sm-12 col-md-12 col-lg-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm py-0 my-0 so" id="1">
                         zwei Uhr fünfundfünfzig.
                     </button>
@@ -90,7 +90,7 @@
                         style="max-width: 100%; height: auto;"></dov>
             </div>
             <div class="row">
-                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0">
+                <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0">
                     <table class="table table-borderless table-striped">
                         <thead>
                             <tr>
@@ -192,7 +192,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10 col-xl-5 px-0 mx-0">
+                <div class="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-5 px-0 mx-0">
                     <table class="table table-borderless table-striped">
                         <thead>
                             <tr>
@@ -386,7 +386,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0 d-lg-block d-xl-none d-mw-100
+                <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0 d-lg-block d-xl-none d-mw-100
                 d-sm-block">
                     <table class="table table-borderless table-striped">
                         <thead>
@@ -489,7 +489,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10 col-xl-5 px-0 mx-0">
+                <div class="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-5 px-0 mx-0">
                     <table class="table table-borderless table-striped">
                         <thead>
                             <tr>
@@ -773,7 +773,7 @@
                             <tr>
                                 <td>
                                     <div class="ps-4 row">
-                                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-middle">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-middle">
                                             <div class="pt-1"><strong>Am</strong> Morgen
                                                 machen wir einen Spaziergang.<br>
                                                 <small class="ps-2">우리는 아침에
@@ -792,7 +792,7 @@
                                                     생일이다.</small><br></div>
                                         </div>
                                         <div
-                                            class="my-auto col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-middle">
+                                            class="my-auto col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-middle">
                                             <div class="pt-1"><strong>an</strong> + dem
                                                 Sonntag <br><span class="ms-5">=
                                                     <strong>am</strong> Sonntag</span></div>
@@ -820,7 +820,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

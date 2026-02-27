@@ -50,32 +50,32 @@
 
             <!-- 리스트 시작 -->
             <div class="row mt-3" id="lsts">
-                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-6 col-sm-4"
                     id="lst-1">
                     <img style="max-width: 100%; height: auto;"
                         src=".\dev/images\Reihe 1\Reihe-1-C2-1.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-6 col-sm-4"
                     id="lst-2">
                     <img style="max-width: 100%; height: auto;"
                         src=".\dev/images\Reihe 1\Reihe-1-C2-2.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-6 col-sm-4"
                     id="lst-3">
                     <img style="max-width: 100%; height: auto;"
                         src=".\dev/images\Reihe 1\Reihe-1-C2-3.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-6 col-sm-4"
                     id="lst-4">
                     <img style="max-width: 100%; height: auto;"
                         src=".\dev/images\Reihe 1\Reihe-1-C2-4.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-6 col-sm-4"
                     id="lst-5">
                     <img style="max-width: 100%; height: auto;"
                         src=".\dev/images\Reihe 1\Reihe-1-C2-5.png" class="ttl">
                 </div>
-                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-4 col-xl"
+                <div style="min-height: 240px;" class="rounded-top itm-lst text-center text-dark col-6 col-sm-4"
                     id="lst-6">
                     <img style="max-width: 100%; height: auto;"
                         src=".\dev/images\Reihe 1\Reihe-1-C2-6.png" class="ttl">
@@ -93,7 +93,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

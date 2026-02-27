@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -82,7 +82,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -101,7 +101,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -120,7 +120,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -139,7 +139,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -158,7 +158,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -177,7 +177,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -196,7 +196,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -215,7 +215,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -234,7 +234,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -253,7 +253,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -272,7 +272,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -291,7 +291,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -310,7 +310,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
                     <table class="table table-borderless">
                         <thead>
                             <th height="200" class="text-center align-middle" scope="col"><img
@@ -343,7 +343,7 @@
 
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

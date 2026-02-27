@@ -211,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="row">
                         <div class="col-12 p-2 border border-light"><button type="button" id="11"
                                 class="so btn btn-outline-dark btn-sm me-1">▶</button><span
@@ -245,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="row">
                         <div class="col-12 p-2 border border-light"><button type="button" id="16"
                                 class="so btn btn-outline-dark btn-sm me-1">▶</button><span
@@ -296,7 +296,7 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

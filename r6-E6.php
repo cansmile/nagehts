@@ -28,11 +28,11 @@
                                 <div class="input-group">
                                     Max&nbsp;
                                     <input autocomplete="off" type="text"
-                                        class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
+                                        class="form-control d-inline rounded-0 border-bottom-only border border-dark q text-center"
                                         aria-label="." id="qst-1" style="position: relative; top: -5px;">
                                     &nbsp;am&nbsp;
                                     <input autocomplete="off" type="text"
-                                        class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
+                                        class="form-control d-inline rounded-0 border-bottom-only border border-dark q text-center"
                                         aria-label="." id="qst-2" style="position: relative; top: -5px;">
                                     .
                                 </div>
@@ -59,11 +59,11 @@
                                 <div class="input-group">
                                     Am Vormittag&nbsp;
                                     <input autocomplete="off" type="text"
-                                        class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
+                                        class="form-control d-inline rounded-0 border-bottom-only border border-dark q text-center"
                                         aria-label="." id="qst-3" style="position: relative; top: -5px;">
                                     &nbsp;er&nbsp;
                                     <input autocomplete="off" type="text"
-                                        class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
+                                        class="form-control d-inline rounded-0 border-bottom-only border border-dark q text-center"
                                         aria-label="." id="qst-4" style="position: relative; top: -5px;">
                                     .
                                 </div>
@@ -90,11 +90,11 @@
                                 <div class="input-group">
                                     Er&nbsp;
                                     <input autocomplete="off" type="text"
-                                        class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
+                                        class="form-control d-inline rounded-0 border-bottom-only border border-dark q text-center"
                                         aria-label="." id="qst-5" style="position: relative; top: -5px;">
                                     &nbsp;am Mittag&nbsp;
                                     <input autocomplete="off" type="text"
-                                        class="form-control col-4 d-inline rounded-0 border-bottom-only border border-dark q text-center"
+                                        class="form-control d-inline rounded-0 border-bottom-only border border-dark q text-center"
                                         aria-label="." id="qst-6" style="position: relative; top: -5px;">
                                     .
                                 </div>

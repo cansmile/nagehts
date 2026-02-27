@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="row">
                             <div class="col-6 p-2 border border-dark rounded text-center" style="line-height: 5em;">
                             <span class="p-2 bg-lime px-3 border border-success rounded-circle"><strong>a</strong>
@@ -51,7 +51,7 @@
                             alt="Zu welchem Arzt gehen Sie?" style="max-width: 100%; height: auto;"></div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <table class="table table-borderless">
                             <tbody>
                                 <tr>
@@ -116,7 +116,7 @@
 <div id="marg"></div>
 
 <?php require "footer.php"; ?>
-<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/dragtogroup.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once("./dev/oxsound.php"); ?>

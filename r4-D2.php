@@ -165,19 +165,19 @@
             <!-- 리스트  시작 -->
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-success itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
+                    class="rounded-top bg-success itm-lst col-6 col-sm-4 col-md-3 p-2"
                     id="lst-1">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         sehr gut<span class="tran"><br />매우 좋은</span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
+                    class="rounded-top bg-primary itm-lst col-6 col-sm-4 col-md-3 p-2"
                     id="lst-2">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         gut<span class="tran"><br />좋은</span></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-khaki itm-lst col-xs col-sm col-md col-lg pt-1 m-1"
+                    class="rounded-top bg-khaki itm-lst col-6 col-sm-4 col-md-3 p-2"
                     id="lst-3">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         nicht gut<span class="tran"><br />좋지 않은</span></h2>
@@ -198,7 +198,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

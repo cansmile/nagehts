@@ -276,7 +276,7 @@
             </div>
             <!-- 정답확인 버튼 끝 -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <table
                         class="table table-borderless table-sm table-striped">
                         <thead>
@@ -310,7 +310,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <table
                         class="table table-borderless table-sm table-striped">
                         <tbody>

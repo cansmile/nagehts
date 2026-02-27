@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col">
                 <div class="row">
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <table class="table table-borderless text-center align-middle">
                             <tbody>
                             <tr>
@@ -53,7 +53,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <table class="table table-borderless text-center align-middle">
                             <tbody>
                             <tr>
@@ -73,7 +73,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <table class="table table-borderless text-center align-middle">
                             <tbody>
                             <tr>
@@ -94,7 +94,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <table class="table table-borderless text-center align-middle">
                             <tbody>
                             <tr>
@@ -114,7 +114,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <table class="table table-borderless text-center align-middle">
                             <tbody>
                             <tr>
@@ -134,7 +134,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <table class="table table-borderless text-center align-middle">
                             <tbody>
                             <tr>
@@ -154,7 +154,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <table class="table table-borderless text-center align-middle">
                             <tbody>
                             <tr>
@@ -204,7 +204,7 @@
                                 Meine Familie wohnt in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon8"
-                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2"
                                        id="qst-8">
                                 .
                             </div>
@@ -238,7 +238,7 @@
                                 einem 200 Quadratmeter großen
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon9"
-                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2"
                                        id="qst-9">
                                 .
                             </div>
@@ -284,7 +284,7 @@
                                 Zurzeit wohne ich in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon10"
-                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-3"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2"
                                        id="qst-10">
                                 , denn es ist günstig.
                             </div>
@@ -318,7 +318,7 @@
                                 Da will ich das
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon11"
-                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only mx-2"
                                        id="qst-11">
                                 besuchen.
                             </div>
@@ -372,7 +372,7 @@
                                 Mit meiner Familie wohne ich auf einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon12"
-                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only mx-2"
                                        id="qst-12">
                                 .
                             </div>
@@ -440,7 +440,7 @@
                                 Ich lebe auch in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon13"
-                                       class="text-center form-control q rounded-0 border-bottom-only mx-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only mx-2"
                                        id="qst-13">
                                 mit Solarenergie und Wasserspartechnik.
                             </div>
@@ -473,7 +473,7 @@
                                 Wir wohnen jetzt in einem
                                 <input autocomplete="off" type="text" placeholder="Antwort" aria-label="Antwort"
                                        aria-describedby="basic-addon14"
-                                       class="text-center form-control q rounded-0 border-bottom-only ms-2 col-2"
+                                       class="text-center form-control q rounded-0 border-bottom-only ms-2"
                                        id="qst-14">
                                 .
                             </div>
@@ -488,7 +488,7 @@
                                 Ein <input autocomplete="off" type="text" placeholder="Reihenhaus"
                                            aria-label="Reihenhaus"
                                            aria-describedby="basic-addon15"
-                                           class="text-center form-control rounded-0 border-bottom-only mx-2 col-2 bg-success fw-bold text-white t_add_6"
+                                           class="text-center form-control rounded-0 border-bottom-only mx-2 bg-success fw-bold text-white t_add_6"
                                            id="nqst" disabled>
                                 ist meistens ein Familienhaus, in einer
                                 Reihe von gleichen, aneinander gebauten

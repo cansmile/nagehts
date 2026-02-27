@@ -1255,3 +1255,99 @@ a.text-lime:hover,
 a.text-lime:focus {
     color: #0056b3 !important;
 }
+
+/* ========================================
+   Mobile Responsive - Exercise Types
+   Added: 2026-02-28
+   ======================================== */
+
+/* --- Small screens (< 768px) --- */
+@media (max-width: 767.98px) {
+
+    /* [fill-blank] input-group 내 input이 줄바꿈 가능 */
+    .input-group {
+        flex-wrap: wrap;
+    }
+
+    /* [fill-blank] input 최소 너비 + inline max-width 무효화 */
+    .form-control.q {
+        min-width: 80px !important;
+        max-width: none !important;
+        flex: 1 1 auto !important;
+    }
+
+    /* [dragtogroup] drop zone 최소 높이 축소 */
+    .itm-lst {
+        min-height: 100px !important;
+    }
+
+    /* [dragtogroup] 드래그 아이템 터치 영역 */
+    button.itm,
+    .itm {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.75rem;
+        min-height: 44px;
+    }
+
+    /* [click-select] btn-group 줄바꿈 허용 */
+    .btn-group.q {
+        flex-wrap: wrap;
+    }
+
+    /* [click-select] 선택 버튼 터치 영역 확대 */
+    .btn-group .pop {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 0.5rem 0.75rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* [공통] 정답확인 버튼 터치 영역 */
+    #chk {
+        min-height: 48px;
+        font-size: 1.1rem;
+    }
+
+    /* [공통] 이미지 오버플로 방지 */
+    section img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* [공통] 테이블 고정 너비 해제 */
+    .table th[width],
+    .table td[width] {
+        width: auto !important;
+    }
+
+    /* [공통] wahl(보기) 제목 크기 축소 */
+    .wahl_title {
+        font-size: 1.5rem;
+    }
+}
+
+/* --- Extra small screens (< 576px) --- */
+@media (max-width: 575.98px) {
+
+    .form-control.q {
+        min-width: 60px !important;
+    }
+
+    .itm-lst {
+        min-height: 80px !important;
+    }
+
+    /* [dragtogroup] 제목 폰트 축소 */
+    .itm-lst .ttl {
+        font-size: 0.85rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    /* [click-select] 문장 블록 표시 */
+    .sen {
+        display: block;
+        word-break: keep-all;
+    }
+}

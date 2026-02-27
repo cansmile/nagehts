@@ -11,37 +11,37 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-1.png"
                         alt="Was möchten Sie am Wochenende machen?"
                         style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-2.png"
                         alt="Was möchten Sie am Wochenende machen?"
                         style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-3.png"
                         alt="Was möchten Sie am Wochenende machen?"
                         style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-4.png"
                         alt="Was möchten Sie am Wochenende machen?"
                         style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-5.png"
                         alt="Was möchten Sie am Wochenende machen?"
                         style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-6.png"
                         alt="Was möchten Sie am Wochenende machen?"
                         style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-7.png"
                         alt="Was möchten Sie am Wochenende machen?"
                         style="max-width: 100%; height: auto;"></div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless table-light text-center my-0">
                         <tbody>
                             <tr>
@@ -104,7 +104,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table class="table table-borderless table-light text-center my-0">
                         <tbody>
                             <tr>

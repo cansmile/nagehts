@@ -62,53 +62,53 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-1.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-2.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-3.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-4.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-5.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-6.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-xl-3"><img
                         src="./dev/images/Reihe 7/Reihe-7-A2-7.png"
                         alt="Was möchten Sie am Wochenende machen?" style="max-width: 100%; height: auto;"></div>
             </div>
             <!-- 리스트  시작 -->
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-danger itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
+                    class="rounded-top bg-danger itm-lst col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-1">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Vormittag</strong></small><br>(10-12
                         Uhr)</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-success itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
+                    class="rounded-top bg-success itm-lst col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-2">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Mittag</strong></small><br>(12-13 Uhr)
                     </h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-info itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
+                    class="rounded-top bg-info itm-lst col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-3">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Nachmittag</strong></small><br>(13-17
                         Uhr)</h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-primary itm-lst col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
+                    class="rounded-top bg-primary itm-lst col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pt-1 border border-white"
                     id="lst-4">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         <small><strong>Am Abend</strong></small><br>(17-20 Uhr)
@@ -128,7 +128,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

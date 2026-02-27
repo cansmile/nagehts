@@ -324,40 +324,40 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>1</strong></span><br>Herzlichen
                             Glückwunsch, Sara.<br>Hier ist mein Geschenk.<span class="tran"><br><small>사라야, (생일) 축하해! 여기
                                     내
                                     선물</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>2</strong></span><br>Ich
                             habe im Mai Geburtstag, du auch?<span class="tran"><br><small>나는 5월에 생일이야, 너도
                                     그래?</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>3</strong></span><br>Hier,
                             die Kinderschokolade ist lecker.<span class="tran"><br><small>여기, 이 어린이초코렛
                                     맛있단다.</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>4</strong></span><br>Wo
                             ist denn die Geburtstagstorte?<br><span class="tran"><br><small>생일케익이
                                     어디있지?</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>5</strong></span><br>Wer
                             mag noch Kekse?<br><span class="tran"><br><small>누가
                                     또 과자를 좋아하니?</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>6</strong></span><br>Trinkst
                             du auch Kaffee?<br><span class="tran"><br><small>너도
@@ -365,39 +365,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>a</strong></span><br>Ja,
                             ich habe auch im Mai Geburtstag!<span class="tran"><br><small>응, 나도 5월에
                                     생일이야</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>b</strong></span><br>Da!
                             Auf dem Tisch!<span class="tran"><br><small>저기? 탁자위에
                                     있어.</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>c</strong></span><br>Oh,
                             eine Musik-CD. Danke. Das ist ja toll.<span class="tran"><br><small>오, 음악CD구나. 정말
                                     좋다</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>d</strong></span><br>Ich,
                             die Kekse sind meine Lieblingskekse.<span class="tran"><br><small>나! 이 과자는 내가 좋아하는
                                     과자야</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>e</strong></span><br>Nein
                             danke, meine Zähne!<span class="tran"><br><small>괜찮아
                                     (안먹을께), 내 이가!</small></span>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 border border-light">
                             <span
                                 class="p-1 bg-dark text-white border border-dark rounded mb-2 px-2"><strong>f</strong></span><br>Nein,
                             ich darf nicht. Ich kann dann nicht schlafen.<span class="tran"><br><small>아 나. 마시면 안되. 그럼
@@ -423,7 +423,7 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

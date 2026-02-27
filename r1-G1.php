@@ -56,7 +56,7 @@
             </div>
             <!-- 리스트  시작 -->
             <div class="row mt-2" id="lsts">
-                <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
+                <div class="rounded-top itm-lst 1itm col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-1">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G1-1.png"
                         style="height: auto; max-width: 100%"
@@ -65,7 +65,7 @@
                         ___________ ! </h2>&nbsp;
                     <button class="btn w-100 mt-0" disable>6~11 Uhr</button>
                 </div>
-                <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
+                <div class="rounded-top itm-lst 1itm col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-2">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G1-2.png"
                         style="height: auto; max-width: 100%"
@@ -75,7 +75,7 @@
                     <button class="btn w-100 mt-0" disable>11~17
                         Uhr</button>
                 </div>
-                <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
+                <div class="rounded-top itm-lst 1itm col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-3">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G1-3.png"
                         style="height: auto; max-width: 100%"
@@ -85,7 +85,7 @@
                     <button class="btn w-100 mt-0" disable>17~24
                         Uhr</button>
                 </div>
-                <div class="rounded-top itm-lst 1itm col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
+                <div class="rounded-top itm-lst 1itm col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 pt-1"
                     id="lst-4">
                     <img src=".\dev/images\Reihe 1\Reihe-1-G1-4.png"
                         style="height: auto; max-width: 100%"
@@ -106,7 +106,7 @@
     </section>
     <div id="marg"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

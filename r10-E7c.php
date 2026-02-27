@@ -57,10 +57,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
                 <img src="./dev/images/Reihe 10/Reihe-10-E7-1.png" alt="Wo ist das?"
                      style="max-width: 100%; height: auto;"></div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <table class="table table-borderless">
                     <thead>
                     <tr>
@@ -184,7 +184,7 @@
 
 <?php require "footer.php"; ?>
 <script src="./dev/js/howler.core.js"></script>
-<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/dragtogroup.js"></script>
 <!-- 맞고 틀리는지 소리 -->
 <?php require_once( "./dev/oxsound.php" ); ?>
 <script>

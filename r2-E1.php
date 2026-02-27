@@ -22,7 +22,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <table class="table table-borderless table-responsive">
                         <tbody>
                             <tr>
@@ -200,7 +200,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
@@ -280,7 +280,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                     <table class="table table-borderless">
                         <tbody>
                             <tr>

@@ -59,17 +59,17 @@
             <!-- 리스트  시작 -->
             <div class="row" id="lsts">
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-primary itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-1">
+                    class="rounded-top bg-primary itm-lst col-6 col-sm-4 col-md-3 p-2" id="lst-1">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         남성 <strong>M</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-danger itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-2">
+                    class="rounded-top bg-danger itm-lst col-6 col-sm-4 col-md-3 p-2" id="lst-2">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         여성 <strong>F</strong></h2>&nbsp;
                 </div>
                 <div style="min-height: 240px;"
-                    class="rounded-top bg-purple itm-lst col-xs col-sm col-md col-lg pt-1 m-1" id="lst-3">
+                    class="rounded-top bg-purple itm-lst col-6 col-sm-4 col-md-3 p-2" id="lst-3">
                     <h2 class="btn btn-light btn-xl ttl w-100">
                         중성 <strong>N</strong></h2>&nbsp;
                 </div>
@@ -87,7 +87,7 @@
     <div id="marg"></div>
     <?php require "footer.php"; ?>
     <script src="./dev/js/popper.min.js"></script>
-    <script src="./dev/js/taptogrouph.js"></script>
+    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

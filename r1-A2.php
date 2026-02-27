@@ -56,31 +56,31 @@
         </div><!-- 아이템들 끝 --><!-- 리스트 시작 -->
         <div class="row" id="lsts">
             <div style="min-height: 240px;"
-                 class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
+                 class="itm-lst text-center text-dark rounded border border-light col-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
                  id="lst-1"><img src=".\dev/images\Reihe 1\Reihe-1-A2-1.png" style="width: 100%; height: auto;"
                                  class="my-4 ttl"></div>
             <div style="min-height: 240px;"
-                 class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
+                 class="itm-lst text-center text-dark rounded border border-light col-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
                  id="lst-2"><img src=".\dev/images\Reihe 1\Reihe-1-A2-2.png" style="width: 100%; height: auto;"
                                  class="my-4 ttl"></div>
             <div style="min-height: 240px;"
-                 class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
+                 class="itm-lst text-center text-dark rounded border border-light col-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
                  id="lst-3"><img src=".\dev/images\Reihe 1\Reihe-1-A2-3.png" style="width: 100%; height: auto;"
                                  class="my-4 ttl"></div>
             <div style="min-height: 240px;"
-                 class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
+                 class="itm-lst text-center text-dark rounded border border-light col-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
                  id="lst-4"><img src=".\dev/images\Reihe 1\Reihe-1-A2-4.png" style="width: 100%; height: auto;"
                                  class="my-4 ttl"></div>
             <div style="min-height: 240px;"
-                 class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
+                 class="itm-lst text-center text-dark rounded border border-light col-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
                  id="lst-5"><img src=".\dev/images\Reihe 1\Reihe-1-A2-5.png" style="width: 100%; height: auto;"
                                  class="my-4 ttl"></div>
             <div style="min-height: 240px;"
-                 class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
+                 class="itm-lst text-center text-dark rounded border border-light col-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
                  id="lst-6"><img src=".\dev/images\Reihe 1\Reihe-1-A2-6.png" style="width: 100%; height: auto;"
                                  class="my-4 ttl"></div>
             <div style="min-height: 240px;"
-                 class="itm-lst text-center text-dark rounded border border-light col-xs-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
+                 class="itm-lst text-center text-dark rounded border border-light col-3 col-sm-3 col-md-4 col-lg-3 col-xl-3"
                  id="lst-7"><img src=".\dev/images\Reihe 1\Reihe-1-A2-7.png" style="width: 100%; height: auto;"
                                  class="my-4 ttl"></div>
         </div><!-- 리스트 끝 -->
@@ -213,7 +213,7 @@
 <div id="last" class="d-none"></div>
 <div id="marg"></div><!-- 정답확인 버튼 끝 -->
 <script src="./dev/js/popper.min.js"></script><?php require "footer.php"; ?>
-<script src="./dev/js/taptogrouph.js"></script>
+<script src="./dev/js/dragtogroup.js"></script>
 <script src="./dev/js/howler.core.js"></script><!-- 맞고 틀리는지 소리 --><?php require_once( "./dev/oxsound.php" ); ?>
 <script> $("#0").hide();
     $(".tran").hide();

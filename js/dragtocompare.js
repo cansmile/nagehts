@@ -84,27 +84,53 @@
     if (target) target.classList.add('nge-drop-hover');
   }
 
-  function checkPairMatch(itemEl, targetGroup) {
+  // 좌우 행 높이 동기화 (번역 표시 등으로 높이가 달라질 때)
+  var syncTimer = null;
+  function syncRowHeights() {
+    var ths = $('th[scope=row]');
+    if (ths.length < 2) return;
+    var half = Math.floor(ths.length / 2);
+    for (var i = 1; i <= half; i++) {
+      var l = $('#th-' + i);
+      var r = $('#th-' + (i + half));
+      l.css('height', 'auto');
+      r.css('height', 'auto');
+      var h = Math.max(l.outerHeight(), r.outerHeight());
+      l.height(h);
+      r.height(h);
+    }
+  }
+  function debouncedSync() {
+    if (syncTimer) clearTimeout(syncTimer);
+    syncTimer = setTimeout(syncRowHeights, 50);
+  }
+
+  function checkPairMatch(itemEl, targetEl) {
     // cp 배열이 있으면 짝 검증
     if (typeof cp !== 'undefined' && Array.isArray(cp)) {
       var itemId = parseInt(itemEl.id, 10) || 0;
-      var expectedPairId = cp[itemId - 1];
+      var partnerId = cp[itemId - 1]; // 이 아이템의 짝
 
-      // 반대쪽 th에서 버튼 찾기
+      // targetEl(itm-lst)의 부모 th를 기준으로 반대쪽 확인
+      var targetTh = targetEl.closest ? targetEl.closest('th[scope=row]') : $(targetEl).closest('th[scope=row]')[0];
+      if (!targetTh) return true; // th 못찾으면 허용
+
       var ths = $('th[scope=row]').length;
       var half = ths / 2;
-      var thId = itemEl.closest('th[scope=row]');
-      if (thId) {
-        var thNum = parseInt(thId.id.substr(3), 10);
-        var oppNum = thNum <= half ? thNum + half : thNum - half;
-        var oppBtn = $('#th-' + oppNum).find('button');
-        if (oppBtn.length && oppBtn.attr('id')) {
-          var oppId = parseInt(oppBtn.attr('id'), 10);
-          var expectedFromCp = cp[oppId - 1];
-          // 검사: 반대쪽 짝이 #itms에 있는지
-          if (!$('#itms').find('button#' + expectedFromCp).length) {
-            return false;
-          }
+      var thNum = parseInt(targetTh.id.substr(3), 10);
+      var oppNum = thNum <= half ? thNum + half : thNum - half;
+      var oppBtn = $('#th-' + oppNum).find('button');
+
+      if (oppBtn.length && oppBtn.attr('id')) {
+        var oppId = parseInt(oppBtn.attr('id'), 10);
+        // 반대쪽에 버튼이 있으면: 현재 아이템이 그 버튼의 짝인지 확인
+        if (cp[oppId - 1] !== itemId) {
+          return false; // 짝이 아님 → 거부
+        }
+      } else {
+        // 반대쪽이 비어있으면: 짝이 아직 풀(#itms)에 있는지 확인
+        if (!$('#itms').find('button#' + partnerId).length) {
+          return false; // 짝이 이미 다른 행에 배치됨 → 거부
         }
       }
     }
@@ -121,7 +147,7 @@
 
     if (ansGroup === targetGroup) {
       // 짝 검증 (cp 배열)
-      var pairValid = checkPairMatch(dragging, targetGroup);
+      var pairValid = checkPairMatch(dragging, target);
 
       if (pairValid) {
         if (typeof o !== 'undefined' && o.play) o.play();
@@ -209,7 +235,12 @@
       var target = findDropTarget(pos.x, pos.y);
       if (target) {
         var success = handleDrop(target);
-        if (success) cleanupDrag();
+        if (success) {
+          cleanupDrag();
+          syncRowHeights();
+          // 드래그로 배치 완료 시 wahl.php의 donewahl() 감지 트리거
+          setTimeout(function () { $(document).trigger('click'); }, 50);
+        }
       } else {
         snapBack();
       }
@@ -325,6 +356,7 @@
       }
     });
     $('.itm').removeClass('btn-secondary');
+    syncRowHeights();
   });
 
   // 되돌리기
@@ -339,6 +371,17 @@
   $(document).ready(function () {
     if ($('#itms').length) $('.itm').appendTo('#itms');
     $('[data-toggle="popover"]').popover({ container: 'body' });
+
+    // 클릭마다 높이 동기화 (번역 토글, 아이템 배치 등)
+    $(document).on('click', function () {
+      setTimeout(syncRowHeights, 100);
+    });
+    // 윈도우 리사이즈 시 높이 재계산
+    window.addEventListener('resize', debouncedSync);
+    // 초기 높이 동기화
+    setTimeout(syncRowHeights, 200);
+    // 전역 접근 (PHP onend 등에서 호출 가능)
+    window.nqSyncRowHeights = syncRowHeights;
   });
 
   var style = document.createElement('style');

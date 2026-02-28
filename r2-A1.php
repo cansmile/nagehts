@@ -3,9 +3,7 @@
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2 nq-wahl" id="wahl">
         <div class="container">
             <div class="row">
                 <div
@@ -139,7 +137,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="nq-exercise" data-type="dragtocompare" data-reihe="2">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -541,107 +539,65 @@
                         }
                     });
                     <?php require "wahl.php"; ?>
-                    /* 정답확인 */
+                    /* 정답확인 — 같은 행의 국가-수도 짝 검증 */
                     $("#chk").on("click", function () {
-                        if ($(this).attr("id") ==
-                            "chk") {
+                        if ($(this).attr("id") == "chk") {
                             var na = "";
-                            if ($("#itms").find(
-                                    "button")
-                                .length < 1) {
+                            if ($("#itms").find("button").length < 1) {
                                 $(".tran").show();
-                                /* 정답 확인 div 상자 배경색 속성 없애기 */
-                                $(this).removeClass(
-                                    "btn-light "
-                                    );
-                                $(".itm-lst>button")
-                                    .addClass(
-                                        "text-success fw-bold"
-                                        );
-                                var qa = $(
-                                        ".itm-lst")
-                                    .length; /* 전체 문항 수 */
-                                var qr = $(
-                                    ".text-success"
-                                    )
-                                .length; /* 맞춘 항목 수 */
-                                var pe = (qr / qa) *
-                                    100; /* 정답 비율 */
-                                var tcl =
-                                "white"; /* 기본 문자색 */
-                                /* 분류 기준은 100%, 80%, 60%, 40% */
-                                if (pe > 99) {
-                                    var st =
-                                        "원어민이세요?";
-                                    var cl = "lime";
-                                    var tcl =
-                                    "dark";
-                                } else if (pe >
-                                    74) {
-                                    var st =
-                                        "어! 좀 하시는데요~^^";
-                                    var cl =
-                                        "success";
-                                } else if (pe >
-                                    49) {
-                                    var st =
-                                        "쓰읍~ 다시 해 보실까요?";
-                                    var cl =
-                                        "primary";
-                                } else {
-                                    var st =
-                                        "좀 더 분발해 주세요~";
-                                    var cl =
-                                        "danger";
-                                }
-                                $(this).addClass(
-                                    "btn-" +
-                                    cl +
-                                    " text-" +
-                                    tcl);
-                                $(this).html(
-                                    "<h4>" +
-                                    qa +
-                                    "문제 중 " +
-                                    qr +
-                                    "개를 맞히셨네요!<br>" +
-                                    st + "</h4>"
-                                    );
-                                $(this).attr("id",
-                                    "done");
-                                $(".btn-lg").text()
-                                    .appendTo($(
-                                            this)
-                                        .closest(
-                                            "td"));
-                                $(".btn-lg")
-                                .remove();
-                            } else {
-                                $("div.itm-lst")
-                                    .each(function (
-                                        idx) {
-                                        if (!$(
-                                                this)
-                                            .find(
-                                                "button"
-                                                )
-                                            .length
-                                            ) {
-                                            if (na !=
-                                                ""
-                                                ) {
-                                                na +=
-                                                    ", ";
-                                            }
-                                            na +=
-                                                (idx +
-                                                    1
-                                                    );
+                                $(this).removeClass("btn-light");
+
+                                /* ── 행별 짝 검증 ── */
+                                var tbn = 10; /* 행 수 (좌우 각 10행) */
+                                var qr = 0;  /* 맞은 항목 수 */
+                                var qa = tbn * 2; /* 전체 항목 수 */
+
+                                for (var i = 1; i <= tbn; i++) {
+                                    var leftBtn  = $("#th-" + i).find("button");
+                                    var rightBtn = $("#th-" + (i + tbn)).find("button");
+
+                                    if (leftBtn.length && rightBtn.length) {
+                                        var leftId  = parseInt(leftBtn.attr("id"), 10);
+                                        var rightId = parseInt(rightBtn.attr("id"), 10);
+
+                                        if (cp[leftId - 1] === rightId) {
+                                            /* 정답: 같은 행에 올바른 짝 */
+                                            leftBtn.addClass("text-success fw-bold");
+                                            rightBtn.addClass("text-success fw-bold");
+                                            qr += 2;
+                                        } else {
+                                            /* 오답: 짝이 맞지 않음 */
+                                            leftBtn.addClass("text-danger fw-bold");
+                                            rightBtn.addClass("text-danger fw-bold");
+                                            /* 올바른 짝 표시 */
+                                            var correctRight = cp[leftId - 1];
+                                            var correctLeft  = cp[rightId - 1];
+                                            leftBtn.after('<small class="d-block text-warning fw-bold mt-1">→ ' + $("#" + correctRight).contents().first().text().trim() + '</small>');
+                                            rightBtn.after('<small class="d-block text-warning fw-bold mt-1">→ ' + $("#" + correctLeft).contents().first().text().trim() + '</small>');
                                         }
-                                    });
-                                alert(
-                                    "모든 문제를 풀어주세요!");
-                                /* alert(na+"번 문제를 풀어주세요!"); */
+                                    }
+                                }
+
+                                var pe = (qr / qa) * 100;
+                                var tcl = "white";
+                                if (pe > 99) {
+                                    var st = "원어민이세요?";
+                                    var cl = "lime"; tcl = "dark";
+                                } else if (pe > 74) {
+                                    var st = "어! 좀 하시는데요~^^";
+                                    var cl = "success";
+                                } else if (pe > 49) {
+                                    var st = "쓰읍~ 다시 해 보실까요?";
+                                    var cl = "primary";
+                                } else {
+                                    var st = "좀 더 분발해 주세요~";
+                                    var cl = "danger";
+                                }
+                                $(this).addClass("btn-" + cl + " text-" + tcl);
+                                $(this).html("<h4>" + (qa / 2) + "문제 중 " + (qr / 2) + "개를 맞히셨네요!<br>" + st + "</h4>");
+                                $(this).attr("id", "done");
+                            } else {
+                                alert("모든 문제를 풀어주세요!");
                             }
                         }
                     });
@@ -682,6 +638,8 @@
                             ".tran").show();
                         pa[last] = $("#" + last).html();
                     }
+                    // 번역 표시 후 좌우 행 높이 동기화
+                    if (typeof nqSyncRowHeights === 'function') nqSyncRowHeights();
                 }
             });
         });

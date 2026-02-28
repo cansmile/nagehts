@@ -1,9 +1,9 @@
-2<?php require_once("heading.php"); ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
 
-    <section>
+    <section class="nq-exercise" data-type="grammar" data-reihe="1">
         <div class="container">
             <div class="col-lg-12 mb-4 mt-2 text-center">
                 <h2>Hören Sie und sprechen Sie nach.<br>
@@ -36,8 +36,8 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseOne" area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false"
                                 aria-controls="collapseOne" id="1">
                                 eins
                             </button>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="collapse" id="collapseOne"
                         aria-labelledby="headingOne"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-1.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -57,8 +57,8 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false"
                                 aria-controls="collapseTwo" id="2">
                                 zwei
                             </button>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="collapse" id="collapseTwo"
                         aria-labelledby="headingTwo"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-2.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -79,9 +79,9 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseThree"
-                                area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
                                 aria-controls="collapseThree" id="3">
                                 drei
                             </button>
@@ -89,7 +89,7 @@
                     </div>
                     <div class="collapse" id="collapseThree"
                         aria-labelledby="headingThree"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-3.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -101,9 +101,9 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseFour"
-                                area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour"
+                                aria-expanded="false"
                                 aria-controls="collapseFour" id="4">
                                 vier
                             </button>
@@ -111,7 +111,7 @@
                     </div>
                     <div class="collapse" id="collapseFour"
                         aria-labelledby="headingFour"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-4.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -123,9 +123,9 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseFive"
-                                area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive"
+                                aria-expanded="false"
                                 aria-controls="collapseFive" id="5">
                                 fünf
                             </button>
@@ -133,7 +133,7 @@
                     </div>
                     <div class="collapse" id="collapseFive"
                         aria-labelledby="headingFive"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-5.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -145,8 +145,8 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseSix" area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false"
                                 aria-controls="collapseSix" id="6">
                                 sechs
                             </button>
@@ -154,7 +154,7 @@
                     </div>
                     <div class="collapse" id="collapseSix"
                         aria-labelledby="headingSix"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-6.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -167,9 +167,9 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseSeven"
-                                area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven"
+                                aria-expanded="false"
                                 aria-controls="collapseSeven" id="7">
                                 sieben
                             </button>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="collapse" id="collapseSeven"
                         aria-labelledby="headingSeven"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-7.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -190,9 +190,9 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseEight"
-                                area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight"
+                                aria-expanded="false"
                                 aria-controls="collapseEight" id="8">
                                 acht
                             </button>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="collapse" id="collapseEight"
                         aria-labelledby="headingEight"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-8.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -212,9 +212,9 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseNine"
-                                area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine"
+                                aria-expanded="false"
                                 aria-controls="collapseNine" id="9">
                                 neun
                             </button>
@@ -222,7 +222,7 @@
                     </div>
                     <div class="collapse" id="collapseNine"
                         aria-labelledby="headingNine"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-9.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">
@@ -234,8 +234,8 @@
                         <h5 class="mb-0">
                             <button
                                 class="btn btn-outline-dark w-100 btn-md mt-1 so"
-                                type="button" data-toggle="collapse"
-                                data-target="#collapseTen" area-expanded="false"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false"
                                 aria-controls="collapseTen" id="10">
                                 zehn
                             </button>
@@ -243,7 +243,7 @@
                     </div>
                     <div class="collapse" id="collapseTen"
                         aria-labelledby="headingTen"
-                        data-parent="#accordionitms">
+                        data-bs-parent="#accordionitms">
                         <img src=".\dev/images\Reihe 1\Reihe-1-F1-10.png"
                             style="max-width: 100%; height: auto;"
                             class="w-100 mx-auto">

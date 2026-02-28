@@ -210,97 +210,58 @@
 
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        var na = "";
-                        if ($("#itms").find(
-                                "button").length <
-                            1) {
-                            $(".tran").show();
-                            $(".itm-lst").each(
-                                function () {
-                                    $(this)
-                                        .html($(
-                                                this
-                                                )
-                                            .find(
-                                                "button"
-                                            )
-                                            .html()
-                                        );
-                                    $(this)
-                                        .addClass(
-                                            "fw-bold bg-white border rounded border-dark text-success"
-                                        );
-                                });
-
-                            /* 정답 확인 div 상자 배경색 속성 없애기 */
-                            $(this).removeClass(
-                                "btn-light ");
-
-                            var qa = $(".itm-lst")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".text-success")
-                                .length; /* 맞춘 항목 수 */
-                            var pe = (qr / qa) *
-                                100; /* 정답 비율 */
-                            var tcl =
-                                "white"; /* 기본 문자색 */
-
-                            /* 분류 기준은 100%, 80%, 60%, 40% */
-                            if (pe > 99) {
-                                var st = "원어민이세요?";
-                                var cl = "lime";
-                                var tcl = "dark";
-                            } else if (pe > 74) {
-                                var st =
-                                    "어! 좀 하시는데요~^^";
-                                var cl = "success";
-                            } else if (pe > 49) {
-                                var st =
-                                    "쓰읍~ 다시 해 보실까요?";
-                                var cl = "primary";
-                            } else {
-                                var st =
-                                    "좀 더 분발해 주세요~";
-                                var cl = "danger";
-                            }
-
-                            $(this).addClass(
-                                "btn-" + cl +
-                                " text-" + tcl);
-                            $(this).html("<h4>" +
-                                qa + "문제 중 " +
-                                qr +
-                                "개를 맞히셨네요!<br>" +
-                                st +
-                                "</h4>");
-
-                            $(this).attr("id",
-                                "done");
-
-                        } else {
-                            $("div.itm-lst").each(
-                                function (idx) {
-                                    if (!$(this)
-                                        .find(
-                                            "button"
-                                        )
-                                        .length
-                                    ) {
-                                        if (na !=
-                                            ""
-                                        ) {
-                                            na +=
-                                                ", ";
-                                        }
-                                        na += (idx +
-                                            1
-                                        );
-                                    }
-                                });
+                        if ($(this).attr("id") !== "chk") return;
+                        if ($("#itms").find("button").length > 0) {
                             alert("모든 문제를 풀어주세요!");
-                            /* alert(na+"번 문제를 풀어주세요!"); */
+                            return;
                         }
+
+                        $(".tran").show();
+                        $(this).removeClass("btn-light");
+
+                        /* 각 드롭존의 버튼이 올바른 위치인지 검증 */
+                        var qa = $(".itm-lst").length;
+                        var qr = 0;
+                        $(".itm-lst").each(function () {
+                            var btn = $(this).find("button");
+                            if (btn.length) {
+                                /* ansN 클래스에서 그룹 번호 추출 */
+                                var ansGroup = 0;
+                                var classes = btn[0].className.split(/\s+/);
+                                for (var i = 0; i < classes.length; i++) {
+                                    var m = classes[i].match(/^ans(\d+)$/);
+                                    if (m) { ansGroup = parseInt(m[1], 10); break; }
+                                }
+                                /* lst-N ID에서 타겟 번호 추출 */
+                                var targetGroup = parseInt($(this).attr("id").substr(4), 10);
+
+                                if (ansGroup === targetGroup) {
+                                    btn.addClass("text-success fw-bold");
+                                    qr++;
+                                } else {
+                                    btn.addClass("text-danger fw-bold");
+                                }
+                            }
+                        });
+
+                        var pe = (qr / qa) * 100;
+                        var tcl = "white";
+                        if (pe > 99) {
+                            var st = "원어민이세요?";
+                            var cl = "success"; tcl = "dark";
+                        } else if (pe > 74) {
+                            var st = "어! 좀 하시는데요~^^";
+                            var cl = "success";
+                        } else if (pe > 49) {
+                            var st = "쓰읍~ 다시 해 보실까요?";
+                            var cl = "primary";
+                        } else {
+                            var st = "좀 더 분발해 주세요~";
+                            var cl = "danger";
+                        }
+                        $(this).addClass("btn-" + cl + " text-" + tcl);
+                        $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                        $(this).attr("id", "done");
                     });
 
                     $(".so").on("click", function () {

@@ -613,6 +613,7 @@
                 <?php require "wahl.php"; ?>
                 /* 정답확인 */
                 $("#chk").on("click", function () {
+                    if ($(this).attr("id") !== "chk") return;
                     var na = "";
                     if ($("#itms").find(
                         "button").length <
@@ -620,18 +621,7 @@
                         $(".tran").show();
                         $(".itm-lst").each(
                             function () {
-                                $(this)
-                                    .html($(
-                                        this)
-                                        .find(
-                                            "button"
-                                        )
-                                        .html()
-                                    );
-                                $(this)
-                                    .addClass(
-                                        "text-success fw-bold"
-                                    );
+                                $(this).find("button").addClass("text-success fw-bold");
                             }
                         );
                         /* 정답 확인 div 상자 배경색 속성 없애기 */
@@ -649,7 +639,7 @@
                         /* 분류 기준은 100%, 80%, 60%, 40% */
                         if (pe > 99) {
                             var st = "원어민이세요?";
-                            var cl = "lime";
+                            var cl = "success";
                             var tcl = "dark";
                         } else if (pe > 74) {
                             var st =

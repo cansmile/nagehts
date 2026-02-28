@@ -2,7 +2,7 @@
     <!-- 알림 시작 -->
     <?php require_once"ready.php"; ?>
     <!-- 알림 끝 -->
-    <section>
+    <section class="nq-exercise" data-type="click-select" data-reihe="3">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -417,9 +417,6 @@
             function stopAll() {
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")]);
-                    if (!$("#chk").hasClass("btn-lg")) {
-                        $(this).closest("tr").find(".tran").show();
-                    }
                 });
             }
             /* 문제 재생 */
@@ -746,8 +743,7 @@
                         if (sen[last] == 2) {
                             $(".tran").show();
                             $(".so").each(function () {
-                                pa[last] = $("#" +
-                                    last).html();
+                                pa[$(this).attr("id")] = $(this).html();
                             });
                         }
                     } else if (sen[last] == 2) {

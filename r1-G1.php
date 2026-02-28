@@ -1,8 +1,6 @@
 <?php require_once("heading.php"); ?>
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2"
-
-        id="wahl">
+    <section class="bg-white rounded p-2 nq-wahl" id="wahl">
         <div class="container">
             <div class="row">
                 <div
@@ -47,7 +45,7 @@
         }
 
     </style>
-    <section>
+    <section class="nq-exercise" data-type="dragtogroup" data-reihe="1">
         <div class="container">
             <div class="row">
                 <div class="col text-center">

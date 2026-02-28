@@ -3,7 +3,7 @@
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
 
-    <section>
+    <section class="nq-exercise" data-type="click-select" data-reihe="1">
         <div class="container">
             <div class="row">
                 <div class="col text-center">

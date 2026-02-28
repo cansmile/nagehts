@@ -3,7 +3,7 @@
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
 <!-- 보기시작 -->
-<section class="bg-white rounded p-2" id="wahl">
+<section class="bg-white rounded p-2 nq-wahl" id="wahl">
     <div class="container">
         <div class="row">
             <div
@@ -47,7 +47,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="nq-exercise" data-type="dragtogroup" data-reihe="12">
     <div class="container">
         <!-- 고르는 아이템들 -->
         <div class="row">

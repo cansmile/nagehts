@@ -6,7 +6,7 @@
         }
 
     </style>
-    <section>
+    <section class="nq-exercise" data-type="fill-blank" data-reihe="6">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">

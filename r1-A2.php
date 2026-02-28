@@ -16,7 +16,7 @@
     으로 변합니다.
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div><!-- 알림 끝 --><!-- 보기시작 -->
-<section class="bg-white rounded p-2" id="wahl">
+<section class="bg-white rounded p-2 nq-wahl" id="wahl">
     <div class="container">
         <div class="row">
             <div class="bg-<?php echo( $color ); ?> wahl_title col-12">Wahl</div>
@@ -39,7 +39,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="nq-exercise" data-type="dragtogroup" data-reihe="1">
     <div class="container"><!-- 아이템들 시작 -->
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center"><h2>단어를 넣을 때는 그림을 누르세요.</h2>
@@ -345,7 +345,7 @@
                     if (sen[last] == 2) {
                         $(".tran").show();
                         $(".so").each(function () {
-                            pa[last] = $("#" + last).html();
+                            pa[$(this).attr("id")] = $(this).html();
                         });
                     }
                 } else if (sen[last] == 2) {

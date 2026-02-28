@@ -3,7 +3,7 @@
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
 
-    <section>
+    <section class="nq-exercise" data-type="click-select" data-reihe="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -1306,9 +1306,6 @@
             function stopAll() {
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")]);
-                    if (!$("#chk").hasClass("btn-lg")) {
-                        $(this).closest("tr").find(".tran").show();
-                    }
                 });
             }
 

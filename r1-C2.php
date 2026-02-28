@@ -3,7 +3,7 @@
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2" id="wahl">
+    <section class="bg-white rounded p-2 nq-wahl" id="wahl">
         <div class="container">
             <div class="row">
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">
@@ -31,7 +31,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="nq-exercise" data-type="dragtogroup" data-reihe="1">
         <div class="container">
             <!-- 아이템들 시작 -->
             <div class="row">
@@ -117,9 +117,6 @@
             function stopAll() {
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")]);
-                    if (!$("#chk").hasClass("btn-lg")) {
-                        $(this).closest("tr").find(".tran").show();
-                    }
                 });
             }
 
@@ -245,7 +242,7 @@
                         if (sen[last] == 2) {
                             $(".tran").show();
                             $(".so").each(function () {
-                                pa[last] = $("#" + last).html();
+                                pa[$(this).attr("id")] = $(this).html();
                             });
                         }
                     } else if (sen[last] == 2) {

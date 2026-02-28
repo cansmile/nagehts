@@ -18,7 +18,7 @@
         }
 
     </style>
-    <section>
+    <section class="nq-exercise" data-type="other" data-reihe="8">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">

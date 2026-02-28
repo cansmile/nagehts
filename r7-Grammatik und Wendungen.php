@@ -2,7 +2,7 @@
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
-<section>
+<section class="nq-exercise" data-type="grammar" data-reihe="7">
     <div class="container">
         <div class="row">
             <div class="col-12">

@@ -69,7 +69,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="nq-exercise" data-type="dragtogroup" data-reihe="6">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -1021,8 +1021,7 @@
                                     $(".tran").show();
 
                                     $(".so").each(function () {
-                                            pa[last] = $("#" +
-                                                last).html();
+                                            pa[$(this).attr("id")] = $(this).html();
                                         }
 
                                     );

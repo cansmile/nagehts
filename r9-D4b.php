@@ -1,5 +1,5 @@
 <?php require_once( "heading.php" ); ?>
-<section>
+<section class="nq-exercise" data-type="fill-blank" data-reihe="9">
     <div class="container">
         <!-- 고르는 아이템들 -->
         <div class="row">
@@ -471,7 +471,7 @@
                     if (sen[last] == 2) {
                         $(".tran").show();
                         $(".so").each(function () {
-                            pa[last] = $("#" + last).html();
+                            pa[$(this).attr("id")] = $(this).html();
                         });
                     }
                 } else if (sen[last] == 2) {

@@ -3,7 +3,7 @@
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
 <!-- 왼쪽 열과 오른쪽 열을 배열에 넣고 한 부분이라도 정답으로 인정되면 나머지 항목에 자동으로 정답을 입력할 수 있도록 변경 -->
-<section>
+<section class="nq-exercise" data-type="fill-blank" data-reihe="4">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -850,8 +850,7 @@
                     if (sen[last] == 2) {
                         $(".tran").show();
                         $(".so").each(function () {
-                            pa[last] = $("#" +
-                                last).html();
+                            pa[$(this).attr("id")] = $(this).html();
                         });
                     }
                 } else if (sen[last] == 2) {

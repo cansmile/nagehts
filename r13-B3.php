@@ -1,6 +1,6 @@
 <?php require_once( "heading.php" ); ?>
 <!-- 보기시작 -->
-<section>
+<section class="nq-exercise" data-type="other" data-reihe="13">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">

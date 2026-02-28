@@ -1,7 +1,7 @@
 <?php require_once( "heading.php" ); ?>
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
-<section>
+<section class="nq-exercise" data-type="grammar" data-reihe="8">
     <div class="container">
         <div class="row">
             <div class="col-12">

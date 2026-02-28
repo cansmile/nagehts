@@ -2,7 +2,7 @@
 <!-- 알림 시작 -->
 <?php require_once "ready.php"; ?>
 <!-- 알림 끝 -->
-<section>
+<section class="nq-exercise" data-type="fill-blank" data-reihe="11">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -543,7 +543,7 @@
                     if (sen[last] == 3) {
                         $(".tran").show();
                         $(".so").each(function () {
-                            pa[last] = $("#" + last).html();
+                            pa[$(this).attr("id")] = $(this).html();
                         });
                     }
                 } else if (sen[last] == 3) {

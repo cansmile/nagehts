@@ -4,7 +4,7 @@ require_once("heading.php"); ?>
 <?php
 require "ready.php"; ?>
 <!-- 알림 끝 -->
-<section>
+<section class="nq-exercise" data-type="grammar" data-reihe="1">
     <div class="container">
         <div class="row">
             <div class="col-12">

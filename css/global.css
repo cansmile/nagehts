@@ -1257,12 +1257,117 @@ a.text-lime:focus {
 }
 
 /* ========================================
-   Mobile Responsive - Exercise Types
+   nagehtsQ Section Structure (nq-)
    Added: 2026-02-28
+   ======================================== */
+.nq-exercise { position: relative; }
+.nq-instruction { margin-bottom: 1rem; text-align: center; }
+.nq-content { margin-bottom: 1.5rem; }
+.nq-answer { margin-bottom: 1rem; }
+.nq-action { text-align: center; padding: 1rem 0; }
+
+/* Inline edit hints (future) */
+.nq-instruction,
+.nq-content,
+.nq-answer,
+.nq-action {
+    position: relative;
+}
+
+/* ========================================
+   Design Modernization (B5)
+   ======================================== */
+
+/* Rounded items + hover animation */
+button.itm,
+.itm {
+    border-radius: 8px !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+button.itm:hover,
+.itm:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+/* Drop zone modern style */
+.itm-lst {
+    border-radius: 12px !important;
+    border-style: dashed !important;
+}
+
+/* Check/Done button modern style */
+#chk,
+#done {
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+#chk:hover,
+#done:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 12px rgba(0,0,0,.15);
+}
+
+/* Answer feedback icons (B3) */
+.ca::before { content: "\2713 "; }
+.wa::before { content: "\2717 "; }
+.ra::before { content: "\279C "; }
+
+/* Answer appear animation */
+@keyframes nq-answer-appear {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.ca, .wa, .ra {
+    animation: nq-answer-appear 0.3s ease;
+}
+
+/* ========================================
+   Mobile Responsive - Exercise Types
+   Updated: 2026-02-28
    ======================================== */
 
 /* --- Small screens (< 768px) --- */
 @media (max-width: 767.98px) {
+
+    /* B1: #wahl sticky top instead of fixed bottom */
+    #wahl {
+        position: sticky !important;
+        top: 48px !important;
+        bottom: auto !important;
+    }
+
+    /* B1: Hide margin spacer on mobile */
+    #marg {
+        display: none !important;
+    }
+
+    /* B2: Touch targets */
+    .btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* B2: iOS zoom prevention (font-size >= 16px) */
+    input.form-control {
+        min-height: 44px;
+        font-size: 16px;
+    }
+
+    /* B4: Section spacing */
+    section {
+        margin-bottom: 16px;
+    }
+    section .container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /* nq- section mobile spacing */
+    .nq-instruction { margin-bottom: 0.75rem; }
+    .nq-content { margin-bottom: 1rem; }
+    .nq-answer { margin-bottom: 0.75rem; }
 
     /* [fill-blank] input-group 내 input이 줄바꿈 가능 */
     .input-group {

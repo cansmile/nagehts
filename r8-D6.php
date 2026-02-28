@@ -3,7 +3,7 @@
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
-    <section class="bg-white rounded p-2" id="wahl">
+    <section class="bg-white rounded p-2 nq-wahl" id="wahl">
         <div class="container">
             <div class="row">
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">
@@ -43,7 +43,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="nq-exercise" data-type="dragtogroup" data-reihe="8">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -193,9 +193,6 @@
             function stopAll() {
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")]);
-                    if (!$("#chk").hasClass("btn-lg")) {
-                        $(this).closest("tr").find(".tran").show();
-                    }
                 });
             } /* 문제 재생 */
             var nagehts = new Howl({
@@ -317,7 +314,7 @@
                         if (sen[last] == 2) {
                             $(".tran").show();
                             $(".so").each(function () {
-                                pa[last] = $("#" + last).html();
+                                pa[$(this).attr("id")] = $(this).html();
                             });
                         }
                     } else if (sen[last] == 2) {

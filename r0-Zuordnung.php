@@ -2,7 +2,7 @@
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2" id="wahl">
+    <section class="bg-white rounded p-2 nq-wahl" id="wahl">
         <div class="container">
             <div class="row">
                 <div class="bg-<?php echo($color); ?> wahl_title col-12">Wahl</div>
@@ -116,7 +116,7 @@
             </div>
     </section>
     <!-- 내용 시작 -->
-    <section>
+    <section class="nq-exercise" data-type="dragtogroup" data-reihe="0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -400,7 +400,7 @@
                     if (sen[last] == 2) {
                         $(".tran").show();
                         $(".so").each(function () {
-                            pa[last] = $("#" + last).html();
+                            pa[$(this).attr("id")] = $(this).html();
                         });
                     }
                 } else if (sen[last] == 2) {

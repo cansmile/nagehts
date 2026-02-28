@@ -2,7 +2,7 @@
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
-    <section>
+    <section class="nq-exercise" data-type="fill-blank" data-reihe="8">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -296,9 +296,6 @@
             function stopAll() {
                 $(".so").each(function () {
                     $(this).html(pa[$(this).attr("id")]);
-                    if (!$("#chk").hasClass("btn-lg")) {
-                        $(this).closest("tr").find(".tran").show();
-                    }
                 });
             }
 
@@ -602,8 +599,7 @@
                         if (sen[last] == 2) {
                             $(".tran").show();
                             $(".so").each(function () {
-                                pa[last] = $("#" +
-                                    last).html();
+                                pa[$(this).attr("id")] = $(this).html();
                             });
                         }
                     } else if (sen[last] == 2) {

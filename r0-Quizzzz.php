@@ -36,7 +36,7 @@
         </button>
     </div>
     <!-- 알림 끝 -->
-    <section>
+    <section class="nq-exercise" data-type="other" data-reihe="0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">

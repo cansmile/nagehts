@@ -2,7 +2,7 @@
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
-    <section>
+    <section class="nq-exercise" data-type="other" data-reihe="5">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -164,7 +164,7 @@
                     if (sen[last] == 2) {
                         $(".tran").show();
                         $(".so").each(function () {
-                            pa[last] = $("#" + last).html();
+                            pa[$(this).attr("id")] = $(this).html();
                         });
                     }
                 } else if (sen[last] == 2) {

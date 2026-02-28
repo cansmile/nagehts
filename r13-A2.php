@@ -1,6 +1,6 @@
 <?php require_once( "heading.php" ); ?>
 <!-- 보기시작 -->
-<section class="bg-white rounded p-2" id="wahl">
+<section class="bg-white rounded p-2 nq-wahl" id="wahl">
     <div class="container">
         <div class="row">
             <div class="bg-<?php echo( $color ); ?> wahl_title col-12">
@@ -60,7 +60,7 @@
     </div>
 </section>
 
-<section>
+<section class="nq-exercise" data-type="dragtogroup" data-reihe="13">
     <div class="container">
         <!-- 읽기 텍스트 -->
         <div class="row">

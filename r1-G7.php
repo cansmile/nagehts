@@ -1,5 +1,5 @@
 <?php require_once("heading.php"); ?>
-    <section>
+    <section class="nq-exercise" data-type="click-select" data-reihe="1">
         <div class="container">
             <div class="row">
                 <div class="col text-center">

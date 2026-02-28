@@ -109,42 +109,45 @@
   }
 
   // --- Handle drop ---
+  // 정답 검증 없이 아무 슬롯에나 배치 가능 (채점은 nqValidateGrading에서 수행)
   function handleDrop(target) {
     if (!dragging || !target) return false;
 
-    var ansGroup = getAnswerGroup(dragging);
-    var targetGroup = getTargetGroup(target);
     var ttl = target.querySelector('.ttl');
     var isSingleItem = target.classList.contains('1itm');
 
-    if (ansGroup === targetGroup) {
-      // 정답!
-      if (typeof o !== 'undefined' && o.play) o.play();
-
-      // 버튼을 타겟에 넣기
-      dragging.classList.add('w-100', 'btn-light');
-      dragging.classList.remove('btn-secondary');
-      if (ttl) {
-        ttl.parentNode.insertBefore(dragging, ttl.nextSibling);
-      } else {
-        target.appendChild(dragging);
+    // 이미 차 있는 1itm 슬롯 → 기존 버튼을 #itms로 되돌리기 (교체)
+    if (isSingleItem && !ttl) {
+      var existing = target.querySelector('button');
+      if (existing) {
+        var source = document.getElementById('itms');
+        if (source) {
+          existing.classList.remove('w-100', 'btn-light');
+          existing.classList.add('itm');
+          source.appendChild(existing);
+          // #wahl 다시 표시 (아이템이 되돌아왔으므로)
+          $('#wahl').show();
+          $('#marg').show();
+        }
       }
-
-      // 한 아이템만 넣는 상자면 타이틀 제거
-      if (isSingleItem && ttl) {
-        ttl.remove();
-        dragging.classList.remove('itm');
-      }
-
-      return true;
-    } else {
-      // 오답!
-      if (typeof x !== 'undefined' && x.play) x.play();
-
-      // 원래 자리로 되돌리기 (애니메이션)
-      snapBack();
-      return false;
     }
+
+    // 버튼을 타겟에 넣기 (항상 수락)
+    dragging.classList.add('w-100', 'btn-light');
+    dragging.classList.remove('btn-secondary');
+    if (ttl) {
+      ttl.parentNode.insertBefore(dragging, ttl.nextSibling);
+    } else {
+      target.appendChild(dragging);
+    }
+
+    // 한 아이템만 넣는 상자면 타이틀 제거
+    if (isSingleItem && ttl) {
+      ttl.remove();
+      dragging.classList.remove('itm');
+    }
+
+    return true;
   }
 
   // --- Snap back animation ---
@@ -310,38 +313,23 @@
   }
 
   // --- .ttl 클릭 시 선택된 아이템 넣기 (기존 호환) ---
+  // 정답 검증 없이 선택된 아이템을 슬롯에 배치 (채점은 nqValidateGrading에서 수행)
   $(document).on('click', '.ttl', function () {
     var t = $(this);
-    var tn = parseInt($(this).parent().attr('id').substr(4), 10);
-    var tm = 0;
     var isSingle = t.parent().hasClass('1itm');
 
-    $('.btn-secondary').each(function () {
-      var ansGroup = getAnswerGroup(this);
+    // 선택된 첫 번째 아이템만 배치
+    var selected = $('.btn-secondary').first();
+    if (selected.length === 0) return;
 
-      if (ansGroup !== tn) {
-        // 오답
-        if (typeof x !== 'undefined' && x.play) x.play();
-        if ($(this).parent().hasClass('itm-lst')) {
-          $(this).blur();
-          $(this).addClass('btn-light');
-        }
-      } else {
-        // 정답
-        if (tm === 0) {
-          if (typeof o !== 'undefined' && o.play) o.play();
-          $(this).addClass('w-100 btn-light');
-          $(this).insertAfter(t);
-        }
-        if ($(this).closest('.1itm').children('button').length > 0) {
-          tm = 1;
-        }
-        if (isSingle) {
-          t.remove();
-          $(this).removeClass('itm btn-secondary');
-        }
-      }
-    });
+    selected.addClass('w-100 btn-light');
+    selected.removeClass('btn-secondary');
+    selected.insertAfter(t);
+
+    if (isSingle) {
+      t.remove();
+      selected.removeClass('itm');
+    }
 
     $('.itm').removeClass('btn-secondary');
   });

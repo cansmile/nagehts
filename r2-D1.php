@@ -75,7 +75,7 @@
         <div class="col"></div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
             <table class="table table-borderless"
-                style="background-size: 100% 100%; background-repeat: no-repeat;
+                style="table-layout: fixed; background-size: 100% 100%; background-repeat: no-repeat;
                     background-image: url('./dev/images/Reihe 2/Reihe-2-D1-0.png')"
                 width="100%">
                 <tbody>

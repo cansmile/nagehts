@@ -248,6 +248,8 @@
         if (success) {
           // 성공 시 클론 제거
           cleanupDrag();
+          // 드래그로 배치 완료 시 wahl.php의 donewahl() 감지 트리거
+          setTimeout(function () { $(document).trigger('click'); }, 50);
         }
         // 실패 시 snapBack이 이미 호출됨
       } else {

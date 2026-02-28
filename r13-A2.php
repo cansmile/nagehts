@@ -323,11 +323,7 @@
             $(this).removeClass("btn-light");
 
             /* Wahl 채점 */
-            $(".itm-lst").each(function () {
-                if ($(this).find("button.btn")) {
-                    $(this).find("button.btn").addClass("text-success fw-bold");
-                }
-            });
+            var _r = nqValidateGrading();
 
             /* R/F 채점 */
             $(".pop").each(function () {
@@ -355,7 +351,7 @@
             var tcl = "white";
             if (pe > 99) {
                 var st = "원어민이세요?";
-                var cl = "lime";
+                var cl = "success";
                 tcl = "dark";
             } else if (pe > 74) {
                 var st = "어! 좀 하시는데요~^^";

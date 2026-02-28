@@ -762,12 +762,7 @@
 
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
-                            $(".itm-lst").each(function () {
-                                if ($(this).find(".itm")) {
-                                    $(this).find(".itm").addClass(
-                                        "text-success fw-bold");
-                                }
-                            });
+                            var _r = nqValidateGrading();
                             var qa = $(".itm-lst>.itm").length + $(".q")
                             .length; /* 전체 문항 수 */
                             var qr = $(".text-success").length + $(".bg-success")
@@ -778,7 +773,7 @@
                             /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
-                                var cl = "lime";
+                                var cl = "success";
                                 var tcl = "dark";
                             } else if (pe > 74) {
                                 var st = "어! 좀 하시는데요~^^";

@@ -356,7 +356,7 @@
                             /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
                                 var st = "원어민이세요?";
-                                var cl = "lime";
+                                var cl = "success";
                                 var tcl = "dark";
                             } else if (pe > 74) {
                                 var st =

@@ -271,18 +271,14 @@
             if ($("#itms").find("button").length < 1) {
                 $(".tran").show();
                 $(this).removeClass("btn-light");
-                $(".itm-lst").each(function () {
-                    if ($(this).find("button.btn")) {
-                        $(this).find("button.btn").addClass("text-success fw-bold");
-                    }
-                });
-                var qa = $(".itm-lst").length;
-                var qr = $(".text-success").length;
+                var _r = nqValidateGrading();
+                var qa = _r.qa;
+                var qr = _r.qr;
                 var pe = (qr / qa) * 100;
                 var tcl = "white";
                 if (pe > 99) {
                     var st = "원어민이세요?";
-                    var cl = "lime";
+                    var cl = "success";
                     tcl = "dark";
                 } else if (pe > 74) {
                     var st = "어! 좀 하시는데요~^^";

@@ -111,8 +111,7 @@ require "ready.php"; ?>
                             <button class="text-orange bg-transparent accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse2" aria-expanded="false"
-                                    aria-controls="flush-collapse2"><strong> H2. Ja / Nein Fragen und Antworten</strong>
-                                <small>“예”, “아니요”로 시작하는
+                                    aria-controls=”flush-collapse2”><strong> H2. Ja / Nein Fragen und Antworten</strong> <small>”예”, “아니요”로 시작하는
                                     의문문과 대답</small>
                             </button>
                         </h5>
@@ -215,8 +214,7 @@ require "ready.php"; ?>
                             <button class="text-warning bg-transparent accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse3" aria-expanded="false"
-                                    aria-controls="flush-collapse3"><strong> H3. Verbkonjugation</strong>
-                                <small>동사변화</small>
+                                    aria-controls="flush-collapse3"><strong> H3. Verbkonjugation</strong> <small>동사변화</small>
                             </button>
                         </h5>
                         <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
@@ -569,7 +567,7 @@ require "ready.php"; ?>
                                                     es geht.
 
                                                     /
-                                                    so la la.
+                                                    so lala.
 
                                                     /
                                                     Und

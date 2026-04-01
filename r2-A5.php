@@ -263,7 +263,7 @@
                                 function () {
                                     $(this)
                                         .removeClass(
-                                            "btn-info"
+                                            "btn-info btn-warning"
                                             );
 
                                     if ($(this)
@@ -274,10 +274,6 @@
                                         .hasClass(
                                             "an"
                                             )) {
-                                        $(this)
-                                            .removeClass(
-                                                "btn-warning"
-                                                );
                                         $(this)
                                             .addClass(
                                                 "btn-success fw-bold"

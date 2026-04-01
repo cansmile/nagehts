@@ -240,6 +240,10 @@
                                     qr++;
                                 } else {
                                     btn.addClass("text-danger fw-bold");
+                                    /* 오답인 경우 정답 위치에 노란색으로 표시 */
+                                    if (ansGroup > 0) {
+                                        $("#lst-" + ansGroup).append("<div class='btn btn-warning text-dark fw-bold w-100 mt-1'>" + $.trim(btn.clone().children().remove().end().text()) + "</div>");
+                                    }
                                 }
                             }
                         });

@@ -223,14 +223,14 @@
                             if ($(this).hasClass("ans" + (a))) {
                                 $(this).addClass("text-success fw-bold");
                             } else {
-                                $(this).addClass("text-warning fw-bold");
+                                $(this).addClass("text-danger fw-bold");
                                 $(this).find(".tran").show();
                             }
                             ;
-                            if ($(this).hasClass("text-warning")) {/* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
+                            if ($(this).hasClass("text-danger")) {/* 오답인 경우 정답 위치에 노란색으로 표시 */
                                 for (var i = 1; i <= $(".itm-lst").length; i++) {
                                     if ($(this).hasClass("ans" + i)) {
-                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white fw-bold\">" + $(this).html() + "</button>");/* $(lstn).append(i); */
+                                        $(eval('"#lst-' + i + '"')).append("<button class=\"mt-1 mx-1 btn btn-lg btn-warning w-100 text-dark fw-bold\">" + $(this).html() + "</button>");
                                     }
                                 }
                             }

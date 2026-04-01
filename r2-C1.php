@@ -506,16 +506,31 @@
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass(
                                 "btn-light ");
-                            $(".itm-lst>button")
-                                .addClass(
-                                    "text-success fw-bold"
-                                    );
 
-                            var qa = $(".itm-lst")
-                                .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".text-success")
-                                .length; /* 맞춘 항목 수 */
+                            var qa = 0, qr = 0;
+                            $(".itm-lst").each(function () {
+                                qa++;
+                                var btn = $(this).find("button");
+                                if (btn.length) {
+                                    var ansGroup = 0;
+                                    var classes = btn[0].className.split(/\s+/);
+                                    for (var i = 0; i < classes.length; i++) {
+                                        var m = classes[i].match(/^ans(\d+)$/);
+                                        if (m) { ansGroup = parseInt(m[1], 10); break; }
+                                    }
+                                    var targetGroup = parseInt($(this).attr("id").substr(4), 10);
+                                    if (ansGroup === targetGroup) {
+                                        btn.addClass("text-success fw-bold");
+                                        qr++;
+                                    } else {
+                                        btn.addClass("text-danger fw-bold");
+                                        /* 오답인 경우 정답 위치에 노란색으로 표시 */
+                                        if (ansGroup > 0) {
+                                            $("#lst-" + ansGroup).append("<div class='btn btn-warning text-dark fw-bold w-100 mt-1'>" + $.trim(btn.clone().children().remove().end().text()) + "</div>");
+                                        }
+                                    }
+                                }
+                            });
                             var pe = (qr / qa) *
                             100; /* 정답 비율 */
                             var tcl =

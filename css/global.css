@@ -1,6 +1,12 @@
 * {
-    font-family: Roboto !important;
+    font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
     word-break: keep-all !important;
+}
+
+body {
+    background: #f0f4f8;
+    color: #1e293b;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -14,6 +20,24 @@ h6,
     word-wrap: normal;
 }
 
+/* V2: 지시문 스타일 */
+section h2 {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.4rem;
+}
+section h3 {
+    font-size: 0.9rem;
+    color: #475569;
+}
+section h3 small {
+    font-size: 0.82rem;
+    color: #64748b;
+    line-height: 1.7;
+}
+
 /* wahl */
 #wahl {
     position: fixed;
@@ -21,15 +45,23 @@ h6,
     bottom: 0;
     z-index: 9999;
     width: 100%;
+    background: rgba(255, 255, 255, 0.92) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.06);
 }
 
 .wahl_title {
-    font-weight: bolder !important;
+    font-weight: 800 !important;
     color: white;
-    border-radius: 0.25rem !important;
+    border-radius: 10px !important;
     text-align: center !important;
-    font-size: 3.5rem;
-    line-height: 1.2;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
 }
 
 /* TIPP */
@@ -77,38 +109,37 @@ h6,
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-/* 틀린답에 정답 표시 */
-.ra {
-    color: #343a40 !important;
-    background-color: #ffc107 !important;
-    padding: 0.25rem !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-    margin: 0.25rem !important;
-    border-radius: 0.5rem !important;
-    font-weight: bold !important;
-}
-
-/* 정답에 표시 */
+/* 정답 표시 */
 .ca {
     color: white !important;
-    padding: 0.25rem !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-    font-weight: bold !important;
-    border-radius: 0.5rem !important;
-    background-color: #28a745 !important;
+    padding: 0.3rem 0.7rem !important;
+    margin: 0.25rem !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+    box-shadow: 0 2px 6px rgba(34, 197, 94, 0.25);
 }
 
-/* 오답에 표시 */
+/* 오답 표시 */
 .wa {
     color: white !important;
-    padding: 0.25rem !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-    font-weight: bold !important;
-    border-radius: 0.5rem !important;
-    background-color: #dc3545 !important;
+    padding: 0.3rem 0.7rem !important;
+    margin: 0.25rem !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    background: linear-gradient(135deg, #ef4444, #dc2626) !important;
+    box-shadow: 0 2px 6px rgba(239, 68, 68, 0.25);
+}
+
+/* 정답 힌트 */
+.ra {
+    color: #1e293b !important;
+    padding: 0.3rem 0.7rem !important;
+    margin: 0.25rem !important;
+    font-weight: 700 !important;
+    border-radius: 8px !important;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b) !important;
+    box-shadow: 0 2px 6px rgba(245, 158, 11, 0.25);
 }
 
 /* 문장 속 단어 강조 */
@@ -1260,7 +1291,21 @@ a.text-lime:focus {
    nagehtsQ Section Structure (nq-)
    Added: 2026-02-28
    ======================================== */
-.nq-exercise { position: relative; }
+.nq-exercise {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.04);
+    padding: 1.5rem 1rem;
+    margin: 0.75rem auto;
+    max-width: 960px;
+}
+
+/* V2: 보기 섹션 */
+.nq-wahl {
+    border-radius: 16px !important;
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.04);
+}
 .nq-instruction { margin-bottom: 1rem; text-align: center; }
 .nq-content { margin-bottom: 1.5rem; }
 .nq-answer { margin-bottom: 1rem; }
@@ -1281,32 +1326,58 @@ a.text-lime:focus {
 /* Rounded items + hover animation */
 button.itm,
 .itm {
-    border-radius: 8px !important;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border-radius: 12px !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    border-width: 2px !important;
+    font-weight: 500;
 }
 button.itm:hover,
 .itm:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+button.itm:active,
+.itm:active {
+    transform: scale(0.97);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 /* Drop zone modern style */
 .itm-lst {
-    border-radius: 12px !important;
-    border-style: dashed !important;
+    border-radius: 16px !important;
+    border: 2px solid #e2e8f0 !important;
+    border-style: solid !important;
+    background: #f8fafc;
+    transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.itm-lst:hover {
+    border-color: #94a3b8 !important;
+    background: #f1f5f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 /* Check/Done button modern style */
 #chk,
 #done {
-    border-radius: 10px !important;
-    font-weight: 600 !important;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border-radius: 14px !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem;
+    padding: 0.75rem 2rem;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    letter-spacing: 0.02em;
 }
 #chk:hover,
 #done:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 3px 12px rgba(0,0,0,.15);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
+}
+#chk:active,
+#done:active {
+    transform: scale(0.98);
 }
 
 /* Answer feedback icons (B3) */
@@ -1316,11 +1387,11 @@ button.itm:hover,
 
 /* Answer appear animation */
 @keyframes nq-answer-appear {
-    from { opacity: 0; transform: translateY(-4px); }
-    to   { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; transform: translateY(-6px) scale(0.95); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
 }
 .ca, .wa, .ra {
-    animation: nq-answer-appear 0.3s ease;
+    animation: nq-answer-appear 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ========================================
@@ -1345,8 +1416,23 @@ button.itm:hover,
 
     /* B2: Touch targets */
     .btn {
-        min-height: 44px;
-        min-width: 44px;
+        min-height: 48px;
+        min-width: 48px;
+    }
+
+    /* V2: 모바일 카드/버튼 조정 */
+    .nq-exercise {
+        border-radius: 12px;
+        padding: 1rem 0.75rem;
+        margin: 0.5rem;
+    }
+    button.itm, .itm {
+        min-height: 48px;
+        padding: 0.6rem 0.8rem;
+    }
+    #chk, #done {
+        min-height: 52px;
+        font-size: 1.1rem;
     }
 
     /* B2: iOS zoom prevention (font-size >= 16px) */
@@ -1429,12 +1515,18 @@ button.itm:hover,
 
     /* [공통] wahl(보기) 제목 크기 축소 */
     .wahl_title {
-        font-size: 1.5rem;
+        font-size: 0.95rem;
     }
 }
 
 /* --- Extra small screens (< 576px) --- */
 @media (max-width: 575.98px) {
+
+    /* V2: 초소형 화면 카드 조정 */
+    .nq-exercise {
+        border-radius: 8px;
+        padding: 0.75rem 0.5rem;
+    }
 
     .form-control.q {
         min-width: 60px !important;
@@ -1455,4 +1547,122 @@ button.itm:hover,
         display: block;
         word-break: keep-all;
     }
+}
+
+/* ========================================
+   Unified Exercise Card (.nq-card)
+   Added: 2026-03-01
+   ======================================== */
+
+/* 통일 카드: 모든 문제 유형 드롭존/문항 래퍼 */
+.nq-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    min-height: 150px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s ease;
+}
+.nq-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.nq-exercise[data-type="multiple-choice"] .nq-card,
+.nq-exercise[data-type="fill-blank"] .nq-card {
+    min-height: auto;
+}
+
+/* 선택지 팝오버 버튼 통일 */
+.nq-exercise .pop {
+    border-radius: 10px;
+    transition: all 0.15s ease;
+}
+
+/* V2: fill-blank 입력란 모던 스타일 */
+input.form-control.q {
+    border: none !important;
+    border-bottom: 2px solid #cbd5e1 !important;
+    border-radius: 0 !important;
+    background: transparent;
+    font-weight: 600;
+    transition: border-color 0.2s ease;
+    padding: 0.4rem 0.5rem;
+}
+input.form-control.q:focus {
+    border-bottom-color: #3b82f6 !important;
+    box-shadow: none !important;
+    outline: none;
+}
+input.form-control.q.border-success,
+input.form-control.q.bg-success-subtle {
+    border-bottom-color: #22c55e !important;
+}
+input.form-control.q.border-danger,
+input.form-control.q.bg-danger-subtle {
+    border-bottom-color: #ef4444 !important;
+}
+
+/* V2: grammar 아코디언 스타일 */
+.accordion-item {
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+.accordion-button {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1.2rem;
+    background: #f8fafc !important;
+}
+.accordion-button:not(.collapsed) {
+    background: #eff6ff !important;
+    color: #1e40af !important;
+    box-shadow: none !important;
+}
+.accordion-body {
+    padding: 1rem 1.2rem;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+/* V2: 번역 텍스트 */
+.tran {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+.tran small {
+    font-size: 0.82rem;
+    color: #000000;
+    font-style: normal;
+}
+
+/* 결과 표시 애니메이션 */
+@keyframes nq-result-appear {
+    from { opacity: 0; transform: scale(0.9); }
+    to   { opacity: 1; transform: scale(1); }
+}
+#done h4 {
+    animation: nq-result-appear 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 모바일 nq-card 최소 높이 축소 */
+@media (max-width: 767.98px) {
+    .nq-card {
+        min-height: 120px;
+    }
+}
+
+/* nq-answer-feedback: 오답 정답 힌트 */
+.nq-hint {
+    display: block;
+    color: #c0392b;
+    font-weight: 700;
+    font-size: 0.85em;
+    margin-top: 4px;
+    padding: 2px 6px;
+    background: #fdecea;
+    border-radius: 4px;
+    border-left: 3px solid #c0392b;
 }

@@ -219,8 +219,7 @@
                                         </div>
                                         Herr Kim Chul?
                                     </div>
-                                </span><span class="tran"><br><small>누가 김 철
-                                        선생님이신가요?</small></span></td>
+                                </span><span class="tran"><br><small>이 선생님이신가요?</small></span></td>
                             <td><span class="sen">
                                     <div>Das <span class="nu"></span>
                                         <div class="btn-group border border-dark border-bottom-only q"

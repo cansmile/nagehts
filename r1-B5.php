@@ -81,9 +81,6 @@
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
                     <h2>[ <small>단어를 알맞은 성에 짝지우세요.</small> ]</h2>
-                    <h3>[ <small><button type="button"
-                                class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
-                            버튼은 정답확인을 해도 안 나옵니다.</small> ]</h3>
                 </div>
                 <div
                     class="border-3 border-danger bg-light col-sm-12 col-md-12 col-lg-12">

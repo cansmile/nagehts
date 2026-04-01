@@ -816,6 +816,22 @@
                             $(".tran").show();
                             var _r = nqValidateGrading();
 
+                            /* 오답인 경우 정답 위치에 노란색으로 표시 */
+                            $(".itm-lst").each(function () {
+                                var btn = $(this).find("button");
+                                if (btn.length && btn.hasClass("text-danger")) {
+                                    var ansGroup = 0;
+                                    var classes = btn[0].className.split(/\s+/);
+                                    for (var i = 0; i < classes.length; i++) {
+                                        var m = classes[i].match(/^ans(\d+)$/);
+                                        if (m) { ansGroup = parseInt(m[1], 10); break; }
+                                    }
+                                    if (ansGroup > 0) {
+                                        $("#lst-" + ansGroup).append("<div class='btn btn-warning text-dark fw-bold w-100 mt-1'>" + $.trim(btn.clone().children().remove().end().text()) + "</div>");
+                                    }
+                                }
+                            });
+
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass(
                                 "btn-light ");

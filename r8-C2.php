@@ -642,14 +642,14 @@
                             };
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
+                            var _r = nqValidateGrading();
                             $(".itm-lst").each(function () {
-                                if ($(this).find("button.btn")) {
-                                    $(this).find("button.btn").addClass(
-                                        "okay text-success");
+                                if ($(this).find("button.btn").length) {
+                                    $(this).find("button.btn").addClass("okay");
                                 }
                             });
-                            var qa = $(".itm-lst").length + $(".q").length; /* 전체 문항 수 */
-                            var qr = $(".okay").length + $(".bg-success")
+                            var qa = _r.qa + $(".q").length; /* 전체 문항 수 */
+                            var qr = _r.qr + $(".bg-success")
                             .length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */
                             var tcl = "white"; /* 기본 문자색 */

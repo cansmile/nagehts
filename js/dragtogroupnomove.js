@@ -279,6 +279,31 @@
     $('[data-toggle="popover"]').popover({ container: 'body' });
   });
 
+  // --- 채점 검증 (공유 함수) ---
+  window.nqValidateGrading = window.nqValidateGrading || function () {
+    var qa = 0, qr = 0;
+    $('.itm-lst').each(function () {
+      qa++;
+      var btn = $(this).find('button');
+      if (btn.length) {
+        var ansGroup = 0;
+        var classes = btn[0].className.split(/\s+/);
+        for (var i = 0; i < classes.length; i++) {
+          var m = classes[i].match(/^ans(\d+)$/);
+          if (m) { ansGroup = parseInt(m[1], 10); break; }
+        }
+        var targetGroup = parseInt($(this).attr('id').substr(4), 10);
+        if (ansGroup === targetGroup) {
+          btn.addClass('text-success fw-bold');
+          qr++;
+        } else {
+          btn.addClass('text-danger fw-bold');
+        }
+      }
+    });
+    return { qa: qa, qr: qr };
+  };
+
   // CSS
   var style = document.createElement('style');
   style.textContent =

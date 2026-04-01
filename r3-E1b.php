@@ -324,12 +324,9 @@
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-                    $(".itm-lst>button").addClass(
-                        "text-success fw-bold");
-
-                    var qa = $(".itm-lst").length; /* 전체 문항 수 */
-                    var qr = $(".text-success")
-                    .length; /* 맞춘 항목 수 */
+                    var _r = nqValidateGrading();
+                    var qa = _r.qa; /* 전체 문항 수 */
+                    var qr = _r.qr; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
 

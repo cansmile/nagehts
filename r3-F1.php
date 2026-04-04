@@ -771,6 +771,10 @@
                             }); /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
                             var _r = nqValidateGrading();
+                    /* 효과음 재생 */
+                    if (typeof o !== 'undefined' && typeof x !== 'undefined') {
+                        if (_r.qr === _r.qa) { o.play(); } else { x.play(); }
+                    }
                             var qa = _r.qa; /* 전체 문항 수 */
                             var qr = _r.qr; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */

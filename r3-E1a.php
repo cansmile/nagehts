@@ -203,6 +203,10 @@
                     $(this).removeClass("btn-light ");
 
                     var _r = nqValidateGrading();
+                    /* 효과음 재생 */
+                    if (typeof o !== 'undefined' && typeof x !== 'undefined') {
+                        if (_r.qr === _r.qa) { o.play(); } else { x.play(); }
+                    }
 
                     var qa = _r.qa; /* 전체 문항 수 */
                     var qr = _r.qr; /* 맞춘 항목 수 */

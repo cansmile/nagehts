@@ -498,169 +498,29 @@
                     });
                     /* 정답확인 */
                     $("#chk").on("click", function () {
-                        if ($(".an").length < $(
-                                ".q").length) {
-                            var na = "";
-                            $(".q").each(
-                        function () {
-                                if (!$(this)
-                                    .find(
-                                        "div"
-                                        )
-                                    .hasClass(
-                                        "an"
-                                        )) {
-                                    if (na !=
-                                        ""
-                                        ) {
-                                        na +=
-                                            ",";
-                                    }
-                                    na += $(
-                                            this)
-                                        .attr(
-                                            "id"
-                                            )
-                                        .substr(
-                                            -
-                                            1
-                                            );
-                                };
-                            });
+                        if ($(".an").length < $(".q").length) {
                             alert("모든 문제를 풀어주세요.");
-                            /* alert(na +"번 문제를 풀어주세요."); */
                         } else {
-                            $(".pop").each(
-                                function () {
-                                    $(this)
-                                        .removeClass(
-                                            "btn-info"
-                                            );
-                                    if ($(this)
-                                        .hasClass(
-                                            "o"
-                                            ) &&
-                                        $(this)
-                                        .hasClass(
-                                            "an"
-                                            )) {
-                                        $(this)
-                                            .removeClass(
-                                                "btn-warning"
-                                                );
-                                        $(this)
-                                            .addClass(
-                                                "btn-success"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .addClass(
-                                                "rounded p-1 px-2 text-white bg-success fw-bold"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .text(
-                                                $
-                                                .trim(
-                                                    $(
-                                                        this)
-                                                    .text()
-                                                    )
-                                                );
-                                    } else if (
-                                        $(this)
-                                        .hasClass(
-                                            "o")
-                                        ) {
-                                        $(this)
-                                            .addClass(
-                                                "btn-<?php echo($color); ?>"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".ans"
-                                                )
-                                            .html(
-                                                $
-                                                .trim(
-                                                    $(
-                                                        this)
-                                                    .closest(
-                                                        ".sen"
-                                                        )
-                                                    .find(
-                                                        ".o"
-                                                        )
-                                                    .text()
-                                                    )
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .addClass(
-                                                "rounded p-1 px-2 text-white bg-danger fw-bold"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".ans"
-                                                )
-                                            .addClass(
-                                                "rounded bg-warning text-dark fw-bold text-center m-2 p-1 px-2"
-                                                );
-                                    } else if (
-                                        $(this)
-                                        .hasClass(
-                                            "an"
-                                            )) {
-                                        $(this)
-                                            .addClass(
-                                                "btn-warning"
-                                                );
-                                        $(this)
-                                            .closest(
-                                                ".sen"
-                                                )
-                                            .find(
-                                                ".nu"
-                                                )
-                                            .text(
-                                                $
-                                                .trim(
-                                                    $(
-                                                        this)
-                                                    .text()
-                                                    )
-                                                );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "btn-light"
-                                                );
-                                    };
-                                    $(this)
-                                        .remove();
+                            $(".pop").each(function () {
+                                var $p = $(this);
+                                var $sen = $p.closest(".sen");
+                                $p.removeClass("btn-info btn-warning btn-success ca wa ra");
+                                if ($p.hasClass("o") && $p.hasClass("an")) {
+                                    /* 정답 선택 → 초록 */
+                                    $sen.find(".nu").addClass("ca").text($.trim($p.text()));
+                                } else if ($p.hasClass("o")) {
+                                    /* 오답 선택 시 정답 위치 → 노랑 (빨강 옆에 배치) */
+                                    var $ans = $sen.find(".ans");
+                                    $ans.html($.trim($sen.find(".o").text())).addClass("ra");
+                                    /* .ans를 .nu 바로 뒤로 이동 */
+                                    $sen.find(".nu").after($ans);
+                                    $sen.find(".nu").addClass("wa");
+                                } else if ($p.hasClass("an")) {
+                                    /* 선택된 오답 → 빨강 */
+                                    $sen.find(".nu").text($.trim($p.text()));
                                 }
-                            );
+                                $p.remove();
+                            });
                             $(".tran").show();
                             $(".nu").show();
                             $(".q").hide();
@@ -669,8 +529,7 @@
                                 "btn-light");
                             var qa = $(".q")
                             .length; /* 전체 문항 수 */
-                            var qr = $(
-                                    ".bg-success")
+                            var qr = $(".ca")
                                 .length; /* 맞춘 항목 수 */
                             var pe = (qr / qa) *
                             100; /* 정답 비율 */

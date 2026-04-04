@@ -227,12 +227,12 @@
                     <div class="row">
                         <div class="col">
                             <table
-                                class="table table-borderless table-striped text-center table-sm">
+                                class="table table-borderless table-striped text-center table-sm" style="table-layout:auto;">
                                 <tbody>
                                     <tr>
-                                        <td>Wie ist</td>
-                                        <td>Ihre</td>
-                                        <td>Adresse?</td>
+                                        <td style="white-space:nowrap;">Wie ist</td>
+                                        <td style="white-space:nowrap;">Ihre</td>
+                                        <td style="white-space:nowrap;">Adresse?</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -259,12 +259,12 @@
                     <div class="row">
                         <div class="col">
                             <table
-                                class="table table-borderless table-striped text-center table-sm">
+                                class="table table-borderless table-striped text-center table-sm" style="table-layout:auto;">
                                 <tbody>
                                     <tr>
-                                        <td>Meine</td>
-                                        <td>Adresse</td>
-                                        <td>ist ...</td>
+                                        <td style="white-space:nowrap;">Meine</td>
+                                        <td style="white-space:nowrap;">Adresse</td>
+                                        <td style="white-space:nowrap; width:40%;">ist ...</td>
                                     </tr>
                                     <tr>
                                         <td>Meine</td>

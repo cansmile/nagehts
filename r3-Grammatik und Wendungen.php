@@ -11,8 +11,7 @@
                         <h5 class="accordion-header" id="flush-heading1">
                             <button class="text-danger bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse1" aria-expanded="false"
-                                    aria-controls="flush-collapse1"><strong>G1. W-Fragen und Antworten</strong>
-                                <small>W-의문사와 대답</small>
+                                    aria-controls="flush-collapse1"><strong>G1. W-Fragen und Antworten</strong> <small>W-의문사와 대답</small>
                             </button>
                         </h5>
                         <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
@@ -265,8 +264,7 @@
                         <h5 class="accordion-header" id="flush-heading3">
                             <button class="text-warning bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse3" aria-expanded="false"
-                                    aria-controls="flush-collapse3"><strong>G3. Personalpronomen</strong><small>인칭
-                                    대명사</small>
+                                    aria-controls="flush-collapse3"><strong>G3. Personalpronomen</strong> <small>인칭 대명사</small>
                             </button>
                         </h5>
                         <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
@@ -405,7 +403,7 @@
                             <button class="text-purple bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse5" aria-expanded="false"
                                     aria-controls="flush-collapse5"><strong>G5.
-                                    Verbkonjugation</strong><small>동사변화</small>
+                                    Verbkonjugation</strong> <small>동사변화</small>
                             </button>
                         </h5>
                         <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
@@ -480,8 +478,7 @@
                         <h5 class="accordion-header" id="flush-heading6">
                             <button class="text-pink bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse6" aria-expanded="false"
-                                    aria-controls="flush-collapse6"><strong>G6. Redewendungen</strong><small>어휘와
-                                    숙어</small>
+                                    aria-controls="flush-collapse6"><strong>G6. Redewendungen</strong> <small>어휘와 숙어</small>
                             </button>
                         </h5>
                         <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"

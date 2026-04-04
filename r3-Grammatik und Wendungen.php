@@ -77,7 +77,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250"><strong>Wie</strong>viele Geschwister
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Wie</strong> viele Geschwister
                                                     hast du?
                                                 </div>
                                             </div>
@@ -127,7 +127,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250"><strong>Was</strong>sind Sie von Beruf?
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Was</strong> sind Sie von Beruf?
                                                 </div>
                                             </div>
                                         </td>
@@ -150,7 +150,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250"><strong>Was</strong>macht sie?</div>
+                                                <div class="col-9 mx-1 px-1 lh250"><strong>Was</strong> macht sie?</div>
                                             </div>
                                         </td>
                                         <td>

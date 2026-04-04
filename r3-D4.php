@@ -366,6 +366,10 @@
                             1) {
                             $(".tran").show();
                             var _r = nqValidateGrading();
+                            /* 효과음 재생 */
+                            if (typeof o !== 'undefined' && typeof x !== 'undefined') {
+                                if (_r.qr === _r.qa) { o.play(); } else { x.play(); }
+                            }
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass(
                                 "btn-light ");

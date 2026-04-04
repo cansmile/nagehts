@@ -114,7 +114,10 @@
     if (!dragging || !target) return false;
 
     var ttl = target.querySelector('.ttl');
+    // 1itm 클래스이거나, 이미 버튼이 있고 ttl이 없는 존 = 이미 1개 차있음 → 교체
     var isSingleItem = target.classList.contains('1itm');
+    var hasExistingBtn = !ttl && target.querySelector('button');
+    if (hasExistingBtn) isSingleItem = true;
 
     // 이미 차 있는 1itm 슬롯 → 기존 버튼을 #itms로 되돌리기 (교체)
     if (isSingleItem && !ttl) {
@@ -345,29 +348,89 @@
 
   // --- 채점 검증 (공유 함수) ---
   // 각 .itm-lst의 button이 올바른 위치인지 ansN vs lst-N 비교
+  // 오답 시 정답 텍스트를 노랑(.ra)으로 표시
   window.nqValidateGrading = function () {
     var qa = 0, qr = 0;
+    // 정답 맵 생성: ansN → 버튼 텍스트
+    var answerMap = {};
+    $('.itm-lst button').each(function () {
+      var classes = this.className.split(/\s+/);
+      for (var i = 0; i < classes.length; i++) {
+        var m = classes[i].match(/^ans(\d+)$/);
+        if (m) { answerMap[m[1]] = $.trim($(this).text()); break; }
+      }
+    });
+    // 소스 영역(#itms)에 남은 미배치 버튼도 맵에 추가
+    $('#itms button').each(function () {
+      var classes = this.className.split(/\s+/);
+      for (var i = 0; i < classes.length; i++) {
+        var m = classes[i].match(/^ans(\d+)$/);
+        if (m) { answerMap[m[1]] = $.trim($(this).text()); break; }
+      }
+    });
+
     $('.itm-lst').each(function () {
-      var btn = $(this).find('button');
+      qa++;
+      var $lst = $(this);
+      var btn = $lst.find('button');
+      var targetGroup = parseInt($lst.attr('id').substr(4), 10);
       if (btn.length) {
-        qa++;
         var ansGroup = 0;
         var classes = btn[0].className.split(/\s+/);
         for (var i = 0; i < classes.length; i++) {
           var m = classes[i].match(/^ans(\d+)$/);
           if (m) { ansGroup = parseInt(m[1], 10); break; }
         }
-        var targetGroup = parseInt($(this).attr('id').substr(4), 10);
         if (ansGroup === targetGroup) {
-          btn.addClass('text-success fw-bold');
+          btn.addClass('ca');
           qr++;
         } else {
-          btn.addClass('text-danger fw-bold');
+          btn.addClass('wa');
+          /* 오답 옆에 정답 표시 */
+          var correctText = answerMap[String(targetGroup)] || '';
+          if (correctText) {
+            $('<span class="ra ms-1">' + $('<span>').text(correctText).html() + '</span>')
+              .insertAfter(btn);
+          }
         }
       }
     });
     return { qa: qa, qr: qr };
   };
+
+  // --- 학습 결과 저장 (#chk → #done 전환 감지) ---
+  function nqSaveDragResult(correct, total) {
+    if (!total || total <= 0) return;
+    var filename = window.location.pathname.split('/').pop();
+    if (!filename) return;
+    fetch('/api/progress/save-by-file', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      credentials: 'same-origin',
+      body: JSON.stringify({ filename: filename, correct_count: correct, total_count: total })
+    }).then(function (res) { return res.json(); })
+      .then(function (json) {
+        if (json.score !== undefined) console.log('[nqGrading] 저장됨: ' + correct + '/' + total + ' (' + json.score + '%)');
+      }).catch(function () {});
+  }
+
+  $(document).ready(function () {
+    var chkEl = document.getElementById('chk');
+    if (!chkEl) return;
+    var observer = new MutationObserver(function (mutations) {
+      mutations.forEach(function (m) {
+        if (m.type === 'attributes' && m.attributeName === 'id' && chkEl.id === 'done') {
+          observer.disconnect();
+          setTimeout(function () {
+            var qa = document.querySelectorAll('.itm-lst').length;
+            var qr = document.querySelectorAll('.itm-lst button.text-success').length;
+            nqSaveDragResult(qr, qa);
+          }, 0);
+        }
+      });
+    });
+    observer.observe(chkEl, { attributes: true });
+  });
 
   // --- Inject CSS ---
   var style = document.createElement('style');

@@ -22,7 +22,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
-                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
+                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6" style="max-width:120px"
                                             id="qst-1">
                                         ledig.
                                     </div>
@@ -40,7 +40,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
-                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
+                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6" style="max-width:120px"
                                             id="qst-2">
                                         Wolf, sondern ein Hund.
                                     </div>
@@ -57,7 +57,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
-                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
+                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6" style="max-width:120px"
                                             id="qst-3">
                                         heute, sondern erst morgen.
                                     </div>
@@ -75,7 +75,7 @@
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
                                             class="text-center form-control border border-bottom-only rounded-0 col-sm-4
-                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6"
+                                            col-md-2 col-lg-2 col-xl-1 q mx-1 px-2 py-1 t-6" style="max-width:120px"
                                             id="qst-4">
                                         in München.
                                     </div>
@@ -210,27 +210,23 @@
                 }
             });
             $(".q").on("focusout", function () {
-                $("#ant-" + $(this).attr("id").substr(4))
-            .hide();
+                $("#ant-" + $(this).attr("id").substr(4)).hide();
                 if (rfchk($(this), true)) {
-                    $(this).addClass("bg-success");
-                    $(this).addClass("text-white");
+                    $(this).addClass("bg-success text-white");
                 } else {
                     $(this).addClass("bg-danger");
                 }
                 if ($(this).val()) {
                     if ($(this).hasClass("bg-danger")) {
                         x.play();
+                        $(this).addClass("text-white fw-bold");
                     } else if ($(this).hasClass("bg-success")) {
                         o.play();
                         $(this).prop("disabled", true);
                     }
                 }
-                $(this).removeClass("bg-danger");
-                if (!$(this).attr("disabled")) {
-                    $(this).removeClass(
-                        "text-white fw-bold");
-                    $(this).removeClass("bg-success");
+                if (!$(this).val()) {
+                    $(this).removeClass("bg-danger bg-success text-white fw-bold");
                 }
             });
             /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */

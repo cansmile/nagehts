@@ -1,4 +1,4 @@
-z<?php require_once("heading.php"); ?>
+<?php require_once("heading.php"); ?>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -36,7 +36,7 @@ z<?php require_once("heading.php"); ?>
                                         src="./dev/images/Reihe 4/Reihe-4-C2-1-1.png"
                                         style="max-width: 140px; height: auto;">
                                 </td>
-                                <td width="25"><button type="button" id="1"
+                                <td width="25" class="text-start"><button type="button" id="1"
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>Claudia hat eine Schultasche, aber sie hat
@@ -45,7 +45,7 @@ z<?php require_once("heading.php"); ?>
                                             자는 없습니다. </small></span></td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="2"
+                                <td class="text-start"><button type="button" id="2"
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>
@@ -61,7 +61,7 @@ z<?php require_once("heading.php"); ?>
                                 </td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="3"
+                                <td class="text-start"><button type="button" id="3"
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>
@@ -91,7 +91,7 @@ z<?php require_once("heading.php"); ?>
                                         src="./dev/images/Reihe 4/Reihe-4-C2-2-1.png"
                                         style="max-width: 140px; height: auto;">
                                 </td>
-                                <td width="25"><button type="button" id="4"
+                                <td width="25" class="text-start"><button type="button" id="4"
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>Michael hat ein Wörterbuch, aber er hat
@@ -100,7 +100,7 @@ z<?php require_once("heading.php"); ?>
                                             클립은 없습니다.</small></span></td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="5"
+                                <td class="text-start"><button type="button" id="5"
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>
@@ -117,7 +117,7 @@ z<?php require_once("heading.php"); ?>
                                 </td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="6"
+                                <td class="text-start"><button type="button" id="6"
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>
@@ -133,7 +133,7 @@ z<?php require_once("heading.php"); ?>
                                 </td>
                             </tr>
                             <tr>
-                                <td><button type="button" id="7"
+                                <td class="text-start"><button type="button" id="7"
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>

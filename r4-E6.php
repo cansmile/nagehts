@@ -33,13 +33,13 @@
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
-                                            class="text-center form-control border-bottom-only rounded-0 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 q t-6" style="max-width:180px"
                                             id="qst-1">
                                         .&nbsp;
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon1"
-                                            class="text-center form-control border-bottom-only rounded-0 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 q t-6" style="max-width:180px"
                                             id="qst-2">&nbsp;sind
                                         teuer. Sie kosten 399 Euro.
                                     </div>
@@ -62,13 +62,13 @@
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
-                                            class="text-center form-control border-bottom-only rounded-0 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 q t-6" style="max-width:180px"
                                             id="qst-3">
                                         .&nbsp;Die Lampe ist praktisch.&nbsp;
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon2"
-                                            class="text-center form-control border-bottom-only rounded-0 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 q t-6" style="max-width:180px"
                                             id="qst-4">&nbsp;kostet
                                         52 Euro.
                                     </div>
@@ -92,13 +92,13 @@
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
-                                            class="text-center form-control border-bottom-only rounded-0 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 q t-6" style="max-width:180px"
                                             id="qst-5">
                                         &nbsp;ist lang.&nbsp;
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon3"
-                                            class="text-center form-control border-bottom-only rounded-0 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 q t-6" style="max-width:180px"
                                             id="qst-6">&nbsp;kostet
                                         5 Euro.
                                     </div>

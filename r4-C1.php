@@ -40,7 +40,7 @@
                             </button>
                         </td>
                         <td>
-                            <div class="btn-group q"
+                            <div class="btn-group q d-flex align-items-center"
                                  data-toggle="buttons" role="group" id="qst-1">
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
@@ -79,7 +79,7 @@
                             </button>
                         </td>
                         <td>
-                            <div class="btn-group q"
+                            <div class="btn-group q d-flex align-items-center"
                                  data-toggle="buttons" role="group" id="qst-2">
                                 <div class="btn btn-light pop x"
                                      data-toggle="popover"
@@ -117,7 +117,7 @@
                             </button>
                         </td>
                         <td>
-                            <div class="btn-group q"
+                            <div class="btn-group q d-flex align-items-center"
                                  data-toggle="buttons" role="group" id="qst-3">
                                 <div class="btn btn-light pop o"
                                      data-toggle="popover"
@@ -177,12 +177,12 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td class="text-primary">부정관사</td>
-                        <td class="text-primary">부정관사</td>
-                        <td class="text-danger">부정관사</td>
-                        <td class="text-danger">부정관사</td>
-                        <td class="text-purple">부정관사</td>
-                        <td class="text-purple">부정관사</td>
+                        <td class="text-primary">부정(어)관사</td>
+                        <td class="text-primary">부정(어)관사</td>
+                        <td class="text-danger">부정(어)관사</td>
+                        <td class="text-danger">부정(어)관사</td>
+                        <td class="text-purple">부정(어)관사</td>
+                        <td class="text-purple">부정(어)관사</td>
                     </tr>
                     </thead>
                     <tbody>

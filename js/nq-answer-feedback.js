@@ -96,6 +96,8 @@
                     // 기존 핸들러가 제거한 bg-danger 복원
                     $input.addClass('bg-danger text-white fw-bold');
                     nqShowFillHint($input);
+                    // 오답이어도 전체 입력 완료 여부 확인 (번역 표시용)
+                    nqAutoComplete();
                 } else {
                     // 정답 → 힌트 제거
                     $input.siblings('.nq-hint').remove();
@@ -149,17 +151,27 @@
     /**
      * 모든 fill-blank 입력이 완료(disabled)되면 #chk 자동 트리거
      * (진도 기록을 위해 #chk → #done 전환 필요)
+     * 모든 입력에 값이 있으면 번역(.tran) 표시
      */
     function nqAutoComplete() {
         if (document.getElementById('done')) return;
-        var $inputs = $('.nq-exercise[data-type="fill-blank"] input.q');
+        var $inputs = $('.nq-exercise[data-type="fill-blank"] input.q, .nq-exercise[data-type="other"] input.q');
         if (!$inputs.length) return;
+
+        // 모든 입력에 값이 채워졌으면 번역 표시
+        var allFilled = $inputs.toArray().every(function (el) {
+            return $(el).val() || $(el).prop('disabled');
+        });
+        if (allFilled) {
+            $('.tran').show();
+        }
 
         var allDone = $inputs.toArray().every(function (el) {
             return $(el).prop('disabled');
         });
 
         if (allDone) {
+            $('#chk').show();
             $('#chk').trigger('click');
         }
     }

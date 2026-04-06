@@ -57,7 +57,7 @@
             </div>
             <!-- 고르는 아이템들 -->
             <!-- 리스트  시작 -->
-            <div class="row" id="lsts">
+            <div class="row justify-content-center" id="lsts">
                 <div style="min-height: 240px;"
                     class="rounded-top bg-primary itm-lst col-6 col-sm-4 col-md-3 p-2" id="lst-1">
                     <h2 class="btn btn-light btn-xl ttl w-100">
@@ -100,62 +100,13 @@
                 if ($("#wahl").visibility != "visible" && $(
                         this).attr("id") == "chk") {
                     $(this).attr("id", "done");
-                    $(".itm").each(function () {
-                        if ($(this).parent().attr("id")
-                            .length > 5) {
-                            var a = $(this).parent()
-                                .attr("id").substr($(
-                                        this).parent()
-                                    .attr("id").length -
-                                    2, 2);
-                        } else {
-                            var a = $(this).parent()
-                                .attr("id").substr($(
-                                        this).parent()
-                                    .attr("id").length -
-                                    1, 1);
-                        }
-                        $(".tran").show();
-                        if ($(this).hasClass("ans" + (
-                                a))) {
-                            $(this).addClass(
-                                "text-success fw-bold"
-                            );
-                        } else {
-                            $(this).addClass(
-                                "text-warning fw-bold"
-                            );
-                            $(this).find(".tran")
-                                .show();
-                        };
-                        if ($(this).hasClass(
-                                "text-warning")) {
-                            /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                            for (var i = 1; i <= $(
-                                    ".itm-lst")
-                                .length; i++) {
-                                if ($(this).hasClass(
-                                        "ans" + i)) {
-                                    $(eval('"#lst-' +
-                                            i + '"'
-                                        ))
-                                        .append(
-                                            "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white fw-bold\">" +
-                                            $(this)
-                                            .html() +
-                                            "</button>"
-                                        );
-                                    /* $(lstn).append(i); */
-                                }
-                            }
-                        };
-                    });
+                    var _r = nqValidateGrading();
+                    $(".tran").show();
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-                    var qa = $(".itm").length; /* 전체 문항 수 */
-                    var qr = $(".text-success")
-                        .length; /* 맞춘 항목 수 */
+                    var qa = _r.qa; /* 전체 문항 수 */
+                    var qr = _r.qr; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
                     /* 분류 기준은 100%, 80%, 60%, 40% */

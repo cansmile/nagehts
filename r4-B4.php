@@ -357,54 +357,8 @@
                 if ($("#wahl").visibility != "visible" && $(
                         this).attr("id") == "chk") {
                     $(this).attr("id", "done");
-                    $(".itm").each(function () {
-                        if ($(this).parent().attr("id")
-                            .length > 5) {
-                            var a = $(this).parent()
-                                .attr("id").substr($(
-                                        this).parent()
-                                    .attr("id").length -
-                                    2, 2);
-                        } else {
-                            var a = $(this).parent()
-                                .attr("id").substr($(
-                                        this).parent()
-                                    .attr("id").length -
-                                    1, 1);
-                        }
-                        $(".tran").show();
-                        if ($(this).hasClass("ans" + (
-                                a))) {
-                            $(this).addClass(
-                                "text-success fw-bold"
-                            );
-                        } else {
-                            $(this).addClass(
-                                "text-warning fw-bold"
-                            );
-                            $(this).find(".tran")
-                                .show();
-                        };
-                        if ($(this).hasClass(
-                                "text-warning")) {
-                            for (var i = 1; i <= $(
-                                    ".itm-lst")
-                                .length; i++) {
-                                if ($(this).hasClass(
-                                        "ans" + i)) {
-                                    $(eval('"#lst-' +
-                                            i + '"'
-                                        ))
-                                        .append(
-"<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white fw-bold\">" +
-                                            $(this).html() + "</button>");
-                                    /* $(lstn).append(i); */
-                                }
-                            }
-                        };
-                    });
-
                     var _r = nqValidateGrading();
+                    $(".tran").show();
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");

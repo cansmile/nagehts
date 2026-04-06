@@ -99,7 +99,7 @@
                 </div>
             </div>
             <!-- 리스트  시작 -->
-            <div class="row" id="lsts">
+            <div class="row justify-content-center" id="lsts">
                 <div style="min-height: 240px;"
                     class="rounded-top bg-info itm-lst col-6 col-sm-4 col-md-3 p-2"
                     id="lst-1">
@@ -227,15 +227,12 @@
                             $(this).addClass(
                                 "btn-" + cl +
                                 " text-" + tcl);
+                            $(this).attr("id", "done");
                             $(this).html("<h4>" +
                                 qa + "문제 중 " +
                                 qr +
                                 "개를 맞히셨네요!<br>" +
                                 st + "</h4>");
-                            $(".btn-lg").text()
-                                .appendTo($(this)
-                                    .closest("td"));
-                            $(".btn-lg").remove();
                         } else {
                             $("div.itm-lst").each(
                                 function (idx) {

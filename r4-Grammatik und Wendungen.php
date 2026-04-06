@@ -12,7 +12,7 @@
                             <button class="text-danger bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse1" aria-expanded="false"
                                     aria-controls="flush-collapse1"><strong>F1. unbestimmter Artikel im Nominativ
-                                    und Akkusativ</strong><small>주격 및 목적격 부정관사</small>
+                                    und Akkusativ</strong> <small>주격 및 목적격 부정관사</small>
                             </button>
                         </h5>
                         <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
@@ -168,7 +168,7 @@
                             <button class="text-orange bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse2" aria-expanded="false"
                                     aria-controls="flush-collapse2"><strong>F2. bestimmter Artikel im Nominativ und
-                                    Akkusativ</strong><small>주격 및 목적격 정관사</small>
+                                    Akkusativ</strong> <small>주격 및 목적격 정관사</small>
                             </button>
                         </h5>
                         <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
@@ -503,8 +503,8 @@
                         <h5 class="accordion-header" id="flush-heading6">
                             <button class="text-pink bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse6" aria-expanded="false"
-                                    aria-controls="flush-collapse6"><strong>F6. Redewendungen</strong><small>어휘와
-                                    숙어</small>
+                                    aria-controls="flush-collapse6"><strong>F6. Redewendungen</strong> <small>어휘와
+                                    표현</small>
                             </button>
                         </h5>
                         <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
@@ -802,7 +802,7 @@
                                                     </button>
                                                 </div>
                                                 <div class="col-10 mx-1 px-1 lh250">Es ist
-                                                    dunkel/hell/schön/modisch/altmodisch...
+                                                    dunkel/hell/schön/modisch/altmodisch.
                                                 </div>
                                             </div>
                                         </td>

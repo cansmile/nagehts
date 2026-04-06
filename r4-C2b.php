@@ -167,7 +167,7 @@ z<?php require_once("heading.php"); ?>
                         <tbody>
                             <tr>
                                 <td colspan="4" class="text-start">haben 동사는 4격
-                                    목적어를 취하며, 명사를 부정할 때는 kein이라는 부정관사를
+                                    목적어를 취하며, 명사를 부정할 때는 kein이라는 부정(어)관사를
                                     사용한다.<br>이 때 kein은 부정관사류(ein, nein)와 같이 동일하게
                                     관사어미변화한다. (keinen, keine, kein)</td>
                             </tr>
@@ -179,11 +179,11 @@ z<?php require_once("heading.php"); ?>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
-                                <td class="text-primary"><strong>부정관사</strong>
+                                <td class="text-primary"><strong>부정(어)관사</strong>
                                 </td>
-                                <td class="text-danger"><strong>부정관사</strong>
+                                <td class="text-danger"><strong>부정(어)관사</strong>
                                 </td>
-                                <td class="text-purple"><strong>부정관사</strong>
+                                <td class="text-purple"><strong>부정(어)관사</strong>
                                 </td>
                             </tr>
                             <tr>
@@ -209,7 +209,7 @@ z<?php require_once("heading.php"); ?>
                         <tbody>
                             <tr>
                                 <td colspan="7" class="text-start">
-                                    <strong>(un)bestimmte Artikel</strong></td>
+                                    <strong>bestimmter und unbestimmter Artikel</strong></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
@@ -222,15 +222,15 @@ z<?php require_once("heading.php"); ?>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
-                                <td class="text-primary"><strong>부정관사</strong>
+                                <td class="text-primary"><strong>부정(어)관사</strong>
                                 </td>
                                 <td class="text-primary"><strong>정관사</strong>
                                 </td>
-                                <td class="text-danger"><strong>부정관사</strong>
+                                <td class="text-danger"><strong>부정(어)관사</strong>
                                 </td>
                                 <td class="text-danger"><strong>정관사</strong>
                                 </td>
-                                <td class="text-purple"><strong>부정관사</strong>
+                                <td class="text-purple"><strong>부정(어)관사</strong>
                                 </td>
                                 <td class="text-purple"><strong>정관사</strong>
                                 </td>

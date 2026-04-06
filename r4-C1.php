@@ -332,11 +332,18 @@
                         alert("모든 문제를 풀어주세요.");
                         /* alert(na + "번 문제를 풀어주세요."); */
                     } else {
+                        /* 먼저 실제 정답 수 계산 (첫 선택 기준) */
+                        var qa = $(".q").length;
+                        var qr = 0;
+                        $(".q").each(function () {
+                            var $firstAn = $(this).find(".an").first();
+                            if ($firstAn.hasClass("o")) qr++;
+                        });
                         $(".pop").each(
                             function () {
                                 $(this)
                                     .removeClass(
-                                        "btn-info"
+                                        "btn-info btn-warning"
                                     );
                                 if ($(this)
                                         .hasClass(
@@ -347,12 +354,8 @@
                                             "an"
                                         )) {
                                     $(this)
-                                        .removeClass(
-                                            "btn-warning"
-                                        );
-                                    $(this)
                                         .addClass(
-                                            "btn-success fw-bold"
+                                            "ca"
                                         );
                                 } else if (
                                     $(this)
@@ -361,7 +364,7 @@
                                 ) {
                                     $(this)
                                         .addClass(
-                                            "btn-warning fw-bold text-dark"
+                                            "ra"
                                         );
                                 } else if (
                                     $(this)
@@ -370,7 +373,7 @@
                                         )) {
                                     $(this)
                                         .addClass(
-                                            "btn-danger"
+                                            "wa"
                                         );
                                 } else {
                                     $(this)
@@ -384,11 +387,6 @@
                         /* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass(
                             "btn-light ");
-                        var qa = $(".q")
-                            .length; /* 전체 문항 수 */
-                        var qr = $(
-                            ".btn-success")
-                            .length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) *
                             100; /* 정답 비율 */
                         var tcl =

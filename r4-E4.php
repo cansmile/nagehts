@@ -7,7 +7,7 @@
                             문장이 붉게 변합니다.</small> ]</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div
                     class="col-sm-12 col-md-12 col-lg-5 col-xl-5 border-danger border m-2 p-2">
                     <table class="table table-borderless table-striped">

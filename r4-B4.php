@@ -8,46 +8,32 @@
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm" id="1">
                         der Stuhl<span class="tran"><br><small>의자</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans13 btn-lg btn-outline-dark itm" id="2">
                         der Vorhang<span class="tran"><br><small>커튼</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans14 btn-lg btn-outline-dark itm" id="3">
                         die Hände (Pl.)<span class="tran"><br><small>손(복수)</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans12 btn-lg btn-outline-dark itm" id="4">
                         die Zahnbürste<span class="tran"><br><small>칫솔</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm" id="5">
                         der Tisch<span class="tran"><br><small>책상</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="6">
                         die Zahnpasta<span class="tran"><br><small>치약</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans9 btn-lg btn-outline-dark itm" id="7">
                         das Auge<span class="tran"><br><small>눈</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans10 btn-lg btn-outline-dark itm" id="8">
                         die Vase<span class="tran"><br><small>꽃병</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="9">
                         die Blume<span class="tran"><br><small>화초</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="10">
                         die Brille<span class="tran"><br><small>안경</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans11 btn-lg btn-outline-dark itm" id="11">
                         der Bleistift<span class="tran"><br><small>연필</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-lg btn-outline-dark itm" id="12">
                         das Fenster<span class="tran"><br><small>창문</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm" id="13">
                         die Handschuhe (Pl.)<span class="tran"><br><small>장갑(복수)</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm" id="14">
                         der Spitzer<span class="tran"><br><small>연필깎이</small></span></button>
-                    </button>
                 </div>
             </div>
         </div>

@@ -142,8 +142,7 @@
                             </div>
                             <span class="tran"><br>Wer ist das? Ist das
                                         ein Mann? Nein, das ist kein Mann. Das
-                                        ist eine Frau.<span
-                                    class="tran">&nbsp;<small><br>이 사람은
+                                        ist eine Frau.&nbsp;<small><br>이 사람은
                                                 누구인가요? 이 사람은 남자인가요? 아니오, 이 사람은
                                                 남자가 아니에요. 이 사람은
                                                 여자에요.</small></span>

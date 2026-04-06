@@ -329,7 +329,7 @@
             });
             /* $("#qst-1").val(an[0]); */
             /* $("#qst-8").val(an[7]); */
-            ch();
+            if (typeof ch === 'function') ch();
             /* $("#qst-1").prop("disabled",true); */
             /* $("#qst-8").prop("disabled",true); */
         });

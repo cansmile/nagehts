@@ -8,41 +8,29 @@
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="1">
                         Computer<span class="tran"><br><small>컴퓨터</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="2">
                         Tischlampe<span class="tran"><br><small>탁상등</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="3">
                         I-Pad<span class="tran"><br><small>아이패드</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="4">
                         Rucksack<span class="tran"><br><small>배낭</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="5">
                         Bücherregal<span class="tran"><br><small>책꽂이</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="6">
                         Wanduhr<span class="tran"><br><small>벽시계</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="7">
                         Bett<span class="tran"><br><small>침대</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="8">
                         Tisch<span class="tran"><br><small>책상</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="9">
                         Kommode<span class="tran"><br><small>서랍장</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="10">
                         Stuhl<span class="tran"><br><small>의자</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm" id="11">
                         Bild<span class="tran"><br><small>그림</small></span></button>
-                    </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm" id="12">
                         Musik-CD<span class="tran"><br><small>음악
                                 CD</small></span></button>
-                    </button>
                 </div>
             </div>
         </div>

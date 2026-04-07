@@ -27,10 +27,10 @@
                     <button type="button" class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm px-2" id="6">
                         ⑥
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 btn-lg btn-outline-dark itm px-2" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans8 ans18 btn-lg btn-outline-dark itm px-2" id="7">
                         ⑦
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans18 btn-lg btn-outline-dark itm px-2" id="8">
+                    <button type="button" class="mt-1 mx-1 btn ans8 ans18 btn-lg btn-outline-dark itm px-2" id="8">
                         ⑦
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="9">
@@ -891,8 +891,7 @@
                             $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
-                            $(".btn-lg").text().appendTo($(this).closest("td"));
-                            $(".btn-lg").remove();
+                            $(this).attr("id", "done");
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

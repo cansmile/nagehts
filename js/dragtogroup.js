@@ -375,13 +375,13 @@
       var btn = $lst.find('button');
       var targetGroup = parseInt($lst.attr('id').substr(4), 10);
       if (btn.length) {
-        var ansGroup = 0;
+        var ansGroups = [];
         var classes = btn[0].className.split(/\s+/);
         for (var i = 0; i < classes.length; i++) {
           var m = classes[i].match(/^ans(\d+)$/);
-          if (m) { ansGroup = parseInt(m[1], 10); break; }
+          if (m) { ansGroups.push(parseInt(m[1], 10)); }
         }
-        if (ansGroup === targetGroup) {
+        if (ansGroups.indexOf(targetGroup) !== -1) {
           btn.addClass('ca');
           qr++;
         } else {

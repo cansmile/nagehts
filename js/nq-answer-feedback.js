@@ -71,8 +71,7 @@
         if (!$fillSections.length) return;
         if (typeof window.an === 'undefined') return;
 
-        // 정답확인 버튼 숨김 (자동 완료 처리로 대체)
-        $('#chk').hide();
+        // 정답확인 버튼은 숨기지 않음 (사용자가 수동 클릭 가능)
 
         // focusout 위임 핸들러 (기존 직접 바인딩 핸들러 실행 후 동작)
         $(document).on(
@@ -171,7 +170,6 @@
         });
 
         if (allDone) {
-            $('#chk').show();
             $('#chk').trigger('click');
         }
     }

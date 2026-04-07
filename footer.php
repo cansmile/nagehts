@@ -38,6 +38,50 @@ $(document).ready(function() {
 });
 </script>
 
+<!-- 진도 저장: 정답확인 완료 시 /api/progress/save-by-file 호출 -->
+<script>
+(function() {
+    $(document).ready(function() {
+        var chkEl = document.getElementById('chk');
+        if (!chkEl) return;
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(m) {
+                if (m.target.id !== 'done') return;
+                var type = $('.nq-exercise').data('type') || '';
+                // dragtogroup 계열은 dragtogroup.js에서 자체 저장
+                if (/dragtogroup|dragtogroupnomove|dragtocompare|dragtogroupcheckafter/.test(type)) return;
+
+                var qa = 0, qr = 0;
+                if (type === 'fill-blank' || type === 'other') {
+                    qa = $('input.q').length;
+                    qr = $('input.q').filter(function() {
+                        return /bg-success|border-success/.test(this.className);
+                    }).length;
+                } else {
+                    // click-select, grammar 등
+                    qa = $('.q').length;
+                    qr = $('.btn-success').length;
+                }
+                if (qa <= 0) return;
+
+                var filename = window.location.pathname.split('/').pop();
+                if (!filename) return;
+                fetch('/api/progress/save-by-file', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                    credentials: 'same-origin',
+                    body: JSON.stringify({ filename: filename, correct_count: qr, total_count: qa })
+                }).then(function(r) { return r.json(); })
+                  .then(function(j) {
+                    if (j.score !== undefined) console.log('[nqProgress] ' + qr + '/' + qa + ' (' + j.score + '%)');
+                }).catch(function() {});
+            });
+        });
+        observer.observe(chkEl, { attributes: true, attributeFilter: ['id'] });
+    });
+})();
+</script>
+
 <!-- MakeQ LMS: postMessage bridge for iframe completion tracking -->
 <script>
 (function() {

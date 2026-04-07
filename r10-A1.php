@@ -198,7 +198,7 @@
     <script>
         $("#0").hide();
         $(".tran").hide();
-        $("#chk").hide();
+        // $("#chk").hide();
 
         /* 각 문장 재생 횟수 초기화 */
         var hm = new Array(),
@@ -305,8 +305,7 @@
                             $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
-                            $(".btn-lg").text().appendTo($(this).closest("td"));
-                            $(".btn-lg").remove();
+                            $(this).attr("id", "done");
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

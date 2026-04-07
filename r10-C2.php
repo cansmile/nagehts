@@ -271,7 +271,7 @@
     <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
-        $("#chk").hide();
+        // $("#chk").hide();
 
         $(document).ready(function () {
             /* 정답확인 */
@@ -310,10 +310,7 @@
                         tcl);
                     $(this).html("<h4>" + qa + "문제 중 " + qr +
                         "개를 맞히셨네요!<br>" + st + "</h4>");
-
-                    $(".btn-lg").text().appendTo($(this)
-                        .closest("td"));
-                    $(".btn-lg").remove();
+                    $(this).attr("id", "done");
                 } else {
                     $("div.itm-lst").each(function (idx) {
                         if (!$(this).find("button")

@@ -232,7 +232,7 @@
     <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
-        $("#chk").hide();
+        // $("#chk").hide();
 
         $(document).ready(function () {
             /* 소리 출력 전역 변수와 함수 */
@@ -321,8 +321,7 @@
                             $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
-                            $(".btn-lg").text().appendTo($(this).closest("td"));
-                            $(".btn-lg").remove();
+                            $(this).attr("id", "done");
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

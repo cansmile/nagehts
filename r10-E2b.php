@@ -55,7 +55,7 @@
                     <button type="button"
                         class="mt-1 mx-1 btn ans7 btn-lg btn-outline-dark itm px-3"
                         id="10">
-                        wieder in
+                        wieder in den
                     </button>
                     <button type="button"
                         class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm px-3"
@@ -316,8 +316,6 @@
     <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
-        $("#chk").hide();
-
         $(document).ready(function () {
 
             /* 정답확인 */
@@ -357,9 +355,7 @@
                     $(this).html("<h4>" + qa + "문제 중 " + qr +
                         "개를 맞히셨네요!<br>" + st + "</h4>");
 
-                    $(".btn-lg").text().appendTo($(this)
-                        .closest("td"));
-                    $(".btn-lg").remove();
+                    $(this).attr("id", "done");
                 } else {
                     $("div.itm-lst").each(function (idx) {
                         if (!$(this).find("button")

@@ -384,7 +384,7 @@
           if (m) { ansGroups.push(parseInt(m[1], 10)); }
         }
         if (ansGroups.indexOf(targetGroup) !== -1) {
-          btn.addClass('ca');
+          btn.addClass('ca text-success');
           qr++;
         } else {
           btn.addClass('wa');

@@ -170,7 +170,7 @@
     <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
-        $("#chk").hide();
+        /* $("#chk").hide(); — 정답확인 버튼 항시 표시 */
         $(document).ready(function () {
             /* 정답확인 */
             $("#chk").on("click", function () {
@@ -180,7 +180,7 @@
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
                     var _r = nqValidateGrading();
-                    var qa = $(".itm").length; /* 전체 문항 수 */
+                    var qa = _r.qa; /* 전체 문항 수 */
                     var qr = _r.qr; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
@@ -203,9 +203,7 @@
                         tcl);
                     $(this).html("<h4>" + qa + "문제 중 " + qr +
                         "개를 맞히셨네요!<br>" + st + "</h4>");
-                    $(".btn-lg").text().appendTo($(this)
-                        .closest("td"));
-                    $(".btn-lg").remove();
+                    $(this).attr("id", "done");
                 } else {
                     $("div.itm-lst").each(function (idx) {
                         if (!$(this).find("button")

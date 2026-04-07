@@ -377,6 +377,7 @@
                                 qr +
                                 "개를 맞히셨네요!<br>" +
                                 st + "</h4>");
+                        $(this).attr("id","done");
 
                             $(this).attr("id",
                                 "done");

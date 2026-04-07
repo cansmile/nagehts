@@ -241,6 +241,7 @@
                             $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
+                        $(this).attr("id","done");
                             // $(".btn-lg").text().appendTo($(this).closest("td"));
                             /* 올바른 순서 전체 대화문 + 번역 피드백 */
                             var correctOrder = [

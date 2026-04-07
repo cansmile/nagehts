@@ -1855,6 +1855,7 @@
                                 qr +
                                 "개를 맞히셨네요!<br>" +
                                 st);
+                            $(this).attr("id","done");
 
                         } else if (na != "" && da ==
                             "") {

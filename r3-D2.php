@@ -422,6 +422,7 @@
                                 qr +
                                 "개를 맞히셨네요!<br>" +
                                 st + "</h4>");
+                        $(this).attr("id","done");
                         } else {
                             $("div.itm-lst").each(
                                 function (idx) {

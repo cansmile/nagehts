@@ -278,6 +278,7 @@
             $(this).removeClass("btn-light");
             $(this).addClass("btn-success text-white");
             $(this).html("<h4>잘 읽으셨네요!</h4>");
+            $(this).attr("id","done");
         });
     });
 </script>

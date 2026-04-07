@@ -325,7 +325,6 @@
 
                             $(".btn-lg").text().appendTo($(this)
                                 .closest("td"));
-                            $(".btn-lg").remove();
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button")

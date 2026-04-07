@@ -90,14 +90,15 @@
     var ttl = target.querySelector('.ttl');
     var isSingleItem = target.classList.contains('1itm');
 
-    // 소리 재생 (정답/오답)
-    if (ansGroup === targetGroup) {
-      if (typeof o !== 'undefined' && o.play) o.play();
-    } else {
+    // 오답: 소리 재생 후 snap back
+    if (ansGroup !== targetGroup) {
       if (typeof x !== 'undefined' && x.play) x.play();
+      return false;
     }
 
-    // 맞든지 틀리든지 일단 넣기
+    // 정답: 소리 재생 후 배치
+    if (typeof o !== 'undefined' && o.play) o.play();
+
     dragging.classList.add('w-100', 'btn-light');
     dragging.classList.remove('btn-secondary');
     if (ttl) {
@@ -174,8 +175,16 @@
       var pos = getEventPos(e);
       var target = findDropTarget(pos.x, pos.y);
       if (target) {
-        handleDrop(target);
-        cleanupDrag();
+        var success = handleDrop(target);
+        if (success) {
+          cleanupDrag();
+          // wahl 자동 숨김 감지 트리거
+          setTimeout(function () { $(document).trigger('click'); }, 50);
+          // 모두 배치됐으면 자동 채점
+          nqCheckAllPlaced();
+        } else {
+          snapBack();
+        }
       } else {
         snapBack();
       }
@@ -228,28 +237,43 @@
     attachDragAreaTouch();
   }
 
-  // .ttl 클릭 시 선택된 아이템 넣기 (기존 호환)
+  // .ttl 클릭 시 선택된 아이템 넣기 (기존 호환) — 정답만 배치
   $(document).on('click', '.ttl', function () {
     var t = $(this);
     var tn = parseInt($(this).parent().attr('id').substr(4), 10);
-    var tm = 0;
     var isSingle = t.parent().hasClass('1itm');
+    var placed = false;
 
     $('.btn-secondary').each(function () {
       var ansGroup = getAnswerGroup(this);
       if (ansGroup !== tn) {
         if (typeof x !== 'undefined' && x.play) x.play();
-      } else {
-        if (tm === 0) { if (typeof o !== 'undefined' && o.play) o.play(); }
+        $(this).removeClass('btn-secondary'); // 선택 해제
+        return;
       }
-      // 맞든지 틀리든지 넣기
-      $(this).addClass('w-100 btn-light');
+      // 정답: 배치
+      if (!placed) { if (typeof o !== 'undefined' && o.play) o.play(); placed = true; }
+      $(this).addClass('w-100 btn-light').removeClass('btn-secondary');
       $(this).insertAfter(t);
-      if ($(this).closest('.1itm').children('button').length > 0) tm = 1;
-      if (isSingle) { t.remove(); $(this).removeClass('btn-secondary'); }
+      if (isSingle) { t.remove(); }
     });
     $('.itm').removeClass('btn-secondary');
+    if (placed) nqCheckAllPlaced();
   });
+
+  // --- 모두 배치 시 자동 채점 ---
+  function nqCheckAllPlaced() {
+    var remaining = document.querySelectorAll('#itms button.itm');
+    if (remaining.length > 0) return;
+    var chkEl = document.getElementById('chk');
+    if (chkEl) {
+      setTimeout(function () { $(chkEl).trigger('click'); }, 300);
+    } else {
+      // 채점 버튼 없으면 직접 저장 (전부 정답이므로 qa=qr)
+      var qa = document.querySelectorAll('.itm-lst').length;
+      nqSaveDragResult(qa, qa);
+    }
+  }
 
   $(document).ready(function () {
     if ($('#itms').length) $('.itm').appendTo('#itms');
@@ -265,4 +289,39 @@
     'button.itm:active { cursor: grabbing; }' +
     '.itm-lst button.itm { cursor: default; touch-action: auto; }';
   document.head.appendChild(style);
+
+  // --- 학습 결과 저장 ---
+  function nqSaveDragResult(correct, total) {
+    if (!total || total <= 0) return;
+    var filename = window.location.pathname.split('/').pop();
+    if (!filename) return;
+    fetch('/api/progress/save-by-file', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      credentials: 'same-origin',
+      body: JSON.stringify({ filename: filename, correct_count: correct, total_count: total })
+    }).then(function (res) { return res.json(); })
+      .then(function (json) {
+        if (json.score !== undefined) console.log('[nqGrading] 저장됨: ' + correct + '/' + total + ' (' + json.score + '%)');
+      }).catch(function () {});
+  }
+
+  // #chk → #done 전환 감지 → 결과 저장
+  $(document).ready(function () {
+    var chkEl = document.getElementById('chk');
+    if (!chkEl) return;
+    var observer = new MutationObserver(function (mutations) {
+      mutations.forEach(function (m) {
+        if (m.type === 'attributes' && m.attributeName === 'id' && chkEl.id === 'done') {
+          observer.disconnect();
+          setTimeout(function () {
+            var qa = document.querySelectorAll('.itm-lst').length;
+            var qr = document.querySelectorAll('.itm-lst button.text-success').length;
+            nqSaveDragResult(qr, qa);
+          }, 0);
+        }
+      });
+    });
+    observer.observe(chkEl, { attributes: true });
+  });
 })();

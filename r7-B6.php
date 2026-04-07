@@ -346,6 +346,21 @@
                                     $(this).addClass("btn-" + cl + " text-" + tcl);
                                     $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" +
                                         st + "</h4>");
+                                    /* 올바른 순서 전체 대화문 + 번역 피드백 */
+                                    var correctOrder = [
+                                        {de: "Betreff: Kino", ko: "제목: 영화"},
+                                        {de: "Lieber Max,", ko: "막스에게,"},
+                                        {de: "leider kann ich doch nicht kommen.", ko: "안타깝게도 난 갈 수가 없어."},
+                                        {de: "Vielleicht können wir morgen ins Kino gehen?", ko: "우리 내일 영화 보러 갈수 있을까?"},
+                                        {de: "Liebe Grüße", ko: "사랑을 담아"},
+                                        {de: "Mina", ko: "미나가"}
+                                    ];
+                                    var fb = '<div class="mt-3 p-3 border rounded bg-light"><h5 class="mb-2">올바른 순서:</h5>';
+                                    for (var ci = 0; ci < correctOrder.length; ci++) {
+                                        fb += '<p class="mb-1"><strong>' + (ci+1) + '. ' + correctOrder[ci].de + '</strong><br><span style="color:#1e293b;font-size:0.85rem;">' + correctOrder[ci].ko + '</span></p>';
+                                    }
+                                    fb += '</div>';
+                                    $(this).after(fb);
                                 };
                             }
                         });

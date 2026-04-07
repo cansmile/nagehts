@@ -440,7 +440,7 @@
                 } else {
                     alert("모든 문제를 풀어주세요!");
                 };
-            })
+            });
 
             var pan = new Array();
             pan = [1];

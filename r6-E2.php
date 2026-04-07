@@ -400,7 +400,7 @@
                         if ($("#" + last).hasClass("itm")) {
                             $("#" + last + ">.tran").show();
                         }
-                        $("#" + last).closest("tr").find(".tran").show();
+                        $("#" + last).closest(".row").find(".tran").show();
                         pa[last] = $("#" + last).html();
                     }
                 }

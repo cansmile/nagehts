@@ -3,6 +3,22 @@
     $a_cell_height = 60;
     $double_cell_height = $a_cell_height * 2;
     ?>
+    <style>
+        /* 답 슬롯 셀 높이 고정 - 드롭 시 레이아웃 틀어짐 방지 */
+        td:has(> div[id^="lst-"]) {
+            height: <?= $a_cell_height ?>px;
+            max-height: <?= $a_cell_height ?>px;
+            overflow: hidden;
+            padding: 1px 2px;
+        }
+        td:has(> div[id^="lst-"]) button {
+            font-size: 0.72em;
+            padding: 2px 4px;
+            line-height: 1.3;
+            white-space: normal;
+            height: <?= ($a_cell_height - 2) ?>px;
+        }
+    </style>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -111,82 +127,82 @@
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t3" scope="row">
-                                    6.30 <small>Uhr</small>
+                                    <small class="text-muted">1.</small> 6.30 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t4" scope="row">
-                                    18.30 <small>Uhr</small>
+                                    <small class="text-muted">1.</small> 18.30 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t5" scope="row">
-                                    3.20 <small>Uhr</small>
+                                    <small class="text-muted">2.</small> 3.20 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t6" scope="row">
-                                    15.20 <small>Uhr</small>
+                                    <small class="text-muted">2.</small> 15.20 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t7" scope="row">
-                                    7.40 <small>Uhr</small>
+                                    <small class="text-muted">3.</small> 7.40 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t8" scope="row">
-                                    19.40 <small>Uhr</small>
+                                    <small class="text-muted">3.</small> 19.40 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t9" scope="row">
-                                    10.10 <small>Uhr</small>
+                                    <small class="text-muted">4.</small> 10.10 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t10" scope="row">
-                                    22.10
+                                    <small class="text-muted">4.</small> 22.10
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t11" scope="row">
-                                    2.55 <small>Uhr</small>
+                                    <small class="text-muted">5.</small> 2.55 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t12" scope="row">
-                                    14.55
+                                    <small class="text-muted">5.</small> 14.55
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t13" scope="row">
-                                    5.15 <small>Uhr</small>
+                                    <small class="text-muted">6.</small> 5.15 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t14" scope="row">
-                                    17.15
+                                    <small class="text-muted">6.</small> 17.15
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t15" scope="row">
-                                    9.45 <small>Uhr</small>
+                                    <small class="text-muted">7.</small> 9.45 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t16" scope="row">
-                                    21.45
+                                    <small class="text-muted">7.</small> 21.45
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t17" scope="row">
-                                    11.03
+                                    <small class="text-muted">8.</small> 11.03
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t18" scope="row">
-                                    23.03
+                                    <small class="text-muted">8.</small> 23.03
                                     <small>Uhr</small></th>
                             </tr>
                         </tbody>

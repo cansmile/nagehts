@@ -232,9 +232,26 @@
                         if ($("#itms").find("button").length < 1) {
                             $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
-                            var _r = nqValidateGrading();
-                            var qa = $(".itm").length; /* 전체 문항 수 */
-                            var qr = _r.qr; /* 맞춘 항목 수 */
+                            /* 개별 아이템 단위 채점 (multi-item 그룹) */
+                            var qa = 0, qr = 0;
+                            $(".itm-lst").each(function () {
+                                var targetGroup = parseInt($(this).attr("id").substr(4), 10);
+                                $(this).find("button").each(function () {
+                                    qa++;
+                                    var ansGroup = 0;
+                                    var cls = this.className.split(/\s+/);
+                                    for (var j = 0; j < cls.length; j++) {
+                                        var m = cls[j].match(/^ans(\d+)$/);
+                                        if (m) { ansGroup = parseInt(m[1], 10); break; }
+                                    }
+                                    if (ansGroup === targetGroup) {
+                                        $(this).addClass("text-success fw-bold");
+                                        qr++;
+                                    } else {
+                                        $(this).addClass("text-danger fw-bold");
+                                    }
+                                });
+                            });
                             var pe = (qr / qa) * 100; /* 정답 비율 */
                             var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                             if (pe > 99) {
@@ -254,8 +271,7 @@
                             $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
-                            $(".btn-lg").text().appendTo($(this).closest("td"));
-                            $(".btn-lg").remove();
+                            // $(".btn-lg").text().appendTo($(this).closest("td"));
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

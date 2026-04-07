@@ -68,7 +68,7 @@
                 </div>
                 <div class="input-group lh350">
                     Es waren alle da. <span class="tran">&nbsp;<small>친구들이 모두 다
-                                왔어.</small>&nbsp;</span>Selbst Carlos, unser Austausstudent aus Spanien, war auch mit
+                                왔어.</small>&nbsp;</span>Selbst Carlos, unser Austauschstudent aus Spanien, war auch mit
                     dabei. <span class="tran">&nbsp;<small>스페인에서 온 교환학생인 카를로스도 왔어.</small>&nbsp;</span>
                 </div>
                 <div class="input-group lh350">
@@ -344,7 +344,7 @@
                         for (var i = 0; i < an.length; i++) {
                             var oran = $("#qst-" + (i + 1)).val();
                             if (rfchk($("#qst-" + (i + 1)), true)) {
-                                $("#qst-" + (i + 1)).addClass("cr");
+                                $("#qst-" + (i + 1)).addClass("bg-success text-white rounded fw-bold p-1 px-2 ms-1");
                                 $("#qst-" + (i + 1)).removeClass("rounded-0");
                             } else {
                                 $("#qst-" + (i + 1)).val(oran);

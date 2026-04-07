@@ -300,6 +300,7 @@
                     }
                     $(this).addClass("btn-" + cl + " text-" + tcl);
                     $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                    $(".tran").show();
                     $(this).attr("id", "done");
                 }
             });

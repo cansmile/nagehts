@@ -530,7 +530,6 @@
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
                             $(".btn-lg").text().appendTo($(this).closest("td"));
-                            $(".btn-lg").remove();
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

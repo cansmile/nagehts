@@ -246,8 +246,22 @@
                             $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
-                            $(".btn-lg").text().appendTo($(this).closest("td"));
-                            $(".btn-lg").remove();
+                            // $(".btn-lg").text().appendTo($(this).closest("td"));
+                            /* 올바른 순서 전체 대화문 + 번역 피드백 */
+                            var correctOrder = [
+                                {de: "Was machen Sie denn da?", ko: "거기서 뭐하고 계시나요?"},
+                                {de: "Ich esse.", ko: "먹는중인데요."},
+                                {de: "Hier dürfen Sie nicht essen.", ko: "여기서 먹으면 안되요."},
+                                {de: "Warum nicht?", ko: "왜 안되나요?"},
+                                {de: "Das ist verboten.", ko: "금지되어 있어요."},
+                                {de: "Ach so! Dann höre ich auf.", ko: "아 그래요! 그럼 그만할게요."}
+                            ];
+                            var fb = '<div class="mt-3 p-3 border rounded bg-light"><h5 class="mb-2">올바른 순서:</h5>';
+                            for (var ci = 0; ci < correctOrder.length; ci++) {
+                                fb += '<p class="mb-1"><strong>' + (ci+1) + '. ' + correctOrder[ci].de + '</strong><br><span style="color:#1e293b;font-size:0.85rem;">' + correctOrder[ci].ko + '</span></p>';
+                            }
+                            fb += '</div>';
+                            $(this).after(fb);
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

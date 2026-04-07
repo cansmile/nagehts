@@ -553,7 +553,7 @@
                             $("#" + last + ">.tran").show();
                         }
 
-                        $("#" + last).closest("tr").find(
+                        $("#" + last).closest(".row").find(
                             ".tran").show();
                         pa[last] = $("#" + last).html();
                     }

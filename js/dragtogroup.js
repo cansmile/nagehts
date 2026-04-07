@@ -109,33 +109,25 @@
   }
 
   // --- Handle drop ---
-  // 정답 검증 없이 아무 슬롯에나 배치 가능 (채점은 nqValidateGrading에서 수행)
+  // 정답 검증: 맞으면 배치 + 정답 소리, 틀리면 snap back + 오답 소리
   function handleDrop(target) {
     if (!dragging || !target) return false;
 
-    var ttl = target.querySelector('.ttl');
-    // 1itm 클래스이거나, 이미 버튼이 있고 ttl이 없는 존 = 이미 1개 차있음 → 교체
-    var isSingleItem = target.classList.contains('1itm');
-    var hasExistingBtn = !ttl && target.querySelector('button');
-    if (hasExistingBtn) isSingleItem = true;
+    var ansGroup = getAnswerGroup(dragging);
+    var targetGroup = getTargetGroup(target);
 
-    // 이미 차 있는 1itm 슬롯 → 기존 버튼을 #itms로 되돌리기 (교체)
-    if (isSingleItem && !ttl) {
-      var existing = target.querySelector('button');
-      if (existing) {
-        var source = document.getElementById('itms');
-        if (source) {
-          existing.classList.remove('w-100', 'btn-light');
-          existing.classList.add('itm');
-          source.appendChild(existing);
-          // #wahl 다시 표시 (아이템이 되돌아왔으므로)
-          $('#wahl').show();
-          $('#marg').show();
-        }
-      }
+    // 오답: 소리 재생 후 snap back
+    if (ansGroup !== targetGroup) {
+      if (typeof x !== 'undefined' && x.play) x.play();
+      return false;
     }
 
-    // 버튼을 타겟에 넣기 (항상 수락)
+    // 정답: 소리 재생 후 배치
+    if (typeof o !== 'undefined' && o.play) o.play();
+
+    var ttl = target.querySelector('.ttl');
+    var isSingleItem = target.classList.contains('1itm');
+
     dragging.classList.add('w-100', 'btn-light');
     dragging.classList.remove('btn-secondary');
     if (ttl) {
@@ -144,7 +136,6 @@
       target.appendChild(dragging);
     }
 
-    // 한 아이템만 넣는 상자면 타이틀 제거
     if (isSingleItem && ttl) {
       ttl.remove();
       dragging.classList.remove('itm');
@@ -252,12 +243,12 @@
       if (target) {
         var success = handleDrop(target);
         if (success) {
-          // 성공 시 클론 제거
           cleanupDrag();
-          // 드래그로 배치 완료 시 wahl.php의 donewahl() 감지 트리거
           setTimeout(function () { $(document).trigger('click'); }, 50);
+          nqCheckAllPlaced();
+        } else {
+          snapBack();
         }
-        // 실패 시 snapBack이 이미 호출됨
       } else {
         // 빈 곳에 놓으면 되돌리기
         snapBack();
@@ -315,26 +306,27 @@
     attachDragAreaTouch();
   }
 
-  // --- .ttl 클릭 시 선택된 아이템 넣기 (기존 호환) ---
-  // 정답 검증 없이 선택된 아이템을 슬롯에 배치 (채점은 nqValidateGrading에서 수행)
+  // --- .ttl 클릭 시 선택된 아이템 넣기 (정답만 배치) ---
   $(document).on('click', '.ttl', function () {
     var t = $(this);
+    var tn = parseInt($(this).parent().attr('id').substr(4), 10);
     var isSingle = t.parent().hasClass('1itm');
+    var placed = false;
 
-    // 선택된 첫 번째 아이템만 배치
-    var selected = $('.btn-secondary').first();
-    if (selected.length === 0) return;
-
-    selected.addClass('w-100 btn-light');
-    selected.removeClass('btn-secondary');
-    selected.insertAfter(t);
-
-    if (isSingle) {
-      t.remove();
-      selected.removeClass('itm');
-    }
-
+    $('.btn-secondary').each(function () {
+      var ansGroup = getAnswerGroup(this);
+      if (ansGroup !== tn) {
+        if (typeof x !== 'undefined' && x.play) x.play();
+        $(this).removeClass('btn-secondary');
+        return;
+      }
+      if (!placed) { if (typeof o !== 'undefined' && o.play) o.play(); placed = true; }
+      $(this).addClass('w-100 btn-light').removeClass('btn-secondary');
+      $(this).insertAfter(t);
+      if (isSingle) { t.remove(); }
+    });
     $('.itm').removeClass('btn-secondary');
+    if (placed) nqCheckAllPlaced();
   });
 
   // --- Init: 로딩되면 아이템 셔플 ---
@@ -345,6 +337,16 @@
     }
     $('[data-toggle="popover"]').popover({ container: 'body' });
   });
+
+  // --- 모두 배치 시 자동 채점 ---
+  function nqCheckAllPlaced() {
+    var remaining = document.querySelectorAll('#itms button.itm');
+    if (remaining.length > 0) return;
+    var chkEl = document.getElementById('chk');
+    if (chkEl) {
+      setTimeout(function () { $(chkEl).trigger('click'); }, 300);
+    }
+  }
 
   // --- 채점 검증 (공유 함수) ---
   // 각 .itm-lst의 button이 올바른 위치인지 ansN vs lst-N 비교

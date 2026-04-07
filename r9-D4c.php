@@ -42,7 +42,7 @@
                             왔고 알렛스 집에서 나를 위한 깜짝 파티를 준비했어.<br></small>
                         <strong>Es waren alle da.</strong><small>&nbsp;친구들이 모두 다
                             왔어.<br></small>
-                        <strong>Selbst Carlos, unser Austausstudent aus Spanien,
+                        <strong>Selbst Carlos, unser Austauschstudent aus Spanien,
                             war auch mit dabei.</strong><small>&nbsp;스페인에서 온
                             교환학생인 카를로스도 왔어.<br></small>
                         <strong>Und meine alte Schulfreundin Julia ist aus

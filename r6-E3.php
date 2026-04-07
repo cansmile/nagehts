@@ -292,20 +292,20 @@
         $("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
         var an = new Array();
         var an = [
-            ["sechs Uhr fünf", "6 Uhr 5"],
-            ["fünf nach sechs", "5 nach 6"],
-            ["zwei Uhr fünfzehn", "2 Uhr 15"],
-            ["Viertel nach zwei", "Viertel nach 2"],
-            ["dreizehn Uhr", "13 Uhr", "1", "1 Uhr"],
-            ["eins", "ein Uhr", "1", "1 Uhr"],
-            ["fünfzehn Uhr fünfundvierzig", "15 Uhr 45"],
-            ["Viertel vor vier", "Viertel vor 4"],
-            ["acht Uhr fünfundzwanzig", "8 Uhr 25", "5 vor halb 9"],
-            ["fünf vor halb neun", "5 Vor halb 9"],
-            ["vierzehn Uhr siebenundfünfzig", "14 Uhr 57"],
-            ["kurz vor drei", "kurz vor 3"],
-            ["sechs Uhr drei", "6 Uhr 3"],
-            ["kurz nach sechs", "kurz nach 6"]
+            "sechs Uhr fünf",
+            "fünf nach sechs",
+            "zwei Uhr fünfzehn",
+            "Viertel nach zwei",
+            ["dreizehn Uhr", "dreizehn"],
+            ["eins", "ein Uhr"],
+            "fünfzehn Uhr fünfundvierzig",
+            "Viertel vor vier",
+            ["acht Uhr fünfundzwanzig", "fünf vor halb neun"],
+            "fünf vor halb neun",
+            "vierzehn Uhr siebenundfünfzig",
+            "kurz vor drei",
+            "sechs Uhr drei",
+            "kurz nach sechs"
         ];
 
         function checkHeight() {
@@ -363,6 +363,13 @@
 
                 }
             }
+            /* 숫자 입력 차단: 알파벳/움라우트/공백만 허용 */
+            $(".q").on("input", function () {
+                var val = $(this).val();
+                var filtered = val.replace(/[0-9]/g, "");
+                if (val !== filtered) $(this).val(filtered);
+            });
+
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
                 $(this).removeClass("bg-success");
@@ -470,8 +477,9 @@
                             4, 1);
                     }
                 });
+                var filled = $(".q").filter(function() { return $(this).val() !== ""; }).length;
                 if ($(this).attr("id") == "done") {} else if (
-                    na == "") {
+                    filled >= 8) {
                     for (var i = 0; i < an.length; i++) {
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
@@ -559,7 +567,7 @@
 
                     checkHeight();
                 } else {
-                    alert("모든 문제를 풀어주세요!");
+                    alert("8개 이상 입력하세요! (현재 " + filled + "개)");
                 };
             })
 

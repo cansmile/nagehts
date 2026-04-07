@@ -241,8 +241,22 @@
                             $(this).addClass("btn-" + cl + " text-" + tcl);
                             $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st +
                                 "</h4>");
-                            $(".btn-lg").text().appendTo($(this).closest("td"));
-                            $(".btn-lg").remove();
+                            // $(".btn-lg").text().appendTo($(this).closest("td"));
+                            /* 올바른 순서 전체 대화문 + 번역 피드백 */
+                            var correctOrder = [
+                                {de: "Hallo Kinder, was macht ihr da?", ko: "안녕 애들아, 거기서 뭐하니?"},
+                                {de: "Wir spielen Basketball!", ko: "농구하는데요!"},
+                                {de: "Hier dürft ihr nicht Basketball spielen.", ko: "여기서 농구하면 안된단다."},
+                                {de: "Warum dürfen wir nicht spielen?", ko: "우리가 왜 여기서 놀면 안 되나요?"},
+                                {de: "Das ist verboten.", ko: "금지되어 있어."},
+                                {de: "Gut, dann hören wir damit auf.", ko: "네, 그럼 우리 그만할게요."}
+                            ];
+                            var fb = '<div class="mt-3 p-3 border rounded bg-light"><h5 class="mb-2"><i class="fas fa-check-circle text-success"></i> 올바른 순서:</h5>';
+                            for (var ci = 0; ci < correctOrder.length; ci++) {
+                                fb += '<p class="mb-1"><strong>' + (ci+1) + '. ' + correctOrder[ci].de + '</strong><br><span style="color:#1e293b;font-size:0.85rem;">' + correctOrder[ci].ko + '</span></p>';
+                            }
+                            fb += '</div>';
+                            $(this).after(fb);
                         } else {
                             $("div.itm-lst").each(function (idx) {
                                 if (!$(this).find("button").length) {

@@ -30,7 +30,7 @@
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-1">
                         gern mit<input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-2">
-                        meinen anderen Freunden
+                        und meinen anderen Freunden
                         feiern.
                         <span class="tran"><br><small>너희와 다른 나의 친구들과 함께 파티를 하고
                                 싶어.</small></span> Die Party ist am Samstag, 4.
@@ -50,7 +50,7 @@
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-6">
                         bis Donnerstag oder<input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-7">
-                        ruft an.
+                        ruft mich an.
                         <span class="tran"><br><small>목요일까지 나에게 대답해주거나
                                 전화해줘.</small></span><br>
                     </div>
@@ -334,7 +334,7 @@
                             for (var i = 0; i < an.length; i++) {
                                 var oran = $("#qst-" + (i + 1)).val();
                                 if (rfchk($("#qst-" + (i + 1)), true)) {
-                                    $("#qst-" + (i + 1)).addClass("cr");
+                                    $("#qst-" + (i + 1)).addClass("bg-success text-white rounded fw-bold p-1 px-2 ms-1");
                                     $("#qst-" + (i + 1)).removeClass("rounded-0");
                                 } else {
                                     $("#qst-" + (i + 1)).val(oran);

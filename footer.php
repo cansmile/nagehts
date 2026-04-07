@@ -20,6 +20,24 @@
 </footer>
 <!-- 꼬리말 끝 -->
 
+<!-- 오답 수정 기능: 오답 input 클릭 시 초기화하여 재입력 가능 -->
+<script>
+$(document).ready(function() {
+    $(document).on("click", "input.q.wa, input.q.bg-danger", function() {
+        var $el = $(this);
+        if ($el.attr("disabled") || $el.prop("disabled")) {
+            $el.prop("disabled", false);
+            $el.val("");
+            $el.removeClass("wa bg-danger bg-success text-white fw-bold text-danger text-success");
+            $el.addClass("border-bottom-only border-dark rounded-0");
+            // 정답 표시(ra) 제거
+            $el.nextAll(".ra").first().remove();
+            $el.closest(".input-group,.d-inline-flex").find(".ra").remove();
+        }
+    });
+});
+</script>
+
 <!-- MakeQ LMS: postMessage bridge for iframe completion tracking -->
 <script>
 (function() {

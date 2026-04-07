@@ -21,8 +21,7 @@
                     <span class="border border-dark rounded p-2">Bücher</span>
                     <span class="border border-dark rounded p-2">einen
                         Reiseführer</span>
-                    <span class="border border-dark rounded p-2">eine
-                        Kosmetik</span>
+                    <span class="border border-dark rounded p-2">Kosmetik</span>
                     <span class="border border-dark rounded p-2">einen
                         Hund</span>
                     <span class="border border-dark rounded p-2">ein
@@ -392,7 +391,7 @@
                     for (var i = 0; i < an.length; i++) {
                         var oran = $("#qst-" + (i + 1)).val();
                         if (rfchk($("#qst-" + (i + 1)), true)) {
-                            $("#qst-" + (i + 1)).addClass("cr");
+                            $("#qst-" + (i + 1)).addClass("bg-success text-white rounded fw-bold p-1 px-2 ms-1");
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
                         } else {
                             $("#qst-" + (i + 1)).val(oran);

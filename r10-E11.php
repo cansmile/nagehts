@@ -235,7 +235,7 @@
                 for (var i = 0; i < an.length; i++) {
                     var oran = $("#qst-" + (i + 1)).val();
                     if (rfchk($("#qst-" + (i + 1)), true)) {
-                        $("#qst-" + (i + 1)).addClass("cr");
+                        $("#qst-" + (i + 1)).addClass("bg-success text-white rounded fw-bold p-1 px-2 ms-1");
                         $("#qst-" + (i + 1)).removeClass("rounded-0");
                     } else {
                         $("#qst-" + (i + 1)).val(oran);

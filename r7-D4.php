@@ -28,7 +28,7 @@
                         muss
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-2"
+                        class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm px-2"
                         id="5">
                         müssen
                     </button>
@@ -207,7 +207,7 @@
                                         <div class="p-2 m-0">
                                             Oh! Wir&nbsp;
                                             <div class="itm-lst 1itm d-inline-block"
-                                                id="lst-2"
+                                                id="lst-6"
                                                 style="min-width: 30%; ">
                                                 <h2
                                                     class="btn btn-warning btn-xl ttl w-100">

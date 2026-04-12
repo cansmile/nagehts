@@ -283,26 +283,54 @@
   window.nqValidateGrading = window.nqValidateGrading || function () {
     var qa = 0, qr = 0;
     $('.itm-lst').each(function () {
-      qa++;
-      var btn = $(this).find('button');
-      if (btn.length) {
-        var ansGroup = 0;
-        var classes = btn[0].className.split(/\s+/);
-        for (var i = 0; i < classes.length; i++) {
-          var m = classes[i].match(/^ans(\d+)$/);
-          if (m) { ansGroup = parseInt(m[1], 10); break; }
-        }
-        var targetGroup = parseInt($(this).attr('id').substr(4), 10);
+      var targetGroup = parseInt($(this).attr('id').substr(4), 10);
+      $(this).find('button').each(function () {
+        qa++;
+        var ansGroup = getAnswerGroup(this);
         if (ansGroup === targetGroup) {
-          btn.addClass('text-success fw-bold');
+          $(this).addClass('text-success fw-bold');
           qr++;
         } else {
-          btn.addClass('text-danger fw-bold');
+          $(this).addClass('text-danger fw-bold');
         }
-      }
+      });
     });
     return { qa: qa, qr: qr };
   };
+
+  // --- 학습 결과 저장 ---
+  function nqSaveDragResult(correct, total) {
+    if (!total || total <= 0) return;
+    var filename = window.location.pathname.split('/').pop();
+    if (!filename) return;
+    fetch('/api/progress/save-by-file', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      credentials: 'same-origin',
+      body: JSON.stringify({ filename: filename, correct_count: correct, total_count: total })
+    }).then(function (res) { return res.json(); })
+      .then(function (json) {
+        if (json.score !== undefined) console.log('[nqGrading] 저장됨: ' + correct + '/' + total + ' (' + json.score + '%)');
+      }).catch(function () {});
+  }
+
+  $(document).ready(function () {
+    var chkEl = document.getElementById('chk');
+    if (!chkEl) return;
+    var observer = new MutationObserver(function (mutations) {
+      mutations.forEach(function (m) {
+        if (m.type === 'attributes' && m.attributeName === 'id' && chkEl.id === 'done') {
+          observer.disconnect();
+          setTimeout(function () {
+            var qa = document.querySelectorAll('.itm-lst button.itm').length;
+            var qr = document.querySelectorAll('.itm-lst button.text-success, .itm-lst button.fw-bold.text-success').length;
+            nqSaveDragResult(qr, qa);
+          }, 0);
+        }
+      });
+    });
+    observer.observe(chkEl, { attributes: true });
+  });
 
   // CSS
   var style = document.createElement('style');

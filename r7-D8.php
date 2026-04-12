@@ -7,22 +7,22 @@
                 Wahl
             </div>
             <div class="col-12" id="itms">
-                <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm px-2" id="1">
+                <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so px-2" id="1">
                     Wann denn?
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm px-2" id="2">
+                <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so px-2" id="2">
                     Da habe ich Zeit.
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm px-2" id="3">
+                <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so px-2" id="3">
                     Hast du am Samstag Zeit?
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm px-2" id="4">
+                <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so px-2" id="4">
                     Sonntagabend ist gut.
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm px-2" id="5">
+                <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so px-2" id="5">
                     Leider kann ich nicht.
                 </button>
-                <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm px-2" id="6">
+                <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so px-2" id="6">
                     Und am Sonntagabend?
                 </button>
             </div>

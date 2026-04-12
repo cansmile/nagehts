@@ -353,49 +353,40 @@
   // 오답 시 정답 텍스트를 노랑(.ra)으로 표시
   window.nqValidateGrading = function () {
     var qa = 0, qr = 0;
-    // 정답 맵 생성: ansN → 버튼 텍스트
+    // 정답 맵 생성: ansN → 버튼 텍스트 배열
     var answerMap = {};
-    $('.itm-lst button').each(function () {
+    $('.itm-lst button, #itms button').each(function () {
       var classes = this.className.split(/\s+/);
       for (var i = 0; i < classes.length; i++) {
         var m = classes[i].match(/^ans(\d+)$/);
-        if (m) { answerMap[m[1]] = $.trim($(this).text()); break; }
-      }
-    });
-    // 소스 영역(#itms)에 남은 미배치 버튼도 맵에 추가
-    $('#itms button').each(function () {
-      var classes = this.className.split(/\s+/);
-      for (var i = 0; i < classes.length; i++) {
-        var m = classes[i].match(/^ans(\d+)$/);
-        if (m) { answerMap[m[1]] = $.trim($(this).text()); break; }
+        if (m) {
+          if (!answerMap[m[1]]) answerMap[m[1]] = [];
+          answerMap[m[1]].push($.trim($(this).text()));
+          break;
+        }
       }
     });
 
+    // 개별 아이템 단위로 채점
     $('.itm-lst').each(function () {
-      qa++;
       var $lst = $(this);
-      var btn = $lst.find('button');
       var targetGroup = parseInt($lst.attr('id').substr(4), 10);
-      if (btn.length) {
-        var ansGroups = [];
-        var classes = btn[0].className.split(/\s+/);
-        for (var i = 0; i < classes.length; i++) {
-          var m = classes[i].match(/^ans(\d+)$/);
-          if (m) { ansGroups.push(parseInt(m[1], 10)); }
-        }
-        if (ansGroups.indexOf(targetGroup) !== -1) {
-          btn.addClass('ca text-success');
+      $lst.find('button').each(function () {
+        qa++;
+        var ansGroup = getAnswerGroup(this);
+        if (ansGroup === targetGroup) {
+          $(this).addClass('ca text-success');
           qr++;
         } else {
-          btn.addClass('wa');
-          /* 오답 옆에 정답 표시 */
-          var correctText = answerMap[String(targetGroup)] || '';
-          if (correctText) {
-            $('<span class="ra ms-1">' + $('<span>').text(correctText).html() + '</span>')
-              .insertAfter(btn);
+          $(this).addClass('wa');
+          var correctTexts = answerMap[String(targetGroup)] || [];
+          if (correctTexts.length) {
+            var safeText = $('<span>').text(correctTexts.join(', ')).html();
+            $('<span class="ra ms-1">' + safeText + '</span>')
+              .insertAfter($(this));
           }
         }
-      }
+      });
     });
     return { qa: qa, qr: qr };
   };
@@ -424,7 +415,7 @@
         if (m.type === 'attributes' && m.attributeName === 'id' && chkEl.id === 'done') {
           observer.disconnect();
           setTimeout(function () {
-            var qa = document.querySelectorAll('.itm-lst').length;
+            var qa = document.querySelectorAll('.itm-lst button.itm').length;
             var qr = document.querySelectorAll('.itm-lst button.text-success').length;
             nqSaveDragResult(qr, qa);
           }, 0);

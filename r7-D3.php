@@ -171,7 +171,7 @@
         $("span.wd").addClass("mx-1 my-1 py-1 px-1 d-inline-block");
         var an = new Array();
         var an = ["Möchtest", "kann", "muss", "Kannst", "kann", "Darf", "Will",
-            "möchte", "Darf", "darf"
+            "möchte", ["Darf", "darf"], "darf"
         ];
 
         $(document).ready(function () {

@@ -1350,12 +1350,13 @@ button.itm:active,
     border-radius: 16px !important;
     border: 2px solid #e2e8f0 !important;
     border-style: solid !important;
-    background: #f8fafc;
     transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.itm-lst:not([class*="bg-"]) {
+    background: #f8fafc;
 }
 .itm-lst:hover {
     border-color: #94a3b8 !important;
-    background: #f1f5f9;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 

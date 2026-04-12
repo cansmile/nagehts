@@ -678,7 +678,7 @@
 
                     var _r = nqValidateGrading();
 
-                    var qa = $(".okay").length; /* 전체 문항 수 */
+                    var qa = _r.qa; /* 전체 문항 수 */
                     var qr = _r.qr; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */

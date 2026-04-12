@@ -142,15 +142,15 @@
                             <div class="accordion-body">
                                 <div class="row p-1 m-2 border border-dark rounded">
                                     <div class="py-2 col-4">neutral</div>
-                                    <div class="py-2 col-8">Tim<strong>spielt</strong> jeden Samstag Fußball.</div>
+                                    <div class="py-2 col-8">Tim <strong>spielt</strong> jeden Samstag Fußball.</div>
                                     <div class="py-2 col-4">Wunsch<small>(소망)</small></div>
-                                    <div class="py-2 col-8">Er<strong><u>möchte</u></strong> Pilot<u>werden</u>.</div>
+                                    <div class="py-2 col-8">Er <strong><u>möchte</u></strong> Pilot <u>werden</u>.</div>
                                     <div class="py-2 col-4">Vorteile<small>(장점)</small></div>
-                                    <div class="py-2 col-8">Er<strong><u>kann</u></strong> immer<strong>fliegen</strong>.
+                                    <div class="py-2 col-8">Er <strong><u>kann</u></strong> immer <strong>fliegen</strong>.
                                         (Ich fliege gern.)
                                     </div>
                                     <div class="py-2 col-4">Nachteile<small>(단점/중요)</small></div>
-                                    <div class="py-2 col-8">Ein Pilot<strong><u>muss</u></strong> auch nachts<strong><u>arbeiten</u></strong>.
+                                    <div class="py-2 col-8">Ein Pilot <strong><u>muss</u></strong> auch nachts <strong><u>arbeiten</u></strong>.
                                         (Ich arbeite nicht gern.)
                                     </div>
                                 </div>

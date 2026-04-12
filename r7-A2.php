@@ -13,8 +13,8 @@
                         Tanzkurs<small><span class="tran"><br>댄스강좌<br>(Sa. 18
                                 Uhr)</span></small>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm" id="2">
-                        Führung in der Gemäldegalerie<small><span class="tran"><br>미술관 안내 관람<br>(Fr. 11
+                    <button type="button" class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark itm so" id="2">
+                        Stadtführung in der Gemäldegalerie<small><span class="tran"><br>미술관 안내 관람<br>(Fr. 11
                                 Uhr)</span></small>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm so" id="3">

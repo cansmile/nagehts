@@ -90,14 +90,12 @@
     var ttl = target.querySelector('.ttl');
     var isSingleItem = target.classList.contains('1itm');
 
-    // 오답: 소리 재생 후 snap back
+    // 정답/오답 소리만 다르게 재생, 모두 배치
     if (ansGroup !== targetGroup) {
       if (typeof x !== 'undefined' && x.play) x.play();
-      return false;
+    } else {
+      if (typeof o !== 'undefined' && o.play) o.play();
     }
-
-    // 정답: 소리 재생 후 배치
-    if (typeof o !== 'undefined' && o.play) o.play();
 
     dragging.classList.add('w-100', 'btn-light');
     dragging.classList.remove('btn-secondary');
@@ -237,7 +235,7 @@
     attachDragAreaTouch();
   }
 
-  // .ttl 클릭 시 선택된 아이템 넣기 (기존 호환) — 정답만 배치
+  // .ttl 클릭 시 선택된 아이템 넣기 (기존 호환) — 모두 배치, 소리만 구분
   $(document).on('click', '.ttl', function () {
     var t = $(this);
     var tn = parseInt($(this).parent().attr('id').substr(4), 10);
@@ -246,13 +244,14 @@
 
     $('.btn-secondary').each(function () {
       var ansGroup = getAnswerGroup(this);
-      if (ansGroup !== tn) {
-        if (typeof x !== 'undefined' && x.play) x.play();
-        $(this).removeClass('btn-secondary'); // 선택 해제
-        return;
+      if (!placed) {
+        if (ansGroup !== tn) {
+          if (typeof x !== 'undefined' && x.play) x.play();
+        } else {
+          if (typeof o !== 'undefined' && o.play) o.play();
+        }
+        placed = true;
       }
-      // 정답: 배치
-      if (!placed) { if (typeof o !== 'undefined' && o.play) o.play(); placed = true; }
       $(this).addClass('w-100 btn-light').removeClass('btn-secondary');
       $(this).insertAfter(t);
       if (isSingle) { t.remove(); }
@@ -269,11 +268,49 @@
     if (chkEl) {
       setTimeout(function () { $(chkEl).trigger('click'); }, 300);
     } else {
-      // 채점 버튼 없으면 직접 저장 (전부 정답이므로 qa=qr)
-      var qa = document.querySelectorAll('.itm-lst').length;
-      nqSaveDragResult(qa, qa);
+      // 채점 버튼 없으면 직접 저장
+      var qa = document.querySelectorAll('.itm-lst button.itm').length;
+      var qr = qa; // chk 없으면 검증 불가, 전부 정답 처리
+      nqSaveDragResult(qr, qa);
     }
   }
+
+  // --- 채점 검증 (공유 함수) ---
+  window.nqValidateGrading = function () {
+    var qa = 0, qr = 0;
+    var answerMap = {};
+    $('.itm-lst button, #itms button').each(function () {
+      var classes = this.className.split(/\s+/);
+      for (var i = 0; i < classes.length; i++) {
+        var m = classes[i].match(/^ans(\d+)$/);
+        if (m) {
+          if (!answerMap[m[1]]) answerMap[m[1]] = [];
+          answerMap[m[1]].push($.trim($(this).text()));
+          break;
+        }
+      }
+    });
+    $('.itm-lst').each(function () {
+      var $lst = $(this);
+      var targetGroup = parseInt($lst.attr('id').substr(4), 10);
+      $lst.find('button').each(function () {
+        qa++;
+        var ansGroup = getAnswerGroup(this);
+        if (ansGroup === targetGroup) {
+          $(this).addClass('ca text-success');
+          qr++;
+        } else {
+          $(this).addClass('wa');
+          var correctTexts = answerMap[String(targetGroup)] || [];
+          if (correctTexts.length) {
+            var safeText = $('<span>').text(correctTexts.join(', ')).html();
+            $('<span class="ra ms-1">' + safeText + '</span>').insertAfter($(this));
+          }
+        }
+      });
+    });
+    return { qa: qa, qr: qr };
+  };
 
   $(document).ready(function () {
     if ($('#itms').length) $('.itm').appendTo('#itms');
@@ -315,7 +352,7 @@
         if (m.type === 'attributes' && m.attributeName === 'id' && chkEl.id === 'done') {
           observer.disconnect();
           setTimeout(function () {
-            var qa = document.querySelectorAll('.itm-lst').length;
+            var qa = document.querySelectorAll('.itm-lst button.itm').length;
             var qr = document.querySelectorAll('.itm-lst button.text-success').length;
             nqSaveDragResult(qr, qa);
           }, 0);

@@ -17,7 +17,7 @@
                         <tbody>
                             <tr>
                                 <td class="p-0 pt-2">
-                                    <div class="rounded bg-info text-white p-3" style="font-size: 1.5em;">
+                                    <div class="rounded bg-info text-dark p-3" style="font-size: 1.5em;">
                                         <strong>BELEI</strong> Maria, gehen wir
                                         heute <strong>MITGTA</strong> zum Eis
                                         essen?<br>Liebe Grüße Tim

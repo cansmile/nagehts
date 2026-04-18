@@ -1,4 +1,16 @@
 <?php require_once("heading.php"); ?>
+    <style>
+        .answer-field-wide {
+            min-width: 170px;
+            max-width: 240px;
+        }
+
+        @media (max-width: 575.98px) {
+            .answer-field-wide {
+                min-width: 140px;
+            }
+        }
+    </style>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -58,7 +70,7 @@
                                     <div class="input-group">Ich habe&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-1">.
                                     </div>
                                     <span class="tran"><small>열이
@@ -72,7 +84,7 @@
                                     <div class="input-group">Ich habe&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-2">.
                                     </div>
                                     <span
@@ -100,7 +112,7 @@
                                     <div class="input-group">Ich habe&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-3">.
                                     </div>
                                     <span
@@ -114,7 +126,7 @@
                                     <div class="input-group">Mein&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-4">&nbsp;tut
                                         weh.
                                     </div>
@@ -143,7 +155,7 @@
                                     <div class="input-group">Ich habe&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-5">.
                                     </div>
                                     <span
@@ -157,7 +169,7 @@
                                     <div class="input-group">
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-6">&nbsp;tut
                                         weh.
                                     </div>
@@ -186,7 +198,7 @@
                                     <div class="input-group">Ich habe&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-7">.
                                     </div>
                                     <span class="tran"><small>이가
@@ -200,7 +212,7 @@
                                     <div class="input-group">Mein&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-8">&nbsp;tut
                                         weh.
                                     </div>
@@ -229,7 +241,7 @@
                                     <div class="input-group">Mein&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-9">&nbsp;tut
                                         weh.
                                     </div>
@@ -244,7 +256,7 @@
                                     <div class="input-group">Ich habe&nbsp;
                                         <input autocomplete="off" type="text"
                                             class="form-control q border-bottom-only border border-dark rounded-0
-                                            col-auto text-center text-capitalize t-6"
+                                            col-auto text-center text-capitalize t-6 answer-field-wide"
                                             aria-label="." id="qst-10">.
                                     </div>
                                     <span

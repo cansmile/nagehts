@@ -1,8 +1,24 @@
 <?php require_once("heading.php"); ?>
+    <style>
+        .nq-a5 .q,
+        .nq-a5 .ra {
+            min-height: 42px;
+        }
+
+        .nq-a5 .ra {
+            display: inline-flex;
+            align-items: center;
+            padding: .35rem .75rem;
+            margin-top: .35rem;
+            border: 1px solid rgba(255, 193, 7, .9);
+            border-radius: .375rem;
+            background: rgba(255, 193, 7, .18);
+        }
+    </style>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
-    <section class="nq-exercise" data-type="fill-blank" data-reihe="9">
+    <section class="nq-exercise nq-a5" data-type="fill-blank" data-reihe="9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -138,6 +154,7 @@
                                     <div class="input-group">
                                         Am dritten <input autocomplete="off" type="text" class="form-control q rounded-0 border-bottom-only me-1 px-2 py-1
                                             text-center border-dark col-sm-12 col-md-6 col-md col-lg t-6"
+                                            style="min-width: 170px;"
                                             aria-label="." id="qst-4">ist Tag
                                         der deutschen Einheit.
                                     </div>

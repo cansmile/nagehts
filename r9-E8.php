@@ -91,7 +91,14 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["wir", "wir", "Ihnen", "Sie", "uns", "uns"];
+        var an = [
+            ["wir", "Wir"],
+            ["wir", "Wir"],
+            ["Ihnen", "ihnen"],
+            ["Sie", "sie"],
+            "uns",
+            "uns"
+        ];
         $(document).ready(function () {
             /* 소리 출력 전역 변수와 함수 */
             var sen = new Array(),
@@ -340,7 +347,11 @@
                     pan = [1];
                     for (var p = 0; p < pan.length; p++) {
                         var pann = "#qst-" + pan[p];
-                        $(pann).val(an[(pan[p] - 1)]);
+                        var preset = an[(pan[p] - 1)];
+                        if ($.isArray(preset)) {
+                            preset = preset[0];
+                        }
+                        $(pann).val(preset);
                         $(pann).addClass("bg-success text-white fw-bold");
                         $(pann).prop("disabled", true);
                     }

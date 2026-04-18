@@ -21,12 +21,12 @@
                         waren
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so"
                         id="2">
                         hatte
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so"
                         id="3">
                         hatte
                     </button>
@@ -36,12 +36,12 @@
                         warst
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans11 btn-md btn-outline-dark itm so"
                         id="5">
                         hatten
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so"
                         id="6">
                         waren
                     </button>
@@ -51,7 +51,7 @@
                         wart
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so"
                         id="8">
                         hattest
                     </button>
@@ -61,7 +61,7 @@
                         waren
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so"
                         id="10">
                         hatten
                     </button>
@@ -76,12 +76,12 @@
                         war
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans12 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so"
                         id="13">
                         hattet
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans15 btn-md btn-outline-dark itm so"
                         id="14">
                         hatten
                     </button>
@@ -91,7 +91,7 @@
                         waren
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans10 btn-md btn-outline-dark itm so"
+                        class="mt-1 mx-1 btn ans16 btn-md btn-outline-dark itm so"
                         id="16">
                         hatten
                     </button>
@@ -151,7 +151,7 @@
                                 </th>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-8">
+                                        style="min-width: 100px;" id="lst-9">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -159,7 +159,7 @@
                                 </td>
                                 <td class="bg-light">
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-9">
+                                        style="min-width: 100px;" id="lst-10">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -224,7 +224,7 @@
                                 </th>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-10">
+                                        style="min-width: 100px;" id="lst-11">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -232,7 +232,7 @@
                                 </td>
                                 <td class="bg-light">
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-11">
+                                        style="min-width: 100px;" id="lst-12">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -240,7 +240,7 @@
                                 </td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-10">
+                                        style="min-width: 100px;" id="lst-13">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -290,7 +290,7 @@
                                 </td>
                                 <td class="bg-white">
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-3">
+                                        style="min-width: 100px;" id="lst-8">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -304,7 +304,7 @@
                                 </th>
                                 <td class="bg-light">
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-12">
+                                        style="min-width: 100px;" id="lst-14">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -312,7 +312,7 @@
                                 </td>
                                 <td>
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-10">
+                                        style="min-width: 100px;" id="lst-15">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -320,7 +320,7 @@
                                 </td>
                                 <td class="bg-light">
                                     <div class="itm-lst 1itm d-inline-block px-0 m-0"
-                                        style="min-width: 100px;" id="lst-10">
+                                        style="min-width: 100px;" id="lst-16">
                                         <h2
                                             class="btn btn-warning btn-xl ttl w-100">
                                             ▼ </h2>
@@ -392,8 +392,7 @@
                         "개를 맞히셨네요!<br>" + st + "</h4>");
                         $(this).attr("id","done");
 
-                    // $(".btn-lg").text().appendTo($(this)
-                        .closest("td"));
+                    // $(".btn-lg").text().appendTo($(this).closest("td"));
                 } else {
                     $("div.itm-lst").each(function (idx) {
                         if (!$(this).find("button")

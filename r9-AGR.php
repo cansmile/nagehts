@@ -75,7 +75,7 @@
                     <tbody>
                     <tr>
                         <th scope="row" width="50">1
-                        </td>
+                        </th>
                         <td width="50">
                             <button type="button" id="eins" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -87,7 +87,7 @@
                     </tr>
                     <tr>
                         <th scope="row">2
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="zwei" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -99,7 +99,7 @@
                     </tr>
                     <tr>
                         <th scope="row">3
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="drei" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -111,7 +111,7 @@
                     </tr>
                     <tr>
                         <th scope="row">4
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="vier" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -123,7 +123,7 @@
                     </tr>
                     <tr>
                         <th scope="row">5
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="fünf" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -140,7 +140,7 @@
                     </tr>
                     <tr>
                         <th scope="row">6
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="sechs" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -152,7 +152,7 @@
                     </tr>
                     <tr>
                         <th scope="row">7
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="sieben" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -164,7 +164,7 @@
                     </tr>
                     <tr>
                         <th scope="row">8
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="acht" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -176,7 +176,7 @@
                     </tr>
                     <tr>
                         <th scope="row">9
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="neun" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -193,7 +193,7 @@
                     </tr>
                     <tr>
                         <th scope="row">10
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="zehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -211,7 +211,7 @@
                     <tbody>
                     <tr>
                         <th scope="row" width="50">11
-                        </td>
+                        </th>
                         <td width="50">
                             <button type="button" id="elf"
                                     class="so btn btn-outline-danger">▶
@@ -227,7 +227,7 @@
                     </tr>
                     <tr>
                         <th scope="row">12
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="zwölf" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -244,7 +244,7 @@
                     </tr>
                     <tr>
                         <th scope="row">13
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="derizehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -256,7 +256,7 @@
                     </tr>
                     <tr>
                         <th scope="row">14
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="vierzehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -268,7 +268,7 @@
                     </tr>
                     <tr>
                         <th scope="row">15
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="fünfzehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -280,7 +280,7 @@
                     </tr>
                     <tr>
                         <th scope="row">16
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="sechzehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -297,7 +297,7 @@
                     </tr>
                     <tr>
                         <th scope="row">17
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="siebzehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -309,7 +309,7 @@
                     </tr>
                     <tr>
                         <th scope="row">18
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="achtzehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -321,7 +321,7 @@
                     </tr>
                     <tr>
                         <th scope="row">19
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="neunzehn" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -332,7 +332,7 @@
                         <td>der neunzehnte</td>
                     </tr>
                     <th scope="row">20
-                    </td>
+                    </th>
                     <td>
                         <button type="button" id="zwanzig" class="so btn btn-outline-danger">▶</button>
                     </td>
@@ -350,7 +350,7 @@
                     <tbody>
                     <tr>
                         <th scope="row" width="50">21
-                        </td>
+                        </th>
                         <td width="50">
                             <button type="button" id="einundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -366,7 +366,7 @@
                     </tr>
                     <tr>
                         <th scope="row">22
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="zweiundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -387,7 +387,7 @@
                     </tr>
                     <tr>
                         <th scope="row">23
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="dreiundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -403,7 +403,7 @@
                     </tr>
                     <tr>
                         <th scope="row">24
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="vierundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -419,7 +419,7 @@
                     </tr>
                     <tr>
                         <th scope="row">25
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="fünfundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -435,7 +435,7 @@
                     </tr>
                     <tr>
                         <th scope="row">26
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="sechsundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -451,7 +451,7 @@
                     </tr>
                     <tr>
                         <th scope="row">27
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="siebenundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -467,7 +467,7 @@
                     </tr>
                     <tr>
                         <th scope="row">28
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="achtundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -488,7 +488,7 @@
                     </tr>
                     <tr>
                         <th scope="row">29
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="neunundzwanzig"
                                     class="so btn btn-outline-danger">▶
@@ -504,7 +504,7 @@
                     </tr>
                     <tr>
                         <th scope="row">30
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="dreißig" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -522,7 +522,7 @@
                     <tbody>
                     <tr>
                         <th scope="row" width="50">40
-                        </td>
+                        </th>
                         <td width="50">
                             <button type="button" id="vierzig"
                                     class="so btn btn-outline-danger">▶
@@ -538,7 +538,7 @@
                     </tr>
                     <tr>
                         <th scope="row">50
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="fünfzig" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -550,7 +550,7 @@
                     </tr>
                     <tr>
                         <th scope="row">60
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="sechzig" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -562,7 +562,7 @@
                     </tr>
                     <tr>
                         <th scope="row">70
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="siebzig" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -574,7 +574,7 @@
                     </tr>
                     <tr>
                         <th scope="row">80
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="achtzig" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -586,7 +586,7 @@
                     </tr>
                     <tr>
                         <th scope="row">90
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="neunzig" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -598,7 +598,7 @@
                     </tr>
                     <tr>
                         <th scope="row">100
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="hundert" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -610,7 +610,7 @@
                     </tr>
                     <tr>
                         <th scope="row">101
-                        </td>
+                        </th>
                         <td>
                             <button type="button" id="hunderteins" class="so btn btn-outline-danger">▶</button>
                         </td>
@@ -624,14 +624,14 @@
                     </tr>
                     <tr>
                         <th scope="row">&nbsp;
-                        </td>
+                        </th>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <th scope="row">&nbsp;
-                        </td>
+                        </th>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>

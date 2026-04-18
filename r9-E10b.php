@@ -1,5 +1,14 @@
 <?php require_once("heading.php"); ?>
-    <section class="nq-exercise" data-type="fill-blank" data-reihe="9">
+    <style>
+        .nq-e10b .table {
+            margin-bottom: 1.1rem;
+        }
+
+        .nq-e10b .q {
+            min-width: 120px !important;
+        }
+    </style>
+    <section class="nq-exercise nq-e10b" data-type="fill-blank" data-reihe="9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -172,7 +181,7 @@
         $(".ant").hide();
         var an = new Array();
         var an = ["과거 분사형", "과거", "일상회화", "-ieren동사", "지속",
-            "상태의 변화", "bleiben", "werden"
+            "상태의 변화", ["bleiben", "werden"], ["werden", "bleiben"]
         ];
         $(document).ready(function () {
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */

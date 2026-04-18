@@ -687,8 +687,8 @@
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-                    var qa = $(".q").length; /* 전체 문항 수 */
-                    var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                    var qa = $(".q").not(".prefilled").length; /* 전체 문항 수 */
+                    var qr = $(".q.bg-success").not(".prefilled").length; /* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
                     /* 분류 기준은 100%, 80%, 60%, 40% */
@@ -724,7 +724,7 @@
                 var pann = "#qst-" + pan[p];
                 $(pann).val(an[(pan[p] - 1)]);
                 $(pann).prop("disabled", true);
-                $(pann).addClass("bg-success text-white fw-bold");
+                $(pann).addClass("bg-success text-white fw-bold prefilled");
                 $(pann).closest("tr").find(".tran").show();
             }
         });

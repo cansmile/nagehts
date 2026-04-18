@@ -32,7 +32,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
                         <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
-                            border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-1">Frühling –
+                            border-dark mx-1 t_add_3" style="min-width: 120px;" aria-label="." id="qst-1">Frühling –
                         Hase –
                         Eier –
                         Schokolade
@@ -43,9 +43,9 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
                         <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
-                            border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-2">Maske –
+                            border-dark mx-1 t_add_3" style="min-width: 120px;" aria-label="." id="qst-2">Maske –
                         Kostüm –
-                        Karnerval
+                        Karneval
                         – Rosenmontag
                         <span class="tran"><strong>카니발</strong>&nbsp;<small>가면 -
                                 의상 - 카니발 - 장미의 월요일</small></span>
@@ -54,7 +54,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
                         <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
-                            border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-3">Bier – Musik
+                            border-dark mx-1 t_add_3" style="min-width: 120px;" aria-label="." id="qst-3">Bier – Musik
                         – Brezel
                         -
                         München
@@ -65,7 +65,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
                         <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
-                            border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-4">Kranz
+                            border-dark mx-1 t_add_3" style="min-width: 120px;" aria-label="." id="qst-4">Kranz
                         –Weihnachtsbaum–
                         Geschenke – Familie
                         <span class="tran"><strong>크리스마스</strong>&nbsp;<small>화관
@@ -75,7 +75,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="input-group lh350">
                         <input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
-                            border-dark mx-1 t_add_3" style="min-width: 150px;" aria-label="." id="qst-5">Alter –
+                            border-dark mx-1 t_add_3" style="min-width: 120px;" aria-label="." id="qst-5">Alter –
                         Geburtstagstorte –
                         Kerze – Party – Geschenke
                         <span class="tran"><strong>생일</strong>&nbsp;<small>나이 -

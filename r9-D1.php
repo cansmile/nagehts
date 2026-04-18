@@ -30,11 +30,11 @@
                         <span class="tran"><br />수요일까지 나에게 대답을 해주시던지
                             전화해주렴</span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="6">
+                    <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="6">
                         Ich werde zwanzig.
                         <span class="tran"><br />내가 20살이 되기 때문이야.</span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm so" id="7">
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark itm so" id="7">
                         das möchte ich gern mit dir und meinen anderen Freunden
                         feiern.
                         <span class="tran"><br />너와 나의 다른 친구들과 생일파티를 하고자
@@ -275,8 +275,8 @@
                             /* 올바른 순서 전체 편지 + 번역 피드백 */
                             var correctOrder = [
                                 {de: "Liebe Julia,", ko: "사랑하는 율리아"},
-                                {de: "das möchte ich gern mit dir und meinen anderen Freunden feiern.", ko: "너와 나의 다른 친구들과 생일파티를 하고자 해."},
                                 {de: "Ich werde zwanzig.", ko: "내가 20살이 되기 때문이야."},
+                                {de: "das möchte ich gern mit dir und meinen anderen Freunden feiern.", ko: "너와 나의 다른 친구들과 생일파티를 하고자 해."},
                                 {de: "Ich lade dich herzlich ein.", ko: "너를 진심으로 초대한다."},
                                 {de: "Die Party ist am Samstag, 20. 06. um 17.00 Uhr.", ko: "파티는 6월 20일 토요일 17시야."},
                                 {de: "Hast du Zeit?", ko: "시간있니?"},

@@ -46,11 +46,11 @@
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-5">
                         da Zeit?
                         <span class="tran"><br><small>너희는 그 때에 시간이
-                                있니?</small></span>Bitte antwortet<input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                                있니?</small></span> Bitte antwortet<input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-6">
-                        bis Donnerstag oder<input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
+                        bis Donnerstag oder ruft<input autocomplete="off" type="text" class="form-control q ps-0 rounded-0 border-bottom-only mx-1 px-2 py-1 text-center
                             border-dark mx-1 t-6" style="min-width: 150px;" aria-label="." id="qst-7">
-                        ruft mich an.
+                        an.
                         <span class="tran"><br><small>목요일까지 나에게 대답해주거나
                                 전화해줘.</small></span><br>
                     </div>

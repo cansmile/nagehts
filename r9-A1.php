@@ -78,7 +78,7 @@
                 <div style="min-height: 240px;"
                     class="rounded-top border bg-danger border-white itm-lst col-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-2"
                     id="lst-1">
-                    <h2 class="btn btn-xl bg-white ttl w-100">Weinachten</h2>
+                    <h2 class="btn btn-xl bg-white ttl w-100">Weihnachten</h2>
                     &nbsp;
                 </div>
                 <div style="min-height: 240px;"
@@ -144,6 +144,9 @@
         $("#0").hide();
         $(".tran").hide();
         $("#chk").hide();
+        window.nqAltAnswerGroups = {
+            "3": [5]
+        };
         $(document).ready(function () {
             /* 소리 출력 전역 변수와 함수 */
             var sen = new Array(),

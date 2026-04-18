@@ -15,6 +15,9 @@
                 </h2>
                 <h3>[ <small>정답을 입력하면 입력란이 초록색으로 표시되고,<br> 오답이 될 때는 입력란이 붉게
                         표시됩니다.</small> ]</h3>
+                <h3>[ <small><button type="button"
+                            class="btn disabled btn-sm btn-<?php echo( $color ); ?>">HV</button>
+                        버튼을 눌러 듣기를 2번 완료하면 문장의 번역이 나옵니다.</small> ]</h3>
             </div>
         </div>
         <div class="row">

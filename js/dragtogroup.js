@@ -26,14 +26,33 @@
   // o = correct sound, x = wrong sound
 
   // --- Utility ---
-  function getAnswerGroup(el) {
-    // button.itm의 ans{N} 클래스에서 번호 추출
+  function getAnswerGroups(el) {
+    // button.itm의 ans{N} 클래스와 페이지별 추가 허용 그룹을 함께 추출
     var classes = el.className.split(/\s+/);
+    var groups = [];
     for (var i = 0; i < classes.length; i++) {
       var match = classes[i].match(/^ans(\d+)$/);
-      if (match) return parseInt(match[1], 10);
+      if (match) groups.push(parseInt(match[1], 10));
     }
-    return 0;
+
+    var extraGroups = window.nqAltAnswerGroups && window.nqAltAnswerGroups[String(el.id)];
+    if (Array.isArray(extraGroups)) {
+      for (var j = 0; j < extraGroups.length; j++) {
+        var group = parseInt(extraGroups[j], 10);
+        if (group && groups.indexOf(group) === -1) groups.push(group);
+      }
+    }
+
+    return groups;
+  }
+
+  function getAnswerGroup(el) {
+    var groups = getAnswerGroups(el);
+    return groups.length ? groups[0] : 0;
+  }
+
+  function isAllowedAnswerGroup(el, targetGroup) {
+    return getAnswerGroups(el).indexOf(targetGroup) !== -1;
   }
 
   function getTargetGroup(el) {
@@ -113,11 +132,10 @@
   function handleDrop(target) {
     if (!dragging || !target) return false;
 
-    var ansGroup = getAnswerGroup(dragging);
     var targetGroup = getTargetGroup(target);
 
     // 오답: 소리 재생 후 snap back
-    if (ansGroup !== targetGroup) {
+    if (!isAllowedAnswerGroup(dragging, targetGroup)) {
       if (typeof x !== 'undefined' && x.play) x.play();
       return false;
     }
@@ -314,8 +332,7 @@
     var placed = false;
 
     $('.btn-secondary').each(function () {
-      var ansGroup = getAnswerGroup(this);
-      if (ansGroup !== tn) {
+      if (!isAllowedAnswerGroup(this, tn)) {
         if (typeof x !== 'undefined' && x.play) x.play();
         $(this).removeClass('btn-secondary');
         return;
@@ -353,16 +370,16 @@
   // 오답 시 정답 텍스트를 노랑(.ra)으로 표시
   window.nqValidateGrading = function () {
     var qa = 0, qr = 0;
-    // 정답 맵 생성: ansN → 버튼 텍스트 배열
+    // 정답 맵 생성: 허용 그룹 → 버튼 텍스트 배열
     var answerMap = {};
     $('.itm-lst button, #itms button').each(function () {
-      var classes = this.className.split(/\s+/);
-      for (var i = 0; i < classes.length; i++) {
-        var m = classes[i].match(/^ans(\d+)$/);
-        if (m) {
-          if (!answerMap[m[1]]) answerMap[m[1]] = [];
-          answerMap[m[1]].push($.trim($(this).text()));
-          break;
+      var allowedGroups = getAnswerGroups(this);
+      for (var i = 0; i < allowedGroups.length; i++) {
+        var groupKey = String(allowedGroups[i]);
+        if (!answerMap[groupKey]) answerMap[groupKey] = [];
+        var text = $.trim($(this).text());
+        if (answerMap[groupKey].indexOf(text) === -1) {
+          answerMap[groupKey].push(text);
         }
       }
     });
@@ -373,8 +390,7 @@
       var targetGroup = parseInt($lst.attr('id').substr(4), 10);
       $lst.find('button').each(function () {
         qa++;
-        var ansGroup = getAnswerGroup(this);
-        if (ansGroup === targetGroup) {
+        if (isAllowedAnswerGroup(this, targetGroup)) {
           $(this).addClass('ca text-success');
           qr++;
         } else {

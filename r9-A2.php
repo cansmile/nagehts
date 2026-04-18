@@ -148,7 +148,7 @@
                                             ▼ </h2>
                                     </div>, auch Fastnacht oder Fasching
                                     genannt. Am Rosenmontag gibt es große
-                                    Karnervalumzüge. Dafür sind Köln, Mainz und
+                                    Karnevalsumzüge. Dafür sind Köln, Mainz und
                                     München bekannt.
                                     <span class="tran"><small>곧 겨울이 가고 봄이 오면
                                             기뻐한다. 이시기에 사람들은 카니발을 하고 이것을 사육제라고도
@@ -304,8 +304,7 @@
                         "개를 맞히셨네요!<br>" + st + "</h4>");
                         $(this).attr("id","done");
 
-                    // $(".btn-lg").text().appendTo($(this)
-                        .closest("td"));
+                    // $(".btn-lg").text().appendTo($(this).closest("td"));
                 } else {
                     $("div.itm-lst").each(function (idx) {
                         if (!$(this).find("button")

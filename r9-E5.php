@@ -1,4 +1,10 @@
 <?php require_once("heading.php"); ?>
+    <style>
+        .nq-exercise .tran {
+            display: inline-block;
+            margin: .25rem .35rem .8rem 0;
+        }
+    </style>
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
@@ -235,12 +241,13 @@
                         container: "body"
                     });
                     $(".pop").click(function () {
-                        /* 가장 먼저 지문에 'an' 넣기 */
-                        if (!$(this).siblings().hasClass("an")) {
-                            $(this).addClass("an");
-                            $(this).addClass("btn-warning");
-                            $(this).parent().children().removeClass("btn-light");
-                        }; /* 문제 풀이 정도 업데이트 */
+                        var group = $(this).parent();
+                        /* 같은 보기 안에서는 이전 선택을 취소하고 현재 선택으로 교체 */
+                        group.children().removeClass("an btn-warning");
+                        group.children().addClass("btn-light");
+                        $(this).addClass("an btn-warning");
+                        $(this).removeClass("btn-light");
+                        /* 문제 풀이 정도 업데이트 */
                         var perc = Math.round(($(".an").length / $(".q").length) * 100);
                         $(".progress>.bar").attr("width", perc + "%;");
                     }); /* 팝업 내용 사라지기 */

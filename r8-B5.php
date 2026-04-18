@@ -106,6 +106,7 @@
     </section>
 
     <div id="marg"></div>
+    <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
     <script src="./dev/js/dragtogroup.js"></script>
@@ -116,16 +117,117 @@
         $(".tran").hide();
         $("#chk").hide();
         $(document).ready(function () {
+            var last;
+            var pa = new Array();
+            var players = {};
+            var audioSources = {
+                "1": "./dev/sounds/Reihe 8/r8 B5-1.mp3",
+                "2": "./dev/sounds/Reihe 8/r8 B5-2.mp3",
+                "3": "./dev/sounds/Reihe 8/r8 B5-3.mp3",
+                "4": "./dev/sounds/Reihe 8/r8 B5-4.mp3",
+                "5": "./dev/sounds/Reihe 8/r8 B5-5.mp3",
+                "6": "./dev/sounds/Reihe 8/r8 B5-6.mp3",
+                "7": "./dev/sounds/Reihe 8/r8 B5-7.mp3"
+            };
+
+            $(".so").each(function () {
+                var t = $(this);
+                pa[t.attr("id")] = t.html();
+            });
+
+            function stopAll() {
+                $(".so").each(function () {
+                    $(this).html(pa[$(this).attr("id")]);
+                });
+            }
+
+            function handlePlaybackEnd() {
+                $("div#last").text("");
+                stopAll();
+            }
+
+            function getPlayer(ti) {
+                if (!players[ti]) {
+                    players[ti] = new Howl({
+                        src: [audioSources[ti]],
+                        html5: true,
+                        volume: 1,
+                        format: "mp3",
+                        preload: true,
+                        onloaderror: function () {
+                            $(".alert").append(
+                                "<br /><strong class=\"fw-bold text-dark display-4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                            );
+                            console.log("다시 읽어주세요!");
+                        },
+                        onend: handlePlaybackEnd
+                    });
+                }
+
+                return players[ti];
+            }
+
+            $(".so").on("click", function () {
+                var t = $(this);
+                var ti = t.attr("id");
+                var player = getPlayer(ti);
+
+                if (($("div#last").text() == "" || t.text() == "■") && !t.hasClass(".itm-lst")) {
+                    $("#last").text(ti);
+                    t.text("■");
+                    player.seek(0);
+                    player.play();
+                    last = ti;
+                } else if (last == ti && player.playing()) {
+                    $("#last").text("");
+                    t.html(pa[ti]);
+                    player.pause();
+                }
+            });
+
             /* 정답확인 */
             $("#chk").on("click", function () {
                 var na = "";
                 if ($("#itms").find("button").length < 1) {
                     $(".tran").show();
+                    $(".answer-note").remove();
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-                    var _r = nqValidateGrading();
-                    var qa = _r.qa; /* 전체 문항 수 */
-                    var qr = _r.qr; /* 맞춘 항목 수 */
+                    var qa = 0;
+                    var qr = 0;
+
+                    $(".itm-lst").each(function () {
+                        var targetGroup = parseInt($(this).attr("id").substr(4), 10);
+
+                        $(this).find("button").each(function () {
+                            var button = $(this);
+                            var answerGroup = 0;
+
+                            qa++;
+                            button.removeClass("text-success text-danger fw-bold");
+
+                            this.className.split(/\s+/).forEach(function (cls) {
+                                var match = cls.match(/^ans(\d+)$/);
+                                if (match) {
+                                    answerGroup = parseInt(match[1], 10);
+                                }
+                            });
+
+                            if (answerGroup === targetGroup) {
+                                button.addClass("text-success fw-bold");
+                                qr++;
+                                return;
+                            }
+
+                            button.addClass("text-danger fw-bold");
+                            button.append(
+                                "<div class=\"answer-note small text-dark mt-1\">정답: " +
+                                answerGroup +
+                                "번 그림</div>"
+                            );
+                        });
+                    });
+
                     var pe = (qr / qa) * 100; /* 정답 비율 */
                     var tcl = "white"; /* 기본 문자색 */
                     /* 분류 기준은 100%, 80%, 60%, 40% */
@@ -149,8 +251,7 @@
                         "개를 맞히셨네요!<br>" + st + "</h4>");
                         $(this).attr("id","done");
 
-                    // $(".btn-lg").text().appendTo($(this)
-                        .closest("td"));
+                    // $(".btn-lg").text().appendTo($(this).closest("td"));
                 } else {
                     $("div.itm-lst").each(function (idx) {
                         if (!$(this).find("button")

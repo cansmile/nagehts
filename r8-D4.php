@@ -28,8 +28,9 @@
                         <span class="tran"><br><small>그것은 안좋아! 과일과 채소를 많이 먹어야
                                 하는데.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so text-start" id="3">
+                    <button type="button" class="mt-1 mx-1 btn ans13 btn-md btn-outline-dark itm so text-start hv-only" id="3">
                         Heute verschreibe ich dir ein Medikament!
+                        <small class="d-block text-muted">HV로 확인</small>
                         <span class="tran"><br><small>오늘 약을
                                 처방해줄게!</small></span>
                     </button>
@@ -37,8 +38,9 @@
                         Guten Tag, Frau Doktor!
                         <span class="tran"><br><small>안녕하세요, 선생님!</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so text-start" id="5">
+                    <button type="button" class="mt-1 mx-1 btn ans14 btn-md btn-outline-dark itm so text-start hv-only" id="5">
                         Gute Besserung!
+                        <small class="d-block text-muted">HV로 확인</small>
                         <span class="tran"><br><small>얼른 나으렴!</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so text-start" id="6">
@@ -63,8 +65,9 @@
                         <span class="tran"><br><small>저는 보통 패스트푸드 먹는데, 햄버거나
                                 피자에요.</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans15 btn-md btn-outline-dark itm so text-start" id="11">
+                    <button type="button" class="mt-1 mx-1 btn ans15 btn-md btn-outline-dark itm so text-start hv-only" id="11">
                         Danke schön, Frau Doktor!
+                        <small class="d-block text-muted">HV로 확인</small>
                         <span class="tran"><br><small>고맙습니다, 선생님!</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so text-start" id="12">
@@ -102,6 +105,8 @@
                         </button>
                     </h2>
                     <h3>[ <small>단어를 선택하고 알맞은 위치의 노란 단추를 누르세요.</small> ]</h3>
+                    <h3>[ <small>길이가 긴 보기 문장은 개별 버튼 대신 <button type="button"
+                                class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>로 확인하세요.</small> ]</h3>
                     <h3>[ <small><button type="button"
                                 class="btn disabled btn-sm btn-<?php echo($color); ?>">HV</button>
                             버튼 또는 <button type="button" class="so btn btn-sm btn-outline-secondary disabled">보기</button>
@@ -324,6 +329,9 @@
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
+                        if (t.hasClass("hv-only")) {
+                            return;
+                        }
                         if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
                                 ".itm-lst")) {
                             $("#last").text(ti);

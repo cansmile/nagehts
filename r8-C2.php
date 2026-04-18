@@ -402,6 +402,7 @@
         $(".ant").hide();
 
         var an = new Array();
+        var presetQuestionIds = [1];
         var an = ["Ihr Kopf tut weh. Sie hat Kopfschmerzen.",
             "Ihr Zahn tut weh. Sie hat Zahnschmerzen.",
             "Ihr Bauch tut weh. Sie hat Bauchschmerzen.", [
@@ -643,14 +644,25 @@
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
                             var _r = nqValidateGrading();
+                            var correctTypedCount = 0;
                             $(".itm-lst").each(function () {
                                 if ($(this).find("button.btn").length) {
                                     $(this).find("button.btn").addClass("okay");
                                 }
                             });
-                            var qa = _r.qa + $(".q").length; /* 전체 문항 수 */
-                            var qr = _r.qr + $(".bg-success")
-                            .length; /* 맞춘 항목 수 */
+                            $(".q").each(function () {
+                                var questionId = parseInt($(this).attr("id").substr(4), 10);
+
+                                if (presetQuestionIds.indexOf(questionId) !== -1) {
+                                    return;
+                                }
+
+                                if ($(this).hasClass("bg-success")) {
+                                    correctTypedCount++;
+                                }
+                            });
+                            var qa = _r.qa + ($(".q").length - presetQuestionIds.length); /* 전체 문항 수 */
+                            var qr = _r.qr + correctTypedCount; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */
                             var tcl = "white"; /* 기본 문자색 */
                             /* 분류 기준은 100%, 80%, 60%, 40% */
@@ -682,7 +694,7 @@
                     <?php require "wahl.php"; ?>
                     var pan = new Array(),
                         pann;
-                    pan = [1];
+                    pan = presetQuestionIds;
                     for (var p = 0; p < pan.length; p++) {
                         var pann = "#qst-" + pan[p];
                         $(pann).val(an[(pan[p] - 1)]);

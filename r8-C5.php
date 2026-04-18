@@ -229,14 +229,22 @@
                     /* 정답확인 */
                     $("#chk").on("click", function () {
                         var na = "";
+                        var groupLabels = {
+                            1: "1격 지배동사",
+                            2: "4격 지배동사",
+                            3: "3/4격 지배동사",
+                            4: "3격 지배동사"
+                        };
                         if ($("#itms").find("button").length < 1) {
                             $(".tran").show(); /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
                             /* 개별 아이템 단위 채점 (multi-item 그룹) */
                             var qa = 0, qr = 0;
+                            $(".answer-note").remove();
                             $(".itm-lst").each(function () {
                                 var targetGroup = parseInt($(this).attr("id").substr(4), 10);
                                 $(this).find("button").each(function () {
+                                    var button = $(this);
                                     qa++;
                                     var ansGroup = 0;
                                     var cls = this.className.split(/\s+/);
@@ -245,10 +253,17 @@
                                         if (m) { ansGroup = parseInt(m[1], 10); break; }
                                     }
                                     if (ansGroup === targetGroup) {
-                                        $(this).addClass("text-success fw-bold");
+                                        button.removeClass("text-danger");
+                                        button.addClass("text-success fw-bold");
                                         qr++;
                                     } else {
-                                        $(this).addClass("text-danger fw-bold");
+                                        button.removeClass("text-success");
+                                        button.addClass("text-danger fw-bold");
+                                        button.append(
+                                            "<div class=\"answer-note small text-dark mt-1\">정답: " +
+                                            groupLabels[ansGroup] +
+                                            "</div>"
+                                        );
                                     }
                                 });
                             });

@@ -60,11 +60,23 @@
         </div>
     </section>
     <style>
-        td,
-        th {
+        .nq-job-table td,
+        .nq-job-table th,
+        .nq-job-reference td,
+        .nq-job-reference th {
             height: 80px;
             text-align: center;
             vertical-align: middle;
+        }
+
+        .nq-job-table .tran {
+            display: block;
+            margin-top: 4px;
+            line-height: 1.3;
+        }
+
+        .nq-job-table .itm-lst {
+            margin: 0 auto;
         }
 
     </style>
@@ -90,7 +102,7 @@
             </div>
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <table class="table table-borderless table-striped">
+                    <table class="table table-borderless table-striped nq-job-table nq-job-table-male">
                         <thead>
                             <tr>
                                 <th scope="col" colspan="2" class="text-center">
@@ -107,7 +119,7 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td class="text-primary">Verkäufer <span
-                                        class="tran"><small><br>&nbsp;(남)점원</small></span>
+                                        class="tran"><small>(남)점원</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -122,7 +134,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;웨이터</small></span>
+                                        class="tran"><small>웨이터</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -137,7 +149,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(남)선생님</small></span>
+                                        class="tran"><small>(남)선생님</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -146,7 +158,7 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td class="text-primary">Architekt <span
-                                        class="tran"><small><br>(남)건축가&nbsp;</small></span>
+                                        class="tran"><small>(남)건축가</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -161,7 +173,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(남)의사</small></span>
+                                        class="tran"><small>(남)의사</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -170,7 +182,7 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td class="text-primary">Taxifahrer <span
-                                        class="tran"><small><br>&nbsp;(남)택시기사</small></span>
+                                        class="tran"><small>(남)택시기사</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -185,7 +197,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(남)미용사</small></span>
+                                        class="tran"><small>(남)미용사</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -200,7 +212,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(남)비서</small></span>
+                                        class="tran"><small>(남)비서</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -209,14 +221,14 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td class="text-primary">Ingenieur <span
-                                        class="tran"><small><br>&nbsp;(남)기술자</small></span>
+                                        class="tran"><small>(남)기술자</small></span>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-                    <table class="table table-borderless table-striped">
+                    <table class="table table-borderless table-striped nq-job-table nq-job-table-female">
                         <thead>
                             <tr>
                                 <th scope="col" colspan="2" class="text-center">
@@ -239,7 +251,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(여)점원</small></span>
+                                        class="tran"><small>(여)점원</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -248,7 +260,7 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td class="text-danger">Kellnerin <span
-                                        class="tran"><small><br>&nbsp;웨이트리스</small></span>
+                                        class="tran"><small>웨이트리스</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -257,7 +269,7 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td class="text-danger">Lehrerin <span
-                                        class="tran"><small><br>&nbsp;(여)선생님</small></span>
+                                        class="tran"><small>(여)선생님</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -272,7 +284,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(여)건축가</small></span>
+                                        class="tran"><small>(여)건축가</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -281,7 +293,7 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td class="text-danger">Ärztin <span
-                                        class="tran"><small><br>&nbsp;(여)의사</small></span>
+                                        class="tran"><small>(여)의사</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -296,7 +308,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(여)택시기사</small></span>
+                                        class="tran"><small>(여)택시기사</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -305,7 +317,7 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td class="text-danger">Friseurin <span
-                                        class="tran"><small><br>&nbsp;(여)미용사</small></span>
+                                        class="tran"><small>(여)미용사</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -314,7 +326,7 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td class="text-danger">Sekretärin <span
-                                        class="tran"><small><br>&nbsp;(여)비서</small></span>
+                                        class="tran"><small>(여)비서</small></span>
                                 </td>
                             </tr>
                             <tr>
@@ -329,7 +341,7 @@
                                             ▼ </h2>
                                     </div>
                                     <span
-                                        class="tran"><small>&nbsp;(여)기술자</small></span>
+                                        class="tran"><small>(여)기술자</small></span>
                                 </td>
                             </tr>
                         </tbody>
@@ -337,7 +349,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <table
-                        class="table table-borderless table-striped text-center">
+                        class="table table-borderless table-striped text-center nq-job-reference">
                         <thead>
                             <tr>
                                 <th scope="col" class="text-primary"><img
@@ -355,27 +367,27 @@
                         <tbody>
                             <tr>
                                 <td class="align-middle text-primary" id="t1">
+                                    Verkäufer</td>
+                                <td class="align-middle text-danger">
+                                    Verkäufer<strong>in</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle text-primary" id="t2">
                                     Kellner</td>
                                 <td class="align-middle text-danger">
                                     Kellner<strong>in</strong></td>
                             </tr>
                             <tr>
-                                <td class="align-middle text-primary" id="t2">
+                                <td class="align-middle text-primary" id="t3">
                                     Lehrer</td>
                                 <td class="align-middle text-danger">
                                     Lehrer<strong>in</strong></td>
                             </tr>
                             <tr>
-                                <td class="align-middle text-primary" id="t3">
-                                    Taxifahrer</td>
-                                <td class="align-middle text-danger">
-                                    Taxifahrer<strong>in</strong></td>
-                            </tr>
-                            <tr>
                                 <td class="align-middle text-primary" id="t4">
-                                    Verkäufer</td>
+                                    Architekt</td>
                                 <td class="align-middle text-danger">
-                                    Verkäufer<strong>in</strong></td>
+                                    Architekt<strong>in</strong></td>
                             </tr>
                             <tr>
                                 <td class="align-middle text-primary" id="t5">
@@ -385,26 +397,27 @@
                             </tr>
                             <tr>
                                 <td class="align-middle text-primary" id="t6">
-                                    &nbsp;</td>
-                                <td class="align-middle text-danger">&nbsp;</td>
+                                    Taxifahrer</td>
+                                <td class="align-middle text-danger">
+                                    Taxifahrer<strong>in</strong></td>
                             </tr>
                             <tr>
                                 <td class="align-middle text-primary" id="t7">
-                                    Krankenpfleger</td>
+                                    Friseur</td>
                                 <td class="align-middle text-danger">
-                                    Krankenschwester</td>
+                                    Friseur<strong>in</strong></td>
                             </tr>
                             <tr>
                                 <td class="align-middle text-primary" id="t8">
-                                    Hausmann</td>
-                                <td class="align-middle text-danger">Hausfrau
-                                </td>
+                                    Sekretär</td>
+                                <td class="align-middle text-danger">
+                                    Sekretär<strong>in</strong></td>
                             </tr>
                             <tr>
                                 <td class="align-middle text-primary" id="t9">
-                                    Bankkaufmann</td>
+                                    Ingenieur</td>
                                 <td class="align-middle text-danger">
-                                    Bankkauffrau</td>
+                                    Ingenieur<strong>in</strong></td>
                             </tr>
                         </tbody>
                     </table>
@@ -451,6 +464,27 @@
                     $(this).html(pa[$(this).attr("id")]);
                 });
             }
+
+            function nqSyncJobTableHeights() {
+                var $maleRows = $(".nq-job-table-male tr");
+                var $femaleRows = $(".nq-job-table-female tr");
+                var rowCount = Math.min($maleRows.length, $femaleRows.length);
+
+                $maleRows.children("th, td").css("height", "");
+                $femaleRows.children("th, td").css("height", "");
+
+                for (var i = 0; i < rowCount; i++) {
+                    var $maleRow = $maleRows.eq(i);
+                    var $femaleRow = $femaleRows.eq(i);
+                    var height = Math.max($maleRow.outerHeight(), $femaleRow.outerHeight(), 80);
+
+                    $maleRow.children("th, td").css("height", height + "px");
+                    $femaleRow.children("th, td").css("height", height + "px");
+                }
+            }
+
+            $(window).on("resize", nqSyncJobTableHeights);
+            nqSyncJobTableHeights();
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: [
@@ -506,6 +540,7 @@
                                 "button").length <
                             1) {
                             $(".tran").show();
+                            nqSyncJobTableHeights();
                             var _r = nqValidateGrading();
                             /* 효과음 재생 */
                             if (typeof o !== 'undefined' && typeof x !== 'undefined') {
@@ -546,6 +581,7 @@
                                 qr +
                                 "개를 맞히셨네요!<br>" +
                                 st + "</h4>");
+                            nqSyncJobTableHeights();
                         $(this).attr("id","done");
                         } else {
                             $("div.itm-lst").each(
@@ -602,6 +638,7 @@
                         }
                     });
                     $("#0").show();
+                    nqSyncJobTableHeights();
                 },
                 onend: function () {
                     $("div#last").text("");
@@ -613,6 +650,7 @@
                             $(".so").each(function () {
                                 pa[$(this).attr("id")] = $(this).html();
                             });
+                            nqSyncJobTableHeights();
                         }
                     } else if (sen[last] == 2) {
                         if ($("#" + last).hasClass("itm")) {
@@ -621,6 +659,7 @@
                         $("#" + last).closest("tr").find(
                             ".tran").show();
                         pa[last] = $("#" + last).html();
+                        nqSyncJobTableHeights();
                     }
                 }
             });

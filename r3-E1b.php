@@ -190,7 +190,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Wie ist Ihre E-Mail-Address?
+                                    Wie ist Ihre E-Mail-Adresse?
                                     <span class="tran"><br><small>당신의 이메일 주소는
                                             어떻게 됩니까?</small></span>
                                 </td>

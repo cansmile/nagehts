@@ -186,6 +186,60 @@
                 $(this).html(pa[$(this).attr("id")]);
             });
         };
+
+        <?php require "wahl.php"; ?>
+
+        /* 정답확인 */
+        $("#chk").on("click", function () {
+            var na = "";
+            if ($("#itms").find("button").length < 1) {
+                $(".tran").show();
+
+                /* 정답 확인 div 상자 배경색 속성 없애기 */
+                $(this).removeClass("btn-light ");
+
+                var _r = nqValidateGrading();
+
+                var qa = _r.qa; /* 전체 문항 수 */
+                var qr = _r.qr; /* 맞춘 항목 수 */
+                var pe = (qr / qa) * 100; /* 정답 비율 */
+                var tcl = "white"; /* 기본 문자색 */
+
+                /* 분류 기준은 100%, 80%, 60%, 40% */
+                if (pe > 99) {
+                    var st = "원어민이세요?";
+                    var cl = "success";
+                    var tcl = "dark";
+                } else if (pe > 74) {
+                    var st = "어! 좀 하시는데요~^^";
+                    var cl = "success";
+                } else if (pe > 49) {
+                    var st = "쓰읍~ 다시 해 보실까요?";
+                    var cl = "primary";
+                } else {
+                    var st = "좀 더 분발해 주세요~";
+                    var cl = "danger";
+                }
+
+                $(this).addClass("btn-" + cl + " text-" +
+                    tcl);
+                $(this).html("<h4>" + qa + "문제 중 " + qr +
+                    "개를 맞히셨네요!<br>" + st + "</h4>");
+                $(this).attr("id","done");
+            } else {
+                $("div.itm-lst").each(function (idx) {
+                    if (!$(this).find("button")
+                        .length) {
+                        if (na != "") {
+                            na += ", ";
+                        }
+                        na += (idx + 1);
+                    }
+                });
+                alert("모든 문제를 풀어주세요!");
+                /* alert(na+"번 문제를 풀어주세요!"); */
+            }
+        });
         /* 문제 재생 */
         var nagehts = new Howl({
             src: ["./dev/sounds/Reihe 7/r7 D8.mp3"],
@@ -203,8 +257,6 @@
                 console.log("다시 읽어주세요!");
             },
             onload: function () {
-                <?php require "wahl.php"; ?>
-
                 $(".so").on("click", function () {
                     var t = $(this);
                     var ti = t.attr("id");
@@ -223,62 +275,6 @@
                         nagehts.pause();
                         sen[ti]--;
                         $("#cnt-" + ti).text(sen[ti]);
-                    }
-                });
-
-                /* 정답확인 */
-                $("#chk").on("click", function () {
-                    var na = "";
-                    if ($("#itms").find("button").length == $(
-                        "#itms").find("button.ans0").length) {
-                        $(".tran").show();
-
-                        /* 정답 확인 div 상자 배경색 속성 없애기 */
-                        $(this).removeClass("btn-light ");
-
-                        var _r = nqValidateGrading();
-
-                        var qa = _r.qa; /* 전체 문항 수 */
-                        var qr = _r.qr; /* 맞춘 항목 수 */
-                        var pe = (qr / qa) * 100; /* 정답 비율 */
-                        var tcl = "white"; /* 기본 문자색 */
-
-                        /* 분류 기준은 100%, 80%, 60%, 40% */
-                        if (pe > 99) {
-                            var st = "원어민이세요?";
-                            var cl = "success";
-                            var tcl = "dark";
-                        } else if (pe > 74) {
-                            var st = "어! 좀 하시는데요~^^";
-                            var cl = "success";
-                        } else if (pe > 49) {
-                            var st = "쓰읍~ 다시 해 보실까요?";
-                            var cl = "primary";
-                        } else {
-                            var st = "좀 더 분발해 주세요~";
-                            var cl = "danger";
-                        }
-
-                        $(this).addClass("btn-" + cl + " text-" +
-                            tcl);
-                        $(this).html("<h4>" + qa + "문제 중 " + qr +
-                            "개를 맞히셨네요!<br>" + st + "</h4>");
-                        $(this).attr("id","done");
-
-                        // $(".btn-lg").text().appendTo($(this)
-                            .closest("td"));
-                    } else {
-                        $("div.itm-lst").each(function (idx) {
-                            if (!$(this).find("button")
-                                .length) {
-                                if (na != "") {
-                                    na += ", ";
-                                }
-                                na += (idx + 1);
-                            }
-                        });
-                        alert("모든 문제를 풀어주세요!");
-                        /* alert(na+"번 문제를 풀어주세요!"); */
                     }
                 });
 

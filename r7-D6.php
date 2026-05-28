@@ -65,7 +65,7 @@
                                     <td class="align-middle" height="80">
                                         <div
                                             class="input-group d-inline-flex align-items-baseline">
-                                            Leider&nbsp;
+                                            leider&nbsp;
                                             <input autocomplete="off" type="text"
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"

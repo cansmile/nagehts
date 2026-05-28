@@ -1,5 +1,11 @@
 <?php require_once("heading.php"); ?>
-    <section class="nq-exercise" data-type="fill-blank" data-reihe="7">
+    <style>
+        .nq-r7-d3 .input-group.d-inline-flex {
+            flex-wrap: wrap;
+            row-gap: 0.35rem;
+        }
+    </style>
+    <section class="nq-exercise nq-r7-d3" data-type="fill-blank" data-reihe="7">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">

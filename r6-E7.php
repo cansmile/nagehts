@@ -401,7 +401,6 @@
     <script>
         $("#0").hide();
         $(".tran").hide();
-        $("#chk").hide();
 
         $(document).ready(function () {
             /* 소리 출력 전역 변수와 함수 */
@@ -563,47 +562,74 @@
                 if ($("#itms>button.ans1").length < 1 && $("#itms>button.ans2").length < 1 && $(
                         "#itms>button.ans3").length < 1) {
                     $(".tran").show();
-                    $(".ans0").hide();
                 }
+                updateChkBtn();
             };
+
+            function updateChkBtn() {
+                if ($("#chk").length === 0 || $("#chk").attr("id") !== "chk") return;
+                var unplaced = $("#itms button.itm").filter(".ans1, .ans2, .ans3").length;
+                if (unplaced > 0) {
+                    $("#chk").html('정답확인 <span class="badge bg-warning text-dark ms-1">미배치 ' + unplaced + '개</span>');
+                } else {
+                    $("#chk").html('정답확인');
+                    setTimeout(function () {
+                        if ($("#chk").attr("id") === "chk") {
+                            $("#chk").trigger("click");
+                        }
+                    }, 300);
+                }
+            }
 
             <?php require "wahl.php"; ?>
 
+            // r6-E7: ans0을 유지하므로 wahl을 숨기지 않음
+            function donewahl() {
+                $("#chk").show();
+            }
+
             /* 정답확인 */
             $("#chk").on("click", function () {
-                if ($("#wahl").visibility != "visible" && $(this).attr("id") == "chk") {
+                if ($(this).attr("id") == "chk") {
+                    var unplaced = $("#itms button.itm").filter(".ans1, .ans2, .ans3").length;
+                    if (unplaced > 0) {
+                        if (!confirm("아직 배치하지 않은 동사가 " + unplaced + "개 있습니다. 그래도 채점하시겠습니까?")) {
+                            return;
+                        }
+                    }
                     $(this).attr("id", "done");
                     $(".itm").each(function () {
-                        if ($(this).parent().attr("id").length > 5) {
-                            var a = $(this).parent().attr("id").substr($(this).parent().attr(
-                                "id").length - 2, 2);
-                        } else {
-                            var a = $(this).parent().attr("id").substr($(this).parent().attr(
-                                "id").length - 1, 1);
+                        if ($(this).hasClass("ans0")) {
+                            return;
+                        }
+                        var parentId = $(this).parent().attr("id") || "";
+                        var a = "";
+                        if (parentId.indexOf("lst-") === 0) {
+                            a = parentId.replace("lst-", "");
                         }
                         $(".tran").show();
-                        if ($(this).hasClass("ans" + (a))) {
+                        if (a && $(this).hasClass("ans" + a)) {
                             $(this).addClass("text-success fw-bold");
                         } else {
                             $(this).addClass("text-warning fw-bold");
                             $(this).find(".tran").show();
-                        };
+                        }
                         if ($(this).hasClass("text-warning")) {
-                            /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
                             for (var i = 1; i <= $(".itm-lst").length; i++) {
                                 if ($(this).hasClass("ans" + i)) {
+                                    var cc = "";
                                     for (var c = 1; c <= $(".cbtn").length; c++) {
-                                        if ($(this).hasClass(c)) {
-                                            var cc = c;
+                                        if ($(this).hasClass(String(c))) {
+                                            cc = c;
                                         }
                                     }
-                                    $(eval('"#lst-' + i + '"')).append(
+                                    $("#lst-" + i).append(
                                         "<button class=\"mt-1 mx-1 btn btn-lg btn-light w-100 text-danger bg-white fw-bold " +
                                         cc + "\" id=\"" + $(this).attr("id") + "\">" + $(
                                             this).html() + "</button>");
                                 }
                             }
-                        };
+                        }
                     });
                     ccl();
                     $("#lst-2>.undefined").each(function () {
@@ -614,19 +640,11 @@
 
                     /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
-                    var _r = nqValidateGrading();
-                    var qa = $(".okay").length;
-
-                    /* 전체 문항 수 */
-                    var qr = _r.qr;
-
-                    /* 맞춘 항목 수 */
-                    var pe = (qr / qa) * 100;
-
-                    /* 정답 비율 */
+                    var _r = (typeof nqValidateGrading === "function") ? nqValidateGrading() : { qa: 0, qr: 0 };
+                    var qa = 26;
+                    var qr = $(".itm-lst button.itm").filter(".ans1, .ans2, .ans3").length;
+                    var pe = Math.round((qr / qa) * 100);
                     var tcl = "white";
-
-                    /* 기본 문자색 */
 
                     /* 분류 기준은 100%, 80%, 60%, 40% */
                     if (pe > 99) {
@@ -651,6 +669,7 @@
             $("#ready").hide();
             $("#3").insertAfter("#lst-1>h2");
             ccl();
+            updateChkBtn();
             var pan = new Array();
 
             /* pan = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"]; */

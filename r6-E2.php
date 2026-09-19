@@ -58,7 +58,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-1">
@@ -72,7 +72,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-2">
@@ -119,7 +119,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-3">
@@ -133,7 +133,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-4">
@@ -180,7 +180,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-5">
@@ -194,7 +194,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-6"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-6">
@@ -241,7 +241,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-7"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-7">
@@ -255,7 +255,7 @@
                                     class="align-middle">
                                     <div class="ant t-6" id="ant-8"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text"
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text"
                                             class="form-control text-end pe-0 me-0 border-bottom-only rounded q
                                             t-6 w-auto"
                                             aria-label="." id="qst-8">
@@ -408,36 +408,37 @@
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
             /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
-                var q, qn, a, b, fl;
-                q = th.val().length;
+                var qn, a;
                 qn = (th.attr("id").substr(4)) - 1;
                 a = th.val();
-                a = a.replace(/ /gi, "");
-                if (!$.isArray(an[qn])) {
-                    /* 1 인 경우 */
+                if (!a) return false;
+
+                var aClean = a.replace(/\s+/g, "");
+                var aCleanNoDot = aClean.replace(/\.+$/, "");
+
+                var targets = $.isArray(an[qn]) ? an[qn] : [an[qn]];
+
+                for (var fd = 0; fd < targets.length; fd++) {
+                    var target = targets[fd];
+                    var bClean = target.replace(/\s+/g, "");
+                    var bCleanNoDot = bClean.replace(/\.+$/, "");
+
                     if (io) {
-                        b = an[qn];
-                    } else {
-                        b = an[qn].substr(0, q);
-                    }
-                    b = b.replace(/ /gi, "");
-                    if (a == b) {
-                        return true;
-                    }
-                } else {
-                    /* 2 이상인 경우 */
-                    for (var fd = 0; fd < an[qn].length; fd++) {
-                        if (io) {
-                            b = an[qn][fd];
-                        } else {
-                            b = an[qn][fd].substr(0, q);
+                        if (aClean.toLowerCase() == bClean.toLowerCase() ||
+                            aCleanNoDot.toLowerCase() == bCleanNoDot.toLowerCase()) {
+                            return true;
                         }
-                        b = b.replace(/ /gi, "");
-                        if (a == b) {
+                    } else {
+                        var qClean = aClean.length;
+                        var bSub = bClean.substr(0, qClean);
+                        var bSubNoDot = bCleanNoDot.substr(0, qClean);
+                        if (aClean.toLowerCase() == bSub.toLowerCase() ||
+                            aClean.toLowerCase() == bSubNoDot.toLowerCase()) {
                             return true;
                         }
                     }
                 }
+                return false;
             }
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
@@ -507,86 +508,79 @@
 
             /* 입력하는 문자 확인(정답 표시 없음) 여기까지 */
             $("#chk").on("click", function () {
-                var na = "";
-                var ri = 0;
-                var qst = $(".q").length;
+                var missing = [];
                 $(".q").each(function () {
-                    if (na != "") {
-                        na += ", ";
-                    }
-                    if ($(this).val() == "") {
-                        na += $(this).attr("id").substr(4, 1);
+                    if ($.trim($(this).val()) === "") {
+                        missing.push($(this).attr("id").substr(4));
                     }
                 });
-                if ($(this).attr("id") == "done") {} else if (na == "") {
-                    /* 답 맞춰 볼까? */
-                    for (var i = 0; i < an.length; i++) {
-                        var oran = $("#qst-" + (i + 1)).val();
-                        if (rfchk($("#qst-" + (i + 1)), true)) {
-                            $("#qst-" + (i + 1)).addClass(
-                                "bg-success text-white rounded fw-bold p-1 px-2 ms-1");
-                            $("#qst-" + (i + 1)).removeClass("rounded-0");
-                        } else {
-                            $("#qst-" + (i + 1)).val(oran);
-                            $("#qst-" + (i + 1)).attr("disabled", true);
-                            $("#qst-" + (i + 1)).addClass("wa");
-                            $("#qst-" + (i + 1)).removeClass("rounded-0");
-                            if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] +
-                                    "</div>");
-                            } else {
-                                /* 2 이상인 경우 */
-                                var r = "<div class=\"w-100 ra t-6\">";
-                                for (var fd = (an[i].length - 1); fd >= 0; fd--) {
-                                    if (fd < (an[i].length - 1)) {
-                                        r = r + " / ";
-                                    }
-                                    r = r + an[i][fd];
-                                }
-                                r = r + "</div>";
-                                if ($("span.sen").length > 0) {
-                                    $("#qst-" + (i + 1)).closest("span.sen").after(r);
-                                } else {
-                                    $("#qst-" + (i + 1)).after(r);
-                                }
-                            }
-                        }
-                        if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
-                            ri++;
-                        }
-                    };
 
-                    /* 정답 확인 div 상자 배경색 속성 없애기 */
-                    $(this).removeClass("btn-light ");
-                    var qa = $(".q").length; /* 전체 문항 수 */
-                    var qr = $(".bg-success").length; /* 맞춘 항목 수 */
-                    var pe = (qr / qa) * 100; /* 정답 비율 */
-                    var tcl = "white"; /* 기본 문자색 */
+                if ($(this).attr("id") == "done") {
+                    return;
+                }
 
-                    /* 분류 기준은 100%, 80%, 60%, 40% */
-                    if (pe > 99) {
-                        var st = "원어민이세요?";
-                        var cl = "lime";
-                        var tcl = "dark";
-                    } else if (pe > 74) {
-                        var st = "어! 좀 하시는데요~^^";
-                        var cl = "success";
-                    } else if (pe > 49) {
-                        var st = "쓰읍~ 다시 해 보실까요?";
-                        var cl = "primary";
+                if (missing.length > 0) {
+                    alert("모든 문제를 풀어주세요!");
+                    return;
+                }
+
+                /* 답 맞춰 볼까? */
+                var ri = 0;
+                for (var i = 0; i < an.length; i++) {
+                    var $input = $("#qst-" + (i + 1));
+                    var oran = $input.val();
+                    if (rfchk($input, true)) {
+                        $input.addClass(
+                            "bg-success text-white rounded fw-bold p-1 px-2 ms-1");
+                        $input.removeClass("rounded-0");
                     } else {
-                        var st = "좀 더 분발해 주세요~";
-                        var cl = "danger";
+                        $input.val(oran);
+                        $input.attr("disabled", true);
+                        $input.addClass("wa");
+                        $input.removeClass("rounded-0");
+                        var disp = $.isArray(an[i]) ? an[i][0] : an[i];
+                        var r = "<div class=\"w-100 ra t-6\">" + disp + "</div>";
+                        if ($("span.sen").length > 0) {
+                            $input.closest("span.sen").after(r);
+                        } else {
+                            $input.after(r);
+                        }
                     }
-                    $(this).addClass("btn-" + cl + " text-" + tcl);
-                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
-                    $(this).prop("disabled", true);
-                    $(".tran").show();
-                    $(this).attr("id", "done");
-                    checkHeight();
+                    if ($input.hasClass("bg-success")) {
+                        ri++;
+                    }
+                }
+
+                /* 정답 확인 div 상자 배경색 속성 없애기 */
+                $(this).removeClass("btn-light ");
+                var qa = $(".q").length; /* 전체 문항 수 */
+                var qr = $(".bg-success").length; /* 맞춘 항목 수 */
+                var pe = Math.round((qr / qa) * 100); /* 정답 비율 */
+                var tcl = "white"; /* 기본 문자색 */
+
+                /* 분류 기준은 100%, 80%, 60%, 40% */
+                if (pe > 99) {
+                    var st = "원어민이세요?";
+                    var cl = "success";
+                    var tcl = "dark";
+                } else if (pe > 74) {
+                    var st = "어! 좀 하시는데요~^^";
+                    var cl = "success";
+                } else if (pe > 49) {
+                    var st = "쓰읍~ 다시 해 보실까요?";
+                    var cl = "primary";
                 } else {
-                    alert("모든 문제를 풀어주세요!"); /* alert(na+"번 문제를 풀어주세요!"); */
-                };
+                    var st = "좀 더 분발해 주세요~";
+                    var cl = "danger";
+                }
+                $(this).addClass("btn-" + cl + " text-" + tcl);
+                $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+                $(this).prop("disabled", true);
+                $(".tran").show();
+                $(this).attr("id", "done");
+                if (typeof checkHeight === "function") {
+                    checkHeight();
+                }
             });
             var pan = new Array();
             pan = [];

@@ -18,7 +18,7 @@
                         sollst
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark itm px-2"
+                        class="mt-1 mx-1 btn ans2 ans6 btn-lg btn-outline-dark itm px-2"
                         id="3">
                         müssen
                     </button>
@@ -28,7 +28,7 @@
                         muss
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans6 btn-lg btn-outline-dark itm px-2"
+                        class="mt-1 mx-1 btn ans2 ans6 btn-lg btn-outline-dark itm px-2"
                         id="5">
                         müssen
                     </button>
@@ -243,7 +243,7 @@
     <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $("#chk").hide();

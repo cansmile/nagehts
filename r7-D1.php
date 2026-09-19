@@ -7,26 +7,31 @@
                     Wahl</div>
                 <div class="col-12" id="itms">
                     <button type="button" class="mt-1 mx-1 btn ans1 btn-md btn-outline-dark itm so" id="5">
-                        in die Disko gehen<span class="tran"><br><small>디스코장에서</small></span>
-                    </button>
-                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so" id="6">
-                        in die Oper gehen<span class="tran"><br><small>오페라
-                                하우스에서</small></span>
-                    </button>
-                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so" id="10">
-                        ins Kino gehen<span class="tran"><br><small>영화관에 가다</small></span>
+                        in die Disko gehen<span class="tran"><br><small>디스코장에 가다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans2 btn-md btn-outline-dark itm so" id="12">
-                        ins Museum gehen<span class="tran"><br><small>박물관에서</small></span>
+                        ins Museum gehen<span class="tran"><br><small>박물관에 가다</small></span>
+                    </button>
+                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so" id="23">
+                        ins Restaurant gehen<span class="tran"><br><small>레스토랑에 가다</small></span>
+                    </button>
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so" id="22">
+                        ins Café gehen<span class="tran"><br><small>카페에 가다</small></span>
                     </button>
                     <button type="button" class="mt-1 mx-1 btn ans5 btn-md btn-outline-dark itm so" id="17">
                         ins Schwimmbad gehen<span class="tran"><br><small>수영장에 가다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-md btn-outline-dark itm so" id="22">
-                        ins Café gehen<span class="tran"><br><small>카페에서</small></span>
+                    <button type="button" class="mt-1 mx-1 btn ans6 btn-md btn-outline-dark itm so" id="1">
+                        Fußball spielen<span class="tran"><br><small>축구하다</small></span>
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans3 btn-md btn-outline-dark itm so" id="23">
-                        ins Restaurant gehen<span class="tran"><br><small>레스토랑에서</small></span>
+                    <button type="button" class="mt-1 mx-1 btn ans7 btn-md btn-outline-dark itm so" id="10">
+                        ins Kino gehen<span class="tran"><br><small>영화관에 가다</small></span>
+                    </button>
+                    <button type="button" class="mt-1 mx-1 btn ans8 btn-md btn-outline-dark itm so" id="6">
+                        in die Oper gehen<span class="tran"><br><small>오페라 하우스에 가다</small></span>
+                    </button>
+                    <button type="button" class="mt-1 mx-1 btn ans9 btn-md btn-outline-dark itm so" id="8">
+                        in den Zoo gehen<span class="tran"><br><small>동물원에 가다</small></span>
                     </button>
                 </div>
             </div>
@@ -451,7 +456,7 @@
     <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -558,11 +563,33 @@
                             $("#cnt-" + ti).text(sen[ti]);
                         }
                     });
-                    /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+                },
+                onend: function () {
+                    $("div#last").text("");
+                    stopAll();
+                    $("#cnt-" + last).text(sen[last]);
+                    if (last == 0) {
+                        if (sen[last] == 2) {
+                            $(".tran").show();
+                            $(".so").each(function () {
+                                pa[$(this).attr("id")] = $(this).html();
+                            });
+                        }
+                    } else if (sen[last] == 2) {
+                        if ($("#" + last).hasClass("itm")) {
+                            $("#" + last + ">.tran").show();
+                        }
+                        $("#" + last).closest("tr").find(".tran").show();
+                        pa[last] = $("#" + last).html();
+                    }
+                }
+            });
 
-                    /* 값 확인해보자, io값이 참이면 전체 검사 */
-                    function rfchk(th, io) {
-                        var q, qn, a, b, fl;
+            /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
+
+            /* 값 확인해보자, io값이 참이면 전체 검사 */
+            function rfchk(th, io) {
+                var q, qn, a, b, fl;
                         q = th.val().length;
                         qn = (th.attr("id").substr(4)) - 1;
                         a = th.val();
@@ -710,10 +737,8 @@
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass("btn-light ");
                             var _r = nqValidateGrading();
-                            var qa = $(".itm-lst>.itm").length + $(".q")
-                            .length; /* 전체 문항 수 */
-                            var qr = $(".text-success").length + $(".bg-success")
-                            .length; /* 맞춘 항목 수 */
+                            var qa = _r.qa + $(".q").length; /* 전체 문항 수 (드래그 9 + 작문 6) */
+                            var qr = _r.qr + ri; /* 맞춘 항목 수 */
                             var pe = (qr / qa) * 100; /* 정답 비율 */
                             var tcl = "white"; /* 기본 문자색 */
 
@@ -764,27 +789,6 @@
                     }
                     $("#0").show();
                     $("#ready").hide();
-                },
-                onend: function () {
-                    $("div#last").text("");
-                    stopAll();
-                    $("#cnt-" + last).text(sen[last]);
-                    if (last == 0) {
-                        if (sen[last] == 2) {
-                            $(".tran").show();
-                            $(".so").each(function () {
-                                pa[$(this).attr("id")] = $(this).html();
-                            });
-                        }
-                    } else if (sen[last] == 2) {
-                        if ($("#" + last).hasClass("itm")) {
-                            $("#" + last + ">.tran").show();
-                        }
-                        $("#" + last).closest("tr").find(".tran").show();
-                        pa[last] = $("#" + last).html();
-                    }
-                }
-            });
         });
 
     </script>

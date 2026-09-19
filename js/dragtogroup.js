@@ -133,6 +133,16 @@
     if (!dragging || !target) return false;
 
     var targetGroup = getTargetGroup(target);
+    var isSingleItem = target.classList.contains('1itm');
+    var occupiedButton = Array.prototype.find.call(
+      target.querySelectorAll('button'),
+      function (btn) { return !btn.classList.contains('ttl'); }
+    );
+
+    if (isSingleItem && occupiedButton) {
+      if (typeof x !== 'undefined' && x.play) x.play();
+      return false;
+    }
 
     // 오답: 소리 재생 후 snap back
     if (!isAllowedAnswerGroup(dragging, targetGroup)) {
@@ -144,7 +154,6 @@
     if (typeof o !== 'undefined' && o.play) o.play();
 
     var ttl = target.querySelector('.ttl');
-    var isSingleItem = target.classList.contains('1itm');
 
     dragging.classList.add('w-100', 'btn-light');
     dragging.classList.remove('btn-secondary');
@@ -156,7 +165,6 @@
 
     if (isSingleItem && ttl) {
       ttl.remove();
-      dragging.classList.remove('itm');
     }
 
     return true;
@@ -340,7 +348,10 @@
       if (!placed) { if (typeof o !== 'undefined' && o.play) o.play(); placed = true; }
       $(this).addClass('w-100 btn-light').removeClass('btn-secondary');
       $(this).insertAfter(t);
-      if (isSingle) { t.remove(); }
+      if (isSingle) {
+        t.remove();
+        return false;
+      }
     });
     $('.itm').removeClass('btn-secondary');
     if (placed) nqCheckAllPlaced();
@@ -359,6 +370,24 @@
   function nqCheckAllPlaced() {
     var remaining = document.querySelectorAll('#itms button.itm');
     if (remaining.length > 0) return;
+
+    // 만약 페이지에 아직 입력되지 않은 텍스트 필드가 있으면 자동 채점 대기
+    var unfinishedInputs = Array.prototype.filter.call(
+      document.querySelectorAll('input.q'),
+      function (inp) { return !inp.value.trim(); }
+    );
+    if (unfinishedInputs.length > 0) return;
+
+    // 만약 페이지에 아직 선택되지 않은 객관식 질문(.q)이 있으면 자동 채점 대기
+    var unfinishedQs = Array.prototype.filter.call(
+      document.querySelectorAll('.q'),
+      function (q) {
+        if (q.tagName === 'INPUT') return false;
+        return !q.querySelector('.an') && !q.classList.contains('an');
+      }
+    );
+    if (unfinishedQs.length > 0) return;
+
     var chkEl = document.getElementById('chk');
     if (chkEl) {
       setTimeout(function () { $(chkEl).trigger('click'); }, 300);
@@ -370,9 +399,10 @@
   // 오답 시 정답 텍스트를 노랑(.ra)으로 표시
   window.nqValidateGrading = function () {
     var qa = 0, qr = 0;
+    $('.itm-lst .nq-drag-answer').remove();
     // 정답 맵 생성: 허용 그룹 → 버튼 텍스트 배열
     var answerMap = {};
-    $('.itm-lst button, #itms button').each(function () {
+    $('.itm-lst button.itm, #itms button.itm').each(function () {
       var allowedGroups = getAnswerGroups(this);
       for (var i = 0; i < allowedGroups.length; i++) {
         var groupKey = String(allowedGroups[i]);
@@ -388,17 +418,17 @@
     $('.itm-lst').each(function () {
       var $lst = $(this);
       var targetGroup = parseInt($lst.attr('id').substr(4), 10);
-      $lst.find('button').each(function () {
+      $lst.find('button.itm').each(function () {
         qa++;
         if (isAllowedAnswerGroup(this, targetGroup)) {
-          $(this).addClass('ca text-success');
+          $(this).removeClass('wa text-danger').addClass('ca text-success');
           qr++;
         } else {
-          $(this).addClass('wa');
+          $(this).removeClass('ca text-success').addClass('wa');
           var correctTexts = answerMap[String(targetGroup)] || [];
           if (correctTexts.length) {
             var safeText = $('<span>').text(correctTexts.join(', ')).html();
-            $('<span class="ra ms-1">' + safeText + '</span>')
+            $('<div class="nq-drag-answer ra mt-1">' + safeText + '</div>')
               .insertAfter($(this));
           }
         }
@@ -432,7 +462,7 @@
           observer.disconnect();
           setTimeout(function () {
             var qa = document.querySelectorAll('.itm-lst button.itm').length;
-            var qr = document.querySelectorAll('.itm-lst button.text-success').length;
+            var qr = document.querySelectorAll('.itm-lst button.itm.ca').length;
             nqSaveDragResult(qr, qa);
           }, 0);
         }

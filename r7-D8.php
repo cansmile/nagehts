@@ -162,7 +162,7 @@
 <script src="./dev/js/dragtogroup.js"></script>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once( "./dev/oxsound.php" ); ?>
+<?php require_once(__DIR__ . "/oxsound.php"); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();
@@ -186,6 +186,15 @@
                 $(this).html(pa[$(this).attr("id")]);
             });
         };
+
+        var pan = [4, 6];
+        for (var p = 0; p < pan.length; p++) {
+            var pani = pan[p];
+            $("#itms .itm.ans" + pani).each(function () {
+                $(this).appendTo($("#lst-" + pani)).addClass("w-100 btn-light border-0 text-start");
+                $("#lst-" + pani + ">h2").remove();
+            });
+        }
 
         <?php require "wahl.php"; ?>
 
@@ -240,11 +249,18 @@
                 /* alert(na+"번 문제를 풀어주세요!"); */
             }
         });
+
         /* 문제 재생 */
         var nagehts = new Howl({
             src: ["./dev/sounds/Reihe 7/r7 D8.mp3"],
             sprite: {
-                "0": [3444, 47112]
+                "0": [3444, 47112],
+                "1": [41840, 1320],
+                "2": [39520, 1440],
+                "3": [13340, 1880],
+                "4": [37400, 1540],
+                "5": [22940, 1640],
+                "6": [33020, 1980]
             },
             html5: true,
             volume: 1,
@@ -277,22 +293,6 @@
                         $("#cnt-" + ti).text(sen[ti]);
                     }
                 });
-
-                var pan = new Array();
-                pan = [4, 6];
-                var il = $("#itms>.itm").length;
-                for (var p = 0; p < pan.length; p++) {
-                    var pani = "#lst-" + pan[p];
-                    $(".itm").each(function () {
-                        if ($(this).hasClass("ans" + pan[p])) {
-                            $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                            $("#" + $(this).attr("id")).addClass("w-100");
-                            $("#" + $(this).attr("id")).addClass("border-0");
-                            $("#" + $(this).attr("id")).addClass("border-0 text-start");
-                            $("#lst-" + pan[p] + ">h2").remove();/* $("#lst-" + pan[p]).parent().find(".tran").show(); */
-                        }
-                    })
-                }
 
                 $("#0").show();
             },

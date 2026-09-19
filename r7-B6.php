@@ -172,7 +172,7 @@
     <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -240,147 +240,6 @@
                             $("#cnt-" + ti).text(sen[ti]);
                         }
                     });
-
-                    $("[data-toggle='popover']").popover({
-                        delay: {
-                            'hide': 1000
-                        },
-                        container: "body"
-                    });
-
-                    $(".pop").click(function () {
-                        /* 가장 먼저 지문에 'an' 넣기 */
-                        if (!$(this).siblings()
-                            .hasClass("an")) {
-                            $(this).addClass("an");
-                            $(this).addClass(
-                                "btn-warning");
-                            $(this).parent()
-                                .children()
-                                .removeClass(
-                                    "btn-light");
-                        };
-
-                        /* 문제 풀이 정도 업데이트 */
-                        var perc = Math.round(($(
-                                ".an")
-                            .length / $(
-                                ".q").length
-                        ) * 100);
-                        $(".progress>.bar").attr(
-                            "width", perc + "%;"
-                        );
-
-                    });
-
-                    /* 팝업 내용 사라지기 */
-                    $(".pop").popover().click(function () {
-                        setTimeout(function () {
-                            $(".pop")
-                                .popover(
-                                    'hide');
-                        }, 500);
-                    });
-
-                    <?php require "wahl.php"; ?>
-
-                    /* 정답확인 */
-                    $("#chk").on("click",
-                        function () {
-                            if ($(this).attr("id") == "chk") {
-                                if ($(".an").length < $(".q").length || $("#itms>button")
-                                    .length) {
-                                    var na = "";
-                                    $(".q").each(function () {
-                                        if (!$(this).find("div").hasClass("an")) {
-                                            if (na != "") {
-                                                na += ", ";
-                                            }
-                                            na += $(this).attr("id").substr(4);
-                                        };
-                                    });
-                                    alert("모든 문제를 풀어주세요.");
-                                } else {
-                                    $(this).attr("id", "done");
-                                    $(".tran").show();
-                                    $(".pop").each(function () {
-                                        $(this).removeClass("btn-info");
-                                        if ($(this).hasClass("o") && $(this).hasClass(
-                                                "an")) {
-                                            $(this).removeClass("btn-warning");
-                                            $(this).addClass("btn-success");
-                                        } else if ($(this).hasClass("o")) {
-                                            $(this).addClass("btn-primary");
-                                        } else if ($(this).hasClass("an")) {
-                                            $(this).addClass("btn-warning");
-                                        } else {
-                                            $(this).addClass("btn-light");
-                                        };
-                                    });
-                                    $(this).removeClass("btn-light ");
-                                    /* 정답 확인 div 상자 배경색 속성 없애기 */
-                                    $(this).removeClass("btn-light ");
-                                    var _r = nqValidateGrading();
-                                    var qa = $(".itm-lst").length + $(".q")
-                                        .length; /* 전체 문항 수 */
-                                    var qr = $(".text-success").length + $(".btn-success")
-                                        .length; /* 맞춘 항목 수 */
-                                    var pe = (qr / qa) * 100; /* 정답 비율 */
-                                    var tcl = "white"; /* 기본 문자색 */
-
-                                    /* 분류 기준은 100%, 80%, 60%, 40% */
-                                    if (pe > 99) {
-                                        var st = "원어민이세요?";
-                                        var cl = "success";
-                                        var tcl = "dark";
-                                    } else if (pe > 74) {
-                                        var st = "어! 좀 하시는데요~^^";
-                                        var cl = "success";
-                                    } else if (pe > 49) {
-                                        var st = "쓰읍~ 다시 해 보실까요?";
-                                        var cl = "primary";
-                                    } else {
-                                        var st = "좀 더 분발해 주세요~";
-                                        var cl = "danger";
-                                    }
-                                    $(this).addClass("btn-" + cl + " text-" + tcl);
-                                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" +
-                                        st + "</h4>");
-                                    /* 올바른 순서 전체 대화문 + 번역 피드백 */
-                                    var correctOrder = [
-                                        {de: "Betreff: Kino", ko: "제목: 영화"},
-                                        {de: "Lieber Max,", ko: "막스에게,"},
-                                        {de: "leider kann ich doch nicht kommen.", ko: "안타깝게도 난 갈 수가 없어."},
-                                        {de: "Vielleicht können wir morgen ins Kino gehen?", ko: "우리 내일 영화 보러 갈수 있을까?"},
-                                        {de: "Liebe Grüße", ko: "사랑을 담아"},
-                                        {de: "Mina", ko: "미나가"}
-                                    ];
-                                    var fb = '<div class="mt-3 p-3 border rounded bg-light"><h5 class="mb-2">올바른 순서:</h5>';
-                                    for (var ci = 0; ci < correctOrder.length; ci++) {
-                                        fb += '<p class="mb-1"><strong>' + (ci+1) + '. ' + correctOrder[ci].de + '</strong><br><span style="color:#1e293b;font-size:0.85rem;">' + correctOrder[ci].ko + '</span></p>';
-                                    }
-                                    fb += '</div>';
-                                    $(this).after(fb);
-                                };
-                            }
-                        });
-                    $("#0").show();
-                    $("#ready").hide();
-                    var pan =
-                        new Array();
-                    pan = ["1", "6"];
-                    var il = $("#itms>.itm").length;
-                    for (var p = 0; p < pan.length; p++) {
-                        var pani = "#lst-" + pan[p];
-                        $(".itm").each(function () {
-                            if ($(this).hasClass("ans" + pan[p])) {
-                                $("#" + $(this).attr("id")).appendTo($("#lst-" + pan[p]));
-                                $("#" + $(this).attr("id")).addClass("w-100");
-                                $("#lst-" + pan[p] + ">h2")
-                                    .remove();
-                            }
-                        })
-                    }
                 },
                 onend: function () {
                     $("div#last").text("");
@@ -400,6 +259,116 @@
                         $("#" + last).closest("tr").find(".tran").show();
                         pa[last] = $("#" + last).html();
                     }
+                }
+            });
+
+            $("[data-toggle='popover']").popover({
+                delay: {
+                    'hide': 1000
+                },
+                container: "body"
+            });
+
+            $(".pop").click(function () {
+                /* 선택 번복 허용: 기존 형제 선택 해제 후 현재 버튼 선택 */
+                $(this).siblings().removeClass("an btn-warning").addClass("btn-light");
+                $(this).addClass("an btn-warning").removeClass("btn-light");
+
+                /* 문제 풀이 정도 업데이트 */
+                var perc = Math.round(($(".an").length / $(".q").length) * 100);
+                $(".progress>.bar").attr("width", perc + "%;");
+
+                /* 드래그 항목이 모두 배치되어 있으면 자동 채점 트리거 */
+                if ($("#itms button.itm").length === 0) {
+                    var chkEl = document.getElementById('chk');
+                    if (chkEl) {
+                        setTimeout(function () { $(chkEl).trigger('click'); }, 300);
+                    }
+                }
+            });
+
+            /* 팝업 내용 사라지기 */
+            $(".pop").popover().click(function () {
+                setTimeout(function () {
+                    $(".pop").popover('hide');
+                }, 500);
+            });
+
+            <?php require "wahl.php"; ?>
+
+            /* 미리 배치할 항목 (1: Betreff, 6: Mina) */
+            var pan = ["1", "6"];
+            for (var p = 0; p < pan.length; p++) {
+                var pani = pan[p];
+                $("#itms .itm.ans" + pani).each(function () {
+                    $(this).appendTo($("#lst-" + pani)).addClass("w-100 btn-light");
+                    $("#lst-" + pani + ">h2.ttl").remove();
+                });
+            }
+
+            /* 정답확인 */
+            $("#chk").on("click", function () {
+                if ($(this).attr("id") == "chk") {
+                    if ($(".an").length < $(".q").length || $("#itms button.itm").length > 0) {
+                        alert("모든 문제를 풀어주세요.");
+                        return;
+                    }
+
+                    $(this).attr("id", "done");
+                    $(".tran").show();
+                    $(".pop").each(function () {
+                        $(this).removeClass("btn-info btn-light btn-warning");
+                        if ($(this).hasClass("o") && $(this).hasClass("an")) {
+                            $(this).addClass("btn-success");
+                        } else if ($(this).hasClass("o")) {
+                            $(this).addClass("btn-outline-success");
+                        } else if ($(this).hasClass("an")) {
+                            $(this).addClass("btn-danger");
+                        } else {
+                            $(this).addClass("btn-light");
+                        }
+                    });
+
+                    $(this).removeClass("btn-light");
+                    var _r = nqValidateGrading();
+                    var qa = _r.qa + $(".q").length; /* 전체 문항 수 (드래그 6 + 선택 1 = 7) */
+                    var qr = _r.qr + $(".pop.btn-success").length; /* 맞춘 항목 수 */
+                    var pe = (qr / qa) * 100; /* 정답 비율 */
+                    var tcl = "white"; /* 기본 문자색 */
+
+                    /* 분류 기준은 100%, 80%, 60%, 40% */
+                    if (pe > 99) {
+                        var st = "원어민이세요?";
+                        var cl = "success";
+                        var tcl = "dark";
+                    } else if (pe > 74) {
+                        var st = "어! 좀 하시는데요~^^";
+                        var cl = "success";
+                    } else if (pe > 49) {
+                        var st = "쓰읍~ 다시 해 보실까요?";
+                        var cl = "primary";
+                    } else {
+                        var st = "좀 더 분발해 주세요~";
+                        var cl = "danger";
+                    }
+                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                    $(this).html("<h4>" + qa + "문제 중 " + qr + "개를 맞히셨네요!<br>" + st + "</h4>");
+
+                    /* 올바른 순서 전체 대화문 + 번역 피드백 */
+                    var correctOrder = [
+                        {de: "Betreff: Kino", ko: "제목: 영화"},
+                        {de: "Lieber Max,", ko: "막스에게,"},
+                        {de: "leider kann ich doch nicht kommen.", ko: "안타깝게도 난 갈 수가 없어."},
+                        {de: "Vielleicht können wir morgen ins Kino gehen?", ko: "우리 내일 영화 보러 갈수 있을까?"},
+                        {de: "Liebe Grüße", ko: "사랑을 담아"},
+                        {de: "Mina", ko: "미나가"}
+                    ];
+                    var fb = '<div class="mt-3 p-3 border rounded bg-light"><h5 class="mb-2">올바른 순서:</h5>';
+                    for (var ci = 0; ci < correctOrder.length; ci++) {
+                        fb += '<p class="mb-1"><strong>' + (ci+1) + '. ' + correctOrder[ci].de + '</strong><br><span style="color:#1e293b;font-size:0.85rem;">' + correctOrder[ci].ko + '</span></p>';
+                    }
+                    fb += '</div>';
+                    $(this).after(fb);
                 }
             });
         });

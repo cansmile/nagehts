@@ -156,6 +156,26 @@
                 });
             };
 
+            function handlePlaybackEnd() {
+                $("div#last").text("");
+                stopAll();
+                $("#cnt-" + last).text(sen[last]);
+                if (last == 0) {
+                    if (sen[last] == 2) {
+                        $(".tran").show();
+                        $(".so").each(function () {
+                            pa[$(this).attr("id")] = $(this).html();
+                        });
+                    }
+                } else if (sen[last] == 2) {
+                    if ($("#" + last).hasClass("itm")) {
+                        $("#" + last + ">.tran").show();
+                    }
+                    $("#" + last).closest("button").find(".tran").show();
+                    pa[last] = $("#" + last).html();
+                }
+            }
+
             /* 문제 재생 */
             var nagehts = new Howl({
                 src: ["./dev/sounds/Reihe 7/r7 A2.mp3"],
@@ -179,6 +199,7 @@
                     );
                     console.log("다시 읽어주세요!");
                 },
+                onend: handlePlaybackEnd,
                 onload: function () {
 
                     <?php require "wahl.php"; ?>
@@ -237,43 +258,47 @@
                     $(".so").on("click", function () {
                         var t = $(this);
                         var ti = t.attr("id");
+                        var player = ti == "2" ? item2Audio : nagehts;
                         if (($("div#last").text() == "" || t.text() == "❚❚") && !t.hasClass(
                                 ".itm-lst")) {
                             $("#last").text(ti);
                             t.text("■");
-                            nagehts.seek();
-                            nagehts.play(ti);
+                            player.seek(0);
+                            if (ti == "2") {
+                                player.play();
+                            } else {
+                                player.play(ti);
+                            }
                             sen[ti]++;
                             last = ti;
                             $("#cnt-" + ti).text(sen[ti]);
-                        } else if (last == ti && nagehts.playing($("div#last").text())) {
-                            $("#last").text("");
-                            t.html(pa[ti]);
-                            nagehts.pause();
-                            sen[ti]--;
-                            $("#cnt-" + ti).text(sen[ti]);
+                        } else if (last == ti) {
+                            var isPlaying = ti == "2" ? player.playing() : player.playing($("div#last").text());
+                            if (isPlaying) {
+                                $("#last").text("");
+                                t.html(pa[ti]);
+                                player.pause();
+                                sen[ti]--;
+                                $("#cnt-" + ti).text(sen[ti]);
+                            }
                         }
                     });
-                },
-                onend: function () {
-                    $("div#last").text("");
-                    stopAll();
-                    $("#cnt-" + last).text(sen[last]);
-                    if (last == 0) {
-                        if (sen[last] == 2) {
-                            $(".tran").show();
-                            $(".so").each(function () {
-                                pa[$(this).attr("id")] = $(this).html();
-                            });
-                        }
-                    } else if (sen[last] == 2) {
-                        if ($("#" + last).hasClass("itm")) {
-                            $("#" + last + ">.tran").show();
-                        }
-                        $("#" + last).closest("button").find(".tran").show();
-                        pa[last] = $("#" + last).html();
-                    }
                 }
+            });
+
+            var item2Audio = new Howl({
+                src: ["./dev/sounds/Reihe 7/r7 A2-2.mp3"],
+                html5: true,
+                volume: 1,
+                format: "mp3",
+                preload: true,
+                onloaderror: function () {
+                    $(".alert").append(
+                        "<br /><strong class=\"fw-bold text-dark h4\">페이지를 다시 읽어주시기 바래요.</strong>"
+                    );
+                    console.log("다시 읽어주세요!");
+                },
+                onend: handlePlaybackEnd
             });
         });
 

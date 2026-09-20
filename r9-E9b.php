@@ -1,5 +1,18 @@
 <?php require_once("heading.php"); ?>
-    <section class="nq-exercise" data-type="fill-blank" data-reihe="9">
+    <style>
+        .nq-e9b .q {
+            min-width: 120px !important;
+            max-width: 160px;
+        }
+
+        @media (max-width: 575.98px) {
+            .nq-e9b .q {
+                min-width: 90px !important;
+                max-width: 125px;
+            }
+        }
+    </style>
+    <section class="nq-exercise nq-e9b" data-type="fill-blank" data-reihe="9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">

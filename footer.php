@@ -44,6 +44,30 @@ $(document).ready(function() {
     $(document).ready(function() {
         var chkEl = document.getElementById('chk');
         if (!chkEl) return;
+        function readCompletionSummary() {
+            var doneEl = document.getElementById('done') || document.getElementById('chk');
+            var text = doneEl ? ((doneEl.textContent || '').replace(/\s+/g, ' ').trim()) : '';
+            var match = text.match(/(\d+)\s*문제\s*중\s*(\d+)\s*개/);
+            if (match) {
+                return {
+                    total: parseInt(match[1], 10) || 0,
+                    correct: parseInt(match[2], 10) || 0
+                };
+            }
+
+            var type = $('.nq-exercise').data('type') || '';
+            var qa = 0, qr = 0;
+            if (type === 'fill-blank' || type === 'other') {
+                qa = $('input.q').length;
+                qr = $('input.q').filter(function() {
+                    return /bg-success|border-success/.test(this.className);
+                }).length;
+            } else {
+                qa = $('.q').length;
+                qr = $('.btn-success').length;
+            }
+            return { correct: qr, total: qa };
+        }
         var observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(m) {
                 if (m.target.id !== 'done') return;
@@ -51,17 +75,9 @@ $(document).ready(function() {
                 // dragtogroup 계열은 dragtogroup.js에서 자체 저장
                 if (/dragtogroup|dragtogroupnomove|dragtocompare|dragtogroupcheckafter/.test(type)) return;
 
-                var qa = 0, qr = 0;
-                if (type === 'fill-blank' || type === 'other') {
-                    qa = $('input.q').length;
-                    qr = $('input.q').filter(function() {
-                        return /bg-success|border-success/.test(this.className);
-                    }).length;
-                } else {
-                    // click-select, grammar 등
-                    qa = $('.q').length;
-                    qr = $('.btn-success').length;
-                }
+                var summary = readCompletionSummary();
+                var qa = summary.total;
+                var qr = summary.correct;
                 if (qa <= 0) return;
 
                 var filename = window.location.pathname.split('/').pop();
@@ -89,11 +105,27 @@ $(document).ready(function() {
     $(document).ready(function() {
         var chkEl = document.getElementById('chk');
         if (!chkEl) return;
+        function readCompletionSummary() {
+            var doneEl = document.getElementById('done') || document.getElementById('chk');
+            var text = doneEl ? ((doneEl.textContent || '').replace(/\s+/g, ' ').trim()) : '';
+            var match = text.match(/(\d+)\s*문제\s*중\s*(\d+)\s*개/);
+            if (match) {
+                return {
+                    total: parseInt(match[1], 10) || 0,
+                    correct: parseInt(match[2], 10) || 0
+                };
+            }
+            return {
+                total: $('.q').length,
+                correct: $('.bg-success').length
+            };
+        }
         var observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(m) {
                 if (m.target.id === 'done') {
-                    var total = $('.q').length;
-                    var correct = $('.bg-success').length;
+                    var summary = readCompletionSummary();
+                    var total = summary.total;
+                    var correct = summary.correct;
                     var pct = total > 0 ? Math.round((correct / total) * 10000) / 100 : 0;
                     window.parent.postMessage({
                         type: 'makeq-completion',

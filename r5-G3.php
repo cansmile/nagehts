@@ -89,13 +89,14 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
+                                                class="text-center form-control border-bottom-only rounded-0 ms-1 q nq-fill-wide t-6"
                                                 id="qst-1">
+                                            .
                                         </div>
-                </div></span>
-                <span class="tran">그는 햄버거 먹기를 좋아합니다.</span>
-                </td>
-                </tr>
+                                    </span>
+                                    <span class="tran">그는 햄버거 먹기를 좋아합니다.</span>
+                                </td>
+                            </tr>
                 <tr>
                     <td>
                         <span class="sen">
@@ -105,7 +106,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                     aria-label="Antwort"
                                     aria-describedby="basic-addon2"
-                                    class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
+                                    class="text-center form-control border-bottom-only rounded-0 ms-1 q nq-fill-wide t-6"
                                     id="qst-2">
                                 .
                             </div>
@@ -122,7 +123,7 @@
                                 <input autocomplete="off" type="text" placeholder="Antwort"
                                     aria-label="Antwort"
                                     aria-describedby="basic-addon3"
-                                    class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
+                                    class="text-center form-control border-bottom-only rounded-0 ms-1 q nq-fill-wide t-6"
                                     id="qst-3">
                                 .
                             </div>
@@ -147,13 +148,14 @@
                                         <input autocomplete="off" type="text" placeholder="Antwort"
                                             aria-label="Antwort"
                                             aria-describedby="basic-addon4"
-                                            class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
+                                            class="text-center form-control border-bottom-only rounded-0 ms-1 q nq-fill-wide t-6"
                                             id="qst-4">
+                                        .
                                     </div>
-            </div></span>
-            <span class="tran">그녀는 잼 바른 빵 먹는 것을 좋아합니다.</span>
-            </td>
-            </tr>
+                                </span>
+                                <span class="tran">그녀는 잼 바른 빵 먹는 것을 좋아합니다.</span>
+                            </td>
+                        </tr>
             <tr>
                 <td>
                     <span class="sen">
@@ -163,7 +165,7 @@
                             <input autocomplete="off" type="text" placeholder="Antwort"
                                 aria-label="Antwort"
                                 aria-describedby="basic-addon5"
-                                class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6"
+                                class="text-center form-control border-bottom-only rounded-0 ms-1 q nq-fill-wide t-6"
                                 id="qst-5">
                             .
                         </div>
@@ -178,7 +180,7 @@
                         Aber sie mag kein
                         <input autocomplete="off" type="text" placeholder="Antwort"
                             aria-label="Antwort" aria-describedby="basic-addon6"
-                            class="text-center form-control border-bottom-only rounded-0 ms-1 q t-6" id="qst-6">
+                            class="text-center form-control border-bottom-only rounded-0 ms-1 q nq-fill-wide t-6" id="qst-6">
                         .
                     </div>
                     <span class="tran">하지만 맥주는 좋아하지 않습니다.</span>
@@ -205,7 +207,7 @@
     <?php require "footer.php"; ?>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();

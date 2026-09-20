@@ -302,7 +302,7 @@
                         <tbody>
                             <tr>
                                 <td>möchten은 mögen(~을 좋아하다, ~일지도 모른다) 동사로부터 비롯된
-                                    접속법II식 동사이다. 접속법II식은 공손한 부탁이나 비현실적인 조건, 소망
+                                    가정법 II식 동사이다. 가정법 II식은 공손한 부탁이나 비현실적인 조건, 소망
                                     등을 표현할 때 사용한다.</td>
                             </tr>
                         </tbody>
@@ -344,7 +344,7 @@
     <script src="./dev/js/dragtogroupnomove.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?> <script>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?> <script>
         $("#0").hide();
         $(".tran").hide();
         $(".ant").hide();

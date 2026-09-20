@@ -236,10 +236,10 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -295,110 +295,7 @@
                             .attr("id") == "chk") {
                             $(this).attr("id",
                                 "done");
-                            $(".itm").each(
-                                function () {
-                                    if ($(this)
-                                        .parent()
-                                        .attr(
-                                            "id"
-                                            )
-                                        .length >
-                                        5) {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                2,
-                                                2
-                                                );
-                                    } else {
-                                        var a =
-                                            $(
-                                                this)
-                                            .parent()
-                                            .attr(
-                                                "id"
-                                                )
-                                            .substr(
-                                                $(
-                                                    this)
-                                                .parent()
-                                                .attr(
-                                                    "id"
-                                                    )
-                                                .length -
-                                                1,
-                                                1
-                                                );
-                                    }
-                                    $(".tran")
-                                        .show();
-                                    if ($(this)
-                                        .hasClass(
-                                            "ans" +
-                                            (a))
-                                        ) {
-                                        $(this)
-                                            .addClass(
-                                                "text-success fw-bold"
-                                                );
-                                    } else {
-                                        $(this)
-                                            .addClass(
-                                                "text-warning fw-bold"
-                                                );
-                                        $(this)
-                                            .find(
-                                                ".tran"
-                                                )
-                                            .show();
-                                    };
-                                    if ($(this)
-                                        .hasClass(
-                                            "text-warning"
-                                            )) {
-                                        /* $(this).text().insertAfter($("lst-"+($(this).attr("id").substr(3,)))) */
-                                        for (var i =
-                                                1; i <=
-                                            $(
-                                                ".itm-lst")
-                                            .length; i++
-                                            ) {
-                                            if ($(
-                                                    this)
-                                                .hasClass(
-                                                    "ans" +
-                                                    i
-                                                    )
-                                                ) {
-                                                $(eval('"#lst-' +
-                                                        i +
-                                                        '"'
-                                                        ))
-                                                    .append(
-                                                        "<button class=\"mt-1 mx-1 btn btn-lg btn-outline-dark w-100 text-danger bg-white fw-bold\">" +
-                                                        $(
-                                                            this)
-                                                        .html() +
-                                                        "</button>"
-                                                        );
-                                                /* $(lstn).append(i); */
-                                            }
-                                        }
-                                    };
-                                }
-                            );
+                            $(".tran").show();
                             /* 정답 확인 div 상자 배경색 속성 없애기 */
                             $(this).removeClass(
                                 "btn-light ");

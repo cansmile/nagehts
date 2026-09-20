@@ -73,7 +73,7 @@
                             </button>
                         </td>
                         <td>Bitte schön!<span
-                                class="tran"><small>&nbsp;<br>여기있습니다.</small>
+                                class="tran"><small>&nbsp;여기있습니다.</small></span>
                         </td>
                     </tr>
                     <tr>
@@ -312,17 +312,16 @@
                             </button>
                         </td>
                         <td>
+                            <div class="sen">Bitte schön.</div>
                             <div id="ant-11"></div>
-                            <div class="input-group">
-                                <div class="sen d-inline-flex">Bitte
-                                    schön.
-                                    <input autocomplete="off" type="text"
-                                           placeholder="Antwort"
-                                           aria-label="Antwort"
-                                           aria-describedby="basic-addon11"
-                                           class="form-control col-6 q text-center border-bottom-only
+                            <div class="input-group mt-1">
+                                <div class="sen d-inline-flex"><input autocomplete="off" type="text"
+                                                                      placeholder="Antwort"
+                                                                      aria-label="Antwort"
+                                                                      aria-describedby="basic-addon11"
+                                                                      class="form-control col-6 q nq-fill-phrase text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
-                                           id="qst-11">
+                                                                      id="qst-11">
                                     ?
                                 </div>
                             </div>
@@ -368,7 +367,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon13"
-                                           class="form-control col-5 q text-center border-bottom-only
+                                           class="form-control col-5 q nq-fill-wide text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-13">
                                     ?
@@ -392,13 +391,12 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon14"
-                                           class="form-control col-6 q text-center border-bottom-only
+                                           class="form-control col-6 q nq-fill-phrase text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-14">
                                 </div>
                             </div>
-                            <span class="tran"><small>피자,
-                                            샐러드,</small></span>
+                            <span class="tran"><small></small></span>
                         </td>
                     </tr>
                     <tr>
@@ -411,14 +409,13 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon14"
-                                           class="form-control col-6 q text-center border-bottom-only
+                                           class="form-control col-6 q nq-fill-wide text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-15">
                                     .
                                 </div>
                             </div>
-                            <span class="tran"><small>그리고
-                                            콜라요.</small></span>
+                            <span class="tran"><small>피자, 샐러드, 콜라입니다.</small></span>
                         </td>
                     </tr>
                     <tr>
@@ -435,7 +432,7 @@
                                                                       placeholder="Antwort"
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon15"
-                                                                      class="form-control col-5 q text-center border-bottom-only
+                                                                      class="form-control col-5 q nq-fill-wide text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                                                       id="qst-16">
                                     9,70 €.
@@ -453,7 +450,7 @@
                         </td>
                         <td>
                             11 €, bitte.
-                            <span class="tran"><small>&nbsp;<br>11유로
+                            <span class="tran"><small>&nbsp;11유로
                                             드리겠습니다.</small></span>
                         </td>
                     </tr>
@@ -466,7 +463,7 @@
                         <td>
                             Vielen Dank!
                             <span
-                                class="tran"><small>&nbsp;<br>감사합니다!</small></span>
+                                class="tran"><small>&nbsp;감사합니다!</small></span>
                         </td>
                     </tr>
                     <tr>
@@ -485,7 +482,7 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon18"
-                                           class="form-control q text-center border-bottom-only
+                                           class="form-control q nq-fill-wide text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-17">
                                     und
@@ -495,7 +492,7 @@
                                                                       placeholder="Antwort"
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon18"
-                                                                      class="form-control q text-center border-bottom-only
+                                                                      class="form-control q nq-fill-wide text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                                                       id="qst-18">
                                     .
@@ -519,14 +516,12 @@
                                                                       placeholder="Antwort"
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon19"
-                                                                      class="form-control q text-center border-bottom-only
+                                                                      class="form-control q nq-fill-wide text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                                                       id="qst-19">
-                                    ,
                                 </div>
                             </div>
-                            <span class="tran"><small>스태이크
-                                            하나,</small></span>
+                            <span class="tran"><small></small></span>
                         </td>
                     </tr>
                     <tr>
@@ -539,14 +534,13 @@
                                            placeholder="Antwort"
                                            aria-label="Antwort"
                                            aria-describedby="basic-addon19"
-                                           class="form-control q pe-0 text-center border-bottom-only
+                                           class="form-control q nq-fill-wide pe-0 text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                            id="qst-20">
                                     ...,
                                 </div>
                             </div>
-                            <span class="tran"><small>그리고 와인 한
-                                            잔…,</small></span>
+                            <span class="tran"><small></small></span>
                         </td>
                     </tr>
                     <tr>
@@ -559,14 +553,13 @@
                                                                       placeholder="Antwort"
                                                                       aria-label="Antwort"
                                                                       aria-describedby="basic-addon19"
-                                                                      class="form-control q pe-0 text-center border-bottom-only
+                                                                      class="form-control q nq-fill-wide pe-0 text-center border-bottom-only
                                                 rounded-0 ms-1 t-6"
                                                                       id="qst-21">
                                     18,50 €.
                                 </div>
                             </div>
-                            <span class="tran"><small>18유로
-                                            50입니다.</small></span>
+                            <span class="tran"><small>스테이크 하나와 와인 한잔 ..., 18유로 50 입니다.</small></span>
                         </td>
                     </tr>
                     <tr>
@@ -636,7 +629,7 @@
 <?php require "footer.php"; ?>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once( "./dev/oxsound.php" ); ?>
+<?php require_once(__DIR__ . "/oxsound.php"); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();

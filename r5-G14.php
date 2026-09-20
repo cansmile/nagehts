@@ -24,7 +24,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-1">
                                             Bier.
@@ -44,7 +44,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-2">
                                             ist zu warm.
@@ -64,7 +64,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-3">
                                             Salat esse ich nicht.
@@ -84,7 +84,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-4">
                                             ist nicht frisch.
@@ -111,7 +111,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-5">
                                             Milch.
@@ -131,7 +131,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-6">
                                             ist sauer.
@@ -151,7 +151,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-7">
                                             Kartoffeln esse ich nicht.
@@ -171,7 +171,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q text-center border-bottom-only rounded-0
+                                                class="form-control q nq-fill-short text-center border-bottom-only rounded-0
                                                 mx-1 t-6"
                                                 id="qst-8">
                                             sind kalt.
@@ -201,7 +201,7 @@
     <?php require "footer.php"; ?>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();

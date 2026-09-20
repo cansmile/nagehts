@@ -1,4 +1,15 @@
 <?php require_once("heading.php"); ?>
+    <style>
+        .nq-e10a .itm-lst {
+            min-height: 180px !important;
+        }
+
+        @media (max-width: 575.98px) {
+            .nq-e10a .itm-lst {
+                min-height: 140px !important;
+            }
+        }
+    </style>
     <!-- 보기시작 -->
     <section class="bg-white rounded p-2 nq-wahl" id="wahl">
         <div class="container">
@@ -68,7 +79,7 @@
         </div>
     </section>
 
-    <section class="nq-exercise" data-type="dragtogroup" data-reihe="9">
+    <section class="nq-exercise nq-e10a" data-type="dragtogroup" data-reihe="9">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -122,13 +133,13 @@
     <div id="marg" class="border-danger"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $(".tran").hide();
-        $("#chk").hide();
+        $("#chk").show();
 
         $(document).ready(function () {
 

@@ -329,18 +329,17 @@
            /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
                 var q, qn, a, b, fl;
-                q = th.val().length;
+                a = $.trim(th.val()).replace(/\s+/g, "");
+                q = a.length;
                 qn = (th.attr("id").substr(4)) - 1;
-                a = th.val();
-                a = a.replace(/ /gi, "");
                 if (!$.isArray(an[qn])) {
                    /* 1 인 경우 */
                     if (io) {
                         b = an[qn];
                     } else {
-                        b = an[qn].substr(0, q);
+                        b = an[qn].replace(/\s+/g, "").substr(0, q);
                     }
-                    b = b.replace(/ /gi, "");
+                    b = b.replace(/\s+/g, "");
 
                     if (a == b) {
                         return true;
@@ -352,9 +351,9 @@
                         if (io) {
                             b = an[qn][fd];
                         } else {
-                            b = an[qn][fd].substr(0, q);
+                            b = an[qn][fd].replace(/\s+/g, "").substr(0, q);
                         }
-                        b = b.replace(/ /gi, "");
+                        b = b.replace(/\s+/g, "");
 
                         if (a == b) {
                             return true;
@@ -366,7 +365,7 @@
             /* 숫자 입력 차단: 알파벳/움라우트/공백만 허용 */
             $(".q").on("input", function () {
                 var val = $(this).val();
-                var filtered = val.replace(/[0-9]/g, "");
+                var filtered = val.replace(/[^A-Za-zÄÖÜäöüß\s]/g, "");
                 if (val !== filtered) $(this).val(filtered);
             });
 
@@ -392,18 +391,19 @@
                         .addClass("text-danger");
                 }
 
-                if (!$(this).val()) {
+                if ($.trim($(this).val()) === "") {
                     $(this).removeClass("bg-danger");
                     $(this).removeClass("bg-success");
                     $(this).removeClass(
                         "text-white fw-bold");
+                    $("#ant-" + $(this).attr("id").substr(4)).hide();
                 }
 
-                if ($(this).val()) {
+                if ($.trim($(this).val()) !== "") {
                     $("#ant-" + $(this).attr("id").substr(4))
                         .show();
                     $("#ant-" + $(this).attr("id").substr(4))
-                        .text($(this).val());
+                        .text($.trim($(this).val()));
                 } else {
                     $("#ant-" + $(this).attr("id").substr(4))
                         .hide();
@@ -440,13 +440,19 @@
                 $("#ant-" + $(this).attr("id").substr(4))
             .hide();
 
+                if ($.trim($(this).val()) === "") {
+                    $(this).val("");
+                    $(this).removeClass("bg-danger bg-success text-white fw-bold");
+                    return;
+                }
+
                 if (rfchk($(this), true)) {
                     $(this).addClass("bg-success");
                     $(this).addClass("text-white");
                 } else {
                     $(this).addClass("bg-danger");
                 }
-                if ($(this).val()) {
+                if ($.trim($(this).val()) !== "") {
                     if ($(this).hasClass("bg-danger")) {
                         x.play();
                     } else if ($(this).hasClass("bg-success")) {
@@ -477,66 +483,69 @@
                             4, 1);
                     }
                 });
-                var filled = $(".q").filter(function() { return $(this).val() !== ""; }).length;
+                var $filledInputs = $(".q").filter(function() { return $.trim($(this).val()) !== ""; });
+                var filled = $filledInputs.length;
                 if ($(this).attr("id") == "done") {} else if (
                     filled >= 8) {
-                    for (var i = 0; i < an.length; i++) {
-                        var oran = $("#qst-" + (i + 1)).val();
-                        if (rfchk($("#qst-" + (i + 1)), true)) {
-                            $("#qst-" + (i + 1)).addClass(
+                    $filledInputs.each(function () {
+                        var $input = $(this);
+                        var idx = parseInt($input.attr("id").substr(4), 10) - 1;
+                        if (idx < 0 || idx >= an.length) return;
+                        var oran = $input.val();
+                        $input.nextAll(".ra").first().remove();
+                        $input.closest("span.sen").next(".ra").remove();
+                        if (rfchk($input, true)) {
+                            $input.addClass(
                                 "bg-success text-white rounded fw-bold p-1 px-2 ms-1"
                                 );
-                            $("#qst-" + (i + 1)).removeClass(
+                            $input.removeClass(
                                 "rounded-0");
                         } else {
-                            $("#qst-" + (i + 1)).val(oran);
-                            $("#qst-" + (i + 1)).attr(
-                                "disabled", true);
-                            $("#qst-" + (i + 1)).addClass(
+                            $input.val(oran);
+                            $input.addClass(
                                 "wa"
                                 );
-                            $("#qst-" + (i + 1)).removeClass(
+                            $input.removeClass(
                                 "rounded-0");
 
-                            if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after(
+                            if (!$.isArray(an[idx])) {
+                                $input.after(
                                     "<div class=\"w-100 ra t-6\">" +
-                                    an[i] + "</div>");
+                                    an[idx] + "</div>");
                             } else {
                                /* 2 이상인 경우 */
                                 var r =
                                     "<div class=\"w-100 ra t-6\">";
-                                for (var fd = (an[i].length -
+                                for (var fd = (an[idx].length -
                                     1); fd >= 0; fd--) {
-                                    if (fd < (an[i].length -
+                                    if (fd < (an[idx].length -
                                         1)) {
                                         r = r + " / ";
                                     }
-                                    r = r + an[i][fd];
+                                    r = r + an[idx][fd];
                                 }
                                 r = r + "</div>";
                                 if ($("span.sen").length > 0) {
-                                    $("#qst-" + (i + 1))
-                                        .closest("span.sen")
+                                    $input.closest("span.sen")
                                         .after(r);
                                 } else {
-                                    $("#qst-" + (i + 1)).after(
+                                    $input.after(
                                         r);
                                 }
                             }
 
                         }
-                        if ($("#qst-" + (i + 1)).hasClass(
+                        if ($input.hasClass(
                                 "bg-success")) {
                             ri++;
                         }
-                    }
+                    });
 
                    /* 정답 확인 div 상자 배경색 속성 없애기 */
                     $(this).removeClass("btn-light ");
 
-                    var qa = $(".q").length;/* 전체 문항 수 */
-                    var qr = $(".bg-success").length;/* 맞춘 항목 수 */
+                    var qa = $filledInputs.length;/* 채점 문항 수 */
+                    var qr = $filledInputs.filter(".bg-success").length;/* 맞춘 항목 수 */
                     var pe = (qr / qa) * 100;/* 정답 비율 */
                     var tcl = "white";/* 기본 문자색 */
 

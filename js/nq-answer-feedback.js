@@ -37,7 +37,7 @@
 
             // ① 그룹 내 모든 버튼을 초기 상태로 복원
             $group.find('.pop')
-                .removeClass('an btn-warning btn-success text-white')
+                .removeClass('an btn-warning btn-success btn-danger text-white fw-bold ca wa ra')
                 .addClass('btn-light');
 
             // ② 현재 버튼 선택 표시 (오답=빨강, 정답=초록)
@@ -45,7 +45,7 @@
                 $btn.removeClass('btn-light').addClass('an wa');
                 // ③ 오답이면 정답 즉시 강조 (노랑)
                 $group.find('.pop.o')
-                    .removeClass('btn-light btn-warning btn-success')
+                    .removeClass('btn-light btn-warning btn-success btn-danger ca wa')
                     .addClass('ra');
             } else {
                 $btn.removeClass('btn-light').addClass('an ca');
@@ -80,10 +80,20 @@
             function () {
                 var $input = $(this);
 
-                // 이미 정답 처리된(disabled) 입력 무시
-                if ($input.prop('disabled')) return;
+                // 기존 페이지 핸들러가 같은 focusout에서 정답 처리한 경우 stale 오답 표시 제거
+                if ($input.prop('disabled')) {
+                    if (nqCheckFill($input)) {
+                        $input.removeClass('wa bg-danger').addClass('ca bg-success text-white fw-bold');
+                        $input.siblings('.nq-hint, .ra').remove();
+                        $input.nextAll('.ra').first().remove();
+                        $input.closest('span.sen').next('.ra').remove();
+                        nqAutoComplete();
+                    }
+                    return;
+                }
                 // 빈 입력 무시
-                if (!$input.val()) {
+                if (!$.trim($input.val())) {
+                    $input.removeClass('wa bg-danger text-white fw-bold');
                     $input.siblings('.nq-hint').remove();
                     return;
                 }
@@ -93,12 +103,13 @@
 
                 if (!correct) {
                     // 기존 핸들러가 제거한 bg-danger 복원
-                    $input.addClass('bg-danger text-white fw-bold');
+                    $input.removeClass('ca bg-success').addClass('wa bg-danger text-white fw-bold');
                     nqShowFillHint($input);
                     // 오답이어도 전체 입력 완료 여부 확인 (번역 표시용)
                     nqAutoComplete();
                 } else {
                     // 정답 → 힌트 제거
+                    $input.removeClass('wa bg-danger').addClass('ca bg-success text-white fw-bold');
                     $input.siblings('.nq-hint').remove();
                     // 전체 완료 여부 확인
                     nqAutoComplete();
@@ -106,6 +117,25 @@
             }
         );
     });
+
+    $(document).on(
+        'click',
+        '.nq-exercise[data-type="fill-blank"] input.q.wa, ' +
+        '.nq-exercise[data-type="fill-blank"] input.q.bg-danger, ' +
+        '.nq-exercise[data-type="fill-blank"] .ra, ' +
+        '.nq-exercise[data-type="fill-blank"] .nq-hint, ' +
+        '.nq-exercise[data-type="other"] input.q.wa, ' +
+        '.nq-exercise[data-type="other"] input.q.bg-danger, ' +
+        '.nq-exercise[data-type="other"] .ra, ' +
+        '.nq-exercise[data-type="other"] .nq-hint',
+        function () {
+            var $target = $(this);
+            var $input = $target.is('input.q') ? $target : findFillInputForHint($target);
+            if (!$input.length) return;
+            resetFillInputForRetry($input);
+            restoreCheckButtonForRetry();
+        }
+    );
 
 
     // ─── 내부 함수 ────────────────────────────────────────────────────
@@ -120,14 +150,14 @@
         var qn = parseInt($input.attr('id').replace('qst-', ''), 10) - 1;
         if (isNaN(qn) || qn < 0 || qn >= window.an.length) return null;
 
-        var val = $input.val().replace(/ /g, '');
+        var val = $.trim($input.val()).replace(/\s+/g, '');
         var ans = window.an[qn];
 
         if (!Array.isArray(ans)) {
-            return val === ans.replace(/ /g, '');
+            return val === ans.replace(/\s+/g, '');
         }
         return ans.some(function (a) {
-            return val === a.replace(/ /g, '');
+            return val === a.replace(/\s+/g, '');
         });
     }
 
@@ -143,8 +173,40 @@
 
         // 이전 힌트 제거 후 새로 추가
         $input.siblings('.nq-hint').remove();
-        $('<small class="nq-hint">→ ' + $('<span>').text(display).html() + '</small>')
+        $('<small class="nq-hint ra">' + $('<span>').text(display).html() + '</small>')
             .insertAfter($input);
+    }
+
+    function findFillInputForHint($hint) {
+        var $input = $hint.prevAll('input.q').first();
+        if (!$input.length) {
+            $input = $hint.closest('span.sen').find('input.q').first();
+        }
+        if (!$input.length) {
+            $input = $hint.parent().find('input.q').first();
+        }
+        return $input;
+    }
+
+    function resetFillInputForRetry($input) {
+        $input.prop('disabled', false)
+            .val('')
+            .removeClass('wa ca bg-danger bg-success text-white fw-bold text-danger text-success rounded p-1 px-2 ms-1')
+            .addClass('border-bottom-only border-dark rounded-0');
+        $input.siblings('.nq-hint, .ra').remove();
+        $input.nextAll('.ra').first().remove();
+        $input.closest('span.sen').next('.ra').remove();
+        window.setTimeout(function () { $input.trigger('focus'); }, 0);
+    }
+
+    function restoreCheckButtonForRetry() {
+        var $done = $('#done');
+        if (!$done.length) return;
+        $done.attr('id', 'chk')
+            .prop('disabled', false)
+            .removeClass('btn-success btn-primary btn-danger btn-lime text-white text-dark')
+            .addClass('btn-light')
+            .html('정답확인');
     }
 
     /**
@@ -159,7 +221,7 @@
 
         // 모든 입력에 값이 채워졌으면 번역 표시
         var allFilled = $inputs.toArray().every(function (el) {
-            return $(el).val() || $(el).prop('disabled');
+            return $.trim($(el).val()) || $(el).prop('disabled');
         });
         if (allFilled) {
             $('.tran').show();

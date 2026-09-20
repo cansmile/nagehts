@@ -728,7 +728,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 lh250">Was ist Ihr Familienstand?</div>
+                                                <div class="col-9 mx-1 px-1 lh250">Wie ist Ihr Familienstand?</div>
                                             </div>
                                         </td>
                                         <td>

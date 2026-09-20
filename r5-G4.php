@@ -18,8 +18,10 @@
         </div>
         <div class="row border border-dark rounded p-2 text-center">
             <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-purple">
-                <img src="./dev/images/Reihe 5/Reihe-5-G4-1.png" style="max-height: 120px; width: auto;"
-                     alt="das Falsche">
+                <span class="nq-image-choice--wrong">
+                    <img src="./dev/images/Reihe 5/Reihe-5-G4-1.png" style="max-height: 120px; width: auto;"
+                         alt="das Falsche">
+                </span>
                 <br>Käsebrötchen
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 align-middle">
@@ -64,9 +66,11 @@
         </div>
         <div class="row border border-dark rounded p-2 text-center">
             <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-danger">
-                <img src="./dev/images/Reihe 5/Reihe-5-G4-3.png"
-                     style="max-height: 120px; width: auto;"
-                     alt="das Falsche"><br>Cola
+                <span class="nq-image-choice--wrong">
+                    <img src="./dev/images/Reihe 5/Reihe-5-G4-3.png"
+                         style="max-height: 120px; width: auto;"
+                         alt="das Falsche">
+                </span><br>Cola
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 align-middle">
                 <div class="row" style="min-height: 50%!important;">
@@ -107,9 +111,11 @@
         </div>
         <div class="row border border-dark rounded p-2 text-center">
             <div class="col-sm-12 col-md-3 col-lg-3 fw-bold text-primary">
-                <img src="./dev/images/Reihe 5/Reihe-5-G4-5.png"
-                     style="max-height: 120px; width: auto;"
-                     alt="das Falsche"><br>Wein
+                <span class="nq-image-choice--wrong">
+                    <img src="./dev/images/Reihe 5/Reihe-5-G4-5.png"
+                         style="max-height: 120px; width: auto;"
+                         alt="das Falsche">
+                </span><br>Wein
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 align-middle">
                 <div class="row" style="min-height: 50%!important;">
@@ -166,7 +172,7 @@
 <?php require "footer.php"; ?>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once( "./dev/oxsound.php" ); ?>
+<?php require_once(__DIR__ . "/oxsound.php"); ?>
 <script>
     $(".tran").hide();
     $(".ant").hide();

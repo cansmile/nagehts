@@ -80,8 +80,8 @@
                                     Um halb zehn&nbsp;<br />
                                     <div class="ant t-6" id="ant-1"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
-                                            aria-label="." id="qst-1" style="position: relation; top: 5px;">
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text" class="form-control border border-bottom-only q"
+                                            aria-label="." id="qst-1" style="position: relative; top: 5px;">
                                     </div><span class="tran"><br /><small>9시
                                             30분에 그는 신문을 읽습니다.</small>
                                 </td>
@@ -108,8 +108,8 @@
                                     Um halb zwei&nbsp;<br />
                                     <div class="ant t-6" id="ant-2"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
-                                            aria-label="." id="qst-2" style="position: relation; top: 5px;">
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text" class="form-control border border-bottom-only q"
+                                            aria-label="." id="qst-2" style="position: relative; top: 5px;">
                                     </div><span class="tran"><br /><small>1시
                                             30분에 그는 점심을 주문합니다.</small>
                                 </td>
@@ -136,8 +136,8 @@
                                     Um drei&nbsp;<br />
                                     <div class="ant t-6" id="ant-3"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
-                                            aria-label="." id="qst-3" style="position: relation; top: 5px;">
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text" class="form-control border border-bottom-only q"
+                                            aria-label="." id="qst-3" style="position: relative; top: 5px;">
                                     </div><span class="tran"><br /><small>3시에 그는
                                             사진을 찍습니다.</small>
                                 </td>
@@ -164,8 +164,8 @@
                                     Um halb acht&nbsp;<br />
                                     <div class="ant t-6" id="ant-4"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
-                                            aria-label="." id="qst-4" style="position: relation; top: 5px;">
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text" class="form-control border border-bottom-only q"
+                                            aria-label="." id="qst-4" style="position: relative; top: 5px;">
                                     </div><span class="tran"><br /><small>7시
                                             30분에 그는 저녁을 먹습니다.</small>
                                 </td>
@@ -192,8 +192,8 @@
                                     Um zehn&nbsp;<br />
                                     <div class="ant t-6" id="ant-5"></div>
                                     <div class="input-group">
-                                        <input autocomplete="off" type="text" class="form-control border border-bottom-only q"
-                                            aria-label="." id="qst-5" style="position: relation; top: 5px;">
+                                        <input autocomplete="off" autocapitalize="none" spellcheck="false" type="text" class="form-control border border-bottom-only q"
+                                            aria-label="." id="qst-5" style="position: relative; top: 5px;">
                                     </div><span class="tran"><br /><small>10시에
                                             그는 TV를 봅니다.</small>
                                 </td>
@@ -224,8 +224,61 @@
         $(".tran").hide();
         $(".ant").hide();
         var an = new Array();
-        var an = ["liest er die Zeitung.", "bestellt er das Mittagessen.",
-            "macht er Fotos.", "isst er zu Abend.", "sieht er fern."
+        var an = [
+            [
+                "liest er die Zeitung.",
+                "liest er die Zeitung",
+                "Liest er die Zeitung.",
+                "Liest er die Zeitung",
+                "Um halb zehn liest er die Zeitung.",
+                "Um halb zehn liest er die Zeitung"
+            ],
+            [
+                "bestellt er das Mittagessen.",
+                "bestellt er das Mittagessen",
+                "Bestellt er das Mittagessen.",
+                "Bestellt er das Mittagessen",
+                "Um halb zwei bestellt er das Mittagessen.",
+                "Um halb zwei bestellt er das Mittagessen"
+            ],
+            [
+                "macht er Fotos.",
+                "macht er Fotos",
+                "Macht er Fotos.",
+                "Macht er Fotos",
+                "Um drei macht er Fotos.",
+                "Um drei macht er Fotos"
+            ],
+            [
+                "isst er zu Abend.",
+                "isst er zu Abend",
+                "Isst er zu Abend.",
+                "Isst er zu Abend",
+                "isst er zu abend.",
+                "isst er zu abend",
+                "Isst er zu abend.",
+                "Isst er zu abend",
+                "ißt er zu Abend.",
+                "ißt er zu Abend",
+                "Ißt er zu Abend.",
+                "Ißt er zu Abend",
+                "ißt er zu abend.",
+                "ißt er zu abend",
+                "Ißt er zu abend.",
+                "Ißt er zu abend",
+                "Um halb acht isst er zu Abend.",
+                "Um halb acht isst er zu Abend",
+                "Um halb acht ißt er zu Abend.",
+                "Um halb acht ißt er zu Abend"
+            ],
+            [
+                "sieht er fern.",
+                "sieht er fern",
+                "Sieht er fern.",
+                "Sieht er fern",
+                "Um zehn sieht er fern.",
+                "Um zehn sieht er fern"
+            ]
         ];
         $(document).ready(function () {
             /* 소리 출력 전역 변수와 함수 */
@@ -315,36 +368,37 @@
             /* 입력하는 문자 확인(정답 표시 없음) 여기부터 */
             /* 값 확인해보자, io값이 참이면 전체 검사 */
             function rfchk(th, io) {
-                var q, qn, a, b, fl;
-                q = th.val().length;
+                var qn, a;
                 qn = (th.attr("id").substr(4)) - 1;
                 a = th.val();
-                a = a.replace(/ /gi, "");
-                if (!$.isArray(an[qn])) {
-                    /* 1 인 경우 */
+                if (!a) return false;
+
+                var aClean = a.replace(/\s+/g, "");
+                var aCleanNoDot = aClean.replace(/\.+$/, "");
+
+                var targets = $.isArray(an[qn]) ? an[qn] : [an[qn]];
+
+                for (var fd = 0; fd < targets.length; fd++) {
+                    var target = targets[fd];
+                    var bClean = target.replace(/\s+/g, "");
+                    var bCleanNoDot = bClean.replace(/\.+$/, "");
+
                     if (io) {
-                        b = an[qn];
-                    } else {
-                        b = an[qn].substr(0, q);
-                    }
-                    b = b.replace(/ /gi, "");
-                    if (a == b) {
-                        return true;
-                    }
-                } else {
-                    /* 2 이상인 경우 */
-                    for (var fd = 0; fd < an[qn].length; fd++) {
-                        if (io) {
-                            b = an[qn][fd];
-                        } else {
-                            b = an[qn][fd].substr(0, q);
+                        /* 전체 검사: 마침표 유무 및 대소문자 허용 */
+                        if (aClean == bClean || aCleanNoDot == bCleanNoDot || aCleanNoDot.toLowerCase() == bCleanNoDot.toLowerCase()) {
+                            return true;
                         }
-                        b = b.replace(/ /gi, "");
-                        if (a == b) {
+                    } else {
+                        /* 입력 중 검사: 입력한 글자 수만큼의 접두사 일치 확인 */
+                        var qClean = aClean.length;
+                        var bSub = bClean.substr(0, qClean);
+                        var bSubNoDot = bCleanNoDot.substr(0, qClean);
+                        if (aClean == bSub || aClean == bSubNoDot || aClean.toLowerCase() == bSub.toLowerCase() || aClean.toLowerCase() == bSubNoDot.toLowerCase()) {
                             return true;
                         }
                     }
                 }
+                return false;
             }
             $(".q").on("keyup", function () {
                 $(this).removeClass("bg-danger");
@@ -438,24 +492,12 @@
                             $("#qst-" + (i + 1)).attr("disabled", true);
                             $("#qst-" + (i + 1)).addClass("wa");
                             $("#qst-" + (i + 1)).removeClass("rounded-0");
-                            if (!$.isArray(an[i])) {
-                                $("#qst-" + (i + 1)).after("<div class=\"w-100 ra t-6\">" + an[i] +
-                                    "</div>");
+                            var disp = $.isArray(an[i]) ? an[i][0] : an[i];
+                            var r = "<div class=\"w-100 ra t-6\">" + disp + "</div>";
+                            if ($("span.sen").length > 0) {
+                                $("#qst-" + (i + 1)).closest("span.sen").after(r);
                             } else {
-                                /* 2 이상인 경우 */
-                                var r = "<div class=\"w-100 ra t-6\">";
-                                for (var fd = (an[i].length - 1); fd >= 0; fd--) {
-                                    if (fd < (an[i].length - 1)) {
-                                        r = r + " / ";
-                                    }
-                                    r = r + an[i][fd];
-                                }
-                                r = r + "</div>";
-                                if ($("span.sen").length > 0) {
-                                    $("#qst-" + (i + 1)).closest("span.sen").after(r);
-                                } else {
-                                    $("#qst-" + (i + 1)).after(r);
-                                }
+                                $("#qst-" + (i + 1)).after(r);
                             }
                         }
                         if ($("#qst-" + (i + 1)).hasClass("bg-success")) {
@@ -498,8 +540,8 @@
             var pan = new Array();
             pan = [];
             for (var p = 0; p < pan.length; p++) {
-                var pann = "#qst-" + pan[p];
-                $(pann).val(an[(pan[p] - 1)]);
+                var pVal = $.isArray(an[(pan[p] - 1)]) ? an[(pan[p] - 1)][0] : an[(pan[p] - 1)];
+                $(pann).val(pVal);
                 $(pann).prop("disabled", true);
                 $(pann).addClass("bg-success text-white fw-bold");
                 $(pann).closest("tr").find(".tran").show();

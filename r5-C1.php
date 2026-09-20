@@ -26,11 +26,11 @@
                                 </th>
                             </tr>
                             <tr>
-                                <td colspan="2" class="text-center">Sie isst
+                                <td colspan="2" class="text-center">Sie <strong>isst</strong>
                                     (einen) Salat.</td>
-                                <td colspan="2" class="text-center">Er trinkt
+                                <td colspan="2" class="text-center">Er trink<strong>t</strong>
                                     (ein) Bier.</td>
-                                <td colspan="2" class="text-center">Sie isst
+                                <td colspan="2" class="text-center">Sie <strong>isst</strong>
                                     (eine) Suppe.</td>
                             </tr>
                             <tr>
@@ -40,22 +40,22 @@
                                         <tbody>
                                             <tr>
                                                 <th scope="row">ich</th>
-                                                <td>esse</td>
+                                                <td>ess<strong>e</strong></td>
                                                 <td>Akk.</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">du</th>
-                                                <td>isst</td>
+                                                <td><strong>isst</strong></td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">Sie</th>
-                                                <td>essen</td>
+                                                <td>ess<strong>en</strong></td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">er/sie</th>
-                                                <td>isst</td>
+                                                <td><strong>isst</strong></td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                         </tbody>
@@ -67,22 +67,22 @@
                                         <tbody>
                                             <tr>
                                                 <th scope="row">ich</th>
-                                                <td>trinke</td>
+                                                <td>trink<strong>e</strong></td>
                                                 <td>Akk.</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">du</th>
-                                                <td>trinkst</td>
+                                                <td>trink<strong>st</strong></td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">Sie</th>
-                                                <td>trinken</td>
+                                                <td>trink<strong>en</strong></td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">er/sie</th>
-                                                <td>trinkt</td>
+                                                <td>trink<strong>t</strong></td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                         </tbody>

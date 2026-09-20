@@ -185,7 +185,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-8 mx-1 px-1 lh250"><strong>Wohnen</strong>Sie in Seoul?
+                                                <div class="col-8 mx-1 px-1 lh250"><strong>Wohnen</strong> Sie in Seoul?
                                                 </div>
                                             </div>
                                         </td>

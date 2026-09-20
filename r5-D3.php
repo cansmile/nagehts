@@ -217,7 +217,7 @@
 <?php require "footer.php"; ?>
 <script src="./dev/js/howler.core.js"></script>
 <!-- 맞고 틀리는지 소리 -->
-<?php require_once("./dev/oxsound.php"); ?>
+<?php require_once(__DIR__ . "/oxsound.php"); ?>
 <script>
     $("#0").hide();
     $(".tran").hide();
@@ -317,45 +317,28 @@
                         });
                         alert("모든 문제를 풀어주세요.");
                     } else {
-                        $(".pop").each(function () {
-                            $(this).removeClass("btn-info");
-                            if ($(this).hasClass("o") && $(this).hasClass(
-                                "an")) {
-                                $(this).removeClass("btn-warning");
-                                $(this).addClass("btn-success");
-                                $(this).closest(".sen").find(".nu").addClass(
-                                    "rounded p-1 px-2 text-white bg-success fw-bold"
-                                );
-                                $(this).closest(".sen").find(".nu").text($.trim(
-                                    $(this).text()));
-                            } else if ($(this).hasClass("o")) {
-                                $(this).addClass("btn-<?php echo($color); ?>");
-                                $(this).closest(".sen").find(".ans").html($
-                                    .trim($(this).closest(".sen").find(".o")
-                                        .text()));
-                                $(this).closest(".sen").find(".nu").addClass(
-                                    "rounded p-1 px-2 text-white bg-danger fw-bold"
-                                );
-                                $(this).closest(".sen").find(".ans").addClass(
-                                    "rounded bg-warning text-dark fw-bold text-center m-2 p-1 px-2"
-                                );
-                            } else if ($(this).hasClass("an")) {
-                                $(this).addClass("btn-warning");
-                                $(this).closest(".sen").find(".nu").text($.trim(
-                                    $(this).text()));
+                        $(".q").each(function () {
+                            var $group = $(this);
+                            var $selected = $group.find(".pop.an");
+                            var $correct = $group.find(".pop.o");
+                            $group.find(".pop")
+                                .removeClass("btn-info btn-warning btn-success btn-danger ca wa ra")
+                                .addClass("btn-light");
+                            if ($selected.hasClass("o")) {
+                                $selected.removeClass("btn-light").addClass("ca");
                             } else {
-                                $(this).addClass("btn-light");
-                            };
-                            // $(this).remove();
+                                $selected.removeClass("btn-light").addClass("wa");
+                                $correct.removeClass("btn-light").addClass("ra");
+                            }
                         });
                         $(".tran").show();
-                        $(".nu").show();
-                        $(".q").hide();
 
                         /* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light");
                         var qa = $(".q").length; /* 전체 문항 수 */
-                        var qr = $(".btn-success").length; /* 맞춘 항목 수 */
+                        var qr = $(".q").filter(function () {
+                            return $(this).find(".pop.o.an").length === 1;
+                        }).length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) * 100; /* 정답 비율 */
                         var tcl = "white"; /* 기본 문자색 */ /* 분류 기준은 100%, 80%, 60%, 40% */
                         if (pe > 99) {

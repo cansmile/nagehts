@@ -12,7 +12,7 @@
                             <button class="text-danger bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse1" aria-expanded="false"
                                     aria-controls="flush-collapse1"><strong>H1.
-                                    Demonstrativpronomen</strong><small>지시대명사</small>
+                                    Demonstrativpronomen</strong> <small>지시대명사</small>
                             </button>
                         </h5>
                         <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
@@ -57,9 +57,9 @@
                                                 표현한다.</small></th>
                                     </tr>
                                     <tr>
-                                        <td>Isst du gern Schweinebraten?<br>Ja,<strong>der</strong> schmeckt gut.<br><br>Ich
-                                            esse gern Pizza.<br><strong>Die</strong>ist lecker.<br><br>Mein Lieblingsessen
-                                            ist Hähnchen.<br><strong>Das</strong>schmeckt sehr gut.
+                                        <td>Isst du gern Schweinebraten?<br>Ja, <strong>der</strong> schmeckt gut.<br><br>Ich
+                                            esse gern Pizza.<br><strong>Die</strong> ist lecker.<br><br>Mein Lieblingsessen
+                                            ist Hähnchen.<br><strong>Das</strong> schmeckt sehr gut.
                                         </td>
                                     </tr>
                                     </tbody>
@@ -71,7 +71,7 @@
                         <h5 class="accordion-header" id="flush-heading2">
                             <button class="text-orange bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse2" aria-expanded="false"
-                                    aria-controls="flush-collapse2"><strong>H2. bestimmter Artikel</strong><small>정관사</small>
+                                    aria-controls="flush-collapse2"><strong>H2. bestimmter Artikel</strong> <small>정관사</small>
 
                             </button>
                         </h5>
@@ -104,7 +104,7 @@
                                         <td class="text-khaki">die Spaghettis</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="5">Ich bezahle<strong>den</strong> Salat.</td>
+                                        <td colspan="5">Ich bezahle <strong>den</strong> Salat.</td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -116,7 +116,7 @@
                             <button class="text-warning bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse3" aria-expanded="false"
                                     aria-controls="flush-collapse3"><strong>H3. unbestimmter
-                                    Artikel</strong><small>부정(不定)관사</small>
+                                    Artikel</strong> <small>부정관사</small>
                             </button>
                         </h5>
                         <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
@@ -156,7 +156,7 @@
                         <h5 class="accordion-header" id="flush-heading4">
                             <button class="text-primary bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse4" aria-expanded="false"
-                                    aria-controls="flush-collapse4"><strong>H4. negativer Artikel</strong><small>부정(否定)관사</small>
+                                    aria-controls="flush-collapse4"><strong>H4. negativer Artikel</strong> <small>부정(어)관사</small>
 
                             </button>
                         </h5>
@@ -189,7 +189,7 @@
                                         <td class="text-khaki">keine Spaghettis</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="5">Ich nehme<strong>keinen</strong> Salat.</td>
+                                        <td colspan="5">Ich nehme <strong>keinen</strong> Salat.</td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -276,7 +276,7 @@
                         <h5 class="accordion-header" id="flush-heading6">
                             <button class="text-pink bg-transparent accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapse6" aria-expanded="false"
-                                    aria-controls="flush-collapse6"><strong>H6. Redewendungen</strong><small>어휘와
+                                    aria-controls="flush-collapse6"><strong>H6. Redewendungen</strong> <small>어휘와
                                     숙어</small>
                             </button>
                         </h5>
@@ -432,7 +432,7 @@
                                                     </button>
                                                 </div>
                                                 <div class="col-9 mx-1 px-1 my-auto lh250">Ich möchte / nehme / esse /
-                                                    trinke / Einen / Eine / Ein ...
+                                                    trinke einen / eine / ein ...
                                                 </div>
                                             </div>
                                         </td>
@@ -511,7 +511,7 @@
                                                             class="so btn btn-outline-dark btn-sm me-1">▶
                                                     </button>
                                                 </div>
-                                                <div class="col-9 mx-1 px-1 my-auto lh250">- Ich esse trinke ...
+                                                <div class="col-9 mx-1 px-1 my-auto lh250">- Ich trinke gern ...
                                                 </div>
                                             </div>
                                         </td>

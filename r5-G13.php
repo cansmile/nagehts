@@ -24,7 +24,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q border-bottom-only rounded-0 ms-1 t-6"
+                                                class="form-control q nq-fill-short border-bottom-only rounded-0 ms-1 t-6"
                                                 id="qst-1">
                                             schmeckt gut.
                                         </div>
@@ -45,7 +45,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q border-bottom-only rounded-0 ms-1 t-6"
+                                                class="form-control q nq-fill-short border-bottom-only rounded-0 ms-1 t-6"
                                                 id="qst-2">
                                             ist warm.
                                         </div>
@@ -66,7 +66,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q border-bottom-only rounded-0 ms-1 t-6"
+                                                class="form-control q nq-fill-short border-bottom-only rounded-0 ms-1 t-6"
                                                 id="qst-3">
                                             sind kalt.
                                         </div>
@@ -93,7 +93,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q border-bottom-only rounded-0 ms-1 t-6"
+                                                class="form-control q nq-fill-short border-bottom-only rounded-0 ms-1 t-6"
                                                 id="qst-4">
                                             schmeckt köstlich.
                                         </div>
@@ -114,7 +114,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="form-control q border-bottom-only rounded-0 ms-1 t-6"
+                                                class="form-control q nq-fill-short border-bottom-only rounded-0 ms-1 t-6"
                                                 id="qst-5">
                                             ist zu warm.
                                         </div>
@@ -144,7 +144,7 @@
     <?php require "footer.php"; ?>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();

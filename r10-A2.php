@@ -30,10 +30,7 @@
                     <button type="button" class="mt-1 mx-1 btn ans8 ans18 btn-lg btn-outline-dark itm px-2" id="7">
                         ⑦
                     </button>
-                    <button type="button" class="mt-1 mx-1 btn ans8 ans18 btn-lg btn-outline-dark itm px-2" id="8">
-                        ⑦
-                    </button>
-                    <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="9">
+                    <button type="button" class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark itm px-2" id="8">
                         ⑧
                     </button>
                 </div>
@@ -781,10 +778,10 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();

@@ -3,7 +3,7 @@
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
     <!-- 보기시작 -->
-    <section class="bg-white rounded p-2 nq-wahl" id="wahl">
+    <section class="bg-white rounded p-2 nq-wahl nq-wahl-black" id="wahl">
         <div class="container">
             <div class="row">
                 <div
@@ -11,78 +11,78 @@
                     Wahl</div>
                 <div class="col-12" id="itms">
                     <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark text-danger so itm"
+                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm"
                         id="1">
                         Bratwurst<span class="tran"><br><small>구운
                                 소세지</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark text-danger so itm"
+                        class="mt-1 mx-1 btn ans4 btn-lg btn-outline-dark so itm"
                         id="2">
                         Gemüsesuppe<span class="tran"><br><small>야채
                                 스프</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark text-purple so itm"
+                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm"
                         id="3">
                         Eis<span class="tran"><br><small>얼음</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark text-primary so itm"
+                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm"
                         id="4">
                         Schweinebraten<span class="tran"><br><small>돼지
                                 불고기</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark text-purple so itm"
+                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm"
                         id="5">
                         Rindersteak<span class="tran"><br><small>소고기
                                 스태이크</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark text-danger so itm"
+                        class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm"
                         id="6">
                         Wurst<span class="tran"><br><small>소시지</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark text-primary so itm"
+                        class="mt-1 mx-1 btn ans1 btn-lg btn-outline-dark so itm"
                         id="7">
                         Schinken<span class="tran"><br><small>햄</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark text-purple so itm"
+                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm"
                         id="8">
                         Weißbrot<span class="tran"><br><small>흰빵</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark text-purple so itm"
+                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm"
                         id="9">
                         Hähnchen<span class="tran"><br><small>치킨</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark text-primary so itm"
+                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm"
                         id="10">
                         Käsekuchen<span class="tran"><br><small>치즈
                                 케잌</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark text-purple so itm"
+                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm"
                         id="11">
                         Obst<span class="tran"><br><small>과일</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark text-primary so itm"
+                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm"
                         id="12">
                         Salat<span class="tran"><br><small>샐러드</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark text-danger so itm"
+                        class="mt-1 mx-1 btn ans2 btn-lg btn-outline-dark so itm"
                         id="13">
                         Fischplatte<span class="tran"><br><small>생선
                                 접시</small></span>
                     </button>
                     <button type="button"
-                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark text-danger so itm"
+                        class="mt-1 mx-1 btn ans3 btn-lg btn-outline-dark so itm"
                         id="14">
                         Gulaschsuppe<span
                             class="tran"><br><small>굴라시스프</small></span>
@@ -91,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section class="nq-exercise" data-type="dragtogroup" data-reihe="5">
+    <section class="nq-exercise nq-drag-table-wide" data-type="dragtogroup" data-reihe="5">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -186,10 +186,10 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
@@ -257,9 +257,7 @@
                             $(this).removeClass(
                                 "btn-light ");
                             var _r = nqValidateGrading();
-                            var qa = $(
-                                    ".itm-lst>.so")
-                                .length; /* 전체 문항 수 */
+                            var qa = _r.qa; /* 전체 문항 수 */
                             var qr = _r.qr; /* 맞춘 항목 수 */
                             var pe = (qr / qa) *
                             100; /* 정답 비율 */

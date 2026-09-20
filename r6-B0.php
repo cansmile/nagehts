@@ -2,21 +2,59 @@
     <?php
     $a_cell_height = 60;
     $double_cell_height = $a_cell_height * 2;
+    $slot_height = $a_cell_height - 6;
+    $button_height = $a_cell_height - 10;
     ?>
     <style>
         /* 답 슬롯 셀 높이 고정 - 드롭 시 레이아웃 틀어짐 방지 */
-        td:has(> div[id^="lst-"]) {
+        .nq-b0-exercise td:has(> div[id^="lst-"]) {
             height: <?= $a_cell_height ?>px;
             max-height: <?= $a_cell_height ?>px;
             overflow: hidden;
             padding: 1px 2px;
         }
-        td:has(> div[id^="lst-"]) button {
+        .nq-b0-exercise td:has(> div[id^="lst-"]) button {
             font-size: 0.72em;
             padding: 2px 4px;
             line-height: 1.3;
             white-space: normal;
-            height: <?= ($a_cell_height - 2) ?>px;
+            height: <?= $button_height ?>px;
+            max-height: <?= $button_height ?>px;
+        }
+        .nq-b0-match-table {
+            table-layout: fixed;
+        }
+        .nq-b0-match-table tr {
+            height: <?= $a_cell_height ?>px;
+        }
+        .nq-b0-match-table th,
+        .nq-b0-match-table td {
+            vertical-align: middle;
+            overflow: hidden;
+        }
+        .nq-b0-exercise .nq-b0-match-table .itm-lst {
+            min-height: <?= $slot_height ?>px !important;
+            height: <?= $slot_height ?>px !important;
+            max-height: <?= $slot_height ?>px !important;
+            box-sizing: border-box;
+            margin: 0 !important;
+            padding: 0 !important;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        .nq-b0-exercise .nq-b0-match-table .itm-lst button {
+            min-height: 0 !important;
+            height: <?= $button_height ?>px !important;
+            max-height: <?= $button_height ?>px !important;
+            line-height: 1.15;
+            overflow: hidden;
+        }
+        .nq-b0-no {
+            display: inline-block;
+            min-width: 1.5em;
+            color: #6c757d;
+            font-size: 0.82em;
         }
     </style>
     <!-- 알림 시작 -->
@@ -85,7 +123,7 @@
             </div>
         </div>
     </section>
-    <section class="nq-exercise" data-type="dragtogroup" data-reihe="6">
+    <section class="nq-exercise nq-b0-exercise" data-type="dragtogroup" data-reihe="6">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -102,12 +140,12 @@
                 </div>
             </div>
             <div class="row">
-                <dov class="col"><img src="./dev/images/Reihe 6/Reihe-6-B0.png" alt="Wie spät ist es?"
-                        style="max-width: 100%; height: auto;"></dov>
+                <div class="col"><img src="./dev/images/Reihe 6/Reihe-6-B0.png" alt="Wie spät ist es?"
+                        style="max-width: 100%; height: auto;"></div>
             </div>
             <div class="row">
                 <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0">
-                    <table class="table table-borderless table-striped">
+                    <table class="table table-borderless table-striped nq-b0-match-table">
                         <thead>
                             <tr>
                                 <th class="align-middle" height="80" scope="col" class="text-center align-middle">man
@@ -209,7 +247,7 @@
                     </table>
                 </div>
                 <div class="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-5 px-0 mx-0">
-                    <table class="table table-borderless table-striped">
+                    <table class="table table-borderless table-striped nq-b0-match-table">
                         <thead>
                             <tr>
                                 <th height="80" scope="col" colspan="3" class="text-center align-middle">man sagt
@@ -404,7 +442,7 @@
                 </div>
                 <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 px-0 mx-0 d-lg-block d-xl-none d-mw-100
                 d-sm-block">
-                    <table class="table table-borderless table-striped">
+                    <table class="table table-borderless table-striped nq-b0-match-table">
                         <thead>
                             <tr>
                                 <th class="align-middle" height="80" scope="col" class="text-center align-middle">man
@@ -424,89 +462,89 @@
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t21" scope="row">
-                                    6.30 <small>Uhr</small>
+                                    <small class="nq-b0-no">1.</small> 6.30 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t22" scope="row">
-                                    18.30
+                                    <small class="nq-b0-no">1.</small> 18.30
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t23" scope="row">
-                                    3.20 <small>Uhr</small>
+                                    <small class="nq-b0-no">2.</small> 3.20 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t24" scope="row">
-                                    15.20
+                                    <small class="nq-b0-no">2.</small> 15.20
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t25" scope="row">
-                                    7.40 <small>Uhr</small>
+                                    <small class="nq-b0-no">3.</small> 7.40 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t26" scope="row">
-                                    19.40
+                                    <small class="nq-b0-no">3.</small> 19.40
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t27" scope="row">
-                                    10.10
+                                    <small class="nq-b0-no">4.</small> 10.10
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t28" scope="row">
-                                    22.10
+                                    <small class="nq-b0-no">4.</small> 22.10
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t29" scope="row">
-                                    2.55 <small>Uhr</small>
+                                    <small class="nq-b0-no">5.</small> 2.55 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t30" scope="row">
-                                    14.55
+                                    <small class="nq-b0-no">5.</small> 14.55
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t31" scope="row">
-                                    5.15 <small>Uhr</small>
+                                    <small class="nq-b0-no">6.</small> 5.15 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t32" scope="row">
-                                    17.15
+                                    <small class="nq-b0-no">6.</small> 17.15
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t33" scope="row">
-                                    9.45 <small>Uhr</small>
+                                    <small class="nq-b0-no">7.</small> 9.45 <small>Uhr</small>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t34" scope="row">
-                                    21.45
+                                    <small class="nq-b0-no">7.</small> 21.45
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t35" scope="row">
-                                    11.03
+                                    <small class="nq-b0-no">8.</small> 11.03
                                     <small>Uhr</small></th>
                             </tr>
                             <tr>
                                 <th class="align-middle" height="<?php echo($a_cell_height); ?>" id="t36" scope="row">
-                                    23.03
+                                    <small class="nq-b0-no">8.</small> 23.03
                                     <small>Uhr</small></th>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-5 px-0 mx-0">
-                    <table class="table table-borderless table-striped">
+                    <table class="table table-borderless table-striped nq-b0-match-table">
                         <thead>
                             <tr>
                                 <th class="align-middle" height="80" scope="col" colspan="3"
@@ -836,7 +874,7 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>

@@ -577,17 +577,17 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>의미: 불규칙 변화동사의 변화의 정도가 큰 동사</td>
+                                <td>의미: 현재 및 과거형에서 동사어간에 모음교체가 일어나는 동사</td>
                                 <td>① 어간 e → i<br><small>(단음 e)</small></td>
                                 <td>sprechen → spricht</td>
                             </tr>
                             <tr>
-                                <td>예) helfen → hilft</td>
+                                <td>&nbsp;</td>
                                 <td>② 어간 e → ie<br><small>(장음 e)</small></td>
                                 <td>lesen → liest</td>
                             </tr>
                             <tr>
-                                <td>→ 현재 및 과거형에서 동사어간에 모음 교체 현상이 일어나는 동사</td>
+                                <td>예) helfen → hilft</td>
                                 <td>③ 어간 a → ä</td>
                                 <td>fahren → fährt</td>
                             </tr>
@@ -604,7 +604,7 @@
     <?php require "footer.php"; ?>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();

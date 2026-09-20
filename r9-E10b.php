@@ -5,7 +5,15 @@
         }
 
         .nq-e10b .q {
-            min-width: 120px !important;
+            min-width: 115px !important;
+            max-width: 150px;
+        }
+
+        @media (max-width: 575.98px) {
+            .nq-e10b .q {
+                min-width: 90px !important;
+                max-width: 125px;
+            }
         }
     </style>
     <section class="nq-exercise nq-e10b" data-type="fill-blank" data-reihe="9">

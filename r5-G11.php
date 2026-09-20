@@ -23,7 +23,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-end form-control col-1 border-bottom-only rounded-0 q pe-0 ms-1 t-6"
+                                                class="text-end form-control col-1 border-bottom-only rounded-0 q nq-fill-short pe-0 ms-1 t-6"
                                                 id="qst-1">
                                             sst gern Birnen.
                                         </div>
@@ -43,7 +43,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-center form-control col-1 border-bottom-only rounded-0 q t-6"
+                                                class="text-center form-control col-1 border-bottom-only rounded-0 q nq-fill-short t-6"
                                                 id="qst-2">
                                             cht gut Koreanisch.
                                         </div>
@@ -63,7 +63,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-center form-control col-1 border-bottom-only rounded-0 q t-6"
+                                                class="text-center form-control col-1 border-bottom-only rounded-0 q nq-fill-short t-6"
                                                 id="qst-3">
                                             hmen Sie? Steak oder Salat?
                                         </div>
@@ -90,7 +90,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-end pe-0 form-control col-1 border-bottom-only rounded-0 q t-6"
+                                                class="text-end pe-0 form-control col-1 border-bottom-only rounded-0 q nq-fill-short t-6"
                                                 id="qst-4">
                                             sst ihr heute?
                                         </div>
@@ -110,7 +110,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-center form-control col-1 border-bottom-only rounded-0 q t-6"
+                                                class="text-center form-control col-1 border-bottom-only rounded-0 q nq-fill-short t-6"
                                                 id="qst-5">
                                             hmen wir noch einen Wein?
                                         </div>
@@ -130,7 +130,7 @@
                                                 placeholder="Antwort"
                                                 aria-label="Antwort"
                                                 aria-describedby="basic-addon9"
-                                                class="text-center form-control col-1 border-bottom-only rounded-0 q t-6"
+                                                class="text-center form-control col-1 border-bottom-only rounded-0 q nq-fill-short t-6"
                                                 id="qst-6">
                                             lft mir gern.
                                         </div>
@@ -159,7 +159,7 @@
     <?php require "footer.php"; ?>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $(".tran").hide();
         $(".ant").hide();

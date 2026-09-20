@@ -296,14 +296,14 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once("./dev/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();
-        $("#chk").hide();
+        $("#chk").show();
 
         $(document).ready(function () {
             /* 소리 출력 전역 변수와 함수 */
@@ -323,6 +323,50 @@
                     $(this).html(pa[$(this).attr("id")]);
                 });
             } /* 문제 재생 */
+            $("#chk").on("click", function () {
+                var na = "";
+                if ($(this).attr("id") == "done") {
+                    return;
+                }
+                if ($("#itms").find("button").length < 1) {
+                    $(".tran").show();
+                    $(this).removeClass("btn-light ");
+                    var _r = nqValidateGrading();
+                    var qa = _r.qa;
+                    var qr = _r.qr;
+                    var pe = (qr / qa) * 100;
+                    var tcl = "white";
+                    var st, cl;
+                    if (pe > 99) {
+                        st = "원어민이세요?";
+                        cl = "success";
+                        tcl = "dark";
+                    } else if (pe > 74) {
+                        st = "어! 좀 하시는데요~^^";
+                        cl = "success";
+                    } else if (pe > 49) {
+                        st = "쓰읍~ 다시 해 보실까요?";
+                        cl = "primary";
+                    } else {
+                        st = "좀 더 분발해 주세요~";
+                        cl = "danger";
+                    }
+                    $(this).addClass("btn-" + cl + " text-" + tcl);
+                    $(this).html("<h4>" + qa + "문제 중 " + qr +
+                        "개를 맞히셨네요!<br>" + st + "</h4>");
+                    $(this).attr("id", "done");
+                } else {
+                    $("div.itm-lst").each(function (idx) {
+                        if (!$(this).find("button").length) {
+                            if (na != "") {
+                                na += ", ";
+                            }
+                            na += (idx + 1);
+                        }
+                    });
+                    alert("모든 문제를 풀어주세요!");
+                }
+            });
             var nagehts = new Howl({
                 src: ["./dev/sounds/Reihe 9/r9 C1.mp3"],
                 sprite: {

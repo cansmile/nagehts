@@ -87,7 +87,7 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td>
-                                    <div class="input-group">
+                                    <div class="input-group nq-fill-answer-match">
                                         Morgens isst Monika Mai
                                         <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
@@ -102,7 +102,7 @@
                                         class="so btn btn-outline-success">▶</button>
                                 </td>
                                 <td>
-                                    <div class="input-group">
+                                    <div class="input-group nq-fill-answer-match">
                                         Sie trinkt ein Glas
                                         <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
@@ -117,7 +117,7 @@
                                         class="so btn btn-outline-info">▶</button>
                                 </td>
                                 <td>
-                                    <div class="input-group">
+                                    <div class="input-group nq-fill-answer-match">
                                         Mittags isst sie Fisch mit
                                         <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
@@ -147,7 +147,7 @@
                                         class="so btn btn-outline-danger">▶</button>
                                 </td>
                                 <td>
-                                    <div class="input-group">
+                                    <div class="input-group nq-fill-answer-match">
                                         Nachmittags isst sie einen
                                         <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
@@ -161,7 +161,7 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td>
-                                    <div class="input-group">
+                                    <div class="input-group nq-fill-answer-match">
                                         und trinkt einen
                                         <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
@@ -176,7 +176,7 @@
                                         class="so btn btn-outline-primary">▶</button>
                                 </td>
                                 <td>
-                                    <div class="input-group">
+                                    <div class="input-group nq-fill-answer-match">
                                         Abends isst sie einen Teller
                                         <input autocomplete="off" type="text"
                                             class="form-control col-sm-4 col-md-3 col-lg-2 col-xl-3 q border-bottom-only rounded-0 ms-1"
@@ -214,7 +214,7 @@
                                         동사는 언제나 두 번째 자리에 위치한다.
                                         부사 또는 부사구가 첫 번째 자리에 올 때 주어는 세 번째 자리에
                                         위치한다.
-                                        앞의 경우 앞뒤 문장이 더욱 응집력이 생긴다.</small></th>
+                                        이 경우 앞뒤 문장이 더욱 응집력이 생긴다.</small></th>
                             </tr>
                         </tbody>
                     </table>
@@ -226,10 +226,10 @@
     <div id="last" class="d-none"></div>
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();

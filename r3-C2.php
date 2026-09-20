@@ -7,7 +7,7 @@
             <!-- 고르는 아이템들 -->
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
-                    <h2> Was ist Ihr Familienstand? <br>
+                    <h2> Wie ist Ihr Familienstand? <br>
                         <small>가족상황이 어떻게 되죠?</small>
                         <button type="button" class="btn btn-<?php echo($color); ?> ms-2 btn-inline so" id="0">
                             HV
@@ -56,7 +56,7 @@
                                         <button type="button" id="1"
                                                 class="so btn btn-outline-danger">▶</button>
                                     </div><div class="col-9 text-start lh250">
-                                        Was ist Ihr Familienstand?<span class="tran"><br><small>가족상황이 어떻게
+                                        Wie ist Ihr Familienstand?<span class="tran"><br><small>가족상황이 어떻게
                                                     되죠?</small></span>
                                     </div>
                                 </div></td>

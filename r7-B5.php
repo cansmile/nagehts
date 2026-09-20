@@ -62,7 +62,7 @@
                         <tbody>
                             <tr>
                                 <td class="p-0 pt-2">
-                                    <div class="rounded bg-pink text-white p-3" style="font-size: 1.5em;">
+                                    <div class="rounded p-3 border" style="font-size: 1.5em; background-color: #fde7ea; color: #212529; border-color: #f3a0ad;">
                                         <strong>LOHAL</strong> Tim, ich habe
                                         <strong>TIZE</strong>. Liebe
                                         Grüße<br>Maria

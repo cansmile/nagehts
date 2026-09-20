@@ -1,5 +1,5 @@
 <?php require_once("heading.php"); ?>
-    <section class="nq-exercise" data-type="dragtogroup" data-reihe="9">
+    <section class="nq-exercise" data-type="click-select" data-reihe="9">
         <div class="container">
             <!-- 고르는 아이템들 -->
             <div class="row">
@@ -185,10 +185,9 @@
 
     <script src="./dev/js/popper.min.js"></script>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $(".tran").hide();
 
@@ -200,14 +199,22 @@
                 container: "body"
             });
             $(".pop").click(function () {
-                /* 가장 먼저 지문에 'an' 넣기 */
-                if (!$(this).siblings().hasClass("an")) {
-                    $(this).addClass("an");
-                    $(this).addClass("btn-warning");
-                    $(this).parent().children().removeClass("btn-light");
-                }; /* 문제 풀이 정도 업데이트 */
+                if ($("#chk").attr("id") !== "chk") return;
+                $(this).siblings().removeClass("an btn-warning btn-danger btn-success").addClass("btn-light");
+                $(this).addClass("an btn-warning").removeClass("btn-light");
+
+                /* 문제 풀이 정도 업데이트 */
                 var perc = Math.round(($(".an").length / $(".q").length) * 100);
                 $(".progress>.bar").attr("width", perc + "%;");
+
+                /* 모든 문항 선택 시 자동 채점 */
+                if ($(".an").length >= $(".q").length) {
+                    setTimeout(function () {
+                        if ($("#chk").attr("id") === "chk") {
+                            $("#chk").trigger("click");
+                        }
+                    }, 400);
+                }
             }); /* 팝업 내용 사라지기 */
             $(".pop").popover().click(function () {
                 setTimeout(function () {
@@ -231,14 +238,13 @@
                         $(".tran").show();
                         $(this).attr("id", "done");
                         $(".pop").each(function () {
-                            $(this).removeClass("btn-info");
+                            $(this).removeClass("btn-info btn-warning btn-danger btn-success btn-light");
                             if ($(this).hasClass("o") && $(this).hasClass("an")) {
-                                $(this).removeClass("btn-warning");
                                 $(this).addClass("btn-success text-white");
                             } else if ($(this).hasClass("o")) {
                                 $(this).addClass("btn-warning fw-bold");
                             } else if ($(this).hasClass("an")) {
-                                $(this).addClass("btn-danger");
+                                $(this).addClass("btn-danger text-white");
                             } else {
                                 $(this).addClass("btn-light");
                             };
@@ -247,7 +253,7 @@
                         /* 정답 확인 div 상자 배경색 속성 없애기 */
                         $(this).removeClass("btn-light ");
                         var qa = $(".q").length; /* 전체 문항 수 */
-                        var qr = $(".btn-success").length; /* 맞춘 항목 수 */
+                        var qr = $(".pop.btn-success").length; /* 맞춘 항목 수 */
                         var pe = (qr / qa) * 100; /* 정답 비율 */
                         var tcl = "white"; /* 기본 문자색 */
 

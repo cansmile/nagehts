@@ -160,10 +160,10 @@
     <div id="marg"></div>
     <div id="last" class="d-none"></div>
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroup.js"></script>
+    <script src="./dev/js/dragtogroup.js?v=20260905-lesson-fixes"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
-    <?php require_once("./dev/oxsound.php"); ?>
+    <?php require_once(__DIR__ . "/oxsound.php"); ?>
     <script>
         $("#0").hide();
         $(".tran").hide();

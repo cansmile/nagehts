@@ -2,7 +2,7 @@
     <!-- 알림 시작 -->
     <?php require_once "ready.php"; ?>
     <!-- 알림 끝 -->
-    <section class="nq-exercise" data-type="dragtogroup" data-reihe="5">
+    <section class="nq-exercise" data-type="fill-blank" data-reihe="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mt-2 text-center">
@@ -341,7 +341,6 @@
 
 
     <?php require "footer.php"; ?>
-    <script src="./dev/js/dragtogroupnomove.js"></script>
     <script src="./dev/js/howler.core.js"></script>
     <!-- 맞고 틀리는지 소리 -->
     <?php require_once(__DIR__ . "/oxsound.php"); ?> <script>
@@ -611,7 +610,7 @@
                                     $("#qst-" + (i +
                                             1))
                                         .addClass(
-                                            "cr"
+                                            "ca bg-success text-white rounded fw-bold p-1 px-2 ms-1"
                                             );
                                     $("#qst-" + (i +
                                             1))
